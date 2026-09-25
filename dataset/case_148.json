@@ -1,0 +1,561 @@
+{
+  "status": "success",
+  "case_id": "case_148",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: A young female patient, 30 years old, a high school chemistry teacher. At 18+5 weeks of pregnancy, from Hebei, was admitted to our Department of Pulmonary and Critical Care Medicine with the chief complaint of \"intermittent fever for more than 2 weeks.\" On Day +112, the patient developed low-grade fever without an obvious precipitating factor, with a maximum temperature of 37.4°C; during febrile episodes, she had fatigue and myalgia, with occasional dry cough, and no night sweats, chest tightness, or dyspnea. On Day +115, CBC showed: WBC 9.21*10^9/L, PLT 159*10^9/L, HGB 112g/L↓, NE% 84.6%↑, LYO% 10.6%↓. After disease onset, the patient had recurrent fever. On Day +123, at a local hospital, CBC showed: WBC 6.5*10^9/L, PLT 205*10^9/L, HGB 120g/L, NE% 82.8%↑, LYO% 10.9%↓. She was treated with penicillin for 5 days, but remained febrile. On Day +128, treatment was escalated to ceftriaxone sodium, and the patient reported no improvement in symptoms. On Day +130, chest CT showed multiple patchy, mass-like, and nodular high-density opacities in both lungs with indistinct margins; mediastinal structures were clear, with mildly enlarged mediastinal lymph nodes; no enlarged lymph nodes were seen in either hilum; and small bilateral pleural effusions were present. She presented to our hospital on Day +131. During the course of illness, the patient had no dry mouth, dry eyes, rash, pruritus, Raynaud phenomenon, alopecia, oral ulcers, or other discomfort. Over the past half year, she had poor appetite and poor sleep; bowel and bladder habits were normal; weight had not decreased. Past medical history was unremarkable, and she denied a history of drug allergy. She had no recent exposure to toxic or harmful agents. She is currently at 18+5 weeks of pregnancy, G2P1. Her first pregnancy resulted in a vaginal delivery of one دختر on Day -862; birth weight was 6 jin 3 liang, labor was uneventful, with no bleeding, placenta previa, puerperal infection, or other comorbidities or complications. Menstruation is usually regular, duration 6-7 days/40 days, red in color, without dysmenorrhea. LMP was Day 0, and EDD is Day +281. Physical examination on admission: T 38.5℃, P 96/min, R 25/min, BP 124/60mmHg, SpO2 89% (maintained at 96%-99% after oxygen by nasal cannula at 2 L/min). The patient was alert. Breath sounds were coarse bilaterally, with a few fine moist rales in both lungs, more prominent on the right. Heart rhythm was regular; no murmur or pericardial friction rub was heard in any valve auscultation area. Abdomen was soft, without tenderness, rebound tenderness, or guarding; Murphy sign was negative; bowel sounds were 3-4/min. No edema was present in either lower extremity. Laboratory tests and examinations on admission: ABG: FiO2 29%, pH 7.443, PCO2 34.7mmHg↓, PO2 85.7mmHg, K 3.30mmol/L↓, HCO3- 24.5mmol/L, Lac 0.70mmol/L; CBC: WBC 5.3*10^9/L, Hb 103g/L↓, PLT 221*10^9/L, NE% 81%↑, LYO% 12.3%↓. Urinalysis and stool routine were normal; biochemistry: LDH 396IU/L↑, hs-CRP 62.19mg/L↑; PCT 0.22ng/ml; coagulation: D-dimer 2.82mg/L↑, FDP 15.6/L↑; ESR 59 mm/1h↑; tumor markers: AFP 36ng/ml↑, CA125 210.7ng/ml↑, cytokeratin 19 fragment 4.38ng/ml↑, NSE 16.78ng/ml↑, CA242 23.56U/ml↑; autoantibody-related tests: ANA positive (1:100 speckled pattern), anti-ENA panel, anti-dsDNA antibody, and ANCA-related antibodies negative; lupus anticoagulant LA-SCT 1.24, anticardiolipin antibodies and anti-glycoprotein antibodies negative. Lymphocyte subsets (blood): total T lymphocytes 467.54/ul↓, absolute T helper/regulatory lymphocytes 273.26/ul↓, absolute T suppressor/cytotoxic lymphocytes 187.1/ul↓, absolute total NK cells 39.28/ul↓, CD4/CD8 ratio (Th/Ts) 1.46. β2-microglobulin 2.54%↑. Immunoglobulins IgG/A/M 9.78/1.07/0.47↓g/L, C3/C4 1.49/0.228g/L, C1q 189.9mg/L; ferritin: 400ng/ml↑; IgG subclasses, serum free light chains, serum and urine immunofixation electrophoresis, and protein electrophoresis were normal. Anti-Mycoplasma antibody IgG (+); blood EBV IgM (-), EBV-IgG >750U/ml↑; sputum culture, respiratory nine-pathogen panel, throat swab testing for 13 pathogens, and G/GM showed no abnormalities. UCG: LVEF 68.2%, normal left ventricular ejection fraction, normal right ventricular ejection fraction, mild tricuspid regurgitation, and small pericardial effusion. ECG: sinus tachycardia, 106/min. Abdominal ultrasound: no obvious abnormalities on liver, gallbladder, pancreas, and spleen ultrasound; mild dilatation of the right renal collecting system. Superficial lymph node and breast ultrasound: no abnormally enlarged lymph nodes in the bilateral lateral neck, supraclavicular, axillary, or inguinal regions; no abnormal blood flow detected; no breast mass lesion. Lower-extremity vascular ultrasound showed no thrombosis. Obstetric ultrasound: live intrauterine pregnancy, fetal heart rate slightly fast, and medium echogenicity within the cervical canal.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJx7fTicUbicvn8S8RKp5mE22hLt44qUa4CJrJT03Ps9Se9MFT6vMpHEJYNLYeJRHoQHX4QV5biaT5Jg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Chest CT from an outside hospital",
+          "local_src": "cleaned_cases_image_cache/608895071a69121afbce0f2136367d3ffdf636d3.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia",
+          "supporting_evidence": [
+            "Fever for more than 2 weeks, accompanied by fatigue, myalgia, and occasional dry cough",
+            "On admission physical examination: T 38.5℃, R 25 breaths/min, SpO2 89% (maintained at 96%-99% after oxygen via nasal cannula at 2 L/min), suggesting acute pulmonary infection with hypoxemia",
+            "Coarse breath sounds in both lungs; a small number of fine moist rales heard in both lungs, more pronounced in the right lung",
+            "hs-CRP 62.19 mg/L↑, ESR 59 mm/1h↑, suggesting an inflammatory response",
+            "The chest CT report describes multiple patchy, mass-like, and nodular high-density opacities in both lungs, with ill-defined borders, and small bilateral pleural effusions.",
+            "The attached CT images show multiple patchy and nodular consolidations/high-density opacities in both lungs, more pronounced in the right lung, consistent with imaging findings of pneumonia."
+          ],
+          "opposing_evidence": [
+            "At an outside hospital, the symptoms did not improve after 5 days of penicillin treatment followed by ceftriaxone sodium treatment.",
+            "PCT 0.22 ng/ml was not significantly elevated and does not strongly support typical bacterial pneumonia",
+            "WBC 5.3*10^9/L, no obvious elevation in white blood cell count"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The course is subacute, with fever for more than 2 weeks, accompanied by dry cough and fatigue, consistent with the common clinical pattern of organizing pneumonia",
+            "Chest CT described multiple patchy, mass-like, and nodular high-density opacities in both lungs, with ill-defined margins.",
+            "The attached CT images show multiple patchy and confluent areas of consolidation and nodular opacities in both lungs with peripheral and subpleural distribution; the morphology suggests possible organizing pneumonia.",
+            "No significant improvement after conventional antibacterial therapy, suggesting the possibility of a lesion not caused by a common bacterial infection",
+            "The complete blood count mainly shows an increased neutrophil percentage and a decreased lymphocyte percentage, but the total white blood cell count is not elevated; this can be seen in atypical inflammatory lung disease."
+          ],
+          "opposing_evidence": [
+            "The presence of definite fever, elevated CRP, and hypoxemia can also be explained by infectious pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis (hematogenous disseminated or multifocal pulmonary tuberculosis)",
+          "supporting_evidence": [
+            "Persistent fever for more than 2 weeks, with no response to treatment with routine penicillin and ceftriaxone",
+            "The chest CT report text and accompanying images show multiple nodular and patchy high-density opacities in both lungs, which are part of the imaging spectrum seen in pulmonary TB.",
+            "Slightly enlarged lymph nodes are seen in the mediastinum; reactive enlargement of mediastinal lymph nodes can be seen in TB",
+            "A small amount of pleural effusion may be present with tuberculous pleural involvement"
+          ],
+          "opposing_evidence": [
+            "The patient has no night sweats, and no weight loss.",
+            "Occasional dry cough, without obvious sputum production, hemoptysis, or other manifestations",
+            "The accompanying CT images did not show the more strongly supportive findings clearly described in the first stage, such as typical cavitation and miliary diffuse micronodules."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Invasive fungal lung disease or other opportunistic infections",
+          "supporting_evidence": [
+            "Persistent fever, unresponsive to conventional β-lactam antibiotic therapy",
+            "Chest CT and the accompanying images show multiple nodular and patchy mass-like lesions in both lungs, some with a peripheral distribution; fungal infection can have similar findings.",
+            "Lymphocyte subset analysis showed decreased absolute counts of total T lymphocytes, CD4 cells, CD8 cells, and NK cells, suggesting a tendency toward impaired cellular immune function.",
+            "Elevated β2-microglobulin, accompanied by hypoxemia, suggests the need for vigilance for opportunistic infection."
+          ],
+          "opposing_evidence": [
+            "G/GM results showed no abnormalities",
+            "The patient’s past medical history is unremarkable, and no clear high-risk background such as long-term immunosuppressive therapy, hematologic disease, or organ transplantation was provided.",
+            "The phase 1 information did not provide fungal culture or direct mycological evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Connective tissue disease-associated lung involvement/autoimmune pneumonia (e.g., SLE-associated pneumonia, ANCA-negative vasculitis spectrum, etc.)",
+          "supporting_evidence": [
+            "Positive ANA antibody (1:100, speckled pattern)",
+            "There is also a small pleural effusion and a small pericardial effusion; serosal cavity involvement can be seen in connective tissue disease",
+            "Chest CT and the accompanying images show multiple patchy, confluent, and nodular high-attenuation opacities in both lungs, which may be seen in some autoimmune pneumonias or vasculitis-related pulmonary involvement",
+            "Conventional antibacterial therapy is ineffective; noninfectious inflammatory lung disease should be considered.",
+            "Elevated ESR, suggesting inflammatory activity"
+          ],
+          "opposing_evidence": [
+            "During the course of the disease, there were no typical connective tissue disease-related symptoms such as dry mouth, dry eyes, rash, pruritus, Raynaud phenomenon, alopecia, or oral ulcers.",
+            "Anti-ENA antibody panel, anti-dsDNA antibody, and ANCA-associated antibodies were negative",
+            "C3/C4 were not decreased, lacking stronger laboratory support for a systemic autoimmune disease"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy and biopsy under general anesthesia",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF mNGS",
+          "reason": "The patient has fever and pulmonary opacities; routine anti-infective therapy is ineffective, and infection with atypical pathogens needs to be excluded.",
+          "basis_in_stage3_input": "NE% 81%↑, hs-CRP 62.19 mg/L↑; chest CT showed multiple patchy, mass-like, and nodular high-density opacities in both lungs, with indistinct margins.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the patient was initially given empiric anti-infective therapy with cefuroxime + azithromycin (4 d), and antipyretic treatment with Tylenol and indomethacin suppositories, but the patient still had intermittent fever. On Day +135, bronchoscopy and biopsy under general anesthesia were performed: no abnormalities were seen on bronchoscopy. Starting on Day +135, the anti-infective regimen was changed to meropenem combined with azithromycin. Bronchoscopic test results were reported: right B5 BALF (bronchoalveolar lavage fluid) results: mNGS (DNA+RNA): Human herpesvirus 4 (EBV), specific sequence count 2701, confidence high; Human herpesvirus 6B, specific sequence count 227, confidence high. Acid-fast smear, TB Xpert, and bacterial culture were negative. Lymphocyte subsets: CD4/CD8 1.94. Differential cell count: macrophages 75%, lymphocytes 24%, neutrophils 1%. Pathology result of right B6 TBLB (transbronchial lung biopsy): lung tissue, with slight edema and widening of the alveolar septa, acute and chronic inflammatory cell infiltration in the interstitium, and histiocyte aggregation within the alveolar spaces. Pathogen stains (acid-fast, GMS, PAS) were all negative. EBV sequences were detected in the patient's BALF; further testing showed blood EBV-DNA 1.3×10^6copies/ml, blood CMV-DNA negative; blood mNGS (DNA+RNA): Human herpesvirus 4 (EBV), specific sequence count 5014, relative abundance 98.74%. Given that there was currently no clear evidence of bacterial infection, meropenem was discontinued on Day +137.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJx7fTicUbicvn8S8RKp5mE2279ib6y85K6EDicZ4WibYqzHp3xxr7CF9fqeG4TRyAtIrIgstZJNsDFNnw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 2: Body temperature measurement data",
+            "local_src": "cleaned_cases_image_cache/00cee2f65cec5bbaf5d077f0ab9e30f75789ca8c.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Special pathogens (TB? invasive pulmonary aspergillosis?)",
+            "evidence": [
+              "Fever, poor response to anti-infective therapy",
+              "Antipyretic medications are effective",
+              "WBC count not elevated, ESR elevated",
+              "Chest CT: consolidation + halo sign",
+              "Increased lymphocytes in BALF",
+              "TBLB pathology shows inflammatory cell infiltration"
+            ],
+            "exclusion_reasons": [
+              "No predisposing factors",
+              "G/GM negative",
+              "No evidence of pathogens such as TB, Aspergillus, or Cryptococcus in sputum or BALF",
+              "TBLB pathology showed no granulomas or fungi; acid-fast stain was negative"
+            ]
+          },
+          {
+            "name": "Predominantly airspace (pulmonary consolidation) (COP?)",
+            "evidence": [
+              "Fever, poor response to anti-infective therapy",
+              "No elevated blood cell counts, with no evidence of infection",
+              "Increased lymphocytes in BALF",
+              "Chest CT may show consolidation, GGO, and the halo sign"
+            ],
+            "exclusion_reasons": [
+              "not the typical age of onset",
+              "The lesions only enlarged and increased in number, without migratory features.",
+              "TBLB pathology (-)"
+            ]
+          },
+          {
+            "name": "Predominantly vascular lesions (pulmonary embolism?)",
+            "evidence": [
+              "Fever, hypoxemia, respiratory alkalosis",
+              "Elevated D-dimer",
+              "No etiologic evidence or evidence of CTD",
+              "Chest CT shows consolidation"
+            ],
+            "exclusion_reasons": [
+              "No significant right heart strain, and pulmonary artery pressure is not elevated",
+              "No thrombus detected in the lower extremities"
+            ]
+          },
+          {
+            "name": "Predominantly vascular lesions (ANCA-associated vasculitis/SLE?)",
+            "evidence": [
+              "Fever, poor response to anti-infective therapy",
+              "No elevated blood cell counts, with no evidence of infection",
+              "Chest CT shows consolidation and GGO; mediastinal lymph nodes are not enlarged"
+            ],
+            "exclusion_reasons": [
+              "Denies hemoptysis, hematuria, upper respiratory tract symptoms, ocular symptoms, and neurologic symptoms",
+              "BALF hemosiderin negative",
+              "ANCA（-），ANA：1：100, dsDNA（-）",
+              "Urinalysis (-)",
+              "TBLB pathology (-)"
+            ]
+          },
+          {
+            "name": "Predominantly interstitial lesions (AIP?)",
+            "evidence": [
+              "Acute onset",
+              "Fever, dry cough, hypoxemia (P/F < 300)",
+              "No etiologic evidence or evidence of CTD",
+              "Chest CT shows consolidation and GGO"
+            ],
+            "exclusion_reasons": [
+              "Oxygenation deteriorated relatively slowly",
+              "HRCT showed no diffuse GGO or DAD changes",
+              "BALF neutrophils not elevated",
+              "No DAD was identified on TBLB"
+            ]
+          },
+          {
+            "name": "Herpesvirus pneumonia?",
+            "evidence": [
+              "Fever, antipyretics effective, poor response to anti-infective therapy",
+              "Blood count and inflammatory markers (-)",
+              "BALF lymphocytosis",
+              "BALF NGS detected EBV and HHV-6"
+            ],
+            "exclusion_reasons": [
+              "immunocompetent adult",
+              "Blood EBV-IgM negative",
+              "Atypical CT findings"
+            ]
+          },
+          {
+            "name": "Reactivation?",
+            "evidence": [
+              "immunocompetent adult",
+              "EBV + HHV-6 in BALF, commonly reactivated viruses",
+              "Severe, with multilobar involvement on imaging"
+            ],
+            "exclusion_reasons": [
+              "Literature review: HHV-6 is often coinfected with other viruses, and the relationship of EBV viral load and reactivation with prognosis remains unclear"
+            ]
+          },
+          {
+            "name": "Lymphoproliferative disorder? EBV-related disease?",
+            "evidence": [
+              "Fever, irregular fever",
+              "Poor response to anti-infective therapy, severe systemic symptoms",
+              "Increased lymphocytes in BALF, EBV and HHV-6",
+              "Mild elevations of LDH, β2-microglobulin, and ferritin"
+            ],
+            "exclusion_reasons": [
+              "No enlargement of peripheral lymph nodes",
+              "TBLB pathology negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Special pathogens (TB? invasive pulmonary aspergillosis?)",
+        "evidence": [
+          "Fever, poor response to anti-infective therapy",
+          "Antipyretic medications are effective",
+          "WBC count not elevated, ESR elevated",
+          "Chest CT: consolidation + halo sign",
+          "Increased lymphocytes in BALF",
+          "TBLB pathology shows inflammatory cell infiltration"
+        ],
+        "exclusion_reasons": [
+          "No predisposing factors",
+          "G/GM negative",
+          "No evidence of pathogens such as TB, Aspergillus, or Cryptococcus in sputum or BALF",
+          "TBLB pathology showed no granulomas or fungi; acid-fast stain was negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Predominantly airspace (pulmonary consolidation) (COP?)",
+        "evidence": [
+          "Fever, poor response to anti-infective therapy",
+          "No elevated blood cell counts, with no evidence of infection",
+          "Increased lymphocytes in BALF",
+          "Chest CT may show consolidation, GGO, and the halo sign"
+        ],
+        "exclusion_reasons": [
+          "not the typical age of onset",
+          "The lesions only enlarged and increased in number, without migratory features.",
+          "TBLB pathology (-)"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Predominantly vascular lesions (pulmonary embolism?)",
+        "evidence": [
+          "Fever, hypoxemia, respiratory alkalosis",
+          "Elevated D-dimer",
+          "No etiologic evidence or evidence of CTD",
+          "Chest CT shows consolidation"
+        ],
+        "exclusion_reasons": [
+          "No significant right heart strain, and pulmonary artery pressure is not elevated",
+          "No thrombus detected in the lower extremities"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Predominantly vascular lesions (ANCA-associated vasculitis/SLE?)",
+        "evidence": [
+          "Fever, poor response to anti-infective therapy",
+          "No elevated blood cell counts, with no evidence of infection",
+          "Chest CT shows consolidation and GGO; mediastinal lymph nodes are not enlarged"
+        ],
+        "exclusion_reasons": [
+          "Denies hemoptysis, hematuria, upper respiratory tract symptoms, ocular symptoms, and neurologic symptoms",
+          "BALF hemosiderin negative",
+          "ANCA（-），ANA：1：100, dsDNA（-）",
+          "Urinalysis (-)",
+          "TBLB pathology (-)"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Predominantly interstitial lesions (AIP?)",
+        "evidence": [
+          "Acute onset",
+          "Fever, dry cough, hypoxemia (P/F < 300)",
+          "No etiologic evidence or evidence of CTD",
+          "Chest CT shows consolidation and GGO"
+        ],
+        "exclusion_reasons": [
+          "Oxygenation deteriorated relatively slowly",
+          "HRCT showed no diffuse GGO or DAD changes",
+          "BALF neutrophils not elevated",
+          "No DAD was identified on TBLB"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Herpesvirus pneumonia?",
+        "evidence": [
+          "Fever, antipyretics effective, poor response to anti-infective therapy",
+          "Blood count and inflammatory markers (-)",
+          "BALF lymphocytosis",
+          "BALF NGS detected EBV and HHV-6"
+        ],
+        "exclusion_reasons": [
+          "immunocompetent adult",
+          "Blood EBV-IgM negative",
+          "Atypical CT findings"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Reactivation?",
+        "evidence": [
+          "immunocompetent adult",
+          "EBV + HHV-6 in BALF, commonly reactivated viruses",
+          "Severe, with multilobar involvement on imaging"
+        ],
+        "exclusion_reasons": [
+          "Literature review: HHV-6 is often coinfected with other viruses, and the relationship of EBV viral load and reactivation with prognosis remains unclear"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphoproliferative disorder? EBV-related disease?",
+        "evidence": [
+          "Fever, irregular fever",
+          "Poor response to anti-infective therapy, severe systemic symptoms",
+          "Increased lymphocytes in BALF, EBV and HHV-6",
+          "Mild elevations of LDH, β2-microglobulin, and ferritin"
+        ],
+        "exclusion_reasons": [
+          "No enlargement of peripheral lymph nodes",
+          "TBLB pathology negative"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Follow-up chest CT",
+          "basis_in_stage3_input": "On Day +138, a follow-up chest CT was performed for the patient.",
+          "why_order_this_exam": "The patient is a young woman in the second trimester of pregnancy with persistent fever for more than 2 weeks, accompanied by fatigue, myalgia, and occasional dry cough. She already had hypoxemia at the time of admission, and continued to have recurrent fever despite anti-infective treatment with penicillin, ceftriaxone, cefuroxime combined with azithromycin, meropenem, and others, suggesting that the pulmonary lesions cannot be explained by a routine bacterial infection. A prior chest CT had already shown multiple patchy, mass-like, and nodular high-density opacities in both lungs with a small pleural effusion. Repeat imaging is needed to determine whether the lesions have progressed, migrated, or developed new distribution characteristics, in order to differentiate infection, organizing lesions, vascular lesions, and lymphoproliferative disease. This examination can also help assess the extent of disease, select subsequent bronchoscopy sampling sites, and provide a baseline for subsequent assessment of treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy under general anesthesia",
+          "basis_in_stage3_input": "On Day +138, bronchoscopy under general anesthesia and transbronchial cryobiopsy (TBCB) were performed.",
+          "why_order_this_exam": "The patient’s multiple pulmonary lesions have continued to progress, accompanied by hypoxemia and subsequent hemoptysis. Conventional anti-infective treatment has been ineffective, and the previous bronchoscopy-related examinations failed to identify the cause; therefore, a repeat, more comprehensive endobronchial evaluation and specimen collection under general anesthesia are required. Bronchoscopy can directly assess for endobronchial bleeding, masses, or mucosal abnormalities, and, together with lavage and biopsy, obtain microbiologic and pathologic evidence. General anesthesia is beneficial during pregnancy and in the setting of limited respiratory reserve and extensive lesions to improve procedural safety and the success rate of specimen collection, and is critical for determining whether the pulmonary lesions represent infection, inflammation, or tumor/lymphoma infiltration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial cryobiopsy (TBCB)",
+          "basis_in_stage3_input": "On Day +138, bronchoscopy under general anesthesia and transbronchial cryobiopsy (TBCB) were performed: no obvious abnormalities were seen on bronchoscopy. Transbronchial cryobiopsy specimens were obtained from right B1 and right B10, 2 pieces from each site.",
+          "why_order_this_exam": "The patient's prior TBLB showed only nonspecific inflammatory cell infiltration, with no fungi, acid-fast bacilli, or definitive features of interstitial lung disease, and could not explain the persistent fever, multiple pulmonary consolidations/nodules, high EBV load, and clinical deterioration. TBCB can obtain larger and more intact lung tissue specimens than TBLB, improving the diagnostic yield for interstitial lesions, lymphomatous infiltration, virus-related lesions, and other rare diseases. The core purpose of this examination is, when routine pathogen testing and small-specimen pathology are both nondiagnostic, to determine the nature of the intrapulmonary lesions through higher-quality histologic evidence, thereby deciding whether to continue anti-infective therapy, consider corticosteroid/immunotherapy, or shift toward further hematologic oncology evaluation and treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF mNGS（DNA+RNA）",
+          "basis_in_stage3_input": "Right B6 + left B8 BALF results reported: mNGS (DNA+RNA): Human herpesvirus 4 (EBV), specific sequence count 44679, relative abundance 86%; Human herpesvirus 1, specific sequence count 781, relative abundance 1.52%.",
+          "why_order_this_exam": "The patient had prolonged fever, hypoxemia, and multiple pulmonary lesions, and routine etiologic studies such as bacterial culture, acid-fast testing, Xpert, and G/GM did not provide definitive evidence; empiric antimicrobial therapy was ineffective. Therefore, it was necessary to broaden the scope of pathogen detection. BALF mNGS can identify potential pathogens such as viruses, bacteria, fungi, and mycobacteria when conventional cultures are negative, and can determine whether there are local pathogen clues in the lungs related to the lesions. In this case, the main purpose of this test was to determine whether the pulmonary lesions were caused by special pathogens or a herpesvirus-related process, and to provide a basis for explaining the high EBV load in the blood, excluding mere contamination/prior infection, and prompting further consideration of EBV-associated lymphoproliferative disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBV-DNA",
+          "basis_in_stage3_input": "EBV-DNA 2.3×10^7copies/ml",
+          "why_order_this_exam": "The patient’s blood EBV IgM was negative, but EBV IgG was markedly elevated, and both BALF and blood mNGS suggested EBV. Persistent fever, elevated LDH and β2-microglobulin, decreased immune cells, and the subsequent development of a downward trend in all three blood cell lineages and a hemophagocytic tendency all suggest that this should not be regarded simply as ordinary viral reactivation. Quantitative EBV-DNA testing is helpful for determining the in vivo EBV replication burden and its dynamic changes, distinguishing past infection from current active EBV-related disease, and assessing whether there is EBV-driven lymphoproliferative disease or EBV-associated hemophagocytic syndrome. This indicator can also serve as an important monitoring basis for disease severity and subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CMV-DNA",
+          "basis_in_stage3_input": "CMV-DNA negative.",
+          "why_order_this_exam": "The patient has persistent fever, multiple pulmonary lesions, hypoxemia, and abnormal cellular immunity; herpesvirus-related opportunistic infections require systematic evaluation. CMV pneumonia or CMV-related systemic infection, in the setting of immune dysfunction, may present with fever and pulmonary infiltrates, and may also interfere with the assessment of EBV-related lesions. The clinical purpose of testing CMV-DNA is to exclude another important active herpesvirus infection, narrow the differential diagnosis, avoid attributing all abnormalities to EBV, and provide a basis for whether antiviral therapy is needed or whether the focus should shift to evaluation for malignancy/HLH.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Flow cytometry (T cells)",
+          "basis_in_stage3_input": "Flow cytometry (T cells): In this specimen, T cells accounted for 86% of lymphocytes, CD4/CD8 = 7.2/1, and no obvious immunophenotypic abnormalities were detected.",
+          "why_order_this_exam": "The patient had increased lymphocytes in BALF and diffuse infiltration of atypical mononuclear cells in the lung tissue, along with a high EBV viral load in the blood, elevated LDH and ferritin, and no response to anti-infective therapy; intrapulmonary lymphocytic lesions or T/NK-cell lymphoproliferative disorders should be considered with caution. The purpose of flow cytometry was to analyze the composition of local lymphocytes, the T-cell proportion, and whether the immunophenotype was abnormal, in order to determine whether the pulmonary infiltrates were more consistent with reactive inflammation or a clonal/neoplastic process. Although no definite abnormal immunophenotype was detected this time, this test has important value in ruling out T-cell lymphoma, assessing the need for subsequent histopathology, and providing an integrated interpretation of the BALF abnormalities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination of the right B10 TBCB specimen",
+          "basis_in_stage3_input": "Pathology result of right B10 TBCB: bronchial wall tissue with scattered chronic inflammatory cell infiltration and small foci of cartilage calcification.",
+          "why_order_this_exam": "The patient has multiple bilateral pulmonary lesions with an uneven distribution. Sampling from a single site carries a risk of missed diagnosis; therefore, specimens from different bronchopulmonary segments need to undergo separate pathologic evaluation. The purpose of the pathologic examination of right B10 was to determine whether the lesion at that site represented infectious inflammation, organization, a granulomatous lesion, or tumor infiltration, and to compare it with the results from other sampling sites. The result from this site showed only chronic inflammation and cartilage calcification. Although not directly diagnostic, it helps demonstrate the heterogeneity of the intrapulmonary lesions and suggests that a negative result from single-site sampling cannot exclude malignant/specific lesions at other sites, thereby supporting continued expansion of sampling and systemic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination of the right B1 TBCB specimen",
+          "basis_in_stage3_input": "Pathology result of right B1 TBCB: bronchial wall tissue, with diffuse infiltration of atypical mononuclear cells in the interstitium; nuclear morphology is somewhat irregular, with marked focal crush deformation.",
+          "why_order_this_exam": "In the context of persistent high fever, progression of pulmonary lesions, insufficient etiologic evidence, and an extremely high EBV load, determining whether atypical cellular infiltration was present in the lung tissue was the diagnostic turning point. The purpose of the right B1 pathologic examination was to directly determine histologically whether the intrapulmonary lesion was caused by neoplastic lymphocytic infiltration, a virus-associated lymphoproliferative lesion, or another rare process. This examination demonstrated diffuse infiltration by atypical mononuclear cells, significantly increasing the likelihood of a lymphoid neoplasm and providing key clues for subsequent immunohistochemistry, EBER, and a systemic search for lesions more amenable to biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry (IHC)",
+          "basis_in_stage3_input": "IHC: CKPan (AE1/AE3) (-), Vimentin (++), LCA/CD45 (++), CD20 (-), CD3 (partially +), Ki67 (70%), CD56 (-), PAX (-), CD2 (++), CD7 (++), CD5 (+), KP1 (histiocytes +), MPO (-), TdT (-), S-100 (-), CXCL13 (scattered focal +).",
+          "why_order_this_exam": "Right B1 TBCB has shown diffuse infiltration by atypical mononuclear cells, but morphology alone cannot distinguish among epithelial neoplasms, lymphoma, myeloid neoplasms, histiocytic lesions, or reactive lymphoid infiltration. IHC can determine the cell of origin through lineage markers, assess proliferative activity, and help differentiate B-cell, T-cell, NK-cell, and other neoplasms. In this case, the key questions are whether the atypical intrapulmonary cells are of hematolymphoid origin, whether they show a T-cell phenotype, and whether proliferation is active, thereby shifting the diagnostic consideration from \"infectious/inflammatory lung disease\" to \"lymphoproliferative disease\" and providing a basis for selecting the most appropriate site for repeat biopsy and the subsequent treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "In situ hybridization (ISH): EBV (EBER)",
+          "basis_in_stage3_input": "ISH: EBV (EBER) negative.",
+          "why_order_this_exam": "The patient had a high EBV load in both blood and BALF, and atypical lymphoid cell infiltration was also seen in the lung tissue; therefore, it was necessary to determine whether these atypical cells were truly driven by EBV. EBER in situ hybridization is a key method for assessing whether tumor cells or lesional cells in tissue are associated with EBV, and it can help distinguish simple EBV replication in blood/BALF from EBV-associated lymphoma. Although EBER was negative in the pulmonary TBCB specimen, its clinical significance is that it suggests possible sampling limitations of the small pulmonary specimen or lesion heterogeneity, and systemic EBV-associated lymphoma cannot be excluded on this basis; instead, it prompted further PET-CT and biopsy of lymph nodes and breast lesions to obtain more representative tissue.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow chromosome analysis",
+          "basis_in_stage3_input": "The bone marrow aspiration chromosome test report returned: chromosome-positive, molecular karyotype result XX, -X (mos).",
+          "why_order_this_exam": "The patient has persistent fever, a high EBV viral load, elevated LDH, and subsequently developed a persistent downward trend in all three blood cell lineages with a hemophagocytic tendency, suggesting the need for early evaluation for the presence of a hematologic malignancy and bone marrow involvement. The purpose of chromosome testing on bone marrow aspiration is to identify clonal abnormalities at the cytogenetic level, providing supplementary evidence for the diagnosis, stratification, and differentiation from a reactive process of hematologic neoplasms. Even if the results are not specific, they still help complete the hematologic evaluation, and when integrated with bone marrow morphology, biopsy, and systemic pathology, allow comprehensive assessment of the nature of the disease and the extent of involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "No abnormal cells were found on bone marrow aspiration.",
+          "why_order_this_exam": "The patient has persistent high fever, markedly elevated EBV-DNA, pulmonary lesions and subsequent multisystem lesions, immune abnormalities, and a progressive trend toward cytopenia. It is necessary to differentiate whether the bone marrow is directly infiltrated by lymphoma or whether there are already bone marrow changes related to hemophagocytic syndrome. Bone marrow aspiration can rapidly assess bone marrow cytomorphology, whether abnormal lymphocytes, blasts, or hemophagocytosis are present, and is an important examination for the initial staging and differential diagnosis of hematologic diseases. Even if no abnormal cells are seen this time, a negative result also helps indicate that bone marrow involvement is unclear, avoiding a premature conclusion of bone marrow infiltration based solely on changes in blood cell counts.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "basis_in_stage3_input": "Bone marrow biopsy: fragmented bone and bone marrow tissue obtained by aspiration; cellularity is adequate, all three hematopoietic lineages are present, with no obvious abnormalities in morphology or distribution. Scattered eosinophils and a small number of lymphocytes and plasma cells are infiltrating. No obvious increase in interstitial reticular fibers (reticulin stain negative). No definite evidence of bone marrow involvement by lymphoma.",
+          "why_order_this_exam": "Bone marrow aspiration may miss lesions in the setting of focal involvement and fibrosis, whereas the clinical course in this case suggested a high suspicion for a systemic lymphoproliferative disorder with a hemophagocytic tendency; therefore, concurrent bone marrow biopsy was required to improve the detection rate. This examination can assess the overall bone marrow architecture, trilineage hematopoiesis, whether there is lymphoma infiltration, reticulin fibrosis, and other secondary changes, and is important for disease staging, HLH assessment, and treatment selection. Although the results did not show definite bone marrow involvement by lymphoma, they provided a basis for subsequently focusing staging on the lungs, lymph nodes, breast, and other PET-hypermetabolic lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "PET-CT showed: multiple hypermetabolic lymph nodes throughout the body (the largest located in left cervical level II, short-axis diameter approximately 10 mm, SUVmax 23.9); multiple soft tissue lesions in both lungs with increased glucose metabolism; multiple hypermetabolic lesions in both breasts, with focal soft tissue density (the largest located in the left breast, diameter approximately 21 mm, SUVmax 25.9; right breast nodule SUVmax 12.2); focal thickening of the small intestine in the left abdomen with increased glucose metabolism; multiple low-density nodules in the liver with increased glucose metabolism; multiple hypermetabolic lesions throughout the body, with no obvious abnormal change in bone density; low-density nodule in the left thyroid lobe with increased glucose metabolism.",
+          "why_order_this_exam": "A small intrapulmonary specimen has already shown infiltration by atypical lymphoid cells, but pulmonary EBER is negative and bone marrow involvement has not been clearly established; therefore, biopsy of a more typical, safer, and more representative lesion is still needed to complete characterization and staging. PET-CT can evaluate metabolically active lesions throughout the body, determine whether the disease is confined to the lungs or represents systemic lymphoma/EBV-related proliferative disease, and identify the optimal site for needle biopsy or excision. In this case, its clinical value lies in revealing occult involvement at multiple sites, including cervical lymph nodes, the breast, liver, and small intestine, supporting the assessment of stage IV systemic disease, and directly guiding subsequent left cervical lymph node dissection and left breast puncture biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination of the left cervical lymph node",
+          "basis_in_stage3_input": "After multidisciplinary discussion, on Day +146, the patient underwent left cervical lymph node excision + left breast needle biopsy under general anesthesia. Lymph node pathology reported: one lymph node, with destruction of the nodal architecture; within it, there was sheet-like proliferative infiltration by medium- to large-sized atypical lymphocytes, with partially irregular nuclear morphology, and readily identifiable apoptosis and mitotic figures. The lymph node capsule tissue was involved.",
+          "why_order_this_exam": "Although superficial ultrasound initially did not identify any obviously enlarged lymph nodes, PET-CT showed hypermetabolic lymph nodes in the left neck, and the lung tissue only suggested suspicious atypical infiltration, which was still insufficient to complete definitive subtyping. Excision of the lymph node for comprehensive pathologic examination is key to the diagnosis of lymphoma, because it preserves the nodal architecture and facilitates assessment for malignant features such as architectural destruction, diffuse proliferation, and capsular invasion. This examination mainly addresses whether true malignant lymphoma of the lymph node is present, what lineage the tumor cell morphology belongs to, and whether this can serve as the basis for a final confirmed diagnosis, thereby determining referral to Hematology and initiation of chemotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymph node immunohistochemistry (IHC)",
+          "basis_in_stage3_input": "IHC: CD3 (++), CD20 (-), PAX5 (-), CD21 (FDC network+), Bcl2 (-), CD4 (+), CD8 (++), CD2 (+), CD5 (++), CD56 (-), TIA-1 (+++), Granzyme B (++), CD30 (50%+), ALK (80) (-), MPO (-), TdT (-), EMA (-), CD34 (-), Ki67 (60%)",
+          "why_order_this_exam": "Although lymph node pathology has already shown sheet-like proliferation of medium- to large-sized atypical lymphocytes and architectural destruction, the final classification of lymphoma must rely on immunophenotyping. The purpose of lymph node IHC is to determine T-cell rather than B-cell lineage, assess whether a cytotoxic phenotype is present, exclude other differential diagnoses such as ALK-positive anaplastic large cell lymphoma, myeloid or immature lymphoid neoplasms, and evaluate proliferative activity by Ki67. This examination directly affects the final diagnostic nomenclature, prognostic stratification, and the selection of treatment regimens such as CHOPE.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymph node in situ hybridization (ISH): EBV (EBER)",
+          "basis_in_stage3_input": "ISH: EBV (EBER) positive.",
+          "why_order_this_exam": "The patient had an extremely high blood EBV-DNA level, and BALF mNGS detected a large amount of EBV, whereas EBER in the small lung specimen was negative; therefore, it is necessary to confirm the direct relationship between EBV and atypical lymphocytes in more representative tumor tissue. The core question of lymph node EBER testing is whether this lymphoma is an EBV-driven T-cell/cytotoxic lymphoid lymphoma, rather than simply accompanied by viremia. A positive result would integrate the systemic clinical manifestations, pulmonary lesions, high viral load, and hemophagocytic tendency into the pathobiologic framework of EBV-associated lymphoma, and would be निर्णातिवе for the final diagnosis and subsequent prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination of left breast needle biopsy",
+          "basis_in_stage3_input": "Breast pathology: Breast core biopsy specimen shows diffuse proliferative infiltration of a large number of medium- to large-sized atypical lymphocytes within the stroma; some have irregular nuclear morphology, and apoptosis and mitotic figures are readily seen.",
+          "why_order_this_exam": "PET-CT suggested multiple hypermetabolic lesions in both breasts, whereas breast ultrasound at admission did not show any space-occupying lesion, indicating that this site may be an occult but diagnostically valuable lesion of systemic involvement. Needle biopsy pathology of the left breast lesion was performed, on the one hand, to verify whether the PET abnormality represented true tumor infiltration, and on the other hand, to provide extrapulmonary tissue evidence and avoid relying solely on small pulmonary specimens for judgment. If the breast and lymph node pathology are consistent, this can strongly demonstrate that this is systemic lymphoma with multi-site involvement, rather than isolated lung disease or simple infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Breast immunohistochemistry (IHC)",
+          "basis_in_stage3_input": "IHC：CKPan(AE1/AE3)(-)，CD3(++)，CD20(-)，CD56(-)，CD4(+)，CD8(+)，CD2(++)，CD7(++)，CD5(++)，TIA-1(+++)，GranzymeB(+++)，Ki67(80%)",
+          "why_order_this_exam": "After breast pathology reveals extensive infiltration by atypical lymphocytes, it is necessary to further distinguish whether this represents a primary epithelial breast tumor, metastatic tumor, or involvement by a lymphoid neoplasm. Breast IHC can exclude epithelial breast carcinoma by CKPan negativity, define a T-cell/cytotoxic phenotype by CD3, CD2, CD5, CD7, TIA-1, GranzymeB, and assess tumor proliferative activity with Ki67. The significance of this examination is to confirm that the breast lesion and lymph node lesion belong to the same lineage, thereby supporting the diagnosis of systemic EBV-associated cytotoxic T-cell lymphoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Breast in situ hybridization (ISH): EBV (EBER)",
+          "basis_in_stage3_input": "ISH: EBV (EBER) positive.",
+          "why_order_this_exam": "On the basis that the breast lesion has been confirmed as atypical T-cell infiltration, it is also necessary to determine whether it is directly related to EBV, in order to distinguish it from nonspecific EBV replication in the blood. Breast EBER testing can demonstrate EBV infection in the tumor cells within the involved breast lesion, further confirming that this disease is EBV-driven systemic cytotoxic T-cell lymphoma. This result corroborates the EBER positivity in the lymph nodes, helps unify the pathologic classification, explains the high EBV viral load and hemophagocytic tendency, and enhances the reliability of the final diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ferritin",
+          "basis_in_stage3_input": "Ferritin increased from 400→1082 ng/ml",
+          "why_order_this_exam": "During the course of persistent high fever and disease progression, the patient developed a sustained downward trend in all three blood cell lines, along with a high EBV viral load and increasingly clear evidence of lymphoma, warranting vigilance for EBV-associated hemophagocytic syndrome. Ferritin is an important marker of inflammation and immune activation in HLH; a dynamic increase may indicate macrophage activation and a hyperinflammatory state. The purpose of testing this marker is to assess whether the disease has progressed from lymphoma alone to lymphoma complicated by HLH, as well as the severity of the condition, thereby influencing whether urgent intervention is needed, the pace of chemotherapy, and the intensity of supportive treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Triglycerides",
+          "basis_in_stage3_input": "Triglycerides elevated to 4 mmol/L",
+          "why_order_this_exam": "In this case, there is persistent fever, a downward trend in blood cell counts, a high EBV viral load, and ultimately confirmed T-cell lymphoma; therefore, systematic evaluation should be conducted according to the diagnostic approach for HLH. Elevated triglycerides are one of the commonly used diagnostic indicators for HLH and reflect cytokine-driven disturbances of lipid metabolism. The clinical purpose of testing this parameter is to determine whether the patient has concomitant hemophagocytic lymphohistiocytosis and to differentiate it from fever and bone marrow suppression caused by infection or the tumor itself; the result is important for establishing the complication of \"EBV-associated HLH,\" assessing disease severity, and formulating the treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NK cell activity",
+          "basis_in_stage3_input": "NK cell activity decreased 14.24%",
+          "why_order_this_exam": "At the time of admission, the patient's absolute peripheral blood NK cell count had already decreased, and was subsequently accompanied by persistent fever, a downward trend in all three cell lines, elevated ferritin, and elevated triglycerides, constituting a clinical scenario highly suspicious for HLH. Assessment of NK cell activity is an important component of HLH evaluation; it can reflect the degree of impaired cytotoxic function and help support an EBV-related immune dysregulation state. This test helps distinguish persistent high fever and worsening blood counts from simple infection or the pre-chemotherapy state, further supporting the diagnosis of hemophagocytic syndrome, and indicates that the patient belongs to a more severe subgroup requiring prompt integrated management directed at both the underlying lymphoma and HLH.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +138, a follow-up chest CT was performed. On Day +138, bronchoscopy under general anesthesia and transbronchial cryobiopsy (TBCB) were performed: no obvious abnormalities were seen on bronchoscopy. Cryobiopsies were obtained from right B1 and right B10, 2 pieces from each site. BALF results from right B6 + left B8 were reported as: mNGS (DNA+RNA): human herpesvirus type 4 (EBV), specific sequence count 44679, relative abundance 86%; human herpesvirus type 1, specific sequence count 781, relative abundance 1.52%. EBV-DNA 2.3×10^7 copies/ml, CMV-DNA negative. Flow cytometry (T cells): T cells accounted for 86% of lymphocytes in this specimen, CD4/CD8 = 7.2/1, with no obvious immunophenotypic abnormality detected. Pathology result of right B10 TBCB: bronchial wall tissue, scattered chronic inflammatory cell infiltration, and small foci of cartilage calcification. Pathology result of right B1 TBCB: bronchial wall tissue, with diffuse infiltration of atypical mononuclear cells in the interstitium; nuclei were somewhat irregular, with marked focal compression deformity. IHC: CKPan(AE1/AE3)(-), Vimentin(++), LCA/CD45(++), CD20(-), CD3(partial+), Ki67(70%), CD56(-), PAX(-), CD2(++), CD7(++), CD5(+), KP1(histiocytes+), MPO(-), TdT(-), S-100(-), CXCL13(scattered few+). ISH: EBV(EBER) negative. Bone marrow aspiration cytogenetic testing report showed: chromosome positive, molecular karyotype result XX, -X (mos). No abnormal cells were seen on bone marrow aspiration. Bone marrow biopsy: fragmented trabecular bone and bone marrow tissue in the core biopsy, cellularity fair, all three lineages present, no obvious abnormalities in morphology or distribution, scattered eosinophils and a small amount of lymphocyte and plasma cell infiltration, no obvious increase in interstitial reticular fibers (reticulin stain negative), and no definite evidence of lymphoma involving the bone marrow. PET-CT showed: multiple hypermetabolic lymph nodes throughout the body (largest located in left cervical level II, short diameter about 10 mm, SUVmax 23.9); multiple soft tissue lesions in both lungs with increased glucose metabolism; multiple hypermetabolic foci in both breasts, with focal soft tissue density (largest in the left breast, diameter about 21 mm, SUVmax 25.9; right breast nodule SUVmax 12.2); localized thickening of the small intestine in the left abdomen with increased glucose metabolism; multiple low-density nodules in the liver with increased glucose metabolism; multiple hypermetabolic foci throughout the body, with no obvious abnormal changes in bone density; low-density nodule in the left thyroid lobe with increased glucose metabolism. After multidisciplinary discussion, on Day +146, the patient underwent left cervical lymph node dissection and left breast core needle biopsy under general anesthesia. Lymph node pathology reported: one lymph node, with destruction of nodal architecture and sheets of medium- to large-sized atypical lymphocytes proliferating and infiltrating within it; some nuclei were irregular, and apoptotic bodies and mitotic figures were readily seen. There was invasion of the lymph node capsule tissue. IHC: CD3(++), CD20(-), PAX5(-), CD21(FDC meshwork+), Bcl2(-), CD4(+), CD8(++), CD2(+), CD5(++), CD56(-), TIA-1(+++), GranzymeB(++), CD30(50%+), ALK(80)(-), MPO(-), TdT(-), EMA(-), CD34(-), Ki67(60%), ISH: EBV(EBER) positive. Breast pathology: breast core biopsy specimen, showing diffuse proliferative infiltration of numerous medium- to large-sized atypical lymphocytes in the stroma; some nuclei were irregular, and apoptotic figures and mitotic figures were readily seen. IHC: CKPan(AE1/AE3)(-), CD3(++), CD20(-), CD56(-), CD4(+), CD8(+), CD2(++), CD7(++), CD5(++), TIA-1(+++), GranzymeB(+++), Ki67(80%), ISH: EBV(EBER) positive. During this period, the patient developed hemoptysis, intermittent fever, and a tendency toward hemophagocytosis (persistent downward trend in all three cell lines, ferritin increasing from 400→1082 ng/ml, triglycerides elevated to 4 mmol/l, NK-cell activity decreased to 14.24%).",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJx7fTicUbicvn8S8RKp5mE22G7HrZq6HaBsyfVgFEmLwMic1ojlzYhAZk0gKPTaWKaJCMIL98SGDBXg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "On Day +138, bronchoscopy under general anesthesia and transbronchial cryobiopsy (TBCB) were performed.",
+          "local_src": "cleaned_cases_image_cache/fc0c77de3008580e109c5871ac3f07770e951913.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJx7fTicUbicvn8S8RKp5mE22fIBmXqWwyIcUgentPBUR2QiaaTfgpiaoU6x4mRbPWPTBkuKFDk9Diaeow/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3: PET-CT images",
+          "local_src": "cleaned_cases_image_cache/c22e546cca8d98d6a73a8da003d888bf77e41561.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJx7fTicUbicvn8S8RKp5mE22pd7B6Wdn60BbPyibauHK7ZXic32Y0YRJ4YYcqpxIRRu58Q5gYichiak4ag/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4: Follow-up chest CT after cycles 1-3 of chemotherapy",
+          "local_src": "cleaned_cases_image_cache/845960f83327a5bee50964610143d5978ead17d6.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Non-Hodgkin lymphoma [Stage IVB, IPI score 4, high risk]; peripheral T-cell lymphoma, EBV-associated hemophagocytic syndrome",
+      "diagnostic_basis": [
+        "Lymph node pathology report: one lymph node, with destruction of the nodal architecture. Within it, there is sheet-like proliferative infiltration by medium- to large-sized atypical lymphocytes; some nuclei are irregular, and apoptosis and mitotic figures are readily seen. The lymph node capsule tissue is involved. IHC: CD3(++), CD20(-), PAX5(-), CD21(FDC network+), Bcl2(-), CD4(+), CD8(++), CD2(+), CD5(++), CD56(-), TIA-1(+++), GranzymeB(++), CD30(50%+), ALK(80)(-), MPO(-), TdT(-), EMA(-), CD34(-), Ki67(60%), ISH: EBV(EBER) positive. In summary, consistent with EBV-positive cytotoxic T-cell lymphoma.",
+        "Breast pathology: Breast core biopsy specimen shows diffuse proliferative infiltration of a large number of medium- to large-sized atypical lymphocytes within the stroma; some nuclei are irregular in shape, and apoptosis and mitotic figures are readily identified. IHC: CKPan(AE1/AE3)(-), CD3(++), CD20(-), CD56(-), CD4(+), CD8(+), CD2(++), CD7(++), CD5(++), TIA-1(+++), GranzymeB(+++), Ki67(80%), ISH: EBV(EBER) positive. Taken together, the findings are consistent with EBV-positive cytotoxic T-cell lymphoma.",
+        "Hemophagocytic tendency (persistent downward trend in all three cell lineages, rising ferritin trend 400→1082 ng/ml, elevated triglycerides 4 mmol/L, decreased NK cell activity 14.24%)",
+        "PET-CT showed: multiple hypermetabolic lymph nodes throughout the body (the largest located in left cervical level II, short-axis diameter approximately 10 mm, SUVmax 23.9); multiple soft-tissue lesions in both lungs with increased glucose metabolism; multiple hypermetabolic lesions in both breasts, with focal soft-tissue density (the largest located in the left breast, diameter approximately 21 mm, SUVmax 25.9; right breast nodule SUVmax 12.2); focal thickening of the small intestine in the left abdomen with increased glucose metabolism; multiple low-density nodules in the liver with increased glucose metabolism; multiple hypermetabolic lesions throughout the body, with no obvious abnormal change in bone density; low-density nodule in the left thyroid lobe with increased glucose metabolism",
+        "BALF results from right B6 + left B8: mNGS (DNA+RNA): human herpesvirus type 4 (EBV), specific sequence count 44679, relative abundance 86%. EBV-DNA 2.3×10^7 copies/ml,",
+        "Anti-lymphoma treatment in Hematology was effective"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "After successful medical induction of labor, the patient was transferred to the Hematology Department for further treatment.",
+        "Cycles 1-3 of CHOPE (doxorubicin + cyclophosphamide + vincristine + etoposide + dexamethasone) chemotherapy were administered on Day +150, Day +167, and Day +186, respectively."
+      ],
+      "treatment_response": [
+        "Body temperature returned to normal, hemoptysis improved",
+        "Repeat chest CT: Compared with the prior study, the number of multiple nodules and consolidations with halo sign in both lungs, as well as consolidations and ground-glass opacities in the lower lobes of both lungs, has decreased, and the extent has decreased; bilateral pleural effusions have decreased compared with before. Some of the multiple low-density nodules in the liver are smaller than before; there is a small amount of mesenteric and retroperitoneal exudation, less than before."
+      ]
+    }
+  }
+}

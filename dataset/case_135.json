@@ -1,0 +1,463 @@
+{
+  "status": "success",
+  "case_id": "case_135",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 48-year-old male patient from Guizhou presented with \"cough, sputum production, and dyspnea.\" Beginning in around Day 0, the patient developed cough and sputum production without an obvious precipitating cause. The sputum was scant white sputum, without fever, hemoptysis, weight loss, or other discomfort. The above symptoms gradually worsened, accompanied by exertional dyspnea, edema of the neck and chest, and chest wall varicosities, without jaundice, joint pain, bilateral lower extremity edema, or other symptoms. In early period, approximately 1 month after Day 0, the patient sought care at a local county people's hospital. Complete blood count showed: Hb 78 g/L. Chest CT showed: small amount of inflammation in the bilateral lower lobes and right middle lobe; bilateral pleural effusions with incomplete expansion of the right lower lobe; thickening of the bilateral interlobar fissures; increased and enlarged mediastinal and bilateral axillary lymph nodes; and extensive soft tissue edema of the chest wall. Doppler ultrasound suggested bilateral internal jugular vein thrombosis. Outside hospital laboratory tests showed: Hb 78 g/L, CRP 122.3 mg/L; albumin 25.1 g/L; anticardiolipin antibody+; tumor markers: CEA 0.5 ng/ml, CA125 779.6 U/ML, ferritin 303.6 ng/ml. Echocardiography: mild to moderate tricuspid regurgitation; mild mitral and aortic regurgitation; impaired left ventricular diastolic function; measured left ventricular systolic function normal; small pericardial effusion. Pulmonary artery CTA: no abnormality seen in the pulmonary arteries; no visualization of the subclavian veins or superior vena cava, suggesting thrombosis of the subclavian veins and superior vena cava; bilateral pleural effusions. Thoracentesis was further performed: pleural fluid was light yellow and clear. Routine pleural fluid analysis: white blood cell count 640 x10^6/L, neutrophils 10%, lymphocytes 90%. Pleural fluid biochemistry: LDH 75.5 U/L, ADA 3.8 U/L, total protein 31.2 g/L. No malignant cells were found; many lymphocytes and mesothelial cells were seen; acid-fast bacilli negative. Bone marrow aspiration was performed: bone marrow findings considered anemia of chronic disease (infection?); plasma cells accounted for 5% on bone marrow differential; MM to be excluded. Flow cytometry suggested no clear evidence of plasma cell-related quantitative or immunophenotypic abnormalities in the submitted specimen. After admission, the patient's past medical history and personal history were immediately reviewed and were both unremarkable. Physical examination: multiple soybean-sized lymph nodes were palpable in the left clavicular region, bilateral axillae, and bilateral groins. Swelling of the skin of the neck and chest, varicosities of the anterior chest wall veins, decreased breath sounds in the right lung, heart rate 81 beats/min, regular rhythm, no murmur, abdomen soft, no tenderness, no percussion tenderness over the liver region, normal bowel sounds, and several circular areas of hyperpigmentation 2-4 cm in diameter on the pretibial areas of both lower extremities.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQkR4yLoD4fnC8w6ibB6ac1FVjZagWbvlOgnf94Q7TnJicjeQLNc1WNbUww/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1. On physical examination at admission, swelling of the skin of the neck and chest and bilateral pretibial pigmentation were noted.",
+          "local_src": "cleaned_cases_image_cache/af6cc0348e7a8a70f7afae47390c275d5851fd3b.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Lymphoma (predominantly involving the mediastinal/systemic lymph nodes and causing obstruction of superior vena cava return)",
+          "supporting_evidence": [
+            "There are increased numbers and enlargement of lymph nodes in the mediastinum and bilateral axillae. Physical examination showed multiple palpable soybean-sized lymph nodes in the left supraclavicular region, bilateral axillae, and bilateral inguinal regions, suggesting systemic lymphadenopathy.",
+            "The patient had cervicothoracic edema and varicose veins of the anterior chest wall. Pulmonary artery CTA showed no visualization of the subclavian vein or superior vena cava, suggesting thrombosis of the subclavian vein and superior vena cava, consistent with the clinical manifestations of superior vena cava outflow obstruction.",
+            "Bilateral pleural effusions, with pleural fluid predominantly composed of lymphocytes (lymphocytes 90%), can be seen in pleural effusions associated with malignant diseases of the lymphatic system",
+            "Hb 78 g/L and albumin 25.1 g/L suggest an underlying chronic wasting/systemic disease.",
+            "The images show marked swelling of the neck and chest, supporting impaired superior vena cava venous return."
+          ],
+          "opposing_evidence": [
+            "No malignant cells were found in the pleural effusion, but this result cannot exclude lymphomatous pleural involvement.",
+            "The first-stage information did not provide definite B symptoms, such as fever, weight loss, and night sweats."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Occult solid tumor-associated hypercoagulable state/metastatic tumor (with malignant pleural effusion or tumor-associated venous thrombosis)",
+          "supporting_evidence": [
+            "Bilateral internal jugular vein thrombosis, with suspected subclavian vein and superior vena cava thrombosis, suggesting a marked hypercoagulable state",
+            "Positive anticardiolipin antibodies can be seen in malignancy-associated acquired hypercoagulable states",
+            "There are increased and enlarged mediastinal and bilateral axillary lymph nodes, accompanied by extensive edema of the chest wall soft tissues and bilateral pleural effusions; obstruction of tumorous lymphatic drainage or metastasis should be suspected.",
+            "CA125 779.6 U/mL is markedly elevated, which can be seen with serosal involvement and pleural/peritoneal irritation associated with malignancy.",
+            "Progressive worsening of cough and dyspnea; imaging suggests bilateral pleural effusions and incomplete expansion of the right lower lobe"
+          ],
+          "opposing_evidence": [
+            "The pleural effusion was pale yellow and clear; LDH 75.5U/L, ADA 3.8U/L, total protein 31.2g/L. No malignant cells were identified, and the current pleural fluid findings provide insufficient direct evidence to support malignant pleural effusion.",
+            "In the tumor marker panel, CEA was 0.5 ng/ml, not elevated.",
+            "The first-stage information did not provide a definite primary tumor lesion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Multicentric Castleman disease (serous cavity effusion/generalized lymphadenopathy type)",
+          "supporting_evidence": [
+            "There is multistation lymphadenopathy: the mediastinum, bilateral axillae, left supraclavicular area, and bilateral inguinal regions are all involved, consistent with features of a systemic lymphoproliferative disorder.",
+            "Accompanied by a marked inflammatory response and abnormal systemic condition: CRP 122.3mg/L, Hb 78g/L, albumin 25.1g/L",
+            "There are bilateral pleural effusions, a small amount of pericardial effusion, and extensive edema of the chest wall soft tissues, suggesting the possibility of systemic capillary leak and/or inflammatory serosal involvement.",
+            "Physical examination and images showed swelling of the neck and chest and round hyperpigmentation of the lower extremities, suggesting possible associated cutaneous manifestations and volume overload abnormality"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide more typical accompanying manifestations such as hepatosplenomegaly and fever.",
+            "Superior vena cava and bilateral internal jugular vein thrombosis may coexist, but this is not the most direct or most common initial manifestation of this disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Antiphospholipid syndrome or other autoimmune hypercoagulable states",
+          "supporting_evidence": [
+            "Bilateral internal jugular vein thrombosis, and CTA indicated subclavian vein and superior vena cava thrombosis, consistent with thrombosis at multiple venous sites",
+            "Positive anticardiolipin antibody, supporting the possibility of antiphospholipid antibody-related hypercoagulable state",
+            "A small amount of pericardial effusion and bilateral pleural effusions may be seen in autoimmune-related serosal involvement",
+            "Pulmonary artery CTA showed no abnormalities, suggesting that the current dyspnea is not fully explained by pulmonary embolism and that impaired great venous return due to a systemic hypercoagulable state should be considered more strongly."
+          ],
+          "opposing_evidence": [
+            "Only a single positive anticardiolipin antibody result was provided; no evidence of persistent positivity was provided in the first-stage information",
+            "Marked generalized lymphadenopathy is difficult to explain by antiphospholipid syndrome alone.",
+            "The phase 1 information did not provide other typical autoimmune manifestations, such as rash, recurrent miscarriage, or definite arterial thrombosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Tuberculous pleuritis or TB-related mediastinal lymph node lesions",
+          "supporting_evidence": [
+            "The pleural effusion was pale yellow and clear, and the pleural fluid differential cell count was predominantly lymphocytes (90%), which can be seen in tuberculous pleuritis.",
+            "There are increased and enlarged mediastinal lymph nodes; chronic cough and progressively worsening dyspnea, which are consistent with some manifestations of tuberculous pleural/mediastinal lesions.",
+            "The patient is from Guizhou, and TB still needs to be considered as one of the common causes in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "No constitutional symptoms of TB such as fever and weight loss",
+            "Pleural fluid ADA 3.8 U/L clearly does not support tuberculous pleurisy",
+            "Pleural fluid acid-fast bacilli negative",
+            "Thrombosis of the bilateral internal jugular veins and superior vena cava, along with marked chest wall varicosities, are not the most common manifestations of TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "POEMS syndrome or other plasma cell dyscrasia-associated systemic diseases",
+          "supporting_evidence": [
+            "There are bilateral pleural effusions, extensive edema of the chest wall soft tissues, and a small pericardial effusion, suggesting the possibility of plasma cell disorder-related volume overload/abnormal vascular permeability.",
+            "Physical examination showed several round areas of hyperpigmentation on the pretibial regions of both lower extremities, 2-4 cm in diameter; the images also showed hyperpigmentation-like skin changes of the lower extremities",
+            "The presence of multistation lymphadenopathy, anemia, and hypoalbuminemia suggests the possibility of a systemic disease.",
+            "Plasma cells accounted for 5% on the bone marrow differential, and the report indicated that MM was to be excluded, suggesting that a plasma cell-related disorder had already been considered at that time."
+          ],
+          "opposing_evidence": [
+            "Flow cytometry results indicate that no obvious evidence of plasma cell-related quantitative or immunophenotypic abnormalities was detected",
+            "The phase 1 information did not provide key supportive clues such as peripheral neuropathy, endocrine abnormalities, or definite monoclonal protein.",
+            "Superior vena cava and bilateral internal jugular vein thrombosis cannot be adequately explained by this diagnosis"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + albumin + LDH",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer + FDP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (CEA, CA125, ferritin)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thrombophilia screening (anticardiolipin antibodies, lupus anticoagulant, protein C/protein S, anti-β2-glycoprotein I antibodies)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody panel + ANCA + anti-dsDNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin electrophoresis + serum light chains",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum iron",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coombs test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration + smear + biopsy + flow cytometry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thoracentesis + routine pleural fluid analysis + biochemistry + ADA + chyle test + triglycerides + cholesterol + cytology for malignant cells + acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary artery CTA + superior vena cava CTV",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the head and neck + CTA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphangiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasitic antibody testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fundus photography + ocular A-scan ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pure-tone audiometry + acoustic immittance + internal auditory canal CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Contrast-enhanced chest CT imaging showed increased and disordered bronchovascular markings in both lungs, with scattered patchy indistinct opacities and fibrotic linear opacities, suggesting possible pulmonary congestion; bilateral pleural effusions, moderate-to-large on the right; markedly increased tortuous vascular shadows in the anterior and posterior chest wall; and bilateral axillary lymphadenopathy. Pulmonary artery CTA and superior vena cava CTV showed embolism in a branch of the left lower lobe pulmonary artery and superior vena cava thrombosis. Head and neck contrast-enhanced CT + CT: the A1 segment of the right anterior cerebral artery was slender; the lower segments of both jugular veins and the entire right jugular vein were not definitively visualized, most likely due to embolic occlusion. Hematologic disease-related tests: CBC: RBC 2.70 *10^12/L, HB 75.0 g/L, RET 3.6%. Coagulation profile: PT 21.3 s, APTT 42.8 s, INR 1.88, PTA 38.2%, FDP 1.5 μg/ml, D-Dimer 0.61 mg/L FEU. Bence Jones protein: serum κ light chain 35.6 mg/L, λ light chain 64.8 mg/L, κ/λ normal. Serum iron: 8.2 umol/L. Immunoglobulin electrophoresis: IgA 9.56 g/L, IgG 18.8 g/L, the remaining items were normal. Liver function: ALB 33 g/L, transaminases and bilirubin normal, LDH 408 u/L. Coombs test negative. Renal function, pre-transfusion testing, and routine stool and urine tests showed no obvious abnormalities. Bone marrow aspiration smear: active granulocytic hyperplasia; biopsy: hyperplastic bone marrow with relatively active granulocytic lineage; flow cytometry showed no abnormal monoclonal cells. Tumor-related tests: male tumor markers: ferritin 456 ng/L, the remaining items were normal. Thrombophilia-related tests: anticardiolipin antibody 1.25 g/L. Lupus anticoagulant: lupus anticoagulant screening test 63.6 s, lupus anticoagulant confirmatory test 44.8 s, RAT lupus anticoagulant ratio 1.42. Protein C activity 48.5%; protein S activity and plasma antithrombin III activity were normal. Anti-β2-glycoprotein 1 antibody was normal. Autoimmune disease-related tests: ANA panel normal. ANCA normal. Anti-double-stranded DNA antibody. Humoral immunity normal.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQk6mYCPb2gRo69nayFCibCx2QMApkWdicLWb3DHOowYuexWTelugLVNkuQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2. Contrast-enhanced chest CT of the patient",
+            "local_src": "cleaned_cases_image_cache/6012dbd723d9dc0ab880262d871574e26e8b9ef5.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQkJwzFOcKQComR2ZwZIy79RSHVqjkHGibp0mEUDO1nYxglqc6icpZHeZibw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3. The patient's pulmonary artery CTA and superior vena cava CTV",
+            "local_src": "cleaned_cases_image_cache/4c65ac136dd06983430c0a06f3ff710e969e7d0d.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQkmgufQmgjoAzDYzaicvib50nOibu9bOGw4kl7l93cT1VfgiaVqaMpibT1Zjw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 4. Patient: contrast-enhanced CT of the head and neck + CT examination",
+            "local_src": "cleaned_cases_image_cache/ff6f1907ea7111cac7eb060c4b7377c4e6be0a53.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQk13Lia1GGgtWIb5ufUmcCPqcvE6VWcgy1xypt3Q6wnicvMaMzbkSnhBWQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 5. Bone marrow aspiration",
+            "local_src": "cleaned_cases_image_cache/dad0eaf81ed001af7fdf0589dc481f88c9046110.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Multiple myeloma and other hematologic malignancies",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Bone marrow aspiration results on admission indicated a normal plasma cell proportion; flow cytometry showed no abnormal monoclonal cells; immunoglobulin results also suggested non-monoclonal proliferation."
+            ]
+          },
+          {
+            "name": "Malignant neoplasms of the lung and pleura",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Contrast-enhanced chest CT and pulmonary artery CTA showed no evidence of tumor, and male tumor markers showed no specific abnormalities."
+            ]
+          },
+          {
+            "name": "autoimmune diseases and inherited thrombophilia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No basis was found for the diagnosis"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Multiple myeloma and other hematologic malignancies",
+        "evidence": [
+          "The patient has persistent moderate anemia, predominantly microcytic and hypochromic, with no clinical manifestations of bleeding. An outside-hospital bone marrow aspiration indicated an abnormal proportion of plasma cells."
+        ],
+        "exclusion_reasons": [
+          "Bone marrow aspiration results on admission indicated a normal plasma cell proportion; flow cytometry showed no abnormal monoclonal cells; immunoglobulin results also suggested non-monoclonal proliferation."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant neoplasms of the lung and pleura",
+        "evidence": [
+          "The patient has had a disease course of more than 2 months, with multiple enlarged lymph nodes."
+        ],
+        "exclusion_reasons": [
+          "Contrast-enhanced chest CT and pulmonary artery CTA showed no evidence of tumor, and male tumor markers showed no specific abnormalities."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "autoimmune diseases and inherited thrombophilia",
+        "evidence": [
+          "The patient has a chronic course and no clinical manifestation of fever; noninfectious diseases such as autoimmune diseases should be prioritized for exclusion."
+        ],
+        "exclusion_reasons": [
+          "All autoimmune-related markers were negative, and no basis for the diagnosis was found."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Thoracentesis",
+          "basis_in_stage3_input": "Thoracentesis was performed on the seventh day after admission",
+          "why_order_this_exam": "The patient has cough, sputum production, and progressive dyspnea. Imaging has already shown bilateral pleural effusions with a moderate-to-large right pleural effusion, as well as right lower lobe atelectasis, superior vena cava and multiple-site venous thromboses, chest wall varices, and marked edema of the neck and chest. Thoracentesis can both relieve dyspnea caused by the pleural effusion and serve as the key sampling method to determine the nature of the effusion. In particular, in this case, the appearance of the pleural fluid changed from light yellow early on to milky white, suggesting a change in the nature of the effusion. Further assessment by thoracentesis is needed to determine whether it is chylothorax, an infectious effusion, a tumor-related effusion, or a tuberculous effusion, and to provide specimens for subsequent biochemical, pathogen, cytologic, and flow cytometry testing, thereby guiding dietary management, immunotherapy, and whether further interventional evaluation of lymphatic reflux abnormalities is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry + routine analysis",
+          "basis_in_stage3_input": "Pleural effusion-related tests: biochemistry + routine analysis: total protein 39 g/L (serum total protein 70 g/L), LDH 76 U/L (serum 114 U/L), ADA 5.7 U/L, total cell count 480*10^6/L, mononuclear cells 93%.",
+          "why_order_this_exam": "The patient's pleural effusion has persisted and is causing dyspnea, so it is first necessary to determine whether the effusion is a transudate or exudate, the degree of inflammation, and the characteristics of the cellular components. Pleural fluid total protein and LDH help assess the nature of the effusion; ADA helps differentiate tuberculous pleuritis; and total cell count and differential can determine whether lymphocytes/monocytes or neutrophils predominate, thereby distinguishing infection, TB, tumor, or immune-related serosal involvement. In this case, the previous pleural fluid was lymphocyte-predominant with low ADA; together with the current finding of 93% monocytes, this further argues against bacterial empyema and typical tuberculous pleuritis, and supports a noninfectious, lymphatic drainage disorder-related, or immune-inflammatory etiology, providing a basis for subsequent confirmation of chylothorax and investigation of the underlying cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chyle test",
+          "basis_in_stage3_input": "Chyle test negative.",
+          "why_order_this_exam": "In this case, the pleural effusion became turbid and milky white in appearance, and chylothorax, pseudochylothorax, and purulent effusion must first be differentiated. The chyle test is an important clue for determining whether chylomicrons are present in the pleural fluid. Although the result was negative in this case, in the setting of markedly elevated pleural fluid triglycerides and non-elevated cholesterol, a negative result alone cannot exclude chylothorax. The significance of this test lies in its combined interpretation with triglycerides, cholesterol, and the gross appearance of the pleural fluid, to avoid misdiagnosis based on color alone; it also helps exclude cholesterol pleural effusion or pyogenic infection, and provides a basis for subsequently considering lymphatic drainage obstruction, thoracic duct lesions, and a low-fat diet strategy during treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Exfoliative cytology",
+          "basis_in_stage3_input": "Exfoliative cytology was negative on three occasions.",
+          "why_order_this_exam": "The patient has bilateral pleural effusions, mediastinal and bilateral axillary lymphadenopathy, markedly elevated CA125, anemia, and hypoalbuminemia. Early on, a high index of suspicion is needed for malignancy, especially pleural metastasis or pleural effusion related to a lymphoid malignancy. Pleural fluid exfoliative cytology is a basic method for evaluating malignant pleural effusion, and repeated submissions can improve the detection rate. Although three negative results cannot absolutely exclude a tumor, they significantly reduce the likelihood of pleural involvement by an epithelial solid tumor, shifting the clinical consideration from malignant pleural effusion more toward chylothorax, immune-inflammatory disease, or abnormal lymphatic reflux, and influencing whether to prioritize further invasive diagnostic evaluation and treatment in the oncologic direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast bacilli smear",
+          "basis_in_stage3_input": "Acid-fast bacilli smears negative 3 times",
+          "why_order_this_exam": "The patient is from a region where TB is common and has chronic cough, mediastinal lymphadenopathy, and lymphocyte-predominant pleural effusion; tuberculous pleuritis or TB-related lymph node disease are common differential diagnoses that must be ruled out. Although acid-fast bacillus smear of pleural fluid has limited sensitivity, as rapid direct etiologic evidence it should be submitted repeatedly to increase the chance of detection, especially when the pleural effusion persists and the cause is unclear. Three consecutive negative results, together with persistently low pleural fluid ADA, help substantially reduce the likelihood of TB, avoid unnecessary anti-TB treatment, and prompt continued evaluation for other causes such as chylothorax and systemic immune-mediated diseases.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gene-Xpert",
+          "basis_in_stage3_input": "Gene-Xpert negative once.",
+          "why_order_this_exam": "Despite a negative acid-fast bacilli smear of the pleural effusion, molecular testing is still needed to further improve the detection yield of Mycobacterium tuberculosis. The patient has pleural effusion, mediastinal lymphadenopathy, and chronic respiratory symptoms; Gene-Xpert can more rapidly assist in determining whether Mycobacterium tuberculosis is present and provide information related to rifampin resistance. Its clinical goal is to further resolve whether tuberculous pleuritis is present. In this case, the negative result, together with low ADA, absence of typical tuberculous constitutional symptoms, and other negative pathogen testing, more strongly argues against TB, reduces the risk of misdiagnosis, and supports the diagnosis of non-tuberculous chylothorax and further consideration of Behcet's disease-related multisystem involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial smear",
+          "basis_in_stage3_input": "Bacterial smear and culture were negative.",
+          "why_order_this_exam": "When pleural effusion becomes turbid and milky white, it must be differentiated clinically from empyema or bacterial infectious pleuritis, because this will directly affect whether anti-infective therapy, drainage, or even surgical management is needed. A bacterial smear can rapidly provide an initial screen for the presence of bacterial infection, especially for assessing acute infectious effusion. Although this patient’s CRP had been markedly elevated, there was no persistent high fever, and the differential cell count of the pleural fluid also did not support a neutrophil-predominant suppurative infection. Therefore, the purpose of the bacterial smear was to promptly exclude empyema, an etiology requiring urgent management. A negative result, together with pleural fluid biochemistry and cytology, supports chylous rather than purulent effusion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Bacterial smear and culture were negative.",
+          "why_order_this_exam": "Bacterial culture is an important basis for etiologic confirmation of bacterial pleuritis or empyema, and can also provide the antimicrobial susceptibility basis for subsequent targeted antibacterial therapy. Because the patient had abnormal pleural fluid color, persistent dyspnea, and previously elevated inflammatory markers, infectious pleural effusion cannot be excluded on the basis of clinical manifestations alone; therefore, culture is a necessary adjunct. A negative culture further reduces the likelihood of bacterial pleuritis, avoids prolonged empiric antibacterial therapy, and also allows the clinical focus to shift more toward chylothorax caused by impaired lymphatic drainage, or pleural effusion caused by tumor compression/infiltration or systemic inflammatory vasculopathy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Flow cytometry",
+          "basis_in_stage3_input": "Flow cytometry showed no abnormal clonal cells.",
+          "why_order_this_exam": "The patient has multistation lymphadenopathy, anemia, hypoalbuminemia, pleural effusion, and manifestations of hypercoagulability/thrombosis; lymphoma or other lymphoproliferative disorders have always been important differential diagnoses. Pleural fluid flow cytometry can detect whether an abnormal monoclonal lymphocyte population is present and is more helpful than routine cytology for identifying serosal cavity involvement by certain lymphoid neoplasms. The clinical question of this test is to determine whether the pleural effusion originates from a hematologic malignancy. No abnormal clonal cells were detected. Although this cannot exclude lymphoma 100%, it significantly weakens the evidence for lymphoma as the direct current cause of the pleural effusion and prompts further interpretation of the condition from the perspectives of chylothorax and immune-mediated systemic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Triglyceride test",
+          "basis_in_stage3_input": "Triglycerides 5.18 mmol/L",
+          "why_order_this_exam": "For milky pleural effusion, the pleural fluid triglyceride level is one of the most critical indicators for diagnosing chylothorax. The patient has superior vena cava and multiple-site venous thrombosis, chest wall varices, extensive soft tissue edema, and persistent pleural effusion, suggesting possible central venous return obstruction secondary to impaired lymphatic drainage. The purpose of measuring pleural fluid triglycerides is to determine whether the pleural effusion is rich in chylous components, thereby distinguishing it from malignant, infectious, and cholesterol pleural effusions. In this case, triglycerides of 5.18 mmol/L were markedly elevated and, together with the milky appearance, are decisive for the diagnosis of chylothorax and directly affect subsequent implementation of a low-fat diet, lymphatic system evaluation, and investigation of the underlying cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cholesterol test",
+          "basis_in_stage3_input": "Cholesterol 1.44 mmol/L",
+          "why_order_this_exam": "Cholesterol testing is mainly used to differentiate chylothorax from pseudochylothorax. Pseudochylothorax is more commonly seen in long-standing pleural effusions due to chronic TB or rheumatoid disease, and is typically characterized by elevated cholesterol rather than a marked elevation in triglycerides. The patient's pleural fluid had a milky white appearance; if color and a single parameter alone are relied upon, misclassification is likely, so a comprehensive analysis in conjunction with the cholesterol level is required. In this case, the pleural fluid cholesterol was not elevated, and together with the elevated triglycerides, this more strongly supports true chylothorax rather than cholesterol pleural effusion. This is of important value for determining the pathophysiologic mechanism, avoiding misdiagnosis as chronic TB/rheumatoid-related pleural effusion, and guiding subsequent lymphatic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "LDH test",
+          "basis_in_stage3_input": "LDH 0.01mmol/L。",
+          "why_order_this_exam": "Pleural fluid LDH is an important indicator for determining the nature of pleural effusion, inflammatory activity, and the degree of tissue destruction, and it also helps distinguish infectious and malignant pleural effusions. The patient's prior pleural fluid LDH was low; this time, it should continue to be interpreted together with total protein and blood LDH to assess whether it meets exudative/transudative characteristics and whether there are obvious infection-related or tumor-related hypermetabolic changes. A low LDH level is consistent with the lack of clear bacteriologic and malignant cytologic evidence, does not support empyema or highly active malignant pleural disease, and is instead more consistent with chylothorax, a condition primarily characterized by lymphatic fluid leakage, which is helpful for determining the cause of the pleural effusion and for the differential diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasitic antibody",
+          "basis_in_stage3_input": "Parasite antibody negative",
+          "why_order_this_exam": "In chylothorax of unknown etiology, uncommon causes leading to lymphatic obstruction, inflammation, or injury should be systematically investigated. Although parasitic infection is uncommon, in the context of certain geographic regions it may be one of the potential causes of lymphatic system lesions and chylous effusion. The patient is from Guizhou, and the cause of the pleural effusion was not clarified in the common infectious or neoplastic categories; therefore, parasite antibody testing helps supplement the evaluation for treatable special causes. A negative result lowers the likelihood of parasite-related lymphatic lesions, thereby narrowing the diagnostic range and supporting continued interpretation of the condition as vasculitis/Behcet disease-related lymphatic drainage obstruction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphangiography",
+          "basis_in_stage3_input": "Lymphangiography showed: patent lymphatic reflux in both lower extremities, visualization of the right lymphatic duct, with possible stenosis of the lymphatic duct.",
+          "why_order_this_exam": "After chylothorax has been established, the next key step is to identify the anatomic cause of chyle leakage or impaired reflux. The patient not only has chylothorax, but also thrombosis of the superior vena cava, subclavian vein, and jugular vein, as well as chest wall varices, suggesting that central venous outflow obstruction may affect drainage of the thoracic duct/lymphatic ducts. Lymphangiography can assess whether lymphatic reflux is patent and whether stenosis, obstruction, or rupture of the thoracic duct or right lymphatic duct is present, and is most valuable for determining the mechanism of chylothorax. In this case, possible stenosis of the right lymphatic duct was found, suggesting that the chylothorax is related to impaired lymphatic reflux, and providing an important basis for the pathophysiologic explanation, whether interventional treatment is needed, and the subsequent treatment plan focused on controlling the underlying inflammation and thrombosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ophthalmic examination",
+          "basis_in_stage3_input": "Ophthalmologic examination showed: hypopyon, uveitis.",
+          "why_order_this_exam": "During hospitalization, the patient developed blurred vision in the left eye, representing new organ involvement, and the condition was no longer limited to pleural effusion and thrombosis. The primary purpose of the ophthalmologic examination was to clarify the cause of decreased vision, differentiate among causes such as infectious endophthalmitis, vasculitis, and uveitis, and assess whether there was an emergency threatening visual function. The results indicated hypopyon in the anterior chamber and uveitis, which, together with the recurrent oral ulcers, scrotal ulcers, and erythema of the lower extremities elicited on subsequent questioning, constituted important diagnostic clues for Behcet disease. This examination played a निर्णायक role in establishing the diagnosis of a multisystem inflammatory vasculitic disease, promptly initiating glucocorticoid and immunosuppressive therapy, and preventing irreversible visual impairment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT of the internal auditory canal",
+          "basis_in_stage3_input": "CT of the internal auditory canals showed: bilateral otomastoiditis with possible cholesteatoma",
+          "why_order_this_exam": "The patient subsequently developed decreased hearing in the left ear, and it was necessary to determine whether this was a conductive lesion, a sensorineural lesion, or a central lesion. Internal auditory canal CT can assess the external auditory canal, middle ear, mastoid, and ossicular chain, helping identify structural lesions such as middle ear effusion, mastoiditis, and cholesteatoma, and distinguish them from ear involvement related to systemic inflammatory disease. In this case, CT suggested bilateral otomastoiditis with possible cholesteatoma, indicating that the otologic symptoms were at least partly related to middle ear/mastoid lesions. This examination helps explain the mechanism of hearing loss, assess the risk of complications, guide otolaryngology management, and, in the setting of multisystem involvement in Behcet disease, help exclude a purely neurologic lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pure-tone audiometry",
+          "basis_in_stage3_input": "Pure-tone audiometry suggests bilateral conductive hearing loss",
+          "why_order_this_exam": "When the patient presents with hearing loss, the site of involvement cannot be determined based on symptoms alone. Pure-tone audiometry is the core examination for audiologic classification and can distinguish conductive, sensorineural, or mixed hearing loss, and quantify the degree of impairment. In conjunction with the internal auditory canal CT and acoustic immittance results in this case, pure-tone audiometry suggests bilateral conductive hearing loss, indicating that the lesion is primarily located in the middle ear sound-conducting system rather than representing isolated cochlear or auditory nerve damage. This result helps explain the source of the symptoms, guides local and systemic ear treatment, and also provides a baseline for evaluating the clinical manifestations and treatment response changes of ear involvement in Behcet disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acoustic impedance",
+          "basis_in_stage3_input": "Tympanometry showed bilateral type B tympanograms, suggestive of otitis media with effusion.",
+          "why_order_this_exam": "Impedance audiometry can reflect tympanic membrane mobility and middle ear pressure and is an important method for determining whether hearing loss is related to middle ear effusion or Eustachian tube dysfunction. The patient developed hearing loss, and imaging suggested middle ear and mastoid lesions; impedance audiometry can further confirm whether the middle ear sound conduction system is involved. In this case, bilateral type B tympanograms support otitis media with effusion, corroborating the conductive hearing loss on pure-tone audiometry and the findings on internal auditory canal CT, indicating that ear involvement is not an incidental symptom but part of the multisystem manifestations of the disease. This examination is helpful for clarifying the nature of the lesion and for guiding treatment and follow-up of hearing recovery.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On the seventh day after admission, thoracentesis was performed. The pleural fluid had changed from initially light yellow to a turbid milky-white fluid. Pleural effusion-related tests: biochemistry + routine analysis: total protein 39 g/L (serum total protein 70 g/L), LDH 76 u/L (serum 114 u/L), ADA 5.7 u/L, total cell count 480*10^6/L, with mononuclear cells accounting for 93%. Chyle test was negative. Three exfoliative cytology tests were negative. Acid-fast bacilli smears were negative 3 times, and Gene-Xpert was negative 1 time. Bacterial smear and culture were negative. Flow cytometry showed no abnormal clonal cells. Triglycerides 5.18 mmol/L, cholesterol 1.44 mmol/L, LDH 0.01 mmol/L. The diagnosis of \"chylothorax\" was established. Parasite antibodies were negative. Lymphangiography showed: patent lymphatic reflux in both lower extremities, visualization of the right lymphatic duct, and possible lymphatic duct stenosis. The patient subsequently developed \"blurred vision in the left eye\" and \"hearing loss in the left ear.\" Ophthalmologic examination suggested: hypopyon and uveitis. Internal auditory canal CT showed: possible bilateral otomastoiditis with cholesteatoma; pure-tone audiometry suggested: bilateral conductive hearing loss; acoustic immittance showed: bilateral type B tympanograms, suggestive of otitis media with effusion. During multidisciplinary MDT consultation, further history-taking revealed that within the 3 years before admission, the patient had recurrent oral ulcers, scrotal ulcers, and erythema of both lower extremities, but these manifestations had all improved spontaneously before the onset of the current illness.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIKgkytYf8vYh7spLWCuIQkyiaqD0ZNGNCtWTYTV7lE2icOdxEoibYHvYNKrjGvbmNs51KnXbYAqXn6w/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 6. Pleural effusion",
+          "local_src": "cleaned_cases_image_cache/a0974dc7202aa133ef006a8f22374779ef40cac9.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQk8jhqp6ArGib3BK3ibv1YVVPkAsL8nmKjRJ72DqL7iaLb6F7VZkdpKpJibw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 7. Lymphangiography.",
+          "local_src": "cleaned_cases_image_cache/0d3461513de5a06849af9ad3df882ae64d7b4451.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQk7NetMzpAOfbkicicuIn9xE3hU5entGwL59jzyy5iaBTkLTrzSeXuTXiaNQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/aaefa64e887638699086587d7aaac9272333f48a.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQkV49eiaGhCsI3WAGibibgJKy6D3taKEfAElmtZM0dh7BRLQQlP8svTvEzg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8. Fundus photography, ocular A-scan ultrasonography",
+          "local_src": "cleaned_cases_image_cache/a7bd85b977448e724890e66ae749be55bb7a85d3.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIKgkytYf8vYh7spLWCuIQkLDXyBkq9nm32kRQAic0kyXdb7SJVK737eG8bw4BvNGj0ibulhP4nyLDQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 9. Internal auditory canal CT, pure-tone audiometry, acoustic immittance.",
+          "local_src": "cleaned_cases_image_cache/c332c4e4d90399fcb48f74792af2ab1e752169bd.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Behcet's disease (BD), thrombosis of the subclavian vein and superior vena cava, bilateral pleural effusions",
+      "diagnostic_basis": [
+        "During the 3 years before admission, there were recurrent oral ulcers, scrotal ulcers, and erythema of both lower extremities.",
+        "Several round areas of hyperpigmentation, 2-4 cm in diameter, are present on the pretibial areas of both lower extremities.",
+        "uveitis",
+        "Manifestations of multisystem involvement: vascular, ocular, otologic, hematologic, and respiratory systems",
+        "Bilateral pleural effusions (chylothorax)",
+        "Multiple venous thromboses with pulmonary embolism",
+        "Rule out other diseases"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 80 mg/d by IV infusion (gradually tapered to 40 mg/d after 1 week)",
+        "Adalimumab injection 40 mg q2w subcutaneous injection",
+        "Cyclosporine soft capsules 50 mg PO bid",
+        "Methylprednisolone ophthalmic solution 0.03 mL qn",
+        "Timolol ophthalmic solution 0.03 mL qn",
+        "Continue a low-fat diet"
+      ],
+      "treatment_response": [
+        "Dyspnea has improved significantly, and the swelling of the neck and chest has also decreased.",
+        "The color of the pleural effusion became lighter, and pleural fluid triglycerides decreased to 1.8mol/L",
+        "Vision and hearing also improved",
+        "Swelling of the neck and chest and chest wall varicosities have completely resolved",
+        "Follow-up vascular color Doppler ultrasound showed: thrombosis in the left external jugular vein, bilateral subclavian veins, and axillary veins had resolved.",
+        "No dyspnea"
+      ]
+    }
+  }
+}

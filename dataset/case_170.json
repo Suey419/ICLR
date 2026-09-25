@@ -1,0 +1,511 @@
+{
+  "status": "success",
+  "case_id": "case_170",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 69 years old, was admitted to the Department of Thoracic Surgery of our hospital on Day 0, for “recurrent cough and sputum production for more than 1 month.” More than 1 month prior, the patient developed cough and sputum production without an obvious precipitating cause, producing gray mucoid sputum, accompanied by fatigue. There was no hemoptysis or blood-streaked sputum, no dyspnea or hoarseness, no chills or fever, no low-grade afternoon fever, night sweats, or facial flushing, no rash, and no symptoms such as joint swelling or pain. She did not pay attention to it and did not seek diagnosis or treatment. Later, the above symptoms recurred repeatedly, and she presented to a local hospital. Chest CT on Day -4 showed “cavitary mass-like lesion in the right upper lobe, small amount of chronic inflammation in both lungs, small pericardial effusion.” After anti-infective treatment (details unknown), fluid supplementation, and other symptomatic treatment, there was no improvement. She was therefore hospitalized in the Department of Thoracic Surgery of our hospital on Day 0. Since the onset of illness, her mental status has been fair, her weight has decreased by 5 kg over the past nearly 2 months, appetite has been fair, bowel and bladder function have been normal, and sleep has been acceptable. Past medical history and personal history: grew up in her native place, poor baseline constitution; 25-year history of hypertension, with highest systolic blood pressure up to 160/90 mmHg, usually taking valsartan and furosemide orally for blood pressure control; more than 2-year history of diabetes mellitus, highest blood glucose unknown, currently on insulin therapy, with poor glycemic control; more than 4-year history of renal insufficiency (specific etiology unknown), treated with roxadustat for renal anemia, and long-term oral prednisone acetate therapy for 2 years, with an initial dose of 30 mg, later gradually tapered to a maintenance dose of 10 mg; denies history of infectious diseases, surgery, trauma, or blood transfusion; no history of drug or food allergy; no tobacco or alcohol use; no history of contact with contaminated water; no occupational exposure to toxic substances or dust. Family history: no similar patients in the family; has 1 son in good health. Physical examination on admission: temperature 36.2 ℃, pulse 62/min, respirations 20/min, blood pressure 112/80 mmHg, alert and conscious, in poor general spirits, superficial lymph nodes (-), coarse breath sounds in both lungs, heart and abdomen (-), no edema of both lower extremities, NS(-). Admission diagnoses: 1. Cavitary pulmonary lesion, right upper lung, fungal infection 2. Hypertension, grade 2, very high risk 3. Type 2 diabetes mellitus 4. Chronic kidney disease, CKD stage 5, renal anemia",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary fungal infection (including chronic pulmonary aspergillosis/opportunistic pulmonary fungal infection)",
+          "supporting_evidence": [
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "No improvement after anti-infective therapy (details unspecified), fluid replacement, and other symptomatic treatment.",
+            "The patient has been on long-term oral prednisone acetate for 2 years and is currently on maintenance therapy.",
+            "History of diabetes for more than 2 years, currently on insulin therapy, with poor glycemic control",
+            "Renal insufficiency for more than 4 years, CKD stage 5, poor baseline status",
+            "Weight loss of 5 kg over the past 2 months, accompanied by fatigue"
+          ],
+          "opposing_evidence": [
+            "No manifestations of acute infection such as fever or chills",
+            "No hemoptysis or blood-streaked sputum",
+            "The phase I information did not provide definitive mycological evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Primary lung cancer (cavitary carcinoma of the right upper lobe, favoring squamous cell carcinoma)",
+          "supporting_evidence": [
+            "Female patient, 69 years old",
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "Cough and sputum production for more than 1 month with recurrent episodes, with no improvement after anti-infective treatment",
+            "Weight loss of 5 kg over the past 2 months, fair general condition, accompanied by fatigue"
+          ],
+          "opposing_evidence": [
+            "No hemoptysis or blood-streaked sputum",
+            "No hoarseness",
+            "Superficial lymph nodes (-)",
+            "No smoking history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Secondary pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "Cough and sputum production for more than 1 month",
+            "Weight loss of 5 kg over the past 2 months, accompanied by fatigue",
+            "Long-term oral prednisone acetate therapy for 2 years, with an immunosuppressed background",
+            "Poorly controlled diabetes mellitus"
+          ],
+          "opposing_evidence": [
+            "No afternoon low-grade fever or night sweats",
+            "No hemoptysis or blood-streaked sputum",
+            "Denies a history of infectious diseases",
+            "No history of TB exposure or etiologic evidence was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lung abscess/necrotizing bacterial pneumonia",
+          "supporting_evidence": [
+            "Cough and sputum production for more than 1 month, with expectoration of gray mucoid sputum",
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "Coarse breath sounds in both lungs",
+            "Poorly controlled diabetes mellitus and long-term corticosteroid use increase the risk of infection"
+          ],
+          "opposing_evidence": [
+            "No chills or fever",
+            "Sputum was gray and viscid; copious foul-smelling purulent sputum was not described.",
+            "No improvement after anti-infective therapy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary nocardiosis",
+          "supporting_evidence": [
+            "Long-term oral prednisone acetate treatment for 2 years",
+            "Poorly controlled diabetes mellitus",
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "No improvement after conventional anti-infective therapy",
+            "Accompanied by fatigue and weight loss"
+          ],
+          "opposing_evidence": [
+            "No fever",
+            "No central nervous system symptoms or skin manifestations were provided in the Phase 1 information.",
+            "No etiologic evidence was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Noninfectious cavitary pulmonary lesions such as granulomatosis with polyangiitis (GPA)",
+          "supporting_evidence": [
+            "Chest CT showed a \"cavitary space-occupying lesion in the right upper lobe\"",
+            "No improvement after conventional anti-infective therapy"
+          ],
+          "opposing_evidence": [
+            "No rash",
+            "No joint swelling or pain",
+            "No hemoptysis",
+            "The phase 1 information did not provide characteristic manifestations suggestive of vasculitis, such as sinus, ear, or worsening nephritis activity."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "arterial blood gas",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin (PCT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Interleukin-6",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal latex agglutination test",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum bacterial culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunologic tests (e.g., HIV and syphilis testing)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Hemoglobin A1c",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ultrasound of the liver, gallbladder, pancreas, spleen, and kidneys",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On re-examination chest CT on Day +1 showed “a cavitary lesion in the posterior segment of the right upper lobe and mild dilatation of some bronchi bilaterally.” Symptoms did not improve after cephalosporin anti-infective therapy. After contraindications were excluded, electronic bronchoscopy was further performed on Day +7, which showed “inflammatory changes of the bronchial mucosa in the posterior segment of the right upper lobe.” At the same time, bronchoalveolar lavage fluid was sent for routine pathogen testing and mNGS. The mNGS report showed “Pseudomonas aeruginosa 263 reads, Klebsiella pneumoniae 68 reads, Pneumocystis jirovecii 61717 reads, Mucor racemosus 11 reads, Human herpesvirus type 6 17780 reads, Human herpesvirus type 5 2813 reads, Human herpesvirus type 4 732 reads.” Pulmonary infection was considered, and the patient was transferred to our department on Day +11 for further treatment. After admission, laboratory tests and examinations were as follows: (1) Blood gas, routine tests, coagulation, biochemistry, and myocardial enzyme markers: Arterial blood gas: pH 7.41, partial pressure of carbon dioxide 35mmHg, partial pressure of oxygen 70mmHg↓, oxygen saturation 94.0%↓, lactate 1.1mmol/L. Complete blood count: white blood cells 7.2×10^9/L, neutrophils % 76.1%↑, lymphocytes % 16.8%↓, monocytes % 6.6%, eosinophils % 0.2%↓, basophils % 0.3%, neutrophils 5.48×10^9/L, lymphocytes 1.21×10^9/L, monocytes 0.48×10^9/L, eosinophils 0.01×10^9/L↓, basophils 0.02×10^9/L, red blood cells 3.38×10^12/L↓, hemoglobin 94g/L↓, platelets 233×10^9/L. High-sensitivity CRP 10.18mg/L↑. Urinalysis: protein 1+. Stool routine: no abnormality seen. Coagulation: prothrombin time 11.2S, activated partial thromboplastin time 33.2S, fibrinogen 5.34g/L↑, D-dimer 3.31ug/ml↑. Biochemistry: total bilirubin 4.6umol/L, direct bilirubin 1.8umol/L, indirect bilirubin 2.80umol/L, total protein 51.8g/L↓, albumin 27.2g/L↓, globulin 25g/L, prealbumin 125mg/L↓, alanine aminotransferase 37U/L, γ-glutamyl transferase 37U/L, lactate dehydrogenase 275U/L↑, alkaline phosphatase (AKP) 92U/L, amylase activity 185U/L↑, glucose 5.8mmol/L, urea 18.7mmol/L↑, uric acid 388umol/L↑, creatinine 355umol/L↑, estimated glomerular filtration rate 11ml/min↓, potassium 3.78mmol/L, sodium 137mmol/L, chloride 99mmol/L, carbon dioxide 24mmol/L. Aspartate aminotransferase 23U/L. Myocardial enzyme panel: high-sensitivity troponin I 0.0508ng/mL↑, pro-BNP 1090pg/ml↑, myoglobin 174.7ng/ml↑, creatine kinase (CK) 26U/L↓, CK-MB 11U/L, CK-MM 15U/L. (2) Infection markers: ESR: 69mm/h↑. Procalcitonin (PCT): 0.364ng/ml. Interleukin-6: 16.0pg/mL↑. Endotoxin test: negative. G test: 10218pg/ml↑ (normal <70pg/ml). GM test: negative. Cryptococcal latex agglutination test: negative. TB infection T-cell test: negative. (3) Pathogen testing of respiratory secretions: Sputum fungal culture: Candida tropicalis. Sputum bacterial culture: Stenotrophomonas maltophilia 4+. (4) Other markers: hepatitis panel, HIV, and syphilis testing were all negative. Thyroid function: T3 0.85nmol/L↓, T4 48.00nmol/L↓, FT3 2.27pmol/L↓, FT4 8.32pmol/L↓, high-sensitivity TSH 0.42mIU/L. Glycated hemoglobin: 8.1%↑. Lymphocyte subsets: NK absolute count 307, CD3 absolute count 817, CD4 absolute count 387, CD8 absolute count 424, CD4/CD8 0.91%↓, CD19 absolute count 37. Tumor markers: alpha-fetoprotein 2.54ug/L, carcinoembryonic antigen 6.92ug/L↑, neuron-specific enolase 19.0ug/L↑, CA19-9 130.00U/ml↑, CYFRA21-1 11.1ug/l↑, ferritin 76.50ug/L, squamous cell carcinoma antigen 1.9ng/ml↑. (5) Imaging examinations: Chest CT (Day +1): 1. Cavitary lesion in the posterior segment of the right upper lobe (uneven wall thickness, long-axis diameter about 4.9cm, relatively clear margin, some margins slightly rough), multiple nodules in both lungs (multiple solid and ground-glass density nodules, well-defined; the largest is located in the dorsal segment of the right lower lobe, long-axis diameter about 1cm, with cavitation seen within it); contrast-enhanced CT is recommended for further evaluation. 2. Scattered inflammatory and fibrotic foci in both lungs; mild dilatation of some bronchi bilaterally; bulla in the right upper lobe. 3. Partial pericardial thickening; multiple calcifications of the aorta and coronary arteries. 4. Wedge compression of the L1 vertebral body. 5. Irregular morphology of both kidneys as shown. Liver, gallbladder, pancreas, spleen, and kidney ultrasound (Day +2): 1. Right renal atrophy 2. Chronic kidney disease of the left kidney 3. Right renal cyst. Echocardiography (Day +4): 1. Aortic valve calcification with mild regurgitation (instantaneous regurgitant volume about 2ml) 2. Mitral valve calcification with mild regurgitation (instantaneous regurgitant volume about 1ml) 3. Impaired left ventricular diastolic function, normal systolic function 4. Normal size of all cardiac chambers. EF 62%. ECG (Day +5): sinus tachycardia, frequent atrial premature beats, mostly with aberrant intraventricular conduction, some occurring as couplets. Head CT (Day +6): no obvious abnormality on non-contrast head CT. Electronic bronchoscopy (Day +7): inflammatory changes of the bronchial mucosa in the posterior segment of the right upper lobe (a small amount of purulent mucus plugs adherent within the subsegmental bronchus of the posterior segment of the right upper lobe, mucosal hyperemia and edema; bronchoalveolar lavage was performed in the posterior segment of the right upper lobe, lavage volume 50ml, recovered 15ml, sent for routine testing, bacterial, fungal, acid-fast, and mNGS testing). BALF routine: colorless and transparent appearance, specific gravity small amount, Rivalta test very weakly positive ±, white blood cell count 1851×10^6/L, red blood cell count 64×10^6/L, segmented neutrophils 65%, lymphocytes 15%, macrophages 11%, histiocytes 9%. BALF acid-fast stain: negative. BALF fungal culture: negative. BALF bacterial culture: negative. BALF-mNGS (Day +9): Pseudomonas aeruginosa 263 reads, Klebsiella pneumoniae 68 reads, Pneumocystis jirovecii 61717 reads, Mucor racemosus 11 reads, Human herpesvirus type 6 17780 reads, Human herpesvirus type 5 2813 reads, Human herpesvirus type 4 732 reads.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq499TTYobGdqD2BB51nJVwjN6eS8FywIHh70t43FrkLFgVW53Uaib3qeUsQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 1. Chest CT (Day +1)",
+            "local_src": "cleaned_cases_image_cache/69f42e6f588028d7f3deeeab51c89ed82b2156a7.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq49986mGXoRKVEtvJa01H2YsiaMBrOfTzau19ha01RxFD1sfpC0GSeibAXrQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2. Bronchoscopy (Day +7)",
+            "local_src": "cleaned_cases_image_cache/846ebe34a066e73e5df00a5258f30ffef2f0de67.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq4990DYIB1cNIkqEvjL46Vo2nqSnBia9FeicjnXuz4STlwZpdEb3O895Lb6w/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3. BALF-mNGS (Day +9)",
+            "local_src": "cleaned_cases_image_cache/798ba49f4249aa60d200aa9dc253b2f8fd714584.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary fungal disease (mucormycosis)",
+            "evidence": [
+              "The patient has had recurrent cough and sputum production for more than 1 month, has chronic kidney disease and has been on long-term steroid therapy, with comorbid diabetes mellitus, and has high-risk factors for immunosuppression.",
+              "Imaging findings suggest a cavitary lesion in the right upper lobe",
+              "Chronic course and imaging",
+              "BALF-mNGS indicated pathogens including Mucor racemosus, 11 reads."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary fungal infection (Pneumocystis jirovecii)",
+            "evidence": [
+              "BALF-mNGS detected a high sequence count of Pneumocystis jirovecii: 61717 reads",
+              "G test strongly positive"
+            ],
+            "exclusion_reasons": [
+              "Imaging shows no typical PJP-related interstitial changes; further differential diagnosis is საჭირый, and clarification can be achieved by further histopathologic and microbiologic examinations after lesion puncture."
+            ]
+          },
+          {
+            "name": "Tuberculosis and nontuberculous mycobacterial infection",
+            "evidence": [
+              "The patient is an elderly woman in poor general condition, with a chronic onset this time, accompanied by symptoms such as fatigue and weight loss.",
+              "Imaging studies suggest a cavitary pulmonary lesion"
+            ],
+            "exclusion_reasons": [
+              "The patient had no obvious fever, night sweats, or other constitutional symptoms.",
+              "T-SPOT test result was negative",
+              "Repeated testing of sputum and bronchial lavage fluid specimens showed no evidence of mycobacterial infection."
+            ]
+          },
+          {
+            "name": "Lung abscess",
+            "evidence": [
+              "Chest CT clearly showed a cavitary lesion in the posterior segment of the right upper lobe, which is a typical imaging manifestation of lung abscess",
+              "BALF-mNGS detected multiple bacteria that can cause pyogenic infection: Pseudomonas aeruginosa (263 reads), Klebsiella pneumoniae (68 reads)"
+            ],
+            "exclusion_reasons": [
+              "No fever during the course of the illness",
+              "The above bacteria were not detected in airway secretion culture.",
+              "The mNGS sequence count is not high, which is not consistent with a simple bacterial lung abscess."
+            ]
+          },
+          {
+            "name": "Other less common pathogen infections (such as Nocardia, Actinomyces, etc.)",
+            "evidence": [
+              "Chronic course",
+              "Can cause chronic suppurative or granulomatous lesions in the lungs, and in the progressive stage may also develop cavitary changes similar to those in this case"
+            ],
+            "exclusion_reasons": [
+              "Further microbiological testing is required to rule out this type of infection"
+            ]
+          },
+          {
+            "name": "Neoplastic disease (lung cancer)",
+            "evidence": [
+              "Chest CT shows a cavitary, round mass-like opacity",
+              "Some tumor markers elevated"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Granulomatosis with polyangiitis (GPA)",
+            "evidence": [
+              "Imaging often shows the characteristic pattern of 'three multiples and one cavity,' namely diverse lesion morphology, multiple lesions, a tendency to change, and often accompanying cavitation.",
+              "Solitary or multiple pulmonary nodules and masses are the most common imaging manifestations of GPA"
+            ],
+            "exclusion_reasons": [
+              "The patient had no clinical manifestations such as fever or joint pain.",
+              "Eosinophils were also not elevated"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary fungal disease (mucormycosis)",
+        "evidence": [
+          "The patient has had recurrent cough and sputum production for more than 1 month, has chronic kidney disease and has been on long-term steroid therapy, with comorbid diabetes mellitus, and has high-risk factors for immunosuppression.",
+          "Imaging findings suggest a cavitary lesion in the right upper lobe",
+          "Chronic course and imaging",
+          "BALF-mNGS indicated pathogens including Mucor racemosus, 11 reads."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary fungal infection (Pneumocystis jirovecii)",
+        "evidence": [
+          "BALF-mNGS detected a high sequence count of Pneumocystis jirovecii: 61717 reads",
+          "G test strongly positive"
+        ],
+        "exclusion_reasons": [
+          "Imaging shows no typical PJP-related interstitial changes; further differential diagnosis is საჭირый, and clarification can be achieved by further histopathologic and microbiologic examinations after lesion puncture."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tuberculosis and nontuberculous mycobacterial infection",
+        "evidence": [
+          "The patient is an elderly woman in poor general condition, with a chronic onset this time, accompanied by symptoms such as fatigue and weight loss.",
+          "Imaging studies suggest a cavitary pulmonary lesion"
+        ],
+        "exclusion_reasons": [
+          "The patient had no obvious fever, night sweats, or other constitutional symptoms.",
+          "T-SPOT test result was negative",
+          "Repeated testing of sputum and bronchial lavage fluid specimens showed no evidence of mycobacterial infection."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lung abscess",
+        "evidence": [
+          "Chest CT clearly showed a cavitary lesion in the posterior segment of the right upper lobe, which is a typical imaging manifestation of lung abscess",
+          "BALF-mNGS detected multiple bacteria that can cause pyogenic infection: Pseudomonas aeruginosa (263 reads), Klebsiella pneumoniae (68 reads)"
+        ],
+        "exclusion_reasons": [
+          "No fever during the course of the illness",
+          "The above bacteria were not detected in airway secretion culture.",
+          "The mNGS sequence count is not high, which is not consistent with a simple bacterial lung abscess."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Other less common pathogen infections (such as Nocardia, Actinomyces, etc.)",
+        "evidence": [
+          "Chronic course",
+          "Can cause chronic suppurative or granulomatous lesions in the lungs, and in the progressive stage may also develop cavitary changes similar to those in this case"
+        ],
+        "exclusion_reasons": [
+          "Further microbiological testing is required to rule out this type of infection"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Neoplastic disease (lung cancer)",
+        "evidence": [
+          "Chest CT shows a cavitary, round mass-like opacity",
+          "Some tumor markers elevated"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Head MRI without contrast",
+          "basis_in_stage3_input": "Subsequently, to further clarify the nature of the pulmonary lesion and whether there was nasal/facial and intracranial invasion, a brain MRI and CT-guided lung biopsy were completed. Non-contrast brain MRI (Day +20)",
+          "why_order_this_exam": "The nature of the pulmonary lesion was unclear, but the patient already had host factors conferring high risk for invasive fungal infection: long-term oral prednisone use, poorly controlled diabetes mellitus, and chronic renal failure; in addition, BALF-mNGS suggested a fungus-related pathogen, so invasion of the central nervous system by invasive fungi via the paranasal sinuses or hematogenous dissemination should be considered. Although the patient had no clear neurologic symptoms at that time and non-contrast head CT also showed no obvious abnormality, CT has limited sensitivity for early intracranial involvement and paranasal sinus-related soft tissue lesions. Additional non-contrast brain MRI was intended to more sensitively screen for intracranial invasion, brain parenchymal lesions, and sinus-related involvement, in order to address the key clinical question of whether extrapulmonary dissemination was present; the result would directly affect assessment of disease severity, the intensity and duration of antifungal therapy, and whether further combined evaluation by otolaryngology/neurosurgery was needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung puncture examination",
+          "basis_in_stage3_input": "Subsequently, to further clarify the nature of the pulmonary lesion and whether there was invasion of the nasal/facial region and intracranial involvement, contrast-enhanced chest MRI, head MRI, and CT-guided lung biopsy were completed.",
+          "why_order_this_exam": "The cavitary lesion in the right upper lobe may be seen on imaging in fungal infection, tuberculosis/nontuberculous mycobacterial infection, and lung abscess, and it also requires differentiation from cavitary lung cancer; moreover, the earlier sputum, BALF culture, and mNGS results were discordant. Although BALF-mNGS detected Pneumocystis jirovecii, Mucor racemosus, and multiple bacteria/viruses, the imaging was not typical, making it difficult to determine the true causative pathogen based on respiratory specimens alone. In addition, some tumor markers were elevated, and there was no definite early improvement after anti-infective therapy; therefore, tissue from the lesion must be obtained. CT-guided lung biopsy can directly target the low-density mass in the right upper lobe for sampling, addressing the central diagnostic question of whether the lesion is infection, tumor, or another rare lesion; at the same time, it provides high-value specimens for pathology and pathogen testing, which is crucial for establishing the diagnosis, excluding differential diagnoses, and guiding subsequent selection of antifungal or other treatment regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "CT-guided lung biopsy (Day +25): The biopsy needle entered the low-density mass, and 4 tissue cores were obtained and sent for pathology and pathogen mNGS testing.",
+          "why_order_this_exam": "In the setting of long-term corticosteroid use, diabetes mellitus, and renal failure, the cavitary lesion in the right upper lobe could represent invasive fungal infection, and lung cancer or other granulomatous lesions also cannot be excluded. Previous BALF-mNGS suggested the co-detection of multiple pathogens, whereas cultures were mostly negative or inconsistent with mNGS, indicating that respiratory samples alone are insufficient to establish a definitive etiologic diagnosis. The purpose of submitting tissue for pathologic examination is to directly assess, at the histologic level, for structural evidence such as tumor cells, necrotizing inflammation, granuloma formation, and fungal hyphae, thereby addressing the key question of 'what is the nature of the lesion.' The pathology results will not only help confirm or exclude tumor, but also corroborate the microbiologic findings, increase the diagnostic reliability for fungal infection, especially mucormycosis, and provide a basis for the continued use of antifungal agents and determination of treatment duration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen mNGS testing and culture",
+          "basis_in_stage3_input": "CT-guided lung biopsy (Day +25): The biopsy needle entered the low-density mass, and 4 tissue cores were obtained and sent for pathology and pathogen mNGS testing.",
+          "why_order_this_exam": "The patient's prior BALF-mNGS showed a high sequence count for Pneumocystis jirovecii and a low sequence count for Mucor racemosus, with co-detection of bacteria and herpesvirus; however, the imaging showed a focal cavitary-like lesion rather than the typical diffuse interstitial changes of PJP, and BALF bacterial and fungal cultures were negative, suggesting that the respiratory specimen may have been affected by colonization, contamination, or localized low-burden infection. Performing further pathogen mNGS on the lung biopsy tissue is intended to re-identify the true causative pathogen in a specimen obtained directly from the lesion site, especially to distinguish the relative roles of Mucor, Pneumocystis jirovecii, bacteria, or other opportunistic pathogens. This test can address the difficulty in interpreting the earlier multipathogen results and, in combination with the pathology results, improve confirmation of invasive fungal infection, thereby guiding whether to continue focusing on anti-Mucor treatment, whether Pneumocystis treatment also needs to be considered, and avoiding unnecessary empiric broad-spectrum antimicrobial therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tissue mNGS",
+          "basis_in_stage3_input": "Lung tissue mNGS (Day +27)",
+          "why_order_this_exam": "In this case, mNGS at the lesion tissue level was of निर्णायक significance. The patient had a prolonged course of cavitary lung lesions, conventional anti-infective therapy was ineffective, and BALF provided only clues of mixed multiple pathogens, making it difficult to identify the causative pathogen. mNGS was performed on lung tissue obtained by puncture biopsy with the aim of determining the pathogen spectrum based on the lesion itself rather than airway secretions, with emphasis on verifying whether fungi, especially Lichtheimia corymbifera, were the main causative pathogens, and assessing whether Pneumocystis jirovecii or other microbial coinfections were still present. Because the patient had poor host conditions and a high potential risk of disease progression, obtaining highly sensitive etiologic evidence as soon as possible would help establish a targeted treatment direction early, avoid delaying treatment for invasive fungal infection, and also provide a basis for interpreting subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung histopathology",
+          "basis_in_stage3_input": "Lung tissue pathology (Day +29)",
+          "why_order_this_exam": "Lung tissue pathology was the central component of the diagnostic confirmation pathway in this case. The imaging findings and clinical manifestations of the right upper lobe cavitary lesion both supported two major possibilities: infectious and neoplastic. However, there were discrepancies among the BALF, sputum culture, and mNGS results, and molecular pathogen evidence alone was insufficient to completely exclude colonization or concomitant detection. Pathologic examination of lung tissue was performed to confirm, at the levels of tissue reaction and morphology, whether fungal invasion, necrosis, and inflammatory infiltration were present, and to exclude structural lesions such as lung cancer. Particularly for mucormycosis, the presence of fungal hyphae on histopathology provides stronger support for true infection rather than contamination than detection in respiratory specimens alone. This examination directly served the purposes of final diagnostic confirmation, exclusion of important differential diagnoses, and providing key evidence for continuing liposomal amphotericin B treatment and the subsequent sequential antifungal regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: PAS",
+          "basis_in_stage3_input": "Special stain: PAS (+).",
+          "why_order_this_exam": "Preliminary pathology of the biopsy tissue suggested a small amount of fungal hyphae, but fungal morphology is sometimes insufficiently clear on routine H&E staining. This is especially true when the specimen volume is small or when there is a necrotic background or limited inflammatory components, in which case special stains are needed to enhance visualization of fungal structures. The purpose of PAS staining is to further confirm whether fungal elements are truly present in the tissue and to improve the reliability of identifying hyphal morphology, thereby helping to corroborate the histologic findings with Mucor racemosus detected by lung tissue mNGS. For a patient such as this case, who is immunocompromised, has cavitary lesions on imaging, and had complex earlier pathogen results, PAS positivity helps advance 'possible fungal infection' to more credible histopathologic evidence, which is important for confirming pulmonary mucormycosis, excluding a pure tumor or noninfectious lesion, and supporting decisions regarding intensive antifungal therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Subsequently, to further clarify the nature of the pulmonary lesion and whether there was nasal/facial and intracranial invasion, contrast-enhanced chest MRI, brain MRI, and CT-guided lung biopsy were completed. Contrast-enhanced chest MRI (Day +19): 1. Lesion in the posterior segment of the right upper lobe (a round abnormal signal lesion was seen in the posterior segment of the right upper lobe, measuring approximately 3.3x2.7 cm; mixed high and low signal intensity on T2WI and fat-suppressed sequences; an arc-shaped hyperintense signal on DWI; ring enhancement on contrast-enhanced scan). 2. Scattered inflammation in both lungs, with partial atelectasis. 3. Small bilateral pleural effusions. Non-contrast brain MRI (Day +20): 1. White matter hyperintensities, Fazekas grade 1; age-related brain changes. 2. Bilateral ethmoid sinusitis. CT-guided lung biopsy (Day +25): the biopsy needle entered a low-density mass, and 4 tissue cores were obtained and sent for pathology and pathogen mNGS testing. Lung tissue mNGS (Day +27): Enterococcus faecium, 7 reads; Mucor racemosus, 4741 reads; Pneumocystis jirovecii, 8 reads; human herpesvirus type 6, 4469 reads; human herpesvirus type 5, 53 reads. Lung tissue pathology (Day +29): a very small amount of fibrinous material with minimal lymphocytic infiltration; a small amount of fungal hyphae was also seen. Special stain: PAS (+).",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq499cHC7iacfuPSNwJGOiavtFbZDiaD8qy2iad0dCVmGjvUwibOfQSFLLicK8Tmw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 4. Chest CT (25-8-15 vs 25-9-1)",
+          "local_src": "cleaned_cases_image_cache/486214e0349f836355f747d0529bb9156641d858.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq4997EpgwKycCSictXX2tPsLBIvP2HYUoIJI0dyvAL0FASV5HJnlQxHP6Hg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5. Contrast-enhanced chest MRI (Day +19)",
+          "local_src": "cleaned_cases_image_cache/50e2359dbea23b09a2712480872910dec94f36aa.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq4991k7MCIUmCIgjcvCL3D4ZuTQ5QyEc0Sm6N0QBVdYI5pNicib0CEcPO5cQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 6. CT-guided lung puncture (Day +25)",
+          "local_src": "cleaned_cases_image_cache/e2b02746c6a65efede094a55f71d5ec185adaad0.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq4999Hy5mnsF5DRCcicGnWmNvTibPv3ibgVa3WcAgzruZjyeMnaS9lw7hW60A/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 7. Lung tissue mNGS results (Day +27)",
+          "local_src": "cleaned_cases_image_cache/49b40d7473bac089fafb35419102a7de54859590.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKWql1jjWNpLNysWSswq499pRxmPiboWhcnMibrpYnfUDOiba3extc3SthE9Q4EcAk0NtUFNtJwlGvNg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8. Lung tissue pathology results (Day +29)",
+          "local_src": "cleaned_cases_image_cache/990930319db734346535edd2070464da9cc858f4.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Right upper lobe pulmonary cavity: pulmonary mucormycosis 2. Hypertension, grade 2, very high risk 3. Type 2 diabetes mellitus 4. Chronic kidney disease, stage CKD5, renal anemia 5. Hypoproteinemia 6. Hepatic insufficiency",
+      "diagnostic_basis": [
+        "Host factors: concomitant diabetes mellitus, renal failure, and hypertension",
+        "Clinical manifestations: imaging suggests pulmonary cavitation.",
+        "Microbiological evidence: mNGS of BALF and lung tissue detected Mucor racemosus; lung tissue pathology showed a small amount of fungal hyphae; special stain: PAS (+)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Starting on Day +11, liposomal amphotericin B 200 mg qd was administered by IV infusion for anti-Mucor therapy.",
+        "Combined with oral trimethoprim-sulfamethoxazole tablets 0.96 g q8h for Pneumocystis jirovecii pneumonia",
+        "Blood glucose was additionally controlled with insulin (human insulin 6 IU before each meal, insulin glargine 20 IU at bedtime)",
+        "nebulized expectorant therapy",
+        "erythropoiesis",
+        "albumin supplementation",
+        "Comprehensive treatment including antihypertensive therapy and renoprotective therapy",
+        "The dose of trimethoprim-sulfamethoxazole tablets was gradually reduced to 0.48 g bid",
+        "Additional symptomatic treatment was given, including diuretics, anticoagulation, and other supportive measures.",
+        "Starting Day +32, isavuconazole was selected for oral step-down therapy",
+        "Gradually taper and ultimately discontinue glucocorticoids, and strictly control blood glucose"
+      ],
+      "treatment_response": [
+        "On Day +17, after eating, the patient developed severe gastrointestinal reactions including nausea and vomiting, accompanied by elevated liver enzymes. After antiemetic therapy, gastric protection, intravenous nutritional support, and hepatoprotective therapy, there was no improvement. This was considered an adverse reaction to trimethoprim-sulfamethoxazole tablets, so the dose was gradually reduced to 0.48 g bid, after which the patient's gastrointestinal reactions were alleviated.",
+        "Repeat blood tests on Day +18 showed elevated BNP and D-dimer.",
+        "Repeat chest CT on Day +18 showed that the cavitary lesion in the right upper lobe and the nodule in the dorsal segment of the right lower lobe were markedly smaller than on the imaging from Day +1, suggesting that the current anti-infective treatment regimen is effective",
+        "Repeat chest CT 1 month later showed continued decrease in the size of the right lung lesion and disappearance of the cavity.",
+        "Laboratory tests indicated that the white blood cell count, CRP, erythrocyte sedimentation rate, procalcitonin, and IL-6 had all returned to the normal range, and the G test had turned negative"
+      ]
+    }
+  }
+}

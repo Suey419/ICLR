@@ -1,0 +1,386 @@
+{
+  "status": "success",
+  "case_id": "case_162",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 82 years old, long-term resident of a nursing home, was admitted on Day 0, with the chief complaint of \"fever for 2 days.\" The patient developed fever 2 days before admission without an obvious precipitating cause, with a maximum temperature of 38.1℃; the fever pattern was unclear. He was accompanied by chills, cough, and sputum production, with a small amount of yellow, viscous sputum that was difficult to expectorate, as well as fatigue and shortness of breath. He also had abdominal pain, abdominal distension, and diarrhea. The abdominal pain was located throughout the abdomen and was paroxysmal dull pain. He passed yellow loose stools, about 4-5 times/day. There were no rigors, no nausea or vomiting, no dizziness or headache, no urinary frequency, urgency, dysuria, or low back pain, and no discomfort such as scleral icterus, dark urine, or jaundice. He presented to our hospital emergency department. Laboratory tests showed: CBC: white blood cells 12.1*10^9/L, segmented neutrophils 89.6%, Hb 125g/L, platelet count 192*10^9/L; influenza A virus antigen negative, influenza B virus antigen negative; creatinine 115umol/L; troponin 0.23ng/L; PCT 0.23ng/ml; BNP 411.00pg/L; chest CT: scattered inflammation in both lungs, small bilateral pleural effusions; arterial blood gas analysis (FiO2 29%): pH 7.47, PaCO2 35.5mmHg, PaO2 153mmHg, BE 2.4mmol/L, Lac 1.6mmol/L, oxygenation 528. After treatment with \"ceftriaxone for anti-infection, expectorant therapy, antiasthmatic therapy, antidiarrheal therapy, urinary catheterization,\" he still had cough, sputum production, and diarrhea. He was then admitted to our department from the emergency department with the provisional diagnosis of \"bilateral pneumonia\" for further treatment. Since onset, his mental status, appetite, and sleep have been fairly good; bowel movements as described above, urination normal, and no significant change in body weight. The patient has a history of COPD for more than 6 years, without regular treatment; hypertension for 3 years, with a highest blood pressure of 170/80mmHg, and he regularly takes \"benidipine 4mg QD, nicorandil 5mg TID\" but does not regularly monitor his blood pressure; status post surgery for prostatic hyperplasia 20 years ago, and he regularly takes \"tamsulosin 200ug QD, finasteride 5mg QD\"; status post surgery for indirect inguinal hernia 8 years ago, with good postoperative recovery. He has a 1-year history of Parkinson's disease; the specific diagnosis and treatment course are unclear. The patient has a 40-year smoking history, about 1 pack/day, and quit smoking 10 years ago. No alcohol history; otherwise unremarkable. Physical examination on admission: T: 36.4℃, P: 85 beats/min, R: 20 breaths/min, BP: 132/82mmHg. He was conscious and cooperative with the examination. Breath sounds were coarse in both lungs, with moist rales audible; no pleural friction rub. Regular rhythm, A2>P2, no murmur heard in any valvular auscultation area, no pericardial friction rub. Abdominal wall soft, tenderness throughout the abdomen, no rebound tenderness, no palpable mass, liver not palpable below the costal margin, spleen not palpable below the costal margin, Murphy's sign negative. Shifting dullness negative, no percussion tenderness over either kidney area. Bowel sounds neither hyperactive nor diminished, 4 times/min. Pathologic signs negative. Preliminary diagnoses: 1. Bilateral pneumonia 2. Chronic obstructive pulmonary disease 3. Abdominal pain and diarrhea, cause to be investigated 4. Electrolyte disturbance (hypokalemia, hyponatremia, hypochloremia) 5. Hypertension grade 2 (moderate risk) 6. Prostatic hyperplasia 7. Parkinson's disease 8. Status post indirect inguinal hernia surgery. Initial treatment plan: after admission, treatment included moxifloxacin 400mg QD (2.16-2.18) for anti-infection, expectorant therapy, nebulization, antidiarrheal therapy, regulation of intestinal flora, and other management. The patient had no fever, and the frequency of diarrhea decreased.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bilateral pneumonia (community-acquired pneumonia/nursing home-associated pneumonia)",
+          "supporting_evidence": [
+            "82 years old, long-term resident of a nursing home",
+            "Fever for 2 days, with a maximum body temperature of 38.1°C, accompanied by chills",
+            "Associated with cough and sputum production, expectoration of a small amount of yellow sticky sputum that is difficult to cough up, accompanied by fatigue and shortness of breath",
+            "Complete blood count: white blood cells 12.1*10^9/L, segmented neutrophils 89.6%",
+            "Chest CT: scattered inflammatory changes in both lungs, small bilateral pleural effusions",
+            "Physical examination: Coarse breath sounds in both lungs, with audible moist rales.",
+            "Influenza A virus antigen negative and Influenza B virus antigen negative, making a common influenza etiology relatively unsupported"
+          ],
+          "opposing_evidence": [
+            "Arterial blood gas analysis: oxygenation 528; currently no obvious hypoxemia.",
+            "PCT 0.23 ng/ml, not significantly elevated",
+            "Body temperature was 36.4°C on physical examination at admission"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Aspiration pneumonia",
+          "supporting_evidence": [
+            "Elderly male, 82 years old",
+            "Long-term resident of a nursing home",
+            "History of Parkinson disease for 1 year, suggesting increased risk of dysphagia and aspiration",
+            "Has cough, sputum production, and shortness of breath",
+            "Chest CT showed scattered inflammatory changes in both lungs",
+            "On physical examination, moist rales were heard in both lungs."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a clear description of aspiration events, choking/coughing during eating, or dysphagia.",
+            "Imaging showed only scattered inflammatory changes in both lungs; no information on typical dependent-region involvement was provided in the first stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease (likely triggered by infection)",
+          "supporting_evidence": [
+            "History of COPD for more than 6 years; has not received regular treatment",
+            "This episode was accompanied by cough, sputum production, and shortness of breath",
+            "A small amount of yellow, tenacious sputum, suggesting possible airway infection",
+            "On physical examination, coarse breath sounds were present in both lungs, and moist rales were audible.",
+            "Mucolytic and antiasthmatic treatment was previously given in the emergency department."
+          ],
+          "opposing_evidence": [
+            "Chest CT has already shown scattered inflammatory changes in both lungs, further supporting pneumonia as the primary lesion",
+            "Blood gas analysis: pH 7.47, PaCO2 35.5 mmHg, no carbon dioxide retention",
+            "No obvious wheezing was described on physical examination."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute infectious gastroenteritis/infectious enteritis",
+          "supporting_evidence": [
+            "Accompanied by abdominal pain, abdominal distension, and diarrhea",
+            "Abdominal pain was located throughout the abdomen and was paroxysmal dull pain",
+            "Passes yellow loose stools, about 4-5 times/day",
+            "Fever, WBC 12.1*10^9/L, segmented neutrophils 89.6%, suggesting the possibility of an infectious disease",
+            "On physical examination, the abdominal wall was soft, with diffuse abdominal tenderness and no rebound tenderness, consistent with a non-surgical acute abdomen."
+          ],
+          "opposing_evidence": [
+            "The concomitant presence of marked respiratory tract symptoms and scattered inflammatory changes in both lungs on chest CT suggests that the primary site of infection may also be in the lungs.",
+            "No nausea or vomiting",
+            "Bowel sounds are neither hyperactive nor decreased, 4/min"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Acute decompensated heart failure/infection-induced cardiac insufficiency",
+          "supporting_evidence": [
+            "Advanced age, 82 years",
+            "accompanied by dyspnea",
+            "Elevated BNP: 411.00 pg/L",
+            "Chest CT: trace bilateral pleural effusions",
+            "History of hypertension"
+          ],
+          "opposing_evidence": [
+            "Fever, cough with yellow sputum, and elevated white blood cell and neutrophil counts more strongly support an infectious etiology",
+            "Chest CT was described as scattered inflammatory changes in both lungs, rather than definite findings of pulmonary edema",
+            "The physical examination did not describe signs of heart failure such as lower extremity edema, jugular venous distention, or an obvious gallop rhythm."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Infectious intra-abdominal diseases (such as early ischemic bowel disease, atypical peritonitis, or other acute abdomen)",
+          "supporting_evidence": [
+            "elderly patient",
+            "Abdominal pain was located throughout the abdomen and was paroxysmal dull pain",
+            "with abdominal distension and diarrhea",
+            "Physical examination revealed diffuse abdominal tenderness",
+            "Fever and leukocytosis are present"
+          ],
+          "opposing_evidence": [
+            "Abdominal wall soft, no rebound tenderness",
+            "Murphy's sign negative, shifting dullness negative, no percussion tenderness over the bilateral renal regions",
+            "Bowel sounds are neither hyperactive nor decreased, 4/min",
+            "There was already clear evidence of respiratory tract infection in the first stage, which can explain the fever and inflammatory response."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + fecal occult blood test",
+          "requirement": "required"
+        },
+        {
+          "exam": "complete biochemical panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Interferon-gamma release assay for TB infection",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool bacterial culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Syphilis antibody and HIV antigen/antibody combination test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete abdominal color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC: WBC 10.6×10^9/L, segmented neutrophils 81.0%, lymphocytes 9.5%, segmented neutrophil count 8.6×10^9/L, hemoglobin 122 g/L, platelet count 175×10^9/L. Urinalysis: trace protein, occult blood (RBC) 2+, WBC 1+, slightly turbid clarity, yeast-like cells 5.3/μl. Stool routine + fecal occult blood test (monoclonal method): positive (+), fecal occult blood test (chemical method): positive (+). Comprehensive biochemistry: albumin 36 g/L, total bilirubin 8.7 umol/L, direct bilirubin 3.7 umol/L, indirect bilirubin 5.0 umol/L, ALT 28 U/L, AST 43 U/L, potassium 3.4 mmol/L, sodium 134 mmol/L. Coagulation function: fibrinogen 4.67 g/L, fibrin(ogen) degradation products 15.04 цg/ml, D-dimer 4.75 mg/L. C-reactive protein 109.00 mg/L. Procalcitonin 0.13 ng/mL. ESR normal. TB infection T-cell interferon-gamma release assay: negative. Tumor markers: T-PSA 5.170 ng/mL; the remaining CEA, AFP, CA199, and F-PSA were within the normal range. Stool bacterial culture: no growth of Salmonella or Shigella. Syphilis antibody and HIV antigen/antibody combination test were both negative. Whole-abdomen color Doppler ultrasound: 1. Multiple hyperechoic lesions in the liver, indeterminate in nature, hemangioma considered possible; regular follow-up recommended. 2. Bladder not distended, indwelling urinary catheter in place, prostate not clearly visualized. 3. Pancreas and retroperitoneum not clearly visualized (bowel gas interference). Echocardiography: no obvious abnormality in cardiac structure; decreased left ventricular diastolic function, no obvious abnormality in systolic function. On Day +4, on hospital day 5, the patient began to develop somnolence, could open his eyes to loud calling but did not cooperate with answering questions, respiratory rate increased, and fever persisted. Head CT + chest CT showed: scattered inflammation in both lungs, progressed compared with before; small bilateral pleural effusions, increased compared with before. Lacunar cerebral infarction, arteriosclerotic white matter degeneration, communicating hydrocephalus. 5. Postoperative changes of the bilateral lenses within the scanned field. Serum potassium 2.7 mmol/L. Blood gas: pH [★critical★] 7.511, bicarbonate 26.4 mmol/L. Neurologic specialty examination: somnolent mental status, could open eyes when called, did not cooperate with answering questions, no gaze deviation of either eye, bilateral pupils equal, round, diameter about 2.0 mm, brisk light reflexes. Decreased spontaneous movement of the extremities, flexion observed, bilateral essentially symmetrical. Bilateral Babinski signs positive. Emergency head CT + chest CT on Day +4 showed: 1. Scattered inflammation in both lungs, progressed compared with before; small bilateral pleural effusions, increased compared with before; follow-up recommended. 2. Emphysema in both lungs, bulla in the left lower lobe; a small amount of chronic inflammation in the remaining bilateral lungs. 3. Atherosclerosis of the aorta within the scanned field. 4. Lacunar cerebral infarction, arteriosclerotic white matter degeneration, brain atrophy, communicating hydrocephalus. 5. Correlate with postoperative changes of the bilateral lenses within the scanned field. Lumbar puncture was completed; light red CSF was seen flowing out, and CSF pressure measured with a manometer was 55 mmH2O. Because the sample volume collected was small, only routine CSF analysis was sent. Routine CSF analysis: slightly turbid clarity, light red color, Pandy test positive, WBC count 50×X10^6/L, mononuclear cells 22.00%, multinucleated cells 78.00%, RBCs full field, India ink stain: Cryptococcus not detected. During the subsequent 2 attempts, specialty assistance (neurology and anesthesiology physicians) for lumbar puncture also failed to obtain qualified CSF. On Day +7, brain MRI plain scan + contrast enhancement was completed: 1. Lacunar cerebral infarction, mild arteriosclerotic white matter degeneration, brain atrophy. 2. Postoperative changes of the bilateral lenses within the scan field. EEG: diffuse low- to medium-amplitude 4-6 Hz theta waves in all leads; irregular short runs of low- to medium-amplitude 8-9 Hz alpha rhythm were seen, with poor regulation. Each region was mixed with a small number of low-amplitude 20-25 Hz beta waves and somewhat more scattered low- to medium-amplitude 0.5-2 Hz delta waves, basically symmetric bilaterally, with no spike or sharp-wave discharges. Hyperventilation response: unable to cooperate. Photic response: unable to cooperate. Conclusion: widely moderate abnormal EEG. Ophthalmology consultation showed no papilledema. On Day +19, repeat chest CT: 1. Scattered inflammation in both lungs, partially absorbed compared with before; small bilateral pleural effusions, slightly increased compared with before; patchy and linear opacities within some bronchi of the right lung; follow-up recommended. 2. Emphysema in both lungs, bulla in the left lower lobe; a small amount of chronic inflammation in the remaining bilateral lungs. 3. Slight focal widening of the thoracic aorta within the scanned field; please correlate clinically or perform further examination. 4. Fractures of the left 8th, 11th, and 12th ribs within the scanned field; compression fracture of T12 vertebra. 5. Low-density lesion in the right kidney within the scanned field.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoickBHwumQQjEic85MALPiaKuuwcJKIuKopCXcCp41ybQYNhmp7VAkibYE0xA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 1: Head and chest CT at our hospital on 02.19 showed scattered patchy increased-density opacities in both lungs.",
+            "local_src": "cleaned_cases_image_cache/5c0325ff43d38865928f7de023fe3f4b6bf3ac07.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoickib5qibhfYHeYvSMTfYxFuqt35WIRyfDlybGk1raOkLtiasFNGq9SbZw3A/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 1: Head and chest CT at our hospital on 02.19 showed scattered patchy increased-density opacities in both lungs.",
+            "local_src": "cleaned_cases_image_cache/76a6954903f296ea07e065363acdcab35423ef6d.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoickfhfVTFtlUorRpZLT7KwVNkXbGS50kOTSUUIRWkeMzGcbpIHaUNgxWg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2 Brain MRI with contrast enhancement at our hospital on 02.22",
+            "local_src": "cleaned_cases_image_cache/6094f1ab723a9f738ec475459c583541c247aa5c.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoick1lmC88eq5hLGLM4HX7Z5ggvYMBk5ria76QC4nlSBfkvib6HqXqnPK9VA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2 Brain MRI with contrast enhancement at our hospital on 02.22",
+            "local_src": "cleaned_cases_image_cache/4f359adba98bfef4e45e1d0d3433aa1578876a6c.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral meningitis",
+            "evidence": [
+              "With rapid onset and meningeal irritation signs, the possibility of this disease should be considered."
+            ],
+            "exclusion_reasons": [
+              "Subsequently, a lumbar puncture was performed; cerebrospinal fluid showed predominantly polymorphonuclear cells.",
+              "Protracted disease course",
+              "Viral serology negative",
+              "Antiviral treatment with ganciclovir was ineffective"
+            ]
+          },
+          {
+            "name": "Bacterial meningitis",
+            "evidence": [
+              "The patient was admitted with pneumonia and developed high fever, altered mental status, elevated blood counts, and CSF with predominantly polymorphonuclear cells; this needs to be considered."
+            ],
+            "exclusion_reasons": [
+              "The patient has a subacute clinical course.",
+              "Broad-spectrum antibacterial therapy with agents that penetrate the blood-brain barrier, such as meropenem and linezolid, was ineffective, which does not support"
+            ]
+          },
+          {
+            "name": "Cryptococcal meningitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no significant history of immunodeficiency.",
+              "CSF India ink stain for Cryptococcus was not positive, not supportive"
+            ]
+          },
+          {
+            "name": "Metabolic encephalopathy",
+            "evidence": [
+              "Including PD crisis, metabolic disorders, and electrolyte disturbances (hypokalemia), which can aggravate disturbance of consciousness"
+            ],
+            "exclusion_reasons": [
+              "Unable to explain the fever and cerebrospinal fluid abnormalities"
+            ]
+          },
+          {
+            "name": "Tuberculous meningitis",
+            "evidence": [
+              "Elderly man, long-term resident of a nursing home",
+              "Chest imaging suggests a suspicious linear opacity in the right lung apex and bilateral pleural effusions",
+              "During anti-infective treatment, the condition did not improve and altered mental status developed",
+              "Brain MRI showed punctate, patchy, and plaque-like long T1 and long T2 signal intensities in the centrum semiovale and basal ganglia regions; some lesions were slightly hyperintense on T2-FLAIR, and some lesions were distributed in a halo-like pattern along the lateral ventricles.",
+              "Multiple lumbar punctures indicated that the cerebrospinal fluid pressure was not elevated, and cerebrospinal fluid was difficult to obtain, suggesting a high likelihood of adhesions in the ventricles and spinal canal."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral meningitis",
+        "evidence": [
+          "With rapid onset and meningeal irritation signs, the possibility of this disease should be considered."
+        ],
+        "exclusion_reasons": [
+          "Subsequently, a lumbar puncture was performed; cerebrospinal fluid showed predominantly polymorphonuclear cells.",
+          "Protracted disease course",
+          "Viral serology negative",
+          "Antiviral treatment with ganciclovir was ineffective"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bacterial meningitis",
+        "evidence": [
+          "The patient was admitted with pneumonia and developed high fever, altered mental status, elevated blood counts, and CSF with predominantly polymorphonuclear cells; this needs to be considered."
+        ],
+        "exclusion_reasons": [
+          "The patient has a subacute clinical course.",
+          "Broad-spectrum antibacterial therapy with agents that penetrate the blood-brain barrier, such as meropenem and linezolid, was ineffective, which does not support"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Cryptococcal meningitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no significant history of immunodeficiency.",
+          "CSF India ink stain for Cryptococcus was not positive, not supportive"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Metabolic encephalopathy",
+        "evidence": [
+          "Including PD crisis, metabolic disorders, and electrolyte disturbances (hypokalemia), which can aggravate disturbance of consciousness"
+        ],
+        "exclusion_reasons": [
+          "Unable to explain the fever and cerebrospinal fluid abnormalities"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tuberculous meningitis",
+        "evidence": [
+          "Elderly man, long-term resident of a nursing home",
+          "Chest imaging suggests a suspicious linear opacity in the right lung apex and bilateral pleural effusions",
+          "During anti-infective treatment, the condition did not improve and altered mental status developed",
+          "Brain MRI showed punctate, patchy, and plaque-like long T1 and long T2 signal intensities in the centrum semiovale and basal ganglia regions; some lesions were slightly hyperintense on T2-FLAIR, and some lesions were distributed in a halo-like pattern along the lateral ventricles.",
+          "Multiple lumbar punctures indicated that the cerebrospinal fluid pressure was not elevated, and cerebrospinal fluid was difficult to obtain, suggesting a high likelihood of adhesions in the ventricles and spinal canal."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Cerebrospinal fluid examination",
+          "basis_in_stage3_input": "It is currently difficult to obtain cerebrospinal fluid. Although there is no direct evidence of the pathogen, it is clinically effective, and this approach can continue to be pursued.",
+          "why_order_this_exam": "During treatment for pulmonary infection, on hospital day 5 the patient developed persistent fever, lethargy, poor cooperation with questioning, increased respiratory rate, and bilateral positive Babinski signs, suggesting central nervous system involvement; a prior lumbar puncture yielded only a small amount of cerebrospinal fluid, which already showed a positive Pandy test, elevated white blood cell count with predominantly polymorphonuclear cells, and negative India ink stain, but key etiologic studies and more complete routine/biochemical information were lacking. Given the suboptimal response to antibacterial and antiviral therapy, and the decline in body temperature and improvement in mental status after diagnostic anti-TB treatment, tuberculous meningitis is highly suspected. Continuing to pursue cerebrospinal fluid testing is intended to further seek direct evidence or supplement inflammatory features, to help support or exclude tuberculous meningitis, and to differentiate it from bacterial, viral, and fungal meningitis as well as purely metabolic encephalopathy, while also providing a basis for subsequent decisions on whether to continue an intensified anti-TB regimen, combine glucocorticoids, and assess treatment duration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "During this period, repeat chest CT on 3.24: scattered inflammatory changes in both lungs, roughly similar to the previous study; small bilateral pleural effusions, slightly decreased compared with the previous study.",
+          "why_order_this_exam": "At disease onset, the patient had fever, cough, yellow sticky sputum, and shortness of breath. Initial chest CT showed scattered inflammatory opacities in both lungs and small bilateral pleural effusions; subsequent repeat imaging indicated progression of the pulmonary inflammatory opacities and increased pleural effusions. In the setting of a complicated infection, the patient later developed disturbance of consciousness, and dynamic assessment is needed to determine whether the pulmonary lesions remain an important source of persistent fever. Repeat chest CT on Day +38 can assess whether the bilateral pulmonary inflammatory opacities have been absorbed, changes in the pleural effusions, and whether there are new consolidations, cavities, bronchial lesions, or other TB-related thoracic clues, thereby helping to determine the status of pulmonary infection control, its relationship to the evolution of the neurologic condition, and to help distinguish simple bacterial pneumonia, aspiration pneumonia, chronic inflammatory changes, or TB-related thoracic manifestations. This examination can also be used to assess whether the pleural effusions require further management and to provide objective imaging evidence for continuing the current anti-infective/anti-TB treatment regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI",
+          "basis_in_stage3_input": "Brain MRI: lacunar cerebral infarction, mild arteriosclerotic leukoencephalopathy, cerebral atrophy.",
+          "why_order_this_exam": "Later in the course, the patient developed marked disturbance of consciousness and positive neurologic signs, but head CT showed only lacunar cerebral infarction, white matter degeneration, cerebral atrophy, and grade I communicating hydrocephalus, which were still insufficient to fully explain the clinical condition; meanwhile, cerebrospinal fluid abnormalities suggested that intracranial infection could not be excluded. The purpose of brain MRI was to more sensitively assess involvement of the brain parenchyma, meninges, and ventricular system, to evaluate for meningitis-related changes, infarction secondary to tuberculous vasculitis, progression of hydrocephalus, or other structural lesions, and to differentiate these from simple lacunar cerebral infarction, degenerative changes, and metabolic encephalopathy. Although this MRI mainly showed lacunar cerebral infarction, mild arteriosclerotic white matter degeneration, and cerebral atrophy, and did not provide typical specific etiologic evidence, it helped exclude other intracranial organic lesions that could cause disturbance of consciousness, assess disease severity and complication risk, and provide an imaging basis for subsequent neurologic treatment and prognosis assessment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After multidisciplinary difficult case discussion in the department, tuberculous meningitis was considered possible. To control disease progression, diagnostic anti-TB treatment was initiated with a 4-drug anti-TB regimen: \"isoniazid 600mg IV drip qd, pyrazinamide 1g PO qd, levofloxacin 0.5g IV drip qd, linezolid 600mg IV drip qd\" (03.08-03.18). After treatment with the diagnostic anti-TB regimen, body temperature could decrease to normal, but there was occasional fever up to 38.5℃. Mental status improved slightly compared with before; the patient was responsive to verbal stimulation, unable to speak in complete sentences, had disorientation, and although occasionally able to say a few sentences when awake, was still unable to answer questions accurately. On Day +32, to assist with diagnosis and treatment, the chief attending physician of the Department of Infectious Diseases of Peking Union Medical College Hospital was specially invited for a remote external consultation. The consultant agreed that tuberculous meningitis was a possible diagnosis. Consultation recommendations were: ① After diagnostic anti-TB therapy, the fever peak decreased. At present, CSF collection is difficult. Although there is no direct pathogen evidence, there is clinical response, so this approach can be continued: the regimen can be adjusted to a 4-drug anti-TB regimen of \"meropenem + linezolid + moxifloxacin + pyrazinamide,\" combined with medium-dose corticosteroid therapy for 3 weeks, with attention to subsequent temperature trends. ② The patient has a prior history of Parkinson's disease and has not resumed regular treatment for Parkinson's disease since disease onset; neurology evaluation for a PD crisis is recommended. ③ Screen for drug fever, but given the concomitant altered mental status, isolated drug fever is not clinically consistent. During this period, repeat chest CT on 3.24 showed: scattered inflammation in both lungs, roughly similar to before; small bilateral pleural effusions, slightly absorbed compared with before. Brain MRI: lacunar cerebral infarction, mild arteriosclerotic white matter degeneration, brain atrophy.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoickrENdw5SLqQ6woQUUEx5SibI9TicmTPrGgWxZqIftksooHctdFWbewQWg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3. Chest CT at our hospital on 03.22 showed scattered patchy areas of increased density in both lungs.",
+          "local_src": "cleaned_cases_image_cache/79daafcc20d7656ec801827a4a56091abc7f1389.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJn6fOxwXfTUUiaxbOWCmoickQAer2jGNONNF2sCZCTSV5KRlIJVZkrOrGI8b7RIR0sicdPGRfII3JXA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3. Chest CT at our hospital on 03.22 showed scattered patchy areas of increased density in both lungs.",
+          "local_src": "cleaned_cases_image_cache/ba5c2f53f2c92dcd3660b8898c9431187689741a.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Tuberculous meningitis (highly likely)",
+      "diagnostic_basis": [
+        "Epidemiologic history: nursing home residence, high risk of TB infection",
+        "Clinical features: fever, disturbance of consciousness, meningeal signs (nuchal rigidity)",
+        "CSF changes: increased WBCs (predominantly polymorphonuclear cells), increased protein, increased RBCs (possibly due to tuberculous vasculitis or traumatic puncture)",
+        "Treatment response (main supporting point): Antibacterial therapy was ineffective, but empiric anti-TB treatment was effective; body temperature decreased, and mental status improved."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Adjusted the anti-TB regimen to \"pyrazinamide + linezolid + meropenem + moxifloxacin\" for anti-TB treatment",
+        "Adjunctive anti-inflammatory therapy with a \"methylprednisolone 40 mg\" regimen",
+        "Madopar 0.125 g PO tid was added",
+        "Subsequently adjusted to an oral sequential regimen of \"isoniazid + rifampin + pyrazinamide + moxifloxacin\"; methylprednisolone was gradually tapered to 24 mg QD"
+      ],
+      "treatment_response": [
+        "The patient's peak temperature gradually decreased, and consciousness gradually recovered compared with previously.",
+        "The duration of normal body temperature gradually increased, and the patient had increasing periods of clear consciousness; initially the response was sluggish, later the patient could orient toward الصوت when called.",
+        "At approximately the 3rd week of anti-TB treatment, the patient was able to answer questions, and orientation to person and time gradually recovered.",
+        "Slight neck stiffness; spontaneous movement of all four extremities has returned; mildly increased muscle tone in both upper extremities; normal muscle tone in the lower extremities; mild edema of both lower extremities. Bilateral Babinski sign negative.",
+        "The patient improved and was discharged on Day +60.",
+        "Approximately 13 months after disease onset, the patient returned for a follow-up visit accompanied by family members. The patient was conscious, answered questions appropriately, had a natural facial expression, and had impaired walking. The patient reported being able to recall only events that occurred near the time of discharge, with no memory of events during the period of somnolence, and no confusion of remote memory."
+      ]
+    }
+  }
+}

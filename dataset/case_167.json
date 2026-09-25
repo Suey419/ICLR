@@ -1,0 +1,325 @@
+{
+  "status": "success",
+  "case_id": "case_167",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 55 years old, was admitted on Day 0, with the chief complaint of \"more than 1.5 years of shortness of breath after activity, poor sleep for 6 months, worsening for more than 1 month.\" History of present illness: Over the past year, he developed shortness of breath after activity without an obvious precipitating cause, accompanied by fatigue, poor appetite, marked weight loss, and frequent palpitations. In approximately 7 months before Day 0, PFT at an outside hospital indicated \"severe restrictive ventilatory dysfunction.\" After infection with \"COVID-19\" in approximately 6 months before Day 0, his shortness of breath worsened. He presented to our hospital on Day -73. PFT showed moderate to severe obstructive ventilatory dysfunction; bronchoscopy showed inflammatory changes of the bronchi; lavage fluid NGS showed Mycobacterium tuberculosis complex. He was diagnosed with \"COPD, pulmonary TB, anxiety and depressive state, frequent supraventricular premature beats,\" and discontinued anti-TB treatment on his own after 1 month. After stopping the medication, his shortness of breath further worsened, with intermittent bilateral lower-extremity edema, accompanied by dizziness, tinnitus, and depressed mood. Past medical history: history of \"intracerebral hemorrhage\" in 2018, with residual impaired mobility of the right extremities. Personal history: smoked for 20 years, quit smoking at age 40; heavy alcohol use for 30 years, quit alcohol at age 50. Physical examination on admission: cachectic body habitus (BMI 16.26), cyanosis of the lips. Neurologic examination: muscle strength grade 4 in all extremities, slightly increased muscle tone, symmetric deep tendon reflexes elicited, pathologic signs negative. Laboratory tests: arterial blood gas analysis showed pH 7.36, PO2 45mmHg, PCO2 62mmHg, SO2 81%. Imaging: brain + cervical spine MRI showed sequelae of old intracerebral hemorrhage in the left external capsule region and degenerative changes of the cervical spine; chest CT showed chronic bronchitis, emphysema, and multiple nodules in both lungs. Pulmonary function: on both Day -69 and Day -10, findings indicated moderate to severe obstructive ventilatory dysfunction.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJn5UwvmicbpagT4VbDPdFBkfkDKU3XoLeIRXgVsh63uReLwoeOGibQUDKQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/d1b9ce618488def8b3568d01524bb0c51feacede.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnuTCxZweWCEHsQqVa2svOaIJRSEibrkAia0J9NYx2WkhvU8DFZSG5Pdqg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/f76fc36026e1b10dc07c797a3fb9acd1b846aabe.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJncqtSwUzKKOBoA3qFrTHbd7xBQpod6h522Kr2uzOibGAMhRwJZcGZqiaA/640?wx_fmt=png&from=appmsg",
+          "near_text": "The patient had no obvious low-grade fever, night sweats, cough, or sputum production.",
+          "local_src": "cleaned_cases_image_cache/a1292cc3981d7b0543f18a7b691a09529de82abc.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIC2JJXX9dzzPpGt84eurJnIVKSWkkloLH20madxpHD9bnWQsMTiaLpicBibJ1NmYw9fTdiaicHE5iazwMg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Examination result on Day -69: total respiratory impedance (Z5) was normal",
+          "local_src": "cleaned_cases_image_cache/c191ff80925d4b272e10373a6061a8db8bd54d07.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnyaabkiaqwFDK9urUXrtRiarryhsVuYTRh8tSV2GibdD1bAuCKTfc87CCw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Day -69: FEV1 %: 51.3%",
+          "local_src": "cleaned_cases_image_cache/6e3b37edf78e81e845b7cf53bcbc5b4cce361a5f.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnFAjAqBzAu3xSwjmJ6kCItsRHF5cnNugMgvlCicede2fm3UPlWGGhIZA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Day -10 Bronchodilator Test Report",
+          "local_src": "cleaned_cases_image_cache/2816bc4f57a8e160d6aceb441380f538dc6c8f0a.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic obstructive pulmonary disease (chronic bronchitis/emphysema) with chronic type II respiratory failure",
+          "supporting_evidence": [
+            "20-year smoking history",
+            "Chest CT showed \"chronic bronchitis, emphysema\"",
+            "PFT on Day -69 and Day -10 both indicated moderate-to-severe obstructive ventilatory dysfunction.",
+            "Arterial blood gas analysis showed PO2 45 mmHg, PCO2 62 mmHg, and SO2 81%, consistent with hypoxemia with carbon dioxide retention",
+            "Physical examination revealed cyanosis of the lips, and the chief complaint was progressively worsening exertional dyspnea",
+            "The attached pulmonary function image shows increased residual volume and RV/TLC, supporting air trapping."
+          ],
+          "opposing_evidence": [
+            "In approximately 7 months before Day 0, PFT performed at an outside hospital indicated \"severe restrictive ventilatory dysfunction\"",
+            "Some of the attached pulmonary function test images suggest that FEV1/FVC is not significantly decreased and TLC is normal, which is more suggestive of a restrictive pattern or pseudorestriction and is not entirely consistent with a typical obstructive ventilatory defect."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Alveolar hypoventilation due to respiratory muscle weakness or neuromuscular disease (e.g., diaphragmatic dysfunction, motor neuron disease spectrum, etc.)",
+          "supporting_evidence": [
+            "Progressively worsening dyspnea, accompanied by marked weight loss (BMI 16.26)",
+            "Blood gas analysis showed PCO2 62 mmHg, with evidence of alveolar hypoventilation.",
+            "Neither the chest CT report text nor the attached images showed extensive consolidation, marked interstitial fibrosis, or a large pleural effusion sufficient to fully explain the severe hypercapnia.",
+            "Previous pulmonary function tests performed at different times were inconsistent, showing \"severe restrictive ventilatory dysfunction\" and \"moderate to severe obstructive ventilatory dysfunction,\" respectively. Some of the attached pulmonary function test images also suggest normal TLC and no significant decrease in FEV1/FVC, indicating the possibility of ventilatory abnormality related to respiratory muscle weakness/inadequate effort.",
+            "Neurologic examination showed grade 4 muscle strength in all four extremities"
+          ],
+          "opposing_evidence": [
+            "In the first stage, the neurologic examination showed no definite muscle atrophy, positive pathologic signs, or obvious signs of bulbar palsy.",
+            "The patient also has definite chronic bronchitis, emphysema, and obstructive ventilatory dysfunction; dyspnea and hypercapnia can also be explained by the underlying primary lung disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Active pulmonary TB or TB-related airway/pulmonary parenchymal lesions",
+          "supporting_evidence": [
+            "NGS of bronchoscopic lavage fluid showed Mycobacterium tuberculosis complex",
+            "Previously diagnosed with \"pulmonary tuberculosis\"",
+            "Anti-tuberculosis treatment was self-discontinued after only 1 month, and dyspnea further worsened after discontinuation.",
+            "Accompanied by marked weight loss, fatigue, and poor appetite",
+            "Chest CT showed multiple nodules in both lungs; the accompanying CT images show scattered small nodular opacities, and tuberculous lesions need to be differentiated."
+          ],
+          "opposing_evidence": [
+            "The chest CT report text and the accompanying images did not show definite large-area consolidation, cavitation, or typical upper-lobe fibrocavitary changes",
+            "The phase 1 information did not report fever, hemoptysis, night sweats, or other more typical constitutional symptoms of TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Chronic cor pulmonale or right heart failure",
+          "supporting_evidence": [
+            "Chronic progressive hypoxemia and hypercapnia: PO2 45 mmHg, PCO2 62 mmHg, SO2 81%",
+            "Cyanosis of the lips is present",
+            "Intermittent bilateral lower extremity edema",
+            "Underlying pulmonary diseases include chronic bronchitis, emphysema, and repeatedly abnormal pulmonary function, constituting a background for the development of chronic cor pulmonale"
+          ],
+          "opposing_evidence": [
+            "No evidence of jugular venous distention, hepatomegaly, or right heart strain on echocardiography, BNP, or ECG was provided in the phase 1 information.",
+            "No definite marked cardiac enlargement is seen on the attached chest CT images."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary malignancy (primary lung cancer or metastatic pulmonary nodules)",
+          "supporting_evidence": [
+            "Age 55 years, male",
+            "History of smoking",
+            "Accompanied by marked weight loss, poor appetite, and fatigue",
+            "Chest CT showed multiple nodules in both lungs; the attached CT images show multiple small nodular opacities."
+          ],
+          "opposing_evidence": [
+            "The chest CT report text and accompanying images did not indicate a definite intrapulmonary mass, enlarged hilar or mediastinal lymph nodes, or pleural effusion.",
+            "The patient also has disease clues that better explain the respiratory symptoms, including chronic bronchitis, emphysema, and positivity for Mycobacterium tuberculosis complex."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Electroneurography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "General condition poor; height 170 cm, weight 47 kg, BMI: 16.26 kg/m2, thin body habitus, cyanotic lips, no macroglossia, no posterior displacement of the tongue base, no low-lying soft palate, no retrognathia, no tonsillar hyperemia or enlargement, narrowed pharyngeal cavity, no abnormal findings on cardiac, pulmonary, or abdominal examination. Neurologic examination: alert, fluent speech, answers appropriate to questions, cooperative with examination, pupils equal, round, and reactive to light bilaterally, extraocular movements intact, no nystagmus, no diplopia. Bilateral nasolabial folds symmetric, tongue protrudes in the midline, gag reflex present, muscle strength grade 4 in all extremities, mildly increased muscle tone, tendon reflexes symmetrically elicited, pathologic signs negative, sensation and coordination normal, meningeal signs negative. Complete blood count: HB: 120 g/L. No obvious abnormalities in liver and kidney function, electrolytes, muscle enzymes, or myocardial injury markers. No obvious abnormalities on DIC screening or routine urine and stool tests. Thyroid function: TSH: 0.667 mIU/L, T3: 0.95 pmol/L, FT3: 2.9 pmol/L. No obvious abnormalities in the preoperative eight infectious disease tests, ANA panel, or tumor markers. Arterial blood gas analysis: pH 7.36, PO2 45 mmHg, PCO2 62 mmHg, SO2 81%, BE 7.4, HCO3- 34.6. According to the Pulmonology evaluation data, the conclusion of the patient's EMG/evoked potential report was: 1. Widespread neurogenic injury involving the cervical, thoracic, and lumbar segments, with possible anterior horn involvement; 2. Sensory nerve injury in both lower extremities; please correlate clinically. Sleep monitoring showed: AHI 102.3 events/h, OSA 0.3 events/h, CAI 0 events/h, HPI 102 events/h, average oxygen saturation 91%, lowest oxygen saturation 72%, longest apnea 51.5 s, longest hypopnea 104.5 s; post-monitoring blood gas: PO2 92 mmHg, PCO2 68 mmHg (oxygen started at 2 L/min beginning at 02:05). On further review of the patient's sleep monitoring, all sleep stages showed frequent obstructive hypopneas with microarousals, accompanied by sleep disturbance, nocturnal hypoxemia, and hypercapnia.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "weight loss, fatigue",
+              "NGS of lavage fluid showed Mycobacterium tuberculosis complex, copy number greater than 1*10^6"
+            ],
+            "exclusion_reasons": [
+              "No obvious low-grade fever, night sweats, cough, or sputum production",
+              "Imaging findings are not consistent with pulmonary tuberculosis",
+              "At follow-up in February, there was no progression; there is insufficient evidence to diagnose pulmonary tuberculosis."
+            ]
+          },
+          {
+            "name": "COPD",
+            "evidence": [
+              "Smoking history (20 cigarettes/day × 20 years)",
+              "Chest CT suggests chronic bronchitis and emphysema",
+              "PFT showed moderate-to-severe obstructive ventilatory dysfunction"
+            ],
+            "exclusion_reasons": [
+              "Symptoms are inconsistent; no history of chronic cough or sputum production (only exertional dyspnea)",
+              "Symptoms did not improve after treatment for COPD and continued to worsen"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "weight loss, fatigue",
+          "NGS of lavage fluid showed Mycobacterium tuberculosis complex, copy number greater than 1*10^6"
+        ],
+        "exclusion_reasons": [
+          "No obvious low-grade fever, night sweats, cough, or sputum production",
+          "Imaging findings are not consistent with pulmonary tuberculosis",
+          "At follow-up in February, there was no progression; there is insufficient evidence to diagnose pulmonary tuberculosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "COPD",
+        "evidence": [
+          "Smoking history (20 cigarettes/day × 20 years)",
+          "Chest CT suggests chronic bronchitis and emphysema",
+          "PFT showed moderate-to-severe obstructive ventilatory dysfunction"
+        ],
+        "exclusion_reasons": [
+          "Symptoms are inconsistent; no history of chronic cough or sputum production (only exertional dyspnea)",
+          "Symptoms did not improve after treatment for COPD and continued to worsen"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Electromyography/evoked potential study",
+          "basis_in_stage3_input": "EMG/evoked potential examination report conclusion: 1. Widespread neurogenic damage involving the cervical, thoracic, and lumbar segments, with possible anterior horn involvement; 2. Bilateral lower extremity sensory nerve damage.",
+          "why_order_this_exam": "The patient’s main manifestations are progressive exertional dyspnea, fatigue, and marked weight loss. Arterial blood gas analysis has long indicated hypercapnia and hypoxemia, but chest CT showed only chronic bronchitis, emphysema, and multiple nodules, which are difficult to fully explain the progressively worsening persistent alveolar hypoventilation. At the same time, prior pulmonary function test results were inconsistent over time, and the neurologic examination already showed muscle strength grade 4 in all four extremities, suggesting the need for vigilance for neuromuscular causes such as respiratory muscle weakness or motor neuron disease. The purpose of ordering electromyography/evoked potential testing is to determine whether there is widespread neurogenic injury and whether the anterior horn cells and peripheral nerves are involved, thereby explaining the common mechanism of respiratory failure and limb weakness; this testing helps distinguish simple pulmonary diseases such as COPD and TB from neuromuscular diseases such as ALS, and provides key evidence for subsequent decisions regarding whether long-term noninvasive ventilation, neurology follow-up, and neuroprotective therapy are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Polysomnography (PSG)",
+          "basis_in_stage3_input": "Polysomnography (PSG) showed: AHI 102.3 events/h, mean oxygen saturation 91%, lowest oxygen saturation 72%, longest apnea 51.5 s, longest hypopnea 104.5 s;",
+          "why_order_this_exam": "In the course of the disease, in addition to shortness of breath after daytime activity, the patient also had poor sleep for half a year, with worsening of the condition over the past 1 month, and blood gas analysis before and after admission showed marked carbon dioxide retention, suggesting that nocturnal ventilatory impairment may be an important factor in disease deterioration. Because the chest imaging findings and routine pulmonary manifestations cannot fully explain such severe hypercapnia, and a neuromuscular etiology has already been suspected, PSG is needed to determine whether sleep-related hypoventilation, hypoxemia, and the types of respiratory events are present. This test can quantify the nocturnal apnea/hypopnea burden, lowest oxygen saturation, and apnea duration; distinguish obstructive events from secondary alveolar hypoventilation; and has a direct role in establishing the diagnosis of \"sleep hypoventilation syndrome/secondary alveolar hypoventilation syndrome,\" explaining nocturnal hypercapnia and sleep disturbance, assessing disease severity, and determining whether nocturnal noninvasive ventilation is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas",
+          "basis_in_stage3_input": "Blood gas after monitoring: PO2 92 mmHg, PCO2 68 mmHg.",
+          "why_order_this_exam": "At the time of admission, the patient already had cyanosis of the lips. Arterial blood gas showed PO2 45 mmHg, PCO2 62 mmHg, and SO2 81%, consistent with type II respiratory failure; during sleep monitoring, significant hypoxemia and hypoventilation were also identified, so repeat arterial blood gas testing is necessary to dynamically assess oxygenation and ventilation status. Post-monitoring arterial blood gas can directly determine nighttime or post-intervention changes in PaO2 and PaCO2, clarify whether the patient has persistent or worsening alveolar hypoventilation, distinguish simple hypoxemia from respiratory failure with concomitant CO2 retention, and evaluate whether hypercapnia persists or even worsens after oxygen therapy. This test is critical for determining disease severity, guiding oxygen therapy and noninvasive ventilation parameter settings, avoiding the risk that oxygen therapy alone may mask inadequate ventilation, and serving as an objective indicator for subsequent assessment of treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pressure titration",
+          "basis_in_stage3_input": "Pressure titration: BiPAP S/T mode, BPM 15 breaths/min, EPAP 7 cmH2O, IPAP 17 cmH2O, nasal mask.",
+          "why_order_this_exam": "The patient has been clearly identified as having severe nocturnal hypoventilation and type II respiratory failure. PSG showed an extremely high respiratory event burden accompanied by marked hypoxemia, and blood gas analysis also indicated CO2 retention, indicating that merely identifying the problem is not sufficient; further pressure titration is required to determine effective noninvasive ventilation settings that can correct inadequate ventilation. Especially in the setting of suspected ALS-related respiratory muscle weakness, nocturnal ventilatory support is a core measure for improving symptoms and prognosis. The titration study can assess whether respiratory events, oxygenation, carbon dioxide, and sleep architecture improve under different EPAP/IPAP settings and backup rates, while also observing the patient's tolerance of a nasal mask and BiPAP S/T mode. This test directly informs treatment decisions: it can both verify whether nocturnal hypoventilation can be corrected by noninvasive ventilation and provide individualized settings to reduce the risk of subsequent treatment failure, and also provide a basis for formulating a long-term home noninvasive respiratory support plan after discharge.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Conclusions of the EMG/evoked potential study: 1. Widespread neurogenic injury involving the cervical, thoracic, and lumbar segments, with possible anterior horn involvement; 2. Sensory nerve injury in both lower extremities. Polysomnography (PSG) showed: AHI 102.3 events/h, mean oxygen saturation 91%, lowest oxygen saturation 72%, longest apnea 51.5 s, longest hypopnea 104.5 s; post-monitoring blood gas: PO2 92 mmHg, PCO2 68 mmHg. Frequent obstructive hypopneas during sleep with microarousals, accompanied by sleep disturbance, nocturnal hypoxemia, and hypercapnia. Pressure titration: BiPAP S/T mode, BPM 15 breaths/min, EPAP 7 cmH2O, IPAP 17 cmH2O, nasal mask. After titration, the respiratory rate was regular, with no respiratory events; both PaO2 and PaCO2 were within the normal range, and the sleep disturbance was significantly improved compared with before.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnf0fCaINiaZT4tuBR6ZCicHnvDbHweBtAKCaOkSC9qtj0bLkhAwiaV4f1A/640?wx_fmt=png&from=appmsg",
+          "near_text": "According to the Pulmonology examination records, the conclusion of the patient's electromyography/evoked potentials examination report is",
+          "local_src": "cleaned_cases_image_cache/79195c964ce844fbb5575406fc755f734e1b92f3.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnJAfNbA0c97avsFY48Utnt7VFZw1tbK2ozzNIDm6AcFIVqVEfnicWI1A/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/8ecb5f324ebfd41d3b760625e630d0ec4ad85004.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnv0Od6qGhrYWsF4yIGictW2zjvFPW1XcyGORsuMbhLnAQmvrJz4HCPow/640?wx_fmt=png&from=appmsg",
+          "near_text": "We will further observe the patient's sleep monitoring results.",
+          "local_src": "cleaned_cases_image_cache/ef066bf5810899e8b623ca16d3d4a2ea2d1fbaa0.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnonPXicL93PibWYCqPvicsvQLRCzbceOhmRZKrIXXxIlfbLdZ6U6icZ5KkA/640?wx_fmt=png&from=appmsg",
+          "near_text": "After 2 a.m., oxygen at 2 L/min",
+          "local_src": "cleaned_cases_image_cache/ff3832408193cda32090a4cf05e5231f50cde4c4.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnpmGgaWfrNNr487mgm0TwXDdrQQ9U7hE1Y8ghlL3vSE1R9DdSQkhlHw/640?wx_fmt=png&from=appmsg",
+          "near_text": "During the first half of the night without supplemental oxygen, the respiratory event-related arousal index was 114.1",
+          "local_src": "cleaned_cases_image_cache/c72aec0779c66c2f3d0a7e86e087c578d92667f4.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnJwmtXENQ2l19tOhtib82RdickECV7Nk2JE33VyyRGoxVW1jgssxQtQXQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/c8435fbe62f6033f0dcc2147ad45a5a4ebfd96d5.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnP7fm4nDWzFRm7RzwfDWETXOBEJiajDpQ6pLWic0lshcVkFFIYAnjD40g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Titration: bilevel S/T (E7, I17) cmH2O",
+          "local_src": "cleaned_cases_image_cache/9d55124bd3b432bc135efa63370c3d4f7a0a6d2e.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnibasKlVjORE8pyhkCJvfqUJ0RggRLlEOJcjFm7BgEl5icULsvzXvS6nw/640?wx_fmt=png&from=appmsg",
+          "near_text": "After use of the ventilator eliminated respiratory events",
+          "local_src": "cleaned_cases_image_cache/59ee9f8d6f2ff8c2dc6ce1c23c60da19a022aad3.png"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnWQWBC9jPRbiaA4D8lgicqexIibVo1lIb7eMxH5H09MEoZxM1rpyTePaPg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/c43d2a5200416007c56ab54ea4e1fa4073034722.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIC2JJXX9dzzPpGt84eurJnIF0UKUoKv1ZspYkofPDt84TurShohpbunxichv7O2rKLJclUgybZvibA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Discussion of treatment",
+          "local_src": "cleaned_cases_image_cache/0ca6cc83432e393447114b6ae50707f17ceec805.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIC2JJXX9dzzPpGt84eurJnN2NTosXKhGmFw36FkmqKqibs8AlbfwJE7T6kb3Astg17Ot10mheMrjw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Therefore, the patient was diagnosed with",
+          "local_src": "cleaned_cases_image_cache/9bada8f9e9dced5ac07aeb37f331a42ce05ac090.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Type II respiratory failure; 2. Sleep hypoventilation syndrome (secondary alveolar hypoventilation syndrome); 3. Amyotrophic lateral sclerosis (ALS); 4. Anxiety-depressive state.",
+      "diagnostic_basis": [
+        "EMG suggests widespread neurogenic injury involving the cervical, thoracic, and lumbar segments, with possible anterior horn involvement; sensory nerve impairment in both lower extremities",
+        "Progressive weight loss, fatigue, and dyspnea on exertion",
+        "PSG confirmed alveolar hypoventilation syndrome, nocturnal hypoxemia, and hypercapnia"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Regular use of noninvasive ventilation: AVAPS (E4, Imin8, Imax14) cmH2O, Ti 1.2 seconds, T 14 breaths/min, VT: 550 mL (no chin strap during the day, uses it at night)",
+        "Riluzole 10 mL each dose, twice daily",
+        "Escitalopram 20 mg each dose, once daily",
+        "0.9% NS 100 mL + edaravone 30 mg ivdrip bid for 15 consecutive days, then stop for 15 days; cyclic use for a total of 6 cycles",
+        "Regular follow-up with Neurology, Pulmonology, and Gastroenterology",
+        "Received pulmonary rehabilitation at the local rehabilitation department"
+      ],
+      "treatment_response": [
+        "Follow-up after 6 months: The patient's sleep improved; limb weakness and dyspnea did not worsen. He was able to work during the day and used a ventilator at night. Body weight increased by 3-4 kg."
+      ]
+    }
+  }
+}

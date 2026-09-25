@@ -1,0 +1,359 @@
+{
+  "status": "success",
+  "case_id": "case_107",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 31 years old, was admitted to the Department of Respiratory and Critical Care Medicine, inpatient ward, Jiangning Hospital of Nanjing City on Day 0, with the chief complaint of \"cough and chest tightness for 1 week, fever for 2 days.\" One week earlier, after exposure to cold, the patient developed cough with yellow-white sputum, small in amount and easy to expectorate, accompanied by chest tightness/discomfort, which was more obvious after activity, and he needed to rest at night with a high pillow in the orthopneic position. There was no blood in the sputum, no chest pain, no night sweats or fatigue, no sore throat, and no rhinorrhea, and he did not pay much attention to it. Two days earlier, he again developed fever, mainly low-grade, with a peak temperature of about 37.5℃, without syncope or chest pain, and presented to our outpatient clinic. Complete blood count showed: WBC:11.75*10^9/L, N%:71.6%, CRP:23.12mg/L. Chest CT showed multiple patchy opacities with small nodular opacities in both lungs, partial reversed halo sign, and multiple enlarged mediastinal lymph nodes. In the outpatient clinic, he was treated with intravenous \"piperacillin/sulbactam and Xiyanping\" for 1 day, after which symptom relief was not obvious. During the course of illness, the patient had no nausea or vomiting, no abdominal pain or diarrhea, appetite and sleep were acceptable, bowel and bladder habits were normal, and there was no significant change in weight. The patient stated that he had no past history of underlying disease and had not undergone routine physical examinations. He denied a history of special exposures such as industrial dust. No history of pet ownership. Smoked for more than 10 years, about 1 pack per day, and had not quit smoking. Denied family history of hereditary disease. Both parents are alive.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstILcC60Oe3mF9yx2Fp4Bhd8U0yuBmmdXHmiaic8aopuoUuCBiarbWWS3RMak4cSPWRialK8d0RsOPiaziaA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT on admission showed multiple patchy opacities and small nodular opacities in both lungs, some demonstrating a reversed halo sign-like appearance. Multiple mediastinal lymph nodes were enlarged.",
+          "local_src": "cleaned_cases_image_cache/41d8799db8269566273725a4234aef154b32c585.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired multifocal pneumonia (predominantly bacterial pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: cough and chest tightness for 1 week, fever for 2 days",
+            "One week ago, after catching a chill, the patient developed cough with small amounts of yellow-white sputum that could be expectorated.",
+            "Complete blood count showed: WBC:11.75*10^9/L, N%:71.6%, CRP:23.12mg/L",
+            "Chest CT: multiple patchy opacities with small nodular opacities in both lungs",
+            "The attached images show multiple patchy consolidations/ground-glass opacities in both lungs with a multifocal distribution, consistent with the imaging features of infectious pneumonia.",
+            "The outpatient clinic has already administered intravenous infusion treatment with piperacillin/sulbactam and Xiyanping in the direction of infectious disease management."
+          ],
+          "opposing_evidence": [
+            "Peak body temperature was around 37.5°C, consistent with low-grade fever; systemic inflammatory manifestations of infection were not severe.",
+            "After 1 day of outpatient intravenous infusion therapy, symptom relief was not obvious",
+            "Chest CT also showed a partial reversed halo sign and multiple enlarged mediastinal lymph nodes, suggesting that this is not a typical manifestation of simple common bacterial pneumonia."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Chest CT showed multiple patchy opacities with small nodules in both lungs, some with the reversed halo sign",
+            "The attached images show multiple lesions in both lungs with peripheral and multilobar distribution; some lesions are surrounded by a ring of consolidation, consistent with the imaging features of the reversed halo sign.",
+            "Clinical manifestations include cough, chest tightness, and low-grade fever; imaging may show multifocal persistent lesions in organizing pneumonia.",
+            "After 1 day of outpatient anti-infective treatment, symptom relief was not obvious, suggesting it may not necessarily be a simple common bacterial infection."
+          ],
+          "opposing_evidence": [
+            "Productive cough with yellow-white sputum, elevated white blood cell count and CRP, further supporting an infectious etiology",
+            "The disease course was only 1 week, and the onset was related to exposure to cold, which is more suggestive of an acute infectious process."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary fungal infection",
+          "supporting_evidence": [
+            "Chest CT showed multiple patchy opacities with small nodules in both lungs, some with the reversed halo sign",
+            "The attached images show multiple patchy and nodular lesions in both lungs, some exhibiting the reversed halo sign, which is one of the imaging manifestations seen in fungal infection.",
+            "Multiple enlarged mediastinal lymph nodes suggest that the lesion is not entirely consistent with simple typical bacterial pneumonia",
+            "Symptoms did not improve significantly after 1 day of intravenous antibiotic therapy."
+          ],
+          "opposing_evidence": [
+            "The patient reported no prior history of underlying disease.",
+            "Phase 1 information did not indicate high-risk factors for fungal infection such as immunosuppression, diabetes mellitus, long-term corticosteroid use, or organ transplantation.",
+            "Low-grade fever, scant sputum production, and the clinical severity is not entirely consistent with invasive fungal infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary TB (including endobronchial spread type or TB with multiple intrapulmonary lesions)",
+          "supporting_evidence": [
+            "Chest CT showed multiple patchy opacities with small nodular opacities in both lungs, and multiple enlarged mediastinal lymph nodes.",
+            "The accompanying images show multiple lesions in both lungs with nodular opacities; mediastinal lymph node enlargement can be seen in TB.",
+            "Respiratory symptoms such as cough and low-grade fever"
+          ],
+          "opposing_evidence": [
+            "Short disease course: only 1 week of cough and 2 days of fever; relatively acute",
+            "No night sweats or fatigue, and no significant change in body weight",
+            "No blood-tinged sputum",
+            "The imaging description includes a partial reversed halo sign, which more often suggests other infections or organizing lesions."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Viral pneumonia (including novel coronavirus infection, etc.)",
+          "supporting_evidence": [
+            "Symptoms include cough, chest tightness, and low-grade fever.",
+            "Chest CT showed multiple patchy opacities in both lungs. The attached images show multiple ground-glass and patchy opacities in both lungs; viral pneumonia may have similar manifestations.",
+            "Symptoms did not improve significantly after outpatient antibiotic therapy; a nonbacterial pathogen cannot be excluded"
+          ],
+          "opposing_evidence": [
+            "Productive cough with yellow-white sputum; WBC: 11.75*10^9/L, N%: 71.6%, CRP: 23.12 mg/L, more suggestive of bacterial infection",
+            "No sore throat, no rhinorrhea",
+            "Multiple enlarged lymph nodes in the mediastinum are not a common primary manifestation of uncomplicated viral pneumonia"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Granulomatosis with polyangiitis and other pulmonary vasculitides/immune-inflammatory lung diseases",
+          "supporting_evidence": [
+            "Chest CT showed multiple patchy opacities and small nodular opacities in both lungs, with a partial reversed halo sign.",
+            "The attached images show multiple nodular and patchy lesions in both lungs; the reversed halo sign may be seen in some vasculitides or immune-inflammatory lung diseases.",
+            "Symptoms did not improve significantly after anti-infective treatment; noninfectious causes should be considered."
+          ],
+          "opposing_evidence": [
+            "The patient developed cough with sputum production and fever after catching a chill, which is more suggestive of an infectious disease.",
+            "No hemoptysis, no chest pain",
+            "Phase 1 information did not provide clues to systemic vasculitis such as sinusitis, renal involvement, rash, or arthralgia"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count + CRP + erythrocyte sedimentation rate + procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis + stool routine + occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers + BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes + thyroid function panel (5 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose + 2-hour postprandial blood glucose + glycated hemoglobin + two-item diabetes panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal testing (G test, GM test, cryptococcal antigen)",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell assay + PPD test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion 8-item panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum pathogen testing (smear, culture, acid-fast bacilli)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive male tumor marker panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA panel + ANCA + rheumatoid panel + five-item immune panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymphocyte subset analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinary tract ultrasound + upper abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Two-dimensional echocardiography + transesophageal echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic bronchoalveolar lavage + EBUS-TBNA needle biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Metagenomic pathogen testing of lavage fluid",
+          "requirement": "required"
+        },
+        {
+          "exam": "Holter monitoring",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced cardiac MRI (LGE-CMR)",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Physical examination: T:37.1℃; P:125 beats/min; R:20 breaths/min; BP:147/95 mmHg; SpO2:93%. Mild cyanosis of the lips, alert, no palpable enlargement of superficial lymph nodes, no jugular venous distention. Resonant to percussion over both lungs, breath sounds clear bilaterally, a few moist rales heard at both lower lungs. Cardiac border slightly enlarged to the left, heart rate 125 beats/min, regular rhythm, grade 2/6 systolic murmur audible at the apex. Abdomen soft, liver and spleen not palpable as enlarged, no edema of both lower extremities. Laboratory tests: arterial blood gas (without oxygen inhalation) pH:7.48, pO2:67 mmHg, pCO2:39 mmHg. Glu:14.3 mmol/L. ECG: sinus tachycardia. CBC: WBC:9.38*10^9/L, CRP:127.97 mg/L↑. Urinalysis: urine protein 1+, occult blood 1+, ketones 2+, urobilinogen 1+. ESR:51 mm/h↑. Coagulation tests: fibrinogen 7.76 g/L↑, fibrin degradation products 2.08 mg/L↑. BNP:961 ng/L↑. Liver function: GGT:68 U/L↑, total protein:57 g/L↓, albumin:36 g/L↓. Fasting blood glucose:8.55 mmol/L. 2-hour postprandial blood glucose:12.9 mmol/L. HbA1c:8.6%↑. Insulin:310.6 pmol/L↑. Fungal testing, TB infection T-cell testing, and PPD were all negative. Sputum smear showed a large amount of G+ cocci, a small amount of G- bacilli, and no acid-fast bacilli. Rheumatologic panel: CRP:196.8 mg/L, antistreptolysin O:590 IU/ml. Lymphocyte subset analysis: total lymphocytes:18.45%↓. Two-dimensional echocardiography: left heart enlargement, diffuse hypokinesis of the left ventricular wall, left heart dysfunction, EF:32%, left atrial thrombus not excluded. Transesophageal echocardiography: rupture of a small chordae tendineae of the anterior mitral leaflet, moderate to severe mitral regurgitation. PFT: mild restrictive ventilatory defect and mild diffusion impairment. Bronchoscopy with bronchoalveolar lavage + EBUS-TBNA: enlarged lymph nodes were seen in station 7 and station 4R under EBUS, and TBNA was performed at each enlarged lymph node. Differential cell count of lavage fluid: lymphocytes accounted for 65%. Metagenomic pathogen testing showed 31 sequence reads of Lautropia mirabilis, 14 sequence reads of Campylobacter concisus, and 4 sequence reads of Human herpesvirus 7. Bronchoscopic biopsy pathology: the submitted tissue showed numerous lymphocytes, no definite evidence of malignancy, and a few poorly formed granulomatous nodules.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstILcC60Oe3mF9yx2Fp4Bhd8aKRCicDutmlYPallQKcC4uThJOrkbVibCjfd7xVdGpLiaibkUyImEFMt7g/640?wx_fmt=png",
+            "near_text": "1. Infectious disease?",
+            "local_src": "cleaned_cases_image_cache/eb2266334b8801f4131d2619be1cd7c71fb9d94d.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "TB infection",
+            "evidence": [
+              "The patient is a young adult male who previously denied a history of diabetes mellitus. Hyperglycemia was found after admission, with concomitant diabetes mellitus. Clinical manifestations included cough and fever. Chest CT showed multiple patchy opacities in both lungs accompanied by multiple enlarged mediastinal lymph nodes. Pathology suggested granulomatous nodules."
+            ],
+            "exclusion_reasons": [
+              "Relatively acute onset, without symptoms such as night sweats; no evidence of TB infection was found on sputum smear, PPD, blood T-SPOT, bronchoalveolar lavage fluid smear, or NGS."
+            ]
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "After admission, the patient was found to have concomitant diabetes mellitus, was immunocompromised, had an acute onset, and had clinical manifestations including dyspnea, cough, fever, and hypoxemia. Chest CT showed multiple patchy opacities in both lungs, with a partial reverse halo sign. Pathology suggested granulomatous nodules."
+            ],
+            "exclusion_reasons": [
+              "Body temperature was low-grade fever, with no hemoptysis or other manifestations; respiratory symptoms were milder than those of invasive aspergillosis; sputum smear, sputum culture, G test, GM test, and BALF NGS showed no evidence of fungal infection"
+            ]
+          },
+          {
+            "name": "tumor",
+            "evidence": [
+              "The patient has multiple enlarged mediastinal lymph nodes; lymphoma or metastatic tumor to the lymph nodes cannot be excluded. When lymphoma is accompanied by pulmonary infiltration, there may be pulmonary imaging findings."
+            ],
+            "exclusion_reasons": [
+              "Tumor markers were normal. Pathology of bronchoscopic lymph node biopsy showed no malignant tumor cells, suggesting granulomatous lesion."
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "The patient had symptoms including cough and fever. Chest CT showed multiple infiltrative opacities in both lungs, with some reversed halo signs; multiple tiny nodules were present along the peripheral rim of the reversed halo sign; multiple enlarged mediastinal lymph nodes were present. BALF cell count was predominantly lymphocytic. Pathology indicated poorly formed granulomas."
+            ],
+            "exclusion_reasons": [
+              "The patient also had manifestations of cardiac insufficiency. Two-dimensional echocardiography indicated that the EF value was lower than before. Whether the cardiac insufficiency was related to sarcoidosis could not be determined."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "TB infection",
+        "evidence": [
+          "The patient is a young adult male who previously denied a history of diabetes mellitus. Hyperglycemia was found after admission, with concomitant diabetes mellitus. Clinical manifestations included cough and fever. Chest CT showed multiple patchy opacities in both lungs accompanied by multiple enlarged mediastinal lymph nodes. Pathology suggested granulomatous nodules."
+        ],
+        "exclusion_reasons": [
+          "Relatively acute onset, without symptoms such as night sweats; no evidence of TB infection was found on sputum smear, PPD, blood T-SPOT, bronchoalveolar lavage fluid smear, or NGS."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "After admission, the patient was found to have concomitant diabetes mellitus, was immunocompromised, had an acute onset, and had clinical manifestations including dyspnea, cough, fever, and hypoxemia. Chest CT showed multiple patchy opacities in both lungs, with a partial reverse halo sign. Pathology suggested granulomatous nodules."
+        ],
+        "exclusion_reasons": [
+          "Body temperature was low-grade fever, with no hemoptysis or other manifestations; respiratory symptoms were milder than those of invasive aspergillosis; sputum smear, sputum culture, G test, GM test, and BALF NGS showed no evidence of fungal infection"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "The patient had symptoms including cough and fever. Chest CT showed multiple infiltrative opacities in both lungs, with some reversed halo signs; multiple tiny nodules were present along the peripheral rim of the reversed halo sign; multiple enlarged mediastinal lymph nodes were present. BALF cell count was predominantly lymphocytic. Pathology indicated poorly formed granulomas."
+        ],
+        "exclusion_reasons": [
+          "The patient also had manifestations of cardiac insufficiency. Two-dimensional echocardiography indicated that the EF value was lower than before. Whether the cardiac insufficiency was related to sarcoidosis could not be determined."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Holter monitoring",
+          "basis_in_stage3_input": "To clarify the diagnosis, the patient underwent further evaluation with ambulatory electrocardiographic monitoring and contrast-enhanced cardiac MRI. Ambulatory electrocardiographic monitoring showed sinus rhythm with occasional premature atrial contractions.",
+          "why_order_this_exam": "At age 31, the patient developed overt heart failure, manifested by a heart rate of 125 bpm, elevated BNP 961 ng/L, and echocardiography showing left heart enlargement and an EF of 32%. At the same time, granulomatous lesions in the lungs and mediastinum suggested possible sarcoidosis, and vigilance is required for conduction abnormalities and ventricular/atrial arrhythmias due to cardiac involvement. Holter monitoring, on the basis of a routine ECG showing only sinus tachycardia, can further screen for intermittent arrhythmias, atrioventricular block, and ectopic beat burden; determine whether chest tightness and post-exertional symptoms are related to arrhythmias; and provide support for the diagnosis of cardiac sarcoidosis, sudden death risk stratification, and subsequent assessment of the need for antiarrhythmic therapy, a pacemaker, or an ICD.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced cardiac MRI",
+          "basis_in_stage3_input": "To clarify the diagnosis, the patient underwent further evaluation with ambulatory electrocardiographic monitoring and contrast-enhanced cardiac MRI.",
+          "why_order_this_exam": "In addition to respiratory symptoms, multiple bilateral pulmonary lesions, mediastinal lymphadenopathy, elevated BAL lymphocytes, and granulomatous pathology, the patient also had marked left heart failure disproportionate to age, global left ventricular hypokinesis, mitral regurgitation, and hypoxemia, suggesting that pulmonary infection alone cannot explain the entire clinical picture and that the nature of myocardial involvement requires further clarification. Contrast-enhanced cardiac MRI can comprehensively assess cardiac chamber size, ventricular wall motion, cardiac function, myocardial inflammation/fibrosis, and perfusion characteristics, helping differentiate ischemic cardiomyopathy, myocarditis, dilated cardiomyopathy, and infiltrative/granulomatous lesions. It is particularly valuable for determining whether cardiac sarcoidosis is present and can provide a basis for subsequent glucocorticoid and heart failure treatment selection and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "first-pass myocardial perfusion",
+          "basis_in_stage3_input": "First-pass myocardial perfusion imaging showed no obvious areas of reduced perfusion in any segment of the left ventricular myocardium.",
+          "why_order_this_exam": "The patient has a long-term smoking history, newly identified abnormal glucose metabolism, and has already developed markedly reduced left ventricular systolic function; it is necessary to differentiate whether ischemic cardiomyopathy or coronary artery-related myocardial injury is present. First-pass myocardial perfusion is used to assess myocardial blood flow perfusion in each segment and determine whether there is focal or segmental hypoperfusion, thereby helping distinguish ischemic lesions from nonischemic cardiomyopathy. In this case, the clinical question for this examination is to rule out whether the marked decline in left ventricular function is caused by coronary ischemia and, in combination with the background of granulomatous pulmonary lesions, support shifting the diagnostic direction toward nonischemic inflammatory/infiltrative myocardial involvement, providing a basis for glucocorticoid therapy rather than strategies such as coronary revascularization.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Late gadolinium enhancement (LGE)",
+          "basis_in_stage3_input": "Late gadolinium enhancement (LGE) showed a small amount of linear enhancement in the mid-wall of the mid interventricular septum.",
+          "why_order_this_exam": "The patient has developed strong clinical evidence of sarcoidosis: chest CT showed multiple patchy opacities in both lungs with multiple enlarged mediastinal lymph nodes; BAL was lymphocyte-predominant; pathology showed poorly formed granulomas; and unexplained left ventricular dysfunction was also present. Delayed gadolinium enhancement imaging is the key examination for identifying the distribution pattern of myocardial fibrosis, scar, and residual injury after active inflammation, and can determine whether there is nonischemic myocardial involvement consistent with cardiac sarcoidosis. Detection of linear mid-myocardial enhancement in the mid interventricular septum helps support fibrosis after granulomatous inflammation rather than a typical ischemic necrosis pattern, increases diagnostic confidence for cardiac sarcoidosis, and is important for assessment of arrhythmia risk, prognostic stratification, indications for steroid immunotherapy, and long-term management of heart failure.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "To clarify the diagnosis, the patient underwent further evaluation with ambulatory ECG monitoring and contrast-enhanced cardiac MRI. Ambulatory ECG monitoring showed sinus rhythm with occasional premature atrial contractions. On contrast-enhanced cardiac MRI, routine cardiac imaging showed enlargement of the left atrium and left ventricle; the thickness of the left ventricular wall in all segments was at the lower limit of normal; increased trabeculation was seen in the lateral wall and apex of the left ventricle; overall left ventricular systolic function was markedly reduced; the left ventricular outflow tract was patent; and moderate mitral regurgitation was present. The sizes of the right atrium and right ventricle were normal. First-pass myocardial perfusion imaging showed no obvious perfusion defect in any segment of the left ventricular myocardium. On late gadolinium enhancement (LGE) imaging, a small amount of linear enhancement was seen in the mid-myocardial layer of the mid interventricular septum. Left heart function was markedly reduced, with a small amount of fibrosis in the mid interventricular septum.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstILcC60Oe3mF9yx2Fp4Bhd8so8pd4L6ib7E6CwduTdqdGwApjK76hMffeSOdRNGqJ0NNRbicXa5cgyQ/640?wx_fmt=png",
+          "near_text": "Figure 2. Contrast-enhanced CMR late gadolinium enhancement (LGE) showed a small amount of linear enhancement in the mid-myocardial wall of the interventricular septum (indicated by the white arrow). ① is the four-chamber view; ② is the short-axis view.",
+          "local_src": "cleaned_cases_image_cache/730d80fd5f0a6d0f020aa4a12b7334cbddb6b8a1.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstILcC60Oe3mF9yx2Fp4Bhd8rwX6sXImnrjeWPvusEOwGXmu8FR0DhvUHldtRicyXzeUdj6EcHGZeYw/640?wx_fmt=png",
+          "near_text": "Figure 3 Changes in chest imaging from disease onset to 2 months of treatment in the patient",
+          "local_src": "cleaned_cases_image_cache/5632ef4aba945d5af6d295ffec183ce34c86a0c3.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Stage II pulmonary sarcoidosis; cardiac sarcoidosis",
+      "diagnostic_basis": [
+        "On LGE-CMR, there is a small amount of linear enhancement within the mid-myocardial wall of the mid interventricular septum, consistent with cardiac sarcoidosis.",
+        "Based on the patient's medical history, the overall diagnosis is cardiac sarcoidosis"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Starting on Day +6, methylprednisolone 40 mg q12h was administered by intravenous bolus injection; at the same time, the dose of NovoRapid 30 was adjusted according to blood glucose, and metoprolol, Entresto, furosemide, and spironolactone were added for treatment to improve cardiac function, among others.",
+        "On Day +11, changed to methylprednisolone 40 mg IV push",
+        "On Day +18, it was changed again to prednisone 40 mg orally."
+      ],
+      "treatment_response": [
+        "On Day +10, repeat chest CT showed that the bilateral pulmonary infiltrative opacities were partially absorbed compared with before, with decreased density, and multiple enlarged mediastinal lymph nodes were smaller than before.",
+        "Repeat 2D echocardiography on Day +24 showed: LAD: 41 mm, LVDd: 58 mm, LVDs: 44 m. Left heart enlargement, left ventricular dysfunction, EF: 47%, rupture of a small chordae tendineae of the anterior mitral leaflet with moderate-to-severe regurgitation.",
+        "Repeat chest CT on Day +62 showed that, after treatment, most of the patchy infiltrative opacities in both lungs had been absorbed, and multiple small mediastinal lymph nodes were further decreased in size compared with before.",
+        "Repeat 2D echocardiography on Day +76 showed: EF 53%; small chordae tendineae rupture of the anterior mitral leaflet improved compared with previously, with moderate mitral regurgitation."
+      ]
+    }
+  }
+}

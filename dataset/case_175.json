@@ -1,0 +1,339 @@
+{
+  "status": "success",
+  "case_id": "case_175",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, Mr. Wang, 43 years old, chief complaint: \"recurrent cough and sputum production for 11 years.\" The patient developed recurrent cough and sputum production 11 years ago (2014), without chest tightness or dyspnea. The cough was mainly during the daytime and absent after falling asleep. He had year-round recurrent nasal congestion, rhinorrhea, and a sensation of postnasal drip, and intermittently used intranasal corticosteroids, with slight relief of nasal symptoms but no significant improvement in cough. Occasional fever was present. He sought care at local hospitals multiple times and was often diagnosed with \"acute bronchitis,\" \"pneumonia,\" \"rhinitis,\" and \"bronchial asthma.\" After treatment with antibiotics, antitussives, expectorants, and other therapies, symptoms could be temporarily relieved but recurred easily. He even received inhaled corticosteroids for several months, without improvement in cough. During the course of illness, there were no symptoms such as acid regurgitation, belching, or heartburn. Eight years ago (2017), he was hospitalized at several hospitals in our city for recurrent fever and cough for half a year; after anti-infective and other treatments, symptoms were slightly relieved but still recurred repeatedly. The patient is usually in good health and has a history of chronic rhinitis and atrophic rhinitis. He denies allergy history, denies underlying heart disease, denies prior surgical history, denies special medication use, and has a noncontributory family history. He does not smoke or drink alcohol. From 1997 to 2016, he worked in garment processing, with a small amount of dust in the work environment. Ancillary examinations: CBC, CRP, allergens, TB T-SPOT, ANA, immunoglobulins, and complement were all normal. Day 0 chest CT: scattered multiple miliary-like lesions in both lungs; please correlate clinically. Fibrotic focus in the right middle lobe. Day +2041 chest CT: bronchiolitis changes in both lungs, fibrotic focus in the right middle lobe, proliferative lesion at the left lung apex. Day +2041 PFT: normal ventilatory function, normal diffusing capacity, methacholine challenge test negative.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Upper airway cough syndrome (associated with chronic rhinitis/postnasal drip)",
+          "supporting_evidence": [
+            "Chief complaint: recurrent cough and sputum production for 11 years",
+            "Year-round recurrent nasal congestion, rhinorrhea, and a sensation of postnasal drip",
+            "History of chronic rhinitis and atrophic rhinitis",
+            "Predominantly daytime cough, with no cough after falling asleep, consistent with the clinical characteristics of upper airway irritation-related cough",
+            "During the course of the illness, there were no manifestations such as acid regurgitation, belching, or heartburn, making other common causes of chronic cough relatively less prominent.",
+            "Pulmonary ventilation function is normal, diffusing capacity is normal, and the methacholine challenge test is negative, which does not support typical asthma."
+          ],
+          "opposing_evidence": [
+            "After intermittent intranasal glucocorticoid use, the nasal symptoms were slightly relieved, and the cough showed no significant improvement.",
+            "Prior chest CT showed scattered multiple miliary-like lesions in both lungs and bronchiolitis changes in both lungs, suggesting possible concurrent lower airway/pulmonary parenchymal disease that cannot be fully explained by upper airway disease alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Diffuse panbronchiolitis or chronic bronchiolitis",
+          "supporting_evidence": [
+            "An 11-year disease course, with recurrent cough and sputum production; symptoms are persistent and recurrent.",
+            "Day +2041 Chest CT: bronchiolitis changes in both lungs",
+            "Long-standing history of chronic rhinitis, with coexisting chronic nasal inflammation and bronchiolar lesions",
+            "Repeatedly diagnosed with \"acute bronchitis\" and \"pneumonia\"; after anti-infective treatment, only temporary relief was achieved, followed by a tendency for recurrent episodes, consistent with recurrent acute exacerbations of chronic airway inflammation",
+            "Not smoking reduces the likelihood that smoking-related chronic bronchitis is the sole explanation."
+          ],
+          "opposing_evidence": [
+            "Pulmonary ventilatory function was normal, diffusing capacity was normal, and there was no clear evidence of small airway dysfunction.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Nontuberculous mycobacterial pulmonary disease (nodular/bronchiolar type)",
+          "supporting_evidence": [
+            "A prolonged course for 11 years, with recurrent episodes of cough and sputum production",
+            "Occasional fever; previously hospitalized multiple times for recurrent fever and cough for more than half a year",
+            "Day 0 Chest CT: scattered multiple miliary-like lesions in both lungs",
+            "Day +2041 Chest CT: bronchiolitis changes in both lungs",
+            "After multiple courses of anti-infective treatment, there was only slight or temporary improvement, followed by recurrent episodes, suggesting the possible presence of chronic infection with atypical pathogens"
+          ],
+          "opposing_evidence": [
+            "In the phase 1 information, more direct supporting evidence, such as sputum mycobacteria, culture, or bronchiectasis/cavitation on imaging, was not provided.",
+            "Complete blood count and CRP were normal, with no obvious evidence of active systemic inflammation"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary tuberculosis (miliary/bronchogenic dissemination or old tuberculosis with recurrent airway symptoms)",
+          "supporting_evidence": [
+            "Day 0 Chest CT: scattered multiple miliary-like lesions in both lungs; please correlate clinically",
+            "Day +2041 Chest CT: proliferative lesion in the left lung apex and fibrotic focus in the right middle lobe, possibly representing changes after prior infection",
+            "Occasional fever during the course of illness; previously had recurrent fever and cough for half a year",
+            "Long-term recurrent cough and sputum production, with multiple lesions on imaging; TB should be included in the differential diagnosis"
+          ],
+          "opposing_evidence": [
+            "T-SPOT.TB normal",
+            "The disease course lasted 11 years, and the information from the first stage did not indicate typical associated manifestations of TB such as progressive weight loss, night sweats, or hemoptysis.",
+            "The first-stage information did not provide clear contrary evidence to completely rule out TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Cough-variant asthma or chronic cough associated with eosinophilic airway inflammation",
+          "supporting_evidence": [
+            "The patient had previously been diagnosed multiple times with \"bronchial asthma\"",
+            "Chronic recurrent cough can be seen in cough-variant asthma or other eosinophilic inflammatory airway diseases",
+            "Symptoms can be temporarily relieved after treatment with antibiotics, antitussive and expectorant therapy, etc., but tend to recur, suggesting a possible chronic airway hyperresponsiveness-related etiology."
+          ],
+          "opposing_evidence": [
+            "No chest tightness or shortness of breath",
+            "Predominantly daytime cough, no cough after falling asleep, not consistent with the typical pattern of worsening at night/in the early morning",
+            "Had been treated with inhaled corticosteroids for several months, with no improvement in cough",
+            "Day +2041 PFT: normal ventilatory function, normal diffusing capacity, methacholine challenge test negative",
+            "Allergen testing was normal, denies a history of allergies"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "When we carefully reviewed the 2017 CT again, especially in comparison with the 2012 CT, we found thickening with calcification of the left wall of the mid-to-upper trachea, with slight local progression (Figure 1).",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvMXvO0c8AtAe7cWl3icTo7R3mTVM2xYdcXCntRbuvlRm16egFUwfPnpw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/aa4dc1fc74a634c34b6f9817458d506290c37cd4.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvEXBzHEp6L66sic899mRBocsVQaHEeeUItlNcgQMjVPmHB3ZpZLv0Tsg/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/57f7954d658f5219ace73fdc928d7e72483c0ef2.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvEWXQSyl3BDeia1qiawfn2icZ7ib67ibGiaHzz9adIibNXu2RtulgOXEgKHzAQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/411057dbf0d5fc6b06b7435ce8b363a519124068.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvQiaLgCia5QwX7KLia3UxoNI4VqVMyKWNztdwhAkiasz4krhgACuydzrwVw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/5aed1baa51beadd5a0c94beb71d07843886a826f.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvk3PUDYJBhno3PEhwXRDKZB7liaVzq2QYNrA7hk8bfhWWCQib9tM3cZ7Q/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/b9858d9a5fd0e5f850b054d11abd205cb6b614ef.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK5qogmSKYnicO3jovHWCXsvOaq6qibzj5CjCT8ANTeExIzICgyiap51KP24GJgfgmO5r1Xfibbj4qY8g/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 1. Chest HRCT shows mucosal thickening of the left lateral wall of the trachea, focal calcification, and focal tracheal luminal narrowing.",
+            "local_src": "cleaned_cases_image_cache/ffcbba42fe15c48cec03aebce77ff3de0ac9478a.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Chronic rhinitis/postnasal drip syndrome",
+            "evidence": [
+              "The patient has recurrent nasal congestion and rhinorrhea, often with symptoms of sniffing back and coughing up sputum, and a foreign body sensation in the nasopharynx.",
+              "Recurrent postnasal drip can lead to aspiration of small amounts of secretions, ultimately resulting in pulmonary bronchiolitis and pneumonia, which is also consistent with the current CT findings."
+            ],
+            "exclusion_reasons": [
+              "Cough and sputum production have worsened over the past 6 months, sometimes accompanied by fever. Nasal symptoms have not worsened; intranasal corticosteroids can relieve the nasal symptoms but cannot relieve the cough. The history of rhinitis cannot fully explain the recent symptoms."
+            ]
+          },
+          {
+            "name": "cough-variant asthma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's cough is often accompanied by white sputum, predominantly during the daytime, and can be relieved by treatment with antibiotics and other therapies. Prior use of inhaled corticosteroids did not provide relief. The methacholine bronchial provocation test on pulmonary function testing was negative, which does not support this diagnosis."
+            ]
+          },
+          {
+            "name": "Chronic bronchitis",
+            "evidence": [
+              "The symptoms are relatively similar to this disease."
+            ],
+            "exclusion_reasons": [
+              "The patient is a young adult and a nonsmoker. Although the patient previously worked in the garment industry, dust exposure was not substantial. To establish the diagnosis of this disease, other diagnoses with definite etiologies must still be excluded."
+            ]
+          },
+          {
+            "name": "pneumoconiosis",
+            "evidence": [
+              "In 2012, CT at our hospital showed scattered centrilobular miliary-like nodules in both lungs; on CT in 2017, the nodules were similar to the prior study."
+            ],
+            "exclusion_reasons": [
+              "No definite history of dust exposure; therefore, the diagnosis of pneumoconiosis is not supported."
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "In 2012, CT at our hospital showed scattered centrilobular miliary-like nodules in both lungs, which remained basically stable through 2017. The patient worked in garment processing from 1997 to 2016 and was also exposed to a small amount of dust at work."
+            ],
+            "exclusion_reasons": [
+              "Subacute hypersensitivity pneumonitis should be further ruled out"
+            ]
+          },
+          {
+            "name": "Gastroesophageal reflux-related cough, drug-related cough, etc.",
+            "evidence": [],
+            "exclusion_reasons": [
+              "There is no basis for this."
+            ]
+          },
+          {
+            "name": "tracheal amyloidosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Histopathology shows patchy and clump-like homogeneous, amorphous, pink-staining eosinophilic material in the submucosa, with characteristic positive Congo red staining."
+            ]
+          },
+          {
+            "name": "Relapsing polychondritis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "In this case, the lesion is relatively localized, the airway wall is rigid and fixed, and there is no chondritis at other sites, which does not support this diagnosis."
+            ]
+          },
+          {
+            "name": "endotracheal tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Pathology and cytology can provide a definitive distinction."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tracheal amyloidosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Histopathology shows patchy and clump-like homogeneous, amorphous, pink-staining eosinophilic material in the submucosa, with characteristic positive Congo red staining."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Relapsing polychondritis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "In this case, the lesion is relatively localized, the airway wall is rigid and fixed, and there is no chondritis at other sites, which does not support this diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "endotracheal tumor",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Pathology and cytology can provide a definitive distinction."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "When the patient returned to our hospital for care again in 2017, bronchoscopy was performed for the first time, revealing nodular elevations of the tracheal and left main bronchial mucosa, with white necrotic-appearing tissue adherent to the surface.",
+          "why_order_this_exam": "The patient had recurrent cough and sputum production for 11 years, accompanied by recurrent fever, and achieved only temporary relief after multiple treatments for \"bronchitis\" and \"pneumonia\"; comparison of CT scans in 2012 and 2017 suggested thickening with calcification of the left lateral wall of the mid-upper trachea with focal progression, and routine pulmonary function testing and asthma-related evaluations could not explain the symptoms, therefore bronchoscopy was directly indicated. This examination allows direct visualization of whether there are nodular mucosal protrusions, necrotic-appearing adherent material, and the extent and severity of airway lumen involvement in the trachea and main bronchi, for determining whether an organic airway lesion is present and for differentiation from simple postnasal drip, chronic bronchitis, tumor, amyloidosis, relapsing polychondritis, etc.; at the same time, it also provides localization for subsequent sampling, pathogen testing, and treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy",
+          "basis_in_stage3_input": "Biopsy at the site of the nodule",
+          "why_order_this_exam": "Bronchoscopy has already revealed nodular mucosal protrusions in the trachea and left main bronchus with adherent white necrotic-appearing tissue, indicating a definite focal organic lesion. The patient has had a protracted 11-year course, and imaging has also shown progression of tracheal wall thickening and calcification. Symptoms and bronchoscopic morphology alone cannot distinguish tracheobronchopathia osteochondroplastica, an endotracheal tumor, amyloidosis, or other chronic inflammatory/granulomatous lesions; therefore, biopsy at the lesion site is आवश्यक. The purpose of biopsy is to obtain histopathologic evidence, clarify the nature of the lesion, exclude malignancy or special inflammatory lesions, and provide a basis for definitive diagnosis, subsequent follow-up, and whether further intervention is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "Pathology showed hyperplastic squamous epithelium, cartilage, and bone tissue.",
+          "why_order_this_exam": "In this case, the clinical manifestations were chronic cough, sputum production, and recurrent infections. CT showed thickening and calcification of the tracheal wall, and bronchoscopy revealed nodular protrusions, but these clues still require final characterization by pathology. Pathologic examination can determine whether the lesion is an ossified/chondrified lesion, whether tumor cells, amyloid deposition, or other specific inflammatory changes are present, and is key to distinguishing among various space-occupying and calcified airway lesions. In this case, pathology showed hyperplastic squamous epithelium, cartilage, and bone tissue, directly supporting the diagnosis of tracheobronchopathia osteochondroplastica, and also helping to exclude important differential diagnoses such as intratracheal tumor; this is an important basis for determining that subsequent management should focus mainly on symptomatic follow-up rather than antitumor therapy or treatment for specific infections.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "White necrotic-appearing tissue and secretions were also collected for bacterial culture.",
+          "why_order_this_exam": "The patient has a long history of cough and sputum production and has repeatedly been diagnosed with \"acute bronchitis\" and \"pneumonia.\" Symptoms could be temporarily relieved after anti-infective treatment but recurred repeatedly. In addition, bronchoscopy showed white necrotic-appearing tissue adherent to the surface of the lesion with accompanying secretions, suggesting possible local chronic bacterial colonization or secondary infection. Bacterial culture was performed to determine whether worsening symptoms and recurrent fever were related to bacterial infection, to distinguish primary structural airway disease from manifestations caused by secondary infection, and to provide microbiologic evidence if anti-infective therapy is needed subsequently, thereby avoiding empiric and repeated use of antibiotics.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "White necrotic-appearing tissue and secretions were simultaneously collected for bacterial culture and fungal culture.",
+          "why_order_this_exam": "The patient has an extremely long disease course, with recurrent cough and sputum production and occasional fever. Imaging shows bronchiolitis-like changes, and bronchoscopy also revealed white necrotic-appearing tissue. Based on gross appearance alone, chronic fungal infection or fungal colonization cannot be excluded. The purpose of fungal culture is to assess whether fungal pathogens are present in the airway lesions and secretions, to help differentiate them from simple ossifying lesions, bacterial infection, tumor necrosis, or other chronic inflammatory changes; if positive, it may directly affect the subsequent anti-infective strategy, and if negative, it helps narrow the diagnostic range and reduce unnecessary antifungal therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis image",
+          "basis_in_stage3_input": "At the same time, white necrotic tissue and secretions were collected for bacterial culture, fungal culture, TB smear, etc., all of which were negative.",
+          "why_order_this_exam": "The patient’s prior chest CT in 2012 showed scattered multiple miliary-like lesions in both lungs. In 2017, there were also bronchiolitis changes, a proliferative lesion at the left lung apex, and a fibrotic lesion in the right middle lobe. Clinically, there were also recurrent cough and sputum production, with occasional fever; therefore, TB or tracheobronchial TB had to be considered in the differential diagnosis. Collection of necrotic-appearing tissue and secretions for mycobacterial smear was primarily intended to promptly screen for the presence of acid-fast bacillary infection, to explain the chronic disease course, imaging abnormalities, and necrotic appearance under endoscopy, and to distinguish it from noninfectious structural airway lesions. Although a negative result of this test cannot by itself completely exclude all TB-related diseases, it is important for reducing the likelihood of active TB infection, avoiding inappropriate anti-TB treatment, and supporting further diagnostic confirmation toward a non-TB organic lesion.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "When the patient returned to our hospital for care again in 2017, bronchoscopy was performed for the first time. Under endoscopy, nodular mucosal elevations were seen in the trachea and left main bronchus, with white necrotic-appearing material attached to the surface. A biopsy was taken from the nodules, and pathology showed hyperplastic squamous epithelium, cartilage, and bone tissue. White necrotic-appearing material and secretions were also collected for bacterial culture, fungal culture, and TB smear, all of which were negative.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstK5qogmSKYnicO3jovHWCXsv1aB3PR1f2qR3KaneJmnCoGKTUOEAvw8k6oGoHL767HaEuB14Ca2U8g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/1d835c3384d7061f00cd572def8bfd4cdf4ef1cd.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstK5qogmSKYnicO3jovHWCXsvV78ErWicsq8g7icYMXl9IpE0icABCFnAlicPTgWKZeic2dE68qEV0w4MC9w/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2: Bronchoscopy showed nodular elevations of the mucosa of the trachea and left main bronchus",
+          "local_src": "cleaned_cases_image_cache/3e2913b637490db48e8371d1737229fddc181597.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIibmEJVDKhOYQN7IiaknOibeoQK0e7uAItE5ZNZuiaZIibGhGUO2Et8icgUpibKI0c9n3EYXjx15K8dtZFg/640?wx_fmt=png&from=appmsg",
+          "near_text": "A. Bone and cartilage tissue seen on biopsy (X10)",
+          "local_src": "cleaned_cases_image_cache/e0a3a5f8f1b9772c7603e59e3cd27a21bfa34e5e.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIibmEJVDKhOYQN7IiaknOibeod50nTxLNsBNUYuiapIJfcuyH67BOUevGpicN2jnAZFRTdfGLibS7ll7wA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "B. Biopsy shows squamous metaplasia with keratinization (X10)",
+          "local_src": "cleaned_cases_image_cache/a0653c4e45cdd67338ead6ff655cbd3a4e6f224b.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Tracheobronchopathia osteoplastica (TO)",
+      "diagnostic_basis": [
+        "Clinical manifestations—chronic cough, sputum production, recurrent infections",
+        "Imaging—tracheal wall thickening and calcification, with typical features of ossification",
+        "Bronchoscopic examination showed nodular elevations of the tracheal and left main bronchial mucosa, with white necrotic-appearing tissue adherent to the surface. Biopsy was performed at the nodules, and pathology showed hyperplastic squamous epithelium, cartilage, and bone tissue; at the same time, the white necrotic-appearing tissue and secretions were collected for bacterial culture, fungal culture, and AFB smear, all of which were negative."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Only take antitussive and expectorant medications when symptoms worsen",
+        "Receive oral bacterial lysates according to the treatment cycle as immunomodulatory therapy",
+        "Usually takes traditional Chinese medicine for rhinitis"
+      ],
+      "treatment_response": [
+        "Returned to our hospital for follow-up in approximately 163 months after Day 0. Usually has mild cough and sputum production, without recurrent fever, recurrent rhinorrhea, or postnasal drip. Usually takes traditional Chinese medicine for rhinitis and does not require antibiotics.",
+        "Follow-up chest CT: Changes in the trachea and left main bronchus are basically similar compared with the prior CT findings",
+        "Repeat PFT: ventilatory function and diffusing capacity are both normal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "status": "success",
+  "case_id": "case_141",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female, 77 years old. Chief complaint: \"right shoulder joint pain and limited range of motion for 25 days.\" She was hospitalized in the Orthopedics Department of our hospital on Day 0. Past medical history: mood disorder (depression) for 12 years, without systematic medication treatment in the past 4 years; diagnosed with \"coronary atherosclerotic heart disease\" for more than 7 years; underwent cholecystectomy more than 20 years ago; underwent left knee arthroplasty more than 7 years ago, and multiple lumbar spine surgeries; underwent hemorrhoid surgery more than 2 years ago. She denied any history of smoking or alcohol use. Reverse total shoulder arthroplasty was performed on Day +3. Fever developed 4 days after surgery; after improvement with anti-infective treatment, she was discharged on Day +16. On Day +18, the patient again developed cough with yellow sputum, which improved after anti-infective treatment at a local hospital. After Day +25 (approximately 3 weeks postoperatively), she again developed sudden dyspnea. CT pulmonary angiography showed no pulmonary embolism and suggested a small amount of atelectasis and inflammation in the right middle and lower lobes and the left lung; she returned home for observation. On Day +32, dyspnea worsened. Chest CT at an outside hospital suggested inflammation in the right lower lobe. There was still no improvement after anti-infective treatment, so she was admitted to the Central ICU of our hospital on Day +41. Physical examination on admission: oxygen saturation 96% (without oxygen inhalation), R 22 breaths/min, decreased breath sounds in both lungs, more pronounced in the right lung. Ancillary examinations: arterial blood gas analysis (nasal cannula oxygen 3 l/min): pH 7.45, PO2 111 mmHg, Lac 1.4 mmol/l, SO2 99%. Complete blood count: total white blood cell count 8.69*10^9/l, hemoglobin 114 g/l, CRP 0.5 mg/l, procalcitonin 0.03 ng/ml. Six-item respiratory viral nucleic acid panel and SARS-CoV-2 nucleic acid were both negative.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUialYv6NSxMRHahJTZicbzicyzibDndOofiaA9tFdSBdHsuCyGeRuybpibIWMQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Chest CT on Day 0",
+          "local_src": "cleaned_cases_image_cache/d64708a23666a65257c4acf224f8d6ebece30203.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUiaaLxy0ibtgTofrYhzgofiam2X9Zuic2tlibyC0ZSSibxSSXzbcIaAmh9fWhw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2: CTPA on Day +25",
+          "local_src": "cleaned_cases_image_cache/b73f3f79c9f1ef802b33897dfc71fe3f696bd7e3.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Right lower lobe lung infection/pneumonia (may be accompanied by infection-related pleural effusion)",
+          "supporting_evidence": [
+            "Fever developed 4 days after surgery and improved after anti-infective treatment",
+            "On Day +18, cough recurred again, with yellow sputum.",
+            "CT pulmonary angiography on Day +25 showed atelectatic and inflammatory changes in the right middle and lower lobes and a small amount in the left lung.",
+            "Chest CT at an outside hospital on Day +32 showed inflammation in the right lower lobe.",
+            "Phase 1 images show a right thoracic lesion predominantly involving the lower lung, which may be consistent with pleural effusion complicating pneumonia"
+          ],
+          "opposing_evidence": [
+            "At admission, the total white blood cell count was 8.69*10^9/l, CRP was 0.5mg/l, and procalcitonin was 0.03ng/ml; the current inflammatory markers do not support a significant active bacterial infection.",
+            "No improvement despite anti-infective therapy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Right diaphragmatic dysfunction/phrenic nerve palsy (postoperative-related) with secondary atelectasis and dyspnea",
+          "supporting_evidence": [
+            "The patient recently underwent right reverse total shoulder arthroplasty, temporally associated with the subsequent onset of dyspnea.",
+            "On the first-phase chest radiograph-like image, marked elevation of the right hemidiaphragm is seen.",
+            "Prior CT showed atelectasis of the right middle and lower lobes, consistent with hypoventilation of the basal segments after diaphragmatic elevation.",
+            "Physical examination showed that breath sounds in the right lung were significantly decreased compared with the left side."
+          ],
+          "opposing_evidence": [
+            "The patient also has cough, expectoration of yellow sputum, and postoperative fever, further suggesting involvement of an infectious process or pleural space pathology."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Postoperative atelectasis",
+          "supporting_evidence": [
+            "The patient is elderly, recently underwent surgery, and is at high risk for postoperative atelectasis.",
+            "CT pulmonary angiography on Day +25 showed atelectatic and inflammatory changes in the right middle and lower lobes and a small amount in the left lung.",
+            "Breath sounds were diminished in both lungs, more pronounced in the right lung.",
+            "Images from the first phase show compressive atelectatic changes in the right lower lung."
+          ],
+          "opposing_evidence": [
+            "During the clinical course, there was cough with yellow sputum and postoperative fever, suggesting that it was not simply atelectasis alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary embolism/venous thromboembolic disease",
+          "supporting_evidence": [
+            "Elderly patient, recently underwent orthopedic surgery, representing a high-risk background for venous thromboembolism",
+            "On Day +25, there was a sudden onset of dyspnea, and the clinical manifestations are somewhat suggestive."
+          ],
+          "opposing_evidence": [
+            "CT pulmonary angiography on Day +25 showed no pulmonary embolism",
+            "At admission, oxygen saturation was 96% (without supplemental oxygen). Arterial blood gas analysis on nasal cannula oxygen at 3 l/min showed PO2 111 mmHg and SO2 99%, with no clear evidence of hypoxemia.",
+            "The phase 1 images are more suggestive of right-sided atelectasis/inflammatory lesion."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Dynamic chest radiography (dynamic DR)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diaphragm ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography of the extremities",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI of the cervical spine and brachial plexus",
+          "requirement": "required"
+        },
+        {
+          "exam": "arterial blood gas analysis in the supine and upright positions",
+          "reason": "In patients with diaphragmatic dysfunction, upright and supine arterial blood gas analysis can objectively assess changes in oxygenation and ventilation between the upright and supine positions, providing a basis for diagnosis.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Repeat chest CT report: inflammation in both lower lungs, more pronounced on the right. After careful analysis of the patient's serial chest CT imaging and comparison of the preoperative and postoperative chest CT scans, it was found that the pulmonary inflammation described in the CT report was not inflammation, but was mainly manifested as right lung atelectasis with a marked reduction in right lung volume. The patient has elevation of the right hemidiaphragm and bilateral lung atelectasis, predominantly involving the right lung. Pulmonary function: severe restrictive ventilatory dysfunction; moderate reduction in diffusing capacity. Dynamic DR: dynamic demonstration of reduced right diaphragmatic motion and lung volume change compared with the left side; maximum excursion of the right diaphragm 14.00 mm, maximum excursion of the left diaphragm 41.20 mm. Decreased bilateral diaphragmatic motion, more severe on the right. Diaphragm ultrasound: at the right hemidiaphragm dome measured at the right midclavicular line between the 8th and 10th intercostal spaces, diaphragm thickness was approximately 1.7 mm, and diaphragmatic excursion was approximately 5-6 mm. Restricted motion of the right diaphragm with reduced excursion. Electromyography of the extremities: no obvious abnormality in right-sided nerve conduction, no abnormality of the brachial plexus. Conclusion: mild bilateral carpal tunnel syndrome. Cervical spine + brachial plexus MR: posterior disc protrusion at C3-4; disc bulging at C4-5, C5-6, and C6-7; no abnormality seen in the right brachial plexus from the right cervical root region to the level of the right humeral head; part of the right brachial plexus below the humeral head was not clearly visualized; no obvious abnormality in the left brachial plexus.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUia8wvUaOaBkAlrn2cQ8VP8Ztibic9Phiaz9m16mhlTSsf6IsMZWYkQG6CYQ/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 3: Dynamic DR on Day +45",
+            "local_src": "cleaned_cases_image_cache/419321d18c4828b280d171d84c30aeca83a51f4e.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "Chest CT report: inflammatory changes in both lower lungs, more pronounced on the right"
+            ],
+            "exclusion_reasons": [
+              "Careful analysis of the chest CT reveals the main findings are right lung atelectasis, marked reduction in right lung volume, and elevation of the right hemidiaphragm."
+            ]
+          },
+          {
+            "name": "phrenic nerve injury due to shoulder joint surgery",
+            "evidence": [
+              "CTPA 3 weeks postoperatively showed elevation of the right hemidiaphragm"
+            ],
+            "exclusion_reasons": [
+              "The surgical field was far from the phrenic nerve, and the patient also had elevation of the left hemidiaphragm, so it is difficult to attribute the diaphragmatic finding to the surgical procedure."
+            ]
+          },
+          {
+            "name": "Cervical intervertebral disc herniation compressing the phrenic nerve",
+            "evidence": [
+              "Cervical spine MRI showed posterior protrusion of the C3-4 intervertebral disc and bulging of the C4-5 and C5-6 intervertebral discs."
+            ],
+            "exclusion_reasons": [
+              "The site of compression is predominantly on the left side, which is inconsistent with right diaphragmatic paralysis being more severe than on the left.",
+              "Contrast-enhanced MRI of the neck showed no pathological changes in the cervical spinal cord"
+            ]
+          },
+          {
+            "name": "Infection-triggered myasthenia gravis",
+            "evidence": [
+              "After shoulder joint surgery, the patient developed fever, a cold, cough, and yellow sputum, with a definite history of respiratory tract infection."
+            ],
+            "exclusion_reasons": [
+              "Myasthenia gravis antibodies and repetitive nerve stimulation of the orbicularis oculi were negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "phrenic nerve injury due to shoulder joint surgery",
+        "evidence": [
+          "CTPA 3 weeks postoperatively showed elevation of the right hemidiaphragm"
+        ],
+        "exclusion_reasons": [
+          "The surgical field was far from the phrenic nerve, and the patient also had elevation of the left hemidiaphragm, so it is difficult to attribute the diaphragmatic finding to the surgical procedure."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Cervical intervertebral disc herniation compressing the phrenic nerve",
+        "evidence": [
+          "Cervical spine MRI showed posterior protrusion of the C3-4 intervertebral disc and bulging of the C4-5 and C5-6 intervertebral discs."
+        ],
+        "exclusion_reasons": [
+          "The site of compression is predominantly on the left side, which is inconsistent with right diaphragmatic paralysis being more severe than on the left.",
+          "Contrast-enhanced MRI of the neck showed no pathological changes in the cervical spinal cord"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infection-triggered myasthenia gravis",
+        "evidence": [
+          "After shoulder joint surgery, the patient developed fever, a cold, cough, and yellow sputum, with a definite history of respiratory tract infection."
+        ],
+        "exclusion_reasons": [
+          "Myasthenia gravis antibodies and repetitive nerve stimulation of the orbicularis oculi were negative"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat dynamic DR",
+          "basis_in_stage3_input": "On Day +65, repeat dynamic DR showed that left lung motion had improved compared with previously, while right lung motion had improved only slightly.",
+          "why_order_this_exam": "The patient is 77 years old. Shortly after right reverse total shoulder arthroplasty, she developed recurrent cough, yellow sputum, fever, and progressive dyspnea. Subsequent imaging on multiple occasions showed right lung atelectasis, decreased right lung volume, and elevation of the right hemidiaphragm. In addition, after anti-infective treatment, the symptoms and imaging did not show the marked improvement expected for pneumonia, suggesting that continued dynamic assessment is needed to determine whether diaphragmatic motion abnormality is the predominant cause. A prior dynamic DR had already shown less right-sided diaphragmatic motion and lung volume change than on the left, with reduced bilateral diaphragmatic excursion that was more severe on the right. Therefore, the purpose of repeat dynamic DR is to directly compare whether bilateral diaphragmatic motion and lung volume changes recover during rehabilitation training and follow-up, determine whether the condition is improving, persisting, or progressing, explain the reason for the patient's prolonged dyspnea, and further distinguish the recovery process of simple postoperative/post-infectious atelectasis from persistent phrenic nerve-diaphragm dysfunction. This examination can also be correlated with chest CT, diaphragmatic ultrasound, and pulmonary function results to provide a basis for assessing the degree of functional impairment, predicting the likelihood of recovery, and planning subsequent rehabilitation or further specialty evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diaphragmatic electromyography with magnetic/electrical stimulation + diaphragmatic function testing",
+          "basis_in_stage3_input": "On Day +127, the patient presented to the outpatient clinic of the Department of Pulmonary and Critical Care Medicine at a tertiary hospital in Guangzhou and underwent magnetic stimulation diaphragm electromyography + diaphragm function testing.",
+          "why_order_this_exam": "The patient developed postoperative dyspnea that has continued to worsen. Serial follow-up CT indicated that this was mainly not due to active infection, but rather right lung atelectasis, decreased right lung volume, and elevation of the right hemidiaphragm; dynamic DR and diaphragmatic ultrasound both indicated decreased bilateral diaphragmatic motion, more pronounced on the right, and PFT showed severe restrictive ventilatory dysfunction, indicating a definite respiratory muscle/diaphragmatic functional problem. However, prior limb electromyography showed no explanatory nerve conduction abnormality, brachial plexus MRI showed no definite abnormality, the cervical spine imaging findings were inconsistent with the distribution of greater right-sided involvement, and myasthenia gravis-related testing was also negative. Therefore, the core clinical question still requires further clarification: is this neurogenic diaphragmatic paralysis caused by phrenic nerve injury, or is it due to other myogenic, neuromuscular junction, or central causes. Diaphragmatic EMG with magnetic stimulation combined with diaphragmatic function testing can more directly assess phrenic nerve conduction and diaphragmatic electrophysiologic responses, and is the key examination to confirm phrenic nerve injury and clarify the nature of the lesion and the side involved; its results will not only help establish the final diagnosis, but also exclude other explanations considered in the earlier differential, including post-infectious myasthenia gravis, simple pulmonary infection, and brachial plexus or cervical spine lesions, and on this basis determine whether subsequent management should mainly focus on neurotrophic therapy and rehabilitation training or consider other treatment and prognosis assessment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +50, a hospital-wide multidisciplinary consultation was requested. On Day +65, repeat dynamic DR showed that left lung mobility had improved compared with before, while right lung mobility had improved only slightly. On Day +127, the patient presented to the outpatient clinic of the Department of Pulmonary and Critical Care Medicine at a tertiary Grade A hospital in Guangzhou and underwent magnetic/electrical stimulation diaphragmatic electromyography plus diaphragmatic function testing.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUiaBv0gQibONAluc9kkp3VpBVCk9qaQRsehLwxxnAl4wXLN9I9icIaaI7qQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4: Dynamic DR, Day +65",
+          "local_src": "cleaned_cases_image_cache/15df59a125ed9e314e90c33b224ae3e545f15c5d.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUiau8UKhANcOAltFax5xibtUaW4kYtXfcFogZfatlsRV2T5J5JQQK8pbicQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4: Dynamic DR, Day +65",
+          "local_src": "cleaned_cases_image_cache/f721511b6a0b545b2c4a30d44114d89d125a2624.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJibkqV1UcFjqESoImPxFVUiaDABU5OPjNDNeQlTduRhgpziaGEAXS8m3d05GYbVweC5hf6mLht8lwHA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 5: Comparison of DR from Day +65 (left image) and DR from Day +45 (right image)",
+          "local_src": "cleaned_cases_image_cache/77681efe0dbbdad118a0474221a46272351c3868.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Diaphragmatic dysfunction (diaphragmatic paralysis) caused by phrenic nerve injury reverse total shoulder arthroplasty left knee arthroplasty lumbar spine surgery status post hemorrhoid surgery coronary atherosclerotic heart disease status post cholecystectomy",
+      "diagnostic_basis": [
+        "Diaphragmatic electromyography with magnetic/electrical stimulation and diaphragm function testing confirmed diaphragmatic dysfunction caused by phrenic nerve injury",
+        "PFT: severe restrictive ventilatory dysfunction; moderate reduction in diffusing capacity. Diaphragmatic ultrasound: at the right hemidiaphragm dome measured at the 8th-10th intercostal spaces along the right midclavicular line, diaphragm thickness was approximately 1.7 mm, and diaphragmatic excursion was approximately 5-6 mm. Restricted motion of the right diaphragm with decreased excursion.",
+        "Dynamic DR: Dynamic visualization showed reduced right diaphragmatic motion and lung volume change compared with the left side; the maximum diaphragmatic excursion was 14.00 mm on the right and 41.20 mm on the left. Bilateral diaphragmatic motion was decreased, more pronounced on the right.",
+        "Diaphragm ultrasound: At the right midclavicular line in the 8th-10th intercostal spaces, the diaphragm thickness at the dome of the right hemidiaphragm was measured at approximately 1.7 mm, and diaphragmatic excursion was approximately 5-6 mm. Right diaphragmatic motion was restricted, with decreased excursion.",
+        "Comparison of the preoperative and postoperative chest CT scans showed that the main chest CT findings were right lung atelectasis and markedly decreased right lung volume. The patient had elevation of the right hemidiaphragm and bilateral atelectasis, predominantly involving the right lung.",
+        "Previously diagnosed with coronary atherosclerotic heart disease more than 7 years ago; underwent cholecystectomy more than 20 years ago; underwent left knee arthroplasty more than 7 years ago, with multiple lumbar spine surgeries; underwent hemorrhoid surgery more than 2 years ago. Denies a history of smoking or alcohol use. Underwent reverse total shoulder arthroplasty on Day +3."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Administered mecobalamin + vitamin B1 for neurotrophic therapy, and alprazolam for mood improvement treatment",
+        "Transferred to the Rehabilitation Department for diaphragmatic and right upper extremity joint rehabilitation training for 50+ days",
+        "Upper extremity muscle strengthening exercises and diaphragmatic rehabilitation training"
+      ],
+      "treatment_response": [
+        "After standardized rehabilitation training, the patient reported no improvement in dyspnea and fatigue.",
+        "After learning about the condition, the patient became extremely depressed and hopeless, and died by suicide by jumping into a river on Day +130."
+      ]
+    }
+  }
+}

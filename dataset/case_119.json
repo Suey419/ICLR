@@ -1,0 +1,482 @@
+{
+  "status": "success",
+  "case_id": "case_119",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 70 years old, from Jilin City, Jilin Province, was admitted to the Department of Pulmonary and Critical Care Medicine inpatient ward of our hospital on Day 0, with the chief complaint of \"intermittent shortness of breath and chest tightness for half a month, cough for 2 days.\" Present illness history: Half a month before admission, the patient developed \"shortness of breath and chest tightness\" without an obvious precipitating factor, which were more pronounced after activity and relieved after rest, without chest pain or hemoptysis, without night sweats or fatigue, and without symptoms such as palpitations or awareness of heartbeat. She presented to Xi'an Beifang Hospital on Day -7, where chest CT showed: left pleural effusion. Closed thoracic drainage was performed. Tumor markers in pleural fluid tested at the outside hospital showed: carcinoembryonic antigen 20.66 ng/ml↑, carbohydrate antigen CA125 792.1 U/ml↑. After empiric anti-infective and symptomatic treatment, her shortness of breath and chest tightness were somewhat relieved compared with before, but cough developed, which was dry cough, without fever. She then presented to our hospital for further diagnosis and treatment. Since onset, the patient has remained conscious and clear-minded, in fair spirits, with normal physical strength, normal appetite, normal urination and bowel movements, average sleep, and no significant change in weight. Past medical history: The patient has an allergic constitution and a prior history of drug allergy; details are unclear. She underwent \"hysterectomy\" at an outside hospital in 2000 because of uterine fibroids, with no postoperative discomfort. She denies a history of \"hypertension,\" \"diabetes mellitus,\" \"coronary artery disease,\" or other such conditions, and has no history of infectious diseases such as hepatitis or TB. Personal history: No history of tobacco, alcohol, drug, or toxic exposure. Family history: Both parents are deceased; causes of death are unknown. Siblings and children are in good health. No notable family history. Physical examination: T 36.3℃, P 95/min, R 24/min, BP 122/78 mmHg. No enlarged lymph nodes were palpable throughout the body. No chest wall deformity was noted. A closed thoracic drainage tube was visible on the left posterior chest. Bilateral respiratory excursion was symmetric. Tactile fremitus was slightly decreased in the left lower lung; no increase or decrease in tactile fremitus was noted in the remaining lung fields. No pleural friction fremitus was palpable. Percussion of the left lower lung was dull; the remaining lung fields were resonant to percussion. Breath sounds were markedly diminished in the left lower lung; breath sounds in the remaining lung fields were clear. No dry or wet rales were heard in either lung, and no pleural friction rub was heard. No precordial bulge was present. The apical impulse was located at the fifth intercostal space, 1 cm medial to the left midclavicular line. No thrill was palpable. Cardiac borders were not enlarged. Heart rate was 95/min, rhythm regular, heart sounds showed no obvious increase or decrease in intensity, and no pathologic murmur was heard in any valvular auscultation area. The abdomen was flat and soft, with no hepatosplenomegaly, no abdominal tenderness, and no abdominal muscle guarding. No edema was present in either lower extremity. Outside hospital examinations: Chest CT (Day -7) showed: nodule in the apicoposterior segment of the left upper lobe, with follow-up recommended after anti-infective treatment; linear opacity in the apical segment of the right upper lobe; small solid nodules in the lateral segment of the right middle lobe and the lateral basal segment of the left lower lobe, with follow-up observation recommended; enlarged mediastinal lymph nodes; small pericardial effusion; small left pleural effusion; scattered hepatic cysts; calcified focus in the right hepatic lobe. Head CT showed: frontal bone osteoma; scattered patchy low-density foci in the right parietal lobe and left frontal lobe, lacunar cerebral infarction could not be excluded; MR examination if necessary.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRAqIzDPgXdHARicgM6NibE0aL1cicMLaoaOgn2JxQTb0QUPXibP551adRCA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (outside hospital, Day -7)",
+          "local_src": "cleaned_cases_image_cache/d3607e1b95e9c69c9b7bbff1e4f2cad381008ca9.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Lung cancer with malignant pleural effusion (left lung primary more likely)",
+          "supporting_evidence": [
+            "70-year-old woman with half a month of shortness of breath and chest tightness; chest CT showed left pleural effusion, and the symptoms were consistent with pleural effusion",
+            "Chest CT at an outside hospital showed a nodule in the apicoposterior segment of the left upper lobe, multiple small nodules in both lungs, and enlarged mediastinal lymph nodes, suggesting the possibility of a neoplastic pulmonary lesion.",
+            "At an outside hospital, pleural fluid tumor markers showed elevated carcinoembryonic antigen at 20.66 ng/ml and elevated CA125 at 792.1 U/ml, supporting the possibility of malignant pleural effusion",
+            "Outside hospital CT showed a small pericardial effusion, which may coexist with pleural/mediastinal neoplastic involvement",
+            "Physical examination showed slightly decreased tactile fremitus over the left lower lung, dullness to percussion, and markedly diminished breath sounds, consistent with signs of left pleural effusion.",
+            "The attached image shows an abnormal nodule/patchy lesion in the left lung. Combined with the described nodule in the left upper lobe, this supports a primary pulmonary lesion."
+          ],
+          "opposing_evidence": [
+            "The patient has no significant weight loss, normal appetite, and normal physical strength.",
+            "No hemoptysis, chest pain, or other symptoms",
+            "No definitive histopathologic or cytologic evidence was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Metastatic malignant pleural tumor or intrapulmonary metastatic tumor (associated with an extrapulmonary primary tumor)",
+          "supporting_evidence": [
+            "Left pleural effusion with elevated pleural fluid tumor markers CEA and CA125, suggesting possible malignant effusion",
+            "Chest CT showed multiple nodules in both lungs and enlarged mediastinal lymph nodes, which may be seen in metastatic tumor.",
+            "A small pericardial effusion suggests possible serosal cavity involvement",
+            "The patient previously underwent hysterectomy, although the reason was uterine fibroids; however, when a marked elevation of CA125 occurs in an elderly woman, gynecologic or peritoneal-related metastatic malignancy should be considered."
+          ],
+          "opposing_evidence": [
+            "The prior hysterectomy was performed for uterine fibroids; the Phase 1 information did not indicate a definite history of malignancy.",
+            "No evidence of an abdominopelvic mass, ascites, or other extrapulmonary primary lesion was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Tuberculous pleurisy",
+          "supporting_evidence": [
+            "The main manifestation is unilateral left pleural effusion; tuberculous pleuritis may present as unilateral pleural effusion and cause shortness of breath and chest tightness.",
+            "Chest CT showed enlarged mediastinal lymph nodes, which may be seen in TB infection",
+            "The patient is from an area where TB is still prevalent; unilateral pleural effusion should routinely be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient had no constitutional TB symptoms such as fever, night sweats, fatigue, or weight loss.",
+            "Past medical history: denies a history of TB and other infectious diseases.",
+            "Elevated pleural fluid CEA is more suggestive of malignancy than of simple tuberculous pleural effusion.",
+            "The images and text indicate pulmonary nodules, mediastinal lymphadenopathy, and a small pericardial effusion, but no typical imaging description of TB was seen in the first stage."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Pleural effusion associated with pneumonia or pulmonary infection (parapneumonic pleural effusion)",
+          "supporting_evidence": [
+            "The patient developed a cough over the past 2 days. The chest CT report recommended follow-up after initial anti-infective treatment for a nodule in the apicoposterior segment of the left upper lobe, indicating that an infectious lesion had previously been considered.",
+            "The attached image shows a lesion shadow in the left lung; infectious inflammatory infiltration may be confused with nodules/patchy opacity.",
+            "Pleural effusion may be caused by pulmonary infection, and after empiric anti-infective therapy, the patient's shortness of breath and chest tightness were somewhat relieved compared with before."
+          ],
+          "opposing_evidence": [
+            "Cough is dry, without fever",
+            "No dry or moist rales were heard in either lung",
+            "Elevated pleural fluid tumor markers CEA and CA125 do not support a purely parapneumonic effusion.",
+            "There are enlarged mediastinal lymph nodes, small nodules in both lungs, and a small pericardial effusion; compared with simple infection, neoplastic lesions warrant greater vigilance."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Heart failure or other cardiogenic pleural effusion",
+          "supporting_evidence": [
+            "Chief complaint: shortness of breath and chest tightness. Imaging shows pleural effusion and a small amount of pericardial effusion; cardiogenic causes should be included in the differential diagnosis.",
+            "When pleural effusion occurs in elderly patients, a cardiogenic cause should be considered."
+          ],
+          "opposing_evidence": [
+            "No palpitations or symptoms such as awareness of heartbeat",
+            "Physical examination: no cardiac enlargement; heart rate 95 beats/min, regular rhythm; no pathologic murmurs heard in any valve area.",
+            "No edema in both lower extremities",
+            "The pleural effusion is predominantly left-sided and is accompanied by a left lung nodule, enlarged mediastinal lymph nodes, and elevated tumor markers in the pleural fluid, which is not consistent with the common features of a purely cardiogenic pleural effusion."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary embolism-related pleural effusion",
+          "supporting_evidence": [
+            "The patient presented with half a month of shortness of breath and chest tightness at onset; pulmonary embolism may present with dyspnea accompanied by a small amount of pleural effusion.",
+            "In elderly patients presenting with unexplained chest tightness and shortness of breath, pulmonary embolism should be considered in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "No chest pain or hemoptysis",
+            "The information from the first stage did not indicate clear high-risk clues for venous thromboembolism, such as prolonged bed rest, lower extremity swelling and pain, or a confirmed diagnosis of tumor.",
+            "Chest CT has already shown a left lung nodule, small nodules in both lungs, enlarged mediastinal lymph nodes, and pleural effusion; elevated tumor markers further support a neoplastic etiology.",
+            "Stage 1 information did not provide imaging evidence related to pulmonary embolism"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Superficial lymph node ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Head CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Four infectious disease screening tests (hepatitis B serologic markers, hepatitis C, HIV, TP)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bacterial and fungal culture of bronchoalveolar lavage fluid",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF pathogen nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "TAP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "VEGF",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA profile, ANCA, immunoglobulin and complement panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of the lower extremities",
+          "requirement": "optional"
+        },
+        {
+          "exam": "video bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF cytopathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: CBC, coagulation function, biochemical indices, and blood gas analysis are shown in the image. Cardiac infarction marker: NT-proBNP 276 pg/mL↑. Procalcitonin: normal. Four infectious disease items: hepatitis B serologic markers, hepatitis C, HIV, TP (-). Bacteria: bronchial lavage fluid: G+ cocci, G+ bacilli, G- cocci, G- bacilli, acid-fast bacilli (-); bronchoalveolar lavage fluid: no mycobacteria, and all indices on respiratory pathogen nucleic acid testing were (-). Fungi: fungal culture of bronchial lavage fluid (-). Tumor markers: carcinoembryonic antigen 6.17 ng/ml↑ (serum, this hospital). TAP: abnormal sugar chain glycoprotein aggregate area 153.15 μm2↑. VEGF: (-). Autoantibodies ANA panel, ANCA, immunoglobulin and complement panel: (-).\nECG: sinus rhythm, abnormal ECG, ST-segment abnormality.\nUltrasound: echocardiography (Day -2): small pericardial effusion; Doppler echocardiography approximately normal. Cardiac and pleural ultrasound (Day +6): small pericardial effusion; mild tricuspid regurgitation; pulmonary artery systolic pressure 90 mmHg, mean pulmonary artery pressure 28 mmHg. Left pleural effusion (moderate). Abdominal ultrasound: abdomen and superficial lymph nodes: no obvious abnormality. Lower-extremity deep venous ultrasound: widened inner diameter of the right calf intramuscular vein, with patent blood flow; widened inner diameter of the left calf intramuscular vein, with blood flow stasis; blood flow patent in the bilateral common femoral, superficial femoral, deep femoral, popliteal, great saphenous, and small saphenous veins.\nChest CT (Day -2): nodule in the apicoposterior segment of the left upper lobe, recommend repeat examination after anti-infective treatment; linear opacity in the apical segment of the right upper lobe; small solid nodules in the lateral segment of the right middle lobe and the lateral basal segment of the left lower lobe, recommend follow-up observation; enlarged mediastinal lymph nodes, small pericardial effusion; small left pleural effusion; scattered hepatic cysts; calcified focus in the right hepatic lobe.\nHead CT showed: frontal bone osteoma; scattered patchy low-density foci in the right parietal lobe and left frontal lobe, lacunar cerebral infarction cannot be excluded, MR examination if necessary; age-related brain changes.\nFlexible bronchoscopy (Day +2): localized bulge seen on the membranous portion of the lower trachea near the carina, carina sharp; lumina of all levels of bronchi in the left and right lungs were patent, mucosa smooth, and no neoplasm was seen under bronchoscopy. Based on CT localization, an ultrasound probe examination was performed in the left upper lobe, and no abnormal echo was detected.\nBALF pathology cytology result (Day +4): cell count: ≥40%. Cell types: no red blood cells, no squamous cells, neutrophils present, columnar cells present, lymphocytes present, no eosinophils, histiocytes present. Pathogens: no coccobacillary infection, no Candida infection, no HPV infection, no Actinomyces infection, no herpes infection. Cytologic diagnosis: no tumor cells identified.\nPulmonary function test: severe small airway airflow obstruction; mild mixed ventilatory dysfunction; mildly impaired pulmonary ventilation function, mildly reduced diffusing capacity.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRZ24F9wSfJHhNkofjxmnjluD3IvEXZsvGRrlYNKADfoAwPHEUiaJyCicw/640?wx_fmt=png",
+            "near_text": "Coagulation function",
+            "local_src": "cleaned_cases_image_cache/43ab3438db00d966f7a9222c0f3f616fc8b28136.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRCDy9OEtkF8v9d1GBzvot2Vh62qMX5zXNQawA95DxN5WfxfC1zib4SHg/640?wx_fmt=png",
+            "near_text": "[Biochemical markers]",
+            "local_src": "cleaned_cases_image_cache/02898598a6a1c046651be2d7c602ed3899879854.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRAqIdX7VCGibOEIicwYbZXroKFicGHEaAMiaF0Kp4R92BskaXC2icgEYggMQ/640?wx_fmt=png",
+            "near_text": "Arterial blood gas analysis",
+            "local_src": "cleaned_cases_image_cache/207a9173dc3fd8ed71125101ecebab5803e85bce.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRCRH4qaKz4CKnibmab2gMvMSC6TcicvZ4QjyWgM1D9gww2swbfLBicjNdw/640?wx_fmt=png",
+            "near_text": "[Myocardial infarction markers] NT-proBNP 276 pg/mL ↑",
+            "local_src": "cleaned_cases_image_cache/2743e7aa99d9842e5b89b0ead9bcecb943f0e066.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRsPj1VTMOVhj0hraQCXauyIEbloX3c9BY3NSPL0mk4CGLicgLYHlCEMw/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT (our hospital, Day -2)",
+            "local_src": "cleaned_cases_image_cache/df0229c7fe7f832ab353ae59a3bbc38f19516cd4.png"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRB9qfEn20Eno4pFUAcALdwbicdDs26ib8u9JDiaQXYvW7z4a8moicUVxkBA/640?wx_fmt=png",
+            "near_text": "Figure 3: Bronchoscopy (our hospital, Day +2)",
+            "local_src": "cleaned_cases_image_cache/eae8710009c6e1f69f7b6434e00641b1ff0047c7.png"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRAU236iaNAonnjYticF5o9oEfMYoxhcljHS9xVDicPhhy6QrjqAzgyFVbw/640?wx_fmt=png",
+            "near_text": "Figure 4: Cytopathology results (our hospital, Day +4)",
+            "local_src": "cleaned_cases_image_cache/67c91f68588aca6128ed55fc1009ab6bea8586d4.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Malignant neoplasm of the lung or pleura",
+            "evidence": [
+              "The patient's clinical manifestations include cough, chest tightness, and shortness of breath.",
+              "Chest CT showed a visible left lung nodule and pleural effusion.",
+              "Carcinoembryonic antigen markedly elevated"
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as weight loss, hemoptysis, or chest pain",
+              "No neoplasm was observed on electronic bronchoscopy",
+              "No abnormal echogenicity was detected on endobronchial ultrasound.",
+              "Lack of pathological evidence",
+              "No tumor cells were found in the bronchoalveolar lavage fluid."
+            ]
+          },
+          {
+            "name": "Pneumonia",
+            "evidence": [
+              "The patient had an acute onset, mainly presenting with shortness of breath, chest tightness, and cough.",
+              "Chest CT shows a left lung nodule and pleural effusion"
+            ],
+            "exclusion_reasons": [
+              "At admission, there were no symptoms such as fever or sputum production.",
+              "At an outside hospital, empiric anti-infective therapy was given, with no significant improvement in symptoms.",
+              "Lack of evidence supporting a pathogenic microorganism"
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "The patient's clinical symptom is shortness of breath, which is more pronounced after exertion.",
+              "D-dimer markedly elevated",
+              "Arterial blood gas analysis showed type I respiratory failure",
+              "Echocardiography showed pulmonary hypertension",
+              "Lower extremity venous ultrasound showed dilatation of the intramuscular calf veins in the left lower leg with blood flow stasis."
+            ],
+            "exclusion_reasons": [
+              "The patient had no chest pain or hemoptysis.",
+              "Because of an allergic constitution, chest CTA could not be performed, and direct imaging evidence was lacking."
+            ]
+          },
+          {
+            "name": "cardiac insufficiency",
+            "evidence": [
+              "The patient's clinical symptoms are shortness of breath, chest tightness, and cough, which are more pronounced after exertion.",
+              "NT-proBNP markedly elevated",
+              "Echocardiography showed pericardial effusion (small amount); mild tricuspid regurgitation"
+            ],
+            "exclusion_reasons": [
+              "The patient has no prior history of heart disease.",
+              "No signs of systemic venous congestion such as edema",
+              "Doppler ultrasound showed no cardiac enlargement, and left ventricular systolic function was normal."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Malignant neoplasm of the lung or pleura",
+        "evidence": [
+          "The patient's clinical manifestations include cough, chest tightness, and shortness of breath.",
+          "Chest CT showed a visible left lung nodule and pleural effusion.",
+          "Carcinoembryonic antigen markedly elevated"
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as weight loss, hemoptysis, or chest pain",
+          "No neoplasm was observed on electronic bronchoscopy",
+          "No abnormal echogenicity was detected on endobronchial ultrasound.",
+          "Lack of pathological evidence",
+          "No tumor cells were found in the bronchoalveolar lavage fluid."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pneumonia",
+        "evidence": [
+          "The patient had an acute onset, mainly presenting with shortness of breath, chest tightness, and cough.",
+          "Chest CT shows a left lung nodule and pleural effusion"
+        ],
+        "exclusion_reasons": [
+          "At admission, there were no symptoms such as fever or sputum production.",
+          "At an outside hospital, empiric anti-infective therapy was given, with no significant improvement in symptoms.",
+          "Lack of evidence supporting a pathogenic microorganism"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [
+          "The patient's clinical symptom is shortness of breath, which is more pronounced after exertion.",
+          "D-dimer markedly elevated",
+          "Arterial blood gas analysis showed type I respiratory failure",
+          "Echocardiography showed pulmonary hypertension",
+          "Lower extremity venous ultrasound showed dilatation of the intramuscular calf veins in the left lower leg with blood flow stasis."
+        ],
+        "exclusion_reasons": [
+          "The patient had no chest pain or hemoptysis.",
+          "Because of an allergic constitution, chest CTA could not be performed, and direct imaging evidence was lacking."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "cardiac insufficiency",
+        "evidence": [
+          "The patient's clinical symptoms are shortness of breath, chest tightness, and cough, which are more pronounced after exertion.",
+          "NT-proBNP markedly elevated",
+          "Echocardiography showed pericardial effusion (small amount); mild tricuspid regurgitation"
+        ],
+        "exclusion_reasons": [
+          "The patient has no prior history of heart disease.",
+          "No signs of systemic venous congestion such as edema",
+          "Doppler ultrasound showed no cardiac enlargement, and left ventricular systolic function was normal."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat test for N-terminal pro-B-type natriuretic peptide",
+          "basis_in_stage3_input": "Repeat test: N-terminal pro-brain natriuretic peptide precursor: 1860 pg/mL↑.",
+          "why_order_this_exam": "The patient’s main manifestations are shortness of breath and chest tightness after exertion. During the course of the disease, the patient was also complicated by type I respiratory failure, a small pericardial effusion, mild tricuspid regurgitation, and significant pulmonary hypertension; NT-proBNP had previously been elevated, and this marker needs to be rechecked to dynamically assess whether cardiac workload/cardiac insufficiency is present or worsening. This test is helpful in distinguishing whether the patient’s dyspnea is due more to malignant pleural effusion, pulmonary embolism-related increased right heart load, or concomitant cardiogenic factors, and in determining whether treatment such as diuresis and improvement of cardiac function needs to be intensified, thereby reducing the risk of subsequent antitumor and anticoagulation therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Repeat D-dimer test",
+          "basis_in_stage3_input": "Repeat D-dimer: 11.120 ug/mL ↑ before anticoagulant therapy; 2.736 ug/mL ↑ after anticoagulant therapy.",
+          "why_order_this_exam": "The patient has had shortness of breath and chest tightness for half a month, more obvious after activity. Type I respiratory failure is already present. Ultrasound suggests pulmonary hypertension and venous stasis in the lower extremities. Pulmonary embolism has remained an important differential diagnosis, but because a chest CTA cannot be performed due to an allergic constitution, direct imaging evidence is lacking. Therefore, repeat D-dimer testing is needed to dynamically monitor changes in thrombus burden. A marked elevation before anticoagulation and a decrease after anticoagulation can provide indirect support for pulmonary embolism/thromboembolic process and treatment response, and can also help assess the necessity of continuing anticoagulation, efficacy, and the balance between bleeding and benefit.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cytopathologic diagnosis of left pleural effusion",
+          "basis_in_stage3_input": "Left pleural effusion cytopathologic diagnosis: Day +3, The First Affiliated Hospital of Xi'an Jiaotong University: the slide showed a small number of markedly atypical cells; recommend submitting \"pleural effusion or biopsy\" for further examination;",
+          "why_order_this_exam": "The patient is a 70-year-old woman with persistent left pleural effusion and recurrent shortness of breath and chest tightness. Chest CT showed a left upper lobe nodule, small nodules in both lungs, and mediastinal lymphadenopathy. Elevated pleural fluid CEA, CA125, and serum CEA made malignant pleural effusion highly suspicious; however, bronchoscopy, ultrasound examination, and BALF cytology all failed to obtain positive evidence. At this time, cytopathologic examination of the left pleural fluid was performed with the aim of identifying malignant cells at the most directly involved site, clarifying the nature of the pleural effusion, distinguishing malignant, infectious, or other causes, and providing a pathologic starting point for determining whether pleural biopsy, tumor staging, and treatment decisions would be needed subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion or biopsy for further evaluation",
+          "basis_in_stage3_input": "It is recommended to continue submitting pleural effusion or biopsy specimens for further examination.",
+          "why_order_this_exam": "Pleural fluid cytopathology showed only a small number of markedly atypical cells; although this supports a neoplastic lesion, it is still insufficient to fully establish the nature of the lesion and determine its origin. Meanwhile, the patient's bronchoscopy and BAL were both negative, while unilateral pleural effusion, pulmonary nodules, mediastinal lymphadenopathy, and elevated tumor markers persist clinically, so further tissue/fluid sampling is required. Continuing pleural effusion resubmission for repeat examination or performing biopsy is intended clinically to increase the pathologic positive rate, clarify as soon as possible whether there is malignant pleural involvement, the tumor type, and the primary site of origin, and to exclude tuberculous or other pleural diseases; this is critical for confirming stage IV lung cancer, deciding whether to use local pleural therapy, systemic chemotherapy, and subsequent molecular testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Left pleural effusion smear and liquid-based cytology preparation",
+          "basis_in_stage3_input": "Day +8, Xijing Hospital: A small number of malignant tumor cells were identified on smear and liquid-based cytology of the left pleural effusion;",
+          "why_order_this_exam": "In the setting of a patient with a high clinical suspicion for malignant pleural effusion and negative results from the first round of respiratory tract sampling, pleural effusion smear and liquid-based cytology are important methods for improving the cytologic detection rate. The patient has persistent pleural effusion, chest tightness, shortness of breath, a left lung nodule, and mediastinal lymphadenopathy, and the pleural fluid tumor markers are elevated; this examination is needed to directly confirm whether malignant cells are present in the pleural fluid. Liquid-based cytology can improve cell preservation and morphologic interpretation, provide evidence for determining whether the pleural effusion is due to tumor dissemination, and lay the foundation for subsequent cell block preparation, immunocytochemistry, and tumor staging.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Left pleural effusion cell block section",
+          "basis_in_stage3_input": "Cell block sections of the left pleural effusion show a very small number of malignant tumor cells; immunocytochemical staining is recommended, if feasible, to assist in the diagnosis;",
+          "why_order_this_exam": "Although a small number of malignant tumor cells have been identified on pleural effusion smear/liquid-based cytology preparation, it is often difficult to further determine the tumor histologic type and primary site based on cytomorphology alone. Chest imaging suggests a left upper lobe pulmonary nodule, with possible mediastinal lymphadenopathy and pleural involvement, whereas no definite endobronchial mass was seen on bronchoscopy; therefore, preparation of a cell block section is needed to obtain material more comparable to histopathology. This test can improve diagnostic reliability on the basis of limited pleural effusion cells and provide a substrate for subsequent immunocytochemical staining and necessary molecular testing, helping to clarify whether this is lung adenocarcinoma, squamous cell carcinoma, a pleural-origin tumor, or another metastatic carcinoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunocytochemical staining",
+          "basis_in_stage3_input": "Immunocytochemical staining is recommended to assist in the diagnosis; Day +14, Xijing Hospital: Immunocytochemical staining results showed that the tumor cells were positive for AE1/AE3, TTF-1, Napsin A, and CK7, and negative for P40, P63, CR, D2-40, and vim, supporting adenocarcinoma, with lung origin as the primary consideration.",
+          "why_order_this_exam": "Malignant tumor cells have already been identified on pleural fluid cytology, but two core issues still need to be resolved: first, the specific histopathologic type of the tumor; second, the primary site of origin. The patient is an elderly woman with no smoking history. Imaging shows a left upper lobe pulmonary nodule, small nodules in both lungs, and mediastinal lymphadenopathy. At the outside hospital, the differential diagnosis included primary lung tumor, malignant pleural tumor, and extrapulmonary metastatic tumor; morphology alone on cytology is insufficient to make the above distinction. Immunocytochemical staining using a panel of markers including TTF-1, Napsin A, CK7, P40, P63, CR, and D2-40 can determine whether the findings support lung adenocarcinoma and exclude squamous cell carcinoma, mesothelial origin, etc. This is crucial for ultimately establishing 'pulmonary adenocarcinoma of lung origin with malignant pleural effusion' and also directly affects staging, systemic treatment planning, and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion tumor driver gene testing",
+          "basis_in_stage3_input": "Pleural effusion tumor driver gene testing results reported no mutations in EGFR, ALK, ROS1, KRAS, cMET, etc.",
+          "why_order_this_exam": "After pleural fluid pathology and immunocytochemistry had already supported adenocarcinoma of pulmonary origin, the patient was already considered to have advanced lung cancer with pleural involvement, and molecular subtyping directly relates to the subsequent treatment pathway. This patient is elderly, female, and a never-smoker; clinically, there is a possibility of driver gene positivity, so the already obtained tumor material from the pleural fluid should be used for testing of driver genes such as EGFR, ALK, ROS1, KRAS, and cMET. This testing is intended to identify molecular abnormalities amenable to targeted therapy and help guide the choice among chemotherapy, anti-angiogenic therapy, and targeted therapy; even if the results are negative, they can still provide a basis for forgoing the corresponding targeted treatment options and proceeding to systemic therapy mainly based on pemetrexed combined with platinum agents.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thoracoscopic pleural biopsy",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous biopsy of the left upper lobe pulmonary nodule",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeat NT-proBNP: 1860 pg/mL↑.\nRepeat D-dimer: 11.120 ug/mL↑ before anticoagulation therapy; 2.736 ug/mL↑ after anticoagulation therapy.\nCytopathologic diagnosis of left pleural effusion: On Day +3, The First Affiliated Hospital of Xi'an Jiaotong University: the slides showed a small number of markedly atypical cells; it was recommended to continue submitting \"pleural effusion or biopsy\" for further examination; on Day +8, Xijing Hospital: a small number of malignant tumor cells were identified on left pleural effusion smear and liquid-based preparation; very few malignant tumor cells were identified on cell block sections of left pleural effusion, and immunocytochemical staining was recommended to assist in the diagnosis; on Day +14, Xijing Hospital: immunocytochemical staining results showed that the tumor cells were positive for AE1/AE3, TTF-1, NapsinA, and CK7, and negative for P40, P63, CR, D2-40, and vim, supporting adenocarcinoma, with lung origin considered first.\nResults of driver gene testing of pleural effusion tumor cells reported no mutations in EGFR, ALK, ROS1, KRAS, cMET, etc.",
+      "images": [
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxR2VQX4qLH0zHjkOnoEUSwz5SVZILLzVqGiaarLZbzPcfDRKoX6bcTnKg/640?wx_fmt=png",
+          "near_text": "Tumor marker CEA markedly elevated",
+          "local_src": "cleaned_cases_image_cache/3d5f2d09b6a210c5045620ea17b16751b45a9c8a.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRtKGqtWXeLfAM71zWgKX07PwlNkQvVzW6eldGDWKMMJ8qGNPAKRzWVg/640?wx_fmt=png",
+          "near_text": "Figure 5: Chest CT (our hospital, Day +49)",
+          "local_src": "cleaned_cases_image_cache/b0baeba668804d4b695a5485c4087b08c6c848c3.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Malignant lung neoplasm (left adenocarcinoma cT2N2M1a stage IV); 1.1 Secondary malignant pleural neoplasm (left); 2. Pulmonary hypertension; 3. Pulmonary embolism?",
+      "diagnostic_basis": [
+        "Basic characteristics: elderly female, acute onset.",
+        "Symptoms: intermittent shortness of breath and chest tightness for half a month. After closed thoracic drainage at an outside hospital, the chest tightness and shortness of breath were relieved, and a dry cough developed. On evaluation at our hospital, pulmonary hypertension and hypoxemia were found. No symptoms such as fever, chest pain, hemoptysis, or night sweats. Recurrent pleural effusion.",
+        "Physical signs: tactile fremitus in the left lower lung is slightly decreased, percussion is dull, and breath sounds are markedly diminished.",
+        "Chest CT: nodule in the apicoposterior segment of the left upper lobe with a small pleural effusion",
+        "Tumor markers: carcinoembryonic antigen 6.17 ng/ml ↑",
+        "Biochemical tests: D-dimer 9.532 ug/mL↑, NT-proBNP 276 pg/mL↑",
+        "Arterial blood gas analysis: indicates type I respiratory failure",
+        "Echocardiography: pericardial effusion (small amount); mild tricuspid regurgitation; pulmonary artery systolic pressure 90 mmHg, mean pulmonary artery pressure 28 mmHg",
+        "Pathologic cytology of left pleural effusion showed a small number of malignant tumor cells. Immunohistochemical staining showed that the tumor cells were positive for AE1/AE3, TTF-1, Napsin A, and CK7, and negative for P40, P63, CR, D2-40, and vim, supporting adenocarcinoma, with pulmonary origin considered first."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Actively treat pulmonary arterial hypertension, pulmonary embolism, pleural effusion, etc.: provide ECG monitoring and oxygen saturation monitoring, with continuous low-flow oxygen inhalation; bosentan tablets 62.5mg orally twice daily, furosemide tablets 20mg orally once daily, spironolactone tablets 20mg orally once daily, isosorbide mononitrate sustained-release tablets 40mg orally once daily, low-molecular-weight heparin sodium injection 0.4ml subcutaneously every 12 hours. Continue closed thoracic drainage at the same time.",
+        "Inject cisplatin 20 mg intrapleurally via the closed thoracic drainage tube every other day for 2-3 consecutive doses to suppress pleural effusion production.",
+        "Antitumor therapy: pemetrexed disodium for injection 800 mg (D1) + nedaplatin for injection 80 mg (D1) + bevacizumab injection 600 mg (D1)."
+      ],
+      "treatment_response": [
+        "After treatment, the patient's chest tightness and shortness of breath improved significantly, and repeat D-dimer showed a marked decrease compared with previously.",
+        "Post-imaging follow-up after the first cycle of chemotherapy: Echocardiography (Day +28): slightly dilated pulmonary artery diameter; small pericardial effusion; mild tricuspid regurgitation; mean pulmonary artery pressure 19 mmHg, pulmonary artery systolic pressure 58 mmHg. Left pleural effusion (moderate). Echocardiography (Day +49): small pericardial effusion; Doppler echocardiography essentially normal. Chest CT (Day +49): the extent of the lesion in the apicoposterior segment of the left upper lobe is decreased compared with before; left pleural effusion is increased compared with before; no significant change in the small nodules in the lateral segment of the right middle lobe and the lateral basal segment of the left lower lobe."
+      ]
+    }
+  }
+}

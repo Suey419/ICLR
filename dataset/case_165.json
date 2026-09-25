@@ -1,0 +1,460 @@
+{
+  "status": "success",
+  "case_id": "case_165",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Patient Liu, female, 50 years old, occupation: translator, was admitted with the chief complaint of \"shortness of breath after exertion for 5+ months, worsening with dry cough for 1+ month.\" History of present illness: More than 5 months before admission, she developed shortness of breath after exertion without an obvious precipitating factor, initially noticeable after climbing stairs, without accompanying symptoms, and did not undergo formal evaluation or treatment. More than 1 month ago, the shortness of breath worsened; she experienced dyspnea and discomfort even when walking fast on level ground, accompanied by a dry cough, mainly at night, and occasional dull pain in the left lower abdomen, tolerable, without radiating pain. Past history: More than 1 year ago, she had a history of leukopenia; after taking oral leukocyte-elevating medication for half a year, it returned to normal, and she has now been off the leukocyte-elevating medication for half a year. Family history: Mother died of lung cancer. Personal and marital/reproductive history: No unhealthy habits; has 1 daughter, who is healthy. Drug allergy history: Penicillin allergy. No surgical history or trauma history. Physical examination: Clear consciousness, breathing unlabored, speech coherent, lips ruddy; no enlargement of superficial lymph nodes palpable throughout the body; breath sounds absent in the left mid and lower lung; right lung breath sounds clear; cardiac and abdominal examination (-); no edema in both lower extremities. After admission, chest CT showed: a soft-tissue density lesion adjacent to the diaphragm in the left lung, of unclear nature (left-right × anteroposterior × superior-inferior dimensions approximately 27 × 69 × 35 mm, with indistinct borders from the diaphragm, left adrenal gland, gastric wall on the lesser curvature side of the fundus, and the inner posterior portion of the spleen), of unclear origin.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JM9wCwg1DWlOk8G1HGdm2eyWIUqnZX36eanbGXDFdicJIKJw2554JbGCQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Today, we will use this bottle of orange pleural fluid as a starting point to unravel the mystery of this case.",
+          "local_src": "cleaned_cases_image_cache/a68d0a7106d664c1bd8f0f1a3de54edea73718f8.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMTUbqeHYTriah02ic2phwkyyDiajkJCZ2doeETLRSU9VU4cKSnHLgcOQ4Q/640?wx_fmt=png&from=appmsg",
+          "near_text": "Images: non-contrast phase, arterial phase",
+          "local_src": "cleaned_cases_image_cache/6e65cee81c402f2e533b0d0f62bbe623cb59a59c.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMwtrSCQ7nU89ib7iaOhzGLvyE7e2F3HTz7AnVMOUvqlqyaMKiafzkib766Q/640?wx_fmt=png&from=appmsg",
+          "near_text": "Images: venous phase, delayed phase",
+          "local_src": "cleaned_cases_image_cache/17a9a73feb6c0c0edbb5c8febc6f80c491572c82.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Left malignant pleural mesothelioma or pleural malignancy",
+          "supporting_evidence": [
+            "The chief complaint was \"exertional dyspnea for 5+ months, worsening with dry cough for 1+ month,\" suggesting that an intrathoracic space-occupying lesion or pleural disease may cause progressive dyspnea.",
+            "Physical examination showed \"absent breath sounds in the left mid and lower lung fields; clear breath sounds in the right lung,\" supporting the presence of a significant space-occupying lesion and/or pleural effusion in the left pleural cavity or left lung base region.",
+            "Chest CT showed \"a soft tissue density lesion adjacent to the left diaphragm in the left lung, of uncertain nature (approximately 27×69×35 mm, with indistinct boundaries from the diaphragm, left adrenal gland, the gastric wall on the lesser curvature side of the gastric fundus, and the posteromedial portion of the spleen), of unclear origin\"",
+            "On the correlated CT images from the first stage, there is an obvious fluid-density opacity in the left pleural cavity and an abnormal soft tissue opacity adjacent to the diaphragm/pleural region, consistent with an imaging impression of a pleural-origin malignant lesion with pleural effusion.",
+            "The lesion is indistinct from the diaphragm and multiple surrounding organs, suggesting local infiltrative behavior; a malignant lesion is highly likely"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide a definite history of asbestos exposure or a description of diffuse pleural nodules/ring-shaped pleural thickening",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Peripheral lung cancer (left lower lobe/paradiaphragmatic lung cancer) with pleural invasion and pleural effusion",
+          "supporting_evidence": [
+            "Progressive exertional dyspnea, worsened over the past 1 month and accompanied by dry cough, can be seen in lung malignancy",
+            "On physical examination, \"absent breath sounds in the left mid and lower lung fields\" suggests a left intrathoracic lesion affecting pulmonary ventilation.",
+            "Chest CT showed a soft-tissue density lesion adjacent to the left hemidiaphragm, with \"unclear origin\"; it may originate from the adjacent lung tissue.",
+            "The lesion is indistinct from the diaphragm, gastric fundus, spleen, and left adrenal gland, suggesting an invasive lesion; pleural/diaphragmatic invasion by lung cancer may present with similar findings.",
+            "Family history: \"mother died of lung cancer\"; although not definitive evidence, it increases vigilance for pulmonary malignancy."
+          ],
+          "opposing_evidence": [
+            "The phase 1 text did not describe definite typical signs of lung cancer such as a solid intrapulmonary mass, spiculation, lobulation, or mediastinal lymphadenopathy.",
+            "The patient has \"no adverse habits,\" which weakens support for some common lung cancer risk factors, but they cannot be ruled out."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Metastatic malignant tumor involving the left peridiaphragmatic region/pleura (e.g., metastasis from a primary abdominal tumor or an adrenal-related tumor) with pleural effusion",
+          "supporting_evidence": [
+            "CT indicated that the lesion had an \"unclear boundary with the left adrenal gland, the gastric wall on the lesser curvature side of the gastric fundus, and the posteromedial portion of the spleen,\" suggesting that the lesion may not be of purely pulmonary origin and that a primary lesion in an adjacent organ or metastatic disease should be considered.",
+            "\"Unknown origin\" itself suggests lesions involving multiple anatomic regions; metastatic tumor or multi-organ involvement should be included in the differential diagnosis.",
+            "The CT images associated with the first stage showed that the lesion was located at the junction of the left subphrenic/peridiaphragmatic region, with a complex anatomic origin.",
+            "A significant left pleural effusion can be seen in pleural dissemination of malignancy or diaphragmatic involvement."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a definite prior history of malignancy.",
+            "In the first stage, no superficial lymphadenopathy was observed, and there were no signs directly supporting widespread metastasis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Invasion of the diaphragm/thoracic cavity by a malignant tumor of the gastric fundus or the subdiaphragmatic upper abdomen",
+          "supporting_evidence": [
+            "CT clearly indicates that the lesion has an indistinct interface with the \"gastric wall on the lesser curvature side of the gastric fundus and the medial posterior portion of the spleen\"; a tumor arising from the gastric fundus or adjacent upper abdominal organs should be considered.",
+            "The lesion is located adjacent to the left diaphragm, and the boundary between the structures above and below the diaphragm is indistinct, consistent with the possibility of a subdiaphragmatic lesion invading the thoracic cavity or the diaphragm.",
+            "The patient has \"occasional dull pain in the left lower abdomen\"; although nonspecific, it suggests the presence of abdominal symptoms, and subdiaphragmatic or upper abdominal lesions cannot be ignored.",
+            "Left pleural effusion may be secondary to pleural irritation or direct invasion by a subdiaphragmatic malignant lesion."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was no description of typical gastrointestinal symptoms, such as postprandial discomfort, melena, hematemesis, or significant weight loss.",
+            "In the lesion description, it was initially written as \"a soft-tissue density shadow adjacent to the left lung diaphragm,\" without clearly indicating a primary lesion in the abdominal cavity."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Tuberculous pleuritis or chronic tuberculous pleural/diaphragmatic granulomatous lesion",
+          "supporting_evidence": [
+            "The patient has had dyspnea for 5+ months and a dry cough for nearly 1 month; a chronic course can be seen in tuberculous pleuritis.",
+            "On physical examination, \"absent breath sounds in the left mid and lower lung fields\" is consistent with left pleural effusion; TB can cause unilateral pleural effusion.",
+            "Paradiaphragmatic soft tissue opacity may represent chronic inflammatory granuloma or an encapsulated lesion associated with pleural thickening."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no supporting information was provided regarding fever, night sweats, weight loss, or a history of TB contact.",
+            "CT describes the lesion as having indistinct borders with multiple organs, favoring an invasive neoplastic lesion and being less typical of simple tuberculous pleuritis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Complicated left pleural effusion/empyema with an adjacent subdiaphragmatic inflammatory mass or organization",
+          "supporting_evidence": [
+            "Physical examination showed absent breath sounds in the left mid and lower lung fields, and the associated CT images from the first stage showed a relatively large left pleural effusion-like change.",
+            "Long-standing inflammation or organization in the pleural cavity may form a juxtadiaphragmatic soft-tissue density, with an indistinct border with the diaphragm",
+            "Dyspnea and dry cough may be caused by massive pleural effusion or empyema."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was no supporting evidence of infectious disease, such as fever, chest pain, purulent sputum, or systemic toxic symptoms of infection.",
+            "The textual description of the lesion having indistinct borders with the left adrenal gland, gastric wall, and spleen is more suggestive of neoplastic infiltration rather than simple inflammatory organization."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor marker panel (CA19-9, CA125, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Galactomannan test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal capsular polysaccharide test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid chyle test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterial smear",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "immunofluorescence staining",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "exfoliated cells",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid mNGS",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC: WBC 3.36*10^9/L↓, RBC 4.47*10^12/L, HGB 132g/L, PLT 192*10^9/L↓, N% 64.8%, L% 0.83*10^9/L. CRP: normal. Liver function: total bilirubin 29.0μmol/l↑, indirect bilirubin 27.3μmol/L↑, γ-glutamyl transferase 11U/L↓. Renal function: normal. Electrolytes: normal. ESR: normal. Tumor markers: CA19-9 28.2U/ml↑, CA125 65.3U/ml↑. Coagulation + D-dimer: normal. Arterial blood gas analysis: normal. G test, GM test, cryptococcal capsular polysaccharide test: normal. Pleural fluid routine: yellow color, turbid clarity, Rivalta positive 2+, total cell count 7381*10^5/L, nucleated cell count 3381*10%, mononuclear cells 97%, polymorphonuclear cells 3%. Pleural fluid biochemistry: total protein 48g/L, albumin 29g/L, LDH 78U/L, ADA 13.3U/L. Pleural fluid chyle test: negative. Mycobacterial smear: (-). TB-DNA: (-). Immunofluorescence staining: no fungi found. Tumor markers: normal. ANA, ANCA (-). Exfoliative cytology: no malignant cells found; numerous lymphocytes seen. Pleural fluid mNGS: Candida tropicalis, sequence count 1543. Temporarily treated with fluconazole 300mg qd. After closed chest drainage, \"orange juice-like\" pleural fluid was drained. After 7 days of antifungal treatment, repeat pleural ultrasound showed that the pleural effusion had not decreased and was progressively increasing. Repeat pleural ultrasound result: a patchy anechoic area was detected in the left pleural cavity, with a maximum depth of approximately 100mm.",
+        "images": [
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKMjSEq5IF9b71foCH7j8JMoNMawn3ibcZhTNB4GZ0owKzZ5BmcuNBl0VAMic9Eqc3EMOsy4RE4yZHQ/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "After closed thoracic drainage, the drained pleural aspirate was \"orange juice-like\"",
+            "local_src": "cleaned_cases_image_cache/57cc4638ffb09e20b90d2c8f15226df4cdc830d3.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMKC5YLCBjr5GA8qW0TufApCicPW8ZyNK1nq8tQYF9ZMjZhziaiaNcULo5A/640?wx_fmt=png&from=appmsg",
+            "near_text": "Follow-up pleural effusion ultrasound results: a patchy anechoic area was detected in the left pleural cavity, with a maximum depth of approximately 100 mm.",
+            "local_src": "cleaned_cases_image_cache/fc8cbfcdd696e17c4d80dceff1c02bbf6d67e2fa.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMLnShzK932HFtDb2zuJvDYtXRdRKmpSZsPVS0sxoaLCdmv1QnSgicOPw/640?wx_fmt=png&from=appmsg",
+            "near_text": "How can the mystery of “orange” pleural effusion be unraveled?",
+            "local_src": "cleaned_cases_image_cache/096278756e62a53504bef0165934a5892fb94fe2.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "TB infection",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Yellow pleural fluid, Rivalta test positive, LDH only 78, and ADA only 13.3",
+              "Mycobacterial smear (-), TB-DNA (-)",
+              "No clear indication"
+            ]
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "Pleural fluid mNGS indicated: Candida tropicalis, 1543 sequences"
+            ],
+            "exclusion_reasons": [
+              "How do fungi enter the pleural cavity, which is a closed space?",
+              "The patient has no symptoms such as fever.",
+              "Fungal testing, including pleural fluid immunofluorescence, also failed to detect fungal expression.",
+              "After 7 days of antifungal treatment, repeat pleural effusion ultrasound showed that the pleural effusion had not decreased and was progressively increasing."
+            ]
+          },
+          {
+            "name": "immune-related disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Antinuclear antibody, ANCA (-)",
+              "No clear indication"
+            ]
+          },
+          {
+            "name": "Chronic heart, liver, and kidney diseases; endocrine and metabolic abnormalities",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No history of chronic heart, liver, or kidney disease",
+              "No history of long-term medication use or endocrine/metabolic abnormalities"
+            ]
+          },
+          {
+            "name": "Chylothorax",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Pleural fluid chyle test negative"
+            ]
+          },
+          {
+            "name": "Neoplastic lesion",
+            "evidence": [
+              "The overall conclusion favors a noninfectious disease, and a neoplastic lesion should be strongly considered."
+            ],
+            "exclusion_reasons": [
+              "No cancer cells were found on exfoliative cytology (further biopsy required)"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "TB infection",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Yellow pleural fluid, Rivalta test positive, LDH only 78, and ADA only 13.3",
+          "Mycobacterial smear (-), TB-DNA (-)",
+          "No clear indication"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "Pleural fluid mNGS indicated: Candida tropicalis, 1543 sequences"
+        ],
+        "exclusion_reasons": [
+          "How do fungi enter the pleural cavity, which is a closed space?",
+          "The patient has no symptoms such as fever.",
+          "Fungal testing, including pleural fluid immunofluorescence, also failed to detect fungal expression.",
+          "After 7 days of antifungal treatment, repeat pleural effusion ultrasound showed that the pleural effusion had not decreased and was progressively increasing."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "immune-related disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Antinuclear antibody, ANCA (-)",
+          "No clear indication"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Chylothorax",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Pleural fluid chyle test negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic lesion",
+        "evidence": [
+          "The overall conclusion favors a noninfectious disease, and a neoplastic lesion should be strongly considered."
+        ],
+        "exclusion_reasons": [
+          "No cancer cells were found on exfoliative cytology (further biopsy required)"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Percutaneous lung biopsy",
+          "basis_in_stage3_input": "The patient chose percutaneous lung biopsy.",
+          "why_order_this_exam": "The patient has had progressive exertional dyspnea for more than 5 months, worsening over the past month and accompanied by dry cough. Imaging showed a soft-tissue density adjacent to the left hemidiaphragm, with indistinct borders from the diaphragm, left adrenal gland, gastric fundus/gastric wall, and spleen; there was also a persistently increasing unilateral exudative pleural effusion. Prior pleural fluid exfoliative cytology did not identify malignant cells; evidence for TB and autoimmune disease was insufficient. Pleural fluid mNGS suggested fungi, but antifungal treatment was ineffective, indicating that pleural fluid testing alone cannot explain the nature of the lesion, and a neoplastic lesion, especially a lymphoproliferative disorder, should be strongly considered. Percutaneous lung biopsy can directly obtain tissue from the lesion and is the key examination for determining whether this juxtadiaphragmatic/peripulmonary mass is lymphoma, lung cancer, pleural malignancy, or another rare lesion, and can provide the basis for subsequent pathologic subtyping, immunophenotypic analysis, and treatment selection; at the same time, in the presence of an already clearly identified target lesion, it has greater diagnostic value than repeated empiric treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytopathology",
+          "basis_in_stage3_input": "Cytopathology results suggest: numerous lymphocytes are seen; the specific nature and type should be correlated with the histopathology results.",
+          "why_order_this_exam": "The patient has recurrent increasing pleural effusion and a prolonged disease course. Routine infection- and TB-related tests did not support an infectious etiology, and pleural fluid cytology did not identify definite malignant cells; however, the presence of “numerous lymphocytes” in pleural fluid and lesion-related specimens suggests that management should not be based solely on the framework of a common epithelial malignancy, and lymphoma or other lymphoproliferative disorders should also be considered. The significance of cytopathology is that it first assesses at the cytologic level whether there is predominance of abnormal lymphocytes, atypical cells, or clues to ploidy abnormalities, helping to distinguish reactive lymphocytosis from neoplastic lymphocytic infiltration, and providing guidance on whether to further combine histopathology, immunohistochemistry, and flow cytometry. Although cytopathology alone is difficult to use for final classification, it is very important for suggesting the nature of the lesion, narrowing the differential diagnosis, and improving the targeting of subsequent histologic examination.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology",
+          "basis_in_stage3_input": "The specific nature and type should be determined in conjunction with the histopathological findings.",
+          "why_order_this_exam": "In this case, the clinical and imaging findings clearly suggest a space-occupying lesion, but the origin is complex: it may arise from the lung/pleura, or it may be related to the diaphragm or adjacent upper abdominal structures; at the same time, pleural fluid testing did not provide a direct definitive diagnosis, and anti-infective treatment was ineffective, indicating that the diagnosis must rely on histopathology. Histopathology can evaluate the overall architecture of the lesion, the pattern of infiltration, and cellular morphology, and is the key basis for distinguishing inflammatory lesions, metastatic carcinoma, primary lung cancer, pleural tumors, and lymphoma. For patients like this case, presenting with persistent pleural effusion and a paradiaphragmatic soft-tissue opacity, with a high proportion of lymphocytes in the pleural fluid, histopathology is particularly important, because it not only answers the question of 'whether it is a tumor,' but also the critical clinical questions of 'what type of tumor it is, whether it is a lymphoid neoplasm, and whether subsequent treatment should be managed by the Department of Pulmonary and Critical Care Medicine or the Department of Hematology.'",
+          "requirement": "required"
+        },
+        {
+          "exam": "Flow cytometry of lung biopsy tissue",
+          "basis_in_stage3_input": "Flow cytometry of lung biopsy tissue: no obvious blasts/immature cells were identified within the scope of this test.",
+          "why_order_this_exam": "Against a background of numerous lymphocytes in the lesion needle biopsy specimen, morphology alone makes it difficult to determine whether this represents reactive lymphocytic aggregation or infiltration by a lymphoid neoplasm. Flow cytometry of the transbronchial lung tissue can rapidly analyze the cellular population composition, determine whether an abnormal immunophenotype is present, whether there are monoclonal B cells or abnormal T/NK cells, and whether there is an increase in blasts/immature cells, thereby helping to differentiate lymphoma, leukemia/lymphoblastic neoplasms, and inflammatory reactions. In this case, this examination was performed specifically to address two questions: first, whether the patient's lesion represented involvement of the pleural cavity/peripulmonary region by a hematologic malignancy; second, if it was lymphoma, whether there were already features of higher aggressiveness or blast/immature cell-related manifestations. Even if the results did not show an obvious increase in blasts/immature cells, they would still help exclude some high-risk types and, together with subsequent histopathology and immunohistochemistry, complete diagnostic stratification.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy histopathology",
+          "basis_in_stage3_input": "Final lung biopsy histopathology result: CD79α (+).",
+          "why_order_this_exam": "The patient's lesion was located adjacent to the left diaphragm, with unclear boundaries from multiple organs, and the pleural effusion repeatedly increased. Multiple earlier infection and TB tests were negative or lacked supporting evidence, and empiric antifungal therapy was ineffective, indicating that the nature of the lesion had to be definitively established by percutaneous lung biopsy histopathology. Percutaneous lung biopsy histopathology not only provides histologic morphology, but can also be combined with immunohistochemistry to determine the cell of origin; in this case, CD79α positivity directly indicated B-cell origin and played a निर्णसive role in shifting the diagnostic direction from an ordinary thoracic solid tumor to B-cell lymphoma. The clinical value of this examination lies in: first, establishing a definitive diagnosis and clarifying that it is not a simple infection or a common pleural/pulmonary carcinoma; second, providing a basis for further lymphoma subtyping, staging evaluation, and transfer to hematology specialty treatment; third, avoiding continued ineffective anti-infective treatment and entering a targeted treatment pathway as soon as possible.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "PET-CT showed: heterogeneous thickening of the left hemidiaphragm, with an indistinct border from the left adrenal gland, and mildly heterogeneously increased metabolic activity; in conjunction with the clinical findings, this is consistent with lymphoma.",
+          "why_order_this_exam": "After lung biopsy pathology had already suggested a B-cell origin, the next step was not only to determine \"what disease it is,\" but also to determine \"how extensive the lesion is, whether there are other involved sites, and what the true anatomic extent of the currently complex lesion is on imaging.\" The initial CT already showed that the lesion had indistinct borders with the diaphragm, left adrenal gland, gastric fundus, and spleen, and pleural effusion persisted, indicating that local imaging alone was insufficient to complete whole-body assessment. PET-CT can assess the metabolic activity of the thickened lesion of the left diaphragm, determine whether it is consistent with features of lymphoma involvement, and screen for other extranodal or lymph node involvement throughout the body, for staging, distinguishing localized disease from systemic disease, and selecting the most representative lesion as a target for subsequent assessment. At the same time, the PET-CT results directly affect the treatment strategy, such as whether to treat according to systemic lymphoma therapy, whether further bone marrow evaluation is needed, and the establishment of a baseline for subsequent treatment response monitoring.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration showed: lymphocytes accounted for 15%, with morphology generally normal; occasional irregularly shaped lymphocytes were seen, with larger cell bodies, round-to-oval shape, relatively abundant cytoplasm, and coarse chromatin.",
+          "why_order_this_exam": "After lung biopsy histopathology and PET-CT had directed the diagnosis toward B-cell non-Hodgkin lymphoma, whether the bone marrow was involved became a key issue in staging and risk assessment. The patient had a prior history of leukopenia, and the CBC during this admission also showed decreased WBC, suggesting that in addition to the localized lesion, bone marrow involvement or an underlying hematologic abnormality should also be considered. Bone marrow aspiration can directly evaluate bone marrow cell morphology and determine whether there is infiltration by abnormal lymphocytes, an increased proportion, and morphologic atypia, thereby providing a basis for lymphoma staging and for differentiating a purely localized extranodal lesion from systemic involvement. This examination is of important value for subsequent selection of treatment intensity, prognostic assessment, and determining whether further bone marrow flow cytometry/other hematologic tests are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometry",
+          "basis_in_stage3_input": "Bone marrow flow cytometry: Lymphocytes accounted for 7.28% of all nucleated cells, of which 0.27% showed an abnormal immunophenotype.",
+          "why_order_this_exam": "Although bone marrow aspiration morphology may reveal suspicious abnormal lymphocytes, its sensitivity for minimal bone marrow involvement is limited; therefore, when B-cell lymphoma is already being considered, bone marrow flow cytometry is needed to further improve the detection rate. The patient's lung biopsy tissue indicated B-cell origin, PET-CT supported findings of lymphoma, and bone marrow aspiration also showed a small number of morphologically irregular lymphocytes, indicating possible bone marrow involvement. Bone marrow flow cytometry can detect lymphocytes with an abnormal immunophenotype; even at a very low proportion, it can help identify minimal infiltration and determine whether systemic dissemination has already occurred, thereby refining staging, assessing tumor burden, and influencing subsequent treatment planning and response monitoring strategies. In this case, the core role of this examination is to link the diagnosis of the localized lesion with systemic hematologic staging, thereby avoiding underestimation of the extent of disease.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The patient underwent percutaneous lung biopsy. Cytopathology results suggested: numerous lymphocytes were seen; for the specific nature and type, please correlate with the histopathology results. Note: occasional cells with abnormal DNA ploidy were seen in the liquid-based specimen. Flow cytometry of the lung biopsy tissue, within the scope of this testing panel: no obvious blasts/immature cells were seen. Lymphocytes accounted for approximately 87.16% of all nucleated cells; plasma cells accounted for approximately 0.03% of all nucleated cells, and no obvious monoclonality was seen on initial screening. Monocytes accounted for approximately 1.50% of all nucleated cells, mainly mature monocytes. Granulocytes accounted for approximately 9.73% of all nucleated cells. Epithelial/mesothelial cells accounted for approximately 0.16% of all nucleated cells. Final histopathology result of the lung biopsy tissue: CD79α (+). After the patient was transferred to Hematology, PET-CT showed: heterogeneous thickening of the left diaphragm, with an indistinct boundary from the left adrenal gland, and mildly heterogeneous increased metabolic activity; in conjunction with the clinical findings, this was compatible with lymphoma. Bone marrow aspiration showed: lymphocytes accounted for 15%, with morphology generally normal; occasional lymphocytes with irregular morphology were seen, with relatively large cell bodies, roughly round shape, relatively abundant cytoplasm, and coarse chromatin. Bone marrow flow cytometry: lymphocytes accounted for 7.28% of all nucleated cells, of which 0.27% showed an abnormal phenotype.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMiaL1VMtcFYggWLPxCalTCs3zfVZbsmSGFfaR5X8CIJichnia8FK1U2Yyg/640?wx_fmt=png&from=appmsg",
+          "near_text": "After fully evaluating the advantages, disadvantages, and risks of the biopsy methods, CT-guided percutaneous lung biopsy was ultimately selected.",
+          "local_src": "cleaned_cases_image_cache/2786616df57b1da0661fb023c470914d447a4a2b.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMa072U2vaDQ70b78oRYpbl9C3NawoeOgldxQcRPE0tEHTfJg3IuSvoA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Cytopathology results suggest: numerous lymphocytes are seen; the specific nature and type should be correlated with the histopathology results.",
+          "local_src": "cleaned_cases_image_cache/e22a576b4590e12a812bd9552e363318dcb6de77.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMAEG9dcVk24m9f40QeaLvYAKFoltXiaO1IicXHGRvrvBTtfZpluTSePTw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Flow cytometry of lung biopsy tissue: no obvious blasts/immature cells were identified within the scope of this test.",
+          "local_src": "cleaned_cases_image_cache/5895a93ea4d162cd5c8ed4bc28754e4abe9f1ed9.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMEOFNrjke7cI58OL1MJicgl6J9e2la0YyT9phYcEJVyVIS4RtSAIU08A/640?wx_fmt=png&from=appmsg",
+          "near_text": "The final histopathologic results of the lung biopsy (gross and microscopic images) revealed the answer:",
+          "local_src": "cleaned_cases_image_cache/d3a9735b8d2f4f872fbd879d43dae593f1290e30.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKMjSEq5IF9b71foCH7j8JMlvnbwWEIAJMMuY37BGKUGBbdfgWYhLcPzjbfDt4VYLvxV3mrTwiaf8A/640?wx_fmt=png&from=appmsg",
+          "near_text": "CD79α（＋）",
+          "local_src": "cleaned_cases_image_cache/518ccf9fb83a6292be45c11f6173ee2a758d073a.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstILyUSxXdDKy2qvvuZ0eN2PibEnp4M3H0l5icHbYWKFO7KqnTbRGA07PnnUZ21vCQZYzTXSJxOHBZiaQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "The truth comes to light—B-cell non-Hodgkin lymphoma.",
+          "local_src": "cleaned_cases_image_cache/01f1d3184c8cee78d49c3d1858488769c0392d46.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "B-cell non-Hodgkin lymphoma (extranodal marginal zone type) involving the lung tissue and pleura",
+      "diagnostic_basis": [
+        "Percutaneous lung biopsy. Cytopathology results indicate: numerous lymphocytes are seen; the specific nature and type should be correlated with the histopathology results. Comment: occasional DNA aneuploid cells are seen in the liquid-based specimen. Flow cytometry of the lung biopsy tissue, within the scope of this test: no obvious blasts/immature cells are seen. Lymphocytes account for approximately 87.16% of all nucleated cells; plasma cells account for approximately 0.03% of all nucleated cells, with no obvious monoclonality identified on initial screening. Monocytes account for approximately 1.50% of all nucleated cells, mainly mature monocytes. Granulocytes account for approximately 9.73% of all nucleated cells. Epithelial/mesothelial cells account for approximately 0.16% of all nucleated cells. Final histopathology result of the lung biopsy tissue: CD79α (+).",
+        "PET-CT showed: heterogeneous thickening of the left hemidiaphragm, with an indistinct boundary from the left adrenal gland, and mildly heterogeneous increased metabolic activity, consistent with lymphoma.",
+        "Bone marrow aspiration showed: occasional irregularly shaped lymphocytes with relatively large cell bodies, oval to round shape, relatively abundant cytoplasm, and coarse chromatin.",
+        "Bone marrow flow cytometry: Lymphocytes accounted for 7.28% of all nucleated cells, of which 0.27% had an abnormal immunophenotype."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "After transfer to the Hematology Department, currently receiving regular treatment under Hematology."
+      ],
+      "treatment_response": [
+        "After 7 days of antifungal treatment, a repeat pleural effusion ultrasound was performed. The cruel result always comes unexpectedly: the pleural effusion had not decreased, but was increasing day by day."
+      ]
+    }
+  }
+}

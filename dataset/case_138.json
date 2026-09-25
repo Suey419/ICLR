@@ -1,0 +1,332 @@
+{
+  "status": "success",
+  "case_id": "case_138",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient is a 58-year-old woman who was admitted to the Department of Respiratory and Critical Care Medicine of our hospital on Day +26, with the chief complaint of \"chest tightness and shortness of breath for more than 2 months.\" In approximately 1 month before Day 0, she developed chest tightness and shortness of breath without an obvious precipitating cause, which became more pronounced after activity, accompanied by cough, predominantly dry cough. When the cough was severe, she felt pain in the back. She had no fever, chills, or rigors, and no lower extremity swelling. She was hospitalized at a local hospital from Day 0, where pulmonary CTPA showed multiple emboli in the lumen of the main pulmonary artery and bilateral branch pulmonary arteries. Echocardiography showed enlargement of the right heart compared with the left heart, mild to moderate tricuspid regurgitation, and severe pulmonary hypertension. Examination of the veins of both lower extremities and the iliac veins showed no obvious abnormality. NT-proBNP was 1683 pg/ml, and myocardial enzymes and troponin were normal. The diagnosis was considered to be pulmonary embolism and pulmonary hypertension. After admission, she was given anticoagulation (rivaroxaban tablets), antitussive therapy, diuresis, and other symptomatic treatment. The patient's cough improved significantly, and the chest tightness and shortness of breath improved slightly. On Day +26, the patient came to our outpatient clinic for further evaluation of her condition, and she was admitted from the outpatient clinic with a tentative diagnosis of pulmonary embolism. Past medical history and personal history: The patient had generally been in good health and denied underlying cardiopulmonary disease. Cesarean section 40 years ago, thyroidectomy more than 20 years ago, uterine fibroid resection 12 years ago. She had recurrent oral ulcers and denied genital ulcers, rash, joint pain, spontaneous abortion, and a history of ocular inflammation. She denied special medication use. She married at age 22 and has 1 healthy daughter. Family history was unremarkable. Physical examination: T: 36.5℃, R: 22/min, P: 102/min, BP: 142/96 mmHg, SPO2: 98% on room air. She was alert and in fair general condition, with no cyanosis of the lips. The thorax showed no deformity. Breath sounds in both lungs were slightly coarse, with no dry or wet rales and no pleural friction rub. On cardiac auscultation, a systolic murmur was heard at the left sternal border in the fourth intercostal space. The abdomen was soft, with no tenderness or rebound tenderness. There was no edema of either lower extremity and no clubbing of the fingers or toes. Initial admission diagnoses: pulmonary embolism; pulmonary hypertension. Admission CTPA: Multiple patchy filling defects were seen in the main pulmonary artery, the left and right main pulmonary arteries, the lobar pulmonary arteries of both lungs, and some segmental pulmonary artery branches; the distal branches were narrowed, and some small branches were not visualized.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute pulmonary thromboembolism (acute or subacute pulmonary embolism)",
+          "supporting_evidence": [
+            "Chief complaint of \"chest tightness and shortness of breath for more than 2 months,\" more pronounced after exertion, accompanied by cough, is one of the common manifestations of pulmonary embolism.",
+            "Pulmonary CTPA at a local hospital showed \"multiple emboli within the lumen of the main pulmonary artery and the bilateral branch pulmonary arteries\"",
+            "CTPA during this admission showed \"multiple patchy filling defects within the main pulmonary artery, the right and left pulmonary artery trunks, the lobar arteries of both lungs, and some segmental pulmonary artery branches\"",
+            "Echocardiography showed \"the right heart is enlarged relative to the left heart, mild to moderate tricuspid regurgitation, and severe pulmonary hypertension,\" consistent with increased right heart load secondary to elevated pulmonary circulatory resistance.",
+            "NT-proBNP 1683 pg/ml, suggesting right heart strain/cardiac function impairment",
+            "After anticoagulant therapy, \"chest tightness and shortness of breath slightly improved\""
+          ],
+          "opposing_evidence": [
+            "The disease course has exceeded 2 months, which is more suggestive of a subacute or chronic process than simple acute pulmonary embolism.",
+            "No definite evidence of deep vein thrombosis in the lower extremities; no obvious abnormalities were seen in the bilateral lower extremity veins or iliac veins",
+            "No evidence of hypoxemia; SpO2 98% without supplemental oxygen"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "supporting_evidence": [
+            "Symptoms persisted for more than 2 months, rather than being of brief sudden onset, suggesting a chronic or subacute pulmonary vascular obstructive process.",
+            "Echocardiography showed \"severe pulmonary hypertension\"; the right heart was enlarged relative to the left heart, consistent with pulmonary hypertension due to chronic pulmonary vascular obstruction.",
+            "CTPA during this admission, in addition to showing \"multiple patchy filling defects,\" also indicated \"narrowing of distal branches, with some small branches not visualized,\" supporting the possibility of post-thrombotic pulmonary vascular remodeling or chronic occlusion.",
+            "Only slight improvement after anticoagulation suggests possible persistent mechanical obstruction rather than a completely reversible acute event",
+            "No clear history of underlying cardiopulmonary disease, with prominent multiple lesions within the pulmonary arteries and pulmonary hypertension."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a past history of recurrent pulmonary embolism.",
+            "The stage 1 information did not provide a history of a longer duration of chronically decreased exercise tolerance.",
+            "The currently available data already include a clear description of \"multiple emboli formation,\" but it still needs to be differentiated from simple subacute pulmonary embolism."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Primary or secondary tumors within the pulmonary artery (e.g., pulmonary artery sarcoma)",
+          "supporting_evidence": [
+            "CTPA showed \"multiple patchy filling defects within the main pulmonary artery, the right and left main pulmonary arteries, the lobar arteries of both lungs, and branches of some segmental pulmonary arteries\"; an intraluminal space-occupying lesion in the pulmonary artery may present as a filling defect.",
+            "The disease course was \"more than 2 months,\" with continuously progressive symptoms, and it should be differentiated from nonthrombotic intraluminal pulmonary artery lesions.",
+            "There is severe pulmonary hypertension and right heart enlargement, suggesting relatively severe involvement of the main pulmonary artery trunk and its major branches."
+          ],
+          "opposing_evidence": [
+            "CTPA at the local hospital directly indicated \"multiple emboli formation,\" which more strongly supports a thrombotic lesion.",
+            "Symptoms \"slightly improved\" after anticoagulation, which is more consistent with a thrombotic lesion",
+            "The phase 1 information did not provide imaging clues more supportive of a tumor, such as enhancement of an intrapulmonary arterial mass, unilateral eccentric growth, or extravascular invasion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Antiphospholipid antibody syndrome-related pulmonary thromboembolism/pulmonary artery thrombosis",
+          "supporting_evidence": [
+            "Female, with multiple thrombi within the pulmonary arteries and no obvious abnormalities in the lower extremity veins or iliac veins, suggesting that in situ thrombosis or a thrombophilic disorder should be considered",
+            "History of \"recurrent oral ulcers\"; although nonspecific, this suggests that an autoimmune-related background may be further considered.",
+            "Denies any special medication use; there is no description of obvious common acquired risk factors predisposing to venous thrombosis."
+          ],
+          "opposing_evidence": [
+            "Denies a history of spontaneous abortion",
+            "The phase 1 information did not provide a history of recurrent arterial and venous thrombosis.",
+            "The first-stage information did not provide immunologic evidence such as antiphospholipid antibodies and lupus anticoagulant."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Behçet disease-associated pulmonary vascular involvement (pulmonary artery thrombosis/pulmonary vasculitis)",
+          "supporting_evidence": [
+            "History of recurrent oral ulcers",
+            "The main pulmonary artery trunk and bilateral branches are extensively involved, and no obvious abnormalities are seen in the bilateral lower extremity veins or iliac veins; differentiation from in situ thrombosis caused by inflammatory pulmonary vasculopathy is required.",
+            "In a female patient with pulmonary hypertension and multiple intrapulmonary arterial lesions, autoinflammatory vasculopathy should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Denies a history of genital ulcers, rash, joint pain, or ocular inflammation.",
+            "The phase 1 information did not provide other manifestations supporting Behçet disease, such as phlebitis and vascular aneurysm.",
+            "At present, the imaging and clinical findings are primarily more consistent with thromboembolic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary artery lesions associated with pulmonary vasculitis or other systemic autoimmune diseases",
+          "supporting_evidence": [
+            "Recurrent oral ulcers are present, suggesting a possible background of systemic inflammation/autoimmunity.",
+            "Extensive involvement of the main pulmonary artery trunk and multiple branch levels bilaterally, and no definite source of deep venous thrombosis in the lower extremities was identified; atypical vasculitic pulmonary arterial disease should be considered",
+            "Severe pulmonary hypertension and right heart enlargement suggest extensive involvement of the pulmonary vascular bed"
+          ],
+          "opposing_evidence": [
+            "No systemic inflammatory manifestations such as fever, rash, or joint pain",
+            "The first-stage information did not provide manifestations such as hemoptysis, renal impairment, or sinusitis to support systemic vasculitis.",
+            "The phase 1 information did not provide evidence of autoantibodies, inflammatory markers, or involvement of other organs."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + erythrocyte sedimentation rate + high-sensitivity CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer + fibrinogen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Homocysteine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (NSE, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thrombosis markers (CK-R/K/CI/G)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lupus anticoagulant test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Preoperative immunology + thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody panel (ANA, ANCA, rheumatoid factor, antiphospholipid antibodies)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thrombophilia screening (protein C, protein S, antithrombin III)",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-proBNP + cardiac enzymes + troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities and the iliac veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Temporal artery color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT scan",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory and other examinations: Blood tests: WBC count 9.8X10^9/L↑, platelet count 169X10^9/L, hemoglobin 164 g/L↑, ESR 4 mm/hr, ALB 18 U/L, AST 41 U/L↑, ALP 257 U/L↑, GGT 554 U/L↑, creatinine 117 μmol/L↑, hs-CRP 3.8 mg/L, D-dimer 0.35 μg/ml, prothrombin time 21.1 s, fibrinogen (FG) 3.81 g/L, neuron-specific enolase (NSE) 61.60 ng/mL↑. Thrombotic indices: CK-R value 5.3 min, CK-K value 1.7 min, CK-CI (composite coagulation index) 0.9, CK-G value 8.1 kd/sc, homocysteine 16.7 μmol/L↑, lupus anticoagulant normalized ratio 1.38↑. Preoperative immune tests, ANA, vasculitis antibodies, rheumatoid arthritis antibodies, antiphospholipid syndrome, protein S, protein C, antithrombin III, and thyroid function were normal. Temporal artery color Doppler ultrasound: intima-media thickening of the frontal branch of the left temporal artery; arteritis cannot be excluded. Intima-media thickening of the frontal and occipital branches of the right temporal artery; arteritis cannot be excluded. Color Doppler ultrasound of the bilateral lower extremity deep veins and iliac veins: blood flow patent. PET-CT: a. Diffusely increased FDG metabolism in the main pulmonary artery and the right and left pulmonary arteries, SUVmax=6.86; dilatation of some segmental arterial branches in the left upper lobe with increased FDG metabolism, SUVmax=8.76. In conjunction with pulmonary CTPA, the above findings suggest thrombosis; pulmonary artery intimal sarcoma needs to be differentiated. b. Right ventricular enlargement; small pericardial effusion.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOTo6fn0gxLoUWSOiaGIuiaia1FkszG3tNrr52LlRLDWyhIA1bqyrCYtiavtEA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 1. Multiple patchy filling defects within the main pulmonary artery, the left and right main pulmonary arteries, the lobar pulmonary arteries of both lungs, and some segmental pulmonary artery branches",
+            "local_src": "cleaned_cases_image_cache/7f66ad531f6f28a12bea90f6d473f8c121cfb11b.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary artery tumor embolism",
+            "evidence": [
+              "Elevated serum tumor markers",
+              "PET-CT showed diffusely increased FDG uptake in the main pulmonary artery trunk and the right and left pulmonary artery trunks, SUVmax=6.86; dilation of segmental arterial branches in parts of the left upper lobe with increased FDG uptake, SUVmax=8.76"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Takayasu arteritis",
+            "evidence": [
+              "Temporal artery Doppler ultrasound showed that arteritis could not be excluded"
+            ],
+            "exclusion_reasons": [
+              "No evidence of the above was found on physical examination of the patient.",
+              "Rheumatologic markers and ESR were negative",
+              "PET did not show signs of vasculitis or other arterial stenosis or occlusion",
+              "Insufficient evidence for aortitis"
+            ]
+          },
+          {
+            "name": "Behçet disease (Behçet syndrome)",
+            "evidence": [
+              "Has oral ulcers"
+            ],
+            "exclusion_reasons": [
+              "No skin lesions",
+              "No ocular symptoms",
+              "Insufficient evidence for the diagnosis of Behçet disease"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary artery tumor embolism",
+        "evidence": [
+          "Elevated serum tumor markers",
+          "PET-CT showed diffusely increased FDG uptake in the main pulmonary artery trunk and the right and left pulmonary artery trunks, SUVmax=6.86; dilation of segmental arterial branches in parts of the left upper lobe with increased FDG uptake, SUVmax=8.76"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Takayasu arteritis",
+        "evidence": [
+          "Temporal artery Doppler ultrasound showed that arteritis could not be excluded"
+        ],
+        "exclusion_reasons": [
+          "No evidence of the above was found on physical examination of the patient.",
+          "Rheumatologic markers and ESR were negative",
+          "PET did not show signs of vasculitis or other arterial stenosis or occlusion",
+          "Insufficient evidence for aortitis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Behçet disease (Behçet syndrome)",
+        "evidence": [
+          "Has oral ulcers"
+        ],
+        "exclusion_reasons": [
+          "No skin lesions",
+          "No ocular symptoms",
+          "Insufficient evidence for the diagnosis of Behçet disease"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "NT proBNP",
+          "basis_in_stage3_input": "Emergency department testing 1 day before admission showed NT-proBNP 2911 pg/ml↑",
+          "why_order_this_exam": "The patient has had a course of chest tightness and shortness of breath for more than 2 months, and was readmitted on Day +68 due to worsening symptoms. Previous echocardiography had already indicated right heart enlargement, tricuspid regurgitation, and severe pulmonary hypertension, suggesting a marked pulmonary circulatory resistance load and right heart involvement. Repeat NT-proBNP testing can be used to assess right ventricular wall tension and the degree of cardiac functional impairment, evaluate whether this exacerbation is related to further worsening of right heart load, and also serve as an objective indicator of the hemodynamic impact caused by progression of intrapulmonary arterial lesions, providing a basis for assessing severity, perioperative risk, and subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "basis_in_stage3_input": "D-dimer and cardiac enzyme panel within the normal range",
+          "why_order_this_exam": "The patient was initially treated with anticoagulation for pulmonary embolism and pulmonary hypertension, but the symptoms persisted and worsened again, and the imaging lesions continued to progress after anticoagulation. Reassessment is needed to determine whether the intrapulmonary arterial lesion is still predominantly fresh thrombus. Repeat D-dimer testing may help assess the status of fibrinolytic activation in vivo and assist in determining whether there is an active thrombosis/embolization process; if the D-dimer is not elevated despite obvious pulmonary arterial filling defects and disease progression, this instead suggests that simple thromboembolism is an insufficient explanation and supports further consideration of atypical causes such as pulmonary artery neoplastic lesions, providing reference value for the differential diagnosis and for whether to continue anticoagulation alone.",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "basis_in_stage3_input": "D-dimer and cardiac enzyme panel within the normal range",
+          "why_order_this_exam": "The patient was readmitted for worsening chest tightness and shortness of breath. There was a prior history of severe pulmonary hypertension and increased right heart load, and it was necessary to evaluate whether myocardial injury or other cardiogenic events were present during the course of clinical deterioration. A myocardial enzyme panel can be used to assess the degree of myocardial injury caused by acute increase in right heart load, and to help differentiate diseases causing chest tightness and shortness of breath, such as acute coronary syndrome; in this case, the myocardial enzyme panel was normal, which also helped suggest that the worsening symptoms were more likely related to progression of pulmonary arterial disease and pulmonary circulatory dysfunction, rather than being primarily driven by myocardial necrosis, thereby supporting subsequent imaging and interventional evaluation focused on pulmonary vascular lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy",
+          "basis_in_stage3_input": "On Day +73, the patient underwent pulmonary angiography + pulmonary artery thrombectomy and biopsy.",
+          "why_order_this_exam": "The intraluminal filling defect in the patient's pulmonary artery did not resolve as expected after anticoagulant therapy; instead, it showed progression, nodularity, and expansile proximal growth. PET-CT also previously suggested increased intrapulmonary arterial FDG uptake, making it necessary to fundamentally resolve the core clinical question of \"thrombus or tumor.\" Biopsy can directly obtain abnormal tissue from within the pulmonary arterial lumen and is the key step from imaging-based suspicion to histopathologic confirmation. This examination can determine whether the lesion is an organized thrombus, an inflammatory lesion, or a sarcomatous tumor, and plays a निर्णसive role in excluding simple pulmonary embolism, confirming the tumor nature, and determining whether to proceed to surgical resection and subsequent chemotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "The obtained specimen was fixed in formalin and sent for pathology. Final pathology result on Day +86",
+          "why_order_this_exam": "The final characterization of an intraluminal pulmonary artery lesion cannot rely solely on clinical manifestations and imaging features. In this case in particular, there were both pulmonary embolism-like manifestations, progression after anticoagulation, increased PET metabolic activity, and localized nodular changes; the differential diagnosis includes thrombus, inflammation, and malignant tumor. The purpose of submitting tissue obtained by biopsy/thrombectomy for routine pathologic examination is to assess for oncologic evidence such as spindle cell proliferation and atypia, thereby establishing a histologic diagnosis. The pathologic result directly affects the final definitive diagnosis, prognostic assessment, and treatment direction: if it is a tumor, surgical treatment and oncologic therapy are required rather than simply continuing anticoagulation; if it is a thrombotic/inflammatory lesion, the treatment strategy is completely different. Therefore, pathology is the key examination for definitive diagnosis in this case.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry xsB2023-32540: Specimen A: CK-pan (AE1/AE3) (-), Ki-67 (20%+), CD31 (-), CD34 (-), Desmin (+), F8 (-), S-100 (-), ER (-). Specimen A: SMA (+), MyoD-1 (-), Myogenin (-).",
+          "why_order_this_exam": "In this case, pathology has shown proliferation of atypical spindle cells in the exudative material of the pulmonary artery mass, but morphology alone still requires further clarification of the direction of cellular differentiation and distinction from epithelial tumors, vascular tumors, neurogenic tumors, and other sarcoma subtypes. Immunohistochemistry, using a panel of markers including CK-pan, CD31, CD34, F8, Desmin, SMA, S-100, MyoD-1, and Myogenin, can determine whether the lesion supports mesenchymal smooth muscle/myogenic differentiation and exclude vascular endothelial or epithelial origin; Ki-67 can also reflect proliferative activity. This examination is crucial for further classifying the abnormal intraluminal pulmonary artery tissue as sarcoma and supporting that 'pulmonary artery intimal sarcoma cannot be excluded,' and it also directly affects the subsequent extent of surgical resection, whether to add chemotherapy, and the overall tumor treatment strategy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +68, the patient was readmitted due to worsening chest tightness and shortness of breath for 1 day. On the day before admission, emergency testing showed NT-proBNP 2911 pg/ml↑; D-dimer and myocardial enzyme panel were within the normal range. Repeat CTPA on Day +70: multiple filling defects in the bilateral pulmonary arteries; localized nodular change in the pulmonary artery of the left upper lobe, progressed compared with Day +43. Progression of the filling defect in the main trunk of the left pulmonary artery, with expansile proximal growth; decreased filling defect in the main trunk of the right pulmonary artery, with partial local absorption of thrombus; increased filling defect in the right lower pulmonary artery. On Day +73, the patient underwent pulmonary angiography + pulmonary artery thrombectomy and biopsy. Angiography showed multiple filling defects in the main pulmonary artery and its branches. Aspiration was performed in the left and right pulmonary arteries, and two pieces of dark red tissue were aspirated; at the same time, an appropriate amount of tissue was obtained using small foreign body forceps. The collected material was fixed in formalin and sent for pathology. Final pathology result on Day +86: immunohistochemistry xsB2023-32540: slide A: CK-pan (AE1/AE3) (-), Ki-67 (20%+), CD31 (-), CD34 (-), Desmin (+), F8 (-), S-100 (-), ER (-). Slide A: SMA (+), MyoD-1 (-), Myogenin (-). Spindle cell proliferation with atypia was seen in the exudate from the patient's (pulmonary artery mass), and sarcoma is considered; in combination with the site and imaging examinations, pulmonary artery intimal sarcoma cannot be excluded.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToXRibibLaUlkOLDu8GLUCeIsia4ichYrTN5fIMYEoJfEDP1kNSWs4lBpzlQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2 Follow-up CTPA",
+          "local_src": "cleaned_cases_image_cache/c7a0cc40703060e6bdfaeaf2f772248cebd16aa9.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToOibmq00RaVtYpVBY1EVbCOxbd8ZqEz5mRtYXIBicQfsAYdalf7dYjicgw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3. Mass removed during pulmonary endarterectomy",
+          "local_src": "cleaned_cases_image_cache/0b92ac85ae7ec6df194240fb1a908ba16e09a1d6.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary artery intimal sarcoma; pulmonary thromboembolism; pulmonary hypertension",
+      "diagnostic_basis": [
+        "Postoperative pathology: (pulmonary vessel) pulmonary artery intimal sarcoma",
+        "Despite regular anticoagulation and corticosteroid therapy, the condition continued to progress"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Cardiac surgery performed pulmonary endarterectomy under cardiopulmonary bypass, with resection of the intima and masses from the left and right pulmonary arteries and the main pulmonary artery trunk",
+        "6 cycles of albumin-bound paclitaxel chemotherapy",
+        "Long-term oral rivaroxaban 15 mg once daily for anticoagulation"
+      ],
+      "treatment_response": [
+        "At follow-up, the patient had recovered fairly well, with no obvious chest tightness or shortness of breath."
+      ]
+    }
+  }
+}

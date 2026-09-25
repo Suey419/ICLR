@@ -1,0 +1,507 @@
+{
+  "status": "success",
+  "case_id": "case_121",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 56 years old, from Datong, Shanxi, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital with the chief complaint of \"cough and sputum production for 2 months, shortness of breath on exertion for 5 days.\" On Day 0, the patient developed cough without an obvious precipitating cause, with yellow sputum, 4-5 mouthfuls per day, and did not pay much attention to it. On Day +31, the patient presented to a local county hospital in Shanxi, where a lung CT was performed. She was admitted to the county hospital with a diagnosis of \"pulmonary infection\" and was treated with cephalosporin antibiotics combined with levofloxacin for more than 10 days. The cough and sputum production did not improve, and follow-up chest CT showed no obvious absorption. On Day +43, the patient presented to a hospital in Datong City. Laboratory tests showed WBC 3.6X10^9/L, neutrophil percentage: 50.7%, CRP <5mg/L, PCT: 0.05ng/ml, ESR: 15mm/h; respiratory pathogen antibodies (influenza A and B, parainfluenza virus, coxsackie virus, Q fever rickettsia, Mycoplasma pneumoniae, Chlamydia, respiratory syncytial virus, adenovirus) were all negative. Pathogen NGS of BALF showed negative results for DNA viruses, bacteria, and fungi; among RNA viruses, 10 sequences of human metapneumovirus were detected. RO/SS-A (60KD) antibody was positive; the remaining antinuclear antibodies, rheumatoid factor, etc. were all negative. Tumor markers showed CYFRA 21-1 6.16ng/ml (0-3.3), and the rest were normal; arterial blood gas analysis: pH: 7.41, PaO2: 63.9mmHg, PaCO2: 38.1mmHg. A chest CT was performed. She was treated with amoxicillin combined with levofloxacin for 7 days, then changed to cefoperazone-sulbactam + vancomycin for 5 days. The cough and sputum production did not improve, dyspnea worsened, and new myalgia in both upper extremities and soreness of both hand joints with morning stiffness developed; after discontinuation of the medications, the soreness and morning stiffness improved. She was admitted to our hospital for further treatment. Since disease onset, her mental status and sleep had been fair, appetite was acceptable, bowel and bladder function were normal, and there was no significant change in body weight. The patient is a local resident of Shanxi and has had hypertension for more than 7 years, with generally acceptable blood pressure control. She mainly does housework in daily life. She has a regular lifestyle and denies smoking and alcohol history. Marital and reproductive history was unremarkable. Both parents are alive, with no other notable family history. Physical examination: T36℃, P96/min, R23/min, BP103/86mmHg. No rash was present on the skin, and no enlarged lymph nodes were palpable throughout the body; the thorax showed no deformity, bilateral respiratory excursion was symmetric, tactile fremitus was not increased, percussion of both lungs was resonant, breath sounds in both lungs were clear, Velcro rales were heard in both lower lungs, and no pleural friction rub was heard; there was no precordial bulge, the apical impulse was located 0.5 cm medial to the left midclavicular line in the fifth intercostal space, no thrill was palpable, cardiac borders were not enlarged, heart rate was 96/min with regular rhythm, heart sounds were not obviously accentuated or diminished, and no pathologic murmur was heard in any valve auscultation area; the abdomen was flat and soft, with no hepatosplenomegaly, no abdominal tenderness or muscle guarding; there was no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1eDPoMOC7BdcQicmZNBDwKxdHuACbicAoSanQpsjvCAtB5DfG9DTCicNgQ/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, Day +32",
+          "local_src": "cleaned_cases_image_cache/e0dea9e97b38ebf2e6555920f08df1420f3a0be9.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1HDUQqE3dDzmhSRqNFLgS9q259sPlJiaLUALias9cYKLrQ4UcEJUtKb3g/640?wx_fmt=png",
+          "near_text": "Figure 2. Chest CT, Day +32",
+          "local_src": "cleaned_cases_image_cache/98f9811688b74baeafbfa5d078199ba3c3f9f08b.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1HWsCIQTdhI6jcmdIEKq6eGB4BuAsvUMy4rT4RNS9m7JPx1gNzVvOqA/640?wx_fmt=png",
+          "near_text": "Figure 3. Chest CT, Day +40",
+          "local_src": "cleaned_cases_image_cache/c1e8c332bbf39ef2cad5a96e356d5f5a687fd1c0.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1F9NghX6fNGIbERnn1qIIpa4cH7DhcfTo5JZSzUqB3lLecsGb4ZA6uw/640?wx_fmt=png",
+          "near_text": "Figure 4. Chest CT, Day +44",
+          "local_src": "cleaned_cases_image_cache/859aa07946d776c810c4b1d033bda1a248f64a10.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Cough and sputum production for 2 months, shortness of breath after activity for 5 days, with a subacute course",
+            "After sequential treatment with multiple antibacterial agents, there was no improvement in cough and sputum production, and dyspnea worsened; chest CT showed \"no obvious absorption\".",
+            "Physical examination: Velcro crackles heard in both lower lungs",
+            "On the initial chest CT images, there are patchy/confluent areas of consolidation and ground-glass opacities predominantly involving the bilateral lower lungs, with a peripheral and subpleural distribution; both lungs are affected, consistent with the common imaging distribution pattern of organizing pneumonia.",
+            "Infectious markers are not elevated: WBC 3.6X10^9/L, CRP <5mg/L, PCT 0.05ng/ml, erythrocyte sedimentation rate 15mm/h"
+          ],
+          "opposing_evidence": [
+            "The patient has a cough with yellow sputum, suggesting that infectious pneumonia still needs to be differentiated.",
+            "No further supporting evidence such as pathology or response to glucocorticoid therapy was provided in the first phase of information."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Connective tissue disease-associated interstitial lung disease (predominantly with organizing pneumonia-like changes; Sjögren syndrome/myositis spectrum should be considered)",
+          "supporting_evidence": [
+            "Anti-RO/SS-A (60 kD) antibody positive",
+            "New-onset myalgia of both upper extremities and arthralgia of both hands with morning stiffness, suggesting possible autoimmune/inflammatory connective tissue disease",
+            "Bilateral lower lung Velcro crackles support interstitial lung involvement",
+            "Phase 1 chest CT images showed bibasilar-predominant, bilateral peripheral and basal patchy consolidation/ground-glass opacities, which can be seen in connective tissue disease-associated interstitial lung disease, especially with an organizing pneumonia pattern.",
+            "Poor response to anti-infective treatment, not supporting a simple common bacterial infection"
+          ],
+          "opposing_evidence": [
+            "Except for anti-RO/SS-A (60 kD) antibody, the remaining antinuclear antibodies, rheumatoid factor, etc. were all negative.",
+            "No rash over the entire body; more typical manifestations of connective tissue disease such as Raynaud phenomenon, dry eyes and mouth, and proximal muscle weakness were not provided.",
+            "Myalgia and morning stiffness; \"the myalgia and morning stiffness improved after drug withdrawal.\" The symptoms are not entirely specific to the primary connective tissue disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Viral pneumonia (human metapneumovirus-related should be considered)",
+          "supporting_evidence": [
+            "Pathogen NGS of bronchoalveolar lavage fluid detected 10 sequences of human metapneumovirus among RNA viruses",
+            "Multiple antibody tests for bacteria, fungi, and common respiratory pathogens were negative",
+            "The white blood cell count was not elevated, and both CRP and PCT were low, which is more consistent with features of atypical infection/viral infection.",
+            "Phase I chest CT images showed multiple patchy ground-glass opacities and consolidations in both lungs, which can be seen in viral pneumonia"
+          ],
+          "opposing_evidence": [
+            "The disease course has reached 2 months, which is longer than that of typical acute viral pneumonia.",
+            "After a period of time, imaging still showed no obvious resolution, and the symptoms continued to progress, which was not entirely consistent with a purely self-limited viral infection.",
+            "Productive cough with yellow sputum suggests possible concomitant other inflammatory processes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Atypical or refractory infectious pneumonia (including common bacterial pneumonia, mixed infection, etc.)",
+          "supporting_evidence": [
+            "The initial symptoms were cough and yellow sputum production.",
+            "Worsening shortness of breath after activity, arterial blood gas oxygen partial pressure 63.9 mmHg, with hypoxemia",
+            "On the initial chest CT images, multiple patchy areas of consolidation are visible in both lower lungs; infectious pneumonia should still be included in the differential diagnosis.",
+            "Previously admitted to a county hospital with a diagnosis of \"pulmonary infection\""
+          ],
+          "opposing_evidence": [
+            "No improvement after more than 10 days of treatment with a cephalosporin combined with levofloxacin, 7 days of amoxicillin combined with levofloxacin, and 5 days of cefoperazone-sulbactam + vancomycin.",
+            "WBC 3.6X10^9/L, neutrophil percentage 50.7%, CRP <5mg/L, PCT 0.05ng/ml, ESR 15mm/h, all do not support active common bacterial infection",
+            "Pathogen NGS of bronchoalveolar lavage fluid showed negative results for DNA viruses, bacteria, and fungi",
+            "Respiratory pathogen antibodies (influenza A and B, parainfluenza virus, Coxsackie virus, Coxiella burnetii, Mycoplasma pneumoniae, Chlamydia, respiratory syncytial virus, adenovirus) were all negative"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Tumorous lesions such as pneumonic-type lung adenocarcinoma/invasive mucinous adenocarcinoma",
+          "supporting_evidence": [
+            "The pulmonary opacity did not show significant resolution after a prolonged period and multiple anti-infective treatments.",
+            "Tumor markers showed elevated cytokeratin 19 fragment level at 6.16 ng/ml (0-3.3).",
+            "On first-stage chest CT images, persistent patchy areas of consolidation are seen in both lower lungs; a tumorous pneumonia-like lesion needs to be differentiated from infection and organizing pneumonia."
+          ],
+          "opposing_evidence": [
+            "All other tumor markers were within normal limits.",
+            "The patient's body weight showed no significant change, and no tumor warning symptoms such as hemoptysis were reported.",
+            "The phase 1 chest CT images show bilateral multifocal lesions predominantly involving the lower lungs, more commonly seen in inflammatory or interstitial processes, without definite features of a solitary space-occupying lesion."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Eosinophilic pneumonia",
+          "supporting_evidence": [
+            "Subacute cough, shortness of breath, and hypoxemia are present",
+            "Phase 1 chest CT images showed patchy consolidation/ground-glass opacities predominantly in the bilateral peripheral and lower lungs, which may overlap with the imaging findings of eosinophilic pneumonia",
+            "Conventional antibacterial treatment is ineffective; noninfectious inflammatory lung disease should be considered."
+          ],
+          "opposing_evidence": [
+            "No evidence of elevated peripheral blood eosinophils or increased eosinophils in BALF was provided in the first stage.",
+            "No relevant clues such as a history of asthma or allergies were described",
+            "Productive cough with yellow sputum, not a typical finding suggestive of eosinophilic pneumonia"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count and inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TNT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Four infectious disease tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungi",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "tuberculosis",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Myositis-associated antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the heart and bilateral lower extremity veins",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Percutaneous lung biopsy pathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "transbronchial cryobiopsy of the lung",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "The laboratory test results are as follows: 1. Routine indicators: [CBC and inflammatory markers] WBC 3.6×10^9/L, neutrophil percentage: 54.2%, CRP <1 mg/L, PCT: 0.041 ng/ml, ESR: 2 mm/h. [Urinalysis, stool routine + OB] normal. [Biochemical parameters] normal. [Coagulation function] normal. [Blood lipids] normal. [Cardiac enzymes, TNT, BNP, fasting blood glucose, thyroid function] normal. 2. Pathogen and tumor-related indicators: [Infectious disease panel] hepatitis B, hepatitis C, HIV, TP (-). [Fungi] GM test, G test (-). [Viruses] comprehensive viral panel: TORCH panel negative, EBV-DNA negative, CMV-DNA negative. EBV antibody (-). Throat swab influenza virus nucleic acid negative. Respiratory pathogen 9-panel, Mycoplasma and Chlamydia antibodies (-). [Tuberculosis] PPD skin test negative; TB-DNA negative, TB antibody negative, interferon-gamma release assay (-). [Tumor markers] lung tumor markers normal. 3. Immune-related indicators: [ANA panel] antinuclear antibody positive, cytoplasmic speckled pattern 1:320, nuclear speckled pattern: 1:100; anti-SSA (++), anti-Ro-52 (+++), anti-Jo-1 (+++). [Myositis-related antibodies] anti-Ro-52 (+++), anti-Jo-1 (+++), others normal. 4. Ultrasound: [Echocardiography + bilateral lower-extremity venous Doppler ultrasound] no obvious abnormality in intracardiac structure, left ventricular systolic function measurement within the normal range. Blood flow is patent in the visualized segments of the deep veins of both lower extremities. [Abdominal ultrasound] normal. 5. Pulmonary function test: ventilatory function basically normal, diffusing capacity decreased (moderate), diffusion coefficient decreased (mild). 6. Bronchoscopy: no abnormality seen under bronchoscopy. 7. Bronchoalveolar lavage fluid results: [Microbiology] Gram stain: no bacteria seen, no fungi found; acid-fast stain: no acid-fast bacilli seen; Pneumocystis hexamine silver stain: no Pneumocystis seen/oil immersion. [Differential cell count]: BALF differential count: neutrophils 6%; lymphocytes: 76%, macrophages 5%, eosinophils 13%. [BALF NGS] negative. [Bacterial + fungal culture] (-). 8. Pathology result of percutaneous lung biopsy: small amount of inflammatory cell and histiocyte infiltration; no special infection or tumor seen.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "bacterial infection",
+            "evidence": [
+              "The patient had an acute onset, with clinical manifestations including shortness of breath, cough, and expectoration of yellow sputum.",
+              "Chest CT showed progressively worsening bilateral pulmonary opacities"
+            ],
+            "exclusion_reasons": [
+              "No fever, not consistent with the characteristics of bacterial infection",
+              "No elevated white blood cell count was seen in the blood count.",
+              "No etiologic testing evidence related to bacterial infection; BALF NGS negative",
+              "Multiple anti-infective treatments were ineffective"
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "This patient had an acute onset, and chest CT showed progressive bilateral pulmonary opacities.",
+              "Moderate diffusing capacity impairment on pulmonary function testing",
+              "Eosinophils 13%↑ in BALF differential cell count",
+              "No improvement after standard anti-infective treatment"
+            ],
+            "exclusion_reasons": [
+              "Pathology from percutaneous lung biopsy showed a small amount of inflammatory cell and histiocyte infiltration, lacking HP-related pulmonary histopathologic features.",
+              "No history of specific antigen exposure, no history of allergies"
+            ]
+          },
+          {
+            "name": "Connective tissue disease-related lung involvement",
+            "evidence": [
+              "The patient's clinical symptoms include exertional dyspnea, cough, and sputum production, with disease progression.",
+              "Chest CT showed bilateral pulmonary opacities, predominantly in the bilateral lung bases and subpleural regions",
+              "PFT showed moderate diffusion impairment",
+              "Lymphocytes increased to 76% in BALF",
+              "Anti-Ro-52 and Jo-1 positive"
+            ],
+            "exclusion_reasons": [
+              "The patient is a middle-aged woman with no prior history of immune system-related disease.",
+              "ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+              "Clinical symptoms and signs of amyopathic dermatomyositis"
+            ]
+          },
+          {
+            "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+            "evidence": [
+              "The patient has symptoms such as exertional dyspnea, cough, and sputum production, with disease progression.",
+              "Chest CT showed bilateral lung opacities; no mediastinal lymphadenopathy was seen.",
+              "No pulmonary arterial hypertension",
+              "PFT showed moderate diffusion impairment"
+            ],
+            "exclusion_reasons": [
+              "Pathologic results of percutaneous lung biopsy showed a small amount of inflammatory cell and histiocyte infiltration",
+              "The patient had no evidence of pulmonary arterial hypertension, hepatosplenomegaly, or other manifestations of systemic organ involvement.",
+              "PET-CT was declined for financial reasons"
+            ]
+          },
+          {
+            "name": "Pulmonary veno-occlusive disease (PVOD)",
+            "evidence": [
+              "The patient has dyspnea on exertion",
+              "PFT showed moderate diffusion impairment",
+              "Chest CT showed bilateral pulmonary opacities"
+            ],
+            "exclusion_reasons": [
+              "The patient does not have pulmonary hypertension.",
+              "Chest CT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes.",
+              "The pathology results of the percutaneous lung biopsy do not support PVOD"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "bacterial infection",
+        "evidence": [
+          "The patient had an acute onset, with clinical manifestations including shortness of breath, cough, and expectoration of yellow sputum.",
+          "Chest CT showed progressively worsening bilateral pulmonary opacities"
+        ],
+        "exclusion_reasons": [
+          "No fever, not consistent with the characteristics of bacterial infection",
+          "No elevated white blood cell count was seen in the blood count.",
+          "No etiologic testing evidence related to bacterial infection; BALF NGS negative",
+          "Multiple anti-infective treatments were ineffective"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "This patient had an acute onset, and chest CT showed progressive bilateral pulmonary opacities.",
+          "Moderate diffusing capacity impairment on pulmonary function testing",
+          "Eosinophils 13%↑ in BALF differential cell count",
+          "No improvement after standard anti-infective treatment"
+        ],
+        "exclusion_reasons": [
+          "Pathology from percutaneous lung biopsy showed a small amount of inflammatory cell and histiocyte infiltration, lacking HP-related pulmonary histopathologic features.",
+          "No history of specific antigen exposure, no history of allergies"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Connective tissue disease-related lung involvement",
+        "evidence": [
+          "The patient's clinical symptoms include exertional dyspnea, cough, and sputum production, with disease progression.",
+          "Chest CT showed bilateral pulmonary opacities, predominantly in the bilateral lung bases and subpleural regions",
+          "PFT showed moderate diffusion impairment",
+          "Lymphocytes increased to 76% in BALF",
+          "Anti-Ro-52 and Jo-1 positive"
+        ],
+        "exclusion_reasons": [
+          "The patient is a middle-aged woman with no prior history of immune system-related disease.",
+          "ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+          "Clinical symptoms and signs of amyopathic dermatomyositis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+        "evidence": [
+          "The patient has symptoms such as exertional dyspnea, cough, and sputum production, with disease progression.",
+          "Chest CT showed bilateral lung opacities; no mediastinal lymphadenopathy was seen.",
+          "No pulmonary arterial hypertension",
+          "PFT showed moderate diffusion impairment"
+        ],
+        "exclusion_reasons": [
+          "Pathologic results of percutaneous lung biopsy showed a small amount of inflammatory cell and histiocyte infiltration",
+          "The patient had no evidence of pulmonary arterial hypertension, hepatosplenomegaly, or other manifestations of systemic organ involvement.",
+          "PET-CT was declined for financial reasons"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary veno-occlusive disease (PVOD)",
+        "evidence": [
+          "The patient has dyspnea on exertion",
+          "PFT showed moderate diffusion impairment",
+          "Chest CT showed bilateral pulmonary opacities"
+        ],
+        "exclusion_reasons": [
+          "The patient does not have pulmonary hypertension.",
+          "Chest CT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes.",
+          "The pathology results of the percutaneous lung biopsy do not support PVOD"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pathogen testing",
+          "basis_in_stage3_input": "No etiologic evidence of bacterial, fungal, viral, or other related infections",
+          "why_order_this_exam": "The patient presented with cough, sputum production, and dyspnea. Initially, infectious pneumonia needed to be excluded first clinically, because chest CT showed bilateral lung opacities and the patient had repeatedly been treated as having a pulmonary infection. Completing etiologic testing for bacteria, fungi, viruses, and TB was intended to address the core question of whether the current pulmonary lesions were caused by an identifiable pathogen, and to assess whether there was a basis for continuing or escalating anti-infective therapy. In the context of persistently negative pathogen testing, low inflammatory markers, and no response to antibacterial therapy, infection could be gradually excluded, avoiding unnecessary anti-infective exposure and supporting a shift toward a diagnostic pathway for immune-related lung injury.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS",
+          "basis_in_stage3_input": "BALF NGS negative",
+          "why_order_this_exam": "When a patient’s pulmonary opacities are persistent and nonresolving, and routine microbiologic testing and empiric anti-infective therapy cannot explain the condition, BALF NGS can more broadly screen for potential pathogens such as bacteria, fungi, and viruses, with the main purpose of determining whether there is occult infection or mixed infection missed by conventional methods. This test is particularly critical for differentiating infectious pneumonia from noninfectious ILD and also affects whether glucocorticoid and immunosuppressive therapy can be initiated safely thereafter. A negative result, together with negative cultures and lack of response to anti-infective treatment, substantially lowers the likelihood of an infectious etiology and provides a safety basis for subsequent management as anti-synthetase syndrome-related lung injury.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy",
+          "basis_in_stage3_input": "Lung biopsy results are not consistent with features of HP",
+          "why_order_this_exam": "The patient’s imaging showed diffuse opacities in both lungs, and BALF lymphocytes were as high as 76%. According to the guidelines, this pattern may suggest hypersensitivity pneumonitis or cellular NSIP; therefore, lung biopsy was needed to further obtain histopathologic evidence and address the differential diagnosis among hypersensitivity pneumonitis, connective tissue disease-associated ILD, organizing pneumonia, and even tumor, as suggested by the imaging and BALF findings. Especially in the absence of a clear antigen exposure history and when anti-infective treatment was ineffective, pathology was of important value for excluding characteristic HP changes, specific infections, and tumor. Although the lung biopsy in this case showed only a small amount of inflammatory cell and histiocytic infiltration and was incompletely specific, it did not support features characteristic of HP, prompting the diagnosis to further favor antisynthetase syndrome-associated lung involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "basis_in_stage3_input": "Tumor markers were negative",
+          "why_order_this_exam": "The patient's pulmonary opacities remained unresolved after a prolonged period and multiple anti-infective regimens, so clinically it is necessary to rule out pneumonic-type tumor or other malignant lesions, because this would significantly alter the subsequent diagnostic and treatment direction. The purpose of tumor marker testing is to look for clues supporting a neoplastic lesion and, in combination with imaging and pathology, to assess whether there is evidence of tumor underlying persistent pulmonary consolidation or ground-glass opacities. Although negative tumor markers alone cannot completely exclude malignant tumor, when combined with information such as no tumor seen on percutaneous lung biopsy and no significant weight loss, the likelihood of a neoplastic lesion can be markedly reduced, providing support for shifting to the diagnosis of immune-mediated interstitial lung disease.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Myositis-associated antibodies",
+          "basis_in_stage3_input": "Myositis-related antibody testing showed anti-Ro-52 (+++), anti-Jo-1 (+++)",
+          "why_order_this_exam": "The patient had progression of pulmonary lesions and no response to anti-infective therapy, and had previously developed myalgia in both upper extremities and arthralgia in both hand joints with morning stiffness, suggesting the possibility of an underlying autoimmune disease. Completing myositis-related antibody testing was intended to determine whether this belonged to the inflammatory myopathy spectrum, especially antisynthetase syndrome, and to explain why the patient could present initially with ILD while lacking typical manifestations of myositis. Anti-JO-1 is an important characteristic antibody of antisynthetase syndrome, and anti-RO-52 positivity is also common in related ILD and suggests the possibility of immune-mediated lung injury. This testing directly relates to the diagnostic direction, selection of immunotherapy, and assessment of prognosis, and is the key evidence in this case for moving from the diagnosis of 'bilateral pulmonary opacities of unknown cause' to 'antisynthetase antibody syndrome.'",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary imaging",
+          "basis_in_stage3_input": "Pulmonary imaging",
+          "why_order_this_exam": "During the course of the disease, chest CT continuously showed multiple patchy opacities, ground-glass opacities, and partial consolidation in both lungs, with no absorption after multiple courses of anti-infective treatment. Imaging is the core examination for determining the distribution, nature, and evolutionary trend of the lesions. The purpose of ordering pulmonary imaging is to determine whether the lesions fit the typical pattern of infection, hypersensitivity pneumonitis, organizing pneumonia, connective tissue disease-associated ILD, or neoplastic lesions, and to assess the extent and severity of the lesions. For antisynthetase syndrome-associated ILD, imaging often shows a bilateral, basilar, subpleural distribution, which can correspond to the clinical data in this case; at the same time, imaging also provides the basis for whether further tissue sampling is needed and how to choose a biopsy or bronchoscopy strategy, and it can serve as a baseline for subsequent assessment of response to glucocorticoid and immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "basis_in_stage3_input": "Diffusion impairment on pulmonary function testing",
+          "why_order_this_exam": "The patient has developed exertional shortness of breath, and prior arterial blood gas testing showed hypoxemia. Symptoms alone cannot accurately quantify the extent of lung involvement; therefore, pulmonary function testing, especially diffusion capacity assessment, is needed. This examination mainly addresses whether there is the gas exchange impairment commonly seen in interstitial lung disease, how severe it is, and whether the symptoms match the functional impairment. A pattern of reduced diffusion capacity with basically normal ventilatory function more strongly supports interstitial lung injury rather than simple airway disease or ordinary infection, which is important for the differential diagnosis. The results can also serve as a disease baseline to assess disease progression, evaluate prognosis, and guide follow-up monitoring after subsequent glucocorticoid and immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF cytological analysis",
+          "basis_in_stage3_input": "Markedly increased lymphocytes in BALF, 76%",
+          "why_order_this_exam": "In the setting of abnormal chest CT findings, ineffective anti-infective therapy, and failure of routine pathogen testing to identify the etiology, BALF cytologic analysis helps determine the type of alveolar inflammation based on the inflammatory cell composition and resolve the differential diagnosis among infectious, allergic, and immune-related interstitial lung diseases. In this case, BALF lymphocytes were markedly increased to 76%, suggesting lymphocyte-predominant alveolitis, which according to guidelines is highly suggestive of HP or cellular NSIP rather than typical bacterial infection. Combined with the absence of an antigen exposure history, lung biopsy not supporting HP, and positive myositis antibodies, this result further supports connective tissue disease-associated ILD, especially antisynthetase syndrome-associated lung involvement. At the same time, 13% eosinophils in BALF also indicated that eosinophil-related lung disease had needed to be considered in the differential diagnosis, but the overall clinical evidence ultimately did not support it.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Clinical examination related to dermatomyositis",
+          "basis_in_stage3_input": "Clinical symptoms and signs of amyopathic dermatomyositis",
+          "why_order_this_exam": "The patient’s myositis-associated antibodies are markedly positive, but there are no typical clinical manifestations such as characteristic rash or obvious proximal muscle weakness. Therefore, a systematic dermatomyositis-related physical examination is required to determine whether a dermatomyositis/polymyositis phenotype is present or whether this represents a clinically amyopathic presentation with predominant lung involvement. The core purpose of this physical examination is to assess for clues such as Gottron sign, heliotrope rash, mechanic’s hands, and decreased proximal muscle strength, in order to define the disease spectrum and refine the clinical classification of antisynthetase syndrome. Although the physical examination findings are negative, this does not exclude antisynthetase syndrome, because this disease may lack obvious myositis manifestations throughout the entire course; rather, this result helps explain why this case presented initially with ILD and helps avoid missed diagnosis due to the absence of typical dermatomyositis manifestations.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "In this case, the disease progressed, but the blood counts were normal, there was no etiologic evidence of bacterial, fungal, or viral infection, NGS of alveolar lavage fluid was negative, and antibiotic treatment was ineffective; there was no relevant antigen exposure history before disease onset, and the lung biopsy findings were not consistent with HP; tumor markers were negative, with no evidence of malignancy. Therefore, after multidisciplinary discussion (MDT), we gradually excluded infectious diseases. Testing for myositis-related antibodies showed anti-Ro-52 (+++) and anti-Jo-1 (+++), with Velcro crackles in both lower lungs, pulmonary imaging findings, impaired diffusing capacity on pulmonary function testing, and a marked increase in lymphocytes in BALF to 76%, without clinical symptoms or signs of dermatomyositis. The 2012 American Thoracic Society official guideline, Clinical Utility of Bronchoalveolar Lavage Cellular Analysis in Interstitial Lung Disease, indicates that if the lymphocyte count is >50%, this strongly suggests HP or cellular NSIP. Antisynthetase syndrome (ASS) is a clinical subtype of inflammatory myopathy characterized by positivity for anti-aminoacyl-tRNA synthetase antibodies. ASS is prone to be complicated by ILD, and myositis is not its main manifestation; there may even be no manifestations of myositis throughout the entire disease course. The most common initial manifestation is ILD, and it is easily missed or misdiagnosed.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1W4dlQk9ygd2dpMmDoKicaaUaq54tag0ribMF44ZM4ic2T7ia9yvxWIWUug/640?wx_fmt=png",
+          "near_text": "Figure 5. Chest CT, Day +92",
+          "local_src": "cleaned_cases_image_cache/614980251bd9adb2c5652c8b4b9ba051c6170946.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe16j9acHWuvh4YtFtAcW9NGc1W73iauVjJ5y7H9sO8CxydmYHfpHL79sg/640?wx_fmt=png",
+          "near_text": "Figure 6. Chest CT, Day +92",
+          "local_src": "cleaned_cases_image_cache/59cdfe7ff7a78e506ab8974c89a31033635a4bdc.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1U6Y3icKym6gRXlLqKxEwwxQwMZM2Y7Iv4yIWrHVYwbC1jVgNyAX7Ltw/640?wx_fmt=png",
+          "near_text": "Figure 7 Chest CT Day +106",
+          "local_src": "cleaned_cases_image_cache/38d237c00b867b9492a24eb3b99ed6cde6656c05.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe13l7nNiaEY51XVTKx9fLtDEuV0pqnwXSf8edS0obzoUWrKia7QqILQpvg/640?wx_fmt=png",
+          "near_text": "Figure 8. Chest CT, Day +137",
+          "local_src": "cleaned_cases_image_cache/cae977bdae71f3ff19bca791a16b91ffca34005e.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "antisynthetase syndrome",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged woman, acute onset, disease course of two months.",
+        "Symptoms: cough, cough with yellow sputum, and shortness of breath as the main manifestations; after two medical visits, anti-infective treatment was given without improvement.",
+        "Physical signs: Velcro crackles are audible in both lower lungs.",
+        "Ancillary examinations: ① Chest CT: multiple patchy opacities in both lungs, high-density nodules, and partial consolidation; ② Pulmonary function test: moderate diffusion impairment; ③ BALF differential cell count: lymphocytes 76%; ④ Myositis-associated antibodies: anti-Ro-52 (+++), anti-Jo-1 (+++)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "On Day +72, methylprednisolone 80 mg was administered by intravenous drip.",
+        "Subsequent treatment: methylprednisolone 200 mg × 3 days, IVIG 20 g × 5 days",
+        "Methylprednisolone was gradually tapered; cyclophosphamide was added starting on Day +100, 0.6 g, intravenous infusion",
+        "Discharged on Day +107, prescribed oral methylprednisolone 40 mg/day and cyclophosphamide 100 mg/day",
+        "Oral methylprednisolone and cyclophosphamide were gradually tapered until discontinuation"
+      ],
+      "treatment_response": [
+        "The next day, the sputum turned white, and dyspnea decreased.",
+        "The patient's symptoms gradually improved",
+        "Repeat autoantibody testing on Day +171 showed: anti-SSA weakly positive, anti-Ro-52 (++), anti-Jo-1 (++)",
+        "The patient has no symptoms of cough, sputum production, or shortness of breath.",
+        "Repeat chest CT showed that the pulmonary opacities were basically absorbed."
+      ]
+    }
+  }
+}

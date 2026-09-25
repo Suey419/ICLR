@@ -1,0 +1,261 @@
+{
+  "status": "success",
+  "case_id": "case_158",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 59 years old, was admitted to the Hepatobiliary and Pancreatic Surgery ward of the Sixth Medical Center of the PLA General Hospital on Day 0 with the chief complaint of \"abdominal distension and pain accompanied by chest tightness and shortness of breath for 3 days.\" He had a long history of heavy smoking, 1500 pack-years, with no history of other chronic diseases or infectious diseases, and no history of surgery, trauma, blood transfusion, or drug allergy. Physical examination after admission: T: 36.2℃, R: 18/min, P: 107/min, BP: 105/79mmHg. Acute ill appearance, active position, no thoracic deformity, tachypnea, decreased bilateral tactile fremitus, no pleural friction fremitus, coarse breath sounds in both lungs, no obvious dry or moist rales heard, no pleural friction rub heard, regular cardiac rhythm, distant heart sounds, enlarged cardiac dullness border, no pathologic murmur heard in the auscultatory areas of the cardiac valves, abdominal distension, no tenderness or rebound tenderness, weakly positive Murphy's sign, liver and spleen not palpable below the costal margin, mild edema of both lower extremities. Ancillary examinations: CBC: WBC 17.86×10^9/L, N 77%, L 2.88×10^9/L, Hb 143g/L, PLT 115×10^9/L. Infection markers: CRP 58.7mg/L, PCT 0.5-2ng/ml. Liver and kidney function: ALT 1237.2U/L, AST 981.4U/L, TBIL 15.5umol/L, DBIL 6.7umol/L, total protein 55.7g/L, ALB 37.6g/L, BUN 18.9mmol/L, CR 166.2umol/L. Cardiac function: cTnI 9.3pg/ml, BNP 66pg/ml, coagulation D-dimer 3282ng/ml. Arterial blood gas analysis: (FiO2 0.21): pH 7.421, PaO2 72mmHg, PaCO2 34.1mmHg. Routine bacterial culture of bile: no bacterial growth. Routine bacterial culture of gallbladder puncture drainage fluid: no bacterial growth. Echocardiography: large pericardial effusion in the pericardial cavity, reduced left ventricular diastolic function. Renal ultrasound: right renal cyst, prostatic enlargement with calcification, no obvious abnormality in the left kidney. Vascular ultrasound: no abnormality in the superior mesenteric artery, plaque in the left lower extremity artery, no obvious abnormality in the veins of the left lower extremity or the arteries and veins of the right lower extremity. Repeat chest CT on Day 0: streaky opacity in the right middle lobe; irregular cavity in the anterior basal segment of the right lower lobe, approximately 22×17mm in size, with uneven wall thickness; bilateral interstitial thickening, possible interstitial pulmonary edema; small left pleural effusion; multiple lymph nodes in the mediastinum and right hilar region. Abdominal CT: status post cholecystostomy, thickened gallbladder wall, possible cholecystitis, slightly low-density nodule in liver SVI, heterogeneous hepatic parenchymal density, poor hepatic parenchymal perfusion in the portal venous phase, diffuse liver injury. Further abdominal MRI: status post cholecystostomy, thickened gallbladder wall, possible cholecystitis; diffuse liver injury, abnormal signal in liver S6, isolated necrotic nodule considered possible, multiple hepatic cysts, possible abnormal hepatic perfusion; exudative changes in the abdominal cavity, ascites, multiple areas of subcutaneous edema; pericardial effusion, bilateral pleural effusions; multiple bilateral renal cysts.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL9k6BIuI6EjmxstvdOJKEZ0zGpyHC6KTF9iaD0W3GyStxzVN61oVuAIhpW30NoylEuTxtz4HRHZdA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Chest CT on Day 0",
+          "local_src": "cleaned_cases_image_cache/c5013692f9ece40df7361f43baff3ecac70c170d.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL9k6BIuI6EjmxstvdOJKEZ17DXJFnibZjkBxibhpU4S7E2f6d4rQXbArx9NlPW3c7qLeJoStWt4hUw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 5. Lung CT on Day +52 (19 days after antitumor chemotherapy and targeted therapy)",
+          "local_src": "cleaned_cases_image_cache/992414d97bc0eda5fb9c7c41948505411e80d802.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary infection (necrotizing pneumonia/lung abscess)",
+          "supporting_evidence": [
+            "Chest CT showed \"linear patchy opacity in the right middle lobe and an irregular cavity in the anterior basal segment of the right lower lobe, measuring approximately 22×17 mm, with uneven wall thickness.\"",
+            "The attached image shows a right lung lesion and abnormal opacities in both lungs, supporting the presence of pulmonary parenchymal disease.",
+            "WBC 17.86×10^9/L, CRP 58.7 mg/L, PCT 0.5-2 ng/ml, supporting the possibility of an infectious lesion",
+            "The patient had wheezing and dyspnea for 3 days; arterial blood gas showed PaO2 72 mmHg",
+            "Long-term heavy smoking history, a risk factor for pulmonary infection and structural lung disease"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not mention fever, cough, sputum production, or hemoptysis",
+            "No obvious dry or wet rales were heard on lung auscultation.",
+            "Cavitation on CT can also be seen in nonbacterial lesions such as tumors and TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary malignancy (especially lung cancer) with mediastinal/hilar lymphadenopathy and possible malignant pericardial and pleural effusions",
+          "supporting_evidence": [
+            "The patient is a 59-year-old man with a long history of heavy smoking.",
+            "Chest CT showed an irregular cavity in the anterior basal segment of the right lower lobe, with uneven wall thickness.",
+            "Chest CT showed \"multiple lymph nodes in the mediastinum and right hilar region\"",
+            "There is \"large pericardial effusion\" and \"bilateral pleural effusions\"; malignant serosal cavity effusion should be suspected",
+            "The attached image shows a focal abnormal opacity in the right lung and bilateral pleural effusion."
+          ],
+          "opposing_evidence": [
+            "The first-stage imaging did not explicitly describe a solid pulmonary space-occupying lesion or a definite mass.",
+            "Elevated inflammatory markers are more suggestive of infection or an inflammatory process and may also explain some of the imaging findings.",
+            "The first-stage information did not provide tumor-related symptoms such as weight loss, chronic cough, or hemoptysis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute pulmonary embolism",
+          "supporting_evidence": [
+            "The onset presented as 'breathlessness and dyspnea for 3 days,' consistent with relatively acute dyspnea",
+            "P 107 beats/min, tachycardia present",
+            "Arterial blood gas showed PaO2 72 mmHg and PaCO2 34.1 mmHg, consistent with hypoxemia with a tendency toward hypocapnia",
+            "D-dimer 3282 ng/ml markedly elevated",
+            "A small left pleural effusion / bilateral pleural effusions are present; pleural effusion can occur in pulmonary embolism."
+          ],
+          "opposing_evidence": [
+            "Vascular ultrasound suggested, \"No obvious abnormalities were seen in the veins of the left lower extremity or the arteries and veins of the right lower extremity.\"",
+            "Chest CT already showed right lung cavitation, linear opacities, and interstitial changes; dyspnea could be explained by other pulmonary diseases.",
+            "The first-stage information did not mention chest pain, hemoptysis, or definite high-risk provoking factors for venous thrombosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Tuberculous disease (pulmonary TB with tuberculous pericarditis/pleuritis)",
+          "supporting_evidence": [
+            "Chest CT suggests an irregular cavitary lesion in the right lung; cavitary lesions can be seen in pulmonary tuberculosis.",
+            "There is \"large pericardial effusion\" and pleural effusion; tuberculosis can involve the pericardium and pleura.",
+            "Chest CT showed \"multiple lymph nodes in the mediastinum and right hilar region\"",
+            "Elevated CRP and elevated WBC suggest the presence of inflammatory disease."
+          ],
+          "opposing_evidence": [
+            "The information from the first stage did not provide common clinical clues to TB such as low-grade fever, night sweats, weight loss, and chronic cough.",
+            "The clinical course was characterized by 3 days of dyspnea, more acute than the more common subacute/chronic course of TB.",
+            "The phase 1 information did not provide a history of TB contact or evidence from TB-related examinations."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Rheumatologic and immunologic disease-related laboratory tests (lupus panel, vasculitis panel, immunoglobulins, complement)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related laboratory tests (Mycobacterium tuberculosis interferon-gamma release assay, PPD test, three TB tests)",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +13, repeat chest CT showed a marked increase in the extent of streaky opacities in the right middle and lower lobes, and enlargement of the cavitary lesion in the basal segment of the right lower lobe compared with before. Rheumatology/immunology-related tests: lupus panel and vasculitis panel were both within normal range; immunoglobulin IgG 5.73 g/L, complement C3 527 mg/L, complement C4 68 mg/L; remaining indices were normal. Tumor markers: CEA 2.1 ng/ml, AFP 2.89 ng/ml, CA199 21 U/ml, squamous cell carcinoma antigen 1.5 ng/ml, NSE 32.2 ng/ml, CYFRA21-1 5.7 ng/ml; the rest were normal. Pleural fluid studies: RBC count 1600×10^6/L, WBC count 428×10^6/L, neutrophil ratio 20%, lymphocyte ratio 80%, pleural fluid total protein 18.2 g/L, pleural fluid albumin 11.6 g/L. Pleural fluid cytology: lymphocytes and proliferative mesothelial cells were seen. TB-related tests: Mycobacterium tuberculosis interferon-gamma release assay negative, PPD test negative, TB three-item test negative. PET-CT results: 1. Cavitary nodule in the right lower lobe with increased glucose metabolism; compared with the CT series from this hospital, the lesion extent has increased and the cavity has decreased in size, favoring an infectious lesion; right middle lobe underexpansion with multiple infectious lesions; multiple patchy and consolidative opacities in the right lung with heterogeneously increased glucose metabolism, favoring infectious lesions; bilateral interstitial changes, possible interstitial pulmonary edema; scattered nodules in the right lung without increased glucose metabolism; moderate to large bilateral pleural effusions; pericardial effusion with partial loculation; lymph nodes in the bilateral neck, mediastinum, and bilateral hilar regions with increased glucose metabolism, favoring inflammatory lymph nodes; multiple cysts in the liver and both kidneys, status post cholecystostomy, retroperitoneal inflammatory lymph nodes.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL9k6BIuI6EjmxstvdOJKEZegGquGQFGF9Urib3rPkJCcNJ4icNJd5fej3iaDNyJDEdpWc26Jv2Dghpw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 2. Chest CT on Day +13",
+            "local_src": "cleaned_cases_image_cache/393589c828255e8c89b86b956de436e6219aec8a.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Severe pneumonia/infectious lesion",
+            "evidence": [
+              "PET-CT showed a cavitary nodule in the right lower lung with increased glucose metabolism. Compared with the CT series from this hospital, the extent of the lesion had increased and the cavity had decreased in size, suggesting an infectious lesion is more likely; subexpansion of the right middle lobe with multiple infectious lesions, and multiple patchy opacities and areas of consolidation in the right lung, with heterogeneously increased glucose metabolism, suggesting infectious lesions are more likely."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Rheumatic immune disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The lupus panel and vasculitis panel were both within the normal range."
+            ]
+          },
+          {
+            "name": "tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Mycobacterium tuberculosis interferon-gamma release assay negative, PPD test negative, TB three-item test negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Rheumatic immune disease",
+        "evidence": [
+          "Multiple serous cavity effusions, commonly seen in rheumatologic autoimmune diseases"
+        ],
+        "exclusion_reasons": [
+          "Rheumatology/immunology-related laboratory tests: lupus panel and vasculitis panel were both within the normal range;"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tuberculosis",
+        "evidence": [
+          "Pleural and pericardial effusions; PET-CT showed multiple hypermetabolic enlarged mediastinal and hilar lymph nodes"
+        ],
+        "exclusion_reasons": [
+          "Mycobacterium tuberculosis interferon-gamma release assay negative, PPD test negative, TB three-item test negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tumor",
+        "evidence": [
+          "Multiple serous cavity effusions; PET-CT showed multiple areas of increased glucose metabolism"
+        ],
+        "exclusion_reasons": [
+          "Tumor markers: CEA 2.1ng/ml, AFP 2.89ng/ml, CA199 21U/ml, squamous cell carcinoma antigen 1.5ng/ml, NSE 32.2ng/ml, CYFRA21-1 5.7ng/ml"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy showed a large amount of thin white sputum in the airways",
+          "why_order_this_exam": "The patient presented with chest tightness, wheezing, and dyspnea. Imaging sequentially suggested a cavitary lesion in the right lower lung with progression over a short period. PET-CT at one point favored an infectious lesion, but the patient also had a long history of heavy smoking, enlarged mediastinal and hilar lymph nodes, bilateral pleural effusions, and a large pericardial effusion; both infection and neoplasm needed to be differentiated. Bronchoscopy can directly visualize the intraluminal airway condition, assess for retained secretions, infectious changes, or tumor-related airway involvement, and remove a relatively large amount of white thin sputum to improve ventilation; at the same time, it provides the opportunity to obtain lower respiratory tract specimens to further clarify whether the progressive pulmonary lesion is simple infection, tumor with superimposed infection, or another etiology, thereby guiding subsequent anti-infective or antitumor diagnosis and treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoalveolar lavage of the right lower lung, BALF culture, Gene-Xpert, acid-fast smear, NGS",
+          "basis_in_stage3_input": "and bronchoalveolar lavage was performed in the right lower lung",
+          "why_order_this_exam": "The right lower lung was the principal causative lesion site where CT showed an irregular cavity and subsequent lesion enlargement, and PET-CT had suggested a high likelihood of infection in this region, but clinically it ultimately still needed to be differentiated from lung cancer. Performing bronchoalveolar lavage in the region where the lesion was localized can directly obtain distal lower respiratory tract specimens from the lesion, improve the diagnostic value of etiologic testing and cytology, and address the difficulty of distinguishing infectious cavitary lesions, necrotic lesions, and tumor-related lesions based on imaging alone. In this patient, who had dyspnea, hypoxemia, lesion progression, and a complex overall condition, the lavage results help determine whether infection is also present, whether targeted anti-infective therapy is needed, and provide a basis for subsequently clarifying the etiology and treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid analysis, pleural fluid carcinoembryonic antigen, pleural fluid smear for acid-fast bacilli",
+          "basis_in_stage3_input": "Pleural fluid analysis (Day +22, right side): red blood cell count 1600×10^6/L, white blood cell count 428×10^6/L, neutrophil percentage 20%, lymphocyte percentage 80%, pleural fluid total protein 18.2 g/L, pleural fluid albumin 11.6 g/L.",
+          "why_order_this_exam": "The patient has bilateral pleural effusions accompanied by marked dyspnea, hypoxemia, and a large pericardial effusion; the nature of the pleural fluid is directly related to determination of the etiology. Routine and biochemical analysis of the right pleural effusion can first distinguish whether it tends to be a transudate or an exudate, and, combined with differential cell count, can assess the possibility of infectious, tuberculous, neoplastic, or heart failure-related effusion. In this case, early imaging findings and inflammatory markers suggested infection, TB was also included in the differential diagnosis, and the pleural effusion could also be related to malignant tumor dissemination; therefore, pleural fluid testing is the basic examination for subsequently determining whether to continue with cytology and pathogen testing and how to interpret the source of the pleural effusion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid cytology, immunohistochemistry",
+          "basis_in_stage3_input": "Pleural fluid cytology (Day +26, right side): The smear shows a small number of atypical cell clusters with enlarged hyperchromatic nuclei in a glandular arrangement; in conjunction with the immunohistochemistry results, lung adenocarcinoma is considered.",
+          "why_order_this_exam": "Earlier chest imaging at one point favored infection, but the patient also had multiple high-risk indicators for malignancy, including a 59-year-old man, long-term heavy smoking, progression of a cavitary pulmonary lesion, mediastinal and hilar lymphadenopathy, bilateral pleural effusions, and a large pericardial effusion. Pleural fluid cytology can directly determine whether malignant cells are present in the effusion and is a key examination for diagnosing malignant pleural effusion and confirming pleural metastasis. The initial right pleural fluid sample revealed clusters of atypical cells in an adenoid arrangement, which resolved the core question of whether the pleural effusion was related to infection/TB/heart failure or caused by malignant dissemination, and had decisive significance for lung cancer staging, prognostic assessment, and subsequent initiation of antitumor therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pericardial effusion analysis, pericardial effusion cytology, immunohistochemistry",
+          "basis_in_stage3_input": "Pericardial fluid analysis (Day +30): total protein 51.1 g/L, albumin 30.8 g/L, LDH 530 U/L, red blood cell count 3084000×10^6/L, white blood cell count 3672×10^6/L.",
+          "why_order_this_exam": "On admission, the patient had a large pericardial effusion, accompanied by distant heart sounds, an enlarged area of cardiac dullness, dyspnea, and hypoxemia; clinically, there was a risk of cardiac tamponade, so therapeutic drainage was needed and the etiology also had to be clarified. Laboratory analysis of the pericardial effusion can determine whether the effusion is exudative or of another nature; when considered together with high protein, high LDH, and markedly bloody characteristics, it may suggest malignant or inflammatory disease rather than being caused solely by circulatory factors. This evaluation is intended to determine whether the pericardial effusion is due to infection, TB, tumor metastasis, or another inflammatory process, and to provide a basis for whether subsequent evaluation should focus on pericardial fluid cytology, pathology, and tumor staging.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was completed and showed a large amount of white, thin sputum in the airway, which was thoroughly suctioned, and bronchoalveolar lavage was performed in the right lower lung. The pathogen NGS results of the lavage fluid are shown in Figure 3. Pleural fluid analysis (Day +22, right side): RBC count 1600×10^6/L, WBC count 428×10^6/L, neutrophil percentage 20%, lymphocyte percentage 80%, pleural fluid total protein 18.2 g/L, pleural fluid albumin 11.6 g/L. Pleural fluid analysis (Day +22, left side): pleural fluid total protein 22.1 g/L, pleural fluid albumin 13.6 g/L, RBC 125000×10^6/L, WBC 350×10^6/L, LDH 124 U/L, carcinoembryonic antigen 0.7 ng/ml, smear for acid-fast bacilli 0 organisms/300 fields (-). Pleural fluid cytology (Day +26, right side): smear showed a few clusters of atypical cells with enlarged hyperchromatic nuclei in an adenocarcinoma-like arrangement; in conjunction with the immunohistochemistry results, lung adenocarcinoma was considered. Pleural fluid cytology (Day +29, right side): atypical cell clusters were seen; in conjunction with immunohistochemistry, findings were consistent with lung adenocarcinoma cells. Pleural fluid cytology (Day +29, left side): atypical cell clusters were seen; in conjunction with immunohistochemistry, findings were consistent with lung adenocarcinoma. Pericardial effusion analysis (Day +30): total protein 51.1 g/L, albumin 30.8 g/L, LDH 530 U/L, RBC count 3084000×10^6/L, WBC 3672×10^6/L. Pericardial effusion cytology (Day +37): a few atypical cells were seen, consistent with lung adenocarcinoma; immunohistochemistry: TTF-1(+), Napsin A(+), CKAE1AE3(+).",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL9k6BIuI6EjmxstvdOJKEZqgOq9OrVe1Qxib8z1asNOF4fq5ubc45ibPpy6Jc8icFISYDYBnHcHsrGQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3. NGS results of pathogen testing in bronchoalveolar lavage fluid",
+          "local_src": "cleaned_cases_image_cache/9939badc668736ac5beaba7bdf1dfb4086c8516b.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL9k6BIuI6EjmxstvdOJKEZvMuQv3rMwglY1VMyCBiasnRaHsVs4ICRGYlvISSmaOQVOJ30NvYgCyg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4. Lung CT on Day +389 (after broad-spectrum anti-infective therapy)",
+          "local_src": "cleaned_cases_image_cache/38a4ec9115959bf058a6455fc8e3b47f7bae4ad9.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Right lung adenocarcinoma, cT1N3M1, stage IV, with pericardial metastasis, bilateral pleural metastases, and multiple metastases to the mediastinal, hilar, and cervical lymph nodes",
+      "diagnostic_basis": [
+        "Male patient, long-term smoker; pleural and pericardial effusion; chest CT: streaky opacity in the right middle lobe, an irregular cavity in the anterior basal segment of the right lower lobe, measuring approximately 22×17 mm, with uneven wall thickness, bilateral pulmonary interstitial thickening, possible interstitial pulmonary edema, small left pleural effusion, and multiple lymph nodes in the mediastinum and right hilar region.",
+        "Repeated cytology of pleural effusion and pericardial effusion showed visible lung adenocarcinoma cells; cytology and immunohistochemistry of pleural fluid and pericardial effusion were consistent with lung adenocarcinoma"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Salvage chemotherapy: treated with cisplatin 120 mg on D1 + pemetrexed 0.8 g on D1",
+        "The lung cancer 9-gene test results indicated an L858R mutation, and osimertinib 80 mg once daily was given as antitumor targeted therapy"
+      ],
+      "treatment_response": [
+        "After chemotherapy, the patient developed severe bone marrow suppression and was treated with human granulocyte colony-stimulating factor, thrombopoietin, and other therapies; the patient's blood counts gradually returned to normal.",
+        "After 19 days of antitumor therapy, follow-up chest CT showed partial resolution of the right lung lesions compared with before, especially marked resolution of the cavitary lesion in the right lower lung compared with before. Antitumor therapy is considered effective, and targeted therapy is currently being continued."
+      ]
+    }
+  }
+}

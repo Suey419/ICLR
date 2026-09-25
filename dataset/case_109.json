@@ -1,0 +1,479 @@
+{
+  "status": "success",
+  "case_id": "case_109",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 60-year-old woman who presented to the Department of Respiratory and Critical Care Medicine of Nanjing Jiangning Hospital at 8:22 on Day 0 with the chief complaint of \"cough accompanied by chest tightness and wheezing for one week\" and was subsequently admitted to the inpatient ward. One week before admission, after an episode of catching a cold, she developed intermittent cough without sputum, followed gradually by chest tightness and wheezing after exertion, accompanied by fatigue and night sweats. On the day of presentation, she developed fever with a temperature of 37.8℃, and blood-streaked sputum, bright red in color, in a small amount. Physical examination on admission: T 37.9℃, P 99 beats/min, R 31 breaths/min, BP 104/59 mmHg, SpO2 82%. Breath sounds were decreased in both lungs, and moist rales were heard bilaterally. Pain sensation was decreased in the right upper and right lower extremities. No other obvious positive physical findings were noted. Ancillary examinations: Chest CT: bilateral pulmonary infection, bilateral interstitial inflammation; scattered small solid nodules in both lungs. Complete blood count: WBC 10.35*10^9/L, neutrophils 88.0%; arterial blood gas analysis suggested type I respiratory failure. No obvious abnormalities were found in biochemistry, emergency coagulation parameters, cardiac markers, or NT-proBNP; D-dimer 10.50 mg/l. Cytomegalovirus IgG antibody positive; Epstein-Barr virus viral capsid antigen IgA antibody positive at 1:10. G test: 233.40 pg/ml. GM test (-). Lymphocyte subset analysis: absolute CD3+/CD4+ count 226/UL. Since onset, the patient's mental status and sleep had been fair, appetite was acceptable, bowel and bladder function were normal, and weight showed no obvious change. More than 1 month earlier, she had been diagnosed with \"brainstem lesion (possibly immune-mediated inflammatory demyelinating lesion)\" and was treated with pulse corticosteroid therapy, later gradually tapered to oral \"prednisone 30 mg qd.\" She has a history of \"diabetes mellitus\" and usually takes oral \"acarbose and metformin extended-release tablets\" for glycemic control; she reported that her blood glucose control was acceptable. She has a history of allergy to \"penicillin\" and seafood. She denied smoking, alcohol use, and exposure to drugs or toxic substances. Her father had a history of smoking and \"emphysema\" and died in his 70s from dyspnea; her mother died in her 70s from \"stroke.\" No other remarkable family history.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1XaiaKvxq3WOlGMwSPRIYwS77R0Zx77hFddJbhN8AGdbp2xP4uGiaqMFOnXA/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, Day 0",
+          "local_src": "cleaned_cases_image_cache/bdbaa0bb93b529021eb5dc9997d84960e5a0650a.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1XaiaJN1Pb2PWVx2NSYNroSkibEswpkB55g9XON2jxmtwuuFfCwSH3cu8Z1A/640?wx_fmt=png",
+          "near_text": "Figure 2. Chest CT, Day +10",
+          "local_src": "cleaned_cases_image_cache/176caa6fe1c570ca80adb3822dba0c9fb3f7629d.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis jirovecii pneumonia (PJP)",
+          "supporting_evidence": [
+            "More than 1 month ago, the patient received pulse corticosteroid therapy for a \"brainstem lesion (possible immune-mediated inflammatory demyelinating lesion)\" and subsequently continued oral \"prednisone 30 mg qd\"; there is a clear background of immunosuppression.",
+            "Lymphocyte subset analysis: absolute CD3+/CD4+ count 226/UL, suggesting impaired cellular immune function",
+            "The initial presentation consisted of cough, chest tightness and shortness of breath after exertion, and marked hypoxemia; SpO2 on admission was 82%, and arterial blood gas analysis indicated type I respiratory failure, consistent with the commonly severe hypoxemia seen in PJP.",
+            "The chest CT report text indicates \"bilateral pulmonary infection, bilateral interstitial inflammation\"; the attached chest CT images show diffuse ground-glass/interstitial opacities in both lungs, with patchy areas of consolidation in both lower lungs, consistent with the pulmonary imaging features of opportunistic infection.",
+            "G test 233.40 pg/ml elevated, supporting the possibility of a fungal-related pathogen",
+            "Fever, night sweats, and fatigue are findings supportive of an infectious disease."
+          ],
+          "opposing_evidence": [
+            "On the day of presentation, the sputum was blood-streaked, with a small amount of bright red blood; hemoptysis is not the most typical manifestation of PJP.",
+            "CBC: WBC 10.35*10^9/L, neutrophils 88.0%, indicating neutrophilia, which is more commonly seen in bacterial infection, but PJP cannot be excluded",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Severe community-acquired pneumonia / bacterial pneumonia",
+          "supporting_evidence": [
+            "After exposure to cold, cough developed; within 1 week, chest tightness and wheezing gradually appeared; fever developed on the day of admission, consistent with the course of an acute lower respiratory tract infection.",
+            "On physical examination, moist rales were heard in both lungs, and breath sounds were decreased bilaterally, supporting pulmonary inflammation.",
+            "Complete blood count: WBC 10.35*10^9/L, neutrophils 88.0%, supporting the possibility of bacterial infection",
+            "The chest CT report text states “infection in both lungs”; the accompanying images show relatively obvious patchy/consolidative opacities in both lower lungs, consistent with imaging findings of pneumonia.",
+            "The patient had an RR of 31 breaths/min and an SpO2 of 82%. Arterial blood gas analysis indicated type I respiratory failure, suggesting that the pneumonia was already severe.",
+            "Diabetes mellitus and corticosteroid use are susceptibility factors for infection"
+          ],
+          "opposing_evidence": [
+            "No obvious purulent sputum with cough, and the onset was characterized mainly by intermittent dry cough; this is not a typical presentation of bacterial pneumonia.",
+            "Chest CT also suggested \"bilateral interstitial inflammation of the lungs,\" rather than a simple typical pattern of lobar pneumonia or bronchopneumonia.",
+            "Elevated G test and decreased absolute CD4+ count suggest that opportunistic infection must also be strongly considered and cannot be explained solely by ordinary bacterial pneumonia"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Invasive fungal pneumonia (non-Pneumocystis opportunistic fungal infection, such as Aspergillus)",
+          "supporting_evidence": [
+            "Recent high-dose pulse corticosteroid therapy and continued oral prednisone, with comorbid diabetes mellitus, place the patient in a high-risk group for opportunistic fungal infection.",
+            "Absolute CD3+/CD4+ count 226/UL, suggesting immunosuppression",
+            "G test 233.40 pg/ml, elevated, supporting the possibility of fungal-related infection",
+            "The chest CT report text indicates scattered small solid nodules in both lungs; the attached images show diffuse interstitial/ground-glass changes in both lungs with scattered lesions, and fungal infection may have nodular or mixed imaging manifestations",
+            "Fever, cough, and hypoxemia are consistent with invasive pulmonary infection.",
+            "Small amounts of blood-streaked sputum may be seen with airway/parenchymal injury caused by fungal infection."
+          ],
+          "opposing_evidence": [
+            "GM test (-), does not support some invasive fungal infections represented by Aspergillus, but a negative result cannot completely exclude them",
+            "The first-stage information did not describe more specific imaging clues such as typical cavitation, the halo sign, or the reversed halo sign.",
+            "Acute onset over 1 week, predominantly with diffuse interstitial changes, which may also be explained by PJP or viral pneumonia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Viral pneumonia (including immunosuppression-related viral infections such as cytomegalovirus pneumonia)",
+          "supporting_evidence": [
+            "The patient has a history of recent high-dose steroid exposure and ongoing glucocorticoid therapy and is at high risk for opportunistic viral infection.",
+            "The chest CT report states “interstitial inflammation in both lungs”; the attached images show diffuse ground-glass/interstitial opacities in both lungs, consistent with one of the common imaging patterns of viral pneumonia",
+            "Symptoms include fever, dry cough, wheezing, and hypoxemia, consistent with the clinical manifestations of viral pneumonia.",
+            "Cytomegalovirus antibody IgG test positive, suggesting prior CMV exposure; in the setting of immunosuppression, it should be included in the differential diagnosis",
+            "Absolute CD3+/CD4+ count 226/UL, indicating decreased cellular immunity"
+          ],
+          "opposing_evidence": [
+            "A positive cytomegalovirus IgG antibody indicates only past infection or exposure and cannot directly confirm current CMV pneumonia.",
+            "Neutrophils 88.0% elevated on CBC, more suggestive of bacterial or mixed infection",
+            "No viral nucleic acid, antigen, or more specific virologic evidence was provided in the first phase of information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary embolism with pulmonary infarction",
+          "supporting_evidence": [
+            "The patient developed chest tightness and shortness of breath, respiratory rate 31 breaths/min, SpO2 82%, with acute hypoxemia.",
+            "D-dimer 10.50 mg/L was markedly elevated, supporting the possibility of thromboembolic disease.",
+            "On the day of presentation, blood-streaked sputum appeared, with a small amount of bright red blood, which can be seen in pulmonary infarction/pulmonary embolism.",
+            "Recent neurologic disease and hospitalization/limited mobility may increase the risk of venous thromboembolism"
+          ],
+          "opposing_evidence": [
+            "The chest CT report text indicates \"bilateral lung infection, bilateral interstitial inflammation\"; the attached images are characterized mainly by diffuse bilateral interstitial/ground-glass opacities and inflammatory consolidation-like changes in both lower lungs, which are not the most common initial presentation of simple pulmonary embolism.",
+            "Physical examination showed moist rales in both lungs, fever, and elevated WBC and neutrophils, which more strongly support an infectious lesion.",
+            "Stage 1 information did not provide chest pain, lower extremity swelling and pain, or evidence on pulmonary artery CTA."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Diffuse alveolar hemorrhage (including immune-mediated pulmonary hemorrhage syndrome)",
+          "supporting_evidence": [
+            "The patient developed blood-streaked sputum, bright red in color.",
+            "The attached chest CT images show diffuse ground-glass opacities in both lungs; similar imaging findings may be seen in diffuse alveolar hemorrhage.",
+            "The patient has a recent history of possible immune-mediated inflammatory demyelinating disease, suggesting an underlying immune abnormality; vigilance is needed for systemic immune-related lung injury.",
+            "Marked hypoxemia; arterial blood gas analysis suggests type I respiratory failure, which can be seen in alveolar hemorrhage"
+          ],
+          "opposing_evidence": [
+            "Hemoptysis consisted only of a small amount of blood-streaked sputum, not massive or progressive hemoptysis.",
+            "Fever, moist rales, elevated WBC and neutrophils, and CT suggesting bilateral pulmonary infection are more supportive of an infectious etiology.",
+            "Phase 1 information did not provide support for anemia, renal impairment, urinary abnormalities, or autoimmune-related laboratory findings."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation parameters",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "H-CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cytomegalovirus IgG antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Epstein-Barr virus capsid antigen IgA antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subset analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion 8-item panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the heart and bilateral lower extremity veins",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: CBC: WBC 5.41*10^9/L, neutrophils 88.2%, lymphocytes 8.7%, PLT 86*10^9/L, hemoglobin 94 g/L. Urinalysis: glucose (+++), ketones (+). H-CRP 207.14 mg/L; PCT 0.21 ng/mL; ESR 65 mm/h. Pre-transfusion eight-item panel, ANA, ANCA (-). Tumor markers: CA153 68.26 U/mL, NSE 29.72 ng/mL, CYFRA21-1 20.70 ng/mL. Color Doppler ultrasound: [Cardiac + bilateral lower extremity venous ultrasound] No obvious abnormality in the intracardiac structures. Intermuscular venous thrombosis of both lower extremities. [Echocardiography] No abnormality detected. On Day +10, lung HRCT showed: diffuse ground-glass opacities in both lungs, etiology to be determined, hypersensitivity pneumonitis? giant cell pneumonia? other?",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJktzHvHsH4H3Iqz7VM1Luhicibfp4iaNp9q1zl5acgeicZ697Og7KvgPKhKEQjSHgK9sSVjnoS2ibaC0Q/640?wx_fmt=png",
+            "near_text": "Figure 3. Pulmonary HRCT on Day +10",
+            "local_src": "cleaned_cases_image_cache/2065a55224b40f1bdd6acdc550bc0a441bf3d91f.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1Xaiavn0hbVCAwP6uBicYZ2oDLm9zcovjw4wJZm20z6QXZyV24WwFzKx49aw/640?wx_fmt=png",
+            "near_text": "Changes in the oxygenation index on arterial blood gas analysis were as follows:",
+            "local_src": "cleaned_cases_image_cache/eebacb82528f862aaeb5ab8f8c49fb2daeddac17.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1XaiaibjKMyUXDthiaTD2G3CpTr9Z109A4ib5C9Cg2wyoNzI687ZTstSnjA1BQ/640?wx_fmt=png",
+            "near_text": "Changes in the infection-related markers in the complete blood count were as follows:",
+            "local_src": "cleaned_cases_image_cache/212a1e6ccc4b51e9b0c2dbf4d1aeb25252d6d10e.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral infection",
+            "evidence": [
+              "Acute onset",
+              "History of a \"brainstem lesion\"; treated with steroid pulse therapy, followed by gradual tapering to \"prednisone 30 mg qd\" orally",
+              "History of diabetes mellitus",
+              "Clinical manifestations include dyspnea, dry cough, hypoxemia, etc.",
+              "Pulmonary HRCT showed progressively worsening diffuse bilateral ground-glass opacities"
+            ],
+            "exclusion_reasons": [
+              "The patient does not have symptoms such as myalgia or sore throat.",
+              "Recurrent high fever is also not consistent with the characteristics of viral infection.",
+              "No lymphocytosis was seen on the blood count",
+              "Lack of etiologic test evidence related to viral infection"
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis (HP)",
+            "evidence": [
+              "Acute onset",
+              "Chest HRCT showed progressive diffuse homogeneous ground-glass opacities in both lungs; the imaging findings are consistent with nonfibrotic HP",
+              "Lymphocytes 26.9%↑ in BALF differential cell count"
+            ],
+            "exclusion_reasons": [
+              "No improvement after glucocorticoid therapy according to the HP treatment regimen"
+            ]
+          },
+          {
+            "name": "Lymphocytic interstitial pneumonia (LIP)",
+            "evidence": [
+              "Clinical symptoms include exertional shortness of breath, dry cough, and dyspnea; the disease progresses rapidly.",
+              "Chest HRCT showed diffuse ground-glass opacities in both lungs",
+              "Arterial blood gas showed type I respiratory failure",
+              "Elevated lymphocytes in BALF, 26.9%",
+              "Elderly woman with a history of immune system-related disease"
+            ],
+            "exclusion_reasons": [
+              "Pulmonary imaging showed diffuse homogeneous ground-glass opacities in both lungs, without predominant involvement of the lung bases, subpleural abnormalities, or paratracheal nodules.",
+              "No significant improvement in symptoms after glucocorticoid therapy"
+            ]
+          },
+          {
+            "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+            "evidence": [
+              "Symptoms include exertional shortness of breath, dry cough, and dyspnea, with rapid disease progression.",
+              "Type I respiratory failure is present",
+              "Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs"
+            ],
+            "exclusion_reasons": [
+              "No mediastinal lymphadenopathy, hepatosplenomegaly, or other manifestations of organ involvement in other systems were observed.",
+              "No definite pulmonary hypertension"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral infection",
+        "evidence": [
+          "Acute onset",
+          "History of a \"brainstem lesion\"; treated with steroid pulse therapy, followed by gradual tapering to \"prednisone 30 mg qd\" orally",
+          "History of diabetes mellitus",
+          "Clinical manifestations include dyspnea, dry cough, hypoxemia, etc.",
+          "Pulmonary HRCT showed progressively worsening diffuse bilateral ground-glass opacities"
+        ],
+        "exclusion_reasons": [
+          "The patient does not have symptoms such as myalgia or sore throat.",
+          "Recurrent high fever is also not consistent with the characteristics of viral infection.",
+          "No lymphocytosis was seen on the blood count",
+          "Lack of etiologic test evidence related to viral infection"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis (HP)",
+        "evidence": [
+          "Acute onset",
+          "Chest HRCT showed progressive diffuse homogeneous ground-glass opacities in both lungs; the imaging findings are consistent with nonfibrotic HP",
+          "Lymphocytes 26.9%↑ in BALF differential cell count"
+        ],
+        "exclusion_reasons": [
+          "No improvement after glucocorticoid therapy according to the HP treatment regimen"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Lymphocytic interstitial pneumonia (LIP)",
+        "evidence": [
+          "Clinical symptoms include exertional shortness of breath, dry cough, and dyspnea; the disease progresses rapidly.",
+          "Chest HRCT showed diffuse ground-glass opacities in both lungs",
+          "Arterial blood gas showed type I respiratory failure",
+          "Elevated lymphocytes in BALF, 26.9%",
+          "Elderly woman with a history of immune system-related disease"
+        ],
+        "exclusion_reasons": [
+          "Pulmonary imaging showed diffuse homogeneous ground-glass opacities in both lungs, without predominant involvement of the lung bases, subpleural abnormalities, or paratracheal nodules.",
+          "No significant improvement in symptoms after glucocorticoid therapy"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+        "evidence": [
+          "Symptoms include exertional shortness of breath, dry cough, and dyspnea, with rapid disease progression.",
+          "Type I respiratory failure is present",
+          "Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs"
+        ],
+        "exclusion_reasons": [
+          "No mediastinal lymphadenopathy, hepatosplenomegaly, or other manifestations of organ involvement in other systems were observed.",
+          "No definite pulmonary hypertension"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bilateral pulmonary artery CTA",
+          "basis_in_stage3_input": "On Day +381, CT pulmonary angiography of both lungs was completed and showed: no obvious signs of embolism; widening of the main pulmonary artery trunk.",
+          "why_order_this_exam": "The patient presented with cough, chest tightness, and wheezing. At admission, SpO2 was 82% and respiratory rate was 31 breaths/min, with type I respiratory failure already present. There was also a small amount of blood-streaked sputum, and D-dimer was markedly elevated at 10.50 mg/L. Subsequent evaluation further confirmed intermuscular venous thrombosis of both lower extremities. Clinically, it was necessary to evaluate for concomitant pulmonary embolism, an important cause of acute hypoxemia and dyspnea. Although chest CT and subsequent pathogen studies were more supportive of an infectious lung disease, pulmonary embolism could not be excluded solely on the basis of infectious manifestations. The purpose of bilateral pulmonary artery CTA was to determine whether emboli were present in the pulmonary arteries in the setting of severe hypoxemia, to explain the severity of respiratory failure, and to provide a basis for whether intensified anticoagulation was needed and whether there were risks related to examination and treatment. The results showed no obvious signs of embolism, which helped exclude pulmonary embolism as the current primary cause.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "BALF pathogen testing",
+          "basis_in_stage3_input": "Also received the bronchoalveolar lavage fluid results dated Day +377: [Pathogen testing] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli +, no fungi detected; acid-fast stain: no acid-fast bacilli seen; Pneumocystis: Pneumocystis jirovecii identified.",
+          "why_order_this_exam": "The patient recently received pulse-dose corticosteroid therapy and has continued oral prednisone, with comorbid diabetes mellitus and CD4-related cellular immunodeficiency, placing the patient in a high-risk group for opportunistic infection; at the same time, there are fever, dry cough, progressive dyspnea, diffuse bilateral ground-glass opacities, and type I respiratory failure, suggesting severe illness and a non-typical infectious pathogen. Previously, the G test was elevated, GM was negative, PCT was not high, and HRCT showed diffuse interstitial/ground-glass changes; common bacterial infection, Pneumocystis jirovecii pneumonia, TB, and other opportunistic infections all need to be differentiated. BALF pathogen testing can directly identify pathogens from the lesion site, address the current question of which infection is causing the diffuse pulmonary lesions and whether mixed infection is present, and provide a key basis for subsequently selecting targeted therapy such as SMZ and avoiding blind expansion of anti-infective coverage.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Acid-fast stain: no acid-fast bacilli seen",
+          "why_order_this_exam": "The patient has long-term glucocorticoid use and impaired immune function, with fever, cough, hypoxemia, and diffuse bilateral lung lesions. Mycobacterium tuberculosis or nontuberculous mycobacterial infection, although not the most typical, must be excluded in an immunosuppressed host. Acid-fast staining can provide rapid initial screening of BALF for the presence of acid-fast bacilli, addressing whether TB/mycobacteria should be included among the major causative factors and in isolation and medication decision-making. Although a negative result cannot completely exclude these infections, it can reduce the likelihood that they are the current primary cause and support shifting the diagnostic focus to PJP and other pathogens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pneumocystis testing",
+          "basis_in_stage3_input": "Pneumocystis: Pneumocystis jirovecii identified.",
+          "why_order_this_exam": "The patient has the typical high-risk background and clinical profile for PJP: recent steroid pulse therapy followed by continued oral prednisone, diabetes mellitus, CD4-related immunosuppression, elevated G test, dry cough and marked hypoxemia, and diffuse bilateral ground-glass opacities on HRCT. Previously, after anti-infective and steroid therapy, the temperature and symptoms were not effectively controlled, suggesting that ordinary bacterial pneumonia cannot fully explain the condition. A dedicated Pneumocystis examination was performed to directly confirm whether Pneumocystis jirovecii infection, the key etiology, is present, determine whether SMZ-based specific therapy should be initiated as soon as possible, and explain the clinical discrepancy of severe hypoxemia despite scant sputum and diffuse imaging findings. A positive result on this examination is of the greatest निर्णative significance for confirmation of the diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Differential cell count",
+          "basis_in_stage3_input": "[Cell differential count] Total cell count 0.52×10^9/L, macrophages 72.1%, lymphocytes 26.9%, neutrophils 0.4%, eosinophils /, others 0.6%;",
+          "why_order_this_exam": "The patient’s imaging findings showed diffuse homogeneous ground-glass opacities in both lungs. The initial differential diagnosis included hypersensitivity pneumonitis, lymphocytic interstitial pneumonia, viral infection, and opportunistic infection. BALF differential cell count can assess the nature of intra-alveolar inflammation from the perspective of the inflammatory cell profile, helping distinguish interstitial/hypersensitivity processes predominantly characterized by a lymphocytic response from bacterial infection predominantly characterized by neutrophils, or other noninfectious lung injury. In this case, this test was performed primarily to explain the pathophysiologic basis of the diffuse pulmonary lesions, assist in differentiating infectious from noninfectious diseases, and, together with etiologic results, determine whether a mixed etiology was present.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "basis_in_stage3_input": "[Lymphocyte subsets] T-lymphocyte percentage (%) 96%↑, CD4+ T-lymphocyte percentage (%) 10%↓, CD8+ T-lymphocyte percentage (%) 84%↑, B-lymphocyte percentage (%) 0%↓, NK-cell percentage (%) 3%↓, CD4+ T/CD8+ T-lymphocyte ratio 0.12↓;",
+          "why_order_this_exam": "The patient has a recent history of high-dose and prolonged glucocorticoid therapy and is highly suspected of having an opportunistic infection because of severe hypoxemia, diffuse ground-glass opacities, and an elevated G test. The primary purpose of lymphocyte subset testing is to quantify the degree of cellular immunosuppression, especially to assess whether the reduction in CD4+ T cells is sufficient to support susceptibility to PJP, viral, and other opportunistic infections. This test can explain why the patient developed severe infection despite relatively atypical blood counts and imaging findings, and it helps determine subsequent anti-infective treatment intensity, the risk of glucocorticoid use, and prognosis. The results showed a marked decrease in the CD4 proportion and a reduced CD4/CD8 ratio, strongly supporting the host predisposition for PJP.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bacterial and fungal culture",
+          "basis_in_stage3_input": "[Bacterial and fungal cultures] (-).",
+          "why_order_this_exam": "The patient is critically ill, with fever, elevated inflammatory markers, and respiratory failure; in the setting of immunosuppression, this may represent an opportunistic infection, and concomitant mixed bacterial or fungal infection is also possible. BALF bacterial and fungal cultures are an important component of traditional etiologic microbiologic testing, with the aim of isolating cultivable pathogens and performing subsequent antimicrobial susceptibility testing or at least providing culture-based evidence, helping confirm whether cultivable pathogens such as common bacteria, yeast-like fungi, or molds are present. This test can also complement smear testing and NGS to assess whether pathogens detected by NGS have clinical pathogenic significance. A negative result cannot completely exclude infection, but it suggests insufficient evidence for some cultivable bacterial/fungal pathogens and more strongly supports focusing on culture-insensitive pathogens such as Pneumocystis jirovecii and on molecular test results.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage by bronchoscopy",
+          "basis_in_stage3_input": "Further bronchoscopy with bronchoalveolar lavage was completed: 1. Repeat bronchoscopy: On bronchoscopy, the trachea and the mucosal surfaces of the bronchi at all levels were smooth, with no obvious hyperemia or edema and no obvious secretions. Lavage of approximately 200 ml was performed in the left lingular segment and right middle lobe. The lavage fluid was slightly turbid. Specimens were retained and sent for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count.",
+          "why_order_this_exam": "Although the patient had severe hypoxemia and type I respiratory failure, the etiology remained unclear for a long time. Imaging showed diffuse ground-glass opacities, and routine hematologic tests and imaging were insufficient to differentiate among PJP, viral infection, bacterial coinfection, and noninfectious interstitial lung disease. Bronchoalveolar lavage via bronchoscopy can directly obtain specimens from the involved sites in the lower respiratory tract and was the key step in establishing the etiology in this case. Its clinical purposes included: obtaining high-quality samples for pathogen, molecular biologic, and cytologic analyses; assessing whether there were obvious secretions, bleeding, or tumor-like lesions in the airway; and minimizing blind diagnosis and treatment as much as possible, provided the patient's condition allowed. The absence of obvious airway secretions on bronchoscopy and the slightly turbid lavage fluid also suggested that the lesion was more at the alveolar/interstitial level, consistent with the characteristics of diffuse pulmonary parenchymal diseases such as PJP.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood and lavage fluid NGS",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count.",
+          "why_order_this_exam": "This case is severe, with rapid disease progression, and the prior routine clues are overlapping: elevated G test, negative GM, non-elevated PCT, imaging showing diffuse ground-glass opacities, and no improvement after corticosteroid therapy, suggesting a possible opportunistic infection or mixed infection that is not easily detected by conventional methods. The clinical purpose of NGS of blood and lavage fluid is to expand pathogen coverage beyond routine culture and staining, while improving the ability to identify the true causative pathogen through comparison of blood and local specimens. This test helps address the core question of \"which pathogen is causing the current severe pulmonary lesions, and whether there is coinfection with multiple pathogens,\" and directly affects anti-infective drug selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Liquid-based cytology",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count.",
+          "why_order_this_exam": "The patient's imaging has long demonstrated diffuse bilateral ground-glass opacities. Earlier differential diagnoses, in addition to infection, also included noninfectious diseases such as hypersensitivity pneumonitis, LIP, and even intravascular large B-cell lymphoma. Liquid-based cytology can assess whether atypical cells, tumor cells, marked inflammatory cell abnormalities, or hemorrhage-related cellular components are present in BALF, helping to exclude malignant pulmonary infiltration and some noninfectious alveolar lesions. The value of this test lies in providing supplementary cytologic evidence when microbiologic results do not fully explain the entire clinical picture, thereby avoiding missed diagnoses of other diseases that require different treatment strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count.",
+          "why_order_this_exam": "The patient is highly suspected of having an opportunistic infection, especially PJP. PAS staining can be used to demonstrate certain fungi or pathogens rich in polysaccharide components within the alveoli, as well as related material deposition, and has important auxiliary diagnostic value in diffuse alveolar lesions. In this case, given the history of glucocorticoid use, decreased CD4 count, elevated G test, and diffuse ground-glass opacities, PAS staining was performed mainly to improve the detection of Pneumocystis and other fungus-related lesions, and to cross-validate the results of Pneumocystis testing, NGS, and culture, thereby enhancing the reliability of etiologic confirmation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS (DNA)",
+          "basis_in_stage3_input": "[BALF NGS] (DNA) Streptococcus pneumoniae (sequence count 7448), Pneumocystis jirovecii (sequence count 2299);",
+          "why_order_this_exam": "The patient is an immunocompromised host with severe hypoxemia, diffuse ground-glass opacities, and atypical findings on routine pathogen testing, requiring higher-sensitivity methods to detect DNA pathogens such as bacteria and fungi. BALF DNA-NGS can broaden the detection spectrum when cultures are negative or smear information is limited, addressing whether there is mixed infection with Pneumocystis jirovecii, bacteria, and other pathogens. This was especially important in this case because routine culture is of limited value for Pneumocystis jirovecii, while the patient also had elevated inflammatory markers and Gram stain findings suggesting bacterial clues. Streptococcus pneumoniae and Pneumocystis jirovecii were ultimately detected, providing direct evidence to clarify the principal pathogen and whether concomitant antibacterial therapy was needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS (RNA)",
+          "basis_in_stage3_input": "No definite pathogenic virus was detected (RNA).",
+          "why_order_this_exam": "The patient was repeatedly considered to have a viral infection because acute onset, an immunosuppressed background, diffuse bilateral ground-glass opacities, and marked hypoxemia can all be seen in viral pneumonia; however, the clinical symptoms and routine blood counts were not sufficiently typical. BALF RNA-NGS was re-emphasized specifically to seek direct evidence at the level of RNA viruses and partial viral transcription signals, in order to determine whether antiviral therapy was needed or whether there was a viral infection coexisting with PJP. No definite pathogenic virus was detected, which helped move viral infection lower in the differential diagnosis, reduce unnecessary antiviral coverage, and further reinforce the diagnostic pathway of mixed PJP/bacterial infection.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +381, CT pulmonary angiography of both lungs was completed and showed no obvious evidence of embolism, with widening of the main pulmonary artery. At the same time, the bronchoalveolar lavage fluid results from Day +377 were received: [Pathogen testing] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli +, no fungi detected; acid-fast stain: no acid-fast bacilli seen; Pneumocystis: Pneumocystis jirovecii identified. [Differential cell count] Total cell count 0.52×10^9/L, macrophages 72.1%, lymphocytes 26.9%, neutrophils 0.4%, eosinophils /, others 0.6%; [Lymphocyte subsets] T lymphocyte percentage (%) 96%↑, CD4+ T lymphocyte percentage (%) 10%↓, CD8+ T lymphocyte percentage (%) 84%↑, B lymphocyte percentage (%) 0%↓, NK cell percentage (%) 3%↓, CD4+T/CD8+T lymphocyte ratio 0.12↓; [BALF NGS] (RNA) no definite pathogenic virus detected; [Bacterial + fungal culture] (-). Bronchoscopic bronchoalveolar lavage was further completed: 1. Repeat bronchoscopy: on bronchoscopy, the trachea and mucosal surfaces of bronchi at all levels were smooth, without obvious hyperemia or edema, and without obvious secretions. Lavage of approximately 200 ml was performed in the left lingular segment and right middle lobe. The lavage fluid was slightly turbid. Specimens were retained and sent for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS stain, and cell count. 2. BALF results: [Cell count] Total cell count 0.53×10^9/L, macrophages 50.4%, lymphocytes 8.1%, neutrophils 0.9%, eosinophils /, others 0.6%. [BALF NGS] (DNA) Streptococcus pneumoniae (sequence count 7448), Pneumocystis jirovecii (sequence count 2299); (RNA) no definite pathogenic virus detected.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1Xaiar1R42PCaicIK1mMejicZfPCaGkfJCNxtREldvNoHQxibibabOeG0NADUeA/640?wx_fmt=png",
+          "near_text": "The diagnostic reasoning pathway is as follows:",
+          "local_src": "cleaned_cases_image_cache/a6f03eba789e237807d006bab2589bd9f1cba0ab.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLsWq2deC6u9e9VcC6w1XaiapPiaPNjWcEv4JpCWxkF47IEuA74bVoIYLsOFGMA08Bx6by9xVyfX1uw/640?wx_fmt=png",
+          "near_text": "Repeat chest HRCT before and after treatment",
+          "local_src": "cleaned_cases_image_cache/253f15c56cd9a3f00e6e133764911bbd20992554.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Pneumocystis jirovecii pneumonia; 2. Type I respiratory failure",
+      "diagnostic_basis": [
+        "Basic characteristics: elderly woman, acute onset, with a history of corticosteroid use before onset.",
+        "Symptoms: shortness of breath and dry cough for more than 1 week, followed by recurrent fever; the body temperature was not controlled after anti-infective and steroid therapy.",
+        "Physical signs: no obvious abnormalities.",
+        "Ancillary examination evidence: ① Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs, without obvious interlobular septal thickening and without mediastinal lymphadenopathy; ② Arterial blood gas indicated progressively worsening respiratory failure; ③ BALF NGS obtained via bronchoscopy confirmed Pneumocystis jirovecii."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with meropenem, SMZ, and micafungin",
+        "Subsequently, adjunctive other anti-inflammatory therapy and pulse corticosteroid therapy were administered.",
+        "Supportive symptomatic treatment including improving immune function, controlling pulmonary inflammation, and protecting organ function",
+        "Noninvasive ventilator-assisted ventilation was provided; respiratory rate was monitored, the oxygenation index was observed, and supportive treatment plans such as high-flow oxygen therapy were adjusted in a timely manner."
+      ],
+      "treatment_response": [
+        "The condition was stable, dyspnea was relieved, sputum was clear, with no blood streaks and scant in amount, blood glucose was stable, breath sounds were clear in both lungs, with no obvious moist rales in either lung, pain in the right upper extremity and right lower extremity resolved, with no obvious inflammatory signs. The condition improved after treatment, and the patient was discharged."
+      ]
+    }
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "status": "success",
+  "case_id": "case_137",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: An elderly male, 71 years old, from Yancheng, Jiangsu, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital with the chief complaint of \"chest pain, chest tightness, shortness of breath, and fever for 21 days.\" More than 20 days before presentation, the patient developed sudden chest pain, chest tightness, and shortness of breath without an obvious precipitating factor. The pain was mostly stabbing pain along the lower margins of both costal arches, affecting breathing. There was no substernal crushing pain and no radiating pain. The symptoms were difficult to relieve after rest. He subsequently developed fever at night, with a maximum temperature of 39.3℃, without chills or rigors, accompanied by a mild cough and a small amount of white sputum. After self-administered oral ibuprofen capsules, the fever gradually subsided, but the chest pain, chest tightness, and shortness of breath did not improve. He then presented to the emergency department of a tertiary hospital in Yancheng on Day -22. Emergency blood tests showed: white blood cell count 47.70*10^9/L, absolute neutrophil count 22.66*10^9/L, high-sensitivity C-reactive protein 178.10 mg/L; ECG showed sinus tachycardia, premature atrial beats, and ST-segment elevation; chest CT showed mild interstitial thickening in both lower lungs and bilateral pleural thickening. After cardiology consultation, myocardial infarction was temporarily not considered, and he was admitted to the Hematology Department of Yancheng First People's Hospital for inpatient treatment. After admission, further laboratory and ancillary examinations were completed, and he sequentially received anti-infective treatment with multiple antibiotics including penicillin, moxifloxacin, linezolid, cefoperazone/sulbactam sodium, and meropenem; methylprednisolone for anti-inflammatory treatment; and symptomatic supportive treatment including liver protection, gastric protection, and maintenance of electrolyte balance. However, the patient continued to have recurrent chest pain, chest tightness, and shortness of breath. ECG showed atrial fibrillation and ST-segment elevation. After cardiology consultation, myocardial infarction was still temporarily not considered. Subsequent repeat ECG returned to normal. During hospitalization, the patient's temperature repeatedly increased. Repeat chest CT on Day -12 showed old fibrotic streaks in both lower lungs and bilateral pleural effusions with compressive atelectasis of the left lower lung. During hospitalization, after consultations by the Respiratory Department and Thoracic Surgery Department, ultrasound-guided right pleural effusion puncture and drainage was performed on Day -12, yielding yellow purulent pleural fluid. After the puncture, the chest pain was once significantly relieved, but worsened chest pain and fever recurred the next day, and he was transferred to the Thoracic Surgery Department of that hospital for continued treatment on Day -9. On Day -6, pleural effusion ultrasound examination showed bilateral pleural effusions. The local hospital considered that there were many intrapleural septations and therefore did not perform pleural puncture drainage for the time being. He was given symptomatic treatment including anti-infection therapy, expectorant therapy, and nebulization. The symptoms of chest pain, chest tightness, and shortness of breath improved slightly, and he was discharged on Day -1. For further treatment, he presented to our hospital on Day 0, and was admitted from the outpatient clinic with the diagnosis of \"pleural effusion of unknown etiology.\" Since the onset of illness, his mental status had been fair, with weight loss of about 3 kg, normal diet, normal bowel and bladder function, and no obvious sleep abnormality. The patient previously worked in an office at his workplace and is now retired. He was diagnosed with \"chronic myelomonocytic leukemia\" more than 2 years ago. The local hospital considered that there was no indication for treatment at present and did not provide treatment. In approximately 5 months before Day 0, he received oral Chinese herbal medicine treatment at a traditional Chinese medicine hospital in Beijing for a total of 3 months. He has a regular lifestyle and denies a history of contact with contaminated water. Smoking history: more than 9 years, 10 cigarettes per day, now quit (for more than 40 years); alcohol history: more than 40 years, approximately 1 liang of baijiu daily; vaccination history per local records. Married at appropriate age, with 1 daughter, all in good health. Denies family history of hereditary diseases. Physical examination: Vital signs: T 36.5℃, P 82 beats/min, R 20 breaths/min, BP 121/76 mmHg. General examination: alert, fair general condition, walked into the ward, cooperative with examination, autonomous position. No anemic appearance. No jaundice of the skin or sclerae. No enlargement of superficial lymph nodes throughout the body. No thoracic deformity. A wound was visible on the right back (covered with gauze, after removal of the drainage tube at the local hospital). No sternal tenderness. Breath sounds were coarse in both lungs, with no obvious dry or moist rales. Cardiac dullness was not enlarged. Heart rate 82 beats/min, regular rhythm, with no pathologic murmurs heard in any valve auscultation area. Abdomen flat and soft, without tenderness or rebound tenderness. Liver not palpable below the costal margin. Spleen palpable below the costal margin, with the splenic edge not extending more than 2 cm below the costal margin, soft in texture, smooth surface, and tenderness. Subcutaneous ecchymosis was visible on the skin of the left hypochondriac region, approximately 5x4 cm in size. Murphy's sign negative. No percussion tenderness over the kidney regions. No shifting dullness. Bowel sounds 4 times/min. Full range of motion of the extremities and spine. No clubbing of the fingers (toes). Mild pitting edema of both lower extremities. Bilateral pathologic signs negative.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToIlhDJkib8AribYDbOicZ4SV66fUnt0HadLULfeePYBjiaeoAtBT057QK4A/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Chest CT on Day -22.",
+          "local_src": "cleaned_cases_image_cache/e368ac237f515caf770af8f924a4c75519b2ce7a.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOTo3fdTn61zUq1O195ueZTKXQybDtjwYHEcrFMPx0W0XkCiaaibFVyQuMKQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. Chest CT on Day -12.",
+          "local_src": "cleaned_cases_image_cache/b7d5fc808fac09032dfa9f8359e6936467e9f026.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Complicated parapneumonic pleural effusion/empyema",
+          "supporting_evidence": [
+            "The chief complaint was \"chest pain, chest tightness, shortness of breath, and fever for 21 days\"; the chest pain was a stabbing pain at the lower margins of the bilateral costal arches that affected breathing, consistent with pleuritic chest pain.",
+            "Blood tests showed a white blood cell count of 47.70×10^9/L and hs-CRP of 178.10mg/L, supporting a marked infectious/inflammatory response.",
+            "Accompanied by a mild cough and a small amount of white sputum, suggesting a background related to respiratory tract infection",
+            "Chest CT showed bilateral pleural thickening; subsequent repeat examination showed bilateral pleural effusions with compressive atelectasis of the left lower lung.",
+            "Ultrasound-guided right pleural effusion puncture and drainage yielded \"yellow purulent pleural fluid,\" strongly supporting empyema or complicated infectious pleural effusion.",
+            "The local hospital considered \"multiple intrathoracic septations,\" consistent with loculated/septated empyema.",
+            "Chest pain was once significantly relieved after puncture, suggesting that the symptoms are related to pleural effusion/pleural disease.",
+            "The attached CT images show pleural effusion, more pronounced on the left, with adjacent compressive atelectatic changes in the lung tissue, consistent with the imaging features of postinfectious pleural effusion."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a definite imaging description of consolidative pneumonia; it only mentioned mild interstitial thickening in both lower lungs and chronic linear opacities in both lower lungs at a later stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy/tuberculous pleural effusion",
+          "supporting_evidence": [
+            "The course of illness has lasted for more than 20 days, with fever, chest pain, chest tightness, and shortness of breath, consistent with the presentation of subacute pleural inflammatory disease.",
+            "Weight loss of approximately 3 kg was present",
+            "Chest CT showed bilateral pleural thickening and bilateral pleural effusions; tuberculous pleuritis may present with pleural thickening and pleural effusion.",
+            "The attached CT images show marked pleural effusion with signs of pleural involvement; tuberculous pleural disease can have similar findings",
+            "Recurrent fever, chest pain, chest tightness, and shortness of breath despite treatment with multiple broad-spectrum antibiotics suggest that causes other than common bacterial infection should be considered."
+          ],
+          "opposing_evidence": [
+            "Denied a history of contact with contaminated water, but no clear history of TB exposure or constitutional symptoms of TB were provided in the first stage",
+            "Thoracentesis yielded \"yellow purulent pleural fluid,\" favoring pyogenic infection rather than typical tuberculous pleural effusion",
+            "The WBC count was markedly elevated to 47.70×10^9/L, further supporting the presence of an acute bacterial infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Malignant pleural effusion (lung cancer, pleural metastasis, or pleural mesothelioma, etc.)",
+          "supporting_evidence": [
+            "The patient is a 71-year-old elderly man with a smoking history.",
+            "During the course of the illness, there was a weight loss of approximately 3 kg.",
+            "Recurrent chest pain, chest tightness, and shortness of breath; chest CT showed bilateral pleural thickening and pleural effusion. Malignant pleural lesions may have similar manifestations.",
+            "The attached CT images show pleural effusion and findings of pleural involvement; malignant pleural disease should be considered in the differential diagnosis.",
+            "Symptoms remained recurrent after multiple anti-infective treatments, suggesting that a neoplastic etiology should be considered in addition to simple infection."
+          ],
+          "opposing_evidence": [
+            "The text and attached images from the first stage did not clearly suggest a pulmonary space-occupying lesion or obvious pleural nodules/masses.",
+            "The presence of high fever, markedly elevated high-sensitivity CRP, marked leukocytosis, and \"yellow purulent pleural effusion\" overall more strongly supports an infectious process."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary embolism with pulmonary infarction and reactive pleural effusion",
+          "supporting_evidence": [
+            "Sudden onset of chest pain, chest tightness, and shortness of breath; the chest pain is pleuritic and affects breathing, which can be seen in pleuritic pain caused by pulmonary infarction.",
+            "Pleural effusion developed later; pulmonary embolism may be accompanied by a small to moderate pleural effusion",
+            "Advanced age and limited mobility during hospitalization, with risk factors for venous thromboembolism"
+          ],
+          "opposing_evidence": [
+            "The presence of a fever of 39.3℃, WBC 47.70×10^9/L, high-sensitivity C-reactive protein 178.10 mg/L, and purulent pleural effusion more strongly supports an infectious etiology.",
+            "In the first stage, no evidence of lower extremity deep vein thrombosis, hemoptysis, pulmonary artery CTA, or increased right heart load was provided.",
+            "The attached CT images and written information are more suggestive of pleural thickening, loculated pleural effusion, and compressive atelectasis, rather than the typical wedge-shaped lesion of pulmonary infarction."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Pleural effusion caused by pleural involvement related to chronic myelomonocytic leukemia or by secondary opportunistic infection",
+          "supporting_evidence": [
+            "Previously diagnosed with chronic myelomonocytic leukemia for more than 2 years; hematologic disease may cause pleural involvement or increase the risk of secondary infection",
+            "Marked elevation of peripheral white blood cells, with splenomegaly, suggesting the presence of active underlying hematologic disease.",
+            "In the setting of an underlying hematologic disorder, recurrent fever, pleural effusion, and pleural thickening warrant consideration of hematologic disease-related causes or concurrent infection.",
+            "After multiple anti-infective treatments, the disease course remained prolonged and recurrent, suggesting that beyond a simple common infection, complex etiologies related to host factors should be considered."
+          ],
+          "opposing_evidence": [
+            "The local hospital had determined that this chronic myelomonocytic leukemia had \"no current indication for treatment and was not treated\"; the first stage did not indicate clear evidence of progression.",
+            "Thoracentesis yielded \"yellow purulent pleural fluid,\" more directly supporting infectious pleural effusion/empyema.",
+            "In the first stage, pleural fluid cytology, bone marrow progression, or imaging features of pleural infiltration were not provided to support direct pleural involvement by leukemia."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Routine laboratory tests (glycated hemoglobin, serum tumor markers, myocardial infarction markers, thyroid function, hepatitis B, syphilis, HIV, TSPOT, sputum culture, autoimmune antibody panel, T-cell lymphocyte subsets)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion localization and percutaneous catheter drainage (routine pleural fluid analysis, biochemical analysis, tumor marker testing, and exfoliative cytology)",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood NGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration + biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid flow cytometry",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Routine laboratory indices: HbA1c: 7.1%↑. Serum tumor markers: CA125 66.10 U/ml↑, others normal. Myocardial infarction marker: NT-proBNP 166 pg/mL. Thyroid function normal; hepatitis B, syphilis, and HIV all negative; TSPOT negative; no abnormalities found in sputum culture results. Autoimmune antibody panel: anti-SSA antibody positive, others negative. T-cell lymphocyte subsets: CD4 55.5↑ (25.8-41.6%), absolute CD4 count 720; CD8 15.1↓ (18.1-29.6%), CD4/CD8 3.68↑ (1.57-2.93%). On Day +2, transthoracic echocardiography at our hospital showed: 1. Ascending aortic dilation 2. Mitral valve calcification with mild regurgitation (instantaneous regurgitant volume 1 ml) 3. Impaired left ventricular diastolic function with normal systolic function 4. Normal size of all cardiac chambers. On the 7th, bilateral lower-extremity deep venous ultrasound at our hospital showed: no thrombosis in the bilateral deep venous system of the lower extremities or in the bilateral intramuscular veins. On the 8th, abdominal ultrasound at our hospital showed: 1. Hypoechoic lesion in the spleen: nature undetermined, further examination recommended 2. Diffuse splenic lesions 3. Splenomegaly. Pleural effusion localization indicated: on the right side, a free anechoic area was seen in the pleural cavity, with poor sound transmission and multiple hyperechoic septations in a honeycomb pattern, with the widest area approximately 44 mm. On the left side, a free anechoic area was seen in the pleural cavity, with poor sound transmission, and floating compressed lung tissue was visible within it, with the widest area approximately 27 mm. On Day +1, right thoracentesis with catheter drainage was performed under ultrasound guidance; the next day, left thoracentesis with catheter drainage was performed. A total of 1500 ml of pleural effusion was drained from the right pleural cavity and 600 ml from the left pleural cavity. Both were sent for routine pleural fluid analysis, biochemistry, tumor markers, and exfoliative cytology. Routine pleural fluid analysis submitted on Day +2 and 7 indicated a large red blood cell count; the pleural fluid was exudative, and the segmented neutrophil proportion was 47%. After drainage, the patient's symptoms of chest tightness, shortness of breath, and chest pain improved, but the patient then developed fever, with more frequent febrile episodes than before; the fever pattern was remittent fever. Pulmonary artery CTA on Day +7 showed: multiple patchy, linear, and streaky opacities in both lungs; partial atelectasis of both lungs; pleural effusion in both pleural cavities and interlobar fissures, partially loculated; drainage tubes seen in both pleural cavities. No enlarged mediastinal lymph nodes were seen. Pericardial effusion. Multiple blood cultures showed no bacterial growth, and blood NGS also detected no pathogenic microorganisms.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToUHyuD0bmROK1x3dxLwpNlRNvPMBm0LicDWV8uV5q2SWnedE6ib1j5q7w/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Hemoglobin A1c: 7.1%↑.",
+            "local_src": "cleaned_cases_image_cache/e2055eceb562b552470cb133529e915d42be93e7.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToorWwbicRJib8P4948KMkP2I5esGchgfzEAr48J0srxDrGkoDWYic9ZFWw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 3 (left): right pleural effusion ↑; Figure 4 (right): left pleural effusion ↑",
+            "local_src": "cleaned_cases_image_cache/6dac9acd187ebb78f59395959ac362687a205a3a.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToH1pczDO0FnRmhic0SbBTLOwHyGd0A6TmuMmDUoV1nib0Mk9zTK1y3OQQ/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 5. Trend graph of the patient's body temperature changes after admission",
+            "local_src": "cleaned_cases_image_cache/5d89041b3a5ec13877907befbb3d4c3b4eb75e96.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToygTICkq1BrJxvCbuovibY8w1ex7cjB4JMDHURPcaLJ5BQFtGyecjAqg/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 6. The patient's pulmonary artery CTA on Day +7",
+            "local_src": "cleaned_cases_image_cache/0800a8be3bd51d0af89d35387d47bce3522daa7e.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Malignant neoplasm of the lung or pleura",
+            "evidence": [
+              "Clinical manifestations include chest pain, chest tightness, shortness of breath, weight loss, and a cachectic state.",
+              "Chest CT showed bilateral pleural effusions, and the pleural effusions were hemorrhagic.",
+              "Exudative nature"
+            ],
+            "exclusion_reasons": [
+              "No elevation of tumor markers on serologic testing",
+              "Repeated testing of pleural effusion found no tumor cells",
+              "Lack of pathological evidence"
+            ]
+          },
+          {
+            "name": "Tuberculous pleurisy",
+            "evidence": [
+              "Acute onset, mainly manifested as shortness of breath, chest tightness, and cough",
+              "Chest CT shows bilateral pleural effusions",
+              "Body temperature decreased somewhat after empiric anti-TB treatment"
+            ],
+            "exclusion_reasons": [
+              "At admission, there were no symptoms such as fever or sputum production.",
+              "Lack of evidence supporting a pathogenic microorganism"
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "Clinical symptoms were chest pain and shortness of breath, more pronounced after exertion.",
+              "D-dimer markedly elevated"
+            ],
+            "exclusion_reasons": [
+              "No respiratory failure",
+              "No abnormalities were found on lower extremity vascular ultrasound or pulmonary artery CTA.",
+              "Lack of direct imaging evidence"
+            ]
+          },
+          {
+            "name": "cardiac insufficiency",
+            "evidence": [
+              "Clinical symptoms include shortness of breath, chest tightness, and cough, which are more pronounced after exertion.",
+              "Echocardiography showed a small pericardial effusion; mitral valve calcification with mild regurgitation, and reduced left ventricular diastolic function.",
+              "Mild pitting edema of both lower extremities"
+            ],
+            "exclusion_reasons": [
+              "No prior history of heart disease",
+              "NT-proBNP was also not significantly elevated"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Malignant neoplasm of the lung or pleura",
+        "evidence": [
+          "Clinical manifestations include chest pain, chest tightness, shortness of breath, weight loss, and a cachectic state.",
+          "Chest CT showed bilateral pleural effusions, and the pleural effusions were hemorrhagic.",
+          "Exudative nature"
+        ],
+        "exclusion_reasons": [
+          "No elevation of tumor markers on serologic testing",
+          "Repeated testing of pleural effusion found no tumor cells",
+          "Lack of pathological evidence"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tuberculous pleurisy",
+        "evidence": [
+          "Acute onset, mainly manifested as shortness of breath, chest tightness, and cough",
+          "Chest CT shows bilateral pleural effusions",
+          "Body temperature decreased somewhat after empiric anti-TB treatment"
+        ],
+        "exclusion_reasons": [
+          "At admission, there were no symptoms such as fever or sputum production.",
+          "Lack of evidence supporting a pathogenic microorganism"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [
+          "Clinical symptoms were chest pain and shortness of breath, more pronounced after exertion.",
+          "D-dimer markedly elevated"
+        ],
+        "exclusion_reasons": [
+          "No respiratory failure",
+          "No abnormalities were found on lower extremity vascular ultrasound or pulmonary artery CTA.",
+          "Lack of direct imaging evidence"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "cardiac insufficiency",
+        "evidence": [
+          "Clinical symptoms include shortness of breath, chest tightness, and cough, which are more pronounced after exertion.",
+          "Echocardiography showed a small pericardial effusion; mitral valve calcification with mild regurgitation, and reduced left ventricular diastolic function.",
+          "Mild pitting edema of both lower extremities"
+        ],
+        "exclusion_reasons": [
+          "No prior history of heart disease",
+          "NT-proBNP was also not significantly elevated",
+          "The pleural effusion is exudative."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "basis_in_stage3_input": "On Day +7, the patient underwent bone marrow aspiration and biopsy.",
+          "why_order_this_exam": "The patient is an elderly man with a prior confirmed diagnosis of chronic myelomonocytic leukemia, presenting this time with chest pain, chest tightness, shortness of breath, recurrent fever, and bilateral pleural effusions, with poor response to multiple anti-infective treatments, suggesting that in addition to infection, priority should be given to evaluating whether the underlying hematologic disease is active or has progressed. In conjunction with markedly elevated peripheral blood leukocytes, a high monocyte proportion, splenomegaly, and PET-CT showing diffusely increased bone marrow uptake throughout the body, bone marrow aspiration and biopsy are the core examinations for assessing bone marrow hematopoiesis, the degree of monocytic/granulocytic proliferation, and whether blast transformation or progression related to extramedullary disease has occurred; they are also the most critical sampling procedures for explaining the persistent fever, the abnormal nature of the pleural effusion, and whether chemotherapy needs to be initiated subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometry",
+          "basis_in_stage3_input": "Bone marrow flow cytometry + biopsy were sent to evaluate the hematologic disease status.",
+          "why_order_this_exam": "During the course of the disease, the patient had persistently elevated white blood cell counts and marked monocytosis, and the pleural effusion was recurrent with an unclear etiologic diagnosis, suggesting that the current clinical problem is not only infection, but that it is also necessary to determine whether a hematologic disorder is present with abnormal clonal cell expansion and progression to acute transformation. Bone marrow flow cytometry can identify abnormal myeloid blasts and abnormal monocytic populations at the immunophenotypic level, provide additional classification information, and help distinguish persistent CMML, a pre-transformation state, or coexisting other myeloid clonal abnormalities, thereby providing a basis for determining whether the pleural lesion is related to the hematologic disease, assessing prognosis, and formulating subsequent treatment plans such as azacitidine/venetoclax.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "basis_in_stage3_input": "Bone marrow flow cytometry + biopsy were sent to evaluate the hematologic disease status.",
+          "why_order_this_exam": "The patient has an underlying history of chronic myelomonocytic leukemia and has developed clues suggesting disease activity, including weight loss, splenomegaly, persistent fever, recurrent bilateral pleural effusions, and abnormal cells in the pleural fluid. Compared with aspiration alone, bone marrow biopsy is better able to evaluate overall bone marrow cellularity, lineage distribution, degree of fibrosis, and whether there is diffuse or focal infiltration by abnormal cells. It is of important value in determining whether CMML is not in remission, whether it has progressed, and whether it is accompanied by changes in the bone marrow microenvironment. It also helps explain the abnormal findings in peripheral blood and pleural fluid and provides a pathologic basis for selection of treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "Bone marrow smear result: the monocytic lineage accounted for 34%; chronic myelomonocytic leukemia is considered not in remission.",
+          "why_order_this_exam": "The patient's most prominent current clinical issue is persistent fever and bilateral pleural effusions of unclear etiology. In the setting of insufficient evidence of infection and poor response to anti-infective therapy, it is necessary to rapidly determine whether the underlying CMML is active. Bone marrow smear can directly assess bone marrow cell morphology, the proportion of blasts, and the degree of monocytic proliferation, and is the most direct examination for identifying unremitted chronic myelomonocytic leukemia, excluding blast transformation, or other morphologic abnormalities. This examination can correlate peripheral blood monocytosis with actual hematopoietic changes in the bone marrow, providing an important basis for establishing hematologic disease activity and linking it to pleural involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood smear",
+          "basis_in_stage3_input": "Peripheral blood smear: markedly increased monocyte proportion.",
+          "why_order_this_exam": "The patient had marked leukocytosis both before and after admission, and had a prior history of CMML. A peripheral blood smear is helpful for rapid bedside confirmation of whether the monocytosis is genuine, whether immature cells are present, and whether there are other abnormal blood cell morphologies. In this case, the peripheral blood smear can provide a preliminary distinction between an infectious leukemoid reaction and abnormal proliferation related to a hematologic malignancy, and can corroborate the bone marrow findings, helping to explain why, despite fever and pleural effusion, the patient had a poor response to multiple anti-infective treatments, thereby supporting continued in-depth evaluation toward a hematologic cause and pleural infiltration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy pathology",
+          "basis_in_stage3_input": "Bone marrow biopsy pathologic diagnosis: markedly hypercellular marrow, with hematopoietic cells accounting for approximately 90% of the area.",
+          "why_order_this_exam": "In the context of persistent pleural effusion, fever, splenomegaly, and a marked increase in peripheral blood monocytes, imaging and routine laboratory tests alone are insufficient to determine whether infection or progression of a hematologic disorder is predominant. Bone marrow biopsy pathology can systematically evaluate the degree of bone marrow proliferation, the granulocytic-monocytic lineage proportion, erythroid suppression, megakaryocyte morphology, and structural changes such as fibrosis, and is key evidence for confirming the pathologic basis of CMML and assessing whether it is not in remission or has progressed. The results are directly relevant to interpreting the source of the abnormal monocytes in the pleural fluid and provide a निर्णसive basis for whether to transfer the patient to the hematology department and initiate chemotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: 1 (slide number): reticulin stain MF-2). E-cadherin (erythroid+), MPO granulocytic lineage+). CD61 (megakaryocytes+), CD20 (a few B+), CD3 (a few T+), CD138 (a few plasma cells+). Ki-67 (+, approximately 60%). EMMA (-). CD34 (a few+). CD117 (partial+), CD68 (KP1) (partial+). CD79a (a few B+), CD56 (-), Cyclin D1 (), CD5 (a few T+). CD23 (-). CD33 (+). CD15 (+). CD43 (+). Lysozyme (+). CD163 (partial+).",
+          "why_order_this_exam": "The patient has recurrent pleural effusion, poor response to anti-infective therapy, and a clearly established hematologic disease background, so further tissue-level confirmation of the lineage origin and proliferative activity of the abnormal hyperplastic cells is required. Immunohistochemistry can clarify the expression of markers related to the granulocytic, monocytic, megakaryocytic, and blast lineages, and, together with indicators such as Ki-67, CD34, and CD117, assess disease activity and the risk of blast transformation; at the same time, it can also help exclude lymphoid neoplasms or other bone marrow infiltrative diseases. In this case, this examination is the key step in correlating the bone marrow morphologic findings with specific tumor biologic characteristics, and it directly affects the assessment of leukemia activity status, the possibility of pleural involvement, and the choice of treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Send-out bone marrow flow cytometry",
+          "basis_in_stage3_input": "The conclusion of the outsourced bone marrow flow cytometry on Day +11 was: mildly immunophenotypically abnormal myeloid blasts accounting for 0.2% of nucleated cells were detected, and the proportion of mature monocytes was increased (33.7%).",
+          "why_order_this_exam": "Because the patient has a complex presentation, with both pleural/pulmonary symptoms and persistent fever and hematologic abnormalities, routine examinations are insufficient to fully define the nature of the current condition; therefore, sending out bone marrow flow cytometry will help further improve the accuracy of classification. This test is focused on determining whether there is an abnormal myeloid blast clone, abnormal expansion of mature monocytes, and whether these findings are consistent with the prior CMML. In conjunction with bone marrow smear, biopsy pathology, and pleural fluid flow cytometry, it can help determine whether the disease is unremitted, progressing, or accompanied by extramedullary involvement. Its results are very important for excluding reactive changes caused solely by infection, assessing the risk of blast transformation, and formulating a systemic anti-leukemia treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "As shown by the PET-CT results dated Day +8",
+          "why_order_this_exam": "The patient has weight loss, persistent fever, partially loculated bilateral pleural effusions, hypoechoic lesions within the spleen, and splenomegaly, while pleural fluid cytology and routine infectious workup do not sufficiently explain the full clinical picture. The clinical purpose of PET-CT is to assess the distribution of lesions throughout the body: on the one hand, to determine whether there are tumors/infiltrative lesions in the lungs, pleura, mediastinum, spleen, or other sites, helping differentiate malignant neoplasms, infection, and extramedullary involvement of hematologic disease; on the other hand, to provide a basis for determining the most appropriate biopsy or sampling site. Particularly important in this case is that it can link the localized pleural lesions with systemic bone marrow activity and splenic abnormalities, supporting assessment of whether the pleural effusion represents CMML-related extramedullary involvement and influencing the treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid flow cytometry sent out",
+          "basis_in_stage3_input": "On Day +12, send-out flow cytometry of the pleural fluid was completed; the result reported: this pleural fluid specimen was predominantly composed of abnormal mononuclear cells (73.0%).",
+          "why_order_this_exam": "The patient's principal clinical manifestations were recurrent bilateral pleural effusions accompanied by chest pain, chest tightness, and shortness of breath. Although symptoms improved after pleural drainage, fever still occurred more frequently. The pleural fluid was an exudate and was partially loculated. Neither blood culture nor blood NGS identified a pathogen, indicating that the cause must be sought directly in the pleural fluid. Given the patient's prior history of CMML, and the abnormal monocytic proliferation indicated in both peripheral blood and bone marrow, the core purpose of flow cytometry of the pleural fluid was to determine whether abnormal monocytic/myeloid cells were present in the pleural effusion, thereby distinguishing infectious pleural effusion, pleural effusion of malignant epithelial origin, and pleural involvement by a hematologic malignancy. Once this test confirms predominance of abnormal monocytes, it can directly support the determination of extramedullary disease and pleural involvement, and plays a निर्णative role in establishing the final diagnosis, excluding other differential diagnoses, and initiating hematologic chemotherapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +7, the patient underwent bone marrow aspiration and biopsy, and bone marrow flow cytometry + biopsy were submitted to evaluate the hematologic disease. Bone marrow smear result: monocyte lineage accounted for 34%, suggesting chronic myelomonocytic leukemia not in remission. Peripheral blood smear: monocyte proportion was markedly increased. Bone marrow biopsy pathologic diagnosis: markedly hypercellular marrow, with hematopoietic cells comprising approximately 90% of the area. Granulocytic-monocytic cells showed markedly active proliferation, accounting for approximately 80% of total nucleated cells; cells of early, intermediate, and late stages were all seen; the monocyte proportion was increased, some being promonocytes; blasts were seen; by immunohistochemistry, CD34+ blasts were approximately 2%, and CD117+ cells were more numerous, approximately 15%; erythroid cells were markedly decreased, accounting for approximately 2%; the granulocyte-to-erythroid ratio was markedly increased; megakaryocytes were increased, accounting for approximately 10%, with immature differentiation, showing small mononuclear forms and bizarre cell morphology, without clustered distribution; lymphoplasmacytic cells were not increased. Reticulin fibers were markedly increased (MF grade 2). In conjunction with morphology and medical history, the findings are consistent with chronic myelomonocytic leukemia. Immunohistochemistry: 1 (slide number): reticulin stain MF2). E-Cadherin (erythroid+), MPO (granulocytic+). CD61 (megakaryocytic+), CD20 (a few B+), CD3 (a few T+), CD138 (a few plasma cells+). KM67 (+, approximately 60%). EMMA (-). CD34 (a few+). CD117 (partial+), CD68(kp1) (partial+). CD79a (a few B+), CD56 (-), Cyclin D1 (), CD5 (a few T+). CD23 (-). CD33 (+). CD15 (+). CD43 (+). Lys02yme (+). CD163 (partial+). The conclusion of the send-out bone marrow flow cytometry on Day +11 was: mildly immunophenotypically abnormal myeloid blasts accounting for 0.2% of nucleated cells were detected, and the proportion of mature monocytes was increased (33.7%). PET-CT on Day +8 showed: 1. diffusely increased radiotracer uptake in the bone marrow cavities throughout the body, which may be compatible with leukemia; 2. right maxillary sinus cyst; 3. multiple inflammatory lesions and fibrotic foci in both lungs, partial atelectasis of both lungs; several pulmonary bullae in the right upper lobe; bilateral pleural and interlobar fissure effusions, partially loculated; cardiomegaly; pericardial effusion; aortic calcification; 4. small cyst in the right hepatic lobe; splenomegaly with possible infarct foci; partially high-density shadows in the bilateral renal parenchyma and bilateral urinary tracts, possibly due to contrast reflux; subcutaneous lesion in the left abdominal wall, likely inflammatory; 5. chronic cystitis; enlarged prostate with calcific foci; 6. degenerative changes of the spine; bulging discs at L3/4, L4/5, and L5/S1. On Day +12, send-out flow cytometry of pleural effusion was completed, and the result reported: this pleural effusion specimen was predominantly composed of abnormal monocytes (73.0%). The hematologist considered pleural involvement and myeloid blast transformation.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOTokYms2454KE8dwUHpzCObK1dv7nee1xu0tYgk2DBwT5mia5ZQoXibMiagQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 7. Proportions of each cell population among nucleated cells detected by flow cytometry",
+          "local_src": "cleaned_cases_image_cache/abb1e6dda07eaba49ca32ddd86f1305764503bed.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOToZNjLiaviaIVjtPdR4aG8VIII31XLQ2j7ukSpxKZ6J2JxO8YCDg2KUcRA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Based on these comprehensive findings",
+          "local_src": "cleaned_cases_image_cache/408f8523412a81d573bd449050472c68e6d5e80d.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLnurATkVGodS0M5bjZJOTomYUZQC7GdQmR9VcmGQUcwfFibsW7bIHGaWr67STbj2ykqLO0C53phbw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 8. Follow-up chest CT of the patient on Day +46",
+          "local_src": "cleaned_cases_image_cache/7924e685b7c69d3637f3e8fc3b832c37f1d2c4b0.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Chronic myelomonocytic leukemia with extramedullary involvement; 2. Bilateral pleural effusions; 3. Type 2 diabetes mellitus; 4. Hypoproteinemia.",
+      "diagnostic_basis": [
+        "Elderly male, acute onset.",
+        "Symptoms: onset with chest pain, chest tightness, and shortness of breath; bilateral pleural effusions were found at an outside hospital, with poor response to anti-infective treatment; after admission to our department, fever and recurrent pleural effusions developed.",
+        "Physical signs: Coarse breath sounds in both lungs, with no obvious dry or moist rales heard. Cardiac dullness was not enlarged, heart rate 82 beats/min, regular rhythm, and no pathologic murmurs were heard in the auscultatory areas of the valves.",
+        "Pulmonary artery CTA: multiple patchy, band-like, and linear opacities in both lungs; partial atelectasis in both lungs; pleural effusions in both hemithoraces and within the interlobar fissures, partially loculated; drainage tubes are present in both pleural cavities. No enlarged mediastinal lymph nodes are seen. Pericardial effusion.",
+        "Complete blood count: white blood cell count 45.6*10^9/L↑; monocyte percentage 68%↑.",
+        "Biochemical tests: D-dimer 46.18 ug/mL ↑",
+        "Echocardiography: 1. Ascending aortic dilatation 2. Mitral valve calcification with mild regurgitation (instantaneous regurgitant volume 1 ml) 3. Impaired left ventricular diastolic function, with normal systolic function 4. Normal size of all cardiac chambers",
+        "Color Doppler ultrasound of the deep veins of both lower extremities: No thrombosis was detected in the deep venous systems of both lower extremities or in the bilateral intermuscular veins",
+        "Abdominal color Doppler ultrasound: 1. Hypoechoic area within the spleen: etiology undetermined; further evaluation is recommended 2. Diffuse splenic lesion 3. Splenomegaly",
+        "PET-CT: Diffusely increased radiotracer uptake in the bone marrow cavities throughout the body, compatible with leukemia; multiple inflammatory and fibrotic foci in both lungs, with partial atelectasis of both lungs; several pulmonary bullae in the right upper lobe; bilateral pleural effusions and interlobar fissural effusions, partially loculated; cardiomegaly, pericardial effusion, and aortic calcification. Small cyst in the right hepatic lobe; splenomegaly with possible infarct; partial hyperdense opacities within both renal parenchymas and the bilateral urinary tracts, with possible contrast reflux, please correlate clinically; subcutaneous lesion of the left abdominal wall, likely inflammatory.",
+        "Bone marrow aspiration + biopsy: markedly hypercellular bone marrow, with hematopoietic cells accounting for approximately 90% of the area. Granulocytic-monocytic lineage cells are markedly proliferative and active, accounting for approximately 80% of total nucleated cells; cells at the early, intermediate, and late stages are all present, and the proportion of monocytes is increased; consistent with chronic myelomonocytic leukemia.",
+        "Pleural fluid flow cytometry: This pleural fluid specimen is predominantly composed of abnormal monocytes (73.0%)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "The patient was transferred to the Hematology Department and, starting on Day +21, began the first cycle of chemotherapy: azacitidine 100 mg d1-7 + venetoclax 100 mg d1, 200 mg d2, 400 mg d3-28."
+      ],
+      "treatment_response": [
+        "On Day +46, the patient returned to the hospital for repeat chest CT, which showed that the bilateral pleural effusions were significantly decreased compared with before."
+      ]
+    }
+  }
+}

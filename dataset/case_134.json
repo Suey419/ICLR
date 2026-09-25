@@ -1,0 +1,355 @@
+{
+  "status": "success",
+  "case_id": "case_134",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 33-year-old male patient was admitted to Jiangning Hospital Affiliated to Nanjing Medical University on Day 0, with the chief complaint of \"recurrent fever for 4 months.\" He had a history of \"bronchial asthma\" for more than 20 years and had been on long-term inhaled \"Symbicort 320\" treatment. In approximately 4 months before Day 0, he sought medical attention for \"sore throat with cervical lymph node enlargement for 1 month,\" with a subjective foreign body sensation in the throat. Physical examination showed pharyngeal redness and swelling. Cervical lymph node ultrasound was performed: enlarged cervical lymph nodes, considered possibly reactive hyperplasia. Laryngoscopic examination suggested chronic pharyngitis, after which he started oral \"roxithromycin\" for anti-infective and expectorant treatment. During oral medication treatment, the patient noted low-grade fever in the afternoon, with self-measured temperature fluctuating between 37-38℃; the temperature returned to normal spontaneously without medication intervention. There were no chills, night sweats, cough, or sputum production. On Day -123, PET-CT performed at an outside hospital showed mildly enlarged lymph nodes with increased FDG metabolism in the bilateral neck, right supraclavicular region, right paratracheal region of the upper trachea, pretracheal retrocaval region, para-aortic arch region, aortopulmonary window, subcarinal region, and bilateral hila. On Day -112, blood TB interferon-gamma at an outside hospital was 13.15 pg/mL. The outside hospital recommended lymph node needle biopsy, and pathology from supraclavicular lymph node needle biopsy indicated granulomatous inflammation.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKmuFkdddULMpzq1h09jf7R7lZRQdqwWrIDWBWmzDy0CKNBz126vI5ZL8urDkMuNjephY2uoz9ycQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Blood tuberculosis interferon-gamma result from an outside hospital",
+          "local_src": "cleaned_cases_image_cache/a25f7b7268479bee85245872c3057349a7ac4f9c.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKmuFkdddULMpzq1h09jf7RAibK3eoYVgBtIgGfX3JbYqF1rP1WlvAjxia7JbKGu1EicX8Qckcibia9h7Q/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2: Pathology results of right supraclavicular lymph node puncture at an outside hospital",
+          "local_src": "cleaned_cases_image_cache/1c04485df3170415b94beb7c2aa656b8eef6f955.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Tuberculous lymphadenitis / intrathoracic lymph node tuberculosis",
+          "supporting_evidence": [
+            "Recurrent fever for 4 months, body temperature 37-38℃, consistent with TB, which may present with prolonged low-grade fever",
+            "PET-CT showed mildly enlarged lymph nodes with increased FDG uptake in multiple stations, including the bilateral cervical regions, right supraclavicular region, right upper paratracheal region, pretracheal retrocaval region, para-aortic arch region, aortopulmonary window, subcarinal region, and bilateral hilar regions, consistent with TB involving multiple lymph node stations.",
+            "At an outside hospital, blood TB interferon-γ was 13.15 pg/mL, as shown in the image, above the reference range of 0.00-7.00 pg/mL",
+            "Pathology from clavicular region lymph node needle biopsy suggests granulomatous inflammation/granulomatous inflammatory changes; tuberculous lymphadenitis can present as granulomatous inflammation"
+          ],
+          "opposing_evidence": [
+            "The phase 1 image shows interleukin-2 at 3.79 pg/mL, within the reference range; the result interpretation indicates that it is not “double-positive” for supporting active TB.",
+            "In the first stage, no direct evidence of Mycobacterium tuberculosis was found in sputum, tissue, or other specimens.",
+            "No chills or night sweats, no cough or sputum production, lacking some common systemic or respiratory symptoms of TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Sarcoidosis",
+          "supporting_evidence": [
+            "PET-CT showed involvement of multiple mediastinal and bilateral hilar lymph node stations, accompanied by bilateral cervical and supraclavicular lymphadenopathy; sarcoidosis can present with involvement of multiple intrathoracic and extrathoracic lymph node stations",
+            "Lymph node biopsy pathology suggested granulomatous inflammation; noncaseating granulomatous inflammation is a common finding in sarcoidosis.",
+            "The patient is a 33-year-old man, and his age is consistent with the common age range for the onset of sarcoidosis.",
+            "The main manifestations were low-grade fever and lymphadenopathy, and in the first stage there was no obvious cough or sputum production"
+          ],
+          "opposing_evidence": [
+            "Elevated TB interferon-γ means that infectious granuloma, especially tuberculosis, should be given priority consideration.",
+            "In the first stage, no information supporting sarcoidosis was provided, such as typical pulmonary parenchymal involvement, skin involvement, ocular involvement, or hypercalcemia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "lymphoma",
+          "supporting_evidence": [
+            "Recurrent fever for 4 months, one of the systemic symptoms seen in lymphoma",
+            "PET-CT showed increased metabolic activity in multiple lymph node stations in the neck, supraclavicular region, mediastinum, and hila; lymphoma may present with multistation lymph node involvement and increased FDG uptake",
+            "Persistent, relatively extensive cervical lymphadenopathy"
+          ],
+          "opposing_evidence": [
+            "Pathology from clavicular region lymph node biopsy suggested granulomatous inflammation rather than definitive pathological findings of lymphoma",
+            "In the first stage, typical information more supportive of lymphoma, such as progressive weight loss and night sweats, was not provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Nontuberculous mycobacterial lymphadenitis",
+          "supporting_evidence": [
+            "Pathology from lymph node needle biopsy suggests granulomatous inflammation; nontuberculous mycobacterial infection can cause granulomatous lymphadenitis",
+            "Chronic low-grade fever and multistation cervical and intrathoracic lymphadenopathy are possible manifestations consistent with chronic mycobacterial infection.",
+            "Long-term inhaled corticosteroid therapy for bronchial asthma suggests an altered local immune environment"
+          ],
+          "opposing_evidence": [
+            "An elevated TB interferon-gamma level is more suggestive of a Mycobacterium tuberculosis infection background and cannot directly support nontuberculous mycobacteria.",
+            "In the first stage, no mycobacterial culture, molecular testing, or special stain results were provided to support nontuberculous mycobacterial infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal granulomatous lymphadenitis",
+          "supporting_evidence": [
+            "Pathology suggests granulomatous inflammation; deep fungal infection can cause granulomatous inflammation.",
+            "Recurrent low-grade fever for 4 months accompanied by increased metabolic activity in multiple lymph node stations, consistent with possible manifestations of a chronic granulomatous infectious disease",
+            "Long-term inhaled corticosteroid therapy may increase susceptibility to certain fungal infections"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no information was provided regarding fungal exposure history, mycological testing, special stains, or pulmonary parenchymal lesions.",
+            "Elevated TB interferon-gamma makes tuberculosis a higher-priority consideration than fungal infection."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood calcium",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (NSE, TPSA, FPSA, CEA, CY211, CA19-9)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum galactomannan assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood IGRA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "angiotensin-converting enzyme",
+          "reason": "Serum angiotensin-converting enzyme is synthesized and secreted by epithelioid cells in sarcoid granulomas, and an elevated level supports the clinical diagnosis of sarcoidosis",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, complete blood count, erythrocyte sedimentation rate, urinalysis, and stool routine were normal; blood calcium was 2.3 mmol/L. Tumor markers: NSE 19.1 ng/ml, TPSA 2.99 ng/ml; FPSA, CEA, CY211, and CA19-9 were all normal. Serum GM test was negative; blood IGRA was negative. Contrast-enhanced chest CT: 1. Multiple enlarged lymph node shadows in the mediastinum, bilateral hila, and right supraclavicular fossa (mild enhancement), lymphoma? sarcoidosis? 2. Solid nodule in the upper and middle lobes of the right lung.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7RmiaVvnuqFzhB7iaDNDKXpwfxdPR0U4Zkt2L84hNFg7WGIicwqULDfDE0Q/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3: Day -323\nCompared with the chest CT dated Day 0, the patient had markedly enlarged mediastinal lymph nodes and clavicular region lymph nodes on Day 0.",
+            "local_src": "cleaned_cases_image_cache/f8fbb5a2fa8ed976165604c09c2dc1cdf8088510.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No tumor cells were found on lymph node needle biopsy, lung cancer-related tumor markers were not significantly elevated, PET-CT showed no definite malignancy, and there is currently no evidence of malignancy."
+            ]
+          },
+          {
+            "name": "Tuberculous lymphadenitis",
+            "evidence": [
+              "The patient has long-term inhaled ICS+LABA use, low-grade fever, and a positive blood TB interferon-gamma test."
+            ],
+            "exclusion_reasons": [
+              "At present, all TB-related test results at our hospital are negative; BALF X-pert is negative, and NGS did not detect Mycobacterium tuberculosis. Currently, there is insufficient evidence to support a diagnosis of TB."
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "Lymph node pathology repeatedly showed chronic granulomatous inflammation"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "PET-CT showed multiple enlarged lymph nodes with increased FDG uptake"
+        ],
+        "exclusion_reasons": [
+          "No tumor cells were found on lymph node needle biopsy, lung cancer-related tumor markers were not significantly elevated, PET-CT showed no definite malignancy, and there is currently no evidence of malignancy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tuberculous lymphadenitis",
+        "evidence": [
+          "The patient has long-term inhaled ICS+LABA use, low-grade fever, and a positive blood TB interferon-gamma test."
+        ],
+        "exclusion_reasons": [
+          "At present, all TB-related test results at our hospital are negative; BALF X-pert is negative, and NGS did not detect Mycobacterium tuberculosis. Currently, there is insufficient evidence to support a diagnosis of TB."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "Lymph node pathology repeatedly showed chronic granulomatous inflammation"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was performed",
+          "why_order_this_exam": "The patient is a 33-year-old man with recurrent low-grade fever for 4 months. PET-CT and contrast-enhanced chest CT showed multistation lymphadenopathy with increased metabolic activity in the cervical, supraclavicular, mediastinal, and bilateral hilar regions, along with a solid nodule in the right upper and middle lobes. A previous needle biopsy of a supraclavicular lymph node showed only granulomatous inflammation, and it still has not been possible to differentiate among TB, sarcoidosis, lymphoma, and other infectious/inflammatory diseases. Bronchoscopy can directly evaluate the endobronchial airways and provide access for further bronchoalveolar lavage, transbronchial tissue sampling, and combined EBUS-guided sampling of intrathoracic lesions, which may help identify evidence of infection, exclude endobronchial tumor or other lesions, and lay the foundation for subsequent etiologic and pathologic examinations, thereby facilitating definitive diagnosis and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS",
+          "basis_in_stage3_input": "Enlarged station 4R and station 7 lymph nodes were seen on EBUS",
+          "why_order_this_exam": "Contrast-enhanced chest CT and PET-CT both showed involvement of multiple mediastinal and hilar lymph node stations, but prior needle biopsy of peripheral lymph nodes showed only granulomatous inflammation, and the diagnosis remains unclear. EBUS can accurately localize enlarged mediastinal/hilar lymph nodes such as station 4R and station 7, assess lymph node size and suitability for needle sampling, and improve the accuracy and safety of tissue acquisition under real-time ultrasound guidance, reducing the risk of blind puncture. The core clinical issue of this examination is to obtain representative tissue from key intrathoracic lesions to differentiate sarcoidosis, TB, lymphoma, and other granulomatous diseases, and to provide a basis for whether further surgical biopsy or empiric therapy is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of station 7 lymph node biopsy",
+          "basis_in_stage3_input": "Biopsy pathology of station 7 lymph node suggested chronic granulomatous inflammation",
+          "why_order_this_exam": "The patient had a long history of low-grade fever, accompanied by enlargement of multiple intrathoracic and extrathoracic lymph node stations, and TB, sarcoidosis, and lymphoma were all important considerations in the initial differential diagnosis. Imaging and hematologic examinations alone could not establish a definitive diagnosis. A pathologic biopsy of the station 7 lymph node was performed to obtain histologic evidence and determine whether granulomatous inflammation, necrosis, tumor cells, or other specific lesions were present. The results suggested chronic granulomatous inflammation. Combined with subsequent negative TB PCR, acid-fast staining, and X-pert results, this could substantially increase the likelihood of noninfectious granulomatous diseases such as sarcoidosis, while reducing support for a diagnosis of malignancy, and provided key evidence for subsequent treatment with glucocorticoids combined with hydroxychloroquine.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of 4R lymph node biopsy",
+          "basis_in_stage3_input": "Pathology from the 4R lymph node biopsy showed a small amount of seromucinous glands, with no malignant tumor cells identified",
+          "why_order_this_exam": "PET-CT and chest CT indicated multistation mediastinal/hilar lymphadenopathy; malignancy, especially lymphoma or intrathoracic metastatic tumor, still needed to be excluded, and sampling from a single station could have sampling error. The purpose of repeat biopsy of the 4R lymph node was to increase pathologic evidence from different stations, improve sampling representativeness, and specifically determine whether malignant cellular infiltration was present. No malignant tumor cells were seen in this result. Although this finding alone cannot establish a diagnosis, it is mutually corroborative with chronic granulomatous inflammation in station 7 and basically normal tumor markers, further reducing the likelihood of malignancy and supporting continued diagnosis and treatment in the direction of granulomatous disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB PCR",
+          "basis_in_stage3_input": "TB PCR (-)",
+          "why_order_this_exam": "The patient had 4 months of low-grade fever, a previously elevated TB interferon-gamma result at an outside hospital, and clavicular region lymph node needle aspiration showing granulomatous inflammation. Tuberculous lymphadenitis/intrathoracic lymph node TB had consistently been an important differential diagnosis in the earlier stage; therefore, Mycobacterium tuberculosis nucleic acid testing was needed on the tissue specimen. The clinical purpose of TB PCR was to directly look for molecular evidence of Mycobacterium tuberculosis and help distinguish TB from noninfectious granulomatous diseases such as sarcoidosis. The result was negative; together with negative acid-fast staining and negative BALF X-pert, this markedly reduced the evidence for active TB, helped lower the risk of inappropriate anti-TB treatment, and supported subsequent decision-making regarding immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Acid-fast stain (-)",
+          "why_order_this_exam": "Pathology in this patient showed granulomatous inflammation, and given the persistent low-grade fever and multistation lymphadenopathy, Mycobacterium tuberculosis and some nontuberculous mycobacterial infections must be excluded. Acid-fast staining is a fundamental and critical etiologic test for granulomatous lesions and is used clinically mainly to seek direct evidence of acid-fast bacilli, helping determine whether the lesion is caused by mycobacterial infection. Although a negative result cannot completely rule it out, in this case, together with a negative TB PCR and negative BALF X-pert, it reduces the level of support for infectious mycobacterial disease, thereby providing a safer premise for the diagnosis of sarcoidosis and glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "PAS stain (-)",
+          "why_order_this_exam": "The patient has a background of increased susceptibility to infection due to long-term inhaled corticosteroid treatment for bronchial asthma; meanwhile, granulomatous inflammation is not specific for TB, and some fungal infections may also present with chronic low-grade fever, lymphadenopathy, and granuloma formation. Therefore, adding PAS staining on the biopsy specimen is primarily to screen for special pathogens such as fungi and to address the differential diagnosis between infectious granulomas and noninfectious granulomas. A negative PAS result weakens the pathologic support for deep fungal infection, helps exclude an important differential diagnosis, and reduces the risk of missing a fungal infection during subsequent glucocorticoid use.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF X-pert",
+          "basis_in_stage3_input": "BALF X-pert negative",
+          "why_order_this_exam": "The patient previously had immunologic evidence of TB and granulomatous inflammation on pathology from an outside hospital, but the intrathoracic lesions were predominantly mediastinal/hilar lymph nodes, and it was still necessary to further determine whether occult pulmonary TB infection was also present. After obtaining bronchoalveolar lavage fluid by bronchoscopy, X-pert was performed, which can more rapidly detect Mycobacterium tuberculosis and some drug resistance-related information. Its clinical purpose was to supplement direct etiologic evidence, improve the detection rate of pulmonary TB, and exclude active TB as much as possible before considering glucocorticoid therapy. This negative result, when integrated with histology and other TB tests, further reduced the basis for a TB diagnosis and helped clinicians favor sarcoidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS",
+          "basis_in_stage3_input": "BALF NGS: Haemophilus parainfluenzae, sequence count 11632; Streptococcus pneumoniae, sequence count 5988; Streptococcus pseudopneumoniae, sequence count 848; Finegoldia magna, sequence count 77; Acinetobacter baumannii, sequence count 9",
+          "why_order_this_exam": "The patient has had a protracted 4-month disease course, with the main clinical manifestations being low-grade fever and enlargement of lymph nodes at multiple sites. Routine TB- and fungal-related tests did not establish a diagnosis, while granulomatous inflammation still needs to be differentiated from atypical infection. The purpose of BALF NGS was to broaden the scope of pathogen detection and assess whether bacteria, mycobacteria, or other pathogens that are difficult to identify by routine methods were present, thereby explaining the fever and intrathoracic lesions and avoiding the direct use of immunosuppressive therapy after overlooking an infection. This test did not indicate Mycobacterium tuberculosis, but detected multiple common opportunistic/colonizing respiratory tract organisms, further suggesting a lack of strong evidence supporting TB or special pathogen infection, and indirectly favoring a shift in diagnostic focus toward noninfectious granulomatous disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatologic and immunologic markers",
+          "basis_in_stage3_input": "Rheumatologic/immunologic markers: anti-SSA antibody positive (+), ASO 318 IU/ml. Antinuclear antibody, perinuclear anti-neutrophil cytoplasmic antibody, cytoplasmic anti-neutrophil cytoplasmic antibody, anti-SSB antibody, anticardiolipin antibody, anti-Ro-52 antibody, anti-mitochondrial M2 antibody, anti-nucleosome antibody, anti-histone antibody, anti-PM-SCL antibody, anti-Sm antibody, and anti-dsDNA antibody negative",
+          "why_order_this_exam": "In addition to intrathoracic and extrathoracic lymphadenopathy and low-grade fever, the patient subsequently developed intermittent dizziness, and intracranial/meningeal space-occupying lesions were identified, suggesting that the condition should not be considered solely from an infectious perspective and that multisystem involvement caused by systemic immune-inflammatory disease should also be evaluated. The purpose of completing rheumatologic and immunologic testing was to differentiate connective tissue disease, vasculitis, and other immune-related diseases, and to avoid misclassifying an immune-mediated disease as a simple infection or tumor. The results showed only positive anti-SSA antibody, while most autoantibodies were negative; although this is not specific evidence for sarcoidosis, it is helpful in excluding a variety of well-defined rheumatologic immune diseases, provides background for a unifying explanation of intrathoracic granulomatous lesions combined with meningeal lesions, and provides a reference for assessment of the immune disease spectrum before subsequent treatment with glucocorticoids and hydroxychloroquine.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast brain MRI",
+          "basis_in_stage3_input": "Routine brain MRI: abnormal signal in the subcortical region of the right parietal lobe, with an adjacent subcalvarial mound-shaped isointense lesion",
+          "why_order_this_exam": "While the intrathoracic granulomatous lesion had not yet been fully characterized, the patient developed a new symptom of intermittent dizziness, suggesting that the lesion may have extended beyond the thorax. Central nervous system involvement, a space-occupying lesion, infectious disease, or inflammatory lesions should be considered. As an initial screening examination, plain brain MRI can detect abnormal signal in the brain parenchyma and near the meninges, addressing the key clinical question of whether an organic intracranial lesion is present. This examination revealed abnormal subcortical signal in the right parietal lobe and an adjacent nodular shadow beneath the calvarium, indicating that intracranial abnormalities are indeed present. These findings provide a basis for further characterization with contrast-enhanced MRI and for differentiating a meningeal mass lesion from neurosarcoidosis, and they affect the diagnostic level and treatment intensity of the systemic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "basis_in_stage3_input": "Contrast-enhanced brain MRI: a flat space-occupying lesion beneath the right parietal calvarium, of unclear nature; a meningeal space-occupying lesion is considered more likely.",
+          "why_order_this_exam": "A routine brain MRI had already detected an abnormal signal, but it was insufficient to determine the nature, location, and enhancement characteristics of the lesion. In the context of multistation intrathoracic lymphadenopathy and pathologic granulomatous findings, it was necessary to clarify whether the intracranial lesion was related to systemic disease. The purpose of contrast-enhanced MRI was to further determine whether the lesion represented meningeal involvement, a tumor, an infectious lesion, or an inflammatory granulomatous lesion, and to assess the extent of the lesion and establish a baseline for subsequent follow-up. The results suggested a flat subcalvarial space-occupying lesion in the right parietal region, with a meningeal mass considered more likely. Combined with intrathoracic granulomatous inflammation and insufficient evidence for TB and malignancy, neurosarcoidosis moved higher in the differential diagnosis and directly affected the final diagnosis of pulmonary sarcoidosis with neurosarcoidosis, as well as the subsequent treatment plan of systemic glucocorticoids combined with hydroxychloroquine.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was performed: On EBUS, enlarged lymph nodes were seen in stations 4R and 7, with a maximum diameter of approximately 14.5 mm×17.2 mm. Pathology of the station 7 lymph node biopsy suggested chronic granulomatous inflammation. Pathology of the station 4R lymph node biopsy suggested a small amount of seromucinous gland tissue, with no malignant tumor cells seen. TB PCR (-), acid-fast stain (-), PAS stain (-). BALF X-pert negative. BALF NGS: Haemophilus parainfluenzae, sequence count 11632; Streptococcus pneumoniae, sequence count 5988; Streptococcus pseudopneumoniae, sequence count 848; Finegoldia magna, sequence count 77; Acinetobacter baumannii, sequence count 9. Rheumatologic/immunologic markers: anti-SSA antibody positive (+), ASO 318 IU/ml. Antinuclear antibody, perinuclear anti-neutrophil cytoplasmic antibody, cytoplasmic anti-neutrophil cytoplasmic antibody, anti-SSB antibody, anticardiolipin antibody, anti-Ro-52 antibody, anti-mitochondrial antibody M2, anti-nucleosome antibody, anti-histone antibody, anti-PM-SCL antibody, anti-Sm antibody, and anti-dsDNA antibody were negative. The patient reported intermittent dizziness, and a brain MRI was also completed. Routine brain MRI: abnormal signal in the subcortical region of the right parietal lobe, with an adjacent nodular isointense shadow beneath the cranial plate. Contrast-enhanced brain MRI: a flat space-occupying lesion beneath the right parietal cranial plate, of unclear nature; meningeal mass is highly possible.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7RvCrR171u7MFU8mofXyLyQRGgfLdRBRC7ciamsBQss0MnJibgYXl9YQIA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 4: Patient's contrast-enhanced brain MRI on Day 0",
+          "local_src": "cleaned_cases_image_cache/890b58d24375ad4e3b6017ad9bd62025b89eca78.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7R1Vo6sHp7BpaHlib1zGXkxcZTeUibCRXM3TFgics8dVpLohL9hZM2GHtMg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 4: Comparison of chest CT scans from Day 0 and Day +108. The patient’s CT on Day +108 showed that the lymph nodes were smaller than previously.",
+          "local_src": "cleaned_cases_image_cache/059bd1c69acff75dc58cda7fb7e09f0887c585b7.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7RPltwibguXqibibsIQMwms5R3zqIicfGnuVNBOKA4Kjyx8nDP3ZwxUbib5CQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5: Comparison of brain MRI on Day 0 and Day +108; the patient's brain MRI on Day +108 suggested a similar meningeal mass lesion.",
+          "local_src": "cleaned_cases_image_cache/99400aabadface9d743a5767d54ce28b61b40666.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7R5dXDHN6pj5sGsqfKEicRzofKvD8IicYaaPac8YtS7iatpLzYGRoIaVj3w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 6: Comparison of rheumatologic and immunologic markers on Day +108 and Day 0; the patient's anti-SSA antibody returned to normal on Day +108",
+          "local_src": "cleaned_cases_image_cache/79645cedd27a47dd0a45cc9189b0ac512a53d362.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7RS0hMvzIZicmVexWhTUPg1ib0cmGH3R5W4jHF7OTEHaB6unFAsMHLzb6g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 7: Day 0\nCompared with the chest CT from approximately 9 months after Day 0, the patient's mediastinal lymph nodes and lymph nodes in the clavicular region were significantly smaller in approximately 9 months after Day 0.",
+          "local_src": "cleaned_cases_image_cache/54e8507b1a4652e7b7b9a25482ec9daa24ed9592.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKmuFkdddULMpzq1h09jf7RlKQ0kScsuK8Xs2x0JL0RGdEysbiaV89btyctreicnOxf28EJLcDn8rzA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8: Comparison of contrast-enhanced brain MRI from Day 0 and approximately 9 months after Day 0 shows that the patient’s meningeal space-occupying lesion was markedly smaller in approximately 9 months after Day 0.",
+          "local_src": "cleaned_cases_image_cache/bfcc7e3a8246d3358af0e071bfc6280a4b70e1bc.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Sarcoidosis (pulmonary sarcoidosis, neurosarcoidosis) bronchial asthma",
+      "diagnostic_basis": [
+        "The patient is a young man with a past medical history of bronchial asthma; chronic onset",
+        "Imaging studies showed multiple enlarged lymph nodes in the mediastinum and clavicular region.",
+        "EBUS-TBNA biopsy pathology suggested chronic granulomatous inflammation",
+        "Brain MRI suggests a meningeal mass lesion",
+        "If explained by a unifying diagnosis, sarcoidosis is considered highly likely; the meningeal mass lesion is considered neurosarcoidosis.",
+        "After treatment with oral glucocorticoids and immunosuppressants, follow-up chest CT showed marked reduction in the size of the lymph nodes, and brain MRI indicated reduction of the meningeal lesions."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with oral \"prednisone 30 mg qd + hydroxychloroquine 0.2 g bid\"",
+        "Adjunctive calcium supplementation and gastroprotective therapy"
+      ],
+      "treatment_response": [
+        "After 3 months of treatment with oral glucocorticoids + hydroxychloroquine, the patient returned to the hospital for reevaluation on Day +108. Chest CT showed that the lymph nodes were smaller than before; contrast-enhanced brain MRI showed the meningeal mass lesion was similar to before; rheumatologic and immunologic markers returned to normal.",
+        "Six months later, in approximately 9 months after Day 0, the patient returned for follow-up evaluation. Chest CT showed that the lymph nodes were markedly smaller than in around Day 0, and brain MRI showed that the meningeal lesions were markedly smaller than before. The patient had a good treatment response."
+      ]
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "status": "success",
+  "case_id": "case_111",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 44 years old, was admitted on Day 0 with the chief complaint of \"intermittent fever and cough for 4 months, with shortness of breath for more than 3 months.\" History of present illness: On Day -121, after exposure to cold and alcohol consumption, he developed a dry cough accompanied by fever and sore throat. On Day -115, chest CT at an outside hospital showed infectious lesions in the bilateral lower lobes, thickening of the bilateral pleura and interlobar pleura, and a small right pleural effusion. He was given anti-infective and expectorant therapy for 10 days, but the cough worsened and fever persisted. On Day -102, repeat chest CT showed patchy opacities in the bilateral lower lobes with right pleural effusion. Pleural fluid biochemistry and other tests indicated an exudate, and repeated tests for Mycobacterium tuberculosis in blood and pleural fluid were negative. He was diagnosed with community-acquired pneumonia complicated by pleuritis. After anti-infective treatment, the right pleural effusion decreased, but a new left pleural effusion appeared, accompanied by worsening fever. On Day -84, chest CT at a thoracic hospital showed patchy opacities in the bilateral lower lobes and small bilateral pleural effusions. Anti-TB and anti-infective treatment were given, during which a facial rash appeared. On Day -65, repeat chest CT showed that the bilateral pleural effusions had increased compared with before, and pleural biopsy showed no malignant cells. On Day -5, repeat chest CT suggested bilateral pulmonary infection and bilateral pleural effusions. The patient reported worsening cough and sputum production, accompanied by shortness of breath, dyspnea on exertion, extreme fatigue, and weight loss of approximately 20 kg over the past nearly 4 months. Past medical history: Hypertension for 3 years. Personal history: Smoking for 30 years, alcohol use for 20 years. Family history: No similar or other special family history. Physical examination on admission: Temperature 36℃, listless, poor mental status, rash on the face and the extensor aspects of both hands and both elbows, ulceration on the dorsal aspects of both great toes of both lower extremities. Lips slightly cyanotic, coarse breath sounds in both lungs, and moist crackles audible at both lung bases.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7mic2Gtrn2zEVzskiaiav9HRy03pvGnRXiaKauV9xlePWNhcxOEl5I9bQpfxQ/640?wx_fmt=png",
+          "near_text": "Figure 1. Patient's chest CT imaging on Day -115",
+          "local_src": "cleaned_cases_image_cache/40bceedc30b5f7d1c36dc756ae02b73787413547.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micylDrwbic8Z9Dticbr2aQeIalqRmgESvv2j7Vq7kuhP2aKsO16P4AUHVw/640?wx_fmt=png",
+          "near_text": "Figure 2. Follow-up chest CT imaging of the patient on Day -102",
+          "local_src": "cleaned_cases_image_cache/f64c7c8c22dcbcc962273af62cfd05f606b7c2c3.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7mic58gvxU6JMRKR45WA8zJ2SVL7VvEW9nicE4ytENV4RYljGZYLibSTjEyA/640?wx_fmt=png",
+          "near_text": "Figure 3. Chest CT imaging on follow-up for the patient on Day -65",
+          "local_src": "cleaned_cases_image_cache/a7edd16aecf6ff547aecb77fe05f743eb2b52ed5.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micmYicVV6APdp0sX0hU7UUTCcnkfHmXJrSAMiceOEYx0mic69JoZSHc7ycg/640?wx_fmt=png",
+          "near_text": "Figure 4. Chest CT imaging on the patient's follow-up examination on Day -5",
+          "local_src": "cleaned_cases_image_cache/384d8cf73c83e2f7a53ef9c9c4dc8ed30ae0a967.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Connective tissue disease-associated interstitial lung disease/organizing pneumonia (especially pulmonary involvement associated with dermatomyositis or clinically amyopathic dermatomyositis)",
+          "supporting_evidence": [
+            "A 4-month course of recurrent fever and cough, with more than 3 months of shortness of breath, showing subacute progression",
+            "Multiple chest CT scans showed patchy opacities in the bilateral lower lobes; the accompanying images demonstrate predominantly bilateral lower lung patchy/subpleural lesions with bilateral pleural effusions.",
+            "After 10 days of conventional anti-infective treatment, the cough worsened and fever persisted; the condition continued to progress during subsequent anti-infective therapy, which is not consistent with the typical clinical course of uncomplicated common bacterial pneumonia.",
+            "Physical examination revealed rashes on the face and the extensor surfaces of both hands and both elbows, and ulceration on the dorsal aspects of both great toes of the lower extremities, suggesting clues to a systemic autoimmune disease.",
+            "Accompanied by marked weight loss, with a weight decrease of approximately 20 kg over the past 4 months, suggesting the possibility of a chronic systemic disease",
+            "Mild cyanosis of the lips, dyspnea on exertion, and bibasilar moist rales support progressive pulmonary parenchymal involvement"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not describe clear manifestations of myositis such as muscle weakness or myalgia.",
+            "At onset, it was accompanied by fever and sore throat, more suggestive of an infectious trigger or infectious manifestation.",
+            "Exudative pleural effusion is present; although it can be seen in connective tissue disease, it also strongly suggests other etiologies such as infection or malignancy."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy/pulmonary TB",
+          "supporting_evidence": [
+            "The course of illness has been prolonged for 4 months, accompanied by recurrent fever, cough, shortness of breath, and significant weight loss, consistent with manifestations of a chronic infectious disease.",
+            "Serial chest CT scans suggested infectious lesions in the lower lobes of both lungs, bilateral pleural and interlobar pleural thickening, and recurrent pleural effusion",
+            "Pleural fluid biochemistry indicated an exudate; the exudative pleural effusion is consistent with tuberculous pleuritis",
+            "Poor response to conventional anti-infective therapy, with persistent fever and imaging progression"
+          ],
+          "opposing_evidence": [
+            "Repeated Mycobacterium tuberculosis testing of blood and pleural fluid was negative",
+            "After anti-TB treatment, there was no clear description of improvement during the first phase; instead, bilateral pleural effusions increased compared with before during this period.",
+            "Rash on the face and extensor surfaces of both hands and both elbows, and ulceration on the dorsal aspects of the toes, are atypical for TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Malignant lung tumor with carcinomatous pleuritis or intrapulmonary dissemination",
+          "supporting_evidence": [
+            "Male, 44 years old, with a 30-year smoking history, which is an important risk factor for malignant lung tumor.",
+            "Weight loss of approximately 20 kg over the past 4 months, with profound fatigue, suggesting the possibility of a wasting disease",
+            "Recurrent, persistent, and bilaterally progressive exudative pleural effusions may be seen in malignant pleural effusion",
+            "Multiple anti-infective treatments were ineffective, and imaging still indicated bilateral pulmonary lesions and bilateral pleural effusions.",
+            "The attached CT images and report both indicate persistent patchy lesions in the bilateral lower lungs; vigilance is needed for atypical presentations such as tumor-related organizing changes or mucinous adenocarcinoma."
+          ],
+          "opposing_evidence": [
+            "No malignant cells were found on pleural biopsy",
+            "In the first phase, the imaging description was dominated by patchy opacities in the bilateral lower lobes and infectious lesions, with no definite description of a space-occupying lesion, hilar or mediastinal enlargement, or a nodular mass.",
+            "At disease onset, the patient had fever and sore throat, which is more suggestive of an infectious or inflammatory disease onset."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Refractory community-acquired pneumonia/atypical pathogen pneumonia with bilateral pleuritis and pleural effusion",
+          "supporting_evidence": [
+            "The onset was after exposure to cold and alcohol consumption, with dry cough, fever, and sore throat, consistent with a respiratory tract infection pattern of onset.",
+            "Early chest CT performed at an outside hospital showed infectious lesions in the bilateral lower lobes; subsequent multiple CT scans continued to suggest bilateral pulmonary infection and patchy opacities in the bilateral lower lobes.",
+            "Bibasilar moist rales are audible; worsening cough and sputum production support active pulmonary infection.",
+            "May be complicated by pleuritis and exudative pleural effusion"
+          ],
+          "opposing_evidence": [
+            "After multiple courses of anti-infective treatment, the cough worsened and fever persisted, and the pleural effusion progressed from unilateral to bilateral and increased in volume, which is not consistent with the usual course of common bacterial pneumonia.",
+            "Over the past 4 months, body weight decreased by approximately 20 kg, with rash on the face and extensor surfaces of the extremities and toe ulceration, suggesting a systemic etiology in addition to simple infection.",
+            "The course of illness has persisted for 4 months, which is significantly longer than typical community-acquired pneumonia."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Cough, fever, and shortness of breath for several months, consistent with the common subacute presentation of organizing pneumonia",
+            "Multiple CT scans showed patchy opacities in the lower lobes of both lungs. The attached images show patchy consolidation/infiltrative opacities predominantly in the bilateral lower lungs, consistent with the common distribution pattern of organizing pneumonia.",
+            "Poor response to anti-infective therapy, with persistent or progressive lesions, supporting non-common infectious inflammation",
+            "The lesions are bilateral and persistent"
+          ],
+          "opposing_evidence": [
+            "Recurrent exudative pleural effusion with bilateral progression is uncommon in organizing pneumonia alone.",
+            "The presence of rash on the face and on the extensor surfaces of both hands and both elbows, and ulceration on the dorsal aspects of the toes, further suggests secondary involvement due to systemic diseases such as connective tissue disease.",
+            "Phase I information did not provide pathologic support"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Systemic vasculitis-related pulmonary involvement (e.g., ANCA-associated vasculitis)",
+          "supporting_evidence": [
+            "There are rashes on the face and the extensor surfaces of both hands and both elbows, as well as ulceration on the dorsal aspects of both lower extremities and both great toes, suggesting possible cutaneous vasculitis or a systemic inflammatory disease.",
+            "Persistent patchy opacities in both lower lungs, shortness of breath, cyanosis, and moist rales in the lungs may be seen in vasculitis-associated pulmonary involvement",
+            "A prolonged disease course, fever, profound fatigue, and marked weight loss support the possibility of a systemic disease.",
+            "Poor response to anti-infective therapy"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not describe common accompanying manifestations of vasculitis such as hemoptysis, sinus symptoms, renal involvement, or purpura.",
+            "Chest CT description showed no definite imaging evidence of multiple nodules, cavitation, or diffuse alveolar hemorrhage.",
+            "Although exudative pleural effusion can be seen in some vasculitides, it is not the most typical initial manifestation."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + CRP + ESR + procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae + Chlamydia antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "SARS-CoV-2 nucleic acid test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT pulmonary angiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thoracentesis + pleural fluid routine analysis + biochemical tests + ADA + LDH + tumor markers + cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid TB smear + Mycobacterium tuberculosis testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid bacterial/fungal culture + antimicrobial susceptibility testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion DNA quantitative cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF G/GM test + etiologic testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease screening panel (hepatitis B, hepatitis C, syphilis, HIV)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinalysis + urine sediment examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ultrasound of the liver, gallbladder, pancreas, spleen, and both kidneys",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cervical vascular ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pleural biopsy pathology",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests after admission: Routine tests: arterial blood gas analysis, complete blood count, urinalysis, and stool routine were normal. Biochemical indices: TP61.7g/L, ALB27.2g/L. Dyslipidemia. Pathogen and tumor-related indices: screening for four infectious diseases, fungi, viruses, and TB-related tests were all negative. Tumor markers: ferritin 1054.00ug/l, abnormal glycochain glycoprotein aggregate area 157.12um2. ECG and echocardiography: generally normal. Pulmonary function testing: mild obstructive ventilatory dysfunction, small airway ventilatory dysfunction, and moderate impairment of diffusing capacity. Repeat chest CT on Day +22 showed reticular and patchy high-density opacities in both lungs with poorly defined borders, suggestive of interstitial proliferation and inflammation, bilateral pleural thickening, and small bilateral pleural effusions. Bronchoscopy was performed on Day +1; no pathogenic organisms were detected in bronchoalveolar lavage fluid microbiology or NGS.",
+        "images": [
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micqXezQpeOWEtMWJR7aYvfsruyXqDgF7rDB4nOBfF9Te5JktuCC9QuLg/640?wx_fmt=png",
+            "near_text": "Figure 5: Follow-up chest CT on Day +22",
+            "local_src": "cleaned_cases_image_cache/b9c2f9ce06ef19ffc865408713bec8095ea68fb6.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micgnu8fCaVXiakEibo37MD3N7zddeRpKcTcZLMX559Swxbpje4w8NCJmwg/640?wx_fmt=png",
+            "near_text": "Figures 7-8: Facial rash and lower extremity ulceration in the patient",
+            "local_src": "cleaned_cases_image_cache/f9bee2e294f6bf0ddbaef7f1653799b3b3e35a12.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Parapneumonic pleural effusion and empyema",
+            "evidence": [
+              "The patient has a history of catching a cold, with fever, cough, sputum production, and shortness of breath. Chest CT showed pulmonary opacities with pleural effusion."
+            ],
+            "exclusion_reasons": [
+              "The patient did not first have pulmonary inflammatory manifestations such as pneumonia, lung abscess, or infected bronchiectasis, and then develop pleural effusion.",
+              "Infectious markers were normal, and anti-infective treatment was ineffective."
+            ]
+          },
+          {
+            "name": "Tuberculous pleurisy",
+            "evidence": [
+              "The patient is a middle-aged man with fever, cough, shortness of breath, and weight loss. Chest CT indicates pleural effusion. Pleural fluid biochemistry indicates an exudative effusion, ADA 115 U/L."
+            ],
+            "exclusion_reasons": [
+              "The pleural effusion was yellow; repeated TB antibody tests as well as T-Spot, X-pert, and PPD were all negative.",
+              "No Mycobacterium tuberculosis was detected in the pleural effusion.",
+              "Pleural biopsy showed no caseous necrosis"
+            ]
+          },
+          {
+            "name": "malignant pleural effusion",
+            "evidence": [
+              "The patient has chronic fever, cough, sputum production, shortness of breath, and weight loss; repeated anti-infective and anti-TB treatment was ineffective."
+            ],
+            "exclusion_reasons": [
+              "No history of primary diseases such as lung cancer, breast cancer, or lymphoma; no hemorrhagic pleural effusion; serum and pleural effusion CEA were normal; no evidence of malignancy was found in the pleural effusion or pleural biopsy"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Parapneumonic pleural effusion and empyema",
+        "evidence": [
+          "The patient has a history of catching a cold, with fever, cough, sputum production, and shortness of breath. Chest CT showed pulmonary opacities with pleural effusion."
+        ],
+        "exclusion_reasons": [
+          "The patient did not first have pulmonary inflammatory manifestations such as pneumonia, lung abscess, or infected bronchiectasis, and then develop pleural effusion.",
+          "Infectious markers were normal, and anti-infective treatment was ineffective."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Tuberculous pleurisy",
+        "evidence": [
+          "The patient is a middle-aged man with fever, cough, shortness of breath, and weight loss. Chest CT indicates pleural effusion. Pleural fluid biochemistry indicates an exudative effusion, ADA 115 U/L."
+        ],
+        "exclusion_reasons": [
+          "The pleural effusion was yellow; repeated TB antibody tests as well as T-Spot, X-pert, and PPD were all negative.",
+          "No Mycobacterium tuberculosis was detected in the pleural effusion.",
+          "Pleural biopsy showed no caseous necrosis"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "malignant pleural effusion",
+        "evidence": [
+          "The patient has chronic fever, cough, sputum production, shortness of breath, and weight loss; repeated anti-infective and anti-TB treatment was ineffective."
+        ],
+        "exclusion_reasons": [
+          "No history of primary diseases such as lung cancer, breast cancer, or lymphoma; no hemorrhagic pleural effusion; serum and pleural effusion CEA were normal; no evidence of malignancy was found in the pleural effusion or pleural biopsy"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Connective tissue disease-associated interstitial lung disease",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Antinuclear antibody test",
+          "basis_in_stage3_input": "Antinuclear antibody test: 1:320 (weakly positive).",
+          "why_order_this_exam": "The patient had recurrent fever and cough for 4 months, progressive shortness of breath for more than 3 months, and poor response to anti-infective and anti-TB treatment. Chest CT persistently showed reticular and patchy high-density opacities in both lungs with bilateral pleural effusions. At the same time, there were rashes on the face, both hands, and the extensor aspects of both elbows, as well as toe ulceration, suggesting that infection alone cannot explain the condition and that connective tissue disease-associated interstitial lung disease should be a key focus of evaluation. Antinuclear antibody testing is used to determine whether there is a systemic autoimmune background, support or suggest connective tissue disease-related pulmonary involvement, help differentiate it from infection, tumor, and simple organizing pneumonia, and also provide a basis for whether to further complete a myositis antibody panel and formulate an immunosuppressive treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood and urine Bence Jones protein",
+          "basis_in_stage3_input": "Blood and urine Bence Jones protein negative.",
+          "why_order_this_exam": "The patient has a prolonged disease course, accompanied by marked weight loss, fatigue, hypoalbuminemia, recurrent exudative pleural effusions, and pulmonary opacities. Early infection, TB, and malignant pleural disease have not been confirmed. In the evaluation for systemic disease, it is necessary to exclude plasma cell disorders and other hematologic diseases causing systemic manifestations or organ involvement. Testing blood and urine for Bence Jones protein is helpful for screening monoclonal immunoglobulin-related diseases, avoiding misclassification of hematologic diseases as rheumatic immune diseases, and providing a basis for baseline risk assessment before subsequent immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunofixation electrophoresis",
+          "basis_in_stage3_input": "Immunofixation electrophoresis was normal.",
+          "why_order_this_exam": "In the setting of prolonged fever, weight loss, recurrent pleural effusion, persistent pulmonary lesions, and insufficient evidence from routine pathogen testing and tumor-related evaluation, it is necessary to further exclude monoclonal gammopathy, multiple myeloma, or other abnormal immunoglobulin proliferative disorders. Immunofixation electrophoresis is more helpful than routine protein testing in identifying occult monoclonal components, thereby completing the exclusion of hematologic differential diagnoses, avoiding an erroneous diagnostic and treatment pathway focused solely on autoimmune lung disease, and providing a more reliable diagnostic prerequisite for subsequent treatment with glucocorticoids and cyclophosphamide.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "Bone marrow smear and pathologic examination showed no obvious abnormalities.",
+          "why_order_this_exam": "The patient has prolonged fever, marked wasting, elevated ferritin, persistent abnormal pulmonary imaging findings, and pleural effusion. Clinically, in addition to considering connective tissue disease-associated interstitial lung disease, it is also necessary to exclude hematologic malignancy or systemic inflammatory manifestations caused by bone marrow involvement. A bone marrow smear can rapidly assess whether bone marrow cytology shows abnormal proliferation, infiltration, or hemophagocytosis, helping differentiate from hematologic neoplasms and plasma cell disorders, and can also evaluate baseline bone marrow status and potential treatment risks before planned use of more intensive immunosuppressive therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Bone marrow smear and pathologic examination showed no obvious abnormalities.",
+          "why_order_this_exam": "The patient presented with subacute progressive pulmonary involvement accompanied by systemic wasting, but multiple courses of anti-infective and anti-TB treatment were ineffective, and pleural biopsy showed no malignant cells, indicating the need to broaden the etiologic workup. Bone marrow pathology can provide a more comprehensive assessment than bone marrow smear of bone marrow architecture, infiltrative lesions, and abnormal cellular proliferation, and is used to exclude fever, weight loss, and inflammatory response caused by hematologic malignancy or other bone marrow disorders, thereby supporting a shift in diagnostic focus to autoimmune inflammatory myopathy-associated lung disease and providing a safety basis for subsequent immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "inflammatory myopathy spectrum",
+          "basis_in_stage3_input": "Inflammatory myopathy spectrum: anti-MDA5-IgG antibody +++.",
+          "why_order_this_exam": "Although the patient did not prominently report obvious muscle weakness, there were typical extrapulmonary clues: rashes on the face and hands and on the extensor surfaces of the elbows, toe ulceration, as well as progressive cough, shortness of breath, cyanosis, a moderate decrease in diffusing capacity of the lungs, and bilateral interstitial/inflammatory imaging changes in the lungs. In addition, pathogen testing, BALF, and NGS were all negative, strongly suggesting dermatomyositis, especially clinically amyopathic dermatomyositis-associated interstitial lung disease. In the inflammatory myopathy spectrum, disease-specific autoantibodies can be sought directly to determine whether it belongs to the inflammatory myopathy spectrum; in particular, anti-MDA5 antibody has important indicative value for dermatomyositis-associated rapidly progressive interstitial lung disease, can be used to help establish the diagnostic direction and differentiate it from infection and other connective tissue diseases, and directly affects whether to initiate glucocorticoids combined with immunosuppressive therapy as early as possible.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of left quadriceps muscle biopsy",
+          "basis_in_stage3_input": "Pathologic diagnosis from left quadriceps muscle biopsy: inflammatory myopathy. Electron microscopy showed a small number of perivascular macrophages, and inflammatory cells phagocytosing muscle fibers.",
+          "why_order_this_exam": "The central clinical issue in this case is that the pulmonary lesions had long been treated as infection and TB without effect, yet the patient also had characteristic skin rash and systemic inflammatory manifestations, making it necessary to obtain histopathologic evidence to determine whether this was a disease related to inflammatory myopathy. Even if the symptoms of muscle weakness were not prominent, muscle biopsy could still reveal subclinical muscle involvement. The choice of pathologic biopsy of the left quadriceps was intended to clarify the nature of inflammatory myopathy through changes such as muscle fiber injury and inflammatory cell infiltration, resolve the key clinical question of whether dermatomyositis/inflammatory myopathy was present, and differentiate it from infectious myopathy, metabolic myopathy, and malignancy-associated myopathy, thereby providing direct evidence for establishing the diagnosis of dermatomyositis-associated ILD and for subsequent intensified immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "electron microscopy",
+          "basis_in_stage3_input": "Electron microscopy showed a small number of macrophages around blood vessels; electron microscopy showed inflammatory cells phagocytosing muscle fibers.",
+          "why_order_this_exam": "Electron microscopy was added on the basis of the muscle biopsy because the patient's clinical manifestations were complex and greater confidence in the histopathologic diagnosis was needed. The patient had rash, toe ulceration, progressive interstitial lung involvement, and negative routine infectious workup, suggesting possible immune-mediated concomitant involvement of muscle and lung. Electron microscopy can more precisely demonstrate ultrastructural injury of muscle fibers, the relationship between inflammatory cells and muscle fibers, and perivascular changes, and is used to strengthen the pathologic evidence for inflammatory myopathy, help distinguish it from nonspecific inflammation, drug-induced injury, or other myopathies, and provide a more in-depth basis for final confirmation of the nature of the immune-mediated disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry showed: inflammatory cells were positive for CD68, CD4, and CD8, with a small amount of CD20 positivity.",
+          "why_order_this_exam": "Tissue-level characterization of the inflammatory cell types and immune response pattern is needed, because the patient’s pulmonary lesions and systemic symptoms have long been confounded by multiple diagnoses such as infection, TB, and tumor, while the treatment pathways differ greatly. Immunohistochemistry of the muscle biopsy specimen can identify the types of infiltrating inflammatory cells, determine immune-inflammatory features predominantly involving macrophages and T cells, and support inflammatory myopathy rather than simple infection or tumor infiltration. This test helps improve the specificity of the pathologic diagnosis, strengthen the evidence chain for dermatomyositis-associated ILD, and provide pathologic support for subsequent immunosuppressive regimens such as glucocorticoids and cyclophosphamide.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After multidisciplinary discussion with Rheumatology and Immunology, connective tissue disease-associated interstitial lung disease was considered possible. Further connective tissue disease-related workup was completed: 1. Antinuclear antibody titer 1:320 (weakly positive). 2. Hematologic evaluation: blood and urine Bence Jones protein negative. Immunofixation electrophoresis normal. Bone marrow smear and pathologic examination showed no obvious abnormalities. 3. Inflammatory myopathy panel and left quadriceps muscle biopsy pathology: inflammatory myopathy panel: anti-MDA5-IgG antibody +++. Pathologic diagnosis of the left quadriceps muscle biopsy: inflammatory myopathy. Electron microscopy showed a small number of macrophages around blood vessels, and inflammatory cells phagocytosing muscle fibers. Immunohistochemistry showed: inflammatory cells CD68, CD4, and CD8 positive, with a small amount of CD20 positivity.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7mic6tsgUgoPmR72HgY3cbiataVY5kibTOkasYrP747UHWaoK4kwoicYH1Htw/640?wx_fmt=png",
+          "near_text": "Figure 9: Pathology of biopsy of the patient's left quadriceps muscle",
+          "local_src": "cleaned_cases_image_cache/2b9ebb868e80cfaad43643d4f5f0b230dbc8b19f.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micjdABNmSJjLmiacFX0nyBcgWXEOIcbERUHT54eAUXibsYJ88gY76VvMOg/640?wx_fmt=png",
+          "near_text": "Figure 10: Diagnostic pathway flowchart",
+          "local_src": "cleaned_cases_image_cache/68af83ab741f222e8b718b1c2d0ba306ccb4004e.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7miccKUOTFozfhhtx75Z17JXRC3ByUaicPHKLSCBibr5VvibRj0bhFficLZf5w/640?wx_fmt=png",
+          "near_text": "Figure 11: Follow-up chest CT imaging after treatment",
+          "local_src": "cleaned_cases_image_cache/9b171682d87b8f94ea7e97693da0f9f5e01c33d6.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKK1yrtbIiaeySj518pNQ7micjtKMUwOiaCcKpkxLsAZJ2me4M1gfhE4YaJCCm4qcHJs8HazDOf14cibw/640?wx_fmt=png",
+          "near_text": "Figure 12: Facial rash resolved after treatment",
+          "local_src": "cleaned_cases_image_cache/9409ed7cef54c6304eca6fb69a39471092d1c1d4.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "dermatomyositis-associated interstitial lung disease",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged man, subacute onset, with cold exposure and alcohol consumption as precipitating factors",
+        "Symptoms: intermittent fever and cough for 4 months, accompanied by shortness of breath for more than 3 months; subsequently recurrent fever, with temperature not controlled and disease progression after anti-infective and anti-tuberculosis treatment",
+        "Physical signs: lethargy, rash on the face and extensor surfaces of both hands and both elbows, ulceration on the dorsal aspects of both lower extremities and both great toes, slight cyanosis of the lips, coarse breath sounds in both lungs, scattered moist rales audible in both lungs",
+        "Chest CT: reticular and patchy high-density opacities in both lung fields, small bilateral pleural effusions",
+        "Biochemical test: ferritin 1054.00 ug/L",
+        "Pulmonary function: mild obstructive ventilatory defect (post-bronchodilator FEV1/FVC 83%), small airway ventilatory dysfunction, moderate impairment of diffusing capacity (DLCO 50.5%). Bronchodilator test negative.",
+        "Antistreptolysin O: 490.00 IU/mL, antinuclear antibody test 1:320 (weakly positive)",
+        "Myositis antibody panel: anti-MDA5-IgG antibody +++, all others normal",
+        "Pathologic diagnosis of left quadriceps muscle biopsy: inflammatory myopathy. Electron microscopy showed a small number of macrophages around blood vessels, and inflammatory cells phagocytosing muscle fibers. Immunohistochemistry showed: inflammatory cells CD68, CD4, and CD8 positive, with a small amount of CD20 positivity."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 80 mg/d IV x 5 d, changed to oral prednisone acetate tablets 60 mg/d PO x 2 w, tapered by 4 mg every 2 weeks, currently maintained on 5 mg once daily",
+        "Cyclophosphamide 0.6 g every 2 weeks IV; to date, oral cyclophosphamide tablets",
+        "Oral pirfenidone capsules, 3 capsules 3 times/day, gradually titrated upward; currently 4 capsules, 3 times/day",
+        "Symptomatic treatment including gastric mucosal protection and calcium supplementation"
+      ],
+      "treatment_response": [
+        "The patient currently has a normal body temperature, with no cough, shortness of breath, or generalized skin rash.",
+        "Multiple laboratory tests including complete blood count, CRP, and erythrocyte sedimentation rate: normal",
+        "Chest CT showed that most of the active lesions had disappeared, with only a small amount of residual fibrotic lesions remaining.",
+        "Pulmonary function: FVC increased compared with previously, DLCO increased compared with previously"
+      ]
+    }
+  }
+}

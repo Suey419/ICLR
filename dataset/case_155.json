@@ -1,0 +1,271 @@
+{
+  "status": "success",
+  "case_id": "case_155",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: A male patient, 39 years old, was admitted to the Department of Pulmonary and Critical Care Medicine, China-Japan Friendship Hospital, in around Day 0 with the chief complaint of \"more than 10 months after lung transplantation, intermittent fever for 2 weeks.\" The patient had undergone sequential bilateral lung transplantation with VV-ECMO support 10 months before admission because of \"interstitial lung disease, pulmonary hypertension, and respiratory failure.\" After surgery, he had been maintained on long-term triple immunosuppressive therapy with prednisone + tacrolimus + mycophenolate mofetil. Seven months before admission, the peripheral blood lymphocyte count increased, with the absolute value fluctuating between 3.69-5.03*109/L and the percentage fluctuating between 57%-64.7%; EBV/CMV nucleic acid tests were both negative. Five months before admission, because of persistent elevation of peripheral blood lymphocytes, bone marrow aspiration and biopsy showed no clear evidence of abnormal lymphoid proliferation; subsequent monitoring showed the absolute lymphocyte count fluctuated between 3.50-4.61*109/L and the percentage fluctuated between 46%-70.6%. Two weeks before admission, afternoon fevers developed, mainly low-grade fever, with peak temperatures fluctuating between 37.2-38.4℃; the fever pattern was irregular and defervesced spontaneously, accompanied by marked fatigue and bilateral lower extremity myalgia, without night sweats, cough, sputum production, hemoptysis, chest pain, or dyspnea, and without abdominal pain, diarrhea, dizziness, headache, etc. He denied other respiratory tract infection and gastrointestinal symptoms. Family history was unremarkable, and personal history was unremarkable. Physical examination and routine admission examinations: temperature: fluctuating within the low-grade fever range; respiratory rate: 20 breaths/min; pulse: 101 beats/min; blood pressure: 91/64mmHg; superficial lymph nodes: no obvious enlargement palpable; lungs: clear breath sounds bilaterally; heart: no obvious abnormality; abdomen: no obvious hepatosplenomegaly palpable below the costal margin (CT suggested the spleen was slightly full); lower extremity edema: none.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Post-transplant lymphoproliferative disorder (PTLD, including EBV-negative PTLD)",
+          "supporting_evidence": [
+            "More than 10 months after lung transplantation, and on long-term postoperative triple immunosuppressive therapy with prednisone + tacrolimus + mycophenolate mofetil, representing a high-risk background for post-transplant lymphoproliferative disorder",
+            "Starting 7 months before admission, the peripheral blood lymphocyte count remained persistently elevated, with the absolute count fluctuating between 3.69-5.03*10^9/L and the percentage fluctuating between 57%-64.7%; thereafter, it remained persistently elevated, suggesting persistent lymphocyte abnormality",
+            "This presentation was mainly characterized by intermittent fever for 2 weeks and marked fatigue; fever can be seen in PTLD.",
+            "On physical examination, no obvious enlargement of the liver or spleen was palpable below the costal margin, but CT showed mild splenic fullness, which may serve as an indirect clue to a lymphoproliferative disorder."
+          ],
+          "opposing_evidence": [
+            "7 months ago, both EBV and CMV nucleic acid tests were negative; specifically, EBV negativity does not support classic EBV-related PTLD",
+            "Five months ago, because of persistently elevated peripheral blood lymphocyte count, bone marrow aspiration and biopsy were performed, which showed no obvious evidence of abnormal lymphoid proliferation.",
+            "No obvious enlargement of superficial lymph nodes was palpated throughout the body; on abdominal examination, no obvious hepatosplenomegaly was palpable below the costal margin."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Opportunistic infection (mainly viral, fungal, or extrapulmonary infection)",
+          "supporting_evidence": [
+            "The patient is status post lung transplantation and has been receiving long-term triple immunosuppressive therapy, with a high risk of opportunistic infection.",
+            "Over the past 2 weeks, the patient developed irregular low-grade fever, marked fatigue, and myalgia of both lower extremities, consistent with systemic symptoms seen in infectious diseases."
+          ],
+          "opposing_evidence": [
+            "No cough, sputum production, hemoptysis, chest pain, or dyspnea; bilateral breath sounds were clear, not supporting obvious signs of pulmonary infection.",
+            "He denied gastrointestinal symptoms such as abdominal pain and diarrhea, and also denied dizziness and headache; in the first stage, no clear clues were provided for localization of a focal infection.",
+            "Previously, 7 months ago, both EBV and CMV nucleic acid tests were negative, but this information cannot completely rule out a current new infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Hematologic lymphoproliferative disease/chronic lymphoproliferative disease (such as chronic lymphocytic leukemia or the leukemic phase of other low-grade lymphomas)",
+          "supporting_evidence": [
+            "The peripheral blood lymphocyte count remained persistently elevated over several months, with absolute values fluctuating between 3.50-5.03*10^9/L and percentages fluctuating between 46%-70.6%, suggesting persistent lymphocytosis.",
+            "This episode included fever and marked fatigue, which are systemic manifestations seen in hematologic malignancies.",
+            "CT suggests mild splenic fullness, which can be seen in some lymphoproliferative disorders"
+          ],
+          "opposing_evidence": [
+            "The patient is only 39 years old, younger than the typical age for chronic lymphocytic leukemia.",
+            "Bone marrow aspiration and biopsy 5 months earlier showed no obvious evidence of abnormal lymphoid proliferation.",
+            "No obvious enlargement of superficial lymph nodes was palpated throughout the body; on abdominal examination, no obvious hepatosplenomegaly was palpable below the costal margin."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute rejection after lung transplantation or other graft-related immune reactions",
+          "supporting_evidence": [
+            "The patient is more than 10 months after bilateral lung transplantation and has a baseline risk of graft rejection.",
+            "Currently has nonspecific systemic manifestations such as fever and fatigue; post-transplant rejection may present with fever"
+          ],
+          "opposing_evidence": [
+            "No cough, sputum production, chest pain, or dyspnea. On lung examination, breath sounds were clear bilaterally, not supporting evidence of obvious pulmonary graft involvement.",
+            "The phase 1 information did not provide evidence supporting rejection, such as worsening oxygenation, decline in pulmonary function, or imaging abnormalities."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Drug fever or drug-related adverse reaction",
+          "supporting_evidence": [
+            "Long-term use of multiple immunosuppressive agents; drug-related fever is possible.",
+            "Fever is predominantly low-grade, with an irregular fever pattern; it may resolve spontaneously, and there are currently no clear symptoms of focal infection."
+          ],
+          "opposing_evidence": [
+            "The information from the first stage did not indicate any clues suggestive of a drug reaction, such as recently initiated medications, dose adjustments, or typical drug rash and eosinophilia.",
+            "Peripheral blood lymphocytosis persisting for several months cannot be adequately explained by drug fever alone.",
+            "Marked fatigue and myalgia of both lower extremities can also be seen in infection or proliferative disorders and are not sufficiently specific"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Post-transplant viral syndromes such as cytomegalovirus or EB virus",
+          "supporting_evidence": [
+            "After lung transplantation and with long-term immunosuppression, the patient is in a high-risk population for viral reactivation or new viral infection.",
+            "Over the past 2 weeks, low-grade fever in the afternoon, marked fatigue, and myalgia, consistent with the systemic symptoms seen in viral infection",
+            "A persistently elevated lymphocyte proportion may be associated with some viral infections"
+          ],
+          "opposing_evidence": [
+            "7 months before admission, both EBV and CMV nucleic acid tests were negative",
+            "Currently, there are no definite concomitant symptoms involving the upper respiratory tract, lungs, or gastrointestinal tract.",
+            "The phase 1 information did not provide current positive virologic evidence for EBV/CMV."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "including BALF pathogen testing (bacteria, fungi, viruses, Mycoplasma, Chlamydia, etc.), blood culture, blood mNGS, serum (1,3)-β-D-glucan assay, and GM assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound, abdominal CT, urinary tract ultrasound, echocardiography, bone marrow mNGS",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Peripheral blood tests: CBC: WBC 7.62 × 10^9/L, NEUT% 49.0%, LYM 3.10 × 10^9/L (LYM% 40.7%), HGB 72 g/L → 58 g/L (rapid decline within 4 days), PLT 91 × 10^9/L. Blood chemistry: liver and kidney function basically normal, LDH 899 U/L ↑. ESR 86 mm/h ↑. Infection-related tests: PCT normal, CRP 8.15 mg/dl (<10mg/dl). Bacteria: blood cultures ×3 sets negative, peripheral blood mNGS negative, Brucella agglutination test negative, echocardiography negative. Fungi: serum G test and GM test negative, serum cryptococcal antigen negative. Viruses: serum CMV and EBV-IgM, plasma CMV and EBV nucleic acid quantitative tests negative. Lungs: chest CT showed no obvious mass or infiltrate; BALF negative for bacteria, fungi, mycobacteria, Legionella, Mycoplasma, Chlamydia, influenza A, influenza B, RSV, CMV, and EBV. Abdomen: stool analysis negative; abdominal ultrasound and CT showed no signs of infection. Urinary system: urinalysis and urinary system ultrasound negative. Deep infection: bone marrow culture negative once, bone marrow mNGS negative.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infection",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Routine examinations and evaluations for the site of infection and source of infection were all negative"
+            ]
+          },
+          {
+            "name": "Neoplasms (solid tumors and hematologic malignancies)",
+            "evidence": [
+              "LDH↑",
+              "Spleen is slightly enlarged in appearance",
+              "History of peripheral blood lymphocytosis",
+              "Progressive decrease in HGB"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Secondary hemophagocytic syndrome",
+            "evidence": [
+              "LDH↑",
+              "Spleen is slightly enlarged in appearance",
+              "History of peripheral blood lymphocytosis",
+              "Progressive decrease in HGB"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Neoplasms (solid tumors and hematologic malignancies)",
+        "evidence": [
+          "LDH↑",
+          "Spleen is slightly enlarged in appearance",
+          "History of peripheral blood lymphocytosis",
+          "Progressive decrease in HGB"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Secondary hemophagocytic syndrome",
+        "evidence": [
+          "LDH↑",
+          "Spleen is slightly enlarged in appearance",
+          "History of peripheral blood lymphocytosis",
+          "Progressive decrease in HGB"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "tumor markers",
+          "basis_in_stage3_input": "Tumor markers: NSE 22.84 ng/mL (<16.30), all others negative.",
+          "why_order_this_exam": "The patient is in a long-term triple immunosuppressive state after lung transplantation. Over the past 2 weeks, the patient developed fever of unknown origin, marked fatigue, and bilateral lower extremity myalgia. In addition, there had been persistent peripheral blood lymphocytosis for the past several months. After admission, there was also a marked elevation in LDH, a slightly full spleen, a decrease in HGB from 72 g/L to 58 g/L within 4 days accompanied by a decline in PLT, and the infectious disease workup was essentially negative, suggesting that neoplastic disease should be a key focus of evaluation. Tumor marker testing was ordered to perform an initial screen from the perspectives of solid tumors and some neuroendocrine tumors, to help explain the fever and consumptive state, and to differentiate these from hematologic malignancies. Although in this case only NSE was mildly elevated and all other results were negative, which cannot establish a diagnosis on its own, this testing helped narrow the differential diagnosis and suggested that subsequent evaluation should focus more on lymphoid malignancy rather than common solid tumors.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tests related to hemophagocytic syndrome",
+          "basis_in_stage3_input": "2. Hemophagocytic syndrome-related tests: TG 3.71 mmol/L↑, serum ferritin >1500 ng/ml, sCD25 (soluble CD25) >44000 pg/ml↑.",
+          "why_order_this_exam": "The patient has persistent fever accompanied by marked fatigue, and has developed progressive severe anemia and thrombocytopenia over a short period, with elevated LDH and a mildly full spleen. In the setting of broadly negative infectious workup, these already constitute important clinical clues for secondary hemophagocytic lymphohistiocytosis. Ordering HLH-related tests such as triglycerides, ferritin, and sCD25 is intended to determine whether there is a hyperinflammatory state triggered by malignancy or post-transplant immune imbalance, to explain the features of fever, cytopenias, and rapid disease progression, and to assess disease severity. This group of tests plays a key role in meeting the HLH diagnostic criteria, distinguishing simple tumor fever/infection from HLH, and determining whether subsequent treatment to control the cytokine storm and target the underlying disease needs to be initiated promptly.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET/CT examination",
+          "basis_in_stage3_input": "3. PET/CT examination: Diffusely increased metabolic activity in the extremities and axial skeleton within the field of view (bone structure intact, without cortical bone destruction). Multiple hypermetabolic foci in the liver, thickening of the right adrenal gland with increased metabolic activity, and slight splenomegaly.",
+          "why_order_this_exam": "The patient had a history of fever of unknown origin, persistent lymphocytosis, markedly elevated LDH, and rapidly progressive anemia and thrombocytopenia, while chest CT, routine abdominal imaging, and infection screening at multiple sites failed to explain the condition. PET/CT was used to search throughout the body for occult lesions not identified by routine CT or physical examination, to determine whether there was deep involvement by a lymphoproliferative disorder or other malignancy, and to assess lesion distribution and metabolic activity. In this case, PET/CT demonstrated diffusely increased bone marrow metabolism and clues of involvement of the liver, adrenal glands, and spleen, suggesting a systemic disease rather than a focal infection, which was helpful in supporting lymphoma/PTLD as the diagnostic direction, guiding selection of the most valuable biopsy site, performing clinical staging, and providing a baseline for subsequent treatment response assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "basis_in_stage3_input": "4. Bone marrow aspiration and biopsy:",
+          "why_order_this_exam": "The patient had persistent peripheral blood lymphocytosis for several months. Although the bone marrow examination 5 months ago showed no obvious abnormalities, the condition has clearly changed during this episode: persistent fever, progressive severe anemia, thrombocytopenia, elevated LDH, a slightly enlarged spleen, and PET/CT indicating diffuse hypermetabolism in the bone marrow, suggesting the need for direct reassessment of whether the bone marrow is the primary site of involvement. Bone marrow aspiration and biopsy can simultaneously address several key clinical questions: whether there is infiltration by a hematologic malignancy, whether hemophagocytosis is present, whether the cytopenias are caused by bone marrow involvement, and whether histopathologic confirmation can be obtained in the absence of superficial lymph nodes and a definite solid mass. This examination is crucial for clarifying the nature of PTLD/lymphoma, excluding purely reactive changes, and providing the pathologic basis for subsequent adjustment of immunosuppression and selection of a chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow cell morphology",
+          "basis_in_stage3_input": "(1) Bone marrow cytomorphology: 15.5% abnormal lymphocytes, consider lymphoid malignancy;",
+          "why_order_this_exam": "In the context of a high likelihood of bone marrow involvement, bone marrow cytomorphology is the most direct and fastest basic examination to determine whether there is abnormal hematopoiesis or abnormal lymphocytic proliferation. The patient has persistent fever, rapidly worsening anemia, thrombocytopenia, elevated LDH, and a prior history of persistent lymphocytosis, all of which suggest the possibility of a hematologic malignancy. Through morphologic assessment, the proportion and morphologic features of abnormal lymphocytes can be identified, providing a preliminary indication of a lymphoid malignancy, while also assessing for hemophagocytosis to support evaluation for HLH. Although this examination cannot independently complete classification, it is critical for promptly shifting the diagnostic and treatment pathway from 'fever of unknown infectious origin' to 'hematologic malignancy/HLH'.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow histopathology",
+          "basis_in_stage3_input": "(2) Bone marrow histopathology: the medullary cavity is filled with CD20(+) B lymphocytes, highly suggestive of diffuse large B-cell lymphoma (DLBCL);",
+          "why_order_this_exam": "The patient had no obvious superficial lymphadenopathy, and routine imaging showed no lung or abdominal mass amenable to biopsy, whereas PET/CT suggested systemic involvement; therefore, bone marrow histopathology became the key method for obtaining tissue evidence for a definitive diagnosis. In this case, fever, cytopenia, elevated LDH, and PET hypermetabolism alone could only suggest the possibility of a malignant disease and could not determine the pathologic type. Bone marrow histopathology can assess the pattern of infiltration, extent of involvement, and cellular morphologic features, determine whether it is a B-cell lymphoma, and distinguish it from reactive lymphoid hyperplasia and infection-related bone marrow changes. This examination is directly related to whether PTLD is established, lymphoma classification and staging, and whether subsequent B-cell-targeted therapy such as rituximab should be used.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CD138 (scattered+), CD20 (diffuse+), CD3 (scattered+), CD5 (scattered+), CD79α (diffuse+), etc.; EBER (-).",
+          "why_order_this_exam": "The patient is in an immunosuppressed state after lung transplantation. The differential diagnosis should distinguish EBV-related or EBV-negative PTLD, lymphomas of different origins, and reactive lymphocytic infiltration. Immunohistochemistry is a necessary step, based on the bone marrow pathology, to further clarify the cellular origin and biologic characteristics. B-cell markers such as CD20 and CD79α help confirm a B-cell lesion, while CD3 and CD5 can help assess background T cells and further differentiate the process. Negative EBER is important for determining whether it is EBV-related PTLD. This test not only serves diagnosis and classification, but also directly affects treatment selection, especially whether a rituximab-based regimen is appropriate, and helps assess the pathologic category of post-transplant lymphoproliferative disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometric immunophenotyping",
+          "basis_in_stage3_input": "(3) Bone marrow flow cytometric immunophenotyping: abnormal phenotype B cells accounted for 2.3% of nucleated cells; the immunophenotype is consistent with DLBCL.",
+          "why_order_this_exam": "The patient had a long-standing history of increased peripheral blood lymphocytes, but a prior bone marrow examination showed no definite abnormalities; after progression of the current condition, more sensitive immunologic methods were needed to determine whether a clonal abnormal lymphocyte population was present. Bone marrow flow cytometric immunophenotyping can rapidly analyze the immunophenotype of abnormal cells, helping confirm clonal B-cell proliferation and distinguish it from reactive lymphocytosis, post-infectious changes, or other hematologic malignancies. In this case, this examination corroborated the bone marrow morphology, histopathology, and PET/CT findings, increasing the diagnostic confidence for DLBCL/PTLD; at the same time, it also provided a quantifiable basis for subsequent B-cell-targeted therapy, treatment response monitoring, and post-remission follow-up.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Evaluation for solid and hematologic malignancies: 1. Tumor markers: NSE 22.84 ng/ml (<16.30), all others negative. 2. HLH-related tests: TG 3.71 mmol/L↑, serum ferritin >1500 ng/ml, sCD25 (soluble CD25) >44000 pg/ml↑. 3. PET/CT: Diffusely increased metabolism in the extremities and axial skeleton within the field of view (bone structure intact, without cortical bone destruction). Multiple hypermetabolic lesions in the liver, thickening of the right adrenal gland with increased metabolism, and slight splenomegaly. 4. Bone marrow aspiration and biopsy: (1) Bone marrow cytomorphology: 15.5% abnormal lymphocytes, lymphoid malignancy considered; (2) Bone marrow histopathology: marrow cavity filled with CD20(+) B lymphocytes, highly suggestive of diffuse large B-cell lymphoma (DLBCL); immunohistochemistry: CD138 (scattered+), CD20 (diffuse+), CD3 (scattered+), CD5 (scattered+), CD79α (diffuse+), etc., EBER (-). (3) Bone marrow flow cytometric immunophenotyping: abnormal phenotype B cells accounted for 2.3% of nucleated cells; immunophenotype consistent with DLBCL.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI9rPeqZOIl013LkUoHsmuclJya1pzGR4bHFNaN8wr2CqbSVUFicx06ljtBsX0JSJSvFoT44wiaUzaQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Patient's PET/CT. Diffusely increased metabolic activity in the bones within the field of view, multiple hypermetabolic lesions in the liver, and mildly enlarged spleen.",
+          "local_src": "cleaned_cases_image_cache/6c6b19f5e73f7b62ed277036fbbf97b8ed152f8e.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI9rPeqZOIl013LkUoHsmucxiaovlR0LvkvkMEw5YobftKHcVuvE2M38NmplpcSy5PgNGwKibNMiaeYQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. Pathology of the patient's bone marrow biopsy",
+          "local_src": "cleaned_cases_image_cache/071a79b4afc0f9744f2aee8665334229e5e232b2.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI9rPeqZOIl013LkUoHsmucd3ZZfM4ibWJZC6oAJu9xdVSFL1Cydsgv0xicaqVKz5IibLia5hFKzOyiaxw/640?wx_fmt=png&from=appmsg",
+          "near_text": "For hemophagocytic syndrome: intensified chemotherapy to control malignant proliferation and the inflammatory storm.",
+          "local_src": "cleaned_cases_image_cache/38c3776b2b3b7567c3a53d11103361c7a868a0bf.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Post-transplant lymphoproliferative disorder (PTLD); diffuse large B-cell lymphoma (stage IVB, IPI score 3); hemophagocytic syndrome. 2. Status post bilateral lung transplantation. 3. Interstitial lung disease (primary disease).",
+      "diagnostic_basis": [
+        "Post-lung transplantation, fever of unknown cause; HGB rapidly decreased from 72 g/L to 58 g/L. Bone marrow aspiration and biopsy: (1) Bone marrow cytomorphology: 15.5% abnormal lymphocytes, suggesting a malignant lymphoid disorder; (2) Bone marrow histopathology: the marrow cavity is filled with CD20(+) B lymphocytes, with diffuse large B-cell lymphoma (DLBCL) being highly likely; immunohistochemistry: CD138 (scattered+), CD20 (diffuse+), CD3 (scattered+), CD5 (scattered+), CD79α (diffuse+), etc., EBER (-). (3) Bone marrow flow cytometric immunophenotyping: abnormal phenotypic B cells accounted for 2.3% of nucleated cells; the immunophenotype is consistent with DLBCL.",
+        "TG 3.71 mmol/L↑, serum ferritin and sCD25 were markedly elevated; based on the clinical manifestations and bone marrow examination, HLH was diagnosed.",
+        "Primary disease: interstitial lung disease"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Reduce immunosuppressive therapy: discontinue mycophenolate mofetil, reduce the tacrolimus blood concentration; target 8-10ng/ml before lymphoma diagnosis, target 7ng/ml after lymphoma diagnosis",
+        "For PTLD, rituximab monotherapy + etoposide chemotherapy was administered.",
+        "For hemophagocytic syndrome: intensified chemotherapy to control malignant proliferation and the inflammatory storm"
+      ],
+      "treatment_response": [
+        "On the second day, the patient's body temperature returned to normal, and soreness in both lower extremities gradually improved.",
+        "Repeat bone marrow aspiration and biopsy and flow cytometric analysis 4 months later indicated complete remission; serum ferritin, LDH, and TG decreased to normal.",
+        "PET/CT showed disappearance of diffuse increased bone marrow metabolism and of multiple hypermetabolic foci in the liver and adrenal glands, and marked reduction in spleen size.",
+        "Complete remission was achieved both clinically and on imaging."
+      ]
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "status": "success",
+  "case_id": "case_120",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 62 years old, from Baoji, Shaanxi, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"intermittent cough and sputum production for more than 1 month.\" In late period, approximately 1 month before Day 0, during hospitalization at a local hospital for \"cerebral infarction,\" he developed cough and sputum production after catching a chill; the sputum was yellow and viscous, accompanied by fever, with a maximum temperature of 38.5℃, without sneezing, rhinorrhea, fever, night sweats, or hemoptysis. Chest radiograph suggested \"pneumonia.\" Starting on Day -31, he was given \"cephalosporin + levofloxacin\" for anti-infective treatment. Two days later, his body temperature returned to normal. Repeat chest CT on Day -24 showed that the infectious lesion in the right lower lobe had slightly improved compared with before, and there was thickening of the wall of the right main bronchus with an abnormal density shadow. Bronchoscopy on Day -18 showed a neoplasm visible at the carina and right main bronchus, and inflammatory changes of the right bronchial mucosa; cytologic examination of bronchoalveolar lavage fluid showed no malignant tumor cells; pathology showed chronic mucosal inflammation with interstitial edema. After treatment, the patient still had cough and sputum production. For further diagnostic clarification, he presented to our outpatient clinic on Day 0, and was admitted to our department with the provisional diagnosis of \"right main bronchial neoplasm.\" At present, the patient is in good spirits, has normal physical strength, normal appetite, normal sleep, normal bowel and bladder function, and no significant change in body weight. Since a sudden \"cerebral infarction\" in approximately 2 months before Day 0, he was hospitalized at a local hospital and treated conservatively with medical therapy. He currently has residual mild decreased muscle strength of the left limbs and unclear speech, and has been taking \"aspirin and atorvastatin\" long-term. The patient smoked for 20 years, about 8 cigarettes/day, and quit in 2012; drank alcohol for more than 20 years, about 50 ml each time, and quit drinking 10 years ago; denies a history of drug or toxic exposure. His parents are deceased, with no other notable family history. Physical examination: T 36.7℃, P 96 beats/min, R 20 breaths/min, BP 97/67 mmHg. Lips without cyanosis. No rash on the skin of the whole body, and no enlarged lymph nodes palpable throughout the body. No thoracic deformity, symmetric bilateral respiratory excursion, no increased tactile fremitus, bilateral lungs resonant to percussion, coarse breath sounds in both lungs, biphasic wheezing audible in the right lung, no dry or wet rales in either lung, and no pleural friction rub. No precordial bulge. Apical impulse located at the 5th intercostal space, 0.5 cm medial to the left midclavicular line. No thrill palpable. Cardiac borders not enlarged. Heart rate 96 beats/min, regular rhythm, no obvious increase or decrease in heart sounds, and no pathologic murmur heard in any valve auscultation area. Abdomen flat and soft, no hepatosplenomegaly, no abdominal tenderness or guarding. No edema of both lower extremities.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Central lung cancer (endobronchial tumors such as squamous cell carcinoma of the right main bronchus)",
+          "supporting_evidence": [
+            "Repeat chest CT on Day -24 showed \"thickening of the wall of the right main bronchus with an abnormal density shadow\"",
+            "Bronchoscopy was performed on Day -18: a neoplasm was visible at the carina and in the right main bronchus",
+            "After treatment, the patient still had cough and sputum production, suggesting that the lesion had not completely resolved with conventional anti-infective therapy.",
+            "Biphasic wheezing is audible over the right lung, suggesting possible central airway stenosis or an obstructive lesion.",
+            "Male, 62 years old, with a 20-year smoking history"
+          ],
+          "opposing_evidence": [
+            "No malignant tumor cells were found on bronchoalveolar lavage fluid cytologic examination",
+            "Pathology showed chronic mucosal inflammation with interstitial edema; the first-stage pathology did not directly support malignancy",
+            "The patient's body weight showed no significant change, and there was no hemoptysis."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Postinfectious inflammatory hyperplasia/inflammatory pseudotumor or granulation tissue hyperplasia of the bronchial mucosa",
+          "supporting_evidence": [
+            "At disease onset, after catching a cold, the patient had cough, yellow sticky sputum, and fever; chest X-ray indicated \"pneumonia\".",
+            "After 2 days of anti-infective therapy with \"cephalosporin + levofloxacin,\" body temperature returned to normal, indicating that an infectious component was clearly present.",
+            "Chest CT on Day -24 showed slight absorption of the infectious lesion in the right lower lobe compared with the previous study.",
+            "Although a neoplasm was seen on bronchoscopy, pathology showed chronic mucosal inflammation with interstitial edema",
+            "No malignant tumor cells were found on bronchoalveolar lavage fluid cytologic examination"
+          ],
+          "opposing_evidence": [
+            "Bronchoscopy clearly revealed a neoplasm at the carina and in the right main bronchus; postinfectious inflammatory changes alone cannot fully explain the obvious endobronchial space-occupying lesion.",
+            "After anti-infective treatment, the patient still had cough and sputum production.",
+            "Thickening of the right main bronchial wall and an abnormal density shadow suggest the possibility of a focal organic lesion"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Endobronchial tuberculosis",
+          "supporting_evidence": [
+            "Presented with cough and sputum production. Bronchoscopy showed a neoplasm-like lesion at the carina and right main bronchus; endobronchial TB may present with granulomatous hyperplasia or mass-like changes.",
+            "Pathology showed chronic inflammation with interstitial edema, which can be seen in the nonspecific inflammatory stage; TB cannot be excluded.",
+            "Biphasic wheezes are audible over the right lung, suggesting central airway involvement."
+          ],
+          "opposing_evidence": [
+            "The history clearly states \"no ... night sweats or hemoptysis\"",
+            "In the first stage, no history of TB exposure, sputum acid-fast bacilli, or TB-related test findings were provided in support.",
+            "After anti-infective treatment, body temperature returned to normal and the infectious lesion in the right lower lobe showed slight absorption; the first stage more directly supports common infection with airway disease."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Obstructive pneumonia secondary to bronchial foreign body",
+          "supporting_evidence": [
+            "Abnormal density in the right main bronchus with infectious lesion in the right lower lobe, consistent with possible distal infection secondary to central airway obstruction",
+            "Biphasic wheezing is audible over the right lung, supporting airway narrowing/partial obstruction",
+            "Bronchoscopy showed a neoplasm-like lesion in the right main bronchus; granulation tissue around the foreign body may appear neoplasm-like."
+          ],
+          "opposing_evidence": [
+            "No definite history of choking cough, aspiration, or foreign body inhalation was provided in the first stage",
+            "The patient's symptoms have persisted for more than 1 month, but there is no description of a typical sudden onset of severe cough.",
+            "The bronchoscopy report did not directly describe a foreign body"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Low-grade malignant endobronchial tumors such as bronchial carcinoid",
+          "supporting_evidence": [
+            "Bronchoscopy showed a neoplasm at the carina and in the right main bronchus; carcinoid may present as a central endobronchial mass",
+            "BALF cytology showed no malignant tumor cells; a low-grade malignancy cannot be excluded",
+            "Symptoms are mainly characterized by persistent cough, sputum production, and secondary infection, and may be seen with obstruction caused by an endobronchial mass."
+          ],
+          "opposing_evidence": [
+            "Pathology showed only chronic inflammation with interstitial edema; no evidence of neuroendocrine tumor was seen in the first stage.",
+            "In the first stage, no relatively common indicators of carcinoid, such as hemoptysis, were present.",
+            "The patient has a smoking history and is older; central lung cancer should still be the first consideration, as it is more common."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Benign endobronchial tumors (such as papilloma, hamartoma, etc.)",
+          "supporting_evidence": [
+            "Bronchoscopy clearly revealed a neoplasm in the right main bronchus",
+            "No malignant tumor cells were detected on bronchoalveolar lavage fluid cytology",
+            "At present, mental status, physical strength, appetite, and sleep are normal; there has been no significant change in body weight, and there are no obvious signs of cachexia."
+          ],
+          "opposing_evidence": [
+            "A 62-year-old man with a smoking history has a higher pretest probability of malignant tumor than benign tumor.",
+            "Accompanied by an infectious lesion in the right lower lobe and an abnormal high-density shadow with wall thickening of the right main bronchus, malignancy or a specific infectious lesion should still be considered first.",
+            "The phase I pathology was unable to definitively characterize the benign tumor."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complete blood count and inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "TNT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the cervical and supraclavicular lymph nodes",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis, complete blood count and inflammatory markers, and biochemical markers are shown in the figure. Urinalysis, stool routine + OB: normal. Myocardial enzymes, TNT, NT-proBNP, coagulation function, fasting blood glucose: normal. Echocardiography showed: ascending aortic sclerosis; no abnormality in cardiac structure; measured left ventricular systolic function within the normal range. Abdominal ultrasound showed: liver, gallbladder, pancreas, spleen, and bilateral kidneys of normal size, with no abnormality on imaging. Cervical and supraclavicular lymph nodes: no definite enlarged lymph nodes. Chest CT showed: space-occupying lesion in the right main bronchus to the bronchus intermedius, etiology to be determined, hamartoma? other?; inflammation in the right lower lobe.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1w1ibc1riaGxmW3Stw0SU0O51D6OouR6nbnUNo7afKOEDK8VUSiabQ4CPw/640?wx_fmt=png",
+            "near_text": "Complete blood count and inflammatory markers:",
+            "local_src": "cleaned_cases_image_cache/5f28ede59f68b6946412fe25f5434fd465ef195f.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1600uwRxGjo5zHkeVewe4yLqI6iciaYOBCRjAUrgMZpefgw3obbLrYGMg/640?wx_fmt=png",
+            "near_text": "Urinalysis, stool routine + OB: normal.",
+            "local_src": "cleaned_cases_image_cache/7d8814b919f0eb94d747b1888839fe479193d98c.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1ElPHtYeuXF6Hyn8VljVG25HyUFNfmyibydWgOI0llqFPWriaZ0VwXYbA/640?wx_fmt=png",
+            "near_text": "Cardiac enzymes, TNT, NT-proBNP, coagulation function, and fasting blood glucose: normal.",
+            "local_src": "cleaned_cases_image_cache/d6972a41ca898c634235f231243c82661d535910.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "central lung cancer",
+            "evidence": [
+              "The patient is an elderly male with a long-term history of heavy smoking.",
+              "Progressive onset of cough and sputum production, accompanied by fever; after anti-infective treatment, there was no significant change in the pulmonary opacities.",
+              "Bronchoscopy shows an endobronchial neoplasm causing luminal stenosis and obstructive pneumonia"
+            ],
+            "exclusion_reasons": [
+              "The patient has no tumor-related cachectic manifestations such as poor appetite or weight loss.",
+              "Outside hospital pathology results do not currently support it"
+            ]
+          },
+          {
+            "name": "Pulmonary hamartoma",
+            "evidence": [
+              "The patient had a subacute onset; manifested by cough and sputum production",
+              "Chest CT showed an endobronchial space-occupying lesion, without deep lobulation sign or spiculation, and without satellite lesions.",
+              "Bronchoscopy shows a neoplastic lesion within the airway lumen, with a smooth surface."
+            ],
+            "exclusion_reasons": [
+              "Chest CT: bronchial wall thickening",
+              "The pathology results of the bronchial mucosal biopsy performed at an outside hospital do not support this at present"
+            ]
+          },
+          {
+            "name": "tracheobronchial tuberculosis",
+            "evidence": [
+              "Progressive onset of cough and sputum production, accompanied by fever; no change in the pulmonary opacities after anti-infective treatment"
+            ],
+            "exclusion_reasons": [
+              "The patient had no TB toxic symptoms such as night sweats or fatigue.",
+              "Pathologic findings from bronchoscopic biopsy at an outside hospital were not consistent with tracheobronchial TB pathology",
+              "No acid-fast bacilli were found in the sputum.",
+              "The bronchoscopic findings are not consistent with tracheobronchial TB, such as hyperemia, erosion, and ulceration of the tracheal wall, destruction of the tracheal cartilage, and luminal collapse."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "central lung cancer",
+        "evidence": [
+          "The patient is an elderly male with a long-term history of heavy smoking.",
+          "Progressive onset of cough and sputum production, accompanied by fever; after anti-infective treatment, there was no significant change in the pulmonary opacities.",
+          "Bronchoscopy shows an endobronchial neoplasm causing luminal stenosis and obstructive pneumonia"
+        ],
+        "exclusion_reasons": [
+          "The patient has no tumor-related cachectic manifestations such as poor appetite or weight loss.",
+          "Outside hospital pathology results do not currently support it"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary hamartoma",
+        "evidence": [
+          "The patient had a subacute onset; manifested by cough and sputum production",
+          "Chest CT showed an endobronchial space-occupying lesion, without deep lobulation sign or spiculation, and without satellite lesions.",
+          "Bronchoscopy shows a neoplastic lesion within the airway lumen, with a smooth surface."
+        ],
+        "exclusion_reasons": [
+          "Chest CT: bronchial wall thickening",
+          "The pathology results of the bronchial mucosal biopsy performed at an outside hospital do not support this at present"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "tracheobronchial tuberculosis",
+        "evidence": [
+          "Progressive onset of cough and sputum production, accompanied by fever; no change in the pulmonary opacities after anti-infective treatment"
+        ],
+        "exclusion_reasons": [
+          "The patient had no TB toxic symptoms such as night sweats or fatigue.",
+          "Pathologic findings from bronchoscopic biopsy at an outside hospital were not consistent with tracheobronchial TB pathology",
+          "No acid-fast bacilli were found in the sputum.",
+          "The bronchoscopic findings are not consistent with tracheobronchial TB, such as hyperemia, erosion, and ulceration of the tracheal wall, destruction of the tracheal cartilage, and luminal collapse."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Tracheobronchial amyloidosis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +2, bronchoscopy was performed.",
+          "why_order_this_exam": "The patient is a 62-year-old man with persistent cough and yellow sputum for more than 1 month, with a prior history of fever; after anti-infective treatment, body temperature returned to normal, but cough and sputum production persisted. Chest CT showed an occupying lesion involving the right main bronchus to the bronchus intermedius and inflammation in the right lower lung. On physical examination, biphasic rhonchi were audible in the right lung, suggesting significant central airway stenosis/obstruction. Although prior bronchoscopy at another hospital revealed a neoplasm, BALF cytology and the initial pathology showed only chronic inflammation, which was inconsistent with the imaging findings and clinical manifestations of obstruction. Therefore, repeat electronic bronchoscopy is needed to directly observe the origin, extent, surface morphology of the lesion, the degree of luminal stenosis, and whether it extends to the bronchus intermedius and lobar bronchial openings, while also providing the conditions for biopsy, lavage, sputum collection, and bronchoscopic interventional treatment if necessary. This examination will help distinguish central lung cancer, inflammatory hyperplasia, bronchial TB, benign and malignant endobronchial tumors, and rare deposition diseases, and evaluate the risks of bleeding and airway obstruction during the procedure, thereby determining subsequent pathologic sampling and the treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial biopsy pathology",
+          "basis_in_stage3_input": "Partial snare resection of the right bronchial neoplasm was performed, and the resected tissue was sent for pathology.",
+          "why_order_this_exam": "Both imaging and endoscopic findings indicate a prominent space-occupying lesion in the right main bronchus causing >90%–95% stenosis, with distal obstructive pneumonia already present; however, the initial pathology at an outside hospital showed only chronic inflammation with interstitial edema, which cannot explain the persistent endobronchial neoplasm and severe stenosis, raising the possibility that the previous specimen was superficial or insufficient. Direct biopsy of the neoplasm is key to clarifying the nature of the lesion and can determine whether it is central lung cancer, carcinoid tumor, benign tumor, inflammatory granuloma, tuberculous granuloma, or a rare lesion such as amyloidosis. The pathology result is important not only for establishing the diagnosis, but also for determining whether antitumor therapy, anti-tuberculosis treatment, or primarily endoscopic interventional management is needed, and it can also explain why the symptoms and the space-occupying lesion did not completely improve after anti-infective treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum sent for testing",
+          "basis_in_stage3_input": "Collect sputum specimen for testing",
+          "why_order_this_exam": "At disease onset, the patient had yellow mucoid sputum and fever. Both chest radiograph and CT suggested pneumonia/right lower lung inflammation, and an endobronchial mass caused marked stenosis; therefore, post-obstructive secondary infection should be strongly considered clinically. At the same time, bronchial TB and other infectious lesions still need to be excluded in the differential diagnosis. Sputum submission for testing is a relatively noninvasive method for etiologic sampling, which can help determine the pathogen of secondary infection, whether there is evidence of mycobacteria or fungi, and can be corroborated with BALF results. This test helps explain the cause of the patient's persistent sputum production, guides whether to continue or adjust anti-infective therapy, and may also reduce the misjudgment of attributing the lesion solely to tumor or inflammatory hyperplasia.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Respiratory pathogen nucleic acid testing of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "BALF results were as follows: Day +2: [respiratory pathogen nucleic acid testing, mycobacterial species identification] both negative",
+          "why_order_this_exam": "The patient has cough, sputum production, a prior history of fever, and an inflammatory opacity in the right lower lung, and the central airway is severely obstructed by a neoplasm-like lesion; therefore, distal post-obstructive pneumonia or concomitant infection is an important clinical issue. BALF respiratory pathogen nucleic acid testing can rapidly screen for common respiratory pathogens in addition to routine culture, especially after treatment with cephalosporins and levofloxacin, when the positivity rate of traditional culture may decrease. The purpose of this test is to determine whether active infection is still present, explain persistent respiratory symptoms, and help distinguish inflammation caused solely by mechanical obstruction from infectious lesions; it is valuable for deciding whether to continue anti-infective therapy and for avoiding missed special pathogens. A negative result also supports subsequent consideration of a noninfectious space-occupying lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterial species identification in bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "BALF results were as follows: Day +2: [respiratory pathogen nucleic acid testing, mycobacterial species identification] both negative",
+          "why_order_this_exam": "Bronchial TB needed to be excluded throughout the early differential diagnosis in this case because the patient presented with persistent cough and sputum production, bronchoscopy showed a neoplasm-like lesion in the right main bronchus, and pathology had at one point shown only chronic inflammation; some tracheobronchial TB cases may present with granulomatous proliferation or mass-like stenosis. Because the patient had previously received anti-infective treatment, sputum testing alone might be insufficient; therefore, further mycobacterial species identification using bronchoalveolar lavage fluid was required to improve detection of Mycobacterium tuberculosis and related mycobacterial infections. This test is of critical importance for excluding infectious granulomatous lesions, avoiding misdiagnosis as a tumor or simple inflammatory hyperplasia, and determining whether anti-TB treatment is needed; a negative result would support shifting the diagnostic focus to a non-TB space-occupying airway lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid cytology",
+          "basis_in_stage3_input": "BALF results were as follows: Day +2: [Cytology] No tumor cells detected",
+          "why_order_this_exam": "The patient is an elderly male with a smoking history. Chest CT showed a space-occupying lesion in the right main bronchus. Bronchoscopy revealed a neoplasm causing severe stenosis. Central lung cancer and other malignant lesions must be重点排查. Although cytology had previously been performed at an outside hospital and showed no malignant tumor cells, the result is not fully consistent with the persistent central airway space-occupying lesion. Therefore, repeat collection of bronchoalveolar lavage fluid for cytologic examination would help supplement the pathologic evidence from the perspective of exfoliated cells and assess whether malignant cells are present. The clinical question of this examination is to further distinguish malignant tumor from inflammatory hyperplasia, benign tumor, or rare deposition disease; a negative result cannot completely exclude tumor, but when combined with biopsy pathology, endoscopic morphology, and etiologic results, it can improve the accuracy of the overall assessment and affect whether more aggressive tissue sampling or an oncologic treatment pathway is needed subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing",
+          "basis_in_stage3_input": "Day +10: [Etiology] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli -, no fungi detected; acid-fast stain: no acid-fast bacilli seen; G test, GM test: negative",
+          "why_order_this_exam": "In this case, there is not only an endobronchial mass, but also clinical and imaging evidence of obstructive pneumonia in the right lower lung. At onset, the patient had fever and yellow sputum. Although the fever resolved after anti-infective treatment, the symptoms did not completely disappear, indicating the need for a systematic evaluation of whether persistent infection or infection with special pathogens is present. A comprehensive etiologic workup can simultaneously cover clues related to common bacteria, mycobacteria, and fungi, and determine whether the patient's current inflammatory component is still infection-related, as well as whether there is an occult infection that would affect subsequent bronchoscopic intervention, hemostasis, and medication selection. This evaluation is particularly important for distinguishing 'post-obstructive infection' from 'a simple mass with secondary inflammatory response,' and can also provide a basis for subsequent anti-infective intensity, treatment duration, and whether special antifungal/anti-TB treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gram stain",
+          "basis_in_stage3_input": "Day +10: [Etiology] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli -, no fungi detected",
+          "why_order_this_exam": "The patient has right lower lobe inflammation, yellow sputum, and severe central airway stenosis; the most common complication is post-obstructive bacterial infection. Gram stain can provide a rapid preliminary assessment of bacterial morphologic characteristics in the specimen and whether there are clues to fungi, and it can still serve as an early reference in the setting of prior antibiotic treatment. In this case, the main purpose of this test is to determine whether persistent bacterial infection is present, infer the likely pathogen category, help explain the character of the patient's sputum and inflammatory manifestations, and provide a basis for adjustment of empiric antibacterial therapy; at the same time, the absence of fungi also helps reduce the likelihood of fungal infection as the primary cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Day +10: [Etiology] Acid-fast stain: no acid-fast bacilli seen",
+          "why_order_this_exam": "Endobronchial TB was once one of the important differential diagnoses because the patient had persistent cough and sputum production, a mass-like lesion on bronchoscopy, and airway stenosis; it was difficult to completely exclude based on clinical manifestations and the initial pathology alone. Acid-fast staining can rapidly screen for acid-fast bacilli in the specimen and is an important basic test for assessing Mycobacterium tuberculosis infection. This test is intended to determine whether the endobronchial lesion could represent tuberculous granuloma/stenosis, so as to avoid misdiagnosing a treatable infectious disease as a tumor or other rare disease; a negative result, together with negative mycobacterial species identification and atypical microscopic findings, further lowers the likelihood of TB and helps subsequent focus on pathologic deposition lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "basis_in_stage3_input": "Day +10: [Etiology] G test, GM test: negative",
+          "why_order_this_exam": "The patient has a central airway mass with obstructive pneumonia. Although there is no definite history of immunosuppression, persistent cough and sputum production, pulmonary inflammation, and endobronchial lesions still require exclusion of fungal infection as an important differential diagnosis, especially in the setting of incomplete resolution of symptoms after conventional anti-infective treatment. The G test can be used to screen for glucan components associated with invasive fungal infection and, as part of a systematic etiologic evaluation, helps determine whether fungal involvement is present and whether further mycologic testing or empiric antifungal therapy is needed. A negative result can reduce the likelihood that fungal infection is causing the bronchial lesions or pulmonary inflammation, which is helpful for narrowing the differential diagnosis and avoiding unnecessary antifungal use.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "Day +10: [Etiology] G test, GM test: negative",
+          "why_order_this_exam": "This case has persistent respiratory symptoms, right lower lung inflammation, and severe airway obstruction, requiring systematic exclusion of special pathogens, among which fungal infections such as Aspergillus may present as endobronchial lesions or pulmonary inflammation and interfere with the assessment of tumor versus inflammatory hyperplasia. The GM test is mainly used to screen for Aspergillus-related antigens and is complementary to the G test, culture, and microscopic findings. The clinical significance of performing this test lies in determining whether invasive or airway fungal infection is present, thereby affecting the anti-infective strategy and the safety assessment of peribronchoscopic treatment; a negative result would further support that fungal infection is not the principal issue in this case.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal culture",
+          "basis_in_stage3_input": "Day +10: [Bacterial and fungal culture] (-)",
+          "why_order_this_exam": "The patient has yellow sputum, a history of fever, right lower lung inflammation, and severe endobronchial stenosis. Secondary bacterial or fungal infection after obstruction is a practical issue that needs to be clarified. Although nucleic acid testing, staining, and serologic tests can provide rapid information, culture remains an important basis for confirming the pathogen and for subsequent antimicrobial susceptibility guidance, especially in determining whether anti-infective medications need to be adjusted. This test helps distinguish whether persistent symptoms are driven by active infection or are mainly caused by mechanical obstruction and the underlying lesion itself; a negative culture combined with other negative etiologic test results supports that infection is not the root cause of the endobronchial occupying lesion and instead favors a noninfectious lesion.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +2, flexible bronchoscopy was performed: (1) Under general anesthesia, the bronchoscope was inserted via a laryngeal mask airway. The glottic structures were normal. A neoplasm originating from the right bronchus was seen above the carina, causing blunting of the carina and resulting in >95% stenosis of the right bronchial lumen. A bronchoscope with an outer diameter of 5.9 mm barely entered the right bronchus. The neoplasm was seen extending to the right intermediate bronchus. Part of the neoplasm at the right bronchus was snared and sent for pathology, and argon plasma coagulation was applied to the neoplasm. During treatment, there was bleeding from part of the lesion, and posterior pituitary extract 12 units in 250 ml normal saline was given by intravenous drip for hemostasis. Sputum was collected for testing. The lumens of the remaining bronchi at all levels in the right lung and left lung were patent, the mucosa was smooth, and no neoplasm was seen under bronchoscopy. (2) A neoplasm was seen in the right main bronchus obstructing about 90% of the lumen; repeated cryotherapy and argon plasma coagulation were performed, after which the right bronchus was wider than before. At the orifice of the right upper lobe bronchus, neoplastic tissue was seen causing stenosis of the orifice. The right intermediate bronchus was patent. Mucosal hyperplasia and swelling were seen in the right middle and lower lobes. The bronchi at all levels in the left lung were patent, the mucosa was smooth, and no neoplasm was seen under bronchoscopy. Bronchoalveolar lavage fluid results were as follows: Day +2: [Respiratory pathogen nucleic acid testing, mycobacterial species identification] both negative; [Cytology] no tumor cells found. Day +10: [Pathogen testing] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli -, no fungi detected; acid-fast stain: no acid-fast bacilli seen; G test and GM test: negative; [Bacterial + fungal culture] (-). Bronchial biopsy pathology results were as follows: Day +2: (right bronchus) chronic inflammation of bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium and tumor-like hyperplasia of interstitial fibroadipose tissue with amyloid degeneration. Day +5: (right bronchus) eosinophilic amorphous material deposition was seen in the bronchial mucosal stroma, extensively surrounding the bronchial mucous glands, with focal destruction of cartilage and associated cartilage calcification; a small amount of foreign-body giant cell reaction was seen peripherally. The current histologic features favor tracheobronchial amyloidosis.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1IhwrxMiazeDnPGia7Qx5N3ibuPSeuKCZOeia9RYjBz5sbUc6x2bQbZghpQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 1. Bronchoscopic examination and endoscopic treatment (Day +2)",
+          "local_src": "cleaned_cases_image_cache/f9d49456efcef4e912f8329638abe60d32605ecf.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1sYaH9IlgS4CBu0wXMABVyDSF63dSZZhCEePobicpsAyKMicVXTWQic9Cg/640?wx_fmt=jpeg",
+          "near_text": "Figure 2. Bronchoscopic examination and endoscopic treatment (Day +4)",
+          "local_src": "cleaned_cases_image_cache/c581ae1121d9d82d3dcf721881eb7427f0112be7.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1SGSs3yxYVJFasbj9fXlAPYLqR1muhMCZ6AsvSDPJLAibkbbeKasDmTQ/640?wx_fmt=png",
+          "near_text": "Figure 3. Histopathology of the right bronchial mucosa (Day +2)",
+          "local_src": "cleaned_cases_image_cache/dd60dbc2e4eb8bff3f85057adb1c184634ede4fa.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1ysVSZxNIkWc9OADMvgkrLHiboK0RwqPlNcq8Q8YbxQuBXgPGI0PYVjQ/640?wx_fmt=png",
+          "near_text": "Figure 4 Histopathology of the right bronchial mucosa (Day +5)",
+          "local_src": "cleaned_cases_image_cache/3ccd5d871f2ea0b92bb2c8751c7f4c23ba5a3120.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1WErdXD2D6ME14ODWO0cljvu9QrGGmBiax3eclptx22ytBYfRdJyibfRw/640?wx_fmt=jpeg",
+          "near_text": "Figure 5 Follow-up bronchoscopy (Day +51)",
+          "local_src": "cleaned_cases_image_cache/1aee771610be1ffcdc53fdf7b8f6a6803e229984.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5mcAPUEKzjtFOP4UZIGe1IBPgOIVEBhfwjpX4L9RiaFPmhxrdETm2ibBl8ldv9sQtOPrfpmmdkEUw/640?wx_fmt=jpeg",
+          "near_text": "Figure 6. Repeat bronchoscopy (Day +419)",
+          "local_src": "cleaned_cases_image_cache/2ea26ee480c68c1bed9e9076c55e2bc222a9ec4d.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Bronchial amyloidosis; 2. Right bronchial stenosis; 3. Obstructive pneumonia of the right lower lung",
+      "diagnostic_basis": [
+        "Basic characteristics: elderly male, subacute onset",
+        "Symptoms: intermittent cough and sputum production; anti-infective therapy ineffective",
+        "Physical sign: biphasic wheezes audible in the right lower lung",
+        "Ancillary examinations: ① Chest CT showed an occupying lesion in the right main bronchus, nature to be determined; ② Pathologic sections from bronchial biopsy showed chronic inflammation of the bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium, stromal calcification, and amyloid degeneration"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "During hospitalization, bronchoscopic interventional therapy was performed (repeated cryotherapy and argon plasma coagulation, thermal ablation and cryoablation), along with anti-infective therapy, antiasthmatic therapy, and expectorant therapy.",
+        "After discharge, oral melphalan tablets were given for 4 cycles to treat the primary disease (melphalan tablets 2 tablets, twice daily; each cycle lasted 4 days, with a 6-week interval).",
+        "Usually has intermittent cough with sputum production, treated symptomatically with acetylcysteine effervescent tablets",
+        "Hemoptysis recurred in approximately 13 months after Day 0; 2 units of hemocoagulase for injection were administered locally, and 2 units of hemocoagulase for injection were given by intravenous push for hemostasis; anti-infective, expectorant, and other treatments were provided.",
+        "Continue oral cefdinir for 1 week after discharge, with adjunctive expectorant therapy"
+      ],
+      "treatment_response": [
+        "Discharged after improvement during hospitalization",
+        "After discharge, regular outpatient follow-up visits were conducted with repeat chest CT; the degree of right bronchial stenosis showed no further progression, and the condition was stable.",
+        "In approximately 13 months after Day 0, hemoptysis recurred; after treatment, the bleeding stopped. At discharge, cough and sputum production had improved, with no further hemoptysis or fever, and the condition was stable."
+      ]
+    }
+  }
+}

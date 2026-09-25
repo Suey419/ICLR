@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "case_id": "case_177",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 51 years old, first outpatient visit to our hospital on Day 0. Chief complaint: recurrent cough for 1 year. The cough began 1 year ago, sometimes accompanied by acid regurgitation and belching, without chest tightness, shortness of breath, dyspnea, nasal congestion, or rhinorrhea. Five months ago, chest CT at an outside hospital showed multiple patchy ground-glass opacities in the right lung, considered pulmonary infection; she improved after antibiotic treatment, but the cough still recurred. In addition, laryngoscopy at an outside hospital on Day -19 suggested laryngitis. One month ago, repeat chest CT again showed a small patchy area of atelectasis in the right middle lung. She was admitted from the outpatient clinic with the proposed diagnoses of chronic cough and abnormal diagnostic imaging of the lung. Since the onset of illness, she has remained clear-minded, with low energy, no abnormalities in bowel or bladder function, and a weight loss of 5 kg. Past history: denies a history of rhinitis or asthma. Denies allergy history, smoking history, and exposure to dust or harmful gases. Denies a history of ACEI use. The patient reported that the cough seemed to worsen after drinking water or eating! Considering that the patient's cough worsened after drinking water or eating, but there were no obvious symptoms such as nausea, vomiting, acid regurgitation, or belching, the physician then performed a simple and easy Kubota water swallow test. The patient was asked to remain seated and drink 30 mL of warm water. The test showed that the patient was able to swallow it in one gulp, but had obvious choking cough symptoms; the result was positive!",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Dysphagia-related chronic aspiration",
+          "supporting_evidence": [
+            "The patient reports that the cough seems to worsen after drinking water and eating.",
+            "The Kubota water swallow test showed \"able to swallow in one attempt, but with obvious choking and coughing symptoms; the result was positive\"",
+            "Prior chest CT showed multiple patchy ground-glass opacities in the right lung; subsequently, it also showed small patchy atelectasis in the right mid-lung, consistent with possible post-recurrent aspiration pulmonary changes.",
+            "Recurrent cough for 1 year; after antibiotic treatment, it improved only partially but continued to recur, suggesting a possible persistent trigger."
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide a clear history of dysphagia, neurologic disease, or oropharyngeal structural abnormalities"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Aspiration pneumonia or persistent inflammatory changes after aspiration pneumonia",
+          "supporting_evidence": [
+            "An outside hospital chest CT showed multiple patchy ground-glass opacities in the right lung and was previously considered to be pulmonary infection",
+            "Improved after antibiotic treatment, suggesting that the abnormal pulmonary imaging findings include an infectious or inflammatory component",
+            "The patient's cough worsened after drinking water and eating, and the water swallow test was positive with obvious choking cough, supporting the possibility of aspiration-related pulmonary inflammation.",
+            "Repeat chest CT 1 month ago showed a small patchy area of atelectasis in the right mid-lung, which may be seen with post-aspiration retained secretions or post-inflammatory change."
+          ],
+          "opposing_evidence": [
+            "The first-phase information did not describe acute infectious manifestations such as fever and purulent sputum.",
+            "The cough has had a 1-year course; simple acute aspiration pneumonia cannot fully explain the prolonged recurrent course."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Gastroesophageal reflux-related cough or laryngopharyngeal reflux",
+          "supporting_evidence": [
+            "The patient sometimes has acid reflux and belching.",
+            "Laryngoscopy at an outside hospital on Day -19 suggested laryngitis; laryngopharyngeal reflux may be associated with laryngeal inflammation and chronic cough.",
+            "Chronic cough for 1 year, with no obvious upper airway symptoms such as nasal congestion or rhinorrhea; reflux-related cough should be considered"
+          ],
+          "opposing_evidence": [
+            "Although the patient sometimes had acid regurgitation and belching, the physician documented, \"no obvious nausea, vomiting, acid regurgitation, belching, or other symptoms.\"",
+            "Worsening after drinking water and eating, together with a positive water swallow test and obvious choking cough, more strongly suggests swallowing-related aspiration rather than simple reflux",
+            "The phase 1 information did not indicate typical reflux clues such as worsening in the supine position at night."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced MRI of the head",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +2, contrast-enhanced brain MRI at our hospital indicated basilar invagination with cerebellar tonsillar herniation. The yellow line indicates the plane of the foramen magnum; the inferior tip of the cerebellar tonsils is displaced downward through the plane of the foramen magnum by ≥ 5 mm, indicating cerebellar tonsillar herniation.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXiaAXrxDONpzHeU4JUEAWEibKllGFQLl8p8ICY23Zjibo9rFzkkNpbjNfg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure: Contrast-enhanced brain MRI results from our hospital on Day +2.",
+            "local_src": "cleaned_cases_image_cache/b4bf7c6167b7c0613a229608dd7c2cba77a96af2.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Whether the pulmonary inflammation has further resolved and whether there is localized airway obstruction",
+            "evidence": [
+              "5 months earlier, chest CT at an outside hospital showed multiple patchy ground-glass opacities in the right lung, considered pulmonary infection. Symptoms improved after antibiotic treatment, but cough continued to recur.",
+              "Repeat chest CT 1 month ago showed a small patchy area of atelectasis in the right mid-lung.",
+              "Based on the patient's condition and prior examinations, the first step is to confirm whether the pulmonary inflammation has further resolved and whether there is local airway obstruction."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "gastroesophageal reflux-related cough",
+            "evidence": [
+              "The patient developed cough 1 year ago, sometimes accompanied by acid reflux and belching."
+            ],
+            "exclusion_reasons": [
+              "Considering that the patient’s cough worsened after drinking water or eating, but there were no obvious symptoms such as nausea, vomiting, acid regurgitation, or belching, the physician then performed the simple and easy-to-administer Kubota water swallow test."
+            ]
+          },
+          {
+            "name": "Upper airway cough syndrome/rhinitis-related cough",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No nasal congestion or rhinorrhea, etc.",
+              "Past medical history is negative for rhinitis."
+            ]
+          },
+          {
+            "name": "Asthma or cough-variant asthma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No chest tightness, shortness of breath, or dyspnea.",
+              "No prior history of asthma."
+            ]
+          },
+          {
+            "name": "ACEI-related cough",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Denies a history of ACEI use."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "gastroesophageal reflux-related cough",
+        "evidence": [
+          "The patient developed cough 1 year ago, sometimes accompanied by acid reflux and belching."
+        ],
+        "exclusion_reasons": [
+          "Considering that the patient’s cough worsened after drinking water or eating, but there were no obvious symptoms such as nausea, vomiting, acid regurgitation, or belching, the physician then performed the simple and easy-to-administer Kubota water swallow test."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Upper airway cough syndrome/rhinitis-related cough",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No nasal congestion or rhinorrhea, etc.",
+          "Past medical history is negative for rhinitis."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Further preoperative physical examination",
+          "basis_in_stage3_input": "Further preoperative physical examination: soft palate elevation intact, tongue protrusion intact, no obvious tongue muscle atrophy, decreased head-lifting muscle strength, tendon reflexes +++ in all extremities, bilateral Hoffman sign positive, bilateral pathologic reflexes not elicited.",
+          "why_order_this_exam": "The patient presented with recurrent cough for 1 year, worsened after drinking water and eating. The Kubota water-swallowing test was positive with obvious choking cough. Pulmonary imaging subsequently showed multiple patchy ground-glass opacities in the right lung and small patchy atelectasis in the right mid-lung, suggesting possible chronic aspiration-related pulmonary inflammation/atelectasis. Further contrast-enhanced brain MRI revealed basilar invagination with cerebellar tonsillar herniation, suggesting that the dysphagia and choking cough may not be solely due to a respiratory system or reflux problem, but rather related to central nervous system compression. At this point, the purpose of further preoperative neurologic examination is to assess the function of the lower cranial nerves and medulla oblongata in conjunction with evaluation of soft palate elevation, tongue protrusion, and tongue muscles; and, together with decreased neck extensor muscle strength, hyperactive deep tendon reflexes in the extremities, and a positive Hoffman sign, to determine whether there is pyramidal tract involvement and signs of neural compression at the craniovertebral junction, thereby verifying the consistency between the imaging abnormalities and the clinical symptoms and supporting the diagnosis that cerebellar tonsillar herniation caused choking cough, swallowing dysfunction, and secondary pneumonia. At the same time, this examination can also help exclude other explanations such as simple peripheral bulbar palsy or local laryngeal lesions, assess lesion severity and surgical risk, and provide a basis for neurosurgical procedure selection, perioperative airway and swallowing management, and prognostic assessment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The patient was transferred to neurosurgery for surgery. Further preoperative physical examination: soft palate elevation was intact; tongue protrusion was intact; no obvious tongue muscle atrophy was seen; neck extension muscle strength was decreased; tendon reflexes in all four extremities were +++; bilateral Hoffman sign was positive; bilateral pathologic reflexes were not elicited.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Cerebellar tonsillar herniation (causing choking/coughing and dysphagia, leading to cough and pneumonia)",
+      "diagnostic_basis": [
+        "Kubota water swallow test positive, with obvious choking and coughing symptoms",
+        "Contrast-enhanced brain MRI showed basilar invagination with cerebellar tonsillar herniation",
+        "On preoperative physical examination, neck extensor muscle strength was decreased, deep tendon reflexes in all four extremities were +++, and bilateral Hoffman's sign was positive.",
+        "After occipitocervical fusion performed by Neurosurgery, cough/choking when shouting improved compared with before."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "occipitocervical fusion"
+      ],
+      "treatment_response": [
+        "The patient's choking cough has improved compared with before and occurs occasionally."
+      ]
+    }
+  }
+}

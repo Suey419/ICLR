@@ -1,0 +1,444 @@
+{
+  "status": "success",
+  "case_id": "case_103",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 68 years old, chief complaint: \"chest tightness and shortness of breath for 1 month.\" History of present illness: In early period, around Day 0, he developed chest tightness and shortness of breath without obvious precipitating factors, worsened after activity, with no significant relief after rest, accompanied by mild fatigue and sweating, without cough or sputum production, without hemoptysis or rhinorrhea, without fever or night sweats, without palpitations or chest pain, without lower extremity edema, without abdominal pain or diarrhea, without morning stiffness or joint swelling/pain, etc. He presented to an outside hospital, where chest CT showed: a small amount of fibrotic linear opacity in the lingular segment of the left lung, left pleural thickening, left pleural effusion with left lower lung atelectasis, and multiple small mediastinal lymph nodes. Outside hospital laboratory tests: complete blood count showed white blood cell count 10.52*10^9/L, absolute neutrophil count 7.29*10^9/L, platelet count 418*10^9/L, red blood cell count 3.49*10^12/L, hemoglobin 116g/L, ESR 70mm/hr. Respiratory pathogen testing was negative, TB-DNA negative. On Day +3, closed thoracic drainage was performed. Routine pleural fluid analysis showed yellow turbid appearance, specific gravity 1.038, total cell count 7021*10^6/L, total white blood cell count 6863*10^6/L, mononuclear cells 6371*10^6/L. Pleural fluid biochemistry: total protein 55.5g/L, glucose 7mmol/L, LDH 378U/L, CRP 17.62mg/L. No acid-fast bacilli were found in the pleural fluid. A total of approximately 2000ml of yellow pleural fluid was drained. He was treated with intravenous infusion therapy (levofloxacin injection, etc.), and the patient subjectively reported improvement in shortness of breath compared with before. Repeat chest CT showed that the pleural effusion was significantly reduced compared with before. Past medical history: Hypertension for 4 years, with highest blood pressure up to 150/90mmHg; previously used indapamide for blood pressure control, not taken regularly. Personal history: Smoked for 40 years, 10-20 cigarettes/day, quit smoking 1 month ago; drank alcohol for 20 years, half a jin/day, quit alcohol 1 month ago. Family history: unremarkable. Physical examination on admission: T 36.3℃, P 78 beats/min, R 21 breaths/min, BP 118/72mmHg, SPO2 89% (not on oxygen). No rash on the skin of the whole body, no superficial lymphadenopathy palpable, no chest wall deformity, symmetric bilateral chest expansion, normal bilateral tactile fremitus, resonant to percussion in both lungs, clear breath sounds in both lungs, no dry or moist rales, no Velcro rales, no pleural friction rub. Cardiac and abdominal examinations were unremarkable, and there was no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUicS09nwwbFiczBh5Um8ykSzQ8EiadUlzqJhE42WT1FHzObM6NCe6OtjvvA/640?wx_fmt=jpeg",
+          "near_text": "Figure 1. Chest CT Day 0",
+          "local_src": "cleaned_cases_image_cache/c8d3ff171fa5ceb2fe14a21c50f074bec35769a6.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Malignant pleural effusion (related to lung cancer or pleural metastasis)",
+          "supporting_evidence": [
+            "68-year-old man with a 40-year smoking history, belonging to a high-risk population for pulmonary malignancy",
+            "Chief complaint: chest tightness and shortness of breath for 1 month, worsened after activity, suggesting respiratory limitation caused by pleural effusion",
+            "Chest CT showed left pleural effusion, left lower lobe atelectasis, left pleural thickening, and multiple small mediastinal lymph nodes; pleural and mediastinal involvement increases the likelihood of malignancy.",
+            "The pleural fluid was yellow and turbid; pleural fluid total protein 55.5 g/L, specific gravity 1.038, LDH 378 U/L, consistent with the characteristics of an exudative pleural effusion.",
+            "The total cell count in pleural fluid is increased and is predominantly mononuclear cells; unilateral pleural effusion with pleural thickening may be seen in malignant pleural disease.",
+            "Imaging shows left pleural effusion, consistent with the common unilateral presentation of malignant pleural effusion."
+          ],
+          "opposing_evidence": [
+            "The first-stage text did not describe a definite intrapulmonary mass or pleural nodule.",
+            "No hemoptysis, chest pain, or other symptoms",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy",
+          "supporting_evidence": [
+            "Pleural effusion is exudative: specific gravity 1.038, total protein 55.5 g/L, LDH 378 U/L",
+            "Pleural fluid total leukocyte count 6863*10^6/L, with mononuclear cells 6371*10^6/L; a mononuclear cell-predominant exudate supports the possibility of tuberculous pleuritis",
+            "ESR 70 mm/hr, markedly elevated, suggesting the possibility of a chronic inflammatory disease",
+            "Chest CT showed left pleural thickening and left pleural effusion, findings consistent with possible tuberculous pleural involvement.",
+            "Chest CT showed multiple small mediastinal lymph nodes, which can be seen in tuberculous inflammation"
+          ],
+          "opposing_evidence": [
+            "No symptoms of TB toxemia such as fever or night sweats",
+            "TB-DNA negative",
+            "No acid-fast bacilli were found in the pleural effusion.",
+            "Negative respiratory pathogen testing does not directly support TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary embolism-related pleural effusion",
+          "supporting_evidence": [
+            "The main manifestations are chest tightness and shortness of breath, worsened after activity, with no obvious relief after rest.",
+            "SpO2 on admission was 89% (not receiving oxygen), with hypoxemia",
+            "Unilateral left pleural effusion may be seen in pleural reaction associated with pulmonary embolism",
+            "No obvious infectious symptoms such as cough, sputum production, or fever, so noninfectious causes also need to be considered."
+          ],
+          "opposing_evidence": [
+            "No chest pain or hemoptysis",
+            "No venous thrombosis risk factors such as lower extremity swelling, prolonged bed rest, or recent surgery or trauma were present in the first stage.",
+            "The chest CT report text did not indicate pulmonary infarction or pulmonary artery abnormalities.",
+            "Pleural effusion with a predominance of mononuclear cells and pleural thickening are not the most typical manifestations of pulmonary embolism"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Parapneumonic pleural effusion/pre-empyema",
+          "supporting_evidence": [
+            "The pleural fluid appeared yellow and turbid, suggesting possible inflammatory exudate.",
+            "Peripheral blood WBC 10.52*10^9/L, absolute neutrophil count 7.29*10^9/L, suggesting the presence of an inflammatory response",
+            "Pleural fluid CRP 17.62mg/L is elevated, supporting inflammatory pleural effusion",
+            "After treatment with intravenous levofloxacin and other infusions, the patient reported improvement in shortness of breath compared with before; repeat chest CT showed that the pleural effusion was significantly reduced compared with before."
+          ],
+          "opposing_evidence": [
+            "No common symptoms of pulmonary infection such as fever, cough, or sputum production",
+            "On physical examination, breath sounds were clear in both lungs, and no dry or moist rales were heard.",
+            "The chest CT narrative report did not clearly describe pulmonary consolidation or foci of pneumonia.",
+            "Pleural fluid cell differential is predominantly mononuclear cells, not the neutrophil-predominant pattern typical of acute bacterial infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pleural mesothelioma or other primary pleural tumors",
+          "supporting_evidence": [
+            "Chest CT showed left pleural thickening with left pleural effusion; a primary pleural tumor needs to be differentiated.",
+            "Chest tightness and shortness of breath for 1 month, with a relatively large pleural effusion; approximately 2000 ml was drained in total",
+            "In an elderly male patient, unilateral pleural effusion combined with pleural changes has certain suggestive significance.",
+            "The image shows imaging findings of left pleural effusion; pleural diseases can cause this type of finding."
+          ],
+          "opposing_evidence": [
+            "No relevant exposure history such as asbestos exposure history was provided in the first stage",
+            "Phase 1 text did not explicitly describe pleural nodules or diffuse irregular pleural thickening",
+            "Multiple small mediastinal lymph nodes and mononuclear cell exudate are not specific findings"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Congestive heart failure or other cardiogenic pleural effusion",
+          "supporting_evidence": [
+            "The main symptoms are chest tightness and shortness of breath",
+            "Advanced age and a history of hypertension; abnormal cardiac function should be included in the differential diagnosis"
+          ],
+          "opposing_evidence": [
+            "Pleural fluid total protein 55.5 g/L, specific gravity 1.038, and LDH 378 U/L are more consistent with an exudate rather than a transudate due to heart failure",
+            "Pleural effusion is unilateral, predominantly on the left side, which is not the most common manifestation of heart failure.",
+            "No lower extremity edema",
+            "No palpitations or chest pain; cardiac and abdominal physical examination showed no significant abnormalities.",
+            "The chest CT report text did not indicate obvious cardiomegaly or bilateral pleural effusion."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count and inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abnormal sugar chain glycoprotein (TAP) aggregate area",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cardiac injury markers, BNP, fasting blood glucose, coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Five lung tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal and cervical color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural biopsy pathology",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests after admission: arterial blood gas analysis, complete blood count, and inflammatory markers (CRP 16.46mg/L, PCT 0.09ng/ml, ESR 71mm/hr). Stool routine + OB normal. Urinalysis: urine protein 1+, urine pH 5.50, occult blood 1+, albumin 80.00mg/L, etc. Abnormal sugar chain glycoprotein (TAP) aggregate area 218um^2. Cardiac injury markers, BNP, fasting blood glucose, and coagulation function were basically normal. Pleural fluid testing: appearance orange-yellow and turbid, total cell count 28000*10^6/L, white blood cell count 8880*10^6/L, mononuclear cell percentage 85%; pleural fluid biochemistry: total protein 37.6g/L, glucose 7.56mmol/L, LDH 569U/L; tumor markers: CA125 908 U/ml, cytokeratin 19 fragment 159 ng/mL, squamous cell carcinoma antigen 3.09 ng/mL; no pathogenic bacteria were cultured from pleural fluid. Fungal culture and sputum bacterial culture were negative. TB infection T-cell test negative. Five lung tumor markers: CA125 162U/ml, others normal. Abdominal + cervical color Doppler ultrasound: liver size normal, fatty liver, liver cyst; pancreas size normal, slightly hypoechoic pancreatic body and tail; enlarged left supraclavicular fossa lymph nodes. Chest HRCT and contrast-enhanced CT: nodular thickening of the bilateral costal pleura, diaphragmatic pleura, and left mediastinal pleura, pleural metastases not excluded; nodular thickening in the abdominal cavity, retroperitoneum, and bilateral perirenal regions; small bilateral pleural effusions; bilateral pulmonary exudative changes with partial atelectasis, emphysema in the medial segment of the right middle lobe, small pericardial effusion; multiple enlarged mediastinal lymph nodes; cyst in the posterior inferior segment of the right hepatic lobe; thickening of the left adrenal gland. Pleural biopsy pathology: (left pleural puncture tissue) lymphoid proliferative lesion, with cells small to medium in size and occasional large cells. Cytologic analysis: tumor cell immunologic markers CD20(+), CD10(+), Bcl-2(+), CD19(+), MUM-1(+), Ki-67(+ locally about 15%), CD23(+), CD21(+), etc.; gene rearrangement testing detected clonal rearrangement of immunoglobulin genes.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUiczZN8kjVsGBxL7UEib8c7dQ1WLvVwZyIjc0pgf322oOsKER2GldBIObA/640?wx_fmt=png",
+            "near_text": "[Complete blood count and inflammatory markers]",
+            "local_src": "cleaned_cases_image_cache/327f659ddc107c0fdda1604c3abbc6ad7daf1bf0.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUicLeheqcdwfRfesjE1OqH1LtIwNCnOafA2YFBX6v9jIpUBYGdy5ibhBSA/640?wx_fmt=png",
+            "near_text": "CRP：16.46mg/L",
+            "local_src": "cleaned_cases_image_cache/577eac4ac48f7c217d114617fc414cf0c347a988.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUic2ibOdrukRMurygyPAyfGV8xMGbqcXK6l74V7BrOE5hN0bD1VZSeia5DA/640?wx_fmt=png",
+            "near_text": "[Abnormal sugar chain glycoprotein (TAP) aggregate area]",
+            "local_src": "cleaned_cases_image_cache/0d1b1c0805a9bf189b4ba060b90d494de2f8600e.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUicHbOkoJcODGUH91fzzQJ1e09QpricxF8VNs2LB0zKSeOIxoX7d1wx2VQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Pulmonary HRCT on Day +20",
+            "local_src": "cleaned_cases_image_cache/7173b536088d0759cb1016c932c7296fdad4be2b.jpg"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUicQleDXibWgDJtu87gibgGa8oqTf0IHFEKb7aUbagITPibsnzcl1djKcr9Q/640?wx_fmt=jpeg",
+            "near_text": "Figure 3. Pathology results of pleural biopsy (Day +24)",
+            "local_src": "cleaned_cases_image_cache/2871d48849e2675948ef4b489b684a1ce8a1db6b.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Parapneumonic pleural effusion",
+            "evidence": [
+              "Acute onset, with chest tightness and shortness of breath",
+              "Chest CT showed: bilateral pulmonary infiltrative changes",
+              "Complete blood count showed: white blood cell count 10.371*10^9/L, absolute neutrophil count 7.65*10^9/L",
+              "C-reactive protein: 16.46 mg/L; erythrocyte sedimentation rate: 71.01 mm/hr"
+            ],
+            "exclusion_reasons": [
+              "Before disease onset, there were no obvious symptoms such as cough, sputum production, fever, or chest pain.",
+              "No significant elevation of neutrophils on complete blood count",
+              "Pleural fluid analysis showed an increased cell count, predominantly mononuclear cells",
+              "Pleural fluid culture negative",
+              "After receiving anti-infective treatment at another hospital, the symptoms improved slightly, but the pleural effusion subsequently increased again."
+            ]
+          },
+          {
+            "name": "Tuberculous pleurisy",
+            "evidence": [
+              "Clinical manifestations include chest tightness and shortness of breath, accompanied by increased sweating and generalized weakness",
+              "Ancillary tests showed an elevated erythrocyte sedimentation rate",
+              "Pleural fluid routine analysis showed an increased total cell count, predominantly mononuclear cells"
+            ],
+            "exclusion_reasons": [
+              "No obvious TB constitutional symptoms such as low-grade fever, night sweats, or weight loss",
+              "Serum T-SPOT test negative",
+              "Pleural fluid ADA 18 U/L",
+              "No acid-fast bacilli were found in the pleural effusion."
+            ]
+          },
+          {
+            "name": "Primary malignant neoplasm of the lung",
+            "evidence": [
+              "Has a long-term history of chronic smoking",
+              "Clinical manifestations include chest tightness, shortness of breath, and generalized fatigue.",
+              "Pulmonary tumor markers showed CA125 173 U/ml, LDH 563 U/L",
+              "CT: Nodular thickening of the bilateral costal pleura, diaphragmatic pleura, and left mediastinal pleura; pleural metastases cannot be excluded; multiple enlarged mediastinal lymph nodes."
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as long-term chronic cough, sputum production, or blood-streaked sputum.",
+              "No space-occupying lesion was seen on chest CT",
+              "Pleural biopsy pathology does not support the diagnosis"
+            ]
+          },
+          {
+            "name": "Non-Hodgkin lymphoma (follicular type)",
+            "evidence": [
+              "Ultrasound showed enlargement of the left supraclavicular lymph nodes",
+              "CT showed multiple enlarged mediastinal lymph nodes.",
+              "Pleural fluid cytology showed a large number of lymphocytes",
+              "Pathology from pleural puncture biopsy showed a lymphoproliferative lesion composed of small- to medium-sized cells, with occasional large cells, suggesting a low-proliferative-activity B-cell lymphoma"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Parapneumonic pleural effusion",
+        "evidence": [
+          "Acute onset, with chest tightness and shortness of breath",
+          "Chest CT showed: bilateral pulmonary infiltrative changes",
+          "Complete blood count showed: white blood cell count 10.371*10^9/L, absolute neutrophil count 7.65*10^9/L",
+          "C-reactive protein: 16.46 mg/L; erythrocyte sedimentation rate: 71.01 mm/hr"
+        ],
+        "exclusion_reasons": [
+          "Before disease onset, there were no obvious symptoms such as cough, sputum production, fever, or chest pain.",
+          "No significant elevation of neutrophils on complete blood count",
+          "Pleural fluid analysis showed an increased cell count, predominantly mononuclear cells",
+          "Pleural fluid culture negative",
+          "After receiving anti-infective treatment at another hospital, the symptoms improved slightly, but the pleural effusion subsequently increased again."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Tuberculous pleurisy",
+        "evidence": [
+          "Clinical manifestations include chest tightness and shortness of breath, accompanied by increased sweating and generalized weakness",
+          "Ancillary tests showed an elevated erythrocyte sedimentation rate",
+          "Pleural fluid routine analysis showed an increased total cell count, predominantly mononuclear cells"
+        ],
+        "exclusion_reasons": [
+          "No obvious TB constitutional symptoms such as low-grade fever, night sweats, or weight loss",
+          "Serum T-SPOT test negative",
+          "Pleural fluid ADA 18 U/L",
+          "No acid-fast bacilli were found in the pleural effusion."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Primary malignant neoplasm of the lung",
+        "evidence": [
+          "Has a long-term history of chronic smoking",
+          "Clinical manifestations include chest tightness, shortness of breath, and generalized fatigue.",
+          "Pulmonary tumor markers showed CA125 173 U/ml, LDH 563 U/L",
+          "CT: Nodular thickening of the bilateral costal pleura, diaphragmatic pleura, and left mediastinal pleura; pleural metastases cannot be excluded; multiple enlarged mediastinal lymph nodes."
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as long-term chronic cough, sputum production, or blood-streaked sputum.",
+          "No space-occupying lesion was seen on chest CT",
+          "Pleural biopsy pathology does not support the diagnosis"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Non-Hodgkin lymphoma (follicular type)",
+        "evidence": [
+          "Ultrasound showed enlargement of the left supraclavicular lymph nodes",
+          "CT showed multiple enlarged mediastinal lymph nodes.",
+          "Pleural fluid cytology showed a large number of lymphocytes",
+          "Pathology from pleural puncture biopsy showed a lymphoproliferative lesion composed of small- to medium-sized cells, with occasional large cells, suggesting a low-proliferative-activity B-cell lymphoma"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "β2-microglobulin",
+          "basis_in_stage3_input": "β2-microglobulin 6.4 mg/L.",
+          "why_order_this_exam": "The patient is a 68-year-old man with chest tightness and shortness of breath for 1 month, recurrent large-volume unilateral pleural effusion, and pleural biopsy and multidisciplinary consultation have already suggested B-cell lymphoma; imaging also shows involvement at multiple sites including the mediastinum, retroperitoneum, and perirenal regions, suggesting the possibility of a systemic lymphoproliferative disorder. At this time, testing β2-microglobulin is mainly used to assess tumor burden and disease biological activity, assist in determining disease severity and prognostic risk, and can also serve as a baseline marker for subsequent monitoring of treatment response. Given his existing anemia, elevated ESR, and extensive involvement, an elevated β2-microglobulin level could further support a hematologic malignancy rather than a simple infectious or tuberculous pleural effusion, and provide a basis for staging assessment and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunofixation electrophoresis",
+          "basis_in_stage3_input": "Immunofixation electrophoresis: serum immunoglobulin M positive, κ-light chain positive.",
+          "why_order_this_exam": "Pleural pathology indicated B-cell lymphoma, and flow cytometry showed an abnormal monoclonal B-cell immunophenotype, indicating the presence of mature B-cell clonal proliferation. The purpose of ordering immunofixation electrophoresis is to further confirm whether a monoclonal immunoglobulin is present and determine its type, thereby assessing whether the tumor cells are associated with a secretory immunoglobulin abnormality. This test helps differentiate simple follicular lymphoma from other B-cell lymphoproliferative disorders associated with an IgM monoclonal protein, and can explain clues such as abnormal serum globulin and the presence of an M protein; at the same time, it provides a key basis for evaluating systemic disease involvement, subsequent hematology risk-stratified management, and treatment response follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum protein electrophoresis",
+          "basis_in_stage3_input": "Serum protein electrophoresis: albumin 56%, M protein 5.3%, M protein 3.46 g/L, A/G ratio 1.27.",
+          "why_order_this_exam": "During the course of the disease, the main manifestations were recurrent exudative pleural effusion and nodular thickening of the pleura and multiple sites. Both pleural pathology and flow cytometry suggested a clonal B-cell disorder. Serum protein electrophoresis is used to screen for and quantify the presence of M protein and to determine whether monoclonal gammopathy is present, thereby distinguishing it from nonclonal diseases such as infection, TB, and pleural metastases from common solid tumors. This test can also help explain changes in the albumin/globulin ratio, assess the degree of tumor-related humoral immune abnormalities, and, together with immunofixation electrophoresis and quantitative immunoglobulins, form a confirmation pathway for the nature of the disease. It is valuable for clarifying the diagnostic direction, identifying concomitant features of plasma cell/lymphoplasmacytic differentiation, and subsequent monitoring of treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum globulin panel",
+          "basis_in_stage3_input": "Serum globulin panel: serum immunoglobulin M 6.09 g/L.",
+          "why_order_this_exam": "In the context of the patient already having pathologic evidence of B-cell lymphoma, leukemia flow cytometry indicating an abnormal monoclonal B-cell population, and recurrent pleural effusion, testing the serum globulin panel, especially quantitative immunoglobulins, is intended to determine whether there is an abnormal increase in immunoglobulins and the specific class involved. Elevated IgM can corroborate immunofixation electrophoresis and protein electrophoresis results, supporting a clonal B-cell disorder rather than a simple inflammatory response. This test helps further differentiate different types of B-cell lymphoproliferative disorders, assess disease activity and the degree of humoral immune abnormality, and also provides a baseline for subsequent monitoring of M protein/IgM changes during treatment and for evaluating treatment response and risk of relapse.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Leukemia flow cytometry",
+          "basis_in_stage3_input": "Leukemia flow cytometry: the C-cell population accounts for 88.21% of nucleated cells, among which CD19+ lymphocytes account for 53.45% of lymphocytes and 47.15% of nucleated cells, expressing CD19 and CD10, with low-level expression of CD20, and monoclonal expression of cKappa; an abnormal B-lymphocyte immunophenotype is considered possible.",
+          "why_order_this_exam": "Although the pleural biopsy had already suggested a low-proliferation B-cell lymphoma, the initial presentation was pleural effusion and pleural involvement, and early imaging had at one point considered pleural metastatic tumor; therefore, flow cytometry is still needed to determine whether a systemic clonal B-cell population is present. This test can rapidly determine cell lineage, clonality, and immunophenotypic characteristics, addressing the key questions of whether this represents reactive lymphocytosis or malignant B-cell proliferation and which B-cell lymphoma lineage it belongs to. Monoclonal expression of CD19, CD10, and cKappa can mutually corroborate the pathologic immunohistochemistry findings, further supporting the diagnosis of follicular lymphoma/related B-cell lymphoproliferative disease, and helping to exclude pleural effusion caused by infectious pleuritis, tuberculous pleuritis, and non-hematopoietic malignant tumors; at the same time, this result is important for subsequent staging, assessment of bone marrow/peripheral blood involvement, and formulation of an anti-CD20-based treatment regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic cytology",
+          "basis_in_stage3_input": "Cytopathology: No DNA aneuploid cells were identified; a large number of lymphocytes were observed.",
+          "why_order_this_exam": "The patient's pleural effusion has long been characterized as a mononuclear cell-predominant exudate, with pleural thickening and multiple enlarged lymph nodes. In the past, it needed to be differentiated from multiple diseases such as TB, parapneumonic effusion, and pleural metastasis from lung cancer. The purpose of cytopathologic examination is to directly observe cellular morphology and assess whether there are obvious atypical epithelial cells or other malignant cells, in order to determine the nature of the lesion at the level of pleural effusion/tissue cells. Although no DNA aneuploid cells were seen, the finding of a large number of lymphocytes, together with the mononuclear cell predominance in the pleural effusion, the B-cell phenotype on pleural biopsy, and clonal rearrangement, more strongly supports a lymphoid origin rather than a typical epithelial pleural metastatic tumor. This examination plays an important guiding role in narrowing the differential diagnosis and determining whether to proceed with immunohistochemistry, flow cytometry, and molecular pathology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology FISH testing",
+          "basis_in_stage3_input": "Pathology FISH testing: FISH analysis showed that the proportion of BCL-2 gene rearrangement in this sample was approximately 2%.",
+          "why_order_this_exam": "The pleural pathology consultation has already indicated B-cell lymphoma with classification favoring follicular lymphoma; however, pleural involvement, scattered R-S-like cells, and some large-cell components mean that conventional morphology and immunohistochemistry alone still require further support at the molecular level. The main clinical purpose of FISH testing is to identify gene abnormalities related to lymphoma classification, especially to help confirm whether there is genetic evidence supporting follicular lymphoma and to assess whether there are clues suggesting other subtypes or a risk of transformation. This test can improve the accuracy of pathologic classification and reduce confusion with reactive lymphoid hyperplasia, other B-cell lymphomas, or Hodgkin-like lesions, thereby providing a more solid basis for the final diagnosis, prognostic assessment, and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology consultation",
+          "basis_in_stage3_input": "Pathology consultation report: In the (left pleura), a large amount of lymphocytic infiltration is identified in adipose tissue, diffusely distributed, mainly composed of relatively large lymphocytes, with scattered giant atypical lymphocytes. Lymphoma is considered. Immunohistochemical findings are consistent with B-cell lymphoma, with classification favoring follicular lymphoma, accompanied by scattered Reed-Sternberg-like cells. Immunohistochemistry results: tumor cells CD20+, CD3+, Ki-67+ approximately 15%, ALK-, CD30-; CD10+, Bcl-6-.",
+          "why_order_this_exam": "This case had complex clinical manifestations, with chest tightness, shortness of breath, and pleural effusion as the main features at onset. Imaging initially raised a high suspicion for pleural metastatic tumor. Preliminary pathology from pleural puncture only indicated a lymphoid hyperplastic lesion, with diagnostic uncertainty. The purpose of the pathology consultation was to perform an integrated interpretation of morphology, immunohistochemistry, and clinical imaging data on a higher-level pathology platform, in order to resolve the core question of whether this represented reactive lymphoid hyperplasia, metastatic solid tumor, or primary/secondary lymphoma. Because the specimen contained large lymphoid cells and scattered giant atypical cells, with accompanying R-S-like cells, there was a risk of misdiagnosis as another lymphoma or a Hodgkin-related lesion. Therefore, the consultation was crucial for improving the accuracy of pathologic classification, ultimately confirming a tendency toward follicular lymphoma, and guiding subsequent staging and treatment selection by hematology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry findings are consistent with B-cell lymphoma, with classification favoring follicular lymphoma, accompanied by scattered R-S-like cells. Immunohistochemistry results: tumor cells CD20+, CD3+, Ki-67+ approximately 15%, ALK-, CD30-; CD10+, Bcl-6-.",
+          "why_order_this_exam": "The patient had recurrent pleural effusion, nodular pleural thickening, and multi-station lymph node involvement. Based on imaging and routine pathology alone, it is difficult to distinguish pleural metastatic tumor, tuberculous pleuritis, reactive lymphoid hyperplasia, and lymphoma. The role of immunohistochemistry is to determine the origin and direction of differentiation of tumor cells, assess whether this is B-cell lymphoma, and further classify it and evaluate proliferative activity using markers such as CD20, CD10, Ki-67, ALK, and CD30. In this case, immunohistochemistry can distinguish extensive lymphocytic infiltration from nonspecific inflammation and, in combination with flow cytometry and clonality testing, support the diagnosis of follicular lymphoma; at the same time, the Ki-67 level and phenotypic features also help assess lesion aggressiveness, exclude other highly aggressive or special types of lymphoma, and directly affect the subsequent choice of a treatment strategy centered on anti-CD20 monoclonal antibody combined with chemotherapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Transferred to the Department of Hematology for further hematologic workup: β2-microglobulin 6.4 mg/L. Immunofixation electrophoresis: serum immunoglobulin M positive, 1K-light chain positive. Serum protein electrophoresis: albumin 56%, M protein 5.3%, M protein 3.46 g/L, A/G ratio 1.27. Serum globulin panel: serum immunoglobulin M 6.09 g/L. Leukemia flow cytometry: C cell population accounted for 88.21% of nucleated cells, of which CD19+ lymphocytes accounted for 53.45% of lymphocytes and 47.15% of nucleated cells, expressing CD19, CD10, low-level CD20, and monoclonal cKappa expression, suggesting the possibility of an abnormal B-lymphocyte immunophenotype. Cytopathology: no DNA ploidy-abnormal cells were identified; numerous lymphocytes were seen. Pathology FISH testing: by FISH, the proportion of BCL-2 gene rearrangement in this specimen was approximately 2%. Pathology consultation report: (left pleura) extensive lymphocytic infiltration was identified in adipose tissue, diffusely distributed, mainly composed of relatively large lymphocytes, with scattered markedly large atypical lymphoid cells; lymphoma is considered. Immunohistochemistry findings are consistent with B-cell lymphoma, with classification favoring follicular lymphoma, with scattered R-S-like cells. Immunohistochemistry: tumor cells CD20+, CD3+, Ki-67+ approximately 15%, ALK-, CD30-; CD10+, Bcl-6-.",
+      "images": [
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUicyfmEwuiaLDbUd2jibxicvjFUr48xH789DtSuFGnJ3ongO8IsftncMwsNA/640?wx_fmt=png",
+          "near_text": "The patient had no prior history of chronic heart failure.",
+          "local_src": "cleaned_cases_image_cache/c630a513cf3b7abcf57b64f5d9d5bf7f6dd43bea.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIT1cyJOJGn8lL5ibVjBpwUich3dibMrOdhSq2LNjiaAEz8CNwYdcFDWLloePNZZgpCWI8zmT1CFialJlg/640?wx_fmt=png",
+          "near_text": "Exudative pleural effusion,",
+          "local_src": "cleaned_cases_image_cache/ef1b09fbd4a878995a53f461a2a835661cd6f567.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Non-Hodgkin lymphoma (follicular, stage IVA); 2. Pleural effusion",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged man, acute onset",
+        "Symptoms: chest tightness and shortness of breath for more than 1 month, followed by recurrent shortness of breath; symptoms recurred after anti-infective treatment",
+        "Physical signs: signs of left pleural effusion",
+        "Contrast-enhanced chest CT showed nodular thickening of the bilateral costal pleura, diaphragmatic pleura, and left mediastinal pleura; pleural metastases could not be excluded, among other possibilities.",
+        "Pleural fluid analysis: orange-yellow turbid appearance, total cell count 28000*10^6/L, mononuclear cell percentage 85%; tumor marker CA125 elevated to 908 U/mL, among others",
+        "Color Doppler ultrasound of the cervical lymph nodes: enlarged left supraclavicular fossa lymph node",
+        "Pleural puncture biopsy pathology showed a lymphoproliferative lesion, suggesting a low-proliferative-activity B-cell lymphoma; gene rearrangement testing detected clonal rearrangement of immunoglobulin genes",
+        "Pathology consultation showed extensive lymphocytic infiltration in adipose tissue, raising consideration of lymphoma; immunohistochemistry findings were consistent with B-cell lymphoma, with classification favoring follicular lymphoma."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "BG regimen: bendamustine 100 mg (d1-2) + obinutuzumab injection 1000 mg (d1, 8, 15)",
+        "Symptomatic supportive treatment including hepatoprotective therapy and acid suppression therapy"
+      ],
+      "treatment_response": [
+        "The patient currently has no discomfort such as nausea, vomiting, fever, headache, or dizziness."
+      ]
+    }
+  }
+}

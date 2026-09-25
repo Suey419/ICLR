@@ -1,0 +1,312 @@
+{
+  "status": "success",
+  "case_id": "case_122",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient Ms. Wang, 49 years old, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"cough and sputum production for more than 1 month, worsening with dyspnea for 1 week.\" History of present illness: More than 1 month before admission, the patient reported that after contracting \"COVID-19,\" she developed cough and sputum production, mostly white thin sputum, accompanied by fatigue. After self-medicating with \"999 Ganmaoling,\" her cough, sputum production, and fatigue improved compared with before. One week before admission, the patient developed dyspnea without an obvious precipitating factor, without chest pain or fever, and presented to the cardiology outpatient clinic of our hospital. Cardiology outpatient examination reports: liver and kidney function, cardiac enzymes, troponin I, and D-dimer showed no obvious abnormalities; ECG (showed ST-segment depression in some leads and low-flat T waves); exercise test showed: cardiac exercise stress test suspiciously positive; US (Day -5) showed mild tricuspid regurgitation; coronary CTA (Day -3) showed no obvious abnormality on coronary CTA, with right pneumothorax, multiple pulmonary bullae in both lungs, and right lung inflammation as shown. Since onset, the patient has had poor appetite, poor sleep, normal bowel and bladder function, suboptimal general condition, and no obvious change in weight. Past medical history: The patient had two episodes of sudden dyspnea 16 years ago and 4 years ago. During the first episode, she was seen at a local hospital, diagnosed with pneumothorax, and discharged after symptom relief following pleural air evacuation. During the second episode, she did not seek medical attention, and the symptoms resolved after resting for 2 weeks. Aside from these two episodes, the patient was previously healthy, with no history of hypertension or heart disease, no history of diabetes or cerebrovascular disease, and no history of hepatitis, TB, or malaria. Personal history: Born in Baofeng County, Henan Province, long-term local resident, with no history of exposure to epidemic areas, outbreaks, or contaminated water; no history of exposure to chemical substances, radioactive substances, or toxic substances; no smoking or alcohol use. Family history: Father died due to \"dyspnea\" (details unknown), and the exact cause of death is currently unknown; siblings are healthy, with no diseases similar to the patient's, and no family history of hereditary disease. Physical examination: Temperature 36.3℃/36.6℃, pulse 88 beats/min/112 beats/min, respiratory rate 22 breaths/min/27 breaths/min, blood pressure 105/63 mmHg/131/90 mmHg. Tachypnea, normal intercostal spaces, normal tactile fremitus, no pleural friction fremitus, no subcutaneous crepitus, resonant percussion note, moist crackles audible in the right lower lung, no pleural friction rub, and normal vocal resonance.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5zoXXVjYM9rPoMyBSaiaYuKnXS59ZiapiaNIlibKD8GK9Z79wichgHSyTAia0qEjZ0E5dEsNESBJS7N5g/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Outpatient chest CT showed right pneumothorax and multiple pulmonary bullae in both lungs.",
+          "local_src": "cleaned_cases_image_cache/e52e5369a8eaef12774f481ef1dfa5e20bbe29f8.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Right-sided spontaneous pneumothorax (more likely secondary; consider association with pulmonary bullae/cystic lung disease)",
+          "supporting_evidence": [
+            "Chief complaint was \"worsening accompanied by dyspnea for 1 week,\" and 16 years previously he had been \"diagnosed with pneumothorax; symptoms were relieved after pleural decompression treatment and he was discharged.\" Four years previously, he also had \"sudden dyspnea\" that resolved spontaneously, suggesting the possibility of recurrent pneumothorax.",
+            "Coronary CTA (Day -3) clearly indicated \"right pneumothorax, multiple pulmonary bullae in both lungs, right lung inflammation\"",
+            "The phase 1 image shows a large radiolucent area in the right pleural cavity, with compressive collapse of the right lung, consistent with imaging features of a right pneumothorax.",
+            "Physical examination shows shortness of breath, pulse up to 112 beats/min, respiratory rate 27 breaths/min, consistent with dyspnea caused by pneumothorax"
+          ],
+          "opposing_evidence": [
+            "Physical examination documented \"normal tactile fremitus,\" \"resonant percussion note,\" and \"no subcutaneous crepitus\"; there was no description of the typical decreased tactile fremitus on the affected side or increased hyperresonance.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "The patient is a 49-year-old woman",
+            "No smoking history, but coronary CTA indicated \"multiple pulmonary bullae in both lungs\"; first-stage images showed multiple cystic/bulla-like lucent lesions in both lungs, consistent with manifestations of diffuse cystic lung disease.",
+            "History of recurrent spontaneous pneumothorax: pneumothorax was confirmed 16 years ago; 4 years ago, sudden dyspnea recurred and then resolved spontaneously; this episode again presents with right-sided pneumothorax",
+            "Dyspnea can recur repeatedly, and coronary CTA showed no obvious coronary artery abnormalities, making pneumothorax related to pulmonary cystic lesions a greater consideration."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no supporting data were provided regarding renal angiomyolipoma, chylothorax, or manifestations associated with tuberous sclerosis.",
+            "In the first stage, the text described the imaging finding as \"pulmonary bullae\" and did not clearly indicate diffuse, uniform, thin-walled pulmonary cysts."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bullous emphysema/emphysema-related secondary spontaneous pneumothorax",
+          "supporting_evidence": [
+            "Coronary CTA clearly indicated “multiple pulmonary bullae in both lungs”",
+            "In the first-stage images, multiple lucent areas are visible in both lungs, with a marked right-sided pneumothorax, supporting secondary pneumothorax caused by ruptured pulmonary bullae.",
+            "History of pneumothorax, suggesting that underlying structural lung abnormalities may persist",
+            "The main symptom this time was worsening dyspnea, consistent with pneumothorax after rupture of a pulmonary bulla."
+          ],
+          "opposing_evidence": [
+            "The patient “has no history of smoking or alcohol use,” and was “previously in good health” except for two prior episodes of dyspnea/pneumothorax, which does not typically support the common background of smoking-related emphysema.",
+            "A 49-year-old female; typical smoking-related bullous emphysema would be relatively uncommon."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Infectious lesion in the right lung (post-COVID secondary infection or post-infectious inflammatory changes)",
+          "supporting_evidence": [
+            "Chief complaint: 'cough and sputum production for more than 1 month'; the sputum was 'thin white sputum,' accompanied by 'fatigue'.",
+            "History includes “developed cough and sputum production after infection with ‘novel coronavirus’”",
+            "Coronary CTA suggested \"right lung inflammation\"",
+            "Physical examination: \"moist rales can be heard in the right lower lung,\" supporting the presence of right lung consolidation or infectious/inflammatory exudation."
+          ],
+          "opposing_evidence": [
+            "The patient had no chest pain or fever.",
+            "The sputum was described as \"white, thin sputum\"; no purulent sputum was described.",
+            "In Phase 1, no evidence of infection such as WBC, CRP, or PCT was provided"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Birt-Hogg-Dubé syndrome-associated pulmonary cysts with spontaneous pneumothorax",
+          "supporting_evidence": [
+            "History of recurrent pneumothorax; recurrent right-sided pneumothorax on this presentation",
+            "Stage 1 imaging and CTA suggested multiple bilateral pulmonary cystic/bullous lesions",
+            "There is a family history clue: the father died of \"dyspnea\"; although the details are unknown, this suggests the possibility of a familial lung disease."
+          ],
+          "opposing_evidence": [
+            "The family history also states: \"Siblings are healthy, with no diseases similar to the patient's, and no family history of hereditary disease.\"",
+            "Stage I information did not provide data on skin fibrofolliculomas, renal tumors, or a typical family history of spontaneous pneumothorax.",
+            "The stage 1 images did not provide typical distribution details of pulmonary cysts."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary Langerhans cell histiocytosis (PLCH) or other diffuse cystic lung disease",
+          "supporting_evidence": [
+            "The phase I imaging and CTA showed multiple bilateral pulmonary cystic/bullous-like lesions, with concomitant spontaneous pneumothorax, consistent with a diffuse cystic lung disease spectrum requiring differential diagnosis.",
+            "A history of recurrent pneumothorax suggests underlying cystic lung disease."
+          ],
+          "opposing_evidence": [
+            "The patient had no history of smoking or alcohol use, whereas PLCH is typically closely associated with smoking.",
+            "The patient is a 49-year-old woman, whose demographic characteristics are atypical for PLCH.",
+            "Stage 1 information did not provide more typical imaging descriptions such as upper-lung-predominant nodule-to-cyst evolution."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "optional"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "troponin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum vascular endothelial growth factor-D test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Whole-exome sequencing",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, relevant examinations were completed. Arterial blood gas analysis: on oxygen 3 L/min, partial pressure of oxygen 80.9 mmHg, oxygenation index 245; CBC, coagulation tests, blood biochemistry, inflammatory markers, myocardial enzymes, BNP, and troponin showed no obvious abnormalities. Repeat chest CT showed that the right pneumothorax had been markedly absorbed compared with before; after re-expansion of the right lung, multiple pulmonary bullae were seen in the right lung.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5zoXXVjYM9rPoMyBSaiaYugwSNvMpsxJibvhdzZ019NbXsnrVqXnSkpvNWrFuAzXvMrRo7ia32K0eA/640?wx_fmt=jpeg",
+            "near_text": "Figure 2. Chest CT 3 days after thoracentesis and drainage: right pneumothorax decreased, multiple pulmonary bullae in both lungs.",
+            "local_src": "cleaned_cases_image_cache/e0d6799a681e8f2dfb6def69bbfb002630515522.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "primary spontaneous pneumothorax",
+            "evidence": [
+              "Middle-aged woman with recurrent sudden dyspnea and a past history of 2 episodes related to pneumothorax",
+              "This chest CT showed a right pneumothorax and multiple pulmonary bullae in both lungs",
+              "After therapeutic thoracentesis with air evacuation, symptoms were significantly relieved and the pneumothorax was absorbed."
+            ],
+            "exclusion_reasons": [
+              "The patient has no smoking history, with multiple pulmonary bullae in both lungs and recurrent pneumothorax, which cannot be explained solely by primary spontaneous pneumothorax."
+            ]
+          },
+          {
+            "name": "Lymphangioleiomyomatosis (LAM)",
+            "evidence": [
+              "Middle-aged woman with recurrent spontaneous pneumothorax and multiple cystic lesions in both lungs, consistent with the clinical and imaging features of LAM",
+              "Genetic testing indicated a TSC2 gene mutation; TSC2 is associated with lymphangioleiomyomatosis."
+            ],
+            "exclusion_reasons": [
+              "Typical manifestations of LAM are diffusely distributed thin-walled small cysts in both lungs with diameters <30 mm; in this case, the cysts vary in size, predominantly involve both lower lungs, and are irregular in shape.",
+              "The patient has no typical associated manifestations of LAM such as chylothorax, chylous ascites, renal AML, or lymphadenopathy.",
+              "Serum vascular endothelial growth factor-D could not be measured, with no supportive lung biopsy pathology"
+            ]
+          },
+          {
+            "name": "Birt-Hogg-Dubé (BHD) syndrome",
+            "evidence": [
+              "Chest CT showed multiple cystic airspaces in both lungs, predominantly distributed in the subpleural regions of the bilateral lower lungs; the cysts varied in size and were irregular in shape, consistent with the imaging features of BHD.",
+              "Whole-exome sequencing detected a suspected pathogenic FLCN gene c.251delG mutation, meeting the major diagnostic criteria for BHD",
+              "Recurrent spontaneous pneumothorax, consistent with the typical clinical manifestations of BHD syndrome"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "primary spontaneous pneumothorax",
+        "evidence": [
+          "Middle-aged woman with recurrent sudden dyspnea and a past history of 2 episodes related to pneumothorax",
+          "This chest CT showed a right pneumothorax and multiple pulmonary bullae in both lungs",
+          "After therapeutic thoracentesis with air evacuation, symptoms were significantly relieved and the pneumothorax was absorbed."
+        ],
+        "exclusion_reasons": [
+          "The patient has no smoking history, with multiple pulmonary bullae in both lungs and recurrent pneumothorax, which cannot be explained solely by primary spontaneous pneumothorax."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphangioleiomyomatosis (LAM)",
+        "evidence": [
+          "Middle-aged woman with recurrent spontaneous pneumothorax and multiple cystic lesions in both lungs, consistent with the clinical and imaging features of LAM",
+          "Genetic testing indicated a TSC2 gene mutation; TSC2 is associated with lymphangioleiomyomatosis."
+        ],
+        "exclusion_reasons": [
+          "Typical manifestations of LAM are diffusely distributed thin-walled small cysts in both lungs with diameters <30 mm; in this case, the cysts vary in size, predominantly involve both lower lungs, and are irregular in shape.",
+          "The patient has no typical associated manifestations of LAM such as chylothorax, chylous ascites, renal AML, or lymphadenopathy.",
+          "Serum vascular endothelial growth factor-D could not be measured, with no supportive lung biopsy pathology"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Birt-Hogg-Dubé (BHD) syndrome",
+        "evidence": [
+          "Chest CT showed multiple cystic airspaces in both lungs, predominantly distributed in the subpleural regions of the bilateral lower lungs; the cysts varied in size and were irregular in shape, consistent with the imaging features of BHD.",
+          "Whole-exome sequencing detected a suspected pathogenic FLCN gene c.251delG mutation, meeting the major diagnostic criteria for BHD",
+          "Recurrent spontaneous pneumothorax, consistent with the typical clinical manifestations of BHD syndrome"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Peripheral blood whole-exome sequencing",
+          "basis_in_stage3_input": "After whole-exome sequencing of the patient's peripheral blood, two positive pathogenic gene mutations were identified: FLCN and TSC2 gene mutations.",
+          "why_order_this_exam": "The patient is a 49-year-old woman with a history of recurrent sudden dyspnea 16 years ago and 4 years ago, with at least 1 episode clearly identified as pneumothorax. She was admitted again for worsening dyspnea after cough and sputum production. Imaging suggested right pneumothorax and multiple bilateral cystic/bulla-like lesions. Given the absence of a smoking history, common acquired pulmonary bullae cannot fully explain the findings, and hereditary diffuse cystic lung disease should be strongly considered. Peripheral blood whole-exome sequencing can screen at the germline level for gene abnormalities related to BHD, LAM/TSC, and others, addressing the key clinical question of whether there is a genetic etiology for the patient's recurrent spontaneous pneumothorax and multiple pulmonary cysts. This test may help etiologic stratification among BHD syndrome, LAM, and other cystic lung diseases, and provide a basis for subsequent decisions regarding family screening, assessment of renal and other extrapulmonary involvement, long-term follow-up, and genetic counseling; compared with lung biopsy, it is also a noninvasive test and is safer in the setting of pneumothorax and a giant cystic cavity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic variant analysis",
+          "basis_in_stage3_input": "Genetic variant analysis: (1) The FLCN gene c.251delG(p.Gly84fs) is a frameshift variant; according to the ACMG guidelines, this variant was classified as a likely pathogenic genetic variant. (2) The TSC2 gene c.3880G>T(p.Ala1294Ser) is a missense variant; according to the ACMG guidelines, this variant was classified as a genetic variant of uncertain significance.",
+          "why_order_this_exam": "After whole-exome sequencing identified dual-gene variants in FLCN and TSC2, a definitive diagnosis cannot be made solely on the basis of \"detected variants\"; standardized interpretation of variant pathogenicity is required. The patient's chest CT showed multiple pulmonary cystic airspaces in both lungs, unevenly distributed, predominantly in the lower lungs, variable in shape and size with partial confluence, together with a history of recurrent spontaneous pneumothorax. These imaging and clinical phenotypes are more suggestive of BHD. Although LAM had been included in the differential diagnosis, this case lacks supporting evidence such as the typical uniform diffuse small thin-walled cysts, chylous complications, and renal AML. Therefore, the core purpose of performing genetic variant analysis is to determine whether the FLCN variant reaches the likely pathogenic/pathogenic classification, thereby supporting the diagnosis of BHD; at the same time, to determine whether the TSC2 variant is only of uncertain significance, so as to avoid misattributing the case to LAM or TSC-related disease. This testing directly serves the key differential diagnosis, improves assessment of concordance between the genetic results and the imaging phenotype, and will also affect the subsequent follow-up focus, targeted testing of family members, and screening strategies for extrapulmonary complications.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT showed multiple cystic airspaces in both lungs, unevenly distributed, more prominent in the bilateral lower lungs, with partial confluence of some cystic spaces; the maximum diameter was 67 mm.",
+          "why_order_this_exam": "The patient presented for worsening dyspnea. He has a prior history of recurrent pneumothorax. Before admission, coronary CTA had already shown a right-sided pneumothorax and multiple pulmonary bullae in both lungs. After admission, symptoms were relieved after thoracentesis for air evacuation and oxygen therapy, but chest CT is still needed to further accurately assess pneumothorax resorption, lung re-expansion, and the morphologic features of the underlying cystic lung disease. In this case, chest CT is not only a tool for assessing disease severity, but also the key to the differential diagnosis: BHD often presents with multiple pulmonary cysts in the bilateral lower lungs and subpleural regions, varying in size and irregular in shape, with partial confluence; whereas LAM more often shows diffuse distribution of relatively uniform small thin-walled cysts. The core questions this examination needs to address include: whether the patient's intrapulmonary lesions are simply pulmonary bullae, post-infectious changes, or hereditary cystic lung disease; what the structural basis of the recurrent pneumothorax is; and whether there is currently any pneumothorax or other complication requiring continued management. The CT findings directly affect the direction of the final definitive diagnosis and are also related to whether further genetic confirmation is needed, whether high-risk invasive procedures should be avoided, and the formulation of long-term management and recurrence prevention strategies.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After whole-exome sequencing of the patient's peripheral blood, two positive disease-related gene mutations were identified: FLCN and TSC2 gene mutations. Variant analysis: (1) FLCN c.251delG (p.Gly84fs) is a frameshift variant; according to the ACMG guidelines, this variant was classified as likely pathogenic. (2) TSC2 c.3880G>T (p.Ala1294Ser) is a missense variant; according to the ACMG guidelines, this variant was classified as a variant of uncertain significance. Chest CT showed multiple pulmonary cysts in both lungs, unevenly distributed, predominantly in the bilateral lower lungs, with partial cyst confluence; the maximum diameter was 67 mm.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5zoXXVjYM9rPoMyBSaiaYuoK5nDx7qrfNXPFiafMy66M52PE6puodAc0V8uGIzDgk97aBLMkUCoTg/640?wx_fmt=jpeg",
+          "near_text": "Figure 3: The patient’s genetic testing results show mutations in the FLCN and TSC2 genes.",
+          "local_src": "cleaned_cases_image_cache/5597bfec8db35fa35ec06d38dd40d397a8fb0c66.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5zoXXVjYM9rPoMyBSaiaYuyXnNicB2bxmDgZMkdUyEusO2VvNXwjLVjOzBclnQlic8MKAaAScscEMQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 4. Chest CT showed multiple cysts in both lungs, more prominent in the bilateral lower lungs.",
+          "local_src": "cleaned_cases_image_cache/350cd34c22d6cfdb5acf0558198ecb00ba12de5c.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Birt-Hogg-Dubé (BHD) syndrome",
+      "diagnostic_basis": [
+        "A pathogenic germline mutation in the FLCN gene is present, meeting 1 major diagnostic criterion for BHD",
+        "Chest CT showed multiple pulmonary cystic airspaces in both lungs, unevenly distributed, predominantly in the bilateral lower lungs, with partial confluence of some cystic spaces, consistent with the imaging features of BHD (the cystic spaces tend to be distributed in the basal subpleural regions, and the cysts are irregular in shape and variable in size)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Thoracentesis with evacuation of air",
+        "Oxygen inhalation",
+        "Expectorant and antiasthmatic treatment",
+        "Symptomatic treatment including cough suppression"
+      ],
+      "treatment_response": [
+        "The patient's symptoms were significantly relieved",
+        "Repeat chest CT showed the right-sided pneumothorax had been significantly reabsorbed compared with the previous study."
+      ]
+    }
+  }
+}

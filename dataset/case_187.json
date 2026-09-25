@@ -1,0 +1,370 @@
+{
+  "status": "success",
+  "case_id": "case_187",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 70 years old. Chief complaint: \"fever and shortness of breath for 4 days,\" admitted from the emergency department. History of present illness: 4 days before admission, the patient developed fever without an obvious trigger, with a self-measured maximum temperature of 38.5℃, accompanied by chills and rigors, as well as chest tightness and shortness of breath; he became dyspneic with slight activity. There was no cough, sputum production, or hemoptysis. He presented to our emergency department. CBC showed: WBC 10.1×10^9, Hb 120g/l, PLT 376×10^9, PCT negative. Chest CT: 1. Postoperative changes of right lung cancer and tracheal cancer; loculated right pleural effusion, slightly decreased compared with before; small left pleural effusion, slightly absorbed compared with before; right lower pleural thickening and adhesions with calcification; partial incomplete expansion of the residual lung. 2. Scattered infectious lesions in the remaining bilateral lungs with partial interstitial changes; some lesions in the left upper lobe were absorbed compared with before, while most of the remaining lesions were newly developed compared with before. 3. Emphysema in the remaining lungs with a small amount of chronic inflammation and pulmonary bullae, similar to before. Community-acquired pneumonia was considered, and he was treated with \"moxifloxacin (400mg QD 08.17-08.18), ertapenem (1g QD 08.19-08.21), anti-infective therapy, antipyretic therapy, and fluid replacement,\" but he continued to have recurrent fever, and his chest tightness and shortness of breath were unchanged. He was then admitted for further diagnosis and treatment under the outpatient provisional diagnosis of \"community-acquired pneumonia.\" Past history: 5 years ago, because of \"right lower lung cancer,\" he underwent \"right lower lobectomy + mediastinal lymph node dissection\" at Fuzhou Pulmonary Hospital, with a smooth operation. 4 years ago, because of \"bronchial squamous cell carcinoma,\" he underwent \"tracheal mass resection + tracheal reconstruction\" at our hospital, with a smooth operation; after surgery, he received 4 cycles of chemotherapy at our hospital with \"paclitaxel 210mg + cisplatin 60mg,\" without obvious chemotherapy-related adverse reactions. 3 years ago, because of \"squamous cell carcinoma of the right middle lobe bronchus,\" he underwent \"resection of right middle lobe + right intermediate bronchial trunk mass\" at our hospital. Starting 2 years ago, he has been treated with \"sintilimab (PD-1 inhibitor)\" at a tertiary hospital and continues to the present. He also has a history of \"diabetes mellitus, subtotal gastrectomy, and COPD.\" Personal history: smoked for 31 years, averaging 40 cigarettes/day, quit smoking 6 years ago. Family history: self-reported as unremarkable. Physical examination on admission: T: 36.7℃, P: 78/min, R: 23/min, BP: 102/72mmHg, SPO2 95% (FiO2 21%). Multiple round nodules of varying size were visible on the trunk and extremities. A surgical scar approximately 5 cm in length was visible on the anterior chest, and surgical scars approximately 5 cm in length were visible on the right lateral chest and back. Breath sounds were decreased in the right lung; breath sounds in both lungs were clear; no obvious dry or moist rales were heard; no pleural friction rub was heard. Cardiac rhythm was regular, P2<A2, no pathologic murmur was heard in any valve auscultation area, and no pericardial friction rub was heard. The abdomen was soft, without tenderness or rebound tenderness, and no abdominal mass was present. The liver was not palpable below the costal margin, the spleen was not palpable below the costal margin, Murphy's sign was negative, there was no percussion tenderness over the liver or kidney regions, and shifting dullness was negative. Bowel sounds were 4/min. No edema in either lower extremity. Auxiliary examinations: CBC (Day 0): white blood cell count 7.4×10^9/L, lymphocytes 12.5%, eosinophils 16.0%, hemoglobin 99g/L, platelet count 412×10^9L. C-reactive protein: 46.60mg/L. Coagulation function: fibrinogen 5.14g/L, antithrombin III 73.4%, D-dimer 1.72mg/L. Tumor markers: NSE 18.63ng/mL, SCC 21.84ng/mL, CYFRA21-1 15.21ng/mL; CA199, proGRP, CEA, AFP, and PSA showed no abnormality. Therapeutic aspiration of the right pleural effusion was performed, and post-procedure pleural fluid testing showed: routine pleural fluid analysis: turbidity cloudy, color yellow, Rivalta test positive, white blood cell count 11667×10^6/L, nucleated cell count 11672×10^6/L, mononuclear cells 34%, multinuclear cells 66%. Pleural fluid biochemistry: total protein 30g/L, albumin 16g/L, glucose 5.86mmol/L, lactate dehydrogenase 124U/L, chloride 101mmol/L, adenosine deaminase 8.00U/L. Pleural fluid culture showed no abnormality. Sputum culture, blood culture, and respiratory eight-panel were negative. No obvious abnormalities were found in biochemistry, routine urinalysis, routine stool test + OB test, cTnI, proBNP, syphilis antibody, hepatitis C antibody, or HIV antibody. Non-contrast chest CT at our hospital (Day +9) showed: 1. Postoperative changes of right lung cancer and tracheal cancer; loculated right pleural effusion, increased compared with before; small left pleural effusion, increased compared with before; right lower pleural thickening and adhesions with calcification; partial expansion of the residual lung. 2. Scattered infectious lesions in the remaining bilateral lungs with partial interstitial changes, increased compared with before. 3. Emphysema in the remaining lungs with a small amount of chronic inflammation and pulmonary bullae, similar to before.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/oO68PgQvn8FX48icpAzDmibVlEbXwlnZ8MuiaFYRKApKdsPbRicmP0icAaroFYv4h5CNQ9tOKF7NrM7ysr6QTGT1iamILs7g62RDwGzVPibCmU4eYs/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figures 1-2. Non-contrast chest CT performed at our hospital (Day +9) showed:",
+          "local_src": "cleaned_cases_image_cache/191a97e4bd2e1065159d8bfb22fe8ad995c04dcd.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "PD-1 inhibitor-related immune pneumonitis (checkpoint inhibitor pneumonitis)",
+          "supporting_evidence": [
+            "The phase 1 text indicates that the patient has a background of immunotherapy-related lung injury to date during treatment with sintilimab (PD-1 inhibitor).",
+            "The patient presented with fever, chest tightness, shortness of breath, and dyspnea with slight exertion, consistent with the spectrum of respiratory symptoms seen in immune-related pneumonitis.",
+            "Chest CT showed \"scattered infectious lesions in both lungs with some interstitial changes,\" and on subsequent imaging these were \"increased compared with before\"; diffuse/multifocal bilateral lung lesions with interstitial changes are consistent with one of the imaging manifestations of immune-related pneumonitis.",
+            "The attached images show multiple patchy/confluent consolidations and interstitial opacities in both lungs, with a bilateral distribution.",
+            "After anti-infective therapy with moxifloxacin and ertapenem, the patient continued to have recurrent fever, chest tightness, and shortness of breath without improvement, which does not support simple common bacterial infection.",
+            "PCT negative; sputum culture, blood culture, and respiratory eight-panel all negative; no abnormalities detected on pleural fluid culture, indicating that there is currently no clear microbiological evidence.",
+            "Peripheral blood eosinophils increased to 16.0%, suggesting a possible drug-/immune-related inflammatory response"
+          ],
+          "opposing_evidence": [
+            "The patient had definite fever, chills, shivering, and an elevated CRP of 46.60 mg/L; these findings can also be seen in infectious pneumonia, reducing their specificity.",
+            "The phase 1 information did not provide the precise chronology between the recent timing of immunotherapy administration and symptom onset."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Community-acquired pneumonia/atypical pathogen pneumonia",
+          "supporting_evidence": [
+            "Chief complaint: \"Fever and shortness of breath for 4 days\"; maximum temperature before admission was 38.5℃, accompanied by chills and rigors",
+            "CRP 46.60 mg/L is elevated, suggesting an inflammatory response.",
+            "Chest CT described \"scattered infectious lesions in both lungs with some interstitial changes,\" and most of the lesions were newly developed, with subsequent increase compared with the prior study.",
+            "The accompanying images show multiple abnormal pulmonary parenchymal opacities in both lungs, supporting the possibility of inflammatory lung lesions.",
+            "Advanced age, COPD, diabetes, and incomplete expansion of the residual lung after multiple prior pulmonary surgeries all increase the risk of pulmonary infection",
+            "The pleural effusion is exudative and may occur in association with pneumonia-related pleuritis."
+          ],
+          "opposing_evidence": [
+            "PCT negative",
+            "The white blood cell count was not significantly elevated; after admission it was 7.4×10^9/L",
+            "After anti-infective treatment with moxifloxacin and ertapenem, recurrent fever, chest tightness, and shortness of breath persisted as before.",
+            "Sputum culture, blood culture, and respiratory eight-panel were negative; pleural fluid culture showed no abnormalities",
+            "No typical lower respiratory tract infection symptoms such as cough or sputum production"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary involvement related to tumor progression (intrapulmonary metastases/lymphangitic carcinomatosis/tumor-related inflammatory changes)",
+          "supporting_evidence": [
+            "History of right lower lung cancer, bronchial squamous cell carcinoma, and squamous cell carcinoma of the right middle lung bronchus; a history of multiple pulmonary and airway malignancies indicates a high risk of tumor progression",
+            "Elevated tumor markers: SCC 21.84 ng/mL, CYFRA21-1 15.21 ng/mL, and NSE 18.63 ng/mL",
+            "CT showed new lesions in both lungs with an increased number compared with previously; meanwhile, the bilateral pleural effusions had increased compared with previously, consistent with possible tumor activity or pleural involvement.",
+            "The attached image shows extensive abnormal opacities in both lungs with bilateral pleural effusions; pulmonary involvement related to malignant tumor should be highly suspected.",
+            "Postoperative changes after right lung and tracheal cancer surgery, with incomplete expansion of the remaining lung, may complicate imaging interpretation and obscure tumor progression."
+          ],
+          "opposing_evidence": [
+            "This episode had an acute onset, with fever, chills, rigors, and shortness of breath developing within 4 days, a time course more commonly seen in acute infectious/inflammatory diseases.",
+            "The CT report explicitly uses \"infectious lesion\" to describe the bilateral lung lesions.",
+            "The information from the first stage did not provide clear evidence of enlargement of the intrapulmonary mass, significant progression of mediastinal lymph nodes, or cytologic evidence of malignancy in pleural fluid."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Malignant pleural effusion/neoplastic pleural involvement",
+          "supporting_evidence": [
+            "The patient has a history of multiple pulmonary malignancies.",
+            "Chest CT showed a loculated right pleural effusion, increased compared with prior; a small left pleural effusion, increased compared with prior.",
+            "Physical examination showed decreased breath sounds in the right lung, consistent with signs of pleural effusion",
+            "Pleural fluid Rivalta test positive, total protein 30 g/L, consistent with exudative pleural effusion; malignant pleural effusion should be differentiated.",
+            "Pleural fluid culture showed no abnormalities, decreasing support for simple bacterial empyema"
+          ],
+          "opposing_evidence": [
+            "Routine pleural fluid analysis showed increased white blood cells and nucleated cells, predominantly polymorphonuclear cells (66%), which is more commonly seen in inflammatory pleural effusion.",
+            "Pleural fluid ADA 8.00 U/L does not support tuberculous pleurisy, but also does not directly support malignant pleural effusion.",
+            "Stage 1 information did not provide pleural fluid cytology findings of malignant cells",
+            "The marked increase in bilateral pulmonary parenchymal lesions and fever cannot be fully explained by pleural effusion alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary embolism",
+          "supporting_evidence": [
+            "The patient presented primarily with acute shortness of breath and became short of breath with slight activity.",
+            "History of malignancy, a high-risk background for venous thromboembolism",
+            "Elevated D-dimer 1.72 mg/L",
+            "Bilateral pleural effusions may be seen in some cases of pulmonary embolism."
+          ],
+          "opposing_evidence": [
+            "The patient presented with fever, chills, and rigors; meanwhile, chest CT showed newly developed scattered infectious lesions in both lungs with interstitial changes, further supporting pulmonary inflammatory/immunologic disease.",
+            "Vital signs relatively stable, SpO2 95% (FiO2 21%), no obvious signs of hemodynamic instability",
+            "Phase 1 information did not provide chest pain, hemoptysis, lower extremity swelling/pain, or CT pulmonary angiography evidence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid aspiration and submission for testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory eight-panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine stool examination + fecal occult blood test",
+          "requirement": "required"
+        },
+        {
+          "exam": "cTnI",
+          "requirement": "required"
+        },
+        {
+          "exam": "proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "syphilis antibody, hepatitis C antibody, HIV antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "ECG",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Secretion culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, cefoperazone/sulbactam 3 g Q12h was given for anti-infective treatment, but recurrent fever persisted. On day 4 after admission, there was sudden worsening of dyspnea, accompanied by cough, expectoration of a small amount of yellow purulent sputum, fever, and chills. Physical examination: vital signs were stable; a large number of moist rales were heard in both lungs. Ancillary examinations: arterial blood gas analysis (FiO2=41%): pH 7.37, PaCO2 42 mmHg, PaO2 106 mmHg, oxygenation index 259 mmHg; complete blood count: WBC 18.2×10^9/L, NE 92.3%, PCT 7.32 ng/ml, D-dimer 2.11 mg/L, ECG showed no abnormality, BNP negative, troponin I 0.12 ng/ml. Bronchoscopy and secretion culture were completed and showed no obvious abnormality.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Community-acquired pneumonia",
+            "evidence": [
+              "Initially community-onset, presenting with fever and shortness of breath; CBC showed a mildly elevated leukocyte count, and chest CT showed newly developed patchy infiltrates and interstitial changes."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "hospital-acquired pneumonia",
+            "evidence": [
+              "4 days after admission, the patient developed sudden worsening dyspnea, accompanied by cough and expectoration of a small amount of yellow purulent sputum, with fever and chills. Physical examination revealed numerous moist rales in both lungs. Arterial blood gas analysis indicated type I respiratory failure, and the blood counts and PCT were significantly elevated."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "AECOPD",
+            "evidence": [
+              "The patient has a history of COPD; the possibility of AECOPD caused by pulmonary infection should be considered."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Immune checkpoint inhibitor-related pneumonitis",
+            "evidence": [
+              "The patient is of advanced age, has underlying pulmonary disease (COPD), and previously received immune checkpoint inhibitor therapy. After admission, dyspnea worsened. On physical examination, crackles were audible in the lungs. Chest CT showed bilateral interstitial changes. After anti-infective treatment, there was no significant improvement in symptoms."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "The patient has high-risk factors such as advanced age and a history of malignancy, presenting with progressive dyspnea and elevated D-dimer."
+            ],
+            "exclusion_reasons": [
+              "The patient had no hemoptysis. On physical examination, A2 > P2. The ECG showed no SIQIIITIII pattern."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "hospital-acquired pneumonia",
+        "evidence": [
+          "4 days after admission, the patient developed sudden worsening dyspnea, accompanied by cough and expectoration of a small amount of yellow purulent sputum, with fever and chills. Physical examination revealed numerous moist rales in both lungs. Arterial blood gas analysis indicated type I respiratory failure, and the blood counts and PCT were significantly elevated."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "AECOPD",
+        "evidence": [
+          "The patient has a history of COPD; the possibility of AECOPD caused by pulmonary infection should be considered."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Immune checkpoint inhibitor-related pneumonitis",
+        "evidence": [
+          "The patient is of advanced age, has underlying pulmonary disease (COPD), and previously received immune checkpoint inhibitor therapy. After admission, dyspnea worsened. On physical examination, crackles were audible in the lungs. Chest CT showed bilateral interstitial changes. After anti-infective treatment, there was no significant improvement in symptoms."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "blood count",
+          "basis_in_stage3_input": "After the relevant treatment, the patient's blood counts and inflammatory markers had both decreased compared with before, and sputum culture and blood culture were unremarkable, but low-grade fever and shortness of breath persisted.",
+          "why_order_this_exam": "The patient presented with fever and dyspnea. After hospitalization, there was worsening dyspnea, coughing up a small amount of yellow purulent sputum, and extensive moist rales in both lungs, and at one point there were elevated WBC 18.2×10^9/L and NE 92.3% as well as type I respiratory failure, suggesting that the condition had significantly worsened. Although the blood counts subsequently decreased compared with before after treatment, persistent low-grade fever and dyspnea remained, indicating that whether the infectious activity has been completely controlled, whether there is still an inflammatory response, or whether it has shifted to a noninfectious etiology remains not fully clear. Repeat CBC can dynamically assess changes in leukocytes and neutrophils, evaluate the response to anti-infective therapy and the current severity, and, together with the prior clue of elevated eosinophils at 16.0%, also help observe whether there is a trend toward immune-related inflammation or a drug-related eosinophilic reaction, thereby providing a basis for continuing anti-infective therapy, considering corticosteroid therapy, and adjusting treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "basis_in_stage3_input": "After the relevant treatment, the patient's blood counts and inflammatory markers had both decreased compared with before, and sputum culture and blood culture were unremarkable, but low-grade fever and shortness of breath persisted.",
+          "why_order_this_exam": "The patient initially had fever, chills, and rigors, with elevated CRP 46.60mg/L. After hospitalization, the condition further worsened, and PCT increased from initially negative to 7.32ng/ml, suggesting that a significant inflammatory/infectious response had been present; however, after multiple rounds of anti-infective therapy, the symptoms did not completely improve in parallel. At this point, continued monitoring of inflammatory markers was intended to determine whether the inflammatory burden was truly decreasing, whether there was still a persistent infectious focus, or whether persistent symptoms were due to noninfectious inflammation such as immune checkpoint inhibitor-related pneumonitis. Dynamic changes in inflammatory markers can be integrated with blood counts, pathogen testing, and imaging to assess disease severity, differentiate the relative likelihood of infection versus immune-mediated lung injury, and guide whether to continue, escalate, or discontinue antimicrobial therapy, as well as when to consider more aggressive treatment such as corticosteroids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "basis_in_stage3_input": "After the relevant treatment, the patient's blood counts and inflammatory markers had both decreased compared with before, and sputum culture and blood culture were unremarkable, but low-grade fever and shortness of breath persisted.",
+          "why_order_this_exam": "After admission, the patient had recurrent fever and later developed cough with a small amount of yellow purulent sputum. Chest CT showed scattered infectious lesions in both lungs with partial interstitial changes, increased compared with previously. Clinically, infectious pneumonia has consistently required priority in the differential diagnosis. Although previous sputum cultures were unremarkable, the patient has received multiple antibacterial agents, and prior negative results cannot completely exclude lower respiratory tract infection or nosocomial infection. Repeat specimen submission in conjunction with the dynamic clinical course is still needed to increase the chance of pathogen detection. The purpose of repeat sputum culture is to look for evidence of bacteria or other pathogens and determine whether there is insufficient antibacterial coverage, drug-resistant organisms, or secondary infection, thereby helping decide whether to continue anti-infective therapy and how to adjust medications; if repeatedly negative, this may further support noninfectious diagnoses such as immune-related pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "After the relevant treatment, the patient's blood counts and inflammatory markers had both decreased compared with before, and sputum culture and blood culture were unremarkable, but low-grade fever and shortness of breath persisted.",
+          "why_order_this_exam": "The patient previously had recurrent fever, chills, and rigors, and during hospitalization again developed fluctuations in clinical condition and marked elevation of infection markers, theoretically indicating a risk of bacteremia or severe infection. Although previous blood cultures were unremarkable, in the setting of prior antibiotic use, a single negative result cannot completely exclude bloodstream infection; furthermore, the patient's advanced age, malignancy, diabetes mellitus, and underlying lung disease all increase the risk of severe infection. Continuing or repeating blood cultures is intended to clarify as much as possible whether bloodstream infection is present and to identify its pathogen, evaluate infectious causes of persistent low-grade fever, and guide precise adjustment of the antimicrobial regimen; if cultures remain negative, this would help lower the diagnostic likelihood of an infectious etiology and support further consideration of noninfectious causes such as immune checkpoint inhibitor-related pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy and secretion culture were completed, with no obvious abnormalities found.",
+          "why_order_this_exam": "The patient is of advanced age, with a history of multiple surgeries for right lung cancer, tracheal cancer, and squamous cell carcinoma of the right middle lobe bronchus, and has been on long-term PD-1 inhibitor therapy. The current presentation includes progressive dyspnea, bilateral moist rales, and bilateral interstitial and infection-like pulmonary lesions, with poor response to conventional anti-infective therapy. Further diagnostic differentiation is needed among infection, immune-related pneumonitis, tumor progression, and localized airway lesions. Although prior bronchoscopy showed no obvious abnormalities, its value lies in directly evaluating the airway for tumor recurrence, stenosis, retained secretions, bleeding, or other local factors contributing to symptom worsening, and in obtaining more reliable lower respiratory tract samples. This examination can help exclude structural airway lesions, improve the quality of etiologic and cytologic diagnosis, provide a stronger basis for determining whether to favor immune-related pneumonitis and initiate corticosteroid therapy, and also assess to some extent the risks of further invasive examinations and treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Secretion culture",
+          "basis_in_stage3_input": "Bronchoscopy and secretion culture were completed, with no obvious abnormalities found.",
+          "why_order_this_exam": "The patient has persistent fever and dyspnea. During hospitalization, yellow purulent sputum, bilateral moist rales, and marked elevations in WBC and PCT were noted, and the imaging lesions also showed progression; clinically, lower respiratory tract infection still needs to be thoroughly evaluated. Because sputum culture, blood culture, and the respiratory pathogen panel were all unable to identify a definite pathogen, and the patient has already received multiple antimicrobial treatments, the sensitivity of routine upper respiratory tract specimens is limited; therefore, culture of airway secretions obtained by bronchoscopy is closer to the lesion and can improve the pathogen detection rate. This examination is mainly used to determine whether persistent pulmonary lesions are caused by bacteria, fungi, or other pathogens, and to help distinguish infection from immune-related pneumonitis; if the results remain negative, then together with clues such as lack of response to anti-infective therapy and interstitial changes on imaging, this would further support noninfectious immune-mediated lung injury and affect whether to reduce unnecessary broad-spectrum antimicrobial agents and instead use corticosteroid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "The patient is of advanced age and has underlying pulmonary disease (COPD). The patient previously received immune checkpoint inhibitor therapy. After admission, dyspnea worsened. On physical examination, wet rales were audible in the lungs. Chest CT showed bilateral interstitial changes in the lungs. After anti-infective treatment, symptoms did not improve significantly.",
+          "why_order_this_exam": "This patient had COPD, a history of multiple prior lung and airway tumor surgeries, bilateral pleural effusions, and long-term PD-1 inhibitor exposure. After admission, the main manifestations were fever and dyspnea, and the symptoms persisted despite anti-infective treatment. During hospitalization, worsening dyspnea and type I respiratory failure also developed. Prior CT had already shown scattered infectious lesions in both lungs with some interstitial changes, which subsequently increased compared with before, along with changes in the bilateral pleural effusions, suggesting that the intrapulmonary lesions were undergoing dynamic progression. The core purpose of repeat chest CT was to further assess the distribution and extent of the lesions, the pattern of interstitial involvement, and post-treatment evolution, and to determine whether the findings were more consistent with infectious pneumonia, immune checkpoint inhibitor-related pneumonitis, or tumor-related pulmonary involvement; at the same time, it could also assess the pleural effusions and residual lung expansion, helping to determine disease severity and providing key imaging evidence for whether to initiate or intensify corticosteroid therapy, whether to continue anti-infective treatment, and for subsequent follow-up of treatment response.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After related treatment, the patient's blood counts and inflammatory markers had both decreased compared with before; sputum culture and blood culture showed no abnormalities, but low-grade fever and dyspnea persisted. Bronchoscopy and secretion culture were completed and showed no obvious abnormalities. The patient was of advanced age, had underlying lung disease (COPD), had previously received immune checkpoint inhibitor therapy, and developed worsening dyspnea after admission. On physical examination, moist rales were audible in the lungs. Chest CT suggested bilateral interstitial changes in both lungs, and symptoms did not improve significantly after anti-infective treatment.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/oO68PgQvn8EibPz11Trr1FIWbFmkzqYfxxI2SyNmFWLS0vDibP4LkD12c4kkHl08hmzrLIh1D4M2UILHdKaa6jYySicHWbjRMLzjegl8YLJo50/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3-4 Non-contrast chest CT at our hospital (Day +19) showed:",
+          "local_src": "cleaned_cases_image_cache/dfbefce14c763495563d2db9f7c477d4fe5b5528.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/oO68PgQvn8HEY3Nr0MrbiaBY3YiaJjaFCP7Vtt2prLcs0gLib6PVEdQM6CTbvfBqCYXVBITpQLeTkQamg36dX1Otatg6JTUI4IuzxteARVHKqs/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5-6 Non-contrast chest CT obtained at outpatient follow-up in our hospital (Day +277) showed:",
+          "local_src": "cleaned_cases_image_cache/e0c939178d995424854a4980481c3185bf650f55.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Immune checkpoint inhibitor-related pneumonitis (grade 3). 2. Severe pneumonia. 3. Type I respiratory failure. 4. Type 2 diabetes mellitus. 5. Bilateral pleural effusions. 6. Left-sided emphysema with pulmonary bullae. 7. Right lung squamous cell carcinoma, T2N3M1, stage IV, after surgery, chemotherapy, and immunotherapy. 8. Status post subtotal gastrectomy.",
+      "diagnostic_basis": [
+        "The patient is an elderly male with underlying lung diseases including COPD and pulmonary squamous cell carcinoma, and has been receiving PD-1 inhibitor therapy from 2 years ago to the present.",
+        "This hospitalization was due to an acute onset, with the chief complaint of 'fever and shortness of breath for 4 days.'",
+        "Chest CT suggests interstitial lung changes",
+        "Multiple antibiotics were administered sequentially for anti-infective treatment with poor response, during which respiratory failure developed",
+        "Bronchoscopy and sputum pathogen testing were both negative",
+        "CIP was confirmed after a trial of corticosteroid therapy resulted in marked symptom improvement"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg q12h was started on Day +12 (body weight approximately 45 kg)",
+        "On 09.11, treatment was changed to methylprednisolone 30 mg bid.",
+        "After discharge, oral corticosteroid therapy with Medrol 40 mg qd was administered, followed by tapering Medrol by 2 mg every two weeks."
+      ],
+      "treatment_response": [
+        "The patient's shortness of breath was significantly relieved compared with previously.",
+        "Repeat imaging showed that the pulmonary lesions had significantly resolved compared with previously, and the patient was discharged.",
+        "Follow-up chest CT 9 months later showed marked improvement in interstitial lung abnormalities"
+      ]
+    }
+  }
+}

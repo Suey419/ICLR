@@ -1,0 +1,279 @@
+{
+  "status": "success",
+  "case_id": "case_151",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 66 years old, housewife, raises poultry. Chief complaint: \"cough and sputum production for 2 weeks, fever, dyspnea, and altered mental status for 3 days.\" She was admitted from the emergency department to our respiratory ICU on Day 0. The patient developed cough 2 weeks before admission without an obvious precipitating factor, with white mucoid sputum, generalized body aches, fatigue, poor appetite, and decreased food intake to 1/2 of baseline. There was no fever, chills, or rigors; no hemoptysis or blood-streaked sputum; no nasal congestion, rhinorrhea, sore throat, or herpes labialis; no nausea or vomiting; no abdominal pain, abdominal distension, or diarrhea; and no joint pain. She did not pay attention to it and did not seek diagnosis or treatment, and the above symptoms gradually worsened. Three days before admission, the patient developed fever and dyspnea, with shortness of breath on slight exertion, as well as altered mental status, manifested as apathy and prolonged sleep duration, but she was arousable on calling, accompanied by bilateral lower extremity edema. She presented to a secondary grade A hospital in Fujian. Her temperature was 39.0℃. Tests showed \"CBC: WBC 6.86×10^9/L, NE 91.7%, HB 90g/L, PLT 100×10^9/L; CRP 198.44mg/L, hsCRP＞10.00mg/L; chest CT: bilateral lobar pneumonia, small bilateral pleural effusions.\" After treatment with \"cefdinir, Lianhua Qingwen granules,\" etc., her symptoms did not improve. She was then transferred to the emergency resuscitation room of our hospital. In the emergency resuscitation room, temperature was 39.6℃, SPO2 78% (FIO2 21%). Tests showed \"arterial blood gas analysis (FiO2 29%): PH 7.604, PCO2 30.2mmHg, PO2 51.9mmHg, K 2.5mmol/L, Na 133mmol/L, Lac 1.0mmol/L, HCO3- 30.9mmol/L, oxygenation index 179; CBC: WBC 6.9*10^9/L, NE 89.4%, HB 87g/L, PLT 82*10^9/L; PCT 1.1ng/ml.\" She was diagnosed with \"1. sepsis 2. pulmonary infection 3. type I respiratory failure 4. hypokalemia 5. alkalosis\" and was given Optiflow high-flow heated humidified oxygen therapy, \"Sulperazon\" anti-infective treatment, along with antipyretic treatment, expectorant treatment, potassium supplementation, and other therapies. Although her mental status remained altered, her cough, sputum production, and fatigue did not improve, and she had persistent high fever, with further decline in oxygen saturation. She was therefore admitted to our department from the emergency department with a presumed diagnosis of \"severe pneumonia.\" Her past medical history, personal history, menstrual/marital/reproductive history, and family history were all unremarkable. Physical examination on admission: T: 40.0℃, P: 118/min, R: 38/min, BP: 123/71mmHg, SPO2 93% (FiO2 100%). Somnolent, general condition fair. Bilateral pupils equal, round, diameter about 3mm, brisk light reflexes. Coarse breath sounds in both lungs; moist rales were heard in both lower lungs; no obvious dry rales were heard. Cardiac relative dullness was not enlarged; heart rate 118/min, regular rhythm; no pathologic murmurs were heard in any valve auscultation area. No obvious abnormality on abdominal examination. Mild symmetric pitting edema of both lower extremities. Pathologic signs negative. Ancillary examinations: Day -3, outside hospital chest CT: 1. Multiple patchy areas of consolidation in both lungs with air bronchograms, and small bilateral pleural effusions. 2. Trace pericardial effusion. 3. Thoracic vertebral hyperostosis. Day -1, our hospital arterial blood gas analysis (FiO2 29%): PH 7.604, PCO2 30.2mmHg, PO2 51.9mmHg, K 2.5mmol/L, Na 133mmol/L, Lac 1.0mmol/L, HCO3- 30.9mmol/L, oxygenation index 179. CBC: WBC 6.9×10^9/L, NE 89.4%, HB 87g/L, PLT 82×10^9/L. PCT 1.1ng/ml. Chemistry: albumin 22g/L, total bilirubin 14.02μmmol/L, alanine aminotransferase 120U/L, aspartate aminotransferase 105U/L, blood urea nitrogen 2.7mmol/L, creatinine 43μmmol/L, potassium 2.5mmol/L, sodium 135mmol/L, chloride 97mmol/L. Admission diagnoses were: 1. severe community-acquired pneumonia 2. type I respiratory failure 3. hypoalbuminemia 4. abnormal liver function 5. hypokalemia 6. moderate anemia 7. small bilateral pleural effusions.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired bacterial pneumonia",
+          "supporting_evidence": [
+            "Cough and sputum production for 2 weeks, followed by high fever and dyspnea, with progressive worsening of the condition and somnolence.",
+            "Peak body temperature reached 40.0℃, respiratory rate 38 breaths/min, heart rate 118 beats/min, consistent with severe infection.",
+            "Oxygen saturation 78% (FiO2 21%); blood gas analysis showed PO2 51.9 mmHg and oxygenation index 179, indicating hypoxemic respiratory failure",
+            "Complete blood count showed an increased neutrophil percentage (NE 89.4%-91.7%), CRP 198.44mg/L, PCT 1.1ng/ml, supporting bacterial infection.",
+            "Chest CT showed multiple patchy areas of consolidation in both lungs, with visible air bronchograms, and small bilateral pleural effusions, consistent with the imaging findings of pneumonia",
+            "Crackles are audible in both lower lungs, supporting pulmonary consolidation/infection"
+          ],
+          "opposing_evidence": [
+            "WBC 6.86-6.9×10^9/L, total white blood cell count not significantly elevated",
+            "Symptoms did not improve after cefdinir use, but this does not exclude bacterial pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Chlamydia psittaci pneumonia (avian-associated zoonotic pneumonia)",
+          "supporting_evidence": [
+            "The patient has a definite epidemiologic exposure history of \"raising poultry\".",
+            "The illness began with systemic symptoms such as generalized body aches, fatigue, and poor appetite, followed by high fever and progressive dyspnea, consistent with one of the manifestations of atypical pathogen pneumonia.",
+            "Imaging showed multiple patchy areas of consolidation in both lungs with small bilateral pleural effusions, which may be seen in severe cases of psittacosis",
+            "The total white blood cell count is not elevated, but the neutrophil percentage is high, accompanied by significant hypoxemia and elevated liver enzymes (ALT 120U/L, AST 105U/L), consistent with extrapulmonary involvement seen in psittacosis.",
+            "Symptoms did not improve after conventional β-lactam therapy, suggesting that atypical pathogens should be considered"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide a clear history of concentrated bird exposure, contact with sick poultry, or similar illness among cohabitants.",
+            "In the first stage, the information provided did not include more suggestive clinical clues such as relative bradycardia and marked headache."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Legionella pneumonia",
+          "supporting_evidence": [
+            "High fever, progressive dyspnea, altered mental status, and severe illness, consistent with one of the clinical features of severe atypical pneumonia",
+            "Chest CT showed bilateral pulmonary consolidation and a small amount of pleural effusion, which can be seen in Legionella pneumonia",
+            "There is a tendency toward hyponatremia (Na 133-135 mmol/L) and abnormal liver function (elevated ALT and AST), which can serve as supportive clues",
+            "The total white blood cell count was not elevated, whereas inflammatory markers were markedly increased, and there was no improvement with routine cefdinir treatment, suggesting that atypical pathogens should be considered."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide epidemiologic clues such as exposure to air-conditioning cooling water, hotels/travel accommodations, or public water supplies.",
+            "The phase 1 information did not provide relatively common accompanying manifestations such as diarrhea."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Severe viral pneumonia (e.g., influenza)",
+          "supporting_evidence": [
+            "At the initial stage of onset, there were systemic symptoms such as generalized myalgia, fatigue, and poor appetite.",
+            "A normal total white blood cell count despite severe illness can be seen in viral pneumonia.",
+            "Multiple patchy areas of consolidation in both lungs with marked hypoxemia, consistent with severe viral pneumonia or virus-related lung injury.",
+            "No improvement after conventional oral antibiotic therapy"
+          ],
+          "opposing_evidence": [
+            "The neutrophil percentage was markedly elevated, and CRP and PCT were elevated, which more strongly supports bacterial infection or mixed infection.",
+            "The stage 1 information did not provide a contact history of upper respiratory symptoms, and there was no nasal congestion, rhinorrhea, or sore throat."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy was performed and bronchoalveolar lavage fluid was sent for NGS testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "From Day 0 to Day +11, the patient had persistent fever (maximum temperature up to 40℃), poor mental status, and arterial blood gas analysis indicated type I respiratory failure. CBC showed a normal white blood cell count, an increased proportion of segmented neutrophils, and a low hemoglobin level, consistent with moderate anemia. Blood chemistry indicated hypoproteinemia and abnormal liver function. PCT was elevated. NT-proBNP and TnI showed no abnormalities. Bedside bronchoscopy showed scant secretions, and the lavage fluid was pale red, thin, and watery.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "Onset in winter, acute course, progressed to severe pneumonia within 1 week",
+              "Chest imaging shows diffuse bilateral lung changes, with predominantly subpleural lesions.",
+              "CBC showed normal WBC and lymphopenia"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient mainly has a dry cough, without sputum production.",
+              "Blood tests showed that the white blood cell count was not elevated, and the PCT elevation was not significant, not supporting"
+            ]
+          },
+          {
+            "name": "Pneumonia caused by atypical pathogen infection",
+            "evidence": [
+              "Acute onset with persistent high fever and dry cough",
+              "Blood WBC count normal",
+              "Chest CT shows multiple areas of consolidation in both lungs"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Fungal pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient had no history of immunocompromising conditions such as underlying cardiac, pulmonary, or abdominal disease, diabetes, hematologic disease, or malignancy.",
+              "Based on the patient's chest CT findings, no typical imaging features of fungal pneumonia such as halo sign or cavitation were seen; pulmonary fungal infection is not considered at present."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "Onset in winter, acute course, progressed to severe pneumonia within 1 week",
+          "Chest imaging shows diffuse bilateral lung changes, with predominantly subpleural lesions.",
+          "CBC showed normal WBC and lymphopenia"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Bacterial pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient mainly has a dry cough, without sputum production.",
+          "Blood tests showed that the white blood cell count was not elevated, and the PCT elevation was not significant, not supporting"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pneumonia caused by atypical pathogen infection",
+        "evidence": [
+          "Acute onset with persistent high fever and dry cough",
+          "Blood WBC count normal",
+          "Chest CT shows multiple areas of consolidation in both lungs"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungal pneumonia",
+        "evidence": [
+          "Rapid progression, poor response to conventional anti-infective therapy"
+        ],
+        "exclusion_reasons": [
+          "The patient had no history of immunocompromising conditions such as underlying cardiac, pulmonary, or abdominal disease, diabetes, hematologic disease, or malignancy.",
+          "Based on the patient's chest CT findings, no typical imaging features of fungal pneumonia such as halo sign or cavitation were seen; pulmonary fungal infection is not considered at present."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Sputum bacterial, fungal, and TB smears and cultures",
+          "basis_in_stage3_input": "(1) Sputum bacterial, fungal, and TB smears and cultures: no pathogenic organisms detected",
+          "why_order_this_exam": "The patient initially presented with cough and sputum production, then rapidly progressed to persistent high fever, severe hypoxemia, type I respiratory failure, and altered mental status, consistent with severe pneumonia, requiring prompt basic etiologic pathogen screening. Examination of sputum specimens can first be used to look for common bacteria, fungi, and Mycobacterium tuberculosis, helping to distinguish typical bacterial pneumonia, fungal infection, TB, or mixed infection; at the same time, in conjunction with the poor response to cefdinir at an outside hospital and empiric anti-infective therapy after admission, it is necessary to determine whether there is coinfection not adequately covered by routine treatment or involving pathogens other than atypical organisms. Although no pathogenic organism was ultimately detected, this examination played an important role in early exclusion of common respiratory pathogens, explaining subsequent negative culture results, and prompting further bronchoscopy and more advanced etiologic pathogen testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood bacterial culture (aerobic, anaerobic)",
+          "basis_in_stage3_input": "(2) Blood bacterial cultures (aerobic, anaerobic): no pathogenic bacteria detected in either culture",
+          "why_order_this_exam": "At admission, the patient had a high fever of 39.6-40.0℃, tachycardia, increased respiratory rate, and marked hypoxemia. In the emergency department, the patient had already been managed as \"sepsis, pulmonary infection,\" and severe community-acquired pneumonia with bacteremia needed to be ruled out first. Blood culture can assess whether there is a pulmonary source bloodstream infection, identify common bacterial and anaerobic pathogens, and provide a basis for subsequent adjustment of antimicrobial therapy. In this patient, a negative blood culture helped lower the likelihood of typical invasive bacterial infection and anaerobic bloodstream infection, supported further consideration of atypical pathogen infection, and also provided evidence complementary to conventional culture for the subsequent positive detection of Chlamydia psittaci by peripheral blood NGS.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Specimens obtained by fiberoptic bronchoscopy were submitted for testing",
+          "basis_in_stage3_input": "(3) Multiple fiberoptic bronchoscopies were performed to collect specimens for testing",
+          "why_order_this_exam": "The patient was critically ill, with persistent high fever, poor oxygenation, and imaging showing multiple inflammatory lesions and partial consolidation in both lungs, and routine sputum culture and blood culture failed to identify the pathogen. In severe pneumonia, upper respiratory tract or sputum specimens are easily contaminated and have limited detection yield, whereas fiberoptic bronchoscopy allows direct visualization of the airway and collection of lower respiratory tract specimens, increasing the diagnostic value of pathogen identification. In this case, bedside bronchoscopy showed relatively քիչ secretions, and the lavage fluid was light red and thin watery in appearance, suggesting that the lesions were predominantly diffuse inflammation of the lower respiratory tract, which was also consistent with atypical pathogen pneumonia. The clinical purpose of bronchoscopic sampling was to identify the pathogen as soon as possible in the setting of critical illness and poor response to empiric treatment, to rule out common bacterial/fungal/TB infection and assess for the presence of mixed infection, thereby guiding subsequent targeted medication use.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal smear and culture of bronchial secretions",
+          "basis_in_stage3_input": "Bacterial and fungal smear and culture of bronchial secretions",
+          "why_order_this_exam": "The patient has bilateral lung consolidation, persistent high fever, and respiratory failure, and common bacterial and fungal infections of the lower respiratory tract need to be ruled out. Compared with sputum specimens, bronchial secretions are obtained from sites closer to the lesions and are less contaminated by oropharyngeal colonizing flora, making them more helpful in improving the accuracy of etiologic assessment when the illness is severe and prior conventional treatment has been ineffective. This examination is primarily intended to determine whether there is an endobronchial bacterial/fungal infection requiring adjustment of the antimicrobial spectrum, to rule out typical bacterial pneumonia or fungal infection that is difficult to distinguish based on imaging and inflammatory markers alone, and to provide a basis for subsequently proceeding to NGS to identify atypical pathogens if cultures are negative.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF bacterial, fungal, and TB smear and culture",
+          "basis_in_stage3_input": "BALF bacterial, fungal, and TB smear and culture",
+          "why_order_this_exam": "The patient has multiple patchy and mottled areas of increased density in both lungs, with some ground-glass opacities, some consolidation, and a small pleural effusion; the lesions are extensive and progress rapidly. At the same time, the total white blood cell count is not elevated, but the neutrophil percentage is increased and liver enzymes are abnormal, suggesting that the nature of the pathogen is not typical. BALF can more directly reflect the pathogen status in the alveoli and distal airways and is suitable for screening for bacteria, fungi, and Mycobacterium tuberculosis in severe pneumonia, especially to address whether occult lower respiratory tract pathogens are still present when sputum and blood cultures are negative. This test is critical for excluding common culture-detectable pathogens, narrowing the differential diagnosis, and providing a specimen basis for further NGS testing, and it also helps identify whether mixed infection is present, thereby affecting the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Send-out NGS testing",
+          "basis_in_stage3_input": "and send-out NGS testing",
+          "why_order_this_exam": "This patient has severe pneumonia, with persistent high fever, marked hypoxemia, and altered mental status during the disease course, and had a poor response to routine empiric anti-infective treatment at an outside hospital and after admission; meanwhile, sputum culture, blood culture, and routine smear and culture of bronchial secretions/bronchoalveolar lavage fluid did not identify a definite pathogen, suggesting that conventional methods may miss atypical, difficult-to-culture, or rare pathogens. NGS does not rely on traditional culture and can broadly screen for bacteria, viruses, fungi, and special pathogens in the setting of negative cultures, making it particularly suitable for this critically ill, rapidly progressive case requiring precise medication as soon as possible. Its clinical goal is to break the impasse of negative conventional etiologic testing, determine whether there are unconventional pathogens such as Chlamydia psittaci, and provide a basis for subsequent selection of targeted treatment such as tetracyclines/doxycycline.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NGS testing of bronchoalveolar lavage fluid and peripheral blood",
+          "basis_in_stage3_input": "NGS testing of BALF and peripheral blood showed: Chlamydia psittaci, sequence count 93, indicating positivity (11.25)",
+          "why_order_this_exam": "The patient had a clear history of poultry exposure, and the clinical course was characterized by acute onset with rapid progression to severe pneumonia, accompanied by persistent high fever, marked hypoxemia, altered mental status, a normal white blood cell count with an increased neutrophil proportion, abnormal liver function, and no significant improvement with beta-lactam therapy. These clues all suggested the possibility of an atypical pathogen, especially an avian-associated pathogen infection. Because routine sputum, blood, and lavage fluid cultures did not identify any pathogenic bacteria, dual-site NGS of bronchoalveolar lavage fluid and peripheral blood was used to search for pathogens simultaneously at the local site of infection and in the systemic circulation, improving the detection rate of intracellular, fastidious pathogens such as Chlamydia psittaci. This test directly addressed the core question of which pathogen was causing the severe pneumonia when routine microbiologic studies were negative, and ultimately provided key confirmatory evidence establishing Chlamydia psittaci infection, thereby supporting the timely initiation and continuation of doxycycline/tetracycline therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat chest CT",
+          "basis_in_stage3_input": "On Day +9, repeat chest CT (Figure 1) showed: 1. Multiple inflammatory lesions in both lungs, with partial consolidation; compared with the prior study from Day +4, slightly absorbed compared with before. 2. Small bilateral pleural effusions and a small pericardial effusion; compared with the prior study from Day +4, slightly absorbed compared with before.",
+          "why_order_this_exam": "The patient has severe pneumonia, and the hospital course after admission has been complex. It is necessary both to determine whether empiric and targeted anti-infective therapy are effective and to remain alert for lesion progression, secondary infection, and complications such as pleural and pericardial effusion. Repeat chest CT allows direct comparison with prior imaging and dynamic assessment of whether bilateral pulmonary inflammation and consolidation have been absorbed, whether pleural effusion has changed, and whether new lesions have appeared. In this case, the repeat examination on Day +9 showed slight absorption of the lesions and effusion compared with before, indicating that after the pathogen was identified and treatment was adjusted, the imaging had already improved. This is of important value for confirming that the treatment direction is correct, supporting continuation of the current regimen, and at the same time assessing the timing of subsequent ventilator weaning and transfer out of the ICU in this critically ill patient.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After admission, the following test results were reported: (1) Sputum bacterial, fungal, and TB smears and cultures: no pathogenic organisms detected; (2) Blood bacterial cultures (aerobic and anaerobic): no pathogenic organisms detected; (3) Specimens were collected multiple times by fiberoptic bronchoscopy for testing: bacterial and fungal smears and cultures of bronchial secretions, bacterial, fungal, and TB smears and cultures of BALF, and send-out NGS testing. Bacterial and fungal smears and cultures of bronchial secretions: no pathogenic organisms detected; the first BALF submitted for bacterial, fungal, and TB smears and cultures: no pathogenic organisms detected; BALF and peripheral blood NGS showed: Chlamydia psittaci, sequence count 93, suggesting positivity (11.25). On further inquiry into the medical history, the patient had not been exposed to parrots or pigeons, but did have a history of exposure to poultry such as chickens and ducks. On Day +4, chest CT showed: multiple inflammatory lesions in both lungs, some consolidation, and small bilateral pleural effusions. Findings: multiple scattered patchy and flake-like areas of increased density in both lungs, with indistinct margins; some showed ground-glass density, some consolidation, and air bronchograms were seen. Small mediastinal lymph nodes. Mild bilateral pleural thickening. Small bilateral pleural effusions. On Day +9, repeat chest CT (Figure 1) showed: 1. Multiple inflammatory lesions in both lungs, some consolidation; compared with the prior study from Day +4, slightly absorbed; 2. Small bilateral pleural effusions and a small pericardial effusion; compared with the prior study from Day +4, slightly absorbed.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJfXf1ibiaRxj3cdbgnshlyIYL1fhLCFiczxvYaLquNPg00dvbUIwqI8kNZzBN1VXueHUvNibHV1ecMog/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/7776831c46ce0228f6472b4eba928fb271300838.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJfXf1ibiaRxj3cdbgnshlyIYCs45lvnRePls4dapJ3LnQwNmHJo5OOTUIjTzX9vRxF0MpHVBqOwkgg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Noncontrast chest CT scan at our hospital",
+          "local_src": "cleaned_cases_image_cache/db9130050c681c4bfb4cd2c8f91414cee60b89c2.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Severe pneumonia (Chlamydia psittaci), Type I respiratory failure, hypokalemia, hypoproteinemia, abnormal liver function, moderate anemia",
+      "diagnostic_basis": [
+        "Acute onset, rapid progression within 2 weeks; septic shock, endotracheal intubation + mechanical ventilatory support; arterial blood gas analysis indicated respiratory failure (oxygenation index 179)",
+        "Imaging predominantly showed bilateral lung lesions, with manifestations of ARDS",
+        "Send-out BALF NGS detected Chlamydia psittaci (+)",
+        "Blood NGS detected Chlamydia psittaci (+)",
+        "All were negative for viruses.",
+        "Laboratory tests"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Moxifloxacin was administered (11.21-11.25) to cover common pathogens.",
+        "Tamiflu antiviral therapy (12.22-12.26)",
+        "Anti-inflammatory treatment with methylprednisolone, IVIG, and other treatments",
+        "On Day +2, doxycycline was added (11.23-11.25) to cover Chlamydia psittaci.",
+        "Symptomatic treatment was given, including bicyclol for hepatoprotection, human albumin to correct hypoalbuminemia, potassium supplementation, etc.",
+        "Continued moxifloxacin (11.25-12.01) and doxycycline (11.25-12.01) for Chlamydia coverage.",
+        "Tamiflu was discontinued on Day +5.",
+        "On Day +10, Pseudomonas aeruginosa (2+) was detected in bronchoalveolar lavage fluid... moxifloxacin was discontinued and changed to meropenem (12.01-12.03) combined with ciprofloxacin (12.02-12.03) for anti-Pseudomonas aeruginosa infection, and doxycycline was continued for treatment of Chlamydia psittaci.",
+        "Discharge, continue tetracycline treatment until a total course of 4 weeks"
+      ],
+      "treatment_response": [
+        "On Day +11, the patient's consciousness became clear, body temperature returned to normal, endotracheal tube was removed, and the patient was transferred out of the intensive care unit to a general ward.",
+        "On Day +17, repeat chest CT showed: 1. Multiple inflammatory lesions in both lungs, with partial consolidation; compared with the prior study dated Day +9, improved absorption; 2. Small bilateral pleural effusions and a small pericardial effusion; compared with the prior study dated Day +9, slightly improved absorption.",
+        "On Day +23, the patient's symptoms such as fever, cough, and sputum production had resolved, pulmonary physical examination showed no abnormal findings, repeat pulmonary imaging and inflammatory markers showed marked improvement, and the patient was discharged.",
+        "Follow-up after 1 month, repeat chest CT: bilateral lung opacities had basically resolved"
+      ]
+    }
+  }
+}

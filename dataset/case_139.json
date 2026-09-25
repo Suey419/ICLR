@@ -1,0 +1,374 @@
+{
+  "status": "success",
+  "case_id": "case_139",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 61-year-old female, retired worker, admitted for \"cough and sputum production for 6 months, with worsening wheezing and exertional dyspnea for 1 month.\" Six months before admission, after catching a cold, she developed cough and sputum production, with yellow sticky sputum that was difficult to expectorate, without blood in the sputum, fever, chest tightness, chest pain, palpitations, dyspnea, or other discomfort. After self-purchasing oral antibiotics (specific medication unknown), her symptoms improved significantly. One month before admission, the above symptoms recurred and worsened, with severe cough, mainly dry cough, and obvious wheezing and exertional dyspnea after coughing, worse at night, without hemoptysis, chest pain, or blackness before the eyes, so she was hospitalized at a local hospital for treatment. Contrast-enhanced chest CT performed at the local hospital showed multiple patchy, linear, and nodular opacities in both lungs, considering possible inflammation; scattered solid nodules in both lungs, considering possible chronic inflammation. Tumor marker panel: cytokeratin 19 fragment 5.68 ng/ml ↑, pro-gastrin-releasing peptide 90.64 pg/ml ↑, squamous cell carcinoma antigen 1.6 ng/mlt, carcinoembryonic antigen 1.89 ng/ml, neuron-specific enolase 8.66 ng/ml ↑. Bone mineral density: severe osteoporosis (report not available). After symptomatic treatment with \"acetylcysteine and moxifloxacin\" for anti-inflammatory, expectorant, and mucolytic therapy, the patient's symptoms did not improve significantly, and she then presented to our outpatient clinic. She was admitted to the ward from our department's outpatient clinic with \"diffuse bilateral lung lesions of undetermined etiology.\" On review of the medical history, it was learned that the patient had been engaged in furniture sales more than 1 year earlier. More than 10 months earlier, the patient's neighbor had raised pigeons, but the patient herself denied a history of bird exposure. The remainder of the past medical history was unremarkable. Physical examination on admission: T 36.2℃, P 95 beats/min, R 20 breaths/min, BP 116/70 mmHg. She was clear-minded and answered questions appropriately. Neck supple, trachea midline. Scattered crackles were heard in both lungs, with no obvious dry or wet rales. Cardiac borders were not enlarged, heart rate 95 beats/min, regular rhythm, and no murmurs were heard in any valve auscultation area. The abdomen was flat, without tenderness, rebound tenderness, or muscle guarding; the liver and spleen were not palpable below the costal margin. Mild pitting edema was present in both lower extremities. Chest HRCT from the outside hospital showed diffusely distributed patchy opacities and a small amount of reticular opacities in both lungs, considering possible infectious lesions, combined with interstitial changes; follow-up re-examination after treatment was recommended. Bilateral pleural thickening. Small amount of calcification of the aortic and left coronary artery walls.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqibjicfxFKOVvGxiaW8gFiakSktdbNqQhVgpETwY9HgNhgZWw3jdOwLlibaw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Brief review of the case characteristics:",
+          "local_src": "cleaned_cases_image_cache/e41c0be35dbb08c6186a2102d7ce0a0158c1750c.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Subacute hypersensitivity pneumonitis (bird-related or other environmental exposure-related)",
+          "supporting_evidence": [
+            "The course of illness consisted of recurrent cough and sputum production for half a year, with worsening over the past 1 month, characterized mainly by dry cough, marked dyspnea/fatigue after coughing, and more severe symptoms at night, consistent with one of the clinical presentation features of subacute diffuse parenchymal lung disease.",
+            "Outside-hospital HRCT suggested \"diffusely distributed patchy opacities and a small amount of reticular opacities in both lungs; infectious lesions are possible, with coexisting interstitial changes.\" The images attached in the first stage showed diffuse bilateral patchy opacities/ground-glass changes in both lungs accompanied by a small amount of reticular interstitial opacities, consistent with the diffuse interstitial-alveolar involvement imaging pattern seen in hypersensitivity pneumonitis.",
+            "On physical examination, scattered crackles were heard in both lungs, suggesting interstitial or alveolar involvement.",
+            "Review of the history mentioned that \"more than 10 months earlier, the patient's neighbor had raised pigeons,\" indicating a clue of bird-related environmental exposure.",
+            "More than 1 year ago, the patient worked in furniture sales, suggesting possible exposure to dust/organic antigens."
+          ],
+          "opposing_evidence": [
+            "The patient denied a history of contact with poultry.",
+            "At the initial onset, there was yellow mucoid sputum and episodes after catching a cold, which is more consistent with infectious airway inflammation and atypical for the initial presentation of hypersensitivity pneumonitis.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Infectious pneumonia/atypical pathogen pneumonia not fully controlled",
+          "supporting_evidence": [
+            "The patient initially developed cough and sputum production after catching a chill; the sputum was yellow and viscid and was difficult to expectorate, suggesting a possible respiratory tract infection.",
+            "Symptoms improved significantly after self-administered oral antibiotics, supporting a possible infectious etiology",
+            "Contrast-enhanced chest CT at a local hospital showed multiple patchy, linear, and nodular opacities in both lungs, with inflammation considered possible; scattered solid nodules in both lungs, with chronic inflammation considered possible.",
+            "Outside-hospital HRCT suggested \"diffusely distributed patchy opacities and a small amount of reticular opacities in both lungs; infectious lesions considered possible\"",
+            "The attached images from the first stage show multiple patchy opacities in both lungs, which on imaging can be consistent with infectious lesions."
+          ],
+          "opposing_evidence": [
+            "No fever",
+            "After treatment with moxifloxacin, acetylcysteine, etc., there was no significant improvement in symptoms, which does not support common bacterial pneumonia.",
+            "The course of the disease has lasted for half a year and has been recurrent, with interstitial changes and reticular opacities, which is atypical for simple acute pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Invasive pulmonary adenocarcinoma lesion or lung cancer with lymphangitic carcinomatosis/multifocal malignant pulmonary lesions",
+          "supporting_evidence": [
+            "The patient is 61 years old, which is one of the high-risk age groups for pulmonary malignancy.",
+            "Contrast-enhanced CT at the local hospital showed \"multiple patchy opacities, linear opacities, and nodular opacities in both lungs\" and \"scattered solid nodules in both lungs\"",
+            "In the tumor marker panel, elevated cytokeratin 19 fragment at 5.68 ng/ml, elevated pro-gastrin-releasing peptide at 90.64 pg/ml, and elevated neuron-specific enolase at 8.66 ng/ml suggest that the possibility of pulmonary malignancy should be considered with caution.",
+            "Images from phase 1 show diffuse bilateral pulmonary lesions with nodular/patchy opacities, which should be differentiated from multifocal tumors or lymphangitic spread.",
+            "After anti-infective therapy, symptoms did not improve significantly, and a noninfectious neoplastic lesion cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "No blood-streaked sputum, no hemoptysis, no chest pain",
+            "Imaging was initially described as possible inflammation, possible chronic inflammation.",
+            "The stage 1 information did not provide stronger evidence of malignancy, such as a definite primary mass, clearly enlarged mediastinal lymph nodes, or pleural effusion;",
+            "Generally in good condition, without signs of cancer cachexia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Cryptogenic organizing pneumonia (COP)",
+          "supporting_evidence": [
+            "Subacute onset, recurrent over the past 6 months, with marked worsening over the past month, manifested as cough and exertional dyspnea, consistent with the common clinical course of organizing pneumonia",
+            "Outside hospital HRCT showed diffusely distributed patchy opacities in both lungs with a small amount of reticular opacities. The attached images from the first stage show multiple patchy opacities in both lungs, predominantly peripheral and lower-lung, which are radiologically compatible with organizing pneumonia.",
+            "Physical examination revealed scattered crackles in both lungs, supporting pulmonary parenchymal involvement.",
+            "No significant improvement after antibacterial therapy, consistent with the features of a nonbacterial inflammatory pulmonary parenchymal lesion"
+          ],
+          "opposing_evidence": [
+            "Initially, there was yellow sticky sputum and marked improvement after oral antibiotics, suggesting that an infectious etiology cannot be excluded.",
+            "Phase 1 information did not provide typical migratory pulmonary infiltrates, a clear history of discontinuation of the causative drug, or clues to connective tissue disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "connective tissue disease-associated interstitial lung disease or other autoimmune-related interstitial pneumonia",
+          "supporting_evidence": [
+            "Outside-hospital HRCT showed diffusely distributed patchy opacities in both lungs with interstitial changes and a small amount of reticular opacities",
+            "On physical examination, scattered crackles were heard in both lungs, consistent with a common sign of interstitial lung disease",
+            "The images from the first stage show diffuse bilateral mixed interstitial-alveolar involvement in both lungs.",
+            "The course is subacute/chronic and prolonged, with poor response to anti-infective therapy; noninfectious interstitial lung disease should be considered."
+          ],
+          "opposing_evidence": [
+            "In the first-stage medical history, no supportive clues for connective tissue disease such as arthralgia, rash, dry mouth and dry eyes, Raynaud phenomenon, or muscle weakness were provided.",
+            "At onset, there was yellow viscid sputum, making an infectious etiology a more straightforward explanation.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + CRP + high-sensitivity CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Humoral immunity (complement C3/C4, IgG/IgM)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets (absolute counts and percentages of T/B/NK/NKT cells)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antinuclear antibody profile + ANCA-related antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (cytokeratin 19 fragment, ProGRP, SCC, CEA, NSE)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test + bronchodilator test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT + contrast-enhanced CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage fluid (culture, smear, Gene-Xpert, fungal G/GM tests, immunofluorescence)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial cryobiopsy (TBCB) + pathology + special stains (PAS, PE-10)",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Post-admission examinations: CBC showed: normal white blood cell count, hemoglobin 120.0 g/L ↓, platelet count 102*10^9/L, neutrophil percentage 90.9% ↑, CRP 15.0 mg/L ↑, high-sensitivity CRP >10 mg/L. Humoral immunity: serum complement C3 0.98 g/L, serum complement C4 0.26 g/L, immunoglobulin G 4.76 g/L ↓, immunoglobulin M 0.16 g/L ↓. Immune function monitoring: total lymphocytes 252/ul ↓, total T lymphocytes (CD3+) 224/ul ↓, helper/inducer T cells (CD4+ T) 142/ul ↓, suppressor/cytotoxic T cells (CD8+ T) 76/ul ↓, double-positive T cells (CD3+CD4+CD3+CD4+CD8+) 3/ul, double-negative T cells (CD3+CD4-CD8-) 9/ul, B lymphocytes (CD19+ B) 14/ul ↓, NK cells (CD3-CD16/56+) 11/ul ↓, NKT cells (CD3+CD16/56+) 12/ul, CD4+/CD8+ ratio 1.85, total lymphocytes 8.59% ↓, CD3+ total T lymphocytes 88.90% ↑, CD4+ helper/inducer T cells 56.29% ↑, CD8+ suppressor/cytotoxic T cells 30.36%, CD4+CD8+ double-positive T cells 1.04%, CD4-CD8- double-negative T cells 3.38%, CD19+ B lymphocytes 5.64% ↓, CD3-CD16/56+ NK cells 4.25%, CD3+CD16/56+ NKT cells 4.60%. ANA panel and ANCA-related antibodies were both negative. Tumor marker panel: cytokeratin 19 fragment 9.2 ng/ml, pro-gastrin-releasing peptide 87.1 pg/ml. PFT indicated moderately reduced diffusing capacity; bronchodilator test was negative. 6-minute walk test: 480 m. Echocardiography indicated reduced left ventricular diastolic function.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqrMAtCufBs4RX68KBVbDS7OzNxhageGUwZiaQkM9YAulWgcASIzkdBdQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Analysis pathway diagram",
+            "local_src": "cleaned_cases_image_cache/f8f50ceeefcfdc27d8c9cf9baaf7fe4cf95733be.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "The patient works in furniture sales, and the chemical substances in the furniture itself may place the patient at risk for hypersensitivity pneumonitis.",
+              "Over time, the lesions progressively increased, the symptoms of cough and sputum production progressively worsened, and symptoms of dyspnea and fatigue subsequently appeared."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Tumor with intrapulmonary metastasis",
+            "evidence": [
+              "The patient is an elderly woman. During the process of buying and selling furniture, it cannot be ruled out that she had long-term covert exposure to toxic and harmful substances, thereby inducing cellular gene mutations leading to the development of a tumor.",
+              "Crackles are audible in both lungs, suggesting interstitial lung involvement; concomitant lymphangitic infiltration cannot be excluded."
+            ],
+            "exclusion_reasons": [
+              "The patient's imaging findings do not conform to the common morphologic features of lung cancer."
+            ]
+          },
+          {
+            "name": "lymphomatous pulmonary infiltration",
+            "evidence": [
+              "An elderly woman with crackles audible in both lungs; interstitial lung disease should be considered, and lymphatic involvement can present with similar features."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Infectious lesion",
+            "evidence": [
+              "The patient had a prolonged course of cough and sputum production that persisted without resolution, and developed dyspnea over time."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "The patient works in furniture sales, and the chemical substances in the furniture itself may place the patient at risk for hypersensitivity pneumonitis.",
+          "Over time, the lesions progressively increased, the symptoms of cough and sputum production progressively worsened, and symptoms of dyspnea and fatigue subsequently appeared."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Tumor with intrapulmonary metastasis",
+        "evidence": [
+          "The patient is an elderly woman. During the process of buying and selling furniture, it cannot be ruled out that she had long-term covert exposure to toxic and harmful substances, thereby inducing cellular gene mutations leading to the development of a tumor.",
+          "Crackles are audible in both lungs, suggesting interstitial lung involvement; concomitant lymphangitic infiltration cannot be excluded."
+        ],
+        "exclusion_reasons": [
+          "The patient's imaging findings do not conform to the common morphologic features of lung cancer."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphomatous pulmonary infiltration",
+        "evidence": [
+          "An elderly woman; crackles can be heard in both lungs. Interstitial lung disease should be suspected. Lymphatic involvement can present with similar features, and lymphoma in the lungs has no fixed typical imaging features."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Infectious lesion",
+        "evidence": [
+          "The patient had a prolonged course of cough and sputum production that persisted without resolution, and developed dyspnea over time."
+        ],
+        "exclusion_reasons": [
+          "Poor response to anti-infective therapy"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopic transbronchial cryobiopsy (TBCB) examination",
+          "basis_in_stage3_input": "TBCB-related examination results",
+          "why_order_this_exam": "The patient has had cough and sputum production for 6 months, with marked worsening of wheezing and exertional dyspnea over the past 1 month. Chest HRCT showed diffuse patchy opacities, reticular opacities, and scattered nodules in both lungs, and there was no definite improvement in either symptoms or imaging after antibacterial treatment, suggesting that common uncomplicated infection alone is difficult to use as an explanation. Previous differential diagnoses included hypersensitivity pneumonitis, infection, neoplastic lesions, pulmonary infiltration by lymphoma, and organizing pneumonia; clinical findings and imaging alone were insufficient for definitive characterization. TBCB can obtain larger and more intact lung tissue samples in diffuse pulmonary parenchymal disease, and compared with conventional transbronchial biopsy, it is more helpful for evaluating alveolar contents and alveolar septal architecture, thereby addressing the central question of whether the lesion is infectious, inflammatory, neoplastic, or a deposition disease. At the same time, the patient has a moderate reduction in diffusing capacity, so before the procedure it is also necessary to weigh the diagnostic yield of tissue sampling against risks such as bleeding and pneumothorax; however, the result is crucial for definitive diagnosis and subsequent treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture of lavage fluid",
+          "basis_in_stage3_input": "BALF bacterial culture: Streptococcus pneumoniae 2+",
+          "why_order_this_exam": "At symptom onset, the patient had yellow sticky sputum. The CBC indicated an increased neutrophil percentage, and CRP and hs-CRP were elevated. Imaging was also initially considered possibly inflammatory, indicating that bacterial infection has always been an important differential diagnosis. On the other hand, the response to anti-infective treatment was poor, and decreased IgG and IgM as well as reduced T/B/NK cells were present, suggesting impaired immune function; the pulmonary lesions may be complicated by infection or secondary infection. Ordering BALF bacterial culture was intended to directly assess whether pathogenic bacteria were present in the lower respiratory tract, distinguish colonization from infection, explain the neutrophilic inflammatory response, and provide a basis for whether to continue or adjust antimicrobial therapy, while also avoiding misclassification of infectious lesions as purely interstitial or neoplastic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspirate examination",
+          "basis_in_stage3_input": "2) Aspirate: no malignant cells identified; numerous neutrophils seen",
+          "why_order_this_exam": "The patient is a 61-year-old woman with multiple pulmonary nodules and patchy opacities in both lungs, and elevated tumor markers including CYFRA21-1, ProGRP, and NSE. In the previous differential diagnosis, lung cancer, multifocal malignant lesions, or lymphangitic spread clearly needed to be excluded. Cytologic examination of bronchoscopy aspirate is helpful for determining whether malignant cells are present in airway secretions, while also assessing the inflammatory cellular components. The purpose of this examination is to determine whether the imaging abnormalities are more suggestive of tumor or inflammation/infection; if no cancer cells are seen and neutrophils predominate, the likelihood of a central airway-derived malignant tumor can be reduced, supporting an infectious or inflammatory background, but histopathology is still required for further characterization. Therefore, it has ancillary value for distinguishing malignancy and guiding subsequent tissue sampling.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis smear",
+          "basis_in_stage3_input": "3) Mycobacterium tuberculosis smear and Gene-Xpert negative",
+          "why_order_this_exam": "The patient has had persistent pulmonary lesions for half a year. Imaging shows diffuse patchy opacities in both lungs accompanied by nodules and interstitial changes, and the response to conventional antibacterial therapy has been poor. With this type of presentation, pulmonary TB or nontuberculous mycobacterial infection should not be overlooked. In particular, the patient has marked immunodeficiency and subsequently identified bone marrow abnormalities, so the spectrum of infection may be atypical. Performing a Mycobacterium tuberculosis smear is intended to rapidly screen the lavage fluid for acid-fast bacilli, to identify contagious TB early or suggest a mycobacterial infection, thereby affecting isolation requirements, further diagnostic evaluation, and anti-TB treatment decisions; it also helps distinguish infectious lesions from noninfectious diffuse lung disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gene-xpert",
+          "basis_in_stage3_input": "3) Mycobacterium tuberculosis smear and Gene-Xpert negative",
+          "why_order_this_exam": "In the setting of a chronic protracted course, complex imaging findings, and impaired immune function, a smear-negative result alone is insufficient to completely exclude TB. GeneXpert can improve the molecular detection efficiency for Mycobacterium tuberculosis and can provide TB-related clues within a shorter period of time. The purpose of ordering this test is to further address the key differential diagnostic question of whether the diffuse lung disease is caused by Mycobacterium tuberculosis, thereby avoiding a missed diagnosis that could lead to a completely incorrect treatment direction; if the result is negative, it can corroborate the smear result and significantly reduce the likelihood of active TB infection, providing support for more confidently shifting subsequent evaluation toward histopathology and diagnosis of rare etiologies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "basis_in_stage3_input": "3) Mycobacterium tuberculosis smear and Gene-Xpert negative, G test and GM test negative, fungal immunofluorescence of lavage fluid negative",
+          "why_order_this_exam": "The patient has decreased IgG and IgM levels and a marked reduction in lymphocyte subsets, suggesting an increased risk of opportunistic infection; diffuse bilateral pulmonary infiltrates and progressive cough and wheezing/dyspnea can also be seen in invasive fungal infection or Pneumocystis and other infections. The G test is used to screen for fungal cell wall-related components and can serve as an important adjunctive indicator for broad-spectrum invasive fungal infection. The clinical question addressed by this test is whether the current diffuse pulmonary lesions are associated with deep fungal infection; its result helps exclude or suggest a fungal etiology before pathologic confirmation, influences whether empiric antifungal therapy is needed, and helps avoid confusion with fungal infection when subsequently interpreting proteinaceous material deposition in the lung tissue.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "3) Mycobacterium tuberculosis smear and Gene-Xpert negative, G test and GM test negative, fungal immunofluorescence of lavage fluid negative",
+          "why_order_this_exam": "Because the patient is immunocompromised and has diffuse abnormalities on chest imaging with a suboptimal response to conventional anti-infective therapy, opportunistic fungal infection such as Aspergillus should be a major concern. The GM test has high clinical reference value for invasive Aspergillus infection. This test was ordered to determine whether the patient’s diffuse pulmonary lesions are caused by fungi such as Aspergillus, especially when the clinical manifestations are atypical and the imaging findings may also overlap with other interstitial/depositional lesions; in this setting, the GM test can complement the G test, immunofluorescence, and pathologic sampling. If negative, it would help reduce the likelihood of invasive Aspergillus infection, avoid unnecessary antifungal therapy, and support continued evaluation for noninfectious causes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal immunofluorescence in lavage fluid",
+          "basis_in_stage3_input": "3) Mycobacterium tuberculosis smear and Gene-Xpert negative, G test and GM test negative, fungal immunofluorescence of lavage fluid negative",
+          "why_order_this_exam": "The patient has an obvious immunosuppressed background. In this population, diffuse pulmonary infiltrates require particular evaluation for opportunistic infections such as fungal infection and Pneumocystis infection, which may present with cough, dyspnea on exertion, and diffuse bilateral pulmonary opacities. Fungal immunofluorescence testing of lavage fluid can directly detect certain specific pathogens, compensating for the limited sensitivity of culture and serology. This test is intended to further exclude fungus-related pulmonary infection and to determine whether the current imaging and clinical deterioration are driven by opportunistic infection; a negative result would help narrow the differential diagnosis and provide a better basis for subsequent assessment of deposition lung disease, inflammatory lesions, and pulmonary injury related to hematologic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology",
+          "basis_in_stage3_input": "4) Histopathology suggested fibrous tissue proliferation with chronic inflammatory infiltration.",
+          "why_order_this_exam": "The core difficulty in this case is that both the imaging findings and clinical manifestations lack specificity: there are clues suggestive of infection, as well as mildly elevated tumor markers and manifestations of interstitial lung disease, and empiric anti-infective therapy was ineffective. Histopathology is the key evidence for characterizing diffuse pulmonary parenchymal lesions; it allows direct observation of the alveolar spaces, alveolar septa, and interstitial components to determine whether the process represents inflammation, organization, tumor infiltration, granulomatous lesions, or proteinaceous deposition. Ordering this examination is intended to address the fundamental issue of establishing a definitive diagnosis and to provide a basis for whether subsequent treatment should include anti-infective therapy, glucocorticoids, whole-lung lavage, or treatment directed at the underlying hematologic disease. Even if the initial pathology shows only chronic inflammatory changes, it can still indicate the need for further consultation and special stains, thereby avoiding missed diagnosis of rare diseases.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "Abnormalities were found on serial postoperative follow-up complete blood counts",
+          "why_order_this_exam": "At admission, the patient already had mild anemia and thrombocytopenia, suggesting that in addition to the pulmonary lesion, there might also be a concomitant systemic or hematologic problem; meanwhile, the mildly elevated infection markers and impaired immune function also require dynamic monitoring of inflammation and bone marrow hematopoietic status. Postoperative repeat CBC showed that the WBC further decreased to 2.97×10^9/L, and Hb also decreased from 120 g/L to 102 g/L; this multilineage cytopenia cannot be fully explained by a simple pulmonary infection alone. Ordering and dynamically following CBC was intended to assess disease severity, monitor safety and the risk of complications after bronchoscopic biopsy, identify clues to potential bone marrow disease, and determine whether further bone marrow examination and subsequent treatment intensity are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration results showed",
+          "why_order_this_exam": "The patient not only has a protracted pulmonary lesion, but also has thrombocytopenia and anemia in the peripheral blood, and developed leukopenia after surgery, suggesting a possible primary hematologic disorder. In conjunction with a marked decrease in immune cells and immunoglobulins, abnormal bone marrow hematopoiesis, bone marrow involvement, or a secondary immunodeficiency state should be considered. Bone marrow aspiration is an important test for rapid assessment of bone marrow cell morphology and proliferative activity, with the purpose of explaining the cause of multilineage blood cell abnormalities and determining whether MDS, a preleukemic state, or other bone marrow lesions are present; this step is निर्णसive for understanding whether the diffuse pulmonary lesions are secondary changes and whether subsequent treatment should focus primarily on management of the underlying hematologic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "Bone marrow smear: MDS-EB-1 possible.",
+          "why_order_this_exam": "Based on abnormal findings on bone marrow aspiration, a bone marrow smear can further assess, at the cytomorphologic level, whether there is dysplasia in the granulocytic, erythroid, and megakaryocytic lineages and determine the proportion of blasts. The patient's peripheral blood has already shown abnormalities in white blood cells, hemoglobin, and platelets, and it is necessary to determine whether the findings are consistent with diseases such as myelodysplastic syndrome. Ordering this test is intended to identify the underlying cause of cytopenia and to determine whether the pulmonary lesions may be secondary to immune dysfunction caused by a bone marrow disorder or to specific pulmonary complications. After the bone marrow smear suggested possible MDS-EB-1, it directly changed the disease framework, provided important evidence for a secondary etiology of pulmonary alveolar proteinosis, and influenced the subsequent selection of treatment options such as decitabine.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "basis_in_stage3_input": "Bone marrow biopsy: markedly increased bone marrow cellularity; ALIP observed in the granulocytic series, with decreased erythroid proliferation.",
+          "why_order_this_exam": "Peripheral blood and bone marrow smears alone may sometimes be insufficient to fully evaluate bone marrow architecture and the hematopoietic microenvironment. Especially when MDS is suspected, bone marrow biopsy is needed to assess the degree of marrow proliferation, abnormal localization of immature precursors (ALIP), and the distribution of hematopoiesis in each lineage. The patient has multilineage blood cell abnormalities and immunodeficiency; the purpose of the bone marrow biopsy is to further determine whether a clonal bone marrow disorder is present and to distinguish it from reactive changes. This examination plays a key role in establishing the diagnosis of MDS, assessing disease severity, explaining the mechanism of secondary PAP, and determining that subsequent management should focus on treating the underlying hematologic disease rather than solely symptomatic pulmonary treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy specimen submitted for pathology consultation",
+          "basis_in_stage3_input": "Lung biopsy specimen submitted for pathology consultation",
+          "why_order_this_exam": "The patient's initial lung histopathology showed only fibrous tissue proliferation with chronic inflammatory infiltration, which did not fully match the severe and protracted diffuse bilateral lung disease clinically, indicating that routine slide review may not have adequately revealed the nature of the lesion. Given the nonspecific imaging findings, mostly negative etiologic studies, absence of malignant cells in the aspirate, and the patient's gradually emerging clues of a hematologic disorder, sending the lung biopsy specimen for consultation at a higher-level or specialty pathology service would help re-evaluate the intra-alveolar material, alveolar septal architecture, and direction of special stains, and resolve whether a rare disease such as pulmonary alveolar proteinosis is present. In this case, the pathology consultation was the turning point from 'chronic inflammation' to a definitive diagnosis of PAP, and was crucial for the final diagnosis and selection of treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS special stain",
+          "basis_in_stage3_input": "Special stains PAS, PAS after digestion, and PE-10 all showed strong positive expression",
+          "why_order_this_exam": "Pathology consultation found that the alveolar spaces were filled with a large amount of pink, flocculent, amorphous proteinaceous material, suggesting possible pulmonary alveolar proteinosis, but special staining is needed to further verify the nature of its components. PAS staining can demonstrate alveolar deposits rich in glycoprotein/phospholipoprotein components and is one of the important pathologic bases for the diagnosis of PAP. This test was ordered to confirm whether the material within the alveolar spaces is consistent with surfactant-like deposition, rather than simple exudate, necrotic material, or certain fungal components; its result has direct value in distinguishing this case from common diagnoses such as infection, tumor, and hypersensitivity pneumonitis, and in establishing the diagnosis of PAP.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS after digestion",
+          "basis_in_stage3_input": "Special stains PAS, PAS after digestion, and PE-10 all showed strong positive expression",
+          "why_order_this_exam": "When a large amount of PAS-positive material is seen within the alveolar spaces, PAS after digestion is still needed to further determine the nature of the positive material and help distinguish it from glycogen and other components that can also cause PAS positivity. For the diffuse intra-alveolar proteinaceous deposition in this case, persistent strong positivity after digestion more strongly supports material related to pulmonary alveolar proteinosis rather than simple intracellular glycogen or other nonspecific substances. This test is intended to address the issue of pathologic component identification, thereby improving the specificity of the diagnosis of PAP and avoiding missed diagnosis due to routine pathologic descriptions being biased toward chronic inflammation; its results also provide stronger histologic evidence for subsequently linking PAP with the underlying MDS.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PE-10",
+          "basis_in_stage3_input": "Special stains PAS, PAS after digestion, and PE-10 all showed strong positive expression",
+          "why_order_this_exam": "PE-10 is one of the surfactant protein-related markers. On consultation of the patient's lung biopsy, a large amount of amorphous proteinaceous material has already been seen within the alveolar spaces. If PE-10 is strongly positive, it indicates that these deposits are related to pulmonary surfactant and can further support the diagnostic direction of pulmonary alveolar proteinosis. The purpose of ordering this test is to provide more targeted immunopathologic evidence on the basis of PAS and diastase-digested PAS, to help exclude simple inflammatory exudate, organization after hemorrhage, or other protein deposition states, and to correlate the pulmonary lesion with the pathophysiologic mechanism of secondary PAP. Its result directly affects the final confirmed diagnosis and determines whether the treatment focus should be placed on control of the underlying MDS and whether options such as whole-lung lavage should be evaluated.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Results related to bronchoscopic transbronchial cryobiopsy (TBCB): 1) BALF bacterial culture: Streptococcus pneumoniae 2+; 2) aspirate: no malignant cells found, with numerous neutrophils; 3) Mycobacterium tuberculosis smear, GeneXpert negative, G test, GM test negative, and fungal immunofluorescence of lavage fluid negative; 4) histopathology suggested fibrous tissue proliferation with chronic inflammatory infiltration. Dynamic postoperative follow-up CBC revealed abnormalities: WBC was normal at admission, but decreased postoperatively to 2.97*109/L. In addition, Hb also decreased from 120g/L at admission to 102g/L postoperatively. Bone marrow aspiration results showed: bone marrow smear: possible MDS-EB-1. Bone marrow biopsy: markedly increased bone marrow cellularity, ALIP seen in granulocytes, and decreased erythroid proliferation. The lung biopsy specimen was sent for pathology consultation, and the consultation result indicated: focal alveolar spaces were filled with a large amount of pink flocculent, amorphous proteinaceous material; special stains PAS, PAS after digestion, and PE-10 all showed strong positive expression; the alveolar septal architecture was basically intact.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqfGLjWHFNEG6LaAHvib3ZHZ4afpkvLy09kw1iaRnJGHwjic3XzJgQSLTBg/640?wx_fmt=jpeg",
+          "near_text": "Results related to the TBCB examination:",
+          "local_src": "cleaned_cases_image_cache/e6efc2e50ece106888b82270dd67731058e931e1.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary alveolar proteinosis (PAP) secondary to myelodysplastic syndrome / myelodysplastic syndrome (MDS)",
+      "diagnostic_basis": [
+        "Bone marrow aspiration findings—bone marrow smear: possible MDS-EB-1. Bone marrow biopsy: markedly hypercellular marrow; ALIP observed in the granulocytic series, with decreased erythroid proliferation.",
+        "Pathology from transbronchial cryobiopsy confirmed pulmonary alveolar proteinosis; secondary PAP was considered based on the medical history"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Decitabine 25 mg/m2, chemotherapy on days 1-5 of each cycle; dynamic follow-up of changes in blood counts and bone marrow findings, as well as the extent of lesion involvement on chest CT; whole-lung lavage has not yet been performed"
+      ],
+      "treatment_response": [
+        "Myelodysplastic syndrome remains stable, there is no further increase in pulmonary lesions, and activities of daily living remain at a normal level"
+      ]
+    }
+  }
+}

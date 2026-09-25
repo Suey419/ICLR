@@ -1,0 +1,365 @@
+{
+  "status": "success",
+  "case_id": "case_136",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 25 years old, chief complaint: \"cough and chest tightness for 2 months, worsening for 1 month, disturbance of consciousness for 3 days.\" Two months before this admission, the patient developed cough with white sticky sputum, accompanied by chest tightness and mild shortness of breath after activity. One month earlier, she noted worsening chest tightness and dyspnea, was unable to lie flat at night to sleep, and had lip cyanosis. More than 10 days earlier, creatine kinase was 288 U/L, and chest CT showed \"bilateral pneumonia and bilateral pleural effusion\"; she was diagnosed with \"myocarditis and pneumonia,\" with poor treatment response. Three days earlier, the patient developed fever, with a maximum temperature of 37.9℃, and developed confusion and somnolence. Two days before admission (Day 0), she came to our hospital emergency department. At 6 a.m. on Day +1, she lost consciousness. Arterial blood gas showed pH 6.97, pCO2 >150 mmHg, pO2 80 mmHg. Emergency treatment included endotracheal intubation and ventilator-assisted ventilation. Past history: scoliosis corrective surgery 11 years earlier. Physical examination: T: 37.1℃, P: 95/min, R: 20/min, BP: 136/97 mmHg. Weight 40 kg, height 153 cm, BMI 17.09 kg/m2. Under drug-induced sedation, with asymmetric thoracic deformity and thin body habitus. Bilateral lungs were resonant to percussion; breath sounds were decreased at both lower lungs, with moist rales audible. Scoliotic deformity of the spine. Mild pitting edema of both lower extremities. Ancillary examinations: blood gas analysis (oxygen concentration 25%): pH 7.52, PCO2 30 mmHg, PO2 86 mmHg, HCO3- 24.5 mmol/L. Complete blood count: white blood cells 2.79*10^9/L. CRP >120 mg/L, IL-6 6.39 pg/ml. Creatine kinase 219 IU/L, lactate dehydrogenase 256 IU/L; NT-proBNP 810.9 pg/ml; D-dimer: 1.31 ug/ml. SARS-CoV-2 nucleic acid: positive (+). BALF NGS: SARS-CoV-2. Outside hospital chest CT showed: thoracic deformity, scattered patchy opacities in both lungs, more prominent in the left lower lobe, and bilateral pleural effusion. Echocardiography: LVEF 0.62, mitral regurgitation (mild), tricuspid regurgitation (mild).",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstITATHU6ibvyaAm4cnybajMQNPTkBuSpNDDjF5OX6jSQmq5HRugD5coUOPpF8EP2uBBhPWsetyqplg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/99c589f0aae56625ceeb23e474979ed8c989163c.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstITATHU6ibvyaAm4cnybajMQBXRib5FGyCicttFibAUmvqqVez0hJgDmCT62Ay8MmibQu4LCk1wqkIRZFA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Day -6 Chest CT at an outside hospital",
+          "local_src": "cleaned_cases_image_cache/6e2d82ded085bc826a0e8aa4c5b19e54c7e8763d.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chest wall deformity/scoliosis-related restrictive ventilatory dysfunction with acute exacerbation of hypercapnic respiratory failure",
+          "supporting_evidence": [
+            "History of scoliosis corrective surgery 11 years ago; physical examination showed chest wall deformity with asymmetry and scoliosis deformity.",
+            "Outside-hospital chest CT showed thoracic cage deformity; the accompanying CT images show obvious thoracic cage structural abnormalities and reduced bilateral lung volumes due to compression.",
+            "Cough and chest tightness for 2 months; worsening chest tightness and shortness of breath for 1 month, unable to lie flat to sleep at night, suggesting decompensation on the basis of chronic ventilatory limitation",
+            "Arterial blood gas in the early morning of Day +1 showed pH 6.97, pCO2 >150 mmHg, and pO2 80 mmHg, consistent with extremely severe hypercapnic respiratory failure",
+            "Underweight body habitus, BMI 17.09kg/m2, which may reduce respiratory muscle reserve and increase the risk of restrictive ventilatory decompensation",
+            "Breath sounds were decreased in both lower lungs. CT at an outside hospital showed bilateral pleural effusions, which may further worsen restricted chest wall/lung expansion."
+          ],
+          "opposing_evidence": [
+            "No clear evidence of pulmonary function testing or long-term chronic hypercapnia was provided in the first-stage information",
+            "Concurrent evidence of infection suggests that this episode of decompensation may not be solely caused by chest wall deformity."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "COVID-19 pneumonia",
+          "supporting_evidence": [
+            "SARS-CoV-2 nucleic acid: positive (+)",
+            "BALF NGS: SARS-CoV-2",
+            "Fever developed 3 days ago, with a maximum temperature of 37.9°C",
+            "CRP >120 mg/L, indicating a marked inflammatory response",
+            "Outside hospital chest CT showed scattered patchy opacities in both lungs, more prominent in the left lower lobe; accompanying CT images show patchy consolidation/exudative opacities in both lungs",
+            "Respiratory symptoms such as cough, chest tightness, and shortness of breath are present"
+          ],
+          "opposing_evidence": [
+            "The patient's initial symptoms had already persisted for 2 months, and a positive COVID-19 test can only indicate a current infection and cannot by itself explain the entire longer course of illness.",
+            "The most prominent critical manifestation was severe hypercapnia with pCO2 >150 mmHg; viral pneumonia alone is usually insufficient to cause such a marked presentation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Community-acquired bacterial pneumonia (may be complicated by viral infection) with pleural effusion",
+          "supporting_evidence": [
+            "Chief complaint: cough for 2 months, producing white mucoid sputum",
+            "Fever developed 3 days ago",
+            "CRP >120 mg/L, indicating significant inflammation/infection",
+            "Breath sounds were decreased in both lower lungs, and moist crackles were audible.",
+            "Outside hospital chest CT showed scattered patchy opacities in both lungs, more pronounced in the left lower lobe, with bilateral pleural effusions; the attached CT images show patchy areas of consolidation predominantly in the lower lobes and pleural effusions",
+            "He was previously treated for \"pneumonia\" at an outside hospital, indicating that the imaging findings at that time had already raised consideration of an infectious lesion."
+          ],
+          "opposing_evidence": [
+            "WBC 2.79*10^9/L, which is not the leukocytosis commonly seen in typical bacterial infection",
+            "SARS-CoV-2 positivity has been confirmed; the viral infection may independently or jointly explain some of the pulmonary imaging and inflammatory findings",
+            "The direct physiological basis of severe disturbance of consciousness is more consistent with hypercapnia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Heart failure or circulatory congestion predominantly due to increased right heart load (causing pleural effusion and orthopnea)",
+          "supporting_evidence": [
+            "1 month ago, chest tightness and shortness of breath worsened; unable to lie flat to sleep at night, suggesting orthopnea/recumbent dyspnea",
+            "with cyanosis of the lips and mild pitting edema of both lower extremities",
+            "Chest CT at an outside hospital showed bilateral pleural effusions",
+            "NT-proBNP elevated at 810.9 pg/ml",
+            "Echocardiography showed mild mitral regurgitation and mild tricuspid regurgitation, which may be related to volume load or changes in pulmonary circulatory pressure"
+          ],
+          "opposing_evidence": [
+            "Echocardiography showed LVEF 0.62, with no obvious decrease in left ventricular systolic function",
+            "Stage 1 information did not provide imaging descriptions of obvious cardiomegaly or typical pulmonary edema",
+            "Extremely severe hypercapnia is more supportive of ventilatory failure and cannot be explained by heart failure alone"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary embolism",
+          "supporting_evidence": [
+            "Progressively worsening chest tightness and dyspnea, accompanied by cyanosis",
+            "D-dimer: 1.31 ug/mL, elevated",
+            "Loss of consciousness may occur in severe respiratory and circulatory events."
+          ],
+          "opposing_evidence": [
+            "The most prominent abnormality on arterial blood gas is severe hypercapnia with pCO2 >150 mmHg, whereas pulmonary embolism more commonly causes hypocapnia.",
+            "Chest CT from an outside hospital was described as showing scattered patchy opacities in both lungs, more prominent in the left lower lobe, bilateral pleural effusions, and chest wall deformity, with no direct evidence related to pulmonary embolism provided.",
+            "There is evidence of chest wall deformity-related ventilatory failure and pulmonary infection that better explain the current presentation."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count + inflammatory markers (CRP, IL-6, PCT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac enzyme panel (CK, LDH) + NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ferritin, vitamin B12, folate",
+          "requirement": "required"
+        },
+        {
+          "exam": "SARS-CoV-2 nucleic acid + bronchoalveolar lavage fluid mNGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immune-related markers (lupus anticoagulant, rheumatologic panel, ANCA, antiphospholipid antibodies)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electroencephalogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diaphragm ultrasound (diaphragmatic excursion, diaphragm thickness, thickening fraction)",
+          "requirement": "required"
+        },
+        {
+          "exam": "respiratory mechanics monitoring",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography + evoked potentials",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thigh muscle MRI",
+          "requirement": "required"
+        },
+        {
+          "exam": "Left biceps brachii muscle biopsy + pathology + immunohistochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-exome genetic testing (patient + parents + younger sister + female cousin)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sanger sequencing validation",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Brain MRI showed no abnormalities, and EEG showed a borderline EEG. After extubation, pulmonary function testing showed FVC 23.63%, FEV1 25.42%, FEV1/FVC 93.64, consistent with extremely severe restrictive ventilatory dysfunction. Physical examination found that the patient had a thin body habitus, thenar and hypothenar atrophy, muscle atrophy of the extremities, and decreased muscle strength in the extremities and trunk. Diaphragm ultrasound indicated decreased diaphragmatic excursion and diaphragmatic atrophy. Respiratory mechanics tracing indicated weakened respiratory muscle strength and insufficient respiratory drive. Electromyography showed myogenic injury (with a small number of spontaneous potentials); evoked potentials on electromyography: no abnormalities were found in the examined nerves or RNA. Thigh muscle MRI: atrophy of the bilateral posterior and lateral thigh muscle groups; myositis/myopathy could not be excluded. Pathology from left biceps muscle biopsy showed findings consistent with mild myogenic injury.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQAOnicd4Zlb8LYP51omIym0yXricKGpWqoHzbsZ012GG42HoGHoRK6icow/640?wx_fmt=png&from=appmsg",
+            "near_text": "Suggestive of: decreased diaphragmatic excursion; diaphragmatic atrophy.",
+            "local_src": "cleaned_cases_image_cache/0d9610bdc2c76efb067c6df5571cf5e675b947b5.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQtaLDRl1k6Fh0Hdl66BBClDrymqhkyfokLL35akkWnaRepVxoOcSnfQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "daytime",
+            "local_src": "cleaned_cases_image_cache/a1d09d9dc314e8daac9b5672758fcf1c064fc907.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQZVPf7lnQicF9YG7gRNo0ALy39T9ynVpqSnK7QvA7JxPFrb67pDXoJDA/640?wx_fmt=png&from=appmsg",
+            "near_text": "at night",
+            "local_src": "cleaned_cases_image_cache/b1fea7b575a5ba7d1883f4501337988ecfc23e3b.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQgP9vTeohKV0HicFXibFpyeqfAw5CWEibaicnhOic77rJDStibRVJLKpUSr9A/640?wx_fmt=png&from=appmsg",
+            "near_text": "Apnea",
+            "local_src": "cleaned_cases_image_cache/bcb7bfa08c47d1ace9e63718b989fd80459e83e9.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQb944UQXW6RCaXyKt95WY222F0JG3QSWiaPXVSSibj3fndN6Dia0C96icxw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Pathology image of the left biceps brachii",
+            "local_src": "cleaned_cases_image_cache/dc9d7b4b300ea97ca62c88d48c7d30419980df26.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Respiratory center diseases (cerebral infarction, cerebral hemorrhage, intracranial infection, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient is a young woman with no history of traumatic brain injury or cerebrovascular disease. After admission, cranial MRI was completed and showed no abnormalities. EEG showed a borderline EEG."
+            ]
+          },
+          {
+            "name": "Airway obstruction and pulmonary diseases (COPD, asthma)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient is a young woman with no smoking history or occupational dust exposure history, no history of allergic rhinitis or urticaria, no chronic respiratory symptoms such as recurrent cough, sputum production, wheezing, or dyspnea, and chest CT shows no findings of emphysema or interstitial lung disease."
+            ]
+          },
+          {
+            "name": "isolated chest wall deformity",
+            "evidence": [
+              "The patient has a history of scoliosis corrective surgery. Current imaging shows persistent mild chest wall deformity, which may lead to type II respiratory failure."
+            ],
+            "exclusion_reasons": [
+              "The patient had not developed dyspnea for more than 10 years after surgery. In this episode, the partial pressure of carbon dioxide was extremely high, the pH decreased to 6.9, HCO3- was 24.5 mmol/L, and there was disturbance of consciousness; chest wall deformity alone cannot explain the acute course."
+            ]
+          },
+          {
+            "name": "Neuromuscular diseases (myasthenia gravis, Guillain-Barré syndrome, etc.)",
+            "evidence": [
+              "The patient has a thin body habitus, thenar and hypothenar atrophy, muscle atrophy of the extremities, decreased muscle strength in the extremities and trunk, and repeatedly elevated serum creatine kinase levels."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Respiratory center diseases (cerebral infarction, cerebral hemorrhage, intracranial infection, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient is a young woman with no history of traumatic brain injury or cerebrovascular disease. After admission, cranial MRI was completed and showed no abnormalities. EEG showed a borderline EEG."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Airway obstruction and pulmonary diseases (COPD, asthma)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient is a young woman with no smoking history or occupational dust exposure history, no history of allergic rhinitis or urticaria, no chronic respiratory symptoms such as recurrent cough, sputum production, wheezing, or dyspnea, and chest CT shows no findings of emphysema or interstitial lung disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "isolated chest wall deformity",
+        "evidence": [
+          "The patient has a history of scoliosis corrective surgery. Current imaging shows persistent mild chest wall deformity, which may lead to type II respiratory failure."
+        ],
+        "exclusion_reasons": [
+          "The patient had not developed dyspnea for more than 10 years after surgery. In this episode, the partial pressure of carbon dioxide was extremely high, the pH decreased to 6.9, HCO3- was 24.5 mmol/L, and there was disturbance of consciousness; chest wall deformity alone cannot explain the acute course."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neuromuscular diseases (myasthenia gravis, Guillain-Barré syndrome, etc.)",
+        "evidence": [
+          "The patient has a thin body habitus, thenar and hypothenar atrophy, muscle atrophy of the extremities, decreased muscle strength in the extremities and trunk, and repeatedly elevated serum creatine kinase levels."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Further inquiry into family history",
+          "basis_in_stage3_input": "Upon further inquiry into the family history, it was found that the patient's grandaunt's granddaughter also had a history of scoliosis deformity.",
+          "why_order_this_exam": "The patient is a 25-year-old woman with a long-term thin body habitus and a history of scoliosis corrective surgery. This presentation began with progressive chest tightness, shortness of breath, and inability to lie flat at night, and ultimately progressed to extremely severe type II respiratory failure with pH 6.97 and pCO2 >150 mmHg, accompanied by weakness of the limbs and trunk muscles, muscle atrophy, decreased diaphragmatic motion, extremely severe restrictive ventilatory dysfunction, myogenic injury on electromyography, and mild myopathic changes on muscle pathology. These manifestations suggest that they cannot be explained solely by simple chest wall deformity or infection, and hereditary neuromuscular disease should be strongly suspected, especially congenital/hereditary myopathies associated with scoliosis and respiratory muscle involvement. The purpose of again systematically inquiring about the family history was to look for clustering clues in the family such as spinal deformity, muscle weakness, and respiratory insufficiency, to determine whether a hereditary pattern is present, thereby increasing the diagnostic likelihood of hereditary myopathy, narrowing the differential diagnosis, and providing a basis for whether to proceed with family-based genetic testing, selecting the individuals to be tested, and offering genetic counseling. The finding that the granddaughter of the patient's grandaunt also had a history of scoliosis deformity supports that this disease is not an isolated case, but may have familial clustering, prompting further etiologic genetic confirmation.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "whole-exome genetic testing",
+          "basis_in_stage3_input": "Whole-exome sequencing was performed on the patient, the patient's parents, younger sister, and female cousin, and revealed that both the patient and the female cousin had a heterozygous SELENON gene mutation causing rigid spine muscular dystrophy and congenital myopathy with fiber-type disproportion. In addition, the patient also had an MTHFR gene mutation causing hyperhomocysteinemia.",
+          "why_order_this_exam": "The patient's clinical manifestations have established a relatively clear indication of hereditary myopathy: onset in ახალგაზრდhood, thin body habitus, prior history of scoliosis surgery, current atrophy of the thenar and hypothenar eminences and limb muscles, and decreased muscle strength in the limbs and trunk. Pulmonary function testing showed markedly decreased FVC and FEV1 with a normal FEV1/FVC, indicating extremely severe restrictive ventilatory defect; diaphragmatic ultrasound showed decreased diaphragmatic excursion and atrophy, and respiratory mechanics suggested decreased respiratory muscle strength and insufficient respiratory drive; electromyography showed myogenic injury, muscle MRI showed atrophy of the posterior and lateral muscle groups, and muscle biopsy also supported mild myogenic injury. At the same time, brain MRI, EEG, and nerve conduction studies/evoked potentials did not suggest major central or peripheral neurogenic lesions, and chest wall deformity alone is also insufficient to explain the sudden occurrence of such a severe hypercapnic crisis after many years of postoperative stability; therefore, further clarification of the etiology at the molecular level is needed. Whole-exome genetic testing can systematically screen pathogenic genes associated with congenital myopathies, spinal muscular dystrophy, and respiratory muscle involvement when the clinical phenotype and pathology suggest hereditary myopathy but the specific subtype remains unclear, thereby addressing the key question of \"exactly which type of hereditary myopathy caused the long-standing restrictive ventilatory impairment and acute decompensation after COVID-19 infection.\" Family testing of the patient and her parents, younger sister, and female cousin can also be used to verify cosegregation between the variant and phenotype, strengthen pathogenicity assessment, distinguish incidental variants from truly pathogenic variants, and assess disease/carrier risk in family members. Ultimately, identification of a heterozygous SELENON gene mutation can provide a unified explanation for the prior scoliosis, chronic respiratory muscle involvement, myogenic injury, and the acute type II respiratory failure triggered by this COVID-19 infection, and is directly related to the final diagnosis, genetic counseling, long-term noninvasive ventilation, and respiratory rehabilitation management; identification of an MTHFR mutation is helpful for recognizing concomitant metabolic abnormalities and improving the overall treatment and follow-up strategy.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Upon further inquiry into the family history, it was found that the granddaughter of the patient's grandaunt also had a history of scoliosis deformity. Whole-exome genetic testing was performed on the patient, the patient's parents, younger sister, and female cousin, and it was found that both the patient and her female cousin had a heterozygous SELENON gene mutation causing rigid spine muscular dystrophy and congenital myopathy with fiber-type disproportion. In addition, the patient also had an MTHFR gene mutation causing hyperhomocysteinemia.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQfn8zwOhDwWaLrKyo6YU921bXKUmvibdbniblKz62bxnujic5QYEDdWhPg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/9b3d7f6e970acaca4366fc8e9b257d81d3ef808f.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQc04lO2oE7ibh5wV9aSzImQhwVaOyibhicda8ibCD6XJ3zTldLMPPlsvkvQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Through genetic testing, we found that both the patient and her female cousin have a heterozygous SELENON gene mutation causing rigid spine muscular dystrophy and congenital myopathy with fiber-type disproportion.",
+          "local_src": "cleaned_cases_image_cache/40e727e548bae4ab2e1c5010c5b9747309a51dbc.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstITATHU6ibvyaAm4cnybajMQqHyfwEwx6uN3flCPGKpByGMN7UHHicCHMNOL3NTlv9NWMto0XRR00Tw/640?wx_fmt=png&from=appmsg",
+          "near_text": "What is SELENON-related myopathy?",
+          "local_src": "cleaned_cases_image_cache/9ca2b2f3434ea23a69b8a51a5d3adb58754c3882.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "SEPN1-related myopathy (heterozygous SELENON gene mutation), methylenetetrahydrofolate reductase (MTHFR) deficiency (homocysteinemia type 2), type II respiratory failure, COVID-19 pneumonia",
+      "diagnostic_basis": [
+        "Family history: the granddaughter of the patient's great-aunt also has a history of scoliosis deformity",
+        "Genetic testing: confirmed that the patient has a heterozygous SELENON gene mutation causing rigid spine muscular dystrophy and congenital myopathy with fiber-type disproportion, as well as an MTHFR gene mutation causing hyperhomocysteinemia",
+        "Electromyography, muscle MRI, and muscle pathology all confirmed myopathic changes.",
+        "PFT showed a restrictive ventilatory defect",
+        "SARS-CoV-2 nucleic acid positive, onset after COVID-19 infection"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Respiratory support: endotracheal intubation with ventilator-assisted ventilation, implementation of a goal-directed comfort-oriented light sedation strategy, daily sedation interruption, transcutaneous partial pressure of carbon dioxide monitoring, invasive-noninvasive sequential ventilation (iVAPS mode)",
+        "Early respiratory rehabilitation: during endotracheal intubation, acupuncture, vibration-assisted sputum clearance, and external diaphragmatic pacing were provided; after extubation, sitting and limb training were performed",
+        "Nutritional support: NRS 2002 nutritional screening, calculate daily protein and energy requirements, and use progressive feeding"
+      ],
+      "treatment_response": [
+        "After 9 days of invasive mechanical ventilation, the patient was weaned and extubated, followed by sequential noninvasive ventilator-assisted ventilation",
+        "The patient’s training progressed from in-bed activities to bedside activities, and ultimately to independent ambulation.",
+        "Improved nutritional status",
+        "After discharge with improvement, ventilator settings were adjusted via telemedicine; nocturnal tidal volume, minute ventilation, and apnea all improved significantly, and with home use of noninvasive ventilation, the patient was able to live normally and work."
+      ]
+    }
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "status": "success",
+  "case_id": "case_108",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 58 years old, from Shaoxing, Zhejiang; agricultural worker.\nChief complaint: \"Intermittent chest tightness and shortness of breath for 4 months, with 3 episodes of paroxysmal disturbance of consciousness\"; admitted to the Department of Pulmonary and Critical Care Medicine, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, in 2017.\nHistory of present illness: The patient's first hospitalization was due to gradually developing chest tightness and shortness of breath 4 months earlier without an obvious precipitating cause, possibly related to activity. When the chest tightness improved, he could climb stairs and walk briskly. He denied paroxysmal nocturnal dyspnea. He intermittently had cough and sputum production, mainly white sputum, without fever; no lower extremity edema, no abdominal pain or diarrhea, and no blurred vision; no further evaluation was performed. However, 2 days before admission, the patient suddenly collapsed while getting up to brush his teeth. Family members were unable to arouse him, and more than 10 minutes later he regained consciousness spontaneously. The family stated that he was able to respond to questions. After emergency transport by 120 to a local hospital in Zhuji, he again developed disturbance of consciousness and underwent emergency endotracheal intubation. Local head CT showed no obvious abnormality, and chest CT suggested \"narrowing of the opening of the left lower bronchus and a small amount of infiltrate in the left lower lung.\" He was then transferred to our hospital with the endotracheal tube in place. In the emergency department, further pulmonary CTPA showed left lower lobe atelectasis, with no evidence of pulmonary embolism; ECG showed sinus rhythm and a normal ECG; non-contrast head CT showed no obvious abnormality. He was admitted to the ICU for further diagnosis and treatment. After admission, he was treated with meropenem 0.5 g ig Q8H, Lipitor for plaque stabilization, aspirin for antiplatelet therapy, and other symptomatic supportive treatment. After the 2nd day in the ICU, the patient's shortness of breath improved significantly; he was able to be weaned from the ventilator, had a good cough reflex, and followed commands well. After assessment, the endotracheal tube was removed. Bronchoscopy showed secretions in the left lower bronchus; after suctioning, the lumen was patent. Repeat chest CT showed re-expansion of the left lower lung. Further head MR showed no signs of acute cerebrovascular accident. Long-term video EEG showed no abnormality. Bilateral carotid ultrasound showed intimal roughening with plaque formation on the right side. On hospital day 5, the patient had an oxygen saturation of 99% on oxygen via nasal cannula at 3 L/MIN, was in fair general condition, and could ambulate; he was transferred back to the general ward. On hospital day 10, the family reported that the patient had repeated somniloquy at night, sometimes lasting the entire night, with involuntary twitching at the corner of the mouth. The patient's mental status had improved markedly; orientation was assessed as intact; cough and sputum production had improved; he could get out of bed and ambulate independently; repeat CRP and PCT both improved significantly. He was discharged with medications. Only 1 week after discharge, the patient again developed cough and yellow sputum, without obvious fever; the sputum was difficult to expectorate, accompanied by sore throat, hoarseness, chest tightness, and shortness of breath, with inability to tolerate activity. Starting 2 days before the second admission, he became agitated, with intermittent slurred speech and slowed responses. After arriving at our hospital through the emergency department, the patient quickly developed impaired consciousness, was unarousable, and could not answer questions, so he again underwent emergency endotracheal intubation and was admitted to the ICU. On the 2nd day after ICU admission, his consciousness recovered, his general condition was fair, and he was extubated and transferred back to the general ward. On the 10th day after transfer to the general ward, the patient again developed impaired consciousness in the morning after getting up, was unarousable, had no limb convulsions, no foaming at the mouth, and no urinary or fecal incontinence, and then again improved spontaneously. ICU physicians were asked for bedside consultation. The patient answered questions basically appropriately, but then suddenly developed transient abnormal behavior (spitting on the physician). One hour later, the patient again developed impaired consciousness. Arterial blood gas showed PCO2 88 mmHg, PH 7.20. He underwent endotracheal intubation and was transferred again to the ICU.\nPast medical history/personal history/family history: The patient had a history of hypertension for more than 10 years, controlled with valsartan 80 mg qd po; he reported a history of cervical spondylosis for more than 20 years, untreated. He denied residence in epidemic water/endemic areas, denied a history of nonmarital sexual exposure, denied exposure to toxins or radiation sources, denied tuberculosis and close contact history, and had no history of drug allergy. Married. Family history unremarkable.\nPhysical examination: Intubated, unable to answer questions, able to move hands and feet on command; respiratory rate 22/min; pulse 84/min; temperature 37.4°C; blood pressure 93/46 mmHg (maintained with norepinephrine). Pupils equal, round, and reactive to light; breath sounds markedly decreased in the left lower lung, with moist rales heard in both lungs; regular heart rhythm, no obvious pathologic murmur; abdomen soft, with no obvious tenderness or rebound tenderness; muscle strength 5/5 in all extremities; pathologic reflexes not elicited.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Left lower bronchial obstructive lesion (mucus plug or intraluminal mass) causing left lower lobe atelectasis and recurrent type II respiratory failure",
+          "supporting_evidence": [
+            "Local chest CT showed \"narrowing of the opening of the left lower bronchus, small amount of exudation in the left lower lung\"",
+            "Pulmonary CTPA showed left lower lobe atelectasis, with no evidence of pulmonary embolism.",
+            "Bronchoscopy showed secretions in the left lower bronchus; after suctioning, the lumen was patent.",
+            "Repeat chest CT showed re-expansion of the left lower lung.",
+            "Physical examination showed markedly decreased breath sounds in the left lower lung, and moist rales were heard in both lungs.",
+            "The patient had recurrent chest tightness, shortness of breath, cough, and sputum production, and when altered consciousness recurred, arterial blood gas showed PCO2 88 mmHg and pH 7.20, consistent with hypercapnia due to hypoventilation."
+          ],
+          "opposing_evidence": [
+            "After the first bronchoscopy, airway patency could be restored, suggesting that at least part of the obstruction may have been due to secretions rather than fixed complete obstruction.",
+            "Stage 1 information did not provide clear evidence such as persistent hemoptysis or marked weight loss that would more strongly support malignant fixed obstruction."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Hypercapnic encephalopathy caused by lower respiratory tract infection/post-obstructive pneumonia",
+          "supporting_evidence": [
+            "The patient has intermittent cough and sputum production, predominantly white sputum; one week after discharge, cough recurred with yellow sputum that was difficult to expectorate.",
+            "Local chest CT showed a small amount of exudative infiltration in the left lower lung",
+            "Physical examination: moist rales heard in both lungs",
+            "After the first hospitalization, anti-infective treatment was administered, and repeat CRP and PCT both improved significantly.",
+            "During the episode of impaired consciousness, blood gas analysis showed PCO2 88 mmHg and pH 7.20; hypercapnia can explain the impaired consciousness."
+          ],
+          "opposing_evidence": [
+            "During the course of the illness, there was \"no fever\"; body temperature was only 37.4°C, and the systemic inflammatory manifestations of infection were not prominent.",
+            "The disturbance of consciousness can resolve spontaneously within a relatively short period of time, which is not entirely consistent with the usual persistent presentation of uncomplicated infectious encephalopathy."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Bronchogenic carcinoma or other endobronchial tumor (left lower bronchus)",
+          "supporting_evidence": [
+            "Chest CT suggests \"stenosis at the opening of the left lower bronchus\"; endobronchial organic stenosis should be considered with caution.",
+            "There is left lower lobe atelectasis, consistent with the imaging manifestation following central airway obstruction.",
+            "Recurrent symptoms, with recurrence of cough, yellow sputum, chest tightness, and shortness of breath within a short period, suggesting the possible presence of a persistent underlying lesion",
+            "The patient is 58 years old, which places him/her in an age group that warrants vigilance for lung tumors."
+          ],
+          "opposing_evidence": [
+            "Bronchoscopy findings emphasized “secretions in the left lower bronchus”; after suctioning, the bronchial lumen was patent, and no definite mass was described.",
+            "In the first stage, key information supporting lung cancer, such as hemoptysis, significant weight loss, and a long-term smoking history, was not provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Seizure (focal impaired awareness seizure / nonconvulsive seizure)",
+          "supporting_evidence": [
+            "The patient had \"3 episodes of paroxysmal disturbance of consciousness,\" which resolved spontaneously.",
+            "On hospital day 10, the family reported recurrent sleep talking at night, sometimes lasting all night, with involuntary twitching at the corner of the mouth.",
+            "During the second hospitalization in the general ward, the patient again developed impaired consciousness, followed by a sudden transient behavioral disturbance (spitting on the physician).",
+            "During some episodes, there were no obvious limb convulsions, foaming at the mouth, or bowel or bladder incontinence; nonconvulsive or focal seizures cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "Ambulatory EEG showed no abnormalities.",
+            "Non-contrast head CT and head MRI showed no signs of acute cerebrovascular accident, but also did not provide clear evidence of an epileptic focus.",
+            "During one clearly documented episode, blood gas analysis indicated severe CO2 retention, further supporting the involvement of metabolic/respiratory causes in the disturbance of consciousness."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Autoimmune encephalitis/limbic encephalitis (including possible paraneoplastic etiology)",
+          "supporting_evidence": [
+            "Beginning 2 days before the second admission, the patient developed irritability, intermittent slurred speech, and slowed responsiveness.",
+            "During hospitalization, the patient developed neuropsychiatric behavioral abnormalities, including recurrent nocturnal somniloquy, involuntary twitching of the corner of the mouth, and transient behavioral disturbances.",
+            "Head CT and MRI showed no signs of acute cerebrovascular accident; negative routine structural imaging cannot completely rule out encephalitic diseases"
+          ],
+          "opposing_evidence": [
+            "In the first phase, no more typical evidence of encephalitis was provided, such as fever, meningeal signs, or persistent cognitive decline.",
+            "Ambulatory EEG showed no abnormalities",
+            "There is a clear temporal correlation between episodes of impaired consciousness and hypercapnia, suggesting that respiratory failure is the more direct explanation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Transient ischemic attack/vertebrobasilar insufficiency or other cerebrovascular event",
+          "supporting_evidence": [
+            "The patient is 58 years old and has a history of hypertension for more than 10 years.",
+            "Bilateral carotid ultrasound showed intimal roughening with plaque formation on the right side, indicating underlying atherosclerosis",
+            "History of sudden collapse, unresponsiveness to verbal stimuli, and recurrent brief disturbances of consciousness"
+          ],
+          "opposing_evidence": [
+            "Head CT showed no obvious abnormality, and brain MRI showed no signs of acute cerebrovascular accident.",
+            "ECG showed sinus rhythm and a normal electrocardiogram, with no evidence suggestive of a cardioembolic source provided.",
+            "During another severe exacerbation, blood gas analysis showed PCO2 88 mmHg and pH 7.20, which better explains the disturbance of consciousness.",
+            "Stage 1 information did not describe definite signs of focal neurologic deficits; muscle strength in all four extremities was grade 5; pathologic reflexes were not elicited"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers (CRP, PCT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Tuberculosis infection T-cell test (TB-SPOT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CSF routine analysis + biochemistry + pressure + TB antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Herpes simplex virus antibodies (HSV-I/II IgG/IgM)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune encephalitis antibodies (CSF + blood)",
+          "requirement": "required"
+        },
+        {
+          "exam": "paraneoplastic syndrome antibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CTPA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Head MRI without contrast + contrast-enhanced",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ambulatory EEG",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "24-hour ambulatory electrocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lower extremity deep venous ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "PFT + bronchodilator test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Electromyography (EMG + NCV + F-wave + H-reflex + RNS + SFEMG)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body PET-CT",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory and examinations:\nComplete blood count: WBC 24.0×10^9/L, RBC 3.81×10^12/L, Hb 11.4g/L, PLT 281×10^9/L, neutrophil count 21.9×10^9/L, neutrophil percentage 91.2%, lymphocyte percentage 4.9%.\nArterial blood gas analysis (before intubation, 14:16, patient alert but agitated): pH 7.356, PaO2 68mmHg, PaCO2 60mmHg, bicarbonate 33.2 mmmol/l, base excess 7.2 mmmol/l, P/F ratio 206.\nArterial blood gas analysis (before intubation, 19:17, patient with impaired consciousness): pH 7.183, PaO2 71mmHg, PaCO2 94mmHg, bicarbonate 35.2 mmmol/l, base excess 5.6 mmmol/l, P/F ratio 215.\nChemistry: ALT 8U/L, AST 13U/L, albumin 24.7g/l, total protein 48.9g/L, renal function and myocardial enzymes normal, potassium 4.24mmmol/l, sodium 135 mmmol/l, calcium 1.99 mmmol/l, blood lipids normal.\nCoagulation function without significant abnormality, D-dimer 0.38ug/ml.\nPreoperative immune tests negative, tumor marker CEA 5.18 NG/ML mildly elevated.\nInfection-related markers: CRP 205.7mg/l.\nAutoimmune markers negative, thyroid function negative, NT pro-BNP 279pg/ml, high-sensitivity troponin <0.01ng/ml.\nTB-SPOT: reactive, negative control well 0, Mycobacterium tuberculosis-specific antigen well 10, (reference value less than 6 or less than 2 times the negative control well).\nCSF routine: color: colorless, clarity: clear, white blood cells 2.0/ul, red blood cells 0/ul; CSF biochemistry: Pandy test negative, GLU 3.84 mmol/l, chloride 126mmol/l, microalbumin 246mg/l, occult blood: negative; body fluid tuberculosis antibody: negative; CSF pressure 170mmH2O.\nHSV-I IgG herpes virus antibody negative, HSV-I IgM herpes virus antibody negative, HSV-II IgG herpes virus antibody negative, HSV-II IgM herpes virus antibody negative.\nPulmonary CTPA (Day 0): left lower lobe consolidation, left lower bronchus not visualized, bilateral pulmonary inflammation, no evidence of pulmonary embolism, small right pleural effusion, right lower lobe pulmonary bulla.\nNon-contrast chest CT (Day +2): bilateral pulmonary inflammation and small bilateral pleural effusions slightly absorbed, left lower lobe consolidation improved. Right lower lobe pulmonary bulla similar to prior.\nContrast-enhanced brain MRI: small deep white matter spot in the left parietal lobe, possible ischemic focus; left maxillary sinusitis, bilateral mastoiditis.\nAmbulatory EEG: no obvious abnormality.\nEchocardiography: no obvious abnormality in cardiac size, structure, or function.\nECG: no abnormality detected.\n24-hour Holter ECG: 57 premature atrial contractions, 52 isolated, 1 couplet, 1 short run of atrial tachycardia lasting three beats; occasional 2 isolated ventricular premature beats; no obvious abnormality of cardiac autonomic function.\nLower-extremity deep venous ultrasound: no obvious abnormality.\nAbdominal ultrasound: mild fatty liver, rough and thickened gallbladder wall.\nPulmonary function test: normal ventilatory function, bronchodilator test negative.\nBronchoscopy: no endobronchial neoplasm seen in either bronchus, more white secretions in the left lower lung.\nElectromyography: EMG+NCV suggested peripheral neurogenic injury in the upper and lower extremities (motor nerves involved only, mainly decreased CMAP amplitude in the upper extremities). F waves: slightly prolonged F-M latency in the tested upper-extremity nerves; H reflex: prolonged H-M latency of the right tibial nerve; RNS negative, SFEMG negative.\nWhole-body PET-CT showed: small amounts of exudation in the upper and lower lobes of both lungs with slightly increased FDG metabolism, considered inflammatory change, follow-up recommended after treatment; slightly increased metabolism in mediastinal and bilateral hilar lymph nodes, considered inflammatory reactive hyperplasia; increased glucose metabolism in the bilateral sternocleidomastoid muscles, considered physiologic uptake; left maxillary sinus inflammation; left renal calculus, prostatic hyperplasia with calcification.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKSAg80SEqFUWlHdbs4EqGhV7r9sUqhLgxNYRHleDUKmE8uuhD3ndUy26PoYSblnAJ7nR2b34ksSg/640?wx_fmt=png",
+            "near_text": "Figure 1. Pulmonary CTPA (20171213)",
+            "local_src": "cleaned_cases_image_cache/46f21279223e0bced6a3f5eae4c7bfd47f101a39.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKSAg80SEqFUWlHdbs4EqGhtiaMzibn0KD78xghDYWZpSDYuicq6vdu8QafQ9jRib4O21EgQfjGdrQ13Q/640?wx_fmt=png",
+            "near_text": "Figure 2. Non-contrast chest CT (20171215)",
+            "local_src": "cleaned_cases_image_cache/bc64da2aeca6c26c1fd5ef251e3778972d27e900.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Cerebrovascular accident or TIA",
+            "evidence": [],
+            "exclusion_reasons": [
+              "During episodes, the main manifestation was pulmonary encephalopathy, accompanied by acute carbon dioxide retention, suggesting respiratory pump failure; symptoms were rapidly relieved after endotracheal intubation and ventilation, without residual sequelae. Multiple cranial imaging studies showed no signs of cerebrovascular accident, and the admission evaluation revealed no high-risk factors for cerebrovascular accident."
+            ]
+          },
+          {
+            "name": "Suppurative, tuberculous, and other pathogen-related encephalitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Cerebrospinal fluid examination showed that routine biochemical studies and cerebrospinal fluid pressure were both within the normal range."
+            ]
+          },
+          {
+            "name": "Epilepsy",
+            "evidence": [
+              "Clinical symptoms include episodes of disturbance of consciousness; cranial imaging showed no significant abnormalities. Prodromal symptoms before the episodes included behavioral abnormalities, irritability, and disorientation."
+            ],
+            "exclusion_reasons": [
+              "During exacerbations, the main manifestation is pulmonary encephalopathy, accompanied by acute carbon dioxide retention, suggesting respiratory pump failure; symptoms are rapidly relieved after endotracheal intubation and ventilation, and repeated serial EEGs showed no abnormalities."
+            ]
+          },
+          {
+            "name": "Acute infectious disease, septic shock",
+            "evidence": [
+              "At the time of the patient's first episode, it was accompanied by pulmonary infection and atelectasis."
+            ],
+            "exclusion_reasons": [
+              "The patient's subsequent pulmonary infection improved significantly, but episodes of disturbance of consciousness persisted; during the subsequent episodes, no concurrent acute infection was identified, including pulmonary infection or infection at other sites."
+            ]
+          },
+          {
+            "name": "Chronic obstructive pulmonary disease, pulmonary encephalopathy",
+            "evidence": [
+              "Each episode was accompanied by acute respiratory acidosis and acute CO2 retention, presenting with signs typical of pulmonary encephalopathy, and rapidly improved after intubation and mechanical ventilation; the trend toward improvement or worsening was basically consistent with the arterial blood gas trend."
+            ],
+            "exclusion_reasons": [
+              "The patient has no history of chronic lung disease. PFT showed no significant abnormalities. Chest CT showed no emphysema or findings of COPD. Each episode was characterized primarily by acute CO2 retention, and the pH could not be compensated."
+            ]
+          },
+          {
+            "name": "Abnormal thyroid function, severe hepatic and renal insufficiency, hypoglycemia, etc.",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Past medical history and admission assessment were not mentioned."
+            ]
+          },
+          {
+            "name": "Peripheral neuropathic disorders such as myasthenia gravis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient usually has no manifestations of muscle weakness."
+            ]
+          },
+          {
+            "name": "Central muscle weakness, such as Guillain-Barré syndrome",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Likewise, it is also not considered."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Cerebrovascular accident or TIA",
+        "evidence": [],
+        "exclusion_reasons": [
+          "During episodes, the main manifestation was pulmonary encephalopathy, accompanied by acute carbon dioxide retention, suggesting respiratory pump failure; symptoms were rapidly relieved after endotracheal intubation and ventilation, without residual sequelae. Multiple cranial imaging studies showed no signs of cerebrovascular accident, and the admission evaluation revealed no high-risk factors for cerebrovascular accident."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Suppurative, tuberculous, and other pathogen-related encephalitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Cerebrospinal fluid examination showed that routine biochemical studies and cerebrospinal fluid pressure were both within the normal range."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Epilepsy",
+        "evidence": [
+          "Clinical symptoms include episodes of disturbance of consciousness; cranial imaging showed no significant abnormalities. Prodromal symptoms before the episodes included behavioral abnormalities, irritability, and disorientation."
+        ],
+        "exclusion_reasons": [
+          "During exacerbations, the main manifestation is pulmonary encephalopathy, accompanied by acute carbon dioxide retention, suggesting respiratory pump failure; symptoms are rapidly relieved after endotracheal intubation and ventilation, and repeated serial EEGs showed no abnormalities."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Peripheral neuropathic disorders such as myasthenia gravis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient usually has no manifestations of muscle weakness."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Central muscle weakness, such as Guillain-Barré syndrome",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Likewise, it is also not considered."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Autoimmune encephalitis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Autoimmune encephalitis-related antibodies",
+          "basis_in_stage3_input": "Further testing for autoimmune encephalitis-related antibodies was ordered for the patient",
+          "why_order_this_exam": "The patient had recurrent paroxysmal disturbances of consciousness accompanied by neuropsychiatric and sleep-related symptoms including agitation, slowed responsiveness, slurred speech, talking in sleep throughout the night, involuntary corner-of-mouth puckering movements, and transient behavioral abnormalities. Head CT, brain MRI, and ambulatory EEG did not provide a clear explanation, and routine cerebrospinal fluid studies, biochemical testing, and HSV antibody testing did not support common infectious encephalitis. Cerebrovascular events, epilepsy, and simple infectious encephalopathy were each insufficient to fully explain the overall clinical picture. Although each severe episode was accompanied by marked CO2 retention and type II respiratory failure, recurrent episodes still occurred after improvement of the pulmonary infection, suggesting a possible underlying central nervous system lesion. Autoimmune encephalitis-related antibodies were submitted for testing to look for immunologic evidence that could cause abnormalities of consciousness, sleep, behavior, and respiratory center/medulla-related dysfunction, in order to confirm or exclude autoimmune encephalitis and to directly affect whether to initiate subsequent immunotherapy such as glucocorticoids and IVIG.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid autoimmune encephalitis antibodies",
+          "basis_in_stage3_input": "Reported cerebrospinal fluid autoimmune encephalitis antibody: IgLON5 antibody positive at 1:1",
+          "why_order_this_exam": "In addition to recurrent disturbances of consciousness, the patient's clinical manifestations also included somniloquy, abnormal sleep behaviors, orofacial involuntary movements, and subsequently developed dysphagia, lingual muscle atrophy, and fasciculations, suggesting that the lesion may involve the central nervous system and has features of IgLON5-associated disease. Although routine cerebrospinal fluid studies, biochemical analysis, and opening pressure were basically normal, autoimmune encephalitis, especially antibody-mediated encephalopathy, does not necessarily present with obvious inflammatory cerebrospinal fluid changes; therefore, autoimmune encephalitis antibodies still need to be tested in the cerebrospinal fluid. The clinical purpose of this test is to confirm whether there is intrathecal antibody synthesis and central immune-mediated lesions, thereby improving the specificity of the diagnosis of autoimmune encephalitis and helping distinguish it from isolated hypercapnic encephalopathy, post-infectious state, epilepsy, and cerebrovascular disease; if positive, it also provides a key basis for subsequent immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood autoimmune encephalitis antibody",
+          "basis_in_stage3_input": "Blood autoimmune encephalitis antibody: IgLON5 antibody positive at 1:320",
+          "why_order_this_exam": "In this patient, routine structural imaging, EEG, and basic CSF studies lacked specific abnormalities, but psychiatric and behavioral abnormalities, sleep abnormalities, recurrent disturbances of consciousness, and subsequent neurogenic injury suggest the possibility of an immune-mediated neurologic disorder. Testing serum autoimmune encephalitis antibodies helps screen for relevant antibodies at the peripheral level; in particular, IgLON5 antibodies may be present at relatively high titers in serum and can provide important clues for disease identification. This test is mainly intended to determine whether the patient’s recurrent episodes have a definite antibody-associated autoimmune encephalitis basis; at the same time, combining the results with CSF findings to perform cross-verification using paired serum-CSF specimens can enhance diagnostic reliability, reduce misjudgment caused by incidental positivity in a single specimen, and provide a basis for formulating immunotherapy regimens such as corticosteroids and immunoglobulin and for assessing prognosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood paraneoplastic syndrome antibodies",
+          "basis_in_stage3_input": "Send-out peripheral blood paraneoplastic syndrome antibodies: all negative",
+          "why_order_this_exam": "The patient is 58 years old and has recurrent disturbances of consciousness, abnormal sleep behaviors, and manifestations of nervous system involvement. In addition, early chest imaging had suggested narrowing of the left lower bronchial orifice and left lower lobe atelectasis/consolidation. Although bronchoscopy did not reveal an endobronchial neoplasm, an occult tumor-associated neurologic syndrome still warrants vigilance. Some cases of autoimmune encephalitis are associated with paraneoplastic mechanisms, and whether a paraneoplastic background is present directly affects etiologic assessment, the intensity of tumor screening, and treatment strategy. The purpose of peripheral blood paraneoplastic syndrome antibody testing is to assess whether the patient's neuropsychiatric symptoms and central/peripheral nervous system involvement related to respiratory failure may be caused by a tumor-induced immune response, to help differentiate it from primary non-neoplastic autoimmune encephalitis, and to provide a basis for whether to further intensify tumor search, manage a potential tumor, and conduct long-term follow-up.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PET workup",
+          "basis_in_stage3_input": "PET was completed concurrently to exclude malignancy; the report showed no signs of malignant tumor.",
+          "why_order_this_exam": "After the patient had already shown clues of positivity for autoimmune encephalitis-related antibodies, it is still necessary to further determine whether this represents a paraneoplastic process. The patient is relatively older, and during the course of the disease there were clues such as non-visualization of the left lower bronchus, left lower lobe atelectasis/consolidation, and mildly elevated CEA. Although bronchoscopy showed no neoplasm and routine imaging favored inflammation and secretion obstruction, an occult malignancy cannot be completely excluded. The core clinical question for PET evaluation is to search for a potential tumor or abnormal metabolic focus not detected by routine examinations, in order to determine whether the autoimmune encephalitis has a tumor-driven background; it may also help explain whether changes such as mediastinal and hilar lymph nodes are more inflammatory or neoplastic in nature. The results of this examination directly affect the final diagnostic classification, whether subsequent antitumor therapy is needed, and the intensity of ongoing immunotherapy, and can reduce the risk of missing an occult tumor.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Autoimmune encephalitis-related antibodies were further sent for testing. Results showed cerebrospinal fluid autoimmune encephalitis antibodies: IgLON5 antibody positive at 1:1; serum autoimmune encephalitis antibodies: IgLON5 antibody positive at 1:320. Send-out peripheral blood paraneoplastic syndrome antibody panel was all negative. PET was completed concurrently for exclusion screening, and the result showed no signs of malignancy.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKSAg80SEqFUWlHdbs4EqGhehVgzHXOZRJibvXhlSWRKEdVX48raSyrUd9pg7elW3gkR4177lyh9ZQ/640?wx_fmt=png",
+          "near_text": "Figure 3. Approach to etiologic analysis",
+          "local_src": "cleaned_cases_image_cache/847a09de3f14bb1e20f6ec5add99557169488d9d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Autoimmune encephalitis (IgLON5 antibody), complicated by motor neuron disease syndrome, pulmonary infection, type II respiratory failure.",
+      "diagnostic_basis": [
+        "1. Symptoms: intermittent chest tightness and shortness of breath for 4 months, 3 episodes of paroxysmal disturbance of consciousness.",
+        "2. Physical signs: Endotracheal intubation, unable to პასუხे, able to move hands and feet on command, body temperature 37.4°C, blood pressure 93/46 mmHg (maintained with norepinephrine), markedly decreased breath sounds in the left lower lung, moist rales heard in both lungs, muscle strength grade 5 in all four extremities, no pathologic reflexes elicited.",
+        "3. Ancillary examinations ① Laboratory tests: elevated blood counts and inflammatory markers; during episodes of impaired consciousness, blood gas analysis indicated respiratory acidosis with acute carbon dioxide retention; routine and biochemical cerebrospinal fluid studies were all negative, pressure 170 mmH2O; CSF autoimmune encephalitis antibodies: IgLON5 antibody positive at 1:1; serum autoimmune encephalitis antibodies: IgLON5 antibody positive at 1:320; send-out peripheral blood paraneoplastic syndrome antibodies negative. ② Contrast-enhanced brain MRI, prolonged video EEG, ECG, Holter monitoring, and echocardiography showed no significant abnormalities; EMG suggested widespread neurogenic damage. Whole-body PET-CT: no evidence of tumor."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 1000 mg ig qd for 3 days, methylprednisolone 80 mg ig qd for 6 days, followed by sequential methylprednisolone 60 mg qd po, with gradual tapering",
+        "Concurrent administration of human immunoglobulin 27.5 g IV qd × 5 days",
+        "Levetiracetam 0.5 g bid po for antiepileptic treatment",
+        "and other symptomatic supportive treatments such as anti-infective therapy"
+      ],
+      "treatment_response": [
+        "After half a month of treatment, the patient's disturbance of consciousness and sleep disturbance improved; cough and sputum production improved significantly; sore throat persisted, with mild dysphagia; chest tightness persisted; oxygen saturation was approximately 98% on oxygen via nasal cannula. Physical examination: tongue muscle atrophy with fasciculations, marked bilateral interosseous muscle atrophy, deep tendon reflexes ++~+++ in all four extremities. Repeat electromyography suggested widespread neurogenic damage (involving limb muscles, the sternocleidomastoid muscle, tongue muscles, trapezius muscle, and T9 paraspinal muscles; the rectus abdominis is not currently involved; abundant spontaneous potentials were detected in the bilateral first dorsal interosseous muscles).",
+        "Subsequently, the patient continued to have intermittent chest tightness and shortness of breath, paroxysmal disturbance of consciousness, and dysphagia, and was managed with long-term indwelling nasogastric tube placement.",
+        "1 year after diagnosis, the patient underwent tracheostomy because of intolerance to repeated intubation. More than 3 years after diagnosis, the patient ultimately died due to recurrent aspiration, pulmonary infection, muscle atrophy, and decreased muscle strength."
+      ]
+    }
+  }
+}

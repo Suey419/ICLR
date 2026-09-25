@@ -1,0 +1,265 @@
+{
+  "status": "success",
+  "case_id": "case_105",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 59 years old, was admitted to the Department of Pulmonary and Critical Care Medicine, Jiangning Hospital of Nanjing City, on Day 0, with the chief complaint of \"cough with sputum accompanied by chest tightness and wheezing for 4 days.\" The patient reported that after taking amlodipine besylate and irbesartan hydrochlorothiazide orally on Day -4, he developed cough with white sputum, accompanied by chest tightness and wheezing, and went to a hospital in Nanjing, where his temperature was 38.9℃. The patient had tachycardia, tachypnea, and hypotension. Complete blood count showed: white blood cell count: 13.01*10^9/L, neutrophil percentage: 95.8%, lymphocyte count: 0.48*10^9/L, CRP <0.5mg/L, procalcitonin: 0.7136ng/ml, D-dimer: 8.01mg/L. Chest CT showed bilateral lung inflammation with interstitial pulmonary edema. He was treated with \"moxifloxacin\" for anti-infection therapy and fluid resuscitation. On the same day, the patient was transferred to a tertiary hospital in Nanjing. Complete blood count showed: white blood cell count 20.05*10^9/L, neutrophil percentage: 95.8%, lymphocyte count: 0.18*10^9/L, procalcitonin: 42.14㎍/L, interleukin-6: 696.3㎍/L, D-dimer: 8.52mg/L. Chest CT: bilateral lung inflammation with interstitial pulmonary edema and small bilateral pleural effusions. Contrast-enhanced chest CT was completed to exclude pulmonary embolism. He was considered to have severe pneumonia, respiratory failure, sepsis, and septic shock, and was treated with \"cefoperazone-sulbactam + biapenem\" for anti-infection therapy, vasoactive agents to raise blood pressure, fluid resuscitation, and other treatments. He was transferred to our hospital on Day 0. The patient had a history of hypertension for more than 20 years and had usually been taking \"amlodipine besylate\" orally; \"irbesartan hydrochlorothiazide\" had been added recently. He had a surgical history of \"left upper limb fracture.\" He denied a history of tobacco, alcohol, and drug/toxin exposure. He denied any remarkable family history. Physical examination: T 36.5℃; P 107 beats/min; R 22 breaths/min; BP 98/74mmHg; SPO2 89% (not receiving oxygen); alert, mental status fairly good; no rash over the whole body, no enlargement of superficial lymph nodes, no chest wall deformity, symmetric bilateral respiratory excursion, no increased tactile fremitus, resonant percussion over both lungs, slightly coarse breath sounds in both lungs, a few moist crackles audible in both lower lungs, no pleural friction rub heard; no precordial bulge, apical impulse located 0.5 cm medial to the left midclavicular line in the fifth intercostal space, no thrill palpable, cardiac borders not enlarged, heart rate 107 beats/min, regular rhythm, no obvious increase or decrease in heart sounds, no pathologic murmur heard in any valve auscultation area; abdomen flat and soft, no hepatosplenomegaly, no abdominal tenderness or abdominal muscle guarding; no edema in both lower extremities. Laboratory tests: complete blood count: white blood cell count: 6.48*10^9/L, neutrophil percentage: 70.1%, lymphocyte count: 1.02*10^9/L, eosinophil count: 0.36*10^9/L, high-sensitivity CRP: 5.08mg/L, procalcitonin: 3.84ng/ml, D-dimer: 0.75mg/L. Arterial blood gas analysis: pH: 7.44, pO2: 53mmHg, pCO2: 36mmHg, P/F: 252mmHg.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKSQP1EbbtcXEpKcAmVMsqfb5cPptfdiaONeAz09m9EsxzJfCrgtcTs8ibaQb8559XGHF80O2PAfqjQ/640?wx_fmt=png",
+          "near_text": "Figure 1: (Day -4) Inflammation in both lungs with interstitial pulmonary edema, small bilateral pleural effusions",
+          "local_src": "cleaned_cases_image_cache/9f2b0fd0ac61adb82a645ea4e98a27ecb3293a96.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia (most likely bacterial pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: cough, expectoration of white sputum, chest tightness, and wheezing for 4 days, with fever of 38.9℃",
+            "At the outside hospital, the patient had tachycardia, tachypnea, and decreased blood pressure, consistent with manifestations of severe infection.",
+            "Outside hospital complete blood count showed the white blood cell count increased from 13.01*10^9/L to 20.05*10^9/L, with neutrophils 95.8%",
+            "At the outside hospital, procalcitonin increased from 0.7136 ng/ml to 42.14 ㎍/L, and interleukin-6 was 696.3 ㎍/L, suggesting a marked inflammatory response.",
+            "Chest CT showed inflammation in both lungs; the attached images demonstrate multiple patchy areas of consolidation/exudative opacities in both lungs, more prominent in the bilateral lower lungs and dorsal regions.",
+            "On physical examination, a few moist rales were heard in both lower lungs.",
+            "Hypoxemia present: SpO2 89% (not on oxygen), arterial blood gas pO2 53 mmHg, P/F 252 mmHg"
+          ],
+          "opposing_evidence": [
+            "Initial CRP at an outside hospital was <0.5 mg/L, which was not fully consistent with typical severe bacterial infection.",
+            "At the time of admission to our hospital, the white blood cell count was 6.48*10^9/L and high-sensitivity CRP was 5.08 mg/L; the inflammatory markers had decreased significantly compared with the outside hospital."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "infection-related acute respiratory distress syndrome (ARDS)/noncardiogenic pulmonary edema",
+          "supporting_evidence": [
+            "Acute onset, with chest tightness, wheezing, tachypnea, and hypoxemia; arterial blood gas showed pO2 53 mmHg, P/F 252 mmHg",
+            "At an outside hospital, blood pressure was once decreased, with a background of sepsis/septic shock.",
+            "Chest CT suggests bilateral pulmonary inflammation with interstitial pulmonary edema; the attached images show bilateral involvement of both lungs rather than a focal single-lobe lesion.",
+            "Small bilateral pleural effusions at an outside hospital, which may be seen in severe inflammation-related lung injury"
+          ],
+          "opposing_evidence": [
+            "Current physical examination shows no obvious signs of severe respiratory distress, R 22 breaths/min",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute pulmonary edema (cardiogenic or volume overload-related)",
+          "supporting_evidence": [
+            "Chest CT previously suggested interstitial pulmonary edema, with small bilateral pleural effusions",
+            "The patient has a more than 20-year history of hypertension, providing an underlying risk factor for cardiogenic pulmonary edema related to abnormal cardiac function.",
+            "Symptoms include chest tightness and wheezing; on physical examination, a few moist rales were audible in both lower lungs.",
+            "On imaging, the lower and posterior portions of both lungs are involved, which may partially overlap with the distribution of pulmonary edema."
+          ],
+          "opposing_evidence": [
+            "No cardiac enlargement, no obvious abnormality of heart sounds, no edema of both lower extremities, and no clear signs of congestive heart failure",
+            "Accompanied by fever of 38.9℃ and marked elevation of the white blood cell count and procalcitonin, this more strongly supports an infectious etiology",
+            "The attached images show relatively obvious patchy areas of consolidation, which are atypical for simple cardiogenic pulmonary edema."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Drug-related lung injury/drug-induced pneumonitis (associated with the recent addition of irbesartan/hydrochlorothiazide or a post-medication reaction)",
+          "supporting_evidence": [
+            "The patient reported that after oral administration of amlodipine besylate and irbesartan/hydrochlorothiazide on Day -4, cough with white sputum, chest tightness, and wheezing developed, temporally related to the medication.",
+            "Chest CT and accompanying images show diffuse bilateral lung involvement, as can be seen in drug-induced lung injury.",
+            "At the outside hospital, the initial C-reactive protein was <0.5 mg/L, while imaging already showed obvious pulmonary abnormalities, suggesting a pattern not entirely typical of infection."
+          ],
+          "opposing_evidence": [
+            "Accompanied by high fever of 38.9℃, marked leukocytosis at an outside hospital, neutrophils 95.8%, and peak procalcitonin 42.14 ㎍/L, more supportive of severe infection",
+            "No rash on the skin of the whole body; no enlargement of superficial lymph nodes palpable",
+            "Eosinophil count 0.36*10^9/L, no obvious eosinophilia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Aspiration pneumonia",
+          "supporting_evidence": [
+            "The accompanying image shows patchy areas of consolidation/exudative opacities predominantly in both lower lungs and the dorsal regions; the distribution can be seen in aspiration-related lesions.",
+            "Acute onset of symptoms, manifested as cough, sputum production, and hypoxemia",
+            "At the outside hospital, inflammatory markers were significantly elevated, which can be seen in aspiration pneumonia with secondary bacterial infection."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no high-risk aspiration factors such as aspiration, vomiting, impaired consciousness, dysphagia, stroke, or alcohol use were reported.",
+            "The lesions are not confined to the typical dependent pulmonary segments, and diffuse bilateral lung involvement may also be explained by other etiologies."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Viral pneumonia (e.g., influenza/COVID-19)",
+          "supporting_evidence": [
+            "Acute fever, cough, wheezing, and hypoxemia",
+            "At the outside hospital, the lymphocyte count decreased from 0.48*10^9/L to 0.18*10^9/L, with marked lymphopenia present",
+            "The attached image shows multiple bilateral lesions in both lungs, as can be seen in viral pneumonia"
+          ],
+          "opposing_evidence": [
+            "At the outside hospital, the white blood cell count was markedly elevated and the neutrophil percentage was 95.8%; procalcitonin peaked at 42.14 ㎍/L, which further does not support a purely viral infection.",
+            "Imaging was described as inflammation in both lungs with interstitial pulmonary edema and a small amount of pleural effusion, lacking the more specific viral imaging description in stage 1."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bedside color Doppler ultrasound of the lower extremity vessels",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, repeat blood infection markers were decreased compared with previously, body temperature was normal, and chest tightness and wheezing were improving, but arterial blood gas analysis still indicated type I respiratory failure. Noninvasive ventilatory support was provided, and anti-infective therapy with \"cefoperazone-sulbactam + moxifloxacin\" was given. After treatment, the patient's body temperature decreased, but repeat arterial blood gas analysis still indicated type I respiratory failure. Chest CT on Day +2: scattered inflammation in both lungs, small bilateral pleural effusions with bibasal atelectasis. On Day +6, after getting out of bed and ambulating, the patient again developed chest tightness and wheezing, with a respiratory rate of about 35 breaths/min, blood pressure decreased to 60-70/40-45 mmHg, accompanied by chills and fever, with a peak temperature of 38.5℃. Noninvasive ventilatory support was immediately provided, methylprednisolone 40 mg was given by IV push, and treatments including fluid resuscitation were administered. Repeat blood counts and procalcitonin were markedly elevated, anti-infective therapy was escalated to \"meropenem,\" and norepinephrine was used to maintain blood pressure. Repeat results: (Day +6) Complete blood count: white blood cell count: 5.40*10^9/L, neutrophil percentage: 88.8%, lymphocyte count: 0.52*10^9/L, eosinophil count: 0.01*10^9/L, high-sensitivity C-reactive protein: 1.59 mg/L Procalcitonin: 0.48 ng/ml D-dimer: 11.9 mg/L Arterial blood gas analysis: pH: 7.39, pO2: 73 mmHg, pCO2: 34 mmHg, P/F: 203 mmHg Cardiac markers: no abnormalities detected NT-proBNP: 390 ng/L (300-450 ng/L) Bedside echocardiography: EF: 63%, left ventricular diastolic dysfunction, mild tricuspid regurgitation Bedside abdominal ultrasound: fatty infiltration of the liver; no abnormalities detected in the gallbladder, pancreas, or spleen Bedside lower-extremity vascular Doppler ultrasound: plaque formation in the arteries of both lower extremities; no obvious abnormalities detected in the veins of both lower extremities (Day +7) Complete blood count: white blood cell count: 21.64*10^9/L, neutrophil percentage: 88.3%, lymphocyte count: 0.89*10^9/L, eosinophil count: 0.06*10^9/L, high-sensitivity C-reactive protein: 42.17 mg/L D-dimer: 9.70 mg/L Procalcitonin: 27.61 ng/ml",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKSQP1EbbtcXEpKcAmVMsqfibAvJnI4TEy0XprTw3fskqZuTIIblrG1iaZPKBOmpfJhwH35eYd3NZzg/640?wx_fmt=png",
+            "near_text": "Figure 2: (Day +2) (upper row) Scattered inflammation in both lungs, small bilateral pleural effusions with bibasilar atelectasis, showing marked absorption and improvement compared with (Day -4) (lower row).",
+            "local_src": "cleaned_cases_image_cache/a462ce4e7480f8bb528d62fbdffbb930fd036bd4.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKSQP1EbbtcXEpKcAmVMsqfyfUYZU50pYawHfS7daqX6J1S16rU4n72QYdMYcm2t22Jd5Ol7efq1w/640?wx_fmt=png",
+            "near_text": "Figure 3: Comparison of the patient's bedside chest radiograph on Day +6 (Figure 3a, left) and on Day +7 (Figure 3b, right) showed rapid radiographic absorption.",
+            "local_src": "cleaned_cases_image_cache/8376f332c18ceeb75a427b0d79889c8ca26366b7.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Obtain contrast-enhanced chest CT to rule out pulmonary embolism"
+            ]
+          },
+          {
+            "name": "Severe pneumonia with septic shock",
+            "evidence": [
+              "Chest tightness and dyspnea, accompanied by cough, sputum production, and fever, with signs of hypoxia and hemodynamic instability; blood infection markers significantly elevated; chest CT: bilateral pulmonary inflammation with interstitial pulmonary edema"
+            ],
+            "exclusion_reasons": [
+              "The patient has a definite history of oral medication use, and the onset and remission were rapid; the rapid resolution of the pulmonary lesions is not consistent with the usual course of severe pneumonia."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Obtain contrast-enhanced chest CT to rule out pulmonary embolism"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Severe pneumonia with septic shock",
+        "evidence": [
+          "Chest tightness and dyspnea, accompanied by cough, sputum production, and fever, with signs of hypoxia and hemodynamic instability; blood infection markers significantly elevated; chest CT: bilateral pulmonary inflammation with interstitial pulmonary edema"
+        ],
+        "exclusion_reasons": [
+          "The patient has a definite history of oral medication use, and the onset and remission were rapid; the rapid resolution of the pulmonary lesions is not consistent with the usual course of severe pneumonia."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Further inquiry into the patient's medical history",
+          "basis_in_stage3_input": "On further inquiry into the patient's history, the patient reported that prior to this admission, on two occasions, approximately half an hour after taking oral antihypertensive medication, chest tightness and wheezing occurred; the first episode resolved spontaneously, and the patient sought medical attention when the symptoms did not resolve this time.",
+          "why_order_this_exam": "During this episode, the patient presented with acute cough and sputum production, chest tightness, wheezing, and hypoxemia. At an outside hospital, the course was at one point accompanied by fever, decreased blood pressure, markedly elevated inflammatory markers, and diffuse bilateral pulmonary imaging abnormalities, and the patient was clinically managed as severe pneumonia, respiratory failure, and septic shock. However, the subsequent lesions were absorbed relatively quickly, and the condition recurred again within a short period; this course is not completely consistent with typical severe pneumonia. At this time, a detailed history is the key evaluation, with emphasis on clarifying the temporal relationship between symptoms and medication use, whether any medication was newly added recently, whether there had been similar episodes previously, and whether symptoms improved after drug withdrawal. If chest tightness and wheezing repeatedly occur about half an hour after taking oral antihypertensive medication, this can directly suggest a drug-related reaction rather than simple infection, helping to explain bilateral pulmonary inflammatory/noncardiogenic pulmonary edema-like changes, the rapidly fluctuating clinical course, and the response to glucocorticoid therapy, thereby providing decisive evidence for confirming an adverse drug reaction, excluding a purely infectious cause, and guiding immediate discontinuation of the suspected drug and subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Adverse drug reaction assessment",
+          "basis_in_stage3_input": "The patient has a history of hypertension and has been taking amlodipine besylate orally; irbesartan/hydrochlorothiazide was added recently. Is there an adverse drug reaction?",
+          "why_order_this_exam": "The patient had been taking amlodipine besylate long term with relative stability. Soon after recent initiation of irbesartan hydrochlorothiazide, chest tightness and wheezing developed, and similar symptoms were induced within a short time after both doses, suggesting clear suspicion for the newly added medication, especially hydrochlorothiazide in the combination. Although at an outside hospital the patient had elevated white blood cell count, procalcitonin, and IL-6, as well as imaging showing bilateral pulmonary inflammation with interstitial pulmonary edema, which could easily be misdiagnosed as severe pneumonia or septic shock, the pulmonary lesions resolved relatively quickly, the condition could fluctuate abruptly, myocardial markers and NT-proBNP did not clearly support cardiogenic pulmonary edema, and pulmonary embolism had also been excluded by contrast-enhanced CT; therefore, a systematic assessment for adverse drug reaction is needed. The clinical purpose of this assessment is to comprehensively analyze the temporal relationship between the suspected drug and the episodes, prior tolerance, whether alternative etiologies are sufficient, and the improvement after drug discontinuation and glucocorticoid treatment, in order to determine whether this is drug-induced lung injury/noncardiogenic pulmonary edema. Once confirmed, re-exposure to the causative drug can be avoided, reducing the risk of recurrent respiratory failure and hemodynamic instability, and this will directly affect the final diagnosis and the subsequent selection of an antihypertensive regimen.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On further questioning of the medical history, the patient reported that before this admission, on two occasions approximately half an hour after taking oral antihypertensive medication, chest tightness and wheezing occurred; the first time, the symptoms resolved spontaneously, but this time the symptoms did not resolve, prompting presentation for medical evaluation. The patient has a history of hypertension and has been taking amlodipine besylate orally long-term; irbesartan/hydrochlorothiazide was added recently. Is there a possible adverse drug reaction?",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKSQP1EbbtcXEpKcAmVMsqfT7v9r0RVcLyYvPsXhS3TqV7AKX0QpbtgDDtMQLiaobHQKhR2m9aiblOQ/640?wx_fmt=png",
+          "near_text": "Figure 4: (Day +16) Patchy and linear opacities in both lungs are more absorbed than before; small bilateral pleural effusions have basically been absorbed.",
+          "local_src": "cleaned_cases_image_cache/562a9840417e0410ff1542b2f13b60ca06d5252a.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Hydrochlorothiazide-induced severe pneumonia/noncardiogenic pulmonary edema (adverse drug reaction)",
+      "diagnostic_basis": [
+        "The patient reported that prior to this hospitalization, on two occasions, approximately half an hour after taking oral antihypertensive medication, chest tightness and wheezing occurred.",
+        "The patient has a definite history of oral medication use, and the onset and remission were rapid; the rapid resolution of the pulmonary lesions is not consistent with the usual course of severe pneumonia."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Add methylprednisolone 40 mg qd*3d by IV push"
+      ],
+      "treatment_response": [
+        "The patient's chest tightness and wheezing symptoms improved significantly.",
+        "Follow-up chest CT on Day +16: patchy and linear opacities in both lungs were absorbed compared with before, and the small bilateral pleural effusions had basically resolved",
+        "Discharged on Day +19"
+      ]
+    }
+  }
+}

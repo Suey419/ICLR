@@ -1,0 +1,374 @@
+{
+  "status": "success",
+  "case_id": "case_184",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 32 years old. Chief complaint: Abdominal pain with fever for 3 days. History of present illness: 3 days before admission (Day 0), after defecation, she developed lower abdominal pain located in the lower abdomen, accompanied by fever, chills, rigors, generalized myalgia, and fatigue. The highest temperature reached 40℃. There were no accompanying symptoms related to the respiratory, gastrointestinal, or urinary systems. She presented to an outside hospital, where CBC (01-03) showed: WBC count 3.78×10⁹/L, neutrophil percentage 94%, hemoglobin 121 g/L, platelet count 236×10⁹/L. Procalcitonin was markedly elevated at 35.211 ng/ml. Urinalysis showed no obvious abnormality. Female reproductive system ultrasound suggested multiple tubular anechoic structures in the left pelvis (vascular malformation with hemorrhage not excluded). Emergency CBC showed: WBC count 5.8×10⁹/L, neutrophil percentage 97.5%, hemoglobin 119 g/L, platelet count 218×10⁹/L; coagulation studies: D-dimer 5.58 mg/L; blood culture suggested Gram-positive cocci. Contrast-enhanced CT of the whole abdomen (01-06): 1. Postoperative changes of \"pelvic vascular malformation\"; mixed-density lesions adjacent to the abdominal aorta and inferior vena cava in the retroperitoneum and in the left pelvis, enlarged compared with before (2017), with partially increased density compared with before (CT value 23-39 HU, larger area approximately 12×7×16 cm), considered possibly a vascular-origin lesion with inflammation; other lesions remain to be excluded; the lesion encases the left ureter and causes mild left hydronephrosis; 2. Multiple small splenic cysts or vascular-type lesions; 3. Abdominopelvic effusion; multiple small and slightly enlarged lymph nodes in the retroperitoneum, bilateral inguinal regions, and pelvis, possibly reactive inflammatory hyperplasia. Past history: In approximately 162 months before Day 0, she underwent \"left retroperitoneal mass excision + repair of rupture of the left external iliac vessel\" in the gynecology department of our hospital (pathology report: mixed vascular malformation, predominantly lymphatic). Follow-up abdominal ultrasound in approximately 104 months before Day 0 showed heterogeneous echogenicity from the left pelvis to the left lower abdomen, measuring 14×6×6 cm, considered postoperative recurrence of mixed vascular malformation. In approximately 54 months before Day 0, pathology confirmed mixed vascular malformation. She has a history of cesarean section in 2021. Personal and marital/fertility history: No history of contact with epidemic areas or infectious sources. Menstruation is regular. Last menstrual period: Day 0. Married, with 1 son. Her father has a history of diabetes. Physical examination on admission (Day +3): Temperature 36.8℃, pulse 78/min, respirations 20/min, blood pressure 123/67 mmHg, alert. Abdomen flat; an approximately 12 cm longitudinal old surgical scar visible at the umbilicus; abdomen soft; mild tenderness and marked rebound tenderness in the left lower abdomen; no tenderness or rebound tenderness in the rest of the abdomen; no mass palpated.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/oO68PgQvn8HMtzJEAXuNbtWhSQfJx4ia6eXlghlmLSJyRDqKQFrdCq9IoQbjnpWuozLrHyhwHjYBTsENSmPJb4uBmG5FTgGgRAjdeCIpfTG0/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Abdominal CT without and with contrast, 2012",
+          "local_src": "cleaned_cases_image_cache/ca5546423d3e7353b9820e44d4a2440efbec1db0.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Recurrent mixed vascular malformation (predominantly lymphatic malformation) with secondary infection/septic infection",
+          "supporting_evidence": [
+            "Previous postoperative pathology in 2012 reported \"mixed vascular malformation, predominantly lymphatic\"; pathology in 2021 confirmed mixed vascular malformation, and imaging in 2017 had already suggested postoperative recurrence, indicating a clearly established pre-existing vascular-origin lesion in the abdominopelvic cavity.",
+            "The current contrast-enhanced CT of the whole abdomen showed \"a mixed-density lesion in the retroperitoneum adjacent to the abdominal aorta and inferior vena cava, and on the left side of the pelvis, enlarged compared with before, with partially increased density compared with before,\" and explicitly stated \"consider a vascular-origin lesion with possible concomitant inflammation.\"",
+            "Pelvic ultrasound of the female reproductive system showed multiple tubular anechoic structures in the left pelvis, consistent with imaging features of a vascular/cystic lesion",
+            "Acute onset, with lower abdominal pain, fever, chills, rigors, maximum temperature 40°C, accompanied by generalized myalgia and fatigue, suggesting acute infection or a septic response",
+            "Procalcitonin 35.211 ng/ml was significantly elevated, and blood culture indicated Gram-positive cocci, supporting bacterial infection.",
+            "Physical examination showed mild tenderness in the left lower abdomen with marked rebound tenderness. CT showed abdominopelvic fluid and reactive lymph node hyperplasia, supporting local inflammatory irritation."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Retroperitoneal/pelvic abscess (may be primary or arise in a pre-existing cystic lesion)",
+          "supporting_evidence": [
+            "The patient has high fever, chills, lower abdominal pain, and a marked inflammatory response, which are consistent with common manifestations of a deep abscess.",
+            "Procalcitonin is markedly elevated, and blood cultures indicate Gram-positive cocci, supporting invasive bacterial infection",
+            "CT showed a large heterogeneous-density lesion in the retroperitoneum and left pelvis, abdominopelvic fluid, and multiple surrounding reactive lymph nodes, all of which can be seen in deep infection/abscess.",
+            "Marked rebound tenderness in the left lower abdomen, suggesting localized peritoneal irritation.",
+            "Imaging shows the lesion encasing the left ureter and causing mild left hydronephrosis, suggesting that the space-occupying inflammatory lesion has a local compressive effect."
+          ],
+          "opposing_evidence": [
+            "The CT description is more suggestive of a possible vasculogenic lesion with concomitant inflammation, rather than a typical description of a simple abscess.",
+            "The white blood cell count was not significantly elevated; the WBC count on the outside hospital complete blood count was 3.78×10⁹/L and in the emergency department was 5.8×10⁹/L, which is not consistent with the elevated white blood cell count seen in some patients with typical abscesses."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Hematoma or infected hematoma due to vascular malformation-related hemorrhage/secondary infection",
+          "supporting_evidence": [
+            "Color Doppler ultrasound of the female reproductive system indicated \"multiple tubular anechoic areas in the left pelvis (vascular tumor with hemorrhage cannot be excluded)\"",
+            "Contrast-enhanced CT showed that the density of part of the lesion had increased compared with before, with CT values of 23-39 HU, which is one of the density ranges seen when blood or proteinaceous content is mixed in fluid.",
+            "The patient had acute-onset lower abdominal pain; physical examination revealed localized tenderness and rebound tenderness, consistent with irritation from bleeding or hematoma.",
+            "There is a definite past history of hemolymphangioma, and the vascular lesion itself can be complicated by hemorrhage.",
+            "High fever, markedly elevated PCT, and blood culture showing Gram-positive cocci suggest that if a hematoma is present, there is a possibility of secondary infection."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was no obvious progressive worsening of anemia or hemodynamic instability, and the evidence was insufficient for isolated active massive hemorrhage.",
+            "Fever, chills, markedly elevated procalcitonin, and positive blood cultures more strongly support an infectious process and cannot be explained solely by simple hemorrhage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pelvic inflammatory disease/tubo-ovarian abscess",
+          "supporting_evidence": [
+            "In women of reproductive age, acute lower abdominal pain accompanied by high fever and chills is a common clinical presentation of pelvic infectious disease.",
+            "Marked left lower abdominal tenderness and rebound tenderness; abdominopelvic fluid can be seen in pelvic inflammatory disease",
+            "Outside-hospital female reproductive system ultrasonography indicated multiple tubular anechoic structures in the left pelvis; on imaging, differential diagnosis includes hydrosalpinx or a complex adnexal lesion.",
+            "Blood culture indicated Gram-positive cocci, and procalcitonin was markedly elevated, supporting a bacterial infection background"
+          ],
+          "opposing_evidence": [
+            "In the first stage, it was clarified that there were no concomitant symptoms related to the gastrointestinal or urinary systems; at the same time, no typical clues of gynecologic infection were provided, such as increased vaginal discharge, abnormal vaginal bleeding, or cervical motion tenderness.",
+            "Imaging findings and past medical history both suggest a long-standing retroperitoneal/pelvic vasculogenic lesion, which better explains the current mass.",
+            "The last menstrual period was Day 0, and in the first stage, no evidence of pregnancy-related or obvious gynecologic acute abdomen was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Septic thrombophlebitis or thrombosis within a vascular malformation with superimposed infection",
+          "supporting_evidence": [
+            "There is a history of repair of rupture of the left external iliac vessel, and the current lesions are located adjacent to the abdominal aorta, inferior vena cava, and left side of the pelvis, suggesting a close relationship to vascular/vasculature structures.",
+            "CT suggests a lesion of vascular origin, and color Doppler ultrasound showed multiple tubular anechoic structures, consistent with underlying vascular structural abnormality.",
+            "Elevated D-dimer 5.58 mg/L suggests activation of coagulation and fibrinolysis in the body and may be seen in thrombosis.",
+            "High fever, chills, markedly elevated procalcitonin, and blood cultures positive for Gram-positive cocci support the possibility of septic thrombosis or septic thrombophlebitis."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no direct imaging evidence of intravascular filling defects or thrombus was provided.",
+            "No lower extremity swelling or pain, or definite signs of venous return obstruction, were described."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Retroperitoneal or pelvic neoplastic lesions (such as sarcoma/lymphoma, etc.) with secondary infection or necrosis",
+          "supporting_evidence": [
+            "CT shows a giant heterogeneous-density lesion in the retroperitoneum and left side of the pelvis, increased in size compared with 2017, with multiple small and slightly enlarged lymph nodes; a neoplastic lesion should be included in the differential diagnosis.",
+            "The lesion encases the left ureter and causes mild left hydronephrosis, suggesting that the space-occupying lesion has an invasive or compressive effect.",
+            "Multiple small cysts or vascular lesions in the spleen, and increased retroperitoneal, inguinal, and pelvic lymph nodes, make systemic disease or neoplastic disease impossible to completely exclude."
+          ],
+          "opposing_evidence": [
+            "The patient previously had a definitive pathologic diagnosis of hemolymphangioma, and the current imaging also primarily suggests a vascular-origin lesion rather than a newly developed malignant tumor.",
+            "This acute onset, accompanied by a high fever of 40℃, chills, markedly elevated procalcitonin, and blood cultures positive for Gram-positive cocci, is more consistent with an acute infectious event rather than simple tumor progression.",
+            "The phase I information did not provide tumor-supporting clues such as weight loss, night sweats, or chronic wasting."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Three routine tests (complete blood count, urinalysis, stool routine examination)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers (procalcitonin, C-reactive protein)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemistry (liver and renal function, electrolytes, blood lipids, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Microbiological testing (blood culture, respiratory pathogen PCR testing)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (CEA, AFP, CA125, CA19-9)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinary system color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal CT without and with contrast",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI examination",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Three routine tests (hospital day 1): Complete blood count: WBC count 11.4×10⁹/L, neutrophil percentage 91.9%, hemoglobin 93 g/L, platelet count 148×10⁹/L. Urinalysis and stool routine showed no obvious abnormalities. Inflammatory markers: procalcitonin 4.3 ng/mL, C-reactive protein 263.00 mg/L. Biochemistry: albumin 30 g/L (hypoalbuminemia), potassium 3.11 mmol/L (hypokalemia), liver and kidney function basically normal, triglycerides and total cholesterol without abnormalities. Coagulation function: D-dimer 4.70 mg/L; prothrombin time, activated partial thromboplastin time, and fibrinogen were all normal. Microbiology: Emergency blood culture (01-06) identification report: Streptococcus agalactiae (susceptible to penicillin, ampicillin, vancomycin, linezolid, quinupristin, and tetracycline; resistant to levofloxacin and clindamycin). Two repeat blood cultures after admission were both negative. Respiratory pathogen PCR tests were all negative. Tumor markers: CEA, AFP, CA125, and CA19-9 were all within the normal range. Imaging studies: Echocardiography (01-07): no obvious abnormalities in intracardiac structure or blood flow. Urinary tract ultrasound (01-08): mild left hydronephrosis. Non-contrast chest CT (01-15): ground-glass nodule in the posterior segment of the right upper lobe; slight chronic inflammatory changes in both lungs. Abdominal CT plain scan + contrast enhancement (01-15): 1. Postoperative changes of \"pelvic angioma\"; a mass lesion at the left margin of the pelvis (9.5×7.5 cm), considered possibly a vascular-origin lesion with superimposed inflammation, with possible partial abscess formation; other lesions to be excluded; 2. Small amount of pelvic fluid; several mildly enlarged lymph nodes in the left inguinal region, possibly reactive inflammatory hyperplasia; 3. Cystic lesions in the bilateral adnexal regions, possibly physiologic follicles. The lesion involves the psoas major muscle, and the borders with the left ureter and left adnexal region are unclear.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/oO68PgQvn8EsRCe8EF0uXLia1mftlCj3zqZQpI0GuOFn95Y8uRAicbWPx2vEj2qPZXDdSZS6pWyUIn1sytQqp4B6vcCAVdHMj6IhPfZ84GOco/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2: in conjunction with the film dated Day -4943",
+            "local_src": "cleaned_cases_image_cache/4f1b7a99c693f3430926fea521932e0f629ee87d.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pelvic infection",
+            "evidence": [
+              "Symptoms of fever and abdominal pain",
+              "Inflammatory markers (PCT, CRP) were significantly elevated",
+              "Abdominal CT showed a mass lesion along the left margin of the pelvis, considered possibly a vascular-origin lesion with superimposed inflammation, with possible partial abscess formation."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Sepsis (Group B Streptococcus bloodstream infection)",
+            "evidence": [
+              "Fever, chills, and rigors, with a maximum body temperature of 40℃",
+              "Emergency blood culture identification result: Streptococcus agalactiae"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Postoperative recurrence of abdominal angioma",
+            "evidence": [
+              "History of surgery for hemolymphangioma",
+              "Abdominal CT showed postoperative changes of \"pelvic hemangioma\" and a mass lesion along the left margin of the pelvis."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Mild left hydronephrosis",
+            "evidence": [
+              "Urinary system color Doppler ultrasound showed mild left hydronephrosis",
+              "Abdominal CT indicated that the lesion encases the left ureter, resulting in mild left hydronephrosis."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Mild anemia",
+            "evidence": [
+              "Hemoglobin 93 g/L"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hypoproteinemia",
+            "evidence": [
+              "Albumin 30 g/L"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hypokalemia",
+            "evidence": [
+              "Potassium 3.11 mmol/L"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pelvic infection",
+        "evidence": [
+          "Symptoms of fever and abdominal pain",
+          "Inflammatory markers (PCT, CRP) were significantly elevated",
+          "Abdominal CT showed a mass lesion along the left margin of the pelvis, considered possibly a vascular-origin lesion with superimposed inflammation, with possible partial abscess formation."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Sepsis (Group B Streptococcus bloodstream infection)",
+        "evidence": [
+          "Fever, chills, and rigors, with a maximum body temperature of 40℃",
+          "Emergency blood culture identification result: Streptococcus agalactiae"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Postoperative recurrence of abdominal angioma",
+        "evidence": [
+          "History of surgery for hemolymphangioma",
+          "Abdominal CT showed postoperative changes of \"pelvic hemangioma\" and a mass lesion along the left margin of the pelvis."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Mild left hydronephrosis",
+        "evidence": [
+          "Urinary system color Doppler ultrasound showed mild left hydronephrosis",
+          "Abdominal CT indicated that the lesion encases the left ureter, resulting in mild left hydronephrosis."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Mild anemia",
+        "evidence": [
+          "Hemoglobin 93 g/L"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypoproteinemia",
+        "evidence": [
+          "Albumin 30 g/L"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypokalemia",
+        "evidence": [
+          "Potassium 3.11 mmol/L"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat complete blood count",
+          "basis_in_stage3_input": "Repeat complete blood count on Day +9 showed a white blood cell count of 12.6×10⁹/L, neutrophil percentage 83.7%, hemoglobin 112 g/L, and platelet count 549×10⁹/L.",
+          "why_order_this_exam": "The patient presented with high fever, chills, and lower abdominal pain, and previously had evidence of Streptococcus agalactiae bloodstream infection. Although symptoms fluctuated and partially improved after multiple courses of anti-infective treatment, low-grade fever and dull pain in the left lower abdomen persisted, suggesting that the infection remained active and had not been completely stabilized. Repeat complete blood count can dynamically assess changes in leukocytes and neutrophils and determine control of pelvic infection/abscess and sepsis; meanwhile, the patient's hemoglobin gradually decreased from 121 g/L in the early stage to 93 g/L and 88 g/L, and imaging findings and the planned puncture suggested the possibility of intratumoral hemorrhage, so monitoring is needed for ongoing blood loss, infection-related anemia, or procedure-related risk; platelet count increased markedly to 549×10⁹/L and continued to rise, also suggesting an inflammatory response or hypercoagulable state, which is relevant to thrombosis risk assessment, whether subsequent invasive drainage is appropriate, and whether the treatment plan needs adjustment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "basis_in_stage3_input": "Procalcitonin 0.39 ng/mL.",
+          "why_order_this_exam": "Before admission, the patient's procalcitonin was as high as 35.211 ng/ml, suggesting significant bacterial infection and a septic background. Subsequently, with antimicrobial therapy, it decreased to 0.39 ng/mL, 0.11 ng/mL, and 0.03 ng/mL, indicating that the systemic bacterial infectious burden had decreased compared with before. However, the patient's body temperature still fluctuated at times, and imaging suggested a possible pelvic hemangioma with abscess formation, indicating that the local infectious focus may not have been completely eradicated. The purpose of repeat procalcitonin testing is to determine whether bacteremia/sepsis is truly under control, assess the response to anti-infective therapy, help distinguish whether persistent fever is caused by residual deep infection, local abscess, intratumoral hemorrhage, or nonbacterial inflammation, and provide a basis for antimicrobial escalation, de-escalation, or treatment duration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "basis_in_stage3_input": "C-reactive protein 18.50 mg/L.",
+          "why_order_this_exam": "This patient has definite pelvic infection and possible abscess formation. The initial C-reactive protein was 263.00 mg/L; although it subsequently decreased to 18.50 mg/L at one point, it then rebounded to 108.00 mg/L and above 92 mg/L, consistent with clinical temperature fluctuations and imaging suggesting persistent lesions. Repeat C-reactive protein testing is helpful for serial assessment of inflammatory burden and disease progression, especially for identifying whether localized abscess, infection within a hemangioma, or persistent inflammation due to inadequate antibiotic penetration still exists after procalcitonin has decreased. This marker has direct reference value for assessing whether further repeat imaging is needed, whether drainage should be considered, or whether adjustment of the antimicrobial spectrum to cover Gram-negative bacteria and anaerobes should be considered.",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "basis_in_stage3_input": "D-dimer elevated to 8.29 mg/L.",
+          "why_order_this_exam": "The patient's lesion is located in the retroperitoneum and left pelvis and is closely related to vascular structures. There is a history of repair of rupture of the left external iliac vessels, and during this admission there are also hypercoagulable factors including infection, a giant pelvic lesion, bedridden status, and markedly elevated platelets. D-dimer increased from 5.58 mg/L and 4.70 mg/L to 8.29 mg/L, and subsequently remained repeatedly elevated, suggesting persistent activation of coagulation and fibrinolysis in vivo. Repeat testing of this marker was mainly intended to assess whether there was infection-related hypercoagulability, thrombosis within a vascular malformation, or a risk of septic thrombophlebitis, and to provide a basis for pre-invasive procedure bleeding/thrombotic risk assessment, whether to further perform vascular imaging, or to intensify thrombosis prophylaxis; at the same time, in the context of planned puncture drainage and possible intratumoral hemorrhage, it also helps with an overall assessment of procedural safety.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pelvic MRI",
+          "basis_in_stage3_input": "Pelvic MRI on the same day suggested a possible pelvic angioma with abscess formation; the lesion was relatively large in extent (9.5×7.5 cm) and had indistinct boundaries with the psoas major muscle, left ureter, and left adnexal region.",
+          "why_order_this_exam": "The patient has a history of postoperative recurrence of a mixed hemolymphangioma. This time, the patient again developed high fever, chills, abdominal pain, positive blood cultures, and markedly elevated inflammatory markers. CT has already suggested a vascular-origin lesion with superimposed inflammation and possible partial abscess formation, but it remains limited in demonstrating the internal components of the lesion and the extent of surrounding involvement. Pelvic MRI can further differentiate among recurrent hemolymphangioma, abscess, infected hematoma, and subacute hemorrhage, and clarify whether the lesion contains an abscess cavity, necrosis, fluid components, and its relationship to the psoas major, ureter, and adnexal region. The clinical purpose of this examination is to address the localization and characterization of a deep infectious focus, exclude or support a gynecologic source lesion, assess compression of the left ureter and the degree of invasion of surrounding structures, and provide key imaging evidence for whether puncture can be performed safely, through which route drainage should be performed, and whether to continue conservative anti-infective therapy or proceed with multidisciplinary interventional treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous drainage",
+          "basis_in_stage3_input": "CT-guided puncture drainage was planned on Day +15. During the procedure, a high-density shadow was found within the lesion, and intratumoral hemorrhage was considered possible; puncture was not performed.",
+          "why_order_this_exam": "Although the patient's systemic infection markers partially decreased after antimicrobial therapy, there were still fluctuations in fever and a rebound in CRP, and both MRI and CT suggested a pelvic vascular malformation with possible abscess formation. The MDT also highly suspected an intralesional or perilesional abscess. For deep pelvic infection, intravenous antibiotics alone may be insufficient because of poor blood supply within the vascular malformation and limited drug penetration. Therefore, CT-guided puncture drainage was originally intended to directly confirm whether a drainable abscess cavity was present, obtain microbiologic specimens to determine whether there was concomitant anaerobic or Gram-negative bacterial infection, and promote infection control through decompression and drainage. At the same time, this procedure also served both therapeutic and diagnostic purposes and could help distinguish pus, hemorrhagic contents, and other cystic components. However, an intraoperative high-density shadow suggested possible intralesional hemorrhage, indicating that this examination was also used to assess the risk of invasive procedures and adjust the plan, so as to avoid hemorrhagic complications caused by blind puncture of vascular/vasculolymphatic lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gynecologic examination",
+          "basis_in_stage3_input": "On Day +23, a gynecology consultation was requested, and a gynecologic examination was performed to rule out gynecologic pathology.",
+          "why_order_this_exam": "The patient is a 32-year-old woman of reproductive age with acute lower abdominal pain accompanied by high fever. In the early differential diagnosis, gynecologic infectious lesions such as pelvic inflammatory disease and tubo-ovarian abscess should be considered; meanwhile, imaging suggested that the lesion had an indistinct boundary with the left adnexal region, and cystic lesions had previously been seen in the bilateral adnexal regions. Therefore, a gynecologic source cannot be completely excluded on the basis of abdominal imaging alone. The purpose of the gynecologic examination is to assess cervical, uterine adnexal, and pelvic tenderness in conjunction with the specialty physical examination, and to evaluate for adnexitis, pelvic inflammatory disease, tubo-ovarian abscess, or other gynecologic acute abdomen, thereby determining the source of the lesion and the portal of infection. This examination helps exclude important differential diagnoses, avoid misclassifying a gynecologic lesion as a simple vascular malformation infection, and also helps determine the subsequent spectrum of antimicrobial coverage, whether further gynecologic intervention is needed, and the multidisciplinary treatment pathway.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeat CBC on Day +9 showed a WBC count of 12.6×10⁹/L, neutrophil percentage 83.7%, hemoglobin 112 g/L, and platelet count 549×10⁹/L. Procalcitonin was 0.39 ng/mL, and CRP was 18.50 mg/L. D-dimer increased to 8.29 mg/L. The patient's body temperature still fluctuated between 37.5-38.0℃, accompanied by mild dull pain in the left lower abdomen. Repeat CBC on Day +13: WBC count 11.1×10⁹/L, neutrophil percentage 83.1%, hemoglobin 97 g/L, and platelet count 779×10⁹/L. CRP was 108.00 mg/L, and procalcitonin was 0.11 ng/mL. Pelvic MRI on the same day suggested possible pelvic vascular malformation with abscess formation; the lesion was relatively large (9.5×7.5 cm), involving the psoas major muscle, left ureter, and left adnexal region, with indistinct boundaries. CT-guided puncture drainage was planned on Day +15. During the procedure, a high-density opacity was found within the lesion, and possible intralesional hemorrhage was considered; therefore, puncture was not performed. MDT discussion concluded: a vascular-origin lesion complicated by inflammation and partial abscess formation, highly suggestive of intralesional or perilesional abscess formation; the heterogeneous-density lesion with CT attenuation values of 23-39 HU was consistent with a vascular malformation complicated by subacute hemorrhage or purulent contents; blood supply within the vascular malformation was poor, antibiotic penetration was limited, and mixed anaerobic infection might be present. Repeat CBC on Day +21: WBC count 13.9×10⁹/L, neutrophil percentage 88.7%, hemoglobin 93 g/L, and platelet count 680×10⁹/L. Procalcitonin was 0.03 ng/mL, CRP was 92.20 mg/L, and D-dimer was 5.26 mg/L. Gynecology consultation was requested on Day +23, and gynecologic examination was performed to exclude gynecologic-related lesions; Gram-negative bacterial and anaerobic infection could not be ruled out. Repeat CBC: WBC count 10.2×10⁹/L, neutrophil percentage 83.4%, hemoglobin 88 g/L, and platelet count 679×10⁹/L. Procalcitonin was 0.06 ng/mL, CRP was 92.50 mg/L, and D-dimer was 7.89 mg/L.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Postoperative recurrence of pelvic vascular malformation (mixed, predominantly lymphatic) with infection; 2. Sepsis (Streptococcus agalactiae bloodstream infection); 3. Pelvic abscess (possible abscess formation adjacent to the vascular malformation); 4. Mild left hydronephrosis (vascular malformation compressing the ureter); 5. Mild anemia; 6. Hypoproteinemia; 7. Hypokalemia.",
+      "diagnostic_basis": [
+        "History of surgery for mixed angioma with pathological confirmation",
+        "Symptoms of fever and abdominal pain",
+        "Blood culture identified Streptococcus agalactiae",
+        "Inflammatory markers (PCT, CRP) were elevated. Abdominal CT and pelvic MRI suggested a possible pelvic angioma with abscess formation, involving the psoas major muscle and with indistinct boundaries from the left ureter and left adnexal region.",
+        "Complete blood count indicates anemia",
+        "Biochemistry suggested hypoproteinemia and hypokalemia",
+        "Urinary tract ultrasonography and CT indicated mild left hydronephrosis"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "After admission, piperacillin sodium/tazobactam sodium 4.5 g q8h was administered for anti-infective treatment (01-06 to 01-16), along with symptomatic treatment including fluid replacement, potassium supplementation, and nutritional support.",
+        "On 01-16, adjusted to ceftriaxone 2 g q12h for anti-infective treatment",
+        "On 01-19, adjusted to linezolid 600 mg q12h, combined with metronidazole 1 g loading dose, followed by 0.5 g q8h for anti-anaerobic treatment",
+        "01-21 metronidazole discontinued",
+        "On 01-26, meropenem 1 g q8h was added to cover gram-negative bacteria and anaerobes."
+      ],
+      "treatment_response": [
+        "During treatment, the patient's abdominal pain symptoms were relieved, and the peak body temperature decreased compared with before.",
+        "On 01-16, inflammatory markers rebounded somewhat compared with previously, and the patient's body temperature fluctuated again.",
+        "On 01-27, the patient's body temperature returned to normal, with no recurrent fever; the dull pain in the left lower abdomen resolved, and the general condition improved significantly."
+      ]
+    }
+  }
+}

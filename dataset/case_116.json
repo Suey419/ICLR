@@ -1,0 +1,373 @@
+{
+  "status": "success",
+  "case_id": "case_116",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient is a 26-year-old male who was admitted to the Department of Pulmonary and Critical Care Medicine, Shao Yifu Hospital, Zhejiang University School of Medicine, on Day +3, with the chief complaint of \"dry cough and nasal congestion for 3 days, headache with fever for 1 day.\" On Day 0, 3 days before admission, the patient gradually developed a \"dry cough,\" accompanied by nasal congestion, without fever, chest tightness, or shortness of breath. The patient did not pay much attention to it and did not seek medical care. One day before admission (Day +2), headache developed, accompanied by fever with a maximum temperature of 38℃, palpitations, and mild nausea, without vomiting. The cough had worsened compared with before, mainly dry cough, without chest tightness, shortness of breath, or chest pain. The patient presented to our emergency department, where chest CT showed: 1. scattered inflammatory exudates in both lungs; 2. mild bilateral apical pleural thickening. CBC: (Day +2 14:36) WBC count 8.9x10^9/L (3.5-9.5x10^9/L); neutrophil percentage: 82.4% (40.0-75.0%); lymphocyte percentage: 8.6% (20.0-50.0%); hs-CRP: 2.7mg/L (<6.0mg/L). PCT, blood gas analysis, coagulation panel, etc. showed no obvious abnormalities. In the emergency department, \"pneumonia\" was considered, and \"moxifloxacin injection 0.4 g intravenous infusion\" was given once as anti-infective treatment. Scattered erythematous papules and vesicles were visible on the right arm, accompanied by pruritus and pain. The patient was admitted to our department for further diagnosis and treatment. Since onset, the patient's mental status and sleep have been fair, appetite has been acceptable, bowel movements and urination have been normal, and there has been no obvious change in weight. No special past medical history. Physical examination: Respirations: 20/min Temperature (ear): 37.4℃ Pulse: 73/min Blood pressure: 126/81mmHg Oxygen saturation: 98% Blood glucose: 4.6mmol/L. The patient was alert, with low energy. No icterus of the skin or sclera was seen. No enlargement of superficial lymph nodes was palpable. Breath sounds were coarse in both lungs, with a small amount of moist rales audible. Cardiac rhythm was regular, and no obvious pathologic murmur was heard. The abdomen was soft, without tenderness or rebound tenderness. No edema was present in either lower extremity, muscle strength was normal in all four extremities, and no pathologic reflexes were elicited. Scattered erythematous papules and vesicles were visible on the right arm.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFAqzU9oYGSkEuFOMqYf1gHcbboRHMrfKum22Ms23Qh4OD93e3iaLiaXfg/640?wx_fmt=png",
+          "near_text": "Figure 1. Emergency plain chest CT on Day +2",
+          "local_src": "cleaned_cases_image_cache/8615ea2487d66c9b4c63f0311abe70976fa60328.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFhJzz8ZViars9w0B1pL5PUJFqLZK4iarWUVy8Upl3XDagOmtezdTdxXNg/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT at the time of the patient's admission on Day +2",
+          "local_src": "cleaned_cases_image_cache/2b6858f621d2642f4334206b3ac22f7f6e126ecd.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "COVID-19-associated viral pneumonia",
+          "supporting_evidence": [
+            "Symptoms of acute respiratory tract infection, including dry cough, nasal congestion, headache, and fever",
+            "Chest CT indicated 'scattered inflammatory exudative opacities in both lungs.' The attached lung window images show scattered multiple small patchy/flaky areas of increased density in both lungs, bilaterally distributed, consistent with one of the imaging manifestations of viral pneumonia.",
+            "Complete blood count showed a white blood cell count of 8.9x10^9/L, not significantly elevated; neutrophil percentage was elevated at 82.4%, and lymphocyte percentage was decreased at 8.6%; a decreased lymphocyte proportion can be seen in viral infection.",
+            "Hypersensitive C-reactive protein 2.7 mg/L, PCT showed no significant abnormality, which does not support typical severe bacterial infection and is more suggestive of a viral pathogen.",
+            "Oxygen saturation 98%; no obvious abnormalities on blood gas analysis, consistent with possible early-stage or mild viral pneumonia."
+          ],
+          "opposing_evidence": [
+            "In the first stage, epidemiologic exposure history or SARS-CoV-2 etiologic test results were not provided.",
+            "Maximum body temperature 38°C, the systemic inflammatory response was not severe, and the imaging abnormalities were not extensive"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Other viral pneumonias (such as influenza, adenovirus, respiratory syncytial virus, etc.)",
+          "supporting_evidence": [
+            "Acute onset, presenting with dry cough, nasal congestion, headache, and fever, consistent with the clinical features of viral upper/lower respiratory tract infection",
+            "Chest CT showed scattered inflammatory exudative lesions in both lungs. The attached images show scattered small patchy infiltrates in both lungs, more consistent with viral or atypical pathogen infection rather than typical lobar consolidation.",
+            "Normal total white blood cell count, no significant abnormality in PCT, and hs-CRP not elevated, supporting an atypical bacterial or viral pathogen",
+            "The patient is 26 years old, with no significant past medical history; acute viral infection is common."
+          ],
+          "opposing_evidence": [
+            "An elevated neutrophil percentage of 82.4% is not a typical blood count finding of a simple viral infection.",
+            "The information from the first stage did not provide clear evidence of sore throat, myalgia, influenza-like systemic symptoms, or virologic testing."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Atypical pathogen pneumonia (Mycoplasma pneumoniae/Chlamydia, etc.)",
+          "supporting_evidence": [
+            "Young patient, mainly presenting with dry cough, fever, and headache, consistent with the common clinical spectrum of atypical pneumonia",
+            "Chest CT showed scattered inflammatory infiltrates in both lungs; the attached images did not show typical focal lobar consolidation, which is more consistent with one of the imaging features of atypical pneumonia.",
+            "The total white blood cell count was normal, and PCT showed no significant abnormality, which is more consistent with the laboratory findings seen in infection with atypical pathogens such as Mycoplasma/Chlamydia.",
+            "Pulmonary physical signs are relatively mild, with only coarse breath sounds in both lungs and a small amount of moist rales, which are not entirely parallel to the imaging changes."
+          ],
+          "opposing_evidence": [
+            "Upper respiratory tract symptoms such as nasal congestion are more suggestive of a viral infection",
+            "In the first-stage information, no specific clues to Mycoplasma/Chlamydia infection such as sore throat, ear pain, or obvious persistent high fever were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Varicella-zoster virus infection with pulmonary involvement (e.g., varicella pneumonia or disseminated VZV infection)",
+          "supporting_evidence": [
+            "Scattered erythematous papules and vesicles are visible on the patient's right arm, accompanied by pruritus and pain, suggesting possible herpesvirus infection.",
+            "The concurrent presence of fever, dry cough, and scattered inflammatory infiltrates in both lungs on chest CT warrants vigilance for herpesvirus infection with pulmonary involvement.",
+            "The attached CT images show scattered small nodules/patchy opacities in both lungs, which may be consistent with disseminated viral pulmonary involvement."
+          ],
+          "opposing_evidence": [
+            "The rash was described only as scattered papulovesicles on the right arm with a localized distribution, more consistent with localized herpes zoster; the first-stage information did not describe a generalized centripetal rash distribution, which is not typical support for varicella.",
+            "The patient is 26 years old, with no significant past medical history; the first phase did not indicate an immunosuppressed state.",
+            "Oxygen saturation 98%, no chest tightness or shortness of breath; if lung involvement is present, the current clinical manifestations are mild."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Community-acquired bacterial pneumonia",
+          "supporting_evidence": [
+            "Fever, cough, moist rales in the lungs, and chest CT showing \"scattered inflammatory exudates in both lungs\" can be seen in pneumonia.",
+            "Neutrophil percentage increased to 82.4%, suggesting that bacterial infection cannot be completely excluded in the setting of acute infection",
+            "In the emergency department, pneumonia was initially considered and moxifloxacin was given for anti-infective treatment."
+          ],
+          "opposing_evidence": [
+            "Total white blood cell count was normal, hs-CRP was not elevated at 2.7 mg/L, and PCT showed no significant abnormality, which does not support typical bacterial pneumonia.",
+            "Symptoms are mainly dry cough, without purulent sputum, chest pain, or obvious dyspnea",
+            "The attached CT images do not show typical lobar or segmental consolidation; they are more consistent with scattered atypical infiltrates."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary tuberculosis or other mycobacterial pulmonary infection",
+          "supporting_evidence": [
+            "There is cough and fever. The chest CT report mentions \"slight thickening of the bilateral apical pleura.\" Apical pleural changes may suggest prior or active TB and require differential diagnosis.",
+            "The attached image shows scattered lesions in both lungs; TB may present with a multifocal distribution on imaging."
+          ],
+          "opposing_evidence": [
+            "The disease course was only 3 days with acute onset, which is not consistent with the typical subacute or chronic course of pulmonary TB.",
+            "No symptoms suggestive of TB, such as weight loss, night sweats, or hemoptysis",
+            "The attached CT images do not show clear findings more suggestive of TB, such as cavitation, tree-in-bud opacities, or typical upper lobe-predominant consolidation.",
+            "Phase 1 information did not provide a history of TB exposure or prior TB history"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + high-sensitivity C-reactive protein + procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry (liver and kidney function, bilirubin)",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, autoimmune liver disease panel, antiphospholipid antibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Respiratory pathogen panel (9 items), Mycoplasma, Chlamydia antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive viral testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver, gallbladder, pancreas, and spleen ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF cytologic differential classification + Gram stain + fungi + acid-fast stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS (DNA+RNA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Blood tests: CBC: white blood cell count 8.9x10^9/L, neutrophil percentage 82.4%↑, lymphocyte percentage 8.6%↓, high-sensitivity CRP 2.7mg/L. Arterial blood gas: FiO2 21%, PaO2 84mmHg, PaCO2 39mmHg, P/F 416. Blood biochemistry: total bilirubin 57.2μmol/L↑, direct bilirubin 8.6μmol/L↑, indirect bilirubin 48.60μmol/L↑. ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, autoimmune liver panel, antiphospholipid antibodies (-). Viral panel: nine respiratory pathogens, Mycoplasma and Chlamydia antibodies (-). Liver, gallbladder, pancreas, and spleen ultrasound: no obvious abnormality. Echocardiography: mild tricuspid and mitral regurgitation. Pulmonary function testing: mild ventilatory dysfunction, normal diffusing capacity; FEV1 3.08L (73%pred); FEV1/FVC 100%; DLCO SB 98%pred. Total lung capacity normal, residual volume increased, functional residual capacity increased, RV/TLC increased. Day +4 non-contrast chest CT: scattered inflammatory exudative opacities in both lungs, with obvious progression compared with Day +2.",
+        "images": [
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFmXKvXozzXl3mhXqJwMVap60lOTd5fnhLV0jUZL1sknaXsfy9IaQ5wQ/640?wx_fmt=png",
+            "near_text": "Figure 2. Non-contrast chest CT on Day +4",
+            "local_src": "cleaned_cases_image_cache/467e33c3bc956434adeea8d2e4ea86050e6d035a.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpF3tnJGFjfmSTPPCK6PPmCJhooY3tR1ib4woGib83qMJquk3MGz4cciaQ7Q/640?wx_fmt=png",
+            "near_text": "Figure 5: Follow-up chest CT on hospital day 3 after admission on Day +4",
+            "local_src": "cleaned_cases_image_cache/b9baea1784b569c84c5573b1bd111135539272bb.png"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFcTVawKuHnNBFfG68KANhWTSXDCgpCsPjicEkGANbhIdEUdjAP9VvPicg/640?wx_fmt=png",
+            "near_text": "Figure 6: Follow-up chest CT after 3 days of corticosteroid treatment on Day +6",
+            "local_src": "cleaned_cases_image_cache/7081052be97ad2a9cc38dbcc38ac3f1275b941ad.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "There is currently insufficient evidence of infection in the patient.",
+              "No significant abnormalities in the blood count",
+              "No etiologic evidence of bacterial, fungal, viral, or other related infections",
+              "Ineffective antibiotic therapy"
+            ]
+          },
+          {
+            "name": "Noninfectious diseases (hypersensitivity pneumonitis, lymphocytic interstitial pneumonia, intravascular large B-cell lymphoma, chemical pneumonitis, etc.)",
+            "evidence": [
+              "There is currently insufficient evidence of infection in the patient, and a noninfectious disease is more likely.",
+              "Imaging findings are consistent with non-fibrotic HP",
+              "PFT showed mild ventilatory dysfunction",
+              "Symptoms did not improve after standard anti-infective treatment",
+              "In the BALF differential cell count, lymphocytes 20%↑, eosinophils 10%; occasional atypical cells are seen, with enlarged cell bodies, blue-staining cytoplasm, increased nuclear-to-cytoplasmic ratio, loose chromatin, visible nucleoli, and partial cellular fusion into clusters."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "There is currently insufficient evidence of infection in the patient.",
+          "No significant abnormalities in the blood count",
+          "No etiologic evidence of bacterial, fungal, viral, or other related infections",
+          "Ineffective antibiotic therapy"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious diseases (hypersensitivity pneumonitis, lymphocytic interstitial pneumonia, intravascular large B-cell lymphoma, chemical pneumonitis, etc.)",
+        "evidence": [
+          "There is currently insufficient evidence of infection in the patient, and a noninfectious disease is more likely.",
+          "Imaging findings are consistent with non-fibrotic HP",
+          "PFT showed mild ventilatory dysfunction",
+          "Symptoms did not improve after standard anti-infective treatment",
+          "In the BALF differential cell count, lymphocytes 20%↑, eosinophils 10%; occasional atypical cells are seen, with enlarged cell bodies, blue-staining cytoplasm, increased nuclear-to-cytoplasmic ratio, loose chromatin, visible nucleoli, and partial cellular fusion into clusters."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage",
+          "basis_in_stage3_input": "On Day +4, bronchoscopy + bronchoalveolar lavage was performed.",
+          "why_order_this_exam": "The patient is a 26-year-old man with acute onset, presenting with dry cough, nasal congestion, headache, and fever. Chest CT showed scattered inflammatory infiltrates in both lungs, with obvious progression on Day +4 compared with 2 days earlier. However, the complete blood count showed no significant leukocytosis, CRP and PCT were not elevated, and oxygenation was basically normal. After empiric moxifloxacin treatment, there was no corresponding improvement in symptoms or imaging findings, suggesting insufficient evidence for common bacterial pneumonia and the need to further directly obtain lower respiratory tract specimens. Bronchoscopy combined with bronchoalveolar lavage can obtain pathogenic and cytologic specimens as close to the lesions as possible when imaging is progressing but peripheral tests are atypical, to differentiate infectious from noninfectious pulmonary infiltrates, exclude infections such as bacteria, fungi, and TB, and provide a basis for subsequent assessment of whether to consider chemical pneumonitis, hypersensitivity pneumonitis, or other interstitial lung disease. At the same time, although the patient had fever and imaging progression at that time, arterial blood gas and oxygen saturation were stable, providing a safety basis for performing this examination.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "No abnormalities were observed on bronchoscopy",
+          "why_order_this_exam": "The patient’s chest CT showed scattered inflammatory exudates in both lungs with short-term progression, but the clinical symptoms were relatively mild and there was a lack of typical laboratory support for bacterial infection. It is necessary to directly visualize the airway via bronchoscopy to determine whether there is retention of endobronchial secretions, suppurative changes, hemorrhage, a mass, a foreign body, or focal mucosal lesions. This examination helps clarify whether the lesion is mainly located in the airway or at the level of the lung parenchyma/interstitium, and provides a basis for localization for subsequent procedures such as selecting the lavage site and brush sampling. If no abnormality is seen under bronchoscopy, this also indirectly supports that the lesion is not an obvious endobronchial mass or suppurative bronchial lesion, helping to further shift the differential diagnosis toward diffuse lung parenchymal disease, noninfectious inflammation, or exposure-related lung injury.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gram stain",
+          "basis_in_stage3_input": "BALF sent for Gram stain",
+          "why_order_this_exam": "The patient has fever, cough, and pulmonary infiltrates, and common bacterial lower respiratory tract infection should still be excluded first initially. Although the total white blood cell count is normal, CRP and PCT are not elevated, and the response to moxifloxacin is suboptimal, which atypically supports ordinary bacterial pneumonia, the short-term radiographic progression suggests that infection cannot be excluded solely on the basis of peripheral indicators. Gram stain of BALF can provide rapid initial screening for the presence of bacteria and an inflammatory background, and can also assess for morphologic clues of fungi, providing early evidence for whether to continue intensified antimicrobial therapy and whether broader coverage is needed. If the result is negative, then in combination with culture, NGS, and treatment response, the diagnosis of infectious pneumonia can be further weakened, supporting a shift toward noninfectious causes such as chemical pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "Although the patient's laboratory inflammatory markers are not elevated and empiric anti-infective therapy has been ineffective, the presence of fever, cough, and progressive bilateral lung infiltrates on CT means that common bacterial pneumonia still needs to be excluded by culture of lower respiratory tract specimens. BALF bacterial culture more accurately reflects the true pathogen status of the lower respiratory tract than sputum specimens and can be used to detect common bacteria and some opportunistic pathogens, and to guide whether antimicrobial agents need to be adjusted or discontinued. The clinical question addressed by this test is: whether the imaging progression is still being driven by bacterial infection. If the culture is negative, then in combination with negative Gram stain, non-elevated PCT, and lack of response to moxifloxacin, the likelihood of infectious pneumonia can be substantially reduced, providing a more reliable basis for subsequently considering noninfectious lung injury and the use of glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "The patient had scattered infiltrates in both lungs with short-term progression. Although the patient was young, had no prior history of immunosuppression, and peripheral inflammatory markers were not elevated, fungal infection still needed to be excluded in the differential diagnosis of diffuse pulmonary opacities, especially when routine antibacterial treatment was ineffective. The purpose of BALF fungal culture was to look for evidence of invasive or noninvasive fungal pathogens and to corroborate the GM assay and microscopy findings, thereby answering the key question of whether fungal pneumonia was present. If the fungal culture was negative, then in combination with no fungi identified and insufficient virologic and bacteriologic evidence, this could further support that the lesion was not caused by infection, but was related to chemical exposure or another noninfectious pneumonia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "The patient had cough, fever, and scattered lesions in both lungs. In the early differential diagnosis, TB or other mycobacterial infection was considered. At the same time, the chest CT report mentioned slight pleural thickening at both upper hemithoraces. Although the disease course was only 3 days and there was a lack of features of chronic infection such as night sweats and weight loss, with progressive radiographic findings and before planned corticosteroid therapy, TB and other mycobacterial infections had to be excluded as much as possible. BALF acid-fast staining can rapidly provide direct evidence of whether acid-fast bacilli are present, helping address the important differential question of whether the pulmonary lesions are caused by TB/nontuberculous mycobacteria. If the result is negative, it can lower the likelihood of such infection, reduce the risk of inappropriate corticosteroid use, and support a noninfectious etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liquid-based cytology",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "In the setting of obvious short-term progression on imaging and insufficient evidence for routine infections such as bacterial or viral infection, in addition to pathogen workup, BALF cytology is needed to look for clues to noninfectious disease. Liquid-based cytology allows better assessment of exfoliated cellular morphology and identification of atypical epithelial cells, tumor-like cells, or marked inflammatory cytologic changes, thereby helping distinguish infectious inflammation, reactive changes, and potential neoplastic lesions. In conjunction with the subsequently reported occasional atypical cells, enlarged cell bodies, increased nuclear-to-cytoplasmic ratio, visible nucleoli, and partial clustering/fusion into groups, liquid-based cytology plays a key role in indicating the need to further consider noninfectious disease or an abnormal cellular source, and also provides a basis for whether to add more in-depth pathologic or immunophenotyping studies subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NGS（DNA+RNA）",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "The patient presented with acute fever, dry cough, and scattered bilateral pulmonary infiltrates, and the peripheral blood showed a decreased lymphocyte proportion, so there initially was a possibility of viral or atypical pathogen infection; however, the respiratory pathogen panel of nine, Mycoplasma and Chlamydia antibodies were negative, conventional antibacterial treatment was ineffective, and the imaging still progressed, therefore broader-spectrum, higher-sensitivity pathogen testing was needed. BALF NGS (DNA+RNA), when routine culture and common pathogen screening are negative, can further search for bacteria, fungi, viruses, and uncommon pathogens, specifically addressing the question of whether there is a pathogen missed by conventional methods. If the result shows no definite pathogenic pathogen, with only an extremely low sequence count of human herpesvirus 7 detected and no RNA evidence of a definite pathogenic virus, this may be inconsistent with the clinical picture, thereby supporting that infection is not the main driving factor and providing important exclusionary evidence for establishing chemical pneumonitis and initiating glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "Chest CT showed scattered inflammatory exudative opacities in both lungs with short-term progression. Empiric anti-infective therapy was ineffective, and it is necessary to exclude invasive fungal infection as an important etiology, although routine blood counts may not necessarily show obvious abnormalities. The BALF GM test is closer to the pulmonary lesions than serum testing and can be used to help identify fungal-related pulmonary infections such as Aspergillus, and together with fungal culture and microscopy, improve diagnostic confidence for fungal infection. This test helps answer whether antifungal therapy should be considered under the current imaging progression; if the GM test is negative and culture shows no fungus, it helps exclude fungal pneumonia, reduce the possibility of misdiagnosing infection, and support subsequent analysis of noninfectious lung injury etiologies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytologic classification",
+          "basis_in_stage3_input": "BALF was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM assay, and cytologic classification",
+          "why_order_this_exam": "Although the patient had fever and cough, the peripheral infection markers were mild, imaging progressed rapidly, and antibacterial treatment was ineffective, indicating the need to assess the composition of inflammatory cells within the alveoli to help distinguish infectious from noninfectious pneumonia. BALF cytologic differential can reflect the type of alveolar inflammation: for example, increased lymphocytes can support a direction of ILD such as hypersensitivity pneumonitis; increased eosinophils suggest possible allergic/eosinophilic inflammation; and increased neutrophils can be seen in infection or acute lung injury. The patient's subsequent results showed macrophages 50%, lymphocytes 20%, neutrophils 20%, eosinophils 10%, with abnormal cells, suggesting that this was not a common pattern of simple bacterial infection, but was more suggestive of noninfectious inflammation or exposure-related lung injury. This has important value for differentiating chemical pneumonitis, hypersensitivity pneumonitis, and other ILD, and influences whether to choose steroid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brush specimen submitted for testing",
+          "basis_in_stage3_input": "Then brush sampling was performed and the specimen was submitted for examination",
+          "why_order_this_exam": "When no obvious abnormalities are seen on direct visualization by bronchoscopy but chest CT suggests scattered bilateral pulmonary lesions with continued progression, lavage alone may sometimes be insufficient to obtain surface cellular components from the localized lesions; therefore, submitting a bronchial brushing specimen can help supplement sampling. This examination can increase the likelihood of positive cytologic and pathogen detection and help identify abnormal cells, focal epithelial injury, or pathogen adherence that may not be adequately demonstrated in the lavage fluid. In this case, its clinical significance lies in further improving the detection rate for evaluation of infectious pathogens and identification of abnormal cells, thereby helping to address the core question of whether the pulmonary lesions represent infection, tumor-like lesions, or noninfectious inflammatory injury, and also providing a basis for whether further histologic tissue sampling is needed.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +4, bronchoscopy + bronchoalveolar lavage was performed: no abnormalities were seen on bronchoscopy. Normal saline was instilled locally through the posterior bronchus of the right upper lobe for lavage, and the lavage fluid was sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), GM test, and differential cell count; brush sampling was then performed and submitted for examination. The bronchoalveolar lavage fluid results on Day +6 were as follows: [Pathogen testing] Gram stain: negative, no fungi detected; acid-fast stain: no acid-fast bacilli seen; [Differential cell count] BALF cytology results: cell count 604*10^6/L, macrophages 50%, lymphocytes 20%, neutrophils 20%, eosinophils 10%; occasional atypical cells were seen, with enlarged cell bodies, blue-staining cytoplasm, increased nuclear-to-cytoplasmic ratio, loose chromatin, visible nucleoli, and some cells fused into clusters; [BALF NGS] (DNA) Human herpesvirus 7, sequence count 1; (RNA) no definite pathogenic virus detected. [Bacterial + fungal culture] (-). A detailed inquiry was made regarding the patient's occupational history, drug/toxin exposure history, and recent contact with suspicious materials. The patient works in pharmaceutical formulation R&D. One day before symptom onset, that is, on Day +1, the patient broke a sodium ibandronate vial at work and cleaned up the spilled powder; the exposure duration was 3 hours. At that time there was no discomfort and the patient did not pay attention to it. The patient denied recent travel and other environmental exposures.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFyjGhWUvugc8fQfFV3Kc1lO8a6wWibndnDKQWytxzYSzfsrE7n61u16w/640?wx_fmt=png",
+          "near_text": "Figure 3: Diagnostic approach flowchart",
+          "local_src": "cleaned_cases_image_cache/189c8aec06e45ca503ad3e7655d59372414407f6.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpF3YMz6AAgfqCpxNeBPXo7q2t2RZRe8siadruq5VfDPrEtJK8BHmJjnvQ/640?wx_fmt=png",
+          "near_text": "Figure 7: Follow-up chest CT on Day +10",
+          "local_src": "cleaned_cases_image_cache/307b595979938922eb50ff595922724626667c0a.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Chemical pneumonitis, acute ibandronate sodium poisoning (acute moderate ibandronate sodium poisoning)",
+      "diagnostic_basis": [
+        "The patient had a history of exposure to ibandronate sodium powder before disease onset.",
+        "Chest CT showed progressively worsening diffuse hazy opacities in both lungs",
+        "After admission, the patient had recurrent high fever, but the blood counts showed no significant abnormalities.",
+        "No etiologic evidence of bacterial, fungal, or viral infection, and antibiotic therapy was ineffective",
+        "Tumor markers and autoimmune-related indices were all negative"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone injection 40 mg, intravenous infusion, twice daily",
+        "Ipratropium bromide inhalation suspension 2 mL + budesonide inhalation suspension 1 mg, nebulized inhalation treatment twice daily",
+        "Adjust the corticosteroid dose to: methylprednisolone injection 40 mg intravenous infusion once daily, with gradual tapering",
+        "Prednisolone tablets 12 mg orally once daily, with weekly tapering"
+      ],
+      "treatment_response": [
+        "After corticosteroid therapy, the patient's symptoms were significantly relieved, the cough improved, and body temperature was normal.",
+        "Repeat chest CT: scattered inflammatory exudative opacities in both lungs (overall improved with absorption compared with Day +4)",
+        "Repeat chest CT: scattered inflammatory exudative opacities in both lungs are basically absorbed compared with before",
+        "Follow-up: 2 weeks later, on Day +25, the patient returned for an outpatient follow-up visit, with no symptoms such as fever or cough; chest CT showed no obvious abnormalities, and the patient had resumed normal activities."
+      ]
+    }
+  }
+}

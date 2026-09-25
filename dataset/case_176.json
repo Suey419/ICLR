@@ -1,0 +1,281 @@
+{
+  "status": "success",
+  "case_id": "case_176",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 45 years old, self-employed. Chief complaint: \"fever for 2 years, recurrence with shortness of breath for more than half a month.\" He was admitted to our hospital on Day 0. Two years ago, the patient presented to a local hospital because of fever. A left lower abdominal skin abscess was considered. After the skin abscess ruptured, local debridement and suturing were performed. During the subsequent hospitalization, the patient developed confusion and shock. The local hospital considered \"diabetic ketoacidosis, skin infection, COVID-19 infection,\" and he was transferred to Hospital A. After admission to Hospital A, oxygen saturation decreased, so endotracheal intubation was performed. He was subsequently diagnosed with pulmonary Aspergillus flavus/Aspergillus oryzae and Rhizopus oryzae infection, bloodstream Pseudomonas aeruginosa and Klebsiella pneumoniae infection. His condition improved after targeted anti-infective treatment. However, later (Day -633), the patient developed inspiratory dyspnea. Bronchoscopy showed a large amount of fungal mass in the upper trachea, and fungal infection of the upper trachea with destruction of the tracheal wall was considered. After consultation at Hospital B, two fistulous openings were seen in the anterior tracheal wall. Upper tracheal fungal infection destroying the tracheal wall was considered, and \"tracheoesophageal fistula\" was diagnosed. Amphotericin B nebulization was given, and he was transferred to our hospital for further treatment. Our hospital diagnosed \"tracheoesophageal fistula, tracheal stenosis,\" and stent placement was performed on Day -616. Later, due to stent migration, bronchoscopic stent placement was performed again on Day -498. After his condition became stable, he went to Hospital C for rehabilitation treatment and was discharged after 3 months. Thereafter, stent adjustment procedures were performed twice. After bronchoscopic stent removal on Day -447, the lesion was as shown in the figure. The stent size was adjusted from 10 cm to 5 cm. The last adjustment was in approximately 10 months before Day 0. After that, he did not return for follow-up. He had had a small amount of cough all along, with occasional choking cough when drinking water. More than half a month ago, the patient again developed fever, with body temperature around 38℃, which improved spontaneously after several hours, but then obvious shortness of breath developed, accompanied by inspiratory stridor. Cough and sputum instead decreased; a small amount of blood-streaked sputum was difficult to expectorate. Choking cough during eating was slightly worse than before. There was no nausea or vomiting, no chest pain, no diarrhea or abdominal pain, no urinary urgency or dysuria, etc. Self-administered nebulization did not improve symptoms. He felt dizziness, fatigue, and malaise. Yesterday he again presented to our hospital emergency department. CT suggested inflammatory infiltrates in the right middle lobe and left lower lobe. Oxygen therapy, piperacillin-tazobactam anti-infective treatment, ambroxol for expectoration, and pantoprazole for gastric protection were given, and he was admitted with \"tracheoesophageal fistula, tracheal stenosis, pneumonia.\" Since onset, he has had low spirits, poor appetite, poor sleep, normal urination and defecation, and no significant weight change. Past medical history and personal history: The patient has had diabetes for more than 10 years. He had been taking metformin and glimepiride orally, then stopped the medications on his own and did not monitor blood glucose. Two years ago, after hospitalization, treatment was adjusted to insulin glargine 14U QN for glycemic control. Self-monitored fasting blood glucose was 7-8 mmol/L; postprandial blood glucose was not monitored. At the same time, after relevant examinations, he was diagnosed with \"diabetic nephropathy, hyperuricemia, hyperkalemia.\" He had taken medications such as \"Shenshuaining, Jinshuibao,\" etc. orally, and stopped them on his own more than 5 months ago. Creatinine was around 200 umol/L, and urine output was acceptable. He is currently still taking \"Febuxostat tablets 1# once daily, sodium zirconium cyclosilicate 1 packet once daily\" orally. Uric acid is elevated, and blood potassium is normal. Diabetic foot, with ulceration of the left great toe for more than 2 months; blurred vision in the right eye for more than 1 month. History of gastritis, with recurrent nausea and vomiting discomfort after taking medications and eating. History of asthma in childhood, with no recurrence after growing up. Physical examination: Temperature: 36.4℃, pulse: 63 beats/min, respirations: 15/min, blood pressure: 151/98 mmHg. Clear consciousness, low spirits, mildly tachypneic, prolonged inspiratory phase during breathing, no jugular venous distention, no enlarged superficial lymph nodes palpable throughout the body, trachea midline, inspiratory wheezing audible over the larynx, decreased breath sounds in both lungs, no dry or moist rales heard, regular cardiac rhythm, no pathologic murmurs heard in any valvular area; abdomen soft, no tenderness or rebound tenderness, liver and spleen not palpable below the costal margin, normal muscle strength and muscle tone in all extremities, no edema in both lower extremities, decreased sensation in both lower extremities, toe hyperpigmentation, ulceration with black eschar formation on the left great toe.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXElYWw8PapKbYdFupLGw2PmISBdpPflHh2yAQnPQ0ksTtK24ibHkLjyQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Bronchoscopy showed an upper tracheal tracheoesophageal fistula and mucosal hyperplasia with stenosis in the mid trachea",
+          "local_src": "cleaned_cases_image_cache/ff99b2beaeda418b9fc11f18f336f9aac0011543.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXiaXMoWX7LkvHTMmITjjpSOPuMWCuRNf2nKJJt7xmm25eVxw08XxIicpQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: CT showed a tracheal stent and inflammatory exudative changes in the right middle lobe and left lower lobe.",
+          "local_src": "cleaned_cases_image_cache/80e3a2f8a21c8f2edc49d780c1f7982237858845.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Tracheal stenosis/central airway obstruction (due to post-stent restenosis or granulation tissue hyperplasia)",
+          "supporting_evidence": [
+            "For more than half a month, marked dyspnea developed, accompanied by inspiratory stridor, and symptoms did not improve with self-administered nebulized treatment.",
+            "Physical examination suggested tachypnea, prolonged inspiratory phase during breathing, inspiratory stridor audible over the larynx, and decreased breath sounds in both lungs, consistent with upper airway or central airway stenosis.",
+            "Previously confirmed to have \"tracheal stenosis,\" and underwent stent placement on Day -616 and Day -498, followed by two subsequent stent adjustments.",
+            "The bronchoscopy image is labeled \"hyperplastic mucosal stenosis of the mid-trachea\"; marked narrowing of the lumen is visible, supporting organic central airway stenosis.",
+            "Cough and sputum production have instead decreased; a small amount of blood-streaked sputum is difficult to expectorate, which can be seen with limited secretion drainage due to airway stenosis and local mucosal injury."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Recurrent or persistent tracheoesophageal fistula with aspiration",
+          "supporting_evidence": [
+            "Previously had a confirmed diagnosis of tracheoesophageal fistula, and had previously developed a fistulous opening due to destruction of the tracheal wall caused by fungal infection of the upper trachea",
+            "He currently still has \"occasional coughing with drinking water,\" and this episode of \"coughing/choking while eating is slightly worse than before,\" suggesting that the risk of swallowing-related aspiration continues to be present.",
+            "The bronchoscopic image is labeled \"upper tracheal tracheoesophageal fistula,\" supporting that the site of the previous lesion truly existed.",
+            "More than half a month ago, fever recurred; chest CT showed inflammatory infiltrates in the right middle lobe and left lower lobe, which may be consistent with pulmonary infection after recurrent aspiration."
+          ],
+          "opposing_evidence": [
+            "In the first stage, severe choking cough after large-volume food intake or obvious food residue being coughed out from the airway was not described; based on the currently available information alone, it cannot be determined that the fistula has definitely recurred or enlarged."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Aspiration pneumonia",
+          "supporting_evidence": [
+            "There are definite high-risk factors for aspiration: prior tracheoesophageal fistula, occasional coughing/choking when drinking water, and choking/coughing during eating on this occasion was slightly worse than before.",
+            "More than half a month ago, fever recurred, with a body temperature of around 38℃",
+            "Emergency CT showed inflammatory exudates in the right middle lobe and left lower lobe, consistent with imaging findings of pulmonary infection",
+            "Chest CT images show patchy inflammatory infiltrates in both lungs, supporting pneumonia",
+            "Reduced cough and sputum production, but sputum is difficult to expectorate, which may be seen in secretion retention after aspiration or concomitant airway stenosis"
+          ],
+          "opposing_evidence": [
+            "On physical examination, no dry or moist rales were heard in either lung, and the current body temperature is 36.4℃, making the signs of active infection not prominent."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Community-acquired pneumonia",
+          "supporting_evidence": [
+            "The patient has fever, shortness of breath, and chest CT showed inflammatory exudative changes in the right middle lobe and left lower lobe.",
+            "Chest CT images show patchy infiltrative opacities in both lungs, consistent with possible infectious lesions.",
+            "Diabetes mellitus, diabetic nephropathy, diabetic foot ulceration with black eschar formation, suggesting increased susceptibility to infection",
+            "There was a prior history of severe bacterial infection (Pseudomonas aeruginosa bloodstream infection and Klebsiella pneumoniae infection), indicating that the patient is not in a low-risk group for severe infection."
+          ],
+          "opposing_evidence": [
+            "On current physical examination, no dry or moist rales were heard in either lung; the amount of sputum with cough has instead decreased; the fever can improve spontaneously after several hours; the typical clinical manifestations of pneumonia are not sufficiently evident.",
+            "Inspiratory stridor and laryngeal wheezing are more prominent, suggesting that the symptoms may primarily originate from an upper airway/central airway problem rather than a simple pulmonary parenchymal infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Recrudescence of airway fungal infection or chronic fungal tracheobronchitis/pulmonary fungal infection",
+          "supporting_evidence": [
+            "There was a previously confirmed history of pulmonary Aspergillus flavus/Aspergillus oryzae and Rhizopus oryzae infection, and there had also been a \"large fungal mass in the upper trachea\" and tracheal wall destruction.",
+            "This time, fever, shortness of breath, and a small amount of blood-streaked sputum that is difficult to expectorate recurred; in conjunction with the past history, recurrence of fungal-related airway lesions should be considered with caution.",
+            "Bronchoscopic images show an upper tracheoesophageal fistula and mid-tracheal mucosal hyperplasia with stenosis, suggesting local structural abnormalities after previous severe airway destruction, which may serve as a basis for reactivation of chronic infection.",
+            "Long-term suboptimal diabetes control is an important predisposing factor for invasive fungal infection"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no mycological evidence for this episode was provided, nor were specific imaging findings such as typical new fungal balls or cavities/nodules described.",
+            "This CT was described as inflammatory exudation in the right middle lobe and left lower lobe, more consistent with nonspecific infection."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Based on the patient's past medical history and inspiratory stridor audible over the larynx on physical examination, complications such as airway stent stenosis or migration were highly suspected. Therefore, bronchoscopy was performed on Day +1. Bronchoscopic findings: granulation tissue hyperplasia below the glottis, marked luminal stenosis, a suspicious fistula opening visible at the lower edge of the stent, and granulation tissue hyperplasia of the anterior wall.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXsugxX29wN2PchvIWWqP8O5zn8u3mgyCgflOgFYpSusSIvR2dEMd9YA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 3: Bronchoscopic findings: subglottic granulation tissue hyperplasia, marked luminal stenosis, a suspected fistula opening visible at the lower edge of the stent, and granulation tissue hyperplasia of the anterior wall. APC was used to cauterize the granulation tissue at the upper and lower ends, and the stenosis improved.",
+            "local_src": "cleaned_cases_image_cache/cb42bfe47f30796c488cf02f16eebe0d500c8d2a.jpg"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXX1X86LF3IER0GiaU5jSBWlOvUiaw53UFPEy8CBb06NR1s3SmJ7j9ISy3w/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 4: External fixation procedure workflow",
+            "local_src": "cleaned_cases_image_cache/f166ef2f986d9782bfedca2a4523fc84208fc0b1.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXkrUMp293A1gve4zoXKEnJsmH1hxkOOVonvkS6Aj9w1xva826Kr8iayw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/3a5f32c414242ea7427bac9c9ab28a7d0662d90c.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXj7wZtmm6CHPNUJlRUKP3I94GsolNscjUNaGNNSfhtGmzJiaAacAUib5w/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/3eebed856d64497b0555c552bec76cfbec524b6f.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXpiaShgt7tfnjKYiajoRooIvrCX6dJ3E5LFEdhRPvicN38g7ib61Ca1Zbkg/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/85b0aa1aa9b9ab2ea835ae4945de0b7f88549ff9.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXQfyibiaouXtbibbZDiaq6BXI2v8E2FWZblzjANFdcXjiak4TKw3YtPlxzxQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/f755e45bd9fc662c6e464c6e0049ed5c753231c0.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Complications such as stenosis or migration of the airway stent",
+            "evidence": [
+              "Based on the patient's prior medical history and the inspiratory stridor audible over the larynx on physical examination, we strongly suspected complications such as airway stent stenosis or migration.",
+              "Accordingly, bronchoscopy was performed on Day +1. Bronchoscopic findings: subglottic granulation tissue hyperplasia, marked luminal stenosis, a suspected fistula opening visible at the lower edge of the stent, and granulation tissue hyperplasia of the anterior wall."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Aspiration pneumonia",
+            "evidence": [
+              "The patient has consistently had coughing/choking during eating. On Day +17, the patient developed a fever, with a temperature of 39.4℃; aspiration pneumonia due to recurrent aspiration was considered."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "stent migration",
+            "evidence": [
+              "After repeat stent placement, the patient still had coughing/choking while eating; stent migration was considered."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Stent displacement caused by suture rupture",
+            "evidence": [
+              "On Day +34, the patient again experienced choking and coughing while eating and felt that the stent had migrated. We found that the suture could be pulled out, and considered stent migration due to suture rupture."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Complications such as stenosis or migration of the airway stent",
+        "evidence": [
+          "Based on the patient's prior medical history and the inspiratory stridor audible over the larynx on physical examination, we strongly suspected complications such as airway stent stenosis or migration.",
+          "Accordingly, bronchoscopy was performed on Day +1. Bronchoscopic findings: subglottic granulation tissue hyperplasia, marked luminal stenosis, a suspected fistula opening visible at the lower edge of the stent, and granulation tissue hyperplasia of the anterior wall."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Aspiration pneumonia",
+        "evidence": [
+          "The patient has consistently had coughing/choking during eating. On Day +17, the patient developed a fever, with a temperature of 39.4℃; aspiration pneumonia due to recurrent aspiration was considered."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "stent migration",
+        "evidence": [
+          "After repeat stent placement, the patient still had coughing/choking while eating; stent migration was considered."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Stent displacement caused by suture rupture",
+        "evidence": [
+          "On Day +34, the patient again experienced choking and coughing while eating and felt that the stent had migrated. We found that the suture could be pulled out, and considered stent migration due to suture rupture."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "On Day +8, bronchoscopy was performed again, revealing two smooth fistulous openings, one 2 cm below the glottis and one in the membranous portion of the mid trachea. On Day +21, repeat bronchoscopy showed the stent in place 2 cm below the glottis, with good coverage of the original subglottic fistula; granulation tissue was present at the distal end of the stent, and a clearly visible fistulous opening was seen between the stent and the granulation tissue; distal tracheal rings were present. On Day +29, a 20x80 mm covered stent was placed again. Purulent secretions were seen on bronchoscopy and were suctioned. After repeat stent placement, the patient still had coughing/choking while eating, and stent migration was considered.",
+          "why_order_this_exam": "The patient previously had a tracheoesophageal fistula and tracheal stenosis caused by fungal destruction of the tracheal wall. After multiple stent placements and adjustments, over the past half month the patient again developed marked dyspnea, inspiratory stridor, laryngeal wheezing, decreased sputum production with difficulty expectorating, blood-streaked sputum, and persistent coughing/choking during eating, suggesting a high risk of recurrent central airway restenosis, persistent/recurrent fistula, or stent-related complications. During the prior and current course, bronchoscopy had already directly identified subglottic granulation tissue hyperplasia, marked luminal stenosis, and a suspected fistula; subsequent findings further confirmed bilateral fistulous openings, granulation tissue hyperplasia at the distal end of the stent, an obvious fistulous opening, and purulent secretions. Persistent coughing/choking after repeat placement of a covered stent further suggests stent migration or incomplete coverage. The core purpose of ordering bronchoscopy is to directly visualize the airway lesions; determine whether the fistula persists or whether a new fistula has developed, as well as the location and extent of the fistula; assess whether the stent is in place or has migrated; determine whether granulation tissue hyperplasia at both ends of the stent and distally is causing restenosis; assess for pus retention or local infection; and evaluate the tracheal rings and surrounding airway structures. This examination is the most direct for confirming tracheoesophageal fistula, stent-related complications, and central airway obstruction, and it also helps exclude inspiratory stridor that cannot be explained by simple asthma or isolated pulmonary parenchymal infection. At the same time, bronchoscopy can also assess the risk and feasibility of subsequent procedures, such as whether secretion suctioning, APC treatment of granulation tissue, stent removal or adjustment, repeat placement of a covered stent, or external fixation is needed, thereby directly guiding the choice of treatment plan.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +8, bronchoscopy was performed again, revealing two smooth fistulous openings, one 2 cm below the glottis and one in the membranous portion of the mid trachea. On Day +21, repeat bronchoscopy showed the stent in place 2 cm below the glottis, with good coverage of the original subglottic fistula; granulation tissue was present at the distal end of the stent, and a clearly visible fistulous opening was seen between the stent and the granulation tissue; distal tracheal rings were present. On Day +29, a 20x80 mm covered stent was placed again. Purulent secretions were seen on bronchoscopy and were suctioned. After repeat stent placement, the patient still had coughing/choking while eating, and stent migration was considered.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstL4o6ZTpqNYWgEf5NGdRfXXM1GLBbdqAWrhso8LCd4hzUEMfBfrz2RdiaD0l89dcGpccdTKOCa8oPA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5: Comparison of intraluminal airway findings after the two internal fixations, and external view after fixation.",
+          "local_src": "cleaned_cases_image_cache/6669942218524be2274543c2ffa92e50e8c4232f.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Community-acquired pneumonia, tracheoesophageal fistula, airway stenosis, status post airway stent placement 2. Diabetes mellitus, diabetic nephropathy, hyperuricemia, diabetic foot, diabetic eye disease",
+      "diagnostic_basis": [
+        "The patient had recurrent fever for 2 years, with recurrence accompanied by shortness of breath for half a month; was previously diagnosed with tracheoesophageal fistula and airway stenosis, and was treated with tracheal stent placement.",
+        "On physical examination, inspiratory wheezing was audible over the larynx, and breath sounds were decreased bilaterally.",
+        "CT showed inflammatory exudates in the right middle lobe and left lower lobe.",
+        "History of diabetes mellitus; previous workup established diagnoses of diabetic nephropathy, hyperuricemia, diabetic foot, and diabetic eye disease"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oxygen therapy, piperacillin-tazobactam 4.5 Q8H by IV infusion for anti-infective treatment, ambroxol for sputum clearance, nebulization for cough suppression and relief of wheezing, as well as treatment to control blood pressure and blood glucose",
+        "APC cauterization of granulation tissue at the upper and lower ends, and methylprednisolone injection 40 mg IV for anti-inflammatory treatment to reduce edema",
+        "Bronchoscopy-guided endotracheal intubation via the nasal route, with sedation and invasive mechanical ventilatory support",
+        "Meropenem IV infusion combined with voriconazole IV infusion for anti-infective therapy, methylprednisolone injection 40mg QD by IV infusion for anti-inflammatory treatment, indwelling nasoenteric tube for enteral nutrition, as well as symptomatic treatment including cough suppression, expectoration, and gastric protection.",
+        "Circumferential resection of granulation tissue with electrocautery, hemostasis with APC, removal of the laryngeal mask airway, insertion of a rigid bronchoscope into the trachea under flexible bronchoscopic guidance with neuromuscular blockade, and rotational cutting removal of the stent",
+        "A 20 x 60 mm Ultraflex covered metallic stent was placed in the upper to mid trachea, and its position was adjusted to cover the fistula opening.",
+        "Stent removed with foreign-body forceps",
+        "Repeat placement of a nasoenteric tube under gastroscopy, with enteral nutrition therapy",
+        "Repeat placement of a 20×80 mm covered stent; pus was seen on bronchoscopy and was suctioned.",
+        "Bronchoscopy was performed under general anesthesia. After the migrated stent was repositioned to an appropriate location, external stent fixation was performed (using a 13x55 mm 3/8 triangular suture needle with No. 1 silk suture, the needle was inserted through the right side of the neck and brought out through the anterior wall of the contralateral airway; the suture was passed through a short segment of infusion tubing and then tied for fixation).",
+        "Stent position was readjusted again under bronchoscopy, and external fixation was performed again (using No. 1 silk suture folded twice to obtain four strands of No. 1 silk suture)."
+      ],
+      "treatment_response": [
+        "Improvement of stenosis",
+        "That evening, the patient developed laryngeal edema and asphyxia; noninvasive ventilatory support was ineffective.",
+        "After the patient's condition improved, the endotracheal tube and nasoenteric tube were removed, and methylprednisolone injection was discontinued.",
+        "The patient has consistently had coughing/choking while eating. On Day +17, fever developed, with a temperature of 39.4℃; aspiration pneumonia caused by recurrent aspiration was considered.",
+        "The distal fistula opening improved, revealing two remaining fistula openings in the upper trachea. After stent removal, there was no airway collapse.",
+        "The patient's cough and sputum production improved, and blood CRP decreased.",
+        "After repeat stent placement, the patient still had coughing while eating, and stent migration was considered.",
+        "On Day +34, the patient again choked and coughed while eating, subjectively felt stent displacement, and it was found that the suture could be pulled out; suture rupture with stent displacement was considered.",
+        "After this fixation, the patient's condition was stable, and the fixation was maintained for half a month until it was replaced with a custom-made Y-shaped stent."
+      ]
+    }
+  }
+}

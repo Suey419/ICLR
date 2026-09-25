@@ -1,0 +1,291 @@
+{
+  "status": "success",
+  "case_id": "case_153",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 61 years old, was diagnosed with \"COPD\" in 2007 and had been on long-term regular inhaled therapy with tiotropium bromide combined with salmeterol/fluticasone, but his exercise tolerance continued to progressively decline, requiring long-term home oxygen therapy and intermittent noninvasive ventilatory support. Over the past 3 years, the patient had repeated hospital admissions for acute exacerbations, averaging 1-2 hospitalizations per year. In approximately 6 months before Day 0, PFT showed: FEV1/FVC 31.9%, FEV1 0.60 L (21% of predicted). Past history included coronary atherosclerotic heart disease, hyperlipidemia, and smoking history. The patient underwent bilateral lung transplantation on Day 0. Before surgery, qualified sputum specimens repeatedly cultured Aspergillus fumigatus; after approximately 3 months of oral voriconazole 200 mg q12h, repeat sputum fungal culture became negative, and antifungal therapy was discontinued before transplantation. Preoperative sputum culture indicated Mycobacterium avium, and ethambutol combined with clarithromycin was given until after the transplant surgery. Early postoperative recovery was relatively smooth. The patient was extubated on postoperative day 1 (Day +1) and was given high-flow nasal oxygen (35 L/min, FiO2 0.3). However, the patient intermittently complained of labored breathing and weak sputum expectoration; physical examination showed a diminished swallowing reflex, and diaphragmatic ultrasound suggested decreased bilateral diaphragmatic excursion. After mild activity, SpO2 (without oxygen) could decrease to 90-91%. Postoperatively, cefoperazone/sulbactam and vancomycin were given empirically for antibacterial treatment; ganciclovir and trimethoprim-sulfamethoxazole were given for CMV and PCP prophylaxis; caspofungin and nebulized amphotericin B were given for fungal infection prophylaxis. Antirejection medications were tacrolimus, mycophenolate sodium, and methylprednisolone. On postoperative day 46, the patient's ability to expectorate sputum spontaneously recovered, he could walk slowly, SpO2 (without oxygen) was 96-99%, and repeat PFT showed: FEV1/FVC 98.63%, FEV1 1.08 L (39.3% of predicted). He improved and was discharged. On postoperative day 67 (Day +67), the patient developed nocturnal dyspnea, requiring continuous noninvasive ventilatory support, accompanied by cough, expectoration of white sticky sputum that was thick and difficult to expectorate, and bilateral lower extremity edema.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Aspiration-related complications (aspiration pneumonia or post-aspiration atelectasis)",
+          "supporting_evidence": [
+            "On postoperative day 1, the patient had difficulty expectorating sputum.",
+            "Physical examination indicated a diminished swallowing reflex",
+            "After extubation, the patient immediately had \"labored breathing\" and a decrease in oxygen saturation after activity, which is consistent with one of the clinical manifestations of impaired gas exchange after aspiration."
+          ],
+          "opposing_evidence": [
+            "Postoperatively, empiric antibacterial therapy and high-flow oxygen therapy were administered, and the overall condition subsequently improved, and the patient was discharged."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Early postoperative pulmonary infection (predominantly bacterial; fungal/mycobacterial-related infection should also be considered)",
+          "supporting_evidence": [
+            "The patient is in the early postoperative period after bilateral lung transplantation, receiving tacrolimus, mycophenolate sodium, and methylprednisolone, with a marked immunosuppressed background.",
+            "Preoperatively, Aspergillus fumigatus was repeatedly cultured from qualified sputum specimens.",
+            "Preoperatively, \"sputum culture indicated Mycobacterium avium\"",
+            "Postoperatively, there were manifestations of \"labored breathing, weak expectoration\" and exertional hypoxemia; infectious complications require a high degree of vigilance."
+          ],
+          "opposing_evidence": [
+            "The first-stage text did not describe fever, elevated infection markers, or imaging findings suggestive of an infectious focus.",
+            "Postoperatively, cefoperazone/sulbactam, vancomycin, as well as caspofungin and aerosolized amphotericin B, have already been administered as prophylactic/empiric therapy",
+            "The patient was subsequently discharged with improvement."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute rejection after lung transplantation",
+          "supporting_evidence": [
+            "The patient is in the early period after bilateral lung transplantation, with labored breathing and exertional hypoxemia; acute rejection is an important differential diagnosis consideration in the early postoperative period.",
+            "Although tacrolimus, mycophenolate sodium, and methylprednisolone have been used, acute rejection still cannot be completely excluded"
+          ],
+          "opposing_evidence": [
+            "In the phase 1 information, there are local factors that better explain the symptoms, namely, \"decreased swallowing reflex; diaphragmatic ultrasound suggests decreased bilateral diaphragmatic excursion\"",
+            "On postoperative day 46, PFT showed \"FEV1/FVC 98.63%, FEV1 1.08 L (39.3% of predicted)\", oxygenation improved significantly, and the patient was discharged with clinical improvement; this does not support a persistent uncontrolled acute rejection process.",
+            "The stage 1 text did not provide fever, imaging findings, or pathological evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Postoperative airway complications (airway anastomotic problems, retained secretions, or bronchial obstruction)",
+          "supporting_evidence": [
+            "The patient had early postoperative \"labored breathing and weak sputum expectoration\".",
+            "Early post-transplant airway complications are among the serious complications that require vigilance.",
+            "A decrease in SpO2 after activity may be seen with uneven ventilation caused by impaired airway patency or retained secretions."
+          ],
+          "opposing_evidence": [
+            "The patient subsequently regained the ability to expectorate sputum independently, with improvement in oxygenation and pulmonary function, suggesting that even if an airway problem was present, there was no clear evidence of continued progression."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Diaphragm ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CD4+ T cells",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "FK506 concentration",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Low-dose chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial mucosal biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Morphology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic sequencing",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum GM",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Drug susceptibility testing",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC: WBC 3.16*10^9/L, NE 2.15*10^9/L, LY 0.78*10^9/L; CD4+ T cells 244 cells/µl; PCT 0.26 ng/ml; FK506 10.9 ng/ml; BNP 152.67 ng/ml. Low-dose chest CT showed new nodular opacities in the lower lobes of both lungs. Bronchoscopy showed large amounts of yellow purulent sputum in all lobar and segmental bronchi of both lungs, thick and stringy, more prominent on the right; a large amount of yellow-brown pseudomembrane was seen adherent at the right main anastomosis, and a large amount of yellow-white pseudomembrane was seen covering the openings of the right upper and bronchus intermedius, which could not be completely suctioned out; a small amount of yellow adherent material was seen at the left main anastomosis. In addition, the patient's white blood cell count and lymphocyte count were both decreased, and the FK506 level was elevated; therefore, mycophenolate sodium was discontinued, the tacrolimus dose was reduced, and specimens were repeatedly collected for pathogen testing while awaiting the results.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvjskM6jIkibTs3QUeuWSdcqNiciafONgKaibrzUGJemWPV7ibMlXg8VTib5hDYmFibiaiaZ5t9UHgz9S0Nsw/640?wx_fmt=jpeg",
+            "near_text": "Figure 1A1-3. Low-dose chest CT on Day +75: newly developed nodules and patchy opacities in both lower lungs",
+            "local_src": "cleaned_cases_image_cache/be829aea0d914c9cc38abdb1dd51fda5f1e4c988.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvjskM6jIkibTs3QUeuWSdcL93UCYqdOjuqH28icpd5WibHkGIpu4nVsYFrTDjiaxex7HAErgTicWErxQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 2A1-2: A large amount of yellow, viscous secretions and yellow-white pseudomembrane are visible covering the area, which cannot be completely suctioned.",
+            "local_src": "cleaned_cases_image_cache/00e10c5f895ea484c116620f90ecca8185810075.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Recurrent Aspergillus infection",
+            "evidence": [
+              "Large amount of yellow purulent sputum in all lobar segments of both lungs, with a thick, stringy consistency, more pronounced on the right",
+              "A large amount of yellow-brown pseudomembrane was adherent at the right main anastomotic site; a large amount of yellow-white pseudomembrane covered the openings of the right upper lobe and bronchus intermedius, and could not be completely suctioned off.",
+              "A small amount of yellow adherent material is visible at the left main anastomotic site"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Recurrent Aspergillus infection",
+        "evidence": [
+          "Large amount of yellow purulent sputum in all lobar segments of both lungs, with a thick, stringy consistency, more pronounced on the right",
+          "A large amount of yellow-brown pseudomembrane was adherent at the right main anastomotic site; a large amount of yellow-white pseudomembrane covered the openings of the right upper lobe and bronchus intermedius, and could not be completely suctioned off.",
+          "A small amount of yellow adherent material is visible at the left main anastomotic site"
+        ],
+        "exclusion_reasons": [
+          "None"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "BALF fungal culture",
+          "basis_in_stage3_input": "Multiple BALF fungal cultures and bronchial mucosal biopsy reported Scopulariopsis genus",
+          "why_order_this_exam": "The patient was status post bilateral lung transplantation and had been receiving long-term treatment with tacrolimus, mycophenolate sodium, and corticosteroids. On postoperative day 67, nocturnal dyspnea worsened, requiring continuous noninvasive ventilation, with expectoration of a large amount of thick sputum. Chest CT showed new nodules in the bilateral lower lobes. Bronchoscopy revealed a large amount of yellow purulent sputum and extensive pseudomembranes and necrotic debris adherent to the anastomosis and the lobar and segmental bronchial orifices, suggesting possible severe fungal infection of the airways and lungs. BALF fungal culture can directly obtain etiologic evidence from lesions in the lower respiratory tract and is used to confirm whether fungal infection is present, differentiate it from previously suspected Aspergillus or other molds, and improve the detection rate through repeated specimen submission; this is especially critical for complex post-transplant infections and for subsequent antifungal regimen planning.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial mucosal biopsy",
+          "basis_in_stage3_input": "Multiple BALF fungal cultures and bronchial mucosal biopsy reported Scopulariopsis genus",
+          "why_order_this_exam": "On bronchoscopy, the patient had not merely increased secretions; rather, there was extensive yellow-brown and yellow-white pseudomembranous material covering the right main anastomosis and the openings of the right upper lobe and bronchus intermedius, and it was difficult to remove, suggesting involvement of the airway mucosa by an invasive lesion. In an immunosuppressed host after lung transplantation, imaging and lavage fluid culture alone are insufficient to distinguish colonization, contamination, and true tissue invasion; bronchial mucosal biopsy can determine whether fungi have invaded the mucosa and necrotic tissue, help establish invasive bronchopulmonary fungal infection, exclude isolated anastomotic complications, noninfectious necrosis, or rejection-related lesions, and provide a histopathologic basis for definitive diagnosis and selection of treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Morphologic identification",
+          "basis_in_stage3_input": "Ultimately identified as M. gracilis by morphologic examination and gene sequencing",
+          "why_order_this_exam": "In this case, the early clinical and bronchoscopic findings could easily have led to an initial consideration of recurrent Aspergillus infection, but the final pathogen was not the common Aspergillus; rather, it was a fungus of the genus Scopulariopsis. Because uncommon molds are not rare in severe post-transplant airway infections, culture alone showing mold growth is insufficient for accurate species-level identification and cannot meet the needs of treatment decision-making. Morphologic identification can provide professional identification of the isolate on the basis of colony characteristics and microscopic structures, helping distinguish it from other filamentous fungi such as Aspergillus, thereby explaining why GM was negative despite the presence of invasive fungal infection, and providing a prerequisite for subsequent interpretation of antifungal susceptibility results and selection of antifungal agents.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic sequencing",
+          "basis_in_stage3_input": "Ultimately identified as M. gracilis by morphologic examination and gene sequencing",
+          "why_order_this_exam": "The patient's condition was severe and progressed rapidly, with new nodules, airway pseudomembranes, and necrotic material present, and the routine clinical impression was not entirely consistent with common Aspergillus infection; meanwhile, Scopulariopsis is a rare pathogen, and relying on morphology alone may still carry a risk of misclassification. Gene sequencing can provide higher-precision species-level identification of fungi and ultimately confirmed M. gracilis, which is particularly important for the definitive diagnosis of rare fungi. Only after the specific pathogen is identified can a more appropriate combination antifungal regimen be selected based on its known drug susceptibility characteristics, thereby avoiding inadequate efficacy from empiric treatment based on Aspergillus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM",
+          "basis_in_stage3_input": "However, the patient's BALF and serum GM were both negative.",
+          "why_order_this_exam": "Before surgery, the patient had multiple sputum cultures positive for Aspergillus fumigatus. Currently, there is also an immunosuppressed background, newly developed pulmonary nodules on CT, and bronchoscopy showed a large amount of pseudomembrane and purulent secretions; therefore, the first clinical priority is to assess whether this is invasive Aspergillus infection. BALF GM is a commonly used adjunctive marker for fungal infection of the lower respiratory tract in transplant recipients, helping to improve recognition of localized Aspergillus-related infection and providing corroborative evidence with culture and biopsy results. Although BALF GM was ultimately negative in this case, this result דווקא indicates that fungal infection cannot be excluded on the basis of a negative GM, prompting further investigation for uncommon mold pathogens other than Aspergillus, which is of important significance for improving the differential diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum GM",
+          "basis_in_stage3_input": "However, the patient's BALF and serum GM were both negative.",
+          "why_order_this_exam": "In a severely immunosuppressed host after lung transplantation, when progressive dyspnea, new pulmonary nodules, and airway pseudomembranes develop, it is necessary to assess whether there is more extensive invasive fungal infection and a risk of hematogenous dissemination. Serum GM, as a serologic screening method, can help assess at the systemic level the possibility of invasive fungal infection such as Aspergillus, and together with BALF GM improve diagnostic completeness. Although the serum GM was negative in this case, this result helps indicate that the patient did not have the typical GM-positive Aspergillus infection pattern, supporting continued reliance on local sampling, histopathology, and molecular identification to clarify the rare pathogen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "Blood culture negative",
+          "why_order_this_exam": "At that time, the patient's dyspnea worsened and continuous noninvasive ventilatory support was required. Bronchoscopy showed a large amount of yellow purulent sputum and extensive necrotic debris adherent to the airways, consistent with severe infection; meanwhile, the white blood cell count and lymphocyte count decreased, and FK506 was elevated, suggesting relatively severe immunosuppression and a risk of concurrent bloodstream infection. The purpose of blood culture was to evaluate for hematogenous dissemination of bacteria or fungi, assess whether the infection had extended beyond the local airways and lungs, and provide a basis for determining anti-infective spectrum coverage and disease severity. Although the result was negative, the negative result helps support that the infection was mainly confined to the bronchopulmonary region, rather than confirmed bloodstream infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Drug susceptibility testing",
+          "basis_in_stage3_input": "The antimicrobial susceptibility test results were expressed as MIC values: fluconazole 128 mg/L, amphotericin B and caspofungin both 4 mg/L, and voriconazole 2 mg/L; posaconazole and micafungin had lower MIC values, at 1-2 mg/L and 0.25 mg/L, respectively.",
+          "why_order_this_exam": "This case was ultimately confirmed as a rare M. gracilis infection. The patient was also an immunosuppressed host after lung transplantation, and the sites of infection involved the bronchial anastomosis and lung parenchyma. The clinical severity was high; if conventional empiric Aspergillus treatment had been routinely continued, the efficacy might have been inadequate. Antifungal susceptibility testing can assess the in vitro activity of different antifungal agents by MIC values, addressing the key clinical questions of 'which drug to choose, whether combination therapy is needed, and which drugs may be ineffective.' In this case, the results showed marked differences in susceptibility to different drugs, directly affecting the subsequent treatment strategy of selecting posaconazole, micafungin, and combining terbinafine, which played a निर्णisive role in improving efficacy and avoiding ineffective or low-efficacy medication use.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeated BALF fungal cultures and bronchial mucosal biopsy yielded Scopulariopsis, which was ultimately identified as M. gracilis by morphology and gene sequencing. However, both BALF GM and blood GM were negative, and blood culture was negative. Antifungal susceptibility testing results were expressed as MIC values: fluconazole, 128mg/L; amphotericin B and caspofungin, both 4mg/L; voriconazole, 2mg/L; posaconazole and micafungin had lower MIC values, at 1-2mg/L and 0.25mg/L, respectively.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIvjskM6jIkibTs3QUeuWSdcvF4v3ATOm3IFyzkZSMlBFxichZ5wvTqkrlLBVlmPSibgdic29yA29GCmw/640?wx_fmt=png",
+          "near_text": "Figure 3. Morphology of M. gracilis under light microscopy (3A. 400× magnification, 3B. 1000× magnification)",
+          "local_src": "cleaned_cases_image_cache/28308ba14894e243b1c14365845b873aa44f8330.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvjskM6jIkibTs3QUeuWSdcKA6LXzj8s8JNopVcw8bZCib9roBn5uKXY8LWBvspHuwhPeZhyy0SCVQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 1B1-3. Follow-up low-dose chest CT on Day +179: the nodules and patchy opacities in both lower lungs were basically absorbed.",
+          "local_src": "cleaned_cases_image_cache/fda2005454a4da598c16bb1b6063b4b44a67d082.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvjskM6jIkibTs3QUeuWSdcCp9WGiaM4UVPLaLCDibkn3GQhRkrHnF9CrBgYvNSEspVk7P1IK6DjCaQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 2B1-2. Follow-up bronchoscopy on Day +179: mildly hyperemic mucosa, a small amount of secretions, and the previously seen yellow-white pseudomembrane had disappeared.",
+          "local_src": "cleaned_cases_image_cache/41a418e06fe628df0c5507a8fcc271acdaa506d7.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Proven invasive bronchopulmonary Scopulariopsis infection, status post bilateral lung transplantation, coronary atherosclerotic heart disease, hyperlipidemia",
+      "diagnostic_basis": [
+        "The patient has exertional dyspnea, a marked increase in sputum volume, and bronchoscopic findings of pseudomembrane formation on the airway mucosa and a large amount of necrotic material.",
+        "Repeated microbiologic testing suggested M. gracilis",
+        "According to the 2011 International Society for Heart and Lung Transplantation (ISHLT) consensus"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Triple anti-Scopulariopsis therapy was administered with terbinafine 250mg qd, micafungin 150mg qd, and posaconazole 400mg q12h",
+        "BALF microbiology indicated the concurrent presence of Enterobacter cloacae and Serratia marcescens; imipenem/cilastatin was added.",
+        "Intermittent bronchoscopic suctioning was performed to enhance sputum drainage, along with forceps removal of necrotic material."
+      ],
+      "treatment_response": [
+        "On Day +113, that is, 24 days after antifungal treatment, the patient's dyspnea, bronchoscopic findings, and CT gradually improved, and repeat testing showed the CD4+ T-cell count had increased to 401/μl.",
+        "On Day +138, after 49 days of antifungal therapy, micafungin was discontinued.",
+        "Repeat CT and bronchoscopy on Day +179 were basically normal",
+        "Subsequent repeated BALF pathogen testing showed no evidence of Scopulariopsis.",
+        "The patient discontinued terbinafine and posaconazole on Day +185, for a total of 118 days.",
+        "The patient is currently nearly 4 years postoperative and is undergoing regular follow-up."
+      ]
+    }
+  }
+}

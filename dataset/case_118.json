@@ -1,0 +1,339 @@
+{
+  "status": "success",
+  "case_id": "case_118",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 48-year-old female patient was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day +10, with the chief complaint of \"recurrent cough and sputum production for more than 3 months, diagnosed with combined small cell carcinoma for more than 6 months.\" In approximately 9 months before Day 0, the patient developed cough and sputum production without an obvious trigger, with white sticky sputum, occasional hemoptysis and intermittent blood-streaked sputum, dark red in color and small in amount, as well as paroxysmal needle-like pain in the left lower extremity. At an outside hospital, she underwent ultrasound-guided lung needle biopsy, and pathology suggested \"lung adenocarcinoma.\" Tissue genetic testing indicated an EGFR exon 21 L858R missense mutation. On Day -184, the patient presented to our hospital, where blood NGS showed an EGFR exon 21 L858R missense mutation; concurrent RB1, TP53, and PIK3CA mutations; and CCNE1 gene copy number amplification. Contrast-enhanced CT of the chest and abdomen indicated \"lung cancer in the apical segment of the right upper lobe (size 5.7*3.5cm), involving the adjacent pleura and internal intercostal muscle, with diffuse metastases in both lungs. Metastases to both hila and mediastinal lymph nodes, and metastasis to the left ilium.\" Brain MRI indicated \"2 metastases in the right parietal lobe, the larger measuring 5mm in diameter.\" Pathology slides from the outside hospital were reviewed at our hospital, and the tissue changes were consistent with combined small cell lung carcinoma (small cell carcinoma + adenocarcinoma). On Day -183, oral \"erlotinib\" was started, along with 2 cycles of first-line EC regimen chemotherapy. Repeat contrast-enhanced CT on Day -123 of the same year showed enlargement of the lesions compared with before; repeat brain MR on the same day showed that the 2 right parietal lobe metastases had decreased in size compared with before. On Day -122, the patient underwent a second ultrasound-guided lung needle biopsy, and pathology suggested that the tissue changes were consistent with small cell lung carcinoma. Tissue 520-panel NGS indicated an EGFR exon 21 L858R missense mutation; concurrent PIK3CA and TP53 mutations; and CCNE1 and VEGFA gene copy number amplification. On Day -121, she received second-line cycle 1 chemotherapy with irinotecan + carboplatin, while continuing \"erlotinib\" treatment. On Day -85, repeat chest radiograph showed enlargement of the right upper lung lesion and an increased number of multiple metastatic lesions in both lungs compared with before. Radiotherapy was given. During radiotherapy, the patient developed symptoms including high fever. On Day 0, the patient was hospitalized at an outside hospital for \"pulmonary infection\" and was discharged after improvement. Since the onset of this illness, the patient has continued to have cough, sputum production, and wheezing. She had no prior history of hypertension or diabetes, and no history of smoking or alcohol use. Physical examination: temperature 36.3℃, coarse breath sounds in both lungs, with dry and wet rales audible in both lower lungs. Laboratory tests: white blood cells 2.49*10^9/L↓, hemoglobin 93g/L↓, high-sensitivity CRP: 5.88mg/L↑, D-dimer: 3006ng/ml↑, six lung tumor markers: NSE 24.6ng/ml↑, CEA 73.9ng/ml↑, CA125 77.8U/ml↑, CA153 32.1U/ml↑. On Day +10, contrast-enhanced chest CT showed that the original right upper lung mass lesion was not clearly visualized. There was newly developed massive right pleural effusion, and multiple new metastatic tumors in the right lung and right pleura, the largest measuring 7.0*4.3cm. On the same day, contrast-enhanced brain MR showed that one original right parietal lobe metastasis was essentially unchanged, while the other right parietal lobe metastasis was not visualized.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxReL9r99Uk72v0T5ia7s1JCFZvHYI9xS1ibFW6pS7BofuibqzKth1CEYcZw/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (left: lung window; right: mediastinal window).",
+          "local_src": "cleaned_cases_image_cache/ca3a5609fafa4d30afea9193ff56082a13c00ee4.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRXrSrflGvNJVgCs3ibmLlGjCetYKCeZ40jWqCnic3HUEhWdlxIo6kG06A/640?wx_fmt=png",
+          "near_text": "Figure 2: Cranial MR",
+          "local_src": "cleaned_cases_image_cache/f6a159bd38beea1893d0863384f75c82c48b83d8.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Progression of lung cancer with right pleural metastasis and malignant pleural effusion",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT on Day +10 showed: newly developed large right pleural effusion; newly developed multiple metastatic tumors in the right lung and right pleura, the largest measuring 7.0*4.3 cm",
+            "Prior contrast-enhanced CT of the chest and abdomen showed lung cancer in the apical segment of the right upper lobe with diffuse bilateral pulmonary metastases, bilateral hilar and mediastinal lymph node metastases, and left iliac bone metastasis; brain MRI showed a metastatic lesion in the right parietal lobe, indicating a high baseline tumor burden with widespread metastases.",
+            "On Day -123, follow-up contrast-enhanced CT showed that the lesion had enlarged compared with before. On Day -85, chest X-ray showed enlargement of the right upper lung lesion and an increase in the number of multiple metastatic lesions in both lungs compared with before, indicating that a trend of systemic progression had already been present previously.",
+            "This time, there is still cough, sputum production, and wheezing; pleural effusion and pleural involvement can explain the respiratory symptoms.",
+            "The chest CT shown demonstrates a large right pleural effusion and abnormal lesions in the pleura/lung."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary infection (including tumor-related or post-obstructive infection)",
+          "supporting_evidence": [
+            "The patient has had recurrent cough and sputum production for more than 3 months; since the onset of this episode, cough, sputum production, and wheezing have persisted.",
+            "On Day 0, the patient was hospitalized at another hospital for treatment of a \"pulmonary infection\" and was discharged after improvement, indicating that there was indeed a recent infectious event.",
+            "Physical examination: coarse breath sounds in both lungs; dry and moist rales audible in both lower lungs, supporting possible respiratory tract/pulmonary parenchymal infection",
+            "Laboratory testing: hs-CRP 5.88 mg/L ↑, indicating the presence of an inflammatory response",
+            "During prior radiotherapy, symptoms such as high fever occurred; there is a high risk of secondary infection on the basis of tumor progression.",
+            "On the chest CT shown in the image, in addition to pleural effusion, consolidation/atelectatic changes are seen in the right lung; both infection and post-obstructive changes can present with similar imaging findings."
+          ],
+          "opposing_evidence": [
+            "Body temperature 36.3℃, no fever at this admission",
+            "WBC 2.49*10^9/L↓, no typical leukocytosis suggestive of bacterial infection, but this may be affected by the tumor or treatment"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Obstructive atelectasis / tumor-related consolidation caused by rapid progression of intrapulmonary and pleural metastatic tumors",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT showed multiple new metastatic lesions in the right lung and right pleura, suggesting a marked increase in intrathoracic tumor burden",
+            "The original mass lesion in the right upper lung is not clearly visualized, but new lesions in the right lung and pleura, as well as a large pleural effusion, have appeared, suggesting changes in the morphology and distribution of the lesions.",
+            "The patient has persistent cough, sputum production, and wheezing; tumor obstruction of the airway or compression of the lung tissue can cause the above symptoms.",
+            "As shown on the chest CT image, a large dense opacity and signs of volume loss are seen in the right side, consistent with the imaging possibility of atelectasis or tumor-related consolidation."
+          ],
+          "opposing_evidence": [
+            "No bronchoscopy or direct evidence of definite airway obstruction was provided in the first-stage information."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Acute pulmonary embolism or tumor-associated venous thromboembolism",
+          "supporting_evidence": [
+            "D-dimer 3006 ng/ml↑, markedly elevated",
+            "The patient has advanced lung cancer with multiple metastases, and the malignant tumor itself is a hypercoagulable state.",
+            "The medical history mentions paroxysmal pinprick-like pain in the left lower extremity. Although nonspecific, lower extremity venous thrombosis should be considered.",
+            "The patient has wheezing; pulmonary embolism may present as dyspnea/wheezing."
+          ],
+          "opposing_evidence": [
+            "The phase I contrast-enhanced chest CT description did not indicate a definite pulmonary artery filling defect.",
+            "In the first stage, no typical sudden chest pain, significant hypoxemia, or hemodynamic instability was reported."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Radiation-induced lung injury/radiation pneumonitis",
+          "supporting_evidence": [
+            "Radiotherapy was performed on Day -85 due to progression of the chest lesion; from after radiotherapy to the time of this admission, there was a possible window for the development of radiation-induced lung injury.",
+            "During radiotherapy, the patient developed high fever and other symptoms, followed by persistent cough, sputum production, and wheezing, which may be manifestations of radiation pneumonitis.",
+            "Physical examination: dry and moist rales were audible in both lower lungs"
+          ],
+          "opposing_evidence": [
+            "Contrast-enhanced chest CT mainly showed newly developed massive right pleural effusion and multiple new metastatic tumors in the right lung and right pleura, favoring tumor progression rather than simple radiation-induced lung injury",
+            "The phase I information did not provide a description indicating that the distribution of imaging lesions was consistent with the radiation field."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Lymphangitic carcinomatosis",
+          "supporting_evidence": [
+            "Prior contrast-enhanced CT of the chest and abdomen showed diffuse metastases in both lungs, suggesting that the tumor may have disseminated extensively within the lungs.",
+            "The patient has persistent cough and wheezing; pulmonary lymphangitic carcinomatosis can cause progressive respiratory symptoms.",
+            "Chest CT images show relatively diffuse interstitial/reticulonodular abnormal opacities in the left lung; in the context of advanced lung cancer, carcinomatous lymphangitic spread should be considered."
+          ],
+          "opposing_evidence": [
+            "The focus of the CT narrative description is newly developed right pleural effusion and multiple metastatic lesions in the right lung and right pleura; it does not explicitly describe typical signs of pulmonary lymphangitic carcinomatosis such as interlobular septal thickening or diffuse peribronchovascular infiltration.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Percutaneous lung biopsy + pathologic examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemical testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tissue genetic testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood NGS genetic testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the chest and abdomen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI + contrast-enhanced MR",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity CRP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Six lung tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + fecal occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor organoid culture + drug sensitivity testing",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "First, we reviewed the patient’s clinical characteristics: the diagnosis was clearly stage IVB combined small cell carcinoma of the right upper lung, with an EGFR exon 21 L858R missense mutation. The progressive component of the disease was small cell lung cancer, and the diagnosis was confirmed by repeat biopsy. According to the guidelines, the patient received etoposide + platinum and irinotecan + platinum chemotherapy, with suboptimal efficacy. We performed the following analysis: First, the patient was female. At initial diagnosis, the chest CT imaging findings were consistent with the typical presentation of lung adenocarcinoma with bilateral lung metastases. The primary lesion was the right upper lung lesion, which can explain why the main component in the outside-hospital right upper lung needle biopsy specimen was lung adenocarcinoma and why targeted therapy was effective. Second, most small cell lung cancers are associated with a smoking history, but this patient had no smoking history. Moreover, typical small cell lung cancer is central in location on imaging. At initial diagnosis, the pathologic diagnosis showed a small amount of small cell lung cancer component in the needle biopsy specimen, which was not entirely consistent with the presentation of primary small cell lung cancer. In addition, peripheral blood NGS showed an RB1 gene mutation associated with small cell lung cancer, raising the question of whether small cell transformation of adenocarcinoma was already present at that time. Third, the repeat tissue biopsy on Day -122 was small cell lung cancer. The NGS results were basically the same as those of the peripheral blood at initial diagnosis, except for the absence of RB1, and still showed the EGFR exon 21 L858R missense mutation and other co-mutations, all of which are common genes in non-small cell lung cancer. At the molecular level, this may explain that the small cell component in this patient was transformed from the non-small cell component. The patient’s hematologic marker NSE was never elevated.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRpsPUt3Lau6Plf3LFY24gRXbDFEfpvD2xZDon1NZNAOFnN9QafbVMYw/640?wx_fmt=png",
+            "near_text": "Figure 3: Consultation on a total of 14 slides, case No. 82753: The histologic changes are consistent with combined small cell carcinoma of the lung (small cell carcinoma + adenocarcinoma).",
+            "local_src": "cleaned_cases_image_cache/16f258c1ff0ff4ea40ac399551de58419c949faa.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRiat8XibPIMUxlJMDkYqYCB4qoL5vpPrkLdkBKymcgRBLauTnSmdHFgYw/640?wx_fmt=png",
+            "near_text": "Figure 4: The left image is the initial CT on Day -183; the right image is the CT on Day -150 after 1 month of oral erlotinib.",
+            "local_src": "cleaned_cases_image_cache/25ac4cd5974e6d78d07a3eec9d94932c4cf689ff.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRwRJib7ZaDmK1MkzRBmPMmd7DVJ4jkaddibicPzpjibPJOvNM7mOjMyWCag/640?wx_fmt=png",
+            "near_text": "Figure 5: Serum tumor marker NSE is not elevated",
+            "local_src": "cleaned_cases_image_cache/d22007bff6eb35e13009b92647263e630f0074c3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Small cell transformation of non-small cell lung cancer",
+            "evidence": [
+              "The patient is female, with no smoking history",
+              "At the initial visit, chest CT imaging showed findings typical of pulmonary adenocarcinoma with bilateral lung metastases",
+              "NGS of peripheral blood detected an RB1 gene mutation associated with small cell lung cancer",
+              "The second tissue biopsy showed small cell lung cancer. The NGS results were essentially the same as those of the peripheral blood at the initial diagnosis, still indicating an EGFR exon 21 L858R missense mutation and other co-mutated genes, all of which are common genes in non-small cell lung cancer.",
+              "Serum tumor marker NSE has consistently not been elevated"
+            ],
+            "exclusion_reasons": [
+              "Typical imaging of small cell lung cancer is central type; on the initial pathological diagnosis of this patient, a small amount of small cell lung cancer component was seen in the biopsy specimen, which was not very consistent with the presentation of primary small cell lung cancer."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Small cell transformation of non-small cell lung cancer",
+        "evidence": [
+          "The patient is female, with no smoking history",
+          "At the initial visit, chest CT imaging showed findings typical of pulmonary adenocarcinoma with bilateral lung metastases",
+          "NGS of peripheral blood detected an RB1 gene mutation associated with small cell lung cancer",
+          "The second tissue biopsy showed small cell lung cancer. The NGS results were essentially the same as those of the peripheral blood at the initial diagnosis, still indicating an EGFR exon 21 L858R missense mutation and other co-mutated genes, all of which are common genes in non-small cell lung cancer.",
+          "Serum tumor marker NSE has consistently not been elevated"
+        ],
+        "exclusion_reasons": [
+          "Typical imaging of small cell lung cancer is central type; on the initial pathological diagnosis of this patient, a small amount of small cell lung cancer component was seen in the biopsy specimen, which was not very consistent with the presentation of primary small cell lung cancer."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Second tissue biopsy by ultrasound-guided lung puncture",
+          "basis_in_stage3_input": "On Day -122, while performing a second tissue biopsy by ultrasound-guided lung puncture in the patient",
+          "why_order_this_exam": "The patient is a 48-year-old woman. Initial lung needle biopsy pathology at an outside hospital indicated lung adenocarcinoma with an EGFR exon 21 L858R mutation. Subsequent pathology consultation at our hospital indicated combined small cell carcinoma of the lung (small cell carcinoma + adenocarcinoma). After treatment with erlotinib combined with EC chemotherapy, contrast-enhanced chest CT on Day -123 still showed enlargement of the lesion compared with before, suggesting a poor response of the intrathoracic disease to prior treatment, whereas the intracranial metastatic lesions had decreased in size. This indicated inconsistent biological behavior among different lesions, and histologic evolution or small cell transformation should be suspected. At this time, a repeat US-guided lung needle biopsy was performed, with the aim of re-obtaining tissue from the progressive lesion to directly determine the current pathologic type of the dominant progressing lesion and to distinguish persistent adenocarcinoma component, combined tumor, or transformed small cell carcinoma, thereby addressing the key clinical question of why targeted therapy and prior chemotherapy had shown suboptimal efficacy in the setting of an EGFR mutation. This procedure is both the core basis for confirming small cell transformation of non-small cell lung cancer and provides the tissue basis for subsequent adjustment of the treatment regimen, selection of chemotherapy in the direction of small cell lung cancer, and further molecular testing and organoid culture. The use of US guidance helps improve sampling success under conditions in which the lesion is accessible while also taking procedural safety into account.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung cancer organoid culture",
+          "basis_in_stage3_input": "Tumor tissue was obtained from the patient for lung cancer organoid culture and drug sensitivity testing.",
+          "why_order_this_exam": "The patient already had stage IVB combined small cell carcinoma of the right upper lung, with metastases to both lungs, mediastinal lymph nodes, bone, and brain. Despite sequential treatment in the setting of an EGFR mutation with erlotinib, first-line EC regimen, and subsequent second-line irinotecan + carboplatin, the thoracic lesions continued to progress, indicating marked tumor heterogeneity and limited efficacy of conventional empiric regimens. A repeat biopsy had already shown histologic evolution toward small cell carcinoma, while prior molecular testing still retained EGFR L858R and multiple co-mutations, indicating that this tumor had both a complex molecular background and transformation features; therefore, conventional pathology and genetic results alone still could not accurately predict the optimal subsequent therapy. The purpose of performing lung cancer organoid culture was to use the patient's own tumor tissue to establish an in vitro model that more closely reflects in vivo biological characteristics, evaluate the tumor's true drug response after progression, and further address how to individualize drug selection after failure of multiple lines of therapy. This test can integrate pathologic classification, molecular features, and functional drug sensitivity to provide supplementary evidence for subsequent treatment decisions, and is especially helpful for identifying a regimen more likely to be effective among multiple chemotherapy options; subsequent clinical course also showed that the team selected docetaxel with reference to the organoid results and achieved PR, indicating that this test has direct clinical value for optimizing the treatment regimen.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Drug susceptibility testing",
+          "basis_in_stage3_input": "Tumor tissue was obtained from the patient for lung cancer organoid culture and drug sensitivity testing.",
+          "why_order_this_exam": "This patient demonstrated marked treatment resistance during the disease course: although an EGFR mutation was initially present and erlotinib was used, the chest lesions still progressed; after EC chemotherapy, follow-up CT showed enlargement of the lesions; subsequent repeat biopsy confirmed predominance of a small cell carcinoma component, suggesting that the tumor had undergone biological transformation and might have developed resistance to prior medications. The patient also had extensive metastases and a high tumor burden; later, a large right pleural effusion and multiple new metastatic lesions in the right lung and pleura appeared, with rapid disease progression and limited room for trial-and-error, so it was necessary to improve the accuracy of drug selection as much as possible before moving to the next line of therapy. The core clinical goal of drug sensitivity testing is to compare the tumor-inhibitory effects of different drugs based on the patient's own tumor tissue, identify drugs more likely to be effective, and reduce the time loss and risk of toxic side effects caused by blindly switching regimens. In this case, this test helped formulate a more individualized subsequent treatment strategy in the complex setting of combined small cell lung carcinoma, persistent EGFR mutation, and poor efficacy of multiple prior regimens; its results directly informed treatment selection, and docetaxel was ultimately chosen based on the drug sensitivity results and achieved radiographic remission, indicating that this test played a key role in establishing an effective third-line regimen.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day -122, while performing a second tissue biopsy via ultrasound-guided lung puncture, we collected the patient's tumor tissue for lung cancer organoid culture and drug sensitivity testing. Based on the lung cancer organoid drug sensitivity results, the team selected the most sensitive drug, docetaxel.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRE3IMkaZpYmcFYc9yvECBbxaAEV0OmbKjUloWkhEOOIRlXWZabSaIDQ/640?wx_fmt=png",
+          "near_text": "Figure 6-1: Left image: test tube containing tumor tissue; right image: cells on day 6 of culture",
+          "local_src": "cleaned_cases_image_cache/566d7a36c0da731eb0cdb157e4b63e3ca0c34afd.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRCuQcKdFfv8Q3r3yYqhlGcNibGCuY8mjfZBQeeqtNiciavYdhFXgHXhxFA/640?wx_fmt=png",
+          "near_text": "Figure 6-2: Successfully cultured lung cancer organoids",
+          "local_src": "cleaned_cases_image_cache/9ce8cf6febba5228087360c00d383e835df9c823.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRNybxujibyG9icQg00fZk11s62CQXfDicmvkQRFb1pInC2yjDboj2DVVbQ/640?wx_fmt=png",
+          "near_text": "Figure 7: The number of organoids is sufficient only for screening 2 drugs",
+          "local_src": "cleaned_cases_image_cache/ea53ecb125f90155a52b0193095684cddd94fbd7.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxRGVW9HVOTog5K1WbuicaZiaOiaDp356VXej5Dg2ibcMW71jdt4vBgHj2Q1A/640?wx_fmt=png",
+          "near_text": "Figure 8: the left image is before docetaxel treatment; the right image is PR after 1 cycle of docetaxel treatment",
+          "local_src": "cleaned_cases_image_cache/1743e9553327dd9b725493b2887a8b58630c18e0.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJGam9gic8pYIVAXWjpADTxR4lK3liceKtYJ2K8Kp9v3Gob1LL64tPLBPHhiaDcL3XD91d50GE1N2eVg/640?wx_fmt=png",
+          "near_text": "Figure 9: The image on the left is a chest CT before docetaxel treatment on Day +10; the image on the right is a CT on Day +103 showing interval decrease in size of multiple newly developed metastatic tumors in the right lung and right pleura compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/8c688a68eae6edc05ac94ca864c78719f0fa546d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Stage IVB combined small cell carcinoma of the right upper lung, EGFR exon 21 L858R missense mutation (small cell transformation of non-small cell lung cancer)",
+      "diagnostic_basis": [
+        "Pathology suggests tissue changes consistent with combined small cell carcinoma of the lung (small cell carcinoma + adenocarcinoma).",
+        "Repeat biopsy pathology indicated: tissue changes consistent with small cell lung cancer",
+        "Tissue and blood NGS indicated an EGFR exon 21 L858R missense mutation",
+        "Lung cancer organoid culture and drug sensitivity testing"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Third-line, cycle 1 treatment with docetaxel 100 mg d1 + carboplatin 200 mg, while taking the third-generation EGFR-targeted agent furmonertinib 80 mg orally, qd",
+        "Continue treatment for 4 cycles"
+      ],
+      "treatment_response": [
+        "After 1 cycle of third-line DC therapy, the metastatic tumor in the right middle lung decreased compared with before (7.0*4.3 cm→4.4*3.2 cm); treatment response evaluation: PR",
+        "Continued treatment for 4 cycles; response: PR; lesions markedly regressed; pleural effusion had basically completely resolved; third-line PFS 5 months"
+      ]
+    }
+  }
+}

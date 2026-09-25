@@ -1,0 +1,416 @@
+{
+  "status": "success",
+  "case_id": "case_115",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient is a 55-year-old man from Tongchuan, Shaanxi. He was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"cough, sputum production, and fever for 1 week, worsening with shortness of breath and dyspnea for 2 days.\" On Day -7, after getting chilled, the patient developed cough and sputum production, with a small amount of foamy sputum, no blood in the sputum, accompanied by rhinorrhea and fever, with a maximum temperature of 38.5℃. There was no obvious shortness of breath or chest tightness, and no chest pain or hemoptysis, so he did not pay attention to it. Two days before the first admission, his condition worsened, with shortness of breath, chest tightness, and dyspnea, so he presented to a local hospital, where chest CT showed diffuse patchy areas of increased hazy density in both lungs with air bronchograms, considered severe pneumonia. He was diagnosed with severe pneumonia and hospitalized for anti-infective treatment with imipenem/cilastatin; because the condition was considered critical, transfer to a higher-level hospital for treatment was recommended. After emergency transfer to our hospital, he was first given endotracheal intubation, ventilator-assisted ventilation, and anti-infective treatment with meropenem, and was admitted to our department with \"severe pneumonia, respiratory failure.\" After admission, pink foamy sputum was suctioned through the endotracheal tube. Since the onset of illness, the patient had poor general condition, poor spirits, poor sleep and appetite, and had urinary and fecal incontinence at the time of admission to the department. The patient was born and lives in his native place, with no history of exposure to dust, toxic substances, or radioactive materials, no history of contact with infectious diseases, and no history of contact with epidemic areas. He married at the appropriate age and had normal childbearing, with one daughter; his wife and daughter are healthy. Family history showed that his mother died of hypertension and his father is alive and well. The family denies a history of hereditary diseases, infectious diseases, or metabolic diseases, and there are no family members with similar disease. The patient was usually healthy. In 2020, he underwent extracorporeal lithotripsy for kidney stones. He denies a history of hypertension, coronary artery disease, or diabetes mellitus, and denies a history of hepatitis, pneumonia, pulmonary TB, malaria, dysentery, or other infectious diseases. He has smoked for 30 years, averaging 20 cigarettes/day, and occasionally drinks a small amount of alcohol. Physical examination: temperature 36.3℃, pulse 125 beats/min, respiratory rate 24 breaths/min, blood pressure 134/82 mmHg, SpO2 88% (mechanical ventilation, oxygen concentration 100%). Normal development. Moderate nutrition. Poor spirits. Alert. Passive position. No jaundice, rash, or petechiae of the skin or mucous membranes. Skin turgor slightly poor. No edema, no palmar erythema, spider angiomas, or subcutaneous nodules. No enlargement of superficial lymph nodes. Head without deformity. Pupils equal, round, and approximately 3 mm in diameter bilaterally, with brisk light reflexes; sclerae anicteric. Chest symmetric without deformity, with equal bilateral respiratory excursion; tactile fremitus decreased. No pleural friction fremitus. No tenderness of the chest wall or ribs, and no sternal percussion tenderness. Percussion of both lungs was resonant. The lung-liver border was at the 5th intercostal space on the right midclavicular line. Breath sounds were coarse in both lungs, with scattered dry and moist rales; no pleural friction rub was heard. No precordial bulge. Apical impulse was located at the 5th intercostal space, 1 cm medial to the left midclavicular line, without diffuse impulse. No precordial thrill was palpable. Cardiac relative dullness was not enlarged. Heart rate 125 beats/min, heart sounds strong, rhythm regular, and no murmur was heard in any valvular auscultation area. Abdomen flat and soft, without abdominal wall varices; no visible peristalsis or intestinal contour; no tenderness or rebound tenderness; no masses palpable. Liver and spleen were not palpable below the costal margins. Murphy sign negative. No shifting dullness on percussion. No percussion tenderness over the liver area. Bowel sounds 4/min. Anus and external genitalia were not examined. Spine and extremities without deformity, tenderness, or percussion pain. Joints without redness or swelling, with free range of motion. No edema of both lower extremities. Bilateral biceps and triceps tendon reflexes were present and normal; bilateral patellar and Achilles tendon reflexes were present and normal; bilateral Hoffmann sign, Babinski sign, and Kernig sign were all negative. On Day -1, chest CT performed at an outside hospital showed diffuse patchy areas of increased hazy density in both lungs with air bronchograms, considered severe pneumonia. The next day, chest radiograph showed bilateral pulmonary inflammation.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia (diffuse pneumonia of both lungs) with acute hypoxemic respiratory failure/impending ARDS",
+          "supporting_evidence": [
+            "Chief complaint: cough, sputum production, and fever for 1 week, worsening with shortness of breath and dyspnea for 2 days",
+            "On Day -7, after catching a cold, the patient developed cough and sputum production with a small amount of foamy sputum, accompanied by rhinorrhea and fever, with a maximum body temperature of 38.5°C",
+            "Outside hospital chest CT showed diffuse patchy ill-defined increased-density opacities in both lungs, with air bronchograms within them, considered severe pneumonia",
+            "Chest radiograph on the following day showed: bilateral pulmonary inflammation",
+            "After transfer to our hospital from the emergency department, the patient was first given endotracheal intubation and ventilator-assisted breathing, and was admitted to our department with the diagnosis of \"severe pneumonia with respiratory failure\".",
+            "SpO2 on admission was 88% (mechanical ventilation, oxygen concentration 100%), indicating severe hypoxemia",
+            "Breath sounds are coarse in both lungs, with scattered dry and moist rales audible."
+          ],
+          "opposing_evidence": [
+            "On admission, body temperature was 36.3℃, with no fever at that time.",
+            "Bilateral lung percussion was resonant; typical signs of pulmonary consolidation were not provided",
+            "After admission, pink frothy sputum was aspirated through the endotracheal tube, which is not entirely consistent with the typical sputum characteristics of simple infectious pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Acute respiratory distress syndrome (ARDS)",
+          "supporting_evidence": [
+            "Rapid worsening of the condition within a short period after disease onset, with shortness of breath, chest tightness, and dyspnea developing within 2 days",
+            "Chest CT at an outside hospital showed diffuse patchy ill-defined areas of increased density in both lungs, with diffuse bilateral lung involvement",
+            "At admission, SpO2 was 88% (mechanical ventilation, oxygen concentration 100%), indicating severe refractory hypoxemia.",
+            "After transfer from the emergency department to our hospital, the patient was first treated with endotracheal intubation and mechanical ventilatory support, indicating severe respiratory failure.",
+            "Scattered dry and moist rales are audible in both lungs, consistent with diffuse pulmonary parenchymal disease."
+          ],
+          "opposing_evidence": [
+            "The information from the first stage did not provide key parameters required for a definitive diagnosis of ARDS, such as arterial blood gas analysis, oxygenation index, or PEEP.",
+            "In the first stage, causes such as cardiogenic pulmonary edema that can lead to diffuse bilateral pulmonary opacities and hypoxemia were not clearly excluded."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute left heart failure/cardiogenic pulmonary edema",
+          "supporting_evidence": [
+            "After worsening of the condition, shortness of breath, chest tightness, and dyspnea developed.",
+            "After admission, pink frothy sputum was suctioned through the endotracheal tube, which is a warning sign of acute pulmonary edema.",
+            "Chest CT showed diffuse patchy ill-defined opacities with increased density in both lungs, which can be seen in pulmonary edema.",
+            "At admission, SpO2 was 88% (mechanical ventilation, oxygen concentration 100%), indicating severe acute respiratory dysfunction.",
+            "Heart rate 125 beats/min, with marked tachycardia"
+          ],
+          "opposing_evidence": [
+            "Denies a history of hypertension or coronary artery disease",
+            "No enlargement of the relative cardiac dullness over the precordium, regular heart rhythm, no murmur heard in any valvular auscultation area, and no definite signs of organic heart disease.",
+            "No edema in both lower extremities; no signs supporting heart failure such as jugular venous distention or orthopnea were provided",
+            "Before disease onset, there were infectious prodromal manifestations such as cold exposure, rhinorrhea, fever, cough, and sputum production, which more strongly supports pulmonary infection as the trigger."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Viral pneumonia (bilateral pneumonia caused by viral infection, including COVID-19 pneumonia)",
+          "supporting_evidence": [
+            "Onset after exposure to cold, with early rhinorrhea, fever, and cough, consistent with prodromal manifestations of viral upper/lower respiratory tract infection",
+            "Chest CT showed diffuse patchy ill-defined areas of increased attenuation in both lungs, which is one of the imaging manifestations seen in viral pneumonia.",
+            "Progression to severe hypoxemia and respiratory failure within a short period suggests the possibility of severe progression in some cases of viral pneumonia",
+            "Inflammation in both lungs manifested as bilateral diffuse involvement"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information clearly indicates no history of contact with infectious diseases and no history of contact with epidemic areas",
+            "Imaging was described as showing air bronchograms within the lesion; severe pneumonia was initially considered at the outside hospital, but no more specific virologic evidence was provided in the first stage.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Diffuse alveolar hemorrhage syndrome",
+          "supporting_evidence": [
+            "After admission, pink frothy sputum was aspirated through the endotracheal tube, suggesting possible intra-alveolar fluid or hemorrhagic components.",
+            "Chest CT showed diffuse patchy ill-defined opacities with increased attenuation in both lungs, which may be seen in alveolar hemorrhage",
+            "The patient rapidly developed severe hypoxemia and dyspnea, consistent with the clinical severity seen in diffuse alveolar involvement."
+          ],
+          "opposing_evidence": [
+            "At disease onset, there was no blood-streaked sputum and no hemoptysis.",
+            "No petechiae were present on the skin or mucous membranes of the entire body; no evidence of anemia, renal impairment, rash, or other findings suggestive of systemic vasculitis or hemorrhagic disease was provided.",
+            "In the first-stage information, infectious prodromal symptoms were more prominent, such as fever, rhinorrhea, cough, and sputum production"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Aspiration pneumonia / aspiration-related lung injury",
+          "supporting_evidence": [
+            "The patient was critically ill and had urinary and fecal incontinence on admission to the department, indicating poor overall condition and a background of aspiration risk.",
+            "Diffuse inflammatory opacities in both lungs and acute respiratory failure can be seen in lung injury after severe aspiration.",
+            "Scattered dry and moist rales are audible in both lungs, consistent with intrapulmonary inflammation or post-aspiration changes"
+          ],
+          "opposing_evidence": [
+            "No direct evidence was documented in the first stage of aspiration after vomiting, reflux, dysphagia, or impaired consciousness.",
+            "The onset was characterized mainly by fever, rhinorrhea, cough, and sputum production after catching a cold, which is more consistent with a primary respiratory tract infection.",
+            "Imaging did not describe typical aspiration features such as predominant lower lobe or dependent distribution."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count and inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungi (GM test, G test)",
+          "requirement": "required"
+        },
+        {
+          "exam": "virus",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis (interferon-gamma release assay)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Total IgE measurement",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatoid factor, anti-CCP, ASL, complement C4, autoimmune hepatitis, antiphospholipid antibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin and complement panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the liver, gallbladder, pancreas, spleen, and both kidneys",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, NGS (DNA+RNA)",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: routine indices [arterial blood gas analysis] are shown in the table below. Routine indices: [CBC and inflammatory markers]: Day 0: WBC 21.7*10^9/L↑, N% 93.5%↑, L% 3.8%↓, M% 2.5%↓, HGB 112 g/L↓, PLT 137*10^9/L, PCT 13.5 ng/mL↑. ESR 97 mm/hr↑. CRP 157.98 mg/ml↑. [Urinalysis, stool routine + OB] normal. [Biochemical indices] ALT 38 U/L, AST 51 U/L, ALB 25.0 g/L, BUN 8.91 mmol/L, CR 101 umol/L, UA 366.0 umol/L, NA 143.2 mmol/L, K 3.11 mmol/L. [Coagulation function] prothrombin time 13.00 sec↑, prothrombin activity (PTA) 74.5%↓, international normalized ratio 1.15↑, activated partial thromboplastin time (APTT) 32.7 sec, fibrinogen 5.630 g/L↑, thrombin time 17.8 sec, fibrin(ogen) degradation products 50.50 ug/ml↑, D-dimer quantitative 25.040 ug/mL. [Myocardial infarction markers] NT-proBNP 2830 pg/ml↑, CK-MB 4.24 ng/ml↑, troponin 0.12 ng/ml↑, myoglobin 398.4 ng/ml. Pathogen and tumor-related indices: [Infectious disease panel] hepatitis B serology, hepatitis C, HIV, TP (-). [Fungi] GM test, G test (-). [Viruses] cytomegalovirus antibody IgM (-), Toxoplasma antibody IgM (-), rubella virus antibody IgM (-), herpes simplex virus type II IgM (-). Epstein-Barr virus viral capsid antigen IgG weak positive (+), Epstein-Barr virus nuclear antigen IgG (EBNA IgG) weak positive. [Tuberculosis] interferon-gamma release assay (-). [Tumor markers] tumor markers (male): CEA 5.35 ng/ml, FRT 1372.00 ug/L, NSE 21.9 ng/ml, CA125 79.90 U/ml, cytokeratin 19 fragment (CYFRA21-1) 3.74 ng/ml. Immune-related indices: [ANCA] pANCA, cANCA, MPO, PR3 (-). [Total IgE] IgE 67.10 IU/ml. [Rheumatoid factor, anti-CCP, ASL, complement C4, autoimmune liver antibodies, antiphospholipid antibodies] (-). [ANA panel] ANA (-); anti-Sm antibody, anti-SS-A antibody, anti-Ro-52 antibody, anti-SS-B antibody, anti-Scl-70 antibody, and anti-JO-1 antibody all normal. [Immunoglobulin and complement panel] C3c 0.790 g/L, C1I 0.41 g/L. No other abnormalities noted. Color Doppler ultrasound: [Bilateral lower-extremity venous ultrasound] segmental blood flow in the deep veins of both lower extremities is patent. [Echocardiography] left atrial enlargement; Doppler echocardiography otherwise grossly normal; inferior vena cava approximately 19/15 mm. Collapse rate approximately 21%. [Liver, gallbladder, pancreas, spleen, and bilateral kidneys] fatty liver, liver cyst; no definite abnormality in the gallbladder, spleen, or bilateral kidneys.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFUapFChibDzNvfwsibMNmDLdbdsd1TLJK6W5ZNMXJOa5zVxs1L6TAxhIA/640?wx_fmt=png",
+            "near_text": "For other indicators, please refer to the third file for details:",
+            "local_src": "cleaned_cases_image_cache/5cda0a3144db4c1e9a34a322f365c103af966dbb.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFw7iaMmZHFhtoIzBUZTPIV4ibnytTeJ2L73jBqAe5bYkDfnSGZvMRibYtg/640?wx_fmt=png",
+            "near_text": "First, determine whether it is an infectious disease.",
+            "local_src": "cleaned_cases_image_cache/b56e764f7fd2a5dfb23853504cb7bdf2da65359e.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFia9J8VxXsLjoZRQeF85FYShZoTZ8BvNFrzUT1jqVF8qlTzib5kibgiaicLw/640?wx_fmt=png",
+            "near_text": "Bronchoscopy performed on Day +1",
+            "local_src": "cleaned_cases_image_cache/f775103ca2a96c6f93cf800149b4f8b7c9b5f7d8.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral infection",
+            "evidence": [
+              "The patient had an acute onset, with clinical manifestations including cough, sputum production, rhinorrhea, fever, and hypoxemia. Chest HRCT showed progressively worsening diffuse patchy high-density opacities in both lungs."
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as myalgia or sore throat; no lymphocytosis on the blood count; elevated neutrophil percentage, with no etiologic test evidence related to viral infection."
+            ]
+          },
+          {
+            "name": "interstitial lung disease",
+            "evidence": [
+              "The patient's clinical symptoms included cough, sputum production, fever, and acute dyspnea; the condition progressed rapidly. Lung HRCT showed diffuse patchy high-density opacities in both lungs; arterial blood gas analysis showed type I respiratory failure; CBC showed elevated WBC and neutrophils."
+            ],
+            "exclusion_reasons": [
+              "The patient is a middle-aged man with no prior history of immune system-related disease. ANA, ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease antibodies, and antiphospholipid antibodies were all negative. Pulmonary imaging showed diffuse patchy high-density opacities in both lungs, without prominent basilar involvement, subpleural abnormalities, or paratracheal nodules. There was no significant improvement in symptoms after glucocorticoid treatment at an outside hospital."
+            ]
+          },
+          {
+            "name": "bronchioloalveolar carcinoma",
+            "evidence": [
+              "The patient’s clinical symptoms included cough, sputum production, fever, and acute dyspnea; chest HRCT showed diffuse patchy high-density opacities in both lungs; pulmonary tumor markers were mildly elevated."
+            ],
+            "exclusion_reasons": [
+              "The patient had an acute onset, with no sputum and no confirmatory basis from bronchial lavage fluid cytology or lung biopsy."
+            ]
+          },
+          {
+            "name": "Pulmonary veno-occlusive disease (PVOD)",
+            "evidence": [
+              "The patient has progressively worsening dyspnea and type I respiratory failure; quantitative D-dimer 25.040 ug/mL. Lung HRCT showed diffuse ground-glass opacities in both lungs."
+            ],
+            "exclusion_reasons": [
+              "The patient had no pulmonary hypertension; lung HRCT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes; there was a lack of pathological diagnostic evidence."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral infection",
+        "evidence": [
+          "The patient had an acute onset, with clinical manifestations including cough, sputum production, rhinorrhea, fever, and hypoxemia. Chest HRCT showed progressively worsening diffuse patchy high-density opacities in both lungs."
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as myalgia or sore throat; no lymphocytosis on the blood count; elevated neutrophil percentage, with no etiologic test evidence related to viral infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "interstitial lung disease",
+        "evidence": [
+          "The patient's clinical symptoms included cough, sputum production, fever, and acute dyspnea; the condition progressed rapidly. Lung HRCT showed diffuse patchy high-density opacities in both lungs; arterial blood gas analysis showed type I respiratory failure; CBC showed elevated WBC and neutrophils."
+        ],
+        "exclusion_reasons": [
+          "The patient is a middle-aged man with no prior history of immune system-related disease. ANA, ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease antibodies, and antiphospholipid antibodies were all negative. Pulmonary imaging showed diffuse patchy high-density opacities in both lungs, without prominent basilar involvement, subpleural abnormalities, or paratracheal nodules. There was no significant improvement in symptoms after glucocorticoid treatment at an outside hospital."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "bronchioloalveolar carcinoma",
+        "evidence": [
+          "The patient’s clinical symptoms included cough, sputum production, fever, and acute dyspnea; chest HRCT showed diffuse patchy high-density opacities in both lungs; pulmonary tumor markers were mildly elevated."
+        ],
+        "exclusion_reasons": [
+          "The patient had an acute onset, with no sputum and no confirmatory basis from bronchial lavage fluid cytology or lung biopsy."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary veno-occlusive disease (PVOD)",
+        "evidence": [
+          "The patient has progressively worsening dyspnea and type I respiratory failure; quantitative D-dimer 25.040 ug/mL. Lung HRCT showed diffuse ground-glass opacities in both lungs."
+        ],
+        "exclusion_reasons": [
+          "The patient had no pulmonary hypertension; lung HRCT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes; there was a lack of pathological diagnostic evidence."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Atypical pathogen infection",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was performed on Day +1; no abnormalities were seen under the bronchoscope.",
+          "why_order_this_exam": "The patient has an acute-onset severe bilateral diffuse lung disease that rapidly progressed to severe hypoxemic respiratory failure, now requiring endotracheal intubation and mechanical ventilation; pink frothy sputum was suctioned after intubation, suggesting severe and complex pathology. Prior imaging showed only bilateral diffuse patchy increased-density opacities and could not distinguish among severe infection, alveolar hemorrhage, neoplastic lesions, or other diffuse lung diseases. Bronchoscopy can directly assess whether there are secretions, bleeding, obstruction, or an occupying lesion in the airways, and obtain lower respiratory tract specimens for subsequent pathogen testing and cytologic examination. Even if no abnormalities are seen on bronchoscopy, it can still help exclude obvious endobronchial lesions, support that the lesions are primarily at the alveolar/interstitial level, and provide a basis for subsequent lavage sampling and treatment decision-making.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Gram stain",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "The patient has fever, cough with sputum production, diffuse inflammatory opacities in both lungs, markedly elevated WBC and neutrophils, and significantly elevated PCT and CRP. Infectious pneumonia, especially severe bacterial pneumonia, should be prioritized for diagnostic clarification. The patient has already received broad-spectrum anti-infective therapy including imipenem/cilastatin and meropenem. The value of routine sputum specimens is limited, whereas BALF Gram stain can rapidly determine whether bacteria are present and their approximate Gram characteristics, providing direct clues for early differentiation of G+ or G- pathogens and for assessing whether the current antimicrobial coverage is appropriate. In this case, Gram stain may also help explain whether the diffuse bilateral lung lesions are mainly caused by bacterial infection, and can be correlated with culture, nucleic acid, and NGS results to guide subsequent anti-infective regimen selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "The patient is critically ill, presenting with severe pneumonia complicated by type I respiratory failure, and despite having received multiple high-grade antibiotic therapies, it is still necessary to determine whether a bacterial pathogen is present and the subsequent risk of antimicrobial resistance. BALF bacterial culture is an important method for confirming lower respiratory tract bacterial infection, can minimize interference from upper airway colonization as much as possible, and provides a basis for antimicrobial susceptibility testing. The main questions this test addresses are: whether the patient's diffuse bilateral lung lesions are caused by bacteria, what specific type of bacteria is involved, and how to precisely adjust subsequent antimicrobial therapy. Although early culture may be negative due to the effects of prior antibiotics, it remains an important basis for diagnosis, exclusion of some differential diagnoses, and guidance of individualized treatment; later in the case, there was indeed a positive culture for Klebsiella pneumoniae with resistance information, indicating that performing this type of test has critical clinical value.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "The patient had severe respiratory failure and was on mechanical ventilation, with rapidly progressive disease. Subsequently, glucocorticoids and prolonged broad-spectrum anti-infective therapy were also administered. In this context, invasive fungal infection or secondary fungal colonization/infection should be considered. Although the serum GM test and G test were negative, negative serology cannot completely exclude focal or early pulmonary fungal infection, especially after anti-infective agents have already been used, when lower respiratory tract specimens are needed more. The purpose of fungal culture is to further evaluate whether there is a fungal etiology for the diffuse bilateral lung lesions, to assist in the differential diagnosis from bacterial pneumonia, viral infection, interstitial lung disease, and tumor, and also to provide a basis for whether antifungal therapy should be added or adjusted subsequently.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "Chest CT showed diffuse patchy increased-density opacities in both lungs. Although clinically severe infection is favored, diffuse pulmonary lesions still need to be differentiated from pulmonary TB or nontuberculous mycobacterial infection. There is no definite prior history of TB, and the interferon-gamma release assay is negative; however, a negative immunologic screening result cannot completely exclude active mycobacterial infection of the lower respiratory tract. BALF acid-fast staining can rapidly screen for the presence of acid-fast bacilli and mainly address whether TB/mycobacteria are involved in the current severe pulmonary lesions. This test result may help exclude an important infectious etiology as early as possible and avoid inappropriate use of routine antibacterial agents alone, which could affect isolation and treatment strategies.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Liquid-based cytology",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "The patient’s imaging showed diffuse patchy high-density opacities in both lungs. In the earlier differential diagnosis, neoplastic lesions such as bronchioloalveolar carcinoma were considered, and tumor markers were mildly abnormal, but imaging and tumor markers alone cannot confirm or exclude the diagnosis. At the same time, the patient had pink frothy sputum after intubation, suggesting complex intra-alveolar pathology. Liquid-based cytology can be used to assess for the presence of tumor cells and to evaluate inflammatory cellular components, providing additional evidence for infection, tumor, and other alveolar lesions. The main purpose of this examination is to determine whether there is evidence of malignancy related to the diffuse bilateral pulmonary opacities, and it is important for excluding bronchioloalveolar carcinoma, reducing unnecessary misdirection toward antitumor treatment, and clarifying the subsequent treatment focus.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathogen nucleic acid testing",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "The patient developed from upper respiratory tract infection-like prodromal symptoms and rapidly progressed to diffuse bilateral lung involvement and severe hypoxemia, suggesting that in addition to common bacteria, atypical pathogens or pathogens not readily detected by routine culture should also be considered. In addition, the patient had already received potent antibacterial agents before and after transfer, which may reduce the positivity rate of traditional cultures. BALF pathogen nucleic acid testing can identify specific pathogens relatively quickly and compensate for the limited timeliness and sensitivity of staining and culture, with the main purpose of addressing the etiologic attribution of the current severe pneumonia. The results would help further differentiate among viral infection, bacterial infection, atypical pathogen infection, and other noninfectious diffuse lung diseases, and would directly affect the choice of antibacterial, antiviral, or other treatment regimens.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "NGS（DNA+RNA）",
+          "basis_in_stage3_input": "40 mL NS was instilled into both pulmonary lobes, and 20 mL of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA).",
+          "why_order_this_exam": "This patient had an extremely severe, rapidly progressive diffuse bilateral pulmonary disease that had progressed to mechanical ventilation and subsequently required ECMO support. Although routine tests suggested an infectious lesion, the early differential diagnosis still involved viral infection, atypical pathogens, fungal infection, TB, tumor, and other noninfectious diseases. In addition, because the patient had already received broad-spectrum antimicrobial agents and glucocorticoid therapy, traditional culture and staining could yield false-negative results or insufficient information. DNA+RNA NGS of BALF can detect bacteria, viruses, fungi, and other rare pathogens in a relatively comprehensive and unbiased manner, and is particularly suitable for critically ill patients when conventional pathogen testing is negative or inconsistent. The main purpose of this test was to identify the true causative pathogen as quickly as possible, explain the cause of the diffuse bilateral pulmonary lesions and severe respiratory failure, and accordingly make precise treatment adjustments. In this case, NGS detected Legionella pneumophila and suggested evidence of Klebsiella pneumoniae, which played a निर्णसive role in ultimately establishing the etiology and optimizing the anti-infective regimen.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Viral RNA testing",
+          "basis_in_stage3_input": "Viral RNA test (-).",
+          "why_order_this_exam": "The patient developed illness after cold exposure, with early rhinorrhea, fever, and cough, followed within a short period by diffuse bilateral lung lesions and severe hypoxemia. Viral pneumonia could not be completely excluded throughout the initial differential diagnosis. Previously, only partial viral antibody results were available, which cannot substitute for acute-phase lower respiratory tract viral nucleic acid evidence, especially in the setting of severe pneumonia and respiratory failure, when determining whether a respiratory viral infection is present is important for isolation measures, antiviral therapy, and risk assessment for glucocorticoid use. The core clinical question of viral RNA testing is whether the current severe pneumonia is driven by a virus or accompanied by viral infection, thereby helping to exclude and differentiate among bacterial infection, atypical pathogens, and noninfectious lung disease. The result in this case was negative, which helps reduce the likelihood of viral pneumonia as the primary etiology and supports shifting the treatment focus to other pathogens.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +1, bronchoscopy was performed, with no abnormal findings under the bronchoscope. Both lung lobes were instilled with 40 ml NS, and 20 ml of slightly turbid lavage fluid was recovered and sent for Gram stain, bacterial culture, fungal culture, acid-fast stain, liquid-based cytology, pathogen nucleic acid testing, and NGS (DNA+RNA). On the same day, bronchoalveolar lavage fluid results showed: [Pathogen testing] Gram stain: G+ cocci -, G- cocci -, G+ bacilli -, G- bacilli +, no fungi found; acid-fast stain: no acid-fast bacilli seen; [Bacterial + fungal culture] (-). Pathologic cytology: no tumor cells found. [Bronchoalveolar lavage fluid NGS] Legionella pneumophila (sequence count 436), Klebsiella pneumoniae (sequence count 1). Viral RNA testing (-).",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFdXibyaKFZHk7AdUywcIXHjYSnHUjhW5asaeoC34j00yjicibWicwIvY01A/640?wx_fmt=png",
+          "near_text": "Diffuse patchy ill-defined opacities of increased density in both lungs",
+          "local_src": "cleaned_cases_image_cache/50dcdc0299de6b5dda0e9c9acc7efd3082c7dc5c.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Severe pneumonia; type I respiratory failure; 2. Hospital-acquired pneumonia (Klebsiella pneumoniae).",
+      "diagnostic_basis": [
+        "1. Basic characteristics: middle-aged man, acute onset. No adverse habits;",
+        "2. Symptoms: cough, sputum production, and fever for 1 week; worsening with shortness of breath and dyspnea for 2 days. After anti-infective therapy and corticosteroid treatment, body temperature remained uncontrolled, and the lesions worsened compared with before;",
+        "3. Physical signs: Coarse breath sounds in both lungs, with scattered dry and moist rales audible; no pleural friction rub heard.",
+        "4. Ancillary examinations: ① Chest CT: diffuse patchy ill-defined areas of increased density in both lungs, with air bronchograms within them, considered severe pneumonia; ② Arterial blood gas analysis: indicates type I respiratory failure; ③ Biochemical tests: BUN 8.91 mmol/L, CR 101 umol/L, UA 366.0 umol/L; ④ Tumor markers: CEA 5.35 ng/ml, FRT 1372.00 ug/L, NSE 21.9 ng/ml, CA125 79.90 U/ml, cytokeratin 19 fragment (CYFRA21-1) 3.74 ng/ml; ⑤ BALF: Gram stain: G+ cocci -, G- cocci -, G+ bacilli -, G- bacilli +, no fungi found; acid-fast stain: no acid-fast bacilli seen; [bacterial + fungal culture] (-). Pathologic cytology: no tumor cells detected. ⑥ Alveolar lavage fluid NGS: Legionella pneumophila (sequence count 436), Klebsiella pneumoniae (sequence count 1). Viral RNA testing (-)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Initiated an anti-infective treatment regimen for Legionella pneumophila infection: moxifloxacin combined with rifampin.",
+        "After admission, the patient underwent endotracheal intubation and mechanical ventilation, A/C mode: tidal volume 400 ml, respiratory rate 14 breaths/min, PEEP 12 cmH2O, FiO2 100%. Meropenem combined with vancomycin was given for anti-infective treatment, oseltamivir phosphate for antiviral treatment, and methylprednisolone 40 mg for anti-inflammatory symptomatic treatment.",
+        "Initiate V-V ECMO immediately for the patient.",
+        "On Day +9, anti-infective and antifungal symptomatic treatment was continued.",
+        "On Day +16, tigecycline was added for anti-infective treatment.",
+        "On Day +21, treatment was changed to oral minocycline for anti-infective therapy, and methylprednisolone was used to promote resolution of inflammation."
+      ],
+      "treatment_response": [
+        "Repeat chest radiograph showed that the lesions had worsened compared with those at admission; at the same time, cardiac and renal function injury developed, hemoglobin decreased, albumin decreased, multiple organ dysfunction, critical condition, and rapid progression.",
+        "Day +6 (hospital day 5): repeat chest radiograph showed absorption of bilateral pulmonary inflammation; arterial blood gas was significantly improved compared with before; ECMO oxygen flow was reduced to 0 L/min, and oxygen saturation was maintained at 98%. The patient developed a small amount of airway oozing, ECMO therapy was discontinued, decannulated, and mechanical ventilation alone was used for assisted breathing.",
+        "On Day +8 (hospital day 7), the endotracheal tube was removed, and noninvasive ventilator-assisted breathing was provided in S/T mode.",
+        "On Day +9 (hospital day 8), the patient developed high fever with a temperature of 38.6℃, passed 150 ml of loose stool, WBC 14.72*10^9/L, neutrophils 89%, CRP 47.69 mg/L, BALF fungal culture: Candida parapsilosis, blood NGS test: human alphaherpesvirus (copy number 1).",
+        "Day +16 (hospital day 15): The patient continued to require noninvasive ventilator-assisted breathing, CPAP mode: PEEP 12 cmH2O, oxygen concentration 40%, with oxygen saturation fluctuating between 88%-95%. BALF culture: Klebsiella pneumoniae (+), a drug-resistant organism, sensitive to minocycline, ceftazidime/avibactam, and tigecycline; resistant to all other antibiotics. BALF pathogen nucleic acid testing showed methicillin-resistant Staphylococcus aureus.",
+        "Day +21 (hospital day 22), the patient was switched to oxygen by face mask at 5 L/min, with oxygen saturation between 90-95%, and was discharged.",
+        "Repeat chest X-ray at discharge showed absorption of diffuse patchy ill-defined increased-density opacities in both lungs."
+      ]
+    }
+  }
+}

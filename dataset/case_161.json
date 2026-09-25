@@ -1,0 +1,392 @@
+{
+  "status": "success",
+  "case_id": "case_161",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient is a 29-year-old man who was admitted to our Department of Pulmonary and Critical Care Medicine on Day 0, with the chief complaint of \"recurrent hypoxemia for more than 3 months.\"\nPresent illness: On Day -91, after weight gain, the patient developed occasional nighttime difficulty breathing during sleep, with oxygen saturation measured at 70-80%. On the night of Day -61, family members observed sudden breath-holding during sleep, without loss of consciousness, and oxygen saturation decreased (details unknown); this was relieved after oxygen inhalation. On Day -33, family members observed jaw clenching and unresponsiveness during sleep, without opisthotonos, foaming at the mouth, or urinary or fecal incontinence; oxygen saturation decreased (details unknown) and rapidly improved after oxygen inhalation. On Day -30, he developed dizziness, blurred vision, and fatigue after daytime activity, as well as shortness of breath when climbing stairs, accompanied by chest tightness. He then developed frequent hypoxemia at rest, and oxygen saturation could return to normal after several deep breaths or after speaking. The patient was hospitalized multiple times at local hospitals and was diagnosed with \"vertigo syndrome\"; he was treated with \"Xueshuantong\" and gastrodin, with no significant improvement in symptoms. On Day -3, while sitting and using his phone, family members noted cyanosis of the lips, but he remained conscious and answered questions appropriately; fingertip oxygen saturation was only 36%. After oxygen inhalation, the lip cyanosis resolved immediately and oxygen saturation increased to 95%. On Day -2, while using the toilet, he developed weakness of all four limbs, blurred vision, accompanied by tinnitus and palpitations; oxygen saturation was 30-40%. With oxygen 2 L/min, or after several deep breaths, or after speaking, oxygen saturation could rise to above 90%, without disturbance of consciousness. He was admitted on Day 0.\nPast history: The patient was previously diagnosed with necrotizing lymphadenitis because of fever and generalized lymphadenopathy. He presented to a tertiary hospital in Sichuan on Day -174, where he was given oral methylprednisolone 80 mg once daily, tapered by 5 mg every 2 weeks, and then maintained at 10 mg once daily; hydroxychloroquine 15 mg twice daily; and methotrexate 4 tablets once weekly until the day of this admission. Cyclosporine 3 tablets per dose twice daily was also added, but because the patient developed abdominal distension, diarrhea, nausea, and other discomfort after taking it, it was discontinued after 1 week of treatment due to intolerance. The fever was also accompanied by severe generalized muscle pain. MRI suggested infection of the iliopsoas muscles and pelvic wall muscles. Vancomycin 1 g per dose twice daily was given as anti-infective treatment, changed to linezolid 0.6 g per dose twice daily on Day -114, and continued until this admission. Because of severe generalized muscle pain, the patient intermittently used OxyContin for analgesia starting on Day -169, at 10 mg per dose in the morning and 20 mg per dose in the evening. On Day -109, because of pain from cutaneous herpes zoster, OxyContin was changed to tramadol sustained-release tablets 0.1 g per dose twice daily, taken regularly and gradually tapered, and reduced to 0.025 g per dose once daily on Day 0. In addition, on Day -109, because the patient developed low mood, चिंता, lack of motivation, inability to feel happy, accompanied by visual hallucinations and auditory hallucinations, comorbid depression was considered, and he was treated with venlafaxine 75 mg once daily, alprazolam tablets 0.2 mg twice daily, and olanzapine tablets 10 mg once nightly. Alprazolam was discontinued on Day -91; olanzapine was later discontinued on Day -37 because of excessively rapid weight gain. Because his depressive symptoms did not improve significantly, venlafaxine was increased to 75 mg twice daily on Day -37 and continued until this admission. On Day -1, because of decreased white blood cell count and hemoglobin, bone marrow suppression was considered, and methotrexate and hydroxychloroquine were discontinued.\nCurrent medications: tramadol 0.025 g per dose once daily; linezolid 0.6 g per dose twice daily; ceftriaxone 2 g per dose once daily; prednisone 10 mg per dose once daily; venlafaxine 75 mg per dose twice daily.\nPersonal history: Unmarried; no history of smoking or alcohol use; no history of exposure to toxic or harmful substances; no history of illicit drug use. Family history unremarkable.\nPhysical examination: T: 36.4℃, R: 24/min, P: 108/min, BP: 135/85 mmHg. SpO2 at rest: 81%. Weight: 77 kg, height: 167 cm, body mass index: 27.61 kg/m2. General appearance and mental status fair. Cyanosis of the lips. No mandibular retrusion, no macroglossia, no posterior displacement of the tongue base, no conjunctival injection, no low-lying soft palate or elongated uvula, no tonsillar hyperemia or edema, and no obvious narrowing of the pharyngeal cavity. No chest wall deformity. Breath sounds in both lungs were slightly coarse, with no dry or moist rales and no pleural friction rub. Regular cardiac rhythm, no cardiac murmur heard. Abdomen soft, without tenderness or rebound tenderness. No edema in either lower extremity. No clubbing of fingers or toes. Neurologic examination: no abnormalities found on cranial nerve examination; normal muscle tone in all four limbs, muscle strength grade 5, hyperreflexia, no pathologic reflexes elicited, and meningeal signs negative. SpO2 on oxygen 2 L/min: 98%.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Sleep-disordered breathing (primarily central sleep apnea or medication-related sleep hypoventilation)",
+          "supporting_evidence": [
+            "On the night of Day -61, the family observed that while sleeping, he suddenly developed dyspnea, without loss of consciousness; oxygen saturation was found to be decreased and improved after oxygen inhalation.",
+            "On Day -33, the family noted that during sleep his jaws were clenched shut, he was unresponsive to calling, and oxygen saturation decreased; this rapidly improved after oxygen administration.",
+            "On Day -91, after weight gain, the patient developed occasional nighttime dyspnea during sleep, with measured oxygen saturation of 70-80%.",
+            "Current and prior medication exposures that may affect respiratory drive or sleep ventilation: OxyContin, tramadol, alprazolam, olanzapine",
+            "The patient has marked hypoxemia at rest, but \"after taking several deep breaths or speaking for a while, oxygen saturation can rise to normal,\" suggesting that oxygenation can improve after increased ventilation.",
+            "The physical examination findings of “no mandibular retrusion, no macroglossia, no posterior displacement of the tongue base, and no obvious narrowing of the pharyngeal cavity” further suggest that central or medication-related factors should be considered, rather than simply significant anatomic upper airway narrowing."
+          ],
+          "opposing_evidence": [
+            "Since Day -30, frequent hypoxemia at rest occurred; the hypoxemia is not limited to the sleep period.",
+            "The current tramadol dose is \"reduced to 0.025 g per dose once daily on Day 0\"; the phase 1 information did not show current use of high-dose sedative-hypnotics.",
+            "The phase I information did not provide clear typical clues to sleep apnea syndrome, such as snoring, witnessed recurrent apnea episodes, and daytime sleepiness."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Obstructive sleep apnea syndrome or obesity-related hypoventilation",
+          "supporting_evidence": [
+            "The patient developed occasional nighttime shortness of breath during sleep after weight gain.",
+            "Multiple hypoxemic episodes occurred at \"night\" and \"during sleep,\" consistent with the temporal characteristics of sleep-related breathing disorders.",
+            "BMI was 27.61 kg/m2; although not severe obesity, the patient was overweight.",
+            "During sleep, had \"sudden dyspnea,\" relieved after oxygen therapy",
+            "Dyspnea, chest tightness, and fatigue after daytime activity may be seen as daytime manifestations following chronic sleep-disordered breathing."
+          ],
+          "opposing_evidence": [
+            "Physical examination indicated “no mandibular retrusion, no macroglossia, no posterior displacement of the tongue base, no low-lying soft palate, and no obvious narrowing of the pharyngeal cavity,” with no clear evidence of anatomic narrowing of the upper airway.",
+            "Hypoxemia can occur while awake and at rest, for example: “On Day -3, while the patient was sitting and using a mobile phone, family members noticed cyanosis of the lips, but the patient remained conscious.”",
+            "\"The oxygen saturation can rise to normal after several deep breaths or after talking\" is not entirely consistent with simple fixed upper airway obstruction."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Drug-related respiratory depression/central hypoventilation (related to opioids, tramadol, and prior benzodiazepines and antipsychotics)",
+          "supporting_evidence": [
+            "Since approximately 5 months before Day 0, the patient had intermittently used OxyContin for analgesia, and was later changed on Day -109 to \"tramadol sustained-release tablets 0.1 g/dose twice daily, taken regularly and gradually tapered\"",
+            "Previously used concomitantly: \"alprazolam tablets 0.2 mg/dose twice daily, olanzapine tablets 10 mg/dose once nightly\"; both may increase the risk of sedation and hypoventilation",
+            "Hypoxemia is particularly pronounced during sleep, consistent with the characteristic worsening of drug-related respiratory depression during sleep",
+            "\"After several deep breaths or after speaking, oxygen saturation can rise to normal,\" suggesting that oxygenation may improve after a voluntary increase in ventilation.",
+            "During the nighttime event, the patient was unresponsive when called; rapid relief after oxygen administration supports reversible respiratory depression."
+          ],
+          "opposing_evidence": [
+            "Alprazolam was discontinued on \"Day -91,\" olanzapine was discontinued on \"Day -37,\" and hypoxemia persisted until admission.",
+            "The tramadol dose has currently been reduced to \"0.025 g/dose once daily\"; the first-stage information did not indicate significant recent opioid dose escalation.",
+            "The information from the first stage did not provide more direct evidence of drug intoxication, such as a markedly decreased respiratory rate, miosis, or persistent somnolence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary vascular disease or acute and chronic pulmonary embolism",
+          "supporting_evidence": [
+            "The patient has \"dizziness and blurred vision after activity, fatigue, shortness of breath when climbing stairs, accompanied by chest tightness,\" which can be seen in exertional hypoxemia caused by pulmonary vascular disease.",
+            "Physical examination showed \"R: 24/min, P: 108/min,\" with tachypnea and tachycardia",
+            "Severe hypoxemia may occur while positive findings on pulmonary auscultation are relatively lacking: physical examination showed only \"slightly coarse breath sounds in both lungs, with no dry or moist rales heard\"",
+            "Chronic disease status, recurrent hospitalization, and reduced activity may increase the risk of thrombosis"
+          ],
+          "opposing_evidence": [
+            "No typical clues supporting venous thromboembolism, such as chest pain, hemoptysis, or unilateral lower extremity swelling and pain, were provided in the first-stage information.",
+            "Recurrent hypoxemic episodes are closely related to occurring \"during sleep\" and to the fact that \"after several deep breaths or after talking, oxygen saturation can rise to normal\"; this is not a typical feature of pulmonary embolism.",
+            "No edema in both lower extremities; signs of deep vein thrombosis were not provided"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Right-to-left shunt disease (pulmonary arteriovenous fistula or intracardiac shunt)",
+          "supporting_evidence": [
+            "The patient may develop extremely severe hypoxemia, such as \"fingertip oxygen saturation measured at only 36%\" and \"oxygen saturation measured at 30-40%\"",
+            "The pulmonary physical examination findings were relatively mild, with no obvious moist rales auscultated, suggesting that hypoxemia due to non-parenchymal lung disease should be considered.",
+            "Blood oxygen can increase significantly after oxygen administration, for example, \"After oxygen administration, cyanosis of the lips was immediately relieved, and oxygen saturation increased to 95%.\"",
+            "Hypoxemia may also occur at rest while seated, e.g., “On Day -3, while the patient was sitting and using a cell phone... oxygen saturation was only 36%”"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide any history of congenital heart disease, heart murmur, or digital clubbing; physical examination showed \"no heart murmur heard\" and \"no digital clubbing\"",
+            "\"Oxygen saturation can rise to normal after several deep breaths or after speaking\" is not a typical finding supporting a fixed right-to-left shunt.",
+            "The phase 1 information did not provide clues related to pulmonary arteriovenous fistula, such as hemoptysis or hereditary hemorrhagic telangiectasia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Abnormal hemoglobin or conditions interfering with oxygen measurement (e.g., methemoglobinemia/hemoglobinopathy)",
+          "supporting_evidence": [
+            "The patient may develop \"cyanosis of the lips,\" while the fingertip oxygen saturation may be extremely low, as low as \"36%\" or \"30-40%,\" and discrepancy between the oxygen saturation monitoring value and the true oxygenation status should be noted.",
+            "Low oxygen readings may recur in different settings, including during sleep, while sitting at rest, and after using the toilet",
+            "The patient has been on long-term treatment with multiple medications, with a theoretical possibility of drug-related dyshemoglobinemia."
+          ],
+          "opposing_evidence": [
+            "The patient's oxygen saturation can increase significantly after oxygen inhalation or \"several deep breaths,\" rising to \"95%\" or \"above 90%\" during some episodes, which is not fully consistent with typical persistent methemoglobinemia.",
+            "The phase 1 information did not provide documentation of chocolate-brown blood, definite exposure to typical drugs known to cause methemoglobinemia, or arterial blood gas co-oximetry results.",
+            "Lip cyanosis that is \"immediately relieved\" after oxygen inhalation is more suggestive of true hypoxemia or a ventilation problem."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "muscle enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "myocardial injury markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-ProBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "DIC screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + fecal occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Five thyroid function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antinuclear antibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "13 respiratory pathogens",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electroencephalogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "24-hour ambulatory electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI of the brain and upper cervical spine",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: muscle enzymes, myocardial injury markers, procalcitonin, renal function, electrolytes, and NT-ProBNP showed no abnormalities; DIC screening, urinalysis, stool routine + occult blood, thyroid function panel (5 items), ANA profile, and 13 respiratory pathogens showed no abnormalities. Arterial blood gas on Day -2: pH 7.383, PaO2 58mmHg, PaCO2 46mmHg, SaO2 87%. CBC: WBC 2.9x10^9/L, Hb 110g/L, platelets normal.\nExaminations: (Day -1): Chest CT: 1. Multiple patchy opacities in both lungs, more obvious in the lower lobes, considered inflammatory lesions. On Day -1, echocardiography showed mildly elevated pulmonary artery systolic pressure (estimated PASP 38mmHg); small pericardial effusion. Pulmonary function testing: moderate restrictive ventilatory defect (decreased TLC), mildly reduced diffusing capacity, normal airway resistance, decreased total lung capacity, normal residual volume, increased RV/TLC%. Head MRI, EEG, EMG, ECG, 24-hour Holter monitoring, and other examinations showed no abnormalities. After completion of MRI of the brain and upper cervical spine, no brainstem lesion was found.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2AM17X7evnwgDSsmffwwUZY6jAMXsr8ibGRlYNIvP6CVicDebvQzM6zpA/640?wx_fmt=png&from=appmsg",
+            "near_text": "On Day -1, the patient's echocardiogram showed",
+            "local_src": "cleaned_cases_image_cache/d691923598e7d610611b294f6090c4724d704eee.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "brainstem lesion",
+            "evidence": [],
+            "exclusion_reasons": [
+              "After completing MRI of the brain and upper cervical spine, no brainstem lesion was found"
+            ]
+          },
+          {
+            "name": "Drug-induced respiratory center depression",
+            "evidence": [
+              "The patient has a very complex medication history, including long-term use of opioid analgesics."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "brainstem lesion",
+        "evidence": [
+          "Based on the patient's clinical manifestations, a lesion of the respiratory center is considered."
+        ],
+        "exclusion_reasons": [
+          "After completing MRI of the brain and upper cervical spine, no brainstem lesion was found"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Drug-induced respiratory center depression",
+        "evidence": [
+          "The patient has a very complex medication history, including long-term use of opioid analgesics."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "polysomnography",
+          "basis_in_stage3_input": "Polysomnography on Day +8 showed: AHI 37.6 times/min, OSA 0 episodes, CSA 3 episodes, MSA 0 episodes, HP 251 episodes.",
+          "why_order_this_exam": "Since approximately 2 months before Day 0, the patient has had recurrent episodes of dyspnea and hypoxemia during sleep at night, subsequently progressing to hypoxemia at rest during the day and after exertion, but the sleep-related episodes are most prominent; moreover, the physical examination lacks clear evidence of anatomic upper airway narrowing, and there is a history of exposure to medications that can affect respiratory control, including opioids, benzodiazepines, and antipsychotics. Therefore, polysomnography is needed to determine whether sleep-disordered breathing is present and to define its type. This examination can distinguish obstructive events from central events, determine the sleep stage characteristics of hypoventilation/apnea and the severity of hypoxemia, and provide key evidence for explaining the patient's recurrent severe nocturnal oxygen desaturation, supporting central sleep apnea-hypoventilation syndrome, and assessing whether ventilatory support therapy is needed and how it should be selected.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "basis_in_stage3_input": "Arterial blood gas analysis performed after waking in the early morning showed: pH 7.37, PaO2 46 mmHg, PaCO2 50 mmHg, SaO2 85%, FiO2 21%.",
+          "why_order_this_exam": "The patient had recurrent marked hypoxemia before and after admission, with resting SpO2 as low as 30%-40%, which could improve with deep breathing, speaking, or oxygen inhalation, suggesting the need for an objective assessment of the true oxygenation and ventilation status; prior blood gas testing had already indicated hypoxemia with mild carbon dioxide retention, therefore repeat blood gas analysis, especially after waking in the early morning, would help capture residual hypercapnia and hypoxemia after nocturnal sleep-related hypoventilation. This test can directly assess disease severity, determine whether alveolar hypoventilation is present, distinguish isolated oxygenation impairment from combined ventilatory insufficiency, and provide a basis for subsequent decisions regarding the need for continuous oxygen therapy, noninvasive ventilation, and assessment of treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory center drive function test",
+          "basis_in_stage3_input": "Respiratory center drive function testing showed that the respiratory center responses to hypercapnia and hypoxia were both below normal.",
+          "why_order_this_exam": "Although inflammatory lesions were present on chest CT in this patient, they did not fully correspond to the patient's recurrent extremely severe hypoxemia. MRI of the brain and brainstem, EEG, EMG, and other tests did not identify any definite organic central nervous system lesion that could explain the condition. At the same time, the patient's hypoxemia was more pronounced during sleep, and there was a long-term history of exposure to opioids and multiple medications affecting respiratory control; therefore, further direct assessment of the respiratory center's response to hypercapnia and hypoxic stimulation was needed. The clinical purpose of this examination was to determine whether insufficient central respiratory drive was present, support the pathophysiologic mechanism of central alveolar hypoventilation, help differentiate the disease from simple pulmonary infection, obstructive sleep apnea, or simple pulmonary parenchymal disease, and provide a basis for discontinuation of related medications and ventilatory support strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PHOX2B mutation testing for congenital central hypoventilation syndrome",
+          "basis_in_stage3_input": "Testing for congenital central alveolar hypoventilation syndrome-associated mutation gene (PHOX2B) was negative.",
+          "why_order_this_exam": "Sleep monitoring and blood gas analysis in this patient had already indicated predominantly central hypoventilation, and respiratory center drive function testing further showed decreased responses to hypercapnia and hypoxia, indicating the need for further etiologic evaluation of central alveolar hypoventilation. Although the patient had adult-onset disease and a definite drug exposure history, when an obvious central hypoventilation phenotype is present, PHOX2B testing is still required to rule out congenital central alveolar hypoventilation syndrome. The purpose of this test is to exclude an important genetic etiology and avoid misclassifying a primary/congenital disease as simply drug-related, thereby helping ultimately determine that this case is more consistent with secondary central alveolar hypoventilation and affecting long-term follow-up and family risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Follow-up chest CT on Day +10 showed that, compared with the chest CT of Day -1, the inflammatory lesions in both lungs had markedly resolved.",
+          "why_order_this_exam": "The patient previously had multiple patchy opacities in both lungs on chest CT. Early on, the contribution of pulmonary infection or pulmonary parenchymal disease to the hypoxemia needed to be considered; however, the degree of hypoxemia was severe and was closely related to sleep, changes in respiratory drive, and medication exposure. Therefore, repeat chest CT is required to dynamically assess changes in the pulmonary lesions and determine whether intrapulmonary inflammation remains the main cause of the hypoxemia. This examination can help distinguish whether the persistent hypoxemia is mainly due to pulmonary parenchymal disease or alveolar hypoventilation: if the inflammatory lesions are clearly absorbed while hypoxemia persists, this would more strongly support central hypoventilation/drug-related respiratory depression rather than being caused solely by infection, thereby affecting diagnostic attribution and treatment priorities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI of the lower abdomen",
+          "basis_in_stage3_input": "Follow-up lower abdominal MRI showed a small amount of exudative fluid around the left iliacus and psoas major muscles, with no obvious infection.",
+          "why_order_this_exam": "The patient had previously received prolonged anti-infective therapy because of fever, severe generalized myalgia, and MRI findings suggesting infection of the iliopsoas muscle and pelvic wall muscles. The clinical course was complicated, and the patient was still receiving linezolid and ceftriaxone at the time of admission. Because the infection itself and the persistent inflammatory state could interfere with assessment of the cause of hypoxemia, and also affect whether to continue anti-infective drugs that may interact with other medications, repeat lower abdominal MRI was needed to evaluate whether the original deep infectious foci were still present. The value of this examination lies in confirming whether the prior muscle infection has been basically controlled, thereby supporting discontinuation or adjustment of the relevant medications, reducing the need for continued use of linezolid, and providing supporting evidence that the current hypoxemia is not caused by ongoing severe infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Neurologic examination",
+          "basis_in_stage3_input": "Neurologic examination revealed hyperreflexia",
+          "why_order_this_exam": "In addition to hypoxemia, the patient also developed dizziness, palpitations, tachycardia, diaphoresis, and markedly decreased appetite, and had prior and current exposure to combinations of medications such as venlafaxine, tramadol, and linezolid that can increase the risk of serotonin syndrome. In the setting of no organic lesions identified on brain MRI and brainstem-related examinations, repeated, meticulous neurologic examinations may help identify drug-induced signs of neurologic excitation such as hyperreflexia. Although this examination is a bedside assessment, it has direct value for recognizing serotonin syndrome, explaining autonomic and neuromuscular symptoms, and distinguishing organic neurologic disease from adverse drug reactions, and can further support discontinuation of the relevant medications and optimization of the overall treatment regimen.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +8, polysomnography showed: AHI 37.6 events/min, OSA 0 events, CSA 3 events, MSA 0 events, HP 251 events. Mean oxygen saturation during sleep was 83%, and the lowest oxygen saturation was 42%. Arterial blood gas analysis obtained after awakening in the early morning showed: pH 7.37, PaO2 46 mmHg, PaCO2 50 mmHg, SaO2 85%, FiO2 21%. Under sleep monitoring, the patient exhibited more central hypoventilation respiratory events during NREM sleep than during REM sleep. There was obvious ataxic breathing during NREM sleep, with a slower respiratory rate (12-13 breaths/min) and lower oxygen saturation (42%-86%). Ataxic breathing was still present during REM sleep, but the respiratory rate was faster (18-20 breaths/min) and oxygen saturation was higher (88%-92%). Respiratory central drive function testing showed that the respiratory center responses to hypercapnic and hypoxic drive were both below normal values. Testing for congenital central alveolar hypoventilation syndrome-related mutation gene (PHOX2B) was negative. Repeat chest CT on Day +10 showed that, compared with the chest CT on Day -1, the bilateral inflammatory lesions in the lungs had been markedly absorbed. Review of the relevant literature found that the characteristics of patients receiving long-term treatment with long-acting or sustained-release opioids are very similar to those of this patient. Review of drug interactions found that linezolid is a monoamine oxidase inhibitor; combined use with tramadol, paroxetine, venlafaxine, etc. can induce serotonin syndrome; in the presence of sleep-disordered breathing, respiratory control may be impaired by the use of sedatives, hypnotics, and opioids, thereby worsening respiratory depression. Repeat lower abdominal MRI showed: a small amount of exudation around the left iliacus and psoas major muscles, with no obvious infection. There are also some additional supplements for this case: the patient developed dizziness, palpitations, tachycardia, diaphoresis, markedly decreased appetite, and neurologic examination showed hyperreflexia, indicating that the patient had developed serotonin syndrome.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2HafWSZwRNYdjsn3kt1z7Sh1ibuibrjruWHhJkXdJNmYSnJxDtRQRUrPg/640?wx_fmt=png&from=appmsg",
+          "near_text": "On sleep monitoring, the patient was noted to be in the NREM stage",
+          "local_src": "cleaned_cases_image_cache/d58aaa12ad521573d1981f41a5c664f0319fc64e.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2Gft43WXeD3TlulTrb2af1XDKlbSyRrls02e44zjCjfk6sIaYWDg57g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Marked ataxic breathing is present during NREM sleep",
+          "local_src": "cleaned_cases_image_cache/2c822a863fb093e87760d49a7e324e8f61825a41.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2jgofBpu8rppsAnwbWb04NY6NgsOqAz2BCg09E1VEx7hRLjT6kyJprw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Ataxic breathing persists during REM sleep",
+          "local_src": "cleaned_cases_image_cache/8b1eba9d7a9ff1e637b4b2b600c982855347a3ee.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2M4tL1LVhAHDdIVJEfFAibsYOyficO7xUh9PvcOk2m9sVKO1IIp7I2D8w/640?wx_fmt=png&from=appmsg",
+          "near_text": "The patient has discontinued tramadol for 5 days.",
+          "local_src": "cleaned_cases_image_cache/999e57535c504e4427bd95ed0bcddb069e43fa68.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv267GGfRfQIrSYJxAFhTs2GuXmtiaBTPic7DO1iasLu0bF1Y2wSXiaEBf5kQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "The patient has discontinued tramadol for 5 days.",
+          "local_src": "cleaned_cases_image_cache/12fae81cc384367256b1e3d299c2975dd92f9634.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2wia6Qmk5puYibBMpUJwKMusWaAKicv0sicdl1MExppvEIe8RyxvVmm1UJg/640?wx_fmt=png&from=appmsg",
+          "near_text": "The patient has discontinued tramadol for 5 days.",
+          "local_src": "cleaned_cases_image_cache/72194a0497d52eb4ae9a3b72dc31baecb50b80ad.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2oGDJBRMUm08icGZyujNEdlicmY7LBQiceHDFBbDhjNufvwd0AESewD3vw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Characteristics of patients receiving long-term treatment with long-acting or extended-release opioid medications",
+          "local_src": "cleaned_cases_image_cache/d804a1905e8323f359e0ff0715610f38ccbbe187.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2p0uIpAiaaPKeK21XkJhaKMibQAT8gTXCyPkc0d4vhBLvdhuUia6jgcmibA/640?wx_fmt=png&from=appmsg",
+          "near_text": "BiPAP-S/T therapy:",
+          "local_src": "cleaned_cases_image_cache/4acb1fdf9fc4f68b42ebd6a464fcf412e56684d3.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKib3PrV66hEJpLSyHZhEEv2KibLmXV1E1Tmgf8uREKOLoLdfIST1fGFZPnbwLIBQmrWg9jcsl6zIKw/640?wx_fmt=png&from=appmsg",
+          "near_text": "There are some additional details regarding this case.",
+          "local_src": "cleaned_cases_image_cache/658482b98e81fd93068a82f1406b372f9f881cb2.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Opioid-induced secondary central alveolar hypoventilation syndrome; 2. Central sleep apnea-hypopnea syndrome; 3. Serotonin syndrome; 4. Necrotizing lymphadenitis; 5. Pulmonary infection; 6. Abnormal pulmonary function; 7. Chronic gastritis; 8. Mild anemia.",
+      "diagnostic_basis": [
+        "Polysomnography showed more central hypoventilation respiratory events during NREM sleep than during REM sleep, with obvious ataxic-like breathing.",
+        "Respiratory center drive function testing showed that the respiratory center responses to hypercapnic and hypoxic stimulation were both below normal.",
+        "History of long-term treatment with long-acting or sustained-release opioids",
+        "The monoamine oxidase inhibitor linezolid inhibited the metabolic clearance of opioids, and medications such as alprazolam and olanzapine worsened respiratory depression.",
+        "The patient developed dizziness, palpitations, tachycardia, hyperhidrosis, markedly decreased appetite, and neurologic examination showed hyperreflexia."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Discontinue tramadol",
+        "Ceftriaxone anti-infective therapy",
+        "Discontinue linezolid",
+        "Discontinue venlafaxine",
+        "Oxygen 2 L/min",
+        "Continuous positive airway pressure (CPAP) ventilatory support",
+        "BiPAP-S/T ventilatory support"
+      ],
+      "treatment_response": [
+        "After 7 days of anti-infective treatment with ceftriaxone, repeat chest CT showed marked absorption of inflammatory lesions in both lungs",
+        "Tramadol was discontinued for 5 days, and the pulmonary infectious lesions were almost completely resolved, but while the patient was quietly using a cellphone, oxygen saturation still decreased to below 50%, with no significant improvement compared with before.",
+        "Nocturnal oxygen saturation returned to normal after discontinuing tramadol for 15 days and linezolid for 1 week.",
+        "Daytime oxygen saturation returned to normal after discontinuing tramadol for 22 days and linezolid for 2 weeks.",
+        "Venlafaxine was discontinued, and the patient did not develop any discomfort.",
+        "With oxygen at 2 L/min, oxygen saturation can be maintained at approximately 98%",
+        "Neither supplemental oxygen alone, continuous positive airway pressure (CPAP) ventilatory support, nor bilevel positive airway pressure (BiPAP-S/T) ventilatory support can completely eliminate sleep hypoventilation events or improve frequent oxygen desaturation."
+      ]
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "status": "success",
+  "case_id": "case_112",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 65 years old, from Yinchuan, Ningxia, was admitted on Day 0, with the chief complaint of \"intermittent cough accompanied by fatigue and headache for more than 10 days.\" The patient developed cough and sputum production after catching a chill on Day -10. The sputum was white, mucoid, and scant. The cough was clearly related to inspiration, mostly worse at night, and could be somewhat relieved on waking in the morning. He reported generalized fatigue and pain, dull headache, fever, and other symptoms; measured body temperature was 37.8℃. After self-administering 1 ibuprofen sustained-release capsule, the symptoms were somewhat relieved, and repeat body temperature was normal, but chest tightness and tenderness to pressure at the right anterior 2nd intercostal space developed. There was no obvious sneezing, rhinorrhea, or sore throat; no rash or joint pain; no night sweats; and no discomfort such as palpitations, hemoptysis, shortness of breath, or chest oppression. He self-administered \"cough medicine and anti-inflammatory medication\" with poor effect. Over the past 10 days, the above symptoms gradually worsened, so he presented to our outpatient clinic. Outpatient chest CT showed: narrowing of the bronchus in the right lower lobe with partial atelectasis of the right lower lobe; enlargement of right hilar and mediastinal lymph nodes; right pleural effusion; bilateral emphysema; linear opacity in the posterior basal segment of the left lower lobe. Blood routine showed: white blood cell count 13.40×10^9/L↑, lymphocyte percentage 11.0%↓, neutrophil percentage 80.8%↑, monocyte absolute count 0.74×10^9/L↑, neutrophil absolute count 10.81×10^9/L↑, platelet count 400×10^9/L↑, hemoglobin 129g/L↓, CRP 50.34mg/L↑. The patient was previously in good health and had a history of \"chronic gastritis\" for more than 10 years. He had smoked for 40 years, about 10 cigarettes per day, and has not quit smoking. Physical examination: temperature 36.6℃, pulse 86/min, respiratory rate 21/min, blood pressure 130/85mmHg. Percussion of both lungs was resonant; breath sounds were decreased in the right lower lung, coarse in the right upper lung, and clear in the left lung; no Velcro rales were heard in either lung, and no pleural friction rub was heard. Cardiac and abdominal examinations were unremarkable.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIJG1SEzK2lpTpI1ia5XEnzjq2yTMb5Q082IRl9rOEP2xkz9qnpiaQia9xw/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, Day -2: partial atelectasis of the right lower lobe, with compression and deformation of the corresponding bronchus, and a small right pleural effusion.",
+          "local_src": "cleaned_cases_image_cache/c55fc57a6c440ff19883251868f0282c4a5694c4.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKI64IiaXvGnyMvYMbiaMicB7LOKQjwb9g9MWj1tYgpKLsQ5iajpBWhQcPDOw/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, Day -2: partial atelectasis of the right lower lobe, with compression and deformation of the corresponding bronchus, and a small right pleural effusion.",
+          "local_src": "cleaned_cases_image_cache/268756d30c53be4fc54c9999788c6c6937cade05.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Central lung cancer of the right lung (with obstructive atelectasis of the right lower lobe bronchus and right pleural effusion)",
+          "supporting_evidence": [
+            "Male patient, 65 years old, has smoked for 40 years, approximately 10 cigarettes per day, and is at high risk for lung cancer",
+            "Outpatient chest CT showed narrowing of the right lower lobe bronchus and partial atelectasis of the right lower lobe.",
+            "Outpatient chest CT showed: enlargement of the right hilar and mediastinal lymph nodes",
+            "Outpatient chest CT showed: right pleural effusion",
+            "The accompanying CT images show a mass-like dense opacity in the right hilar/right lower lobe perihilar region, with bronchial involvement and right pleural effusion; morphologically, this supports a central space-occupying lesion with obstructive changes.",
+            "Symptoms progressively worsened over 10 days, and self-administered oral “cough suppressants and anti-inflammatory medications” had poor effect"
+          ],
+          "opposing_evidence": [
+            "Before disease onset, there were infection-like triggers and manifestations such as \"cough, sputum production, and fever after catching a chill\".",
+            "WBC 13.40×10^9/L↑, neutrophil percentage 80.8%↑, CRP 50.34 mg/L↑, indicating a relatively marked inflammatory response, more suggestive of concomitant infection or an inflammatory process",
+            "In the first stage of the information, no accompanying symptoms of malignancy such as definite weight loss, night sweats, or persistent hemoptysis were noted."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Post-obstructive pneumonia (possibly secondary to right lower lobe bronchial stenosis/space-occupying lesion)",
+          "supporting_evidence": [
+            "The patient has infection-related symptoms such as cough, expectoration of white mucoid sputum, low-grade fever, fatigue, generalized body pain, and headache.",
+            "WBC 13.40×10^9/L↑, neutrophil percentage 80.8%↑, absolute neutrophil count 10.81×10^9/L↑, CRP 50.34 mg/L↑, supporting bacterial infection or acute inflammation",
+            "Outpatient chest CT showed narrowing of the bronchus in the right lower lobe and partial atelectasis of the right lower lobe, consistent with a risk of distal infection secondary to obstruction.",
+            "The accompanying CT images show a large area of consolidation/atelectatic opacity in the right lower lobe, consistent with imaging findings of post-obstructive infection.",
+            "Decreased breath sounds in the right lower lung and coarse breath sounds in the right upper lung, supporting a right-sided pulmonary lesion"
+          ],
+          "opposing_evidence": [
+            "Imaging concurrently shows right hilar and mediastinal lymphadenopathy, right pleural effusion, and marked bronchial narrowing, suggesting that in addition to simple infection, vigilance is needed for possible underlying neoplastic obstruction.",
+            "Self-administered oral \"cough medicine, anti-inflammatory medication\" with poor efficacy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary TB (including possible bronchial TB/tuberculous pleurisy)",
+          "supporting_evidence": [
+            "Systemic symptoms such as cough, low-grade fever, and fatigue",
+            "Outpatient chest CT suggested narrowing of the bronchus in the right lower lobe, enlarged right hilar and mediastinal lymph nodes, and right pleural effusion; tuberculous lesions may present with a similar combination.",
+            "The accompanying CT images show a lesion near the right hilum with atelectasis and pleural effusion; bronchial TB or TB-related lymph node compression may be considered in the imaging differential diagnosis.",
+            "Linear opacity in the posterior basal segment of the left lower lobe may represent post-inflammatory change from prior inflammation; TB-related fibrotic linear scarring cannot be completely excluded."
+          ],
+          "opposing_evidence": [
+            "No night sweats, no hemoptysis",
+            "The onset was relatively acute, developing within more than 10 days after exposure to cold and gradually worsening, more suggestive of acute infection or tumor complicated by infection.",
+            "The complete blood count is characterized mainly by elevated neutrophils and elevated CRP, which is not the most typical laboratory pattern of TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Community-acquired bacterial pneumonia with parapneumonic pleural effusion",
+          "supporting_evidence": [
+            "After catching a chill, the patient developed cough, sputum production, and fever, consistent with the onset pattern of an acute respiratory tract infection.",
+            "Temperature once reached 37.8℃, accompanied by fatigue, generalized body pain, and a dull headache",
+            "WBC 13.40×10^9/L↑, neutrophil percentage 80.8%↑, CRP 50.34mg/L↑, supporting bacterial pneumonia",
+            "Outpatient chest CT showed right pleural effusion.",
+            "Decreased breath sounds in the right lower lung, which may be related to right pleural effusion or lower lobe pneumonia",
+            "The accompanying CT images show a large area of consolidation-like increased density in the right lower lung."
+          ],
+          "opposing_evidence": [
+            "CT clearly demonstrated narrowing of the right lower lobe bronchus with partial atelectasis; uncomplicated community-acquired pneumonia cannot fully explain the bronchial stenosis.",
+            "Accompanied by enlargement of the right hilar and mediastinal lymph nodes, underlying etiologies such as malignancy or TB should be considered with caution",
+            "Self-administered oral \"cough medicine, anti-inflammatory medication\" with poor efficacy"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Compression-induced stenosis of the right lower lobe bronchus caused by malignant hilar/mediastinal lymph node lesions or lymphoma",
+          "supporting_evidence": [
+            "Outpatient chest CT showed enlargement of the right hilar and mediastinal lymph nodes.",
+            "Outpatient chest CT showed narrowing of the right lower lobe bronchus and partial atelectasis of the right lower lobe, which may be caused by compression from hilar or mediastinal lymph node lesions.",
+            "Right pleural effusion can be seen in malignant lymphoid system diseases or metastatic lymph node lesions",
+            "The accompanying CT images show a marked abnormal soft-tissue density lesion in the right hilar region; correlation with a hilar/mediastinal lesion should be considered."
+          ],
+          "opposing_evidence": [
+            "The patient also has acute cough, sputum production, low-grade fever, and markedly elevated inflammatory markers, which more strongly suggests infection or tumor complicated by infection.",
+            "In phase 1, no clues supporting lymphoma were provided, such as superficial lymphadenopathy, hepatosplenomegaly, or weight loss."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Right lower lobe bronchial obstruction and atelectasis caused by a mucus plug or, less commonly, a foreign body",
+          "supporting_evidence": [
+            "Outpatient chest CT showed narrowing of the right lower lobe bronchus and partial atelectasis of the right lower lobe.",
+            "Cough is clearly associated with inspiration, mostly worsens at night, may be somewhat relieved on awakening in the morning, with manifestations of airway irritation",
+            "The accompanying CT images show atelectatic/consolidative changes in the right lower lobe; an obstructive airway lesion should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient is 65 years old and has a long-term smoking history; malignant tumor causing bronchial obstruction should be prioritized over simple mucus plugging or foreign body.",
+            "Outpatient chest CT showed enlargement of the right hilar and mediastinal lymph nodes and a right pleural effusion, which are not easily fully explained by a simple mucus plug or foreign body.",
+            "No definite history of foreign body aspiration was provided in the first phase of information."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + 5-part differential",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "N-terminal brain natriuretic peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "fungal G test, GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture + antimicrobial susceptibility testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive panel of lung tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "PPD test",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT-TB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cervical lymph node ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI without and with contrast",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy + routine biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic bronchoalveolar lavage fluid pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial cryobiopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF gene chip pathogen identification",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests after admission: CBC: WBC count 8.00×10^9/L, lymphocyte percentage 15.4%↓, neutrophil percentage 73.2%, eosinophil percentage 5.3%↑, platelet count 375×10^9/L↑, hemoglobin 120g/L↓. Procalcitonin was normal. Biochemical markers: NT-proBNP 227.00pg/ml↑, CRP 15.30mg/L↑, albumin/globulin ratio 1.0↓, albumin 33.6g/L↓, blood urea nitrogen 3.14mmol/L↓, creatinine 45.0umol/L↓, globulin 33.3g/L↑, potassium 3.44mmol/L↓. Coagulation function: fibrinogen 5.640g/L↑, D-dimer (quantitative) 1.477ug/mL↑. Eight infectious disease markers: hepatitis B e antibody quantitative 50.60Inh%↑, hepatitis B core antibody quantitative 11.50C.O.I↑. Fungal GM test and G test (-). Sputum culture showed no pathogenic bacteria. Pulmonary tumor markers: ferritin 434ug/L↑, carbohydrate antigen CA125 69.50U/ml↑. TB-related tests: PPD (-); T-SPOT-TB negative. ECG was roughly normal. Echocardiography: small pericardial effusion, aortic valve calcification, mild tricuspid regurgitation. Abdominal ultrasound: imaging favored hepatic hemangioma and gallbladder polyp. Cervical lymph node ultrasound showed no definite enlargement. Enhanced chest CT on Day +1 showed: partial atelectasis of the right lower lobe, narrowing of the right lower lobe bronchus, enhancement on contrast-enhanced scan, with CT values of approximately 57/52HU in different phases; increased translucency of both lungs; enlarged lymph nodes in the right hilum, right paratracheal region, and subcarinal region, with the largest measuring approximately 3.6cm×2.2cm; arc-shaped fluid-density shadow in the right pleural cavity. Brain MRI on Day +2 and contrast-enhanced MRI on Day +5 suggested lacunar cerebral infarctions with partial malacia formation in the right periventricular region, left lentiform nucleus, bilateral caudate nuclei, and right thalamus; no abnormal enhancement was seen in the brain parenchyma. Bronchoscopy on Day +2 indicated: widening of the intersegmental ridge of the right middle lobe, neoplastic growth in the basal segment of the right lower lobe causing luminal obstruction, with 6 biopsy specimens taken from this site; nodular neoplastic growth at the 7 o’clock position of the orifice of the dorsal segment of the right lower lobe. BALF bacterial culture and fungal culture were both negative, and acid-fast stain was negative. Bronchoscopic pathology result on Day +3 indicated: (basal segment of the right lower lobe) bronchial mucosal tissue with chronic inflammation, inflammatory exudation, and fibrous tissue hyperplasia; partial lymphocyte and plasma cell proliferation was active with compression deformation.",
+        "images": [
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIVuFRr2AjjFE4TSzjSRZuwCEWYeYDPcVOUibiaNQQnAVtVYpHBAzPkficw/640?wx_fmt=png",
+            "near_text": "Figure 2. Contrast-enhanced chest CT: Day +1",
+            "local_src": "cleaned_cases_image_cache/68b41aeb6fd5295477397abea8a49a2bdaf8d56a.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIsbmBjn0gibuQnPPHj7XicpWicQH28wiaSMRYx1EvmZELMRTcgJibo5nBzQA/640?wx_fmt=png",
+            "near_text": "Figure 2. Contrast-enhanced chest CT: Day +1",
+            "local_src": "cleaned_cases_image_cache/37cbd7dfcda5d7bb0dfbca9154fb57e0c88330fe.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIV6VVIfnZ20qWSnyvIje7BUGuZlibzarZ8Hlpy6T0ib5gvGJBKLghSKvw/640?wx_fmt=png",
+            "near_text": "Figure 3. A, in the middle segment of the right lung, there is marked widening of the ridge between the middle and lower lobes; B, widening of the ridge between the dorsal segments, with localized new nodules and vascular proliferation; C, neoplastic growth and protrusion at the opening of the basal segment of the right lower lobe, causing luminal stenosis; D, nodule in the dorsal segment of the right lower lobe",
+            "local_src": "cleaned_cases_image_cache/1e14fa089a9a52fbf9369db99763cd421087e4d7.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Lung cancer with metastases to the mediastinal lymph nodes, right pleura, and brain",
+            "evidence": [
+              "Although the duration of illness is short, the patient has fatigue, headache, and chest pain; the symptoms are atypical.",
+              "Chest CT showed partial atelectasis of the right lower lobe, narrowing of the right lower lobe bronchus, and enhancement on contrast-enhanced scan, with CT values of approximately 57/52 HU at each phase.",
+              "Enlarged lymph nodes are seen in the right hilar region, right paratracheal region, and subcarinal region; the largest measures approximately 3.6 cm × 2.2 cm",
+              "Bronchoscopy showed a neoplasm in the right lower lobe causing luminal obstruction and stenosis."
+            ],
+            "exclusion_reasons": [
+              "Among tumor markers, only carbohydrate antigen CA125 was elevated at 69.50 U/ml, and in terms of the characteristics of lung cancer markers, it is not very specific.",
+              "At the time of the second biopsy of the right lower lobe lesion, necrosis and granulation tissue were present at the site of the original biopsy lesion; the retrieved specimen was relatively dark red and soft.",
+              "Brain MRI showed no evidence of malignant lesions."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "The patient has fatigue and low-grade fever",
+              "The imaging features are mainly atelectasis rather than a typical soft-tissue opacity, accompanied by hilar and mediastinal lymphadenopathy",
+              "Endobronchial neoplastic growth seen microscopically"
+            ],
+            "exclusion_reasons": [
+              "At disease onset, the blood count showed elevated white blood cell count and neutrophil percentage.",
+              "PPD and T-SPOT-TB were both negative",
+              "Sputum and lavage fluid acid-fast stain negative",
+              "No typical bronchial TB changes such as intraluminal granulomas or bronchial wall necrosis were seen microscopically.",
+              "Pathology showed no granulomatous changes"
+            ]
+          },
+          {
+            "name": "Nontuberculous mycobacterial pulmonary disease",
+            "evidence": [
+              "The patient had an acute onset over a short period, with fever; the initial complete blood count indicated elevated blood cell counts, which later decreased to normal.",
+              "No yellow sputum, small amount of white sputum",
+              "Imaging showed extensive atelectatic changes, with mediastinal and hilar lymphadenopathy; there was little change on imaging after prior anti-infective treatment.",
+              "PCT negative",
+              "PPD and T-SPOT-TB were both negative; acid-fast staining of sputum and lavage fluid was negative.",
+              "Bronchoscopy showed a neoplastic-appearing change, but the biopsy tissue was dark red and friable; on repeat bronchoscopy, necrosis and granulation tissue rapidly appeared at the original biopsy site.",
+              "BALF: (gene chip method) 13-item bacterial panel and bacterial species identification: Mycobacterium species identification: suggests Mycobacterium chelonae/abscessus, copy number 1667"
+            ],
+            "exclusion_reasons": [
+              "Pathology from the initial conventional biopsy and the second cryobiopsy indicated: chronic inflammation of the bronchial mucosa with granulation tissue formation, and severe chronic inflammation of the bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium and inflammatory exudation, necrosis, granulation tissue proliferation, and marked eosinophilic infiltration. Some cells showed highly active proliferation, and focal squamous epithelium showed mild atypical hyperplasia. Neither showed typical granulomatous lesion features; acid-fast stain was negative."
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "The patient had a short duration of illness onset, with fever, and the complete blood count indicated an elevated white blood cell count.",
+              "No yellow sputum, small amount of white sputum",
+              "Imaging showed extensive atelectatic changes, with mediastinal and hilar lymphadenopathy; there was little change on imaging after prior anti-infective treatment.",
+              "PCT negative",
+              "PPD and T-SPOT-TB were both negative; acid-fast staining of sputum and lavage fluid was negative."
+            ],
+            "exclusion_reasons": [
+              "Bronchoscopic examination showed neoplastic changes",
+              "Cryobiopsy specimens were sent to different institutions for pathologic examination, which indicated chronic inflammation of the bronchial mucosa with granulation tissue formation, as well as severe chronic inflammation of the bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium and inflammatory exudation, necrosis, granulation tissue proliferation, and marked eosinophilic infiltration; some cells showed highly active proliferation, and focal squamous epithelium showed mild atypical hyperplasia. The organizing change was atypical."
+            ]
+          },
+          {
+            "name": "Atypical pneumonia",
+            "evidence": [
+              "The patient had a short duration of illness onset, with fever, and the complete blood count indicated an elevated white blood cell count.",
+              "Cough and sputum production, with headache and chest pain",
+              "Imaging suggests atelectasis, with little change in symptoms after prior anti-infective therapy"
+            ],
+            "exclusion_reasons": [
+              "The patient had no typical features of bacterial infection such as high fever or yellow sputum.",
+              "Although imaging suggests atelectasis, there is corresponding bronchial stenosis with mediastinal and hilar lymphadenopathy.",
+              "PCT not elevated",
+              "No bacteria or fungi were cultured from sputum or lavage fluid obtained by bronchoscopy.",
+              "Bronchoscopic examination showed neoplastic changes"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lung cancer with metastases to the mediastinal lymph nodes, right pleura, and brain",
+        "evidence": [
+          "Although the duration of illness is short, the patient has fatigue, headache, and chest pain; the symptoms are atypical.",
+          "Chest CT showed partial atelectasis of the right lower lobe, narrowing of the right lower lobe bronchus, and enhancement on contrast-enhanced scan, with CT values of approximately 57/52 HU at each phase.",
+          "Enlarged lymph nodes are seen in the right hilar region, right paratracheal region, and subcarinal region; the largest measures approximately 3.6 cm × 2.2 cm",
+          "Bronchoscopy showed a neoplasm in the right lower lobe causing luminal obstruction and stenosis."
+        ],
+        "exclusion_reasons": [
+          "Among tumor markers, only carbohydrate antigen CA125 was elevated at 69.50 U/ml, and in terms of the characteristics of lung cancer markers, it is not very specific.",
+          "At the time of the second biopsy of the right lower lobe lesion, necrosis and granulation tissue were present at the site of the original biopsy lesion; the retrieved specimen was relatively dark red and soft.",
+          "Brain MRI showed no evidence of malignant lesions."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "The patient has fatigue and low-grade fever",
+          "The imaging features are mainly atelectasis rather than a typical soft-tissue opacity, accompanied by hilar and mediastinal lymphadenopathy",
+          "Endobronchial neoplastic growth seen microscopically"
+        ],
+        "exclusion_reasons": [
+          "At disease onset, the blood count showed elevated white blood cell count and neutrophil percentage.",
+          "PPD and T-SPOT-TB were both negative",
+          "Sputum and lavage fluid acid-fast stain negative",
+          "No typical bronchial TB changes such as intraluminal granulomas or bronchial wall necrosis were seen microscopically.",
+          "Pathology showed no granulomatous changes"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Nontuberculous mycobacterial pulmonary disease",
+        "evidence": [
+          "The patient had an acute onset over a short period, with fever; the initial complete blood count indicated elevated blood cell counts, which later decreased to normal.",
+          "No yellow sputum, small amount of white sputum",
+          "Imaging showed extensive atelectatic changes, with mediastinal and hilar lymphadenopathy; there was little change on imaging after prior anti-infective treatment.",
+          "PCT negative",
+          "PPD and T-SPOT-TB were both negative; acid-fast staining of sputum and lavage fluid was negative.",
+          "Bronchoscopy showed a neoplastic-appearing change, but the biopsy tissue was dark red and friable; on repeat bronchoscopy, necrosis and granulation tissue rapidly appeared at the original biopsy site.",
+          "BALF: (gene chip method) 13-item bacterial panel and bacterial species identification: Mycobacterium species identification: suggests Mycobacterium chelonae/abscessus, copy number 1667"
+        ],
+        "exclusion_reasons": [
+          "Pathology from the initial conventional biopsy and the second cryobiopsy indicated: chronic inflammation of the bronchial mucosa with granulation tissue formation, and severe chronic inflammation of the bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium and inflammatory exudation, necrosis, granulation tissue proliferation, and marked eosinophilic infiltration. Some cells showed highly active proliferation, and focal squamous epithelium showed mild atypical hyperplasia. Neither showed typical granulomatous lesion features; acid-fast stain was negative."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Transbronchial cryobiopsy",
+          "basis_in_stage3_input": "On Day +6, bronchoscopy with cryobiopsy showed: extrinsic compressive bulging of the lateral wall of the right middle lobe; a neoplasm obstructing the lumen in the basal segment of the right lower lobe with necrotic material adherent to the surface; cryosection and forceps biopsy specimens were sent for pathologic examination. New granulation tissue was visible in the dorsal segment of the right lower lobe.",
+          "why_order_this_exam": "The patient is a 65-year-old man with a long smoking history. At admission, cough, sputum production, low-grade fever, and fatigue had progressively worsened. Chest CT showed narrowing of the right lower lobe bronchus, partial atelectasis, hilar and mediastinal lymphadenopathy, and right pleural effusion. Bronchoscopy further showed a neoplasm in the basal segment of the right lower lobe obstructing the lumen. The primary clinical issue that must first be resolved is whether the obstruction is neoplastic or caused by an infectious/inflammatory granulomatous lesion. Previous routine biopsy showed only chronic inflammation and fibrous tissue hyperplasia, which was not fully consistent with the imaging and bronchoscopic appearance of a 'neoplasm,' and there were problems of superficial sampling, interference from necrotic tissue, and insufficient specimen volume. Cryobiopsy can obtain larger, deeper, and more intact tissue samples, and is especially suitable for characterization of lesions with necrosis, granulomas, and endobronchial obstruction. It may help improve the differential diagnostic yield for lung cancer, bronchial TB, nontuberculous mycobacteria-related granulomatous lesions, and other inflammatory lesions, and provide key histopathologic evidence for subsequent selection of medical anti-infective treatment versus an oncologic treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination",
+          "basis_in_stage3_input": "Cryobiopsy and forceps biopsy specimens were submitted for pathological examination.",
+          "why_order_this_exam": "The core clinical dilemma in this case is that both imaging and endoscopic findings strongly suggest an occupying lesion: stenosis and obstruction of the right lower lobe bronchus, atelectasis, mediastinal and hilar lymphadenopathy, and pleural effusion; moreover, the patient is elderly and has a smoking history. However, infectious markers had also been elevated, and earlier there had been fever, cough, and white sputum, indicating that an infectious lesion also warrants attention. Pathologic examination of the cryobiopsy and forceps biopsy specimens is the most direct and critical method for definitive characterization, and can determine whether there are changes such as malignant tumor, necrotizing inflammation, granulation tissue formation, epithelial atypical hyperplasia, and eosinophilic infiltration, thereby explaining why the lesion appeared as a 'neoplasm' on bronchoscopy. The purpose of this examination is to clarify the nature of the lesion, exclude important differential diagnoses such as lung cancer and TB, identify the degree of inflammatory response and tissue injury, and on this basis decide whether to continue anti-infective treatment and observation with follow-up, or to proceed with further oncologic or surgical evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid (gene chip method): 13-item bacterial panel and bacterial species identification",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid: (gene chip method) 13 bacterial targets and species identification: Mycobacterial species identification: suggests M. chelonae/M. abscessus, copy number 1667.",
+          "why_order_this_exam": "Although the patient’s illness began with cough after exposure to cold, low-grade fever, and elevated inflammatory markers, routine sputum culture, BALF bacterial and fungal cultures, and acid-fast staining were all negative, PCT was normal, and the early empiric anti-infective therapy was ineffective, suggesting insufficient evidence for common bacterial infection. Meanwhile, the imaging and microscopic findings could not be explained solely by ordinary pneumonia. BALF gene chip pathogen testing can improve detection of special pathogens, especially mycobacteria-related pathogens, when routine cultures are negative, thereby resolving the key question of ‘tumor or special infection.’ This test is of important value for identifying difficult-to-culture pathogens, narrowing the differential diagnosis among TB, nontuberculous mycobacteria, and other infectious lesions, and reducing the risk of misclassification as tumor based on morphology alone. It also directly affects the direction of subsequent antimicrobial therapy and whether long-term targeted treatment is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycobacterial species identification",
+          "basis_in_stage3_input": "Mycobacterial species identification: suggests Mycobacterium chelonae/abscessus, copy number 1667.",
+          "why_order_this_exam": "In the context of negative PPD and T-SPOT-TB results, negative acid-fast staining of sputum and lavage fluid, no typical tuberculous granulomas on pathology, and microscopic lesions showing neoplasm-like obstruction with necrosis and a background of granulation tissue formation, simply confirming the presence or absence of mycobacteria is still insufficient to guide diagnosis and treatment; further species identification is the निर्णating step. This is because Mycobacterium tuberculosis and nontuberculous mycobacteria differ significantly in isolation requirements, treatment drug combinations, treatment duration, and prognostic assessment, while Mycobacterium chelonae/abscessus belongs to the relatively difficult-to-treat rapidly growing mycobacteria in clinical practice. Definitive species identification is of key importance for explaining the patient's endobronchial granuloma-like proliferation, mediastinal and hilar lymphadenopathy, and atelectasis. The main clinical purpose of this test is to confirm the nature of the pathogen, exclude pulmonary TB, support the diagnosis of nontuberculous mycobacterial pulmonary disease, and provide a basis for subsequent regimen selection such as amikacin, azithromycin, and moxifloxacin.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up CT",
+          "basis_in_stage3_input": "The thoracic surgery department in the MDT consultation recommended continuing medical therapy and dynamic follow-up CT.",
+          "why_order_this_exam": "Although the lavage fluid gene chip suggested Mycobacterium chelonae/abscessus, and the pathology was also more suggestive of severe chronic inflammation with necrosis and granulation tissue hyperplasia, the initial imaging and bronchoscopic appearance in this case were highly similar to an occupying lesion, and the pathology still contained components requiring vigilance, such as 'some cells showing highly active proliferation' and 'mild atypical hyperplasia of focal squamous epithelium'; therefore, imaging follow-up cannot be completely discontinued on the basis of a single result alone. The MDT recommended dynamic repeat CT, with the aim of continuously assessing the change trends of the right lower lobe lesion, bronchial obstruction changes, mediastinal and hilar lymph nodes, and pleural effusion, and further verifying whether they gradually resolve with anti-mycobacterial/anti-infective treatment. This examination can monitor treatment response and detect early lesion progression or imaging findings inconsistent with expectations without adding significant invasive risk, thereby determining whether to continue the current medical regimen or whether repeat tissue sampling is needed, with re-evaluation for a neoplastic lesion or adjustment of the treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS test",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +6, bronchoscopy with cryobiopsy showed: extrinsic compressive bulging of the lateral wall of the right middle lobe; a neoplasm obstructing the lumen of the basal segment of the right lower lobe with surface-adherent necrosis; frozen section from cryobiopsy and forceps biopsy specimens were submitted for pathologic examination. Neogranulation tissue was seen in the dorsal segment of the right lower lobe. Bronchoalveolar lavage fluid: (gene chip method) 13-item bacterial panel with species identification: Mycobacterium species identification suggested M. abscessus/M. chelonae, copy number 1667. Bronchoscopic pathology on Day +8 showed: [biopsy of the basal segment of the right lower lobe] chronic inflammation of the bronchial mucosa with granulation tissue formation. Bronchoscopic pathology result on Day +15: (basal segment of the right lower lobe) severe chronic inflammation of bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium, inflammatory exudation, necrosis, granulation tissue proliferation, and a large number of eosinophil infiltrates; some cells showed highly active proliferation, and focal squamous epithelium showed mild atypical hyperplasia. MDT consultation: thoracic surgery recommended continuing medical treatment and dynamic follow-up with CT. Repeat complete blood count on Day +13: eosinophil percentage 12.3%↑. Repeat chest CT on Day +13: the extent of the right lower lobe lesion was reduced compared with before, and the right pleural effusion was decreased compared with before.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIlblhZuC0oXvrrcEwNaGP51CicBs2dmYlLmyyZLZJLkGWTIR9NSyt0Tg/640?wx_fmt=png",
+          "near_text": "Figure 4. A, neoplasm in the basal segment of the right lower lobe, with surface necrosis; B, focal granulation tissue formation in the necrotic area; C, cryobiopsy of the lesion in the basal segment of the right lower lobe; D, nodule in the dorsal segment of the right lower lobe",
+          "local_src": "cleaned_cases_image_cache/89da3464a5c6991e8dd361fdcf37839941dfbcb3.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIXPUCN4MibF1r4YXjD2TbtfVAC1htRoFcplg7ib2iaZl2YxosQEicV3ycnw/640?wx_fmt=png",
+          "near_text": "Figure 5. Chest CT: Day +13",
+          "local_src": "cleaned_cases_image_cache/b1386ce133ac5345b4b5ca323dd3bbcb53806ce5.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKI8J7CtOMzib8nTa6XJSxRSj6ibhXvppCviav6Zv5w3EwKjl2WLwziapV7YA/640?wx_fmt=png",
+          "near_text": "Figure 6. Chest CT: Day +30",
+          "local_src": "cleaned_cases_image_cache/fb76fbd4c8b7f03dabdbbe37f0981f6484757896.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJ0ykpb2LGic6cJEicAxewqKIs7t49Buwf8fibZ4DzSjtdnXk3eIGT99nUJG8DdbGib2yqXhhbjpkEeAQ/640?wx_fmt=png",
+          "near_text": "Figure 7 Chest CT: Day +44",
+          "local_src": "cleaned_cases_image_cache/2c44bf9bb1cd2570139ff791d74960e61b595c14.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Nontuberculous mycobacterial pulmonary disease (right lower, M. chelonae/M. abscessus)",
+      "diagnostic_basis": [
+        "Basic characteristics: elderly male, short duration of onset, no special features in the medical history.",
+        "Symptoms: cough, sputum production, and other respiratory symptoms; low-grade fever, fatigue, accompanied by headache and chest pain.",
+        "Physical signs: except for decreased breath sounds in the right lower lobe, no other obvious abnormalities.",
+        "Ancillary examinations: Chest CT - partial atelectasis of the right lower lobe, narrowing of the right lower lobe bronchus, enhancement on contrast-enhanced scan, CT values of approximately 57/52 HU in each phase; enlarged lymph nodes at the right hilum and right paratracheal and subcarinal regions, the largest measuring approximately 3.6 cm × 2.2 cm; small right pleural effusion. Bronchoscopy - neoplasm at the orifice of the basal segment bronchus of the right lower lobe, causing luminal obstruction and stenosis; nodule in the dorsal segment of the right lower lobe. Cryobiopsy pathology - severe chronic inflammation of bronchial mucosal tissue with squamous metaplasia of the mucosal epithelium and inflammatory exudation, necrosis, granulation tissue proliferation, and extensive eosinophilic infiltration; some cells show highly active proliferation; focal mild atypical hyperplasia of the squamous epithelium. Lavage fluid - (gene chip method) 13-item bacterial panel and species identification. Mycobacterial species identification - suggests Mycobacterium chelonae/abscessus, copy number 1667."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Amikacin injection 700 mg IV drip once daily",
+        "Azithromycin 250 mg orally once daily",
+        "Continue treatment with moxifloxacin tablets 0.4 g once daily"
+      ],
+      "treatment_response": [
+        "The patient had no cough or sputum production, no chest tightness or shortness of breath, and no discomfort such as headache.",
+        "Repeat chest CT on Day +30 showed: the extent of the lesion in the right lower lobe was reduced compared with before; the right pleural effusion was essentially absorbed; the mediastinal and right hilar lymph nodes were somewhat smaller than before.",
+        "Follow-up chest CT on Day +44 showed that the extent of the lesion in the right lower lobe was slightly smaller than before, the right pleural effusion was essentially absorbed, and there was no significant change in the mediastinal and right hilar lymph nodes compared with before."
+      ]
+    }
+  }
+}

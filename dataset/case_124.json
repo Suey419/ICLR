@@ -1,0 +1,364 @@
+{
+  "status": "success",
+  "case_id": "case_124",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 34 years old, from Xinyang, Henan, engaged in farming. She was admitted to the Department of Respiratory and Critical Care Medicine, The First Affiliated Hospital of Zhengzhou University, on Day +9, with the chief complaint of \"intermittent fatigue for more than 6 years, worsening for 1 year, and recurrence with chest tightness for half a month.\" Six years earlier, during preoperative evaluation for ovarian cyst surgery, she was found to have \"pulmonary hypertension\" (report unavailable). She then presented to a hospital in Shanghai, where right heart catheterization indicated idiopathic pulmonary arterial hypertension (report unavailable), and she was treated regularly with oral \"sildenafil 50 mg qd.\" One year earlier, her fatigue worsened, accompanied by cough and chest tightness. At a local hospital, pulmonary artery CTA suggested \"pulmonary embolism,\" and she was given anticoagulation, anti-infective therapy, and other symptomatic treatment, with poor effect. She later presented to a hospital in central China, where echocardiography showed: right heart enlargement, moderate tricuspid regurgitation, severe elevation of pulmonary artery pressure (approximately 80 mmHg), atrial septal defect (secundum type, right-to-left shunt), left atrial enlargement, and a small pericardial effusion. She received pulmonary artery pressure-lowering therapy, anticoagulation, diuresis, anti-infective therapy, and other symptomatic treatment. Her symptoms improved and she was discharged. Outside the hospital, she regularly took \"warfarin\" for anticoagulation and \"ambrisentan + sildenafil\" to lower pulmonary artery pressure, with acceptable symptom control. On Day 0, that is, half a month before admission, after getting chilled once, the patient developed cough and chest tightness, without fever, chest pain, palpitations, hemoptysis, acid regurgitation or heartburn, or transient visual blackening/dizziness. At a local hospital, pulmonary artery CTA showed: right pulmonary artery embolism and a small amount of inflammatory changes in both lungs. She was given anticoagulation, anti-infective therapy, and other symptomatic treatment, with suboptimal effect. On Day +9, she was admitted to the Department of Respiratory and Critical Care Medicine, The First Affiliated Hospital of Zhengzhou University, for further treatment. Past medical history, personal history, and family history were unremarkable. The patient married at the appropriate age and has one son and one daughter. Physical examination: T 36.5℃, P 89/min, R 18/min, BP 110/88 mmHg. She was alert but in poor general spirits. Breath sounds were coarse in both lungs, without dry or moist rales; no pleural friction rub was heard. Heart rhythm was regular; P2 was accentuated and split. The abdomen was soft and non-tender, and there was no edema in either lower extremity. Laboratory tests: CBC: WBC 4.37×10^9/L, Hb 157 g/L, PLT 62×10^9/L. Urinalysis and stool routine were normal; infectious disease results showed no abnormalities. Inflammatory markers: CRP 0.5 mg/L, ESR 4 mm/h, PCT 0.004 ng/mL. Biochemistry: ALT/AST 21/22 U/L, Alb 43.3 g/L, Scr 72 μmol/L, LDH 260 U/L. Coagulation: D-dimer 0.52 mg/L. Cardiac markers: PRO-BNP 2116 pg/ml, Cn-T 0.006 ng/mL. Arterial blood gas: pH 7.449, PaO2 78.9 mmHg, PaCO2 34 mmHg, SaO2 96.1%. Comprehensive connective tissue disease antibodies and four ANCA items were negative; anticardiolipin antibody indices were normal; lupus anticoagulant was unremarkable. Ancillary examination findings were as follows: On Day -2356, echocardiography at The First Affiliated Hospital of Zhengzhou University showed: 1. Right heart enlargement (right atrial diameter 40*52, right ventricular diameter 29 mm) and pulmonary artery dilatation (main pulmonary artery internal diameter 38 mm, left pulmonary artery internal diameter 22 mm, right pulmonary artery internal diameter 21 mm). 2. Mild tricuspid regurgitation (peak velocity 4.1 m/s); estimated pulmonary artery systolic pressure 80 mmHg. On the same day, pulmonary artery CTA showed no obvious abnormality, and no definite thrombus was seen in the left atrium or pulmonary veins within the scanned field. On Day -374, echocardiography at a hospital in central China showed: right heart enlargement, moderate tricuspid regurgitation, severe elevation of pulmonary artery pressure (approximately 80 mmHg), atrial septal defect (secundum type, right-to-left shunt), left atrial enlargement, and a small pericardial effusion. On Day 0, pulmonary artery CTA at a people's hospital in Henan Province showed: right pulmonary artery embolism. Please correlate clinically; follow-up examination after treatment is recommended. On the same day, combined head and neck CTA showed: atherosclerosis of the head and neck arteries. Calcified plaques at the bifurcations of both common carotid arteries and the siphon segments of the internal carotid arteries, with approximately mild luminal stenosis; occlusion of the M1 segment of the left middle cerebral artery; approximately severe stenosis of the M1 segment of the right middle cerebral artery. On Day +3, chest CT at a people's hospital in Henan Province showed: a small amount of inflammatory changes in both lungs; enlarged cardiac silhouette and dilated pulmonary artery; please correlate clinically.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "supporting_evidence": [
+            "The patient has progressive fatigue and chest tightness, and already has clear manifestations of pulmonary arterial hypertension.",
+            "Pulmonary artery CTA on Day 0 showed “right pulmonary artery embolism”",
+            "Pulmonary artery CTA at a local hospital 1 year ago also indicated “pulmonary embolism”",
+            "After anticoagulant therapy, “poor response” or “suboptimal response” suggests that, beyond a simple acute event, chronic thrombotic burden-related pulmonary arterial hypertension should be considered.",
+            "Serial echocardiography has long shown right heart enlargement, tricuspid regurgitation, and pulmonary artery pressure of approximately 80 mmHg, consistent with increased right heart load due to pulmonary arterial hypertension.",
+            "Pulmonary hypertension was already present in 2016, followed by recurrent imaging evidence of pulmonary embolism; clinically, CTEPH should be highly suspected."
+          ],
+          "opposing_evidence": [
+            "Pulmonary artery CTA on Day -2356 showed no obvious abnormalities, indicating that when pulmonary hypertension was initially identified, there was no definite CTA evidence of embolism.",
+            "D-dimer 0.52 mg/L was not significantly elevated, which does not support an active large acute thrombotic burden, but chronic thromboembolic disease cannot be excluded"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary arterial hypertension associated with congenital heart disease (associated with atrial septal defect, with possible Eisenmenger physiology)",
+          "supporting_evidence": [
+            "In 2021, echocardiography clearly indicated \"atrial septal defect (ostium secundum type, right-to-left shunt)\"",
+            "There is severe elevation of pulmonary artery pressure (approximately 80 mmHg), right heart enlargement, and moderate tricuspid regurgitation, consistent with chronic increased pressure load on the pulmonary circulation.",
+            "A right-to-left shunt suggests that pulmonary vascular resistance may be markedly elevated; pulmonary arterial hypertension associated with congenital shunt heart disease should be considered, and even Eisenmenger physiology.",
+            "The patient has been taking pulmonary arterial pressure-lowering medications such as ambrisentan and sildenafil orally for a long time, indicating that pulmonary arterial hypertension has already been under long-term clinical management."
+          ],
+          "opposing_evidence": [
+            "In the information provided when pulmonary arterial hypertension was identified in 2016, there was not yet any indication of an atrial septal defect, and it cannot be confirmed that the atrial septal defect was the initial and primary cause.",
+            "Subsequent multiple pulmonary artery CTA examinations indicated pulmonary embolism/right pulmonary artery embolism, suggesting that thromboembolic factors may also be involved in the condition."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Idiopathic pulmonary arterial hypertension (IPAH)",
+          "supporting_evidence": [
+            "Pulmonary hypertension was identified preoperatively 6 years ago, and right heart catheterization had indicated primary pulmonary arterial hypertension.",
+            "A 2016 echocardiogram showed right heart enlargement, dilatation of the pulmonary artery, and an estimated pulmonary artery systolic pressure of 80 mmHg, suggesting that significant pulmonary hypertension was already present at an early stage",
+            "Pulmonary artery CTA performed on the same day in 2016 showed no obvious abnormalities; no definite embolus was seen in the left atrium or in the pulmonary veins included in the scan, supporting that there was no definite imaging evidence of thromboembolism at that time.",
+            "Connective tissue disease antibody panel and four ANCA items negative; anticardiolipin antibody normal; no abnormality in lupus anticoagulant, reducing the likelihood of some secondary causes of pulmonary hypertension"
+          ],
+          "opposing_evidence": [
+            "In 2021, echocardiography indicated an atrial septal defect (secundum type, right-to-left shunt), representing a definite other potential etiology and arguing against a diagnosis of isolated idiopathic pulmonary arterial hypertension.",
+            "In 2021 and 2022, there was evidence of pulmonary embolism/right pulmonary artery embolism, also suggesting possible thromboembolic pulmonary hypertension."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Acute or subacute recurrent pulmonary thromboembolism (APE/recurrent PE)",
+          "supporting_evidence": [
+            "After catching a chill on Day 0, the patient developed cough and chest tightness. Pulmonary artery CTA showed \"right pulmonary artery embolism\".",
+            "1 year ago, the patient also presented for worsening fatigue accompanied by cough and chest tightness; pulmonary artery CTA indicated \"pulmonary embolism\"",
+            "This episode of symptoms recurred within the past half month, and the response to anticoagulation at a local hospital was suboptimal; recurrent or residual embolism should be considered.",
+            "Chest tightness, mild hypoxemia (PaO2 78.9 mmHg), and elevated PRO-BNP 2116 pg/ml may be seen in pulmonary embolism with increased right heart load"
+          ],
+          "opposing_evidence": [
+            "Vital signs were relatively stable, with no hypotension, no significant tachycardia, and no syncope.",
+            "No chest pain or hemoptysis; D-dimer 0.52 mg/L not significantly elevated, not atypically supportive of massive acute pulmonary embolism",
+            "The patient already has long-standing severe pulmonary hypertension and right heart changes; the current symptoms may also be mainly due to progression of the underlying pulmonary vascular disease."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "In situ pulmonary artery thrombosis (in situ pulmonary arterial thrombosis)",
+          "supporting_evidence": [
+            "The patient has long-standing severe pulmonary hypertension and dilation of the pulmonary artery, and hemodynamic abnormalities may increase the likelihood of in situ pulmonary artery thrombosis.",
+            "There was already obvious pulmonary hypertension in 2016, and pulmonary artery CTA at that time showed no definite embolus, suggesting that the pulmonary hypertension preceded the subsequent imaging appearance of \"pulmonary embolism\"",
+            "Follow-up CTA showed right pulmonary artery embolism, but the response to anticoagulant therapy was poor; it is necessary to consider that this may not be a typical embolism originating from the peripheral veins, but rather in situ thrombosis within the pulmonary artery."
+          ],
+          "opposing_evidence": [
+            "No lower extremity venous ultrasound, embolus morphologic features, or other direct evidence distinguishing embolism from in situ thrombosis were provided in the first-stage information.",
+            "The imaging report directly describes “pulmonary embolism/right pulmonary artery embolism,” but clinically it should still first be considered as thromboembolic disease."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary infection/bronchitis with decompensation of underlying pulmonary hypertension",
+          "supporting_evidence": [
+            "Before this episode, the patient developed cough and chest tightness after catching a cold.",
+            "Chest CT on Day +3 showed \"mild inflammatory changes in both lungs\"",
+            "Coarse breath sounds in both lungs, suggesting possible inflammatory irritation of the airways or lungs",
+            "Infection or airway inflammation may trigger worsening of symptoms in patients with pre-existing severe pulmonary hypertension"
+          ],
+          "opposing_evidence": [
+            "No fever",
+            "Inflammatory markers CRP 0.5 mg/L, ESR 4 mm/h, and PCT 0.004 ng/mL do not support significant bacterial infection.",
+            "Chest CT showed only \"mild inflammatory changes in both lungs,\" which is insufficient to explain long-standing severe pulmonary hypertension and recurrent increased right heart load.",
+            "There are cardiopulmonary vascular causes that better explain the symptoms, such as definite pulmonary embolism and atrial septal defect."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease screening",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP、ESR、PCT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Liver and kidney function, electrolytes, LDH, albumin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "pro-BNP, troponin T",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Connective tissue disease autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA panel (4 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "lupus anticoagulant",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "required"
+        },
+        {
+          "exam": "Head and neck CTA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-exome sequencing (BMPR2)",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission: color Doppler ultrasound of the bilateral lower extremity veins showed no abnormalities; echocardiography was as follows: Ultrasound findings: 2D and M-mode features: 1. Right heart enlargement, compressed and reduced left ventricle with a D-shaped configuration, dilated pulmonary artery; internal diameters of the main trunk and left and right pulmonary arteries were approximately 44 mm, 26 mm, and 25 mmm. The left atrial dimension and aortic root diameter were within normal range. 2. Right ventricular wall thickening, with anterior wall thickness approximately 9 mm; left ventricular wall thickness was normal; the interventricular septum and left ventricular posterior wall showed concordant motion. 3. Morphology, echogenicity, and motion of all valves were normal. 4. The continuity of the interventricular septum was intact. At the mid-atrial septum (foramen ovale), a right-to-left shunt jet was detected, approximately 4.5 mm in width. 5. Inferior vena cava diameter 26 m, with unobstructed blood flow, decreased physiologic pulsation, and collapse rate <50%. 6. No obvious fluid-filled echo-free space was seen in the pericardial cavity. CDFI: 1. Right-to-left shunt at the atrial level; no shunt at the ventricular level or great artery level. 2. A small amount of regurgitant signal was detected at the mitral valve orifice during systole; a moderate amount of regurgitant signal was detected at the tricuspid valve orifice during systole; regurgitant jet width was approximately 5 mm, peak flow velocity 4.8 m/s, estimated pulmonary artery systolic pressure 107 mmHg (with right atrial pressure calculated as 15 mmHg); no abnormal blood flow signals were seen at the remaining valve orifices. Ultrasound impression: 1. Pulmonary hypertension (severe); 2. Moderate tricuspid regurgitation; 3. Mild mitral regurgitation; 4. Right heart enlargement with compressed and reduced left ventricle; 5. Right ventricular wall thickening; 6. Pulmonary artery dilatation; 7. Right-to-left shunt at the atrial level (consider patent foramen ovale or reopening). Pulmonary artery CTA: a filling defect was seen in the right pulmonary artery, and the embolus appeared to have a relatively smooth surface.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRyYzThlHovL9kt2BQNdmj8lLhYnkicdOBLMzx28XIQZLp1puhsbVtpVCg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Ultrasound findings:",
+            "local_src": "cleaned_cases_image_cache/f7887e7d4be3c0a63b49ef7022c764d3b796c22b.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRy8QicUL8fhU1E5V7NY7qRLOOd1rpicRba9awdzX5iapdhd9dCariblVuECA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Ultrasound findings:",
+            "local_src": "cleaned_cases_image_cache/2f32ddf5b2f7ac70d81b4ad60ad2612664d98e5b.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRy92Q2QDkTrH6ibsicx9hHt0F87Tjv5boUszzM2bBuLckbsbUialROhQOjA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Discussion question:",
+            "local_src": "cleaned_cases_image_cache/0e7d931746f56b875cfd368f39414295a753bfe6.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRyFn14jszq0NCHhCfGWibN6KB92LfJqNRlsAvayKbbt2eHUFiaKr9AH2Gw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Discussion question:",
+            "local_src": "cleaned_cases_image_cache/406ab6eb790d973ea0177d850a95f1bc24362751.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Heritable pulmonary arterial hypertension (BMPR2 mutation-related)",
+            "evidence": [
+              "Young woman, insidious onset, severe pulmonary hypertension at the time of diagnosis",
+              "Previously diagnosed by right heart catheterization with Group 1 pulmonary arterial hypertension",
+              "No secondary factors such as connective tissue disease, left heart disease, lung disease, or HIV",
+              "Whole-exome sequencing detected a pathogenic mutation in the BMPR2 gene, establishing a definitive etiology for hereditary pulmonary arterial hypertension",
+              "BMPR2 mutation may explain the features of early disease onset, mild symptoms, but markedly elevated pulmonary arterial pressure"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+            "evidence": [
+              "Pulmonary embolism diagnosed 1 year ago; outpatient anticoagulation was irregular, and INR did not reach the target range",
+              "This pulmonary artery CTA showed a filling defect in the right pulmonary artery.",
+              "Pulmonary artery pressure progressively increased from 80 mmHg to 107 mmHg over a short period of time",
+              "Smooth-edged filling defect, growing along the direction of blood flow, without enhancement"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Behçet disease-associated pulmonary vasculitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No recurrent oral ulcers, vulvar ulcers, rash, uveitis, or other typical manifestations of Behcet disease",
+              "Immunologic antibodies and ANCA were both negative"
+            ]
+          },
+          {
+            "name": "Takayasu arteritis (pulmonary artery type)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Imaging shows focal stenosis of the right pulmonary artery, not the diffuse vascular wall thickening and continuous stenosis typical of large-vessel arteritis.",
+              "Immune markers and color Doppler ultrasonography of the blood vessels both showed no evidence of large-vessel arteritis."
+            ]
+          },
+          {
+            "name": "Primary pulmonary artery sarcoma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "CTA showed a smoothly marginated filling defect, growing along the direction of blood flow, without enhancement, and without the \"wall-eclipsing sign\".",
+              "Without the typical features of pulmonary artery sarcoma, namely heterogeneous enhancement and growth against blood flow",
+              "The family refused further differentiation with PET-CT."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Heritable pulmonary arterial hypertension (BMPR2 mutation-related)",
+        "evidence": [
+          "Young woman, insidious onset, severe pulmonary hypertension at the time of diagnosis",
+          "Previously diagnosed by right heart catheterization with Group 1 pulmonary arterial hypertension",
+          "No secondary factors such as connective tissue disease, left heart disease, lung disease, or HIV",
+          "Whole-exome sequencing detected a pathogenic mutation in the BMPR2 gene, establishing a definitive etiology for hereditary pulmonary arterial hypertension",
+          "BMPR2 mutation may explain the features of early disease onset, mild symptoms, but markedly elevated pulmonary arterial pressure"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+        "evidence": [
+          "Pulmonary embolism diagnosed 1 year ago; outpatient anticoagulation was irregular, and INR did not reach the target range",
+          "This pulmonary artery CTA showed a filling defect in the right pulmonary artery.",
+          "Pulmonary artery pressure progressively increased from 80 mmHg to 107 mmHg over a short period of time",
+          "Smooth-edged filling defect, growing along the direction of blood flow, without enhancement"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Behçet disease-associated pulmonary vasculitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No recurrent oral ulcers, vulvar ulcers, rash, uveitis, or other typical manifestations of Behcet disease",
+          "Immunologic antibodies and ANCA were both negative"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Takayasu arteritis (pulmonary artery type)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Imaging shows focal stenosis of the right pulmonary artery, not the diffuse vascular wall thickening and continuous stenosis typical of large-vessel arteritis.",
+          "Immune markers and color Doppler ultrasonography of the blood vessels both showed no evidence of large-vessel arteritis."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Primary pulmonary artery sarcoma",
+        "evidence": [],
+        "exclusion_reasons": [
+          "CTA showed a smoothly marginated filling defect, growing along the direction of blood flow, without enhancement, and without the \"wall-eclipsing sign\".",
+          "Without the typical features of pulmonary artery sarcoma, namely heterogeneous enhancement and growth against blood flow",
+          "The family refused further differentiation with PET-CT."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-exome sequencing",
+          "basis_in_stage3_input": "The team recommended that the patient undergo whole-exome sequencing; the results were as follows: a BMPR2 gene mutation was identified.",
+          "why_order_this_exam": "The patient is a 34-year-old woman. Pulmonary hypertension was identified 6 years ago before ovarian cyst surgery. She had a young age at onset, a long disease course, and clear manifestations of pulmonary hypertension early in the course. This admission was due to worsening fatigue and chest tightness. Echocardiography suggested severe pulmonary hypertension, right heart enlargement, right ventricular wall thickening, compression-related reduction in left ventricular size, and markedly elevated PRO-BNP, indicating severe pulmonary vascular disease and right heart load. Although there had previously been imaging evidence of pulmonary embolism, pulmonary artery CTA in 2016 showed no obvious abnormalities at that time, suggesting that the pulmonary hypertension cannot be fully explained by thromboembolism. At the same time, connective tissue disease antibodies, ANCA, anticardiolipin antibodies, lupus anticoagulant, and others were all negative, and there was also no evidence of left heart disease, significant pulmonary parenchymal disease, or infection. Therefore, further evaluation is needed to identify a hereditary/primary cause of pulmonary hypertension. The core clinical question for whole-exome sequencing is to determine whether there are pathogenic gene variants associated with pulmonary hypertension, especially in the context of young onset, severe disease early in the course, and negative screening for secondary causes, in order to support or establish the diagnosis of hereditary pulmonary hypertension and further distinguish it from isolated CTEPH, congenital heart disease-associated pulmonary hypertension, or idiopathic pulmonary arterial hypertension. After detection of a BMPR2 mutation, it can provide key molecular evidence for the final diagnosis and help with prognostic assessment, familial genetic risk evaluation, and selection of subsequent treatment strategies.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "To help assess prognosis and formulate a treatment plan, the team recommended that the patient undergo whole-exome sequencing. The results were as follows: a BMPR2 gene mutation was identified; it encodes bone morphogenetic protein receptor type II, which plays an important role in regulating vascular proliferation.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRy3z9PiaD7pI286ebA5VBpHicAFPCxeHyib6VKrn50ib5zNWplEEv0smxmxw/640?wx_fmt=png&from=appmsg",
+          "near_text": "The answer is thus revealed.",
+          "local_src": "cleaned_cases_image_cache/03c05795801fd308666960994d2e60b89ca1613a.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Heritable pulmonary arterial hypertension (BMPR2 mutation); 2. Pulmonary embolism",
+      "diagnostic_basis": [
+        "Whole-exome sequencing detected a BMPR2 gene mutation",
+        "Pulmonary artery CTA showed a filling defect in the right pulmonary artery; the lesion had a smooth blood-flow surface, smooth margins, and grew in the direction of blood flow, but showed no enhancement in the arterial phase"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Sildenafil 20 mg tid",
+        "ambrisentan 10 mg qd",
+        "Digoxin 12.5 mg qd",
+        "Furosemide 20 mg bid",
+        "Spironolactone 20 mg qd",
+        "fondaparinux sodium anticoagulant therapy"
+      ],
+      "treatment_response": [
+        "The patient's symptoms improved and the patient was discharged."
+      ]
+    }
+  }
+}

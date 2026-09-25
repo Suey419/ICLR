@@ -1,0 +1,406 @@
+{
+  "status": "success",
+  "case_id": "case_133",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: An 18-year-old adolescent male student from Jincheng, Shanxi Province, was admitted to the Department of Respiratory and Critical Care Medicine inpatient ward of the First Affiliated Hospital of Zhengzhou University on Day 0, with the chief complaint of \"3 days of trauma after a motor vehicle accident and 2 days of dyspnea.\" According to records from an outside hospital, the patient sustained trauma in a motor vehicle accident on Day -3, and was taken to a hospital in Zezhou County for treatment. During hospitalization there, CBC showed: WBC count 22.69×10^9/L↑, CRP: 119.1 ng/L. Chest CT showed: 1. distal right clavicle fracture; 2. dependent pneumonia? CT of both lower extremities showed a mid-shaft fracture of the right femur. Head CT showed subcutaneous soft tissue swelling around the right orbit, in the right frontal region, and in the left temporoparietal region. The hospital provided anti-infective and other treatment at that time (details unknown). On Day -2, the patient developed dyspnea with fever, with a maximum temperature of 38.7℃, accompanied by chest tightness, nausea, and agitation, without cough, sputum production, chest pain, vomiting, or others. The hospital administered oxygen inhalation and continued anti-infective and other treatment (details unknown), but the symptoms did not improve significantly, and the patient developed mild confusion. On Day 0, an emergency bedside chest radiograph showed: 1. right clavicle fracture; 2. pneumonia in both lungs. Chest CTPA showed diffuse patchy and small patchy high-density opacities in both lungs. Compared with previous imaging, the pulmonary inflammation had worsened markedly and acutely. For further diagnosis and treatment, the patient was transferred to the emergency department of our hospital on Day 0, and was admitted to our department from the emergency department with the diagnoses of \"1. Dyspnea, cause to be determined 2. Right femur fracture 3. Right clavicle fracture.\" Since onset, the patient had poor appetite and sleep; bowel and bladder function were normal; mental status was normal; and there was no weight loss. The patient was usually healthy, and the past medical history, personal history, and family history were unremarkable. At admission, we first performed a routine physical examination: temperature 36.5℃, pulse 80/min, respiratory rate 20/min, blood pressure 115/75 mmHg, SpO2 96% (nasal cannula oxygen 3 L/min), height 172 cm, weight 90.0 kg. The patient had an obese body habitus, was conscious, and appeared in poor general condition. The skin over the whole body showed no jaundice, rash, petechiae, cyanosis, or pallor; there was no edema or subcutaneous nodules. No superficial lymphadenopathy was present. The pupils were equal, round, and approximately 3 mm in diameter bilaterally, with brisk light reflexes. Respiratory movement was normal, intercostal spaces were normal, tactile fremitus was normal, there was no pleural friction fremitus, no subcutaneous crepitus, percussion was resonant, breath sounds were clear in both lungs, with no dry or moist rales, no pleural friction rub, and normal vocal resonance. Cardiac examination, abdominal examination, and neurologic examination showed no abnormalities.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARAxZmvBrQst6RFmnFbdbPWGXQZ9m2ZzrfDE1587epyWKENDZfMQALVlw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Chest CT (Day -3, performed at an outside hospital)",
+          "local_src": "cleaned_cases_image_cache/b5ea66a4ad2cdef352f04a2145e4d7a83ed87793.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARAJSmnSwG1B39ao5tNSAYM95xhnN7JsBqskx1FO45XTx72EqJYOrl67A/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2: Chest radiograph (Day 0 at an outside hospital)",
+          "local_src": "cleaned_cases_image_cache/ef78ae723485cfcceef6ae909009aa087bd78043.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARACT7rvvJp9bv7OcgcLjoYrbnrricSn7FNK6SCd4HRr3ZYP0CJF6jRYbA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/41de6ee700e1119d16439b92fe44a4cec59a6ca3.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARApolQNH4nGh21cqpOMtPjAE25wnSPzI3JlMy4gxCOSGUuQMF8CVzHqA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3: CTPA (202-07-28 at an outside hospital)",
+          "local_src": "cleaned_cases_image_cache/08f2482adb1482a7ca9371bc1a505f21b6162f15.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Fat embolism syndrome (pulmonary fat embolism)",
+          "supporting_evidence": [
+            "After a motor vehicle accident, there was a mid-shaft fracture of the right femur, which is a high-risk fracture type for fat embolism syndrome.",
+            "Dyspnea developed approximately 1 day after trauma, followed by fever, agitation, and mild confusion; the temporal sequence is consistent with the pattern of acute onset after a long-bone fracture.",
+            "Chest CTPA showed diffuse patchy and small patchy high-density opacities in both lungs, and compared with previous imaging, the pulmonary lesions had obviously acutely worsened; the imaging findings support acute diffuse pulmonary parenchymal involvement",
+            "Portable chest radiograph showed pneumonia-like changes in both lungs. Correlation with CT images demonstrated multiple bilateral scattered patchy opacities in both lungs, suggesting the possibility of diffuse pulmonary infiltrates caused by fat embolism.",
+            "The patient has respiratory symptoms, but pulmonary auscultation is basically clear; the clinical signs are not completely consistent with the extent of imaging involvement, which can be seen in fat embolism."
+          ],
+          "opposing_evidence": [
+            "The phase 1 physical examination indicated no rash or petechiae on the skin of the entire body, and no evidence of a typical petechial rash was provided.",
+            "The first-stage information did not provide explicit data on the severity of hypoxemia; on admission, SpO2 was 96% on oxygen via nasal cannula at 3 L/min.",
+            "The phase 1 information did not provide clear contradictory evidence.",
+            "No obvious fat droplets were observed in the patient's blood and urine specimens",
+            "The patient's CT findings are predominantly in the bilateral upper lungs, which is inconsistent with the imaging features of this disease, which are mainly in the bilateral lower lungs."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Post-traumatic pulmonary contusion/trauma-related acute lung injury",
+          "supporting_evidence": [
+            "A clear history of motor vehicle accident trauma, followed by the onset of dyspnea within a short period, consistent with the temporal context of post-traumatic pulmonary parenchymal injury",
+            "Imaging showed diffuse patchy and small patchy high-density opacities in both lungs, with marked worsening over a short period; this can be seen in pulmonary contusion or post-traumatic acute lung injury.",
+            "The patient has chest tightness and dyspnea, but physical examination revealed no obvious dry or wet rales; in the early stage of pulmonary contusion, physical signs may be mild while imaging abnormalities are present.",
+            "Portable chest radiograph showed pneumonia-like changes in both lungs; post-traumatic pulmonary contusion can resemble pneumonia on imaging."
+          ],
+          "opposing_evidence": [
+            "The text in the first stage does not mention obvious chest wall trauma, rib fractures, hemopneumothorax or pneumothorax, or chest pain, which does not support a diagnosis of pulmonary contusion caused by typical direct chest impact.",
+            "The initial chest CT at an outside hospital mainly indicated a distal right clavicle fracture and dependent pneumonia?; pulmonary contusion was not clearly described.",
+            "The patient's hypoxemia can be corrected with oxygen via nasal cannula; oxygen saturation, oxygenation index, etc. were not significantly decreased;"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Aspiration pneumonia/hypostatic pneumonia",
+          "supporting_evidence": [
+            "The initial chest CT at an outside hospital had already suggested \"hypostatic pneumonia?\"",
+            "The patient was hospitalized after trauma and subsequently developed fever and dyspnea; the elevated white blood cell count of 22.69×10^9/L and elevated C-reactive protein of 119.1 support an infectious or inflammatory process.",
+            "Bedside chest radiograph showed bilateral pneumonia, and chest CTPA showed diffuse patchy and small patchy high-density opacities in both lungs",
+            "The patient had nausea and mild confusion, and was bedridden after trauma, increasing the risk of aspiration and hypostatic pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "The patient did not have cough or sputum production.",
+            "On pulmonary physical examination, breath sounds were clear in both lungs, with no dry or wet rales, which was not entirely consistent with obvious pneumonia.",
+            "On imaging, there is acute diffuse worsening over a short period, with more rapid progression than uncomplicated common bacterial pneumonia."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Acute respiratory distress syndrome (ARDS)",
+          "supporting_evidence": [
+            "The patient has a clear history of severe trauma and presents with acute dyspnea.",
+            "Chest CTPA showed diffuse patchy and small patchy high-density opacities in both lungs; bedside chest radiograph showed bilateral lung involvement, consistent with diffuse bilateral infiltrates.",
+            "Imaging shows a marked acute worsening compared with previous studies, suggesting an acute diffuse lung injury process",
+            "Accompanied by fever, irritability, and mild confusion, which may be seen in a severe systemic inflammatory response or an acute hypoxia-related state"
+          ],
+          "opposing_evidence": [
+            "The stage 1 information did not provide arterial blood gas, oxygenation index, or mechanical ventilation status, so the key information required for an ARDS diagnosis cannot be met.",
+            "At admission, SpO2 was 96% on 3 L/min oxygen via nasal cannula; based on the available information, the degree of hypoxemia was not shown to be severe.",
+            "More specific underlying etiologies, such as infection, fat embolism, and pulmonary contusion, are present and can explain the ARDS-like imaging findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary thromboembolism",
+          "supporting_evidence": [
+            "The patient has high-risk factors for venous thromboembolism, including trauma, fracture, and bed rest.",
+            "Symptoms are primarily prominent dyspnea and chest tightness; pulmonary auscultation is basically clear; this clinical presentation can be seen in pulmonary embolism.",
+            "For this reason, chest CTPA was previously performed, indicating that the possibility of pulmonary vascular disease had been considered clinically."
+          ],
+          "opposing_evidence": [
+            "The CTPA results provided in the first stage described only diffuse patchy and small patchy high-density opacities in both lungs, without clear evidence of pulmonary arterial filling defects.",
+            "The patient has fever, and the white blood cell count and C-reactive protein are markedly elevated, which more strongly supports inflammation/infection or a trauma-related inflammatory response.",
+            "The imaging shows predominantly diffuse patchy opacities in the parenchyma of both lungs, which is not the typical initial presentation of isolated pulmonary embolism."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Infectious pneumonia (hospital-acquired pneumonia or community-acquired pneumonia)",
+          "supporting_evidence": [
+            "The patient has fever, with a maximum body temperature of 38.7℃",
+            "Elevated white blood cell count at 22.69×10^9/L and elevated C-reactive protein at 119.1 support infectious inflammation.",
+            "Bedside chest radiograph showed bilateral pneumonia, and chest CTPA showed diffuse patchy and small patchy high-density opacities in both lungs",
+            "The outside hospital had already administered anti-infective therapy, indicating that pulmonary infection was highly suspected clinically at that time."
+          ],
+          "opposing_evidence": [
+            "The patient did not have cough, sputum production, or chest pain.",
+            "On pulmonary examination, no dry or wet rales were heard, and breath sounds were clear.",
+            "Imaging acutely and markedly worsened within a short period after trauma, and the concomitant long-bone fracture, agitation, and mild confusion likewise require prioritizing consideration of noninfectious causes"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lower extremity ultrasound",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: arterial blood gas analysis (on oxygen) showed a partial pressure of CO2 of 34.2 mmHg, calcium 1.04 mmol/L, glucose 6.5 mmol/L, and no other obvious abnormalities. Complete blood count: white blood cell count 13.40×10^9/L↑, red blood cell count 3.92×10^9/L↑, hemoglobin 118.0 g/L↓, absolute neutrophil count 8.91×10^9/L↑, and no other obvious abnormalities. Biochemical indices: ALT 50↑ U/L, AST 51↑ U/L, GGT 156↑ U/L, total protein 53.0↓ g/L, albumin 33.3↓ g/L, triglycerides 2.05↑ mmol/L, HDL 0.77↓ mmol/L, and no other obvious abnormalities. Coagulation function: fibrinogen 4.53 g/L↑, D-dimer 0.48 mg/L↑, and no other obvious abnormalities. Myocardial markers: AST 51↑ U/L, creatine kinase 497 U/L, lactate dehydrogenase 327 U/L, α-hydroxybutyrate dehydrogenase U/L, B-type natriuretic peptide precursor 433.00 pg/ml, high-sensitivity troponin I 0.027 mg/ml. Inflammatory markers: procalcitonin 0.105↑ ng/mL, interleukin-6 23↑ pg/ml, CRP 118 mg/L↑. G test, GM test, and T-SPOT showed no obvious abnormalities. Ultrasound examination: cardiac and lower-extremity ultrasound showed no obvious abnormalities.",
+        "images": [
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARAmxTLxqpHALoJjCsibUgKiasibjVFU829hfT8Zkv14mfu8HDtzdslW4XWw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 4: Chest CT (Day +4 at our hospital)",
+            "local_src": "cleaned_cases_image_cache/3e8feaa31462cbd237501cd1d01fcc86e19a7b5e.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Fat embolism syndrome",
+            "evidence": [
+              "Recent history of trauma from a motor vehicle accident",
+              "sudden dyspnea",
+              "Imaging showed short-term progression to diffuse bilateral pulmonary sheet-like and patchy changes, with a \"snowstorm\" appearance.",
+              "Neurologic manifestations of agitation and mild confusion",
+              "Accompanied by high fever, with a maximum temperature greater than 38°C",
+              "Platelet count and hemoglobin showed a downward trend"
+            ],
+            "exclusion_reasons": [
+              "CT findings predominantly involve both upper lungs and are not consistent with the imaging characteristics of this disease, which mainly involves both lower lungs.",
+              "No obvious fat droplets were seen in the blood and urine specimens"
+            ]
+          },
+          {
+            "name": "Pulmonary thromboembolism",
+            "evidence": [
+              "Obesity",
+              "Recent history of trauma, rib and femoral fractures",
+              "prolonged bed rest and immobilization",
+              "Multiple D-dimer tests before and after admission showed elevated levels"
+            ],
+            "exclusion_reasons": [
+              "No thromboembolism was seen on lower extremity ultrasound.",
+              "No obvious filling defect was seen on CTPA"
+            ]
+          },
+          {
+            "name": "Post-traumatic acute lung injury/ARDS",
+            "evidence": [
+              "High-risk factor for motor vehicle accident trauma",
+              "Acute onset, presenting with dyspnea and chest tightness",
+              "Imaging may also show short-term progression to diffuse bilateral pulmonary infiltrative changes."
+            ],
+            "exclusion_reasons": [
+              "Hypoxia can be corrected with oxygen via nasal cannula.",
+              "No significant decrease was observed in oxygen saturation, oxygenation index, etc."
+            ]
+          },
+          {
+            "name": "Diffuse alveolar hemorrhage",
+            "evidence": [
+              "History of trauma",
+              "The lesions may present as diffuse pulmonary infiltrates with indistinct margins and may progress rapidly over a short period of time."
+            ],
+            "exclusion_reasons": [
+              "No discomfort such as blood-streaked sputum or hemoptysis",
+              "Oxygen saturation remained acceptable",
+              "Complete blood count showed hemoglobin within the normal range",
+              "No evidence from bronchoscopy or lung biopsy, etc."
+            ]
+          },
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "High fever",
+              "Marked elevation of white blood cell count and inflammatory markers",
+              "Repeated CT imaging suggested pulmonary inflammation"
+            ],
+            "exclusion_reasons": [
+              "No complaints of cough, sputum production, or other discomfort",
+              "No obvious abnormalities on pulmonary physical examination",
+              "Lack of etiologic evidence to support it",
+              "Poor response to anti-infective therapy outside the hospital"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Fat embolism syndrome",
+        "evidence": [
+          "Recent history of trauma from a motor vehicle accident",
+          "sudden dyspnea",
+          "Imaging showed short-term progression to diffuse bilateral pulmonary sheet-like and patchy changes, with a \"snowstorm\" appearance.",
+          "Neurologic manifestations of agitation and mild confusion",
+          "Accompanied by high fever, with a maximum temperature greater than 38°C",
+          "Platelet count and hemoglobin showed a downward trend"
+        ],
+        "exclusion_reasons": [
+          "CT findings predominantly involve both upper lungs and are not consistent with the imaging characteristics of this disease, which mainly involves both lower lungs.",
+          "No obvious fat droplets were seen in the blood and urine specimens"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary thromboembolism",
+        "evidence": [
+          "Obesity",
+          "Recent history of trauma, rib and femoral fractures",
+          "prolonged bed rest and immobilization",
+          "Multiple D-dimer tests before and after admission showed elevated levels"
+        ],
+        "exclusion_reasons": [
+          "No thromboembolism was seen on lower extremity ultrasound.",
+          "No obvious filling defect was seen on CTPA"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Post-traumatic acute lung injury/ARDS",
+        "evidence": [
+          "High-risk factor for motor vehicle accident trauma",
+          "Acute onset, presenting with dyspnea and chest tightness",
+          "Imaging may also show short-term progression to diffuse bilateral pulmonary infiltrative changes."
+        ],
+        "exclusion_reasons": [
+          "Hypoxia can be corrected with oxygen via nasal cannula.",
+          "No significant decrease was observed in oxygen saturation, oxygenation index, etc."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Diffuse alveolar hemorrhage",
+        "evidence": [
+          "History of trauma",
+          "The lesions may present as diffuse pulmonary infiltrates with indistinct margins and may progress rapidly over a short period of time."
+        ],
+        "exclusion_reasons": [
+          "No discomfort such as blood-streaked sputum or hemoptysis",
+          "Oxygen saturation remained acceptable",
+          "Complete blood count showed hemoglobin within the normal range",
+          "No evidence from bronchoscopy or lung biopsy, etc."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary infection",
+        "evidence": [
+          "High fever",
+          "Marked elevation of white blood cell count and inflammatory markers",
+          "Repeated CT imaging suggested pulmonary inflammation"
+        ],
+        "exclusion_reasons": [
+          "No complaints of cough, sputum production, or other discomfort",
+          "No obvious abnormalities on pulmonary physical examination",
+          "Lack of etiologic evidence to support it",
+          "Poor response to anti-infective therapy outside the hospital"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Imaging studies",
+          "basis_in_stage3_input": "Imaging demonstrates a \"snowstorm-like\" pattern in this disease.",
+          "why_order_this_exam": "Approximately 1 day after a long-bone fracture, the patient developed dyspnea, chest tightness, fever, and agitation. In a short period of time, lung imaging rapidly progressed from the outside hospital impression of \"dependent pneumonia?\" to diffuse bilateral patchy and small patchy high-density opacities, which were subsequently summarized as a \"snowstorm-like\" appearance. At this time, completing and performing serial follow-up imaging studies had the core purpose of confirming the distribution, rate of evolution, and morphologic characteristics of the diffuse bilateral pulmonary infiltrates, determining whether they were consistent with the typical imaging pattern of fat embolism syndrome, and differentiating them from post-traumatic acute lung injury/ARDS, pulmonary infection, diffuse alveolar hemorrhage, and pulmonary contusion. Imaging could also be used to assess the extent and severity of the lesions and, in combination with the clinical features of acceptable SpO2 after oxygen supplementation but obvious symptoms and no prominent findings on lung auscultation, increase diagnostic confidence for fat embolism syndrome and provide a basis for subsequent decisions on whether to continue glucocorticoids, anti-infective therapy, and adjustment of the intensity of respiratory support.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Neurological examination",
+          "basis_in_stage3_input": "Neurologic symptoms without obvious head trauma",
+          "why_order_this_exam": "After the motor vehicle accident, there was no clear evidence of severe craniocerebral injury; head CT showed only localized subcutaneous soft tissue swelling. However, during the clinical course, neuropsychiatric symptoms such as agitation and mild confusion appeared. This presentation, occurring together with acute respiratory symptoms after a long-bone fracture and diffuse bilateral pulmonary imaging abnormalities, is consistent with major clues in the Gurd criteria for fat embolism syndrome. Therefore, a neurologic examination is needed to objectively confirm whether abnormalities of consciousness, orientation, mental status, or focal neurologic function are present, and to assess their severity and dynamic changes. On the one hand, this can support cerebral involvement caused by fat embolism; on the other hand, it also helps exclude or reduce misattribution of the symptoms to other causes such as occult craniocerebral injury, hypoxia-related cerebral dysfunction, or infection-related delirium. The results of this examination have direct value for establishing the diagnosis of fat embolism syndrome, determining whether the condition is progressing, and planning subsequent monitoring and treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Body temperature measurement",
+          "basis_in_stage3_input": "Body temperature >38°C",
+          "why_order_this_exam": "The patient developed fever soon after the trauma, with a maximum temperature of 38.7℃, accompanied by dyspnea, chest tightness, nausea, and agitation. Inflammatory markers, including the white blood cell count, CRP, IL-6, and PCT, were elevated, and anti-infective treatment at an outside hospital was not very effective. Continuous temperature monitoring was performed in this patient not only because a body temperature >38℃ is itself one of the reference criteria in the Gurd criteria and can support fat embolism syndrome, but also because the degree and pattern of fever help dynamically distinguish among post-traumatic inflammatory response, fat embolism-related systemic response, and the possibility of concomitant pulmonary infection. Changes in body temperature can also reflect disease activity and treatment response: if the temperature decreases after glucocorticoids and supportive treatment, this supports a mechanism not due to infection alone; if high fever persists or rises again, this suggests the need to reassess infection control and pursue further pathogen testing. Therefore, although temperature measurement is basic, it has practical significance for diagnostic support, differential diagnosis, and assessment of treatment efficacy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "According to the Gurd criteria, this patient meets 2 major criteria (1. respiratory symptoms, with a \"snowstorm-like\" appearance of the disease on imaging; 2. neurologic symptoms in the absence of obvious head trauma) and 1 minor criterion (body temperature >38℃).",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARAukVdTAE6H9wGcPlZ0pT9bBwpl1ibUahzhGDgJlpgZfUtaiasrq9VTXpA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Diagnostic approach flowchart",
+          "local_src": "cleaned_cases_image_cache/36378ecbccc0697e54f56761150ab87d5f442329.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLWPLIPpV9Yia26JTl6qIARAzXv9CK0qkrOnialoicPP1UIup6iaI20l7IiaaZribFvJDvkRGO7plc8zZaQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure of the patient’s CT imaging changes. The first set is the chest CT from Day -3, 3 days before admission:",
+          "local_src": "cleaned_cases_image_cache/84d501dff738def1be1457212912d906016ce877.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Fat embolism syndrome (non-fulminant), type I respiratory failure, midshaft fracture of the right femur",
+      "diagnostic_basis": [
+        "Met 2 major criteria of the Gurd criteria: (1. respiratory symptoms, with a \"snowstorm-like\" appearance on imaging; 2. neurologic symptoms in the absence of obvious head trauma)",
+        "Meets 1 minor criterion of the Gurd criteria (temperature >38°C)",
+        "Arterial blood gas analysis (on oxygen): pCO2 34.2 mmHg, calcium 1.04 mmol/L, glucose 6.5 mmol/L,",
+        "CT of both lower extremities showed a fracture of the midshaft of the right femur"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Glucocorticoid therapy (methylprednisolone sodium succinate 60 mg once daily)",
+        "Anti-infective therapy (biapenem 0.6 g twice daily)",
+        "Anticoagulation (low-molecular-weight heparin 4100 IU once daily)",
+        "Adjunctive treatment included nebulized inhalation, antispasmodic and anti-asthmatic therapy, expectorant therapy, hepatoprotective therapy, gastric mucosal protection, oxygen inhalation, immobilization of the affected limb, external fixation, and other symptomatic treatment."
+      ],
+      "treatment_response": [
+        "After 5 days of regular treatment with this regimen, the patient's symptoms such as dyspnea, fever, and irritability improved significantly.",
+        "Chest CT (Day +4) showed: 1. Bilateral pulmonary inflammation; 2. Bilateral pleural thickening; 3. Fracture of the midshaft of the right clavicle.",
+        "Head CT showed: subcutaneous soft tissue swelling in the left temporoparietal region.",
+        "Complete blood count: white blood cell count 15.95×10^9/L↑, red blood cell count 3.97×10^9/L↑, hemoglobin 120.7g/L↓, absolute neutrophil count 10.65×10^9/L↑.",
+        "Coagulation profile: fibrinogen 4.46 g/L↑.",
+        "Liver function: alanine aminotransferase 135↑U/L, aspartate aminotransferase 3↑U/L, gamma-glutamyl transferase 300↑U/L, total protein 56.0↓g/L, albumin 34.2↓g/L.",
+        "No significant abnormalities were found in myocardial enzymes.",
+        "On Day +5, the patient was transferred to the Department of Emergency Surgery to continue surgical treatment."
+      ]
+    }
+  }
+}

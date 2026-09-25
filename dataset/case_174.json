@@ -1,0 +1,335 @@
+{
+  "status": "success",
+  "case_id": "case_174",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 47 years old, was admitted to the First Affiliated Hospital of Zhengzhou University on Day 0, with the chief complaint of “chest tightness and shortness of breath for more than 1 year.” More than 1 year previously, he developed chest tightness and shortness of breath on exertion without an obvious precipitating cause, with progressive worsening. He could not walk uphill, and after walking quickly on level ground for several minutes he needed to stop and rest; the symptoms were relieved after several minutes of rest. This was accompanied by nausea and vomiting, without cough, sputum production, hemoptysis, chest pain, palpitations, diaphoresis, or other discomfort. He repeatedly sought care at a local county hospital and was treated as “anxiety disorder,” but his symptoms did not improve. Past history included “hypertension” for more than 20 years, with a highest blood pressure of 150/110 mmHg; he took “amlodipine 1 tablet QD” orally, with acceptable blood pressure control. He had “reflux gastritis and hiatal hernia” for 8 months, without special treatment. “Abnormal glycated hemoglobin” was found 5 months ago; he controlled blood glucose with diet and had not used hypoglycemic medications. Personal and family histories were unremarkable. Five months ago, the patient came to our outpatient clinic for further evaluation and treatment. ECG showed T-wave inversion in leads V1-V4 and right axis deviation; echocardiography showed right heart enlargement, moderate tricuspid regurgitation, and pulmonary hypertension (moderate, estimated pulmonary artery systolic pressure 61 mmHg); PFT suggested mild restrictive ventilatory dysfunction, mildly reduced diffusing capacity, and a negative bronchodilator test; chest CT showed multiple ground-glass opacities on the lung window, and enlargement of the main pulmonary artery trunk and sparse vascular markings in the apical segments of both lungs and the right lower lung on the mediastinal window. Pulmonary perfusion scintigraphy and CT pulmonary angiography (CTPA) were completed locally, and pulmonary embolism was diagnosed; oral anticoagulation with “rivaroxaban 20 mg qd” was given. The patient still currently had chest tightness on exertion, WHO functional class II-III, and had already received adequate anticoagulation outside the hospital for 4 months, so he came again to our center for evaluation. Relevant examinations were completed after admission. CBC, routine stool and urine tests, thyroid function panel, and infectious disease screening: no abnormalities. Liver and kidney function, electrolytes, lipids, and blood glucose: chloride 112.0 mmol/L, alkaline phosphatase 36 U/L, cholinesterase 3.31 KU/L, with no other abnormalities. Inflammatory markers: PCT 0.055 ng/L; CRP, IL-6, and ESR showed no abnormalities. Iron studies: unsaturated iron-binding capacity 18.3 umol/L. NT-proBNP: 620 pg/mL. Myocardial enzymes and troponin T: no abnormalities. Arterial blood gas analysis (FiO2 21%): pH 7.4, pCO2 32.3 mmHg, pO2 61.8 mmHg, HCO3- 19.7 mmol/L. Coagulation tests: PT 16.3 s; PT% 56.0%; INR 1.51; APTT 36.0 s; TT 16.2 s; Fib 2.0 g/L; D-dimer 0.02 mg/L.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5Ik6EqYicYIPUibAmQuXZozS1SjcicsiceLibWpEEmtCKxwgLYnbngcOPfdDw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1. Outpatient echocardiography (Day -140)",
+          "local_src": "cleaned_cases_image_cache/385be5e46e9a32dea215afe391d7403d33730ba6.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IrERJWpdI6CqmrEXvTHnkAf4X7IBMRFzhnlPoiaia5xkiciaekXwtpdtxpA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. Outpatient chest CT (Day -140) shows bilateral mosaic perfusion and sparse pulmonary vascular markings.",
+          "local_src": "cleaned_cases_image_cache/06d2e85c3154d7e3035f9dc5571534bbef35fe76.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IrSnUjV0VWTPe1g4XB8sYZ5RibeXhMxNONPK2251F36WsWfFYRHjqiaWA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3. Diagnostic algorithm for CTEPH",
+          "local_src": "cleaned_cases_image_cache/a50f3a6fae004a5c89378835029bdbc2b1314107.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "supporting_evidence": [
+            "Chest tightness and shortness of breath on exertion for more than 1 year with progressive worsening, consistent with manifestations of chronic pulmonary vascular disease",
+            "ECG showed T-wave inversion in leads V1-V4 and right axis deviation, suggesting increased right heart load",
+            "Echocardiography showed right heart enlargement, moderate tricuspid regurgitation, and pulmonary hypertension (estimated pulmonary artery systolic pressure 61 mmHg)",
+            "Text on the ultrasound image indicates right heart enlargement, pulmonary artery widening, moderate tricuspid regurgitation, and moderate pulmonary hypertension.",
+            "Chest CT showed enlargement of the main pulmonary artery and sparse vascular markings in the apical segments of both lungs and the right lower lung, supporting an abnormality of the pulmonary vascular bed.",
+            "At the local hospital, lung perfusion scintigraphy and CTPA were completed, and pulmonary embolism was diagnosed, indicating an underlying thromboembolic disease.",
+            "After 4 months of adequate outpatient anticoagulation, the patient still had exertional chest tightness and cardiac function class II-III, indicating persistent symptoms.",
+            "Arterial blood gas analysis showed pO2 61.8 mmHg and pCO2 32.3 mmHg, indicating hypoxemia with hypocapnia, consistent with common manifestations of pulmonary vascular disease",
+            "NT-proBNP 620 pg/mL, supporting right heart pressure overload/cardiac functional involvement"
+          ],
+          "opposing_evidence": [
+            "D-dimer 0.02 mg/L is not elevated, which does not support active acute thrombus formation, but chronic thromboembolic disease cannot be excluded.",
+            "The first-stage text did not provide a detailed CTPA imaging description of definite signs of chronic thrombus."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary arterial hypertension (PAH, idiopathic or other precapillary pulmonary arterial hypertension)",
+          "supporting_evidence": [
+            "Progressive chest tightness and shortness of breath on exertion, relieved by rest, consistent with the common initial presentation of pulmonary hypertension",
+            "ECG suggests changes consistent with right heart strain (T-wave inversion in leads V1-V4, right axis deviation)",
+            "Echocardiography and echocardiographic images both showed right heart enlargement, pulmonary artery dilatation, tricuspid regurgitation, and an estimated pulmonary artery systolic pressure of 61 mmHg",
+            "Arterial blood gas analysis showed hypoxemia with hypocapnia, consistent with the common gas exchange abnormality seen in pulmonary vascular disease",
+            "PFT suggests mild restrictive ventilatory dysfunction and mildly reduced diffusing capacity, which can be seen in pulmonary vascular disease",
+            "The mediastinal window on chest CT shows enlargement of the main pulmonary artery, supporting increased pulmonary arterial pressure load"
+          ],
+          "opposing_evidence": [
+            "Local pulmonary perfusion scintigraphy and CTPA have already diagnosed pulmonary embolism, making pulmonary hypertension secondary to chronic thromboembolism a higher-priority consideration than isolated PAH.",
+            "Chest CT shows multiple ground-glass opacities and focal paucity of vascular markings, which is not the most common imaging pattern in typical isolated PAH."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Interstitial lung disease-associated pulmonary hypertension (represented by early interstitial lung abnormalities/nonspecific interstitial changes)",
+          "supporting_evidence": [
+            "Chest CT lung windows show multiple ground-glass opacities; the images show scattered ground-glass density opacities in both lungs.",
+            "PFT suggests mild restrictive ventilatory dysfunction, supporting the possibility of pulmonary parenchymal disease.",
+            "Mildly reduced diffusing capacity and hypoxemia can be seen in interstitial lung disease with pulmonary vascular involvement",
+            "Progressive worsening of exertional dyspnea may be caused by pulmonary parenchymal disease complicated by pulmonary hypertension"
+          ],
+          "opposing_evidence": [
+            "The patient has no respiratory symptoms such as cough or sputum production.",
+            "Chest CT also suggests enlargement of the main pulmonary artery and focal paucity of pulmonary vascular markings, making a pulmonary vascular lesion a more likely explanation.",
+            "PFT showed only mild restrictive ventilatory impairment; stage 1 did not demonstrate clear evidence of typical interstitial lung disease such as extensive fibrosis or honeycombing."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary hypertension associated with left heart disease (e.g., diastolic dysfunction/occult left heart failure)",
+          "supporting_evidence": [
+            "The patient has a history of hypertension for more than 20 years, which may be a risk factor for left ventricular diastolic dysfunction.",
+            "Chief complaint of chest tightness and shortness of breath on exertion, which can be seen in pulmonary hypertension associated with left heart disease",
+            "NT-proBNP 620 pg/mL indicates increased cardiac load"
+          ],
+          "opposing_evidence": [
+            "Text on the ultrasound image indicates left ventricular ejection fraction 62%, normal left ventricular systolic function",
+            "Echocardiography showed normal morphology, echogenicity, and motion of each chamber; no obvious structural abnormality of the left heart; instead, the main findings were right heart enlargement and dilation of the pulmonary artery.",
+            "Text on the ultrasound image suggests decreased left ventricular diastolic function, but the evidence is limited and is insufficient to independently explain the marked right heart enlargement and pulmonary hypertension.",
+            "The patient had no symptoms such as chest pain, palpitations, or diaphoresis, and myocardial enzymes and troponin T showed no abnormalities."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary arterial hypertension associated with congenital heart disease (atrial/ventricular septal shunts, etc.)",
+          "supporting_evidence": [
+            "A 47-year-old man has right heart enlargement, tricuspid regurgitation, and pulmonary hypertension; congenital shunt heart disease should be considered in the differential diagnosis as one of the causes of pulmonary hypertension."
+          ],
+          "opposing_evidence": [
+            "The text on the ultrasound image clearly indicates that the continuity of the atrioventricular septum is intact.",
+            "Ultrasound did not indicate a definite shunt or related congenital structural abnormalities.",
+            "The phase 1 information did not provide supportive clues such as cyanosis, clubbing, or a history of heart disease in childhood/adolescence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CT pulmonary angiography (CTPA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary perfusion scintigraphy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right heart catheterization",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary angiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatoid panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "connective tissue disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antiphospholipid antibody profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thrombophilia panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Six-minute walk test",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Completed CTPA: the distal branches of the right pulmonary artery were poorly visualized; lung perfusion scan: decreased blood flow perfusion/defects in the left upper lobe and large areas of the right lung; echocardiography: right heart enlargement (right ventricular anteroposterior diameter 22 mm, right atrium 58×55 mm), TAPSE 24 mm, mild tricuspid regurgitation (peak velocity 4.5 m/s), pulmonary hypertension (severe, estimated pulmonary artery systolic pressure 99 mmHg). Right heart catheterization showed: mPAP 76/33(47) mmHg, CI 1.6 L/min/m2, PVR 12.3 WU, SvO2: 61.4%, RAP: 8 mmHg. Pulmonary angiography showed extensive stenotic and occlusive lesions in the bilateral pulmonary arteries and their branches, poor distal blood flow, more severe on the right, with blood flow mostly grade 0-1. Rheumatoid panel, connective tissue disease panel, antiphospholipid antibody panel, and tumor markers showed no abnormalities; the thrombophilia panel showed suspected positive lupus anticoagulant. Further completed the six-minute walk test, 6WMD 347 meters.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5Iz3XwCgyFzJKMgIbwtS6qLTOXVJFoykV9vBXFAu0C24YNpdkqS0e1Mg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Fig. 4. CTPA Day +1",
+            "local_src": "cleaned_cases_image_cache/94436680bd9dda539de835e1b7a2d9602a636e00.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IicbX4uqPk7zqzXiaqq4P7bgWZyibhYkibS2gXo39NPzMygLIl5EX0I41KA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 5. Pulmonary ventilation-perfusion scintigraphy Day +2",
+            "local_src": "cleaned_cases_image_cache/7ebec7facd4d4b781ace531a3b2874d3078187f2.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IOEaKNKsO7lKhoch2HWMHicfzXuHBib0QskcblH9YtnmsHJ0kzJCibt2kA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 6. Echocardiography Day +2",
+            "local_src": "cleaned_cases_image_cache/d4007d450c52ad239964bd436e95802cc582c983.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5Iw82pjIibGG9ibRpgPiaaq9at88tpK1DwPrIZuOpViaZk4RMjDzejzFBVdw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 7 Pulmonary angiography",
+            "local_src": "cleaned_cases_image_cache/0dac28e75c2fe3437e25f6e696600effa5f1fce5.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "coronary heart disease, heart failure, structural heart disease, COPD, asthma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The routine examination results do not support the above diagnosis."
+            ]
+          },
+          {
+            "name": "Antiphospholipid syndrome",
+            "evidence": [
+              "Thrombophilia panel showed suspected positive lupus anticoagulant"
+            ],
+            "exclusion_reasons": [
+              "Considering the effect of anticoagulant medications on lupus anticoagulant testing, there is insufficient basis for the diagnosis of antiphospholipid syndrome"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "coronary heart disease, heart failure, structural heart disease, COPD, asthma",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The routine examination results do not support the above diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Antiphospholipid syndrome",
+        "evidence": [
+          "Thrombophilia panel showed suspected positive lupus anticoagulant"
+        ],
+        "exclusion_reasons": [
+          "Considering the effect of anticoagulant medications on lupus anticoagulant testing, there is insufficient basis for the diagnosis of antiphospholipid syndrome"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bedside bronchoscopy",
+          "basis_in_stage3_input": "Bedside bronchoscopy showed a relatively large amount of bright red blood in the airway lumen, more pronounced on the right side.",
+          "why_order_this_exam": "At 15 minutes after BPA, the patient suddenly developed cough and expectorated approximately 50 ml of bright red blood, followed by a rapid drop in oxygen saturation to 55%, accompanied by agitation and dyspnea. Three hours later, hemoptysis recurred, with decreased oxygen saturation and blood pressure, suggesting acute massive endobronchial hemorrhage and a risk of severe respiratory failure. Bedside bronchoscopy can immediately determine in a critical condition whether the bleeding is still active, the predominant side of blood origin, and the degree of airway obstruction. The finding that the right side was more severely involved would help localize whether it was related to the right lower lobe/right middle lobe vascular manipulation area during the procedure. At the same time, it can clear blood clots and bloody secretions, relieve the risk of asphyxia, and assess whether further airway protection, one-lung ventilation, or subsequent interventional hemostasis is needed. This examination is both a diagnostic test and an important tool for emergency airway management and assessment of disease severity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "Additional complete blood count was checked: hemoglobin 131 g/L, decreased by 23 g compared with the preoperative value of 154 g/L.",
+          "why_order_this_exam": "After BPA, the patient developed acute hemoptysis, hypoxemia, and hemodynamic fluctuations. The first priority is to use a CBC to objectively assess the degree of acute blood loss and its impact on overall systemic status. The preoperative hemoglobin was 154 g/L, and the first postoperative value decreased to 131 g/L, already suggesting substantial blood loss, which is corroborated by the large amount of bright red blood seen on bedside bronchoscopy. In addition to helping determine whether thresholds have been reached for transfusion, fluid replacement, discontinuation of anticoagulation, and intensified monitoring, the CBC can also dynamically track changes in the white blood cell count, providing a baseline for subsequent hematoma-related secondary infection or inflammatory response. For a patient with CTEPH who has received anticoagulation and has just undergone pulmonary artery interventional treatment, this test is directly relevant to confirming bleeding complications, severity stratification, and adjustment of the treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest X-ray",
+          "basis_in_stage3_input": "On Day +11, chest X-ray showed a new cavity in the right lower lung, and the patient developed cough with dark red purulent sputum.",
+          "why_order_this_exam": "The patient did not have only transient postoperative airway bleeding; subsequently, the hemoglobin continued to decline, and by Day +11, dark red purulent sputum appeared with coughing, suggesting that the lesion may have evolved from simple acute hemoptysis to intrapulmonary space-occupying blood collection, necrosis with liquefaction, or secondary infection. As a bedside, rapid, low-burden follow-up modality, chest radiography can promptly detect new complications such as pulmonary consolidation, cavitation, atelectasis, or pleural effusion. This chest radiograph showed a new cavity in the right lower lung. Combined with the prior clues of predominantly right-sided airway bleeding, this suggests structural evolution of a localized lesion in the right lower lung, requiring further CT to determine whether this represents an infectious cavity, hematoma with gas formation, necrotizing lesion, or other complication. At this turning point in the clinical course, this examination served to screen for new changes in the lesion and to indicate the need for further detailed imaging evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Repeat chest CT on Day +12 showed a mass-like patchy high-density opacity in the right lower lobe, with internal gas, measuring approximately 110 mm × 97 mm in cross-section; hematoma was considered.",
+          "why_order_this_exam": "Given that the chest radiograph had already suggested a newly developed cavity in the right lower lung, and the patient also had dark red purulent sputum with cough and progressive persistent anemia, higher-resolution imaging was needed to clarify the nature, extent, and complications of the intrapulmonary lesion. Chest CT can differentiate simple pulmonary consolidation, cavitation, post-active hemorrhagic changes, and a giant intrapulmonary hematoma, and can measure lesion size, evaluate internal gas shadowing, the relationship to the surrounding lung tissue, and whether there is compression-related atelectasis. In this patient, CT clearly demonstrated an approximately 110 mm × 97 mm mass-like high-density opacity with gas shadowing in the right lower lobe, supporting the formation of a giant hematoma. This is the key evidence that further confirmed 'postoperative hemoptysis' as 'delayed massive hemoptysis after BPA with formation of a giant intrapulmonary hematoma.' This examination directly served the definitive diagnosis, differentiation from an infectious cavity, and provided an anatomic basis for subsequent treatment decisions regarding whether to perform puncture catheter drainage, negative-pressure drainage, and local thrombolysis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "BPA was performed during the night of Day +4. A total of 4 vessels and branches were treated: the pulmonary arteries of the lateral basal, posterior basal, and anterior basal segments of the right lower lobe, and the pulmonary artery of the medial segment of the right middle lobe. About 15 minutes after returning to the ward, the patient suddenly developed cough and hemoptysis, expectorating 50 ml of bright red blood, followed by a persistent decrease in oxygen saturation to 55%, irritability, dyspnea, heart rate 114 beats/min, and blood pressure 117/70 mmHg. Bedside bronchoscopy showed a large amount of bright red blood in the airway lumen, more pronounced on the right. A CBC was additionally obtained; hemoglobin was 131 g/L, a decrease of 23 g/L compared with the preprocedural 154 g/L. Three hours later, the patient had hemoptysis again, accompanied by decreases in oxygen saturation and blood pressure; bedside bronchoscopy showed a large amount of bloody noncoagulated secretions in the airway lumen. Repeat hemoglobin was 118 g/L. From the early morning of Day +5 to Day +7, hemoglobin progressively decreased (from 154 g/L to 95 g/L). On Day +11, chest radiograph showed a new cavity in the right lower lung, and the patient developed cough with dark red purulent sputum. Repeat chest CT on Day +12 showed a mass-like patchy high-density opacity in the right lower lobe with internal gas, measuring approximately 110 mm × 97 mm on cross-section, considered a hematoma. Chest CT was repeated every 4 days thereafter, and the hematoma in the right lower lung showed a trend toward enlargement. On 4-3, it decreased again to 86 g/L.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IZGRK8bPbSMLOBicsYVbtNy14xpNd2JPNTUFlkwXWNpQMXTUNXmYicIVQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8 First BPA treatment Day +4",
+          "local_src": "cleaned_cases_image_cache/5705b9233c7afd353b79367ad9ddfc89c957f4c7.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IormpbicX6VicicV9lWqI5ic7DFb2UKReYiaN3mBUYOiaqj2o7dGOSuHwoT2w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 9 Trend in hemoglobin after hemoptysis",
+          "local_src": "cleaned_cases_image_cache/d080fe0c07b62ee1fca6c2fcb11ae4ee42248592.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IoVa8EECBsKcQ8yF81fCBphwnuHLRBLiajmjnSs75Ubd2KJnYQa8DM7A/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 10 Serial bedside chest radiographs obtained after the patient developed hemoptysis",
+          "local_src": "cleaned_cases_image_cache/8ca2e2b2601c4af06c2c739f630d68039d72aacb.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5I0QbKFhUateNTovRLialfHzbMXAy9cogwLs3icwe84as47QKJrbD0y05A/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 11 Chest CT of the patient",
+          "local_src": "cleaned_cases_image_cache/ff710939e8b3cbbfda3f0e15a7688c1a2f6cc3a8.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IUjzE55JDEd33IeQWdY7pwibqhTyczZBoia0v5CxeL0B4npPtmAZ8bzEg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 12. Follow-up CT after hematoma drainage",
+          "local_src": "cleaned_cases_image_cache/a2d5cd5111dde436802fd25a48b30fc09c48d3b8.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5Iyzk7iaWw4tRTBBho3CicibcEaRNaEJFXL1w75Bic4UVFYZ3RpWoEtLt99w/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 13 Hematoma under negative-pressure drainage; blood clot aspirated after urokinase injection",
+          "local_src": "cleaned_cases_image_cache/68c08a88c4f9dcaf6ddc709386061c6e5b1940ac.jpg"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIqt9erbicOUKrjDEibgH8ic5IliaJXW1u0g1vIMNUrqAfOnPBicKExR40bibYAWKI6cRb1oa5qibxstPGrg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 14 The patient performs routine physical labor",
+          "local_src": "cleaned_cases_image_cache/eab99d0e0788804eb9d94ae5305bdfc3e3e01c6b.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Chronic thromboembolic pulmonary hypertension (CTEPH), delayed massive hemoptysis after BPA with formation of a giant intrapulmonary hematoma",
+      "diagnostic_basis": [
+        "Progressive exertional dyspnea",
+        "Echocardiography showed tricuspid regurgitation and elevated pulmonary artery pressure; CT showed enlargement of the main pulmonary artery, attenuated and sparse vessels in the apical segments of both lungs and the right lower lung, and mosaic perfusion; the distal branches of the right pulmonary artery were poorly visualized on CTPA; pulmonary perfusion scintigraphy showed large patchy areas of decreased/defective blood flow perfusion in the left upper lobe and right lung",
+        "Right heart catheterization showed pulmonary hypertension; pulmonary angiography demonstrated extensive stenotic and occlusive lesions in the bilateral pulmonary arteries and their branches",
+        "After BPA, the patient developed sudden cough and hemoptysis, with progressive decline in hemoglobin; chest CT showed a mass-like patchy high-density opacity in the right lower lobe with internal gas, suggestive of hematoma; ultrasound-guided hematoma puncture and catheter placement were performed, draining dark red non-clotting fluid"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Administered nadroparin 6150 IU q12h by subcutaneous injection for anticoagulation, and riociguat 1 mg TID orally to reduce pulmonary artery pressure",
+        "Underwent treatment with balloon pulmonary angioplasty (BPA)",
+        "After hemoptysis, hemostatic agents were administered, bedside bronchoscopic clearance was performed, and bedside endotracheal intubation and mechanical ventilatory support were provided.",
+        "Vasopressors to maintain vital signs, antibiotics to prevent infection, PPI to prevent stress ulcers, diuretics to improve reperfusion pulmonary edema, discontinuation of anticoagulants to prevent rebleeding",
+        "Ultrasound-guided hematoma puncture and catheter drainage",
+        "Continuous low negative-pressure drainage was administered",
+        "Local low-dose urokinase injection to dissolve blood clots",
+        "Administer unfractionated heparin for anticoagulation, monitor APTT, and adjust the heparin dose in real time"
+      ],
+      "treatment_response": [
+        "The hematoma was significantly resorbed, the right lower lung re-expanded, the drainage tube was removed, and the patient was discharged the following day.",
+        "Over the following 6 months, the patient underwent 4 BPA procedures to reopen the remaining pulmonary artery branches. The patient’s mean pulmonary artery pressure decreased to 20 mmHg, cardiac function was Class I, 6MWD was 487 m, the patient was able to perform normal physical labor, and clinical cure was achieved."
+      ]
+    }
+  }
+}

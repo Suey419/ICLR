@@ -1,0 +1,410 @@
+{
+  "status": "success",
+  "case_id": "case_172",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 66-year-old woman who was admitted on Day 0 with the chief complaint of \"recurrent cough, sputum production, and shortness of breath for more than 5 months.\" In approximately 6 months before Day 0, after caring for a family member with fever, she developed cough, sputum production, and shortness of breath. In early October, she presented to a local hospital, where contrast-enhanced chest CT showed: 1. Multiple patchy mass-like and nodular high-density lesions in both lungs, with special infection considered highly likely, although differentiation from neoplastic lesions was still needed; 2. Multiple mildly enlarged mediastinal lymph nodes; 3. Small bilateral pleural effusions. Outside hospital tests showed elevated WBC, elevated neutrophil percentage, elevated CRP, and normal PCT. Tumor markers: cytokeratin 19 fragment 4.130 ng/ml, CA125 65.1 U/ml, CA19-9 32.7 U/ml, ferritin 1390 μg/L. Rheumatologic markers were negative. PET/CT showed localized inflammation in the left maxillary alveolar region; multiple patchy, mass-like, and nodular lesions in both lungs with varying degrees of increased metabolism, with special infection considered possible. Bronchoscopy TNGS indicated Candida albicans, among others. Send-out BALF GM and Cryptococcus were both negative. Sputum culture: Enterobacteriaceae and Candida albicans 1+. Transbronchial needle biopsy of the right middle lobe on bronchoscopy showed no tumor; the diagnosis was considered to be Candida pneumonia, among others. After anti-infective and anti-inflammatory treatment, symptom relief was not obvious, and repeat chest CT showed progression of the bilateral pulmonary lesions compared with before. Past history included hypertension, hyperlipidemia, apical periodontitis of the right maxillary third molar, hepatitis B, among others. Physical examination on admission: enlarged right submandibular lymph node palpable; scattered moist rales audible in both lungs. Preliminary diagnosis: multiple pulmonary lesions of undetermined nature, special infection? tumor? etc. Repeat sinus + chest CT on admission showed: 1. Mild bilateral maxillary sinus inflammation. 2. Consider lung cancer in the anteromedial basal segment of the left upper lobe with multiple metastases to both lungs and pleura, and hilar and mediastinal lymph node metastases. 3. Small left pleural effusion.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLEhialic06aY673wMVbvQE7fSuhOvXogSs35ibyqF3k3xdH0SA1ST6RUjA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: PET-CT showed localized inflammation in the right upper alveolar region and multiple patchy, mass-like, and nodular-like lesions in both lungs",
+          "local_src": "cleaned_cases_image_cache/7ade018ca8ad1a01405fdc592f1d8cb0c05371de.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLyP4Dicnhmnibhu7JrTB6nOPomiaunWOXh9VsxM43KIjOFaLc1VdVMljtw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2: tNGS performed at an outside hospital indicated Candida albicans",
+          "local_src": "cleaned_cases_image_cache/a12b4fcc1612514ba9e13199d6dbc5b7b6e830bb.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLMVp4wNIO4oibMHKpKxYC4qibprFnibIMRnrBicN6X42uiaTxLrdPibeRkGzg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3: Outside hospital pathology suggested fibrinous organizing pneumonia",
+          "local_src": "cleaned_cases_image_cache/c509a5b80098cec06b7ec67f22d88f3ee42570d6.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLs9YgtL1Lb8n2TcwsMN2xYLYG1hOKn7dWvFibpibBgyd4Xq8PQO5wVmGw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/24608ff2f807d46468693f34beced9b8dd848be2.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLqiaqcWdQ4HBjsib6gv1vAWCc0jFFQ5HD0yAXFGlickAYD4pKcDbuHIUFA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/bf45b4596916a090d92438826b2bf0dc0fc029cf.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLHVHTEvV77ia5Itg8Esdc3icDY5PhW7axA0MsaJaQUUL1XCUlzazRQDag/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/8529ecf10500da689be0308ed9f231a9f52f5ec6.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLNvL8GSPrRniaLW0cqVaep5CCfI7q9iabOzrLbcJ4iaHCJBnI7oHCdSnpw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/f07850f15dc0761a9c7a15ecd793c1fc428eb768.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLxBfBkOatvG7zNk4UdkdAW66pcZ91jwHeKsNlEoBm5YWKeIfwBU5icUw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/341a9b70de5505a4cd9124b9468e240a951c2993.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLKcYCSH0Sic3RHRWphuQiaB9ibsY8jiczC0dibucQrrwuicibOzlRblYAeHAMg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4: Chest CT: Bilateral pulmonary lesions continued to progress after anti-infective therapy",
+          "local_src": "cleaned_cases_image_cache/0f069b3e546473b57c1a1d385681511c6c6035c7.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer with metastases to both lungs, pleura, and mediastinal/hilar lymph nodes",
+          "supporting_evidence": [
+            "Repeat sinus and chest CT on admission showed: \"Consider lung cancer in the anterior and medial basal segment of the left upper lung, with multiple metastases to both lungs and the pleura, and hilar and mediastinal lymph node metastases. Small left pleural effusion.\"",
+            "Contrast-enhanced chest CT at an outside hospital showed \"multiple patchy and nodular high-density lesions in both lungs,\" and \"neoplastic lesions still need to be differentiated.\"",
+            "PET/CT suggests multiple patchy, mass-like, and nodular lesions in both lungs, with varying degrees of increased metabolism; the attached PET/CT images show multiple hypermetabolic lesions in both lungs and thoracic lymph node shadows",
+            "After anti-infective and anti-inflammatory treatment, symptom relief was not obvious; follow-up chest CT indicated progression of the bilateral pulmonary lesions compared with before.",
+            "Elevated tumor markers: cytokeratin 19 fragment 4.130 ng/ml and CA125 65.1 U/ml.",
+            "The patient is 66 years old. The attached chest CT images show multiple mass-/nodule-like lesions in both lungs and a left pleural effusion."
+          ],
+          "opposing_evidence": [
+            "Bronchoscopic right middle lobe needle biopsy: no tumor identified",
+            "The PET/CT report primarily favored \"possible special infection\".",
+            "Microscopic findings suggest histiocytes and fibrinous exudate within the alveolar spaces, a small amount of organizing foci, interstitial neutrophilic exudation and lymphocytic infiltration, favoring inflammatory/organizing changes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Invasive pulmonary fungal disease or chronic pulmonary fungal infection (needs to be distinguished from airway colonization; Candida association remains to be determined)",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT at an outside hospital showed \"multiple mass-like, patchy, and nodular high-density lesions in both lungs; a special infectious process is considered highly likely\"",
+            "PET/CT suggested multiple patchy, mass-like, and nodular-like lesions in both lungs, with varying degrees of increased metabolic activity, and the possibility of a special infection was considered",
+            "Bronchoscopic TNGS indicated: Candida albicans, etc.; the attached pathogen image showed a relatively high abundance of Candida albicans in the fungal list",
+            "Sputum culture: Enterobacteriaceae and Candida albicans 1+",
+            "Elevated WBC and neutrophil percentage, elevated CRP, and normal PCT, suggesting the presence of an inflammatory response",
+            "Microscopic findings suggest inflammatory and organizing changes in the lung tissue, with no evidence of tumor."
+          ],
+          "opposing_evidence": [
+            "Send-out BALF GM and Cryptococcus tests were both negative",
+            "Prior records did not indicate a definite immunosuppressive background.",
+            "After anti-infective and anti-inflammatory treatment, symptom relief was not obvious; follow-up chest CT indicated progression of the bilateral pulmonary lesions compared with before.",
+            "Candida albicans was identified from bronchoscopic TNGS and sputum culture; based on the first-stage information, airway colonization rather than pathogenicity cannot be excluded."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The text on the attached pathology image states: In the lung tissue, histiocytes and fibrinous exudate are seen within the alveolar spaces, with a small amount of organizing foci; in the interstitium, neutrophilic exudation and lymphocytic infiltration are seen.",
+            "Bronchoscopic needle biopsy of the right middle lobe showed no tumor",
+            "The attached chest CT images show multiple patchy/confluent areas of consolidation in both lungs, and the imaging appearance may overlap with organizing pneumonia.",
+            "Disease course of more than 5 months, characterized mainly by recurrent cough, sputum production, and dyspnea, consistent with the clinical manifestations of inflammatory pulmonary parenchymal lesions"
+          ],
+          "opposing_evidence": [
+            "Repeat chest CT on admission directly suggested \"consider lung cancer in the anteromedial basal segment of the left upper lung with multiple metastases to both lungs and the pleura, and bilateral hilar and mediastinal lymph node metastases\"",
+            "PET/CT showed increased metabolic activity in multiple lesions and mediastinal/hilar lymph nodes; malignancy still warrants a high degree of vigilance",
+            "Symptoms did not improve significantly after anti-infective and anti-inflammatory treatment; repeat chest CT showed progression of the lesions.",
+            "The presence of pleural effusion and multiple mildly enlarged mediastinal lymph nodes is not the most typical manifestation of uncomplicated organizing pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary tuberculosis or nontuberculous mycobacterial lung disease",
+          "supporting_evidence": [
+            "A chronic course protracted for more than 5 months, manifested by recurrent cough, sputum production, and shortness of breath",
+            "Both the outside hospital and PET/CT had considered the possibility of \"special infection\".",
+            "Chest imaging showed multiple patchy, mass-like, and nodular-like lesions in both lungs, as well as mediastinal lymph nodes and a small amount of pleural effusion; on imaging, these findings may overlap with mycobacterial infection.",
+            "PCT is normal while CRP is elevated; atypical chronic infection cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no supporting evidence such as sputum acid-fast staining, Mycobacterium tuberculosis nucleic acid testing, culture, or T-SPOT was provided.",
+            "Bronchoscopy TNGS indicated Candida albicans, among others, with no definite mycobacteria-related results identified.",
+            "The attached pathology text did not describe caseous necrosis, granulomas, or other features more supportive of tuberculosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary lymphoma or other pulmonary lymphoproliferative disorders",
+          "supporting_evidence": [
+            "Chest CT showed multiple mass-like patchy and nodular high-density lesions in both lungs, accompanied by multiple mildly enlarged mediastinal lymph nodes",
+            "PET/CT showed increased metabolism in multiple lesions in both lungs; the accompanying PET/CT images show multiple hypermetabolic foci in the chest",
+            "On admission physical examination, an enlarged right submandibular lymph node was palpable.",
+            "Bronchoscopic needle biopsy showed no tumor, suggesting that in a small specimen, differentiation from nonepithelial tumors is still required."
+          ],
+          "opposing_evidence": [
+            "The current pathology description indicates inflammatory and organizing changes, with no suggestion of abnormal lymphoid cell infiltration or evidence of lymphoma.",
+            "Elevated WBC count, increased neutrophil percentage, and elevated CRP further support an infectious/inflammatory background.",
+            "Repeat chest CT on admission favored lung cancer with metastasis rather than lymphoma."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatology and Immunology",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, laboratory and other examinations were completed: CBC showed persistently elevated WBC and neutrophil percentage, mildly elevated PCT, and elevated ESR and CRP. G test, two-item fungal antigen test, sputum smear, sputum culture, BALF culture, and BALF-Mycobacterium tuberculosis nucleic acid test were negative. BALF DNA mNGS and DNA+RNA mNGS of left percutaneous transthoracic lung tissue were both negative. Five lung tumor markers: neuron-specific enolase 19.50 ng/ml, CA125 131 U/ml. Immune panel of eight items and TBNK cell testing showed no obvious immunodeficiency. Rheumatoid factor, antinuclear antibody, 11-item antinuclear antibody profile, autoimmune myositis antibody profile, and five-item vasculitis panel were all negative. Induced sputum and BALF cytologic differential were both predominantly neutrophils. Bronchoscopic lymph node needle aspiration biopsy showed no tumor cells. Breast ultrasound showed a hypoechoic nodule in the left breast and multiple enlarged bilateral axillary lymph nodes. Cervical lymph node ultrasound showed multiple enlarged bilateral subcutaneous cervical lymph nodes.",
+        "images": [
+          {
+            "image_id": "fig15",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLAQJOgQMk98YKMlt7gKws90ejf1xw6EvxVicgBiceKpIKCBgQdUJ5pskA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 5: Diagnostic analysis flowchart",
+            "local_src": "cleaned_cases_image_cache/3bf75741aba1ae68cf5d503cc093a35054c1244c.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "bacterial infection",
+            "evidence": [
+              "The patient became ill after caring for a family member with fever, and initially had fever.",
+              "PET-CT showed localized inflammation in the right upper alveolar region",
+              "Chest CT showed nodules and areas of consolidation."
+            ],
+            "exclusion_reasons": [
+              "Multiple pathogen tests were negative, and BALF-tNGS showed no bacteria detected.",
+              "Sputum culture showed Enterobacteriaceae 1+, and anti-infective treatment with carbapenems and quinolones was ineffective."
+            ]
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "The clinical symptoms follow a chronic course, with recurrent cough, sputum production, and shortness of breath",
+              "BALF-tNGS indicated Candida albicans",
+              "Chest CT shows nodules and consolidation"
+            ],
+            "exclusion_reasons": [
+              "G test and GM test negative",
+              "Fluconazole and voriconazole treatment was ineffective"
+            ]
+          },
+          {
+            "name": "Special infection",
+            "evidence": [
+              "The clinical symptoms have a chronic course; the clinical symptoms include recurrent cough, sputum production, and shortness of breath.",
+              "Chest CT may show nodules and consolidation; attention should be paid to the possibility of Cryptococcus, Talaromyces marneffei, and nontuberculous mycobacterial infection."
+            ],
+            "exclusion_reasons": [
+              "The patient had no history of immunodeficiency, and the immune panel of eight items and TBNK did not indicate a significant decrease in immune function.",
+              "BALF-tNGS, BALF-mNGS, and tissue mNGS all showed no evidence of infection with the relevant pathogens"
+            ]
+          },
+          {
+            "name": "Systemic vasculitis",
+            "evidence": [
+              "No evidence of infection",
+              "Multiple bilateral nodular-like and consolidative opacities"
+            ],
+            "exclusion_reasons": [
+              "Vasculitis-associated antibodies negative",
+              "Short-term corticosteroid therapy was ineffective"
+            ]
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [
+              "Tumor markers are slightly elevated",
+              "PET-CT showed varying degrees of increased metabolic activity in bilateral pulmonary lesions",
+              "Marked weight loss"
+            ],
+            "exclusion_reasons": [
+              "Pathology of EBUS (11R lymph node), two transbronchial lung biopsies, and an ultrasound-guided lung biopsy were all negative"
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Reactive hyperplasia of multiple lymph nodes in the bilateral parotid glands, right cervical region, bilateral axillae, mediastinum, bilateral hilar regions, left internal mammary region, right cardiophrenic angle region, and bilateral iliac perivascular and inguinal regions",
+              "Marked weight loss"
+            ],
+            "exclusion_reasons": [
+              "Negative lung histopathologic examination",
+              "Short-term corticosteroid therapy was ineffective"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "The clinical symptoms follow a chronic course, with recurrent cough, sputum production, and shortness of breath",
+          "BALF-tNGS indicated Candida albicans",
+          "Chest CT shows nodules and consolidation"
+        ],
+        "exclusion_reasons": [
+          "G test and GM test negative",
+          "Fluconazole and voriconazole treatment was ineffective"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Special infection",
+        "evidence": [
+          "The clinical symptoms have a chronic course; the clinical symptoms include recurrent cough, sputum production, and shortness of breath.",
+          "Chest CT may show nodules and consolidation; attention should be paid to the possibility of Cryptococcus, Talaromyces marneffei, and nontuberculous mycobacterial infection."
+        ],
+        "exclusion_reasons": [
+          "The patient had no history of immunodeficiency, and the immune panel of eight items and TBNK did not indicate a significant decrease in immune function.",
+          "BALF-tNGS, BALF-mNGS, and tissue mNGS all showed no evidence of infection with the relevant pathogens"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "Tumor markers are slightly elevated",
+          "PET-CT showed varying degrees of increased metabolic activity in bilateral pulmonary lesions",
+          "Marked weight loss"
+        ],
+        "exclusion_reasons": [
+          "Pathology of EBUS (11R lymph node), two transbronchial lung biopsies, and an ultrasound-guided lung biopsy were all negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Reactive hyperplasia of multiple lymph nodes in the bilateral parotid glands, right cervical region, bilateral axillae, mediastinum, bilateral hilar regions, left internal mammary region, right cardiophrenic angle region, and bilateral iliac perivascular and inguinal regions",
+          "Marked weight loss"
+        ],
+        "exclusion_reasons": [
+          "Negative lung histopathologic examination",
+          "Short-term corticosteroid therapy was ineffective"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-body FAPI-PET-CT examination",
+          "basis_in_stage3_input": "After hospital-wide MDT discussion, it was recommended to repeat FAPI-PET-CT to clarify the etiology. On Day +11, a repeat whole-body FAPI-PET-CT examination showed",
+          "why_order_this_exam": "The patient has had recurrent cough, sputum production, and dyspnea for more than 5 months. Multiple mass-like, nodular, and consolidation-like lesions in both lungs have shown persistent progression, accompanied by mediastinal/hilar and multiple systemic lymphadenopathy, a small pleural effusion, and weight loss. Previous multiple bronchoscopies, lung biopsies, and EBUS-guided needle aspirations did not yield evidence of tumor. Antibacterial therapy, antifungal therapy, and short-term corticosteroid treatment were all ineffective. Routine pathogen testing, BALF, and tissue mNGS also did not identify a definite cause, suggesting that infection or inflammation alone is insufficient to explain the findings, while routine sampling also has sampling limitations. A prior PET/CT showed increased metabolic activity in the bilateral pulmonary lesions but still favored atypical infection. Clinically, further molecular imaging, which is more helpful for localization and characterization of systemic lesions, is needed to reassess the extent of systemic involvement, identify the most representative as well as the safest and most efficient biopsy target, and help distinguish among malignant tumor, malignant lymphoma, and inflammatory lesions. This examination plays a key role in clarifying the etiology, performing staging assessment, and guiding the next puncture pathway and subsequent treatment strategy selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of right maxillofacial biopsy",
+          "basis_in_stage3_input": "The pathology report from the patient's right maxillofacial biopsy on Day +17 showed B-cell lymphoma, favoring diffuse large B-cell lymphoma.",
+          "why_order_this_exam": "In the context of a prolonged disease course, progressively increasing and enlarging pulmonary lesions, multistation systemic lymphadenopathy, and the inability of multiple prior small lung and mediastinal specimens to establish a definitive diagnosis, FAPI-PET-CT identified a hypermetabolic mass in the right inferior temporal/maxillofacial region, representing a new lesion site that was highly suspicious on imaging and relatively accessible. Biopsy with pathologic evaluation of this site was chosen because a more intact tissue architecture was needed to determine whether lymphoma or another malignant tumor was present, thereby compensating for the limited diagnostic capability of small lung specimens for nonepithelial tumors. The core purpose of this examination was to obtain final histologic evidence, clarify the pathologic type, and use pathology and immunophenotype to distinguish malignant lymphoma from metastatic carcinoma, chronic infectious granuloma, or reactive hyperplasia. The result directly affected the final confirmed diagnosis, disease classification, and the subsequent decision to transfer to Hematology for treatment with regimens such as R-CHOP.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration result: no tumor identified.",
+          "why_order_this_exam": "The final pathology has indicated B-cell lymphoma, favoring diffuse large B-cell lymphoma, while imaging shows extensive bilateral pulmonary lesions and multistation lymph node involvement in the bilateral neck, hilar, mediastinal, axillary, and internal mammary regions, suggesting possible systemic disease. At this time, the main purpose of bone marrow aspiration was not initial etiologic screening, but to assess whether the bone marrow was involved, to complete lymphoma staging and tumor burden assessment, and to comprehensively evaluate the extent of disease together with the multiple pulmonary lesions and systemic lymph node involvement. Bone marrow examination can also help exclude hematologic involvement caused by bone marrow infiltration, providing a basis for subsequent treatment intensity selection, prognostic assessment, and baseline evaluation before chemotherapy. No tumor was seen in the bone marrow aspiration result, which has important reference value for staging assessment and treatment planning.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After hospital-wide MDT discussion, it was recommended to repeat FAPI-PET-CT to further clarify the etiology. On Day +11, repeat whole-body FAPI-PET-CT showed: 1. A mass lesion with high FAP uptake in the inferior right temporal region, considered likely a malignant tumor (malignant mesenchymal tumor? malignant lymphoma?); PET/CT-guided needle biopsy by the Department of Nuclear Medicine molecular imaging was recommended. 2. Multiple nodules, patchy opacities, and mass-like consolidative lesions in all lobes of both lungs, with markedly increased FAPI uptake; compared with the prior outside-hospital PET/CT, the number had increased and the extent had enlarged, considered likely multiple pulmonary metastases. 3. Multiple enlarged lymph nodes in the bilateral neck (levels I and II), bilateral hila, mediastinum, bilateral axillae, left internal mammary region, and cardiophrenic angle region, some with increased FAPI uptake, considered likely multiple lymph node metastases. The pathology report from the right maxillofacial biopsy on Day +17 showed: B-cell lymphoma, favor diffuse large B-cell lymphoma. Bone marrow aspiration result: no tumor seen.",
+      "images": [
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLTx2Zjiajd5VquDrlYrQP09pZ7RGaDvPo2Hd2KsqUibLnl1eUJYfvKz9g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 6: Follow-up PET-CT showed markedly increased metabolic activity in multiple lesions in the right maxillofacial region and both lungs compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/a9db9174bffc2f24c76e4c0fedf5fd53bbde7e93.png"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLU8lQVWC6CFus0XRUodBmm3nYCnKHcy9NypicYYlbNAe7hwQxgEuxT0w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 7: The lesion in the right maxillofacial region is markedly enhanced compared with the previous study",
+          "local_src": "cleaned_cases_image_cache/6c9b9aad5a4c883058a346b0e49ad9fd5bdb25c5.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLSu1aoLgibQrntG2jUvWt6td5Lzs1KYenY0PhDvJo0laOjtZQ2rBWueA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8: Right maxillofacial tissue biopsy indicated diffuse large B-cell lymphoma",
+          "local_src": "cleaned_cases_image_cache/dae28c23e2074de61581d1b8d5f552e5037c2386.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLzE2ocJZKcFicnfsZ5HHGO7gnvibWl5pZ0V25Mt0WYh4F2fkshsTdS2Qw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/7330b800c331cef1dd74528b3c127f20fef20b35.png"
+        },
+        {
+          "image_id": "fig20",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLjia4UYBkaqYHXdu1ayPRJA8hQmKTZjELkD2NktjgvriaF81TdzURsDtw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/2ec969ac1a1344cddf4fbc54664e15094223fd91.png"
+        },
+        {
+          "image_id": "fig21",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLjHUoXVu2ptymShxSlpWdpKE94bNtIqibF3PIFYAkGnqp5reGrDBicaNg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 9: Chest lesions showed marked resolution after standard treatment for lymphoma",
+          "local_src": "cleaned_cases_image_cache/ea8cff76bacc853c54e0a00655c3a0c43951a697.png"
+        },
+        {
+          "image_id": "fig22",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIhia7r3S2hZpicBjYRzBM6JLLw3uuFAmx7Y1ERtO2CAb6xibuJIWlBQsc8sVbpxN57PgLJVWF9mTfJg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 10: After standard treatment for lymphoma, PET-CT showed a marked reduction in hypermetabolic lesions",
+          "local_src": "cleaned_cases_image_cache/6b4f3d734badb6ff9d823866ba0c05179c34f11b.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Diffuse large B-cell lymphoma; lymphoma involving the skin and lungs",
+      "diagnostic_basis": [
+        "Elderly female, subacute onset, chest CT showed multiple bilateral quasi-spherical and consolidative lesions; poor response to anti-infective therapy.",
+        "Whole-body FAPI-PET-CT showed a right inferotemporal FAP-avid mass, multiple nodules, patchy and mass-like areas of consolidation in all lobes of both lungs, and multiple enlarged lymph nodes; pathology from a right maxillofacial biopsy: B-cell lymphoma, favor diffuse large B-cell lymphoma"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Transferred to the Hematology Department for further treatment",
+        "treated with 4 cycles of the R-CHOP regimen"
+      ],
+      "treatment_response": [
+        "After 3 cycles of treatment, repeat chest CT showed marked resolution of the lesions compared with prior imaging, and the cough symptoms improved significantly.",
+        "On follow-up, the lesions were significantly smaller than before, and the severe cough that had troubled the patient the most was also markedly relieved."
+      ]
+    }
+  }
+}

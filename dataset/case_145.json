@@ -1,0 +1,538 @@
+{
+  "status": "success",
+  "case_id": "case_145",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, cafeteria boiler worker, was admitted to Fujian Provincial Hospital in around Day 0 with the chief complaint of \"recurrent fever for 40 days.\"\nHistory of present illness: Forty days before admission, the patient developed persistent fever without an obvious precipitating cause. At that time, it was early September, and the patient was on postoperative day 8 after prostate surgery. During the following 24 days, the patient’s temperature fluctuated between 37.3℃ and 38.6℃. Starting on day 25, the temperature exceeded 38.0℃, with prominent nocturnal fever, mainly occurring from 23:00 to 00:00 the next day. During this period, the patient had occasional cough, without other systemic symptoms. He presented to the Emergency Department of the First Affiliated Hospital of Fujian Medical University, where \"urinary tract infection\" was considered, and he was treated with \"Cravit\" for 9 days, but the fever did not improve significantly. In addition, diarrhea began during treatment, occurring 3 to 4 times daily, mostly soft stools, occasionally watery stools. No further evaluation or treatment was sought afterward, but the symptoms persisted. Twenty days before admission, the patient still had recurrent fever and presented to the Department of Respiratory and Critical Care Medicine at that hospital. Relevant examinations were completed, with no special treatment given; albumin was infused once during this period, and the diagnosis was fever of unknown origin (noninfectious fever?). He was then discharged, but continued to have recurrent fever, with a trend toward higher fever peaks than before. For diagnostic clarification, the patient presented to the outpatient clinic of Fujian Provincial Hospital. After whole-body PET-CT, he was admitted to our department with a provisional diagnosis of \"fever of unknown origin.\"\nPast history: Fifty-five days before admission, the patient had sudden decreased vision in the right eye and presented to a municipal ophthalmology specialty hospital, where he was diagnosed with \"cataract\" and underwent \"right cataract surgery\" on Day -65. Postoperatively, vision did not recover significantly (0.2) and gradually worsened; at present, only slight light perception remains. On Day -18, the patient returned to the First Affiliated Hospital of Fujian Medical University for follow-up. Ocular A/B ultrasonography showed fine weak echogenic spots in the vitreous cavity of the right eye, clustered into patches and not connected to the ocular wall echo band; the left eye was normal. This was considered to be \"right retinal necrosis?\" caused by \"herpes simplex virus\" infection. Oral valacyclovir plus topical steroid eye drops were given, but vision did not recover. Forty-eight days before admission, the patient had also presented to the First Affiliated Hospital of Fujian Medical University for \"dysuria for 6 years,\" was diagnosed with \"benign prostatic hyperplasia,\" and underwent \"transurethral resection of the prostate.\" Postoperative recovery was good. During this period, urine culture submitted for testing showed growth of yeast-like fungi. Postoperative pathology reported: nodular prostatic hyperplasia.\nPersonal history and family history were unremarkable. Since the onset of this illness 40 days earlier, the patient had decreased appetite and reported increased bowel movement frequency over the past 6 months, with a weight loss of 5 kg.\nPhysical examination on admission: T 37.5℃, P 103/min, R 18/min, BP 100/65 mmHg; no enlargement of superficial lymph nodes was palpable throughout the body; scattered suspicious \"umbilication sign\" could be seen on the facial skin. Neck supple, without resistance. Breath sounds were clear in both lungs, without dry or moist rales. Heart rhythm regular; no pathologic murmur was heard in any valve area. Abdomen soft, mild tenderness in the left abdomen, no rebound tenderness, no hepatosplenomegaly palpable below the costal margin; pathologic signs negative.\nAncillary examinations (outside hospital): On multiple repeat complete blood counts, the lymphocyte count was low, fluctuating between 0.58-0.98×109/L; biochemistry, coagulation screening, complete autoimmune panel, rheumatoid factor, anti-CCP, and anticardiolipin antibody were all normal; EB virus nucleic acid (whole blood, Day -30): 7.1×10^3 copies/ml; EB virus nucleic acid (whole blood, Day -15): 2.84×10^4 copies/ml; EBVCA-IgG >750 U/ml, EBNA-IgG >430 U/ml, EBEA-IgG >150 U/ml; fungal D-glucan test: 22.1 Pg/ml; infection-related markers including CRP, PCT, ferritin, TB-spot, stool Clostridioides difficile, and blood cultures were all negative; lung perfusion scintigraphy: multiple areas of decreased blood flow perfusion in part of the apical segment and part of the anterior segment of the right upper lobe, the medial segment of the right middle lobe, the anterior basal segment of the right lower lobe, and part of the apicoposterior segment and part of the anterior segment of the left upper lobe and the anteromedial basal segment of the left lower lobe, suggesting the possibility of \"pulmonary embolism\"; multiple pulmonary nodules in both lungs, bilateral pleural effusions; abdominal ultrasound: right hepatic cyst, postoperative prostate changes, and prostatic calculi; ECG: incomplete right bundle branch block. Chest CT (Day -29): multiple pulmonary nodules in both lungs, some newly appeared, considered inflammatory nodules, with small bilateral pleural effusions.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Invasive candidiasis/candidemia with endogenous endophthalmitis and pulmonary dissemination",
+          "supporting_evidence": [
+            "The patient underwent \"transurethral resection of the prostate\" 48 days before admission, constituting a recent history of urologic surgery, which may increase the risk of healthcare-associated fungal infection.",
+            "Postoperative urine culture showed yeast growth, suggesting Candida colonization or evidence of infection.",
+            "The fever began on postoperative day 8 after prostate surgery and was temporally associated with a postoperative infection.",
+            "Postoperative visual acuity in the right eye showed no significant recovery and gradually declined; abnormal echoes were visible in the vitreous cavity, consistent with the differential diagnosis of endogenous endophthalmitis.",
+            "Multiple nodules in both lungs and bilateral pleural effusions can be seen in hematogenous disseminated infection"
+          ],
+          "opposing_evidence": [
+            "Blood cultures and other infection-related indicators were all negative",
+            "Fungal D-glucan test: 22.1Pg/ml, not suggestive of a significant elevation",
+            "Chest examination: breath sounds were clear in both lungs, with no dry or moist rales heard; respiratory physical signs were not prominent."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Epstein-Barr virus-associated lymphoproliferative disease or lymphoma",
+          "supporting_evidence": [
+            "Persistent fever for 40 days, accompanied by decreased appetite and 5 kg weight loss, consistent with the systemic manifestations of neoplastic fever or lymphoproliferative disease",
+            "EB virus nucleic acid was positive on both tests, and the later result was higher than the earlier result; EBVCA-IgG, EBNA-IgG, and EBEA-IgG were all markedly elevated, suggesting that EBV-related involvement should be taken seriously.",
+            "Multiple nodules in both lungs and bilateral pleural effusions can be seen in pulmonary involvement by lymphoma or EBV-associated lymphoproliferative disease",
+            "Repeated follow-up complete blood counts showed low lymphocyte counts, suggesting possible immune abnormalities or lymphatic system disease",
+            "Infection-related indicators such as CRP, PCT, and blood culture were all negative, making infectious etiologies other than common bacterial infection relatively more worthy of consideration"
+          ],
+          "opposing_evidence": [
+            "No enlargement of superficial lymph nodes was palpable throughout the body",
+            "No enlargement of the liver or spleen was palpable below the costal margin",
+            "The autoimmune panel, rheumatoid factor, anti-CCP, and anticardiolipin antibodies were all unremarkable, but this is not specific evidence against this diagnosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Infective endocarditis with septic pulmonary embolism",
+          "supporting_evidence": [
+            "Persistent fever, with no significant improvement after 9 days of antibacterial therapy with \"Levofloxacin\"",
+            "Lung perfusion scintigraphy showed multiple areas of decreased blood flow perfusion, suggesting the possibility of pulmonary embolism; chest CT showed multiple nodules in both lungs, and the combination of the two findings warrants vigilance for septic emboli",
+            "Recent history of surgery may increase the risk of bacteremia and secondary infective endocarditis",
+            "Bilateral pleural effusions can be seen in pulmonary involvement related to septic emboli"
+          ],
+          "opposing_evidence": [
+            "Regular heart rhythm; no pathologic murmurs heard in any valve auscultation area.",
+            "Blood cultures and other infection-related indicators were all negative",
+            "The phase 1 information did not provide typical high-risk background factors such as IV drug abuse, known valvular disease, or prosthetic valves."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Fever due to pulmonary embolism/recurrent thromboembolic disease",
+          "supporting_evidence": [
+            "Lung perfusion scintigraphy showed multiple areas of decreased perfusion in both lungs, clearly suggesting the possibility of \"pulmonary embolism\".",
+            "Recent transurethral resection of the prostate, a risk factor for venous thromboembolism",
+            "Chest CT showed multiple nodules in both lungs and bilateral pleural effusions; pleural effusion may be seen as a reaction after pulmonary embolism.",
+            "At admission, the heart rate was 103 beats/min, with mild tachycardia."
+          ],
+          "opposing_evidence": [
+            "Fever persisted for 40 days and was significantly worse at night; the prolonged febrile course is not the most typical presentation of simple pulmonary embolism.",
+            "The patient only occasionally coughed, with no clear description of typical pulmonary embolism symptoms such as chest pain, hemoptysis, or dyspnea.",
+            "Chest CT showed some new nodules, which were considered inflammatory nodules, further suggesting infection or other systemic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Tuberculosis (pulmonary tuberculosis or disseminated tuberculosis)",
+          "supporting_evidence": [
+            "Fever for 40 days, characterized predominantly by nighttime fever, accompanied by decreased appetite and a 5-kg weight loss, consistent with the common systemic symptom pattern of TB",
+            "Chest CT showed multiple nodules in both lungs and small bilateral pleural effusions, which can be seen in tuberculous lesions.",
+            "Repeated low lymphocyte counts suggest an increased risk of tuberculosis when immune status is abnormal."
+          ],
+          "opposing_evidence": [
+            "T-SPOT.TB negative",
+            "The patient has only occasional cough, with no obvious respiratory symptoms.",
+            "The phase 1 information did not provide evidence more supportive of TB, such as a history of TB contact, cavitation, or mediastinal lymphadenopathy."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "TORCH",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBVCA-IgG",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBEA-IgG",
+          "requirement": "required"
+        },
+        {
+          "exam": "CD4+ cell count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CD8+ cell count",
+          "requirement": "required"
+        },
+        {
+          "exam": "NK cell count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CD19+ cell count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CD45+",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "ferritin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal (1→3)-β-D-glucan test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool Clostridioides difficile",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoimmune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatoid factor",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-CCP",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood mNGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body PET-CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "reason": "The patient has recurrent fever, with no marked elevation in infection markers; fever caused by neoplastic disease should be considered.",
+          "basis_in_stage3_input": "Significant weight loss",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Examinations after admission:\nCBC: WBC 3.9×10^9/L, N 72.4%, Ly 0.7×10^9/L, Hb 137 g/L, PLT 310×10^9/L.\nBlood chemistry: ALB 35 g/L, Na+ 127 mmol/L;\nStool routine: fungus (+), pus cells (+);\nTORCH: rubella virus IgG (+), CMV-IgG (+), HSV-IgG (+);\nEBVCA-IgG 657 U/ml, EBEA-IgG >150 U/ml;\nCD4+ cell count 239, CD8+ cell count 241, NK cell count 37; CD19+ cell count 58; CD45+ 634 (all decreased);\nESR, CRP, PCT, and ferritin all negative;\nFungal D-glucan test: <10 Pg/ml, GM test: 0.15 S/CO (both negative);\nStool Clostridioides difficile (-);\nComprehensive autoimmune panel, rheumatoid factor, anti-CCP, anticardiolipin antibody, and HLA-B27 all showed no abnormalities;\nUrine, stool, and blood cultures negative;\nBlood mNGS: no pathogenic organisms detected.\nWhole-body PET-CT showed multiple nodular and small patchy hyperdense opacities in both lungs with increased metabolism (SUV 2-5.5), with infection considered possible (fungal?); indistinct mesenteric spaces in the abdominal cavity, multiple nodules and small patchy opacities, with increased metabolism (SUV 6.6); focal increased metabolism in the left iliac bone (SUV 3.8), without bone destruction.\nEchocardiography: no obvious abnormalities.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnMNpaic3RXs0zG4Z3ZFkYYdz74GfTQv7vFmmsQEywjmYAVxl6sqHeE4A/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/0c1bb4c6de52cedaa8362aa2434537089d22a7e6.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnicRpGVJoIfm8rnLCWqp1tMPicwna610YwE5ibut8fKMGoe53nia9tpN0ng/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/9d6c01ac117037579bc073b43d76b3c2e2a08cbb.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnLCKicrjc13um98nl9mR6YXWpDxbb5j4FzEknOv1mlwn8UrNzHib6dTWA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/e1487a2ee970f5ab3ee348b282a24b5683cb59e7.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnL5FrCpE4Au3OTvk7eZ5nVT3TAnTBsUbZ3yA6CYU5WCicqsTcUjR0w5A/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Echocardiography: no obvious abnormalities.",
+            "local_src": "cleaned_cases_image_cache/86ece813d2c326a1c1d0bef4545b0783a7d4a007.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious fever (chronic viral infection, Mycobacterium tuberculosis or nontuberculous mycobacterial infection, fungal infection, infective endocarditis)",
+            "evidence": [
+              "At an outside hospital, testing showed an elevated EBV copy number and positive anti-herpes simplex virus antibody IgM.",
+              "Whole-body PET-CT showed multiple nodules in the lungs and abdominal cavity, and a hypermetabolic lesion in the left iliac bone",
+              "Recurrent fever",
+              "Multiple pulmonary nodular opacities"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Noninfectious inflammatory disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "At the outside hospital, the autoimmune panel, ANCA-related antibodies, anti-CCP, anticardiolipin antibodies, and rheumatoid factor were all negative.",
+              "The patient had no symptoms of systemic rheumatic disease such as arthralgia, rash, hepatosplenomegaly, photosensitivity, or oral ulcers."
+            ]
+          },
+          {
+            "name": "Neoplastic diseases (lymphoma caused by post-EB virus infection, other solid malignant tumors)",
+            "evidence": [
+              "At an outside hospital, EBV copy number was elevated, and EBV infection-related antibodies were positive."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious fever (chronic viral infection, Mycobacterium tuberculosis or nontuberculous mycobacterial infection, fungal infection, infective endocarditis)",
+        "evidence": [
+          "At an outside hospital, testing showed an elevated EBV copy number and positive anti-herpes simplex virus antibody IgM.",
+          "Whole-body PET-CT showed multiple nodules in the lungs and abdominal cavity, and a hypermetabolic lesion in the left iliac bone",
+          "Recurrent fever",
+          "Multiple pulmonary nodular opacities"
+        ],
+        "exclusion_reasons": [
+          "White blood cell count, PCR, CRP, and other infection markers showed no significant abnormalities; urine, stool, and blood cultures were negative; blood mNGS: no pathogenic organisms were detected; echocardiography: no obvious abnormalities."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious inflammatory disease",
+        "evidence": [
+          "Prolonged disease course with recurrent fever; infection markers including white blood cell count, PCR, and CRP showed no significant abnormalities; urine, stool, and blood cultures were negative; blood mNGS: no pathogenic organisms detected;"
+        ],
+        "exclusion_reasons": [
+          "At the outside hospital, the autoimmune panel, ANCA-related antibodies, anti-CCP, anticardiolipin antibodies, and rheumatoid factor were all negative.",
+          "The patient had no symptoms of systemic rheumatic disease such as arthralgia, rash, hepatosplenomegaly, photosensitivity, or oral ulcers."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic diseases (lymphoma caused by post-EB virus infection, other solid malignant tumors)",
+        "evidence": [
+          "Recurrent fever and weight loss; no obvious positive findings suggesting infection; at an outside hospital, elevated Epstein-Barr virus copy number and positive Epstein-Barr virus infection-related antibodies were found; whole-body PET-CT showed multiple nodular and small patchy areas of increased density in both lungs, with increased metabolic activity (SUV 2-5.5); blurred mesenteric fat planes in the abdominal cavity, with multiple nodules and small patchy opacities, with increased metabolic activity (SUV 6.6); focal increased metabolic activity in the left iliac bone (SUV 3.8)"
+        ],
+        "exclusion_reasons": [
+          "No obvious generalized lymphadenopathy"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Visual acuity on ophthalmology consultation",
+          "basis_in_stage3_input": "Ophthalmology consultation visual acuity: right eye, temporal light perception; left eye, 0.5+.",
+          "why_order_this_exam": "After right eye cataract surgery, the patient’s vision did not recover and continued to decline; it was previously only 0.2 and further worsened to light perception only in the temporal field, suggesting rapid progression of the lesion. Visual acuity examination is the basis for determining the severity of right eye involvement, assessing whether endophthalmitis/retinal involvement is present and the urgency of treatment, and can also serve as an objective baseline for subsequent vitrectomy, intraocular drug injection, and follow-up of therapeutic efficacy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "intraocular pressure",
+          "basis_in_stage3_input": "Intraocular pressure: right eye 16 mmHg, left eye 15 mmHg.",
+          "why_order_this_exam": "The patient has persistent worsening of vision in the right eye after surgery with suspected intraocular infection, requiring concurrent assessment of the structural and functional status of the globe. Intraocular pressure measurement can determine whether there is secondary glaucoma, impaired ciliary body function, or hypotony caused by severe endophthalmitis, which helps assess disease severity, the risks of surgery and intraocular drug injection, and provides a basis for the ophthalmic management plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ophthalmic slit-lamp/fundus examination",
+          "basis_in_stage3_input": "No conjunctival hyperemia or edema in either eye; corneas clear; KP (-), tyndall (-), anterior chambers clear; right intraocular lens in place and clear. Large amount of yellow vitreous opacities; inferiorly, the retina is visible with no obvious retinal breaks; the remainder of the fundus is not clearly visualized. Left lens opacity; no obvious abnormality of the fundus under a small pupil.",
+          "why_order_this_exam": "The patient's visual acuity in the right eye continued to decline after cataract surgery. Prior ultrasonography had already shown abnormal echoes in the vitreous cavity, and antiviral therapy was ineffective, so further direct observation of the anterior segment, vitreous, and fundus is necessary. This examination can determine whether this is postoperative endophthalmitis, purulent vitreous opacity, retinal necrosis, or a retinal tear, and can help assess the location and extent of the lesion and determine whether vitrectomy, intraocular drug injection, and specimen collection for testing are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Vitreous fluid pathogen culture",
+          "basis_in_stage3_input": "Intraoperative vitreous fluid was collected and sent for microbiological culture",
+          "why_order_this_exam": "The patient has severe progressive visual decline in the right eye and a large number of yellow opacified lesions in the vitreous on fundus examination; clinically, it is first necessary to determine whether this is infectious endophthalmitis. Vitreous fluid is the specimen closest to the lesion. Etiologic culture can be used to attempt direct isolation of bacteria or fungi for confirmation of an infectious cause, differentiation of postoperative exogenous infection from other noninfectious inflammation, and to provide antimicrobial susceptibility and drug selection guidance for subsequent targeted anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Intraocular fluid testing",
+          "basis_in_stage3_input": "Intraoperatively, vitreous fluid was collected for pathogen culture and intraocular fluid testing.",
+          "why_order_this_exam": "In this case, there was prolonged systemic fever, multiple pulmonary nodules, and decreased immune cells, while the right eye lesion progressed rapidly. Reliance on peripheral blood testing alone did not identify the pathogen. Intraocular fluid testing can further look for clues of infection or inflammation locally at the lesion site, helping determine whether the ocular manifestation represents a focal infection, part of a disseminated infection, or is related to a systemic disease, thereby guiding subsequent anti-infective therapy or a shift to evaluation of other etiologies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Intraocular fluid (tissue) smear + culture",
+          "basis_in_stage3_input": "Intraocular fluid (tissue) smear and culture: no pathogenic organisms detected",
+          "why_order_this_exam": "The right eye lesion was one of the earliest and most prominent organ involvements in the patient's condition, and rapid smear and routine culture should be performed as soon as possible to determine whether bacteria or fungi are present. This testing can provide preliminary etiologic information as early as possible after intraoperative specimen collection, helping determine whether immediate empiric antibacterial/antifungal therapy is needed; even if the results are negative, they can indicate the limited detection rate of conventional methods and prompt further use of higher-sensitivity tests such as mNGS.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen mNGS of intraocular fluid",
+          "basis_in_stage3_input": "Intraocular fluid pathogen mNGS (Day 0) detected Streptococcus pneumoniae",
+          "why_order_this_exam": "In the setting of persistent high fever, progressive worsening of the ocular condition, and no pathogenic organisms identified on routine smear and culture of intraocular fluid, a more sensitive method is needed to identify the pathogen. Intraocular fluid mNGS can identify fastidious pathogens or residual pathogens after prior medication use when routine culture is negative, thereby addressing whether the right eye lesion is infectious endophthalmitis and determining the pathogen type, with a direct impact on adjustment of the anti-infective spectrum; in this case, Streptococcus pneumoniae was detected, which also provided an important basis for discontinuing unnecessary antifungal therapy and shifting to more targeted antibacterial treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Neurologic examination",
+          "basis_in_stage3_input": "Neurologic examination: meningeal irritation signs negative, right Babinski sign (+)",
+          "why_order_this_exam": "On Day +3, the patient newly developed psychiatric symptoms, incoherent speech, and worsening bilateral hand tremor, suggesting that the condition may have progressed from fever and ocular lesions to central nervous system involvement. A systematic neurologic examination can rapidly determine whether focal neurologic signs, meningeal irritation signs, or pyramidal tract involvement are present, providing direction for distinguishing encephalitis, meningitis, cerebral infarction, demyelinating lesions, and tumor infiltration, and determining whether urgent brain MRI and lumbar puncture are indicated.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI",
+          "basis_in_stage3_input": "Brain MRI (10.28) showed: multiple intracranial abnormal signal lesions (T2-FLAIR hyperintensity), with no enhancement, no surrounding edema, and no obvious mass effect, suggesting possible inflammatory demyelinating lesions; small acute cerebral infarction in the right caudate nucleus near the head.",
+          "why_order_this_exam": "Against a background of persistent fever, the patient developed abrupt abnormal mental and behavioral changes and worsening tremor, and the neurologic examination also showed a positive right Babinski sign; it is necessary to promptly determine whether there is a central nervous system infection, inflammation, a vascular event, or a tumor-related lesion. Brain MRI is better than CT for demonstrating parenchymal inflammation, demyelination, ischemic lesions, and space-occupying features, which helps explain the new neurologic symptoms, determine whether there is a new intracranial infectious focus or other noninfectious lesion, and guide lumbar puncture safety assessment and subsequent treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lumbar puncture examination",
+          "basis_in_stage3_input": "Lumbar puncture examination: opening pressure: 75 mmH2O; routine CSF analysis: Pandy test negative, RBC 5×10^6/L, WBC 8×10^6/L; CSF biochemistry: GLU 2.39 mmol/L, Cl 119 mmol/L, ADA 5.00 U/L, TP 44.0 mg/dL; India ink stain: negative.",
+          "why_order_this_exam": "The patient developed neuropsychiatric symptoms and pyramidal tract signs on the basis of fever, requiring differentiation among central nervous system infection, inflammatory lesions, tumor infiltration, and other causes. Lumbar puncture can directly obtain cerebrospinal fluid, assess intracranial pressure, and perform cytologic, biochemical, and etiologic examinations. It is a key step in determining whether meningoencephalitis, fungal meningitis, or lymphoma-related central nervous system involvement is present, and it can also provide a basis for whether to escalate anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid routine examination",
+          "basis_in_stage3_input": "Routine: Pandy test negative, RBC 5×10^6/L, WBC 8×10^6/L",
+          "why_order_this_exam": "Routine cerebrospinal fluid analysis is a basic test for assessing the degree of central nervous system inflammation when a patient develops new neurologic symptoms. Through cell count, differential, and the Pandy test, it can preliminarily distinguish bacterial, viral, fungal, or noninfectious central nervous system lesions; in conjunction with this case, in which meningeal irritation signs are negative but behavioral abnormalities and MRI abnormalities are present, the routine results help determine whether occult meningoencephalitis is present and guide subsequent more in-depth cerebrospinal fluid testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF biochemistry",
+          "basis_in_stage3_input": "Cerebrospinal fluid biochemistry: GLU 2.39 mmol/L, Cl 119 mmol/L, ADA 5.00 U/L, TP 44.0 mg/dL",
+          "why_order_this_exam": "The patient has persistent high fever, intraocular lesions, and new-onset central nervous system symptoms, and it is necessary to determine whether there are infection- or tumor-related metabolic abnormalities in the cerebrospinal fluid. Cerebrospinal fluid glucose, chloride, protein, and ADA help differentiate bacterial, tuberculous, fungal, and noninfectious inflammation. Combined with the repeatedly negative fungal-related markers and imaging findings in this case, this can help narrow the differential diagnosis and assess whether there is a need to continue intensified anti-infective therapy or shift focus to other etiologies.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CSF India ink stain",
+          "basis_in_stage3_input": "India ink stain: negative.",
+          "why_order_this_exam": "Early in the course of the case, there was prolonged fever, multiple pulmonary nodules, suspected skin lesions, decreased immune cells, and ocular involvement, and disseminated fungal infection, especially cryptococcosis, needed to be a major focus of the differential evaluation for a time. The patient subsequently developed neuropsychiatric symptoms, so CSF India ink staining was used for rapid screening for cryptococcal meningitis, helping to exclude an important opportunistic infection and avoid missing a potentially fatal but treatable fungal central nervous system infection as the condition worsened.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Send-out cerebrospinal fluid testing",
+          "basis_in_stage3_input": "Sent-out cerebrospinal fluid examination: Routine: WBC 8×10^6/L, Ly% 89%, Ne% 1%, MO% 9%, abnormal cerebrospinal fluid cytology, impression: intracranial inflammation. Biochemistry: GLU 2.1 mmol/L, Cl 118.68 mmol/L, LDH 31 U/L, ADA 3.3 U/L, TP 42.65 mg/dL.",
+          "why_order_this_exam": "This case is clinically complex. The routine cerebrospinal fluid results from our hospital are insufficient to fully explain the patient's progressive neurologic symptoms and multiple abnormal lesions on MRI; therefore, send-out testing is required for further analysis. Send-out testing can provide more detailed cell differential, cytology, and additional biochemical information to improve the identification of intracranial inflammatory, infectious, or tumor-related changes, and to help determine whether there is central nervous system involvement by atypical pathogens or hematologic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF cytology",
+          "basis_in_stage3_input": "Abnormal CSF cytology, provisional diagnosis: intracranial inflammation.",
+          "why_order_this_exam": "The patient had prolonged fever, weight loss, elevated EB virus copy number, and decreased immune cells, and later developed central nervous system symptoms. In addition to infection, tumor-related central nervous system involvement such as lymphoma should also be considered. CSF cytology can be used to look for atypical cells or inflammatory cytologic patterns, helping to distinguish simple infectious meningoencephalitis from tumor infiltration and immune-related inflammation, and is of major significance for determining whether to continue anti-infective therapy or shift toward a hematologic malignancy workup.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Vital signs monitoring",
+          "basis_in_stage3_input": "On the evening of Day +4, the patient’s temperature rose to a maximum of 41℃, accompanied by chills and rigors, heart rate 146 beats/min, respiratory rate 33 breaths/min, blood pressure 112/74 mmHg.",
+          "why_order_this_exam": "The patient developed a high fever of 41℃, chills, tachycardia, and tachypnea, suggesting a risk of rapid clinical deterioration or even sepsis-like manifestations. Continuous vital sign monitoring can dynamically assess circulatory and respiratory stability, promptly identify shock, respiratory failure, or neurologic deterioration, and provide a basis for whether to escalate anti-infective therapy, intensify monitoring, administer fluid resuscitation, and provide organ support therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal infection-related markers",
+          "basis_in_stage3_input": "After admission, fungal infection-related tests were repeated twice, and both were negative.",
+          "why_order_this_exam": "At disease onset, the patient had prolonged fever, multiple pulmonary nodules, ocular lesions, decreased immune cells, and suspected skin lesions, and disseminated fungal infection was once highly suspected. The purpose of repeated testing of fungal-related markers was to dynamically assess whether invasive fungal disease was present and to determine the diagnostic direction in conjunction with the response to antifungal therapy; in this case, these tests were repeatedly negative, and the fever peaks instead increased during antifungal therapy, providing a basis for re-evaluating the diagnosis of fungal disease and avoiding the continuation of unnecessary antifungal treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine fungal culture",
+          "basis_in_stage3_input": "Multiple repeat urine and stool fungal cultures were all negative",
+          "why_order_this_exam": "The patient has a history of transurethral resection of the prostate. After the operation, urine culture once showed growth of yeast-like organisms, and the onset of fever was close to the postoperative period; therefore, repeat urine fungal culture is needed to determine whether the urinary system remains a source of fungal colonization or infection. This test helps assess whether there is an entry focus for hematogenous dissemination and to corroborate or exclude the ocular and pulmonary lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool fungal culture",
+          "basis_in_stage3_input": "Multiple repeat urine and stool fungal cultures were all negative",
+          "why_order_this_exam": "The patient developed persistent diarrhea after using levofloxacin, and a routine stool examination previously showed fungus (+). In the setting of persistent fever and multisystem involvement, intestinal fungal overgrowth or infection should be ruled out. Stool fungal culture can be used as part of the assessment of an intestinal source, to help determine whether the diarrhea and fever can be explained by fungal infection, and to provide a reference for whether to continue antifungal therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT re-examination on Day -4 showed multiple nodules in both lungs, with an increase in lesions compared with the chest CT on Day -10.",
+          "why_order_this_exam": "The patient has had persistent fever for 40 days, with occasional cough. PET-CT and prior chest CT both showed multiple nodules in both lungs and pleural effusion, while the etiology has remained unclear. Repeat chest CT was performed to dynamically assess whether the pulmonary lesions had progressed, as well as changes in their distribution and morphology, to determine whether the findings were more suggestive of infectious dissemination, hematogenous embolic lesions, or neoplastic involvement, and to provide a basis for subsequent tissue sampling, treatment adjustment, and assessment of therapeutic response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serial results of blood counts and inflammatory markers",
+          "basis_in_stage3_input": "Based on the dynamic results of the blood counts and inflammatory markers, the patient's overall clinical condition cannot be fully explained by an infectious disease.",
+          "why_order_this_exam": "Although the patient had persistent high fever and multisystem involvement, inflammatory markers including CRP, PCT, and ferritin were repeatedly negative, and the peripheral blood showed lymphopenia; both antibiotic and antifungal treatments had unsatisfactory efficacy. Continuous dynamic monitoring of the blood counts and inflammatory markers was intended to assess whether a typical infectious response was present, monitor disease progression, and, when evidence of infection was insufficient, prompt a shift toward noninfectious causes such as EB virus-related lymphoproliferative disease or T-cell lymphoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBV copy number",
+          "basis_in_stage3_input": "Considering the patient's previously documented progressive increase in EB virus copy number",
+          "why_order_this_exam": "The patient has prolonged fever, weight loss, multiple lesions in the lungs and abdominal cavity, and decreased immune cells, and the EBV whole-blood nucleic acid increased from 7.1×10^3 to 2.84×10^4 copies/ml, suggesting persistently active viral replication. Repeat testing of the EBV copy number can assess dynamic changes in viral load, help differentiate simple prior infection from EBV-associated lymphoproliferative disease/lymphoma, and serve as an important clue for subsequent further hematologic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "multiple EB virus-related antibodies",
+          "basis_in_stage3_input": "and multiple EBV-related antibodies were positive",
+          "why_order_this_exam": "In this case, infectious workup was repeatedly negative and the condition progressively worsened; meanwhile, related antibodies including EBVCA-IgG, EBNA-IgG, and EBEA-IgG were positive, suggesting that an EBV-related process warrants high attention. Testing multiple related EBV antibodies helps with comprehensive assessment of the phase of infection and the background of EBV activation and, together with viral load and bone marrow findings, supports whether EBV-associated lymphoproliferative disease should be considered.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration is recommended, with send-out testing of the bone marrow aspirate for lymphoma-related studies.",
+          "why_order_this_exam": "The patient has recurrent fever, weight loss, elevated EB virus copy number, and decreased immune cells and lymphocytes. Chest CT and PET-CT suggest lesions at multiple sites, but evidence of infection has consistently been insufficient, and evaluation for a hematologic malignancy is clearly warranted. Bone marrow aspiration can directly assess for abnormal lymphocytes, infiltration, or reactive changes in the bone marrow, and is an important sampling method for confirming or supporting the diagnosis of lymphoma, especially T-cell lymphoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Send-out lymphoma-related bone marrow aspirate testing",
+          "basis_in_stage3_input": "Bone marrow aspiration is recommended, with send-out testing of the bone marrow aspirate for lymphoma-related studies.",
+          "why_order_this_exam": "When routine infectious disease workup and empiric therapy cannot explain the full clinical picture, more specialized hematologic oncology testing is needed. Sending out the relevant bone marrow aspirate testing for lymphoma can enable more in-depth cytology, immunophenotyping, and other specialized analyses, improving the detection rate of occult lymphoma or EBV-associated lymphoproliferative disorders, thereby addressing the key issue in the shift of etiologic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow histopathology + immunohistochemistry",
+          "basis_in_stage3_input": "On Day +9, bone marrow histopathology + immunohistochemistry were completed: hematopoietic tissue showed markedly active proliferation; the granulocytic and erythroid lineages showed active proliferation; megakaryocytes were readily seen; lymphocytes showed diffuse or focal proliferation; T-lyocytes showed active proliferation; T-lymphocyte bone marrow infiltration could not be excluded.",
+          "why_order_this_exam": "After bone marrow aspiration, further evaluation with histopathology and immunohistochemistry is needed to determine the distribution pattern, infiltration pattern, and immunophenotype of the abnormal cells. In a patient like this case, with fever of unknown origin, clear EBV-related clues, and insufficient evidence of infection, this examination can distinguish reactive lymphocytic hyperplasia from clonal T-cell infiltration, which directly affects whether a diagnosis of T-cell lymphoma is established and determines subsequent transfer to hematology for treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometry",
+          "basis_in_stage3_input": "Bone marrow flow cytometry: Analysis on the CD45/SSC dot plot showed cells coexpressing HLA-DR, CD2, CD5, CD38, and TCRα/β. Cells in the blast region accounted for approximately 0.5% of nucleated cells and were scattered in distribution. Monocytes accounted for approximately 2% of nucleated cells. The phenotype was mature. Granulocytes accounted for approximately 78% of nucleated cells, with an increased proportion, and no obvious developmental abnormality was seen. Impression: atypical lymphocytes are present.",
+          "why_order_this_exam": "The patient has persistent high fever, weight loss, EBV activation, and possible bone marrow involvement. Morphology alone is insufficient to determine the nature of the abnormal lymphocytes. Bone marrow flow cytometry can rapidly analyze the cellular immunophenotype, identify abnormal T-cell populations, maturity, and clonal tendency, help differentiate reactive hyperplasia from lymphoma infiltration, and corroborate the pathology and gene rearrangement results, thereby improving diagnostic accuracy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TCRB gene rearrangement testing",
+          "basis_in_stage3_input": "TCRB gene rearrangement test report: TCR β and TCR r rearrangements were detected.",
+          "why_order_this_exam": "Although the patient had manifestations of infection, repeated etiologic studies were insufficient to explain the progressive systemic disease course, while bone marrow pathology and flow cytometry had already suggested active abnormal proliferation of T lymphocytes. TCRB gene rearrangement testing is used to determine whether T cells have clonal proliferation and is key molecular evidence for distinguishing reactive T-cell hyperplasia from T-cell lymphoma; it has decisive value for the final diagnosis, excluding simple infection/inflammation, and subsequent hematology treatment decision-making.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Ophthalmology consultation: visual acuity: right eye temporal light perception, left eye 0.5+. Intraocular pressure: right eye 16 mmHg, left eye 15 mmHg. No conjunctival hyperemia or edema in either eye; corneas clear; KP (-), tyndall (-); anterior chambers clear; right intraocular lens in place and clear. Large amount of yellow vitreous opacities; inferior retina visible with no obvious retinal breaks; the remaining fundus could not be clearly visualized. Left lens opacity; no obvious abnormality seen in the fundus through a small pupil; diagnoses: 1. Right endophthalmitis? 2. Status post right cataract surgery (pseudophakia). On Day -4, the patient underwent right pars plana vitrectomy + intravitreal drug injection (vancomycin + voriconazole); vitreous fluid was collected intraoperatively for pathogen culture and intraocular fluid testing. Intraocular fluid (tissue) smear + culture: no pathogenic bacteria seen; intraocular fluid pathogen mNGS (Day 0) detected Streptococcus pneumoniae. After admission, the patient continued to have recurrent fever, and the etiology remained unidentified throughout, so empiric drug therapy was given. On Day +3, the patient developed psychiatric symptoms, speaking incoherently, with worsened bilateral hand tremor compared with before. Neurologic examination: meningeal irritation signs negative, right Babinski sign (+). Brain MRI (10.28) showed multiple intracranial abnormal signals (T2-FLAIR hyperintensity), with no enhancement, no surrounding edema, and no obvious mass effect, considered possibly inflammatory demyelinating lesions; small acute cerebral infarction in a focus near the head of the right caudate nucleus. Lumbar puncture examination: pressure: 75 mmH2O; routine: Pandy test negative, RBC 5×10^6/L, WBC 8×10^6/L; CSF biochemistry: GLU 2.39 mmol/l, Cl 119 mmol/l, ADA 5.00 U/L, TP 44.0 mg/dL; India ink stain: negative. Send-out CSF testing: routine: WBC 8×10^6/L, Ly% 89%, Ne% 1%, MO% 9%, abnormal CSF cytology, impression: intracranial inflammation. Biochemistry: GLU 2.1 mmol/l, Cl 118.68 mmol/l, LDH 31 U/L, ADA 3.3 U/L, TP 42.65 mg/dL. On the evening of Day +4, the patient's temperature rose to a maximum of 41℃, accompanied by chills and rigors, heart rate 146/min, respiratory rate 33/min, blood pressure 112/74 mmHg. On Day +5, based on the lumbar puncture and neurology consultation results, given the patient's progressive clinical deterioration and the still unidentified etiology, meropenem combined with linezolid was added for anti-infective treatment. After admission, the patient had fungal infection-related markers rechecked twice, both negative, and repeated urine and stool fungal cultures were all negative; NGS of intraocular fluid detected only Streptococcus pneumoniae, and during antifungal treatment the patient's daily fever peak showed an upward trend, with new intracranial infectious lesions appearing, so antifungal drugs were suspended. Repeat chest CT on Day -4 showed multiple nodules in both lungs, increased compared with the chest CT on Day -10. Expert consultation at an outside hospital: the patient had poor response to antibiotic treatment; combined with the dynamic results of blood counts and inflammatory markers, the overall clinical picture could not be explained by infectious disease alone; given the previously progressively increasing EB virus copy number and positivity for multiple related EB virus antibodies, lymphoma should be considered. Bone marrow puncture and send-out lymphoma-related bone marrow fluid testing were recommended. On Day +9, bone marrow histopathology + immunohistochemistry were completed: hematopoietic tissue markedly hypercellular, active granulocytic and erythroid hyperplasia, megakaryocytes readily seen, diffuse or focal lymphocytic hyperplasia, active T-lymphocyte proliferation, and T-lymphocyte bone marrow infiltration could not be excluded. Bone marrow flow cytometry: analyzed on the CD45/SSC dot plot, with co-expression of HLA-DR, CD2, CD5, CD38, and TCRα/β. Cells in the blast region accounted for about 0.5% of nucleated cells, scattered in distribution. Monocytes accounted for about 2% of nucleated cells. Mature phenotype. Granulocytes accounted for about 78% of nucleated cells, increased in proportion, with no obvious dysplasia. Suggestive of atypical lymphocytes. TCRB gene rearrangement test report: TCR β and TCR r rearrangements detected.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnfKyEMAWmSficnWbkmTKp39Yg2W3xtTDyyKTeRHicUX4bjW2AzqcDKPDA/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/a69236e370980dbbc7627364eb36d1741c916c45.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnMvkyS5WbhsorpJ2pUDkMz7I4Kj54uYZyz08TYmLR9mxKbicRMt9iaGTQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/86616f45d61e329c0ecf109a49958d8fe27f9f81.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnm0yp6f7EVyMJicibE4MOwNqAA2hWUWias1yK8pNFQqRZV2cyd9CicQticJg/640?wx_fmt=png&from=appmsg",
+          "near_text": "After admission, the patient continued to have recurrent fever.",
+          "local_src": "cleaned_cases_image_cache/c6f2fad3bc49487f282d53e4b55d59fc3b953c40.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnDBWPxic76hjupiczQiaMLdmQRZt7dgnxvP5KnGRt5VVLx9Gxnicq01mljA/640?wx_fmt=png&from=appmsg",
+          "near_text": "For some relevant examinations at this time, please refer to the third case file:",
+          "local_src": "cleaned_cases_image_cache/40ca70bf7c90dacbdb3a378db3fe795c5d3beb2c.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJXA7iarGdxUgHJUt9RiaKlsnu2XO93HYllfGx5eIjMdMVfia7n3RzD4aia4ZBcgpSppXEBaThibwcbR9g/640?wx_fmt=png&from=appmsg",
+          "near_text": "At this point, clinical diagnosis and treatment had reached an impasse.",
+          "local_src": "cleaned_cases_image_cache/17476e016038ce032a4b7469e4bb267238afd154.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "T-cell lymphoma",
+      "diagnostic_basis": [
+        "The patient is a middle-aged to elderly man with a history of weight loss over the past 6 months; recurrent fever; repeated etiologic studies for infection were negative; during anti-infective treatment, the condition progressively worsened;",
+        "Previously elevated EB virus nucleic acid copy number",
+        "After admission, complete blood count showed decreases in lymphocytes, hemoglobin, and platelets.",
+        "Bone marrow histopathology + immunohistochemistry: hematopoietic tissue proliferation is markedly active; granulocytic and erythroid lineages show active proliferation; megakaryocytes are readily seen; lymphocytes show diffuse or focal proliferation; T-lymphocyte proliferation is active; T-lymphocyte bone marrow infiltration cannot be excluded.",
+        "Bone marrow flow cytometry showed atypical lymphocytes.",
+        "TCRB gene rearrangement test report: TCR β and TCR r rearrangements detected"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prompt referral to Hematology for further evaluation and treatment"
+      ],
+      "treatment_response": []
+    }
+  }
+}

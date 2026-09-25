@@ -1,0 +1,283 @@
+{
+  "status": "success",
+  "case_id": "case_178",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Mr. Ling, male, 71 years old, presented with the chief complaint of \"recurrent cough and sputum production for more than 2 months, and a lung shadow detected for 1 month.\" Two months earlier, the patient developed paroxysmal cough without an obvious precipitating cause, producing a small amount of white sticky sputum, especially in the morning. This was accompanied by chest tightness and shortness of breath after activity, relieved at rest. He had no fever, chest pain, hemoptysis, or other symptoms. A chest CT performed at a local county hospital showed a mass-like patchy high-density opacity in the right lower lung with poorly defined margins, considered a space-occupying lesion; marked enlargement of mediastinal station 7 lymph nodes was noted, and mild enlargement of the remaining mediastinal lymph nodes was also seen. In approximately 1 month before Day 0, after admission, repeat chest CT showed a right lower lobe mass, considered highly suspicious for malignancy, with possible distal obstructive pneumonia and possible carcinomatous lymphangitis; multiple enlarged lymph nodes were present in the mediastinum and right hilum. Laboratory tests: serum immunoglobulin G4 (IgG4) was elevated to 3.86 g/L (normal reference range: 0.03-2.01 g/L).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW06xLzz9AaZOGgHl04M5NGCAibibnw4RHuD7p5velC6H50F7bdMFlonUWw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Chest CT from an outside hospital",
+          "local_src": "cleaned_cases_image_cache/84f84d7abff84f35b7bf253cef6f88a0c2b8b797.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW0o19ictaRb6exywqJvMoFCiaDB2Apy9WxgLne5tMDGx2FNAq9Kfh8czRA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Chest CT from an outside hospital",
+          "local_src": "cleaned_cases_image_cache/e837b648009ecf7950054a695385d32f4460d96d.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (malignant neoplasm of the right lower lung, with possible mediastinal and right hilar lymph node metastases)",
+          "supporting_evidence": [
+            "The patient is a 71-year-old man with a newly identified space-occupying lesion in the lung.",
+            "The phase 1 text prompt indicates: a mass-like patchy high-density opacity in the right lower lung, with poorly defined margins; a space-occupying lesion is considered.",
+            "After admission, repeat chest CT indicated \"a space-occupying lesion in the right lower lobe, with a high likelihood of malignancy\"",
+            "Accompanied by “marked enlargement of mediastinal station 7 lymph nodes, with mild enlargement of the remaining mediastinal lymph nodes” and “multiple enlarged lymph nodes in the mediastinum and right hilum,” consistent with intrathoracic lymph node involvement",
+            "Persistent cough and sputum production for more than 2 months, with chest tightness and shortness of breath after exertion, consistent with common manifestations of a pulmonary space-occupying lesion",
+            "The accompanying CT images show a patchy/confluent abnormal high-density opacity in the right lower lung near the hilum/posterior basal segment, with enlarged mediastinal lymph nodes."
+          ],
+          "opposing_evidence": [
+            "No symptoms such as fever, chest pain, or hemoptysis; the clinical manifestations are relatively nonspecific.",
+            "Elevated serum IgG4 suggests that inflammatory/immune-related pseudotumor-like lesions should also be considered and is not specific evidence of malignancy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "IgG4-related lung disease (mass-like/consolidative pulmonary involvement with intrathoracic lymphadenopathy)",
+          "supporting_evidence": [
+            "Laboratory tests showed that the serum IgG4 level was as high as 3.86 g/L, exceeding the normal reference range.",
+            "IgG4-related lung disease may present with intrapulmonary mass-like or consolidation-like lesions and may be accompanied by mediastinal/hilar lymphadenopathy",
+            "In the first stage, imaging showed a mass-like lesion in the right lower lung and multiple enlarged lymph nodes in the mediastinum and right pulmonary hilum, overlapping with the imaging spectrum of IgG4-related thoracic involvement.",
+            "The patient had no obvious infectious or necrotic manifestations such as fever or hemoptysis."
+          ],
+          "opposing_evidence": [
+            "Repeat chest CT clearly suggested a high likelihood of malignant tumor, and malignant imaging features were of greater concern.",
+            "No other typical evidence of IgG4-related systemic involvement was provided in the stage 1 information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis or tuberculous bronchopneumonia with mediastinal lymphadenopathy",
+          "supporting_evidence": [
+            "Chronic cough and sputum production for more than 2 months can be seen in pulmonary TB",
+            "Pulmonary mass-like and patchy high-density opacities with mediastinal lymphadenopathy can be seen in tuberculous lesions",
+            "In some cases of TB, right lower lung consolidation/mass-like lesions may resemble a tumor."
+          ],
+          "opposing_evidence": [
+            "No common accompanying manifestations of TB such as fever, chest pain, or hemoptysis",
+            "The text from the first stage did not describe imaging features more suggestive of TB, such as cavitation, tree-in-bud pattern, satellite lesions, or pleural effusion.",
+            "Follow-up CT suggests a high likelihood of malignancy."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Primary pulmonary lymphoma or pulmonary lymphoproliferative disease",
+          "supporting_evidence": [
+            "Intrapulmonary mass/consolidation-like lesions with mediastinal and hilar lymphadenopathy may be seen in pulmonary lymphoproliferative disorders",
+            "The predominant symptoms are cough, sputum production, and shortness of breath, with no clear signs of infection.",
+            "The accompanying CT images show a relatively large patchy area of abnormal density in the right lower lung with lymphadenopathy; there is imaging overlap."
+          ],
+          "opposing_evidence": [
+            "The phase I information did not provide supportive clues such as generalized superficial lymphadenopathy or B symptoms.",
+            "On follow-up CT, primary pulmonary malignancy is the leading consideration rather than lymphoma.",
+            "Elevated serum IgG4 may suggest other immune-inflammatory diseases, reducing its relative specificity."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Sarcoidosis (hilar and mediastinal lymph node involvement with pulmonary parenchymal disease)",
+          "supporting_evidence": [
+            "Multiple enlarged mediastinal and right hilar lymph nodes are present",
+            "Sarcoidosis may involve intrathoracic lymph nodes and be accompanied by pulmonary parenchymal infiltration or patchy opacities"
+          ],
+          "opposing_evidence": [
+            "The patient is 71 years old, and the age is not consistent with the population commonly affected by sarcoidosis.",
+            "The lesion is clearly mass-like and predominantly located in the right lower lung; on imaging, it is more suggestive of a focal neoplastic lesion.",
+            "The stage 1 information did not provide clues supporting sarcoidosis, such as bilateral symmetric hilar lymphadenopathy or skin/ocular involvement."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endobronchial ultrasound-guided transbronchial needle aspiration biopsy (EBUS-TBNA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage",
+          "requirement": "required"
+        },
+        {
+          "exam": "whole-abdomen CT",
+          "reason": "Serum immunoglobulin G4 (IgG4) as high as 3.86 g/L, multiple enlarged lymph nodes, evaluate for the presence of an abdominal mass",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Pathogen testing of bronchoalveolar lavage fluid (including NGS) did not identify a definite pathogen. The pathology report from lymph node needle biopsy showed: (station 7 lymph node) lymphocytes were seen; immunohistochemistry: IgG (background+), IgG4 (only approximately 1 positive cell/high-power field). A 3-week course of moxifloxacin was given. After completion of treatment, repeat chest CT on Day 0 showed no significant change in the pulmonary lesions or lymph node size compared with before, and a slight increase in the right pleural effusion. The patient was hospitalized again. Further history review: the patient reported that in approximately 7 months before Day 0, he had undergone surgical resection of a \"left parotid mass\" at an outside hospital, but the detailed postoperative pathology report was lost. On repeat serologic testing (Day +4), IgG4 further increased to 4.24 g/L, complement C3, C4, and C1q were all decreased, and blood κ light chain was elevated. Whole-body imaging screening: brain MRI, contrast-enhanced whole-abdomen CT, echocardiography, and superficial lymph node ultrasound showed that, apart from the known pulmonary lesions, the pancreas was morphologically normal, there was no definite retroperitoneal fibrosis or mass, and no space-occupying lesion was seen in other solid organs. Gastrointestinal endoscopy: only chronic gastritis and colon polyps (already removed) were noted, with no neoplastic lesion seen. Routine repeat CBC found that the platelet count had decreased significantly from 120×10⁹/L 1 month earlier to 61×10⁹/L. Bone marrow smear and biopsy pathology reported that the bone marrow hematopoietic tissue was essentially normal, with no tumor cell infiltration or abnormal proliferation. Flow cytometry did not detect clonal plasma cells or lymphoma cells.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW0QSJ52MR5vD6mvCHiaRnFa7N5oulCzV7Zic9eOZHIL0PCJfzj1fj39mdg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Because the current bronchoscopy pathology cannot establish a definitive diagnosis, lung biopsy is recommended; however, the patient/family are concerned about the risk of lung biopsy and request observation after anti-infective treatment first.",
+            "local_src": "cleaned_cases_image_cache/659ca236b0ec50f4b611bc00310501bf6cdd8917.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW0yvlsYht7nia6iaNab0X4xBghyhuzm7JicjzKiavx6Aic5Alyw7ReaF1catA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2: Follow-up chest CT after 1 month of anti-inflammatory treatment",
+            "local_src": "cleaned_cases_image_cache/b8390739b93a4e8febdc7251959f13774b6fd96e.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW0ibSf3qtGOffBc8bQbJdapyHx72Bay1nL5Jl4CInOZbyjgY6uA3tFN7A/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2: Follow-up chest CT after 1 month of anti-inflammatory treatment",
+            "local_src": "cleaned_cases_image_cache/71043080e52b8eea35045484e897002bb8b1325f.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": {
+          "stage2_output": {
+            "differential_diagnosis_and_exclusion": [
+              {
+                "diagnosis": "Lung cancer/malignant tumor",
+                "basis": [
+                  "Mass-like patchy high-density opacity in the right lower lung, with poorly defined margins, consider a space-occupying lesion",
+                  "Marked enlargement of mediastinal station 7 lymph nodes",
+                  "Right lower lobe mass, with possible distal obstructive pneumonia and lymphangitic carcinomatosis",
+                  "Multiple enlarged lymph nodes in the mediastinum and right hilar region"
+                ],
+                "exclusion_reason": [
+                  "Microbiologic examination of the lavage fluid did not identify a definite pathogen.",
+                  "The pathology result of the lymph node needle biopsy did not support a tumor.",
+                  "Whole-body imaging screening showed no space-occupying lesions in the parenchymal organs, reducing the likelihood of extensive metastases from an occult tumor or lymphoma.",
+                  "Gastrointestinal endoscopy showed no neoplastic lesions",
+                  "Bone marrow smear and biopsy pathology showed no tumor cell infiltration or abnormal proliferation.",
+                  "Flow cytometry did not detect clonal plasma cells or lymphoma cells"
+                ]
+              },
+              {
+                "diagnosis": "Infection",
+                "basis": [
+                  "Recurrent cough and sputum production for more than 2 months",
+                  "Mass-like patchy high-density opacity in the right lower lung"
+                ],
+                "exclusion_reason": [
+                  "After a 3-week course of moxifloxacin treatment, repeat chest CT showed no significant change in the size of the pulmonary lesions or lymph nodes compared with before, and the right pleural effusion had even slightly increased; anti-infective therapy was ineffective."
+                ]
+              },
+              {
+                "diagnosis": "Immunoproliferative disease/systemic immune-inflammatory disease",
+                "basis": [
+                  "Serum immunoglobulin G4 (IgG4) was elevated to 3.86 g/L",
+                  "On repeat serologic testing, IgG4 further increased to 4.24 g/L; complement C3, C4, and C1q were all decreased; blood κ light chain was elevated.",
+                  "Previously underwent surgical resection at another hospital for a \"left parotid mass\"",
+                  "Platelet count markedly decreased to 61×10⁹/L"
+                ],
+                "exclusion_reason": [
+                  "The pathology report from the initial lymph node needle biopsy was far from meeting the cellular count criteria for the diagnosis of IgG4-related disease (IgG4-RD)."
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "IgG4-related lung disease",
+        "evidence": [
+          "Serum immunoglobulin G4 (IgG4) was as high as 3.86 g/L; history of surgical resection of a left parotid gland mass"
+        ],
+        "exclusion_reasons": [
+          "Pathology report of lymph node needle biopsy: (station 7 lymph node) lymphocytes were seen. Immunohistochemistry: IgG (background+), IgG4 (only approximately 1 positive cell/high-power field)."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Percutaneous lung biopsy",
+          "basis_in_stage3_input": "Needle biopsy of the lung was performed.",
+          "why_order_this_exam": "The patient is a 71-year-old man with more than 2 months of persistent cough, sputum production, and chest tightness and shortness of breath after exertion. Repeated chest CT showed a right lower lung mass, which was at one point highly suspected to be a malignant tumor, accompanied by multiple enlarged mediastinal and right hilar lymph nodes, obstructive pneumonia, and right pleural effusion. Earlier bronchoalveolar lavage pathogen studies were negative, anti-infective treatment for 3 weeks was ineffective, and lymph node needle biopsy also failed to explain the nature of the main intrapulmonary lesion; therefore, tissue from the pulmonary parenchymal lesion had to be obtained directly. The core purpose of this examination is to establish a definitive diagnosis among malignant tumor, infection, lymphoproliferative disease, and IgG4-related lung disease, and to provide a basis for subsequent pathology, immunohistochemistry, and treatment selection. In addition, the patient previously developed thrombocytopenia, suggesting that the bleeding risk of invasive tissue sampling needs to be assessed; however, given the insufficient existing evidence and persistently abnormal imaging, percutaneous lung biopsy remains key to a definitive diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathologic examination",
+          "basis_in_stage3_input": "Microscopic findings: Chronic inflammatory infiltrate: a large number of lymphocytes and plasma cells are diffusely infiltrating the pulmonary interstitium. Characteristic fibrosis: marked fibrous tissue hyperplasia in the interstitium with collagen deposition; some areas show a typical storiform or cartwheel-like arrangement.",
+          "why_order_this_exam": "Although this patient had persistently elevated serum IgG4, decreased complement levels, and a history of a parotid mass, serology and imaging alone cannot establish a definite diagnosis. In particular, the long-term pulmonary imaging findings were more suggestive of a malignant mass, and IgG4-positive cells in the initial lymph node needle biopsy were far below the diagnostic threshold; therefore, histopathologic examination is required to directly assess the nature of the lesion. Histopathologic examination primarily addresses three questions: first, whether the pulmonary mass is a neoplastic or non-neoplastic lesion; second, whether there is key morphologic evidence of IgG4-related disease, such as dense lymphoplasmacytic infiltration and storiform fibrosis; third, whether infectious granuloma, lymphoma, or other inflammatory pseudotumor-like lesions can be excluded. This examination plays a निर्णisive role in establishing the final diagnosis, correlating it with the elevated serum IgG4 level, and determining whether glucocorticoid and immunosuppressive therapy can subsequently be initiated.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: IgG staining showed numerous plasma cells positive. IgG4 staining showed dense infiltration of IgG4-positive plasma cells, with a count > 10/high-power field (HPF), and the ratio of IgG4-positive cells to IgG-positive cells > 40%. Other markers (such as CK, TTF-1, etc.) excluded lung cancer.",
+          "why_order_this_exam": "The clinical dilemma in this patient is that the imaging findings are highly suspicious for malignancy, but the evidence for infection is insufficient, anti-infective therapy has been ineffective, and the serum IgG4 is markedly elevated and continues to rise, suggesting the possibility of an immune-inflammatory disease. Routine histopathologic morphology alone is still insufficient to reliably distinguish among IgG4-related lung disease, tumor, and other lymphoplasmacytic infiltrative lesions; therefore, immunohistochemistry is needed for further characterization. On the one hand, immunohistochemistry uses markers such as IgG and IgG4 to verify the nature of the plasma cell infiltration and perform quantitative assessment; on the other hand, epithelial/pulmonary adenocarcinoma lineage markers such as CK and TTF-1 help exclude lung cancer. This examination directly serves the establishment of diagnostic criteria, the differentiation of malignant tumors, and the avoidance of mistakenly managing steroid-responsive IgG4-RD as lung cancer, and it has निर्णative significance for the subsequent treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG staining",
+          "basis_in_stage3_input": "IgG staining showed a large number of positive plasma cells.",
+          "why_order_this_exam": "The pathology of the patient's pulmonary lesion showed marked lymphoplasmacytic infiltration, but to determine whether it meets the criteria for IgG4-related disease, it is still necessary to know the overall background of infiltrating plasma cells and then analyze it in conjunction with the number and proportion of IgG4-positive cells. The role of IgG staining is to confirm that there is indeed abundant IgG-positive plasma cell infiltration within the lesion and to provide the denominator basis for calculating the IgG4/IgG ratio. For a patient like this case, with both a pulmonary mass, mediastinal lymphadenopathy, a previously nondiagnostic biopsy, and elevated serum IgG4, IgG staining helps distinguish a simple plasma cell reaction from a lesion meeting the diagnostic threshold for IgG4-RD, thereby improving diagnostic specificity and providing a basis for whether to use glucocorticoids combined with immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4 staining",
+          "basis_in_stage3_input": "IgG4 staining showed dense infiltration of IgG4-positive plasma cells, with a count > 10/high-power field (HPF), and the ratio of IgG4-positive cells to IgG-positive cells > 40%.",
+          "why_order_this_exam": "This case has consistently had clinical features suggestive of IgG4-related disease: serum IgG4 increased further from 3.86 g/L to 4.24 g/L, complement was decreased, there was a prior history of a parotid mass, and the evidence for both infection and tumor was insufficient; however, the number of IgG4-positive cells in the previous lymph node needle biopsy was insufficient, so a definitive diagnosis could not be made. Therefore, IgG4 staining of the main pulmonary lesion itself is crucial. The key question this test needs to address is whether there is dense infiltration of IgG4-positive plasma cells in the lesion tissue meeting the diagnostic criteria. The IgG4 staining results, combined with pathomorphology, can directly support or refute the key diagnosis of IgG4-RD and help explain manifestations such as an intrapulmonary mass-like lesion, lymphadenopathy, and pleural effusion. It is used not only to establish the diagnosis, but also to avoid misclassifying the patient as having lung cancer or an infection of unknown cause, thereby correctly entering the treatment pathway of glucocorticoids and immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Testing for other markers such as CK and TTF-1",
+          "basis_in_stage3_input": "Other markers (such as CK, TTF-1, etc.) ruled out lung cancer.",
+          "why_order_this_exam": "Both the initial and follow-up chest CT strongly suggested a possible malignant mass in the right lower lung, with mediastinal and right hilar lymphadenopathy; clinically, lung cancer had consistently been the leading differential diagnosis. Although lung biopsy pathology showed inflammatory and fibrotic changes, in the context of a mass-like pulmonary lesion in an elderly man, markers such as CK and TTF-1 were still needed to exclude an epithelial malignancy, especially primary lung cancer. The clinical question of this test was to determine whether lung cancer-related immunophenotypes were present in the tissue, thereby avoiding a missed tumor diagnosis due to focal sampling or concomitant inflammatory changes. The result played a critical role in ultimately excluding lung cancer, supporting the diagnosis of IgG4-related disease, avoiding erroneous entry into the tumor treatment pathway, and safely initiating immunosuppressive therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "A lung needle biopsy was performed. Ultrasound-guided puncture was used. The biopsy tissue was gray-white and firm. Microscopic findings: chronic inflammatory infiltration: a large number of lymphocytes and plasma cells were seen diffusely infiltrating the pulmonary interstitium. Characteristic fibrosis: marked interstitial fibrous tissue proliferation and collagen deposition were present, with some areas showing a typical storiform or cartwheel-like arrangement. Immunohistochemistry: IgG staining showed a large number of plasma cells positive. IgG4 staining showed dense infiltration of IgG4-positive plasma cells, with a count > 10/high-power field (HPF), and the ratio of IgG4-positive cells to IgG-positive cells > 40%. Other markers (such as CK, TTF-1, etc.) excluded lung cancer.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstK8ZufFhgsaU7n09bvbquW08VJa5UXCl3XBTQAEO8jPeu4ZZKz2rxMicJTSWIbNZIF4ocbuQlia8hpw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3: Ultrasound-guided needle biopsy of the right lung mass; the yellow arrow indicates a whorled pattern, also known as storiform fibrosis.",
+          "local_src": "cleaned_cases_image_cache/4ace78aaf702f59c6b5e54e580d491f5479972ff.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "IgG4-related disease (IgG4-RD), involving the lungs and lymph nodes",
+      "diagnostic_basis": [
+        "Clinical features: mass-like lesion in a single organ (lung) + multiple lymphadenopathy",
+        "Serology: serum IgG4 > 135 mg/dL (424 mg/dL in this case)",
+        "Pathology: dense lymphoplasmacytic infiltration with fibrosis, storiform fibrosis; IgG4+/IgG+ > 40% and IgG4+ plasma cells > 10/HPF"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Initial induction therapy: glucocorticoids (initial full-dose prednisone 40 mg/day), with concurrent proton pump inhibitor for gastric protection, calcium and vitamin D for prevention of osteoporosis, and trimethoprim-sulfamethoxazole for prophylaxis against Pneumocystis jirovecii pneumonia",
+        "Maintenance and tapering phase: corticosteroids were started on a regular tapering schedule, with a plan to reduce to a low maintenance dose (≤10 mg/day) within 3-4 months. When the corticosteroid dose was tapered to 30 mg/day, the immunosuppressant mycophenolate mofetil (1 g/day) was added early.",
+        "Long-term management plan: maintenance therapy with low-dose glucocorticoids (prednisone 7.5 mg/day) combined with mycophenolate mofetil"
+      ],
+      "treatment_response": [
+        "After 2 weeks of treatment, the patient's cough and dyspnea improved significantly",
+        "Clinical symptoms: cough and sputum production have basically resolved, and exercise tolerance has recovered",
+        "Imaging (1 month after treatment): obstructive pneumonia in the right lower lobe showed marked resolution, with a reduced extent of consolidation; enlarged mediastinal and hilar lymph nodes were significantly reduced in size; the right pleural effusion was almost completely resolved",
+        "Serologic marker: the IgG4 level steadily decreased from 4.24 g/L before treatment to 2.20 g/L -> 1.25 g/L -> 0.78 g/L (now close to normal)",
+        "Platelet count: gradually returned to the normal range as the inflammation was controlled"
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "status": "success",
+  "case_id": "case_101",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female, 53 years old, from Bengbu, Anhui, was admitted to the Department of Pulmonary and Critical Care Medicine, inpatient ward, Nanjing Jiangning Hospital on Day 0, with the chief complaint of \"diagnosed left lung adenocarcinoma for more than 11 months, for evaluation.\" In approximately 11 months before Day 0, the patient presented to an outside hospital for cough. CT showed a left lower lobe lung mass. Subsequently, CT-guided lung needle biopsy was performed, and pathology indicated left lung adenocarcinoma, multiple patchy opacities in the left lower lung and right upper lung, and left hilar lymph node enlargement. The stage was left lung adenocarcinoma (T4N1M0 stage IIIa, lymph node and intrapulmonary metastases in the left lung). Surgical consultation at the outside hospital found no indication for surgery, and she therefore received 2 cycles of chemotherapy with the \"pemetrexed 0.9 + carboplatin 0.5\" regimen. On Day -254, PET-CT at the outside hospital showed patchy and nodular lesions in the left lower lobe, considered post-chemotherapy lung cancer; no obvious enlargement of hilar or mediastinal lymph nodes was seen. The assessed stage was left lung adenocarcinoma (T3N0M0 stage IIb). As surgery was considered indicated, she underwent \"left lower lobectomy + left upper lobe lingulectomy + hilar and mediastinal lymph node dissection under general anesthesia\" at the outside hospital. Postoperative pathology indicated lung adenocarcinoma, all lymph node groups were negative, and genetic testing showed a T790M mutation. Postoperatively, she received 4 cycles of chemotherapy with the \"pemetrexed + lobaplatin\" regimen. In approximately 2 months before Day 0, the patient began oral Tagrisso treatment. After taking the medication, she developed paronychia of both hands and feet with oral ulcers, and had slight chest tightness and shortness of breath after activity. On Day 0, the patient was hospitalized in our department for further evaluation and treatment. Non-contrast chest CT showed: in conjunction with the clinical history of postoperative left lung Ca, multiple infections in both lungs and small pulmonary nodules in both lungs. A few mildly enlarged mediastinal lymph nodes. A small left pleural effusion, with left pleural thickening and adhesions. During the course of illness, the patient had no chest pain or hemoptysis; appetite and sleep were fairly good; bowel and bladder habits were normal; and there was no significant recent weight change. Review of the patient's past medical history, personal history, and family history was unremarkable. Physical examination on admission: temperature 36.1℃; pulse 93/min; respirations 20/min; blood pressure 133/96 mmHg. The patient was alert, with no enlargement of superficial lymph nodes throughout the body; multiple periungual hyperpigmented lesions on both hands, reduced nail bed area, and multiple oral ulcers. Breath sounds were slightly decreased in both lungs, with no obvious dry or moist rales heard in either lung. No positive cardiac or abdominal findings. No abnormalities were found in the bones, joints, or nervous system. No obvious pitting edema was present in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQCQoMliaOdCMBB79smXg5XWMr3PKComXWoVeOaoFEObL94wlYUS4QgNw/640?wx_fmt=png",
+          "near_text": "Figure 1: Patient's chest CT images on Day 0",
+          "local_src": "cleaned_cases_image_cache/34b1c7966e5d3424d4218e57e666a6c526973837.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bilateral infectious pneumonia (bacterial or atypical pathogen infection)",
+          "supporting_evidence": [
+            "The Phase I text explicitly documented: non-contrast chest CT indicated \"in the clinical context of postoperative left lung Ca, multiple infections in both lungs and small pulmonary nodules\"",
+            "In the first-phase images, patchy consolidation/ground-glass opacities are visible in both lungs, consistent with one of the imaging manifestations of infectious inflammation.",
+            "The patient is status post lung cancer surgery and has received multiple cycles of chemotherapy; since approximately 2 months before Day 0, the patient has also been taking an oral targeted therapy, representing a background predisposing to infection.",
+            "The patient has the respiratory symptom of \"mild chest tightness and wheezing after exertion\"."
+          ],
+          "opposing_evidence": [
+            "On admission, body temperature was 36.1℃, no fever.",
+            "Physical examination showed no obvious dry or wet rales heard in either lung.",
+            "During the course of the illness, typical signs of infection such as purulent sputum production and chills were not described."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Osimertinib-related drug-induced lung injury/interstitial pneumonitis",
+          "supporting_evidence": [
+            "The first-stage text shows that in approximately 2 months before Day 0, the patient was started on oral Tagrisso treatment, after which new mild chest tightness and wheezing on exertion developed.",
+            "After medication use, both paronychia of the fingers and toes and oral ulcers occurred simultaneously, indicating an established background of adverse drug reaction.",
+            "Chest CT showed multiple abnormal opacities in both lungs. The first-stage images show patchy opacities in both lungs. Drug-induced lung injury may present with similar diffuse or multifocal infiltrative opacities in both lungs.",
+            "The patient's current respiratory symptoms are relatively mild, whereas the imaging abnormalities are more pronounced, consistent with the feature of incomplete concordance between clinical presentation and imaging seen in some cases of drug-induced lung injury."
+          ],
+          "opposing_evidence": [
+            "In the Phase 1 text, the imaging report tended to indicate “multiple infections in both lungs” rather than primarily suggesting drug-induced lung injury.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Postoperative recurrence of lung adenocarcinoma or intrapulmonary metastasis",
+          "supporting_evidence": [
+            "The patient has a definite history of left lung adenocarcinoma. Previously there were multiple patchy opacities in the left lower lung and right upper lung, which had been assessed as \"intrapulmonary metastases in the left lung\".",
+            "This chest CT showed “multiple infections in both lungs and small pulmonary nodules,” among which the “small pulmonary nodules in both lungs” require vigilance for tumor recurrence or intrapulmonary metastases.",
+            "CT also suggested \"a few mildly enlarged mediastinal lymph nodes\" and \"a small left pleural effusion, with left pleural thickening and adhesions\"; in a patient with malignancy, tumor-related changes should be considered.",
+            "The first-phase images show multiple abnormal density opacities in both lungs; malignant lesions and inflammation may overlap and should be included in the important differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Postoperative pathology on Day -254 indicated that all lymph node groups were negative.",
+            "During the recent course of the illness, there was no significant change in body weight, and no chest pain or hemoptysis.",
+            "In the current imaging report from the first stage, it is first stated that there are multiple infections in both lungs, and a definite recurrent mass is not directly reported."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Organizing pneumonia (postoperative or drug-related)",
+          "supporting_evidence": [
+            "In the first-stage images, patchy opacities are visible in both lungs; organizing pneumonia often presents as multiple patchy consolidations or ground-glass opacities.",
+            "The patient previously underwent pulmonary surgery, chemotherapy, and targeted therapy, all of which may serve as background factors associated with organizing pneumonia.",
+            "The only clinical manifestation was “slight chest tightness and wheezing after exertion,” without obvious signs of severe infection, which is consistent with the feature that some cases of organizing pneumonia may present subacutely with relatively mild symptoms."
+          ],
+          "opposing_evidence": [
+            "The first-stage text did not directly indicate clues of organizing pneumonia such as migratory pulmonary infiltrates, obvious cough, or fever.",
+            "The imaging report is more suggestive of \"multiple infections in both lungs\"",
+            "Stage 1 information did not provide clear pathology or high-resolution CT features in support."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Malignant pleural lesion with a small pleural effusion (pleural metastasis or tumor-related pleural effusion)",
+          "supporting_evidence": [
+            "The phase 1 text explicitly documented \"a small left pleural effusion; left pleural thickening and adhesions\"",
+            "The patient has a history of left lung adenocarcinoma; pleural thickening with pleural effusion warrants vigilance for tumor-related pleural involvement.",
+            "If tumor-related pleural lesions are present, they may explain part of the symptoms such as chest tightness and dyspnea on exertion."
+          ],
+          "opposing_evidence": [
+            "The patient previously underwent left lower lobectomy + lingulectomy of the left upper lobe; left pleural thickening, adhesions, and a small pleural effusion may also be related to postoperative changes.",
+            "Phase 1 information did not describe progressive chest pain or signs of a large pleural effusion",
+            "The images from the first stage mainly show pulmonary parenchymal lesions, without clearer supporting evidence such as pleural nodules."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "New primary pulmonary lesion or multiple primary lung cancers",
+          "supporting_evidence": [
+            "Chest CT showed “multiple infections in both lungs and small pulmonary nodules”; in a patient with a prior history of lung cancer, new primary pulmonary tumors should also be considered in the differential diagnosis of the small bilateral pulmonary nodules in addition to infection.",
+            "Phase I images show multifocal abnormal opacities in both lungs; on imaging, some lesions may overlap with postoperative recurrence, metastases, or new primary lesions.",
+            "The patient has a prior history of lung adenocarcinoma and is at higher risk than the general population for developing new neoplastic lesions in the lung."
+          ],
+          "opposing_evidence": [
+            "Phase 1 currently shows no new isolated dominant nodule or definite mass lesion.",
+            "The current imaging report text is more suggestive of an infectious lesion.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "High-field MRI: brain (plain scan, contrast-enhanced scan)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatism panel (3 tests)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Five-item immunoglobulin panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Female tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function panel (5 tests)",
+          "requirement": "required"
+        },
+        {
+          "exam": "15 antinuclear antibody panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA panel (4 items)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Two ANCA tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TB infection T cells",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal antigen test",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +3, high-field MRI: brain (plain scan, contrast-enhanced scan): no definite evidence of intracranial metastasis. Complete blood count: white blood cell count 2.97×10^9/L, neutrophil count 1.24×10^9/L; ESR: 27 mm/h; rheumatologic panel (3 items): antistreptolysin O 0.477 IU/ml; immunoglobulin panel (5 items): complement C4 0.490 g/L; female tumor marker panel: carcinoembryonic antigen 10.39 ng/ml, neuron-specific enolase 19.42 ng/ml; CRP, procalcitonin, thyroid function panel (5 items), ANA panel (15 items), ANA panel (4 items), ANCA panel (2 items), TB infection T-cell test, cryptococcal antigen test, G test, and GM test were all normal.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Osimertinib-induced interstitial pneumonia",
+            "evidence": [
+              "In conjunction with the patient's medical history and ancillary test results"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Osimertinib-induced interstitial pneumonia",
+        "evidence": [
+          "In conjunction with the patient's medical history and ancillary test results"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +3, bronchoscopy showed extrinsic compression stenosis at the opening of the left lower lobe; the bronchoscope and biopsy forceps could not enter. Under autofluorescence, no obvious magenta change was seen at the site of extrinsic compression stenosis. Lavage and sputum were collected from the right upper lobe and sent for pathogen testing, and a biopsy was taken from the opening of the left lower lobe and sent for histopathologic examination.",
+          "why_order_this_exam": "The patient is status post surgery for left lung adenocarcinoma and has received chemotherapy followed by osimertinib therapy. On admission, chest CT showed multiple infection-like lesions and small pulmonary nodules in both lungs. Clinically, there was only mild chest tightness and dyspnea after activity. Infection markers and multiple infection/immunologic screening tests did not support a definite infection, and differentiation was needed among infection, drug-induced lung injury, postoperative inflammatory changes, and tumor recurrence/metastasis. Bronchoscopy can directly assess for tumor infiltration within the airway, stenosis, obstruction, or signs of extrinsic compression, and can simultaneously obtain specimens by lavage, brushing, biopsy, etc. In this patient, bronchoscopy ultimately revealed extrinsic compression stenosis at the opening of the left lower lobe, suggesting that the lesion was not simply diffuse inflammation, further supporting assessment of tumor progression or a perihilar lesion, and also providing a basis for subsequent selection of pathogen testing, pathology sampling methods, and evaluation of endoscopic procedural risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autofluorescence examination",
+          "basis_in_stage3_input": "Under autofluorescence, no obvious magenta discoloration was seen at the site of extrinsic compression stenosis.",
+          "why_order_this_exam": "After bronchoscopy revealed narrowing of the left lower lobe bronchial orifice, further assessment is needed to determine whether there is a malignant lesion on the mucosal surface at the stenotic site or carcinoma in situ/superficial invasion. The patient has a definite prior history of lung adenocarcinoma, and the current bilateral pulmonary imaging abnormalities and the nature of the lesions are unclear. Autofluorescence examination is helpful for improving the detection of abnormal changes in the bronchial mucosa and for distinguishing whether the process is predominantly an intramucosal lesion or predominantly extrinsic compression. In this case, autofluorescence showed no obvious magenta change, suggesting that the stenosis is more likely due to extrinsic compression or a submucosal/extramural lesion rather than obvious superficial malignant involvement of the mucosa. This is valuable for explaining why a typical tumor is often not directly visible on conventional bronchoscopy and why further reliance on biopsy and subsequent percutaneous puncture is needed to establish the diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing of pooled sputum from right upper lobe lavage",
+          "basis_in_stage3_input": "BALF and sputum collected from the right upper lobe were submitted for pathogen testing.",
+          "why_order_this_exam": "On admission, imaging first suggested multiple infections in both lungs and small pulmonary nodules. In addition, the patient was in a susceptible population for infection because of prior postoperative lung cancer, receipt of multiple cycles of chemotherapy, and use of targeted therapy. Although there was no fever and tests including CRP/PCT, G test, GM test, TB infection T-cell, and cryptococcal antigen were all normal, the complete blood count showed leukopenia and neutropenia, so pulmonary infection cannot be excluded solely on the basis of mild symptoms and negative inflammatory markers. BALF was performed in the right upper lobe and sputum was collected for pathogen testing, with the aim of directly obtaining specimens from the airway related to the lesion to evaluate for bacteria, fungi, mycobacteria, and other pathogens, determine whether there is an infectious component in the bilateral pulmonary lesions, and provide a basis for whether anti-infective therapy is needed and whether the main diagnostic consideration can continue to shift toward tumor progression or drug-related lung injury.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology of biopsy tissue submitted from the left lower lobe bronchial opening",
+          "basis_in_stage3_input": "A biopsy of the left lower lobe orifice was submitted for histopathologic examination. On Day +5, the patient’s pathology report showed: (left lower lobe orifice) The submitted bronchial mucosa was lined by ciliated columnar epithelium, with scattered lymphocyte and plasma cell infiltration in the stroma, focal fibrous tissue hyperplasia, and lymphoid tissue hyperplasia with compression.",
+          "why_order_this_exam": "Bronchoscopy had already identified extrinsic compressive stenosis at the opening of the left lower lobe. Given the patient's postoperative background of left lung adenocarcinoma, pathologic sampling was necessary to determine whether this site represented tumor recurrence, inflammatory stenosis, postoperative change, or another non-neoplastic lesion. Histopathology is the key basis for distinguishing infection/inflammation from malignant disease and can also assess for the presence of drug-related or organizing changes. This biopsy did not directly confirm adenocarcinoma; it showed only chronic inflammatory cell infiltration of the bronchial mucosa, fibrous and lymphoid tissue hyperplasia with compression, suggesting that the endoscopically accessible sampling site did not reach the true lesion and instead supporting that the lesion may have been located in the submucosa or peribronchial/periairway peripheral tissue, with extrinsic compression as the main mechanism. Although this result was not diagnostic, it was important for excluding an obvious endobronchial mucosal tumor, explaining the mechanism of bronchoscopic stenosis, and prompting subsequent selection of dynamic follow-up chest CT reassessment and CT-guided lung biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious NGS testing of right upper lobe bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "Right upper lobe bronchoalveolar lavage fluid infection NGS testing: G-Neisseria meningitidis 65878 sequence reads, G-Porphyromonas gingivalis 34048 sequence reads, G-Haemophilus parainfluenzae 11370 sequence reads, G-Fusobacterium nucleatum 10315 sequence reads, etc.",
+          "why_order_this_exam": "Against the background that routine inflammatory markers and fungal- and TB-related screening showed no significant abnormalities, while chest CT suggested multiple infection-like lesions in both lungs, routine microbiologic testing may be insufficient to explain the complex pulmonary opacities. The patient also had an immunologically susceptible state after tumor surgery, chemotherapy, and targeted therapy; therefore, infection NGS of lavage fluid was needed to broaden the range of pathogen detection and improve the ability to identify mixed infections, low-burden pathogens, or difficult-to-culture pathogens. This test was intended to determine whether the bilateral lung lesions were primarily infection-driven, whether there were pathogen clues requiring targeted anti-infective treatment, and whether these infectious clues could fully explain the radiologic progression. Subsequent findings of continued enlargement of the chest CT lesions and needle biopsy pathology showing adenocarcinoma indicate that even if pathogen sequences were present, they were insufficient to independently explain the entire clinical condition, thereby helping to exclude \"simple infection\" as the primary diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "On Day +50, completion of the admission evaluation chest CT showed that the lesions in both lungs had increased in size compared with before.",
+          "why_order_this_exam": "At initial presentation, the patient had multiple abnormal opacities in both lungs, which could be seen with infection, osimertinib-related lung injury, postoperative change, or tumor recurrence/metastasis; however, bronchoscopy, microbiologic studies, and bronchial biopsy did not provide a definitive answer sufficient to fully explain the lesions, so serial follow-up chest CT was required to dynamically assess changes in the lesions. Chest CT can compare the extent, size, distribution, and rate of progression of the lesions to determine whether there is inflammatory resolution, evolution of drug-induced lung injury, or increasing tumor burden. In this case, CT clearly indicated interval enlargement of the bilateral pulmonary lesions, indicating progression of the lesions during the observation period, decreasing the likelihood of a purely self-limited infection or purely mild drug-induced pneumonitis, increasing suspicion for malignant progression, and providing localization guidance and justification for subsequent CT-guided percutaneous lung biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided transthoracic lung needle biopsy histopathology",
+          "basis_in_stage3_input": "On Day +55, a CT-guided lung biopsy was performed, and the biopsy tissue was submitted for pathologic examination; the pathology result indicated \"adenocarcinoma\".",
+          "why_order_this_exam": "In the setting of continuously enlarging bilateral pulmonary lesions, bronchoscopy showing only extrinsic compression stenosis, and bronchial mucosal biopsy failing to establish a diagnosis, it was necessary to obtain tissue from a more representative pulmonary parenchymal lesion. CT-guided lung biopsy can directly sample the radiographically progressive lesion and is the key examination to address the core clinical question of whether this represents infection/inflammation, drug-related change, or tumor progression. For a patient with a prior history of lung adenocarcinoma and current bilateral pulmonary lesion distribution, clarifying the pathologic nature would directly determine staging assessment, subsequent systemic treatment planning, and prognostic evaluation. The final pathology from this examination indicated adenocarcinoma, directly confirming progression of pulmonary malignancy and excluding the previously primary considerations of simple infection or simple drug-induced pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic testing",
+          "basis_in_stage3_input": "Comprehensive genetic testing showed EGFR exon 19+, T790M+.",
+          "why_order_this_exam": "The patient’s progression of adenocarcinoma has already been confirmed by lung biopsy, but the pathologic type alone is still insufficient to guide subsequent precision treatment. The patient previously had an EGFR pathway-related background and had experienced adverse reactions after using Tagrisso. With progression again at present, genetic testing is needed to clarify driver gene status and resistance-related mutations, to determine whether they are consistent with the previous molecular profile and whether there is a molecular basis for targeted therapy. This test is intended to address the molecular subtyping of recurrent/metastatic lesions and is directly related to the subsequent choice of EGFR-TKI or other systemic treatment regimens; it may also help explain the previous treatment response and the current evolution of the disease. The results showed EGFR 19+, T790M+, providing key evidence for subsequent corresponding targeted therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +3, the patient underwent bronchoscopy, which showed extrinsic compression stenosis at the opening of the left lower lobe; the bronchoscope and biopsy forceps could not enter. Under autofluorescence, no obvious magenta change was seen at the site of extrinsic compression stenosis. Lavage and sputum collection were performed in the right upper lobe for pathogen testing, and biopsy of the left lower lobe opening was submitted for histopathology. On Day +5, the pathology report showed: (left lower lobe opening) the submitted bronchial mucosa was lined by ciliated columnar epithelium, with scattered lymphocyte and plasma cell infiltration in the stroma, and focal fibrous tissue hyperplasia and lymphoid hyperplasia with compression. NGS testing of right upper lung lavage fluid for infection showed: G- Neisseria meningitidis, 65878 sequence reads; G- Porphyromonas gingivalis, 34048 sequence reads; G- Haemophilus parainfluenzae, 11370 sequence reads; G- Fusobacterium nucleatum, 10315 sequence reads; etc. On Day +50, after admission and completion of evaluation, chest CT suggested that the lesions in both lungs had increased in size compared with before. On Day +55, CT-guided lung biopsy was performed, and the biopsy tissue was submitted for pathology; the pathological result indicated \"adenocarcinoma,\" suggesting progression of pulmonary malignant tumor. Comprehensive genetic testing showed EGFR 19+, T790M+.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQoDHYRlc1St0avmmrHgcEiahzSAqEiczSUibkZvib1ictK2vAIlqBXNBBjJQ/640?wx_fmt=png",
+          "near_text": "Figure 2: Patient's chest CT images on Day +50",
+          "local_src": "cleaned_cases_image_cache/5f11b07fcde3c1aa1940d5999fdb6eb40773c5a1.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQL55WiacCVlaDgNgoDHiady2btKHYQR2NbfThTUgrKqNodolEzIYhyjTw/640?wx_fmt=png",
+          "near_text": "Comparison of adverse reactions",
+          "local_src": "cleaned_cases_image_cache/0b7d5b4383df5fbabd77f7515cb97d8bffd682fb.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQLFpmoTibnOC3PcWKGibLyxSFpAvNp1pQC3mnytQlxsNiarYsL1ianrhxoA/640?wx_fmt=png",
+          "near_text": "Figure 3: Patient's chest CT images on Day +260",
+          "local_src": "cleaned_cases_image_cache/e9718be70f27adeb0d83908a66e182ad36838a4c.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQTnFk4chxxNPbQibvrzTwbFBZMeibJfa2bhTAyup6k0IpDJ5ib8fEZiaIgA/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT imaging on Day +521",
+          "local_src": "cleaned_cases_image_cache/327bebd506e756cb80c33e96a69bd114ff6ece95.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL0X6ibDeOFusZkcL9KuqVuQNqrB2S8sxntMRVibhzKpYVwIKHoXnjrJZ2UPM2aqYrbDAYyYiaFDwyMw/640?wx_fmt=png",
+          "near_text": "Figure 5. Chest CT images, Day +557",
+          "local_src": "cleaned_cases_image_cache/20192dcfdc5ae412d4a2d22fa728bc9bb10da207.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Postoperative left lung adenocarcinoma (T3N0M1a stage IVA), bilateral lung metastases, EGFR exon 19 mutation, T790M+",
+      "diagnostic_basis": [
+        "Chest CT on Day +50 showed enlargement of the bilateral lung lesions compared with the previous study.",
+        "Pathology from CT-guided lung needle biopsy performed on Day +55 indicated \"adenocarcinoma\"",
+        "Genetic testing showed EGFR exon 19 positive, T790M positive"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Starting on Day +57, treatment with \"Almonertinib 2 tablets/day\" was given",
+        "Starting on Day +526, combined treatment with oral anlotinib 12 mg was given",
+        "On Day +626, the patient went to the Radiation Oncology Department for local radiotherapy."
+      ],
+      "treatment_response": [
+        "Repeat chest CT on Day +159, assessed the lesion as SD",
+        "Repeat chest CT on Day +260 showed that the lesion had significantly decreased in size compared with before.",
+        "On Day +341, Day +383, and Day +494, repeat chest CT showed: lesions SD",
+        "Spiral CT on Day +521 assessed as PD",
+        "Repeat chest CT on Day +557 showed no significant change compared with the previous study; the lesion was assessed as SD.",
+        "Repeat chest CT on Day +607 showed no significant change compared with the previous study; disease status was assessed as SD",
+        "Follow-up chest CT in approximately 35 months after Day 0 and approximately 26 months after Day 0 showed no significant change in the lesions compared with previously; disease status was assessed as SD."
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "status": "success",
+  "case_id": "case_149",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 53 years old, was admitted to our hospital's Department of Pulmonary and Critical Care Medicine on Day 0, with the chief complaint of \"confirmed lymphoma for more than 6 months, wheezing with fever for more than 3 weeks.\" History of present illness: In late period, approximately 9 months before Day 0, he underwent supraclavicular lymph node excision, and pathology reported \"highly active follicular lymphoid hyperplasia, focal exudation, necrotizing granulomatous inflammation.\" On Day -182, he underwent resection of a soft tissue tumor of the left cervical skeletal muscle; postoperative pathology favored diffuse large B-cell lymphoma (non-GCB). From Day -153 to Day -31, he received cycles 1-4 of the R-CHOP regimen. On Day -20, he presented to Yixing City Hospital A, where blood tests indicated bone marrow suppression, and chest CT showed bilateral pulmonary inflammation; after anti-infective, anti-inflammatory, and other treatment, wheezing and pneumonia did not improve significantly. On Day -4, he was transferred to Yixing City Hospital B, with oxygen saturation measured at 89%, adenovirus nucleic acid positive, SARS-CoV-2 nucleic acid (-), G test (-), LDH 459U/L, ESR 66mm/h; he was given anti-infective, anti-inflammatory, and other treatment. Repeat chest CT on Day -1 showed slight improvement compared with before. Thereafter, he still complained of fatigue and exertional dyspnea, and was admitted from the outpatient clinic with \"pneumonia.\" Past medical history: History of diabetes for more than 3 years, with poor glycemic control; in approximately 5 months before Day 0, ultrasound found thrombosis of the left internal jugular vein, and rivaroxaban anticoagulation therapy was given; 10 years ago, he underwent lumbar disc removal plus interbody fusion. Personal history: Smoking history of more than 10 years; quit smoking for the past 6 months. Physical examination on admission: T 36.2℃, P 62/min, R 20/min, BP 112/80mmHg. Alert, oral ulcers on the tongue and face, clear percussion note over both lungs, decreased breath sounds in both lungs, no dry or moist rales heard. Laboratory tests on admission: WBC 6.0X10^9/L, Hb 124g/L, PLT 137X10^9/L; creatinine 28umol/L↓, urea 6.1mmol/L↑, albumin 32.3g/L↓; D-dimer 0.19ug/ml; BNP 114pg/ml; tumor markers: carcinoembryonic antigen 10.9ug/L↑, neuron-specific enolase 26.5ug/L↑, CA19-9 41.7U/ml↑, CYFRA211 16.3ug/l↑, ferritin ＞2000.00ug/L↑; lymphocyte subsets: absolute CD4 count 80, absolute CD19 count 0; influenza A and B antigens, SARS-CoV-2 nucleic acid, respiratory pathogen panel of five items, G test, GM test, T-SPOT, cryptococcal latex agglutination test (-); CRP 4.74mg/L, PCT 0.054ng/ml, IL-6 9.96pg/ml↑, ESR 69mm/h↑, endotoxin 187.9pg/ml↑; arterial blood gas analysis (nasal cannula 4L/min): PH 7.45, PCO2 31mmHg, PO2 125mmHg, SaO2 99%, oxygenation index 338; HbA1c 10.1%↑; BALF sent for routine testing, acid-fast staining, bacterial and fungal smear and culture, all negative; autoimmunity: anti-SSA antibody and Ro52 antibody weakly positive; blood culture (-).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnCWyteZOniaKTGP9iaXDJpVibwbmPH5H7bbeNyxNNdUoZQoqZWrUQWauXA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Laboratory test report during hospitalization at Yixing City Hospital A",
+          "local_src": "cleaned_cases_image_cache/d663c47a4a43a356364de3dfa888b3215ac337ac.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnwMpMFOVkrmfuAeXLA2VlM99MeS6TXqH66lzSGw7zJHb0hd58CASIwg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: Chest CT, Yixing A Hospital, Day -8 (left) and Yixing A Hospital, Day -5 (right)",
+          "local_src": "cleaned_cases_image_cache/22cd14e420f1df50bc316b6d10bc83e7764b6313.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnt53vzNxM75wh2gZZJworIJoRe8HX8sgyg6XWI1UNNeuDfcicBmrbZqA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3: Chest CT, Yixing City Hospital A on Day -8 (left), Yixing City Hospital A on Day -5 (center), and Yixing City Hospital B on Day -1 (right)",
+          "local_src": "cleaned_cases_image_cache/e6b3b2ff055b0f7f9ffa0f940caa7ff82e7b7879.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis pneumonia (PJP)",
+          "supporting_evidence": [
+            "The patient has diffuse large B-cell lymphoma and received cycles 1-4 of the R-CHOP regimen from Day -153 to Day -31, and is a markedly immunocompromised host.",
+            "Lymphocyte subset analysis showed an absolute CD4 count of 80 and an absolute CD19 count of 0, indicating severe impairment of cellular and humoral immune function",
+            "Chief complaint: 'wheezing with fever for more than 3 weeks,' and after anti-infective and anti-inflammatory treatment at an outside hospital, 'the wheezing and pneumonia did not show significant improvement.'",
+            "On Day -4, oxygen saturation was measured at 89%, suggesting a history of hypoxemia",
+            "LDH 459 U/L; in the subsequent table, elevated LDH 515.1 U/L on 7-4 can be seen in PJP",
+            "Chest CT images show multiple diffuse/patchy ground-glass opacities in both lungs with a bilateral distribution, consistent with imaging findings commonly seen in opportunistic infection, especially PJP",
+            "CRP 4.74 mg/L and PCT 0.054 ng/ml are not elevated, which is not entirely consistent with typical severe bacterial pneumonia, but instead supports an atypical opportunistic infection."
+          ],
+          "opposing_evidence": [
+            "BALF routine examination, acid-fast stain, and bacterial and fungal smear and cultures were all negative",
+            "Arterial blood gas analysis (nasal cannula 4 L/min) showed an oxygenation index of 338, with no severe oxygenation impairment on admission."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Adenovirus pneumonia",
+          "supporting_evidence": [
+            "Tests at an outside hospital on Day -4 showed positive adenovirus nucleic acid",
+            "With \"fever for more than 3 weeks, shortness of breath for more than 3 weeks,\" consistent with the clinical manifestations of viral pneumonia",
+            "Chest CT images show multiple ground-glass opacities and patchy opacities in both lungs, which can be seen in viral pneumonia",
+            "The patient is in an immunosuppressed state after chemotherapy and is at high risk for persistent or worsening disease after viral infection.",
+            "Negative SARS-CoV-2 nucleic acid test, negative influenza A and B antigen tests, and a negative respiratory five-panel make the detected adenovirus a more plausible explanation."
+          ],
+          "opposing_evidence": [
+            "After treatment at an outside hospital with anti-infective and anti-inflammatory therapy, among other treatments, there was still \"no significant improvement in wheezing and pneumonia,\" suggesting that adenovirus infection alone cannot fully explain the condition.",
+            "At admission, CRP was 4.74 mg/L and PCT was 0.054 ng/ml; the inflammatory response was not marked, and body temperature was 36.2℃, providing limited evidence for active severe viral pneumonia.",
+            "Repeat chest CT on Day -1 showed slight improvement compared with the previous study, but symptoms remained significant, suggesting a possible concomitant additional etiology."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Drug-related lung injury/drug-induced interstitial pneumonia (associated with R-CHOP)",
+          "supporting_evidence": [
+            "The patient completed cycles 1-4 of the R-CHOP regimen from Day -153 to Day -31, and the onset occurred shortly after chemotherapy.",
+            "Chest CT images show diffuse ground-glass and interstitial changes in both lungs, which can be seen in drug-induced lung injury",
+            "After prior anti-infective and anti-inflammatory treatment, the pneumonia showed no significant improvement, arguing against a simple common infection.",
+            "At admission, CRP and PCT were both not elevated, blood cultures were (-), and BALF routine analysis as well as bacterial and fungal smear and cultures were negative, suggesting the possibility of an atypical infection or a noninfectious etiology.",
+            "On physical examination, breath sounds were diminished bilaterally, with no dry or moist rales heard; the physical findings were not entirely consistent with extensive infectious consolidation."
+          ],
+          "opposing_evidence": [
+            "The patient clearly has fever, and adenovirus nucleic acid testing was positive at an outside hospital; an infectious etiology remains strongly suspected.",
+            "In addition to ground-glass opacities, focal patchy areas of consolidation are also visible on the images; infection cannot be excluded.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Cytomegalovirus pneumonia or other opportunistic viral pneumonia",
+          "supporting_evidence": [
+            "The patient is post-chemotherapy for lymphoma, with an absolute CD4 count of 80 and an absolute CD19 count of 0, and is in a state of severe immunosuppression.",
+            "The clinical manifestations are persistent fever and shortness of breath, and conventional anti-infective therapy is ineffective, consistent with the features of opportunistic viral pneumonia.",
+            "Chest CT images show multiple ground-glass opacities and interstitial changes in both lungs, consistent with common imaging findings of opportunistic viral pneumonia",
+            "SARS-CoV-2 nucleic acid (-), influenza A and B antigens and the respiratory five-panel were negative, suggesting that pathogens other than common respiratory viruses still need to be considered"
+          ],
+          "opposing_evidence": [
+            "No positive evidence of CMV or other specific virologic testing was provided in the first-phase information",
+            "Adenovirus nucleic acid is known to be positive, and some pulmonary manifestations can be explained by adenovirus",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary infiltration by lymphoma/tumor-related pulmonary lesions",
+          "supporting_evidence": [
+            "The patient has a history of diffuse large B-cell lymphoma, and the chief complaint is \"more than 6 months since diagnosis of lymphoma, with shortness of breath and fever for more than 3 weeks\"",
+            "After treatment as pneumonia at an outside hospital, \"wheezing and pneumonia did not show significant improvement,\" suggesting that noninfectious tumor-related lesions cannot be excluded.",
+            "Chest CT images show multiple patchy opacities and ground-glass opacities in both lungs; tumor infiltration can present with diverse imaging manifestations.",
+            "Elevated LDH and ferritin >2000 ug/L suggest possible underlying disease activity or increased systemic inflammation/tumor burden."
+          ],
+          "opposing_evidence": [
+            "Adenovirus nucleic acid was positive on Day -4, suggesting clear evidence of infection.",
+            "Chest CT on Day -1 showed \"slight improvement compared with prior,\" and the reversibility of the imaging findings is more suggestive of inflammatory/infectious lesions.",
+            "Negative blood cultures and negative routine BALF studies and culture cannot exclude a tumor, but they also did not provide direct evidence of pulmonary tumor infiltration."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "IL-6",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +6, repeat blood tests showed further decreases in WBC and platelets; the G test became positive at 235.3 pg/ml; IL-6 106.8 pg/ml and CRP 131.81 mg/L were both significantly increased compared with admission. Repeat chest CT indicated that the bilateral interstitial changes in the lungs had progressed significantly compared with before. On Day +7, arterial blood gas analysis (on oxygen 7 L/min): pH 7.50, PCO2 32 mmHg, PO2 74 mmHg, Lac 1.3 mmol/L, HCO3- 25.0 mmol/L, BE 2.1 mmol/L, SaO2 96%, oxygenation index 151; afterward, the patient's oxygenation index continued to decline.",
+        "images": [
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnWHoktHDOsup3sVVbKfmfoNR8Hticqr7yOgL5nuKibscwNBFx9cicNkzIA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 4: Changes in white blood cell count, neutrophil count, and absolute lymphocyte count on repeat complete blood count after admission (unit: X10^9/L)",
+            "local_src": "cleaned_cases_image_cache/fe6355bc83fdb69993ce08e1611dac30629b1d33.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnaCMCYmd2SkPabNYNNZxC8forMibnUNOMms9kmsaeejjl36LhkyjvKVQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 5: Changes in platelet count in the complete blood count on repeat testing after admission (unit: ×10^9/L)",
+            "local_src": "cleaned_cases_image_cache/c93a20e092c04dd3e60cc791c7aae445b9972655.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnBSsYqqxw46KePQIiaVgf4RibzEKdvS5uQibJbpg2CYVJ2ZeA355A29wEQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 6: Chest CT, Yixing City B Hospital on Day -1 (left) and our hospital on Day +6 (right)",
+            "local_src": "cleaned_cases_image_cache/9caee93511e7df8101ca172d33de7d002b3189ce.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Rituximab (RTX)-related lung injury",
+            "evidence": [
+              "There is a definite history of rituximab use for the treatment of lymphoma, and the interval from the last infusion to the peak of disease onset is basically consistent.",
+              "Both lungs show ground-glass opacities with linear opacities.",
+              "At an outside hospital, chest CT had previously shown improvement with steroid treatment; after steroid discontinuation, the symptoms and imaging findings recurred."
+            ],
+            "exclusion_reasons": [
+              "After ruling out infection, give primary consideration to"
+            ]
+          },
+          {
+            "name": "PJP infection",
+            "evidence": [
+              "Underlying history of diabetes mellitus, long-term treatment with immunosuppressants and corticosteroids for lymphoma, with severely impaired immune function",
+              "Absolute CD4 count <200",
+              "Chest CT showed multiple diffuse interstitial changes in both lungs",
+              "Bronchoscopy showed no obvious purulent secretions, and no moist rales were heard in the lungs.",
+              "G test positive",
+              "Unexplained elevated LDH"
+            ],
+            "exclusion_reasons": [
+              "A point against this is that the patient's disease course has been prolonged, with relatively slow progression."
+            ]
+          },
+          {
+            "name": "Lymphoma recurrence",
+            "evidence": [
+              "The patient has underlying lymphoma, and the possibility of recurrent lymphoma involving the lungs cannot be excluded."
+            ],
+            "exclusion_reasons": [
+              "Repeat PET-CT in approximately 1 month before Day 0 showed no enlargement of superficial lymph nodes, hilar lymph nodes, or mediastinal lymph nodes, suggesting that disease control was acceptable, which was inconsistent with the short-term progression of the pulmonary lesions"
+            ]
+          },
+          {
+            "name": "Cardiogenic pulmonary edema",
+            "evidence": [
+              "Repeated intravenous infusion therapy during multiple hospitalizations"
+            ],
+            "exclusion_reasons": [
+              "BNP was not abnormally elevated, with no typical manifestations of heart failure"
+            ]
+          },
+          {
+            "name": "Infection with specific pathogens such as CMV and RSV",
+            "evidence": [
+              "The patient has severe immunodeficiency, with imaging showing multiple ground-glass opacities and exudative opacities in both lungs."
+            ],
+            "exclusion_reasons": [
+              "cannot be ruled out"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Rituximab (RTX)-related lung injury",
+        "evidence": [
+          "There is a definite history of rituximab use for the treatment of lymphoma, and the interval from the last infusion to the peak of disease onset is basically consistent.",
+          "Both lungs show ground-glass opacities with linear opacities.",
+          "At an outside hospital, chest CT had previously shown improvement with steroid treatment; after steroid discontinuation, the symptoms and imaging findings recurred."
+        ],
+        "exclusion_reasons": [
+          "After ruling out infection, give primary consideration to"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "PJP infection",
+        "evidence": [
+          "Underlying history of diabetes mellitus, long-term treatment with immunosuppressants and corticosteroids for lymphoma, with severely impaired immune function",
+          "Absolute CD4 count <200",
+          "Chest CT showed multiple diffuse interstitial changes in both lungs",
+          "Bronchoscopy showed no obvious purulent secretions, and no moist rales were heard in the lungs.",
+          "G test positive",
+          "Unexplained elevated LDH"
+        ],
+        "exclusion_reasons": [
+          "A point against this is that the patient's disease course has been prolonged, with relatively slow progression."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphoma recurrence",
+        "evidence": [
+          "The patient has underlying lymphoma, and the possibility of recurrent lymphoma involving the lungs cannot be excluded."
+        ],
+        "exclusion_reasons": [
+          "Repeat PET-CT in approximately 1 month before Day 0 showed no enlargement of superficial lymph nodes, hilar lymph nodes, or mediastinal lymph nodes, suggesting that disease control was acceptable, which was inconsistent with the short-term progression of the pulmonary lesions"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infection with specific pathogens such as CMV and RSV",
+        "evidence": [
+          "The patient has severe immunodeficiency, with imaging showing multiple ground-glass opacities and exudative opacities in both lungs."
+        ],
+        "exclusion_reasons": [
+          "cannot be ruled out"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was repeated with bronchoalveolar lavage, and the specimens were sent for mNGS and routine culture.",
+          "why_order_this_exam": "The patient was a severely immunocompromised host after chemotherapy for diffuse large B-cell lymphoma, with an absolute CD4 count of only 80 and an absolute CD19 count of 0. He had more than 3 weeks of fever and dyspnea, with no significant improvement after anti-infective and anti-inflammatory treatment at an outside hospital. Repeat chest CT showed marked progression of bilateral interstitial lung disease, and the oxygenation index declined from 338 to 151 and continued to worsen. Earlier blood cultures, routine BALF testing and acid-fast staining, and bacterial and fungal smear and culture were all negative. The G test was initially negative and then became positive, indicating that routine testing could not establish the etiologic diagnosis. Bronchoscopy was needed to directly assess the airway and obtain lower respiratory tract specimens, with a focus on differentiating opportunistic infections such as PJP and CMV from noninfectious lesions such as rituximab-related lung injury and tumor infiltration. This examination could also determine whether there were obvious purulent secretions, bleeding, or other airway abnormalities, and provide the conditions for subsequent lavage specimen submission for testing; meanwhile, the patient later developed spontaneous pneumothorax, indicating severe pulmonary disease, and bronchoscopy would also help balance further treatment and procedural risks before the cause was clarified.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoalveolar lavage",
+          "basis_in_stage3_input": "Bronchoscopy was repeated with bronchoalveolar lavage, and the specimens were sent for mNGS and routine culture.",
+          "why_order_this_exam": "The patient's diffuse bilateral ground-glass opacities/interstitial changes are progressively worsening, and PJP and other opportunistic infections are highly suspected clinically; however, previous routine BALF studies, acid-fast staining, bacterial and fungal smear and cultures were all negative, and blood cultures were also negative, indicating that routine specimen submission alone is insufficient to identify the pathogen. Bronchoalveolar lavage can obtain lower respiratory tract specimens closer to the site of disease and is particularly suitable for etiologic diagnosis of pathogens such as PJP and CMV that may not be readily confirmed in the upper airway or peripheral blood. This examination is intended to address the current core clinical question of 'whether an infectious etiology is present, what specific type of opportunistic pathogen it is, and whether it can be distinguished from drug-related lung injury,' and plays a key role in confirming or excluding PJP, concomitant viral infection, and guiding whether to intensify anti-infective therapy and whether to continue glucocorticoid treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "mNGS",
+          "basis_in_stage3_input": "Bronchoscopy was repeated with bronchoalveolar lavage, and the specimens were sent for mNGS and routine culture.",
+          "why_order_this_exam": "This case involves a patient with severe immunodeficiency after chemotherapy, and the pathogen spectrum may be complex. There is both a clue of positive adenovirus nucleic acid from an outside hospital and conversion of the G test to positive, elevated LDH, diffuse bilateral interstitial lung disease, and progressive hypoxemia, suggesting that opportunistic infections such as PJP and CMV should all be considered; however, routine cultures and prior baseline etiologic testing were negative, and the inflammatory markers initially did not typically support ordinary bacterial pneumonia. mNGS is applicable for broad-spectrum pathogen screening when the condition progresses rapidly, routine testing is negative, or the pathogen is atypical, and it can simultaneously cover bacteria, fungi, viruses, and special pathogens. This test is mainly intended to address the difficulty of identifying the pathogen when traditional methods cannot do so, helping confirm whether Pneumocystis jirovecii, CMV, and other coinfections are present, thereby distinguishing infectious lesions from noninfectious causes such as RTX-related lung injury, and directly affecting the selection of trimethoprim-sulfamethoxazole, antiviral drugs, and antifungal regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine culture",
+          "basis_in_stage3_input": "Bronchoscopy was repeated with bronchoalveolar lavage, and the specimens were sent for mNGS and routine culture.",
+          "why_order_this_exam": "Although CRP and PCT were not elevated at admission, making opportunistic infection or atypical pathogens more likely, subsequent IL-6 and CRP increased significantly, and the clinical condition and imaging continued to progress, so concomitant common bacterial or fungal infection cannot be completely excluded. The patient had previously received anti-infective treatment at an outside hospital, which may have reduced the culture positivity rate, but routine culture remains a fundamental method for etiologic diagnosis and can complement mNGS to determine whether culturable pathogens are present, assess their clinical relevance, and provide a basis for subsequent antimicrobial susceptibility testing and adjustment of the anti-infective regimen. This test is intended to address questions such as whether there is concomitant infection with routine culturable pathogens and whether the microorganisms detected by mNGS have pathogenic significance; it is important for confirming infection, differentiating contamination/colonization, and avoiding overtreatment or misdirected treatment based solely on sequencing results.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Subsequent bacterial and fungal cultures of the same batch of specimens at our hospital remained negative.",
+          "why_order_this_exam": "The patient had fever, dyspnea, bilateral pulmonary inflammatory opacities on imaging, poor glycemic control due to diabetes, and had also developed bone marrow suppression, theoretically conferring a risk of secondary bacterial infection; meanwhile, inflammatory markers increased significantly in the later stage, and it was necessary to evaluate for possible bacterial coinfection. Although the PCT was low, prior blood cultures were negative, and the clinical picture was more suggestive of PJP/viral opportunistic infection, bacterial culture was still necessary as a key exclusionary test to determine whether common bacterial pathogens were present, especially in the context of having already received multiple courses of anti-infective treatment at an outside hospital and having atypical clinical manifestations. A negative result would help reduce the likelihood of typical bacterial pneumonia as the primary cause and support shifting the treatment focus toward opportunistic infections such as PJP and CMV, while avoiding unnecessary further expansion of conventional antibacterial coverage.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "Subsequent bacterial and fungal cultures of the same batch of specimens at our hospital remained negative.",
+          "why_order_this_exam": "The patient has been receiving long-term R-CHOP chemotherapy and has severe cellular immunodeficiency. Chest CT showed diffuse bilateral ground-glass opacities and interstitial changes. The G test converted from negative to positive, indicating that fungal or fungus-related opportunistic infection must be a key focus of evaluation. Although PJP does not depend on detection by routine fungal culture, and the GM test was negative at admission, with previous BALF bacterial and fungal smear and culture negative, fungal culture still needs to be performed to assess for concomitant other fungal infections such as Candida and Aspergillus, and to help refine the differential diagnosis among PJP, CMV, and drug-induced lung injury. A negative result is of important value for excluding routinely cultivable fungi as the primary etiologic cause, improving the accuracy of interpretation of pathogens detected by mNGS, and guiding whether antifungal therapy is needed and how to select it.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was repeated with bronchoalveolar lavage, and specimens were sent for mNGS and routine culture. On Day +9, the mNGS results of the airway secretions were reported as follows: \"Enterococcus faecium, 626 reads; Candida metapsilosis, 16 reads; Pneumocystis jirovecii, 4 reads; CMV, 27049 reads; human herpesvirus 6B, 70 reads; human herpesvirus 7, 3 reads.\" Subsequently, bacterial and fungal cultures of the same batch of specimens at our hospital remained negative. During the diagnostic and treatment course, the patient also developed a spontaneous pneumothorax on Day +9.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnpUzS0WAOWu7CLVUutTDOIhMuK97ToKMv3I2pRDZ4LAEyoJAXcBpESQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 7: BALF mNGS results",
+          "local_src": "cleaned_cases_image_cache/e7e39c50ceab4f1cef8ec3fe81fb683f27498fe3.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qnicRDyB4CX1MuumsERPWicHJWiadYTQib8zXkcjHcSvaBcuTEND4bAzMboQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 8: The patient developed spontaneous pneumothorax during treatment.",
+          "local_src": "cleaned_cases_image_cache/2cac931a230ee78bf99f9e94f6f5f9afb0b634e5.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstI4UYaYGvjrAVs8Im6sy0qn0zGDpfwdlml6djM6jvOb3IO0F5Wkrq23zAWN3ACrStkUtUedick4c6g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 9: Chest CT from our hospital on Day +6 (left), our hospital on Day +17 (middle), and Yixing City Hospital C on Day +49 (right)",
+          "local_src": "cleaned_cases_image_cache/a7e33a6e856ad8d4f6a0a08690645a1bab30046e.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pneumocystis jirovecii pneumonia (PJP infection) with CMV and other infections",
+      "diagnostic_basis": [
+        "BALF-mNGS detected sequence reads of Pneumocystis jirovecii and CMV, among others.",
+        "Corroborated by the subsequent effectiveness of anti-infective treatment",
+        "Patients with underlying diabetes mellitus and lymphoma are immunosuppressed and are a high-risk population for opportunistic pathogen infection.",
+        "Imaging showed ground-glass opacities, with persistent progression"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Antibiotics were adjusted to vancomycin + caspofungin + trimethoprim-sulfamethoxazole injection + acyclovir",
+        "Methylprednisolone 40 mg bid for anti-inflammatory treatment",
+        "Closed chest drainage (for spontaneous pneumothorax)",
+        "After discharge, sequential treatment with meropenem injection + contezolid tablets + fluconazole tablets + SMZ tablets + prednisone acetate"
+      ],
+      "treatment_response": [
+        "Pneumonia and gas resorption; successfully extubated on Day +20.",
+        "Arterial blood gas analysis showed a gradual improvement in the oxygenation index",
+        "Bicytopenia was gradually corrected, and the G test became negative",
+        "Physical condition improved significantly; repeat chest CT on Day +49 showed that the inflammatory changes had basically resolved, with a small amount of fibrotic foci.",
+        "Repeat blood tests on Day +66 showed that the white blood cell count, platelet count, and thyroid function had returned to normal, and the absolute CD4 count had increased to 815 compared with previously.",
+        "Repeat PET-CT on Day +93 showed no significant abnormal radiotracer uptake after lymphoma treatment"
+      ]
+    }
+  }
+}

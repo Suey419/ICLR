@@ -1,0 +1,297 @@
+{
+  "status": "success",
+  "case_id": "case_132",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 48-year-old male patient was admitted to the Fifth Department of Respiratory and Critical Care Medicine, the First Affiliated Hospital of Zhengzhou University, on Day 0, with the chief complaint of \"chest tightness and chest pain for 2.5 years, worsening for more than 1 month.\" In approximately 32 months before Day 0, the patient developed severe chest pain without an obvious precipitating cause, more pronounced on the left side, described as dull pain, especially worsened with deep inspiration, accompanied by \"chest tightness and palpitations,\" as well as \"panic and a sense of impending death,\" and \"small-volume hemoptysis, approximately 5 mL daily.\" CTPA performed at an outside hospital led to a diagnosis of \"acute pulmonary embolism,\" and anticoagulation therapy was given. Thereafter, the patient repeatedly discontinued medication on his own and restarted anticoagulation because of symptom worsening. In approximately 1 month before Day 0, the patient again experienced worsening chest pain and chest tightness without an obvious precipitating cause, accompanied by blood-streaked sputum. He was again diagnosed in the outpatient clinic with \"pulmonary embolism\" and restarted on anticoagulation therapy. One day before this admission, the patient developed fever, with a maximum temperature of 38.5℃, accompanied by chills, slight cough, sputum production, and a small amount of blood-streaked sputum. Laboratory testing showed WBC 17.9×10^9/L and neutrophils 92.7%. Chest CT showed an infiltrative shadow in the left lower lobe. He was admitted to our department from the outpatient clinic with \"1. Pneumonia 2. Pulmonary embolism.\" On review of the past history, in 2002 the patient underwent \"duodenal perforation repair\" for \"duodenal perforation\"; in 2015, he underwent \"bowel resection\" for \"intestinal adhesions\"; and in approximately 41 months before Day 0, he underwent \"radiofrequency ablation\" for \"atrial fibrillation.\" He denied any history of smoking or alcohol use. Ancillary test results obtained at our hospital in approximately 18 months before Day 0 showed that CBC, infectious disease testing, liver and kidney function, blood lipids, urinalysis, stool routine, CRP, PCT, and ESR were all normal; cardiac enzymes, troponin I, BNP, and coagulation studies (D-dimer 0.06 mg/L) were all normal; tumor markers, a complete thrombophilia panel, a complete autoimmune panel, and anticardiolipin antibody were all normal. Ultrasound showed no abnormalities in intracardiac structure or function. Lower extremity venous ultrasound showed no abnormalities. CTPA examinations performed in approximately 21 months before Day 0, approximately 18 months before Day 0, and approximately 1 month before Day 0 showed a filling defect in the left lower pulmonary artery. SPECT performed in approximately 1 month before Day 0 showed a perfusion defect in the left lower lung. CTPA performed in May of the same year showed a low-density filling defect in the left lower pulmonary artery, patchy high density in the basal segments of the left lower lobe, some ground-glass opacity, and partial interlobular septal thickening.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIU2vG7FUKBibQfiaQ1tyOEQmo3RJXGWibWK7cPjwQaPPiaWNhnntcSCkib9Hf2ibU98rLuftxKFqJDtEtg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Pulmonary artery CTA from approximately 21 months before Day 0 to approximately 1 month before Day 0",
+          "local_src": "cleaned_cases_image_cache/af9be684071d84168e3e6a79dd644d445c5834e4.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIU2vG7FUKBibQfiaQ1tyOEQmcTzLsweNhDsbs6ZGia0bBeJtqTY2icDTBcrM6mwbibEGy4QXhrrCaxuKg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. SPECT in approximately 1 month before Day 0 and pulmonary artery CTA in around Day 0",
+          "local_src": "cleaned_cases_image_cache/c285c08e6b320ccb31e8b0d0776a37c477ed0c79.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic thromboembolic pulmonary disease (CTEPD/chronic pulmonary embolism)",
+          "supporting_evidence": [
+            "In approximately 32 months before Day 0, CTPA at an outside hospital diagnosed \"acute pulmonary embolism\"; thereafter, chest tightness and chest pain recurred for 2.5 years.",
+            "CTPA performed in approximately 21 months before Day 0, approximately 18 months before Day 0, and approximately 1 month before Day 0 showed a filling defect in the left lower pulmonary artery, suggesting persistence of the lesion at the same site.",
+            "In approximately 1 month before Day 0, SPECT showed a perfusion defect in the left lower lung, consistent with a lesion in the left lower pulmonary artery.",
+            "CTPA in around Day 0 showed a low-density filling defect in the left lower pulmonary artery.",
+            "Symptoms include chest pain, chest tightness, and small-volume hemoptysis, with chest pain worsening on deep inspiration, which is consistent with manifestations seen in pulmonary vascular obstructive disease.",
+            "Imaging shows a persistent filling defect in the left lower pulmonary artery and corresponding decreased perfusion of the left lower lung."
+          ],
+          "opposing_evidence": [
+            "In approximately 18 months before Day 0, D-dimer was 0.06 mg/L, normal.",
+            "Lower extremity venous ultrasound in approximately 18 months before Day 0 showed no abnormalities, and no definite peripheral venous thrombosis source was identified.",
+            "Ultrasound showed no abnormalities in intracardiac structure or function; phase 1 data did not indicate evidence of pulmonary hypertension or increased right heart load."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary artery sarcoma or other primary pulmonary artery tumors",
+          "supporting_evidence": [
+            "A filling defect in the left lower pulmonary artery was repeatedly present in approximately 21 months before Day 0, approximately 18 months before Day 0, approximately 1 month before Day 0, and around Day 0. The lesion remained confined to the same pulmonary arterial branch over the long term, warranting concern for a nonthrombotic space-occupying lesion.",
+            "The patient repeatedly discontinued and then restarted anticoagulation on their own, but the lesion persisted over several years, suggesting that possibilities beyond a simple thrombus need to be considered.",
+            "In approximately 18 months before Day 0, the thrombophilia panel, anticardiolipin antibodies, and autoimmune panel were all normal, and lower extremity venous ultrasound showed no abnormalities, providing insufficient evidence for a typical embolic source.",
+            "Imaging shows a persistent low-density filling defect in the left lower pulmonary artery, requiring imaging differential diagnosis of an intraluminal space-occupying lesion of the pulmonary artery."
+          ],
+          "opposing_evidence": [
+            "The phase I information did not provide explicit direct imaging descriptions more suggestive of a tumor, such as pulmonary artery dilatation, enhancement of an intraluminal mass, or extravascular infiltration.",
+            "During the course of the illness, the patient was treated multiple times for pulmonary embolism, and the perfusion defects shown on SPECT could also be explained by thrombotic lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute recurrent pulmonary embolism (acute exacerbation superimposed on chronic disease)",
+          "supporting_evidence": [
+            "Since 2019, he had been diagnosed with \"acute pulmonary embolism\" based on symptoms and CTPA.",
+            "The patient repeatedly discontinued the medication on her own and restarted anticoagulation because of worsening symptoms, suggesting the possibility of recurrence in the setting of irregular anticoagulation.",
+            "In approximately 1 month before Day 0, the patient again developed chest pain and worsening chest tightness, accompanied by blood-streaked sputum, and was again diagnosed with \"pulmonary embolism\" in the outpatient clinic.",
+            "In around Day 0, CTPA still showed a low-density filling defect in the left lower pulmonary artery."
+          ],
+          "opposing_evidence": [
+            "The lesion has long remained fixed at the same site in the left lower pulmonary artery, more consistent with a persistent lesion and atypical for recurrent newly developed multiple emboli.",
+            "D-dimer was normal in approximately 18 months before Day 0.",
+            "Lower extremity venous ultrasound showed no abnormalities, and no new evidence of venous thrombosis was provided in phase 1."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lung cancer or metastatic tumor with pulmonary artery invasion/tumor thrombus",
+          "supporting_evidence": [
+            "The patient has recurrent hemoptysis and chest pain, and a long-standing focal filling defect in the left lower pulmonary artery, which needs to be differentiated from tumor-related pulmonary artery invasion or tumor embolus.",
+            "CTPA in around Day 0 showed patchy high-density opacities and partial ground-glass opacities in the basal segment of the left lower lobe, with coexisting pulmonary parenchymal lesions and pulmonary artery abnormalities.",
+            "The persistent lesion in the setting of anticoagulation suggests that, in addition to thrombus, nonthrombotic lesions should also be considered."
+          ],
+          "opposing_evidence": [
+            "Tumor markers were normal in approximately 18 months before Day 0.",
+            "Denies a smoking history.",
+            "The phase 1 images and text did not clearly describe evidence of a pulmonary space-occupying lesion, nodules or masses, mediastinal lymphadenopathy, or distant metastasis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Vasculitis complicated by thrombosis",
+          "supporting_evidence": [
+            "Single-branch pulmonary vascular embolism"
+          ],
+          "opposing_evidence": [
+            "CTPA showed no signs of vascular wall thickening, the patient had no prolonged fever, and inflammatory markers such as ESR and CRP were normal during multiple hospitalizations."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas",
+          "requirement": "required"
+        },
+        {
+          "exam": "infectious disease",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac troponin I",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation (D-dimer)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "comprehensive autoimmune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ultrasound examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lower extremity venous ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR, CRP",
+          "reason": "A single-branch lesion requires exclusion of vasculitis-related lesions, while also assessing the degree of inflammatory activity.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Relevant examinations after this admission showed: CBC: WBC 10.74 *10^9/L, N% 80.8%, PCT: 0.11, CRP 75.83; blood gas analysis, infectious disease testing, liver and kidney function, blood lipids, urinalysis, stool routine, myocardial enzymes, troponin I, BNP, coagulation studies (D-dimer 0.05 mg/L), and tumor markers were all normal; comprehensive autoimmune panel and anticardiolipin antibody were negative; ultrasound examination showed no abnormalities in cardiac structure or function. Lower extremity venous ultrasound showed no abnormalities.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "CTPA shows an obvious filling defect",
+              "Perfusion imaging also shows a perfusion defect."
+            ],
+            "exclusion_reasons": [
+              "The patient does not have high-risk factors for VTE",
+              "Repeated lower extremity Doppler ultrasound showed no thrombosis",
+              "Repeated D-dimer results were all negative",
+              "Prolonged anticoagulation therapy has been ineffective, and pulmonary artery CTA shows no evidence of chronic thrombus",
+              "SPECT showed a perfusion defect, but it was not the typical \"wedge-shaped defect\" of pulmonary embolism."
+            ]
+          },
+          {
+            "name": "Vasculitis complicated by thrombosis",
+            "evidence": [
+              "Single-branch pulmonary vascular embolism"
+            ],
+            "exclusion_reasons": [
+              "No signs of vascular wall thickening on CTPA",
+              "The patient has no manifestations of prolonged fever",
+              "Prior to this hospitalization, the inflammatory markers ESR and CRP were normal on multiple occasions."
+            ]
+          },
+          {
+            "name": "Pulmonary vein stenosis",
+            "evidence": [
+              "In approximately 41 months before Day 0, the patient underwent radiofrequency ablation for atrial fibrillation at a local hospital; thermal injury during radiofrequency ablation can cause pulmonary vein stenosis.",
+              "Clinical manifestations include long-standing chest pain, chest tightness, and small-volume hemoptysis."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [
+          "CTPA shows an obvious filling defect",
+          "Perfusion imaging also shows a perfusion defect."
+        ],
+        "exclusion_reasons": [
+          "The patient does not have high-risk factors for VTE",
+          "Repeated lower extremity Doppler ultrasound showed no thrombosis",
+          "Repeated D-dimer results were all negative",
+          "Prolonged anticoagulation therapy has been ineffective, and pulmonary artery CTA shows no evidence of chronic thrombus",
+          "SPECT showed a perfusion defect, but it was not the typical \"wedge-shaped defect\" of pulmonary embolism."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Vasculitis complicated by thrombosis",
+        "evidence": [
+          "Single-branch pulmonary vascular embolism"
+        ],
+        "exclusion_reasons": [
+          "No signs of vascular wall thickening on CTPA",
+          "The patient has no manifestations of prolonged fever",
+          "Prior to this hospitalization, the inflammatory markers ESR and CRP were normal on multiple occasions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary vein stenosis",
+        "evidence": [
+          "In approximately 41 months before Day 0, the patient underwent radiofrequency ablation for atrial fibrillation at a local hospital; thermal injury during radiofrequency ablation can cause pulmonary vein stenosis.",
+          "Clinical manifestations include long-standing chest pain, chest tightness, and small-volume hemoptysis; imaging showed patchy high-density opacity in the basal segment of the left lower lobe, with partial ground-glass opacity and partial interlobular septal thickening, suggesting that pulmonary edema cannot be excluded."
+        ],
+        "exclusion_reasons": [
+          "The patient's imaging did not show the typical findings of tortuous dilation of the proximal pulmonary veins and funnel-shaped stenosis."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "dual-phase pulmonary artery CTA",
+          "basis_in_stage3_input": "Based on the diagnostic methods reported in the literature, we ultimately chose dual-phase pulmonary artery CTA. On the one hand, CTPA showed that the diameter of the left lower lobe pulmonary vein was relatively small; most importantly, the filling defect in the left lower lobe pulmonary artery disappeared in the aortic phase.",
+          "why_order_this_exam": "The patient has had recurrent chest tightness and chest pain for 2.5 years, accompanied by small-volume hemoptysis, with the lesion persistently fixed at the same site in the left lower pulmonary artery for a long time; anticoagulation treatment for pulmonary embolism was repeatedly given but with unsatisfactory effect, and D-dimer was normal multiple times, lower-extremity venous ultrasound was negative, and there were no definite high-risk factors for VTE, suggesting that nonthrombotic causes should be a major focus of exclusion. Although prior CTPA and SPECT suggested a filling defect in the left lower pulmonary artery and a perfusion defect, they cannot explain why the lesion has remained localized for a long time and why anticoagulation has been ineffective; at the same time, the patient has a history of radiofrequency ablation for atrial fibrillation in 2018, which is an important background factor for iatrogenic pulmonary vein stenosis. Dual-phase pulmonary artery CTA can simultaneously assess the pulmonary arteries and pulmonary veins in different contrast phases: on the one hand, to observe whether the left lower pulmonary vein is attenuated, stenotic, or occluded; on the other hand, to determine in the aortic phase whether the filling defect within the pulmonary artery represents a true thrombus or a contrast artifact caused by impaired pulmonary venous return. The core clinical question this examination aims to address is to distinguish pulmonary embolism from pulmonary vein stenosis, and to explain whether the recurrent exudative opacity, ground-glass opacity, hemoptysis, and chest pain in the left lower lobe are related to impaired venous return and pulmonary parenchymal congestion/infarct-like changes; the result directly affects whether long-term anticoagulation for pulmonary embolism can be discontinued and provides a definitive diagnostic basis and anatomic assessment for whether subsequent interventional treatment such as balloon dilation or stent implantation should be considered.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Based on the diagnostic methods reported in the literature, we ultimately chose dual-phase pulmonary artery CTA. On the one hand, CTPA showed that the diameter of the left lower lobe pulmonary vein was relatively small; most importantly, the filling defect in the left lower lobe pulmonary artery disappeared in the aortic phase.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIU2vG7FUKBibQfiaQ1tyOEQmjRYzRbiaKvzhVnBibnyCZNA0lufU5j9G5NJpBfUPax06L8ct4V8qj4ww/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3. Contrast-enhanced chest CT, aortic phase",
+          "local_src": "cleaned_cases_image_cache/ba825c6cb5032ba95658f14b970001da4e384290.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary vein stenosis (left lower pulmonary vein stenosis) after radiofrequency ablation for atrial fibrillation",
+      "diagnostic_basis": [
+        "History of radiofrequency ablation for atrial fibrillation in approximately 41 months before Day 0",
+        "Clinical manifestations of long-term chest pain, chest tightness, and scant hemoptysis",
+        "Biphasic pulmonary artery CTA showed that the diameter of the left lower lobe pulmonary vein was relatively small.",
+        "The filling defect in the left lower lobe pulmonary artery disappeared in the aortic phase, confirming the absence of thrombus and indicating that it was a contrast artifact.",
+        "Imaging showed patchy high-density opacities in the basal segment of the left lower lobe, with partial ground-glass opacity and partial interlobular septal thickening, suggesting that pulmonary edema cannot be excluded."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Interventional treatment may be considered, including balloon dilation or stent placement (the patient requested observation for the time being)"
+      ],
+      "treatment_response": []
+    }
+  }
+}

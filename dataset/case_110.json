@@ -1,0 +1,352 @@
+{
+  "status": "success",
+  "case_id": "case_110",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 52 years old, from Nanjing, Jiangsu, was admitted to the Department of Pulmonary and Critical Care Medicine, inpatient ward, Jiangning Hospital of Nanjing on Day 0, with the chief complaint of \"intermittent blood-streaked sputum for 4 months.\" Since late period, approximately 4 months before Day 0, the patient had developed blood in the sputum without an obvious precipitating cause, bright red in color, with mild cough and a small amount of white sticky sputum, more noticeable in the morning, without fever, chest pain, chest tightness, amaurosis, or syncope. Chest CT before admission indicated a space-occupying lesion in the left lower lung. Since disease onset, the patient's mental status and sleep had been fair, appetite was acceptable, bowel and bladder function were normal, and there had been no obvious change in body weight. The patient had previously been in good health, with no special adverse habits and no remarkable family history. After admission, physical examination was first performed: T 36.6℃, P 87/min, R 16/min, BP 118/74 mmHg, SpO2 98% (not on oxygen). No skin ecchymoses were present. Percussion of both lungs was resonant, breath sounds in both lungs were clear, no dry or wet rales were heard in either lower lung, no Velcro rales were heard, and no pleural friction rub was heard. Cardiac rhythm was regular, heart sounds showed no obvious accentuation or diminution, and no pathologic murmurs were heard in the auscultatory areas of any valves. The abdomen was flat and soft, with no hepatosplenomegaly, and no abdominal tenderness or guarding throughout. No edema was present in either lower extremity. Laboratory examinations, routine tests: blood, urine, and stool routine tests showed no significant abnormalities.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (especially central lung cancer or peripheral lung cancer with bronchial involvement)",
+          "supporting_evidence": [
+            "Male, 52 years old",
+            "Chief complaint: intermittent blood-streaked sputum for 4 months",
+            "The hemoptysis is bright red, suggesting a bleeding source from the airway or lungs.",
+            "Pre-admission chest CT showed a mass in the left lower lung.",
+            "Mild cough and a small amount of white mucoid sputum, which may be seen in lung tumor with local airway irritation.",
+            "Physical examination and routine laboratory tests did not suggest an obvious systemic infectious response; for an intrapulmonary space-occupying lesion accompanied by blood-tinged sputum, neoplastic lesions should be considered first."
+          ],
+          "opposing_evidence": [
+            "The patient had no significant weight loss.",
+            "No accompanying symptoms such as fever, chest pain, or chest tightness",
+            "No significant prior adverse habits.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Benign and malignant endobronchial tumors (e.g., bronchial adenoma/carcinoid, endobronchial mass)",
+          "supporting_evidence": [
+            "Intermittent blood-streaked sputum for 4 months, bright red, suggesting a possible lesion with abundant blood supply within the airway",
+            "Accompanied by mild cough and a small amount of white mucoid sputum, consistent with irritation from an endobronchial lesion",
+            "Chest CT suggests a space-occupying lesion in the left lower lung; an endobronchial or peribronchial lesion cannot be excluded.",
+            "Vital signs are stable; chronic recurrent small-volume hemoptysis can also be seen in some endobronchial tumors."
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not describe recurrent wheezing, obstructive pneumonia, or obvious focal changes in breath sounds",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary TB (including tuberculoma or bronchial TB)",
+          "supporting_evidence": [
+            "Blood-streaked sputum persisting for 4 months; pulmonary TB is one of the important causes of chronic hemoptysis/bloody sputum.",
+            "Mild cough with a small amount of white mucoid sputum",
+            "Chest CT suggests a space-occupying lesion in the left lower lung; tuberculous lesions may present as mass-like or space-occupying opacities"
+          ],
+          "opposing_evidence": [
+            "No fever",
+            "No significant change in body weight",
+            "Routine laboratory parameters including complete blood count showed no significant abnormalities",
+            "Physical examination: breath sounds were clear in both lungs, and no dry or moist rales were heard.",
+            "Phase 1 information did not provide a history of TB exposure or prior TB history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Localized bronchiectasis with infectious/inflammatory lesion",
+          "supporting_evidence": [
+            "Chronic intermittent blood-tinged sputum is one of the common manifestations of bronchiectasis.",
+            "Accompanied by a mild cough and a small amount of white mucoid sputum, more noticeable upon waking in the morning, consistent with morning expectoration after partial airway secretion retention.",
+            "The left lower lung lesion may be related to localized bronchiectasis or its complicating infection"
+          ],
+          "opposing_evidence": [
+            "Sputum volume is only a small amount of white mucoid sputum, which is not consistent with the typical bronchiectasis presentation of more abundant purulent sputum.",
+            "No history of recurrent fever",
+            "The chest CT report only indicated a \"left lower lung mass\" and did not describe imaging features typical of bronchiectasis.",
+            "No dry or moist rales were heard in both lower lungs"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary fungal infection or infectious space-occupying lesion such as a fungus ball",
+          "supporting_evidence": [
+            "Hemoptysis can be seen in fungus-related pulmonary lesions.",
+            "Chest CT suggests a left lower lung mass; an infectious lesion may present as a mass-like lesion.",
+            "The course of disease has been prolonged for 4 months, consistent with a chronic process."
+          ],
+          "opposing_evidence": [
+            "Previously healthy",
+            "No fever",
+            "Routine laboratory parameters including complete blood count showed no significant abnormalities",
+            "Phase 1 information did not indicate susceptible background factors such as immunosuppression, diabetes mellitus, or prior cavitary lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary vascular lesions (such as pulmonary arteriovenous malformations or hemorrhage related to vascular malformations)",
+          "supporting_evidence": [
+            "Bright red bloody sputum suggests the possibility of bleeding from the airways or pulmonary circulation vessels",
+            "Chest CT suggests a mass in the left lower lung; some vascular malformations may be described as focal masses or nodular lesions.",
+            "Vital signs stable, which may be consistent with chronic recurrent small-volume bleeding"
+          ],
+          "opposing_evidence": [
+            "SpO2 98% (not receiving oxygen), not suggestive of significant hypoxemia",
+            "No chest tightness, syncope, or other manifestations",
+            "Physical examination: cardiopulmonary examination was basically unremarkable",
+            "Phase 1 information did not indicate cyanosis, clubbing, telangiectasia of the skin and mucous membranes, or a relevant family history."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + routine urinalysis + routine stool examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum smear + sputum bacterial and fungal cultures",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease screening panel (hepatitis B, hepatitis C, HIV, syphilis)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "G test, GM test, cryptococcal capsular polysaccharide antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Nine-pathogen respiratory tract antibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "PPD skin test + sputum acid-fast stain + interferon-gamma release assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive serum tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + biopsy pathology",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "[Infection-related markers] Erythrocyte sedimentation rate (ESR) and white blood cell count (WBC) were normal. Sputum smear: small amount of G- bacilli. Sputum bacterial and fungal cultures were negative. [Four infectious disease screening tests] Hepatitis B serologic markers, hepatitis C, HIV, and TP (-). [Fungal] Serum 1,3-β-D-glucan assay (G test), galactomannan antigen assay (GM test), and cryptococcal capsular polysaccharide antigen were normal. [Viral] Nine-pathogen respiratory antibody panel (-). [Tuberculosis] PPD skin test (-), sputum acid-fast stain negative, and interferon-gamma release assay (-). [Tumor markers] Complete panel of serum tumor markers was normal. On the second day after admission, bronchoscopy showed a white neoplasm in the left lower lobe completely obstructing the lumen, with white necrotic material covering the surface and a hard texture; biopsy was performed. Microscopic pathology of the lung biopsy showed: (left lower lobe of the lung) fungal hyphae and spores were seen in a small amount of necrotic tissue.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJibib9ichVOCxQQESvc7219HETUMokWeMz444AbsMic5WNS9CDibrcMib4icbvUQLoeBwZgYmBXiafib3AL7A/640?wx_fmt=png",
+            "near_text": "Figure 1: chest CT before treatment; Figure 2: chest CT 1 month after treatment showed no significant change in the pulmonary lesions; Figure 3: chest CT showed postoperative changes; Figure 4: the first bronchoscopy showed a white neoplasm in the left lower lobe completely obstructing the lumen, with white necrotic material covering the surface.",
+            "local_src": "cleaned_cases_image_cache/2cd276cc700f1f2d026147c2358549d6828cf257.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJibib9ichVOCxQQESvc7219HE1eN21td7ic2woZwrLhiauxDVAvj12yoTicOOkZjQsvicy4YKCDIia2m0Pkg/640?wx_fmt=png",
+            "near_text": "Figures 1-4: (refer to the above; omitted here); Figure 5: During the second bronchoscopy, a white neoplasm was seen obstructing the lumen of the left lower lobe bronchus, with less necrotic material than before, and the surface showed a cauliflower-like neoplasm; Figure 6: Histopathology of lung tissue from the first bronchoscopic biopsy showed Aspergillus hyphae and spores (HE, ×200).",
+            "local_src": "cleaned_cases_image_cache/d1ae55ac3a88d058a891f89dca3f79243fa0b4c6.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "lung cancer",
+            "evidence": [
+              "The patient is currently at the age with the highest incidence of lung cancer.",
+              "Characterized by a solitary nodular lesion in the lung",
+              "Bronchoscopy showed luminal obstruction"
+            ],
+            "exclusion_reasons": [
+              "Chest CT shows no imaging features commonly associated with lung cancer, such as lobulation sign, spiculation sign, spinous protuberances, vascular convergence sign, or mediastinal and hilar lymphadenopathy.",
+              "Tumor markers were normal",
+              "Repeated earlier bronchoscopy with EBUS-GS biopsy pathology showed no definite evidence of malignancy."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "Hemoptysis is a common symptom of pulmonary TB",
+              "Granulomatous inflammation may present as pulmonary nodular lesions"
+            ],
+            "exclusion_reasons": [
+              "No typical symptoms of TB intoxication",
+              "Pulmonary TB has polymorphic imaging manifestations; in this patient, there was only an isolated nodular lesion near the hilum, with no satellite lesions.",
+              "PPD, sputum acid-fast staining, TB infection T-lymphocyte assay, and BALF acid-fast testing were all negative",
+              "Bronchoscopic biopsy pathology showed no typical changes of TB"
+            ]
+          },
+          {
+            "name": "Inflammatory pseudotumor of the lung",
+            "evidence": [
+              "May present as imaging findings of a solitary pulmonary nodule or mass"
+            ],
+            "exclusion_reasons": [
+              "Inflammatory pseudotumors are mostly located subpleurally. This patient's lesion is located at the hilum and produces imaging evidence of obstruction of the local bronchus, which is not consistent with the common site of occurrence of inflammatory pseudotumor.",
+              "There was no clear acute infectious process in the early course of the patient's illness."
+            ]
+          },
+          {
+            "name": "Pulmonary hamartoma",
+            "evidence": [
+              "The imaging features are well-defined lesion margins and homogeneous internal lesion density."
+            ],
+            "exclusion_reasons": [
+              "Pulmonary hamartomas are generally located in the peripheral region of the lung; the location of the lesion in this case is not consistent with that.",
+              "Most enhancement on contrast-enhanced CT is not obvious"
+            ]
+          },
+          {
+            "name": "Pulmonary cryptococcosis",
+            "evidence": [
+              "May present as solitary or multiple nodular lesions in the lung parenchyma, with possibly ill-defined margins, and there may be no identifiable host factors"
+            ],
+            "exclusion_reasons": [
+              "Cryptococcal capsular polysaccharide antigen negative",
+              "The patient's histopathology does not support it."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "lung cancer",
+        "evidence": [
+          "The patient is currently at the age with the highest incidence of lung cancer.",
+          "Characterized by a solitary nodular lesion in the lung",
+          "Bronchoscopy showed luminal obstruction"
+        ],
+        "exclusion_reasons": [
+          "Chest CT shows no imaging features commonly associated with lung cancer, such as lobulation sign, spiculation sign, spinous protuberances, vascular convergence sign, or mediastinal and hilar lymphadenopathy.",
+          "Tumor markers were normal",
+          "Repeated earlier bronchoscopy with EBUS-GS biopsy pathology showed no definite evidence of malignancy."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "Hemoptysis is a common symptom of pulmonary TB",
+          "Granulomatous inflammation may present as pulmonary nodular lesions"
+        ],
+        "exclusion_reasons": [
+          "No typical symptoms of TB intoxication",
+          "Pulmonary TB has polymorphic imaging manifestations; in this patient, there was only an isolated nodular lesion near the hilum, with no satellite lesions.",
+          "PPD, sputum acid-fast staining, TB infection T-lymphocyte assay, and BALF acid-fast testing were all negative",
+          "Bronchoscopic biopsy pathology showed no typical changes of TB"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary cryptococcosis",
+        "evidence": [
+          "May present as solitary or multiple nodular lesions in the lung parenchyma, with possibly ill-defined margins, and there may be no identifiable host factors"
+        ],
+        "exclusion_reasons": [
+          "Cryptococcal capsular polysaccharide antigen negative",
+          "The patient's histopathology does not support it."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "pulmonary aspergilloma",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Positron emission tomography/computed tomography (PET/CT) examination",
+          "basis_in_stage3_input": "On day 20, positron emission tomography/computed tomography (PET/CT) was performed.",
+          "why_order_this_exam": "The patient is a 52-year-old man with intermittent bloody sputum for 4 months. Chest CT showed a mass in the left lower lung, and bronchoscopy revealed a white neoplasm in the left lower lobe completely obstructing the lumen. Although the initial biopsy showed fungal hyphae and spores, concomitant lung cancer or other neoplastic lesions still cannot be excluded clinically. PET/CT can further assess the metabolic activity and extent of the left lower lung perihilar lesion, as well as whether there are hilar or mediastinal lymph node or distant metastases, thereby helping to distinguish infectious lesions from malignant tumors, complete staging evaluation, and provide a basis for subsequent continued endoscopic tissue sampling, timing of surgery, and treatment selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Second bronchoscopy",
+          "basis_in_stage3_input": "On hospital day 21, a second bronchoscopy was performed.",
+          "why_order_this_exam": "The patient had recurrent hemoptysis. The lesion was located within the left lower lobe bronchus and caused luminal obstruction. Although the first bronchoscopy identified a neoplasm and biopsy showed fungal elements, the pathology consisted mainly of a small amount of necrotic tissue, suggesting that the initial sampling may have been affected by coverage by necrotic material, with limited representativeness, and still could not adequately explain the persistent space-occupying lesion and obstruction. The purpose of the second bronchoscopy was to directly reassess the morphology of the lesion, evaluate the obstruction and bleeding, and obtain more representative tissue again, in order to further differentiate simple infectious granulomatous necrosis, fungal infection combined with tumor, or occult malignant lesion, while also helping to assess subsequent invasive treatment and surgical strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy pathology",
+          "basis_in_stage3_input": "Biopsy pathology showed necrotic tissue and inflammatory exudate",
+          "why_order_this_exam": "The patient’s core clinical problem is hemoptysis with an intrapulmonary mass and endobronchial obstruction. Both imaging and bronchoscopy strongly suggest an organic lesion, but infection markers, TB testing, and tumor markers all lack decisive evidence. Biopsy pathology is key to establishing the nature of the lesion and can determine whether it is inflammatory necrosis, fungal infection, a granulomatous lesion, or malignant tumor. Especially in the context of fungal hyphae and spores already seen on the first biopsy and a cauliflower-like obstructing lesion still seen on the second bronchoscopy, repeat pathology helps explain why the lesion did not shrink significantly after antifungal treatment, avoids misclassifying coexisting lung cancer as simple infection, and directly affects decisions such as whether to continue medical therapy or proceed to surgical resection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Subsequent repeat chest CT at an outside hospital showed stable pulmonary lesions.",
+          "why_order_this_exam": "During hospitalization, repeat CT showed no significant change in the lesion, and although symptoms improved after antifungal therapy, the imaging findings did not show obvious resolution; under these circumstances, continued chest CT follow-up after discharge is critical for determining the lesion’s true biologic behavior. If the lesion shows only long-term stability rather than obvious absorption, together with previously increased metabolism on PET/CT, persistent endobronchial occupying lesion, and recurrent blood-tinged sputum, underlying lung cancer rather than simple chronic infection should be further considered. This examination can continuously assess the lesion’s evolution trend, provide imaging evidence for deciding whether surgical resection is needed, when to perform resection, and preoperative risk communication, and also help avoid delay in the final diagnosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On hospital day 20, positron emission tomography/computed tomography (PET/CT) showed a soft tissue nodule in the left lower lung near the hilum with increased FDG metabolism, SUV 11.5; patchy opacity in the left lung, which, in conjunction with the medical history, was considered more likely to represent infection; a small nodule in the right middle lung without increased FDG metabolism; and a linear focus of increased FDG metabolism in the rectum, considered possibly physiologic uptake. On hospital day 21, a second bronchoscopy was performed, which showed a white neoplasm in the left lower lobe obstructing the lumen, with a cauliflower-like surface; biopsy pathology showed necrotic tissue and inflammatory exudate. Repeat chest CT on day 25 showed no significant change in the pulmonary lesions compared with before. Subsequent repeat chest CT at another hospital showed stable pulmonary lesions, and surgical resection was performed. Postoperative pathology showed squamous cell carcinoma, staged as stage IB squamous cell carcinoma of the left lung.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJibib9ichVOCxQQESvc7219HEGoibb44ibaScLiaJJyPNVCna1d3dCEeFjt5GNSVsEIcKotp918PrbvENg/640?wx_fmt=png",
+          "near_text": "The patient discontinued antifungal therapy after 2 months of treatment",
+          "local_src": "cleaned_cases_image_cache/4fd49c312c8227dd0610e44e769a1b26cfdb205c.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJibib9ichVOCxQQESvc7219HEZTfv2K1sAZDh94AGGxiarLDPlCjN8xXSXtgtseBV9VtictHLHR6Imk2Q/640?wx_fmt=png",
+          "near_text": "Pulmonary squamous cell carcinoma complicated by chronic necrotizing pulmonary aspergillosis, with both clinical manifestations and imaging examinations lacking specificity",
+          "local_src": "cleaned_cases_image_cache/2944b0fb3ee4c55baf5ba190c33d5a0841520617.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary squamous cell carcinoma complicated by chronic necrotizing pulmonary aspergillosis",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged and older male, chronic course",
+        "Clinical manifestations: recurrent hemoptysis as the main clinical symptom, with no obvious positive physical signs",
+        "On the first bronchoscopy, bronchial lumen obstruction with adherent necrotic material was seen; biopsy pathology confirmed pulmonary Aspergillus infection and inflammatory changes. Pathology from the second bronchoscopy still showed inflammatory changes.",
+        "Postoperative pathology of the pulmonary nodule confirmed squamous cell carcinoma"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Piperacillin/sulbactam and levofloxacin for anti-infective therapy and hemostatic treatment",
+        "Itraconazole injection 200 mg IV infusion twice daily; on the following day changed to 200 mg IV infusion once daily. After 2 weeks of treatment, symptoms improved and therapy was switched to sequential treatment with itraconazole capsules 0.2 g orally twice daily.",
+        "Surgical resection",
+        "Postoperative adjuvant chemotherapy with gemcitabine + nedaplatin (GP regimen) (gemcitabine 1.8 d1, 5 + nedaplatin 120 mg d1)"
+      ],
+      "treatment_response": [
+        "The patient's blood-tinged sputum improved after treatment.",
+        "Repeat chest CT on day 25 showed no significant change in the pulmonary lesions compared with the previous study.",
+        "Antifungal therapy was discontinued after 2 months; subsequent follow-up chest CT at an outside hospital showed stable pulmonary lesions.",
+        "Returned for 1 follow-up visit on Day +278; repeat chest CT showed postoperative changes of left lung cancer."
+      ]
+    }
+  }
+}

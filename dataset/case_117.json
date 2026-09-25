@@ -1,0 +1,384 @@
+{
+  "status": "success",
+  "case_id": "case_117",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 49 years old, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"fever, cough, and chest tightness for more than half a month.\" In early period, around Day 0, she developed fever without an obvious precipitating factor, accompanied by dry cough, mild chest tightness, and generalized fatigue, with a maximum temperature of 39℃. She had no chills or rigors, no nausea, vomiting, abdominal pain, or diarrhea, and no lower extremity edema. She was evaluated at a local hospital, where chest CT showed \"inflammation in the lower lobes of both lungs, with consolidation in the right lower lobe.\" After anti-infective treatment, her temperature returned to normal, but cough and chest tightness persisted. On Day -12, CT pulmonary angiography (CTPA) showed \"right pulmonary artery embolism.\" At the outside hospital, she underwent \"catheter-directed pulmonary artery thrombolysis,\" followed by \"intra-catheter urokinase thrombolysis\" for 5 days. She then continued to receive anticoagulation, anti-infective therapy, and other symptomatic treatment, but her chest tightness did not improve significantly. Repeat CTPA on Day -3, showed no improvement in the pulmonary embolism. Past medical and personal history: she had routine health checkups and denied underlying cardiopulmonary disease. Status post cervical cancer surgery 3 years earlier. Three years earlier, she had undergone laparoscopic radical surgery for cervical cancer (radical hysterectomy + bilateral adnexectomy + pelvic lymph node dissection). The cervical cancer stage was IIa. She did not receive postoperative radiotherapy or chemotherapy and underwent regular follow-up; the most recent examination in approximately 8 months before Day 0 showed no abnormalities. She denied a history of oral ulcers or vulvar ulcers and denied any special medication history. Married at age 23, with one healthy son. Family history was unremarkable. Physical examination: T 37.3℃, R 19 breaths/min, P 69 beats/min, BP 118/74 mmHg, oxygen via nasal cannula at 3 l/min, SpO2 96%. She was alert, with low energy, and had no cyanosis of the lips. The thorax showed no deformity. Breath sounds were coarse in both lungs, with a small number of moist rales audible in the right lung; no obvious wheezing was noted, and no pleural friction rub was heard. Cardiac auscultation over all valve areas was unremarkable. The abdomen was soft, without tenderness or rebound tenderness. There was no edema of either lower extremity and no clubbing of the fingers or toes. Admission diagnoses: right pulmonary artery embolism; right lower lobe pneumonia; status post cervical cancer surgery. She was admitted for evaluation of \"pulmonary filling defect to be investigated.\"",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFk2xfLVx5HJ5MIVMXXQg6XsWdPibiaxO4evzJeu0xlbDvwhjo9UbPturw/640?wx_fmt=png",
+          "near_text": "Figure 1: CTPA shows a filling defect in the main trunk of the right pulmonary artery and a right pleural effusion.",
+          "local_src": "cleaned_cases_image_cache/a1ebb49cb2fe3a9777992fc031a035fa2a8a4d69.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute/subacute pulmonary thromboembolism",
+          "supporting_evidence": [
+            "On Day -12, CT pulmonary angiography (CTPA) indicated \"right pulmonary embolism\"",
+            "Chief complaints include chest tightness and cough, which are symptoms that can be seen in pulmonary embolism.",
+            "At the outside hospital, catheter-directed thrombolysis for pulmonary embolism and subsequent anticoagulation therapy had already been performed, indicating that both the imaging findings and the clinical presentation at that time were highly suspicious for this diagnosis.",
+            "On the phase I images, a filling defect is seen in the region of the right pulmonary artery, supporting an obstructive lesion within the pulmonary artery."
+          ],
+          "opposing_evidence": [
+            "Chest tightness symptoms did not improve significantly. Repeat CTPA on Day -3 showed no improvement in the pulmonary embolism, which was not consistent with the usual course in which acute thromboembolism should show some improvement after thrombolysis.",
+            "At onset, fever and dry cough were the prominent manifestations, and chest CT at the local hospital indicated \"inflammation in the lower lobes of both lungs, consolidation in the right lower lobe,\" suggesting possible concomitant or alternative pulmonary pathology."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary artery tumor embolism or primary pulmonary artery tumor (e.g., pulmonary artery sarcoma)",
+          "supporting_evidence": [
+            "After pulmonary artery filling defects were treated with catheter-directed thrombolysis via “pulmonary artery catheterization thrombolysis” and 5 days of intrakatheter urokinase thrombolysis, repeat CTPA still showed “no improvement,” suggesting the possibility of a nonordinary thrombotic lesion.",
+            "The admission provisional diagnosis explicitly states \"pulmonary filling defect, cause to be investigated\"",
+            "The patient has a 3-year history status post surgery for cervical cancer, with a background of tumor-related embolism or neoplastic lesions.",
+            "Phase 1 imaging shows abnormal soft tissue/filling defect-like changes in the region adjacent to the right pulmonary artery; morphologically, differentiation from a neoplastic lesion is required."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Central malignant neoplasm of the right lung with hilar lesion involving/compressing the pulmonary artery, with secondary obstructive pneumonia",
+          "supporting_evidence": [
+            "The patient has persistent cough and chest tightness; after anti-infective treatment, body temperature returned to normal, but respiratory symptoms persisted.",
+            "Chest CT at a local hospital showed \"inflammation in the lower lobes of both lungs, consolidation in the right lower lobe\"; on physical examination, a small number of moist rales were heard in the right lung, suggesting the presence of consolidation and/or an infectious or obstructive lesion in the right lung.",
+            "On the phase I images, an abnormal density shadow is seen near the right hilum; a large pleural effusion-like low-density shadow is seen in the right pleural cavity; the right lung shows findings of compressive atelectasis/consolidation. A central tumor with secondary obstructive pneumonia should be considered.",
+            "The pulmonary artery filling defect did not respond to thrombolysis, which also supports the need to differentiate extravascular mass compression or vascular invasion."
+          ],
+          "opposing_evidence": [
+            "Has routine physical examinations; denies underlying cardiopulmonary disease",
+            "The text from the first stage did not directly report definite pulmonary mass, blood-streaked sputum, or obvious weight loss and other features of malignancy."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary infarction with secondary inflammatory consolidation/pleural effusion",
+          "supporting_evidence": [
+            "Right pulmonary artery embolism is already present, and pulmonary infarction is one of its common complications.",
+            "The patient has fever, dry cough, and chest tightness. Chest CT suggests consolidation in the right lower lobe, which may be consistent with an inflammatory reaction after pulmonary infarction or hemorrhagic consolidation.",
+            "The phase I images show pleural effusion-like changes in the right pleural cavity and right lung consolidation/atelectatic changes, possibly consistent with secondary findings after pulmonary infarction."
+          ],
+          "opposing_evidence": [
+            "After anti-infective treatment at an outside hospital, body temperature returned to normal, suggesting that a simple infectious etiology may also explain some of the imaging changes.",
+            "Phase 1 information did not describe typical chest pain or hemoptysis"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Recurrent/metastatic cervical cancer after surgery with pulmonary artery tumor embolism or intrathoracic metastasis",
+          "supporting_evidence": [
+            "History of stage IIa cervical cancer; although no postoperative radiotherapy or chemotherapy was administered, malignancy remains an important underlying risk factor for thrombosis and tumor emboli.",
+            "Pulmonary arterial filling defect shows no improvement after thrombolysis and anticoagulation; tumor-related lesion should be considered",
+            "In the first-stage images, in addition to pulmonary artery abnormalities, right pleural effusion and an abnormal opacity in the right lung were also seen, suggesting that an intrathoracic malignancy cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "Regular follow-up for 3 years after surgery; no abnormalities were found on the most recent examination in approximately 8 months before Day 0",
+            "No clear evidence of recurrence or distant metastasis was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Infectious pneumonia (right lower lobe pneumonia) or infection-related lesion with misinterpretation/coexistence of an intrapulmonary arterial filling defect",
+          "supporting_evidence": [
+            "Initial presentation included fever, dry cough, and fatigue, with a maximum body temperature of 39℃",
+            "Chest CT at a local hospital showed \"inflammation in the lower lobes of both lungs and consolidation in the right lower lobe\"",
+            "Body temperature returned to normal after anti-infective treatment",
+            "Physical examination revealed a small amount of moist rales in the right lung",
+            "Phase 1 imaging shows right pleural effusion and consolidation/atelectatic changes in the right lung, supporting pulmonary infection or postinfectious changes."
+          ],
+          "opposing_evidence": [
+            "On Day -12, CTPA definitively showed \"right pulmonary artery embolism\"; pneumonia alone cannot explain the pulmonary artery filling defect.",
+            "Chest tightness persisted, and follow-up CTPA showed no improvement in the pulmonary embolism, suggesting that, in addition to infection, there was a more significant pulmonary vascular lesion."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + thrombosis markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Preoperative eight-item immunology panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antinuclear antibody panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "vasculitis antibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Rheumatoid factor",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antiphospholipid syndrome-related indicators",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein C, Protein S, antithrombin III",
+          "requirement": "required"
+        },
+        {
+          "exam": "lupus anticoagulant",
+          "requirement": "required"
+        },
+        {
+          "exam": "Homocysteine",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities and the iliac veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT pulmonary angiography (CTPA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI of the great vessels of the chest",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the upper abdomen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pelvic CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI + DWI",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gynecology consultation examination",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: white blood cell count 3.6x10^9/L, platelet count 189x10^9/L, hemoglobin 101g/L. ESR 33mm/h. Liver and kidney function normal, CRP 10mg/L. D-dimer 1.29μg/mL↑. Thrombin time 23.2s, fibrinogen (FG) 4.79g/L. Thrombosis markers CK: CK-R value 4.1min, CK-K value 0.9min, CK-CI (comprehensive coagulation index) 3.4, CK-G value 11.3kd/sc. Preoperative immune tests, antinuclear antibody, vasculitis antibodies, rheumatoid antibodies, antiphospholipid syndrome, protein S, protein C, antithrombin III, lupus anticoagulant, and homocysteine were negative, and thyroid function was normal. Color Doppler ultrasound of the deep veins of both lower extremities and iliac veins: blood flow patent. Contrast-enhanced upper abdominal and pelvic CT: small right adrenal nodule, possible adenoma; multiple hepatic cysts; uterus absent. Atherosclerosis of the abdominal aorta and some branches. MRI of the great vessels of the chest: filling defects were seen in the distal main trunk of the right pulmonary artery and the lobar and segmental pulmonary arteries and their branches; the distal arteries were not clearly visualized. Contrast-enhanced brain MRI + DWI showed a small number of small ischemic foci in the bilateral frontal lobes. Echocardiography: mild tricuspid regurgitation and aortic regurgitation. PET-CT indicated: 1. status post surgery for cervical cancer, uterus absent, small amount of pelvic fluid; 2. a. post-thrombolysis changes after right pulmonary artery embolism, linear soft tissue within the pulmonary arteries of the right middle and lower lobes with FDG uptake defect; b. scattered inflammation in the right middle and lower lobes; localized loculated right pleural effusion with partial consolidation of adjacent lung tissue. Gynecology consultation: vulvar atrophy, vaginal canal patent, approximately 4-5 cm long, vaginal cuff healed fairly well, pelvis empty, no obvious solid pelvic floor mass palpated. Based on laboratory tests, pelvic ultrasound, pelvic CT, PET-CT, and other imaging examinations, there is currently no evidence of recurrence of cervical cancer.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary artery tumor embolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "History of cervical cancer; PET-CT showed no definite evidence of cervical cancer metastasis. Linear soft tissue within the pulmonary artery of the right middle and lower lobes with a corresponding FDG uptake defect; insufficient evidence to support pulmonary artery tumor."
+            ]
+          },
+          {
+            "name": "Takayasu arteritis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Physical examination showed no evidence of large-vessel arteritis. PET showed no signs of vasculitis or other arterial stenosis or occlusion. Combined with the medical history, large-vessel arteritis is not supported."
+            ]
+          },
+          {
+            "name": "Behçet disease (Behçet syndrome)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No oral ulcers, no skin lesions, and no ocular symptoms; the diagnosis of Behçet disease is not supported."
+            ]
+          },
+          {
+            "name": "chronic thromboembolism",
+            "evidence": [
+              "Current examinations show no clear evidence of non-thrombotic embolism, and the duration of anticoagulation has been relatively short."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary artery tumor embolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "History of cervical cancer; PET-CT showed no definite evidence of cervical cancer metastasis. Linear soft tissue within the pulmonary artery of the right middle and lower lobes with a corresponding FDG uptake defect; insufficient evidence to support pulmonary artery tumor."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Takayasu arteritis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Physical examination showed no evidence of large-vessel arteritis. PET showed no signs of vasculitis or other arterial stenosis or occlusion. Combined with the medical history, large-vessel arteritis is not supported."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Behçet disease (Behçet syndrome)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No oral ulcers, no skin lesions, and no ocular symptoms; the diagnosis of Behçet disease is not supported."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "chronic thromboembolism",
+        "evidence": [
+          "Current examinations show no clear evidence of non-thrombotic embolism, and the duration of anticoagulation has been relatively short."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas",
+          "basis_in_stage3_input": "Arterial blood gas on the day of admission showed type I respiratory failure, P/F 248",
+          "why_order_this_exam": "At the time of readmission, the patient's chest tightness and shortness of breath were worse than before. There was a preexisting persistent filling defect in the right pulmonary artery, and the imaging findings had shown no resolution over a prolonged period, suggesting that pulmonary vascular obstruction had already had a significant impact on gas exchange. Arterial blood gas analysis can directly assess the severity of hypoxemia, changes in the oxygenation index, and whether a ventilatory disorder is also present; it is used to determine the severity of the current condition, clarify whether respiratory failure has been reached, guide oxygen therapy and perioperative supportive treatment, and provide a basis for whether further invasive intervention is needed subsequently.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "DDi",
+          "basis_in_stage3_input": "DDi 0.64ug/ml",
+          "why_order_this_exam": "The patient had previously undergone catheter-directed thrombolysis and anticoagulation for pulmonary thromboembolism, but symptoms and imaging showed poor improvement. In addition, rivaroxaban had been discontinued for 10 days before this episode, creating a risk of recurrent thrombosis or progression of the original embolism. Repeat D-dimer testing is helpful for assessing the status of coagulation and fibrinolytic activation in vivo, serving as an auxiliary clue to active thrombotic burden, and, together with CTPA, for determining whether the current lesion is more consistent with simple thrombus, thrombus combined with other lesions, or progression after insufficient anticoagulation, thereby helping decide whether intensified anticoagulation, further interventional therapy, or surgical treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "basis_in_stage3_input": "Myocardial enzyme profile, troponin, and Pro-BNP within the normal range",
+          "why_order_this_exam": "The patient was readmitted due to worsening chest tightness and dyspnea. Obstructive lesions of the pulmonary artery may lead to increased right heart workload; clinically, they need to be differentiated from chest tightness and dyspnea caused by myocardial ischemia, myocardial injury, and other conditions. The cardiac enzyme panel is used to screen for myocardial injury and to assess the secondary cardiac effects of pulmonary embolism/pulmonary artery obstruction, helping determine disease risk stratification and perioperative risk; if the results are normal, this supports that the current symptoms mainly result from impaired pulmonary circulation rather than significant acute myocardial injury.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "troponin",
+          "basis_in_stage3_input": "Myocardial enzyme profile, troponin, and Pro-BNP within the normal range",
+          "why_order_this_exam": "In the setting of persistent filling defects in the main pulmonary artery and its branches and progressively worsening symptoms, it is necessary to focus on assessing whether right ventricular stress-related myocardial injury is already present, because this affects risk stratification and selection of treatment strategy for pulmonary embolism/pulmonary arterial obstructive disease. Troponin is relatively sensitive and can help identify subclinical myocardial injury, and together with echocardiography and Pro-BNP can be used to determine whether hemodynamic impairment is present; a normal result helps suggest that there is not yet obvious myocardial injury, but it cannot replace further imaging assessment of the nature and progression of the lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pro-BNP",
+          "basis_in_stage3_input": "Myocardial enzyme profile, troponin, and Pro-BNP within the normal range",
+          "why_order_this_exam": "The patient has worsening chest tightness and dyspnea, as well as definite extensive pulmonary arterial filling defects, and requires assessment of whether persistent pulmonary circulatory obstruction has caused increased right ventricular wall stress and cardiac functional involvement. Pro-BNP can reflect ventricular load and the risk of heart failure, help determine whether there is right heart functional compromise, support risk stratification, and provide a basis for deciding whether conservative anticoagulation is appropriate, whether surgical embolectomy is needed, and the intensity of perioperative monitoring; a normal result would also help explain why, despite disease progression, there are still no obvious manifestations of right heart failure.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT pulmonary angiography",
+          "basis_in_stage3_input": "On Day +130, repeat pulmonary CTPA showed filling defects in the distal right main pulmonary artery extending to the lobar and segmental pulmonary arteries and their branches, progressed compared with the prior scan (Day -1).",
+          "why_order_this_exam": "After the initial onset, the patient had already undergone catheter-directed thrombolysis and continuous anticoagulation, but the chest tightness symptoms never significantly improved. Before this readmission, there was again a history of interruption of anticoagulation. Clinically, it is necessary to determine whether the intrapulmonary arterial lesion persists, whether its extent has increased, and whether it is consistent with recurrent embolism or a lesion that is not purely thrombotic. CTPA is the key examination for directly evaluating the location, extent, and progression of pulmonary arterial filling defects, and comparison with prior imaging can be used to assess treatment response and disease course evolution; if progression still occurs after standard treatment, this strongly suggests the need to consider tumor emboli, mixed embolism, or other causes beyond ordinary thrombosis, and directly affects whether to proceed with multidisciplinary discussion, surgical embolectomy, and subsequent pathologic confirmation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "basis_in_stage3_input": "Echocardiography: mild tricuspid, mitral, and aortic regurgitation; decreased respiratory variation of the inferior vena cava; no pulmonary hypertension",
+          "why_order_this_exam": "The patient has progressive chest tightness and shortness of breath, as well as extensive obstruction from the main pulmonary artery to its branches, and requires assessment of whether this lesion has caused increased right heart load, pulmonary hypertension, or dyspnea due to other cardiac causes. Echocardiography can noninvasively evaluate right ventricular size and function, valvular status, inferior vena cava filling status, and estimated pulmonary artery pressure, and is an important examination for determining hemodynamic impact and surgical tolerance; it can also help exclude symptoms caused by significant left-sided heart disease and provide a basis for risk assessment for subsequent surgical intervention.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of the lower extremities",
+          "basis_in_stage3_input": "Lower extremity deep venous Doppler ultrasound: negative",
+          "why_order_this_exam": "For patients with pulmonary artery filling defects, the source of the embolus needs to be traced to distinguish common venous thromboembolism from other less common causes. Although this patient was previously treated as having pulmonary embolism, the response was poor, imaging showed progression, and subsequent pathology confirmed a tumor component; therefore, repeat lower-extremity deep venous color Doppler ultrasound is helpful in determining whether deep venous thrombosis, a common embolic source, is present. If the result is negative, this weakens the explanation of ordinary pulmonary embolism caused solely by embolization of lower-extremity DVT, prompting further consideration of tumor embolism or in situ/mixed lesions, and affecting the choice of anticoagulation, filter placement, and surgical strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathology",
+          "basis_in_stage3_input": "Postoperative pathology: squamous cell carcinoma identified in the blood clot.",
+          "why_order_this_exam": "The patient's pulmonary arterial filling defects had been present for a prolonged period; despite thrombolysis and anticoagulation, there was still no improvement and imaging showed progression. Clinically, it was no longer sufficient to rely only on imaging-based speculation, and the nature of the lesion had to be definitively established by histopathology. Postoperative pathology is the definitive examination for distinguishing bland thrombus, tumor embolism, and other rare lesions; in the context of the patient's postoperative history of cervical cancer, the pathologic finding of squamous cell carcinoma within the blood clot directly explains why prior antithrombotic therapy was ineffective and ultimately establishes the diagnosis of cervical cancer-related pulmonary artery tumor embolism, providing decisive evidence for subsequent tumor staging assessment, chemotherapy regimen planning, and combined anticoagulation and antitumor therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +127, the patient was readmitted due to worsening chest tightness and shortness of breath for 10 days. One month before admission, the patient had discontinued rivaroxaban for 10 days for personal reasons. Arterial blood gas on the day of admission indicated type I respiratory failure, P/F 248, DDi 0.64ug/ml, with myocardial enzyme panel, troponin, and Pro-BNP within the normal range. On Day +130, repeat pulmonary CTPA showed filling defects in the distal main right pulmonary artery extending to the lobar and segmental pulmonary arteries and their branches, progressed compared with the prior scan (Day -1). Echocardiography: mild tricuspid, mitral, and aortic regurgitation; decreased respiratory variation of the inferior vena cava; no pulmonary hypertension seen. Lower-extremity deep venous color Doppler ultrasound was negative. After multidisciplinary discussion, on Day +144, the patient underwent pulmonary artery embolectomy under cardiopulmonary bypass in the department of cardiac surgery. Intraoperative findings: normal position of the heart and great vessels, small amount of हल्का yellow pericardial effusion in the pericardial cavity, embolism from the main right pulmonary artery to the right upper and lower pulmonary arteries. Exploration showed the distal pulmonary vessels were patent. The main right pulmonary artery was incised to the branches of the right upper and lower pulmonary arteries, and the thrombus was bluntly dissected and removed; exploration confirmed the distal pulmonary vessels were patent. Postoperative pathology: squamous cell carcinoma was seen in the blood clot.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpF76y7SaAehKEy7FxJUT2C5UFJnSY9DfA9nkYUpyPQ1jgoKKjv1y85WQ/640?wx_fmt=png",
+          "near_text": "Figure 2: Day +130: Right pulmonary artery embolism, progressed compared with the prior film dated Day -1.",
+          "local_src": "cleaned_cases_image_cache/49344283797abd99b93299c394de7bbcb3597c91.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFjOUTQldDlicjqXQm3CLKHgSppW2QS0pb0wtIsH4IPKKq28I4kC3HE5g/640?wx_fmt=png",
+          "near_text": "Figure 3: Thrombus removed from the main pulmonary artery trunk and its branches.",
+          "local_src": "cleaned_cases_image_cache/9787121033bf453fe9c18548195a0b96fad4969b.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJVpic56M5GC3vibnyiaKgZGpFjUfmFJ7nXSeHSiaDajSEfPpGuWuyB3rzgyickgJ1aFT38Q435obe7Qag/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: Squamous cell carcinoma seen in the blood clot",
+          "local_src": "cleaned_cases_image_cache/0274dbf46fd95015fe013c4d88a7104a0f42173b.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Pulmonary artery tumor embolism associated with cervical cancer, status post pulmonary artery embolectomy + pericardial window; 2. Thromboembolism of the right pulmonary artery",
+      "diagnostic_basis": [
+        "Post-pulmonary artery thrombectomy pathology indicated squamous cell carcinoma within the blood clot",
+        "In the context of the patient's history of cervical cancer"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Pulmonary artery embolectomy under extracorporeal circulation",
+        "Completed 4 cycles of postoperative chemotherapy with albumin-bound paclitaxel + carboplatin every 4 weeks",
+        "Rivaroxaban 20 mg once daily, oral anticoagulation"
+      ],
+      "treatment_response": [
+        "At follow-up, the patient had recovered well, with no obvious discomfort."
+      ]
+    }
+  }
+}

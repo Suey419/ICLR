@@ -1,0 +1,286 @@
+{
+  "status": "success",
+  "case_id": "case_186",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 50 years old, unemployed, admitted on Day 0, for \"cough, sputum production, and wheezing for 1 month.\" One month prior, the patient developed cough and sputum production without an obvious trigger, producing white foamy sputum that was easily expectorated, worse at night, accompanied by wheezing, more pronounced after activity, inability to lie flat at night for rest, preference for the right lateral decubitus position, and associated dizziness, chest tightness, and fatigue. Chest CT at an outside hospital showed \"multiple bronchiectatic lesions in both lungs with possible infection,\" and anti-infective treatment was given (details unknown), after which symptoms did not improve significantly. After referral to a tertiary hospital, she developed fever during hospitalization (09.30-10.01), with a maximum temperature of 38℃, accompanied by chills; the remaining symptoms were unchanged. Past medical history: 1 year ago, diagnosed with \"adenocarcinoma of the left lower lobe with metastases to the mediastinum, bilateral hilar regions, multiple right lower cervical lymph nodes, and multiple bilateral pulmonary metastases (T4N3M1c stage IVB, EGFR/ALK/ROS1 wild type)\"; treatment history: from 2024.10 to 2025.01, received 3 cycles of \"pemetrexed + carboplatin + bevacizumab Q3W\"; from 2025.02 to 2025.07, received 8 cycles of \"docetaxel + bevacizumab + tislelizumab Q3W\"; from 2025.08 to 2025.09, received the \"anlotinib + S-1\" regimen; began नियमित oral \"vinorelbine 20 mg QOD\" on Day -2. More than 20 years ago, diagnosed with \"pulmonary TB\" and received anti-TB treatment for 6 months (details unknown); more than 20 years ago underwent \"hysterectomy\" for uterine fibroids. Physical examination: T 36.8℃, P 120 beats/min, R 20 breaths/min, BP 96/69 mmHg, SpO2 98% (FiO2 21%). Alert and cooperative during examination. Coarse breath sounds in both lungs, with scattered moist rales heard in both lungs. Heart rate 120 beats/min, regular rhythm, A2>P2, no murmurs heard in any valvular auscultation area. Laboratory tests: WBC 12.7×10⁹/L↑, NEUT# 9.4×10⁹/L↑, FIB 4.98 g/L↑, D-dimer 0.30 mg/l, PCT 0.10 ng/mL↑, ESR 50.0 mm/h↑, CRP 72.70 mg/L↑. Blood gas: PO2 80.6 mmHg, oxygenation index (PO2/FiO2) 244.0 mmHg↓. Respiratory syncytial virus RNA weakly positive. Imaging studies: Non-contrast chest CT at our hospital on Day +1 showed \"diffuse multiple cystic lesions and solid nodules in both lungs, most considered likely infectious lesions, some possibly neoplastic lesions, and some with lymphangioleiomyomatosis not excluded. Multiple small and enlarged lymph nodes in the bilateral supraclavicular fossae, mediastinum, and bilateral hila. Small bilateral pleural effusions.\"",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/oO68PgQvn8HvaybWibPZhicGKc8icFBIoUia28tmcic9Js0ytP6jCzIeic7SwkwezW8XnBApGz9OXVukN8cKyurxAGZSlObqvPwBEY2cBFHrUdCr0/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Chest CT at outside hospital A on Day -15: multiple patchy opacities and air-containing cystic spaces of varying sizes in both lungs, with thickening of the bronchovascular bundles.",
+          "local_src": "cleaned_cases_image_cache/b0c1f41eaa4f4e8efa0880561e2df86f7ec3182a.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/oO68PgQvn8GrO5nzxzyibp9iaNDNfZZXKR0hIuqaXAIaibKmcYflbxZpOawQkKuWJRhMk9BLKQN1QiaNEIQfFtdyjiafPOZtrUyONNs4Ff3FcR54/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: Chest CT at our hospital on Day +1",
+          "local_src": "cleaned_cases_image_cache/03f46838b7db00c6254cf4f01259b4db5c792268.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bilateral infectious pulmonary lesions (predominantly bronchiectasis with infection/necrotizing pneumonia)",
+          "supporting_evidence": [
+            "Presented with cough, sputum production, and wheezing for 1 month, coughing up white foamy sputum, worse at night",
+            "During hospitalization, the patient developed fever, with a maximum temperature of 38℃, accompanied by chills",
+            "On physical examination, breath sounds were coarse in both lungs, and scattered moist rales were audible in both lungs.",
+            "Laboratory tests indicated an inflammatory response: WBC 12.7×10⁹/L↑, NEUT# 9.4×10⁹/L↑, CRP 72.70mg/L↑, ESR 50.0mm/h↑, FIB 4.98g/L↑",
+            "Chest CT at an outside hospital showed \"multiple bronchiectatic changes in both lungs, with possible infection\"",
+            "Non-contrast chest CT at our hospital showed \"diffuse multiple cystic lesions and solid nodules in both lungs, most of which were considered to be infectious lesions\"",
+            "The attached images show multiple cystic/dilated airway-like lesions in both lungs with surrounding consolidation or nodular opacities, consistent with the imaging features of complicated infection or bronchiectasis with infection",
+            "Impaired oxygenation present: PO2/FiO2 244.0 mmHg↓"
+          ],
+          "opposing_evidence": [
+            "Previously, symptoms did not show significant improvement after anti-infective treatment.",
+            "PCT was only 0.10 ng/mL↑, providing limited support for typical severe bacterial infection",
+            "Imaging also suggested that \"some lesions may be neoplastic,\" and infection alone cannot fully explain all lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lung adenocarcinoma with intrapulmonary progression/metastatic tumor lesions (including possible lymphangitic carcinomatosis)",
+          "supporting_evidence": [
+            "Previously diagnosed with \"left lower lobe adenocarcinoma with metastases to multiple lymph nodes in the mediastinum, bilateral hila, and right lower neck, and multiple bilateral pulmonary metastases (T4N3M1c stage IVB)\"",
+            "Previously received multiple lines of systemic antitumor therapy; began regular oral vinorelbine on Day -2, indicating that the underlying malignancy was advanced and had undergone multiple prior lines of treatment.",
+            "CT at our hospital showed \"diffuse multiple cystic lesions and solid nodules in both lungs,\" among which \"some may represent neoplastic lesions.\"",
+            "The concomitant presence of \"multiple small and enlarged lymph nodes in the bilateral supraclavicular fossae, mediastinum, and bilateral hila\" supports active tumor-related lymph node involvement.",
+            "The accompanying images show multiple solid nodules and patchy opacities in both lungs, coexisting and difficult to fully explain by infection alone."
+          ],
+          "opposing_evidence": [
+            "This episode is characterized predominantly by cough, sputum production, fever, moist rales, and elevated inflammatory markers, suggesting concomitant infection.",
+            "The CT report considered that \"most are infectious lesions\""
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Respiratory syncytial virus-associated lower respiratory tract infection/viral pneumonia",
+          "supporting_evidence": [
+            "Respiratory syncytial virus RNA weakly positive",
+            "The patient has cough, sputum production, and shortness of breath, which are consistent with the common clinical manifestations of viral lower respiratory tract infection.",
+            "Fever during hospitalization",
+            "Advanced malignancy receiving multiple lines of antitumor therapy, a high-risk host for severe viral infection",
+            "Imaging shows diffuse multifocal lesions in both lungs, which may be seen as a complex manifestation of viral infection with underlying lung disease."
+          ],
+          "opposing_evidence": [
+            "Respiratory syncytial virus RNA is only \"weakly positive\" and cannot by itself prove that it is the main cause of all pulmonary lesions",
+            "Marked elevations in WBC, NEUT#, and CRP further suggest possible concurrent bacterial infection or other inflammatory lesions.",
+            "Imaging demonstrates marked cystic/bronchiectatic changes and solid nodules, which are not the typical isolated manifestations of uncomplicated RSV pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Drug-induced lung injury/immune-related pneumonitis",
+          "supporting_evidence": [
+            "Received multiple antineoplastic agents within the past year, including bevacizumab, docetaxel, tislelizumab, anlotinib, S-1, and vinorelbine, with a risk of drug-induced lung injury or immune-related pneumonitis.",
+            "Development of cough, dyspnea, chest tightness, and a decreased oxygenation index, consistent with possible manifestations of drug-related pulmonary toxicity",
+            "Symptoms did not show significant improvement after anti-infective treatment, suggesting that noninfectious lung injury should be considered in addition to infection",
+            "Diffuse multifocal lesions in both lungs may be seen in the complex imaging manifestations of drug-related lung injury."
+          ],
+          "opposing_evidence": [
+            "The presence of fever, moist crackles, and markedly elevated inflammatory markers more strongly supports an infectious process.",
+            "The CT report favored \"most lesions being infectious,\" and did not primarily suggest drug-induced pneumonitis.",
+            "The multiple cystic lesions, bronchiectasis-like changes, and solid nodules shown in the attached image do not represent a typical single pattern of drug-induced lung injury."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "The patient is a 50-year-old woman.",
+            "The CT report from our hospital explicitly stated, \"lymphangioleiomyomatosis should be excluded in part.\"",
+            "The attached images show multiple cystic lesions in both lungs, providing an imaging basis consistent with diffuse cystic lung disease."
+          ],
+          "opposing_evidence": [
+            "The current symptoms are mainly cough, sputum production, fever, moist rales, and elevated inflammatory markers, which are not consistent with the relatively chronic, predominantly noninfectious manifestations commonly seen in LAM.",
+            "CT simultaneously showed the possibility of solid nodules, infectious lesions, and neoplastic lesions, suggesting that the cystic changes may not necessarily be explained by LAM alone.",
+            "History of multiple bilateral pulmonary metastases from lung adenocarcinoma and findings suggestive of bronchiectasis/infection, both of which can cause complex cystic or destructive lung changes"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT, arterial blood gas analysis",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Repeat chest CT (Day +17) showed progression of the pulmonary lesions compared with before, increased pleural effusion, and repeat blood gas analysis indicated that the oxygenation index had decreased compared with before; the patient's symptoms showed no obvious improvement. CT on Day +17 showed \"diffuse multiple cystic lesions, areas of consolidation, and solid nodules in both lungs, progressed compared with before\"; progression exceeded 2-fold within half a month.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/oO68PgQvn8Eqg07icnhpO8AbjDR8qzXNftiaOULTWpicc6mrGyibSgkBPOF5OtA4h0p6BnriaUhu5XbeKK25TOoIFMtWbic8CjPznnEmxQCzbicVXY/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3: Chest CT at our hospital on Day +17: diffuse multiple cystic lesions, areas of consolidation, and solid nodules in both lungs, progressed compared with prior imaging; most are considered likely infectious lesions, some may be neoplastic lesions, and lymphangioleiomyomatosis remains to be excluded; small bilateral pleural effusions, increased compared with prior imaging.",
+            "local_src": "cleaned_cases_image_cache/bf3829f162d0ea050c4e12325f1a0903c0ee3fc9.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "The patient has advanced malignancy, is immunosuppressed, and is at high risk for infection.",
+              "During the course of illness, there were typical symptoms and signs of respiratory tract infection, including cough, sputum production, fever, and moist rales in both lungs.",
+              "Laboratory tests indicated elevated blood counts and inflammatory markers",
+              "After antibacterial treatment at an outside hospital, body temperature returned to normal",
+              "BALF tNGS detected Enterococcus faecium (sequence count 25199), Klebsiella pneumoniae (sequence count 16), and human respiratory syncytial virus type A (sequence count 15)"
+            ],
+            "exclusion_reasons": [
+              "Despite adjustment of antibiotics based on the identified organism, the disease continued to progress, suggesting that other predominant factors may be present."
+            ]
+          },
+          {
+            "name": "Immune checkpoint inhibitor-related pneumonitis (irAE)",
+            "evidence": [
+              "The patient has a documented history of PD-1 inhibitor (tislelizumab) use.",
+              "The pulmonary lesions continued to progress diffusely after anti-infective treatment."
+            ],
+            "exclusion_reasons": [
+              "BALF cytologic differential was predominantly segmented neutrophils (76.00%), rather than the typical lymphocyte-predominant pattern."
+            ]
+          },
+          {
+            "name": "Tumor progression/hyperprogression",
+            "evidence": [
+              "The patient has advanced lung cancer with multiple metastases; the current symptoms are newly developed or worsened in the setting of the tumor.",
+              "The lesions continued to progress after anti-infective and corticosteroid therapy.",
+              "On Day +17, CT showed \"diffuse multiple cystic lesions, areas of consolidation, and solid nodules in both lungs, progressed compared with prior imaging\"; progression exceeded 2-fold within half a month"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary infection",
+        "evidence": [
+          "The patient has advanced malignancy, is immunosuppressed, and is at high risk for infection.",
+          "During the course of illness, there were typical symptoms and signs of respiratory tract infection, including cough, sputum production, fever, and moist rales in both lungs.",
+          "Laboratory tests indicated elevated blood counts and inflammatory markers",
+          "After antibacterial treatment at an outside hospital, body temperature returned to normal",
+          "BALF tNGS detected Enterococcus faecium (sequence count 25199), Klebsiella pneumoniae (sequence count 16), and human respiratory syncytial virus type A (sequence count 15)"
+        ],
+        "exclusion_reasons": [
+          "Despite adjustment of antibiotics based on the identified organism, the disease continued to progress, suggesting that other predominant factors may be present."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Immune checkpoint inhibitor-related pneumonitis (irAE)",
+        "evidence": [
+          "The patient has a documented history of PD-1 inhibitor (tislelizumab) use.",
+          "The pulmonary lesions continued to progress diffusely after anti-infective treatment."
+        ],
+        "exclusion_reasons": [
+          "BALF cytologic differential was predominantly segmented neutrophils (76.00%), rather than the typical lymphocyte-predominant pattern."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tumor progression/hyperprogression",
+        "evidence": [
+          "The patient has advanced lung cancer with multiple metastases; the current symptoms are newly developed or worsened in the setting of the tumor.",
+          "The lesions continued to progress after anti-infective and corticosteroid therapy.",
+          "On Day +17, CT showed \"diffuse multiple cystic lesions, areas of consolidation, and solid nodules in both lungs, progressed compared with prior imaging\"; progression exceeded 2-fold within half a month"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy under anesthesia",
+          "basis_in_stage3_input": "Bronchoscopy under anesthesia was performed on Day +7.",
+          "why_order_this_exam": "The patient was admitted with cough, sputum production, and wheezing for 1 month, accompanied by fever, moist rales, elevated inflammatory markers, and decreased oxygenation. Chest CT showed diffuse multiple cystic lesions, areas of consolidation, and solid nodules in both lungs, with persistent progression despite anti-infective therapy. The patient had a history of advanced lung adenocarcinoma and was an immunocompromised host after multiline antitumor therapy; at the same time, there were multiple differential diagnoses including infection, tumor progression, immune-related pneumonitis, and TB/NTM. Anesthetized bronchoscopy can directly visualize airway lesions in the setting of more severe illness, when improved tolerance and specimen quality are needed, and can obtain specimens such as BALF to help determine whether there is active infection, airway involvement by tumor, or other special lesions, and to provide a basis for whether to escalate anti-infective therapy, add corticosteroids, or perform further biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF cytological classification",
+          "basis_in_stage3_input": "BALF cytologic differential was predominantly segmented neutrophils (76.00%)",
+          "why_order_this_exam": "The patient's pulmonary lesions progressed significantly over a short period, and improvement remained limited despite anti-infective treatment and subsequent corticosteroid therapy. Clinically, it is essential to distinguish whether the process is predominantly infection-driven, immune-related pneumonitis, or tumor progression. BALF cytologic differential can reflect the composition of alveolar inflammatory cells: in this case, the key is to determine whether neutrophilic inflammation is predominant, thereby supporting bacterial infection or a suppurative inflammatory process; if lymphocytes predominate, greater vigilance is needed for noninfectious inflammation such as immune checkpoint inhibitor-related pneumonitis. This test helps explain the existing mismatch between imaging findings and symptoms and reduces the risk of blindly escalating corticosteroids or managing it solely as tumor progression when the pathogen remains unidentified.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF tNGS",
+          "basis_in_stage3_input": "BALF tNGS detected Enterococcus faecium and other pathogens",
+          "why_order_this_exam": "The patient is an immunocompromised host with advanced lung cancer after multiple lines of chemotherapy, anti-angiogenic therapy, and immunotherapy, presenting with fever, sputum-producing cough, moist rales, elevated CRP/WBC, and diffuse multifocal bilateral lung lesions; routine imaging is difficult to distinguish infection from tumor. The poor response to prior anti-infective treatment at an outside hospital suggests the possible presence of complex, mixed, or opportunistic pathogens. BALF tNGS can improve pathogen detection beyond conventional culture, and is particularly suitable for patients with rapidly progressive disease, complex imaging findings, and poor response to empiric therapy, helping to determine whether bacterial, viral, or other pathogens are present, explain why some lesions have features consistent with infection, and provide a key basis for subsequent precise adjustment of the anti-infective regimen and for determining whether infection is the predominant cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "On Day +23, review of the follow-up chest CT images showed that the bilateral pulmonary lesions still had no obvious improvement.",
+          "why_order_this_exam": "The initial CT had already shown diffuse multiple cystic lesions and solid nodules in both lungs. Subsequently, within half a month, the lesions progressed by more than 2-fold, accompanied by increased pleural effusion and worsening oxygenation. After anti-infective therapy and subsequent diagnostic anti-inflammatory treatment, there was still no significant improvement in clinical symptoms or imaging findings; therefore, serial follow-up chest CT is आवश्यक to assess lesion evolution. The core purpose of this examination is to determine whether the infection is controlled, whether the lesions continue to progress, which lesions are more suitable for sampling, and to reorder the differential diagnosis among infection, immune-related pneumonitis, and tumor progression. If the follow-up CT shows that the lesion response to treatment is not consistent with the pattern of simple infection, this suggests that histologic evidence should be obtained as soon as possible, and it will directly affect whether to continue anti-infective therapy, adjust the antitumor regimen, or perform needle biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided right lung percutaneous biopsy",
+          "basis_in_stage3_input": "Underwent CT-guided percutaneous biopsy of the right lung",
+          "why_order_this_exam": "Although BALF pathogen testing had already suggested evidence of infection, the patient's pulmonary lesions continued to progress, and repeat CT showed no obvious improvement, indicating that infection alone was insufficient to explain the entire clinical condition; at the same time, the patient had a prior history of stage IVB lung adenocarcinoma and was still receiving antitumor therapy recently, so tumor progression or a change in pathologic type must be highly suspected. CT-guided right lung needle biopsy is a key method for obtaining tissue from a solid lesion when imaging abnormalities persist and noninvasive examinations cannot establish the nature of the lesion, and it can directly distinguish tumor infiltration, infectious necrosis, drug-related lung injury, or other special lesions. This examination provides decisive evidence for the final diagnosis, for avoiding misdiagnosis as being managed only as infection or immune-related pneumonitis, and for selection of the subsequent antitumor treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology result: (right lung tissue) Microscopy showed atypical tumor cells arranged in glandular and papillary structures. In conjunction with the clinical history and immunohistochemical findings, this is consistent with adenocarcinoma; after excluding metastatic gastrointestinal adenocarcinoma, primary pulmonary enteric adenocarcinoma is favored.",
+          "why_order_this_exam": "The most critical clinical question in this case is: despite clear evidence of infection, why did the pulmonary lesions and oxygenation continue to worsen? Pathologic examination can determine the nature of the lesions at the tissue level and is the gold standard for confirming tumor progression and excluding simple infection or nonspecific inflammation. The patient had a prior history of lung adenocarcinoma, but the imaging findings on this occasion were complex, including cystic lesions, consolidation, and solid nodules, with an atypical response to treatment; therefore, pathology was required to clarify whether this represented a new tumor-dominant process and whether a special subtype or metastatic source was present. The pathologic conclusion directly determines the final diagnostic classification and influences whether subsequent management should continue to focus on anti-infective therapy or shift to tumor treatment and prognosis assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CK7 (+++), TTF-1 (-), Napsin A (-), CDX-2 (partially positive in some cells), Ki67 (80%+).",
+          "why_order_this_exam": "After pathology suggested adenocarcinoma, it is still necessary to further determine the tumor origin and subtype classification. The patient has a prior history of lung adenocarcinoma, but the tissue morphology in this episode shows a glandular papillary architecture, and CDX-2 is partially positive, raising the possibility of similarity to adenocarcinoma of gastrointestinal origin. Therefore, immunohistochemistry is crucial for distinguishing primary pulmonary enteric adenocarcinoma from metastatic gastrointestinal adenocarcinoma. A panel of markers including CK7, TTF-1, NapsinA, and CDX-2 can help determine the primary site, while Ki67 reflects proliferative activity and the biological aggressiveness of the tumor. This examination is used not only for definitive diagnosis and exclusion of important differential diagnoses, but also is directly related to whether subsequent treatment should continue according to the pathway for a primary lung tumor and how systemic tumor evaluation should be performed.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +7, bronchoscopy under anesthesia was performed. BALF cytology differential showed a predominance of segmented neutrophils (76.00%), and BALF tNGS detected Enterococcus faecium and other pathogens. On Day +23, repeat chest CT review showed no obvious improvement in the bilateral lung lesions, and CT-guided right lung needle biopsy was therefore performed. Pathology result: (right lung tissue) Microscopically, atypical tumor cells were arranged in glandular and papillary structures. In conjunction with the clinical history and immunohistochemical results, the findings are consistent with adenocarcinoma; after excluding metastatic adenocarcinoma from the gastrointestinal tract, primary pulmonary enteric adenocarcinoma is considered. Immunohistochemistry: CK7 (+++), TTF-1 (-), Napsin A (-), CDX-2 (partial cells +), Ki67 (80%+).",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/oO68PgQvn8Hibl3xgR2CKHxFXo8jrDGKBlqppyOsiaa7qxvWQicX9AhtbCN4nr0QRRN9SRzjvgCaTTciaLLEIZgdOhDPrNh99M3sVuBGm4RvVibE/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 4: Histopathology of right lung biopsy tissue",
+          "local_src": "cleaned_cases_image_cache/b235c6b23c23575c9fc3d35ba41863ede708db8d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Severe bilateral lung cancer (enteric adenocarcinoma) complicated by pulmonary infection",
+      "diagnostic_basis": [
+        "Medication chronology: The patient was undergoing multiple antineoplastic therapies, particularly with a history of use of the immune checkpoint inhibitor tislelizumab.",
+        "Imaging abnormality: rapid progression of diffuse multiple cystic lesions, consolidation, and solid nodules in both lungs (more than 2-fold progression within half a month)",
+        "Etiologic differential diagnosis: through multiple modalities such as pathogen testing, bronchoscopy, and lung needle biopsy, the final pathologic diagnosis was pulmonary enteric adenocarcinoma",
+        "The patient has fever, and laboratory tests show elevated infection markers such as WBC count and CRP."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oxygen inhalation",
+        "Cefoperazone/sulbactam 3 g Q8H (10.14-10.22) anti-infective treatment",
+        "Enoxaparin anticoagulation (10.14-10.18)",
+        "Ambroxol for expectoration",
+        "Ketotifen and cetirizine for cough relief",
+        "with adjunctive nutritional support",
+        "Starting Day +18, methylprednisolone 40 mg BID was added for diagnostic anti-inflammatory therapy"
+      ],
+      "treatment_response": [
+        "After anti-infective and other treatments, the infection markers had basically returned to normal, but there was no obvious improvement in clinical symptoms, oxygenation status, or pulmonary imaging findings. At discharge, dyspnea was still obvious, supplemental oxygen was required, and moist rales were audible in both lungs."
+      ]
+    }
+  }
+}

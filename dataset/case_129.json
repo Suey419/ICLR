@@ -1,0 +1,542 @@
+{
+  "status": "success",
+  "case_id": "case_129",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 37 years old, from Qingjian County, Shaanxi Province, was admitted to our Department of Pulmonary and Critical Care Medicine on Day 0, with the chief complaint of \"dry cough for more than 2 months, shortness of breath for 3 days.\" In late period, approximately 2 months before Day 0, the patient developed \"paroxysmal dry cough\" without any obvious precipitating factor. The cough had no obvious day-night pattern, was unrelated to inhalation of cold air or other irritant gases, and was also unrelated to changes in position or respiratory movement. There was no \"fever, sputum production, rhinorrhea, or nasal congestion,\" no paroxysmal nocturnal dyspnea, and no acid regurgitation, heartburn, or hiccups. On Day -61, he visited the local county hospital. Chest CT + 3D rib reconstruction: multiple cystic lesions in both lungs, predominantly in the bilateral upper lungs, with pulmonary Langerhans cell histiocytosis considered possible; a localized lucent area was seen at the right margin of the manubrium, suggesting involvement of the manubrium. The hospital treated him with antitussive and antiasthmatic medications, and he was discharged after symptom improvement. Three days ago, he again developed \"shortness of breath and discomfort after activity\" without any obvious precipitating factor, and was subsequently admitted to our hospital for treatment with \"bilateral cystic lung disease.\" Since disease onset, the patient has had fair spirits and sleep, acceptable appetite, normal urination and defecation, and no significant change in body weight. Review of past history showed that 1 year ago the patient developed an abdominal rash, which improved after self-application of topical plaster medication for 1 month; half a year ago he had \"dry cough for 2 weeks,\" which resolved spontaneously without evaluation or treatment. The patient denied a history of chronic diseases or infectious diseases; denied history of surgery, trauma, blood transfusion, or poisoning; is allergic to \"sulfonamides\"; had a smoking history of 18 years, about 15 cigarettes/day; occasional alcohol use; no history of contact with or exposure to radioactive substances, drugs, or toxic substances; has long worked as a company employee; and had no history of unclean diet. Family history was unremarkable. Physical examination: T 36.3℃, P 78/min, R 20/min, BP 128/78mmHg, SPO2 97.1% (not on oxygen). General condition fair, conscious and alert, weight 75kg, height 178cm, BMI 23.67kg/m2, normal development, cooperative with examination. No rash or petechiae on the skin of the whole body. Lips were rosy, oral mucosa was normal, pharynx showed no hyperemia, and there was no enlargement of the bilateral tonsils. Several enlarged lymph nodes were palpable in the left neck, matted together, with unclear boundaries from surrounding tissues, firm in texture, without tenderness, and with no local skin redness, swelling, or ulceration. Lymph nodes were palpable in both inguinal regions and the right popliteal fossa, about 1cm in diameter, with smooth surface, soft texture, no adhesion to surrounding tissues, no tenderness, and normal overlying skin. No abnormalities were found on palpation of superficial lymph nodes at other sites. The thorax showed no deformity, bilateral respiratory movement was symmetrical, tactile fremitus was not increased, percussion over both lungs was resonant, breath sounds in both lungs were clear, no dry or moist rales were heard in either lung, and no pleural friction rub was heard. There was no precordial bulge. The apical impulse was located at the 5th intercostal space, 0.5cm medial to the left midclavicular line. No thrills were palpable. Cardiac borders were not enlarged. Heart rate was 78/min, rhythm regular, heart sounds showed no obvious increase or decrease in intensity, and no pathologic murmurs were heard in any valve auscultation area. The abdomen was flat and soft, with no hepatosplenomegaly, and there was no abdominal tenderness or abdominal muscle guarding. There was no deformity of the spine or joints of the extremities, no swelling, pain, or movement disorder, and no muscle tenderness or atrophy. No edema was present in either lower extremity.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary Langerhans cell histiocytosis (PLCH)",
+          "supporting_evidence": [
+            "Male, 37 years old, with an 18-year smoking history, approximately 15 cigarettes/day",
+            "The chief complaint was \"dry cough for more than 2 months and shortness of breath for 3 days,\" consistent with common respiratory manifestations of diffuse cystic lung disease.",
+            "Chest CT showed \"multiple cystic lesions in both lungs, predominantly in the bilateral upper lungs\"; the distribution pattern supports PLCH.",
+            "A localized lucent area is seen along the right margin of the manubrium, suggesting possible extrapulmonary osseous involvement, consistent with the feature that PLCH can involve the skeleton.",
+            "An abdominal skin rash occurred 1 year ago, suggesting a possible prior clue of extrapulmonary involvement."
+          ],
+          "opposing_evidence": [
+            "Physical examination: breath sounds in both lungs were clear, with no dry or moist rales heard; there were no obvious positive pulmonary signs, but this is insufficient to exclude PLCH.",
+            "Matted enlarged lymph nodes are palpable in the left side of the neck; lymph nodes are also palpable in both inguinal regions and the right popliteal fossa. Superficial lymph node involvement is not the most typical initial manifestation of PLCH."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lymphoma or other lymphoproliferative disorders with pulmonary involvement",
+          "supporting_evidence": [
+            "Several enlarged lymph nodes are palpable in the left side of the neck, matted together, with indistinct borders from the surrounding tissues, and firm in consistency.",
+            "Bilateral inguinal and right popliteal lymph nodes were also palpable, suggesting involvement of multiple superficial lymph node regions",
+            "A localized lucent area at the right margin of the manubrium may suggest possible osseous involvement",
+            "Respiratory symptoms such as dry cough and shortness of breath after exertion are present, suggesting possible concomitant intrathoracic involvement."
+          ],
+          "opposing_evidence": [
+            "The chest CT was described as showing \"multiple cystic lesions in both lungs, predominantly in the bilateral upper lungs,\" which is not the most common imaging pattern of pulmonary involvement by lymphoma.",
+            "Since disease onset, there has been no significant change in body weight, no fever, and a lack of typical systemic \"B symptoms\"."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis or other mycobacterial infection",
+          "supporting_evidence": [
+            "Chronic dry cough for more than 2 months, can be seen in pulmonary TB",
+            "Chest CT showed lesion distribution predominantly in the bilateral upper lungs; TB often involves the upper lungs.",
+            "Confluent enlarged lymph nodes in the left neck may be seen in tuberculous lymphadenitis."
+          ],
+          "opposing_evidence": [
+            "The patient has no infectious or toxic symptoms such as fever or sputum production.",
+            "Chest CT showed \"multiple cystic lesions in both lungs,\" favoring cystic lung disease rather than typical TB findings",
+            "Physical examination: no obvious abnormal lung signs; SpO2 97.1% (not on oxygen)"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Birt-Hogg-Dubé syndrome-related diffuse pulmonary cysts",
+          "supporting_evidence": [
+            "Young male, chest CT showed multiple cystic lesions in both lungs",
+            "Presented with dry cough and shortness of breath, which may be seen in cystic lung disease"
+          ],
+          "opposing_evidence": [
+            "Chest CT showed that the lesions were \"predominantly in the bilateral upper lungs,\" which is not entirely consistent with the lower lung, basal, and subpleural distribution commonly seen in Birt-Hogg-Dubé syndrome.",
+            "An 18-year smoking history and a localized lucent area in the manubrium further suggest the possibility of smoking-related PLCH.",
+            "Family history unremarkable",
+            "In the first phase of information provided, there was no special family history or clues suggestive of characteristic cutaneous fibrofolliculomas or renal lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "Chest CT showed multiple cystic lesions in both lungs",
+            "Dry cough and shortness of breath after exertion"
+          ],
+          "opposing_evidence": [
+            "The patient is male, whereas the typical population with LAM is women of childbearing age.",
+            "Chest CT indicates “predominantly involving both upper lungs,” whereas LAM typically shows a diffuse, relatively uniform distribution in both lungs.",
+            "An 18-year smoking history and possible osseous involvement further support PLCH"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Cystic pulmonary metastases or primary malignant tumor with cystic changes in the lungs",
+          "supporting_evidence": [
+            "Conglomerated enlarged lymph nodes in the left side of the neck with involvement of the inguinal and popliteal lymph nodes, suggesting the possibility of a systemic neoplastic disease",
+            "A focal lucent area at the right margin of the manubrium may suggest an osteolytic lesion.",
+            "Chronic dry cough and recent exertional dyspnea are present, suggesting pulmonary involvement"
+          ],
+          "opposing_evidence": [
+            "37 years old, relatively young",
+            "Chest CT showed \"multiple cystic lesions in both lungs, predominantly in the bilateral upper lungs,\" which is more consistent with certain diffuse cystic lung diseases rather than the imaging pattern of common malignant tumors.",
+            "Since disease onset, no significant change in body weight has been observed, and there are no obvious signs of cachexia."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count, routine urinalysis, routine stool examination + occult blood test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers (CRP, hs-CRP, PCT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical parameters (liver function panel, renal function, electrolytes, NTpro-BNP, troponin I, myoglobin, CK-MB)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function panel (8 tests)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody titer + ANA autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Total IgE",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunoglobulin and complement panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "FENO",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac and abdominal ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasonography of superficial lymph nodes throughout the body",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electronic bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brush specimen pathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic biopsy pathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ultrasound-guided right popliteal lymph node needle biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT.TB, (1,3)-β-D-glucan assay, galactomannan assay",
+          "reason": "This patient is a young adult male with a 2-month history of chronic dry cough. Chest CT showed multiple cystic lesions in both lungs, which need to be differentiated from cavitary changes caused by TB and fungal infection, and subsequent treatment with corticosteroids and immunosuppressants cannot be ruled out.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood and urine kappa/lambda light chain testing",
+          "reason": "Multiple pulmonary cystic lesions require differentiation from plasma cell dyscrasia, amyloidosis, and other diseases.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry of bronchoscopic biopsy: CD1a, S-100, HMB45, etc.",
+          "reason": "This patient has a long-term smoking history, and imaging suggests cystic lesions predominantly involving the bilateral upper lungs; PLCH should be a key differential diagnosis, and CD1a and S-100 are characteristic immunohistochemical markers of Langerhans cells.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: [Arterial blood gas analysis] pH 7.395, pCO2 44.1 mmHg, pO2 101 mmHg, HCO3- 26.4 mmol/L, oxygenation index 480. [Routine blood, urine, and stool tests + fecal occult blood test] normal. [Inflammatory markers] CRP, hs-CRP, and PCT normal. [Biochemical markers] Liver function panel of 8 items: ALB 53.4 g/L ↑, GLO 16.4 g/L, A/G 3.3 ↑, remainder normal; renal function, electrolytes, NTpro-BNP, troponin I, myoglobin, and CK-MB normal. [Coagulation function] normal. [Thyroid function panel of 8 items] normal. [Infectious disease panel of 8 items] hepatitis B 2-and-a-half, hepatitis C, HIV, syphilis (-). [Pulmonary tumor markers] normal. [ANCA panel]: pANCA, cANCA, MPO, and PR3 all negative. [ANA titer + ANA profile] negative. [Rheumatology panel] anti-CCP antibody, antistreptolysin O, and rheumatoid factor normal; [Total IgE] 345 IU/ml ↑; [Immunoglobulin and complement panel] complement C1 inhibitor 0.43 g/L ↑, serum IgG, IgA, and IgM normal, kappa light chain, lambda light chain, K/λ, complement C3 split products, and complement C4 normal. Routine ECG: approximately normal. Contrast-enhanced chest CT (Day 0): scattered cystic spaces of varying sizes in both lungs, with slightly indistinct margins; scattered nodular and patchy ground-glass opacities in both lungs; a mixed ground-glass nodule is seen in the posterior segment of the right upper lobe, measuring approximately 2.3 cm*2.3 cm, irregular in shape, with unclear borders, containing a solid nodular opacity with a diameter of approximately 0.5 cm. Pulmonary function testing: normal ventilatory function, normal diffusing capacity, bronchodilator test negative. FeNO 24 ppb. Ultrasound: [Cardiac and abdominal ultrasound] echocardiography showed no abnormalities; no abnormalities in the liver, gallbladder, pancreas, spleen, bilateral kidneys, or bilateral adrenal regions; no definite enlarged lymph nodes in the abdominal cavity. [Superficial lymph nodes throughout the body] several hypoechoic nodules of varying sizes are seen in the left neck, with clear borders and regular shape, with echogenic hila visible, cortical thickening, the larger one approximately 0.8 cm*2.0 cm; CDFI shows punctate and linear blood flow signals within; lymph nodes are seen in both inguinal regions (largest on the left 0.4 cm*0.9 cm, largest on the right 0.4 cm*1.0 cm); enlarged right popliteal lymph node, approximately 0.8 cm*0.8 cm, with clear borders and regular shape, with disappearance of the hilar structure; no definite enlarged lymph nodes in the right neck, bilateral supraclavicular fossae, bilateral axillae, or left popliteal fossa. Bronchoscopy: no abnormalities seen in the lumens under bronchoscopy; based on chest CT localization to the posterior segment of the right upper lobe, ultrasound examination found a homogeneous hypoechoic area, with no adjacent vessels; under ultrasound guidance, 3 tissue samples were obtained by transbronchial lung biopsy and submitted for examination, and protected brush sampling was also performed. BALF results: [Pathogen testing] respiratory 13-pathogen nucleic acid test negative; mycobacterial species identification chip negative; bacterial smear showed G+ bacilli, G- bacilli, and G+ cocci, no G- cocci seen; acid-fast staining showed no acid-fast bacilli; bacterial culture negative. [Cytopathology] neutrophils and lymphocytes seen in BALF; no pathogens seen; no tumor cells identified. Brush cytology pathology: brushing from the posterior segment of the right upper lobe showed neutrophils, columnar cells, lymphocytes, and histiocytes; no pathogens seen; no tumor cells identified. Bronchoscopic biopsy pathology: bronchial mucosa-lung tissue from the posterior segment of the right upper lobe showed chronic inflammation with inflammatory exudation and fibrous tissue hyperplasia. Ultrasound-guided core needle biopsy of the right popliteal lymph node: a small amount of fibroadipose tissue, vessels, striated muscle, and synovial tissue was submitted; this was a small core biopsy specimen and has certain limitations; correlation with the clinical findings is recommended.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJFNWJc9dgwZwrT47GwVRNE5hxMib5VZzL6zQP4l72uPnvwkDjBhRjAo974jXViban2cIjvzfiapQ00Q/640?wx_fmt=png&from=appmsg",
+            "near_text": "Contrast-enhanced chest CT at admission",
+            "local_src": "cleaned_cases_image_cache/9303b98ec2a1a12e24a73b86725177f1434322a7.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "The patient has a dry cough and shortness of breath, with no obvious worsening or relief of symptoms.",
+              "HRCT shows multiple ground-glass opacities and multiple pulmonary cystic lesions"
+            ],
+            "exclusion_reasons": [
+              "No history of exposure to hay, birds or poultry, etc.",
+              "BALF lymphocyte proportion is normal"
+            ]
+          },
+          {
+            "name": "Desquamative interstitial pneumonia (DIP)",
+            "evidence": [
+              "The patient had a chronic onset, with clinical manifestations of dry cough and shortness of breath after exertion.",
+              "History of long-term smoking",
+              "HRCT: scattered cystic spaces and ground-glass opacities in both lungs"
+            ],
+            "exclusion_reasons": [
+              "HRCT showed that the lesions were predominantly distributed in the bilateral mid and upper lungs, rather than in the bilateral lung bases and subpleural regions."
+            ]
+          },
+          {
+            "name": "Respiratory bronchiolitis-interstitial lung disease (RB-ILD)",
+            "evidence": [
+              "Long-term smoking history",
+              "subacute course",
+              "The main symptoms were dry cough, with gradually developing dyspnea on exertion.",
+              "HRCT showed multiple scattered ground-glass opacities and cysts"
+            ],
+            "exclusion_reasons": [
+              "Auscultation of the lungs was normal",
+              "Lung biopsy showed no pigmented macrophages in the respiratory bronchioles"
+            ]
+          },
+          {
+            "name": "Lymphocytic interstitial pneumonia",
+            "evidence": [
+              "HRCT shows multiple ground-glass opacities, with associated thin-walled cyst formation"
+            ],
+            "exclusion_reasons": [
+              "The patient has no history of autoimmune disease.",
+              "No abnormalities in immune-related indices",
+              "The thin-walled cystic spaces are relatively small in diameter and are predominantly distributed in the mid and upper lungs bilaterally."
+            ]
+          },
+          {
+            "name": "Pneumocystis jirovecii pneumonia (PCP)",
+            "evidence": [
+              "The patient initially presented with dry cough, accompanied by exertional dyspnea",
+              "Pulmonary physical examination revealed no abnormalities",
+              "Superficial lymphadenopathy",
+              "Multiple scattered ground-glass opacities in both lungs"
+            ],
+            "exclusion_reasons": [
+              "The patient had no predisposing factors for immunosuppression or underlying medical history.",
+              "Symptoms did not progressively worsen",
+              "Inflammatory and infection markers are normal",
+              "Bronchoscopy and microbiological results showed no abnormalities",
+              "The lesions are scattered in distribution and predominantly involve both upper lungs, rather than being centered on the hila with gradual extension to the peripheral lung zones."
+            ]
+          },
+          {
+            "name": "Pulmonary Langerhans cell histiocytosis",
+            "evidence": [
+              "young male",
+              "Long-term smoking history",
+              "Past history of abdominal rash",
+              "Physical examination: multiple superficial lymph nodes enlarged",
+              "HRCT: multiple cystic spaces of varying sizes in both lungs, irregular in shape, with predominant involvement of the middle and upper lung fields",
+              "Bronchoscopic needle biopsy showed chronic inflammation, inflammatory cell infiltration, and fibrous tissue formation"
+            ],
+            "exclusion_reasons": [
+              "No immunohistochemical staining was performed on the lung biopsy specimen or the lymph node biopsy specimen to determine whether CD1a- and S100-positive Langerhans cells were present.",
+              "HRCT also shows multiple ground-glass opacities"
+            ]
+          },
+          {
+            "name": "Pulmonary lymphangioleiomyomatosis",
+            "evidence": [
+              "Dry cough and shortness of breath are the main clinical manifestations",
+              "HRCT showed multiple cystic spaces in both lungs"
+            ],
+            "exclusion_reasons": [
+              "young male",
+              "No significant symptoms such as dyspnea, hemoptysis, or spontaneous pneumothorax",
+              "Cysts are distributed in the upper and middle zones of both lungs and are variable in size"
+            ]
+          },
+          {
+            "name": "Birt-Hogg-Dubé syndrome",
+            "evidence": [
+              "HRCT: multiple thin-walled cystic spaces of varying sizes scattered throughout both lungs"
+            ],
+            "exclusion_reasons": [
+              "No fibrofolliculomas on the skin of the face and neck",
+              "No renal tumor",
+              "Family history unremarkable",
+              "The cystic spaces in both lungs show no tendency toward a basal subpleural distribution."
+            ]
+          },
+          {
+            "name": "Infectious lesion",
+            "evidence": [
+              "Onset with dry cough",
+              "HRCT showed multiple scattered cystic spaces of varying sizes in both lungs",
+              "A mixed-density nodule is present in the posterior segment of the right upper lobe"
+            ],
+            "exclusion_reasons": [
+              "No fever or sputum production",
+              "Inflammatory and infection markers are normal",
+              "Pathogen testing of BALF for bacteria, Mycoplasma, Mycobacteria, etc. was all negative."
+            ]
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [
+              "Presented with a subacute dry cough",
+              "Left cervical lymphadenopathy",
+              "CT showed multiple ground-glass opacities and cystic lesions"
+            ],
+            "exclusion_reasons": [
+              "The patient is a young adult male",
+              "Tumor markers were normal",
+              "No cancer cells were found on bronchoalveolar lavage fluid cytology or bronchoscopic biopsy tissue."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "The patient has a dry cough and shortness of breath, with no obvious worsening or relief of symptoms.",
+          "HRCT shows multiple ground-glass opacities and multiple pulmonary cystic lesions"
+        ],
+        "exclusion_reasons": [
+          "No history of exposure to hay, birds or poultry, etc.",
+          "BALF lymphocyte proportion is normal",
+          "Imaging showed no typical \"three-density pattern\" of hypersensitivity pneumonitis;"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Desquamative interstitial pneumonia (DIP)",
+        "evidence": [
+          "The patient had a chronic onset, with clinical manifestations of dry cough and shortness of breath after exertion.",
+          "History of long-term smoking",
+          "HRCT: scattered cystic spaces and ground-glass opacities in both lungs"
+        ],
+        "exclusion_reasons": [
+          "HRCT showed that the lesions were predominantly distributed in the bilateral mid and upper lungs, rather than in the bilateral lung bases and subpleural regions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Respiratory bronchiolitis-interstitial lung disease (RB-ILD)",
+        "evidence": [
+          "Long-term smoking history",
+          "subacute course",
+          "The main symptoms were dry cough, with gradually developing dyspnea on exertion.",
+          "HRCT showed multiple scattered ground-glass opacities and cysts"
+        ],
+        "exclusion_reasons": [
+          "Auscultation of the lungs was normal",
+          "Lung biopsy showed no pigmented macrophages in the respiratory bronchioles"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphocytic interstitial pneumonia",
+        "evidence": [
+          "HRCT shows multiple ground-glass opacities, with associated thin-walled cyst formation"
+        ],
+        "exclusion_reasons": [
+          "The patient has no history of autoimmune disease.",
+          "No abnormalities in immune-related indices",
+          "The thin-walled cystic spaces are relatively small in diameter and are predominantly distributed in the mid and upper lungs bilaterally."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary Langerhans cell histiocytosis",
+        "evidence": [
+          "young male",
+          "Long-term smoking history",
+          "Past history of abdominal rash",
+          "Physical examination: multiple superficial lymph nodes enlarged",
+          "HRCT: multiple cystic spaces of varying sizes in both lungs, irregular in shape, with predominant involvement of the middle and upper lung fields",
+          "Bronchoscopic needle biopsy showed chronic inflammation, inflammatory cell infiltration, and fibrous tissue formation"
+        ],
+        "exclusion_reasons": [
+          "No immunohistochemical staining was performed on the lung biopsy specimen or the lymph node biopsy specimen to determine whether CD1a- and S100-positive Langerhans cells were present.",
+          "HRCT also shows multiple ground-glass opacities"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary lymphangioleiomyomatosis",
+        "evidence": [
+          "Dry cough and shortness of breath are the main clinical manifestations",
+          "HRCT showed multiple cystic spaces in both lungs"
+        ],
+        "exclusion_reasons": [
+          "young male",
+          "No significant symptoms such as dyspnea, hemoptysis, or spontaneous pneumothorax",
+          "Cysts are distributed in the upper and middle zones of both lungs and are variable in size"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Birt-Hogg-Dubé syndrome",
+        "evidence": [
+          "HRCT: multiple thin-walled cystic spaces of varying sizes scattered throughout both lungs"
+        ],
+        "exclusion_reasons": [
+          "No fibrofolliculomas on the skin of the face and neck",
+          "No renal tumor",
+          "Family history unremarkable",
+          "The cystic spaces in both lungs show no tendency toward a basal subpleural distribution."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "Presented with a subacute dry cough",
+          "Left cervical lymphadenopathy",
+          "CT showed multiple ground-glass opacities and cystic lesions"
+        ],
+        "exclusion_reasons": [
+          "The patient is a young adult male",
+          "Tumor markers were normal",
+          "No cancer cells were found on bronchoalveolar lavage fluid cytology or bronchoscopic biopsy tissue."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "HRCT",
+          "basis_in_stage3_input": "On Day +22, the patient underwent follow-up HRCT",
+          "why_order_this_exam": "The patient is a 37-year-old man with a long-term smoking history who was admitted for more than 2 months of dry cough and shortness of breath on exertion for the past 3 days. The initial contrast-enhanced chest CT had already shown scattered cystic spaces of varying sizes in both lungs, scattered nodular and patchy ground-glass opacities, and a 2.3 cm × 2.3 cm irregular part-solid ground-glass nodule in the posterior segment of the right upper lobe; however, bronchoscopy, BALF, brushings, and biopsy all failed to obtain definitive specific pathology, and infection markers, autoimmune markers, and tumor-related tests also could not explain all imaging findings. Therefore, HRCT is needed for more detailed follow-up of the lung parenchyma and cystic lesions. The core clinical question of this examination is whether the pulmonary cystic spaces, ground-glass opacities, and the mixed ground-glass nodule in the right upper lobe have evolved after empiric anti-infective therapy and strict smoking cessation, so as to determine whether the lesions are persistently progressive or reversible changes. HRCT can more sensitively assess changes in the number, size, wall thickness, and distribution of cystic spaces, as well as changes in nodular/ground-glass components, helping to further support the diagnostic features of smoking-related pulmonary Langerhans cell histiocytosis and helping to distinguish infectious lesions, other diffuse cystic lung diseases, and malignant lesions; at the same time, its results are directly related to whether continued invasive tissue sampling is needed, whether smoking cessation should be the main treatment strategy, and prognosis assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "basis_in_stage3_input": "On Day +245, the patient returned to the hospital for follow-up non-contrast chest CT.",
+          "why_order_this_exam": "Although the patient previously underwent bronchoscopy and lung tissue sampling, pathology showed only chronic inflammation with inflammatory exudation and fibrous tissue hyperplasia, and a direct pathological diagnosis could not be established; in combination with the long-term smoking history and multiple cystic lesions and nodules/ground-glass opacities predominantly in the bilateral upper and middle lung fields, smoking-related PLCH was highly suspected clinically, but key confirmation still required dynamic imaging follow-up of the disease course and treatment response. After repeat HRCT in approximately 1 month after Day 0, there was already a trend toward lesion reduction; therefore, a non-contrast chest CT was performed during longer-term follow-up to continue evaluating whether the bilateral pulmonary cysts and scattered ground-glass opacities further decreased, shrank, or were even absorbed after strict smoking cessation, and whether the previously noted mixed ground-glass nodule in the right upper lobe continued to improve stably, thereby verifying the correlation of the disease with smoking exposure and its reversibility. This examination was mainly intended to address assessment of the natural course of the lesions and treatment response: if the cystic changes were gradually absorbed with smoking cessation, this would further support PLCH and argue against persistent infection, malignant tumor, or other progressive diffuse cystic lung diseases; if the lesions did not resolve or progressed, the differential diagnosis would need to be reconsidered and subsequent examinations and treatment adjusted. Non-contrast chest CT can also accomplish long-term follow-up with a lower examination burden and plays an important role in determining whether to continue observation with smoking cessation alone, whether repeat biopsy is needed, or whether additional systemic evaluation should be performed.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Empiric anti-infective treatment with oral moxifloxacin tablets was given for 2 weeks, and the patient was instructed to strictly stop smoking. On Day +22, the patient underwent repeat HRCT. Imaging showed that the mixed ground-glass nodule in the posterior segment of the right upper lobe had markedly decreased compared with before (small patchy high-density opacity, ill-defined margin, irregular shape, with an internal solid nodular opacity measuring approximately 0.2 cm in diameter); scattered nodular and patchy ground-glass opacities in both lungs; and multiple cystic airspaces in both lungs had decreased in number and size compared with before. On Day +245, the patient returned for follow-up non-contrast chest CT. Imaging showed that the multiple cystic airspaces in both lungs had basically resolved compared with before, and the scattered nodular and patchy ground-glass opacities in both lungs had decreased and become smaller compared with before.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJFNWJc9dgwZwrT47GwVRNE6b4lknyvpqSg0SXibjRVVyASj3QK4DBARV7ib94y54UicZaeo9eiaHSpfg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Imaging showed that the mixed ground-glass nodule in the posterior segment of the right upper lobe had decreased significantly compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/cda1947b1c64206dff1f60f08ad159cca590821d.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJFNWJc9dgwZwrT47GwVRNEVDiccgClQJ5bDgN2srYNZHSTs08xPOnon0VkFia5aHlO3ia5ZJdBWtwJw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Imaging showed that the multiple cystic spaces in both lungs had largely resolved compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/a26671c28360fc13b2398b2cd62ab5a0f9f35040.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJFNWJc9dgwZwrT47GwVRNEiboj0UH85HShibv2gSRdcA27jiak5ZVtdUVU5aq7pciafmI1sGzupicOobA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Diagnostic approach to cystic lung lesions",
+          "local_src": "cleaned_cases_image_cache/3265c7d0160b96f324453e9010ba6d437e8c61f3.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary Langerhans cell histiocytosis",
+      "diagnostic_basis": [
+        "Basic characteristics: young male, subacute onset, with a long-term smoking history.",
+        "Symptoms: intermittent dry cough for 2 months, shortness of breath after exertion for 3 days, with no obvious worsening or relief of the condition.",
+        "Physical signs: multiple asymmetric superficial lymphadenopathy; no abnormalities in the deep lymph nodes or other tissues and organs.",
+        "Chest CT: Scattered cystic spaces of varying sizes in both lungs; scattered nodular and patchy ground-glass opacities in both lungs; a mixed ground-glass nodule is seen in the posterior segment of the right upper lobe, measuring approximately 2.3 cm*2.3 cm, irregular in shape, with ill-defined margins, containing a solid nodular opacity with a diameter of approximately 0.5 cm.",
+        "On admission, arterial blood gas analysis, routine blood, urine, and stool tests, biochemical indices, inflammatory and infection markers, thyroid function tests, and autoimmune-related indices showed no obvious abnormalities.",
+        "Pulmonary function and FeNO testing were normal.",
+        "Pathogen testing was negative in both bronchoalveolar lavage fluid obtained by electronic bronchoscopy and bronchoscopy-guided protected specimen brush sampling, and no tumor cells were identified.",
+        "No abnormalities were seen on electronic bronchoscopy. EBUS-TBNB results showed chronic inflammation of the bronchial mucosa and lung tissue in the posterior segment of the right upper lobe, with inflammatory exudation and fibrous tissue proliferation.",
+        "No abnormalities were found on biopsy of the right popliteal lymph node.",
+        "Based on the follow-up results of two chest CT scans, the mixed ground-glass nodule in the posterior segment of the right upper lobe is considered an infectious lesion. With strict smoking cessation intervention, the cystic changes in both lungs gradually decreased in size and number and were even gradually absorbed, suggesting that the bilateral pulmonary cystic changes are closely related to smoking and that smoking cessation is effective."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treatment for relieving wheezing and cough",
+        "Empiric oral moxifloxacin tablet anti-infective therapy for 2 weeks",
+        "Strict smoking cessation intervention"
+      ],
+      "treatment_response": [
+        "Symptoms of dry cough and shortness of breath improved significantly",
+        "After 2 weeks of empiric anti-infective therapy with oral moxifloxacin tablets, repeat chest CT showed that the mixed ground-glass nodule in the posterior segment of the right upper lobe had markedly decreased compared with before; the scattered cystic spaces in both lungs had become smaller and fewer; and the multiple ground-glass opacities in both lungs were unchanged.",
+        "After strict smoking cessation intervention, repeat chest CT 8 months later showed that the cystic spaces in both lungs had basically been absorbed compared with before, and the multiple ground-glass opacities had decreased in number and size compared with before, indicating complete remission of the patient's condition after smoking cessation."
+      ]
+    }
+  }
+}

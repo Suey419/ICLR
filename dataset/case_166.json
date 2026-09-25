@@ -1,0 +1,433 @@
+{
+  "status": "success",
+  "case_id": "case_166",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 52 years old, farmer, was admitted on Day 0 with the chief complaint of \"snoring during sleep for 14 years, somnolence for 3 years, worsening for 3 months, accompanied by 2 episodes of coma, severe obesity.\" History of present illness: More than 14 years ago, after a short-term weight gain of 45 kg, he developed snoring during sleep, with loud snoring, accompanied by nocturnal sleep apnea, dry mouth and dry throat upon awakening; daytime somnolence, fatigue, dizziness, and headache, without diagnosis or treatment. In approximately 3 months before Day 0, the patient's symptoms began to worsen without obvious precipitating factors, with generalized muscle weakness, reluctance to move, edema of the face and extremities, and dyspnea, without diagnosis or treatment. At 6:00 AM on Day -63, he suddenly became comatose during sleep, unresponsive to calling, without urinary or fecal incontinence, without convulsions, foaming at the mouth, or limb rigidity. He presented to a local hospital and was given noninvasive ventilation. Emergency blood gas analysis showed \"PH 7.20, PO2 56 mmHg, PCO2 88 mmHg, SO2 78%, FIO2 45%.\" After noninvasive ventilation, symptom improvement was not obvious, and he was transferred with the following considered diagnoses: \"1. Pulmonary encephalopathy. 2. Extreme obesity hypoventilation syndrome 3. Acute respiratory failure 4. Hepatic and renal insufficiency 5. Pulmonary infection 6. Hypertension.\" He improved and was discharged after endotracheal intubation with invasive mechanical ventilation, anti-infective therapy, and other symptomatic treatment. After discharge, he received nocturnal noninvasive bilevel ventilatory support during sleep, with supplemental oxygen (4-5 L/min), but somnolence, dyspnea, and edema of the face and extremities did not improve significantly. At 6:00 AM on Day -12, he again lost consciousness, was unresponsive to calling, had generalized cyanosis and tongue biting, without urinary or fecal incontinence or convulsions; he again presented to the local hospital and, after emergency endotracheal intubation with invasive mechanical ventilation and 12 days of treatment, had difficulty with weaning and extubation, and was transferred to our hospital. Past medical history and personal history: History of hypertension for 2 months, with a maximum of 170/110 mmHg, taking nifedipine controlled-release tablets, 1 tablet each time, once daily; blood pressure control was suboptimal. He denied a history of underlying cardiopulmonary disease, smoking, alcohol use, toxic or harmful gas exposure, and heavy occupational dust exposure. Married at age 22, has 1 healthy daughter, family history unremarkable. Physical examination: T 39℃, P 83/min, R 16/min, BP: 130/89 mmHg, SO₂ 90%. Under sedation and analgesia, receiving assisted ventilation via oral endotracheal intubation with an invasive ventilator. Height 168 cm, weight 115 kg, BMI 40.74 kg/m². Mild cyanosis of the lips, mild edema of the face and eyelids, no mandibular retrognathia, macroglossia, posterior displacement of the tongue base, no pharyngeal congestion, enlarged uvula, no tonsillar congestion or enlargement, narrowed pharyngeal cavity. Short, thick neck, jugular venous distention, moist rales audible at both lung bases, pleural friction rub audible, heart rate 83/min, regular rhythm, abdominal distention, shifting dullness negative. Moderate symmetric pitting edema of both lower extremities. Skin dry and coarse, tongue thickened. No obvious abnormality on cardiac examination.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "obesity hypoventilation syndrome",
+          "supporting_evidence": [
+            "Height 168 cm, weight 115 kg, BMI 40.74 kg/m², classified as severe obesity",
+            "Snoring during sleep for 14 years, accompanied by nocturnal sleep apnea, daytime somnolence, fatigue, dizziness, and headache",
+            "Arterial blood gas analysis in the emergency department in approximately 2 months before Day 0 showed \"pH 7.20, PO2 56 mmHg, PCO2 88 mmHg, SO2 78%, FIO2 45%\", indicating marked hypercapnia and hypoxemia",
+            "Two episodes of coma/loss of consciousness during sleep, with improvement after noninvasive ventilation and invasive mechanical ventilation, consistent with hypercapnic encephalopathy caused by hypoventilation",
+            "Mild cyanosis of the lips, SO₂ 90%, suggesting persistent hypoxemia",
+            "Short, thick neck, macroglossia, posterior displacement of the tongue base, uvular hypertrophy, and narrowing of the pharyngeal cavity, suggesting a tendency toward concomitant upper airway obstruction, often coexisting with obesity hypoventilation syndrome",
+            "Facial and extremity edema and jugular venous distention can be seen with increased cardiopulmonary burden related to chronic hypoxemia/hypercapnia."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Obstructive sleep apnea-hypopnea syndrome",
+          "supporting_evidence": [
+            "Chief complaint: \"Snoring during sleep for 14 years, daytime sleepiness for 3 years, worsening for 3 months\"",
+            "The history of present illness clearly documents \"loud snoring, accompanied by sleep apnea during nighttime sleep, dry mouth and dry throat on waking in the morning; daytime sleepiness, fatigue, dizziness, and headache\"",
+            "Both episodes occurred during sleep, suggesting a strong association with sleep-related breathing disorder",
+            "Physical examination showed macroglossia, posterior displacement of the tongue base, uvular hypertrophy, pharyngeal narrowing, and a short, thick neck, all of which support anatomic narrowing of the upper airway.",
+            "Severe obesity is an important risk factor for obstructive sleep apnea"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide objective grading criteria such as sleep monitoring results.",
+            "The patient has marked daytime hypercapnic respiratory failure and generalized edema; obstructive sleep apnea alone is insufficient to fully explain all of the severe manifestations, suggesting possible coexisting obesity hypoventilation syndrome or other disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute hypercapnic respiratory failure (type II respiratory failure) with pulmonary encephalopathy",
+          "supporting_evidence": [
+            "In approximately 2 months before Day 0, emergency blood gas analysis: \"pH 7.20, PO2 56 mmHg, PCO2 88 mmHg, SO2 78%, FIO2 45%\", indicating severe ventilatory failure with acidosis",
+            "Two episodes of coma/loss of consciousness during sleep, unresponsive to verbal stimulation, consistent with hypercapnia-related disturbance of consciousness",
+            "The condition previously improved after noninvasive ventilation and invasive mechanical ventilation, suggesting reversible disturbance of consciousness caused by respiratory failure.",
+            "At admission, the patient was still receiving invasive mechanical ventilatory support via orotracheal intubation, suggesting persistent or recurrent respiratory failure.",
+            "Mild cyanosis of the lips, SO₂ 90%, supporting hypoxemia"
+          ],
+          "opposing_evidence": [
+            "Information from the first stage indicates that the second loss of consciousness was accompanied by \"tongue biting,\" suggesting an epileptic-like event, which cannot be fully explained by pulmonary encephalopathy alone.",
+            "Stage 1 information did not provide the immediate blood gas results for this admission, so the current severity cannot be directly assessed"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Hypothyroidism (including a tendency toward myxedema)",
+          "supporting_evidence": [
+            "45 kg weight gain over a short period",
+            "Fatigue, somnolence, reduced activity, dizziness, headache, etc. may be seen in hypothyroidism",
+            "Edema of the face and extremities; physical examination showed mild edema of the face and eyelids, and moderate symmetric pitting edema of both lower extremities",
+            "Dry, coarse skin and macroglossia; these signs may suggest changes related to hypothyroidism",
+            "Severe sleep-related hypoventilation and hypercapnia can be exacerbated by hypothyroidism"
+          ],
+          "opposing_evidence": [
+            "The bilateral lower extremities had moderate symmetric pitting edema, whereas typical myxedema is usually non-pitting.",
+            "The first-stage information did not provide data such as cold intolerance, constipation, bradycardia, or goiter that would more directly support hypothyroidism."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Chronic cor pulmonale or right heart dysfunction (secondary to long-term hypoxemia/sleep-disordered breathing)",
+          "supporting_evidence": [
+            "Long-term nocturnal sleep apnea, hypoxemia, and hypercapnia can lead to an increased load on the pulmonary circulation.",
+            "Physical examination revealed jugular venous distention",
+            "Mild edema of the face and eyelids, moderate symmetric pitting edema of both lower extremities",
+            "Mild cyanosis of the lips, SO₂ 90%, indicating chronic hypoxia",
+            "Abdominal distension; although shifting dullness is negative, it may suggest a tendency toward fluid retention"
+          ],
+          "opposing_evidence": [
+            "Cardiac physical examination revealed no obvious abnormalities",
+            "Stage 1 information did not provide echocardiography, electrocardiography, BNP, or evidence of pulmonary hypertension",
+            "The patient denies a history of underlying cardiopulmonary disease."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Nerve conduction studies and electromyography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinary system ultrasound",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: Arterial blood gas analysis: pH 7.29, PaCO₂ 50 mmHg, PaO₂ 57 mmHg, HCO3- 23.6 mmol/L; oxygenation index 58. Urinalysis: urine protein 1+. Stool routine, ANCA, ANAS, and anticardiolipin antibody panel showed no obvious abnormalities. Complete blood count: white blood cells 9.68×10^9, red blood cells 3.0×10^12, platelets normal, neutrophils 0.90, hemoglobin 128 g/L, ESR 0.28 mm/hr. Liver function: AST 436 U/L, ALB 39 g/L. Renal function: creatinine 118 μmol/L, urea 4.57 mmol/L. Blood glucose, blood lipids, and electrolytes were normal. Thyroid function: FT3 <0.6 pmol/L (↓), FT4 0.8 pmol/L (↓), TSH >100 μIU/ml (↑↑↑). ECG: sinus rhythm, first-degree atrioventricular block. Brain CT: no definite abnormal intracranial findings. Chest CT: large areas of consolidation in the bilateral lower lobes, bilateral pleural effusions, enlarged cardiac silhouette, small pericardial effusion. Echocardiography: left atrial enlargement; right atrial and right ventricular enlargement; small pericardial effusion; left ventricular thickening; EF 0.63; normal pulmonary artery pressure.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8GJ3ZaHmo4oNFKpicakaibb1aFt55fuiatSoXZfSuOuldIhktaqzHD5rNA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Complete blood count: white blood cells 9.68×10^9",
+            "local_src": "cleaned_cases_image_cache/689c13c47e2e34d522fa2ff7da5d6e04850e67e2.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8SPhZPTibZ3VSo3g7BZWEehcVK7MZ6brwLok0ofndGDjlVTiciag3D20ww/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/80edce008a4434b60ac346b172f2a73ad78b7aba.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8oDFUchlclVdPaavCibyJHHtdMtohiaSkevdLTOicK93mCdQBo9iclPmZnA/640?wx_fmt=png&from=appmsg",
+            "near_text": "ECG: sinus rhythm, first-degree atrioventricular block.",
+            "local_src": "cleaned_cases_image_cache/88777f443f10cd4f2b51e5dfef17f0e371b4e5ed.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Primary respiratory diseases (such as chronic obstructive pulmonary disease, acute exacerbation of bronchial asthma, severe pneumonia, thoracic and spinal deformities, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no history of long-term smoking or dust exposure, no prior underlying pulmonary disease, and chest CT did not suggest chronic bronchitis or emphysema.",
+              "The patient has no history of asthma, and no wheezing was heard on auscultation.",
+              "The patient's chest CT indicated mild pulmonary infection.",
+              "The chest physical examination and chest CT did not indicate thoracic cage or spinal deformity."
+            ]
+          },
+          {
+            "name": "Respiratory center depression (e.g., drugs or toxins, central nervous system lesions, metabolic abnormalities, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no history of opioid use, sedative-hypnotic use, or long-term alcohol consumption.",
+              "The patient's head CT showed no abnormalities",
+              "The patient's electrolytes showed no significant abnormalities"
+            ]
+          },
+          {
+            "name": "severe hypothyroidism",
+            "evidence": [
+              "Thyroid function tests indicated severe hypothyroidism",
+              "Somnolence",
+              "Pitting edema of the face and both lower extremities"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Ventilatory pump insufficiency (neuromuscular disease)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On physical examination, muscle strength in all four extremities was normal, pathologic reflexes were not elicited, and meningeal irritation signs were negative."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Primary respiratory diseases (such as chronic obstructive pulmonary disease, acute exacerbation of bronchial asthma, severe pneumonia, thoracic and spinal deformities, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no history of long-term smoking or dust exposure, no prior underlying pulmonary disease, and chest CT did not suggest chronic bronchitis or emphysema.",
+          "The patient has no history of asthma, and no wheezing was heard on auscultation.",
+          "The patient's chest CT indicated mild pulmonary infection.",
+          "The chest physical examination and chest CT did not indicate thoracic cage or spinal deformity."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Respiratory center depression (e.g., drugs or toxins, central nervous system lesions, metabolic abnormalities, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no history of opioid use, sedative-hypnotic use, or long-term alcohol consumption.",
+          "The patient's head CT showed no abnormalities",
+          "The patient's electrolytes showed no significant abnormalities"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "severe hypothyroidism",
+        "evidence": [
+          "Thyroid function tests indicated severe hypothyroidism",
+          "Somnolence",
+          "Pitting edema of the face and both lower extremities"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Ventilatory pump insufficiency (neuromuscular disease)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "On physical examination, muscle strength in all four extremities was normal, pathologic reflexes were not elicited, and meningeal irritation signs were negative."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Liver function tests",
+          "basis_in_stage3_input": "Dynamic monitoring of liver function is recommended",
+          "why_order_this_exam": "The patient previously developed significant hepatic injury in the setting of acute hypercapnic respiratory failure, pulmonary infection, and multiple organ dysfunction; AST had previously been as high as 436 U/L. Gastroenterology was consulted and diagnosed hepatic injury and recommended dynamic monitoring. At follow-up, although AST decreased to 51 U/L and ALT was normal, suggesting improvement compared with before, it had not yet fully recovered. Serial re-evaluation of liver function is intended to determine whether the liver injury continues to improve, whether it is related to hypoxia/infection/medications, and to provide a basis for safety assessment of continued hepatoprotective therapy, thyroid hormone replacement, and the respiratory support plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "basis_in_stage3_input": "Nephrology consultation: diagnosis of renal insufficiency, etiology to be determined",
+          "why_order_this_exam": "During the course of the disease, the patient had facial and bilateral lower extremity edema, urine protein 1+, and creatinine 118 μmol/L, and during the acute critical stage was complicated by multiorgan dysfunction. The nephrology department had clearly raised renal insufficiency of unclear etiology. Although creatinine returned to normal 3 months later, repeat renal function testing is still needed to determine whether the kidney injury has completely recovered, whether there is residual renal involvement, and to assess edema, abnormal volume status, and the safety of subsequent drug therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Uric acid",
+          "basis_in_stage3_input": "Uric acid 523umol/L",
+          "why_order_this_exam": "At follow-up, the patient's uric acid was elevated at 523 umol/L. In the context of a prior abnormal renal function status of undetermined cause, continued monitoring of the uric acid level is needed. This test helps determine whether persistent metabolic abnormalities or impaired renal excretion are present, assess the relationship between hyperuricemia and renal function status and the metabolic burden of obesity, and provide a basis for whether lifestyle intervention or further renal evaluation is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "basis_in_stage3_input": "Thyroid function: FT3 2.6 pmol/L (↓), FT4 5.7 pmol/L (↓), TSH 56.8 μIU/ml (↑)",
+          "why_order_this_exam": "At admission, the patient had marked somnolence, fatigue, significant weight gain, dry and coarse skin, macroglossia, edema, and hypoventilation. Prior thyroid function testing showed markedly decreased FT3 and FT4 and TSH >100 μIU/ml. The final diagnosis was primary hypothyroidism, considered to be associated with myxedema coma. After levothyroxine replacement, FT3 and FT4 remained low and TSH remained elevated, suggesting incomplete correction. Serial repeat thyroid function testing was performed to assess the response to replacement therapy, adjust the levothyroxine dose, and evaluate the persistent impact of hypothyroidism on hypoventilation, somnolence, and edema; this was critical for explaining the etiology and guiding long-term treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas",
+          "basis_in_stage3_input": "Blood gas: pH 7.43, PaCO₂ 42 mmHg, PaO₂ 58 mmHg, FiO₂ 21%",
+          "why_order_this_exam": "The patient had loss of consciousness during sleep twice. On the first occasion, arterial blood gas showed pH 7.20, PCO2 88 mmHg, and PO2 56 mmHg, consistent with severe hypercapnic respiratory failure and pulmonary encephalopathy; before and after this hospitalization, there were also manifestations of hypoxemia and hypoventilation. On follow-up arterial blood gas, although PaCO2 had decreased to 42 mmHg, PaO2 remained only 58 mmHg, indicating improved ventilation but persistent hypoxemia. Serial repeat arterial blood gas testing was performed to continuously assess the degree of recovery of oxygenation and ventilation, evaluate the effects of noninvasive ventilation and hypothyroidism treatment, identify whether chronic hypoxemia was still present, and provide a basis for determining whether long-term oxygen therapy was needed, adjusting ventilator settings, and risk stratification for follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Holter monitoring",
+          "basis_in_stage3_input": "Ambulatory ECG: sinus rhythm, occasional premature atrial contractions, occasional polymorphic premature ventricular contractions",
+          "why_order_this_exam": "The patient has long-standing severe hypoxemia, sleep apnea, and obesity hypoventilation, with a history of hypercapnic coma and hypertension; all of these conditions increase the risk of arrhythmia. A prior standard ECG had already shown first-degree atrioventricular block, and repeat Holter monitoring again showed occasional premature atrial contractions and polymorphic premature ventricular contractions. Continuing to complete or repeat Holter monitoring would help assess arrhythmia burden, determine the effects of hypoxemia, sleep-disordered breathing, and hypothyroidism on electrical stability, and provide a basis for deciding whether further cardiac evaluation and treatment adjustment are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "basis_in_stage3_input": "Color Doppler echocardiography: left atrial enlargement; patent foramen ovale cannot be completely excluded",
+          "why_order_this_exam": "During the course of the illness, the patient had findings of jugular venous distention, bilateral lower extremity edema, enlarged cardiac silhouette, pleural effusion, a small amount of pericardial effusion, and right heart enlargement. Chronic hypoxemia and sleep-disordered breathing may lead to changes in cardiac structure and function. Follow-up echocardiography indicated left atrial enlargement and stated that a patent foramen ovale could not be completely excluded. Repeat transthoracic echocardiography was performed to assess whether the prior volume overload- and hypoxemia-related cardiac changes had improved, to further evaluate for potential shunting and other cardiac factors that could worsen hypoxemia, and to provide a basis for explaining persistent hypoxemia, assessing prognosis, and formulating an integrated respiratory and cardiovascular management plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest plain scan",
+          "basis_in_stage3_input": "Non-contrast chest CT: Scattered inflammatory lesions in both lungs have markedly resolved compared with the prior study; no pleural effusion.",
+          "why_order_this_exam": "At admission, the patient had a fever of 39℃, moist rales at both lung bases, and a pleural friction rub. Chest CT showed large areas of consolidation in the bilateral lower lobes and bilateral pleural effusions. Pulmonary infection and pleural effusion had been important coexisting factors worsening respiratory failure. Follow-up non-contrast chest CT showed marked absorption of the inflammatory lesions and resolution of the pleural effusions. Continued chest imaging follow-up is intended to confirm whether the infection and effusions have completely resolved, exclude residual pulmonary consolidation or other structural lung lesions, and help distinguish whether the current residual hypoxemia is mainly due to pulmonary lesions or due to obesity hypoventilation/sleep-disordered breathing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid ultrasound",
+          "basis_in_stage3_input": "Thyroid ultrasound: enlargement of both thyroid lobes with decreased echogenicity and heterogeneous echotexture, possible Hashimoto thyroiditis",
+          "why_order_this_exam": "The patient has confirmed primary hypothyroidism, with markedly abnormal thyroid function tests. Thyroid ultrasound suggests enlargement of both lobes and diffusely heterogeneous hypoechogenicity, supporting possible Hashimoto thyroiditis. This examination is used to clarify the cause of hypothyroidism from a structural perspective, determine whether it is caused by autoimmune thyroiditis, and provide a basis for long-term endocrine follow-up, expectations for replacement therapy, and whether further antibody testing is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "basis_in_stage3_input": "Pulmonary function: normal ventilatory function",
+          "why_order_this_exam": "The patient has long-term snoring, nocturnal apnea, and daytime somnolence, and developed severe hypercapnic respiratory failure, but has no smoking history and no clear underlying chronic lung disease. Normal pulmonary function test results are very important for the differential diagnosis: they help exclude COPD, asthma, and significant restrictive or obstructive ventilatory impairment, suggesting that the patient's severe hypoventilation is not primarily caused by abnormalities in primary pulmonary parenchymal or airway ventilatory function, and instead more strongly supports a diagnosis of obesity hypoventilation syndrome combined with obstructive sleep apnea, thereby affecting the subsequent selection of a management plan centered on noninvasive ventilation, weight loss, and treatment of hypothyroidism.",
+          "requirement": "required"
+        },
+        {
+          "exam": "respiratory drive",
+          "basis_in_stage3_input": "Respiratory drive: both hypoxic and hypercapnic ventilatory drives are within normal test values",
+          "why_order_this_exam": "The patient had recurrent episodes of coma during sleep and severe hypercapnia, and it was necessary to distinguish whether upper airway obstruction/obesity hypoventilation was predominant or whether there was insufficient central respiratory drive. Neurology consultation considered the evidence for central respiratory dysfunction insufficient, and respiratory drive testing showed that both hypoxic and hypercapnic drive were normal, further indicating that the patient's hypoventilation was not caused by a central drive defect. The purpose of performing this test was to exclude the important differential diagnosis of abnormal central respiratory regulation, and to provide a basis for clarifying the etiology, reducing unnecessary neurologic-directed treatment, and strengthening treatment for sleep-disordered breathing and obesity hypoventilation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Nerve conduction study and electromyography",
+          "basis_in_stage3_input": "Nerve conduction studies and electromyography showed no significant abnormalities",
+          "why_order_this_exam": "During the course of illness, the patient reported generalized muscle weakness and decreased activity, and developed difficulty with ventilator weaning and extubation as well as recurrent ventilatory failure; therefore, neuromuscular disease causing insufficient ventilatory drive needed to be excluded. Although the physical examination provided limited support for neuromuscular disease, nerve conduction studies and electromyography were key exclusionary tests. The results showed no obvious abnormalities, which helped exclude respiratory muscle weakness due to peripheral nerve or muscle disease, shifting the diagnostic focus to the combined effects of obesity hypoventilation, severe OSA, and severe hypothyroidism on hypoventilation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pressure titration",
+          "basis_in_stage3_input": "Pressure titration report: EEG during sleep monitoring was generally normal; final titration pressure: BiPAP S/T",
+          "why_order_this_exam": "The patient has a 14-year history of snoring, documented nocturnal apnea, and 3 years of somnolence, and has twice developed coma during sleep; the condition improved after prior noninvasive and invasive ventilation therapy, suggesting that sleep-related hypoventilation plays a central role in the illness. The purpose of pressure titration is, after confirming sleep-disordered breathing, to identify effective noninvasive ventilation settings and determine the appropriate mode and pressure levels to correct nocturnal upper airway obstruction, hypoventilation, and hypoxemia, and to reduce the risk of recurrent hypercapnic respiratory failure and disturbance of consciousness.",
+          "requirement": "required"
+        },
+        {
+          "exam": "sleep monitoring",
+          "basis_in_stage3_input": "Pressure titration report: EEG during sleep monitoring was generally normal; final titration pressure: BiPAP S/T",
+          "why_order_this_exam": "The patient has long-standing severe snoring, nocturnal apnea, morning dry mouth, daytime sleepiness, and recurrent episodes of impaired consciousness during sleep. Physical examination also shows macroglossia, posterior displacement of the tongue base, uvular hypertrophy, and pharyngeal narrowing. Obstructive sleep apnea-hypopnea syndrome is highly suspected clinically. Sleep monitoring is the core test for confirming the type and severity of sleep-disordered breathing; it can determine whether events are predominantly obstructive or central, quantify the AHI and nocturnal hypoxic burden, and provide an objective basis for subsequent pressure titration, noninvasive ventilation mode selection, and long-term treatment adherence management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "repeat sleep monitoring",
+          "basis_in_stage3_input": "Repeat sleep study: severe obstructive sleep apnea-hypopnea syndrome, AHI 103.2 events/h, mean oxygen saturation during sleep 86%, lowest oxygen saturation 62%, predominantly obstructive hypopneas",
+          "why_order_this_exam": "After thyroid hormone replacement, weight loss, and respiratory support therapy, repeat sleep monitoring was still required to reassess the residual severity of sleep-disordered breathing. The results showed an AHI of 103.2 events/h, a mean oxygen saturation of 86%, and a nadir of 62%, with predominantly obstructive hypoventilation, indicating that despite improvement in daytime blood gases and symptoms, extremely severe sleep-disordered breathing persisted at night. This examination directly answered whether nocturnal hypoxemia and hypoventilation were still significantly present and what the main mechanism of the disorder was, and provided objective evidence for the necessity of long-term regular use of a noninvasive ventilator.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat pressure titration",
+          "basis_in_stage3_input": "Repeat pressure titration: CPAP 9 cmH₂O with a nasal mask is recommended for noninvasive ventilatory support.",
+          "why_order_this_exam": "After treatment, the patient's condition improved significantly compared with that at admission. At 5 months, there was no dyspnea or edema, and arterial blood gas PaCO2 further decreased to 36 mmHg; however, repeat sleep monitoring still indicated very severe obstructive sleep apnea-hypopnea syndrome. Therefore, repeat pressure titration is needed to re-optimize noninvasive ventilation parameters according to the current condition. The clinical purpose of this examination is to determine the most appropriate CPAP/bilevel ventilation mode, target pressure, and interface selection, while effectively controlling obstructive events and nocturnal hypoxemia and improving tolerance and adherence, thereby reducing the risk of recurrent respiratory failure and pulmonary encephalopathy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Endocrinology consultation: diagnosed primary hypothyroidism; recommended levothyroxine sodium tablets. Neurology consultation: insufficient evidence for central dyspnea. Gastroenterology consultation: diagnosed liver injury; recommended dynamic monitoring of liver function and hepatoprotective treatment. Nephrology consultation: diagnosed renal insufficiency, cause to be investigated; recommended continuing aldehyde oxystarch capsules treatment. On day 19 after intubation, left prefrontal subcortical transcranial magnetic stimulation was performed for 3 days. Follow-up 3 months later: liver function AST 51 U/L, ALT normal; renal function creatinine normal; uric acid 523 umol/L; thyroid function FT3 2.6 pmol/L (↓), FT4 5.7 pmol/L (↓), TSH 56.8 μIU/ml (↑); blood gas pH 7.43, PaCO₂ 42 mmHg, PaO₂ 58 mmHg fi 21%. Holter monitoring: sinus rhythm, occasional PACs, occasional polymorphic PVCs. Echocardiography: left atrial enlargement; patent foramen ovale cannot be completely excluded. Chest CT without contrast: scattered inflammatory lesions in both lungs were markedly absorbed compared with before; no pleural effusion. Thyroid ultrasound: enlargement of both thyroid lobes with decreased echogenicity and heterogeneous echotexture; Hashimoto thyroiditis possible. Pulmonary function: normal ventilatory function. Respiratory drive: both hypoxic and hypercapnic drive were within normal experimental values. Nerve conduction study and electromyography showed no obvious abnormalities. Pressure titration report: EEG during sleep monitoring was approximately normal; final titrated pressure BiPAP S/T. Follow-up 5 months later: repeat thyroid function FT3 normal, FT4 8.8 pmol/L (↓), TSH 40.4 μIU/ml (↑); blood gas pH 7.42, PaCO₂ 36 mmHg, PaO₂ 66 mmHg fi 21%. Repeat sleep monitoring: severe obstructive sleep apnea-hypopnea syndrome, AHI 103.2 events/h, mean oxygen saturation during sleep 86%, lowest oxygen saturation 62%, predominantly obstructive hypopnea. Repeat pressure titration: recommended noninvasive ventilator treatment with CPAP 9 cmH₂O + nasal mask.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8bE7dIianOxnhMp6M5DtTX7eKqib9gCtfIP6DhTUd1SQj1khibre2AHQbw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/e68ae9d2ea735375eeaf17e54653401c37c53516.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8S2ng6sSRPFXooyv9Qv6Hwne1XHS736RXpF8a9hawicDBrqx7TGSRLvA/640?wx_fmt=png&from=appmsg",
+          "near_text": "The patient returned for a follow-up visit 3 months later.",
+          "local_src": "cleaned_cases_image_cache/d8958806da91df27da4294338676ef8b53ee5929.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn87OhfCJAltawp0FnLiaGIsB9eEn5oGhcmLu950nwsVXtibzUo74BQALAg/640?wx_fmt=png&from=appmsg",
+          "near_text": "First follow-up on Day +88",
+          "local_src": "cleaned_cases_image_cache/690ff3d64542b770a2d62bcb5195bdf4c8d2b006.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8HP4tcyAICBK4c31DT50Ao7W1b1zHgfeyBQqYFSKkr2MicicgaAprbEibw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Laboratory parameters: except for persistent AST 51 U/L and UA 523 umol/L",
+          "local_src": "cleaned_cases_image_cache/ca5eb4a257c2657eaf768130f9924bbe17c9afe0.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8Ubj7Je0vSMaze77u97IlukfXS0Z4Ylvd7SWz5PmtGy66pyBbwOnq3g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Day +1",
+          "local_src": "cleaned_cases_image_cache/c574ecbc9950cf9854cd8bc167f87f1572f75807.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn89RbAOvsrwMhqqhrYcEXb1VOorT2MBhRo7vIptrOoibrCnuWvJPxaZwQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Day +86",
+          "local_src": "cleaned_cases_image_cache/5ba6bee9d635df2ca03a049ca112d5081386e503.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8kJfvLuCUjXcQ3e0kRmNVOMud8UvO0B5z8mAYIic1dNyW2NrxR8lZvhw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Now look at the pressure titration report dated Day +85.",
+          "local_src": "cleaned_cases_image_cache/38599cbfdb55b6a4f1c978e6d8bf7405d602c682.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_gif/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8oAJs5OozABtCNHf6anyPcZAB7T9aib1mcU6IOw29IBWw68v5ImNOricg/640?wx_fmt=gif&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/5be7db6857a5936b20a9c7382c8d1df84a7e7efd.gif"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_gif/qcrGY40NstIl8rmLavmnlxpAkbdxEBn872mtbibYqkkTiaX06sA5IedJAv9welecA7TG7nFOLoI1bFrlZgSCrCng/640?wx_fmt=gif&from=appmsg",
+          "near_text": "Final pressure: BiPAP S/T",
+          "local_src": "cleaned_cases_image_cache/81bb131a8d163b258164ae094a0fbef8f70a8269.gif"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8Aia1wj9ZdRNOuFWEjqQb3uZNjhntYSLX2Rdibj5wUPK1ma9a8HiaiarfuQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Second follow-up on Day +132",
+          "local_src": "cleaned_cases_image_cache/cf17a2ff2f6121069f0e0a75a5d1ab6e16281d48.jpg"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8Zia2wichia0m8871YWpa88naVrDvRAPiaWVTAYqbxmwTxbT7d4ibDJ6Ve9A/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "thyroid function tests",
+          "local_src": "cleaned_cases_image_cache/3a4ee86487b63c54d5e8a593de522ff7c48e88bf.jpg"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn85rK9zk17pQ4xzp1sGXl4ZJBD3FgWSn85rAEdKqzHib3cbPYNfpLic3Lw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Relevant examinations after admission",
+          "local_src": "cleaned_cases_image_cache/455515ea95e76a0279adfee35342cba1f9bd50d9.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn877b2qFftBV0dAeasfeKRiavSABTBPc81kCiclSibVNwLe2VUtVVOrL54A/640?wx_fmt=png&from=appmsg",
+          "near_text": "Pressure titration report",
+          "local_src": "cleaned_cases_image_cache/64b3870c1bf83f09c623f9f010dfe741256dfe27.png"
+        },
+        {
+          "image_id": "fig20",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIl8rmLavmnlxpAkbdxEBn8ibu5A1llKTgFDt6lEFgYyhy489sgnkicTF8N0rjJM7cytK66rPYcZibrA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Final CPAP pressure 9 cmH₂O.",
+          "local_src": "cleaned_cases_image_cache/08f0a388f84d165867535228d1eef6c08ff825e2.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Myxedema coma; 2. Pulmonary encephalopathy; 3. Extreme obesity hypoventilation syndrome; 4. Obstructive sleep apnea-hypopnea syndrome; 5. Respiratory failure; 6. Primary hypothyroidism; 7. Pulmonary infection; 8. Multiple organ dysfunction; 9. Hypertension; 10. Pleural effusion; 11. Severe obesity.",
+      "diagnostic_basis": [
+        "Thyroid ultrasound: enlargement of both thyroid lobes with decreased echogenicity and heterogeneous echotexture, possible Hashimoto thyroiditis",
+        "Sleep study: severe obstructive sleep apnea-hypopnea syndrome, AHI 103.2 events/h, mean oxygen saturation during sleep 86%, lowest oxygen saturation 62%, predominantly obstructive hypopneas",
+        "Pulmonary function: normal ventilatory function",
+        "Respiratory drive: both hypoxic and hypercapnic ventilatory drives are within normal test values",
+        "Nerve conduction studies and electromyography showed no significant abnormalities"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Anti-infective therapy, anticoagulation, antihypertensive therapy, gastric protection, sedation, analgesia, endotracheal intubation, invasive mechanical ventilatory support",
+        "Levothyroxine sodium tablets replacement therapy",
+        "Transcranial magnetic stimulation therapy of the left prefrontal subcortical cortex",
+        "Noninvasive ventilatory support (BiPAP S/T, later changed to CPAP)",
+        "antihypertensive therapy with amlodipine",
+        "hepatoprotective therapy",
+        "Treatment with aldioxa capsules"
+      ],
+      "treatment_response": [
+        "Successfully weaned from mechanical ventilation and extubated",
+        "After 3 months, dyspnea, somnolence, limb weakness, and pedal edema improved compared with previously; while awake, oxygen saturation was about 85% without supplemental oxygen; body weight decreased by 15 kg compared with May.",
+        "After 5 months, there was no dyspnea or edema; thyroid function had returned to normal; oxygen saturation could be maintained above 90%."
+      ]
+    }
+  }
+}

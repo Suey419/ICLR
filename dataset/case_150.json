@@ -1,0 +1,544 @@
+{
+  "status": "success",
+  "case_id": "case_150",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female patient, 62 years old. In mid-approximately 1 month before Day 0, after contact with a person infected with COVID-19, she developed fever, with a maximum temperature of 39℃, accompanied by cough, sputum production, etc. COVID-19 antigen was positive. On Day -15, complete blood count showed WBC 11.5×10^9/L, and chest CT showed multiple patchy lesions in both lungs. She was referred to the emergency department on Day -7 and transferred to the RICU on Day 0. Past history included hypertension, coronary artery disease, and status post surgery for lumbar disc herniation. Physical examination: T 38℃, moist rales were heard in both lower lungs. Complete blood count: WBC 11.87×10^9/L, Hb 74g/L, PLT 80×10^9/L. CRP 203.1mg/L, IL-6 977.2pg/ml, ferritin ＞1500ug/L. COVID-19 nucleic acid test (-). Lung CT showed diffuse thickening of the interlobular septa in both lungs, with scattered indistinct patchy opacities in the peripheral lungs. Initial diagnosis on admission: severe pneumonia, ARDS, sepsis, acute liver injury. She improved and was discharged after respiratory support, anti-inflammatory, anti-infective, and other treatments. On Day +94, she was hospitalized again for fever accompanied by joint pain. Physical examination: a small amount of moist rales in both lower lungs. Complete blood count WBC 14.42×10^9/L, ferritin ＞1500ug/L. COVID-19 nucleic acid test (+). Lung CT showed a nodular-like high-density opacity in the right lower lobe. She was treated with antiviral, anti-infective, anti-inflammatory, and other therapies. She presented again on Day +136. Physical examination: a small amount of fine moist rales in the right lower lung. Complete blood count WBC 4.42×10^9/L, ferritin ＞1500ug/L. Lung CT showed lesions in both lungs.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBIiamW0QOdqvDZlTIDyiaFVGonwzadv59UXQmocx3jXgfDj5xiazhRWICw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Chest CT showed (Day -6)",
+          "local_src": "cleaned_cases_image_cache/07bb688e8b72d73ba4be52e900f3b021325c4e48.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBVW6eEKDpfGEAYaWaKZT0DxdIXuf0oEIia2YV67q2ASYUDvNfGibJUicSQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "IL-6 levels and anti-inflammatory treatment regimen during the patient's treatment",
+          "local_src": "cleaned_cases_image_cache/454c3cdc3a6bda718bc1065b702d3cb09e9a9b46.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibB48ialQJ4RjJibmORt0euic0iaXF8Ij72UKmhCA5As98icCorV7ReiaFULNDA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Chest CT showed (Day +54)",
+          "local_src": "cleaned_cases_image_cache/8621b51aff587a7bbab812ec59f1deb2a04008fc.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibB66pnh3jezRMkqRiczicibJHLLjZLNDrlJQ8bxxJXdcxcPEkbib2Hf0ia6xw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Chest CT showed (Day +102)",
+          "local_src": "cleaned_cases_image_cache/df28ba2604219c3ec0efccc6814a4cfe68701dd9.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibB1nkEnUN2Zib9mQP5pic5wXdiaSPe84uXNYzyepMgDuDvLqxfCRibjSRevg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Chest CT showed (Day +117)",
+          "local_src": "cleaned_cases_image_cache/db45bf9a6e39f46f384f5475265a252952bb936e.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBkibFAevA2E9yZAOMJ9JSbK8iaHsoiauzYyBwS4SiaicyovFC1UnLygXILjw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Chest CT showed (Day +137)",
+          "local_src": "cleaned_cases_image_cache/e829df7cd6d49585b5879045a1efae8ced139c39.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBjibnKltiarK8MpqIGfJX4n7ib5sVicYAwRcLdmAnCKp2UrS2lOJz6mfWrQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "IL-6 levels and anti-inflammatory treatment regimen",
+          "local_src": "cleaned_cases_image_cache/50dd1efcc0cea7e666b4296617e0be9bfc1928f8.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "COVID-19-related severe viral pneumonia/ARDS (including relapsing or persistent inflammatory-phase lung injury)",
+          "supporting_evidence": [
+            "After contact with a person infected with COVID-19 in mid-approximately 1 month before Day 0, developed fever, with a maximum temperature of 39℃, accompanied by cough and sputum production; COVID-19 antigen positive",
+            "Chest CT on Day -15 showed multiple patchy lesions in both lungs",
+            "Chest CT showed diffuse thickening of the interlobular septa in both lungs, with scattered peripheral ill-defined patchy opacities.",
+            "On physical examination, moist rales were heard in both lower lungs.",
+            "CRP 203.1 mg/L and IL-6 977.2 pg/ml, indicating a marked inflammatory response",
+            "The preliminary admission diagnoses included severe pneumonia and ARDS",
+            "Admitted on Day +94 for recurrent fever accompanied by joint pain; SARS-CoV-2 nucleic acid (+)",
+            "The attached first-stage chest CT images show bilateral, multifocal patchy/ground-glass and consolidation opacities in both lungs, predominantly in the peripheral and lower lungs, consistent with imaging features of viral pneumonia or its post-inflammatory lung injury."
+          ],
+          "opposing_evidence": [
+            "SARS-CoV-2 nucleic acid test was negative in around Day 0, suggesting that a secondary post-nonactive COVID-19 process may also have been present at that time, rather than being explained entirely by persistent viral replication.",
+            "At a subsequent return visit, a nodular-like high-density opacity in the right lower lobe was noted, which is not the most common manifestation of simple typical diffuse viral pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Secondary bacterial pneumonia/sepsis",
+          "supporting_evidence": [
+            "Persistent high fever, with body temperature reaching up to 39°C",
+            "Cough, sputum production, moist rales in both lower lungs",
+            "CBC: WBC 11.5×10^9/L, 11.87×10^9/L, and 14.42×10^9/L, suggesting possible infectious inflammation",
+            "CRP 203.1 mg/L markedly elevated",
+            "Sepsis was included in the preliminary admission diagnoses.",
+            "Chest CT and the accompanying images show multiple patchy opacities in both lungs and more prominent consolidation/exudative opacities in both lower lungs, which can be seen in bacterial pneumonia or bacterial superinfection on a viral background"
+          ],
+          "opposing_evidence": [
+            "Chest imaging shows diffuse interlobular septal thickening in both lungs and scattered indistinct patchy opacities in the peripheral lungs, more commonly seen with viral or inflammatory interstitial involvement, and not a typical manifestation of lobar or segmental bacterial pneumonia.",
+            "On Day +136, WBC was 4.42×10^9/L, which does not support a pattern of persistent isolated bacterial infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (post-infectious/post-COVID organizing pneumonia)",
+          "supporting_evidence": [
+            "Persistent or recurrent pulmonary lesions after COVID-19 infection",
+            "Chest CT showed diffuse thickening of the interlobular septa in both lungs, with scattered peripheral ill-defined patchy opacities.",
+            "The attached multiple CT images from the first stage show patchy consolidation/ground-glass opacities distributed in the bilateral peripheral and lower lungs, and imaging at different time points shows migratory changes or residual changes after resolution, consistent with the common distribution pattern of organizing pneumonia.",
+            "In April and approximately 4 months after Day 0, chest CT still showed a nodular-like high-density opacity in the right lower lobe and bilateral pulmonary lesions, suggesting that this was not complete resolution after a single acute infection and that persistent inflammatory lung injury may be present."
+          ],
+          "opposing_evidence": [
+            "At disease onset, the patient had high fever, productive cough, elevated WBC, and markedly elevated CRP, which is more suggestive of an acute infectious process and cannot be explained solely by organizing pneumonia.",
+            "The information from the first stage did not provide clear pathologic evidence"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Secondary hemophagocytic lymphohistiocytosis/macrophage activation syndrome (HLH/MAS)",
+          "supporting_evidence": [
+            "recurrent high fever",
+            "Ferritin >1500 ug/L, with repeated marked elevations",
+            "IL-6 977.2 pg/ml was significantly elevated, suggesting a high inflammatory cytokine state",
+            "Hb 74 g/L, PLT 80×10^9/L, with bicytopenia",
+            "With acute liver injury at admission",
+            "Severe systemic inflammatory response and pulmonary involvement after infection may be seen in secondary HLH/MAS"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear additional supporting evidence such as splenomegaly, elevated triglycerides, decreased fibrinogen, or bone marrow hemophagocytosis.",
+            "Pulmonary imaging abnormalities and respiratory symptoms can also be explained by severe infection itself"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Adult-onset Still disease or other autoinflammatory diseases with pulmonary involvement",
+          "supporting_evidence": [
+            "Admitted on Day +94 for recurrent fever accompanied by joint pain",
+            "Ferritin >1500 ug/L, repeatedly significantly elevated",
+            "IL-6 was markedly elevated, suggesting strong inflammatory activation",
+            "Pulmonary infiltrates and manifestations of systemic inflammation may occur"
+          ],
+          "opposing_evidence": [
+            "The information from the first stage did not provide key findings supporting adult-onset Still disease, such as a typical rash, sore throat, hepatosplenomegaly, and lymphadenopathy.",
+            "The patient has a clear COVID-19-related exposure, positive antigen/nucleic acid tests, and imaging findings of pulmonary infection; an infectious etiology is currently more apparent.",
+            "Phase 1 information did not provide evidence of autoantibodies or rheumatologic/immunologic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary fungal infection (including invasive fungal infection)",
+          "supporting_evidence": [
+            "Prolonged disease course with recurrent fever and recurrent pulmonary lesions",
+            "Chest CT on Day +94 showed a nodular-like high-density opacity in the right lower lobe.",
+            "The accompanying follow-up CT images from the first stage show focal nodular/mass-like high-density opacities and residual lesions in both lower lungs, suggesting that in addition to common bacterial infection or simple viral infection, fungal infection should also be considered.",
+            "Recurrent pulmonary abnormalities in the setting of severe pneumonia and ARDS; fungal infection should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide persistent neutropenia, a clearly defined immunosuppressive condition, mycological evidence, or imaging descriptions such as a typical cavity/halo sign.",
+            "The onset was closely related to the timing of COVID-19 infection, and the initial imaging was predominantly characterized by diffuse patchy opacities in both lungs, which more strongly initially supports viral or bacterial inflammation."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP, IL-6, PCT, ferritin, LDH",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac function",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatology-related autoantibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin + C3 + C4",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related laboratory tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum (1,3)-β-D-glucan assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Throat swab SARS-CoV-2 nucleic acid test",
+          "requirement": "required"
+        },
+        {
+          "exam": "arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lower extremity venous ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "video bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF bacterial and fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF mNGS",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +138, bone marrow aspiration showed phagocytosis by reticular cells. PET-CT showed diffusely decreased cerebral glucose metabolism, multiple inflammatory lymph nodes, and multiple infectious lesions in both lungs. Blood/urine light chains were negative. Bone marrow cytomorphology showed active proliferation, and flow cytometry showed no abnormalities. On Day +141, skin tissue biopsy showed no obvious morphologically abnormal cells. Rheumatologic and immunologic markers: ANA screening 1:320, anti-PR3 antibody 61.3 RU/ml, anti-centromere B antibody positive, etc. Repeat lung CT on Day +152 showed absorption of the left lower lobe lesion. On Day -165, the patient was hospitalized again for fever with rash. Physical examination was unremarkable. Ferritin >1500 ug/L. Lung CT showed enlargement of right lower lung consolidation. On Day -163, bronchoscopy BALF culture was negative, and NGS detected nothing. Peripheral blood capsular antigen was weakly positive, and send-out cryptococcal antigen was positive. On Day -155, lumbar puncture showed normal CSF, cryptococcus negative. On Day +490, the patient was again admitted to the Rheumatology and Immunology Department for recurrent fever with worsening rash. Ferritin >1500 ug/L. Bilateral hand X-rays showed no abnormalities; bilateral knee X-rays showed degenerative changes; lower extremity joint MRI showed synovitis around the right ankle joint and bone marrow edema of the left talus. Chest CT showed mild interstitial inflammation in both lungs. On Day +576, recurrent fever with rash occurred again. On Day -146, admission physical examination: scattered rash over the whole body. CBC: WBC 3.92×10^9/L, Hb 89 g/L, PLT 103×10^9/L. Ferritin >1500 ug/L. Rheumatologic/immunologic markers were negative, and SARS-CoV-2 nucleic acid was positive. Chest CT showed mild interstitial inflammation in both lungs.",
+        "images": [
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBNzib0SINrloXsjn4TUibXJHpSUiaqjoCoQEoeKU7LtoCIlKMWk1UpYNSg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Bone marrow aspiration on Day +138 showed phagocytosis by reticular cells.",
+            "local_src": "cleaned_cases_image_cache/1f6735b001b4cfebe71af0a0a90f4d933448b800.png"
+          },
+          {
+            "image_id": "fig13",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBLcRW7l5uvwaNQDPkqiatk7Bl7AdqNXEITdhbMiaxPh6JWw1ucYuxXXdw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "This patient meets 4 criteria: fever, splenomegaly, elevated serum ferritin, and hemophagocytosis in the bone marrow.",
+            "local_src": "cleaned_cases_image_cache/735320376d2d0153235fac779f7773b12b82eec9.jpg"
+          },
+          {
+            "image_id": "fig14",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBkumX0EWDK8GPd2ZnhJZWdHVGtNsstcyd3u1INRxQBz4RlxTmuibEVhA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Connective tissue disease",
+            "local_src": "cleaned_cases_image_cache/4bfcbd17c158626d7982b9cd7a81662718b89f8d.png"
+          },
+          {
+            "image_id": "fig15",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBwB7cIdnicy2W3Plo3x9xjRcJpMfxEhIujXTeX8X7rAuQ5ribU1DlvU0w/640?wx_fmt=png&from=appmsg",
+            "near_text": "Chest CT showed (Day +152)",
+            "local_src": "cleaned_cases_image_cache/3d63c0165ccaa489d063eb81d1e8106720414e80.png"
+          },
+          {
+            "image_id": "fig16",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBTqibU8gRwmDnkaicwX0j54orC3DiaMEwKn6BGbTpQ9ic3yo4VpABZ7LIibQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Chest CT showed (Day +200)",
+            "local_src": "cleaned_cases_image_cache/b979b4794f792e7c4d18c9f7d81dfb2016f1b614.png"
+          },
+          {
+            "image_id": "fig17",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBdBmlAUDJjOoqREYCRUzX7Z3vS2DNPSnu2GIzVp0K9hPibA1W9egwiatg/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "For treatment, fluconazole was given as anti-cryptococcal therapy.",
+            "local_src": "cleaned_cases_image_cache/1053b2b76a9c81d751841c345569cc9e0aff74e8.jpg"
+          },
+          {
+            "image_id": "fig18",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBO1sK41nSo6SxMgicHVjRKtlia6N8ZtibFia3u1ylfgibib2y85JApxtDNia1g/640?wx_fmt=png&from=appmsg",
+            "near_text": "Chest CT showed (Day +215)",
+            "local_src": "cleaned_cases_image_cache/c67073b0e1bed5413786eda99166f83be046e4c1.png"
+          },
+          {
+            "image_id": "fig19",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBceXeY65Lrg34vlficev6NgUFjPhwiaF0kz6beLW083ltjGWH7ABibIp9Q/640?wx_fmt=png&from=appmsg",
+            "near_text": "Chest CT showed (Day +474)",
+            "local_src": "cleaned_cases_image_cache/b65c7513d967ed14f84cf27b29ccc491b63d86b8.png"
+          },
+          {
+            "image_id": "fig21",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBZG2jicicMpwhe01LAfxOCJghTohZVGTiaWwXuiaRfYvtWWeZnTP7HrG79g/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "The image below is the patient's MRI of the lower extremity joints",
+            "local_src": "cleaned_cases_image_cache/f332c22068cc27bd7f1afe419139958aa8f4ad4b.jpg"
+          },
+          {
+            "image_id": "fig22",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibButxfWk112g1wRQoSyFrYicFtM9iapeV7ePDK6gia4Blk3UPA0aMAdAzGA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "On Day +495, a chest CT was performed",
+            "local_src": "cleaned_cases_image_cache/79105f964d4729b24fbd551a921a6cba7c39d043.jpg"
+          },
+          {
+            "image_id": "fig23",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBia9ook5fdSOichZvPuIFLIhEytdU23zTUw9gasiatRla1QLicIVhO1xzDQ/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "The diagnostic analysis is as follows",
+            "local_src": "cleaned_cases_image_cache/73578118128628d42caf221a61110cd99e799eb7.jpg"
+          },
+          {
+            "image_id": "fig25",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBTfky9azc5MD3h1yrk67FLfDFlR6dHsOqOW1YWicibGcwzS8Zo2q9nycA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "What new findings are suggested by repeat testing of the relevant parameters?",
+            "local_src": "cleaned_cases_image_cache/7bc7f257317417e64890e3ecdfbce1cb97dd5ce3.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "hemophagocytic syndrome",
+            "evidence": [
+              "Meets 4 criteria: fever, splenomegaly, elevated serum ferritin, and hemophagocytosis in the bone marrow"
+            ],
+            "exclusion_reasons": [
+              "Did not meet 5 criteria of the HLH-2004 diagnostic criteria"
+            ]
+          },
+          {
+            "name": "Solid malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The PET-CT results do not support a diagnosis of a solid malignant tumor."
+            ]
+          },
+          {
+            "name": "Non-solid malignant tumor (leukemia)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Blood/urine light chains were negative; bone marrow morphologic examination and flow cytometry showed no abnormalities, not supporting a diagnosis of leukemia."
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Skin tissue biopsy pathology showed no obvious atypical cells."
+            ]
+          },
+          {
+            "name": "Connective tissue disease",
+            "evidence": [
+              "Some rheumatologic and immunologic markers are positive"
+            ],
+            "exclusion_reasons": [
+              "No diagnostic evidence"
+            ]
+          },
+          {
+            "name": "Pulmonary cryptococcosis",
+            "evidence": [
+              "Venous blood cryptococcal antigen positive",
+              "in conjunction with pulmonary imaging"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Adult-onset Still's disease",
+            "evidence": [
+              "Prolonged recurrent fever, accompanied by a faint red rash",
+              "Meets 2 major criteria of the diagnostic criteria for adult Still's disease",
+              "Meets 3 minor criteria: splenomegaly, abnormal liver function, and negative rheumatoid factor and antinuclear antibody"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Rheumatoid arthritis",
+            "evidence": [
+              "Symmetric polyarticular pain, rheumatoid factor (+-), erythrocyte sedimentation rate, elevated serum ferritin, joint pain >6 weeks",
+              "Meets the following features: generalized rash, interstitial lung changes, effective response to steroid therapy, and MRI showing periarticular synovitis",
+              "Total score: 6"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "hemophagocytic syndrome",
+        "evidence": [
+          "Meets 4 criteria: fever, splenomegaly, elevated serum ferritin, and hemophagocytosis in the bone marrow"
+        ],
+        "exclusion_reasons": [
+          "Did not meet 5 criteria of the HLH-2004 diagnostic criteria"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Solid malignant tumor",
+        "evidence": [
+          "Tumor markers CA199, CA12, and NSE are elevated."
+        ],
+        "exclusion_reasons": [
+          "The PET-CT results do not support a diagnosis of a solid malignant tumor."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Non-solid malignant tumor (leukemia)",
+        "evidence": [
+          "Recurrent fever, markedly elevated ferritin, splenomegaly, hemophagocytosis in the bone marrow"
+        ],
+        "exclusion_reasons": [
+          "Blood/urine light chains were negative; bone marrow morphologic examination and flow cytometry showed no abnormalities, not supporting a diagnosis of leukemia."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Recurrent fever, markedly elevated ferritin, splenomegaly"
+        ],
+        "exclusion_reasons": [
+          "Skin tissue biopsy pathology showed no obvious atypical cells."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Connective tissue disease",
+        "evidence": [
+          "Some rheumatologic and immunologic markers are positive"
+        ],
+        "exclusion_reasons": [
+          "No diagnostic evidence"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Adult-onset Still's disease",
+        "evidence": [
+          "Prolonged recurrent fever, accompanied by a faint red rash",
+          "Consistent with fever, splenomegaly, elevated serum ferritin, and bone marrow hemophagocytosis,"
+        ],
+        "exclusion_reasons": [
+          "sCD25, NK cell activity, and triglycerides/fibrinogen did not meet the criteria; the patient did not meet 5 criteria required by the HLH-2004 diagnostic criteria."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat sCD25",
+          "basis_in_stage3_input": "Repeat sCD25: 118.29 pg/mL (within the normal range)",
+          "why_order_this_exam": "The patient has long-term recurrent high fever, splenomegaly, cytopenias, persistently markedly elevated ferritin, and hemophagocytosis in the bone marrow. HLH has consistently been highly suspected clinically, but previously the HLH-2004 criteria were at one point insufficiently met, and further completion of key immune activation markers is needed. sCD25 reflects the degree of T-cell/macrophage activation and helps determine whether a persistent hypercytokinemic state is present, and distinguish it from other hyperinflammatory syndromes such as post-infectious inflammation and adult-onset Still disease. Although the current result is normal, the purpose of repeating this test is to verify whether the evidence chain for HLH is complete, assess the current intensity of immune activation, and provide a basis for whether to initiate or intensify subsequent immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NK cell activity",
+          "basis_in_stage3_input": "NK cell activity 14.37% (decreased)",
+          "why_order_this_exam": "During the course of the disease, the patient had recurrent fever accompanied by decreased WBC, Hb, and PLT, repeatedly elevated ferritin >1500ug/L, and hemophagocytosis was seen in the bone marrow, suggesting a high possibility of hemophagocytic syndrome; however, the diagnostic criteria had not yet been fully met previously, and the core functional indicators for HLH need to be tested. Decreased NK cell activity is important supporting evidence for HLH, especially primary or genetically related HLH, and may help explain the patient's persistent immune dysregulation after recurrent COVID-19 infections and inflammatory triggers, rather than merely simple infection or activity of rheumatic immune disease. This test directly serves confirmation of diagnosis and classification, and also affects the appropriateness and urgency of subsequently selecting immunosuppressive treatment such as dexamethasone and cyclosporine.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Familial hemophagocytic lymphohistiocytosis-related gene testing",
+          "basis_in_stage3_input": "Concurrent genetic testing for familial hemophagocytic syndrome-related genes",
+          "why_order_this_exam": "Although the patient is a 62-year-old adult, the clinical course is characterized by recurrent fever, cytopenias, markedly elevated ferritin, hemophagocytosis in the bone marrow, and decreased NK cell activity, and was repeatedly triggered after multiple infections, suggesting that it should not be understood solely as secondary HLH; delayed-onset adult primary HLH or an underlying genetic predisposition should be considered. Genetic testing related to familial hemophagocytic syndrome is performed to determine whether abnormalities are present in the cytotoxic function pathway, thereby explaining the recurrent disease episodes and infection-triggered features, and helping differentiate purely infection-associated HLH, adult-onset Still disease-associated MAS, and genetically related HLH. This test has important value for final classification, prognosis assessment, selection of treatment intensity, and evaluation of familial genetic risk.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeat testing showed sCD25 118.29 pg/mL (within the normal range); NK cell activity 14.37% (decreased). Concurrent familial hemophagocytic syndrome-related genetic testing showed a heterozygous mutation in the XIAP gene (p.Q423P variant).",
+      "images": [
+        {
+          "image_id": "fig26",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBnQJawM3maaQtOuJa6kUtUuC81uUCqBQs67aSyVO5FibqzicRGmyxIxJA/640?wx_fmt=png&from=appmsg",
+          "near_text": "NK cell activity 14.37%; decreased NK cell activity.",
+          "local_src": "cleaned_cases_image_cache/2f6b29e23e1810b06ff112bbb7cfc73967a28b3a.png"
+        },
+        {
+          "image_id": "fig27",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibBBNUfKpO6P19HicLRPIGgF1wCTtFfCdbork4fHogRibbTYpZ1vpSBUx8A/640?wx_fmt=png&from=appmsg",
+          "near_text": "Concurrent testing for familial hemophagocytic syndrome-related genes was performed, with the results as follows:",
+          "local_src": "cleaned_cases_image_cache/db0e8ef7a5db4809e72394b82ce57c4b06540b28.png"
+        },
+        {
+          "image_id": "fig28",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibB2SQjHhlardYafUw2fhbjsOm6M1omQgerhwxfNYibWCjJKicmfZH6yZ7g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Diagnostic analysis was performed according to the HLH-2004 diagnostic criteria published by the Histiocyte Society:",
+          "local_src": "cleaned_cases_image_cache/fc49f43da1cd721151606d2394d68292f6552743.png"
+        },
+        {
+          "image_id": "fig29",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKqxHlN5oGozB7JWrDw5pibB1nbhCl5ZN9LD3OsLORbYGA08zQPNvCicn3oDB3RWpuvs69B2rQkpxdQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Diagnostic analysis was performed according to the HLH-2004 diagnostic criteria published by the Histiocyte Society:",
+          "local_src": "cleaned_cases_image_cache/58bf036a50526b765364e6144d63ba9a4e6c9017.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Hemophagocytic syndrome Hypertension Coronary artery disease",
+      "diagnostic_basis": [
+        "Fever",
+        "Splenomegaly",
+        "Complete blood count (decreased RBC and WBC)",
+        "Elevated serum ferritin",
+        "Bone marrow hemophagocytosis",
+        "NK cell activity 14.37%, decreased",
+        "Meets 6 criteria, satisfying the requirement of 5 criteria in the HLH-2004 diagnostic criteria.",
+        "Recurrent COVID-19 infection",
+        "Heterozygous mutation in the XIAP gene (p.Q423P variant)",
+        "Past medical history of hypertension and coronary artery disease"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Dexamethasone combined with cyclosporine"
+      ],
+      "treatment_response": [
+        "After anti-inflammatory treatment, the IL-6 level was closely monitored during treatment. The patient's symptoms gradually improved. A follow-up chest CT on Day +54 showed that the lesions had improved significantly compared with before. The patient was discharged, and the glucocorticoid dose was gradually tapered after discharge.",
+        "Given that the patient had long-term intermittent fever, had risk factors for fungal infection (glucocorticoid use for more than 3 weeks, use of broad-spectrum antibiotics, lymphopenia), chest CT showed nodular high-density opacities, and the BALF GM test was 2.31, pulmonary fungal infection was diagnosed clinically. Antifungal therapy with voriconazole 200 mg q12h was initiated on Day +120, and the patient's symptoms improved and the patient was discharged.",
+        "Given that the current examinations still could not confirm fever caused by noninfectious factors in this patient, pulmonary fungal infection was considered; voriconazole antifungal therapy was continued, methylprednisolone was given for anti-inflammatory treatment and was gradually tapered, and supportive treatment including liver protection, choleretic therapy, and anticoagulation was provided. The patient's symptoms improved and the patient was discharged.",
+        "On Day +152, repeat chest CT showed that the lesion in the left lower lobe had partially resolved and become less dense compared with the prior study.",
+        "In terms of treatment, fluconazole was given for anti-cryptococcal therapy, methylprednisolone for anti-inflammatory treatment, and supportive treatment including anticoagulation and calcium supplementation was also provided. The patient's symptoms improved. Repeat chest CT on Day -150 showed that the right lower lobe consolidation had been absorbed compared with before, and the extent was smaller than before.",
+        "On Day +474, follow-up chest CT showed that the consolidation in the right lower lung had been markedly absorbed compared with previously, and the extent was markedly reduced compared with previously.",
+        "After the above treatment, the patient's fever, joint pain, and rash were relieved."
+      ]
+    }
+  }
+}

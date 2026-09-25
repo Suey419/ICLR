@@ -1,0 +1,509 @@
+{
+  "status": "success",
+  "case_id": "case_179",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient was a 70-year-old man employed in seafood processing. In early period, around Day 0, he presented to an outside hospital for “persistent dull pain in the right lower back for 1 day.” He had no cough, sputum production, chest pain, dyspnea, or fever. Chest CT on Day 0 (Figure 1) showed diffusely distributed bilateral pulmonary nodules of varying sizes (diameter 3-8 mm), some distributed along the bronchovascular bundles with a “tree-in-bud” pattern; the cortex of the right posterior 8th rib was slightly rough. CBC and CRP were mildly elevated (WBC 11.33×10^9/L, CRP 53.89 mg/L), with mild anemia (Hb 105 g/L). Serum tumor marker testing showed elevation of CA125 only (145 U/mL, upper limit of normal <35 U/mL). From Day 0 to Day +3, the patient was hospitalized at the local hospital. Pathology from CT-guided lung needle biopsy (Figure 2) showed a large amount of fibrinous exudate/necrotic material with a small amount of inflammatory cell infiltration; no tumor cells were seen. Tissue from the lung biopsy was simultaneously sent for pathogen mNGS, which showed Candida genus 82, Candida parapsilosis 82, Meyerozyma 20, and Meyerozyma guilliermondii 14. Blood D-dimer was 14.3 mg/L. As the diagnosis could not be clarified at the local hospital, he presented to our hospital emergency department on Day +13. Emergency CTPA (Figure 3) showed poor filling of multiple pulmonary artery branches in the lateral segment of the right middle lobe and both lower lobes, but no thrombus was seen, and he was therefore admitted to our department with “pulmonary shadow.” Physical examination: no remarkable findings on cardiac or pulmonary auscultation.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGAlqiagmbibmG0sUGk1vjicdpOw9Ch6G7uvZpZ7YoRI8vWZXUGAyyw30iaQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Chest CT at an outside hospital (Day 0)",
+          "local_src": "cleaned_cases_image_cache/ab13080e5d90d31ebcbd29725dd950b1fe524d31.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGbsNFVVQZq1df5acKLs8zPe9qeQFoKDLOqhKVfOvbJhpHNZ68IiaEhKw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. Pathology of CT-guided lung biopsy at an outside hospital",
+          "local_src": "cleaned_cases_image_cache/edac2839db13130806160736aa72657ff97c8c93.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGOSbGWQEdKBJX7lXicsHJDUo52JvJV77R5ECKiaib0MyZIgwZGaCpa63Tg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3 Pulmonary CTPA in the emergency department of this hospital (Day +13)",
+          "local_src": "cleaned_cases_image_cache/90f6463c847366a63733ce3ee3c769246f43119c.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Hematogenous disseminated pulmonary fungal infection (including Candida-related pulmonary involvement)",
+          "supporting_evidence": [
+            "Lung puncture tissue was simultaneously sent for tissue pathogen mNGS, which indicated Candida 82, Candida parapsilosis 82, Meyerozyma 20, and Meyerozyma guilliermondii 14",
+            "Pathology from lung needle biopsy suggests a large amount of fibrinoid exudate/necrotic material, with a small amount of inflammatory cell infiltration, consistent with the possibility of an infectious necrotizing lesion.",
+            "Chest CT showed diffuse multiple small nodules in both lungs, some distributed along the bronchovascular bundles, which can be seen in hematogenous disseminated infection",
+            "Elevated inflammatory markers (elevated WBC and CRP)"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide high-risk background for invasive fungal infection, such as immunosuppression, diabetes, long-term corticosteroid use/chemotherapy, agranulocytosis, or positive fungal blood cultures.",
+            "The patient had no fever or significant respiratory symptoms",
+            "The Candida/yeast mNGS result may also represent contamination, colonization, or uncertain clinical significance; in the first stage, there was still no direct histomorphologic evidence of fungi in tissue."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary metastases or tumor-related pulmonary vascular dissemination",
+          "supporting_evidence": [
+            "The patient is a 70-year-old man, in an age group with a high incidence of tumors.",
+            "Chest CT showed diffusely distributed bilateral pulmonary nodules of varying sizes, with imaging features of hematogenous dissemination.",
+            "Serum tumor marker testing showed elevated CA125 only (145 U/mL)",
+            "Slight cortical irregularity of the right posterior 8th rib, with persistent dull pain in the right lower back for 1 day, suggesting a possible osseous lesion",
+            "Blood D-dimer was elevated at 14.3 mg/L. Emergency CTPA showed poor filling in multiple pulmonary arterial branches, which may be seen in tumor-related hypercoagulability or tumor microembolism."
+          ],
+          "opposing_evidence": [
+            "Pathology from lung needle biopsy showed no tumor cells",
+            "Some nodules have a \"tree-in-bud\" appearance, which is more commonly seen in infectious bronchiolar lesions rather than typical metastatic tumors.",
+            "The first-stage information did not provide clear evidence of an extrapulmonary primary tumor."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis or nontuberculous mycobacterial lung disease",
+          "supporting_evidence": [
+            "Chest CT showed that some nodules were distributed along the bronchovascular bundles with a \"tree-in-bud\" appearance, which is a common imaging finding of mycobacterial airway spread.",
+            "Diffuse multiple small nodules in both lungs can be seen in disseminated mycobacterial infection",
+            "Mild elevation of inflammatory markers and mild anemia can be seen in chronic infection"
+          ],
+          "opposing_evidence": [
+            "The patient had no respiratory tract infection symptoms such as cough, sputum production, or fever.",
+            "The lung biopsy pathology did not describe granulomas, caseous necrosis, or findings related to acid-fast bacilli.",
+            "Stage 1 information did not provide evidence of TB contact history, immunosuppression, or sputum examination findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute pulmonary thromboembolism with pulmonary infarction/hemorrhagic nodular lesions",
+          "supporting_evidence": [
+            "Blood D-dimer was markedly elevated at 14.3 mg/L",
+            "Emergency CTPA showed poor filling of multiple pulmonary artery branches in the lateral segment of the right middle lobe and both lower lobes",
+            "Persistent dull pain in the right lower back may be related to subpleural infarct lesions or pleural involvement",
+            "Imaging shows some peripheral subpleural nodular/patchy opacities; pulmonary infarction may present as peripheral wedge-shaped or nodular opacities."
+          ],
+          "opposing_evidence": [
+            "CTPA clearly showed no thrombus.",
+            "Diffuse multiple 3-8 mm nodules in both lungs with a \"tree-in-bud\" pattern are not typical imaging findings of ordinary thromboembolism",
+            "The patient had no common symptoms of pulmonary embolism such as chest pain and dyspnea."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Necrotizing pulmonary vasculitis, such as ANCA-associated vasculitis",
+          "supporting_evidence": [
+            "Multiple nodular opacities in both lungs, some with a necrotic pathologic background (abundant fibrinoid exudate/necrotic debris)",
+            "Poor opacification of the pulmonary artery branches suggests possible pulmonary vascular involvement",
+            "Elevated inflammatory markers"
+          ],
+          "opposing_evidence": [
+            "Information from the first stage did not indicate manifestations of systemic vasculitis such as sinusitis, hemoptysis, renal impairment, rash, or neuropathy.",
+            "Imaging shows a \"tree-in-bud\" pattern, which more strongly supports infectious bronchiolar spread.",
+            "The pathology did not describe granulomatous vasculitis or clear evidence of vascular wall inflammation."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Before diagnosis and treatment (HIV, hepatitis C, syphilis, hepatitis B serologies)",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum G and GM assays, cryptococcal antigen, and Aspergillus IgG antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear for Mycobacterium tuberculosis, sputum bacterial culture, and drug susceptibility testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatology and immunology panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anemia panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive serum tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Auxiliary examinations after admission: Infection-related screening: CBC + CRP: WBC 12.7×10^9/L↑, Hb 90 g/L↓, PLT 404×10^9/L↑, N 83.9%, whole blood CRP 33.4 mg/L↑. Urinalysis: occult blood 1+, otherwise unremarkable. Stool routine: normal. Blood biochemistry: albumin 29.9 g/L, LDH 434 U/L; liver function, renal function, electrolytes, and myocardial enzyme panel were all normal. Coagulation profile: D-dimer 9840 ug/L. pro-BNP: 406 pg/mL↑. Pre-treatment screening (HIV, hepatitis C, syphilis, hepatitis B panel): unremarkable. T-SPOT result positive: MTB antigen (ESAT-6) 1, MTB antigen (CFP-10) 7. Serum G test + GM test, cryptococcal antigen, and Aspergillus IgG antibody: normal. Sputum smear for Mycobacterium tuberculosis, sputum bacterial culture, and drug susceptibility testing: unremarkable. Rheumatology/immunology-related screening: rheumatology/immunology panel: ANA, ANCA, anti-CCP antibody, anticardiolipin antibody, immunoglobulins + complement + IgG4, and serum anti-GBM antibody were normal. Anemia panel: serum iron 4.0 umol/L; peripheral blood smear suggested neutrophilia. Coombs test negative. ESR: 26.00 mm/h↑. Tumor-related screening: comprehensive serum tumor marker panel: CA125 312.1 U/mL↑, others normal. Ultrasound suggested: enlarged left supraclavicular lymph node (0.86*0.70 cm), metastasis considered; no obvious enlarged lymph nodes in the bilateral neck or right supraclavicular region; multiple hepatic cysts; no obvious abnormalities in the gallbladder, pancreas, spleen, or retroperitoneum; no obvious abnormalities in the bilateral adrenal regions; no obvious abnormalities in the deep veins of both lower extremities. Echocardiography: hypoechoic mass lateral to the right atrial free wall; trace tricuspid regurgitation, mildly elevated pulmonary artery systolic pressure; tachycardia. Contrast-enhanced brain MRI suggested: no obvious abnormality.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Conventional anti-infective therapy was ineffective",
+              "Negative result of the initial lung puncture",
+              "Insufficient evidence of infection"
+            ]
+          },
+          {
+            "name": "rheumatic immune disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "There is currently no evidence of rheumatic disease."
+            ]
+          },
+          {
+            "name": "highly aggressive malignant tumor",
+            "evidence": [
+              "The lesions showed fulminant progression",
+              "Elevated blood counts and CRP, mild anemia, abnormally elevated D-dimer, elevated serum CA125",
+              "Chest CT showed multiple nodular opacities in both lungs, with subpleural nodules visible; the nodules are randomly distributed, and the nodules have recently increased in size, with increased pulmonary exudative opacities.",
+              "Enlarged left supraclavicular lymph node, consider metastasis",
+              "Hypoechoic mass lateral to the lateral wall of the right atrium"
+            ],
+            "exclusion_reasons": [
+              "There is currently no pathological basis from the outside hospital.",
+              "Multiple invasive biopsies failed to obtain definitive pathological evidence"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "highly aggressive malignant tumor",
+        "evidence": [
+          "The lesions showed fulminant progression",
+          "Elevated blood counts and CRP, mild anemia, abnormally elevated D-dimer, elevated serum CA125",
+          "Chest CT showed multiple nodular opacities in both lungs, with subpleural nodules visible; the nodules are randomly distributed, and the nodules have recently increased in size, with increased pulmonary exudative opacities.",
+          "Enlarged left supraclavicular lymph node, consider metastasis",
+          "Hypoechoic mass lateral to the lateral wall of the right atrium"
+        ],
+        "exclusion_reasons": [
+          "There is currently no pathological basis from the outside hospital.",
+          "Multiple invasive biopsies failed to obtain definitive pathological evidence"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CT-guided lung biopsy",
+          "basis_in_stage3_input": "CT-guided lung puncture was performed on the patient on Day +16.",
+          "why_order_this_exam": "The patient is a 70-year-old man with rapidly progressive diffuse multiple nodules in both lungs, some with a tree-in-bud pattern. Conventional anti-infective therapy was ineffective, and D-dimer was markedly elevated, with elevated CA125. The imaging findings could be consistent with infection, tumor, or vascular lesions. CT-guided lung biopsy is used to directly obtain tissue from the intrapulmonary lesions and is a key step in seeking pathologic evidence at the earliest and most accessible site of the pulmonary lesion. The purpose is to distinguish necrotizing infection, mycobacterial/fungal lesions, metastatic tumor, or a tumor of vascular origin, and to provide specimens for subsequent immunohistochemistry, molecular testing, and selection of treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology suggests (lung): lung tissue with extensive necrosis, with aggregation of spindle cells around the necrotic area; in conjunction with the clinical findings, tumor cannot be excluded.",
+          "why_order_this_exam": "After lung puncture, pathologic examination must be performed to explain the cause of the patient's multiple pulmonary nodules, explosive progression of the lesions, and lack of response to anti-infective therapy. In this case, inflammatory markers had previously shown mild to moderate elevation, and necrotic tissue had been seen at an outside hospital; clinically, it was necessary to determine whether this represented infectious necrosis, an inflammatory lesion, or a malignant tumor. Pathology can directly assess whether necrosis, atypical cells, and tumor growth patterns are present, which is crucial for establishing the direction toward malignancy, excluding simple infection, and deciding whether to continue additional immunohistochemistry and change the sampling site.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: CD68 positive in a few cells in necrotic tissue, CD163 focally positive; ALK -, SMA -; STAT6 -; SOX10 -; P53: no tissue present, Ki-67 +, CK (AE1/AE3) -, Desmin -.",
+          "why_order_this_exam": "Pulmonary pathology showed only extensive necrosis and aggregation of spindle cells around the necrotic areas; morphology was insufficient to determine the tumor origin, and further subclassification must rely on immunohistochemistry. The patient's condition progressed rapidly, with imaging showing a hematogenous dissemination pattern accompanied by pleural effusion and subsequent clues of cardiac involvement. The clinical focus of the differential diagnosis should include carcinoma, sarcoma, smooth muscle tumor, neurogenic tumor, inflammatory myofibroblastic tumor, etc. Immunohistochemistry is helpful in determining epithelial or mesenchymal origin, proliferative activity, and whether there is support for a specific tumor lineage, thereby narrowing the differential diagnosis and guiding whether to continue searching for a primary cardiac lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +18, the patient underwent bronchoscopy.",
+          "why_order_this_exam": "When a definitive diagnosis cannot be established by lung puncture biopsy and imaging shows that some lesions are distributed along the bronchovascular bundles with a tree-in-bud pattern, bronchoscopy can be used to again search for the cause from within the airways. The patient has no typical respiratory symptoms, but the pulmonary lesions are rapidly increasing, requiring evaluation for endobronchial infection, hemorrhage, necrotic lesions, or tumor invasion. Bronchoscopy can also provide access for subsequent EBUS localization, TBLB tissue sampling, and lavage specimen submission, in order to improve the diagnostic yield of etiologic and pathologic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS",
+          "basis_in_stage3_input": "EBUS identified a hypoechoic mass in the anterior basal segment of the right lower lobe",
+          "why_order_this_exam": "The patient has multiple pulmonary lesions with a complex distribution, and conventional bronchoscopy may not accurately identify the most valuable sampling site. EBUS can display the lesion location and echogenic characteristics in real time, helping to identify a hypoechoic mass in the anterior basal segment of the right lower lobe, suggesting the presence of a targetable parenchymal lesion. The clinical purpose of this examination is to improve biopsy yield, avoid purely necrotic areas as much as possible, and increase the chance of obtaining representative tissue in order to distinguish between infection and malignant tumor.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TBLB",
+          "basis_in_stage3_input": "TBLB and lavage were performed.",
+          "why_order_this_exam": "After EBUS identified a suspicious hypoechoic mass, TBLB was used to obtain lung tissue closer to the lesion parenchyma. The patient’s earlier percutaneous lung biopsy showed mainly necrosis, and the diagnosis remained uncertain. Imaging continued to progress and showed lesions following the course of the pulmonary artery branches, suggesting that infection alone could not explain all findings. The purpose of TBLB was to obtain tissue again for pathology and special stains to determine whether necrotic tumor, intravascular/vascular-origin lesions, or specific infection was present, thereby increasing the likelihood of a definitive diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "lavage",
+          "basis_in_stage3_input": "TBLB and lavage were performed.",
+          "why_order_this_exam": "The patient's imaging shows a tree-in-bud distribution and diffuse multiple nodules. In the initial differential diagnosis, infection—especially TB, fungal infection, and atypical pathogens—still requires careful evaluation; at the same time, because the lesions are progressing rapidly, it is also necessary to assess for tumor-related alveolar hemorrhage. Bronchoalveolar lavage can obtain clues regarding microbiology, cytology, and inflammation/hemorrhage, help resolve the differential diagnosis between infectious and noninfectious lesions, and provide specimens for subsequent testing such as culture, Xpert, GM, and mNGS.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine BALF analysis",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid routine: nucleated cells +/HP↑, red blood cells ++++/HP↑",
+          "why_order_this_exam": "BALF routine analysis is the most basic and important initial screening test after bronchoscopy. In the later stage, contrast-enhanced chest CT in this patient showed large areas of ground-glass opacity and halo sign-like changes. Combined with bloody pleural effusion and worsening anemia, the clinical question was whether there was an intrapulmonary hemorrhagic component and inflammatory cell reaction. A large number of red blood cells in the BALF supports alveolar/intralesional hemorrhage; combined with the fulminant progression of the clinical course, this further suggests the possibility of a vascular tumor or hemorrhagic infarction. An increased nucleated cell count may indicate a local inflammatory reaction, but infection cannot be diagnosed on this basis alone.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special bacterial smear",
+          "basis_in_stage3_input": "Lavage fluid was sent for special bacterial smear, bacterial culture, TB Xpert, G test, and cryptococcal antigen; all were negative.",
+          "why_order_this_exam": "The patient's multiple pulmonary nodules, tree-in-bud opacities, and necrotizing pathology make infection—especially hematogenous dissemination or necrotizing lung disease caused by unusual bacteria—consistently an important differential diagnosis. Tissue mNGS at an outside hospital previously detected Candida-related sequences, but the clinical significance was uncertain; therefore, direct smear is needed to rapidly look for evidence of unusual pathogens. This test is mainly used to exclude difficult-to-culture or highly suggestive unusual bacterial infections, to avoid misclassifying malignancy as infection or vice versa.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Lavage fluid was sent for special bacterial smear, bacterial culture, TB Xpert, G test, and cryptococcal antigen; all were negative.",
+          "why_order_this_exam": "The patient's WBC and CRP were elevated, and tree-in-bud and exudative changes were present on imaging; infection could not be completely ruled out in the early stage of hospitalization. Bacterial culture of the lavage fluid was used to look for common and opportunistic pathogenic bacteria, assess whether there was a bacterial infection that could explain the multiple nodules and necrotic pathology, and provide a basis for antimicrobial therapy. A negative culture helps reduce the diagnostic weight of infection and prompts the clinical focus to further shift toward malignant tumor and vascular-origin lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB Xpert",
+          "basis_in_stage3_input": "Lavage fluid was sent for special bacterial smear, bacterial culture, TB Xpert, G test, and cryptococcal antigen; all were negative.",
+          "why_order_this_exam": "Some lesions on the patient's chest CT show a tree-in-bud pattern, TSPOT is positive, and necrosis is seen on both lung tissue and bronchoscopy pathology; therefore, TB or mycobacterial infection must be a key focus of evaluation. X-Pert can rapidly detect Mycobacterium tuberculosis nucleic acid in lavage fluid and also has value for drug resistance screening. Its role is to exclude infectious TB, which has a completely different treatment pathway, as soon as possible, and to avoid inappropriate tumor treatment or delay in isolation and anti-TB management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal antigen",
+          "basis_in_stage3_input": "Lavage fluid was sent for special bacterial smear, bacterial culture, TB Xpert, G test, and cryptococcal antigen; all were negative.",
+          "why_order_this_exam": "In elderly patients, diffuse multiple nodules in both lungs need to be differentiated from fungal infections such as cryptococcosis, especially when pathology is predominantly necrotic and routine cultures are negative, in which case additional targeted fungal screening is needed. Cryptococcal antigen testing is used to rapidly exclude treatable pulmonary involvement by cryptococcus, avoiding a misleading diagnostic direction due to nonspecific imaging and pathology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF G test, GM test, mNGS",
+          "basis_in_stage3_input": "BALF sent for GM test: 600 pg/ml (+)",
+          "why_order_this_exam": "The patient's pulmonary lesions progressed rapidly, with marked necrosis, and outside-hospital mNGS had previously suggested fungal involvement; therefore, further evaluation for invasive fungi such as Aspergillus was needed. BALF-GM is more sensitive than serum testing for pulmonary fungal infection. This test was performed to determine whether the ground-glass opacities, halo sign-like changes, and necrotic lesions were caused by fungal infection. Although the result was positive, subsequent culture, mNGS, special stains, and pathology did not support fungal infection, indicating that this result should be interpreted with caution and is used primarily for the infectious differential diagnosis rather than as a standalone definitive diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic pathology",
+          "basis_in_stage3_input": "Bronchoscopic pathology showed: (anterior basal segment of the right lower lobe) bronchial mucosa, lung tissue, and coagulative necrosis were seen.",
+          "why_order_this_exam": "Tissue obtained by TBLB requires pathologic analysis to determine whether the intrapulmonary lesion represents infectious necrosis, infarct-related change, or tumor-related necrosis. The patient’s lesion followed the course of small branches of the pulmonary artery, and was subsequently accompanied by bloody pleural effusion and progressive decline in anemia. If bronchoscopy pathology again shows only coagulative necrosis, this suggests that the lesion may be highly necrotic and that sampling may easily miss the viable tumor area. This examination is important for assessing whether the previous sampling was adequate and whether biopsy should be redirected to extrapulmonary or cardiac lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS",
+          "basis_in_stage3_input": "Immunohistochemistry results: PAS -, PASM -, reticulin stain -, acid-fast stain -.",
+          "why_order_this_exam": "Both the lung tissue and bronchoscopy pathology were predominantly necrotic; special stains are needed to evaluate for pathogens such as fungi that may be occult within necrotic tissue. PAS can help demonstrate certain fungi, mucoid material, and some tissue structures, addressing the key question of whether the necrotic lesion represents fungal infection. A negative result helps reduce the likelihood of a fungal necrotizing lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Immunohistochemistry results: PAS -, PASM -, reticulin stain -, acid-fast stain -.",
+          "why_order_this_exam": "The patient’s imaging shows a tree-in-bud pattern, TSPOT is positive, and pathology shows necrosis; therefore, TB and other acid-fast bacillary infections are key differential diagnoses that must be excluded. Acid-fast staining is used to directly look for acid-fast bacilli in tissue and is very important for determining whether necrotic lesions are caused by mycobacteria. Although a negative result cannot absolutely exclude this, when combined with X-Pert, PCR, and the clinical course, it can significantly reduce the probability of a TB diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fluorescent PCR test for Mycobacterium tuberculosis",
+          "basis_in_stage3_input": "Mycobacterium tuberculosis fluorescence PCR test was negative.",
+          "why_order_this_exam": "The patient's positive T-SPOT, pulmonary tree-in-bud nodules, and necrotizing pathology all suggest TB and require further nucleic acid testing for confirmation or exclusion. Fluorescence PCR for Mycobacterium tuberculosis on tissue/BALF is more sensitive than smear microscopy and can provide rapid results when the bacillary load is low. Its clinical value lies in clarifying the possibility of TB as soon as possible, to avoid delaying the clinical direction because of misdiagnosis of TB during the terminal progressive course of the tumor.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of fine-needle aspiration of the left supraclavicular lymph node",
+          "basis_in_stage3_input": "Day +18 Left supraclavicular lymph node fine-needle aspiration pathology: (left supraclavicular lymph node) lymphocytes and histiocytes are seen, with focal degenerative necrosis.",
+          "why_order_this_exam": "Admission screening revealed left supraclavicular lymphadenopathy, with MT considered; however, multiple pulmonary samplings were all nondiagnostic, so an extrapulmonary lesion that was more accessible and had a potentially higher positive yield needed to be selected for pathologic confirmation. This examination was used to determine whether metastatic tumor or infectious lymphadenopathy was present and to help establish the evidence chain for systemic malignant disease. Although the result was still not diagnostic, it showed degenerative necrosis, suggesting that the lesion had marked necrotic features and also explaining the reason for multiple negative biopsies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT scan",
+          "basis_in_stage3_input": "On Day +21, PET-CT examination (Figure 4) showed multiple hypermetabolic lesions and a moderate pleural effusion.",
+          "why_order_this_exam": "When pulmonary lesions, supraclavicular lymph nodes, and infectious disease workup all fail to provide a definitive answer, and the lesions show explosive progression over a short period, PET-CT is needed to assess whole-body metabolic distribution. Its purpose is to identify the primary lesion, evaluate the extent of extrapulmonary involvement, identify hypermetabolic lesions more suitable for biopsy, and provide directional evidence to distinguish between infection and tumor. In this case, PET-CT demonstrated focally increased metabolism in the right atrium and multiple hypermetabolic lesions, which was highly valuable in suggesting a primary malignant cardiac tumor and metastases to the lungs, pleura, and lymph nodes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "basis_in_stage3_input": "Follow-up contrast-enhanced chest CT on Day +24 (Figure 5) showed diffuse, extensive ground-glass opacities in both lungs.",
+          "why_order_this_exam": "The patient's pulmonary lesions worsened significantly over a short period of time, with newly developed large areas of ground-glass opacity and coalescence and enlargement of preexisting nodules. Clinically, dynamic assessment of the nature of the lesions and the rate of progression is required. Contrast-enhanced CT is used to determine the relationship between the lesions and the course of the pulmonary vessels, and whether there are changes such as hemorrhage, infarction, tumor dissemination, and increased pleural effusion. This examination directly addresses the question of 'why the condition is rapidly worsening' and provides a basis for thoracentesis, further tissue sampling, and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "thoracentesis",
+          "basis_in_stage3_input": "The volume of the right pleural effusion increased rapidly and was confirmed by thoracentesis to be a hemorrhagic pleural effusion.",
+          "why_order_this_exam": "The patient’s right pleural effusion increased rapidly, suggesting that the condition had entered a more critical stage; this could be caused by infection, pleural involvement by tumor, hemorrhage, or factors related to cardiac function. Thoracentesis has both diagnostic significance and a role in relieving symptoms and assessing bleeding risk. After thoracentesis confirmed bloody pleural effusion, together with the intrapulmonary halo sign, worsening anemia, and subsequent evidence of a cardiac tumor, this more strongly supports hemorrhagic pleural/pulmonary involvement caused by a vascular malignant tumor.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "basis_in_stage3_input": "Pleural fluid routine analysis, biochemistry, tumor markers, culture, and mNGS were all negative.",
+          "why_order_this_exam": "After thoracentesis, pleural fluid routine analysis should first be performed to determine the nature of the effusion, cellular components, and whether it has bloody, inflammatory, or exudative characteristics. In this patient, the pleural effusion is increasing rapidly, and clinically it is necessary to distinguish among infectious pleuritis, malignant pleural effusion, and hemorrhagic effusion. Pleural fluid routine analysis helps explain the mechanism of effusion formation and, in combination with subsequent cytology and culture results, assists in determining the nature of pleural involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "basis_in_stage3_input": "Pleural fluid routine analysis, biochemistry, tumor markers, culture, and mNGS were all negative.",
+          "why_order_this_exam": "Pleural fluid biochemistry is used to distinguish exudate from transudate and to determine the contribution of inflammation, tumor, or other systemic factors to the formation of effusion. The patient has concomitant moderate pericardial effusion, extensive pulmonary lesions, and possible malignancy; pleural fluid biochemistry can help assess changes in pleural permeability and the degree of tissue injury, and provide basic information for differentiating infectious effusion from malignant effusion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion tumor markers",
+          "basis_in_stage3_input": "Pleural fluid routine analysis, biochemistry, tumor markers, culture, and mNGS were all negative.",
+          "why_order_this_exam": "In the setting of rapidly progressive pulmonary lesions, PET-CT indicating multiple hypermetabolic lesions, and pleural effusion, it is necessary to assess whether the pleural fluid supports malignant pleural involvement. Although pleural fluid tumor markers cannot establish the diagnosis independently, they can serve as one of the supportive pieces of evidence for malignant pleural effusion, help differentiate infectious from neoplastic effusions, and should be interpreted in conjunction with exfoliative cytology and imaging findings.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid culture",
+          "basis_in_stage3_input": "Pleural fluid routine analysis, biochemistry, tumor markers, culture, and mNGS were all negative.",
+          "why_order_this_exam": "The patient has elevated inflammatory markers and rapidly increasing pleural effusion; pleural infection or secondary infection should be excluded. Pleural fluid culture is used to identify bacterial or fungal pathogens and provides a basis for whether antimicrobial therapy needs to be adjusted. Negative culture results, together with other negative infectious workup results, help further reduce the likelihood of an infectious explanation and support tumor-related hemorrhagic pleural effusion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid mNGS",
+          "basis_in_stage3_input": "Pleural fluid routine analysis, biochemistry, tumor markers, culture, and mNGS were all negative.",
+          "why_order_this_exam": "When pleural fluid culture and routine pathogen testing are negative and the nature of the effusion is complex, pleural fluid mNGS can broaden the range of pathogen detection, especially in cases in which special pathogens are suspected but the detection rate of conventional methods is low. In this case, its purpose was to further exclude infectious pleural effusion caused by difficult-to-detect pathogens and avoid misidentifying a highly necrotic malignant lesion as an occult infection. A negative result supports a noninfectious etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Exfoliative cytology + immunohistochemistry",
+          "basis_in_stage3_input": "Repeated exfoliative cytology specimens showed that the smears contained lymphocytes, histiocytes, and mesothelial cells, with atypical changes in some cells.",
+          "why_order_this_exam": "After hemorrhagic pleural effusion appears, exfoliative cytology is one of the most direct non-histologic methods for evaluating malignant pleural effusion. PET-CT in this patient suggested the possibility of multiple metastases, and the key question in pleural fluid cytology is whether malignant cells can be detected, thereby reducing the need for repeat invasive tissue sampling. Although repeated submissions showed only atypical changes without confirmation of malignancy, this result suggests that pleural fluid cytology has limited sensitivity, cannot exclude tumor, and prompted the clinical team to continue searching for a biopsy site with higher diagnostic yield.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Echocardiography",
+          "basis_in_stage3_input": "Echocardiography indicated the presence of a moderate pericardial effusion.",
+          "why_order_this_exam": "Early color Doppler echocardiography had already shown a hypoechoic mass lateral to the lateral wall of the right atrium, and subsequent PET-CT suggested increased focal metabolic activity in the right atrium. During the course of the disease, a moderate pericardial effusion developed; therefore, cardiac ultrasound must be used for dynamic assessment of the intracardiac mass and pericardial involvement. This examination can rapidly determine at the bedside whether a cardiac tumor is present, the risk of cardiac tamponade, and hemodynamic effects, providing a basis for evaluating the necessity and safety of subsequent cardiac MRI and intracardiac biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood D-dimer",
+          "basis_in_stage3_input": "The blood D-dimer level was as high as 14,3000 μg/L.",
+          "why_order_this_exam": "The patient had markedly elevated D-dimer from disease onset, and CTPA showed poor filling in multiple pulmonary artery branches but no typical thrombus. Subsequent chest CT lesions were also highly consistent with the course of the small pulmonary artery branches. Rechecking or monitoring blood D-dimer was intended to assess the possibility of persistent hypercoagulability, tumor-related thrombosis/microembolism, hemorrhagic infarction, or intravascular tumor embolism. The degree of abnormality was consistent with disease severity and also supported reinterpreting the pulmonary lesions from the perspective of a vascular-origin malignant tumor.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced cardiac MRI",
+          "basis_in_stage3_input": "After completion of contrast-enhanced cardiac MRI (Figure 6), an ICE-guided myocardial biopsy was performed on Day +33.",
+          "why_order_this_exam": "After echocardiography revealed an abnormal echogenic mass in the right atrium, and PET-CT showed increased metabolic activity in the right atrium and pericardial effusion, contrast-enhanced cardiac MRI is the key examination for further characterizing the nature, extent, and relationship of the cardiac mass to surrounding structures. Its clinical questions include: differentiating thrombus, vegetation, and tumor; determining whether it is a hypervascular malignant tumor; assessing the extent of pericardial and myocardial invasion; and providing imaging guidance for the route and risk assessment of endocardial/myocardial biopsy. It plays a निर्णative guiding role in ultimately identifying primary right atrial angiosarcoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ICE-guided endomyocardial biopsy",
+          "basis_in_stage3_input": "Underwent ICE-guided myocardial biopsy on Day +33.",
+          "why_order_this_exam": "Because examinations of multiple sites including the lung, bronchoscopy, lymph nodes, and pleural effusion did not yield a definitive diagnosis, while cardiac imaging had already strongly suggested a primary malignant lesion of the right atrium, direct tissue sampling of the cardiac lesion was necessary. The cardiac lesion was in a special location and carried high risk; use of ICE guidance allowed real-time visualization of intracardiac structures, improving sampling accuracy and reducing the risk of complications such as perforation and cardiac tamponade. The core purpose of this examination was to obtain tissue from the primary lesion, in order to resolve the issue of final definitive diagnosis for the entire case and determine whether antitumor therapy might be possible.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endomyocardial biopsy histopathology + immunohistochemistry",
+          "basis_in_stage3_input": "Histopathology of the endocardial biopsy tissue (Figure 7) showed: a spindle cell tumor with coagulative necrosis; the tumor cells were atypical, and immunohistochemistry suggested a vascular-origin tumor.",
+          "why_order_this_exam": "This was the most critical histopathologic examination for establishing the diagnosis in this case. Multiple prior invasive tissue samplings had failed to establish a diagnosis because of extensive necrosis in the lesion, whereas cardiac MRI and PET-CT both indicated that the right atrial lesion was highly suspicious for a primary tumor; therefore, systematic pathologic evaluation of the endomyocardial biopsy tissue was required. This examination directly addressed whether a primary malignant cardiac tumor was present, whether the tumor morphology was consistent with spindle cell sarcoma, and whether necrosis and atypia were present, thereby providing the core basis for the final diagnosis of high-grade angiosarcoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NGS testing",
+          "basis_in_stage3_input": "Molecular characteristics: NGS detected an inactivating TP53 mutation and MYC amplification.",
+          "why_order_this_exam": "After endocardial pathology and immunohistochemistry had already suggested a vascular neoplasm, NGS was used for further molecular subtyping and assessment of biologic behavior. The patient had an extremely rapid disease course, extensive pulmonary dissemination, recurrent hemorrhage, and progressive anemia; clinically, it was necessary to determine whether molecular features supporting a high-grade sarcoma were present and to provide a basis for potential treatment strategies, prognostic assessment, and academic-level pathologic confirmation. TP53 loss-of-function mutation and MYC amplification were consistent with a high-grade sarcoma, strengthening the credibility of the final diagnosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +16, the patient underwent CT-guided lung biopsy. Pathology suggested (lung) lung tissue with extensive necrosis and aggregation of spindle cells around the necrotic area; in conjunction with the clinical findings, tumor could not be excluded. Immunohistochemistry results: CD68 individual cells in necrotic tissue +, CD163 individual cells +; ALK -, SMA -; STAT6 -; SOX10 -; P53 no tissue seen; Ki-67 +, CK(AE1/AE3) -, Desmin -. On Day +18, the patient underwent bronchoscopy. EBUS detected a hypoechoic mass in the anterior basal segment of the right lower lobe, and TBLB and lavage were performed. Routine bronchoalveolar lavage fluid analysis: nucleated cells +/HP↑, red blood cells ++++/HP↑; the lavage fluid was sent for special bacterial smear, bacterial culture, TB X-Pert, G test, and cryptococcal antigen, all of which were negative; BALF was sent for GM test, 600 pg/ml (+), negative, mNGS negative. Bronchoscopic pathology showed: (anterior basal segment of the right lower lobe) bronchial mucosa, lung tissue, and coagulative necrosis. Immunohistochemistry results: PAS -, PASM -, reticulin stain -, acid-fast stain -. Mycobacterium tuberculosis fluorescence PCR was negative. Pathology from fine-needle aspiration of the left supraclavicular lymph node on Day +18: (left supraclavicular lymph node) lymphocytes and histiocytes were seen, with focal degenerative necrosis. On Day +21, PET-CT (Figure 4) suggested multiple hypermetabolic lesions and a moderate pleural effusion: right lower lobe lung mass with increased glucose metabolic uptake, CA with necrosis was considered possible; scattered multiple nodules in both lungs and pleura, some with increased glucose metabolism, metastases considered; scattered exudative opacities in both lungs; increased glucose metabolism in lymph nodes in the bilateral clavicular regions, mediastinum, and bilateral hila, metastases considered possible; focal increased metabolism in the right atrium, tumor lesion considered (possible metastasis), SUVmax=5.8. Repeat contrast-enhanced chest CT on Day +24 (Figure 5) suggested: diffuse, large patchy ground-glass opacities in both lungs; the preexisting nodules and patchy opacities had further coalesced and enlarged, with some forming 1-2 cm patchy consolidative opacities; the consolidative opacities closely corresponded to the course of small branches of the pulmonary artery; some lesions were surrounded by ground-glass opacities, forming a halo sign. The right pleural effusion increased rapidly, and bloody pleural effusion was confirmed by thoracentesis. Routine pleural fluid tests, biochemistry, tumor markers, culture, and mNGS were all negative. Repeated exfoliative cytology showed lymphocytes, histiocytes, and mesothelial cells on smear, with atypical changes in some cells; immunohistochemistry suggested reactive mesothelial cells. Echocardiography suggested a moderate pericardial effusion. Blood D-dimer level was as high as 14,3000 μg/L. After completion of contrast-enhanced cardiac MRI (Figure 6), ICE-guided myocardial biopsy was performed on Day +33. Histopathology of the endomyocardial biopsy tissue (Figure 7) showed: spindle cell tumor with coagulative necrosis, with atypia in the tumor cells; immunohistochemistry suggested a vascular-origin tumor. Molecular features: NGS detected a TP53 loss-of-function mutation and MYC amplification.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGsLZ3lMYqhVyvvjGSpEHRedx3tZmsFFYibBLMXpWEPq67PC4VwOpWkPA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4 Whole-body PET-CT",
+          "local_src": "cleaned_cases_image_cache/abec84994b00b32b744cfc94f8a43e01fdaab7e5.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGQv5RQNHmibGyEGFqeqXpp7bzsQNwSj9ICZJGkACxsLoQkM1ClxMv32g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4 Whole-body PET-CT",
+          "local_src": "cleaned_cases_image_cache/cb7ab3cd3c1aba490398e7ddb150bdb50ac6e718.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGwhHI1iblbJoMc5XSyTSf6A4tFkBYxmcdfCXZuneqy1Vfka3kFPlNe2g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 5 Chest CT (Day +24)",
+          "local_src": "cleaned_cases_image_cache/853b9259e2274dca0b25e787ff8de5c4807940f6.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGicia4oXQUIV8Gicn4Z0XGxkWZhUOxjoOaxEWdwBiaenicmiaeDHm671vicdCQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 6 Contrast-enhanced cardiac MRI (Day +30)",
+          "local_src": "cleaned_cases_image_cache/f1ad92b4b859d45aa2cc5db2665c0222a5342eca.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGqOBsRrnxOQgXBS5dWfg0Po6nA7lnxUDDbOZpcz2Fe4m2KHXC65zib0w/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 7. Histopathology of endomyocardial biopsy: H&E staining and immunohistochemistry",
+          "local_src": "cleaned_cases_image_cache/789e603eeffe26251b567e4f5f8d51061542151f.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGdN9JkhQjsib3OXUjO0zUgVffwP7ia9t18NFISXDVPtGAWw1GibQJ6hq4g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 7. Histopathology of endomyocardial biopsy: H&E staining and immunohistochemistry",
+          "local_src": "cleaned_cases_image_cache/c2b013f38fcbbeafc8a0a87033cc6b98c7781633.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGQABPkBmgDiaIBjD8hf8d64T89guh5uSulMKe3CZbBlPiaKsS7M0PaSNw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 8 Chest CT (Day +45)",
+          "local_src": "cleaned_cases_image_cache/08d871308e6ddc85fa0bc929fade8f7f2554a3ee.jpg"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIV3pa2wNqZexicyTTdmD8iaGpQ4hOHO4nGez7TpytBpPwp9sEf4CZHCY2NHwRdnYM5qPJuzvwkX12g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 8 Chest CT (Day +45)",
+          "local_src": "cleaned_cases_image_cache/04f531341d1d4aa2add6151a55d8d079991123b4.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Primary cardiac angiosarcoma (originating in the right atrium), metastases to both lungs and pleura",
+      "diagnostic_basis": [
+        "Elderly man, low back pain; contrast-enhanced cardiac MRI suggests an enhancing soft tissue shadow adjacent to the pericardium and right atrium, with malignancy considered, possibly a hypervascular sarcoma of pericardial origin; PET-CT suggests focally increased metabolism in the right atrium, with neoplastic lesion considered; chest CT suggests diffuse, large patchy ground-glass opacities in both lungs, and the areas of consolidation are highly consistent with the course of small branches of the pulmonary artery, forming a \"halo sign,\" suggesting hematogenous pulmonary metastases and hemorrhagic infarction from a malignant vascular tumor.",
+        "Histopathology of the endocardial biopsy showed a spindle cell tumor with coagulative necrosis, with atypia in the tumor cells; immunohistochemistry suggested a tumor of vascular origin, favoring angiosarcoma (CD34 diffuse+, Bcl-2 +, CD31 +, ERG +, Fli-1+).",
+        "Molecular features: NGS detected a TP53 loss-of-function mutation and MYC amplification, consistent with the molecular profile of high-grade sarcoma"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "maintenance component transfusion"
+      ],
+      "treatment_response": [
+        "Chest CT showed rapid progression of the pulmonary lesions. The patient's hemoglobin continued to decline and was repeatedly maintained with blood component transfusions. Terminal-stage malignancy was considered, and the patient was unable to tolerate chemotherapy; the patient was subsequently discharged against medical advice."
+      ]
+    }
+  }
+}

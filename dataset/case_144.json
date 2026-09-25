@@ -1,0 +1,485 @@
+{
+  "status": "success",
+  "case_id": "case_144",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 73 years old, was admitted on Day 0, with the chief complaint of \"cough and sputum production for more than 2 months, exertional dyspnea for 1 month.\" History of present illness: In early period, approximately 2 months before Day 0, he developed an irritating dry cough without an obvious precipitating factor, with occasional sputum production. In June, the cough and sputum production worsened, accompanied by exertional shortness of breath, and he presented to an outside hospital. On Day -31, chest CT showed multiple inflammatory changes in both lungs and localized emphysema; on Day -29, bronchoscopy showed changes of chronic bronchitis, and NGS of lavage fluid showed Haemophilus influenzae, among others. After anti-infective and expectorant treatment, the wheezing improved. On Day -24, repeat chest CT showed multiple infectious lesions in both lungs and small bilateral pleural effusions. After discharge, he continued to have recurrent cough and sputum production, with recurrent exertional wheezing, and was admitted on Day 0 through the outpatient clinic with \"community-acquired pneumonia.\" He had a weight loss of 10 kg over the past 2 months. Past medical history: Occasional atrial premature beats were identified in 1999; 50 years ago, he underwent resection of a left lower extremity lipoma. Personal history: Smoking history of more than 20 years; quit smoking 25 years ago. Physical examination on admission: Coarse breath sounds in both lungs, with audible dry and wet rales. Laboratory tests: CRP 21.75mg/L, PCT 0.058ng/ml, IL-6 62.09pg/ml, D-dimer 20.09ug/ml, CEA 76.50ug/L, CA125 137.00U/ml, CA19-9 4882.00U/ml, CYFRA211 79.5ug/l, ESR 23mm/h, sputum smear G+ cocci (4+), G- bacilli (2+), sputum cultures repeatedly reported Candida albicans, 24-hour urine protein quantification 498mg/24h, antinuclear antibody mitochondrial pattern, 1:100 positive, R052 antibody positive, anti-double-stranded DNA weakly positive.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyRGeD0iavicghVMYOTS55hSdGhYWJ8IXycU3azUEJcZBzYD96nI9x5jWg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Chest CT from an outside hospital on Day -31 (left) and Day -24 (right)",
+          "local_src": "cleaned_cases_image_cache/8c654e4828afbaa7f6d3bfd28f2f03b67972166e.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyLtSO0GA2PJAPGvnj9DfqOeYse0yKISMSfpLwncwiabwrmLnTMRuvQUw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1: Chest CT from an outside hospital on Day -31 (left) and Day -24 (right)",
+          "local_src": "cleaned_cases_image_cache/a37e0507294e306a4e6e06dccc04f498dcbad441.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyPX5b3cc7MH9mdTP5jFdAPAm6S0NibO78XN1XYL73EmYyoVVBicF3NdAQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Please see the fourth record for the reported results of imaging and bronchoscopy-related pathogen testing:",
+          "local_src": "cleaned_cases_image_cache/9da1185d5e6200703c55911c205396b56ea54f31.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Malignant lung neoplasms (represented by lung adenocarcinoma/pneumonic-type lung cancer or invasive mucinous adenocarcinoma)",
+          "supporting_evidence": [
+            "Weight loss of 10 kg over the past 2 months",
+            "Cough, sputum production, and shortness of breath after exertion persisted for more than 2 months. After anti-infective treatment, only the shortness of breath improved temporarily; after discharge, recurrent cough, sputum production, and shortness of breath recurred, suggesting that simple infection cannot fully explain the clinical course.",
+            "Chest CT on Day -31 and Day -24 both showed multiple lesions in both lungs, and there was still no resolution before admission in July; imaging showed persistent multiple bilateral pulmonary abnormalities.",
+            "In the first-stage images, multiple patchy, nodular/consolidative, and interstitial infiltrative opacities are seen in both lungs, some distributed along the peripheral and lower lungs, consistent with the imaging differential consideration of pneumonic-type tumor or multifocal lung adenocarcinoma.",
+            "Carcinoembryonic antigen 76.50 ug/L, CA19-9 4882.00 U/ml, CYFRA21-1 79.5 ug/L, and CA125 137.00 U/ml were markedly elevated, supporting the possibility of malignancy.",
+            "Elderly male with a smoking history of more than 20 years"
+          ],
+          "opposing_evidence": [
+            "NGS of the lavage fluid on Day -29 showed Haemophilus influenzae, among others, suggesting concurrent or prior infectious factors.",
+            "Elevated CRP 21.75mg/L and IL-6 62.09pg/ml, with dry and moist rales audible in both lungs, support that inflammatory pulmonary lesions may also be contributing to the current presentation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Persistent or recurrent bacterial pneumonia (community-acquired pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: cough and sputum production for more than 2 months, exertional dyspnea for 1 month",
+            "Chest CT on Day -31 showed multiple inflammatory changes in both lungs. Repeat chest CT on Day -24 showed multiple infectious lesions in both lungs, with small bilateral pleural effusions.",
+            "Bronchoscopy on Day -29 showed chronic bronchitic changes; NGS of the lavage fluid showed Haemophilus influenzae, among others.",
+            "Sputum smear: G+ cocci (4+), G- bacilli (2+)",
+            "Elevated CRP 21.75 mg/L and IL-6 62.09 pg/ml",
+            "On physical examination, breath sounds were coarse in both lungs, and dry and wet rales were audible.",
+            "First-phase images show multiple patchy infiltrates in both lungs, consistent with an infectious process"
+          ],
+          "opposing_evidence": [
+            "PCT 0.058 ng/ml is not elevated, not supportive of overt severe bacterial infection",
+            "After anti-infective and expectorant therapy, only wheezing improved; after discharge, there was still recurrent cough, sputum production, and recurrent wheezing, suggesting that simple bacterial infection is insufficient to explain this.",
+            "A 10 kg weight loss over the past 2 months and marked elevation of multiple tumor markers argue against simple community-acquired pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The course was subacute in onset, with persistent cough, sputum production, and exertional dyspnea.",
+            "After anti-infective therapy, the symptoms did not completely resolve and recurred, consistent with the differential diagnostic consideration of atypical infectious pulmonary parenchymal lesions.",
+            "On the phase 1 images, multiple patchy areas of consolidation/ground-glass opacity are visible in both lungs, predominantly peripheral and in the lower lungs, with a multifocal distribution, as can be seen in organizing pneumonia.",
+            "Multiple lesions in both lungs with a small pleural effusion can be seen in secondary organizing pneumonia"
+          ],
+          "opposing_evidence": [
+            "Tumor markers are markedly elevated; malignant neoplasm should be the primary concern first.",
+            "NGS of lavage fluid showed Haemophilus influenzae and others, suggesting possible concomitant infectious lesions.",
+            "The first-stage information did not provide evidence of typical pathology or glucocorticoid response"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Connective tissue disease-associated interstitial lung disease (CTD-ILD) or interstitial pneumonia with autoimmune features (IPAF)",
+          "supporting_evidence": [
+            "Antinuclear antibody, mitochondrial pattern, positive at 1:100",
+            "Ro52 antibody positive; the antibody profile in the first-stage image shows Ro52 IgG 4.12, strongly positive",
+            "Anti-double-stranded DNA was weakly positive; dsDNA IgG was positive in the phase 1 image.",
+            "24-hour urine protein quantification: 498 mg/24h, suggesting a possible clue to systemic autoimmune involvement",
+            "Stage 1 images show diffuse interstitial/reticular and patchy changes in both lungs; autoimmune-related interstitial lung disease should be considered."
+          ],
+          "opposing_evidence": [
+            "The first-stage text did not provide definite clinical manifestations of connective tissue disease such as typical rash, muscle weakness, arthritis, Raynaud phenomenon, or sicca symptoms.",
+            "The concurrent presence of bacteria on sputum smear, pathogens identified by NGS in lavage fluid, and markedly elevated tumor markers suggests that infection or malignancy is equally important or even a higher priority."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CBC+CRP+PCT+IL-6+ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry (liver and kidney function, electrolytes, albumin)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer + FDP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers + BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis B serologic markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infection screening (influenza A/B, respiratory five-item panel, endotoxin, G/GM tests, T-SPOT, four infectious disease tests)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear + sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fecal occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis + 24-hour urinary protein quantification",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulins + complement + IgG4",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody profile + 26-item myositis autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lower extremity venous ultrasound for VTE",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the upper abdomen",
+          "requirement": "required"
+        },
+        {
+          "exam": "PFT + FeNO",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage fluid (routine analysis, smear, culture, mNGS)",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "gastrointestinal endoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum exfoliative cytology examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung needle biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sigmoid colon mass biopsy + pathology + immunohistochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy histopathology + genetic testing + PD-L1 expression testing",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "New test results after admission: ECG: sinus rhythm with frequent premature atrial contractions, some occurring in runs, and occasional premature ventricular contractions. Echocardiography: mild pulmonary hypertension with mild tricuspid regurgitation, and impaired left ventricular diastolic function. Lower-extremity VTE: no thrombosis detected. Contrast-enhanced upper abdominal CT: multiple lesions in both lungs, bilateral pleural effusions, and partial atelectasis of the left lower lobe. PFT: severe obstructive ventilatory dysfunction and reduced diffusing capacity. Bronchoscopy: extensive inflammatory changes of the airway mucosa; a large amount of mucoid frothy secretions was seen overflowing from the orifice of the dorsal segment of the left lower lobe. BALF routine: WBC count 152×10^6/L; bacterial and fungal smear: G- bacilli (3+); bacterial culture: Pseudomonas aeruginosa; mNGS: Pseudomonas aeruginosa, Stenotrophomonas maltophilia, Acinetobacter baumannii. Based on the results, cefoperazone/sulbactam was given for anti-infective treatment. Repeat chest CT on Day +10 showed marked progression of the pulmonary lesions compared with the outside hospital; arterial blood gas analysis indicated that the oxygenation index had decreased to 200-250, the G test turned positive (238.1pg/ml), and the antibiotics were adjusted to meropenem + fluconazole for anti-infective treatment.",
+        "images": [
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyMRIx4Z4nK9gVOEYZTN4wC2rYcnia1ia3ibYEibf0BntusyYa63B7LyPP2Q/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 2: Electronic bronchoscopy",
+            "local_src": "cleaned_cases_image_cache/656606f9f58a43cb81e06ed73a7b2927c7c5e008.jpg"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyzkeAicR7iaoYtStn7bvV61WVJ6mYQbOMG22napxkknPvrhtpxa6ib5htA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 3: mNGS",
+            "local_src": "cleaned_cases_image_cache/fb279dc3e83e73149cc5ebc55482a6b06c34aa91.jpg"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyWKlIyHiblrqSrtpcI6YQ2gbbIA2O0pYPgOU8mj4IwQZSanLZ5l7nXlA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 4: Chest CT from an outside hospital on Day -24 (left) and from our hospital on Day +10 (right)",
+            "local_src": "cleaned_cases_image_cache/bdf95aa2e280e2188b985aa8fb49c00a73547af8.jpg"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyDqZuicX3l4xEba8AmEBa5LsAZeicLicJfU6iaxrHBypNHtnsQJEkguPcTw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 4: Chest CT from an outside hospital on Day -24 (left) and from our hospital on Day +10 (right)",
+            "local_src": "cleaned_cases_image_cache/7205d66f9828e1d566ba0e07cd1eb828eed7872b.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [
+              "Pseudomonas aeruginosa is definitely present in the lower respiratory tract."
+            ],
+            "exclusion_reasons": [
+              "Symptoms did not improve after treatment with susceptible antibiotics",
+              "Persistent progression on pulmonary imaging",
+              "No fever or obvious yellow purulent sputum"
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "The polymorphic pulmonary imaging findings are consistent with pulmonary TB (ground-glass opacities, nodules, consolidation, etc.)."
+            ],
+            "exclusion_reasons": [
+              "Symptoms are not typical, with no TB constitutional symptoms such as low-grade fever or night sweats.",
+              "T-SPOT negative, with only a mild elevation in ESR",
+              "Respiratory tract cultures and mNGS also yielded no positive findings."
+            ]
+          },
+          {
+            "name": "Fungal pneumonia",
+            "evidence": [
+              "Repeated sputum cultures showed Candida albicans",
+              "G test became positive during treatment"
+            ],
+            "exclusion_reasons": [
+              "No prior high-risk factors for fungal infection",
+              "Chest CT showed no halo sign or similar findings.",
+              "BALF fungal culture negative",
+              "GM test negative"
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "Disease course of more than 2 months, prolonged without resolution",
+              "No significant improvement after antibacterial treatment",
+              "No other discomfort aside from cough, sputum production, and shortness of breath",
+              "Respiratory specimen culture and mNGS were both positive for Pseudomonas aeruginosa."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Occult tumor (primary bronchogenic lung cancer or pulmonary metastases from gastrointestinal tract tumors)",
+            "evidence": [
+              "Chronic onset, prolonged disease course",
+              "History of heavy smoking",
+              "Marked weight loss over the past 2 months",
+              "There was no fever throughout the course of the illness.",
+              "Ineffective antibiotic therapy",
+              "The pulmonary lesions are polymorphic and progress relatively slowly.",
+              "Multiple tumor markers are abnormally elevated, with CA19-9 elevation being the most pronounced, accompanied by elevated carcinoembryonic antigen and CA125."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Interstitial lung disease",
+            "evidence": [
+              "Autoimmune markers showed antinuclear antibody (mitochondrial pattern), antinuclear antibody 1:100 positive, R052 antibody positive, and anti-double-stranded DNA (qualitative) weakly positive"
+            ],
+            "exclusion_reasons": [
+              "No obvious manifestations such as rash, muscle weakness, arthralgia, dry mouth, or dry eyes",
+              "24-hour urinary protein <0.5 g",
+              "No decrease in complement"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "The polymorphic pulmonary imaging findings are consistent with pulmonary TB (ground-glass opacities, nodules, consolidation, etc.)."
+        ],
+        "exclusion_reasons": [
+          "Symptoms are not typical, with no TB constitutional symptoms such as low-grade fever or night sweats.",
+          "T-SPOT negative, with only a mild elevation in ESR",
+          "Respiratory tract cultures and mNGS also yielded no positive findings."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungal pneumonia",
+        "evidence": [
+          "Repeated sputum cultures showed Candida albicans",
+          "G test became positive during treatment"
+        ],
+        "exclusion_reasons": [
+          "No prior high-risk factors for fungal infection",
+          "Chest CT showed no halo sign or similar findings.",
+          "BALF fungal culture negative",
+          "GM test negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Occult tumor (primary bronchogenic lung cancer or pulmonary metastases from gastrointestinal tract tumors)",
+        "evidence": [
+          "Chronic onset, prolonged disease course",
+          "History of heavy smoking",
+          "Marked weight loss over the past 2 months",
+          "There was no fever throughout the course of the illness.",
+          "Ineffective antibiotic therapy",
+          "The pulmonary lesions are polymorphic and progress relatively slowly.",
+          "Multiple tumor markers are abnormally elevated, with CA19-9 elevation being the most pronounced, accompanied by elevated carcinoembryonic antigen and CA125."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Interstitial lung disease",
+        "evidence": [
+          "Autoimmune markers showed antinuclear antibody (mitochondrial pattern), antinuclear antibody 1:100 positive, R052 antibody positive, and anti-double-stranded DNA (qualitative) weakly positive"
+        ],
+        "exclusion_reasons": [
+          "No obvious manifestations such as rash, muscle weakness, arthralgia, dry mouth, or dry eyes",
+          "24-hour urinary protein <0.5 g",
+          "No decrease in complement"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "Further complete PET-CT, GI endoscopy, sputum exfoliative cytology, percutaneous lung biopsy, and other laboratory and diagnostic examinations.",
+          "why_order_this_exam": "The patient is a 73-year-old man with cough, sputum production, and exertional dyspnea persisting for more than 2 months. After anti-infective treatment, the symptoms and pulmonary imaging findings remained recurrent and progressively worsened. Over the past 2 months, his weight decreased by 10 kg, and CEA, CA19-9, CA125, and CYFRA21-1 were markedly elevated, suggesting that simple infection cannot explain the entire clinical picture and that malignancy should be highly suspected. On the basis of multiple bilateral pulmonary lesions, pleural effusion, and significantly abnormal tumor markers already present, PET-CT can determine whether there is an extrathoracic primary lesion, the extent of systemic metastases, and metabolic activity, thereby addressing the core clinical question of whether the pulmonary lesions represent primary lung cancer, intrapulmonary metastases, or metastases from an extrapulmonary tumor. At the same time, it can help identify the most suitable lesion for tissue sampling, perform staging assessment, and provide a basis for determining whether subsequent management should be primarily systemic antitumor therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gastroscopy and colonoscopy",
+          "basis_in_stage3_input": "Further complete PET-CT, GI endoscopy, sputum exfoliative cytology, percutaneous lung biopsy, and other laboratory and diagnostic examinations.",
+          "why_order_this_exam": "The patient's disease course has been protracted, anti-infective therapy has been ineffective, and there has been marked weight loss, with markedly elevated CA19-9 being the most prominent finding; CEA and CA125 are also elevated. In the setting of continuously progressive multiple pulmonary lesions, in addition to primary lung cancer, a primary gastrointestinal tumor must be ruled out. Upper and lower gastrointestinal endoscopy can directly examine the mucosa of the upper and lower gastrointestinal tract to determine whether there are gastrointestinal space-occupying lesions and lesions such as bleeding and infiltration, and biopsy can be performed simultaneously. This is a key examination for identifying an extrapulmonary primary lesion and distinguishing primary lung tumor from pulmonary metastases of a gastrointestinal tumor, and it plays a decisive role in subsequent pathologic diagnosis, tumor staging, and treatment pathway selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum exfoliative cytology",
+          "basis_in_stage3_input": "Further complete PET-CT, GI endoscopy, sputum exfoliative cytology, percutaneous lung biopsy, and other laboratory and diagnostic examinations.",
+          "why_order_this_exam": "The patient presented mainly with persistent cough and sputum production and exertional dyspnea. Multiple pulmonary lesions continued to progress after multiple courses of anti-infective therapy, and were accompanied by marked weight loss and elevation of multiple tumor markers, suggesting that tumor cells may already be shedding into the airway. Previous bronchoscopy mainly showed extensive inflammatory changes and did not directly obtain pathologic evidence of tumor; therefore, sputum exfoliative cytology, as a relatively noninvasive complementary method, may help detect abnormal cells shed from a respiratory tract source or from intrapulmonary metastatic lesions, addressing the question of whether there is already malignant cytologic evidence supporting a neoplastic lesion. At the same time, in the setting of decreased oxygenation, severe obstructive impairment on pulmonary function, and relatively high risk of invasive procedures, it may also serve as supportive evidence before tissue sampling.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Percutaneous lung biopsy",
+          "basis_in_stage3_input": "Further complete PET-CT, GI endoscopy, sputum exfoliative cytology, percutaneous lung biopsy, and other laboratory and diagnostic examinations.",
+          "why_order_this_exam": "The patient has persistent radiographic progression of multiple lesions in both lungs, with no definite improvement after anti-infective treatment, as well as significant weight loss and markedly elevated tumor markers; clinically, this can no longer be explained solely by bacterial pneumonia, fungal infection, organizing pneumonia, or interstitial lung disease. The purpose of percutaneous lung biopsy is to directly obtain tissue from the intrapulmonary lesions and determine whether the pulmonary lesions are primary lung cancer, metastatic carcinoma, or a non-neoplastic lesion, thereby resolving the core issue of the long-standing unresolved differential diagnosis. This procedure can provide the basis for histopathology and subsequent immunohistochemistry and molecular testing, and is crucial for final diagnosis, excluding infectious/inflammatory mimics, assessing tumor origin, and formulating a systemic treatment plan; at the same time, before the procedure, procedural risk should also be assessed in conjunction with the patient's declining oxygenation, pleural effusion, and impaired pulmonary function.",
+          "requirement": "required"
+        },
+        {
+          "exam": "colonoscopy",
+          "basis_in_stage3_input": "Colonoscopy showed: an annular nodular mass was seen in the sigmoid colon 35 cm from the anus, firm in texture and prone to bleeding; MT possible.",
+          "why_order_this_exam": "While the patient had a long history of cough and sputum production, persistent progression of pulmonary lesions, and poor response to anti-infective therapy, CA19-9 was markedly elevated with concomitant elevation of CEA, suggesting that the search for a primary gastrointestinal lesion should be prioritized. Colonoscopy allows direct visualization of colorectal mucosal lesions and identified a circumferential nodular mass in the sigmoid colon 35 cm from the anal verge, firm in texture and prone to bleeding; these findings are all consistent with features of a malignant tumor. This examination addressed the key question of whether a primary colorectal tumor was present, provided localization for subsequent biopsy sampling, and also provided important source evidence to explain that the multiple bilateral pulmonary lesions might be metastatic lesions, which is of great significance for ultimately establishing the primary site, tumor staging, and treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sigmoid colon biopsy histopathology",
+          "basis_in_stage3_input": "Sigmoid colon biopsy histopathology: in conjunction with immunohistochemistry, consistent with poorly differentiated adenocarcinoma.",
+          "why_order_this_exam": "Colonoscopy has identified a suspicious malignant mass in the sigmoid colon, but endoscopic morphology cannot replace pathologic confirmation. Histopathologic examination of sigmoid colon biopsy tissue can directly determine whether the mass is malignant, its histologic type, and degree of differentiation, ultimately confirming poorly differentiated adenocarcinoma, thereby resolving the question of whether the gastrointestinal lesion is truly a primary cancer. For this case, this step was the key to converting clinical suspicion into definitive diagnostic evidence, and it also provided the basis for subsequent comparison with lung tissue pathology to determine whether the bilateral lung lesions represented metastases from colon cancer, directly affecting treatment decision-making for advanced colorectal cancer.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Sigmoid colon biopsy histopathology: in conjunction with immunohistochemistry, consistent with poorly differentiated adenocarcinoma.",
+          "why_order_this_exam": "The patient has both a sigmoid colon mass and multiple bilateral pulmonary lesions. Although morphology alone suggests adenocarcinoma, further determination of the tumor origin is still required, especially to distinguish primary pulmonary adenocarcinoma with concomitant intestinal lesions from primary colonic adenocarcinoma with pulmonary metastases. Immunohistochemistry can help determine the tissue origin and direction of differentiation of the tumor through its marker expression profile, and is an indispensable adjunct in the diagnosis of poorly differentiated tumors. This examination addresses the issue of 'precise confirmation of the pathologic type and primary origin' and plays a key role in excluding differential diagnoses, determining whether the pulmonary and intestinal lesions share a common origin, and guiding subsequent molecular testing and selection of systemic treatment regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology, genetic testing, and PD-L1 expression of right lung biopsy tissue",
+          "basis_in_stage3_input": "Right lung biopsy tissue pathology, genetic testing, and PD-L1 expression: In conjunction with the medical history and immunohistochemical markers, findings are consistent with metastatic poorly differentiated colonic adenocarcinoma, KRAS mutation, PD-L1 TPS 5%.",
+          "why_order_this_exam": "Although PET-CT and colonoscopy had already suggested a primary sigmoid colon lesion with possible multiple bilateral lung metastases, the pulmonary lesions initially showed long-term clinically 'infection-like' changes, and the patient had a prior smoking history, so histologic evidence from the lung lesions themselves was still needed to exclude synchronous primary lung cancer or other lesions. Histopathology of the right lung needle biopsy can directly confirm the nature of the pulmonary lesions; combined with immunohistochemistry, it can determine whether they are consistent with the primary sigmoid colon lesion, thereby resolving the key question of whether the bilateral lung lesions are in fact metastases from colon cancer. Further genetic testing and PD-L1 expression assessment are then used, on the basis of a confirmed diagnosis, to stratify systemic treatment: KRAS status is related to the choice of targeted therapy strategy, and PD-L1 expression is one of the references for immunotherapy; therefore, this testing is used not only for confirmation and differential diagnosis, but also directly affects the formulation of an individualized treatment plan for advanced metastatic colorectal cancer.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further tests and examinations were completed, including PET-CT, upper and lower GI endoscopy, sputum exfoliative cytology, and lung needle biopsy. PET-CT showed: sigmoid colon cancer with multiple lymph node metastases in the mediastinum, hilar regions, pelvis, and retroperitoneum; multiple bilateral pulmonary metastases; bilateral interstitial pneumonia; bilateral pleural effusions. Colonoscopy showed: an annular nodular mass at the sigmoid colon 35 cm from the anus, hard in texture and prone to bleeding, malignancy possible. Sputum exfoliative cytology: suspicious cancer cells were identified. Sigmoid colon biopsy histopathology: in conjunction with immunohistochemistry, consistent with poorly differentiated adenocarcinoma. Right lung needle biopsy histopathology, gene testing, and PD-L1 expression: in conjunction with the medical history and immunohistochemical markers, consistent with metastatic poorly differentiated colonic adenocarcinoma, KRAS mutation, PD-L1 TPS 5%.",
+      "images": [
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yytu53aWj6ia9qcYEUgTYwK791SebcGSx6BNwSwymY5NEd6ECUluzRT4Q/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 5: Diagnostic approach flowchart",
+          "local_src": "cleaned_cases_image_cache/0d068b1e1ef1b00a502870618bb37a8423517c30.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyFsIKtVbkMwAOBEtb2ZNgGrYPheoGxkVI9NCF50TNOqKwW3VnU0Ucnw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 6: PET-CT",
+          "local_src": "cleaned_cases_image_cache/7e66389f13c5d5de39b5a40be929fb192b3d9987.jpg"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yycKTEzYpW8PZubctFotPuxPPrefLHLesYhSZvA8gRZKQ3sbic3WtAxdg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 7: Colonoscopy.",
+          "local_src": "cleaned_cases_image_cache/f443a2d679b65d16bb8db008f2ded4a91e5f1070.jpg"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yylL5YVib5ulQuOWvlr1mwmWgjKial6XibBC2FPViaiafdyDvHDQBCjz07sXg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "[Sigmoid colon biopsy histopathology]: In conjunction with immunohistochemistry, consistent with poorly differentiated adenocarcinoma.",
+          "local_src": "cleaned_cases_image_cache/6e047d0d9b3b998de01311854f4437c9145c99e2.jpg"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yy9FRlD7XLSW0iahITldpmy4UP2Wpw811OsTdUoFiaTVyYwLKXq0JBpGmg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "HE SATB2",
+          "local_src": "cleaned_cases_image_cache/d93d5abbe190bead6089284d05e41c8504b1fa5f.jpg"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIyYMb2tYibzZN4z3hEwL6yyCT5lfxgGl1swe3vnGTWsBS5QaOGvnwTonPq0dZMwMqhTHK8l2JLPXg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "This primary gastrointestinal tract tumor was completely asymptomatic, and the polymorphic pulmonary lesions were ultimately confirmed by pathology to be pulmonary metastatic carcinoma. What valuable lessons can we learn from this complex diagnostic and treatment course?",
+          "local_src": "cleaned_cases_image_cache/3ad80fb837a86782f94cc1dd7510731ae20c22a9.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Metastatic poorly differentiated colon adenocarcinoma (bilateral pulmonary metastases; mediastinal, hilar, pelvic, and retroperitoneal lymph node metastases)",
+      "diagnostic_basis": [
+        "PET-CT showed sigmoid colon cancer with multiple lymph node metastases and multiple bilateral lung metastases",
+        "Colonoscopy showed a mass in the sigmoid colon",
+        "Suspicious malignant cells identified on sputum exfoliative cytology",
+        "Sigmoid colon biopsy histopathology: in conjunction with immunohistochemistry, consistent with poorly differentiated adenocarcinoma.",
+        "Right lung biopsy tissue pathology, gene testing, and PD-L1 expression: in conjunction with the medical history and immunohistochemical markers, findings are consistent with metastatic poorly differentiated colonic adenocarcinoma, KRAS mutation, PD-L1 TPS 5%"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Anti-infective therapy was de-escalated from meropenem to ceftazidime combined with fluconazole.",
+        "Intermittent low-dose corticosteroids and theophylline were given to relieve wheezing symptoms",
+        "Continue diagnosis and treatment of advanced malignant colon tumor with bilateral pulmonary metastases"
+      ],
+      "treatment_response": [
+        "Repeat blood test results indicated that WBC, CRP, PCT, the G test, endotoxin, and liver and renal function were all normal."
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "status": "success",
+  "case_id": "case_152",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: A 28-year-old female patient presented to Fujian Provincial Hospital on Day 0, with the chief complaint of \"recurrent fever and fatigue for 1 month, with a maximum temperature of 39.0°C.\" This 28-year-old young woman had recurrent fever and fatigue during the 1 month before admission, with a maximum temperature of 39.0°C. After self-administered oral medication, her temperature decreased compared with before, but it still fluctuated between 37.4°C and 38.0°C. One week before presentation, the patient's condition worsened, and she developed shortness of breath with mild exertion, accompanied by palpitations. She presented to Fujian Provincial Hospital on Day 0. The patient had a history of recurrent low back pain for half a year, without morning stiffness or joint pain, and had not received regular evaluation or treatment. Menstruation was regular. She had not received BCG vaccination. She has one younger sister, who has a history of BCG vaccination; her parents and sister had not developed similar conditions. She denied a family history of hereditary disease. Physical examination on admission: temperature 38.8°C, pulse 117 beats/min, respiratory rate 40 breaths/min, blood pressure 127/64 mmHg, peripheral oxygen saturation 80% (inspired oxygen concentration 29%). She appeared acutely ill, with slight cyanosis of the fingers bilaterally. Breathing was shallow and rapid. Breath sounds were coarse in both lungs, with diffuse moist rales audible. Heart rhythm was regular, and no pathologic murmur was heard in any valve auscultation area. A mass was palpable in the lumbosacral region, hard in texture, measuring approximately 3.5*5.0 cm, with mild tenderness, poor mobility, and no local skin redness, swelling, or ulceration. Laboratory tests: arterial blood gas analysis (FIO2 29%): PH 7.483, PCO2 34.6 mmHg, PO2 44.2 mmHg, K 3.9 mmol/L, Na 128 mmol/L, Lac 2.3 mmol/L, ABE 2.7 mmol/L, oxygenation index 152 mmHg. Complete blood count: 5.1*10^9/L, neutrophil percentage 63.6%, hemoglobin 131 g/L, platelet count 273*10^9/L. Comprehensive biochemistry: albumin 38 g/L, aspartate aminotransferase 42 U/L, alkaline phosphatase 110.6 U/L, lactate dehydrogenase 548 U/L, potassium 4.3 mmol/L, sodium 131 mmol/L. Procalcitonin 2.4 ng/ml. C-reactive protein 67.10 mg/L. Erythrocyte sedimentation rate 13 mm/h. T-lymphocyte subsets: CD3 cell count 106/ul, CD4 cell count 58/ul, CD8 count 43/ul, NK cell count 35/ul, CD19 cell count 86/ul, CD45 cell count 227/ul. Humoral immunity: immunoglobulin G 9.91 g/L, immunoglobulin A 2.02 g/L, immunoglobulin M 0.48 g/L, complement C3 0.997 g/L, complement C4 0.125 g/L, immunoglobulin E 165.0 g/L. No abnormalities were found in the six-item thyroid function panel. ANA panel (comprehensive autoimmune panel), ANCA, RF, and anti-CCP antibody were negative. Hepatitis B serology, HIV antibody, and syphilis-specific antibody were negative. Sputum bacterial and fungal cultures were negative. Non-contrast chest CT showed diffuse bilateral pulmonary lesions, with T8-L1 vertebral bone destruction and a paravertebral soft tissue mass. Plain and contrast-enhanced thoracolumbar spine MRI showed abnormal signal in the T9-L1 vertebral bodies and surrounding soft tissue, with secondary compression changes of the T12 and L1 vertebral bodies. Plain and contrast-enhanced brain MRI showed an abnormal signal in the right parietal lobe.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLSeQxwwHV0LHicJKEgibZ0IzOfXNPgoaYa7s2v4oke7qRjRB6CChoAq5VubpFVhb7ATsxpEyIkKmug/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1 AB (Day 0) non-contrast chest CT showed diffuse lesions in both lungs.",
+          "local_src": "cleaned_cases_image_cache/b303a9540a5c4e963ee15796c3dd08643a8b748b.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Disseminated tuberculosis (hematogenous disseminated pulmonary tuberculosis with spinal tuberculosis, possibly with intracranial tuberculous lesions)",
+          "supporting_evidence": [
+            "The first-stage text prompt, \"Non-contrast chest CT showed: diffuse lesions in both lungs, with osseous destruction of the T8-L1 vertebral bodies and a paravertebral soft tissue mass,\" can be explained by disseminated TB involving both the lungs and spine.",
+            "Thoracolumbar spine MRI showed \"abnormal signal intensity in the T9-L1 vertebral bodies and surrounding soft tissues, with secondary compression changes of the T12 and L1 vertebral bodies,\" consistent with imaging features suggestive of an infectious spinal lesion, especially tuberculous spondylitis.",
+            "Brain MRI suggests \"abnormal signal in the right parietal lobe,\" which can be seen in intracranial dissemination/tuberculoma of disseminated TB",
+            "Recurrent fever and fatigue for 1 month, consistent with chronic consumptive and infectious manifestations",
+            "A \"hard, poorly mobile\" mass is palpable in the lumbosacral region, consistent with involvement of the paraspinal soft tissues",
+            "No BCG vaccination; this cannot directly establish a diagnosis, but suggests the absence of BCG-related protective background"
+          ],
+          "opposing_evidence": [
+            "ESR was only 13 mm/h, without a typical significant elevation",
+            "Procalcitonin 2.4 ng/ml is elevated, which is more commonly seen in bacterial infection, but severe TB cannot be completely excluded.",
+            "Phase 1 information did not provide a definite history of TB exposure, mycobacterial evidence, or a description of typical cavitation/tree-in-bud pattern"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Disseminated fungal infection (such as invasive fungal disease due to Talaromyces marneffei/Aspergillus, etc.)",
+          "supporting_evidence": [
+            "The patient has significant cellular immunodeficiency: CD4 cell count 58/μL, with markedly decreased CD3, CD8, and NK cell counts, indicating a high risk of opportunistic infection.",
+            "Chest CT showed \"diffuse bilateral lung lesions\"; severe hypoxemia was evident, consistent with diffuse pulmonary involvement that can be seen in invasive pulmonary fungal infection.",
+            "The concomitant presence of vertebral osseous destruction, a paravertebral soft tissue mass, and an abnormal signal in the right parietal lobe suggests disseminated multiorgan disease; invasive fungal infection can involve the lungs, bones, and central nervous system",
+            "Persistent fever, elevated CRP, and elevated LDH 548 U/L, consistent with severe infection.",
+            "A negative HIV antibody test does not rule out opportunistic fungal infection occurring in the setting of severe immunosuppression caused by other etiologies."
+          ],
+          "opposing_evidence": [
+            "Sputum bacterial and fungal cultures were negative, which does not support but also cannot exclude deep invasive fungal infection.",
+            "The first-stage information did not describe certain common accompanying manifestations of some disseminated fungal infections, such as skin lesions, hepatosplenomegaly, and lymphadenopathy.",
+            "The phase I information did not provide definitive mycological evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Disseminated nocardiosis (pulmonary nocardiosis with central nervous system and bone/paravertebral involvement)",
+          "supporting_evidence": [
+            "Marked cellular immunodeficiency (CD4 58/ul) suggests an increased risk of opportunistic infections such as those caused by Nocardia",
+            "Chest CT showed diffuse bilateral lung lesions; pulmonary Nocardia infection may present with extensive pulmonary infiltrates and lead to hypoxemia",
+            "Brain MRI showed an abnormal signal in the right parietal lobe; Nocardia often has a tendency for intracranial dissemination",
+            "There is osseous destruction of the T8-L1 vertebral bodies and a paravertebral soft tissue mass; disseminated infection may present with osteomyelitis/spinal involvement.",
+            "Fever and elevated CRP and PCT support severe infectious disease."
+          ],
+          "opposing_evidence": [
+            "In the first stage, chest imaging did not describe the nodules, cavities, or abscess-like changes more commonly seen with Nocardia infection.",
+            "Sputum bacterial culture was negative, which is insufficient to exclude Nocardia, but there is a lack of direct etiologic support.",
+            "The phase 1 information did not provide more typical clues such as the enhancement characteristics of a subcutaneous abscess and a brain abscess."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Hematologic malignancy or lymphoma (with pulmonary infiltration, bone involvement, and secondary immunosuppression)",
+          "supporting_evidence": [
+            "Fever and fatigue are among the tumor-related systemic symptoms.",
+            "Diffuse bilateral pulmonary lesions, vertebral osseous destruction with a paravertebral soft tissue mass, and an abnormal signal in the right parietal lobe suggest involvement at multiple sites; malignant tumor/lymphoma can present with multisystem involvement",
+            "Marked T-cell depletion (low CD3, CD4, and CD8) may be seen in some hematologic malignancies or tumor-related immune dysfunction",
+            "Elevated LDH can be seen in lymphoproliferative disorders"
+          ],
+          "opposing_evidence": [
+            "The complete blood count showed no obvious anemia, abnormal leukocytosis, or platelet abnormality, with no peripheral blood clues suggestive of common hematologic malignancies.",
+            "Elevated CRP and PCT more strongly support an infectious etiology",
+            "The phase 1 information did not describe superficial lymphadenopathy, hepatosplenomegaly, or marked mediastinal enlargement."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pyogenic spinal infection/paravertebral abscess complicated by severe pulmonary infection, with intracerebral infectious lesions (e.g., disseminated bacterial infection)",
+          "supporting_evidence": [
+            "Persistent high fever, CRP 67.10 mg/L, and procalcitonin 2.4 ng/ml support the possibility of bacterial infection",
+            "Destruction of the T8-L1 vertebral bodies and a paravertebral soft tissue mass, with a hard palpable mass with mild tenderness in the lumbosacral region, are possible manifestations consistent with spinal infection with paravertebral abscess.",
+            "Diffuse bilateral lung lesions with severe hypoxemia can be seen in severe pulmonary infection/ARDS-like presentation",
+            "Abnormal signal in the right parietal lobe suggests a possible disseminated intracerebral infectious focus."
+          ],
+          "opposing_evidence": [
+            "Regular heart rhythm; no pathologic murmurs were heard in any valvular area, which does not support a definite disseminative background related to infective endocarditis.",
+            "The peripheral white blood cell count of 5.1×10^9/L is not elevated, which is not entirely consistent with a typical acute pyogenic infection.",
+            "In the first stage, the imaging was described as diffuse bilateral lung lesions, not a typical presentation of focal bacterial pneumonia."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-body bone scan",
+          "requirement": "required"
+        },
+        {
+          "exam": "biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endotracheal intubation",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy with bronchoalveolar lavage fluid submitted for pathogen testing",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "BALF: acid-fast stain 1+, Xpert detected Mycobacterium tuberculosis complex, with no rifampin resistance detected. Blood TB infection T-cell spot test: antigen A (ESAT-6) well 180, antigen B (CFP-10) well 200. Bronchoalveolar lavage fluid and NGS: Mycobacterium tuberculosis complex; Mycobacterium tuberculosis was cultured from bronchoalveolar lavage fluid.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious lesions (especially tuberculosis)",
+            "evidence": [
+              "Recurrent fever, fatigue, shortness of breath, palpitations, and other symptoms",
+              "Diffuse bilateral pulmonary lesions on non-contrast chest CT",
+              "Complete blood count showed an increased neutrophil percentage and elevated C-reactive protein and procalcitonin levels"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Osteoarticular lesions",
+            "evidence": [
+              "Lumbosacral mass and vertebral bone destruction"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Immune system diseases (such as rheumatic diseases)",
+            "evidence": [
+              "Low back pain and vertebral lesions"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Central nervous system infection or inflammation",
+            "evidence": [
+              "Brain MRI showed abnormal signal in the right parietal lobe"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious lesions (especially tuberculosis)",
+        "evidence": [
+          "Recurrent fever, fatigue, shortness of breath, palpitations, and other symptoms",
+          "Diffuse bilateral pulmonary lesions on non-contrast chest CT",
+          "Complete blood count showed an increased neutrophil percentage, and elevated C-reactive protein and procalcitonin levels;",
+          "BALF: acid-fast stain 1+, Xpert detected Mycobacterium tuberculosis complex, with no rifampin resistance detected. Blood TB infection T-cell spot test: antigen A (ESAT-6) well 180, antigen B (CFP-10) well 200. Bronchoalveolar lavage fluid and NGS: Mycobacterium tuberculosis complex; Mycobacterium tuberculosis was cultured from bronchoalveolar lavage fluid."
+        ],
+        "exclusion_reasons": [
+          "The patient is immunocompetent and has no prior history of TB."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Osteoarticular lesions",
+        "evidence": [
+          "Lumbosacral mass and vertebral bone destruction"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Immune system diseases (such as rheumatic diseases)",
+        "evidence": [
+          "Low back pain and vertebral lesions"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Central nervous system infection or inflammation",
+        "evidence": [
+          "Brain MRI showed abnormal signal in the right parietal lobe"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-genome sequencing analysis",
+          "basis_in_stage3_input": "The results of whole-genome sequencing analysis of this Mycobacterium tuberculosis strain showed",
+          "why_order_this_exam": "The patient was a 28-year-old woman who presented with recurrent high fever and fatigue for 1 month, followed by rapid progression to marked hypoxemic respiratory failure. Imaging simultaneously showed diffuse bilateral lung lesions, osseous destruction of the T8-L1 vertebral bodies with a paravertebral soft tissue mass, and abnormal intracranial signal. Subsequent pathogen testing confirmed Mycobacterium tuberculosis complex, and clinically this was classified as severe hematogenous disseminated TB with spinal and central nervous system involvement. At this point, performing whole-genome sequencing on the isolated strain had the primary purpose of, on the basis of an already established TB pathogen, further completing a precise strain-level characterization analysis to define its genetic composition and the possible molecular background related to drug resistance, pathogenicity, and transmission. This test helps explain why the patient developed multisystem, severe disseminated manifestations, and can also supplement the more comprehensive genetic information beyond rifampin resistance not detected by routine X-pert, assisting in the evaluation of whether special strain characteristics are present, thereby providing a basis for subsequent optimization of the anti-TB regimen, prognostic assessment, and research source tracing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Virulence gene testing",
+          "basis_in_stage3_input": "This strain has abundant virulence gene data. In this Mycobacterium tuberculosis strain, the pks-1 gene is present and pks-15 is absent; the number of other virulence genes is also basically consistent with CDC1551 and H37Rv.",
+          "why_order_this_exam": "The patient's clinical manifestations suggest a highly aggressive disease course: persistent fever and fatigue over a short period, rapidly progressing to severe pneumonia and respiratory failure, with simultaneous involvement of the lungs, spine, paravertebral soft tissue, and central nervous system; after acid-fast staining, X-pert, BALF NGS, and culture had already supported Mycobacterium tuberculosis infection, the pathogenic basis for its multiorgan hematogenous dissemination and severe progression still requires further explanation. The purpose of virulence gene testing is to assess whether the strain carries genetic characteristics associated with invasiveness, tissue-destructive capacity, immune evasion, or a tendency for dissemination, thereby explaining why it can cause severe manifestations such as spinal TB, paravertebral abscess, and tuberculous meningitis. This test can help distinguish whether this is severe TB caused solely by host immunosuppression or whether strain virulence-related factors are also present; it can also provide a basis for assessment of disease severity, prognosis evaluation, and subsequent individualized treatment and follow-up priorities.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Whole-genome sequencing analysis of this Mycobacterium tuberculosis strain showed that BLM-A21 has 4,155 genes. In terms of phylogenetic relationship, the strain in this study sample is more closely related to CCDC5079, CCDC5180, and Beijing NTR203. This strain has abundant virulence gene data. This M. tuberculosis strain contains the pks-1 gene but lacks pks-15; the numbers of other virulence genes are also basically consistent with those of CDC1551 and H37Rv.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLSeQxwwHV0LHicJKEgibZ0IzjtLZJYicbH80NRcsEZiamCXqDBEsmpzyx0X2Oh13m2He8oVrIiblPwfEw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2. Whole-genome phylogenetic tree of Mycobacterium tuberculosis",
+          "local_src": "cleaned_cases_image_cache/83bf47f8cd182019cb9e0547de7b28a7fc78c241.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLSeQxwwHV0LHicJKEgibZ0IzxY8CgXC80ytSTumwj14ysq5IvzaRfEH8SOjU3AHJM77y9gPEjMTc3g/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 3. Circular map of the Mycobacterium tuberculosis chromosomal genome in the sample and virulence factor annotation results",
+          "local_src": "cleaned_cases_image_cache/761335d0d235cd6af1ab120f97c7569e2332ade2.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLSeQxwwHV0LHicJKEgibZ0Iz3IAKAc3r7OMSrvcZ6vBt0Q0gFRsDc4QUYUs8YWhH3qmc6EEMXpBSOw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 4. Virulence gene annotation of the Mycobacterium tuberculosis strain in this study and closely related genomes.",
+          "local_src": "cleaned_cases_image_cache/737eec543db907048d2bf5a401da360d076a9511.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Severe pneumonia; hematogenous disseminated pulmonary tuberculosis (bilateral, smear-positive, molecular biology-positive, initial treatment); spinal tuberculosis with paravertebral abscess formation; tuberculous meningitis; Type I respiratory failure",
+      "diagnostic_basis": [
+        "Blood T-cell spot test for TB infection: antigen A (ESAT-6) well 180, antigen B (CFP-10) well 200; BALF: acid-fast stain 1+, X-pert detected Mycobacterium tuberculosis complex, with no rifampin resistance detected; bronchoalveolar lavage fluid and NGS: Mycobacterium tuberculosis complex; Mycobacterium tuberculosis was cultured from bronchoalveolar lavage fluid",
+        "Noncontrast chest CT showed diffuse bilateral pulmonary lesions, with osseous destruction of the T8-L1 vertebral bodies and a paravertebral soft tissue mass. MRI of the thoracic and lumbar spine without and with contrast showed abnormal signal in the T9-L1 vertebral bodies and surrounding soft tissues, with secondary compression changes of the T12 and L1 vertebral bodies. Brain MRI without and with contrast showed abnormal signal in the right parietal lobe.",
+        "Arterial blood gas analysis (FIO2 29%): pH 7.483, PCO2 34.6 mmHg, PO2 44.2 mmHg, K 3.9 mmol/L, Na 128 mmol/L, Lac 2.3 mmol/L, ABE 2.7 mmol/L, oxygenation index 152 mmHg.",
+        "At admission, endotracheal intubation and mechanical ventilation were performed for respiratory failure.",
+        "Clinical manifestations included recurrent fever and fatigue; history of low back pain. Physical examination: slight cyanosis of the fingers of both hands. Shallow, rapid breathing; coarse breath sounds in ორივე lungs, with diffuse moist rales audible. Regular heart rhythm; no pathologic murmurs heard in any valve area. A mass was palpable in the lumbosacral region, hard in consistency, approximately 3.5*5.0 cm in size, with mild tenderness on pressure, poor mobility, and no local skin redness, swelling, or ulceration."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Endotracheal intubation",
+        "anti-TB treatment with isoniazid, rifampin, ethambutol, and pyrazinamide (HRZE)",
+        "Under general anesthesia: posterior debridement, bone grafting, and internal fixation for thoracolumbar spinal TB + left psoas abscess debridement"
+      ],
+      "treatment_response": [
+        "Body temperature decreased; cough and dyspnea improved; endotracheal tube removed.",
+        "Follow-up imaging of the head, chest, and vertebral bodies showed improvement compared with prior imaging.",
+        "The course was uneventful. The patient is currently on a leave of absence from school, recuperating at home, and is still unable to ambulate independently."
+      ]
+    }
+  }
+}

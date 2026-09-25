@@ -1,0 +1,377 @@
+{
+  "status": "success",
+  "case_id": "case_156",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 43 years old, interior renovation worker, was admitted on Day 0 with the chief complaint of \"recurrent cough and sputum production for 1 week, fever with shortness of breath for 2 days.\" The patient developed cough 1 week before admission without an obvious precipitating factor, intermittent in nature and more pronounced at night, with white mucoid sputum that was easily expectorated, without hemoptysis or chest pain, without chest tightness or palpitations, and without shortness of breath or dyspnea. He self-administered medication (details unknown), with slight symptom relief. Two days earlier, the above symptoms worsened, and fever developed, with a maximum temperature of 38.9℃, accompanied by chills, chest tightness, palpitations, and shortness of breath after activity. He then presented to the emergency department of \"a county hospital,\" where the following tests were performed: \"CBC: WBC 4.28×10^9/L, N% 71.9%, HB 143g/L, PLT 123×10^9/L. CRP: 25.95mg/L. Biochemistry: TBIL 50.1umol/L, DBIL 27.3umol/L, ALT 188.0U/L, AST 286.0U/L, ALP 957.0U/L, GGT 1339.0U/L, LDH 1189.0U/L, ALB 29.0g/L. Coagulation tests: TT 20.8s, FIB 1.72g/L, D-dimer 4.93mg/L. BNP 28pg/ml. Respiratory pathogen antibodies: no abnormal findings. SARS-CoV-2 nucleic acid test: negative. Chest CT suggested bilateral pneumonia.\" He was given \"anti-infective therapy and fluid replacement\" (details unknown) and other management, but symptoms did not improve significantly, and chest tightness and shortness of breath developed, obvious with slight activity; oxygen saturation was measured at 89%. He was referred to our hospital for further diagnosis and treatment, and was admitted through the emergency department with a preliminary diagnosis of \"pulmonary infection.\" Since onset, the patient has had poor mental status and decreased physical strength, fair appetite and food intake, average sleep, no significant weight change, and normal urination and bowel movements. The patient was previously healthy. He has long been engaged in \"interior renovation.\" Personal and family history: smoked for 10 years, averaging 20 cigarettes per day, and has not quit smoking. No history of alcohol use. No other special history. T: 36.7℃, P: 79 beats/min, R: 20 breaths/min, BP: 120/80mmHg. He was alert. Bilateral lung percussion was resonant, and bilateral diaphragmatic excursion was normal and symmetric. Breath sounds were coarse in both lungs, with a small amount of moist rales heard in both lungs, and no pleural friction rub. Heart rate was 79 beats/min, rhythm regular, A2>P2, no murmur was heard in any valve auscultation area, and no pericardial friction rub. The abdomen was flat, with no visible gastric or intestinal contours, no abdominal wall varicosities, and a soft abdominal wall. There was no tenderness or rebound tenderness throughout the abdomen, no mass was palpable, the liver was not palpable below the costal margin, the spleen was not palpable below the costal margin, and Murphy's sign was negative. Bowel sounds were neither hyperactive nor decreased, 4 times/min, with no succussion splash, and no vascular bruit was heard. There was no edema in either lower extremity. No pathologic reflexes were elicited.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia",
+          "supporting_evidence": [
+            "Chief complaint: recurrent cough and sputum production for 1 week, fever with shortness of breath for 2 days",
+            "One week before admission, the patient developed cough and expectoration of white mucoid sputum. Two days earlier, the symptoms worsened and fever developed, with a maximum temperature of 38.9℃.",
+            "Accompanied by chest tightness and exertional dyspnea, oxygen saturation measured at 89%",
+            "Chest CT suggested bilateral pneumonia",
+            "On physical examination, breath sounds were coarse in both lungs, and a small amount of moist rales was heard in both lungs.",
+            "CRP 25.95 mg/L is elevated, suggesting the presence of an inflammatory response."
+          ],
+          "opposing_evidence": [
+            "WBC 4.28×10^9/L is not significantly elevated, which does not fully fit the common presentation of typical bacterial pneumonia",
+            "No abnormal results were found in respiratory pathogen antibody testing"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Legionella pneumonia or pneumonia caused by other atypical pathogens",
+          "supporting_evidence": [
+            "Fever, cough, dyspnea, and hypoxemia, with chest CT suggesting bilateral pneumonia",
+            "WBC 4.28×10^9/L, with no significant leukocytosis, consistent with the features of some atypical pathogen infections",
+            "LDH was markedly elevated at 1189.0 U/L",
+            "ALT 188.0U/L, AST 286.0U/L, ALP 957.0U/L, GGT 1339.0U/L, TBIL 50.1umol/L, DBIL 27.3umol/L, indicating extrapulmonary hepatobiliary enzyme abnormalities, which can be seen in atypical infections such as Legionella",
+            "Symptoms were not significantly relieved after routine \"anti-infective therapy and fluid replacement\"."
+          ],
+          "opposing_evidence": [
+            "Respiratory pathogen antibody testing showed no abnormal results, but this result cannot exclude Legionella or other atypical pathogen infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Occupational inhalational lung injury/hypersensitivity pneumonitis (renovation-related exposure)",
+          "supporting_evidence": [
+            "Long-term work in \"interior renovation,\" with possible occupational inhalational exposure to dust, volatile chemical substances, etc.",
+            "Cough developed \"without an obvious precipitating factor\" before disease onset, followed by progression over a short period to fever, chest tightness, exertional dyspnea, and hypoxemia",
+            "Chest CT suggested bilateral pneumonia; a small amount of moist rales were audible in both lungs, consistent with the possibility of diffuse pulmonary involvement.",
+            "Symptoms did not improve significantly after routine anti-infective treatment, suggesting the possibility that this is not a simple common bacterial infection."
+          ],
+          "opposing_evidence": [
+            "No clear recent history of exposure to special renovation materials, no concurrent onset among coworkers in the same occupation, and no improvement after leaving the exposure environment",
+            "The presence of fever and elevated CRP also supports an infectious etiology."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pneumocystis pneumonia (PJP)",
+          "supporting_evidence": [
+            "Progressive dyspnea with hypoxemia, oxygen saturation 89%",
+            "Chest CT suggested bilateral pneumonia",
+            "WBC 4.28×10^9/L was not significantly elevated",
+            "LDH was markedly elevated at 1189.0 U/L",
+            "Pulmonary auscultatory findings were relatively mild, with only a small amount of moist rales in both lungs, whereas hypoxemia was relatively marked."
+          ],
+          "opposing_evidence": [
+            "No immunosuppressive background such as HIV infection, long-term glucocorticoid use, organ transplantation, or cancer chemotherapy was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Acute pulmonary embolism",
+          "supporting_evidence": [
+            "Chest tightness, palpitations, and shortness of breath on exertion began 2 days ago, noticeably with slight activity",
+            "Oxygen saturation was measured at 89%, indicating hypoxemia",
+            "D-dimer elevated to 4.93 mg/L",
+            "Chest CT suggested bilateral pneumonia and could not completely exclude pulmonary embolism with associated pulmonary changes or misinterpretation."
+          ],
+          "opposing_evidence": [
+            "The initial symptoms were cough, sputum production, and fever, which are more consistent with an infectious pulmonary disease.",
+            "No chest pain, no hemoptysis",
+            "The physical examination and medical history did not provide high-risk factors for venous thrombosis such as lower extremity swelling, prolonged bed rest, surgery, or trauma.",
+            "A small number of moist crackles can be heard in both lungs, and chest CT indicates bilateral pneumonia, both of which further support pulmonary parenchymal infection."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Sputum pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "reason": "Assess the type of respiratory failure and whether lactate is elevated, and whether it is complicated by septic shock, etc.",
+          "basis_in_stage3_input": "Chest tightness, shortness of breath, SpO2 89%",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "reason": "Assess the extent of infection and guide clinical management",
+          "basis_in_stage3_input": "Fever, multiple inflammatory changes in both lungs",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets, immunoglobulins",
+          "reason": "Assess immune function",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "complete blood count, blood biochemistry, coagulation, routine urinalysis, routine stool examination, electrocardiogram",
+          "reason": "Fever, with gradual worsening of the condition; dynamic follow-up reexaminations are required, while other sources of infection should be ruled out.",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis: pH 7.394, partial pressure of CO2 36.3 mmHg, partial pressure of oxygen 98.0 mmHg, extracellular base excess -2.8 mmol/L, bicarbonate 22.5 mmol/L, total CO2 19.7 mmol/L, oxygen saturation 97.7%, lactate 1.6 mmol/L, oxygenation index 200.0 mmHg. Complete blood count: white blood cells 4.0×10^9/L, segmented neutrophils 75.2%, hemoglobin 135 g/L, platelet count 150×10^9/L. C-reactive protein 17.80 mg/L, procalcitonin 0.12 ng/mL. Urinalysis: occult blood (RBC) 1+. Influenza A virus antigen negative (-), influenza B virus antigen negative (-). SARS-CoV-2 RNA negative. Throat swab respiratory pathogen testing: influenza A virus RNA negative, influenza B virus RNA negative, respiratory syncytial virus RNA negative, adenovirus DNA negative, human rhinovirus RNA negative, Mycoplasma pneumoniae DNA negative. Biochemistry and immunology: albumin 29 g/L, total bilirubin 26.3 umol/L, direct bilirubin 20.5 umol/L, ALT 151 U/L, AST 214 U/L, gamma-glutamyl transferase 1271 U/L, alkaline phosphatase 856 U/L, triglycerides 3.98 mmol/L, total cholesterol 5.68 mmol/L, LDL 3.85 mmol/L, glucose 7.86 mmol/L, lactate dehydrogenase 801 U/L, blood urea nitrogen 7.7 mmol/L, creatinine 68 umol/L, CO2 combining power 22 mmol/L, potassium 4.5 mmol/L, sodium 139 mmol/L, chloride 102 mmol/L. Coagulation function: prothrombin time 10.5 s, international normalized ratio 0.91, activated partial thromboplastin time 34.2 s, thrombin time 35.0 s, fibrinogen 1.48 g/L, antithrombin III 102.6%, fibrin(ogen) degradation products 6.80 цg/ml, D-dimer 2.23 mg/L. Blood culture: negative. HIV antigen/antibody combination test, hepatitis B surface antigen, hepatitis C antibody, and syphilis antibody: negative. Biochemistry and immunology: immunoglobulin G 7.83 g/L, immunoglobulin A 0.823 g/L, immunoglobulin M 0.421 g/L, complement C3 1.37 g/L, complement C4 0.55 g/L. Immunology: CD3 71.86%, CD3+ cell count 517/μl, CD4 41.67%, CD4+ cell count 300/μl, CD8 24.48%, CD8+ cell count 176/μl, CD4/CD8 1.70, NK 7.90%, NK cell count 63/μl, CD19 19.73%, CD19+ cell count 157/μl, CD45+ cell count 719/μl. Bedside ECG: sinus rhythm; incomplete right bundle branch block; low voltage in limb leads. On Day +4, we completed a chest CT examination, which showed: 1. Multiple inflammatory lesions in both lungs, with possible partial alveolar exudation and associated partial consolidation, more prominent in the bilateral lower lobes; follow-up reexamination is recommended after clinical treatment. 2. Localized emphysema at both lung apices, bulla in the left upper lobe, calcified focus in the right upper lobe. 3. Heterogeneous fatty liver partially included on the scan.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJBIRcUv5cVAhI668fydibbKUMDeoq6VcJNfbfLdZfD68mgDMib1mpiciaAY87u9p6HMgYI6mhVQvdcUA/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/c0c759f384386d84eb61014723b2a2d374f49701.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJBIRcUv5cVAhI668fydibbKoMHdyfv7dM18lMia30OL8AlaAGmibFzBNKrDFRDD68axib9JxgjsNOXzQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 1. Chest CT at our hospital on 09.11 showed multiple scattered patchy, sheet-like, and linear areas of increased opacity in both lungs.",
+            "local_src": "cleaned_cases_image_cache/0d381a3f24a858b656b9d6acc1073b4a1d4cb42d.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "Young patient, acute onset, rapid progression, progressively worsening dyspnea",
+              "Chest imaging predominantly shows bilateral ground-glass opacities, with bilateral lower lung consolidation and ARDS changes."
+            ],
+            "exclusion_reasons": [
+              "Blood counts normal, CRP not elevated",
+              "Nasal swab test negative"
+            ]
+          },
+          {
+            "name": "Pneumocystis pneumonia (PJP)",
+            "evidence": [
+              "Young patient with diffuse bilateral pulmonary lesions, dry cough, and progressively worsening dyspnea",
+              "Chest imaging shows a predominantly perihilar distribution, consistent with imaging findings of PJP"
+            ],
+            "exclusion_reasons": [
+              "On repeated questioning, the patient reported not leaving home and denied a history of commercial sexual exposure.",
+              "HIV negative, not suggestive of an immunodeficient state"
+            ]
+          },
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [
+              "Previously healthy, community-onset"
+            ],
+            "exclusion_reasons": [
+              "Most patients of this type have cough and sputum production, with thick sputum and markedly elevated blood counts.",
+              "Pulmonary imaging most commonly shows a lobar pneumonia pattern, which may be accompanied by consolidation, with typical findings such as air bronchograms.",
+              "Good response to antibiotic treatment, inconsistent with this patient"
+            ]
+          },
+          {
+            "name": "Atypical pathogen infection",
+            "evidence": [
+              "Young male, normal blood count"
+            ],
+            "exclusion_reasons": [
+              "Most patients with Legionella infection have an elevated blood count; other systemic manifestations include gastrointestinal symptoms, hyponatremia, altered mental status, etc. Imaging findings are similar to those of bacterial pneumonia and do not strongly support it."
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "Non-fibrotic hypersensitivity pneumonitis may present with recurrent cough and diffuse ground-glass opacities in the lungs."
+            ],
+            "exclusion_reasons": [
+              "The patient denies any special medical history such as exposure to suspected allergenic substances.",
+              "The lymphocyte percentage in the blood count is not elevated, which does not support"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "Young patient, acute onset, rapid progression, progressively worsening dyspnea",
+          "Chest imaging predominantly shows bilateral ground-glass opacities, with bilateral lower lung consolidation and ARDS changes."
+        ],
+        "exclusion_reasons": [
+          "Blood counts normal, CRP not elevated",
+          "Nasal swab test negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pneumocystis pneumonia (PJP)",
+        "evidence": [
+          "Young patient with diffuse bilateral pulmonary lesions, dry cough, and progressively worsening dyspnea",
+          "Chest imaging shows a predominantly perihilar distribution, consistent with imaging findings of PJP"
+        ],
+        "exclusion_reasons": [
+          "On repeated questioning, the patient reported not leaving home and denied a history of commercial sexual exposure.",
+          "HIV negative, no underlying disease, not supportive of an immunodeficient state"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bacterial pneumonia",
+        "evidence": [
+          "Previously healthy, community-onset"
+        ],
+        "exclusion_reasons": [
+          "Most patients of this type have cough and sputum production, with thick sputum and markedly elevated blood counts.",
+          "Pulmonary imaging most commonly shows a lobar pneumonia pattern, which may be accompanied by consolidation, with typical findings such as air bronchograms.",
+          "Good response to antibiotic treatment, inconsistent with this patient"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Atypical pathogen infection",
+        "evidence": [
+          "Young male, normal blood count"
+        ],
+        "exclusion_reasons": [
+          "Most patients with Legionella infection have an elevated blood count; other systemic manifestations include gastrointestinal symptoms, hyponatremia, altered mental status, etc. Imaging findings are similar to those of bacterial pneumonia and do not strongly support it."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy findings: The lumens of the main bronchi and the lobar and segmental bronchi are patent, with a small amount of thin white secretions.",
+          "why_order_this_exam": "The patient presented with cough, sputum production, fever, progressive dyspnea, and hypoxemia. Chest CT showed multiple inflammatory lesions in both lungs with partial consolidation, and the initial response to conventional anti-infective therapy was poor, necessitating direct evaluation of the endobronchial airway and collection of lower respiratory tract specimens. Bronchoscopy can determine whether there is airway obstruction, tumor-like lesions, retained secretions, or bleeding, and can provide a reliable specimen source for subsequent BALF pathogen testing, in order to resolve the differential diagnosis among infectious and noninfectious lung diseases, opportunistic infections, and tumor-related pulmonary involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gram stain of bronchoalveolar lavage fluid smear",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid smear submitted for examination: Gram stain: moderate amount of Gram-positive cocci, small amount of Gram-negative bacilli, occasional Gram-positive bacilli, small amount of Gram-negative cocci; no fungi detected.",
+          "why_order_this_exam": "The patient presented with community-onset pneumonia-like manifestations, but the WBC count was not elevated, PCT was not elevated, and imaging showed diffuse bilateral lung involvement; uncomplicated typical bacterial pneumonia is not entirely consistent, and the condition at one point was accompanied by marked hypoxemia. Gram stain of bronchoalveolar lavage fluid can rapidly determine whether bacteria are present in the lower respiratory tract and their approximate category, and can preliminarily screen for fungi, providing a basis for the scope of early empiric anti-infective coverage and for interpretation of subsequent culture results, and also helping to assess whether the pathogen is consistent with the clinical severity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid bacterial and fungal cultures, NGS",
+          "basis_in_stage3_input": "BALF bacterial culture: Burkholderia cepacia (susceptible to trimethoprim-sulfamethoxazole, ceftazidime, meropenem, levofloxacin, and minocycline; no breakpoint for cefoperazone/sulbactam; intermediate to chloramphenicol).",
+          "why_order_this_exam": "The patient has cough, sputum production, fever, and impaired oxygenation. Imaging showed bilateral pulmonary inflammation and consolidation. Because the pathogen was not rapidly identified after routine treatment, bacterial culture of lower respiratory tract specimens is needed. The core purpose of this test is to identify the causative bacteria rather than inferring solely from upper respiratory tract colonization, and to obtain antimicrobial susceptibility results, in order to guide targeted therapy, explain the reason for the poor response to prior anti-infective treatment, and help distinguish true infection from contamination, directly affecting selection of the antimicrobial regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Repeat chest CT on Day +16 showed: 1. Multiple inflammatory lesions in both lungs, with partial consolidation, significantly resolved compared with the previous study. 2. Localized emphysema at both lung apices, and a bulla in the left upper lobe. 3. Multiple enlarged lymph nodes in the left axilla included in the scan, and small lymph nodes in the hepatogastric space.",
+          "why_order_this_exam": "At disease onset, the patient had fever, cough, exertional dyspnea, and hypoxemia. Early chest CT had already shown multiple inflammatory lesions and consolidations in both lungs; therefore, repeat CT is critical for assessing changes in the pulmonary lesions and the treatment response. This examination can evaluate whether the infectious foci have resolved, whether there are new consolidations or interstitial changes, and can simultaneously identify extrapulmonary clues, such as multiple enlarged lymph nodes, providing important imaging evidence for shifting from simple pulmonary infection to systemic diseases such as lymphoma, and also affecting whether to continue anti-infective therapy or shift to an oncologic diagnostic pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis B serologic markers, hepatitis A IgM antibody, hepatitis E IgM antibody",
+          "basis_in_stage3_input": "Hepatitis B serologic markers: hepatitis B surface antigen negative (-), hepatitis B surface antibody positive (+), hepatitis B e antigen negative (-), hepatitis B e antibody positive (+), hepatitis B core antibody positive (+).",
+          "why_order_this_exam": "At the time of admission, the patient already had significant liver function abnormalities. Subsequently, bilirubin, GGT, and ALP remained markedly elevated, showing a predominantly cholestatic pattern with elevated transaminases, and viral hepatitis, a common cause, needs to be ruled out. The hepatitis B serologic panel is used to determine whether there is HBV infection or a past infection status, help explain the nature of the liver injury, and provide a basis for assessing the risk of HBV reactivation and formulating preventive strategies if immunosuppressive treatment such as corticosteroids or chemotherapy is needed later.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytomegalovirus antibody IgG, Cytomegalovirus antibody IgM",
+          "basis_in_stage3_input": "Cytomegalovirus antibody IgG >1000.000 AU/mL",
+          "why_order_this_exam": "The patient’s pulmonary infection manifestations are atypical, and opportunistic infection had also been considered earlier; at the same time, there is persistent marked abnormal liver function, and it is necessary to assess whether there is a background of viral infection. CMV-IgG is used to assess prior exposure and infection history. Although it cannot independently diagnose acute infection, when subsequently combined with IgM and CMV-DNA, it can help determine whether cytomegalovirus may be involved in pulmonary or hepatic lesions, and also provide a reference for infection assessment in the setting of immune dysfunction or underlying hematologic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Human cytomegalovirus DNA, Epstein-Barr virus DNA",
+          "basis_in_stage3_input": "PCR: Human cytomegalovirus DNA <1.00E+02 Copies/mL.",
+          "why_order_this_exam": "CMV antibodies alone cannot accurately reflect the current status of viral replication, while the patient had complex pulmonary manifestations and persistently worsening liver function abnormalities during the course of the disease. Quantitative CMV-DNA testing helps determine whether active viremia is present, thereby clarifying the pathogenic significance of CMV in the current disease, particularly for ruling out opportunistic viral infection causing pneumonia or liver injury, and providing more direct evidence for whether antiviral therapy is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-EBV early antigen IgG antibody, anti-EBV viral capsid antigen IgG antibody, anti-EBV viral capsid antigen IgM antibody",
+          "basis_in_stage3_input": "Anti-EBV early IgG antibody: negative (-)",
+          "why_order_this_exam": "A small number of EBV sequences were detected by BALF-NGS. Subsequently, multistation lymphadenopathy developed, and it is necessary to distinguish among simple past EBV infection, recent active infection, and EBV abnormalities related to lymphatic system disease. EBV early antigen IgG is helpful for determining recent activity status; combined with EBV-DNA and other EBV antibody profiles, it can improve the accuracy of assessing the pathogenic significance of EBV.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune liver disease panel",
+          "basis_in_stage3_input": "Autoimmune liver disease panel: anti-mitochondrial M2 antibody negative (-), anti-SP100 antibody negative (-), anti-liver/kidney microsomal type 1 antibody negative (-), anti-gp210 antibody negative (-), anti-liver cytosol type 1 antibody weakly positive (±), anti-soluble liver antigen antibody negative (-), anti-smooth muscle antibody 1:100 negative (-).",
+          "why_order_this_exam": "The patient has prominent liver function injury with persistent progression, manifested by markedly elevated total bilirubin, direct bilirubin, GGT, ALP, and total bile acids. Infection-related liver injury alone cannot fully explain this, so autoimmune liver disease needs to be ruled out. This evaluation can help differentiate primary biliary cholangitis, autoimmune hepatitis, and related overlap syndromes, thereby determining whether immunosuppression or other targeted treatment is needed and avoiding attributing the persistent liver injury solely to drugs or infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "basis_in_stage3_input": "Digestive system color Doppler ultrasound: 1. Splenomegaly. 2. Accessory spleen.",
+          "why_order_this_exam": "During hospitalization, the hepatic enzyme panel and bilirubin continued to worsen, requiring imaging evaluation of the hepatobiliary and splenic systems to determine whether there was biliary obstruction, hepatic parenchymal disease, or portal venous system abnormalities. Abdominal Doppler ultrasound of the digestive system can serve as a noninvasive initial screening test to help identify extrahepatic biliary causes; at the same time, detection of splenomegaly also provides indirect clues to systemic disease, hematologic disease, or lymphoma, and is valuable for explaining persistent liver function abnormalities and guiding subsequent diagnostic direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemistry and immunology",
+          "basis_in_stage3_input": "Most recent blood tests: biochemistry/immunology: albumin 33 g/L, total bilirubin 100.0 umol/L, direct bilirubin 82.5 umol/L, indirect bilirubin 17.5 umol/L, ALT 172 U/L, AST 120 U/L, GGT 2824 U/L, ALP 1093 U/L, total bile acids 127.0 umol/L.",
+          "why_order_this_exam": "In addition to pneumonia-like manifestations, abnormal liver biochemistry was another core issue during the disease course, and there was still no significant improvement after treatment, with progressive elevation of bilirubin. Serial monitoring of biochemical and immunologic markers can assess the type and severity of liver injury, distinguish whether cholestasis or hepatocellular injury predominates, determine whether it is related to infection, drugs, viruses, autoimmunity, or tumor infiltration, and directly affect liver-protective and jaundice-reducing treatment, anti-infective therapy, and subsequent specialty referral strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "PET-CT suggested possible lymphoma",
+          "why_order_this_exam": "During follow-up, the patient developed enlargement of multiple lymph nodes throughout the body compared with previously. Chest CT also showed abnormal lymph nodes in the left axilla and the gastrohepatic space, accompanied by persistent fever-like manifestations, splenomegaly, abnormal liver function, and EB virus-related clues, suggesting that this could no longer be explained solely as a simple pulmonary infection. PETCT was used to evaluate the metabolic activity and distribution of systemic lymph nodes and possibly involved organs, to help determine whether this was lymphoma, select the most appropriate biopsy site, and perform staging assessment, which played a key role in subsequent definitive diagnosis and treatment decision-making.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymph node needle biopsy",
+          "basis_in_stage3_input": "Lymph node needle biopsy was performed.",
+          "why_order_this_exam": "While the patient's pulmonary lesions were gradually being absorbed, there was progressive enlargement of multiple lymph nodes throughout the body, and PETCT suggested possible lymphoma, indicating that the primary clinical issue had shifted to the evaluation of a hematologic malignancy. Lymph node needle biopsy is the key examination for obtaining histopathologic and immunohistochemical evidence, and can directly determine whether this is lymphoma, what the pathologic subtype is, and how to formulate the subsequent specialty treatment plan; it is the निर्णसive step for establishing the diagnosis and stratified treatment.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy results: The lumens of the main bronchi and the bronchi of each lobe and segment were patent, with a small amount of white thin secretions. BALF smear submitted for examination: Gram stain: moderate Gram-positive cocci, small amount of Gram-negative bacilli, occasional Gram-positive bacilli, small amount of Gram-negative cocci, and no fungi detected. BALF bacterial culture: Burkholderia cepacia (sensitive to trimethoprim-sulfamethoxazole, ceftazidime, meropenem, levofloxacin, and minocycline; no breakpoint for cefoperazone/sulbactam; intermediate to chloramphenicol). BALF fungal culture: no fungal growth after 5 days of culture. Sent-out BALF NGS: contaminant Burkholderia cepacia (sequence count 6917), Tropheryma whipplei (sequence count 152), Pneumocystis jirovecii (sequence count 179), human herpesvirus type 4 (EBV) (sequence count 18). Repeat chest CT on Day +16 showed: 1. Multiple inflammatory lesions in both lungs, with partial consolidation, markedly absorbed compared with before. 2. Localized emphysema at both lung apices, and a bulla in the left upper lobe. 3. Multiple enlarged lymph nodes in the included left axilla, and small lymph nodes in the hepatogastric space. Hepatitis B serology: hepatitis B surface antigen negative (-), hepatitis B surface antibody positive (+), hepatitis B e antigen negative (-), hepatitis B e antibody positive (+), hepatitis B core antibody positive (+). Hepatitis A antibody IgM 0.25 COI, hepatitis E antibody-IgM <0.10 COI. Cytomegalovirus antibody IgG >1000.000 AU/mL, cytomegalovirus antibody IgM <1.000 AU/mL. PCR: human cytomegalovirus DNA <1.00E+02 Copies/mL. PCR: EB virus DNA <5.00E+03 Copies/mL. Anti-EB virus early IgG antibody negative (-), anti-EB virus capsid IgG antibody positive (+), anti-EB virus capsid IgM antibody negative (-). Autoimmune liver disease panel: anti-mitochondrial M2 antibody negative (-), anti-SP100 antibody negative (-), anti-liver/kidney microsomal type 1 antibody negative (-), anti-gp210 antibody negative (-), anti-liver cytosol type 1 antibody weakly positive (±), anti-soluble liver antigen antibody negative (-), anti-smooth muscle antibody 1:100 negative (-). Abdominal ultrasound: 1. Splenomegaly. 2. Accessory spleen. Most recent blood tests: biochemistry/immunology: albumin 33 g/L, total bilirubin 100.0 umol/L, direct bilirubin 82.5 umol/L, indirect bilirubin 17.5 umol/L, ALT 172 U/L, AST 120 U/L, GGT 2824 U/L, ALP 1093 U/L, total bile acid 127.0 umol/L. Hematology: prothrombin time 9.7 s, international normalized ratio 0.84, activated partial thromboplastin time 28.8 s, thrombin time 19.3 s, fibrinogen 2.45 g/L, antithrombin III 135.5%, fibrin(ogen) degradation products 6.54 цg/ml. Further follow-up observation found that multiple lymph nodes throughout the body were enlarged compared with before, repeat EB virus was increased compared with before, PET-CT suggested possible lymphoma, and a lymph node needle biopsy was performed.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJBIRcUv5cVAhI668fydibbK98qaMBF0jdU5o8L0N3ISEKzy5xicYA0xptMW8PYzbPZ4Jf7zAaNf0rA/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/f17257eb298f1f0a01fdd49959af384ef4ce2dd5.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJBIRcUv5cVAhI668fydibbKTYQibZ3Cv2ia8WQpKic15nFiaXxibw5fZaqlsibia3hNmOd4aIFIHrDh10ChQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: On 09.23 at our hospital, multiple patchy and linear opacities, as well as ground-glass opacities, were seen in both lungs.",
+          "local_src": "cleaned_cases_image_cache/9abc359d1468e77d7eca95bdfd95adcd58982cbd.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Non-Hodgkin lymphoma, favor peripheral T-cell lymphoma, NOS; Pneumocystis jirovecii pneumonia; emphysema; pulmonary bullae",
+      "diagnostic_basis": [
+        "The patient is a middle-aged man. Multiple lymph nodes throughout the body were enlarged compared with previously. He improved after antiviral and corticosteroid therapy, but liver function impairment progressively worsened, and the condition subsequently progressed.",
+        "Send-out BALF NGS: Pneumocystis jirovecii (sequence count 179); repeat EB virus testing increased compared with previously; PET-CT suggested possible lymphoma",
+        "Pathology from lymph node needle biopsy confirmed lymphoma, non-Hodgkin lymphoma, favoring peripheral T-cell lymphoma, not otherwise specified; immunohistochemistry: CD3+, CD5+, Ki67+60%",
+        "Chest CT showed: 1. Multiple inflammatory lesions in both lungs, with partial consolidation. 2. Localized emphysema in both lung apices, and a pulmonary bulla in the left upper lobe."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Ceftazidime 2 g Q12H for anti-infective therapy",
+        "SMZ anti-infective therapy",
+        "methylprednisolone anti-inflammatory therapy",
+        "Anisodamine, compound diisopropylamine dichloroacetate, bicyclol, ademetionine 1,4-butanedisulfonate, ursodeoxycholic acid, and other medications for jaundice reduction and hepatoprotection",
+        "Transferred to a specialty hospital for further treatment"
+      ],
+      "treatment_response": [
+        "Cough and dyspnea gradually improved; repeat blood gas analysis showed improved oxygenation compared with before",
+        "Multiple patchy, linear opacities and ground-glass opacities are seen in both lungs, with indistinct margins, predominantly in the bilateral lower lobes, with interval absorption compared with before",
+        "Gastrointestinal symptoms improved",
+        "Still had marked poor appetite and fatigue; blood tests showed that bilirubin and liver enzymes were significantly elevated compared with previously.",
+        "Liver function abnormalities showed no improvement on monitoring, with progressively increasing bilirubin"
+      ]
+    }
+  }
+}

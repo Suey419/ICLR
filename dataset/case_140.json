@@ -1,0 +1,373 @@
+{
+  "status": "success",
+  "case_id": "case_140",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 60 years old, chief complaint: \"bilateral lower extremity weakness with chest tightness for more than 1 month.\" History of present illness: More than 1 month ago, without an obvious precipitating cause, she developed weakness and soreness/pain in both knees and below, accompanied by chest tightness and dyspnea; the symptoms progressively worsened. She had no dizziness or headache, and no fever, hemoptysis, chest pain, or other discomfort. She presented to a local clinic and received IV infusion treatment for 15 days, with no improvement in symptoms, and then developed unperceived urinary and fecal incontinence. One week before admission, she presented to a hospital in Jinan; cardiac oxygen monitoring showed that SpO2 could decrease to 85% without oxygen supplementation, arterial blood gas analysis showed type I respiratory failure, CBC showed thrombocytopenia (68 x 10^9/L), blood tests showed elevated LDH, creatinine, and ferritin, rheumatoid panel and 15-item autoantibody profile were all negative, pulmonary artery CTA + abdominopelvic CT showed no obvious abnormalities, CSF testing showed no obvious abnormalities, and bone marrow cytology suggested active granulocytic and erythroid hyperplasia, with histiocytic hemophagocytosis observed. She was given oxygen therapy, anti-infective therapy, and antiasthmatic therapy, but symptoms did not improve. Past history/personal history/family history: Usually in good health. Denies a history of chronic diseases such as hypertension, coronary heart disease, and diabetes; denies a history of infectious diseases such as hepatitis and TB; denies drug or food allergies; denies a history of blood transfusion or trauma. No history of exposure to dust, toxic substances, or radioactive materials. Denies a family history of hereditary diseases, infectious diseases, or other special diseases. Physical examination on admission: Temperature 35.5℃, pulse 95/min, respiratory rate 23/min, blood pressure 94/74 mmHg. Alert, breath sounds clear in both lungs, heart rate 95/min, abdomen flat and soft, proximal muscle strength of the extremities grade 4. Laboratory tests: CBC: WBC 3.24 x 10^9/L, PLT 38 x 10^9/L; liver and kidney function: AST 74 U/L, ALB 29.6 g/L, Cre 109 umol/L, LDH 1578 U/L; thyroid function: FT3 <0.6 pmol/L, FT4 2.80 pmol/L; tumor markers: CEA 8.29 ng/mL, Ferr 764.00 ng/mL, CYFRA21-1 5.05 ng/mL, NSE 106.00 ng/mL; arterial blood gas analysis: type I respiratory failure; immune markers: ANA cytoplasmic granular pattern ++ 1:1000, anti-PL-12 antibody IgG +, anti-Ro-52 antibody IgG ++, anti-SRP antibody IgG +, absolute T/B/NK lymphocyte count decreased, IL-6 14.80 pg/mL, IL-2 receptor >7500.00 u/mL, IL-10 310.00 ug/mL, TNF-α 65.10 pg/mL; echocardiography: pulmonary artery systolic pressure approximately 39 mmHg. Outside hospital bone marrow smear consultation: mild reactive changes seen in the granulocytic series, histiocytes relatively easily seen, occasional hemophagocytic cells.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqPHk7PK8NcfJhA70Bf6w6Goz0cvkKThtVAa03vkTvIC9GicmCntTLQGA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "History taking",
+          "local_src": "cleaned_cases_image_cache/852298187387122236fce419233484af0214abb5.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Hemophagocytic lymphohistiocytosis (HLH) / hyperinflammatory cytokine syndrome",
+          "supporting_evidence": [
+            "Progressive worsening of the condition, accompanied by hypoxemia and type I respiratory failure",
+            "Complete blood count showed WBC 3.24x10^9/L and PLT 38x10^9/L, with cytopenia in at least two cell lineages.",
+            "Ferr 764.00 ng/mL elevated",
+            "LDH 1578 U/L markedly elevated",
+            "AST 74 U/L and ALB 29.6 g/L, suggesting systemic involvement",
+            "Absolute T/B/NK lymphocyte counts decreased",
+            "IL-2 receptor >7500.00 u/mL, IL-10 310.00 ug/mL, TNF-α 65.10 pg/mL, and IL-6 14.80 pg/mL, suggesting marked immune activation/cytokine storm state",
+            "Bone marrow cytology showed “hemophagocytosis by histiocytes can be seen”",
+            "Review of an outside hospital bone marrow smear suggested: \"histiocytes are relatively readily seen, with occasional hemophagocytic cells\""
+          ],
+          "opposing_evidence": [
+            "No fever; temperature on admission was 35.5℃.",
+            "The phase 1 information did not provide clear evidence of hepatosplenomegaly."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Idiopathic inflammatory myopathy-associated pulmonary involvement/respiratory muscle involvement (antisynthetase syndrome or immune-mediated necrotizing myopathy)",
+          "supporting_evidence": [
+            "Chief complaint: “Bilateral lower extremity weakness accompanied by chest tightness for more than 1 month,” with progressively worsening weakness and soreness/pain in both knee joints and below.",
+            "Physical examination showed grade 4 proximal muscle strength in all four limbs, consistent with a myopathic distribution pattern",
+            "Anti-PL-12 antibody IgG +, anti-SRP antibody IgG +, anti-Ro-52 antibody IgG ++, supporting an inflammatory myopathy-related autoimmune background",
+            "ANA cytoplasmic granular pattern ++, 1:1000",
+            "LDH 1578 U/L is markedly elevated and may be seen in muscle injury.",
+            "Chest tightness, dyspnea, and type I respiratory failure may be caused by interstitial lung disease or respiratory muscle involvement",
+            "Pulmonary artery CTA showed no obvious abnormalities, suggesting that the hypoxemia is not explained by obvious pulmonary embolism"
+          ],
+          "opposing_evidence": [
+            "In the first stage, the chest CT images showed no definite interstitial exudation, consolidation, or extensive reticular abnormalities, and the written report documented no obvious abnormalities on pulmonary artery CTA + abdominopelvic CT.",
+            "The phase 1 information did not provide direct evidence of myositis such as CK, electromyography, or muscle MRI."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Occult hematologic malignancy (especially lymphoma/leukemia) with secondary HLH",
+          "supporting_evidence": [
+            "Leukopenia and thrombocytopenia are present",
+            "LDH 1578 U/L is markedly elevated, suggesting high cellular turnover or tissue injury.",
+            "Elevated ferritin, markedly elevated IL-2 receptor, and elevation of multiple inflammatory cytokines may be seen in lymphoproliferative disease-associated HLH",
+            "Histiocytes and hemophagocytosis are seen in the bone marrow, suggesting possible secondary HLH.",
+            "Symptoms progressively worsened and did not improve with conventional anti-infective therapy"
+          ],
+          "opposing_evidence": [
+            "Bone marrow cytology showed only active granulocytic and erythroid hyperplasia and reactive changes; the phase 1 information did not provide clear evidence of malignant clonal cells.",
+            "Abdominopelvic CT showed no obvious abnormalities, and the first-stage information did not provide evidence of significant lymphadenopathy or hepatosplenomegaly."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Occult solid tumor-associated paraneoplastic syndrome/tumor-associated HLH (especially neuroendocrine tumors or lung cancer)",
+          "supporting_evidence": [
+            "Age 60 years",
+            "Tumor markers: NSE 106.00 ng/mL markedly elevated, CYFRA21-1 5.05 ng/mL elevated, CEA 8.29 ng/mL elevated",
+            "Progressive systemic symptoms, hypoxemia, cytopenias, and a hyperinflammatory state can be seen in malignancy-associated paraneoplastic processes or secondary HLH",
+            "No improvement with anti-infective therapy, suggesting a non-purely infectious etiology"
+          ],
+          "opposing_evidence": [
+            "Pulmonary artery CTA and abdominopelvic CT showed no obvious abnormalities",
+            "The first-stage chest CT images showed no definite pulmonary mass lesion or obvious mediastinal abnormality.",
+            "The phase 1 information did not indicate typical tumor-related features such as weight loss, cough, and hemoptysis."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + ESR + CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function tests + cardiac enzyme panel + LDH + BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulins + complement",
+          "requirement": "required"
+        },
+        {
+          "exam": "T/B/NK lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "antiplatelet antibody + lupus anticoagulant + anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary artery CTA + non-contrast CT of the chest, abdomen, and pelvis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body PET-CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "bedside electromyography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Head CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration smear + bone marrow biopsy + immunohistochemistry",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the patient was given oxygen inhalation, meropenem for anti-infective treatment, steroids for anti-inflammatory treatment, and symptomatic supportive therapy. The patient's condition did not improve and sudden bradycardia occurred, with the lowest heart rate reaching 48 beats/min. ECG indicated second-degree atrioventricular block (Mobitz type I). An urgent panel of three myocardial infarction markers was negative (-), but BNP was elevated. After MDT consultation, further examinations were completed: antiplatelet antibodies, lupus anticoagulant, and anticardiolipin antibodies were negative (-); bedside electromyography showed abnormal H reflexes in both lower extremities; abdominal ultrasound showed diffuse liver damage, renal damage, and splenomegaly; repeat non-contrast CT of the chest and abdomen showed a small amount of inflammation in both lungs and splenomegaly; whole-body PET-CT showed increased FDG metabolism in the uncinate process of the pancreas, favoring a benign lesion, with reactive retroperitoneal lymph node changes considered more likely; an inflammatory lymph node in the subcutaneous tissue of the right anterosuperior chest wall was considered more likely; bilateral pulmonary inflammation, splenomegaly, cholecystitis, a calcified focus in the falx cerebri, and a benign nodule in the right thyroid lobe.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqJ5WGUpjJyp8HL8x1gPibvFVrx6HkMY0iaicun1fOxIfDLrHs2oRxaW1cA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Morphologic description",
+            "local_src": "cleaned_cases_image_cache/e6497ad05137738b4a27e960397330d9f946b750.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqHnHaiaWV9MWJToYFJ6ibZewlSRU6XjC3l4VAglhC8pccWdcUoPKvWpPw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Re-summarize the characteristics of the patient's case",
+            "local_src": "cleaned_cases_image_cache/5cd2b8fba0530eeafc2f7a3f8bf25bc77634ae1a.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqeJnhFXjaonwAPPuPkVmj50eZSkvrgDECuNacichx6UPGibmcXqia6xH8Q/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "platelet count",
+            "local_src": "cleaned_cases_image_cache/f714757495628f413fab5fc89654669328047981.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqXV18K7aib4IDfCuDKKUqB4pG3iaF0EfMTxx9D8PaMIWiaBEY3UNO004bQ/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Triglycerides",
+            "local_src": "cleaned_cases_image_cache/c29697aea6f9f9eb2400002b4cd896653ba49eec.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "rheumatic immune disease",
+            "evidence": [
+              "Acute onset, multisystem involvement",
+              "Antinuclear antibody positive at 1:1000",
+              "Elevated IgG anti-PL-12, Ro-52, and SRP antibodies"
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as skin lesions or joint pain were present throughout the course.",
+              "The condition did not improve after corticosteroid therapy."
+            ]
+          },
+          {
+            "name": "Hematologic malignancies (leukemia, lymphoma, multiple myeloma)",
+            "evidence": [
+              "Complete blood count showed leukopenia and thrombocytopenia",
+              "Occasional hemophagocytic cells seen on bone marrow aspiration cytology",
+              "CT showed splenomegaly"
+            ],
+            "exclusion_reasons": [
+              "There are no definitive bone marrow biopsy or lymph node biopsy results to support the diagnosis."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "rheumatic immune disease",
+        "evidence": [
+          "Acute onset, multisystem involvement",
+          "Antinuclear antibody positive at 1:1000",
+          "Elevated IgG anti-PL-12, Ro-52, and SRP antibodies"
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as skin lesions or joint pain were present throughout the course.",
+          "The condition did not improve after corticosteroid therapy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hematologic malignancies (leukemia, lymphoma, multiple myeloma)",
+        "evidence": [
+          "Complete blood count showed leukopenia and thrombocytopenia",
+          "Occasional hemophagocytic cells seen on bone marrow aspiration cytology",
+          "CT showed splenomegaly"
+        ],
+        "exclusion_reasons": [
+          "There are no definitive bone marrow biopsy or lymph node biopsy results to support the diagnosis."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Head CT",
+          "basis_in_stage3_input": "Head CT showed suspected patchy hypodense lesions in the bilateral corona radiata, possibly ischemic degenerative lesions in the brain.",
+          "why_order_this_exam": "After hospitalization, the patient's condition continued to პროგress. After being transferred to the RICU because of fever and decreased blood pressure, the patient suddenly became unresponsive to verbal stimuli, with trismus, upward gaze deviation of both eyes, and convulsions of all four extremities. These were manifestations of an acute central nervous system event, and a head CT was needed first for rapid assessment of whether there was acute hemorrhage, a large infarction, a space-occupying lesion, or other organic lesions that could explain the seizures and disturbance of consciousness. The patient also had marked thrombocytopenia, making emergency imaging especially important for determining whether intracranial hemorrhage was also present; if only ischemic degenerative lesions were seen, this would suggest that the neurologic symptoms might not be fully explained by a structural lesion, and further evaluation should then shift to CSF and immune/infectious causes, which would also help with subsequent lumbar puncture risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "lumbar puncture",
+          "basis_in_stage3_input": "On August 14, a lumbar puncture was performed",
+          "why_order_this_exam": "The patient developed impaired consciousness and seizures, and the underlying disease course included progressive neurologic symptoms, including bilateral lower extremity weakness and unconscious urinary and fecal incontinence. Further evaluation is needed to determine whether there is a CNS infection, immune-mediated encephalitis, demyelinating lesions, or tumor-related CNS involvement. When head CT does not show a definite acute lesion that can fully explain the symptoms, lumbar puncture is a key step for obtaining direct evidence from the central nervous system. This examination can provide specimens for subsequent CSF routine analysis, biochemical testing, pathogen testing, and autoantibody testing, and plays a निर्णative role in confirming or excluding infectious and immune-mediated encephalopathy and in guiding whether to continue anti-infective or immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid routine examination",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "In the context of the patient developing seizures, altered consciousness, and previously progressive lower extremity weakness and abnormal sphincter function, routine cerebrospinal fluid analysis is a basic test for determining whether there is an inflammatory cellular response, evidence of infection, or blood contamination in the central nervous system. Its main clinical purpose is to rapidly distinguish bacterial/viral central nervous system infection from noninfectious causes and to correlate with the imaging findings. If routine cerebrospinal fluid analysis shows no significant abnormalities, this lowers the likelihood of typical infectious meningoencephalitis and overt inflammatory central nervous system lesions, shifting clinical attention toward HLH-associated encephalopathy, metabolic encephalopathy, or neurologic dysfunction caused by tumor-related systemic inflammation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF biochemistry",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "The patient’s neurologic manifestations had an abrupt onset and the condition was critical. CSF biochemistry can further assess blood-brain barrier disruption, elevated protein, and changes in glucose and chloride, thereby helping differentiate infection, inflammation, tumor infiltration, or other noninfectious central nervous system diseases. In the context of fever, a tendency toward shock, and the subsequently confirmed hyperinflammatory state and background of hematologic malignancy, this examination was intended to determine whether the neurologic symptoms originated from central nervous system infection or meningeal involvement. Negative biochemical results help weaken the evidence for infectious meningoencephalitis and overt meningeal infiltration, avoid blindly escalating anti-infective therapy, and also support the subsequent focus on the primary hematologic malignancy and HLH.",
+          "requirement": "required"
+        },
+        {
+          "exam": "cerebrospinal fluid immunoglobulin",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "The patient has high-titer ANA positivity and positivity for autoantibodies including anti-PL-12, anti-Ro-52, and anti-SRP, indicating a complex autoimmune background. The patient also developed seizures and impaired consciousness; therefore, CSF immunoglobulins are needed to assess whether there is intrathecal immune activation or abnormal immunoglobulin synthesis. This test is intended to help distinguish simple systemic inflammation/tumor-related manifestations from true central immune-mediated disease, and is informative in determining whether there is support for autoimmune encephalitis, demyelinating disease, or other immune-mediated central nervous system involvement. A negative result suggests insufficient evidence for a central immune process and helps narrow the differential diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid pathogen DNA",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "The patient previously had fever, worsening of the condition, and developed seizures and altered consciousness, and had already received anti-infective treatment early in the course without obvious relief; routine clinical manifestations cannot exclude central nervous system infection caused by viruses or other pathogens. The primary purpose of cerebrospinal fluid pathogen DNA testing is to improve the ability to identify viral or other pathogen infections when routine cerebrospinal fluid indices may be atypical, thereby determining whether there is an infection-driven neurologic event and systemic inflammation. A negative result helps exclude common central infectious triggers and avoid misattributing subsequent HLH- and lymphoma-related manifestations to infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune encephalitis antibody panel",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "The patient developed acute disturbance of consciousness and seizures, with multiple autoantibody positivities and multisystem involvement. Clinically, it is necessary to evaluate for autoimmune encephalitis, a disease that can cause seizures and psychiatric/altered mental status changes and in which imaging and routine CSF findings are sometimes nonspecific. This test is primarily intended to determine whether the central nervous system symptoms are caused by antibody-mediated encephalitis, thereby guiding whether targeted immunotherapy is needed. A negative result can substantially reduce the likelihood of autoimmune encephalitis, shifting the diagnostic focus more toward HLH associated with hematologic malignancy and its secondary neurologic manifestations.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibodies for central nervous system demyelinating diseases",
+          "basis_in_stage3_input": "Routine CSF analysis, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and autoantibodies for central nervous system demyelinating diseases were all negative (-).",
+          "why_order_this_exam": "The patient initially presented with progressive bilateral lower-extremity weakness, soreness, and insensate urinary and fecal incontinence, suggesting that spinal cord or central demyelinating disease needed to be differentiated; subsequently, impaired consciousness and seizures developed, making immune-mediated lesions of the central nervous system impossible to ignore. Testing for autoantibodies associated with central nervous system demyelinating diseases was performed to assess whether an immune-mediated demyelinating process such as neuromyelitis optica spectrum disorder was present, in order to explain the motor and sphincter dysfunction and to guide whether treatments such as corticosteroids and plasma exchange should be used. Negative results would help exclude important neuroimmunologic differential diagnoses.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ferritin",
+          "basis_in_stage3_input": "Afterward, the patient had persistent thrombocytopenia, elevated ferritin, accompanied by hypertriglyceridemia, and an sCD25 level >6400 pg/mL.",
+          "why_order_this_exam": "During the course of the illness, the patient had persistent thrombocytopenia, accompanied by leukopenia, splenomegaly, markedly elevated LDH, fever, hypotension, and hemophagocytosis in the bone marrow, and HLH was highly suspected clinically. Ferritin is one of the key inflammatory markers in the evaluation of HLH, used to determine whether there is abnormal hyperinflammatory activation and as an important component of the diagnostic basis. This test is intended to determine whether the patient's cytopenias and multiorgan involvement are driven by hemophagocytic syndrome, and it can also be used to assess disease severity and subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Triglycerides",
+          "basis_in_stage3_input": "Afterward, the patient had persistent thrombocytopenia, elevated ferritin, accompanied by hypertriglyceridemia, and an sCD25 level >6400 pg/mL.",
+          "why_order_this_exam": "When the patient has progressive clinical deterioration, persistent cytopenias, splenomegaly, hemophagocytosis in the bone marrow, and a hypercytokinemic state, triglycerides are measured to complete the evaluation of HLH-related metabolic parameters. Hypertriglyceridemia is one of the common laboratory features of HLH and may reflect inflammation cytokine-driven disorders of lipid metabolism. This test helps fulfill diagnostic clues for HLH, distinguish simple infection or rheumatic immune disease from hyperinflammatory cytokine syndrome, and provide a basis for promptly initiating subsequent treatment for the underlying disease and HLH.",
+          "requirement": "required"
+        },
+        {
+          "exam": "sCD25",
+          "basis_in_stage3_input": "Afterward, the patient had persistent thrombocytopenia, elevated ferritin, accompanied by hypertriglyceridemia, and an sCD25 level >6400 pg/mL.",
+          "why_order_this_exam": "The patient has clear evidence of immune activation. Previous testing has already indicated a markedly elevated IL-2 receptor level, and clinically there are fever, decreased blood pressure, bicytopenia, splenomegaly, and bone marrow hemophagocytosis. Further sCD25 testing is needed to quantify the degree of abnormal T-cell/immune system activation. This test has high value for the diagnosis of HLH, mainly to determine whether there is a hyperinflammatory immune activation state consistent with disease progression, and to help assess the likelihood and severity of HLH. A markedly elevated result corroborates ferritin, hypertriglyceridemia, and bone marrow findings, helping move HLH from the differential diagnosis toward clinical confirmation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration examination",
+          "basis_in_stage3_input": "On August 31, bone marrow aspiration was performed again.",
+          "why_order_this_exam": "Although the patient's earlier bone marrow examination had already suggested histiocytes and occasional hemophagocytic cells, there had consistently been no clear etiology to explain the persistent cytopenia, markedly elevated LDH, splenomegaly, inflammatory storm, and lack of response to treatment. As the disease progressed and the evidence for HLH increased, the purpose of repeating bone marrow aspiration was to search for an underlying primary disease, especially a hematologic malignancy, and to reassess hemophagocytosis. This examination was crucial for resolving the core clinical question of whether this was simple secondary HLH or lymphoma-associated HLH, and it also provided the basis for specimen collection for subsequent bone marrow cytology, biopsy, and immunohistochemistry.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow cytology",
+          "basis_in_stage3_input": "Bone marrow cytology: The marrow smear shows 6%± abnormal lymphocytes with large cell size, poor differentiation, and atypical changes; hemophagocytic cells are readily seen. Lymphoma cannot be excluded morphologically.",
+          "why_order_this_exam": "The patient has persistent thrombocytopenia and leukopenia, accompanied by elevated ferritin, hypertriglyceridemia, markedly elevated sCD25, and splenomegaly, suggesting HLH, but the trigger must be further investigated. Bone marrow cytology can directly assess for abnormal lymphocytes, hemophagocytosis, and reactive bone marrow changes, with the purpose of determining whether a hematologic malignancy is present, especially lymphoma- or leukemia-associated HLH. The finding of poorly differentiated, morphologically atypical lymphocytes together with hemophagocytic cells supports HLH and also suggests a possible underlying primary hematologic malignancy, providing key evidence for subsequent biopsy pathology and treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy histopathology",
+          "basis_in_stage3_input": "Repeat bone marrow aspiration and bone marrow biopsy histopathology: microscopically, abnormal large cells are seen in scattered and clustered distributions, with most nuclei being irregular.",
+          "why_order_this_exam": "When bone marrow cytology has already suggested abnormal lymphocytes but is still insufficient to establish a definitive subtype, bone marrow biopsy histopathology is the key examination for confirming the nature of bone marrow involvement. The patient has complex systemic manifestations, with both evidence of HLH and high-risk signals for hematologic malignancy, such as markedly elevated LDH, splenomegaly, and PET showing no typical mass but being unable to exclude marrow-based or occult lymphoma. The biopsy can assess the distribution pattern of abnormal cells, the degree of infiltration, and changes in tissue architecture, thereby answering the निर्णसive question of whether there is bone marrow involvement by lymphoma, and providing the histologic basis for immunohistochemical classification and final treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry showed that the atypical large cells were B cells with the following phenotype: CD20+, PAX5+, CD3-, CD5-, CyclinD1-, CD10-, BCL6+, MUM1+, BCL2+, with a Ki-67 positivity rate of approximately 70%-80%.",
+          "why_order_this_exam": "Bone marrow biopsy can only suggest the presence of infiltration by abnormal large cells, but immunohistochemistry is essential to determine their cellular origin, exclude other lymphoproliferative disorders, and complete lymphoma subtyping. The patient had previously remained without a definitive diagnosis for a long time, and whether the cells are of B-cell origin, the degree of proliferative activity, and whether they meet the features of diffuse large B-cell lymphoma will directly determine the subsequent chemotherapy and targeted therapy regimen. Immunohistochemistry, using markers such as CD20, PAX5, BCL6, MUM1, BCL2, and Ki-67, is used not only for definitive diagnosis and differentiation from T-cell neoplasms, mantle cell lymphoma, and others, but also to explain why it triggered HLH, and it plays a निर्णसive role in establishing the final diagnosis of 'diffuse large B-cell lymphoma with HLH'.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On August 2, the patient developed fever, with temperature up to 38.2℃, followed by a decline in blood pressure, and was transferred to the RICU. The next day, the patient suddenly became unresponsive to verbal stimuli, with clenched jaw, upward gaze of both eyes, and convulsions of all four limbs. Cranial CT showed patchy low-density lesions suspiciously seen in the bilateral corona radiata regions, with possible ischemic degenerative lesions in the brain. On August 6, the patient's consciousness became clear. On August 14, lumbar puncture was performed; routine cerebrospinal fluid studies, biochemistry, immunoglobulins, pathogen DNA, autoimmune encephalitis antibody panel, and central nervous system demyelinating disease autoantibodies were all (-). Subsequently, the patient had persistent thrombocytopenia, elevated ferritin, hypertriglyceridemia, and an sCD25 level >6400 pg/mL. On August 31, bone marrow aspiration was performed again. Bone marrow cytology: approximately 6% abnormal lymphocytes with large cell bodies, poor differentiation, and atypical changes were seen in the marrow smear; hemophagocytic cells were relatively easily seen; morphologically, lymphoma could not be excluded. Histopathology of the repeat bone marrow aspiration and bone marrow biopsy showed abnormal large cells scattered and in clusters under microscopy, with mostly irregular nuclei. Immunohistochemistry showed that the abnormal large cells were B cells, with the following phenotype: CD20+, PAX5+, CD3-, CD5-, CyclinD1-, CD10-, BCL6+, MUM1+, BCL2+, Ki-67 positive rate approximately 70%-80%.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFqfM6x5rXMnh7ZFzcB7P26GwW3zknTf0VI4nXtuaXjKDVSz1fl8fAVKg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Morphologic description",
+          "local_src": "cleaned_cases_image_cache/7b6b638e9cbc13c0b19ba4e4ed77556a9b5d8695.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKYKvlcUtygwHBHEaHD3ZFq5vtqsEnic1IAYicsjqmXNkLhx5V5qZnrpPop7qic4gVxBH0WB5zgbQtYQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Diagnosis: diffuse large B-cell lymphoma involving the bone marrow",
+          "local_src": "cleaned_cases_image_cache/8ea7401eb29f178a4e22ba1ab9dae0e087a3830a.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Diffuse large B-cell lymphoma hemophagocytic syndrome",
+      "diagnostic_basis": [
+        "On bone marrow biopsy pathology, abnormal large cells are seen scattered and in clusters under the microscope, with mostly irregular nuclei.",
+        "Immunohistochemistry showed that the atypical large cells were B cells, with the following phenotype: CD20+, PAX5+, BCL6+, MUM1+, BCL2+, Ki-67 positive rate approximately 70%-80%",
+        "Persistent thrombocytopenia, elevated ferritin, accompanied by hypertriglyceridemia, sCD25 level >6400 pg/mL",
+        "Hemophagocytic cells are relatively easily observed on bone marrow cytology"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [],
+      "treatment_response": []
+    }
+  }
+}

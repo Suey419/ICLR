@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "case_id": "case_182",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 55 years old, from Beijing, presented to the Emergency Department for fever and dyspnea, and was later transferred to the Respiratory Intensive Care Unit (RICU), Department of Pulmonary and Critical Care Medicine, Peking University First Hospital.\nChief complaint: Fever, cough, and progressive shortness of breath for 3 days.\nHistory of present illness: The patient developed fever, cough, and dyspnea 3 days earlier, with progressive worsening. Evaluation in the Emergency Department showed ABG (FiO₂ 21%, pH 7.44, PCO₂ 37 mmHg, PaO₂ 56.00 mmHg), CBC: WBC 9.37×10⁹/L, NE% 81.6%, CRP 120 mg/L; chest CT suggested diffuse patchy ground-glass opacities in both lungs. She was transferred to the RICU because of rapidly progressive respiratory failure.\nPast medical history: More than 20 years of psoriasis. Ixekizumab was started 3 months earlier, with the last dose 6 weeks earlier; the rash resolved after treatment. History of hypertension for 4 years. Denies drug and food allergy history.\nPhysical examination: T 39℃, P 131 beats/min, R 32 breaths/min, BP 151/99 mmHg. Alert. Appeared dyspneic. No abnormalities on skin or joint examination. Coarse breath sounds in both lungs, with inspiratory moist rales heard in both lower lungs. Regular cardiac rhythm, no murmur heard in any valve auscultation area. Abdomen flat and soft. No edema in both lower extremities.\nLaboratory tests: ABG (FiO2 45%): pH 7.45, PaCO₂ 36 mmHg, PaO₂ 67 mmHg. CBC: WBC 7.8×10⁹/L, NE% 84.3%, LY 0.6×10⁹/L. CRP: 101 mg/L, PCT: 0.09 ng/mL; IL-6: 69.4↑ pg/ml. Liver and kidney function, myocardial injury markers, and BNP were all normal. Coagulation: PT 14.1 s, APTT 31 s, FIB 6.16↑ g/L, D-Dimer 0.37↑ g/L. Respiratory pathogen 9-panel IgM: negative. Blood culture: negative. Serum G test and GM test: negative. TB interferon-gamma release assay: negative. Immunoglobulins + complement: IgG 7.61 g/L, IgM 0.33↓ g/L, complement normal. Autoantibody panel (ANA + anti-ENA panel): negative; ANCA: negative; myositis antibody panel: negative.\nAncillary examinations: Chest CT: diffuse patchy ground-glass opacities in both lungs, with partially ill-defined borders; the lesions were mainly distributed along the bronchovascular bundles, predominantly in the middle-to-peripheral zones and subpleural regions of both lungs; interlobular septal thickening was seen within them, accompanied by multiple patchy small foci of consolidation (Figure 1).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_gif/qcrGY40NstJQJBiaJpGb22I1zibzHqCfFrV7f7iaMSRXlWTX6pPR4iapeObrF41UGH8RsWEavyUJibsPskgCRaicEbOQ/640?wx_fmt=gif&from=appmsg",
+          "near_text": "Figure 1.",
+          "local_src": "cleaned_cases_image_cache/f12c89d760b7657539b21ebbd55457ce4fde08b5.gif"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis jirovecii pneumonia (PJP)",
+          "supporting_evidence": [
+            "The patient has an immune-related background: a history of psoriasis, and ixekizumab was started 3 months earlier, suggesting possible alteration of host defense function.",
+            "The clinical presentation was fever, cough, and progressive dyspnea, progressing to hypoxemic respiratory failure within 3 days, consistent with the acute or subacute hypoxemic presentation that can occur with PJP.",
+            "Chest CT showed diffuse ground-glass opacities in both lungs, involving the middle and peripheral zones and the subpleural regions of both lungs, accompanied by septal thickening, which is one of the common imaging patterns of PJP.",
+            "WBC is not significantly elevated, and PCT is not elevated, which is more supportive of an atypical opportunistic infection rather than typical pyogenic bacterial pneumonia."
+          ],
+          "opposing_evidence": [
+            "Serum G test was negative, which does not support but cannot completely exclude PJP.",
+            "The disease course was only 3 days, slightly shorter than the more common subacute onset of PJP.",
+            "Phase 1 information did not provide evidence of HIV infection, glucocorticoid use, or other definite severe immunosuppression."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Community-acquired pneumonia (atypical pathogen or culture-negative bacterial pneumonia)",
+          "supporting_evidence": [
+            "Fever, cough, and shortness of breath are present; body temperature 39℃; inspiratory crackles are audible in both lower lungs, consistent with pulmonary infection.",
+            "CRP was markedly elevated (120mg/L, 101mg/L), and the neutrophil percentage was increased (81.6%, 84.3%), supporting an inflammatory/infectious lesion.",
+            "Chest CT shows diffuse patchy ground-glass opacities in both lungs and multiple small patchy areas of consolidation, which can be seen in community-acquired pneumonia, especially with atypical pathogens or in the early/severe stage.",
+            "The condition rapidly progressed to respiratory failure, and severe pneumonia requires a high degree of vigilance."
+          ],
+          "opposing_evidence": [
+            "PCT 0.09 ng/mL is low, not supporting typical bacterial pneumonia.",
+            "Blood cultures were negative.",
+            "Chest CT shows predominantly diffuse ground-glass opacities, distributed along the bronchovascular bundles and in the subpleural regions, which is not a typical imaging manifestation of lobar bacterial pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Drug-related pneumonitis/drug-induced interstitial lung disease (ixekizumab-related)",
+          "supporting_evidence": [
+            "History of psoriasis; started ixekizumab 3 months ago, with a clear recent history of biologic agent exposure.",
+            "Chest CT showed diffuse patchy ground-glass opacities in both lungs, some with ill-defined margins, accompanied by interlobular septal thickening and small foci of consolidation, which can be seen in drug-induced lung injury.",
+            "The initial infectious disease screening results were limited: respiratory pathogen 9-panel IgM negative, blood culture negative, G test/GM test negative, TB interferon-gamma release assay negative, reducing support for some common infections.",
+            "Negative autoantibody panel, ANCA, and myositis antibody panel make some connective tissue disease-associated interstitial lung diseases relatively less supported."
+          ],
+          "opposing_evidence": [
+            "The patient has high fever (39℃) and a marked elevation in CRP, which more often suggests an infectious etiology.",
+            "The last medication exposure was 6 weeks earlier; the phase 1 information did not provide clear time-related evidence of immediate or repeated provocation after medication use.",
+            "Phase 1 information did not provide evidence of eosinophilia, recurrent rash, or other drug hypersensitivity reactions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute interstitial pneumonia/diffuse alveolar damage (spectrum of noncardiogenic acute lung injury)",
+          "supporting_evidence": [
+            "The patient developed progressive dyspnea over a short period of time and rapidly progressed to hypoxemic respiratory failure.",
+            "Chest CT showed diffuse bilateral ground-glass opacities with septal thickening and partial consolidation, consistent with possible imaging manifestations of diffuse alveolar damage.",
+            "Myocardial injury markers and BNP were normal, reducing support for diffuse infiltrative opacities caused by cardiogenic pulmonary edema."
+          ],
+          "opposing_evidence": [
+            "The presence of clear signs suggestive of infection, such as fever, cough, and elevated CRP, suggests that acute interstitial pneumonia may be a lower-priority differential diagnosis.",
+            "The phase I information did not provide clear evidence supporting an idiopathic etiology after exclusion of ARDS triggers.",
+            "The phase I information did not provide key information supporting this diagnosis, such as the oxygenation index before and after mechanical ventilation and evidence of extensive exclusion of infection."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Sputum pathogen testing (culture + acid-fast smear + viral nucleic acid)",
+          "reason": "Acute course, with clinical manifestations of fever and rapid disease progression",
+          "basis_in_stage3_input": "Chest CT showed diffuse ground-glass opacities in both lungs",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Physical examination: T 39℃, P 131 beats/min, R 32 breaths/min, BP 151/99 mmHg. Conscious. Appears dyspneic. No abnormalities on skin or joint examination. Coarse breath sounds in both lungs, with inspiratory moist rales audible in both lower lungs. Regular heart rhythm, with no murmurs heard in any valve auscultation area. Abdomen flat and soft. No edema in either lower extremity.\nLaboratory tests: ABG (FiO2 45%): pH 7.45, PaCO₂ 36 mmHg, PaO₂ 67 mmHg. CBC: WBC 7.8×10⁹/L, NE% 84.3%, LY 0.6×10⁹/L. CRP: 101 mg/L, PCT: 0.09 ng/mL; IL-6: 69.4↑ pg/ml. Liver and kidney function, myocardial injury markers, and BNP were all normal. Coagulation: PT 14.1 s, APTT 31 s, FIB 6.16↑ g/L, D-Dimer 0.37↑ g/L. Respiratory nine-pathogen IgM panel: negative. Blood culture: negative. Serum G test and GM test: negative. TB interferon-gamma release assay: negative. Immunoglobulins + complement: IgG 7.61 g/L, IgM 0.33↓ g/L, complement normal. Autoantibody panel (ANA + anti-ENA panel): negative; ANCA: negative; myositis antibody panel: negative.\nAncillary examinations: Chest CT: diffuse patchy ground-glass opacities in both lungs, some with ill-defined margins; the lesions were distributed mainly along the bronchovascular bundles, predominantly in the mid-peripheral and subpleural regions of both lungs, with visible interlobular septal thickening and multiple patchy small foci of consolidation (Figure 1).\nOn the second hospital day, bronchoalveolar lavage and transbronchial lung cryobiopsy were performed under general anesthesia. The bronchoalveolar lavage fluid (BALF) was pale yellow. Differential cytology showed a markedly increased lymphocyte proportion (macrophages 14%, neutrophils 3%, lymphocytes 75%, eosinophils 8%); BALF bacterial culture, X-Pert for acid-fast TB, fungal culture, GM, and other etiologic tests were all negative.\nHistopathologic examination of transbronchial lung cryobiopsy (TBLC): In the submitted lung tissue, there was infiltration of polymorphous inflammatory cells including lymphocytes, plasma cells, and eosinophils in the bronchial wall, interstitial fibrous hyperplasia, focal alveolar epithelial hyperplasia, and deposition of fibrinous proteinaceous material in the alveolar spaces. Inflammatory lesion was considered; no granulomas were seen, and acid-fast staining was negative (Figure 2).",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious disease",
+            "evidence": [
+              "The patient had an acute onset of fever, cough, and dyspnea, with markedly elevated CRP; chest CT showed diffuse bilateral pulmonary infiltrates."
+            ],
+            "exclusion_reasons": [
+              "In conjunction with the patient's imaging findings, this is not consistent with common bacterial, fungal, or other infectious manifestations.",
+              "Initial screening negative"
+            ]
+          },
+          {
+            "name": "Connective tissue disease-associated interstitial lung disease (CTD-ILD)",
+            "evidence": [
+              "The patient has an underlying history of psoriasis. In this episode, there is fever, rapidly progressive respiratory failure, and diffuse bilateral ground-glass infiltrates; the possibility of concomitant pulmonary involvement of autoimmune diseases such as dermatomyositis should be considered."
+            ],
+            "exclusion_reasons": [
+              "The patient had no manifestations such as rash or muscle weakness, and all autoantibodies were negative, which does not support CTD-ILD; this possibility is considered less likely."
+            ]
+          },
+          {
+            "name": "Drug-induced interstitial lung disease (DI-ILD)",
+            "evidence": [
+              "The patient had psoriasis and developed pulmonary lesions after 3 months of ixekizumab use.",
+              "In recent years, biologic agent-induced DI-ILD has shown an increasing trend"
+            ],
+            "exclusion_reasons": [
+              "The diagnosis can be considered only after infection and other causes have been thoroughly excluded."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Connective tissue disease-associated interstitial lung disease (CTD-ILD)",
+        "evidence": [
+          "The patient has an underlying history of psoriasis. In this episode, there is fever, rapidly progressive respiratory failure, and diffuse bilateral ground-glass infiltrates; the possibility of concomitant pulmonary involvement of autoimmune diseases such as dermatomyositis should be considered."
+        ],
+        "exclusion_reasons": [
+          "The patient had no manifestations such as rash or muscle weakness, and all autoantibodies were negative, which does not support CTD-ILD; this possibility is considered less likely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Drug-induced interstitial lung disease (DI-ILD)",
+        "evidence": [
+          "The patient had psoriasis and developed pulmonary lesions after 3 months of ixekizumab use.",
+          "In recent years, biologic agent-induced DI-ILD has shown an increasing trend"
+        ],
+        "exclusion_reasons": [
+          "The diagnosis can be considered only after infection and other causes have been thoroughly excluded."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoalveolar lavage",
+          "basis_in_stage3_input": "On the second day after admission, bronchoalveolar lavage and transbronchial lung cryobiopsy were performed under general anesthesia.",
+          "why_order_this_exam": "The patient presented with fever, cough, and progressive dyspnea, with rapid progression to hypoxemic respiratory failure within 3 days. Chest CT showed diffuse bilateral ground-glass opacities with small areas of consolidation. Clinically, the first priority is to promptly distinguish infectious pneumonia from noninfectious diffuse parenchymal lung disease. The patient had prior exposure to ixekizumab, raising the possibility of drug-related interstitial lung disease, but before confirmation, infections such as bacterial, mycobacterial, and fungal infection must be thoroughly excluded. Bronchoalveolar lavage can directly obtain lower respiratory tract specimens in a relatively minimally invasive manner for microbiologic, cytologic, and inflammatory pattern assessment. It is an important basic examination for this type of acute diffuse lung disease and also helps provide a basis for subsequent treatment decisions, including whether to use glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "transbronchial lung cryobiopsy",
+          "basis_in_stage3_input": "On the second day after admission, bronchoalveolar lavage and transbronchial lung cryobiopsy were performed under general anesthesia.",
+          "why_order_this_exam": "The patient is critically ill, with poor oxygenation. Imaging shows diffuse bilateral ground-glass opacities and consolidation. Routine blood tests and initial infectious disease screening were unable to identify the etiology, and the autoantibody panel was negative. A differential diagnosis is still needed among infection, drug-related interstitial lung disease, organizing pneumonia, and other inflammatory interstitial lung diseases. Transbronchial lung cryobiopsy can obtain larger and more intact lung tissue specimens than conventional forceps biopsy, helping determine whether key pathologic features such as interstitial inflammation, organization, fibrinous exudation, and granulomas are present, thereby increasing diagnostic confidence for drug-induced lung injury and excluding other causes. Although this procedure carries risks of bleeding, pneumothorax, and anesthesia-related complications, it has important value in the setting of rapidly progressive respiratory failure, where the diagnosis directly affects whether corticosteroid therapy should be initiated early.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid cytologic classification",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid (BALF) was light yellow in color, and cytologic differential showed a markedly increased lymphocyte proportion (macrophages 14%, neutrophils 3%, lymphocytes 75%, eosinophils 8%);",
+          "why_order_this_exam": "In the setting of the patient’s acute fever, diffuse bilateral pulmonary infiltrates, and hypoxemic respiratory failure, BALF cytologic differential is helpful for identifying the type of intrapulmonary inflammatory response. In this patient, PCT is not elevated, routine infectious screening is negative, and there is a history of eculizumab exposure, so the key differential diagnosis is infectious pneumonia versus drug-related interstitial lung disease. A marked increase in lymphocytes in BALF accompanied by a small number of eosinophils may suggest an atypical inflammatory/immune-mediated lung injury pattern, rather than the neutrophil-predominant response typically seen in pyogenic bacterial infection. Therefore, this test is critical for supporting drug-induced or other inflammatory interstitial lung disease, weakening the diagnosis of common bacterial infection, and providing a basis for subsequent decisions on whether to use glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF bacterial culture",
+          "basis_in_stage3_input": "BALF bacterial culture, acid-fast bacilli testing, TB X-Pert, fungal culture, GM, and other pathogen tests were all negative.",
+          "why_order_this_exam": "The patient has high fever, markedly elevated CRP, bilateral moist rales, and diffuse pulmonary opacities; clinically, bacterial pulmonary infection must first be excluded, especially when the condition rapidly progresses to respiratory failure. Although the PCT is not elevated and the imaging findings are atypical, bacterial infection still cannot be ruled out based on these clues alone. BALF bacterial culture is more reflective of the true pathogen status of the lower respiratory tract than upper respiratory tract specimens, and can be used to identify common or culturable bacterial pathogens and to provide a basis for whether to continue or adjust anti-infective therapy. A negative culture result has important exclusionary value for subsequently shifting the diagnostic focus to drug-related interstitial lung disease and for implementing glucocorticoid therapy with relative confidence.",
+          "requirement": "required"
+        },
+        {
+          "exam": "AFB smear",
+          "basis_in_stage3_input": "BALF bacterial culture, acid-fast bacilli testing, TB X-Pert, fungal culture, GM, and other pathogen tests were all negative.",
+          "why_order_this_exam": "The patient’s imaging showed diffuse bilateral ground-glass opacities and partial consolidation. Although not typical, mycobacterial infection, especially TB or nontuberculous mycobacteria, may have atypical manifestations in hosts with altered immune status. The patient recently received treatment with the biologic agent ixekizumab. Although the TB interferon-gamma release assay was negative, it still cannot completely replace lower respiratory tract pathogen evaluation. The purpose of performing BALF acid-fast testing is to screen for mycobacterial infection as soon as possible, to avoid misclassifying potential TB or nontuberculous mycobacterial lung disease as drug-induced lung injury and then administering glucocorticoids, which could lead to dissemination of infection and an incorrect treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB Xpert",
+          "basis_in_stage3_input": "BALF bacterial culture, acid-fast bacilli testing, TB X-Pert, fungal culture, GM, and other pathogen tests were all negative.",
+          "why_order_this_exam": "In a patient with acute hypoxemic respiratory failure and diffuse bilateral lung disease, although the imaging findings are atypical and IGRA is negative, pulmonary TB must still be rapidly and sensitively evaluated because of a history of biologic agent use. TB Xpert can directly detect Mycobacterium tuberculosis nucleic acid in BALF and is more helpful than smear alone for early exclusion of TB as the cause, while also reducing the time waiting for culture results. The clinical significance of this test is that, if positive, the treatment strategy should shift to anti-TB therapy; if negative, then in combination with other microbiologic and pathologic results, it more strongly supports non-TB inflammatory lung disease and reduces concerns about TB risk before glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "BALF bacterial culture, acid-fast bacilli testing, TB X-Pert, fungal culture, GM, and other pathogen tests were all negative.",
+          "why_order_this_exam": "The patient has fever, respiratory failure, and diffuse bilateral ground-glass opacities, along with a background of biologic agent exposure and lymphopenia, so opportunistic fungal infection needs to be carefully evaluated. Although the serum G test and GM test are negative, negative serology cannot completely exclude a fungal infection confined to the lungs. BALF fungal culture can supplement direct detection of Aspergillus, Candida, and other fungal pathogens and is very important for determining whether there is an etiology requiring specific antifungal therapy. A negative culture, combined with other negative etiologic test results, can further support that the lesions in this case are not caused by fungal infection, thereby providing a safety basis for the diagnosis of drug-related interstitial lung disease and corticosteroid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM and other pathogen tests",
+          "basis_in_stage3_input": "BALF bacterial culture, acid-fast bacilli testing, TB X-Pert, fungal culture, GM, and other pathogen tests were all negative.",
+          "why_order_this_exam": "This patient had rapidly progressive disease, marked impairment of oxygenation, and diffuse bilateral pulmonary infiltrates on imaging. Based on the clinical presentation and CT alone, it is difficult to reliably distinguish infection from noninfectious lung injury. The purpose of pathogen testing such as GM is to further improve the ability to identify special pathogens such as invasive fungi, especially in the setting of biologic therapy, where it is necessary to exclude as much as possible pathogen infections that may be missed by routine culture. If these test results are negative, they can, together with BALF culture, acid-fast bacilli smear, X-Pert, and pathology, form a more complete chain for exclusion of infection, helping clinicians focus the diagnosis on drug-related interstitial lung disease and supporting subsequent glucocorticoid treatment decisions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathologic examination of transbronchial lung cryobiopsy (TBLC) tissue",
+          "basis_in_stage3_input": "Transbronchial lung cryobiopsy (TBLC) histopathologic examination: Submitted lung tissue shows polymorphous inflammatory cell infiltration including lymphocytes, plasma cells, and eosinophils within the bronchial wall, interstitial fibrous proliferation, focal alveolar epithelial hyperplasia, and deposition of fibrinous proteinaceous material within the alveolar spaces.",
+          "why_order_this_exam": "After treatment with ixekizumab, the patient developed acute fever, progressive dyspnea, and diffuse pulmonary opacities. Imaging and laboratory findings could only suggest inflammation/infection, but could not independently confirm drug-related interstitial lung disease. TBLC histopathologic examination was the key step in establishing the etiologic nature of this case, because it can directly determine whether there are inflammatory cell infiltration, interstitial injury, organization, fibrinous exudation, granulomas, or other characteristic changes in the lung tissue. In this case, this examination was mainly intended to address three questions: first, whether there was a histologic pattern supporting drug-induced or other inflammatory interstitial lung disease; second, whether there was evidence such as granulomas or necrosis suggesting TB or other specific infectious/immune-mediated diseases; third, on the basis of negative etiologic studies, whether it could provide stronger evidence for discontinuing the suspected drug and initiating corticosteroid therapy. Therefore, this examination played a निर्णसive role in confirming the diagnosis, excluding differential diagnoses, and guiding the direction of treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "An inflammatory lesion was considered; no granuloma was seen, and acid-fast staining was negative (Figure 2).",
+          "why_order_this_exam": "When lung tissue pathology has already been obtained, acid-fast staining is an important adjunct for excluding TB and other acid-fast bacillary infections. The patient has a history of biologic use; if an occult mycobacterial infection is present, relying solely on სისხv? خون immunologic testing and routine BALF pathogen testing may still miss the diagnosis. Moreover, if glucocorticoids are used in error, the condition may worsen. In this case, pathology suggests an inflammatory lesion but no granulomas are seen; acid-fast staining is still needed to further look for evidence of acid-fast bacilli within the tissue, in order to strengthen the exclusion of an infectious etiology. A negative acid-fast stain, together with negative BALF acid-fast testing and a negative X-Pert, mutually corroborate each other and help support that this case is not TB-related lung disease, but is more suggestive of drug-related interstitial lung disease.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On the second hospital day, bronchoalveolar lavage and transbronchial lung cryobiopsy were performed under general anesthesia. The bronchoalveolar lavage fluid (BALF) was pale yellow. Cytologic differential showed a markedly increased lymphocyte proportion (macrophages 14%, neutrophils 3%, lymphocytes 75%, eosinophils 8%); BALF pathogen testing, including bacterial culture, acid-fast bacilli testing, Xpert for TB, fungal culture, and GM, were all negative.\nHistopathologic examination of the transbronchial lung cryobiopsy (TBLC): Submitted lung tissue showed infiltration of mixed inflammatory cells including lymphocytes, plasma cells, and eosinophils in the bronchial wall, interstitial fibrous hyperplasia, focal alveolar epithelial hyperplasia, and deposition of fibrinous material in the alveolar spaces. An inflammatory lesion was considered; no granulomas were seen, and acid-fast staining was negative (Figure 2).",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_gif/qcrGY40NstJQJBiaJpGb22I1zibzHqCfFrXmw1ESiaXBGlhdtkEaw2RWTpwrw9jkUCogFNzBS5kwh3ZnzFegYad0g/640?wx_fmt=gif&from=appmsg",
+          "near_text": "Figure 2.",
+          "local_src": "cleaned_cases_image_cache/b9153ee1dff1ad6d874c396ecc7c16f29cd438b4.gif"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Ixekizumab-induced drug-related interstitial lung disease",
+      "diagnostic_basis": [
+        "1. A middle-aged woman with an underlying history of psoriasis developed fever, cough, and progressive dyspnea after recent treatment with ixekizumab, consistent with a temporal association between drug exposure and disease onset;",
+        "② The patient's chest CT showed diffuse bilateral ground-glass opacities and consolidations; BALF showed a markedly increased lymphocyte proportion; pathology from transbronchial lung cryobiopsy suggested inflammatory cell infiltration, interstitial fibrosis, and other interstitial lung disease changes; and other causes such as infection and granuloma were excluded, consistent with the imaging, cellular, and pathologic features of DI-ILD;",
+        "③ After discontinuation of ixekizumab and treatment with glucocorticoids, the patient's symptoms, inflammatory markers, and pulmonary imaging findings all improved rapidly; after drug withdrawal, the lesions completely resolved, consistent with the treatment response characteristics of DI-ILD."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg/d was administered intravenously",
+        "After discharge, corticosteroids were gradually tapered and discontinued after 2 months"
+      ],
+      "treatment_response": [
+        "The patient's body temperature returned to normal, respiratory failure improved rapidly, inflammatory markers decreased, and repeat chest CT 1 week later showed marked absorption of bilateral lung lesions.",
+        "Follow-up chest CT after discontinuation of the medication showed complete resolution of the pulmonary lesions (Figure 3)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "status": "success",
+  "case_id": "case_102",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 71 years old, living in Hangzhou, Zhejiang Province, chief complaint: \"headache for more than 20 days, fever for 1 week\"; admitted to the Department of Pulmonary and Critical Care Medicine, Sir Run Run Shaw Hospital, Zhejiang Province, on Day 0. The patient developed headache 20 days earlier, described as continuous stabbing pain in the \"occipital region,\" tolerable when not severe. He presented to a local hospital, where CRP was 43 mg/L, and brain and neck CT both showed \"no obvious abnormality\"; he was given IV anti-infective treatment (specific drugs unknown). After 3 days of treatment, the condition still recurred. 1 week earlier, the patient developed fever, with a maximum temperature of 38°C. The headache became more prominent in the \"forehead\" and \"occipital region,\" with occasional paroxysmal exacerbations. On Day -2, chest CT at an outside hospital showed: \"scattered infection in both lungs considered\"; bronchoscopy showed no special findings. Cefoperazone/sulbactam injection combined with moxifloxacin injection was given for anti-infective treatment, but there was still no improvement. Since onset, the patient’s mental status and sleep have been fair, appetite acceptable, bowel and bladder habits normal, and weight without obvious change. Past medical history, personal history, family history: More than 40 years earlier, the patient underwent partial bowel resection for intestinal adhesions; 4 years earlier, he underwent hip replacement for \"left femoral head necrosis.\" He denied a history of hypertension or diabetes. He had smoked for 50 years, 10 cigarettes per day, and drank 2 liang of baijiu. His father smoked, had a history of \"emphysema,\" and died in his 70s of dyspnea. His mother died in her 70s of \"stroke.\" He denied a family history of hereditary disease. Physical examination: T 37.5℃, R 20/min, P 100/min, BP 115/69 mmHg. Alert, general condition fair, no enlargement of cervical or supraclavicular lymph nodes, no jaundice of the skin or sclera. Breath sounds coarse in both lungs, with no obvious dry or moist rales. Regular cardiac rhythm, no pathologic murmur heard in any valve area. Abdomen soft, no tenderness or rebound tenderness, liver and spleen not palpable below the costal margin, shifting dullness negative. No edema of the lower extremities, normal muscle strength and tone in all four limbs, pathologic signs negative. Laboratory tests: Routine tests: CBC and routine stool and urine tests unremarkable; coagulation function and D-dimer normal. Blood biochemistry showed mild liver function abnormality; renal function and electrolytes normal; albumin 29 g/L; globulin normal; CRP 118.6 mg/L; ESR 115 mm/H. Tumor marker CA211 3.83 ug/L; preoperative immune testing normal. Pathogen-related indicators: [Fungus]: GM test, G test (-). Immune-related indicators: [Cardiac + bilateral lower-extremity venous Doppler ultrasound]: no obvious abnormality in intracardiac structure, measured left ventricular systolic function within the normal range. Segmental blood flow in the deep veins of both lower extremities was patent. [Echocardiography]: tricuspid regurgitation (mild), pericardial effusion, measured left ventricular systolic function within the normal range. Serum cryptococcal capsular antigen monitoring was negative.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJKrRDXJWyltLazfuVT9kT8qribyeicCrJ8u8X9nKTHbPLdmpxfKywWHBBytCGgZUeY7U4m9Wzmp6ww/640?wx_fmt=jpeg",
+          "near_text": "Figure 1. Chest CT, Day -2",
+          "local_src": "cleaned_cases_image_cache/057537b2f34797e07c913363cdc46c8dd88661bf.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Central nervous system infection (subacute meningitis/meningoencephalitis, including partially treated bacterial meningitis)",
+          "supporting_evidence": [
+            "The chief complaint was \"headache for more than 20 days, fever for 1 week.\" The headache was persistent and more pronounced in the \"forehead\" and \"occipital region,\" with \"intermittent paroxysmal exacerbations.\"",
+            "Inflammatory markers were markedly elevated: CRP 118.6mg/L, erythrocyte sedimentation rate 115mm/H",
+            "After 3 days of intravenous anti-infective treatment at an outside hospital, the condition still showed recurrent fluctuations; subsequently, cefoperazone/sulbactam combined with moxifloxacin was given for anti-infective treatment, with “still no improvement,” suggesting that a routine pulmonary infection does not adequately explain the condition, and an intracranial infectious focus should be suspected.",
+            "A head CT showing \"no obvious abnormality\" cannot exclude meningitis or early parenchymal brain infection"
+          ],
+          "opposing_evidence": [
+            "Physical examination showed that the patient was alert, muscle strength and muscle tone in all four extremities were normal, and pathologic signs were negative. In the first stage, typical signs of central nervous system infection such as nuchal rigidity, disturbance of consciousness, and seizures were not described.",
+            "Complete blood count unremarkable"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculosis (pulmonary tuberculosis with tuberculous meningitis or disseminated tuberculosis)",
+          "supporting_evidence": [
+            "Subacute course: headache for more than 20 days, fever for 1 week",
+            "ESR 115 mm/H and CRP 118.6 mg/L were markedly elevated, consistent with the inflammatory manifestations of chronic/subacute infectious diseases such as TB",
+            "Chest CT suggests “scattered infection in both lungs”; in conjunction with the attached chest CT images, scattered lesions are seen in both lungs, and TB should be included in the differential diagnosis.",
+            "No improvement after conventional antibiotic therapy"
+          ],
+          "opposing_evidence": [
+            "Since disease onset, “appetite has remained fair, bowel movements and urination have been normal, and body weight has not shown any significant change,” with no typical constitutional wasting manifestations.",
+            "Bronchoscopy: no special findings",
+            "In the first stage, no clear history of TB exposure or supporting clues such as cough, sputum production, hemoptysis, or pleural effusion were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Community-acquired pneumonia/atypical pathogen pulmonary infection with systemic inflammatory response",
+          "supporting_evidence": [
+            "Chest CT at an outside hospital suggested “scattered infection in both lungs considered”",
+            "The attached chest CT images show scattered small patchy/nodular lesions in both lungs, supporting the possibility of pulmonary infectious lesions.",
+            "Fever present, with elevated CRP 118.6 mg/L and erythrocyte sedimentation rate 115 mm/H",
+            "Smoking for 50 years is one of the risk factors for pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "Breath sounds in both lungs were coarse, with no obvious dry or moist rales heard; there were few respiratory tract physical signs.",
+            "No obvious cough, sputum production, chest pain, or shortness of breath was described",
+            "After sequential treatment with multiple anti-infective therapies, there was still no improvement."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Vasculitic diseases (systemic inflammatory diseases represented by giant cell arteritis/large-vessel vasculitis)",
+          "supporting_evidence": [
+            "71-year-old elderly male with new-onset persistent headache",
+            "Fever accompanied by markedly elevated CRP 118.6 mg/L and erythrocyte sedimentation rate 115 mm/H",
+            "The complete blood count was unremarkable, while inflammatory markers were markedly elevated, suggesting that in addition to infection, noninfectious inflammatory diseases should also be considered."
+          ],
+          "opposing_evidence": [
+            "The headache location was described as the \"forehead\" and \"occipital region\"; in the first stage, there was no description of temporal pain, scalp tenderness, jaw claudication, visual abnormalities, or other typical manifestations of giant cell arteritis.",
+            "Chest CT suggests “scattered infection in both lungs,” favoring an infectious lesion",
+            "Phase 1 information did not provide clear evidence of vasculitis-related rash, sinus involvement, renal impairment, or peripheral nerve involvement"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Infective endocarditis with embolic/immunoinflammatory manifestations",
+          "supporting_evidence": [
+            "Persistent fever, with markedly elevated CRP and erythrocyte sedimentation rate",
+            "Headache may be a nonspecific symptom of infective endocarditis-related intracranial complications or embolic manifestations.",
+            "Chest CT suggests scattered lesions in both lungs; the possibility of pulmonary embolic lesions related to right heart infection should be considered."
+          ],
+          "opposing_evidence": [
+            "Echocardiography showed \"no obvious abnormality in the intracardiac structure,\" and left ventricular systolic function was within the normal range.",
+            "Physical examination: regular heart rhythm; no pathologic murmurs heard in any valvular area",
+            "Blood flow in the deep veins of both lower extremities is unobstructed, not supporting a common venous thromboembolic source.",
+            "Phase 1 information did not provide supporting evidence such as signs of skin or mucosal embolization, anemia, or abnormal blood cultures."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary malignant tumor with infection or tumor fever / intracranial related complications",
+          "supporting_evidence": [
+            "Elderly male, with a 50-year smoking history, is at high risk for pulmonary malignancy",
+            "Chest CT suggested \"scattered infection in both lungs\"; in the accompanying images, the scattered lesions in both lungs are not simply typical lobar consolidation, and a neoplastic lesion cannot be completely excluded.",
+            "CA211 3.83ug/L, although nonspecific, in the setting of pulmonary lesions it should be interpreted in conjunction with the differential diagnosis of malignancy",
+            "Poor response to conventional anti-infective therapy"
+          ],
+          "opposing_evidence": [
+            "The onset was characterized mainly by headache and fever, the disease course was short, and inflammatory markers were significantly elevated, which more strongly supports an infectious/inflammatory disease first.",
+            "Body weight \"no significant change observed\"",
+            "Bronchoscopy: no special findings",
+            "Stage 1 information did not provide clear evidence of a pulmonary mass, hilar or mediastinal lymphadenopathy, or an intracranial space-occupying lesion."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + routine stool and urine tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry + liver function + renal function + electrolytes + albumin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers (CRP, ESR)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor marker (CA211)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Preoperative eight-item immunology panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal markers (GM test, G test, cryptococcal capsular antigen)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen antibodies (influenza, RSV, Mycoplasma, Chlamydia, adenovirus, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Herpes simplex virus antibodies (HSV-I/II, HSV-III)",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody panel (ANA, dsDNA, ENA, ANCA, anti-GBM, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "angiotensin-converting enzyme",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT + contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid examination (routine analysis, biochemistry, culture, India ink stain, cytology)",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung biopsy + pathology + immunohistochemistry (IgG, IgG4)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum IgG4 subclass measurement",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +2, the patient underwent pulmonary HRCT at our hospital; contrast-enhanced chest CT showed multiple nodular areas of consolidation. On Day +5, the patient underwent contrast-enhanced brain MRI at our hospital, which showed diffuse dural enhancement; the imaging diagnosis was considered to be hypertrophic pachymeningitis. Cerebrospinal fluid examination: both India ink staining and cryptococcal capsular antigen testing were negative.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8SgXJk55PYqGjoSkgRFgk8VeEm4ZDtWImCqrT1R4rJlZFoiaO1ZN115A/640?wx_fmt=png",
+            "near_text": "Immune-related indicators:",
+            "local_src": "cleaned_cases_image_cache/ec3045079d719aff04f0315f6696343a8e7ea0e0.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJKrRDXJWyltLazfuVT9kT8f9niaRc5MEa942L3Q9ia2Y4Swmkyn7fSNmZb2sLrnkc7B8sWs0ClSv9Q/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/c2331cd493b2025374efec697f5a995349f18c18.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJKrRDXJWyltLazfuVT9kT8ibwRGumXrYJI1iaiciaSxSdxxXruI6NyE1WngbZvfrPx1F5rHQG5Qv6UFg/640?wx_fmt=jpeg",
+            "near_text": "[Cardiac + bilateral lower extremity venous color Doppler ultrasound]: No obvious abnormality in the intracardiac structures",
+            "local_src": "cleaned_cases_image_cache/72323aca269f60c2d940ab75db97768b76a6efa3.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJKrRDXJWyltLazfuVT9kT8nUic0PWcKyRfTEnUOBWaiaoMGHEgwACeEAcVfW9ha2wA7tKTepA1pddg/640?wx_fmt=jpeg",
+            "near_text": "Figure 2. Contrast-enhanced chest CT (a, b, and c from left to right)",
+            "local_src": "cleaned_cases_image_cache/dda3454d31c30f6e0ecd81b25e9f53e8668001f5.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJKrRDXJWyltLazfuVT9kT8iaiaQNESUuqYrzAEz0IFJ0NgVaOd6V7ia6zV7Y6dWIJXJNDJkRtvZTMrQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 3. Contrast-enhanced brain MRI",
+            "local_src": "cleaned_cases_image_cache/f72d23077ef4b1e52fc944cbe761b32f0495dc64.jpg"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8F5EupmtQganm0aDLqTYOVt5RhWQM2tMMTxDl30G8EyjRx5ud3oFTiag/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/f9e367f9d8dbc0934d6745db0e95467a5f9fc248.png"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8PC8qbXTufoWKI7tgfjBrRHssBg1JWW8eXS9CpxmV9cZolUdjZjZ1ow/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/0f8b11d636cb512dfb3ebc099c00ba0f1d162003.png"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT80Ud3VrmwtUg88kcDDk32UZAOTV7Llm2icvC0UWZgJD9kn4tRJhGQgEw/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/97a6cc041f2bd04725a4c011cc6502d23d93f951.png"
+          },
+          {
+            "image_id": "fig13",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8W8tHg3GqATVAXq9LLic1HkicTkUydiazsok15lRicw7pyUibxJTmz6JNyfQ/640?wx_fmt=png",
+            "near_text": "Both India ink staining and cryptococcal capsular antigen testing were negative.",
+            "local_src": "cleaned_cases_image_cache/583091f4525c712513939cd65c22ffdcd7dee9e5.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "common infection",
+            "evidence": [
+              "The patient has fever, elevated inflammatory markers, positive Mycoplasma IgM, and chest CT showed multiple nodular areas of consolidation."
+            ],
+            "exclusion_reasons": [
+              "Chest CT showed no obvious exudative lesions; at an outside hospital, standard anti-infective treatment was given, with no absorption or improvement."
+            ]
+          },
+          {
+            "name": "Special infection",
+            "evidence": [
+              "Chest CT suggests multiple nodular areas of consolidation; fungal infection and fungal-like infection cannot be excluded."
+            ],
+            "exclusion_reasons": [
+              "The patient has no obvious history of immunosuppression and also lacks microbiological evidence."
+            ]
+          },
+          {
+            "name": "Neoplastic lesion",
+            "evidence": [
+              "The patient had headache and fever. Chest CT showed multiple nodular lesions, and brain MRI showed dural enhancement."
+            ],
+            "exclusion_reasons": [
+              "The patient's imaging findings changed over a short period, which does not support metastatic tumor, etc."
+            ]
+          },
+          {
+            "name": "Autoimmune disease",
+            "evidence": [
+              "The patient had a markedly elevated erythrocyte sedimentation rate; anti-infective treatment at an outside hospital was ineffective, and there were lesions in multiple sites including the lungs and meninges."
+            ],
+            "exclusion_reasons": [
+              "The patient is an elderly male with no prior history of immune system-related disease. ANA, ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "common infection",
+        "evidence": [
+          "The patient has fever, elevated inflammatory markers, positive Mycoplasma IgM, and chest CT showed multiple nodular areas of consolidation."
+        ],
+        "exclusion_reasons": [
+          "Chest CT showed no obvious exudative lesions; at an outside hospital, standard anti-infective treatment was given, with no absorption or improvement."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Special infection",
+        "evidence": [
+          "Chest CT suggests multiple nodular areas of consolidation; fungal infection and fungal-like infection cannot be excluded."
+        ],
+        "exclusion_reasons": [
+          "The patient has no obvious history of immunosuppression and also lacks microbiological evidence."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic lesion",
+        "evidence": [
+          "The patient had headache and fever. Chest CT showed multiple nodular lesions, and brain MRI showed dural enhancement."
+        ],
+        "exclusion_reasons": [
+          "The patient's imaging findings changed over a short period, which does not support metastatic tumor, etc."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Autoimmune disease",
+        "evidence": [
+          "The patient had a markedly elevated erythrocyte sedimentation rate; anti-infective treatment at an outside hospital was ineffective, and there were lesions in multiple sites including the lungs and meninges."
+        ],
+        "exclusion_reasons": [
+          "The patient is an elderly male with no prior history of immune system-related disease. ANA, ANCA, the vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat lumbar puncture examination",
+          "basis_in_stage3_input": "Repeat lumbar puncture examination",
+          "why_order_this_exam": "The patient is a 71-year-old man with persistent headache for more than 20 days and fever for 1 week, markedly elevated inflammatory markers, and no response to conventional anti-infective treatment; brain MRI has already shown diffuse dural enhancement, suggesting hypertrophic pachymeningitis, indicating that a central nervous system lesion truly exists. Previously, CSF evaluation included only limited studies such as India ink staining and cryptococcal capsular antigen, which remain insufficient to explain the persistent headache and the cause of meningeal involvement. Therefore, repeat lumbar puncture is needed to dynamically assess CSF pressure and cytologic and immunologic changes, further differentiate infectious meningitis, neoplastic meningeal involvement, and immune-inflammatory meningeal disease, and provide a basis for whether subsequent immunotherapy such as corticosteroids can be initiated or intensified.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Intracranial pressure measurement",
+          "basis_in_stage3_input": "Elevated intracranial pressure, 330 cmH2O",
+          "why_order_this_exam": "The patient has had a long course of headache with progressive worsening. Imaging suggests hypertrophic pachymeningitis, indicating that the meningeal lesion may already have affected CSF circulation or intracranial pressure status. Measurement of intracranial pressure can directly determine whether intracranial hypertension is present and its severity; in this case, the measured value was 330 cmH2O, which is sufficient to explain the persistent headache and indicates that the condition cannot be managed merely as a mild infection. This examination helps assess the current risk of the condition, guides whether symptomatic treatment such as dehydration therapy to reduce intracranial pressure is needed, and provides a baseline for judging meningeal lesion activity and subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytological examination",
+          "basis_in_stage3_input": "Aseptic meningitis, cytological",
+          "why_order_this_exam": "The patient had both fever and elevated inflammatory markers, as well as dural enhancement and persistent headache; clinically, infectious meningitis, neoplastic leptomeningeal dissemination, and noninfectious inflammatory meningitis had to be differentiated. During the staged evaluations at the outside hospital and our hospital, routine anti-infective therapy was ineffective, cryptococcal-related testing was negative, and the coexistence of pulmonary lesions and meningeal abnormalities had also suggested the possibility of a tumor; therefore, CSF cytology was crucial. Cytology suggested aseptic meningitis, which helped reduce the likelihood of ordinary bacterial meningitis and some neoplastic meningeal involvement, shifted the diagnostic consideration from simple infection toward an immune-inflammatory disease, and supported subsequent correlation with IgG4-related markers and the decision regarding glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF-IgG",
+          "basis_in_stage3_input": "Both CSF-IgG and CSF-IgG4 were mildly elevated (using serum reference ranges)",
+          "why_order_this_exam": "In this case, in addition to multiple pulmonary nodules and areas of consolidation, brain MRI showed extensive dural enhancement; the autoantibody panel was negative, and anti-infective treatment was ineffective, suggesting that further evaluation is needed for evidence of localized immune inflammation in the central nervous system. Testing CSF-IgG can help determine whether there are immunoglobulin-related abnormalities and local inflammatory activation in the cerebrospinal fluid; together with cytology, intracranial pressure, and imaging analysis, it can support a non-purely infectious meningeal lesion. This test is valuable for identifying immune-mediated hypertrophic pachymeningitis, strengthening the evidence chain for IgG4-related disease, and providing a reference for subsequent glucocorticoid treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF-IgG4",
+          "basis_in_stage3_input": "Both CSF-IgG and CSF-IgG4 were mildly elevated (using serum reference ranges)",
+          "why_order_this_exam": "Clinically, the patient presented with subacute headache and fever, with multifocal involvement of the lungs and dura mater. Common infections, specific infections, malignancy, and common autoimmune diseases were all included in the differential diagnosis. In conjunction with subsequent IgG4 immunostaining of lung tissue and repeatedly positive serum IgG4 results, the purpose of CSF-IgG4 testing was to determine whether central nervous system involvement also had evidence of IgG4-related disease. Although elevated CSF IgG4 is not a standalone diagnostic criterion, on the basis of existing imaging findings of hypertrophic pachymeningitis, it can increase the diagnostic confidence for IgG4-related hypertrophic pachymeningitis, help unify the meningeal and pulmonary lesions as manifestations of the same systemic disease, and provide important support for selecting a glucocorticoid-based treatment regimen and reducing unnecessary long-term anti-infective therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Subsequently, the team performed further examinations on the patient. Repeat lumbar puncture: elevated opening pressure, 330 cmH20; cytology showed aseptic meningitis; CSF-IgG and CSF-IgG4 were both mildly elevated (using serum reference standards).",
+      "images": [
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT84zg7kiaNg30PqTxSPIFVcYkYS5UhPPUp3kx44oVC6cT1lA9icCem2sMQ/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/60817ddba76dff21c679cdca3888f7b00c6e6934.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8csod3bgvYuSTGgDLf0JzoGOvpibTVdhjElYoZF3y9JN77AbqHHj4BhQ/640?wx_fmt=png",
+          "near_text": "Repeat lumbar puncture; IgG4-related lung disease is the primary consideration...",
+          "local_src": "cleaned_cases_image_cache/6919b1654675435354e2847a5ad2f6899d14dc38.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8CFibVD1nnR1z14g1gpayEXz1Jyc5Ngoru1cy7p9ZEwIdPGFTDLwf38w/640?wx_fmt=png",
+          "near_text": "Repeat lumbar puncture: elevated intracranial pressure, 330 cmH2O;",
+          "local_src": "cleaned_cases_image_cache/b8a8467c13de0cded0a74754a3a779f873c8afca.png"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8e2hRtGegNAncUzic7PCdSXMBdtBSlia1urL61ibxFiaEdPDia0QhEFd1aJA/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/16e2fa48e15357228e7e15cb66cca3f5be0854a9.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJKrRDXJWyltLazfuVT9kT8uBAdDECibfPB1YzW1RRGMdU2vIicdicJ87PBI4h77HcFFD0ePd5ic3LPVw/640?wx_fmt=png",
+          "near_text": "Follow-up was conducted for this patient:",
+          "local_src": "cleaned_cases_image_cache/8af30b00fa4fc126e872f9844da9602af6a9a31e.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "IgG4-related lung disease; IgG4-related hypertrophic pachymeningitis",
+      "diagnostic_basis": [
+        "Chest CT shows multiple solid pulmonary opacities",
+        "Brain MRI showed dural thickening and enhancement",
+        "Pathology from percutaneous lung biopsy showed necrosis of lung tissue with granuloma formation",
+        "IgG4 immunostaining of lung tissue",
+        "Serum IgG4 positive on multiple occasions",
+        "Both CSF-IgG and CSF-IgG4 were mildly elevated"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone injection 40 mg qd",
+        "Then 6 tablets orally for 4 weeks, with regular tapering thereafter"
+      ],
+      "treatment_response": [
+        "After 1 week, the patient's headache improved significantly, and IgG4 decreased to 2.05 g/L."
+      ]
+    }
+  }
+}

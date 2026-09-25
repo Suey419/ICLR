@@ -1,0 +1,335 @@
+{
+  "status": "success",
+  "case_id": "case_168",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient, Mr. Zhang, is an elderly male who was admitted for \"reduced sleep, snoring for more than 10 years, worsened with dizziness for 1 month.\" Over the past 10 years, the patient developed reduced sleep without any obvious precipitating cause, with nightly sleep duration of approximately 3-4 hours. He had snoring during sleep, with loud snoring, nocturnal apnea, no awakening due to dyspnea, and daytime sleepiness. In around Day 0, the patient presented to an outside hospital because of dizziness with a feeling of impending fall, and was diagnosed with \"acute cerebral infarction caused by middle cerebral artery embolism, severe obstructive sleep apnea-hypopnea syndrome (OSAHS),\" and was treated with alteplase thrombolysis. Subsequently, he was treated with aspirin, clopidogrel, and atorvastatin, after which the dizziness improved. In approximately 1 month after Day 0, dizziness recurred, without vertigo, nausea, or vomiting; without obvious neck or shoulder pain; without obvious numbness or weakness of the extremities; without dysphagia or coughing/choking on drinking water; and he was able to move freely. He again presented to that hospital, where the working diagnoses were considered to be \"syringomyelia, foramen magnum hernia, vertigo syndrome, recovery stage of cerebral infarction,\" and surgical treatment was recommended, which the patient refused. Past history: Surgical history: 6 years ago, accidental injury to the left elbow/upper extremity, and underwent \"left elbow/upper extremity steel plate implantation\" at our hospital; 4 years ago, accidental injury to the right wrist, and underwent \"right wrist surgery\" at our hospital (details unclear). He denies a history of infectious diseases and denies a history of trauma. Drug allergy history: analgesic tablet (Qutong Pian). He denies food allergies. Vaccination history is unknown. He denies a history of blood transfusion. Personal, marital, and family history: unremarkable. Physical examination on admission: T: 36.30℃, P: 68/min, R: 19/min, blood pressure: 120/75 mmHg. SpO2 90%. General condition fair. Alert. Height: 165 cm, weight: 64.5 kg, BMI: 23.69 kg/m. Lips without cyanosis, no mandibular retrusion, tongue not enlarged, no posterior displacement of the tongue base, no pharyngeal congestion, no low-lying soft palate, no uvular hypertrophy, no tonsillar congestion or enlargement, and no obvious narrowing of the pharyngeal cavity. Neck supple, neck circumference: 36.5 cm, thorax symmetric without deformity, heart/lungs/abdomen (-), no edema of either lower extremity, no deformity of the spine or extremities. Neurologic examination: alert and fluent speech, answers questions appropriately, no bilateral ptosis, full extraocular movements, pupils equal, round, and reactive to light, no nystagmus. Symmetric palpebral fissures bilaterally, symmetric forehead lines bilaterally, symmetric nasolabial folds bilaterally, tongue midline on protrusion, normal swallowing function, normal bilateral pharyngeal reflexes, no coughing/choking on drinking water, muscle strength grade 5 in all extremities, normal muscle tone. Tendon reflexes symmetrically elicited in all extremities, bilateral pathologic reflexes negative, decreased pain sensation in both upper extremities and the lumbodorsal region, bilateral finger-to-nose test and heel-knee-shin movements stable and accurate, neck supple, bilateral Kernig sign negative. Relevant examinations at an outside hospital from around Day 0 to approximately 1 month after Day 0: On Day 0, non-contrast chest CT showed: 1. Multiple ground-glass nodules and solid nodules in the right upper and lower lobes. 2. Inflammation in the right middle and lower lobes and the left lung. 3. Multiple pulmonary bullae in the right upper and lower lobes. 4. Compression fracture of the T9 vertebral body. On Day +4: head plain scan + diffusion: 1. Hyperintense signals in the bilateral frontoparietal lobes and periventricular cerebral white matter. 2. Triplicate anterior cerebral artery: no abnormality seen. On Day +6, echocardiography: no obvious abnormality. On Day +6, ambulatory ECG examination: 1. Sinus rhythm 2. Occasional atrial premature beats 3. Frequent ventricular premature beats, with couplets, late diastolic beats, interpolated beats, and bi/trigeminy 4. Normal time-domain heart rate variability. On Day +7, respiratory sleep monitoring report showed: severe obstructive sleep apnea-hypopnea syndrome; severe nocturnal hypoxemia. On Day +14, cervical spine plain scan showed: 1. Cerebellar tonsillar herniation malformation, syringomyelia on plain scan from C3-T3. 2. Degenerative changes of the cervical spine, possible hemangiomas of the C4 and T2 vertebral bodies; posterior protrusion of the C3-7 intervertebral discs was seen (Figure 1).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIGQQalicic5EbBIFtn1wJBiav98yksYuAb5pBlPeb25rzYUiaDy95LibNHPw/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Figure 1)",
+          "local_src": "cleaned_cases_image_cache/1773b7fe07f905defd9bc89174d5a3411e16b73f.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe obstructive sleep apnea-hypopnea syndrome (OSAHS) with severe nocturnal hypoxemia",
+          "supporting_evidence": [
+            "The phase I text clearly documented \"snoring during sleep, loud snoring, nocturnal apnea, and daytime somnolence\"",
+            "The Phase 1 written record states: \"The respiratory sleep monitoring report dated Day +7 showed: severe obstructive sleep apnea-hypopnea syndrome; severe nocturnal hypoxemia\"",
+            "Physical examination on admission showed \"SpO2 90%\"",
+            "The chief complaint was \"reduced sleep and snoring for more than 10 years, worsening with dizziness for 1 month,\" consistent with long-term sleep-disordered breathing."
+          ],
+          "opposing_evidence": [
+            "Physical examination showed: \"no mandibular retrusion, no macroglossia, no posterior displacement of the tongue base, no pharyngeal hyperemia, no low-lying soft palate, no uvular hypertrophy, no tonsillar hyperemia or enlargement, and no obvious narrowing of the pharyngeal cavity,\" suggesting that typical signs of anatomic upper airway narrowing were not evident.",
+            "BMI 23.69Kg/m, not an obviously obese body habitus"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Chiari malformation (cerebellar tonsillar herniation/foramen magnum compression) with syringomyelia",
+          "supporting_evidence": [
+            "The stage 1 text record states: \"A plain cervical spine scan on Day +14 showed: 1. cerebellar tonsillar herniation malformation, syrinx of the spinal cord at C3-T3.\"",
+            "The accompanying image is a sagittal image of the craniocervical junction, showing downward herniation of the cerebellar tonsils into the foramen magnum region, supporting a structural abnormality in the foramen magnum region.",
+            "In the first-stage written documentation, the outside hospital had considered \"syringomyelia, foramen magnum herniation\".",
+            "Neurologic examination showed \"decreased pain sensation in both upper extremities and the lower back,\" consistent with dissociated sensory disturbance associated with syringomyelia.",
+            "The patient has recurrent dizziness, which may be caused by compression in the foramen magnum region or disruption of cerebrospinal fluid circulation."
+          ],
+          "opposing_evidence": [
+            "Neurologic examination showed “no nystagmus”; “normal swallowing function, normal bilateral pharyngeal reflexes, no choking on drinking water, muscle strength grade 5 in all four extremities, normal muscle tone, negative bilateral pathologic signs,” suggesting a current lack of obvious medullary compression or long tract signs.",
+            "Dizziness was described as \"no sensation of the surroundings spinning, no nausea or vomiting,\" which is not a typical presentation of vestibular vertigo."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Arrhythmia-related dizziness/presyncope (predominantly frequent premature ventricular contractions)",
+          "supporting_evidence": [
+            "The chief complaint and history include \"dizziness with a sensation of impending collapse\" and \"recurrent dizziness/discomfort\".",
+            "The first-stage written record documented that Holter monitoring showed \"frequent premature ventricular contractions, with couplets, late-diastolic, interpolated, and ventricular bigeminy and trigeminy\"",
+            "An elderly man with recurrent dizziness; transient cerebral hypoperfusion caused by arrhythmia should be considered."
+          ],
+          "opposing_evidence": [
+            "Vital signs were stable on admission: P 68 beats/min, blood pressure 120/75 mmHg",
+            "Echocardiography: no obvious abnormality",
+            "The phase 1 information did not provide manifestations during the episodes, such as palpitations, chest tightness, transient visual blackout, or syncope, that would more directly support cardiogenic dizziness."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Central sleep-disordered breathing or mixed sleep apnea (associated with abnormalities of the foramen magnum region/perimedullary structures)",
+          "supporting_evidence": [
+            "The first-stage written record documented \"cerebellar tonsillar herniation malformation\"; the accompanying images also support an abnormality in the foramen magnum region, which could theoretically affect medullary respiratory control.",
+            "The patient has \"nocturnal apnea\" and \"severe nocturnal hypoxemia\".",
+            "Physical examination showed no prominent signs of significant upper airway narrowing: 'No mandibular retrusion, no macroglossia, no posterior displacement of the tongue base... no significant narrowing of the pharyngeal cavity.'"
+          ],
+          "opposing_evidence": [
+            "The sleep monitoring conclusion in the first-phase text is explicitly documented as \"severe obstructive sleep apnea-hypopnea syndrome,\" and does not indicate central sleep apnea.",
+            "The patient has \"loud snoring,\" a finding that more commonly supports obstructive sleep-disordered breathing."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary disease-related hypoxemia (pulmonary inflammation/pulmonary bullae, etc.) causing or worsening dizziness",
+          "supporting_evidence": [
+            "Non-contrast chest CT showed \"inflammatory changes in the right middle and lower lobes and left lung\"",
+            "Chest CT without contrast showed \"multiple pulmonary bullae in the right upper and lower lobes\"",
+            "Physical examination on admission showed \"SpO2 90%\", indicating hypoxemia, which can cause dizziness.",
+            "Severe nocturnal hypoxemia is present, and underlying pulmonary disease may contribute to the development of hypoxemia"
+          ],
+          "opposing_evidence": [
+            "Physical examination showed \"heart, lungs, and abdomen (-),\" and no obvious respiratory symptoms such as dyspnea, cough, or sputum production were described.",
+            "In the first stage, there was already a more direct explanation for the hypoxemia, namely \"severe obstructive sleep apnea-hypopnea syndrome; severe nocturnal hypoxemia\"",
+            "Phase 1 information did not provide clear documentation of COPD, smoking history, or pulmonary function abnormalities"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "DIC screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "thyroid function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Induced sputum cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inpatient electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial challenge test",
+          "requirement": "required"
+        },
+        {
+          "exam": "pressure titration",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests in our department: 1. CBC: WBC 3.29X109/L↓, EO% 10.6%↑, Hb 144 g/l, PLT 220 X109/L. 2. Blood chemistry: no abnormalities in myocardial injury markers, liver function, renal function, or electrolytes. 3. Urinalysis, stool routine, and DIC screening showed no obvious abnormalities. 4. Thyroid function showed no obvious abnormalities. 5. Induced sputum cytology: no obvious abnormalities. 6. Arterial blood gas analysis: pH 7.38, PO2 57 mmHg, PCO2 42 mmHg, SO2 90%. On Day +32, the inpatient ECG performed in our department showed: 1. sinus bradycardia, 2. ST changes (ST-segment elevation in leads II, III, and aVF, in conjunction with the clinical findings). PFT showed: 1. mild obstructive ventilatory dysfunction, 2. bronchial challenge test: positive. According to the pressure titration performed before admission, after titration the mean oxygen saturation was 89.5%, and the lowest oxygen saturation was 66%. 1. Final titration pressure: CPAP 12 cmH2O + nasal mask. 2. PSG findings consistent with periodic limb movements. 3. During the overnight manual pressure titration process, frequent premature ventricular contractions were seen (Figure 2). The post-titration ventilator trial was as follows (Figure 3): why, despite meeting titration targets, during the ventilator trial, regardless of auto-CPAP, fixed-pressure CPAP, or bilevel ventilation, with or without supplemental oxygen, after wearing the ventilator the patient's mean oxygen saturation was always below 90%, and ODI was always greater than 10 events/h; none met the target. At this point, treatment reached a deadlock.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoI9Rcg55cdaxhRl94L5rEia4NfITfqHdhfOkNWic11U16CTibhkygicIVFqg/640?wx_fmt=png&from=appmsg",
+            "near_text": "Pressure titration before admission (Figure 2)",
+            "local_src": "cleaned_cases_image_cache/41cbb60801b01d36e154af0063180a26bdb2ec02.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIL6YeiaLgXAibB6IsDCaHlMt2SSpGcLSVL9nVd4KpXl0iblIuNy4HTxZicQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "(Figure 3)",
+            "local_src": "cleaned_cases_image_cache/3c48784aabd275a8e3a565eb26e8a08d8cc90fa5.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Simple obstructive sleep apnea-hypopnea syndrome (OSAHS)",
+            "evidence": [
+              "Snoring, nocturnal apnea, and daytime somnolence.",
+              "Sleep monitoring results: AHI 63.6 events/h, OSAI 5.6 events/h, HPI 29.1 events/h."
+            ],
+            "exclusion_reasons": [
+              "BMI normal, no obvious narrowing of the pharyngeal cavity.",
+              "The patient's oxygen saturation was low throughout the night, and the periods of marked oxygen desaturation were unrelated to sleep stage; periods of significant oxygen desaturation occurred during both REM and NREM, and all occurred in the supine position.",
+              "When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, the rate was also significantly slowed, and oxygen saturation was low in both.",
+              "In the REM stage, in the lateral decubitus position and with CPAP at 10 cmH2O, after all respiratory events and snoring were eliminated, the patient's oxygen saturation could only be maintained at approximately 89%."
+            ]
+          },
+          {
+            "name": "Central sleep apnea (CSA)",
+            "evidence": [
+              "Sleep monitoring result: CSAI 18 events/h.",
+              "When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, and the rate also slowed significantly.",
+              "Although this patient was diagnosed with severe obstructive sleep apnea-hypopnea syndrome, there are both central and obstructive components, predominantly obstructive."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "mixed sleep apnea (MSA)",
+            "evidence": [
+              "Sleep monitoring result: MSAI 10.9 events/h.",
+              "According to the monitoring data in the table below, the mixed apnea index was 20.3 events/h in the supine position; in the left lateral position, the mixed apnea index was 1.8 events/h; in the right lateral position, the mixed apnea index was 0 events/h; mixed apnea occurred almost exclusively in the supine position.",
+              "In this patient, the first half of the MSA is an obstructive component, and the second half is a central component."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Simple obstructive sleep apnea-hypopnea syndrome (OSAHS)",
+        "evidence": [
+          "Snoring, nocturnal apnea, and daytime somnolence.",
+          "Sleep monitoring results: AHI 63.6 events/h, OSAI 5.6 events/h, HPI 29.1 events/h."
+        ],
+        "exclusion_reasons": [
+          "BMI normal, no obvious narrowing of the pharyngeal cavity.",
+          "The patient's oxygen saturation was low throughout the night, and the periods of marked oxygen desaturation were unrelated to sleep stage; periods of significant oxygen desaturation occurred during both REM and NREM, and all occurred in the supine position.",
+          "When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, the rate was also significantly slowed, and oxygen saturation was low in both.",
+          "In the REM stage, in the lateral decubitus position and with CPAP at 10 cmH2O, after all respiratory events and snoring were eliminated, the patient's oxygen saturation could only be maintained at approximately 89%."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Central sleep apnea (CSA)",
+        "evidence": [
+          "Sleep monitoring result: CSAI 18 events/h.",
+          "When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, and the rate also slowed significantly.",
+          "Although this patient was diagnosed with severe obstructive sleep apnea-hypopnea syndrome, there are both central and obstructive components, predominantly obstructive."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "mixed sleep apnea (MSA)",
+        "evidence": [
+          "Sleep monitoring result: MSAI 10.9 events/h.",
+          "According to the monitoring data in the table below, the mixed apnea index was 20.3 events/h in the supine position; in the left lateral position, the mixed apnea index was 1.8 events/h; in the right lateral position, the mixed apnea index was 0 events/h; mixed apnea occurred almost exclusively in the supine position.",
+          "In this patient, the first half of the MSA is an obstructive component, and the second half is a central component."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat overnight PSG",
+          "basis_in_stage3_input": "Because only home portable monitoring was performed in the outpatient setting, without sleep staging and other important parameters such as body position, repeat overnight PSG is recommended.",
+          "why_order_this_exam": "The patient has had more than 10 years of snoring, nocturnal apnea, and daytime somnolence, with worsening symptoms over the past month accompanied by dizziness. Severe sleep apnea and severe nocturnal hypoxemia had previously been identified, but only home portable monitoring was performed in the outpatient setting, lacking key information such as sleep staging, body position, thoracoabdominal movement, and synchronized ECG, making it impossible to accurately determine the composition of obstructive, central, and mixed events or to explain the relationship between marked hypoxemia and sleep stage and body position. The patient subsequently also had persistent subtarget oxygen saturation after titration, awake arterial blood gas PO2 57 mmHg, and inpatient SpO2 90%, suggesting severe disease and a complex mechanism. The purpose of repeating a standard overnight PSG is to systematically confirm the type of respiratory events, severity, positional dependence, REM/NREM differences, and whether periodic limb movements are present, while synchronously assessing the timing and pattern of hypoxemia, thereby providing a basis for confirming whether this is isolated OSAHS or sleep-disordered breathing combined with central/mixed events, determining whether sleep-related hypoventilation is present, and formulating the subsequent ventilator mode, positional therapy, and whether to combine oxygen therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Detailed pressure titration monitoring graph",
+          "basis_in_stage3_input": "Reviewing the detailed pressure titration tracing, during REM sleep in the lateral position, at a CPAP pressure of 10 cmH2O, after all respiratory events and snoring were eliminated, the patient's oxygen saturation could only be maintained at approximately 89%.",
+          "why_order_this_exam": "During the patient’s prior pressure titration and mask trial, a key contradiction had already been revealed: even during REM sleep in the lateral position, with CPAP 10 cmH2O, respiratory events and snoring had been eliminated, yet oxygen saturation remained only about 89%; and previously, regardless of auto-adjusting CPAP, fixed-pressure CPAP, bilevel PAP, with supplemental oxygen or without supplemental oxygen, mean oxygen saturation was always below 90% and ODI was always greater than 10 events/h, and treatment had at one point reached an impasse. This indicates that reviewing only the titration conclusion is insufficient; it is necessary to further review and monitor the detailed pressure titration tracings, with frame-by-frame analysis of changes in airflow, thoracoabdominal movement, oxygen saturation, and respiratory rate under different pressures, body positions, and sleep stages, in order to determine whether the residual hypoxemia is due to unrecognized respiratory events, insufficient minute ventilation, positional factors, or persistent hypoventilation despite upper airway patency. This examination directly serves optimization of treatment decision-making and can help determine the most appropriate CPAP pressure, whether strict lateral sleeping must be enforced, whether low-flow supplemental oxygen is needed, and assess the limitations and risks of continuing pressure therapy alone, thereby avoiding mistakenly equating 'event control meeting target' with 'oxygenation meeting target.'",
+          "requirement": "required"
+        },
+        {
+          "exam": "sleep monitoring",
+          "basis_in_stage3_input": "Sleep monitoring results: 1. PSG findings consistent with severe obstructive sleep apnea-hypopnea syndrome. AHI 63.6 events/h, OSAI 5.6 events/h, MSAI 10.9 events/h, CSAI 18 events/h, HPI 29.1 events/h; 2. Mean oxygen saturation: 84%, lowest oxygen saturation: 48%. 3. PSG findings consistent with periodic limb movements.",
+          "why_order_this_exam": "The patient has long-term snoring with nocturnal apnea and daytime somnolence, and has already developed significant hypoxemia, dizziness, and a diagnosis of respiratory failure, placing the patient in a high-risk group for severe sleep-disordered breathing. Current sleep monitoring data show an AHI of 63.6 events/h, mean oxygen saturation 84%, and nadir 48%, with concomitant OSA, CSA, MSA, and hypoventilation components, as well as periodic limb movements, suggesting that this is not simple ordinary obstructive sleep apnea alone, but rather complex sleep-related breathing disorder. The core clinical purpose of performing sleep monitoring is to objectively quantify disease severity, clarify the proportions of obstructive, central, and mixed events and the nocturnal hypoxic burden, determine the relationship of hypoxemia to respiratory events, body position, and sleep stage, and identify coexisting factors affecting sleep quality, such as restless legs/periodic limb movements. The results of this examination are used not only for definitive diagnosis and to distinguish from simple OSAHS, but also directly affect the subsequent treatment pathway, including whether to use positional intervention, ventilator parameter adjustment, whether combined oxygen therapy is needed, and assessment of risks related to concomitant arrhythmia, cerebrovascular disease, and hypoxemia.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Because only home portable monitoring was performed in the outpatient setting, without sleep staging and important parameters such as body position, repeat overnight PSG was recommended. The repeat overnight PSG showed that, based on the overnight monitoring trend graphs, the patient's oxygen saturation was low throughout the night; the periods of marked oxygen desaturation were unrelated to sleep stage, with periods of significant desaturation occurring during both REM and NREM; and all occurred in the supine position (Figure 4). In the supine position, there were more mixed apnea events of varying duration (Figure 5). These occurred rarely in the lateral position. When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min, with a clearly slowed rate; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, also clearly slowed, and oxygen saturation remained low (Figure 5). According to the monitoring data in the table below, the mixed apnea index was 20.3 events/h in the supine position; in the left lateral position, the mixed apnea index was 1.8 events/h; in the right lateral position, the mixed apnea index was 0 events/h; mixed apnea occurred almost exclusively in the supine position (Table 1). Sleep study results: 1. PSG findings consistent with severe obstructive sleep apnea-hypopnea syndrome. AHI 63.6 events/h, OSAI 5.6 events/h, MSAI 10.9 events/h, CSAI 18 events/h, HPI 29.1 events/h; 2. Average oxygen saturation: 84%, lowest oxygen saturation: 48%. 3. PSG findings consistent with periodic limb movements. In conjunction with the overnight monitoring results, the periods of significant hypoxemia were considered position-related. On review of the detailed pressure titration tracings, during REM sleep in the lateral position with CPAP 10 cmH2O pressure support, after all respiratory events and snoring were eliminated, the patient's oxygen saturation could only be maintained at about 89%. On careful observation, it was found that during this period the patient's respiratory rate was slow at 10-12 breaths/min, making it difficult to ensure minute ventilation (Figure 6); therefore, oxygen 2 L/min was added on the basis of enforced lateral positioning plus CPAP 10 cmH2O, after which the patient's ventilator use finally met the standard (Figure 7).",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoItgdtjmTrFRyR39c2AvSUAg5Yyltbqz8O8icKOsl8XIw34uRRUwIb5mg/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Figure 4)",
+          "local_src": "cleaned_cases_image_cache/c4f8dccb6b4e7d36635553241eaf3d6f7a85e076.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIHFAxbp7CssjYb3BjFbu0MNAGR2ziajrIbOkvOibCOLFoPgfiaibvXv6nEQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/63b57d80defe2b20f4bd16563b8b9ef6e35c70c4.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIaoxhsLZdcuker3Ofb0BLVicYvkF3OTOL0xeHIzeAbXpUkXHZM0bfCWw/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Figure 5)",
+          "local_src": "cleaned_cases_image_cache/35c55e9cc3f06c0eee76d08161a9c10c137804e9.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIUszfyQE8gB8DoCr2t8NUZTcuEibO3WyZcN5l2gJj88UbnO4TfzI3FyQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/6601cf89f1e3049a1414df218b0dfd3a5eb8dcd0.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIvA10AtlfKIY8k729fwTndZ9eIxdTsfXY4cxR1WZJjmgmgNcvPOR3Jw/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Table 1)",
+          "local_src": "cleaned_cases_image_cache/b280175f6a0df4bb54c9268874c56e1b0655e586.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIQXibB9Nm1NHUSsVzQ8DETSX4xGgKFeED4jZsrbqZkHFJ084RdwiaVH1Q/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Figure 6)",
+          "local_src": "cleaned_cases_image_cache/4eebc950dd127260bfe8090eb5563fb2ce9eff0c.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJh1RicIV5vhX3lhhbsLfWoIy54OkaXGvxLWpxHarSPYaSlGJ2KF2KNKwd9kCPl9kSnuarTenPT2sw/640?wx_fmt=png&from=appmsg",
+          "near_text": "(Figure 7)",
+          "local_src": "cleaned_cases_image_cache/8154a0a898623f1fbc2479966661b700b190cdf8.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Respiratory failure; 2. Cerebellar tonsillar herniation (Chiari malformation type I); 3. Syringomyelia; 4. Insomnia; 5. Severe obstructive sleep apnea-hypopnea syndrome; 6. Restless legs syndrome; 7. Prostatic hyperplasia; 8. Premature ventricular contractions; 9. Leukopenia; 10. Cough variant asthma.",
+      "diagnostic_basis": [
+        "Cervical spine plain scan on Day +14 showed: 1. Cerebellar tonsillar herniation malformation and syringomyelia of the spinal cord from C3 to T3. 2. Degenerative changes of the cervical spine; possible vertebral hemangiomas in the C4 and T2 vertebral bodies; posterior disc protrusions at C3-7.",
+        "Sleep monitoring results: 1. PSG findings consistent with severe obstructive sleep apnea-hypopnea syndrome. AHI 63.6 events/h, OSAI 5.6 events/h, MSAI 10.9 events/h, CSAI 18 events/h, HPI 29.1 events/h; 2. Mean oxygen saturation: 84%, lowest oxygen saturation: 48%. 3. PSG findings consistent with periodic limb movements.",
+        "According to the monitoring data in the table below, the mixed apnea index was 20.3 events/h in the supine position; in the left lateral position, the mixed apnea index was 1.8 events/h; in the right lateral position, the mixed apnea index was 0 events/h; mixed apnea occurred almost exclusively in the supine position.",
+        "When there were no respiratory events during REM sleep, the respiratory rate was 10-12 breaths/min, with a marked decrease in rate; when there were no respiratory events during NREM sleep, the respiratory rate was 11-12 breaths/min, and the rate was also markedly slowed; oxygen saturation was low in both.",
+        "Based on the overnight monitoring results, it was considered that the patient's periods of marked hypoxemia were position-related. On review of the detailed pressure titration tracing, during REM sleep in the lateral decubitus position, after CPAP 10 cmH2O eliminated all respiratory events and snoring, the patient's oxygen saturation could only be maintained at approximately 89%. Careful observation found that during this period the patient's respiratory rate was slow, at 10-12 breaths/min, making it difficult to ensure minute ventilation.",
+        "Laboratory tests in our department: 6. Blood gas analysis: pH 7.38, PO2 57mmHg, PCO2 42mmHg, SO2 90%.",
+        "Past medical history and related laboratory tests and examinations"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Ventilator treatment parameters: CPAP 10 cmH2O + lateral position + oxygen 2 L/min",
+        "Eszopiclone tablets, 0.67 tablet at night",
+        "Pramipexole tablets, half a tablet in the evening",
+        "Trazodone tablets, 1/2 tablet at night",
+        "Montelukast 1 tablet/dose, once",
+        "Budesonide/formoterol 1 inhalation each time, twice daily (continuous inhalation for 3 months, re-examination after 3 months)",
+        "Continue outpatient treatment with clopidogrel bisulfate tablets, betahistine mesylate tablets, metoprolol succinate tablets, atorvastatin calcium tablets, tamsulosin hydrochloride sustained-release capsules, epristeride tablets, and other medications."
+      ],
+      "treatment_response": [
+        "With forced lateral decubitus positioning, CPAP 10 cmH2O, and supplemental oxygen 2 L/min, the patient's ventilator use finally met the target."
+      ]
+    }
+  }
+}

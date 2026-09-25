@@ -1,0 +1,317 @@
+{
+  "status": "success",
+  "case_id": "case_154",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 57 years old, unemployed, was admitted on Day 0, with the chief complaint of \"recurrent fever and shortness of breath for 1 month.\" One month before admission, after catching a chill, the patient developed fever, with a maximum temperature of 39.0℃, accompanied by shortness of breath after activity. He was able to lie flat at night. Self-measured peripheral oxygen saturation fluctuated between 80%-95%. He had occasional cough and sputum production, with a small amount of purulent sputum, accompanied by fatigue. There was no afternoon fever or night sweats, no hemoptysis, no chest tightness or chest pain, no dizziness or headache, no abdominal pain or abdominal distension, and no nausea or vomiting. He visited a local clinic and was treated with medications such as \"oxygen therapy, methylprednisolone (specific dose unknown), and aminophylline,\" but still had recurrent shortness of breath, so he presented to a local hospital. On Day -29, chest CT at the local hospital showed: bilateral pneumonia; bilateral pleural effusion. On the same day, NGS of bronchoalveolar lavage fluid showed: Schizophyllum commune; rhinovirus; human herpesvirus type 4/5 (sequence count unknown). \"Severe pneumonia\" was considered, and he was given \"meropenem for anti-infection + voriconazole antifungal therapy + ganciclovir antiviral therapy,\" but the patient's shortness of breath worsened compared with before, and peripheral oxygen saturation dropped as low as 70%. Three weeks before admission, he was transferred to another local hospital. On Day -17, chest CT showed: right hydropneumothorax; on Day -10, NGS of pleural effusion showed: Mycobacterium abscessus (sequence count 9); influenza A virus: positive.\" After treatments including \"closed thoracic drainage, alternating antibacterial therapy with meropenem + amikacin, voriconazole antifungal therapy, and ganciclovir antiviral therapy (duration and dose unknown),\" he still had recurrent fever, shortness of breath with no significant improvement, and decreased exercise tolerance compared with before. Complete blood count: WBC 4.91×10^9/L, NE 82.2%, LN 0.54×10/L, Hb 125g/L, PLT 262×10^9/L; blood gas analysis (FiO2 43%): PH 7.255, PCO2 118mmHg, PO2 72.4mmHg, HCO3- 42mmol/L, Lac 0.9mmo1/L, oxygenation index 168mmHg. BiPAP-assisted ventilation was given, but he still felt recurrent shortness of breath and was unable to ambulate on level ground. Six hours before admission, he underwent endotracheal intubation and mechanical ventilatory support and then presented to the emergency department of our hospital, where \"blood gas analysis (FiO2 100%): PH 7.368, PCO2 75.3mmHg, PO2 294mHg, ABE 14.6mmol/L, SBE 18mmol/L, Lac 0.6mmol/L, oxygenation index 294mmHg\" was checked. For further diagnosis and treatment, he was admitted from the emergency department to our ICU with \"severe pneumonia.\" Since the onset of illness, the patient had poor mental status, very poor physical strength, poor appetite and food intake, poor sleep, no significant change in body weight, and normal urination and defecation. The patient had a past history of \"chronic obstructive pulmonary disease\" for 3 years and usually received intermittent oxygen therapy and occasionally took aminophylline. More than 1 year ago, he had a history of \"novel coronavirus infection\" and improved after treatment (details unknown). Ten months ago, he presented to a local hospital because of \"recurrent shortness of breath and fever\" and was diagnosed with \"Pneumocystis jirovecii pneumonia.\" After recovery, he was discharged and took oral trimethoprim-sulfamethoxazole regularly (stopped 5 months ago). He smoked for 20 years (details unknown) and quit smoking more than 10 years ago. Occasional alcohol use history. Otherwise unremarkable. Physical examination on admission: T: 36.8℃, P: 74 beats/min, R: 15 breaths/min, BP: 112/52mmHg, SPO2: 100% (endotracheal intubation with mechanical ventilatory support: P-A/C mode, PC 18cmH2O, F 15 breaths/min, PEEP 5cmH2O, FiO2 50%). He was sedated and unable to cooperate with the examination. Breath sounds were decreased in the right lung; breath sounds were coarse in the left lung; scattered moist rales were heard in both lungs. Cardiac rhythm was regular, and no murmur was heard in the valvular auscultation areas. The abdomen was soft, with no guarding, normal bowel sounds, about 4 times/min. No edema was seen in either lower extremity.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe pneumonia (complicated by complicated pleural effusion/empyema and right hydropneumothorax)",
+          "supporting_evidence": [
+            "Chief complaint: recurrent fever and shortness of breath for 1 month, with a maximum temperature of 39.0°C",
+            "Accompanied by occasional cough and sputum production, with a small amount of purulent sputum",
+            "Chest CT on Day -29 showed: bilateral pneumonia; bilateral pleural effusion",
+            "Chest CT on Day -17 showed: right hydropneumothorax",
+            "Decreased breath sounds in the right lung, coarse breath sounds in the left lung, with scattered moist rales audible in both lungs",
+            "Previously at another hospital, he was considered to have \"severe pneumonia,\" and despite multiple anti-infective treatments, he continued to have recurrent fever and unresolved shortness of breath, suggesting a severe and complex pulmonary infectious process.",
+            "Arterial blood gas analysis showed significant respiratory failure: at FiO2 43%, pH 7.255, PCO2 118mmHg, PO2 72.4mmHg, oxygenation index 168mmHg; subsequently required endotracheal intubation and mechanical ventilation"
+          ],
+          "opposing_evidence": [
+            "Complete blood count: WBC 4.91×10^9/L, no significant elevation in white blood cells was observed",
+            "At the current admission physical examination, body temperature was 36.8℃, but the possibility that this temperature reflects prior treatment cannot be excluded."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Mycobacterium abscessus pulmonary/pleural infection",
+          "supporting_evidence": [
+            "Day -10 pleural fluid NGS: Mycobacterium abscessus (sequence count: 9)",
+            "Prolonged disease course, with recurrent fever and dyspnea for 1 month, and despite treatment with \"meropenem + amikacin alternating antibacterial therapy, voriconazole, ganciclovir,\" etc., the recurrent fever and dyspnea still showed no significant improvement.",
+            "Imaging demonstrates bilateral pneumonia, bilateral pleural effusions, and a right hydropneumothorax, consistent with a complicated, refractory infection.",
+            "History of COPD, a chronic underlying lung disease, which increases the likelihood of pulmonary nontuberculous mycobacterial infection"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Recurrent Pneumocystis pneumonia or opportunistic infection not completely excluded",
+          "supporting_evidence": [
+            "10 months earlier, he was diagnosed with \"Pneumocystis jirovecii pneumonia\" because of \"recurrent shortness of breath and fever\"",
+            "Regular oral trimethoprim-sulfamethoxazole was discontinued 5 months ago, with a background of recurrent opportunistic infection after discontinuation of prophylaxis/treatment.",
+            "This episode was characterized predominantly by progressive dyspnea and hypoxemia; self-measured peripheral oxygen saturation fluctuated between 80%-95%, with a nadir as low as 70%.",
+            "Methylprednisolone was used during the course of the illness, which may increase the risk of opportunistic infection",
+            "Multiple pathogens were detected in BALF at an outside hospital, suggesting that the host may have susceptibility."
+          ],
+          "opposing_evidence": [
+            "This episode involved a small amount of purulent sputum, which is not entirely consistent with the typical presentation of Pneumocystis pneumonia.",
+            "Chest CT showed bilateral pleural effusions and subsequent right hydropneumothorax; pleural involvement is not a common initial manifestation of Pneumocystis pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Invasive fungal pulmonary infection (including Schizophyllum commune-associated pulmonary infection, etc.)",
+          "supporting_evidence": [
+            "On Day -29, BALF NGS showed: Schizophyllum commune",
+            "Protracted disease course, recurrent fever and shortness of breath, with no significant improvement after conventional multiple anti-infective treatments",
+            "There was a prior history of Pneumocystis pneumonia, and methylprednisolone was also used during the course of the illness, suggesting possible host factors for opportunistic infection.",
+            "Imaging shows bilateral pneumonia and pleural effusion, suggesting severe pulmonary infection"
+          ],
+          "opposing_evidence": [
+            "After use of voriconazole, recurrent fever and dyspnea still showed no significant improvement.",
+            "The phase 1 information did not provide imaging or histopathologic evidence more specific for fungal infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Influenza A-associated severe viral pneumonia or viral-bacterial mixed infection",
+          "supporting_evidence": [
+            "Day -10: \"Influenza A virus: positive\"",
+            "BALF NGS performed at an outside hospital also detected rhinovirus and human herpesvirus types 4/5, suggesting the presence of viral etiologic clues.",
+            "At onset, there were fever and dyspnea, followed by marked hypoxemia progressing to mechanical ventilation, consistent with severe viral pneumonia or a virus-triggered mixed infection.",
+            "Chest CT on Day -29 showed bilateral pneumonia"
+          ],
+          "opposing_evidence": [
+            "The course of illness has lasted for approximately 1 month, and the presence of small amounts of purulent sputum, pleural effusion, and right hydropneumothorax further suggests a complicated mixed infection or secondary bacterial/other pathogen infection, rather than simple viral pneumonia.",
+            "The first-stage information did not provide imaging descriptions specific to typical viral pneumonia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease with acute-on-chronic respiratory failure",
+          "supporting_evidence": [
+            "History of COPD for 3 years; intermittent oxygen therapy and occasional aminophylline treatment as usual",
+            "Arterial blood gas analysis (FiO2 43%) showed pH 7.255, PCO2 118 mmHg, HCO3- 42 mmol/L, suggesting marked hypercapnia with acute exacerbation on a background of chronic compensation.",
+            "The patient had marked shortness of breath after activity, which later progressed to inability to ambulate on level ground, requiring noninvasive ventilation and ultimately endotracheal intubation with mechanical ventilation",
+            "Onset after exposure to cold; infection can be a common precipitating factor for acute exacerbation of COPD"
+          ],
+          "opposing_evidence": [
+            "During this disease course, persistent high fever, bilateral pneumonia, bilateral pleural effusions, and right hydropneumothorax suggest that the principal problem is more consistent with severe pulmonary infection and its complications, rather than a simple acute exacerbation of COPD.",
+            "Able to lie flat at night, which does not support dyspnea due to obvious acute left-sided heart failure"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA antibody profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF pathogen culture + mNGS",
+          "reason": "The patient has poor baseline pulmonary function, and the response to conventional anti-infective therapy was suboptimal.",
+          "basis_in_stage3_input": "The condition showed progressive worsening.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC: WBC count 6.9×10^9/L, segmented neutrophils 78.3%, lymphocytes 13.5%, hemoglobin 106 g/L, platelet count 282×10^9/L. Procalcitonin: <0.25 ng/mL. C-reactive protein: 22.10 mg/L. D-biochemistry: total protein 44 g/L, albumin 29 g/L, globulin 15 g/L, alanine aminotransferase 59 U/L, aspartate aminotransferase 98 U/L, lactate dehydrogenase 259 U/L, creatine kinase 26 U/L, urea 5.1mmo1/1, creatinine 26umol/1. Coagulation panel: prothrombin time 9.5 sec, thrombin time 23.9 sec, fibrin(ogen) degradation products 999.0 LLg/ml, D-dimer >35.2 mg/L FEU. ANA + ANA antibody profile, dsDNA antibody: all negative. Chest CT showed: 1. Right hydropneumothorax (with approximately 40-50% compression of the lung tissue), gas in the right chest wall, and a small left pleural effusion; multiple scattered inflammatory lesions in both lungs, with partial consolidation; follow-up recommended after treatment. 2. Bilateral emphysema with pulmonary bullae. 3. Moderate pericardial effusion. Bedside bronchoscopy: mild erosion of the main tracheal mucosa was seen and thoroughly cleared. The carina was smooth and sharp, with good pulsation. Upon entering the left lung, a moderate amount of white secretions was seen in the lumen and thoroughly cleared; mild hyperemia and edema of the mucosa of the dorsal segment of the left lower lobe were seen, with mild erosion and bleeding. Upon entering the right lung, a small amount of white secretions was seen in the lumen and thoroughly cleared; mild hyperemia and edema of the mucosa of the dorsal segment of the right middle lobe were seen, with mild erosion and bleeding. No obvious stenosis, hyperemia, or erosion was seen in the remaining lumens.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvhjIw8BWxFmaGvSCL5tmFz08gOFXuE4WdApUeFZLuGHvblzcDPU6DOiaAY1Pqu4NaGJagESxVP3w/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 1. Chest CT at our hospital on 03.29: Scattered multiple patchy, sheet-like, and linear areas of increased density are seen in both lungs, with indistinct margins, with partial consolidation; right hydropneumothorax, with lung tissue compressed by approximately 40-50%.",
+            "local_src": "cleaned_cases_image_cache/be27c9669f32688f8acf6d15c094da8e6ae9ee78.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "The patient had fever over a short period, accompanied by progressively worsening chest imaging findings and respiratory failure; blood counts were normal, and the response to antibiotic therapy was poor.",
+              "History of severe pneumonia caused by COVID-19",
+              "Influenza A virus can also cause severe viral pneumonia"
+            ],
+            "exclusion_reasons": [
+              "Previously tested negative for SARS-CoV-2, not supportive"
+            ]
+          },
+          {
+            "name": "Opportunistic pathogen infection (Pneumocystis jirovecii, Talaromyces marneffei, cytomegalovirus, etc.)",
+            "evidence": [
+              "The patient developed Pneumocystis jirovecii pneumonia after COVID-19 infection, suggesting that COVID-19 infection caused significant impairment of cellular immunity, with the possibility of opportunistic infection due to cellular immune deficiency.",
+              "Antibiotic treatment was ineffective for this infection."
+            ],
+            "exclusion_reasons": [
+              "Previous bronchoscopic bronchoalveolar lavage fluid testing did not detect these pathogens, which does not support"
+            ]
+          },
+          {
+            "name": "Other special pathogens (TB, nontuberculous mycobacteria, etc.)",
+            "evidence": [
+              "The patient has underlying COPD and had cellular immunodeficiency after prior COVID-19 infection.",
+              "This time, the response to antibiotic therapy was suboptimal, and chest imaging showed consolidation.",
+              "NTM was previously detected in pleural effusion"
+            ],
+            "exclusion_reasons": [
+              "The NGS detection level is low; clinical differentiation is still needed to determine colonization versus the causative pathogen."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "The patient had fever over a short period, accompanied by progressively worsening chest imaging findings and respiratory failure; blood counts were normal, and the response to antibiotic therapy was poor.",
+          "History of severe pneumonia caused by COVID-19",
+          "Influenza A virus can also cause severe viral pneumonia"
+        ],
+        "exclusion_reasons": [
+          "Previously tested negative for SARS-CoV-2, not supportive"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Opportunistic pathogen infection (Pneumocystis jirovecii, Talaromyces marneffei, cytomegalovirus, etc.)",
+        "evidence": [
+          "The patient developed Pneumocystis jirovecii pneumonia after COVID-19 infection, suggesting that COVID-19 infection caused significant impairment of cellular immunity, with the possibility of opportunistic infection due to cellular immune deficiency.",
+          "Antibiotic treatment was ineffective for this infection."
+        ],
+        "exclusion_reasons": [
+          "Previous bronchoscopic bronchoalveolar lavage fluid testing did not detect these pathogens, which does not support"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Other special pathogens (TB, nontuberculous mycobacteria, etc.)",
+        "evidence": [
+          "The patient has underlying COPD and had cellular immunodeficiency after prior COVID-19 infection.",
+          "This time, the response to antibiotic therapy was suboptimal, and chest imaging showed consolidation.",
+          "NTM was previously detected in pleural effusion"
+        ],
+        "exclusion_reasons": [
+          "The NGS detection level is low; clinical differentiation is still needed to determine colonization versus the causative pathogen."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "BALF NGS",
+          "basis_in_stage3_input": "Repeat BALF NGS detected \"Mycobacterium gilvum\".",
+          "why_order_this_exam": "The patient has had a protracted course for 1 month, with recurrent fever and dyspnea. Imaging sequentially showed bilateral pneumonia, bilateral pleural effusions, and a right hydropneumothorax. The response was poor after multiple empiric treatments including meropenem, amikacin, voriconazole, and ganciclovir, suggesting that common pathogens cannot adequately explain the entire clinical picture. Previous pleural fluid NGS had indicated Mycobacterium abscessus, but the sequence count was low, and further assessment is still needed to determine whether the nontuberculous mycobacteria represent colonization, contamination, or the causative pathogen. Bronchoscopy showed bilateral airway secretions and mucosal hyperemia and erosion, suggesting that active lesions are still present in the lower respiratory tract. Therefore, repeating BALF NGS would help directly identify pathogens from the site of disease and resolve the etiologic question of refractory severe pneumonia, especially to confirm whether nontuberculous mycobacterial pulmonary disease and mixed infection are present, thereby guiding whether to adopt a combination anti-infective regimen targeting NTM and adjust the previously ineffective treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "SARS-CoV-2 PCR",
+          "basis_in_stage3_input": "On Day +5, PCR was positive for SARS-CoV-2, considered to have been acquired outside the hospital.",
+          "why_order_this_exam": "The patient presented with fever, dyspnea, and respiratory failure, and had progressed to noninvasive ventilation, endotracheal intubation, and mechanical ventilation. Viral pneumonia has consistently been an important differential consideration. At the same time, the outside hospital had already identified clues related to influenza A, rhinovirus, and herpesvirus, and the patient had a prior history of COVID-19 infection and Pneumocystis pneumonia, suggesting a background of virus-related immune injury and opportunistic infection. At this time, the purpose of performing SARS-CoV-2 PCR is to determine whether there is concurrent active SARS-CoV-2 infection, distinguish isolated NTM infection from mixed viral-bacterial/special pathogen infection, explain the prolonged respiratory failure and persistent imaging abnormalities, and provide a basis for whether to add nirmatrelvir/ritonavir, dexamethasone, and hospital infection isolation management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum examination",
+          "basis_in_stage3_input": "CRO Acinetobacter baumannii was subsequently detected in sputum",
+          "why_order_this_exam": "The patient has a small amount of purulent sputum, multiple inflammatory lesions in both lungs, and partial consolidation, and has already undergone mechanical ventilation, bronchoscopic suctioning, and prolonged broad-spectrum anti-infective therapy, placing the patient in a high-risk population for secondary hospital-acquired lower respiratory tract colonization or infection. Sputum testing is intended to dynamically assess whether there are new bacterial pathogens in the lower respiratory tract, especially drug-resistant Gram-negative bacilli, to explain possible fluctuations in the clinical course and to help determine whether expansion or adjustment of the antimicrobial spectrum is needed. At the same time, given that the patient subsequently had no fever and that the CBC and inflammatory markers did not show progressive elevation, the sputum pathogen results can be used to distinguish colonization from true infection and avoid overtreatment of simple colonizing organisms such as CRO Acinetobacter baumannii.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urgent complete blood count and inflammatory markers",
+          "basis_in_stage3_input": "No progressive elevation was observed in the complete blood count or inflammatory markers.",
+          "why_order_this_exam": "The patient had a prolonged course of pulmonary infection, complex imaging findings, and a suboptimal response to multiple rounds of empiric therapy; subsequently, SARS-CoV-2 and drug-resistant bacteria were also detected. Clinically, it was necessary to dynamically assess whether there was a new active infection, whether the infection was controlled, and whether the microbiologic results were clinically significant. Repeat inflammatory markers could be analyzed together with symptoms, body temperature, imaging, and pathogen results to help distinguish persistent nontuberculous mycobacterial infection, viral coinfection, mechanical ventilation-associated bacterial infection, or simple colonization, and could also assess whether the current treatment was effective. The results showed no progressive increase; combined with the absence of fever and other manifestations, this supported that there was no obvious new bacterial exacerbation at that time, thereby affecting whether to continue or escalate the antimicrobial regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "basis_in_stage3_input": "Urgent blood tests and blood gas analysis showed no obvious electrolyte, acid-base balance, or other disturbances.",
+          "why_order_this_exam": "The patient had underlying COPD and had already developed severe hypercapnia and respiratory acidosis before admission, initially requiring noninvasive ventilation and then escalation to endotracheal intubation with mechanical ventilation; there were also bilateral pulmonary inflammatory infiltrates, right hydropneumothorax, and pleural effusion, with extremely unstable respiratory function. When acute disturbance of consciousness occurred, the primary purpose of urgent arterial blood gas analysis was to assess whether carbon dioxide retention, hypoxemia, or acid-base imbalance had recurred, because all of these can directly cause altered consciousness and affect whether urgent adjustment of ventilator settings is needed. This blood gas analysis showed no obvious abnormalities, helping to exclude hypercapnic encephalopathy, severe hypoxemia, and marked acid-base disturbance as the main precipitating factors, and also supporting subsequent consideration of TIA or medication-related factors.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside electrocardiogram",
+          "basis_in_stage3_input": "However, an urgent bedside electrocardiogram showed no obvious malignant arrhythmia.",
+          "why_order_this_exam": "In the setting of the patient's sudden disturbance of consciousness and cardiac monitoring indicating an increased heart rate, a bedside ECG is the direct test to further determine whether there is evidence of cardiogenic syncope such as malignant arrhythmia, conduction block, or acute ischemic changes. Given that the patient is in the ICU with mechanical ventilation and severe infection, the risk of arrhythmia is increased, and a cardiogenic event would directly affect emergency management and the level of monitoring. The clinical question addressed by this test is to rapidly differentiate whether this transient loss of consciousness was caused by Adams-Stokes syndrome or other dangerous arrhythmias; no obvious malignant arrhythmia was seen on the result, decreasing the likelihood of a cardiogenic disturbance of consciousness and thereby supporting continued analysis in the direction of a cerebrovascular event and medication-related factors.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "BALF was resubmitted for NGS, which detected \"Mycobacterium gilvum.\" On Day +5, PCR was positive for SARS-CoV-2, considered brought in from outside the hospital. Subsequently, sputum grew CRO Acinetobacter baumannii. CBC and inflammatory markers showed no progressive increase, and there were no manifestations such as fever; colonization was considered and no treatment was given. On Day +15, the patient suddenly lost consciousness and was unresponsive to calling; consciousness returned half an hour later, with agitation and self-extubation. Emergent blood testing showed that the CBC white blood cell count was increased compared with before, serum sodium was slightly low, and no other obvious abnormalities were seen. The cause of the disturbance of consciousness was unclear, and the following were considered: ① Internal milieu/metabolic disturbance: based on the emergent blood tests and blood gas analysis, there were no obvious electrolyte or acid-base disturbances, so disturbance of consciousness caused by hyponatremia, hypoglycemia, carbon dioxide retention, etc. could be excluded; ② Cardiac causes: Adams-Stokes syndrome, etc. can cause disturbance of consciousness; cardiac monitoring showed tachycardia, but the emergent bedside ECG showed no obvious malignant arrhythmia, so cardiogenic disturbance of consciousness was considered unlikely; ③ Cerebrovascular event: the patient had sudden altered consciousness and recovered after about half an hour; an acute cerebrovascular event, such as TIA, could not be excluded; ④ Drug-related: after sedative and analgesic medications were held, the patient's mental status gradually became more awake but agitation persisted, so this cause could not be excluded for the time being. Ultimately, drug-induced psychomotor agitation was considered most likely.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIvhjIw8BWxFmaGvSCL5tmFhRquaZ4vIKCQ9IaUKKcVexM7joykMicmBWFX7Cxj6eWvZbmTgMY8tdA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 2. Chest CT at our hospital on 05.06: scattered multiple patchy increased-density opacities are seen in both lungs, with partial consolidation, showing marked resolution compared with the prior study; the previous right hydropneumothorax has basically resolved compared with the prior study.",
+          "local_src": "cleaned_cases_image_cache/1dcadeb00a00e92bd3bc7afc6cdb1037fdcd12d0.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Severe pneumonia, nontuberculous mycobacterial pulmonary disease (NTMPD), Mycobacterium abscessus infection, right pyopneumothorax, right chest wall gas accumulation, left pleural effusion, hypoproteinemia, pericardial effusion, chronic obstructive pulmonary disease",
+      "diagnostic_basis": [
+        "An elderly man with underlying COPD; arterial blood gas analysis showed type II respiratory failure; underwent endotracheal intubation and mechanical ventilatory support for respiratory failure",
+        "NTM (Mycobacterium abscessus) was previously detected in pleural fluid; repeat NGS testing of bronchoalveolar lavage fluid detected Mycobacterium gilvum.",
+        "Chest CT showed: 1. Right hydropneumothorax (with approximately 40-50% compression of the lung), air in the right chest wall, and a small left pleural effusion; multiple scattered inflammatory lesions in both lungs, with partial consolidation; follow-up examination is recommended after treatment. 2. Bilateral emphysema with pulmonary bullae. 3. Moderate pericardial effusion.",
+        "Laboratory tests indicated hypoproteinemia"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Imipenem/cilastatin 1000 mg q12h + azithromycin 250-500 mg QD + amikacin 15 mg/kg QD",
+        "Invasive mechanical ventilation, ambroxol for expectoration, glutathione for liver protection, prophylactic anticoagulation with low-molecular-weight heparin, acid suppression and gastric protection, fluid support",
+        "Add methylprednisolone to reduce exudation and adhesions, and relieve edema",
+        "Replace with a larger-bore tube to promote drainage",
+        "Added nirmatrelvir/ritonavir for antiviral therapy and dexamethasone for anti-inflammatory treatment",
+        "Switch imipenem/cilastatin to cefoxitin and continue combined anti-infective therapy with azithromycin + amikacin.",
+        "Intensified pharmacologic sedation, re-endotracheal intubation and connection to a ventilator for assisted ventilation",
+        "Changed back to imipenem/cilastatin, and added moxifloxacin for anti-infective treatment with the regimen of imipenem/cilastatin + azithromycin + amikacin."
+      ],
+      "treatment_response": [
+        "The patient had no recurrent fever, dyspnea improved, and repeat oxygenation index increased compared with the previous value.",
+        "Follow-up chest radiograph showed no obvious pneumothorax",
+        "The patient's psychiatric symptoms improved.",
+        "No obvious dyspnea was noted. Oxygenation did not decrease on monitoring. After successful extubation, oxygen therapy was switched to nasal cannula, peripheral oxygen saturation remained acceptable, and the general condition improved.",
+        "Repeat chest CT indicated that the previous right pneumothorax and right chest wall emphysema were basically absorbed compared with before, and the bilateral pulmonary inflammation was absorbed compared with before; the right closed thoracic drainage tube was removed.",
+        "The patient's body temperature was normal, with no obvious shortness of breath; cough and sputum production had improved compared with previously.",
+        "At follow-up after discharge, the patient had no recurrent fever, no significant adverse reactions occurred during medication use, and long-term antibiotic therapy was well tolerated."
+      ]
+    }
+  }
+}

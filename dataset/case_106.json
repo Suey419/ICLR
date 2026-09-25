@@ -1,0 +1,481 @@
+{
+  "status": "success",
+  "case_id": "case_106",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 49 years old, from Hancheng, Shaanxi, agricultural worker. Chief complaint: \"hoarseness with shortness of breath for 7 months, worsening for half a month.\" She was admitted to the Respiratory Intensive Care Unit, Department of Pulmonary and Critical Care Medicine, Tangdu Hospital, Air Force Medical University, on Day 0. Seven months before admission, this female patient gradually developed hoarseness accompanied by shortness of breath without an obvious precipitating cause, without cough or sputum production, without acid regurgitation, nausea, or vomiting, without fever or night sweats, without chest pain, without abdominal pain, without dizziness, without swelling or pain of the extremity joints, and without rash. She visited a local hospital and underwent chest CT examination (report unavailable). She was given oral medication (details unknown), but her symptoms did not improve. Six months before admission, again without an obvious precipitating cause, she developed bilateral lower-extremity edema, non-pitting in nature, accompanied by pain in the anterior chest and back, as well as pain in both knee joints, both ankle joints, and both feet. There was no rash, no fever, and no facial edema. She denied dry eyes, alopecia, photosensitivity, dental caries, oral ulcers, rash, pruritus, Raynaud phenomenon, morning stiffness, skin tightness, etc. She again sought care at an outside hospital, where she was diagnosed with \"rheumatoid arthritis\" and treated with oral \"prednisone acetate tablets 20 mg, methotrexate 10 mg once daily.\" After treatment, the bilateral lower-extremity edema and joint swelling/pain improved somewhat, but hoarseness with shortness of breath persisted. The patient was able to tolerate this, and during this period she had multiple follow-up visits to the rheumatology and immunology department at outside hospitals; repeat complete blood count and erythrocyte sedimentation rate were normal. Half a month before admission, the patient noted that her hoarseness and shortness of breath had worsened compared with before, accompanied by acid regurgitation, nausea, and vomiting; the vomitus consisted of gastric contents, without hematemesis or melena. She visited a local hospital, where chest CT showed \"tiny nodule in the right lung apex,\" and no special treatment was given. This time the patient did not ignore it and immediately sought care at a higher-level hospital. Chest CT showed \"diffuse stenosis of the entire trachea, small nodule in the apical segment of the right upper lobe.\" Laryngoscopy showed \"bilateral arytenoid hypertrophy, mucosal thickening in the interarytenoid region, bilateral vocal cord thickening, slightly reduced abduction, and incomplete closure.\" Nasal endoscopy showed \"slight enlargement of the bilateral inferior turbinates.\" Echocardiography showed \"EF 63%, aortic sclerosis, and decreased left ventricular diastolic function,\" and she was diagnosed with \"central airway stenosis.\" For further diagnosis and treatment, the patient presented to our hospital. Since disease onset, the patient had poor spirits, decreased physical strength, fair appetite, fair sleep, no significant change in body weight, and normal urination and defecation. The patient was previously healthy, denied a history of infectious diseases, and her immunization history was unknown. However, she is allergic to \"amoxicillin.\" She denied a history of food allergy. The patient underwent \"cesarean section\" at the time of delivery 11 years ago and 9 years ago, respectively. She denied a history of trauma, blood transfusion, and poisoning. She denied a history of commercial sex exposure, alcohol use, smoking, exposure to radioactive substances or toxins, contact with epidemic areas, and history of endemic diseases. Menstrual history: menarche at age 13, 4-6 days/20-30 days, Day -42, normal menstrual flow, regular menses, no dysmenorrhea. Marital and reproductive history: married at age 20, has 2 daughters, spouse and daughters are all healthy. Family history: denied family history of hereditary diseases and similar illnesses. Physical examination on admission: T 36.6℃; P 96 beats/min; R 25 breaths/min; BP 110/74 mmHg; SpO2 93% (on oxygen); lips slightly cyanotic; no rash on the skin of the whole body, no palpable lymphadenopathy throughout the body, thorax symmetrical without deformity; bilateral respiratory excursion symmetric, tactile fremitus not increased or decreased; percussion of both lungs resonant, breath sounds clear in both lungs, fixed inspiratory rhonchi audible in both upper lungs, fixed expiratory wheezes audible at both lung bases, no Velcro crackles, no pleural friction rub; no precordial bulge, apical impulse located 0.5 cm medial to the left midclavicular line in the fifth intercostal space, no palpable thrill, cardiac borders not enlarged; heart rate 96 beats/min, regular rhythm, heart sounds without obvious increase or decrease in intensity, no pathologic murmur heard in any valve auscultation area; abdomen flat and soft, no hepatosplenomegaly, no abdominal tenderness or abdominal muscle guarding; no edema of either lower extremity. The patient was found to have relatively small bilateral auricles and saddle nose?",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsIhunerjRcngtibAGS7Hia3g3B56PofyRcokcILib6OaoQJAaiazSfwMtlQ/640?wx_fmt=png",
+          "near_text": "Facial photograph of the patient",
+          "local_src": "cleaned_cases_image_cache/37c800f3d3a7a814df57e561d0f0d49d68362f69.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Relapsing polychondritis",
+          "supporting_evidence": [
+            "Chest CT showed “diffuse narrowing of the main trachea,” consistent with involvement of the main airway by a cartilage-related airway disease.",
+            "Laryngoscopy showed \"bilateral arytenoid hypertrophy, mucosal thickening in the interarytenoid region, bilateral vocal cord thickening, slightly impaired abduction, and incomplete glottic closure,\" suggesting involvement of the larynx/glottic region, which may explain hoarseness and shortness of breath.",
+            "During the course of the disease, there was pain in the anterior chest and back, both knee joints, both ankle joints, and both feet; after treatment with glucocorticoids and methotrexate, the joint swelling and pain and lower-extremity edema improved, supporting an inflammatory/immune-mediated disease.",
+            "Physical examination found \"small bilateral auricles, saddle nose?\". In conjunction with the attached image, both auricles appear small and the nasal bridge contour is abnormal, suggesting possible involvement of the auricular and nasal cartilage.",
+            "No smoking history. On lung auscultation, the predominant findings are fixed inspiratory rhonchi and expiratory wheezes, which are more consistent with central airway stenosis than with typical small airway disease."
+          ],
+          "opposing_evidence": [
+            "Stage 1 did not explicitly document typical manifestations of auricular chondritis such as redness, swelling, and pain of the auricle.",
+            "In the first stage, a history of nasal chondritis was not clearly documented; “saddle nose?” was only a suggestive physical sign and had not yet been confirmed."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Granulomatosis with polyangiitis (GPA, Wegener granulomatosis)",
+          "supporting_evidence": [
+            "Diffuse narrowing of the main trachea and hoarseness suggest inflammatory stenosis of the upper airway/central airway; GPA can involve the larynx and trachea",
+            "Physical examination mentioned \"saddle nose?\"; saddle-nose deformity can be seen with nasal septal/nasal cartilage destruction in GPA",
+            "Arthralgia during the course of the illness suggests the possibility of a systemic inflammatory disease.",
+            "Laryngoscopy showed thickening of the arytenoid region and vocal cords, supporting an inflammatory lesion of the upper airway."
+          ],
+          "opposing_evidence": [
+            "No documented common upper respiratory tract manifestations in the first phase, such as sinusitis, epistaxis, crusting, or increased ear and nasal secretions.",
+            "No documentation in the first stage of common systemic manifestations of GPA such as hemoptysis, renal involvement, rash, or fever",
+            "Multiple previous repeat complete blood counts and erythrocyte sedimentation rate were normal, not strongly supporting active systemic vasculitis"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Tracheobronchial amyloidosis",
+          "supporting_evidence": [
+            "The main manifestations are progressive hoarseness and shortness of breath. Chest CT suggests diffuse narrowing of the entire main trachea, consistent with diffuse central airway disease.",
+            "Laryngoscopy shows mucosal thickening and vocal cord thickening, which may be seen in upper airway involvement caused by submucosal deposition disease.",
+            "Breath sounds in both lungs remain fairly clear, but fixed inspiratory stridor and expiratory wheezing are present, suggesting fixed central airway stenosis"
+          ],
+          "opposing_evidence": [
+            "In the first stage, arthralgia, a history of non-pitting lower-extremity edema, and partial improvement with glucocorticoids/methotrexate were present, favoring an immune-inflammatory disease.",
+            "The attached images and physical examination suggest relatively small auricles and possible saddle nose, which cannot be well explained by amyloidosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "IgG4-related disease involving the airway/larynx",
+          "supporting_evidence": [
+            "May present with tracheal wall thickening, airway stenosis, and laryngeal involvement, which can explain diffuse narrowing of the main trachea, hoarseness, and shortness of breath",
+            "Protracted disease course; both local imaging and laryngoscopy suggest thickening lesions of the airway and larynx",
+            "A systemic inflammatory disease with some response to glucocorticoids, consistent with partial improvement of some symptoms in the medical history"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no common clues of organ involvement suggestive of IgG4-related disease were observed, such as enlargement of the salivary glands, lacrimal glands, pancreas, bile ducts, orbits, or lymph nodes.",
+            "Abnormal auricular morphology and saddle nose are more suggestive of cartilaginous disease and are not typical features of IgG4-related disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Tracheobronchial osseous/cartilaginous lesions (e.g., tracheobronchopathia osteochondroplastica)",
+          "supporting_evidence": [
+            "Chest CT showed diffuse narrowing of the entire trachea; auscultation revealed fixed inspiratory rhonchi and expiratory wheezing, consistent with organic central airway stenosis.",
+            "The patient has no smoking history, and physical signs of the bilateral lung parenchyma are not prominent, supporting that the lesion is mainly located in the large airways."
+          ],
+          "opposing_evidence": [
+            "In the first stage, laryngoscopy showed thickening of the arytenoids and vocal cords, suggesting that the larynx was also involved, whereas this disease typically mainly involves the trachea and bronchi, and laryngeal involvement is relatively atypical.",
+            "Associated with arthralgia, suspected auricular and nasal cartilage abnormalities, and a partial response to immunosuppressive therapy; not consistent with a purely degenerative/ossifying airway lesion"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Laryngotracheal TB or other chronic granulomatous infections",
+          "supporting_evidence": [
+            "Persistent hoarseness and shortness of breath; laryngoscopy showed thickening of the laryngeal mucosa, imaging showed main tracheal stenosis, and chronic infectious granulomatous lesions need to be differentiated.",
+            "Small nodule in the apical segment of the right upper lobe / tiny right apical pulmonary nodule on imaging suggests that an infectious lesion should be considered."
+          ],
+          "opposing_evidence": [
+            "In the first stage, it was confirmed that there were no common TB constitutional or respiratory symptoms such as fever, night sweats, cough, or sputum production.",
+            "Denies a history of infectious diseases; no lymphadenopathy detected on physical examination",
+            "Small auricular morphology, possible saddle nose, and arthralgia are more suggestive of a noninfectious systemic disease"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fibrinolysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen-related examinations",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Epstein-Barr virus panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immune-related tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination and occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "troponin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Myoglobin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "NT-ProBNP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "thyroid function tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lower extremity venous ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT + 3D tracheal reconstruction",
+          "requirement": "required"
+        },
+        {
+          "exam": "Miller position plain radiographic scan",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Nasal endoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Laryngoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Pathogen-related: HBsAg negative, HBsAb positive, HBeAg negative, HBeAb positive, HBcAb positive. EBV panel: EBV viral capsid antigen IgG positive, EBV viral capsid antigen IgM negative, EBV early antigen IgG negative, EBV early antigen IgM positive. HCV, HIV, syphilis, and TORCH all negative. Immune-related: no obvious abnormalities in ANCA, rheumatoid factor, ANA panel, complement panel, immunoglobulins, IgE, T cells, B cells, or NK cells. Other: no obvious abnormalities in urinalysis, stool routine examination and occult blood, troponin, myoglobin, NT-ProBNP, fasting blood glucose, blood lipids, tumor markers, or thyroid function. Arterial blood gas analysis showed normal acid-base status, slightly increased partial pressure of carbon dioxide, non-low partial pressure of oxygen, slightly decreased sodium and potassium electrolytes, and slightly elevated lactate. ECG: sinus rhythm; ECG generally normal. Echocardiography (bedside): EF 0.76, enlarged left atrium, remaining atrial and ventricular chamber dimensions normal; great vessel position and internal diameters normal; interventricular septal and left ventricular free wall thickness normal, ventricular wall motion poorly coordinated, atrial septal continuity intact; CDFI showed small regurgitant jets at the tricuspid valve and pulmonic valve, and the remaining valves had good thickness and mobility; pericardial thickness normal, no pericardial effusion; normal left ventricular systolic function. Abdominal ultrasound (bedside): no definite abnormalities on imaging of the liver, gallbladder, pancreas, spleen, ორივী kidneys, and uterus. Lower extremity venous ultrasound (bedside): blood flow was patent in the bilateral common femoral, superficial femoral, deep femoral, popliteal, great saphenous, and small saphenous veins. Pulmonary function testing showed severe airflow obstruction in the large airways, severe airflow obstruction in the small airways, very severe obstructive ventilatory dysfunction, and moderate diffusion impairment. Chest CT indicated diffuse tracheal stenosis throughout the entire trachea; comparison of CTs from Day -215 to the most recent CT on Day +7 showed progressively worsening tracheal stenosis. Miwa maneuver scan indicated diffuse narrowing of the entire tracheal lumen; the internal diameter at the narrowest part of the trachea was approximately 4.5 mm in the Mi position and 5.2 mm in the Wa position; both diameters were less than 8 mm, and the difference in diameter was less than 3 mm. Bronchoscopy showed normal glottic structure, sharp carina, collapse of the entire trachea and the left and right main bronchi, decreased anteroposterior diameter, patency of the bronchi at all levels in the left and right lungs, smooth mucosa, and no neoplasm seen endoscopically. Nasal endoscopy showed slightly enlarged bilateral inferior turbinates, pale middle turbinates, clear middle meatus and olfactory clefts, and hyperemia of the nasopharyngeal mucosa. Laryngoscopy showed hyperplasia of the lymphoid tissue at the base of the tongue, bilateral arytenoid hypertrophy, thickened mucosa in the interarytenoid region, bilateral vocal cord thickening, slightly impaired bilateral vocal cord abduction, and incomplete closure.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsxsQibZntJqU1uMcibJIriaKWTjFh3joeHgnceiaIXKQ0icsMscYr7iatkqsQ/640?wx_fmt=png",
+            "near_text": "Liver and kidney function tests, electrolytes decreased",
+            "local_src": "cleaned_cases_image_cache/2319543ff30b6dcf01cbba5c57ecb022a254b2b5.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsb36dy9Qjxukccpia87PLK8ktESfgP0zm4cQ64Ln9rLkMAJnqmfLrCAg/640?wx_fmt=png",
+            "near_text": "Coagulation and fibrinolysis ↓",
+            "local_src": "cleaned_cases_image_cache/dfa23bad34d6cb6e9aefc7be7b2707dd8a65738a.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsrra1f44icjWkt7oqdxBEUn7pMJYC87fe0IicibYmQmzwnrfWhubs2FQww/640?wx_fmt=png",
+            "near_text": "Infection-related markers, etc., are shown in the third volume of the case file:",
+            "local_src": "cleaned_cases_image_cache/3da5f84cf5f50ae1c0dfeb15afb0491f503429cc.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsTkCanqicwpwy1PGtDKNylViaBnJSE77yeCvnu9cgoBqnZSEA6dibsfCKw/640?wx_fmt=png",
+            "near_text": "Arterial blood gas analysis showed",
+            "local_src": "cleaned_cases_image_cache/f76fe6e09b0d7ac693158c5cc5152346dd49f516.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstILcC60Oe3mF9yx2Fp4Bhd8BJostdQGibj00gH2uD9slibgtMmfGTciaf1qmib1QKFjmiaCsVVFkA2d22Q/640?wx_fmt=jpeg",
+            "near_text": "Ultrasound:",
+            "local_src": "cleaned_cases_image_cache/86e2ab66abd4cd77783b8bbea794ab33235bc31b.jpg"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsVjvLwBa3F5XlGIRVOkNCnInFQPrT845QKMeFDEd4IHLArDJfAAC4EQ/640?wx_fmt=png",
+            "near_text": "From the patient's pulmonary function test, it can be seen",
+            "local_src": "cleaned_cases_image_cache/2245e65fd0198ecc63165587e099e0808ef41acc.png"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vs4PBtmibOibCUwMuqoOwBsfp6nauribXuARlMX0ozTTnmVmZ6GRFwZpn6g/640?wx_fmt=png",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/9d6a604d8543d7f9e798b6d4d588eefde4211692.png"
+          },
+          {
+            "image_id": "fig13",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsnCQBSHJXSicrRHR2U7ribXPZATHCpE5ZdFVTErwz6Z7ygQJPK7K2ibhTw/640?wx_fmt=png",
+            "near_text": "Chest CT showed diffuse tracheal stenosis throughout the entire length of the trachea.",
+            "local_src": "cleaned_cases_image_cache/a280bda2e5f789c4be099b9100ac6cd45b871790.png"
+          },
+          {
+            "image_id": "fig14",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vszXXEuwicW4vkBOvWX4rvYOODyYWIIeIG5LUMZe3e8ZQYYDBm9o1F4Zw/640?wx_fmt=png",
+            "near_text": "Mivacurium challenge test scan suggests",
+            "local_src": "cleaned_cases_image_cache/65833a8b132b75a228c208ca22bf8ab8d1a5b5d5.png"
+          },
+          {
+            "image_id": "fig15",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsuvqED5UCTZOmibl4QMxhFZjNTSsAdAzyE5WjGB73ib5WS2zTatZicmFHA/640?wx_fmt=png",
+            "near_text": "Bronchoscopy was performed first",
+            "local_src": "cleaned_cases_image_cache/48268df61fc48dbb7cf74071456d89d8b6874d70.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsIhunerjRcngtibAGS7Hia3g3B56PofyRcokcILib6OaoQJAaiazSfwMtlQ/640?wx_fmt=png",
+            "near_text": "Facial photograph of the patient",
+            "local_src": "cleaned_cases_image_cache/37c800f3d3a7a814df57e561d0f0d49d68362f69.png"
+          },
+          {
+            "image_id": "fig16",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsQp0SaPQrgv4a6bcotBhWK4T1ZdXDlxlFlsANdua26uBxWlaKKDCDYQ/640?wx_fmt=png",
+            "near_text": "Visible on nasal endoscopy",
+            "local_src": "cleaned_cases_image_cache/865c5ef7ad994dad33609c6a4e9aac2c3a4342f4.png"
+          },
+          {
+            "image_id": "fig17",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsd96AKLAQcACXicJoF4HPia0ibblKkqHBHb1hSwdua5HRrM4HIA4mV4dEA/640?wx_fmt=png",
+            "near_text": "Laryngoscopic examination findings",
+            "local_src": "cleaned_cases_image_cache/fcbdefc2de286b5793b46c397fbc8a8cce76a4fa.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Relapsing polychondritis",
+            "evidence": [
+              "The patient has cough, hoarseness, dyspnea, and wheezing, with a history of rheumatoid arthritis."
+            ],
+            "exclusion_reasons": [
+              "No pathology test results available to support this"
+            ]
+          },
+          {
+            "name": "Tracheobronchial amyloidosis",
+            "evidence": [
+              "Chest CT showed diffuse narrowing of the main bronchi"
+            ],
+            "exclusion_reasons": [
+              "The diagnosis of this disease depends on Congo red-positive staining on tissue biopsy; there are currently no pathology biopsy results supporting it."
+            ]
+          },
+          {
+            "name": "Tracheobronchomalacia",
+            "evidence": [
+              "Shortness of breath, cough, imaging suggests airway stenosis"
+            ],
+            "exclusion_reasons": [
+              "No bronchoscopy results or pathology results"
+            ]
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [
+              "CT showed stenosis of the trachea and the left and right main bronchi, with surrounding ring-shaped soft tissue density."
+            ],
+            "exclusion_reasons": [
+              "No pathological findings support the diagnosis of malignant tumor or metastatic tumor"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Relapsing polychondritis",
+        "evidence": [
+          "The patient has cough, hoarseness, dyspnea, and wheezing, with a history of rheumatoid arthritis."
+        ],
+        "exclusion_reasons": [
+          "No pathology test results available to support this"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tracheobronchial amyloidosis",
+        "evidence": [
+          "Chest CT showed diffuse narrowing of the main bronchi"
+        ],
+        "exclusion_reasons": [
+          "The diagnosis of this disease depends on Congo red-positive staining on tissue biopsy; there are currently no pathology biopsy results supporting it."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tracheobronchomalacia",
+        "evidence": [
+          "Shortness of breath, cough, imaging suggests airway stenosis"
+        ],
+        "exclusion_reasons": [
+          "No bronchoscopy results or pathology results"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "CT showed stenosis of the trachea and the left and right main bronchi, with surrounding ring-shaped soft tissue density."
+        ],
+        "exclusion_reasons": [
+          "No pathological findings support the diagnosis of malignant tumor or metastatic tumor"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT + 3D tracheal reconstruction",
+          "basis_in_stage3_input": "Chest CT + 3D tracheal reconstruction showed narrowing throughout the trachea and the left and right main bronchi, progressively worsening",
+          "why_order_this_exam": "The patient presented with hoarseness and shortness of breath, with continuous progression over 7 months and marked worsening over the past half month. At the time of admission, tachypnea was already present, SpO2 was only 93% on oxygen, there was mild cyanosis of the lips, and there were fixed inspiratory rhonchi and expiratory wheezing, suggesting severe organic disease of the central airway. Chest CT combined with three-dimensional tracheal reconstruction can directly demonstrate the extent of involvement of the trachea and the left and right main bronchi, the narrowest site, the length of stenosis, and whether there is progressive worsening, and can be dynamically compared with prior CT to resolve whether the patient has focal or diffuse large airway disease. This examination is of important value in distinguishing diffuse airway involvement caused by relapsing polychondritis, neoplastic stenosis, amyloidosis, and other structural lesions, and also provides an imaging basis for subsequent decisions regarding whether bronchoscopic intervention, airway support, and assessment of immunotherapy intensity are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "basis_in_stage3_input": "PFT suggests very severe obstructive ventilatory dysfunction, with severe large airway obstruction",
+          "why_order_this_exam": "The patient has recurrent hoarseness and progressive dyspnea. Physical examination reveals fixed inspiratory rhonchi and expiratory wheezing, suggesting that large airway obstruction has already caused a significant physiologic impact on ventilation. PFT can quantitatively assess the severity of ventilatory impairment, especially to determine whether there are flow-volume loop changes predominantly due to large airway obstruction, thereby explaining the patient's severe symptoms, decreased exercise tolerance, and mild carbon dioxide retention. This test is intended to determine the extent of the impact of structural stenosis on pulmonary ventilatory function, and whether there is concomitant small airway involvement and diffusion impairment. The results help determine the severity and criticality of the condition, assess the risks of examination and treatment, corroborate imaging and endoscopic findings, and provide a baseline for subsequent immunotherapy, oxygen therapy/respiratory support, and follow-up efficacy evaluation.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Miller view radiograph",
+          "basis_in_stage3_input": "Miller position plain radiograph suggests tracheal diameter <8 mm, with a tracheal diameter difference <3 mm",
+          "why_order_this_exam": "On the basis that the patient already had chest CT showing diffuse tracheal stenosis throughout its course and bronchoscopy showing airway collapse, M\"uller/Valsalva maneuver examination can further measure the tracheal diameter and respiratory phase-related changes, helping determine whether the stenosis is predominantly fixed or has significant dynamic change. In this patient, the narrowest luminal diameter was clearly less than 8 mm and the difference in diameter between the two phases was less than 3 mm; together with the prolonged course and progressively worsening symptoms, this suggests that it is not merely a simple physiologic change. This examination mainly addresses the quantification of central airway stenosis and assists in differentiating congenital or degenerative tracheobronchomalacia from lesions caused by inflammatory cartilaginous destruction. It is helpful for clarifying the nature of the lesion, assessing the airway safety margin, and determining whether further intervention is needed or whether a treatment plan centered on immunotherapy should be used.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy showed collapse of the trachea and the left and right main bronchi, with decreased anteroposterior diameter.",
+          "why_order_this_exam": "The patient's symptoms were mainly persistent hoarseness and shortness of breath, and imaging suggested diffuse narrowing of the main airway throughout its course; imaging alone was still insufficient to directly visualize the airway lumen morphology and mucosal findings. Bronchoscopy can directly assess whether the trachea and the right and left main bronchi are diffusely involved, whether collapse is present, whether the anteroposterior diameter is reduced, and whether there are mucosal neoplasms or focal space-occupying lesions, thereby determining whether the lesion has endoscopic features consistent with airway cartilage involvement caused by relapsing polychondritis. In this case, no neoplasm was seen on bronchoscopy, which was critical for excluding malignancy and supporting a non-neoplastic inflammatory airway disease; at the same time, additional sampling could be obtained as needed to exclude diseases such as amyloidosis that require pathologic confirmation. Because the patient already had severe airway obstruction, the bronchoscopy findings were also relevant to risk assessment for subsequent examinations and treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Laryngoscopy",
+          "basis_in_stage3_input": "Laryngoscopy showed thickening of the vocal cords, poor abduction, and incomplete closure.",
+          "why_order_this_exam": "The patient’s initial presentation was hoarseness accompanied by shortness of breath, suggesting that, in addition to the intrathoracic central airway, the upper airway, especially the larynx, may also be involved. Laryngoscopy allows direct visualization of the arytenoid region, interarytenoid region, and the morphology and mobility of the vocal cords, to determine whether the hoarseness is caused by vocal cord thickening, restricted abduction, and poor closure, and to assess whether structural laryngeal lesions are present. This examination is intended to clarify the location and severity of laryngeal involvement within the overall airway disease and to help distinguish relapsing polychondritis-related laryngeal cartilage/glottic involvement from simple inflammation, edema, tumor, or other local lesions. It is of major importance for evaluating the site of airway obstruction, determining whether there is upper airway risk, and formulating coordinated otolaryngology management and subsequent immunotherapy plans.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Auricular cartilage biopsy",
+          "basis_in_stage3_input": "Auricular cartilage biopsy showed no specific pathologic changes",
+          "why_order_this_exam": "Physical examination indicated bilaterally small auricles and possible saddle nose. In conjunction with central airway and laryngeal involvement, there was high clinical suspicion for a systemic disease involving cartilage at multiple sites, especially relapsing polychondritis. Auricular cartilage is relatively easy to obtain and is a lower-risk cartilage tissue; the purpose of biopsy was to look for chondritis, cartilage destruction, or other specific pathological evidence, while excluding deposition disease, infectious granuloma, or neoplastic infiltration. Although the auricular cartilage biopsy in this case showed no specific pathological changes, this result itself is also clinically valuable: it indicates that relapsing polychondritis cannot be excluded solely on the basis of negative auricular pathology and requires comprehensive assessment in conjunction with airway and laryngeal involvement and treatment response, while also reducing the likelihood of some alternative diagnoses.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immune-related indicators",
+          "basis_in_stage3_input": "No significant abnormalities in immune-related indicators",
+          "why_order_this_exam": "During the course of the disease, the patient had non-pitting edema of both lower extremities, chest and back pain, and polyarticular pain, with a partial response to glucocorticoids and methotrexate, suggesting an underlying immune-inflammatory disease; however, the airway symptoms continued to progress, and systematic screening for immune-related diseases was still required. Testing for ANCA, rheumatoid factor, ANA panel, complement, immunoglobulins, etc. was mainly performed to determine whether granulomatosis with polyangiitis, systemic connective tissue disease, IgG4-related disease, or other immune abnormalities were present, thereby completing the differential diagnosis of central airway stenosis. Although the results in this case showed no obvious abnormalities, this helped narrow the diagnostic range, supported the clinical judgment that relapsing polychondritis was the primary consideration, and provided exclusionary evidence for the subsequent selection of immunotherapy such as glucocorticoids combined with cyclophosphamide, while also indicating that a diagnosis of chondritis should not be excluded solely on the basis of negative serology.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "History of diagnosis of rheumatoid arthritis; after treatment with glucocorticoids combined with immunosuppressants, joint symptoms improved, but airway symptoms did not improve; fixed inspiratory rhonchi and expiratory wheezing were heard in both lungs; chest CT + 3D tracheal reconstruction showed diffuse narrowing of the trachea and bilateral main bronchi, with progressive worsening; PFT indicated very severe obstructive ventilatory dysfunction with severe large airway obstruction; plain radiograph in Mewa's position showed tracheal diameter <8 mm and diameter difference <3 mm; bronchoscopy showed collapse of the trachea and bilateral main bronchi, with decreased anteroposterior diameter; laryngoscopy showed thickened vocal cords, poor abduction, and incomplete closure; auricular cartilage biopsy showed no specific pathologic changes, and immune-related markers showed no obvious abnormalities; tracheobronchial amyloidosis, malignant tumor, and congenital/degenerative tracheobronchomalacia were excluded",
+      "images": [
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsC5f0M3gTBMghTXt94tSECS33eSdts1QnsHyTLDEuINxpF3fqBNBVQw/640?wx_fmt=png",
+          "near_text": "Auricular biopsy pathology suggested",
+          "local_src": "cleaned_cases_image_cache/ec6a4c6d854ffbbea3139f57e14bda2a7080ba93.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIIneRlwvicCZQGkPyq3w2vsw5rcY1ib8yqqtwnAy8LzZQyBHssibJn0REag8lXRVrNgbUGg6iaXiaxrnA/640?wx_fmt=png",
+          "near_text": "First, consider whether this is relapsing polychondritis?",
+          "local_src": "cleaned_cases_image_cache/424bf06927605107b610bf07dfba241f93b29cfb.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Relapsing polychondritis; rheumatoid arthritis",
+      "diagnostic_basis": [
+        "Chronic course. Young woman. Diagnosed with rheumatoid arthritis 6 months ago. After treatment with glucocorticoids combined with disease-modifying antirheumatic drugs, her polyarthralgia symptoms improved. During follow-up, chest CT showed mild stenosis of the trachea and main bronchi, but she continued to have hoarseness and shortness of breath. She sought medical care at multiple hospitals on multiple occasions, with no improvement in symptoms.",
+        "Bronchoscopy showed collapse of the trachea and the left and right main bronchi, with decreased anteroposterior diameter",
+        "Laryngoscopy indicated vocal cord involvement",
+        "PFT indicates severe large airway airflow obstruction, severe small airway airflow obstruction, very severe obstructive ventilatory dysfunction, and moderately reduced diffusing capacity"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 80 mg IV q1-5d, 60 mg PO qd",
+        "Cyclophosphamide 0.6 g IV q2w",
+        "Salmeterol/fluticasone propionate inhalation powder 50ug/500ug",
+        "Trimethoprim-sulfamethoxazole 0.8 g po bid",
+        "Calcium carbonate with vitamin D3 tablets 600 mg po qd",
+        "Calcitriol 0.25ug po qd",
+        "Omeprazole 40 mg po qd"
+      ],
+      "treatment_response": [
+        "After treatment with glucocorticoids combined with immunosuppressants, the patient's dyspnea and hoarseness improved compared with before.",
+        "Airway obstruction symptoms are controlled, and high-flow oxygen therapy can be discontinued",
+        "Bilateral inspiratory crackles and expiratory wheezes were significantly reduced.",
+        "Discharged after the condition stabilized, with regular outpatient follow-up to adjust the immunosuppressive treatment regimen"
+      ]
+    }
+  }
+}

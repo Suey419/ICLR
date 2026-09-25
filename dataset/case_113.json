@@ -1,0 +1,416 @@
+{
+  "status": "success",
+  "case_id": "case_113",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: A 62-year-old male patient, a retired worker, was admitted to the Department of Pulmonary and Critical Care Medicine, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, on Day 0, with the chief complaint of \"cough and sputum production for 2 weeks, fever for 6 days.\" Two weeks before admission, the patient developed paroxysmal cough with sputum production without an obvious precipitating cause, with no significant diurnal variation. The sputum was white and mucoid, and expectoration was smooth. Six days earlier, the patient developed fever without an obvious precipitating cause; the temperature was not measured at that time. He self-medicated with cold medicine, details unknown, without improvement. During the course of illness, the patient had no dizziness or headache, no nausea or vomiting, no chest tightness or shortness of breath, no chest pain or hemoptysis, no abdominal pain or diarrhea, no urinary frequency, urgency, or dysuria, no joint swelling or pain, no rash, and no dry mouth or dry eyes. He then presented to a local hospital, where routine blood test showed: white blood cell count 10.91*10^9/L, hemoglobin 123g/L, platelet count 471*10^9/L, high-sensitivity C-reactive protein 110.4mg/L. Chest CT suggested: multiple infectious lesions in both lungs, with follow-up recommended after treatment; small bilateral pleural effusions; multiple enlarged mediastinal lymph nodes. The local hospital treated him with Sulperazon (dose unknown) combined with levofloxacin 0.5g intravenous infusion qd, as well as antitussive and expectorant therapy. After 3 days of treatment, his temperature improved somewhat, but he still had cough and sputum production, so he came to our hospital for further diagnosis and treatment and was admitted with the provisional diagnosis of \"pulmonary shadow.\" The patient had a history of COPD and was receiving Symbicort 320 plus Spiriva combination therapy, with acceptable disease control. In approximately 31 months before Day 0, he had previously been hospitalized at a local hospital for \"pulmonary infection.\" Anti-infective treatment was ineffective, and the local diagnosis was \"organizing pneumonia?\" After oral prednisone treatment, follow-up chest CT improved, and the total steroid course was nearly 1 year. The patient had also presented on Day -516, for \"low back pain for more than 10 days.\" An outside-hospital ultrasound initially favored a pancreatic tumor, and he subsequently visited the surgery department of our hospital. Contrast-enhanced pancreatic MRI was performed, and the result on Day -507, showed: a mass in the body and tail of the pancreas, with slightly decreased signal on T1W1, and capsule-like exudative shadowing around it. On contrast-enhanced scan, patchy hypoenhancing lesions were seen in the renal cortical regions during the arterial phase, which were less clearly shown in the venous phase. Serum IgG4: 21.5g/L (0.03-2.01). Considered diagnosis: IgG4-related autoimmune disease involving the pancreas and both kidneys. Starting on Day -504, prednisone 40mg was given orally once daily, then gradually tapered. Repeat contrast-enhanced pancreatic MRI on Day -356, showed marked improvement of the space-occupying lesion. Steroids were discontinued starting on Day -97, with a total treatment course of 14 months. The patient had no history of smoking or alcohol use, and his parents and siblings had no similar medical history. Physical examination: respiratory rate 20/min, temperature (oral) 36.0℃, pulse 97/min, blood pressure 142/79mmHg. The patient appeared acutely ill, was conscious, and in fair spirits; no superficial lymphadenopathy was palpable, and there was no jugular venous distention; breath sounds were coarse bilaterally, with no dry or moist rales heard; cardiac auscultation showed regular rhythm, with no murmur heard in the precordial area; the abdomen was soft, with no tenderness or rebound tenderness, and there was no edema in either lower extremity; bilateral pathologic signs were negative. Chest CT imaging suggested multiple inflammatory lesions in both lungs and mediastinal lymphadenopathy.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia (bacterial pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: cough and sputum production for 2 weeks, fever for 6 days",
+            "The sputum is white, sticky sputum, suggesting the presence of inflammatory secretions in the airways/lungs.",
+            "At the local hospital, the complete blood count showed a white blood cell count of 10.91*10^9/L, and high-sensitivity C-reactive protein was 110.4 mg/L, supporting acute infection/inflammation.",
+            "Chest CT showed: 'multiple infections in both lungs; follow-up examination recommended after treatment; small bilateral pleural effusions; multiple enlarged mediastinal lymph nodes'",
+            "After 3 days of intravenous therapy with Sulperazone combined with levofloxacin, the body temperature improved somewhat, suggesting a certain response to anti-infective treatment.",
+            "History of COPD, a predisposing factor for lower respiratory tract infection"
+          ],
+          "opposing_evidence": [
+            "After 3 days of anti-infective treatment, cough and sputum production were still present, suggesting that the lesion may not be a simple common bacterial infection or that other etiologies may be present.",
+            "On physical examination, no dry or wet rales were heard in either lung; pulmonary physical signs were relatively atypical.",
+            "Chest CT also showed multiple enlarged mediastinal lymph nodes; in addition to infection, other inflammatory or neoplastic diseases should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Organizing pneumonia (recurrent organizing pneumonia or post-infectious organization)",
+          "supporting_evidence": [
+            "In 2017, the patient was hospitalized for “pulmonary infection”; anti-infective treatment was ineffective. A local diagnosis of “organizing pneumonia?” was made, and follow-up chest CT showed improvement after oral prednisone treatment.",
+            "This chest CT showed \"multiple inflammatory lesions in both lungs,\" which can be seen within the imaging spectrum of organizing pneumonia.",
+            "After this course of antimicrobial therapy, only the body temperature improved, but cough and sputum production persisted, suggesting the possible presence of inflammatory changes not solely attributable to infection.",
+            "Recently, glucocorticoids were discontinued starting on Day -97; given that glucocorticoid therapy had previously been effective, there is a possibility of relapse of inflammatory lung disease."
+          ],
+          "opposing_evidence": [
+            "At this onset, fever for 6 days, elevated white blood cell count, and markedly elevated high-sensitivity CRP more strongly support a concurrent infectious etiology or that an infectious etiology should be considered first.",
+            "In the first stage, no clues more supportive of organizing pneumonia were provided, such as typical migratory pulmonary infiltrates and progressive dyspnea."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "IgG4-related lung disease (pulmonary involvement of IgG4-RD)",
+          "supporting_evidence": [
+            "Previously clearly indicated: \"Serum IgG4: 21.5 g/L (0.03-2.01), consider: IgG4-related autoimmune disease involving the pancreas and both kidneys\"",
+            "Previously received long-term prednisone therapy; glucocorticoids were discontinued starting on Day -97, with a total treatment course of 14 months. After discontinuation, new pulmonary imaging abnormalities appeared, and involvement of other organs by IgG4-RD or relapse should be considered.",
+            "Chest CT showed “multiple inflammatory lesions in both lungs, mediastinal lymphadenopathy, and small bilateral pleural effusions,” which may be seen in pulmonary involvement of systemic inflammatory/immune-mediated disease."
+          ],
+          "opposing_evidence": [
+            "The current clinical presentation is characterized mainly by acute fever, cough, and sputum production; inflammatory markers are elevated, and the temperature improved somewhat after antibacterial treatment, favoring an infectious process.",
+            "No repeat serum IgG4 result was provided for this phase, and no pathologic or specific imaging evidence directly relating the pulmonary lesions to prior IgG4-RD was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary TB (including possible miliary/bronchogenic dissemination or tuberculous pleural involvement)",
+          "supporting_evidence": [
+            "There are manifestations of cough, sputum production, and fever; pulmonary TB may have a similar subacute onset.",
+            "Chest CT showed “multiple inflammatory lesions in both lungs,” multiple enlarged mediastinal lymph nodes, and small bilateral pleural effusions; TB can present with the above combination of findings.",
+            "Recently discontinued long-term corticosteroid therapy; history of prolonged glucocorticoid exposure, increasing the risk of infections such as TB"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not mention relatively typical accompanying manifestations of TB such as night sweats, weight loss, fatigue, low-grade afternoon fever, and hemoptysis.",
+            "After routine antibacterial therapy at the local hospital, body temperature improved somewhat, which is not fully consistent with the typical course of active TB without specific treatment.",
+            "Stage 1 information did not provide a history of TB exposure, prior TB, or imaging descriptions such as typical upper lobe involvement/cavitation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary malignant tumor-related lesions (primary lung cancer with post-obstructive infection or intrapulmonary spread)",
+          "supporting_evidence": [
+            "Age 62 years, in a high-risk population for pulmonary malignancy",
+            "Chest CT showed \"multiple inflammatory lesions in both lungs\" accompanied by \"multiple enlarged mediastinal lymph nodes\"; neoplastic lesions or tumor with superimposed infection should be considered.",
+            "Symptoms did not completely resolve after anti-infective treatment, suggesting that not all manifestations can be explained solely by a common infection"
+          ],
+          "opposing_evidence": [
+            "This episode began with acute cough, sputum production, and fever, and the inflammatory markers were markedly elevated, which is more consistent with an infectious disease presentation.",
+            "The patient has no history of smoking.",
+            "The first-stage information did not describe clear findings more suggestive of lung cancer, such as a pulmonary space-occupying lesion, hilar mass, obstructive atelectasis, hemoptysis, or weight loss."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Fungal pneumonia or other opportunistic infections",
+          "supporting_evidence": [
+            "Previously had long-term glucocorticoid use, with a total treatment duration of 14 months, which is one of the risk factors for opportunistic infection.",
+            "Chest CT showed multiple lesions in both lungs accompanied by mediastinal lymphadenopathy and a small pleural effusion; extensive pulmonary lesions need to be differentiated from infection with atypical pathogens such as fungi.",
+            "After routine antibacterial treatment, only the body temperature improved somewhat, while cough and sputum production persisted, suggesting that the pathogen may not be a common bacterium."
+          ],
+          "opposing_evidence": [
+            "Glucocorticoids had been discontinued since Day -97; the phase 1 information did not indicate that a significant immunosuppressed state was still present at that time.",
+            "Phase 1 information did not provide evidence more supportive of opportunistic infection, such as oral candidiasis, recurrent opportunistic infections, severe dyspnea, or hypoxemia.",
+            "White mucoid sputum, a disease course of 2 weeks, and partial response to antibiotic therapy are not specific"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic lavage fluid pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoalveolar lavage",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Testing of serum antinuclear antibody panel and complement levels",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum ANCA test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum tumor marker levels",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Routine laboratory tests: Complete blood count (Day +1): white blood cell count 8.96x10^9/L, red blood cell count 3.96x10^12/L, hemoglobin 125g/L, platelet count 442x10^9/L, CRP 78mg/L. ESR (Day +1): 44mm/hr. Procalcitonin (Day +1): 0.38μg/L. Blood chemistry (Day +1): albumin 33.7g/L, globulin 39.9g/L, albumin/globulin ratio 0.84. Coagulation analysis (Day +1): activated partial thromboplastin time 44.2s, D-dimer 530ug/L. Thyroid function, urinalysis, and stool routine showed no abnormalities. Pathogen-related and tumor-related markers: Tumor markers (Day +1): carbohydrate antigen CA-125 90.30U/mL, others normal. T-spot negative. Immune-related markers: immunoglobulin E (Day +1): 246.00IU/mL. No significant abnormalities were found in rheumatoid factor, anti-CCP antibody, anticardiolipin antibody, antinuclear antibody, antineutrophil cytoplasmic antibody, etc. Ultrasound: Vascular ultrasound (Day +4): 1. Patent blood flow in the deep veins of the left lower extremity 2. Rough intima of the right lower extremity arteries with multiple small plaques in the femoral artery. Echocardiography (Day +4): LVIDd: 66.8mm (male <55mm). EF: (biplane method): 31.9%, (Teich method): 34%. 1. Incoordinate left ventricular wall motion, consistent with a CLBBB motion pattern, left ventricular enlargement, and reduced left ventricular systolic function 2. Mild to moderate mitral regurgitation (consider functional regurgitation). Abdominal ultrasound (Day +4): multiple hepatic cysts, intrahepatic calcified focus. Pulmonary function test (Day +4): mild mixed ventilatory dysfunction, bronchodilator test negative, moderate diffusion impairment, decreased total lung capacity, residual volume and functional residual capacity both within the normal range, increased RV/TLC ratio. Bronchoscopy (Day +4): no endobronchial neoplasm was seen in either bronchus. No tumor cells were seen on brushings, and no suspicious pathogen was identified by NGS of lavage fluid. Initial empiric treatment was given: piperacillin-tazobactam 4.5 ivgtt q8h for anti-infective therapy (Day 0 to Day +12), along with symptomatic and supportive treatment including cough relief, expectoration, and fluid supplementation. After treatment, the patient's temperature quickly returned to normal, and cough and sputum symptoms improved. However, on the 4th day after discontinuation of antibiotics, the patient developed fever again, with marked worsening of cough and mild chest tightness. Repeat complete blood count on Day +17 showed: white blood cells 4.7*10^9/L, high-sensitivity C-reactive protein 7.7mg/L. ESR 46mm/hr. Contrast-enhanced chest CT performed at our hospital on Day +12 showed: 1. Multiple patchy opacities in both lungs, inflammation considered, with mediastinal lymphadenopathy; 2. Scattered small nodules in both lungs.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYqSo83KMNo8xffrEWbj0zBVGX6sOfzCNibF1GYTAdRHZNDgVys7IzF4QQ/640?wx_fmt=png",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/d1674a2d3ea6f3194469d79409cc6ecc01d41624.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYqAw9JG7XuOXyYKXEvJOqKswVxEkem2IPm1oLWibAic4hXLaxdYbm8xEuA/640?wx_fmt=png",
+            "near_text": "We summarize the patient's medical history.",
+            "local_src": "cleaned_cases_image_cache/667a596f1e44ce316336802cc5d08bb4ab670a54.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [
+              "Recently had cough, sputum production, and fever; chest CT showed multiple patchy high-density opacities in both lungs; blood tests at an outside hospital showed markedly elevated white blood cell count and C-reactive protein"
+            ],
+            "exclusion_reasons": [
+              "Temperature returned to normal after antibiotic treatment at an outside hospital"
+            ]
+          },
+          {
+            "name": "Mycoplasma pneumonia or Chlamydia pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The clinical manifestations and laboratory indicators do not support it; it is not being considered at present."
+            ]
+          },
+          {
+            "name": "Viral pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Clinically, there is insufficient evidence to support a diagnosis of viral infection"
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Laboratory and imaging examinations showed no typical manifestations of pulmonary TB"
+            ]
+          },
+          {
+            "name": "Other special infections (fungi, Nocardia, etc.)",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "interstitial pneumonia",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary vasculitis",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "Previously diagnosed once with organizing pneumonia"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Antibiotics did not cover the pathogen, or the treatment course was insufficient.",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Relevant etiologic pathogen testing had already been completed earlier, with no evidence of TB, fungi, Mycoplasma, Chlamydia, or other atypical pathogens. After recurrent fever, inflammatory markers did not increase. In addition, antibiotics had already been administered for an adequate 12-day course."
+            ]
+          },
+          {
+            "name": "Developed complications of pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Currently, there is no relevant evidence."
+            ]
+          },
+          {
+            "name": "drug fever",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On the 4th day after discontinuation of antibiotics, the patient developed fever again; there is insufficient evidence to support drug fever."
+            ]
+          },
+          {
+            "name": "Noninfectious diseases",
+            "evidence": [
+              "The imaging is not typical of CAP. The patient has no prior underlying heart disease, but echocardiography showed a marked decrease in left ventricular ejection fraction. IgE and globulin were elevated. The patient was previously considered to have organizing pneumonia and IgG4-related pancreatic and renal disease."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Bacterial pneumonia",
+        "evidence": [
+          "Recently had cough, sputum production, and fever; chest CT showed multiple patchy high-density opacities in both lungs; blood tests at an outside hospital showed markedly elevated white blood cell count and C-reactive protein"
+        ],
+        "exclusion_reasons": [
+          "Temperature returned to normal after antibiotic treatment at an outside hospital"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Laboratory and imaging examinations showed no typical manifestations of pulmonary TB"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Other special infections (fungi, Nocardia, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary vasculitis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [
+          "Previously diagnosed once with organizing pneumonia"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Antibiotics did not cover the pathogen, or the treatment course was insufficient.",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Relevant etiologic pathogen testing had already been completed earlier, with no evidence of TB, fungi, Mycoplasma, Chlamydia, or other atypical pathogens. After recurrent fever, inflammatory markers did not increase. In addition, antibiotics had already been administered for an adequate 12-day course."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Noninfectious diseases",
+        "evidence": [
+          "The imaging is not typical of CAP. The patient has no prior underlying heart disease, but echocardiography showed a marked decrease in left ventricular ejection fraction. IgE and globulin were elevated. The patient was previously considered to have organizing pneumonia and IgG4-related pancreatic and renal disease."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Serum IgG4",
+          "basis_in_stage3_input": "Day +4 Serum IgG4: 18.80 g/L (0.03-2.01).",
+          "why_order_this_exam": "The patient had previously been clearly considered to have IgG4-related autoimmune disease, with prior involvement of the pancreas and both kidneys, and had responded well to glucocorticoid therapy; this time, after discontinuation of glucocorticoids for approximately 3 months, new multiple pulmonary lesions and mediastinal lymphadenopathy appeared, and fever recurred after completion and discontinuation of a full course of anti-infective therapy. Microbiologic testing and bronchoscopy did not support a definite infection or tumor, suggesting that evaluation should focus on relapse of IgG4-RD or new organ involvement. Repeat serum IgG4 measurement can assess disease activity, serve as important systemic evidence supporting IgG4-related lung disease, and corroborate the pulmonary pathology, immunohistochemistry, and prior pancreatic disease history, helping to distinguish simple infection, recurrent organizing pneumonia, and other immune-mediated lung diseases, while also providing a basis for whether to initiate and maintain subsequent glucocorticoid/immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Functional examination of the bilateral parotid glands and bilateral submandibular glands",
+          "basis_in_stage3_input": "Day +15 No obvious abnormality in the function of the bilateral parotid glands and bilateral submandibular glands.",
+          "why_order_this_exam": "IgG4-related disease often involves multiple organs, and the salivary glands are one of the common sites of involvement. Although the patient had no obvious symptoms such as dry mouth or dry eyes during the course of the disease, there was already previous evidence of pancreatic and bilateral renal involvement, and this time pulmonary lesions and mediastinal lymphadenopathy also appeared; therefore, multisystem screening is needed to determine whether there is occult glandular involvement in the head and neck. The significance of this examination lies in assessing the extent of systemic involvement and strengthening the completeness of the diagnosis of systemic IgG4-RD; even if the result is normal, it also helps indicate that not all typical organs are currently involved, thereby refining disease classification, baseline assessment, and subsequent follow-up.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced pancreatic MRI",
+          "basis_in_stage3_input": "Day +16 Contrast-enhanced pancreatic MRI: 1. No space-occupying lesion in the pancreas 2. Hepatic and renal cysts.",
+          "why_order_this_exam": "In 2018, the patient was considered to have IgG4-related autoimmune disease because of a mass-like lesion in the body and tail of the pancreas and markedly elevated serum IgG4. Imaging improved significantly after glucocorticoid therapy. Now that pulmonary abnormalities have recurred, the pancreas needs to be re-evaluated to determine whether the previously involved organ has relapsed, remains active, or is active in parallel with the current pulmonary lesions. Contrast-enhanced pancreatic MRI can help confirm whether the prior pancreatic lesion has resolved and exclude a new pancreatic mass, thereby providing or reducing supporting evidence for \"reactivation of systemic IgG4-RD\"; at the same time, it can also avoid misinterpreting the prior pancreatic lesion as a tumor, which would affect the overall diagnostic direction and subsequent immunotherapy decision-making.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Percutaneous lung biopsy",
+          "basis_in_stage3_input": "Percutaneous lung biopsy pathology result: Pathologic diagnosis (Day +25): (left lung biopsy) Two core biopsy tissue fragments, the longer measuring 0.8 cm and the shorter 0.4 cm, with a diameter of 0.1 cm; microscopy shows destruction of the normal architecture of the lung tissue, widening of the alveolar septa, fibrous tissue proliferation with chronic inflammatory cell infiltration, and aggregates of foamy cells in the residual alveolar spaces, considered to be an inflammatory lesion.",
+          "why_order_this_exam": "This chest CT showed multiple patchy opacities/multiple inflammatory lesions in both lungs accompanied by mediastinal lymphadenopathy. Clinically, the patient initially had fever, cough, and sputum production. Although there was temporary improvement after anti-infective treatment, fever recurred after discontinuation of medication, and inflammatory markers were not significantly elevated at the time of recurrence; meanwhile, bronchoscopy showed no endobronchial mass, brushings showed no tumor cells, and NGS of lavage fluid detected no suspicious pathogen, suggesting that infection alone is difficult to explain all of the findings. Percutaneous lung biopsy is the key examination for clarifying the nature of the intrapulmonary parenchymal lesion, with the purpose of directly obtaining lesion tissue to distinguish IgG4-related lung disease, organizing pneumonia, other interstitial inflammatory conditions, specific infections, and malignant tumors. This examination can provide specimens required for subsequent routine pathology and immunohistochemistry, and is the core step for confirming noninfectious inflammatory lung disease and determining whether glucocorticoid/immunosuppressive therapy should be given; at the same time, in the context of concomitant cardiac insufficiency, clarification of the pathology also helps avoid unnecessary prolonged anti-infective or other high-risk treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic diagnosis",
+          "basis_in_stage3_input": "Pathologic diagnosis (Day +25): (left lung needle biopsy) Two cores of biopsy tissue were obtained, the longer measuring 0.8 cm and the shorter 0.4 cm, with a diameter of 0.1 cm; microscopy showed destruction of the normal lung architecture, widening of the alveolar septa, fibrous tissue proliferation with chronic inflammatory cell infiltration, and aggregates of foamy cells in the residual alveolar spaces, considered to represent an inflammatory lesion.",
+          "why_order_this_exam": "After obtaining lung tissue, routine histopathologic diagnosis is the basis for determining the nature of the lesion. In this patient, imaging showed multiple lesions in both lungs, and clinically there were both infection-like manifestations and clear noninfectious clues: previous organizing pneumonia responsive to glucocorticoids, prior IgG4-related pancreatic and renal disease, recurrence after discontinuation of antibiotics during this episode, negative microbiologic studies, and atypical imaging findings. The clinical question for pathologic diagnosis is to determine whether this is an inflammatory lesion and whether organizing change, fibrosis, granulomas, necrosis, tumor cells, or other features are present, thereby enabling substantive differentiation among infection, TB, malignancy, and immune-related lung disease. Pathology suggesting chronic inflammatory cell infiltration and fibrous tissue proliferation helps shift the diagnostic direction from simple bacterial infection toward an immune-inflammatory disease and provides a basis for additional IgG4-related immunohistochemistry.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry (Day +29): IgG (+): 76/HPF, IgG4 (+): 69/HPF.",
+          "why_order_this_exam": "Although lung biopsy pathology indicated only inflammatory lesions, it is still necessary to further address the key question of whether this inflammation represents IgG4-related lung disease. The patient has a definite prior history of IgG4-RD, and serum IgG4 is again markedly elevated during this episode. The pulmonary lesions are not adequately explained by routine anti-infective treatment; therefore, IgG and IgG4 immunohistochemistry of the lung tissue is necessary. This test can demonstrate the degree of IgG4-positive plasma cell infiltration and, when integrated with serology, prior pancreatic disease history, and inflammatory changes in the lung tissue, can significantly improve the specificity of the diagnosis of IgG4-related lung disease, helping to exclude nonspecific chronic inflammation, organizing pneumonia, or inflammatory cell infiltration caused by other etiologies. At the same time, only after confirming IgG4-related disease can glucocorticoid therapy and subsequent immunosuppressive treatment be initiated with greater confidence, and it can also be used to assess recurrence risk and for treatment follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac MRI",
+          "basis_in_stage3_input": "Cardiac MRI diagnosis: left ventricular enlargement, reduced systolic function, dyssynchronous left ventricular wall motion, small foci of subepicardial delayed enhancement in the inferolateral left ventricular wall; after excluding secondary causes, dilated cardiomyopathy is considered; please correlate clinically. Mitral regurgitation.",
+          "why_order_this_exam": "The patient had no previously known underlying heart disease, but echocardiography during the hospitalization evaluation had already shown marked left ventricular enlargement, EF approximately 32%–34%, dyssynchronous left ventricular wall motion, and mild to moderate mitral regurgitation, suggesting newly developed severe systolic heart failure. In the context of his known IgG4-related systemic disease, it is necessary to further clarify the nature of the myocardial involvement: whether it is simple dilated cardiomyopathy, inflammatory/infiltrative myocardial disease, or cardiac involvement related to IgG4-RD. Cardiac MRI can more accurately evaluate ventricular structure, function, and the pattern of delayed enhancement, identify myocardial fibrosis or inflammatory injury, and plays a key role in differentiating the etiology, determining severity, assessing prognosis, and formulating a treatment plan; at the same time, before planned glucocorticoid and immunosuppressive therapy, clarifying the status of myocardial involvement is also helpful for comprehensive risk assessment and for guiding heart failure treatment and follow-up.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Multisystem evaluation and lung needle biopsy: Day +4 Serum IgG4: 18.80 g/L (0.03-2.01). Day +15 No obvious functional abnormality of the bilateral parotid glands or bilateral submandibular glands. Day +16 Contrast-enhanced pancreatic MRI: 1. No space-occupying lesion in the pancreas 2. Hepatic and renal cysts. Percutaneous lung biopsy pathology result: Pathologic diagnosis (Day +25): (left lung biopsy) Two core biopsy tissue samples, the longer measuring 0.8 cm, the shorter 0.4 cm, diameter 0.1 cm; microscopy showed destruction of the normal architecture of the lung tissue, widened alveolar septa, fibrous tissue proliferation with chronic inflammatory cell infiltration, and aggregates of foamy cells in the remaining alveolar spaces, considered an inflammatory lesion. Immunohistochemistry (Day +29): IgG (+): 76/HPF, IgG4 (+): 69/HPF. In conjunction with the immunohistochemistry results, IgG4-related pneumonia is favored. Cardiac MRI impression: Left ventricular enlargement, reduced systolic function, dyssynchronous left ventricular wall motion, small foci of subepicardial delayed enhancement in the inferolateral wall of the left ventricle; after exclusion of secondary causes, dilated cardiomyopathy is considered; please correlate clinically. Mitral regurgitation. Delayed enhancement on cardiac MRI indicates that the affected myocardium cannot clear the intravenously administered contrast agent normally as normal myocardium does.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYqlNZN4xa0HvKsj21c9iaFgsQWyoayfZicgY1eRNpNpOBp50gFwQJJic3lQ/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/c473a8ce8b9e65860b8bb09ed0ae8a6cb402bb34.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYqcrRoianMNibnugZh6YZ3BQqic6tyeewydghwVjAhW27RxLMgbIqAiaicfuQ/640?wx_fmt=png",
+          "near_text": "H&E staining and immunohistochemistry",
+          "local_src": "cleaned_cases_image_cache/ef4df1b52bcfedc306b0a6828d449d6c2b0c410e.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYqYFBJYAT7IcnzdM7z56H9xHHYazAzYNIhtJCR1EUnyiamOl2O63bPQoQ/640?wx_fmt=png",
+          "near_text": "Echocardiographic parameter changes are as follows:",
+          "local_src": "cleaned_cases_image_cache/0cdaed9d82cbb85bf411400c46d645bcfbf3709d.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIJY8bplJ9Sjpm1uT9IibeYq5btaMa65mYdlyXYCY9MZO7QicInNUrKVjIpPjDk4nvrhbG20MPUFp5A/640?wx_fmt=png",
+          "near_text": "Myocardial involvement is rare in IgG4-related respiratory disease.",
+          "local_src": "cleaned_cases_image_cache/bae4a9dd8c372624b3c76bfeacd14d8cde8e7aef.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "① IgG4-related lung disease ② Dilated cardiomyopathy (consider IgG4-related myocardial involvement) ③ Cardiac insufficiency ④ Pulmonary infection",
+      "diagnostic_basis": [
+        "Acute onset of cough and sputum production for 2 weeks, fever for 6 days; after anti-infective treatment, symptoms improved, but worsened again after discontinuation of medication. History of organizing pneumonia and IgG4-related pancreatic and renal disease, improved after corticosteroid therapy.",
+        "Physical examination unremarkable",
+        "Pulmonary function test (Day +4): mild mixed ventilatory dysfunction; bronchodilator test negative; moderate diffusion impairment; decreased total lung capacity, with residual volume and functional residual capacity both within the normal range, and increased RV/TLC ratio",
+        "Contrast-enhanced chest CT on Day +12 showed: 1. Multiple patchy opacities in both lungs, consider inflammation; enlarged mediastinal lymph nodes",
+        "Markedly elevated serum IgG4 level",
+        "Percutaneous lung biopsy pathology result: Pathologic diagnosis (Day +25): (left lung biopsy) Normal architecture of the lung tissue is destroyed, with widened alveolar septa, fibrous tissue hyperplasia with chronic inflammatory cell infiltration, and aggregates of foamy cells visible in the residual alveolar spaces, considered to be an inflammatory lesion. Immunohistochemistry (Day +29): IgG (+): 76/HPF, IgG4 (+): 69/HPF. In conjunction with the immunohistochemistry results, IgG4-related pneumonia is favored.",
+        "Echocardiography (Day +4): LVIDd: 66.8 mm (male <55 mm). EF: (biplane method): 31.9%, (Teichholz method): 34%. 1. Left ventricular wall motion dyssynchrony, left ventricular enlargement, and reduced left ventricular systolic function; 2. Mild to moderate mitral regurgitation",
+        "Cardiac MRI diagnosis: enlarged left ventricle, reduced systolic function, dyssynchronous left ventricular wall motion, a small focus of subepicardial delayed enhancement in the inferolateral left ventricular wall; after excluding secondary causes, dilated cardiomyopathy is considered"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Starting on Day +18, initial-dose methylprednisolone injection 40 mg was administered by intravenous infusion once daily.",
+        "On Day +28, changed to prednisone 35 mg orally once daily, with gradual slow tapering",
+        "Starting on Day +64, combined treatment with mycophenolate mofetil"
+      ],
+      "treatment_response": [
+        "Dilated cardiomyopathy with heart failure; cardiac function improved after steroid therapy",
+        "Pulmonary opacities have been absorbed with improvement, and cardiac function has improved."
+      ]
+    }
+  }
+}

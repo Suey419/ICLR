@@ -1,0 +1,504 @@
+{
+  "status": "success",
+  "case_id": "case_157",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 60 years old, supermarket cashier, admitted with the chief complaint of \"chest tightness and shortness of breath on exertion for 3 years.\" Three years ago, without an obvious precipitating cause, the patient developed mild chest tightness and shortness of breath after exertion, with occasional slight cough and sputum production, accompanied by a small amount of white sticky sputum, without fever, night sweats, hemoptysis, chest pain, or other discomfort. He was able to lie flat at night and did not pay much attention to it. Over the past 3 years, the chest tightness and shortness of breath on exertion gradually worsened progressively, to the point that shortness of breath occurred after walking 100 meters on level ground, and he sought care at an outside hospital half a year ago. On Day -174, chest CT at the outside hospital showed: suspicious mass-like opacity at the right hilum and multiple lesions in both lungs. Bulla in the left lower lobe. After anti-infective and anti-asthmatic treatment, his symptoms improved slightly and he was discharged (details unknown). Recently, the symptoms worsened again, and he presented to our outpatient clinic. PFT showed: extremely severe mixed ventilatory dysfunction (predominantly obstructive), bronchodilator test negative, FeNO: 31 ppb. Chest CT: multiple small nodules, inflammation, and interstitial changes in both lungs; consolidation and atelectasis of the right middle lobe; enlargement of both hilar and mediastinal lymph nodes; soft tissue opacity encasing the thoracic aorta. He was admitted for further diagnosis and treatment. Since onset, the patient's bowel movements and urination have been acceptable, appetite has been acceptable, and body weight decreased by 1 kg. Physical examination: T: 36.5℃ P: 70/min R: 18/min BP: 117/74 mmHg SpO2 96%. Conscious and clear-minded, general condition fair, breathing unlabored, nutrition moderate, facial expression natural, normal development, self-positioning, fluent responses, cooperative with examination. No jaundice of the skin, no palmar erythema, no spider angiomas. No enlargement of superficial lymph nodes throughout the body, no cranial deformity, no scleral icterus, no exophthalmos, pupils equal, round, and reactive to light, neck supple, trachea midline, thyroid not enlarged on palpation. No chest wall deformity; percussion showed dullness over the right lung; on auscultation, breath sounds were clear bilaterally, with a few fine moist rales heard in the right lung. No precordial bulge, cardiac borders not enlarged, heart rate 70/min, rhythm regular. Abdomen flat and soft, liver and spleen not palpable below the costal margin, no percussion tenderness over the liver or kidney regions, bowel sounds 5/min. Anus and genitalia not examined, no deformity of the extremities or spine, full range of motion, neurologic examination (-).",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (central-type lung cancer with obstructive atelectasis, or multifocal malignant lung neoplasm)",
+          "supporting_evidence": [
+            "Chest CT at an outside hospital on Day -174 showed: a suspicious mass-like opacity in the right hilar region and multiple lesions in both lungs",
+            "Chest CT at our hospital showed: consolidation and atelectasis of the right middle lobe",
+            "Chest CT at our hospital showed: enlargement of the bilateral hilar and mediastinal lymph nodes",
+            "Chest CT at our hospital showed: multiple small nodules, inflammatory changes, and interstitial lesions in both lungs",
+            "Progressively worsening exertional chest tightness and shortness of breath over the past 3 years",
+            "On physical examination, percussion of the right lung was dull, and a small number of fine moist rales were heard in the right lung."
+          ],
+          "opposing_evidence": [
+            "The disease course has lasted 3 years, with no hemoptysis, chest pain, or other discomfort.",
+            "Weight loss of only 1 kg",
+            "The phase I information did not provide definite tumor-indicative systemic wasting manifestations."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lymphoma or other thoracic lymphoproliferative disorders",
+          "supporting_evidence": [
+            "Chest CT at our hospital showed: enlargement of the bilateral hilar and mediastinal lymph nodes",
+            "Chest CT at our hospital showed encasing perithoracic aortic soft tissue opacity",
+            "Chest CT at our hospital showed multiple small nodules, inflammatory changes, and interstitial lesions in both lungs, with consolidation and atelectasis of the right middle lobe.",
+            "The symptoms are progressive chest tightness and shortness of breath after exertion."
+          ],
+          "opposing_evidence": [
+            "No superficial lymphadenopathy",
+            "No fever, no night sweats",
+            "Liver and spleen not palpable below the costal margin",
+            "Weight loss of only 1 kg"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "IgG4-related thoracic disease (such as IgG4-related lung disease/mediastinal fibrosis/periaortitis)",
+          "supporting_evidence": [
+            "Chest CT at our hospital showed encasing perithoracic aortic soft tissue opacity",
+            "Chest CT at our hospital showed: enlargement of the bilateral hilar and mediastinal lymph nodes",
+            "Chest CT at our hospital showed: multiple small nodules, inflammatory changes, and interstitial lesions in both lungs",
+            "Gradual progression over a 3-year course"
+          ],
+          "opposing_evidence": [
+            "No clues of involvement of other organs were provided in the first-stage information, such as manifestations in the salivary glands, pancreas, kidneys, etc.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Sarcoidosis",
+          "supporting_evidence": [
+            "Chest CT at our hospital showed: enlargement of the bilateral hilar and mediastinal lymph nodes",
+            "Chest CT at our hospital showed: multiple small nodules and interstitial changes in both lungs",
+            "The course is chronic progressive dyspnea."
+          ],
+          "opposing_evidence": [
+            "The patient is a 60-year-old man, and the first-stage information did not provide the typical extrathoracic involvement commonly seen in sarcoidosis.",
+            "Chest CT also showed consolidation and atelectasis of the right middle lobe and a periaortic soft tissue opacity encasing the thoracic aorta, suggesting that other diseases should be considered first.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "angiotensin-converting enzyme",
+          "requirement": "required"
+        },
+        {
+          "exam": "cellular immunity",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT、ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "myocardial injury markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatologic and immunologic markers",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day 0, the patient was hospitalized at our hospital. Chest and abdominal CT showed multiple small nodules, inflammatory changes, and interstitial lesions in both lungs; consolidation and atelectasis in the right middle lobe; enlargement of both hilar and mediastinal lymph nodes; soft tissue attenuation surrounding the thoracic aorta; possible sarcoidosis with vasculitic lesions. Small air cyst in the left lung. Slight enlargement of both axillary lymph nodes. Soft tissue attenuation around the left branch of the portal vein and in both renal sinuses. Hepatic cyst, bilateral renal calculi, chronic cholecystitis, and slight enlargement of abdominal cavity and retroperitoneal lymph nodes. Thickening of the gastric antral wall. CBC, CRP, and PCT were basically normal; angiotensin-converting enzyme: 96.8 U/L; cellular immunity normal; G test: 161.476, GM test negative; T-SPOT normal; myocardial injury markers: BNP 594.0; tumor markers: CYFRA 21-1 3.5, ProGRP 114, all others were normal; ANA: 1:100, all other rheumatologic immunologic indices were normal, ANCA negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuG4upsb5hIuSIjX4EuLVtbIljOGfHf1R2p19ia2V3qLFIt5znPTn4avAg/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/c5c867bce1b93db9fea3324ed16587fd68d89e48.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGfxdSx2comPZyNqkMvMsWk3nQuvnRML1XOfIboiaHmfZWaxrSYYd2rxw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/2c5f07e43fffc525a51111d7f58b578a73dbb930.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGlWu7FM87Jxna12tDUlibzia6GAzX77xeOpe6BK18DXSKGyyNvgNqicF0w/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/d7b530aea98842bde41aa1d6a2c1a313f8720436.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGc6uOA1DU3eYS9SE6EoPjXMHz7Unhicia6QaHibq4Y5QGa0rMpGkZX239A/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/1f9ef7d4e4320b891140358831aa802f108a8a16.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGqUyXJd1L41ib5hHuZqyVgQTXhzHs62ianwopyw5rZHYbZ8fSTkx4pvpw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/61e7f6f0cd2bf7b200e13b46616e8927edbe1739.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGbOEguohsDcmKhyNb2YduO8BUiaIbia3jyOCu9Iysf4dTbicWXzvr2aRIw/640?wx_fmt=png&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/7f240908a8f05e2a7db238a55823734afcd9eef3.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGeWTtrIoTWJiamk2BNDEqsFG83hfmJy8H7HN5yZXfhZrjGEIvVgKpdLQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure set 1: Patient's chest and abdominal CT at our hospital on Day +23",
+            "local_src": "cleaned_cases_image_cache/4aa21ebd00e19d4133fe9d21695b222420128f64.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuG59EanBEkTbe8ibMTMZowwnUib4UBrqsFpjroEteBdib3nw24qeoSWkLicA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Patient's pulmonary function at our hospital on Day +23",
+            "local_src": "cleaned_cases_image_cache/4def4318fd08cce01de3ecd52fe5ef5197398a14.png"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGV7biaKI2ppOvrxeic1mynsvQ6bXdWQGiay93xiaWfj1f1DpXToqpfdbbeA/640?wx_fmt=png&from=appmsg",
+            "near_text": "Auxiliary examinations on admission",
+            "local_src": "cleaned_cases_image_cache/0bdab5895b9a7ad28e677c5eaf2bd5fa5c9a5316.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "Chest imaging showed mediastinal lymphadenopathy and multiple small nodules in both lungs",
+              "Small nodules distributed along the bronchovascular bundles",
+              "Elevated sACE",
+              "with abdominal, retroperitoneal, and axillary lymphadenopathy"
+            ],
+            "exclusion_reasons": [
+              "Mediastinal lymph nodes are not prominent",
+              "The periaortic soft tissue density around the thoracic and abdominal aorta cannot be explained by sarcoidosis"
+            ]
+          },
+          {
+            "name": "Vasculitic diseases",
+            "evidence": [
+              "Chest and abdominal CT showed soft tissue encasement surrounding the thoracic and abdominal aorta"
+            ],
+            "exclusion_reasons": [
+              "The pulmonary arteries are not involved, and the pulmonary nodules and mediastinal lymph nodes cannot be explained by large-vessel vasculitis.",
+              "ANCA negative, blood eosinophil count not elevated",
+              "No history of hemoptysis or bloody sputum",
+              "There is insufficient evidence to support the diagnoses of granulomatosis with polyangiitis, microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis, etc."
+            ]
+          },
+          {
+            "name": "Amyloidosis",
+            "evidence": [
+              "May involve the entire body; when the lungs are involved, nodules, masses, atelectasis, and mediastinal lymphadenopathy may occur."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Other systemic diseases (such as systemic lupus erythematosus, rheumatoid arthritis, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's symptoms, imaging findings, and current test results do not support common rheumatologic autoimmune diseases."
+            ]
+          },
+          {
+            "name": "Neoplastic diseases (e.g., hematologic malignancies, lymphoma, plasmacytoma, etc.)",
+            "evidence": [
+              "May present with involvement of the lungs and mediastinal lymph nodes"
+            ],
+            "exclusion_reasons": [
+              "Pathologic confirmation is required"
+            ]
+          },
+          {
+            "name": "Infectious disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has a relatively long disease course; common infection is not considered."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "Chest imaging showed mediastinal lymphadenopathy and multiple small nodules in both lungs",
+          "Small nodules distributed along the bronchovascular bundles",
+          "Elevated sACE",
+          "with abdominal, retroperitoneal, and axillary lymphadenopathy"
+        ],
+        "exclusion_reasons": [
+          "Mediastinal lymph nodes are not prominent",
+          "The periaortic soft tissue density around the thoracic and abdominal aorta cannot be explained by sarcoidosis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Vasculitic diseases",
+        "evidence": [
+          "Chest and abdominal CT showed soft tissue encasement surrounding the thoracic and abdominal aorta"
+        ],
+        "exclusion_reasons": [
+          "The pulmonary arteries are not involved, and the pulmonary nodules and mediastinal lymph nodes cannot be explained by large-vessel vasculitis.",
+          "ANCA negative, blood eosinophil count not elevated",
+          "No history of hemoptysis or bloody sputum",
+          "There is insufficient evidence to support the diagnoses of granulomatosis with polyangiitis, microscopic polyangiitis, eosinophilic granulomatosis with polyangiitis, etc."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic diseases (e.g., hematologic malignancies, lymphoma, plasmacytoma, etc.)",
+        "evidence": [
+          "May present with involvement of the lungs and mediastinal lymph nodes"
+        ],
+        "exclusion_reasons": [
+          "Pathologic confirmation is required"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "During bronchoscopy, the tracheal lumen was patent, the mucosa was smooth, and the carina was sharp.",
+          "why_order_this_exam": "The patient has had 3 years of progressive chest tightness and shortness of breath after exertion, with recent worsening. Chest CT suggests right middle lobe consolidation and atelectasis, multiple small nodules in both lungs, and bilateral hilar and mediastinal lymphadenopathy. It is first necessary to determine whether there is an endobronchial lesion causing obstruction, atelectasis, and ventilatory limitation. Bronchoscopy can directly visualize the central airways and the mucosa of the bronchi at each lobar and segmental level, the degree of stenosis, and whether there are diffuse nodular protrusions, thereby distinguishing neoplastic lesions, granulomatous disease, infectious lesions, or inflammatory infiltration, and providing access and safety assessment for subsequent biopsy, lavage, and needle aspiration sampling. This examination is crucial for clarifying lesion distribution, explaining the cause of right middle lobe atelectasis, selecting the most appropriate sampling site, and planning subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy of the left main bronchial orifice",
+          "basis_in_stage3_input": "Under direct visualization, a biopsy was performed at the opening of the left main bronchus; the biopsy specimen was firm.",
+          "why_order_this_exam": "Bronchoscopy showed diffuse nodular elevations of the bilateral bronchial walls, surface hyperemia, and varying degrees of stenosis. The lesion at the orifice of the left main bronchus was reachable under direct visualization and felt firm on palpation, suggesting substantive infiltration rather than simple secretions or hyperemia. The patient has long-standing imaging findings of hilar and mediastinal lymphadenopathy, intrapulmonary nodules, and atelectasis. The differential diagnosis includes lung cancer, lymphoma, sarcoidosis, IgG4-related disease, and specific infections, all of which require histologic evidence. Direct biopsy of the left main bronchial orifice would help obtain the most representative tissue from the airway lesion to determine whether there is a malignant tumor, lymphocytic infiltration, granulomatous inflammation, or IgG4-related inflammatory fibrotic change, and would provide material for subsequent immunohistochemistry and IgG4 staining, thereby affecting definitive diagnosis and medication selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial, fungal, and tuberculosis smears and cultures of bronchial lavage fluid from the lateral segment of the right middle lobe",
+          "basis_in_stage3_input": "In the lateral segment of the right middle lobe, 40 mL of normal saline was instilled, and 13 mL of fluid was recovered. The recovered fluid was sent for bacterial, fungal, and TB smears and cultures.",
+          "why_order_this_exam": "Although the patient has a relatively long disease course, no fever or night sweats, and a basically normal complete blood count, CRP, and PCT, the presence of cough and sputum production, multiple small nodules in both lungs, inflammatory and interstitial lesions, and consolidation with atelectasis of the right middle lobe, together with prior slight symptomatic improvement after anti-infective treatment, means that TB, nontuberculous mycobacteria, fungi, and other lower respiratory tract infections still need to be excluded. Performing lavage in the lateral segment of the right middle lobe, where the imaging abnormalities are more pronounced, may improve the pathogen detection rate. The purpose of this examination is to differentiate infection from noninfectious inflammation, avoid misdiagnosing a treatable infection as a tumor or immune-mediated disease, and complete infection screening before subsequently considering glucocorticoid therapy, thereby reducing the risk of immunosuppressive treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "mNGS of lavage fluid from the lateral segment of the right middle lobe",
+          "basis_in_stage3_input": "40 mL of normal saline was instilled into the lateral segment of the right middle lobe, and 13 mL of fluid was recovered. The recovered fluid was sent for bacterial, fungal, and TB smears and cultures, as well as mNGS.",
+          "why_order_this_exam": "Conventional pathogen testing has limited sensitivity for some low-burden, rare, or difficult-to-culture pathogens, whereas the imaging findings in this case were complex, including multiple pulmonary nodules and interstitial changes, as well as right middle lobe atelectasis and mediastinal/hilar lymphadenopathy, requiring differentiation from unusual infections, tumors, and systemic inflammatory diseases. mNGS can screen more broadly for bacteria, fungi, mycobacteria, and other pathogens, and is particularly suitable for patients with nonmarked abnormalities in routine indices but persistent imaging abnormalities and a prolonged disease course. This test helps exclude occult infection as much as possible, providing a basis for subsequently shifting the diagnostic focus to noninfectious causes such as IgG4-related disease, and supporting whether glucocorticoid therapy can be initiated safely.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS-GS-TBLB",
+          "basis_in_stage3_input": "EBUS-GS-TBLB biopsy of the lateral segment of the right middle lobe",
+          "why_order_this_exam": "Chest CT showed consolidation and atelectasis of the right middle lobe, multiple small nodules in both lungs, and interstitial lung disease. Observation of the central airways alone is insufficient to explain all pulmonary parenchymal abnormalities, and histologic sampling of peripheral lung lesions is needed. EBUS-GS can localize peripheral lesions under bronchoscopy and guide transbronchial lung biopsy, improving sampling accuracy, and is especially suitable for bronchoscopically accessible lesions such as those in the lateral segment of the right middle lobe. The clinical question this examination is intended to address is to clarify the nature of the pulmonary parenchymal lesions and distinguish among tumor, granulomatous disease, amyloidosis, infection, and IgG4-related inflammatory infiltration, while providing a tissue basis for subsequent pathology, immunohistochemistry, and IgG4 quantification; compared with percutaneous biopsy, it may also reduce risks such as pneumothorax in some patients.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral ultrasonography",
+          "basis_in_stage3_input": "Peripheral ultrasound detected a hypoechoic area in the lateral segment of the right middle lobe",
+          "why_order_this_exam": "When imaging abnormalities are present in the lateral segment of the right middle lobe and transbronchial lung biopsy is planned, it is necessary first to confirm whether the lesion can be detected by ultrasound and whether this corresponds to the lesion location. Detection of a hypoechoic lesion by radial endobronchial ultrasound suggests that the biopsy instrument has approached the target lesion and can improve the diagnostic yield of subsequent TBLB and brushings. For a patient such as this case, with an unclear etiology and a need to obtain adequate diagnostic specimens in a single procedure as much as possible, radial endobronchial ultrasound is used primarily for lesion localization and procedural optimization, reducing ineffective sampling and repeated procedures caused by blind biopsy, and helping to obtain specimens suitable for pathology and immunohistochemical analysis while balancing diagnostic efficiency and safety.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fluoroscopy-guided TBLB",
+          "basis_in_stage3_input": "TBLB was performed with the biopsy forceps advanced to the lesion under fluoroscopic guidance",
+          "why_order_this_exam": "The patient has consolidation and atelectasis in the right middle lobe with multiple abnormal intrapulmonary opacities, and direct acquisition of lung tissue is needed for pathologic differential diagnosis. Fluoroscopy-guided TBLB can help confirm under imaging guidance that the biopsy forceps have reached the lesion area, and can improve accuracy especially when sampling peripheral lesions or areas of atelectasis. The clinical purpose of this examination is to obtain an adequate amount of lung tissue to determine whether there are changes such as granulomas, malignant cells, abnormal lymphoid tissue proliferation, a histiocytic reaction, or IgG4-related plasma cell infiltration, thereby helping to exclude sarcoidosis, tumor, amyloidosis, and specific infections. At the same time, fluoroscopic guidance also helps reduce non-diagnostic sampling caused by deviation from the lesion, while also taking into account control of procedural risks such as bleeding and pneumothorax.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brushing cytology",
+          "basis_in_stage3_input": "Under fluoroscopic guidance, TBLB and brushing were performed with the biopsy forceps advanced to the lesion.",
+          "why_order_this_exam": "In this case, the right middle lobe lesion needs to be evaluated at both the cytologic and histologic levels. Bronchial brushing can complement TBLB by collecting exfoliated cells from the bronchial mucosal surface or areas adjacent to the lesion, which helps identify malignant cells, the composition of inflammatory cells, and some clues to infection. The patient has right middle lobe atelectasis, diffuse bilateral nodular airway changes, and mediastinal lymphadenopathy; malignant tumor, lymphoproliferative disease, and inflammatory lesions are all within the differential diagnosis, and brushing can improve the overall diagnostic yield. The results can also be correlated with ROSE and the final pathology report to help determine whether additional sampling is needed or whether biopsy should be redirected to other sites.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tissue culture",
+          "basis_in_stage3_input": "and sent for tissue culture.",
+          "why_order_this_exam": "The patient has a chronic, protracted course, with pulmonary nodules, interstitial lung disease, and right middle lobe consolidation and atelectasis. Although routine inflammatory markers are not elevated and T-SPOT is normal, special infections, especially TB, nontuberculous mycobacteria, and fungi, still cannot be completely excluded on clinical grounds alone. Culture of biopsy tissue can complement the limitations of lavage fluid microbiologic testing, and is particularly valuable when the local pathogen burden in the lesion is higher than in the lavage fluid. The focus of this test is to exclude potential infection within the tissue, to avoid misclassifying an infectious lesion as an immune-mediated disease and then using corticosteroids, which could cause dissemination, while also providing microbiologic evidence for the interpretation of subsequent pathology results.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS-TBNA",
+          "basis_in_stage3_input": "A biopsy of the station 7 lymph nodes was performed using EBUS-TBNA. Station 7 lymph nodes with a diameter of approximately 37.98 mm were visualized, and a total of 3 TBNA passes were performed under ultrasound guidance.",
+          "why_order_this_exam": "The patient's chest CT showed enlargement of the bilateral hilar and mediastinal lymph nodes, with marked enlargement of the station 7 lymph nodes, representing an important and relatively accessible intrathoracic lesion site for tissue sampling. In the differential diagnosis, long-term distinction is needed among sarcoidosis, lymphoma, metastatic lung cancer, plasma cell-related disorders, infection, and IgG4-related disease; imaging and hematologic studies alone are insufficient for definitive characterization. EBUS-TBNA can safely obtain cellular and tissue components from mediastinal lymph nodes under real-time ultrasound guidance, with less trauma than surgical biopsy, and can directly address the pathologic nature of the lymphadenopathy. Its results are critical for excluding neoplastic disease, identifying granulomas or abnormal lymphocytic infiltration, and assessing whether there is IgG4-related lymph node involvement, and can also reduce the need for unnecessarily more invasive tissue sampling.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic rapid on-site evaluation (ROSE)",
+          "basis_in_stage3_input": "Bronchoscopic rapid on-site evaluation (ROSE)",
+          "why_order_this_exam": "In this case, during bronchoscopy, specimens were obtained from multiple sites including the opening of the left main bronchus, the lateral segment of the right middle lobe, and station 7 lymph nodes. The nature of the lesions is complex; if specimen adequacy cannot be determined on site, this can easily lead to non-diagnostic biopsy and repeat procedures. ROSE can rapidly assess whether the smear contains target cellular components, such as ciliated cells, lymphocytes, histiocytes, and whether suspicious malignant cells are present, thereby guiding whether additional biopsy passes are needed or whether the sampling site should be adjusted. Given the patient's significant ventilatory dysfunction and progressively worsening dyspnea, it is particularly important to obtain adequate specimens in a single procedure whenever possible. This examination can improve diagnostic efficiency, reduce the risks associated with repeat anesthesia and repeat bronchoscopy, and expedite the subsequent diagnostic pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Preliminary pathology results showed",
+          "why_order_this_exam": "The patient’s clinical and imaging manifestations involve the lungs, mediastinal lymph nodes, para-aortic region, renal sinus, and subsequently identified orbital-related lesions. The etiologies span multiple categories, including neoplasm, infection, granulomatous disease, amyloidosis, and IgG4-related disease, and definitive characterization must ultimately rely on pathology. A systematic pathologic examination of specimens from the left main bronchial orifice, the lateral segment of the right middle lobe, and station 7 lymph nodes can determine whether malignant tumor cells, granuloma formation, amyloid deposition, abnormal lymphocytic infiltration, or inflammatory plasma cell infiltration are present. Pathology is the key basis for confirming the diagnosis and excluding important differential diagnoses, and it also determines whether subsequent management should be anti-infective therapy, antitumor therapy, immunosuppression, or continued observation; therefore, it must be performed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG and IgG4 testing",
+          "basis_in_stage3_input": "Complete IgG and IgG4 testing.",
+          "why_order_this_exam": "After the Department of Pathology had essentially excluded the possibility of granulomatous diseases such as sarcoidosis, amyloidosis, and lymphoma/plasma cell neoplasms, the primary inpatient physician further noted that the patient had slowly progressive proptosis, orbital swelling, and ocular discomfort over the past several years. Combined with the previous findings of soft tissue lesions around the thoracic aorta, around the left branch of the portal vein, and in both renal sinuses, as well as lung and multistation lymph node involvement, this strongly suggested the possibility of IgG4-related systemic disease. Testing serum IgG and IgG4 helps identify systemic immunoglobulin abnormalities, supports the systemic inflammatory nature of the disease, and corroborates the histopathology. This testing serves both to support the diagnosis and to help monitor treatment response after subsequent glucocorticoid therapy and assess disease activity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: IgG4 (approximately 100/HPF in high-density areas); IgG (plasma cells+); IgG4/IgG >40%.",
+          "why_order_this_exam": "Although routine H&E pathology may suggest inflammatory cell infiltration, for a definitive diagnosis of IgG4-related disease, the key is to demonstrate a marked increase in IgG4-positive plasma cells in the tissue and to assess it in conjunction with ratio criteria. In this case, the morphology of the lung and airway lesions is not specific, and differentiation from chronic inflammation, reactive plasma cell infiltration, lymphoproliferative disorders, and others is required; therefore, immunohistochemical staining for IgG, IgG4, and others must be performed. This examination directly determines whether the tissue meets the pathologic features of IgG4-related disease and plays a निर्णative role in confirming the diagnosis, excluding other pathologic types, and supporting subsequent glucocorticoid therapy; it is also important evidence for unifying the systemic imaging abnormalities as the same disease process.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET/CT scan",
+          "basis_in_stage3_input": "PET/CT results showed",
+          "why_order_this_exam": "The patient had not only pulmonary and mediastinal lesions, but also abnormal imaging findings at multiple sites including around the thoracic aorta, around the left branch of the portal vein, the bilateral renal sinuses, the retroperitoneum, and the axillae. Subsequent clues of orbital involvement further suggested that the disease might be a systemic process. PET/CT can assess lesion distribution and metabolic activity at the whole-body level, helping determine whether additional occult organ involvement is present and distinguish a solitary localized lesion from systemic disease. In this case, this examination was mainly used to define the extent of involvement, support the pattern of multiorgan involvement in IgG4-related disease, evaluate whether there were still more suspicious neoplastic biopsy targets, and provide a baseline for pretreatment staging assessment and posttreatment efficacy follow-up.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "During bronchoscopy, the tracheal lumen was patent, the mucosa was smooth, and the carina was sharp. Left bronchial tree: diffuse nodular elevations were seen on the walls of each bronchus, with hyperemia of the surface mucosa, and varying degrees of luminal stenosis. A biopsy was performed under direct visualization at the opening of the left main bronchus; the biopsy tissue was firm. Right bronchial tree: diffuse nodular elevations were seen on the walls of each bronchus, with hyperemia of the surface mucosa; the right middle lobe bronchus was slightly narrowed, and the remaining bronchial lumens were patent. In the lateral segment of the right middle lobe, 40 ml of normal saline was instilled, and 13 ml was recovered. The recovered fluid was sent for bacterial, fungal, and TB smear and culture, as well as mNGS. EBUS-GS-TBLB-guided biopsy was performed in the lateral segment of the right middle lobe. Peripheral ultrasound detected a hypoechoic lesion in the lateral segment of the right middle lobe; combined with fluoroscopic guidance, TBLB and brushings were performed at the site where the biopsy forceps reached the lesion, and tissue culture was also sent. EBUS-TBNA was used to biopsy station 7 lymph nodes. A station 7 lymph node with a diameter of approximately 37.98 mm was detected, and a total of 3 TBNA passes were performed under ultrasound guidance. Rapid on-site evaluation (ROSE) during bronchoscopy: (left main bronchial opening) the smear showed a large number of ciliated cells and a relatively large number of lymphocytes. (right middle lobe lateral segment) the smear showed a large number of ciliated cells, lymphocytes (some cells with slightly enlarged nuclei), and a small number of histiocytes. Preliminary pathology results showed: (left main bronchial opening) a small amount of bronchial mucosal tissue, with marked crush artifact; locally, relatively many hyperchromatic cells were seen, favoring infiltrating lymphocytes. (right middle lobe lateral segment) bronchial mucosal tissue, with relatively many inflammatory cell infiltrates and a histiocytic reaction seen in 1 tissue fragment. (station 7 lymph node) fragmented, crushed lymphocytes were seen within the blood clot. Lavage fluid culture was negative, lavage fluid mNGS showed no specific findings, and tissue culture showed no abnormalities. The pathology department excluded granulomatous diseases such as sarcoidosis; there was no evidence of amyloidosis; lymphoma and plasma cell neoplasm are currently considered unlikely. The treating physician noted that the patient had obvious proptosis and orbital swelling. On further history-taking, the patient often had ocular discomfort, and the proptosis had gradually worsened over the past several years. The patient's thyroid hormone levels were normal. IgG and IgG4 testing was completed. Additional IgG4 ELISA was performed. Final surgical pathology report: (left main bronchial opening) basically no IgG4-positive cells were seen. (right middle lobe lateral segment) relatively many IgG4-positive cells were seen, and IgG4/IgG >40%. (station 7 lymph node) a small number of IgG4-positive cells were seen. Immunohistochemistry: IgG4 (approximately 100/HPF in dense areas); IgG (plasma cells+); IgG4/IgG >40%. PET/CT findings: 1. Possible IgG4-related disease involving the bilateral lacrimal glands, bilateral inferior rectus muscles, both lungs, bilateral pleura, perithoracic aortic region, around the left branch of the portal vein, soft tissue at the bilateral renal sinuses, bilateral seminal vesicles, and multiple lymph nodes; 2. Possible inflammation of the gastric cardia and duodenum; hepatic cyst; bilateral renal calculi; prostatic hyperplasia with calcification; abdominopelvic effusion; 3. Focal emphysema in the left lower lobe.",
+      "images": [
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGGWMh2NVsB2W0Au2HXoA3xDsibFdONMpOHuLIlKn6d3QCpvTp9vbEGBw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: Bronchoscopic images",
+          "local_src": "cleaned_cases_image_cache/ee08e7deb6040c31140b5ef7aab5fa3efeb5f667.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGAwxSic63VNDPhJNslKIIh9YJBicNLmgAtZdNfxSmM0J44qDketkia81fw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3: Physical examination revealed exophthalmos and orbital swelling",
+          "local_src": "cleaned_cases_image_cache/02e5895355b5efde87e26c534ef2e88b09c35738.jpg"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGcictDyUibO7rcibV3adezUpYS4wqLibj9yABx0jxjbgtscxQ7PuRq2rz6A/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4: Patient blood IgG4 results",
+          "local_src": "cleaned_cases_image_cache/2f674714d7539255c57738f287bb8f4bdd7c1cc7.jpg"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGX6QqN2HmYRx3YPVOGZ7dtuhu9WibyyKicpPO9XgLPhgboc8eZ9F7DYUw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5: Pathology (from left to right): HE↑, IgG↑, IgG4↑",
+          "local_src": "cleaned_cases_image_cache/8eabb63af1d7fc5f959020d0345d2a8d243f2ed0.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGMSEa6pupqKkcnkibrOvJpicziapx6rXkBdpuq43OyiboxCWxs2saYqxEDw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/8d361e9f56eb5a51eddf1cdf8aa0278f4f972fe5.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuG49AvYK6EUKjforckml3Mic41gnxJ0p8MBgEBVTPEbmDLYicsdvIa4yvQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 6: Patient PET/CT",
+          "local_src": "cleaned_cases_image_cache/eec3b75ea082574598fa8cfab25fca5536de9b8e.png"
+        },
+        {
+          "image_id": "fig28",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGfnnqWdEWqVqDshom8GFMiaNmbVibvBDaFd9BSaPJIXuaAibhdej0VrfNw/640?wx_fmt=png&from=appmsg",
+          "near_text": "The above is the graph of the patient's IgG4 values.",
+          "local_src": "cleaned_cases_image_cache/1dbda4772506c7f7624d6131cec614ffa8438f08.png"
+        },
+        {
+          "image_id": "fig24",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGfqfWaboxkdmF3wk48sNZhwyDEKMePMwiafgAVicg7I9CCCSicZfCpAibwQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/4011e0e8d8c5e544011c13dad1234c183c968631.png"
+        },
+        {
+          "image_id": "fig25",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGBp6eYTiaJCpJqniaHmr52zIrBpuaHaDPYYYTLcgYjROB3H4n1JvXVzBg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/4419a522c436ddfb2408b06af86b5c8ec83f8c8b.png"
+        },
+        {
+          "image_id": "fig22",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuG0FeoHf849lHPLvjWw5omTibXdJREsZVOGZt4uxribBofjRVSImdr9EHw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/b3d45b9aa476e6b338f359d309ffb822dfeec889.png"
+        },
+        {
+          "image_id": "fig23",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGZ2NxI9QF5J23x0Fz8VIaYeAF2VicxfmP0ho1rTm1sicvzC6IGzibnjP5w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5: left, Day +17; right, Day +52",
+          "local_src": "cleaned_cases_image_cache/39274ab6ade571135daf9006bbe53644c84d7955.png"
+        },
+        {
+          "image_id": "fig20",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGRjosicSvdRaHehiat4w9RWQd5VlicCtXNDtvCJAiccTEOwzvLurfHlvp8g/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/3c293e78f6867f3fdbfffc657044c0f1c73aabc3.png"
+        },
+        {
+          "image_id": "fig21",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGlBnSPwzudrwnG0H7DpRcScyWjRNteweBad6jMlMhKhjjvKWDzJIs4A/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/3b654ff90cb3488c342ecd743c1d1c6598f052bc.png"
+        },
+        {
+          "image_id": "fig26",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGtIsy7dmic4kibcUaib0KHghDhP6ypeWunRial6wgqiaCaCibJpj96ian1GCkg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/9a4171cc15e7c55f01f4ab56917c55b20da3b95f.png"
+        },
+        {
+          "image_id": "fig27",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIv6ticAZicSic9WFBd6qWhNuGrdyYiaFRicJFROdffEN69N8PZ1yeLyUBPGeGNocZozeKnkhicKVAb7ZPg/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/a2c713a119a19420403bd41daa9268b4cf1f250f.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Systemic IgG4-related disease, hepatic cyst, renal calculus, emphysema",
+      "diagnostic_basis": [
+        "Chest tightness and dyspnea on exertion for 3 years; physical examination: exophthalmos and orbital swelling",
+        "Chest CT: multiple small nodules, inflammatory changes, and interstitial lesions in both lungs; consolidation and atelectasis of the right middle lobe; enlargement of bilateral hilar and mediastinal lymph nodes; and soft tissue density encasing the thoracic aorta. PET/CT suggests possible IgG4-related disease involving the bilateral lacrimal glands, bilateral inferior rectus muscles, both lungs, bilateral pleura, around the thoracic aorta, around the left branch of the portal vein, soft tissue in the bilateral renal sinuses, bilateral seminal vesicles, and multiple lymph nodes; 2. possible inflammation of the gastric cardia and duodenum; hepatic cyst; bilateral renal calculi; prostatic hyperplasia with calcification; abdominopelvic effusion; 3. localized emphysema of the left lower lobe. Blood IgG and IgG4 were elevated; pathology showed numerous IgG4-positive cells, and IgG4/IgG >40%"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prednisone acetate tablets 0.5 mg/kg/d: 30 mg, QD",
+        "gradual dose tapering"
+      ],
+      "treatment_response": [
+        "At 1-month follow-up, the patient's chest tightness and shortness of breath had improved significantly, and blood IgG and IgG4 were markedly decreased compared with previously.",
+        "Chest CT showed multiple small nodules, inflammatory changes, and interstitial lesions in both lungs; consolidation and atelectasis in the right middle lobe, improved compared with before; enlarged hilar and mediastinal lymph nodes were smaller than before, and the periaortic soft tissue around the thoracic aorta was decreased compared with before. Slightly enlarged bilateral axillary lymph nodes were smaller than before.",
+        "After 5 months of treatment, the patient's symptoms further improved, and the ocular discomfort resolved.",
+        "Further imaging improvement: slight partial resolution of the bilateral pulmonary interstitial inflammatory lesions; right middle lobe consolidation and atelectasis unchanged; small nodules in both lungs. Mildly enlarged bilateral hilar and mediastinal lymph nodes unchanged compared with before; left lung emphysema. Mildly enlarged bilateral axillary lymph nodes decreased compared with before. Parathoracic aortic soft tissue shadow unchanged compared with before.",
+        "Improved pulmonary function"
+      ]
+    }
+  }
+}

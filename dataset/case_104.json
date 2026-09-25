@@ -1,0 +1,444 @@
+{
+  "status": "success",
+  "case_id": "case_104",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 30 years old, married, Han ethnicity, native of Shaanxi, chief complaint: \"fever for 11 days\"; admitted on Day 0 to the Department of Respiratory and Critical Care Medicine, Tangdu Hospital, Air Force Medical University.\n11 days before admission, after an episode of catching a cold, the patient developed fever. Her temperature was not measured initially, and there were no other discomfort symptoms, so no special treatment was given. 1 week before admission, the above symptoms worsened, with a maximum temperature of 38.3℃, most pronounced in the afternoon, accompanied by generalized arthralgia and myalgia. Subsequently, a generalized rash appeared, accompanied by pruritus, without cough, sputum production, chest tightness, wheezing, abdominal pain, abdominal distention, diarrhea, nausea, vomiting, or other discomfort.\nThe patient had previously presented to a hospital in Xi'an, where influenza A virus nucleic acid testing was negative. Chest CT showed no abnormalities in either lung. CBC showed marked elevation of white blood cells, neutrophils, CRP, and PCT. After anti-infective treatment with meropenem and teicoplanin, symptoms did not improve.\nOn Day 0, the patient presented to our outpatient clinic and was admitted with the outpatient diagnosis of \"fever of unknown origin.\" Since onset, the patient has had poor energy and appetite, bowel and bladder habits have been roughly normal, and there has been no significant change in weight.\nOn review of medical history, the patient had generally been in good health. In approximately 20 months before Day 0, she had presented to the Department of Rheumatology and Immunology of our hospital for fever. During hospitalization, a left axillary lymph node biopsy was performed. The discharge diagnoses were \"undifferentiated arthritis, lymphoma to be excluded.\"\nShe denied a history of chronic diseases such as hypertension, coronary artery disease, and diabetes; denied a history of infectious diseases such as hepatitis and TB; denied drug and food allergies; denied a history of blood transfusion and trauma; immunization history was unknown. Personal history: born in her native place and has lived locally for a long time; no history of exposure to dust, toxins, or radioactive substances; no history of contact with infectious diseases; no history of exposure to epidemic areas; no history of eating raw fish or raw meat; no tobacco or alcohol use. The patient married at the appropriate age and has 1 son; both spouse and son are healthy. Both parents are alive and well. She denied a family history of hereditary diseases, infectious diseases, or other special diseases. There are also no similar cases in the family.\nPhysical examination: Temperature: 36.8℃, pulse: 78/min, respirations: 20/min, blood pressure: 110/60 mmHg, weight: 48 kg. Normal development, well nourished, in good spirits, alert, spontaneous posture, answers questions appropriately. Scattered patchy hyperpigmented macules were visible on the chest and abdomen; the skin on the back was violaceous-red and covered with scratch marks. No liver palms, spider angiomas, or subcutaneous nodules. Multiple enlarged lymph nodes were palpable in the bilateral neck and right axilla, about the size of soybeans, hard in texture, mobile, without tenderness. An old scar about 5 cm in length was visible in the left axilla. No cranial deformity, normal hair distribution. Pharyngeal erythema, tonsils grade I enlarged. Resonant to percussion over both lungs; breath sounds were clear bilaterally, with no dry or moist rales. Heart rate 78/min, regular rhythm, no obvious increase or decrease in heart sounds, and no pathologic murmurs were heard in any valvular auscultation area. Abdomen flat and soft, no hepatosplenomegaly, no abdominal tenderness or abdominal muscle guarding. Spine without deformity, no tenderness, no percussion tenderness. Tenderness of both wrists and both knees was positive. No edema of both lower extremities. Proximal muscle strength of all extremities was grade 3, muscle tone was not increased, no muscle atrophy of the extremities, and no muscle tenderness of the extremities.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ7YBloLLzG4FlaHke9rkDtFP7ZzwKVPQuHunZjlgzX1DMfVVaiakCtlibMVPXCdyiaJeAZtlflORp7g/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, Day 0",
+          "local_src": "cleaned_cases_image_cache/af4f3d438cf498e4ce40d8f17d51c664910664ee.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Adult-onset Still disease (adult-onset Still's disease)",
+          "supporting_evidence": [
+            "Fever for 11 days, with a maximum temperature of 38.3℃, most pronounced in the afternoon",
+            "Accompanied by generalized arthralgia and myalgia; on physical examination, tenderness of both wrists and both knees was positive",
+            "Subsequently, a generalized skin rash with pruritus developed; scattered patchy hyperpigmented macules were visible on the chest and abdomen, and the skin on the back was violaceous and erythematous, with widespread excoriations.",
+            "Complete blood count: WBC count, neutrophil count, CRP, and PCT were markedly elevated",
+            "Symptoms did not improve after antibacterial therapy (meropenem, teicoplanin), suggesting the possibility of a non-common bacterial infection.",
+            "Past history: in 2017, the patient was seen in Rheumatology and Immunology for fever; the discharge diagnosis was \"undifferentiated arthritis,\" suggesting an autoinflammatory/rheumatologic-immunologic background."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lymphoma or other lymphoproliferative disorders",
+          "supporting_evidence": [
+            "Fever persisting for 11 days, falling within the category of fever of unknown origin",
+            "Multiple enlarged lymph nodes are palpable in the bilateral neck and right axilla, soybean-sized, firm, mobile, without tenderness or pain on palpation.",
+            "In 2017, a left axillary lymph node biopsy was performed; a prior discharge diagnosis included “lymphoma to be ruled out”",
+            "Since onset, poor mental status and poor appetite",
+            "Symptoms did not improve after anti-infective treatment"
+          ],
+          "opposing_evidence": [
+            "Physical examination: abdomen soft and flat, no hepatosplenomegaly",
+            "Chest CT showed no abnormalities in either lung, and the accompanying chest CT images showed no definite pulmonary mass or obvious abnormality of the mediastinum.",
+            "No significant change in body weight"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Virus infection-related syndromes (such as Epstein-Barr virus/cytomegalovirus/other non-influenza viral infections)",
+          "supporting_evidence": [
+            "Fever accompanied by generalized joint and muscle soreness and rash may be seen in viral infection.",
+            "Pharyngeal erythema and grade I tonsillar enlargement, suggesting possible upper respiratory tract infection",
+            "Multiple enlarged lymph nodes in the bilateral neck and right axilla, which may be seen as a reaction associated with viral infection",
+            "A negative influenza A virus nucleic acid test can only exclude some viral pathogens and cannot exclude other viral infections."
+          ],
+          "opposing_evidence": [
+            "Marked elevations in white blood cell count, neutrophils, CRP, and PCT on routine blood testing are more commonly seen in bacterial infection or a strong inflammatory response.",
+            "Chest CT showed no abnormalities in either lung, and there were no respiratory symptoms such as cough or sputum production.",
+            "Lack of response to anti-infective therapy does not directly support viral infection."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Systemic lupus erythematosus or other systemic connective tissue disease",
+          "supporting_evidence": [
+            "young woman",
+            "Fever with rash, joint and muscle pain",
+            "Tenderness present in both wrists and both knee joints",
+            "Previously hospitalized in the Rheumatology and Immunology Department; discharge diagnosis was \"undifferentiated arthritis\"",
+            "Multiple superficial lymphadenopathy can be seen in systemic autoimmune diseases"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no more typical systemic lupus erythematosus clues were observed, such as oral ulcers, alopecia, serosal cavity effusion, or renal manifestations.",
+            "Complete blood count showed marked elevations in the white blood cell count and neutrophil count, which is inconsistent with the leukopenia commonly seen in some connective tissue diseases.",
+            "Physical examination showed no hepatosplenomegaly. Chest CT and the attached images showed no obvious abnormalities of the pleura or lung parenchyma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Bacterial infectious disease/occult infectious focus (including tonsillopharyngeal infection, early sepsis, etc.)",
+          "supporting_evidence": [
+            "Fever for 11 days",
+            "CBC leukocyte count, neutrophil count, CRP, and PCT were significantly elevated, supporting infection or a strong inflammatory response.",
+            "Pharyngeal erythema, grade I tonsillar enlargement, with evidence of upper respiratory tract/pharyngotonsillar infection",
+            "Myalgia and poor appetite may be seen in infectious diseases"
+          ],
+          "opposing_evidence": [
+            "No localizing symptoms such as cough, sputum production, chest tightness, wheezing, abdominal pain, or diarrhea",
+            "Chest CT showed no abnormalities in either lung, and the accompanying chest CT images also showed no definite signs of pulmonary infection.",
+            "Symptoms did not improve after anti-infective treatment with meropenem and teicoplanin.",
+            "Physical examination: vital signs stable, no obvious signs of toxemia."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Infective endocarditis",
+          "supporting_evidence": [
+            "Persistent fever with no significant improvement after anti-infective therapy, constituting a dangerous etiology that requires vigilance in fever of unknown origin",
+            "Inflammatory markers significantly elevated"
+          ],
+          "opposing_evidence": [
+            "Heart rate 78 beats/min, regular rhythm, no pathologic murmurs heard in any valvular auscultation area",
+            "Denies a history of underlying heart disease and blood transfusion.",
+            "In the first phase of the information, no chills, signs of embolism, manifestations of heart failure, or typical skin or mucosal findings were noted.",
+            "The attached chest CT images and text information do not provide direct evidence related to infective endocarditis."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungi (GM test, G test)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis (PPD skin test, interferon-gamma release assay)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin and complement panel, TORCH four-item panel, immunofixation electrophoresis",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA, ANCA, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease, antiphospholipid antibodies, HLA-B27",
+          "requirement": "required"
+        },
+        {
+          "exam": "Myositis and scleroderma antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Female tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymph node + abdominal + pelvic + lower extremity deep vein B-ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Joint color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "requirement": "required"
+        },
+        {
+          "exam": "MRI of both wrist joints",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "[Myocardial enzyme panel] α-hydroxybutyrate dehydrogenase 315 U/L, lactate dehydrogenase 599 U/L. [Eight-item infectious disease panel] Hepatitis B five-item panel, hepatitis C, HIV, TP (-). [Fungi] GM test, G test (-). [Viruses] Comprehensive viral panel: cytomegalovirus antibody IgG (CMV-IgG) 308.500 IU/mL, herpes simplex virus type I antibody (HSV) IgG positive 85.96 COI, rubella virus antibody IgG (RU-IgG) 59.550 IU/mL. Epstein-Barr virus antibody (-). Nine-item respiratory pathogen panel, Mycoplasma and Chlamydia antibodies (-). [Tuberculosis] PPD skin test (-); interferon-gamma release assay (-). [Tumor markers] Five lung tumor markers normal. [Autoantibody profile] Anti-RO-52 antibody (+), antihistone antibody (weakly positive), others (-). [Immunoglobulin/complement panel, TORCH four-item panel, immunofixation electrophoresis] (-). [T-lymphocyte subsets] NK cell percentage (%) 32% ↑, NK cell absolute count (#) 899/uL ↑, others normal. [ANA, ANCA, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver antibodies, antiphospholipid antibodies, HLA-B27] (-), anti-MCV antibody slightly elevated. [Myositis and scleroderma antibodies] Anti-Ro-52 antibody IgG +, anti-Fibrillarin antibody IgG (+), others normal. [Female tumor markers] Neuron-specific enolase 21.97 ng/ml, others normal. [Lymph node + abdominal + pelvic + lower-extremity deep venous ultrasound]: Enlarged lymph nodes in the bilateral cervical, subclavian, axillary, and inguinal regions; no obvious enlarged lymph nodes in the abdominal cavity or pelvis. Liver size normal, hepatic hemangioma; gallbladder, pancreas, spleen, and bilateral kidneys normal in size and shape, with no abnormality seen on imaging. No obvious abnormality in the bilateral adnexal regions. Blood flow was patent in the visualized segments of the deep veins of both lower extremities. [Echocardiography] Two-dimensional echocardiography essentially normal, Doppler echocardiography essentially normal, pulmonary artery systolic pressure 28 mmHg, pulmonary artery diastolic pressure 10 mmHg, (mild) pericardial effusion, left ventricular systolic function measurements within the normal range. [Joint ultrasound] Synovial thickening of both wrist joints, grade I blood flow signal; multiple carpal bone erosions in both hands; small amount of suprapatellar effusion in both knee joints, synovial thickening, grade 1 blood flow signal; small amount of effusion in both ankle joints, synovial thickening, grade 1-II blood flow signal. Chest CT: no obvious abnormality. Bone marrow aspiration: hypercellular marrow; no obvious abnormality in the proportion or morphology of granulocytic cells at all stages; erythroid series mainly mid- to late-stage erythroblasts, with no obvious morphologic abnormality; no obvious morphologic abnormality in mature red blood cells; lymphocytes accounted for 21%; no obvious increase or decrease in monocytes; megakaryocytes and platelets adequately distributed on the smear; no parasites or other abnormal cells seen. [MRI of both wrist joints] Osseous and surrounding synovial changes in both wrist joints, considered inflammatory changes.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ7YBloLLzG4FlaHke9rkDtaSsrz3XgyQ1bP5ZkRYGd96f7icORI5f3rlNQbSZ0icJRpStaemzEzIfw/640?wx_fmt=png",
+            "near_text": "[Biochemical markers]:",
+            "local_src": "cleaned_cases_image_cache/b8f190074fc1d786eb5fbd2e5b952fad36fddd76.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ7YBloLLzG4FlaHke9rkDtcq8IN0kzZq3JAUKwhLLUnIPhPnf4reAeg9dvkbgs4dkLdSWCxicXMOg/640?wx_fmt=png",
+            "near_text": "[Myocardial enzyme panel]",
+            "local_src": "cleaned_cases_image_cache/97bf7bdb818b393c2e83ea9f70235c47ec768431.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious fever",
+            "evidence": [
+              "Acute onset, fever, and generalized myalgia",
+              "Elevated white blood cell count, elevated PCT, elevated CRP"
+            ],
+            "exclusion_reasons": [
+              "Outside hospital-related examinations did not identify a definite site of infection",
+              "Symptoms still did not improve after treatment with broad-spectrum high-potency antibiotics.",
+              "Lack of etiologic evidence from pathogen-related testing for infection"
+            ]
+          },
+          {
+            "name": "Undifferentiated arthritis",
+            "evidence": [
+              "Young woman, fever, painful swelling of multiple joints, tenderness of both wrists and both knees positive",
+              "Multiple carpal bone erosions in both hands; small amount of effusion in the suprapatellar bursae of both knees, synovial thickening, grade 1 blood flow signal; small amount of effusion in both ankle joints, synovial thickening, grade 1-II blood flow signal",
+              "MRI showed osseous and surrounding synovial changes in both wrist joints, suggesting inflammatory changes",
+              "ANA low-titer positive, anti-CCP antibody negative, anti-MCV antibody slightly elevated, HLA-B27 negative",
+              "The rheumatology department had previously diagnosed undifferentiated arthritis; after discharge, the patient did not take oral medications regularly."
+            ],
+            "exclusion_reasons": [
+              "Multiple enlarged lymph nodes were palpable in the bilateral neck and right axilla. Lymph node biopsy pathology also could not exclude lymphoma; therefore, lymphoma still needs to be considered in the differential diagnosis."
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Young woman with fever for nearly 2 weeks",
+              "Multiple enlarged lymph nodes are palpable in the bilateral neck and right axilla",
+              "Lymph node biopsy pathology could not exclude lymphoma"
+            ],
+            "exclusion_reasons": [
+              "At present, there are no definitive bone marrow aspiration, bone marrow biopsy, or lymph node biopsy results to support the diagnosis of lymphoma."
+            ]
+          },
+          {
+            "name": "Relapse of connective tissue disease",
+            "evidence": [
+              "Rapid disease progression, fever of unclear etiology",
+              "Chest CT and abdominal CT showed no definite infectious focus, and there was no relevant etiologic evidence of bacterial, fungal, or viral infection.",
+              "The white blood cell count was again significantly above normal, inflammatory markers were markedly elevated, and the response to anti-infective therapy was poor.",
+              "Tumor markers and autoimmune-related indices were all negative",
+              "Previously diagnosed with undifferentiated connective tissue disease, but the patient discontinued medication on her own during treatment; this admission was for the chief complaint of \"fever\"."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious fever",
+        "evidence": [
+          "Acute onset, fever, and generalized myalgia",
+          "Elevated white blood cell count, elevated PCT, elevated CRP"
+        ],
+        "exclusion_reasons": [
+          "Outside hospital-related examinations did not identify a definite site of infection",
+          "Symptoms still did not improve after treatment with broad-spectrum high-potency antibiotics.",
+          "Lack of etiologic evidence from pathogen-related testing for infection"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Undifferentiated arthritis",
+        "evidence": [
+          "Young woman, fever, painful swelling of multiple joints, tenderness of both wrists and both knees positive",
+          "Multiple carpal bone erosions in both hands; small amount of effusion in the suprapatellar bursae of both knees, synovial thickening, grade 1 blood flow signal; small amount of effusion in both ankle joints, synovial thickening, grade 1-II blood flow signal",
+          "MRI showed osseous and surrounding synovial changes in both wrist joints, suggesting inflammatory changes",
+          "ANA low-titer positive, anti-CCP antibody negative, anti-MCV antibody slightly elevated, HLA-B27 negative",
+          "The rheumatology department had previously diagnosed undifferentiated arthritis; after discharge, the patient did not take oral medications regularly."
+        ],
+        "exclusion_reasons": [
+          "Multiple enlarged lymph nodes were palpable in the bilateral neck and right axilla. Lymph node biopsy pathology also could not exclude lymphoma; therefore, lymphoma still needs to be considered in the differential diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Young woman with fever for nearly 2 weeks",
+          "Multiple enlarged lymph nodes are palpable in the bilateral neck and right axilla",
+          "Lymph node biopsy pathology could not exclude lymphoma"
+        ],
+        "exclusion_reasons": [
+          "At present, there are no definitive bone marrow aspiration, bone marrow biopsy, or lymph node biopsy results to support the diagnosis of lymphoma."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Relapse of connective tissue disease",
+        "evidence": [
+          "Rapid disease progression, fever of unclear etiology",
+          "Chest CT and abdominal CT showed no definite infectious focus, and there was no relevant etiologic evidence of bacterial, fungal, or viral infection.",
+          "The white blood cell count was again significantly above normal, inflammatory markers were markedly elevated, and the response to anti-infective therapy was poor.",
+          "Tumor markers and autoimmune-related indices were all negative",
+          "Previously diagnosed with undifferentiated connective tissue disease, but the patient discontinued medication on her own during treatment; this admission was for the chief complaint of \"fever\"."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bone marrow aspiration and biopsy, submitted for pathologic examination",
+          "basis_in_stage3_input": "On Day +1, bone marrow aspiration and biopsy were performed again, and the specimen was sent for pathologic examination.",
+          "why_order_this_exam": "The patient is a young woman with persistent fever, diffuse arthralgia and myalgia, rash, and multiple superficial lymphadenopathy sites. Inflammatory markers are markedly elevated, and broad-spectrum anti-infective therapy has been ineffective. She also has a prior history of “lymphoma to be ruled out” and undifferentiated arthritis. The differential diagnosis should focus on hematologic malignancy, reactive bone marrow changes, and connective tissue disease-related bone marrow involvement. The previous bone marrow aspiration showed only a hypercellular marrow picture, which is still insufficient to exclude lymphoma/other lymphoproliferative disorders. Combined bone marrow biopsy with submission for pathology can simultaneously assess cellular morphology and bone marrow architecture to determine whether there is abnormal lymphocytic infiltration, bone marrow involvement, or reactive hyperplasia, and provide a basis for diagnosis, exclusion of hematologic malignancy, and selection of subsequent treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bilateral cervical lymph node biopsy",
+          "basis_in_stage3_input": "On Day +2, the Department of General Surgery performed bilateral cervical lymph node biopsy.",
+          "why_order_this_exam": "Physical examination and ultrasound both indicated multiple enlarged lymph nodes in the bilateral cervical, subclavian, axillary, and inguinal regions, and the patient had prolonged fever, poor appetite, elevated LDH, and poor response to anti-infective treatment; clinically, lymphoma or other lymphoproliferative disorders must be differentiated. There was a prior history in 2017 of lymph node biopsy and “lymphoma to be ruled out,” indicating that clinical findings and imaging alone cannot establish the nature of the disease. Biopsy of an accessible cervical lymph node can directly obtain histologic evidence to determine whether the process is reactive hyperplasia, infection-related change, or a neoplastic lesion, and can provide specimens for subsequent tests such as immunohistochemistry and EBER, thereby affecting whether to proceed to an oncologic treatment pathway or instead shift to treatment for rheumatic immune diseases.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Review lymph node biopsy pathology",
+          "basis_in_stage3_input": "3. Repeat review of the lymph node biopsy pathology: showed: (left cervical lymph node) hyperplastic lymphoid lesion with sinus histiocytosis, with focally active lymphocytic proliferation.",
+          "why_order_this_exam": "The patient has multistation lymphadenopathy accompanied by fever, rash, and joint symptoms. Clinically, lymphoma should be considered with caution, and reactive hyperplasia secondary to connective tissue disease or infection should also be considered. If the initial pathology report only suggests a proliferative lesion, repeat pathologic review is still needed to determine whether atypical hyperplasia, architectural destruction, or sinus abnormalities were missed. Pathology review, in conjunction with the clinical course, prior history of left axillary biopsy, and the newly obtained specimen from this episode, can improve the reliability of differentiating reactive hyperplasia from lymphoma, avoid mistakenly treating rheumatic immune-mediated disease as a tumor, and also avoid missing lymphoid malignancies that require further subclassification and treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunologic markers",
+          "basis_in_stage3_input": "Immunologic markers: IgG (+), CD3 (+), CD2 (+), CD5 (+), CD7 (+), Bcl-6 (+, in occasional cells), CD79a (+), CD20 (+), CD38 (+), Ki-67 (+, approximately 30% focally), MUM-1 (+, in some cells), CD21 (+, FDC meshwork).",
+          "why_order_this_exam": "In this case, lymphoma cannot be completely excluded on the basis of lymph node pathology by H&E morphology alone; immunophenotypic marker analysis is required to evaluate lymphocyte lineage, maturation stage, and proliferative activity. The patient has persistent fever and multiple enlarged lymph nodes, and the bone marrow and PET-CT have not yet provided definite evidence of malignancy; therefore, markers such as CD3, CD20, CD79a, Ki-67, MUM-1, and CD21 are needed to assess the T-/B-cell composition, whether the follicular dendritic cell meshwork is preserved, and whether the proliferation index is abnormal, thereby distinguishing reactive hyperplasia from clonal lymphoproliferation. This result is critical for determining whether lymphoma is present, assessing the strength of neoplastic evidence, and deciding whether to proceed with more in-depth hematologic oncology evaluation and management.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "(Left inguinal) lymph node tissue hyperplasia with suspicious atypia. Immunohistochemistry showed that CD3(+) T lymphocytes were slightly more predominant than CD20(+) B lymphocytes; CD21, Ki-67, and Bcl-6 staining showed that the lymphoid follicular architecture was not yet disrupted, and PD-1 (NAT) and CXCL-13 were (-), CD10(-), ALK (ALK p80)(-), and CD30(-). In addition, numerous CD4(+) and CD8(+) T lymphocytes were present.",
+          "why_order_this_exam": "The patient's clinical manifestations are complex, including fever, rash, and arthritis-like manifestations, as well as multiple lymphadenopathy and pathology reported as \"suspicious atypia\"; morphology alone cannot reliably establish the nature of the lesion. Immunohistochemistry can further assess the T/B-cell ratio within the lymph nodes, whether the follicular architecture is disrupted, and whether specific lymphoma-associated phenotypes are present, such as PD-1, CXCL-13, CD10, ALK, and CD30, thereby helping exclude important differential diagnoses such as peripheral T-cell lymphoma and anaplastic large cell lymphoma. In this case, its significance lies in confirming that the lesion is more consistent with reactive hyperplasia rather than malignant clonal proliferation, providing pathologic support for ultimately shifting to a diagnosis of connective tissue disease/rheumatoid arthritis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBER (in situ hybridization)",
+          "basis_in_stage3_input": "EBER (in situ hybridization) (occasional cells +)",
+          "why_order_this_exam": "The patient has fever, lymphadenopathy, and atypical lymphocytes, and viral-related lymphoid reaction and Epstein-Barr virus-related lymphoproliferative disease need to be differentiated. Although the initial serum Epstein-Barr virus antibody was negative, serology cannot completely replace tissue-level testing; when suspicious atypia is present on lymph node pathology, EBER in situ hybridization can determine whether Epstein-Barr virus-related cells are present in the tissue. This test helps distinguish simple reactive hyperplasia, EBV-related reactive changes, and some EBV-related lymphoproliferative diseases, avoiding missed diagnosis of infection/virus-driven lesions, and also provides a basis for pathologic characterization and subsequent treatment strategy selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Muscle MRI",
+          "basis_in_stage3_input": "4. Muscle MRI: mild muscle edema in the bilateral vastus lateralis and biceps femoris muscles; heterogeneous signal within the medullary cavities of the middle and distal segments of both femurs, more suggestive of osteoporosis.",
+          "why_order_this_exam": "The patient reports generalized joint and muscle soreness. Physical examination showed proximal muscle strength of grade 3 in all four extremities, suggesting that in addition to arthritis, it is necessary to assess whether inflammatory myopathy or other muscle involvement is present. Prior autoantibody testing showed abnormalities in Ro-52 and Fibrillarin. Combined with fever, rash, and muscle weakness, muscle MRI can noninvasively assess whether there is muscle edema, inflammatory activity, and the distribution of involvement, and can be used to support or argue against myositic lesions. The clinical question addressed by this examination is whether the proximal muscle weakness is due to inflammatory muscle injury or to systemic inflammation/deconditioning, and it can help determine whether further muscle enzymes, electromyography, or muscle biopsy are needed, as well as the subsequent intensity of immunotherapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Whole-body PET-CT",
+          "basis_in_stage3_input": "5. Whole-body PET-CT: mildly enlarged lymph nodes anterior and medial to the bilateral sternocleidomastoid muscles in the neck, in the bilateral axillae, and in the bilateral inguinal regions; morphology is acceptable, with no increased glucose metabolism, favoring benign lesions; mild subcutaneous edema of the maxillofacial region, neck, chest, back, and abdomen; spleen is normal in size; glucose metabolism is mildly higher than that of the liver, with no obvious space-occupying lesion, favoring reactive splenic change; symmetric mild abnormally increased glucose metabolism in the marrow regions of the bilateral scapulae, bilateral sternal ends of the clavicles, multiple vertebral bodies of the spine, sternum, multiple bilateral ribs, pelvis, and proximal long bones of the extremities, favoring reactive bone marrow change.",
+          "why_order_this_exam": "The patient had persistent fever and superficial enlargement of multiple lymph node regions. Routine chest CT and abdominopelvic ultrasound did not identify a definite deep lesion, while lymphoma, occult infectious foci, and systemic inflammatory diseases still required systematic evaluation. Whole-body PET-CT can provide a one-time assessment of the metabolic activity of lymph nodes throughout the body, the spleen, bone marrow, and other organs, helping determine whether the lesions represent hypermetabolic malignant foci or hypometabolic reactive changes, and providing a basis for selecting the most valuable biopsy site. Of particular importance in this case, the results showed no significant increased metabolic activity in the lymph nodes, and the bone marrow showed symmetric mild increase, which more strongly supports a benign/reactive process rather than typical lymphoma. This has critical value for excluding malignancy, correcting the diagnostic direction, and avoiding excessive antitumor therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum protein electrophoresis",
+          "basis_in_stage3_input": "6. Serum protein electrophoresis: alpha-2 globulin 17.20%, albumin 32.90%, alpha-1 globulin 7.90%, gamma globulin 29.70%, A/G ratio 0.49;",
+          "why_order_this_exam": "The patient has persistent fever, a marked inflammatory response, multiple enlarged lymph nodes, and an autoimmune disease background; it is necessary to assess whether there is globulin elevation due to chronic inflammation/immune activation or a hematologic disorder such as monoclonal gammopathy. Serum protein electrophoresis can demonstrate decreased albumin, elevated γ-globulin, and A/G ratio inversion, helping determine whether the process is more consistent with polyclonal immune activation, supporting connective tissue disease or a reactive process, rather than certain plasma cell/lymphoid monoclonal disorders. This test is helpful for clarifying the nature of the systemic inflammation, supplementing the differential diagnosis, and assessing disease activity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "basis_in_stage3_input": "Anticardiolipin antibody negative",
+          "why_order_this_exam": "The patient is a young woman with fever, rash, joint involvement, and clues suggestive of connective tissue disease, requiring screening for immune abnormalities related to antiphospholipid antibody syndrome. In particular, severe manifestations and a risk of coagulation dysfunction were present during disease progression; testing for anticardiolipin antibodies helps assess whether there is an immune-mediated hypercoagulable/thrombotic tendency, thereby affecting decisions regarding anticoagulation, glucocorticoids, and overall rheumatologic immunotherapy. A negative result for this test helps narrow the differential within the connective tissue disease spectrum and reduces the likelihood of attributing coagulation abnormalities to antiphospholipid antibody-related mechanisms.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-beta-2 glycoprotein I antibody",
+          "basis_in_stage3_input": "Anti-β2 glycoprotein antibody negative.",
+          "why_order_this_exam": "In this case of a young woman with systemic inflammation, rash, joint involvement, and a subsequent critical clinical course, anti-β2 glycoprotein antibodies, like anticardiolipin antibodies, are an important component of the evaluation for antiphospholipid syndrome. The clinical purpose of testing for this antibody is to further determine whether there is a risk of autoimmune-mediated thrombosis and coagulation abnormalities, help explain the severe illness and manifestations such as consumption of coagulation factors, and determine whether more aggressive anticoagulation and long-term follow-up are needed. A negative result helps exclude antiphospholipid antibody-related disease and supports attributing the primary etiology more to connective tissue disease/inflammatory response itself.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "7. Both blood culture and bone marrow culture were negative.",
+          "why_order_this_exam": "The patient had an acute onset of fever for 11 days. WBC count, neutrophil count, CRP, and PCT were all significantly elevated, and severe infectious fever such as bloodstream infection must first be excluded clinically; however, broad-spectrum antibiotic therapy at the outside hospital and after admission was ineffective, and there was no definite infectious focus, therefore blood culture is the key etiologic examination. This test mainly addresses whether bacteremia/sepsis or occult infection is present, and directly determines whether to continue intensified anti-infective therapy, whether antibiotics need to be adjusted, and whether it is safe to shift to immunosuppressive therapy. A negative result, together with a negative bone marrow culture and no definite infectious focus on imaging, markedly weakens the diagnosis of infectious fever.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow culture",
+          "basis_in_stage3_input": "7. Both blood culture and bone marrow culture were negative.",
+          "why_order_this_exam": "In the setting of persistent fever, markedly elevated inflammatory markers, and the possibility that peripheral blood cultures were affected by prior antibiotic use, bone marrow culture can serve as an adjunctive microbiologic method to look for evidence of occult bacteria, unusual pathogens, or deep-seated infection. Because this case also involves reactive bone marrow changes, increased bone marrow metabolic activity, and the need for differential diagnosis of hematologic diseases, bone marrow culture can help distinguish infection-related bone marrow reactivity from noninfectious inflammatory or neoplastic processes. Its results are very important for excluding infection and for risk assessment to reduce the risk of subsequent use of glucocorticoids and immunosuppressants; a negative result further supports a noninfectious etiology.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +1, bone marrow aspiration and biopsy were performed again, and specimens were sent for pathologic examination. On Day +2, the Department of General Surgery performed bilateral cervical lymph node biopsy.\n1. Repeat posterior iliac bone marrow smear: increased proportion of neutrophils with marked granulation; atypical lymphocytes were seen; mature erythrocytes showed mild anisocytosis and central pallor; platelets were readily seen in clusters or scattered.\n2. Bone marrow biopsy: no obvious lymphocytic proliferation.\n3. Repeat lymph node biopsy pathology: showed: (left cervical lymph node) proliferative lymphoid lesion with sinus histiocytosis, with focally active lymphocytic proliferation. Immunomarkers: IgG (+), CD3 (+), CD2 (+), CD5 (+), CD7 (+), Bcl-6 (+, occasional cells), CD79a (+), CD20 (+), CD38 (+), Ki-67 (+, approximately 30% locally), MUM-1 (+, some cells), CD21 (+, FDC meshwork). (Left inguinal) lymph node tissue hyperplasia with suspicious atypia; immunohistochemistry showed that CD3 (+) T lymphocytes were slightly predominant over CD20 (+) B lymphocytes; CD21, Ki-67, and Bcl-6 staining showed that the lymphoid follicular architecture was not yet disrupted, and PD-1 (NAT) and CXCL-13 were negative, CD10 (-), ALK (ALK p80) (-), CD30 (-); in addition, numerous CD4 (+) and CD8 (+) T lymphocytes were seen; EBER (in situ hybridization) (occasional cells +). Immunohistochemistry showed slight predominance of T lymphocytes, but the evidence for neoplasia was insufficient, favoring reactive hyperplasia.\n4. Muscle MRI: slight muscle edema in the bilateral vastus lateralis and biceps femoris muscles; heterogeneous signal within the medullary cavities of the mid-to-distal bilateral femora, more suggestive of osteoporosis.\n5. Whole-body PET-CT: mildly enlarged lymph nodes anterior and medial to the bilateral sternocleidomastoid muscles, in the bilateral axillae, and in the bilateral inguinal regions, with preserved morphology and no increased glucose metabolism, favoring benign lesions; mild subcutaneous edema of the maxillofacial region, neck, chest, back, and abdomen; spleen of normal size, with glucose metabolism mildly higher than that of the liver and no obvious space-occupying lesion, favoring reactive splenic changes; symmetric mildly increased abnormal glucose metabolism in bone marrow regions of the bilateral scapulae, sternal ends of the bilateral clavicles, multiple vertebral bodies, sternum, multiple bilateral ribs, pelvis, and proximal long bones of the extremities, favoring reactive bone marrow changes.\n6. Serum protein electrophoresis: a2 globulin 17.20%, albumin 32.90%, a1 globulin 7.90%, γ globulin 29.70%, A/G ratio 0.49; anticardiolipin antibody negative, anti-β2 glycoprotein antibody negative.\n7. Blood culture and bone marrow culture were both negative.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Connective tissue disease; 2. Rheumatoid arthritis.",
+      "diagnostic_basis": [
+        "Young woman, acute onset, fever for 11 days, elevated white blood cell count, and elevated infectious markers including PCT and CRP; after hospitalization, symptoms did not improve following treatment with broad-spectrum potent antibiotics.",
+        "Lack of evidence from evaluation of the site of infection and related etiologic pathogen testing for infection",
+        "On admission, ferritin was markedly elevated, triglycerides were elevated, the enzyme panel was markedly abnormal, all three blood cell lineages on the complete blood count rapidly declined, and fibrinogen was consumed precipitously.",
+        "Previously diagnosed by the rheumatology department with undifferentiated arthritis; did not take medication regularly",
+        "Polyarticular joint swelling and pain; tenderness positive in both wrists and both knees; multiple carpal bone erosions in both hands; small effusions in the suprapatellar bursae of both knees and in the ankle joints bilaterally; synovial thickening; blood flow signal grade I-II",
+        "MRI showed osseous and surrounding synovial changes in both wrist joints, suggesting inflammatory changes",
+        "ANA low-titer positive, anti-CCP antibody negative, anti-MCV antibody slightly elevated, HLA-B27 negative",
+        "Multiple cervical lymph node biopsy pathology results and inguinal lymph node biopsy pathology both suggested insufficient evidence of neoplasia, favoring reactive hyperplasia",
+        "Bone marrow biopsy: no obvious lymphocytic proliferation",
+        "Whole-body PET-CT: slightly enlarged lymph nodes anterior and medial to the bilateral sternocleidomastoid muscles in the neck, in the bilateral axillae, and in the bilateral inguinal regions; morphology is acceptable, with no increased glucose metabolism seen, overall favoring benign lesions"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Cefoperazone sodium/sulbactam 3 g IV infusion twice daily for anti-infective therapy, moxifloxacin hydrochloride 0.4 g IV infusion once daily for anti-infective therapy",
+        "Lactated Ringer's Injection 500 ml continued IV infusion, human albumin for protein supplementation, dexamethasone treatment",
+        "After admission to the RICU, he was given plasma transfusion, hepatoprotective therapy, protein supplementation, anticoagulation, improvement of coagulation, prevention of bleeding, and diuresis, along with other supportive and symptomatic treatment to maintain intake-output balance.",
+        "Administered plasma and cryoprecipitate coagulation factors to correct coagulopathy",
+        "Prednisone acetate tablets 40 mg PO qAM, 20 mg PO qPM",
+        "Methotrexate tablets 10 mg orally once weekly on Wednesday",
+        "Folic acid tablets 5 mg PO, 1 tablet every Thursday",
+        "Vitamin D calcium chewable tablets 300 mg orally twice daily, calcitriol soft capsules 0.5 ug orally once daily"
+      ],
+      "treatment_response": [
+        "After 8 days of hospitalization, blood pressure decreased and the patient developed shock, then was transferred to the RICU",
+        "Antirheumatic treatment was administered, and the patient was discharged."
+      ]
+    }
+  }
+}

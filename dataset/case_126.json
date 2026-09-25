@@ -1,0 +1,382 @@
+{
+  "status": "success",
+  "case_id": "case_126",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, born in approximately 780 months before Day 0, was admitted to the Department of Pulmonary and Critical Care Medicine of China-Japan Friendship Hospital on Day 0, with the chief complaint of \"intermittent cough, sputum production, and shortness of breath for more than 3 months.\" Three months before admission, that is, in approximately 3 months before Day 0, the patient developed \"cough and white sticky sputum\" without an obvious trigger, accompanied by \"chest tightness and shortness of breath,\" with no relief after rest. He became short of breath after walking 100 meters on level ground, could lie flat at night, had no fever or hemoptysis, and sought care at a local hospital, where he was given oral anti-infective treatment (details unknown), with no improvement in symptoms. Because the symptom of \"shortness of breath\" gradually worsened, the patient presented to a hospital in Beijing. PET-CT performed on Day -14 showed: a right upper lung mass measuring 4.5 cm*3.8 cm; enlarged mediastinal station 4R, bilateral hilar, and right supraclavicular lymph nodes, all with increased metabolic activity, suspicious for malignancy. Pathology from right supraclavicular lymph node biopsy showed: high possibility of metastasis from lung cancer; combined with immunohistochemistry, poorly differentiated adenocarcinoma was favored. Therefore, the diagnosis was \"right lung adenocarcinoma T2bN3MX.\" On Day -2, on the eve of transfer to a cancer specialty hospital for treatment, the patient again developed sudden dyspnea, and fingertip oxygen saturation dropped sharply. He was emergently sent to our emergency department. Contrast-enhanced chest CT showed: a soft tissue mass in the right upper lobe, approximately 4.8 cm*3.9 cm, with mildly lobulated margins and mild heterogeneous enhancement after contrast administration; CT value was 88 HU; focal airway compression with narrowing; and honeycomb change in the right lower lobe. Multiple enlarged lymph node shadows were seen in the mediastinum and right hilar region. Since disease onset, the patient had lost 3 kg in body weight. Past medical history revealed that the patient had developed \"type 2 diabetes mellitus\" in approximately 4 months before Day 0 and had been taking oral hypoglycemic agents to control blood glucose. Personal history: mainly engaged in farming. Long-term smoking, averaging 40 cigarettes/day since age 25; long-term alcohol use, since age 25, approximately 2-3 liang/day of baijiu. The family kept a dog for 10 years and birds for 2 years. The patient is married with children. His elder sister has \"type 2 diabetes mellitus\"; no other family history. Physical examination on admission: alert and in fair general condition, on continuous nasal cannula oxygen (2 L/min); coarse breath sounds in both lungs, wheezing could be heard; no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iabEaicbHIJyMTKfT9EOO09kG1n3c33OApjFpwSYLOfmmLcQb6ia1dpGkQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 1. Contrast-enhanced chest CT",
+          "local_src": "cleaned_cases_image_cache/093b7fddf5bf6053a92ad957ff1ba8e865d3ce27.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary adenocarcinoma of the right upper lung with mediastinal/hilar/right supraclavicular lymph node metastases",
+          "supporting_evidence": [
+            "PET-CT showed a right upper lung mass measuring 4.5cm*3.8cm, enlarged mediastinal station 4R, bilateral hilar and right supraclavicular lymph nodes, all with increased metabolic activity, suspicious for malignancy",
+            "Pathology of the right supraclavicular lymph node biopsy indicated a high likelihood of metastatic lung cancer; combined with immunohistochemistry, poorly differentiated adenocarcinoma is favored",
+            "Contrast-enhanced chest CT showed a soft-tissue mass in the right upper lobe, measuring approximately 4.8 cm*3.9 cm, with mildly lobulated margins and mild heterogeneous enhancement after contrast administration",
+            "Imaging shows multiple enlarged lymph nodes in the mediastinum and right hilar region.",
+            "The patient has a long-term heavy smoking history and a 3 kg weight loss, consistent with a high-risk background for lung malignancy.",
+            "The attached image shows a right upper paratracheal/right upper lung mass, consistent with imaging findings of pulmonary malignancy."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Fibrotic interstitial lung disease with acute exacerbation (including possible idiopathic pulmonary fibrosis or chronic hypersensitivity pneumonitis)",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT showed honeycombing in the right lower lobe; the attached images show peripheral/basal fibrotic changes in the lower lungs, supporting pre-existing interstitial lung disease.",
+            "On Day -2, the patient developed sudden dyspnea, with a sharp drop in fingertip oxygen saturation, which can be seen in acute exacerbation of interstitial lung disease.",
+            "The patient has kept birds at home for 2 years, with an exposure history relevant to chronic hypersensitivity pneumonitis."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the imaging mainly highlighted a right upper lung mass and lymphadenopathy, and dyspnea could also be explained by tumor-related factors.",
+            "The phase 1 text did not describe bilateral diffuse newly developed ground-glass opacities or progressive dry cough, or other information more supportive of acute exacerbation."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Ventilatory impairment caused by tumor-related central airway compression/obstruction",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT clearly indicated localized tracheal compression and narrowing",
+            "The patient developed sudden dyspnea. On admission physical examination, breath sounds were coarse in both lungs, with audible wheezing, consistent with the clinical manifestations of large airway stenosis.",
+            "Requires continuous oxygen via nasal cannula (2 L/min), indicating existing hypoxemia",
+            "A right upper lung mass and mediastinal/hilar lymph node enlargement can both cause extrinsic airway compression or obstruction."
+          ],
+          "opposing_evidence": [
+            "No obvious atelectasis or post-obstructive consolidation was described in the first-phase information.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute pulmonary embolism",
+          "supporting_evidence": [
+            "The patient has the important thromboembolic risk factor of malignancy.",
+            "On Day -2, sudden onset of dyspnea occurred, with a sharp decline in fingertip oxygen saturation, consistent with a possible presentation of acute pulmonary embolism.",
+            "No edema in either lower extremity on physical examination does not rule out pulmonary embolism"
+          ],
+          "opposing_evidence": [
+            "In the phase I contrast-enhanced chest CT description, no pulmonary arterial filling defect was mentioned.",
+            "The Stage 1 text did not describe chest pain, hemoptysis, tachycardia, or syncope, which would be more supportive of pulmonary embolism."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers + NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (CYFRA21-1, CEA, PRO-GRP)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Right supraclavicular lymph node biopsy + immunohistochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung cancer driver gene testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + stent placement",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS-TBNA needle biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body bone scan",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Ancillary examinations: 1. Arterial blood gas analysis (FiO2 0.29): pH 7.409, pO2 71.1 mmHg, pCO2 46.7 mmHg, HCO3- 29.8 mmHg, Lac 1.5 mmol/L. 2. Complete blood count: WBC 10.15*10^9/L, N 7.93*10^9/L, L 1.29*10^9/L, Hb 125 g/L, Plt 256*10^9/L. 3. Coagulation: D-D 0.4 mg/L, PTA 79%, APTT 45.2 s. 4. Myocardial infarction markers: TnT 0.008 ng/ml, NT-proBNP 61 pg/ml. 5. Blood chemistry: ALT 12 IU/L, AST 11 IU/L, TBA 0.8 umol/L, Cr 60.3 umol/L. 6. Tumor markers: CYFRA21-1 3.51 ng/ml, CEA 4.36 ng/ml, PRO-GRP 25.46 pg/ml.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1ialDVQLteTXqNP351RSfOr0BPbERwctlauYj6gfFNs7DctaEhYfCQCtw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 2 Bronchoscopic stent placement",
+            "local_src": "cleaned_cases_image_cache/1ce845ee48cc2aecc252cd270dc8139468671465.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Acute pulmonary embolism",
+            "evidence": [
+              "Sudden dyspnea, decreased oxygen saturation",
+              "Rapid worsening of shortness of breath",
+              "D-dimer may be mildly elevated"
+            ],
+            "exclusion_reasons": [
+              "Contrast-enhanced chest CT showed no pulmonary arterial filling defects",
+              "D-dimer was only 0.4 mg/L, with no significant elevation.",
+              "Cardiac biomarkers TnT and NT-proBNP were not significantly elevated",
+              "Airway compression and stenosis to clarify the anatomic cause"
+            ]
+          },
+          {
+            "name": "Acute exacerbation of COPD (AECOPD)",
+            "evidence": [
+              "long-term heavy smoking history",
+              "Cough, sputum production, shortness of breath",
+              "Wheezing is audible in both lungs",
+              "Follow-up pulmonary function testing indicated mild obstructive ventilatory dysfunction."
+            ],
+            "exclusion_reasons": [
+              "This episode was sudden fatal dyspnea, inconsistent with typical AECOPD.",
+              "Contrast-enhanced chest CT showed extrinsic compression-induced narrowing of the large airways by the tumor",
+              "No infectious exacerbation trigger; anti-infective therapy ineffective",
+              "Symptoms rapidly improved after airway stent placement, not supporting AECOPD"
+            ]
+          },
+          {
+            "name": "acute heart failure",
+            "evidence": [
+              "Acute dyspnea, hypoxemia",
+              "Advanced age, diabetes mellitus risk factors"
+            ],
+            "exclusion_reasons": [
+              "NT-proBNP was only 61 pg/ml, with no elevation suggestive of heart failure",
+              "No signs of heart failure such as lower extremity edema, pulmonary rales, or cardiac enlargement",
+              "Echocardiography: no abnormalities.",
+              "Symptoms improved immediately after relief of the airway stenosis"
+            ]
+          },
+          {
+            "name": "Severe lung cancer complicated by central airway stenosis",
+            "evidence": [
+              "PET-CT showed a malignant mass in the right upper lung with mediastinal/hilar/supraclavicular lymph node metastases",
+              "Contrast-enhanced chest CT showed a tumor compressing the main airway, with approximately 90% stenosis.",
+              "Acute dyspnea, hypoxemic respiratory failure",
+              "Lymph node biopsy indicated poorly differentiated adenocarcinoma",
+              "ECOG performance status score 3-4, meeting the definition of severe lung cancer"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Severe lung cancer complicated by central airway stenosis",
+        "evidence": [
+          "PET-CT showed a malignant mass in the right upper lung with mediastinal/hilar/supraclavicular lymph node metastases",
+          "Contrast-enhanced chest CT showed a tumor compressing the main airway, with approximately 90% stenosis.",
+          "Acute dyspnea, hypoxemic respiratory failure",
+          "Lymph node biopsy indicated poorly differentiated adenocarcinoma",
+          "ECOG performance status score 3-4, meeting the definition of severe lung cancer"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +4, the patient developed fever. Bronchoscopy was performed again. Bronchoscopy showed a moderate amount of yellow, thick secretions in the bronchial lumens of the right upper lobe, right middle lobe, and left lung; specimens were sent for pathogen testing.",
+          "why_order_this_exam": "The patient has advanced lung cancer complicated by severe central airway stenosis and acute respiratory failure. A metallic covered stent was placed bronchoscopically on Day +3. Fever recurred the next day after the procedure, suggesting a new airway problem on the basis of tumor-related airway stenosis, retained secretions after stent placement, or secondary infection. Repeat bronchoscopy can directly assess stent position and patency, determine whether there is residual or recurrent stenosis, secretion impaction, and infectious changes, and can also remove secretions and obtain specimens for pathogen testing. The purpose of this examination is to determine whether the fever is related to stent-associated airway infection, post-obstructive infection, or retained secretions, while also evaluating subsequent anti-infective and airway management strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing",
+          "basis_in_stage3_input": "On Day +4, the patient developed fever. Bronchoscopy was performed again. Bronchoscopy showed a moderate amount of yellow, thick secretions in the bronchial lumens of the right upper lobe, right middle lobe, and left lung; specimens were sent for pathogen testing.",
+          "why_order_this_exam": "The patient developed fever after advanced lung cancer, acute respiratory failure, and airway stent placement. Bronchoscopy showed a moderate amount of yellow, viscous secretions in multiple bronchi, providing strong evidence of lower respiratory tract infection. Prior oral anti-infective treatment was ineffective, and the patient is currently at high risk of infection due to tumor, airway stenosis, and recent invasive airway manipulation; empiric therapy alone cannot precisely cover the pathogen(s). The purpose of submitting specimens for pathogen testing is to determine whether bacterial or other infection is present and to obtain etiologic evidence, to provide evidence for targeted anti-infective treatment, and to help distinguish simple tumor-related fever from infectious fever, thereby guiding the timing of subsequent chemotherapy, radiotherapy, and stent management and reducing treatment risk.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathology of right supraclavicular lymph node biopsy",
+          "basis_in_stage3_input": "Pathologic diagnosis of lung cancer: pathology from a biopsy of a right supraclavicular lymph node at an outside hospital showed clusters of atypical cells with marked nuclear atypia and pleomorphism, with prominent nucleoli.",
+          "why_order_this_exam": "The patient has a right upper lung mass; enlarged mediastinal, bilateral hilar, and right supraclavicular lymph nodes; and increased metabolic activity on PET-CT, accompanied by progressive dyspnea, weight loss, and a long history of heavy smoking. Malignancy is highly suspected, but histologic confirmation must be obtained before treatment. The right supraclavicular lymph node is an imaging-confirmed involved lesion that is relatively accessible; biopsy is less invasive and carries lower risk than directly addressing the central airway tumor, and can obtain pathologic evidence more safely in the context of the patient's prior sudden hypoxemia and main airway stenosis. This examination is primarily intended to determine the nature of the lesion, confirm whether it represents metastatic lung cancer, and provide a basis for clinical staging and subsequent decisions regarding systemic therapy and chemoradiotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: TIF-1 (partial weak+), Napsin A (-), p53 (diffuse strong+), Ki-67 (80%+), CEA (monoclonal antibody) (diffuse strong+), CD5 (occasional+), CgA (-), CD56 (-), Syn (partial+), pan-CK (diffuse moderate-to-strong+), CK7 (partial weak+), P40 (few+), CK5/6 (occasional+), ALK (1A4) (-), Ber-EP4 (diffuse strong+)",
+          "why_order_this_exam": "In this case, the presence of atypical cell clusters based on morphology alone is insufficient to accurately distinguish the subtype of non-small cell lung cancer, especially since the patient is a long-term male smoker and imaging shows a right upper lung mass with compression of the main airway; clinically, it should be differentiated from adenocarcinoma, squamous cell carcinoma, small cell lung cancer, and even poorly differentiated tumors. Immunohistochemistry, in conjunction with results for TTF-1, CK7, P40, CK5/6, and neuroendocrine markers, can further determine the direction of tumor differentiation and origin, clearly indicating non-small cell lung cancer and favoring poorly differentiated adenocarcinoma; meanwhile, Ki-67 and p53 are also helpful in assessing tumor proliferative activity and biological behavior. This examination directly affects definitive classification, exclusion of important differential diagnoses, and determination of the subsequent chemotherapy regimen and comprehensive treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung cancer driver gene testing",
+          "basis_in_stage3_input": "Lung cancer driver gene testing was negative.",
+          "why_order_this_exam": "The patient has been confirmed by pathology and immunohistochemistry to have non-small cell lung cancer, favoring poorly differentiated adenocarcinoma, with N3 lymph node metastasis, consistent with advanced locally progressive lung cancer requiring prompt development of a systemic treatment plan. For adenocarcinoma-lineage lung cancer, driver gene status directly determines whether targeted therapy can be selected and also affects the prioritization of subsequent comprehensive treatment strategies such as chemotherapy and radiotherapy. Although the patient has severe manifestations and acute respiratory failure, molecular subtyping still needs to be completed as soon as possible once the airway issue is relieved. The clinical purpose of this test is to identify actionable targets and rule out opportunities for targeted therapy; a negative result would support shifting to a treatment decision primarily based on chemotherapy/chemoradiotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "basis_in_stage3_input": "Contrast-enhanced brain MRI showed no metastases.",
+          "why_order_this_exam": "The patient has confirmed lung cancer with metastases to the mediastinal, bilateral hilar, and right supraclavicular lymph nodes. The tumor is at an advanced stage and there is a risk of brain metastasis. The presence or absence of brain metastasis would directly alter the M stage, overall prognosis, and treatment strategy, such as whether intracranial local therapy is needed, whether the arrangement of concurrent chemoradiotherapy would be affected, and the overall treatment intensity. Contrast-enhanced brain MRI has higher sensitivity than conventional CT for detecting brain metastases and can be used for systematic staging evaluation before the patient develops definite neurologic symptoms. This examination is mainly used to complete staging and exclude intracranial metastasis, in order to support the final staging of this case as M0 and provide a basis for subsequent aggressive multimodality treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "basis_in_stage3_input": "After pulmonary function testing, the patient was found to have mild obstructive ventilatory dysfunction.",
+          "why_order_this_exam": "The patient had a long history of heavy smoking and, before admission, had persistent cough, sputum production, and shortness of breath on exertion; wheezing was heard on physical examination, and there was ultimately severe stenosis of the main airway and acute respiratory failure. At the same time, chest imaging showed honeycomb changes in the right lower lobe, suggesting that, in addition to the tumor, there might also be underlying chronic lung disease. The purpose of pulmonary function testing is to assess the degree of impairment in baseline ventilatory function, determine whether obstructive ventilatory dysfunction such as COPD is present in addition to tumor-related airway stenosis, and provide a basis for assessing respiratory status after stent placement, inhaled bronchodilator therapy, pulmonary rehabilitation, and subsequent tolerance to chemoradiotherapy. This examination helps explain the components of the symptoms, assess treatment risk, and optimize long-term respiratory management.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +3, metallic covered stent placement was performed under bronchoscopy. Bronchoscopy showed compression-induced narrowing of the right main bronchial orifice, with approximately 90% stenosis; the right upper lobe bronchial orifice was also compressed and narrowed; the remaining bronchial lumens were patent. The distal end of the stent was located 1 cm above the carina, and the proximal end was 7 cm below the glottis. The stent lumen was patent, but there remained segmental compression-induced stenosis of approximately 60%. On Day +4, the patient developed fever. Repeat bronchoscopy was performed. Bronchoscopy showed a moderate amount of yellow, viscous secretions in the bronchial lumens of the right upper lobe, right middle lobe, and left lung, which were sent for pathogen testing. Lung cancer pathology diagnosis: pathology from an outside hospital right supraclavicular lymph node biopsy showed clusters of atypical cells with marked nuclear atypia and pleomorphism, with prominent nucleoli; immunohistochemistry results: TIF-1 (partial weak+), NapsinA (-), p53 (diffuse strong+), Ki-67 (80%+), CEA (monoclonal) (diffuse strong+), CD5 (individual+), CgA (-), CD56 (-), Syn (partial+), CK cocktail (diffuse moderate-strong+), CK7 (partial weak+), P40 (few+), CK5/6 (individual+), ALK (1A4) (-), Ber-EP4 (diffuse strong+), suggesting non-small cell lung cancer, favoring poorly differentiated adenocarcinoma; lung cancer driver gene testing was negative. Contrast-enhanced brain MRI showed no metastases. Pulmonary function testing showed mild obstructive ventilatory dysfunction.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaZurYtA5QMrW6icfdde9pSNAcXaux8PvoULNUXDlPBon5EjRuzyOnGWA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3 Bronchoscopic stent removal",
+          "local_src": "cleaned_cases_image_cache/4d24632fc6a8a8a382a299b9095589f22cc33d61.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaibf11eWBuib2oeOLAN4qu9rODbaMJn9KuavTJRc8vRk8qDytaSV43ODQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-1 Evaluation after the 4th cycle of the EP regimen",
+          "local_src": "cleaned_cases_image_cache/dd455de019b59182ab1a4fd547deecc131a8f79b.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaic3IxlAaYRpDia7O5C5bf0DYZbNRG5ZC4ovk1vS5iaGPyjHIbqywDnYVQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-1 Evaluation after the 4th cycle of the EP regimen",
+          "local_src": "cleaned_cases_image_cache/c4c6aa337be6e2633ebaaafcf82cda785f5be673.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaRzMAoficFsicMS2sUoqSds4slKPyqBbuhyM1CdOdhLbSXafr6PMJK9EA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-2 Assessment 1 month after induction chemotherapy + concurrent chemoradiotherapy",
+          "local_src": "cleaned_cases_image_cache/aa632b9ef6e3b7f84ccba95e6e34c83e17e4e71a.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaVvt7M9zjy5LGkpJrxEFwKQIyXLev00ap9FqSyqwiaicJNX0qwgXp8aFA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-3 Evaluation at 6 months after induction chemotherapy + concurrent chemoradiotherapy",
+          "local_src": "cleaned_cases_image_cache/0ccac1e4fc1a36f8fb3b66b71bdec1d27d824a6c.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1ia1jH50VBoByKxEic5MZn5clBL3UiaWsI4QNZkXQzh7oRDPoD6mWiaKMFMg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-4 9 months after induction chemotherapy + concurrent chemoradiotherapy",
+          "local_src": "cleaned_cases_image_cache/0eba6048530a7faf09cdf01885db0fd31a6ae998.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1ia5pgsLQbX0Cpcky0R9xNp0iciaIT2HU8WVGFHWheTT68bT8FQGe8czBzA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-5. Evaluation at 12 months after induction chemotherapy + concurrent chemoradiotherapy",
+          "local_src": "cleaned_cases_image_cache/ae831c9973a3b75db57bdc9bb052c8fbdb487132.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaeutCGrN68swY2aevSjn2p0g6cgbJ6ud7q5ZmJhSPvic94a7TS5WV6Hg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-6. Evaluation at 23 months after induction chemotherapy plus concurrent chemoradiotherapy",
+          "local_src": "cleaned_cases_image_cache/c00218696e521ef46c1388272685e2c0ae31b622.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1ia3iapkdoxQOV8GhKAumdZGyqq099ibguv4BJsFkxibPD6Eyiccbc6Iq9EbA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-7 Evaluation at 31 months after 6 cycles of the EP regimen",
+          "local_src": "cleaned_cases_image_cache/ed997cb5f1f44a839c05cb0fd512a3f7463e94c2.jpg"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iaxukf0AVl2grrTHp9h5k2arUlV7H9mPrTp63HLakGenodaWhuJNVJwQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 4-8 Evaluation at 31 months after treatment",
+          "local_src": "cleaned_cases_image_cache/a08339e28cab86befaf888169443f6882909d8fb.jpg"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstI5M9CqB5MXNsvK1aUFGE1iau3OBM8atVGv0RT1BmO30KOcsSoqokxiaTWqY8cuD7ib2HIpT9aVbGS0g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Based on the patient's medical history, risk factors, and ancillary test results",
+          "local_src": "cleaned_cases_image_cache/2f4f33ed160b1caae9bb83c0ce3c14991840aab8.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Advanced lung cancer, main airway stenosis, acute respiratory failure; right lung adenocarcinoma (cT2bN3M0, stage IIIC, driver gene negative) with mediastinal lymph node metastasis, bilateral hilar lymph node metastases, and right supraclavicular lymph node metastasis; chronic obstructive pulmonary disease",
+      "diagnostic_basis": [
+        "Pathology and immunohistochemistry results from a right supraclavicular lymph node biopsy at an outside hospital indicated non-small cell lung cancer, favoring poorly differentiated adenocarcinoma",
+        "Lung cancer driver gene testing was negative",
+        "Contrast-enhanced brain MRI showed no metastases",
+        "Pulmonary function testing showed mild obstructive ventilatory dysfunction.",
+        "Contrast-enhanced chest CT showed a soft tissue mass in the right upper lobe, with focal tracheal compression and narrowing."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Bedside left mainstem bronchial intubation connected to mechanical ventilation for assisted ventilation",
+        "Under bronchoscopy, metallic covered stent placement",
+        "Anti-infective treatment was given based on the pathogen results",
+        "Reduced-dose EP chemotherapy regimen (etoposide 100 mg, D1-4 + cisplatin 90 mg, D1)",
+        "Bronchoscopic stent removal",
+        "Concurrent chemoradiotherapy, regimen: GTV1 (right supraclavicular lymph node metastatic lesion) = GTV2 (mediastinal lesion and bilateral hilar lymph node metastatic lesions) = 60Gy/30F; PTV1 = PTV2 = 54Gy/30F",
+        "Inhale dual bronchodilators, continue smoking cessation",
+        "Receive the influenza vaccine once annually and the pneumococcal vaccine once every 5 years",
+        "Actively participates in pulmonary rehabilitation exercises on a regular basis"
+      ],
+      "treatment_response": [
+        "Vital signs stable",
+        "Normal body temperature; pulmonary infection recovered",
+        "The patient's PS recovered to 2 points",
+        "Successfully weaned from mechanical ventilation and extubated",
+        "The stent was removed successfully, with no bleeding.",
+        "The patient had a good response to 2 cycles of chemotherapy.",
+        "Achieved a PFS of up to 31 months"
+      ]
+    }
+  }
+}

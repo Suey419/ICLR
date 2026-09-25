@@ -1,0 +1,425 @@
+{
+  "status": "success",
+  "case_id": "case_125",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 43 years old, from Shaanxi, was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"intermittent fever for more than 40 days, worsening with intermittent cough for 5 days.\" History of present illness: The patient developed intermittent fever in early period, approximately 1 month before Day 0 after an episode of catching a cold, with a maximum temperature of 39.3°C. She took antibiotics on her own, but the symptoms did not improve. On Day -5, she developed intermittent cough and night sweats and presented to Shaanxi Armed Police Hospital, where chest CT showed no obvious abnormality. She then presented to our department for further diagnosis and treatment. Since the onset of illness, the patient has occasionally had shortness of breath after activity, without chest pain, sputum production, hemoptysis, or other discomfort; her mental status and appetite were poor, bowel and bladder function were normal, and there was no obvious change in weight. Past history/personal history/family history: Denies a history of \"hypertension, diabetes, coronary heart disease,\" and other diseases. Denies a history of infectious diseases such as hepatitis and TB, with no history of trauma or blood transfusion, and denies drug or food allergies; denies exposure to dust, toxins, or radioactive substances, no history of contact with infectious diseases, no exposure to epidemic areas, no history of consuming raw fish or raw meat, and no smoking or alcohol use. Both father and mother are healthy. Denies any family history of hereditary diseases, infectious diseases, or other special diseases. Physical examination: T 36.8℃, P 96/min, R 24/min, BP 100/70mmHg. Lips without cyanosis. No pharyngeal congestion, no bilateral tonsillar enlargement, no jaundice, rash, or petechiae of the skin over the whole body, and no enlarged superficial lymph nodes palpable throughout the body. No thoracic deformity, symmetric bilateral chest expansion, tactile fremitus not increased or decreased, bilateral lungs resonant to percussion, decreased breath sounds in both lungs, no dry or moist rales, no Velcro rales, and no pleural friction rub. No precordial bulge, apical impulse located at the fifth intercostal space 1 cm medial to the left midclavicular line, no thrills palpable, cardiac borders not enlarged, heart rate 96/min, regular rhythm, no obvious increase or decrease in heart sounds, and no pathologic murmur heard in any valvular auscultation area. Abdomen flat and soft, no hepatosplenomegaly, no abdominal tenderness or rebound tenderness. No edema of both lower extremities.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary TB (early stage or imaging findings not yet typical)",
+          "supporting_evidence": [
+            "Intermittent fever for more than 40 days, prolonged disease course",
+            "Night sweats",
+            "Intermittent cough for the past 5 days",
+            "Occasional shortness of breath after activity",
+            "Symptoms did not improve after self-administered antibiotics.",
+            "Chest CT on Day -5 showed no obvious abnormalities, but early or occult TB cannot be completely ruled out based on the information from the first stage alone."
+          ],
+          "opposing_evidence": [
+            "Denies a history of TB and other infectious diseases",
+            "No history of contact with infectious diseases",
+            "Chest CT showed no obvious abnormality.",
+            "No cough or sputum production; blood-streaked sputum",
+            "No significant change in body weight",
+            "Pulmonary examination revealed no dry or moist rales."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Atypical pathogen pneumonia or acute bronchopulmonary infection (early/occult type)",
+          "supporting_evidence": [
+            "Intermittent fever after a cold exposure",
+            "Intermittent cough for the past 5 days",
+            "Occasional shortness of breath after activity",
+            "Respiratory rate 24 breaths/min, increased",
+            "Decreased breath sounds in both lungs"
+          ],
+          "opposing_evidence": [
+            "Fever persisting for more than 40 days, with a disease course longer than that of typical acute community-acquired pulmonary infection",
+            "Symptoms did not improve after self-administered antibiotics.",
+            "Chest CT showed no obvious abnormality.",
+            "No cough or sputum production, chest pain, or blood-streaked sputum",
+            "No dry or moist rales were heard in the lungs"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Infective endocarditis",
+          "supporting_evidence": [
+            "Intermittent fever for more than 40 days, consistent with prolonged fever",
+            "Symptoms did not improve after self-administered antibiotics.",
+            "Occasional shortness of breath after activity",
+            "Chest CT showed no obvious abnormality, suggesting that the cause of fever may not be due to obvious pulmonary consolidation."
+          ],
+          "opposing_evidence": [
+            "No pathologic murmurs were heard on cardiac auscultation in any valvular area.",
+            "No rash or petechiae",
+            "No enlarged lymph nodes were palpable throughout the body",
+            "No clear history of underlying heart disease",
+            "Stage 1 information did not provide risk factors such as intravenous drug use, invasive procedures, or prosthetic valves."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Hematologic malignancies such as lymphoma",
+          "supporting_evidence": [
+            "Fever for more than 40 days",
+            "accompanied by night sweats",
+            "Poor mental status and poor appetite",
+            "Chest CT showed no obvious abnormalities; extrapulmonary causes of prolonged fever should be considered"
+          ],
+          "opposing_evidence": [
+            "No significant change in body weight",
+            "No enlarged lymph nodes were palpable throughout the body",
+            "Abdominal examination showed no hepatosplenomegaly",
+            "In the first stage, no rash, obvious manifestations of anemia, or bleeding tendency were provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Connective tissue disease or systemic inflammatory disease (such as adult-onset Still disease, vasculitis, systemic autoimmune disease)",
+          "supporting_evidence": [
+            "Persistent fever for more than 40 days",
+            "No significant improvement with antibiotic treatment",
+            "Chest CT showed no obvious abnormalities, suggesting a possible noninfectious cause of fever",
+            "Occasional shortness of breath after activity"
+          ],
+          "opposing_evidence": [
+            "No rash or petechiae on the skin of the entire body",
+            "No enlarged lymph nodes identified",
+            "No chest pain",
+            "Abdominal examination showed no hepatosplenomegaly",
+            "In the first stage, no relevant clues such as arthralgia, myalgia, oral ulcers, photosensitivity, or hematuria were provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary embolism or other pulmonary vascular diseases",
+          "supporting_evidence": [
+            "Occasional shortness of breath after activity",
+            "Respiratory rate 24 breaths/min",
+            "Even when chest CT shows no obvious abnormalities, pulmonary vascular lesions still cannot be completely ruled out based solely on the first-stage information."
+          ],
+          "opposing_evidence": [
+            "Intermittent fever for more than 40 days as the main manifestation, not consistent with the common presentation pattern of typical acute pulmonary embolism",
+            "No chest pain or hemoptysis",
+            "No edema in both lower extremities",
+            "No thrombotic risk factors such as prolonged bed rest, surgery, malignancy, or pregnancy were provided.",
+            "No definite abnormal findings on pulmonary physical examination"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complete blood count + CRP + ESR + PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis + stool routine examination + occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer + fibrinogen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac enzyme panel + BNP + troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulins + complement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function panel (8 tests)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody panel (ANA, ANCA, vasculitis, rheumatoid, anti-CCP, anticardiolipin antibody)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Interleukin-6",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture + sputum culture + urine culture + bone marrow culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal G test, GM test, and fungal culture",
+          "requirement": "optional"
+        },
+        {
+          "exam": "EBV antibody + EBV-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen nucleic acid test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis-related tests (TB-DNA, tuberculosis antibody, acid-fast bacilli)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Ultrasound of the cervical and supraclavicular lymph nodes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bone marrow aspiration + biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: 1. Routine tests: arterial blood gas analysis; complete blood count and inflammatory markers; routine urinalysis, routine stool test + OB normal. Biochemical indices: globulin 33.6 g/L, direct bilirubin 7.93 umol/L; coagulation function: plasma fibrinogen 4.98 g/L; fibrin degradation products 5.22 ug/mL; D-dimer 1.158 ug/mL; cardiac enzyme panel: α-hydroxybutyrate dehydrogenase 196 U/L; myocardial infarction markers: BNP 567 pg/mL, Tn 0.1 ng/mL; immunoglobulin and complement panel: complement C1 inhibitor 0.4 g/L; thyroid function panel: thyroid-stimulating hormone 4.49 uIU/mL; anti-cyclic citrullinated peptide antibody, anti-streptolysin O, rheumatoid factor, antinuclear antibody titer, anti-double-stranded DNA titer, ANA autoantibody panel, sex hormone panel, PCT, infection panel, and total IgE were normal. 2. Pathogen and tumor-related markers: infection panel, bone marrow culture, blood cultures (4 times), urine culture, sputum culture, epidemic hemorrhagic fever antibody (-). Fungal GM test, G test, and fungal culture (-). Bacterial smear showed Gram-negative and Gram-positive bacilli and cocci. Viral EB virus antibody: EB viral capsid antigen IgG and EB viral nuclear antigen IgG (+); EBV-DNA (-); respiratory pathogen nucleic acid testing and mycobacterial species identification (-). TB-DNA (-), qualitative TB IgG antibody, acid-fast bacilli (-). Pulmonary tumor markers: CEA 1.16 ng/mL; FRT 168.5 ug/L; CA724 13.15. 3. Immune-related markers: interleukin-6 53.51 pg/mL. Full immunoglobulin panel negative. ANA, ANCA, vasculitis panel, rheumatoid factor, antinuclear antibody titer, anti-double-stranded DNA titer, ANA autoantibody panel, anti-CCP, anticardiolipin antibody, parathyroid hormone, complement C3, complement C4, TORCH panel, IgE, Widal test, and Weil-Felix test (-). 4. Ultrasound: no definite enlarged lymph nodes in the neck or supraclavicular fossae. Echocardiography: roughly normal. Abdominal ultrasound: uterus normal in size, uterine fibroid, small amount of pelvic fluid, liver, gallbladder, pancreas, spleen, and both kidneys normal in size, with no abnormality on imaging. Pulmonary function test: mildly decreased DLCO, mildly decreased diffusing capacity, mildly reduced diffusing function, otherwise roughly normal. Chest CT: subpleural exudative changes in the bilateral lower lobes, small pericardial effusion, and small bilateral pleural effusions.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRyj1VjxE1Yl8ztIszNgJUrjlFBPTtygiczsicCpUKcDD1mcVNBYk3Qh6mw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "[Complete blood count and inflammatory markers]",
+            "local_src": "cleaned_cases_image_cache/baacc280d8482c226d9fcebc52f2a17d54b7fc73.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRyRtWBsMjJypTJ6dwJAUW1ibgxTpnbmjicah3hMV5E9dZXdPibdC5Ria8RTA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "[Urinalysis, stool routine examination + OB] normal.",
+            "local_src": "cleaned_cases_image_cache/0443a489ba63829505b90a59729fa6e8ad51b52c.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRy4Bo0haS0PsZPiaOfTB9Bantz2wibFXEoKicswWw9VF0tZRR2xXrQVPBbA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "Figure 1. Chest CT: bilateral lower lobe infiltrates, small bilateral pleural effusions, pericardial effusion",
+            "local_src": "cleaned_cases_image_cache/b7a037751ba2a3984cf4e8485e569b4223b87d19.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tuberculosis",
+            "evidence": [
+              "Acute onset, with clinical manifestations of intermittent fever and intermittent cough",
+              "Chest CT showed: subpleural exudative changes in the bilateral lower lobes, small pericardial effusion, small bilateral pleural effusions"
+            ],
+            "exclusion_reasons": [
+              "No fatigue, night sweats, blood-streaked sputum, weight loss, chills, myalgia, generalized bone and joint symptoms, rash, or enlarged lymph nodes",
+              "TB-DNA, qualitative tuberculosis IgG antibody, acid-fast bacilli (-)"
+            ]
+          },
+          {
+            "name": "Infective endocarditis",
+            "evidence": [
+              "Young woman, prolonged duration of fever, small amount of pericardial effusion"
+            ],
+            "exclusion_reasons": [
+              "No anemia, skin or mucosal petechiae, splenomegaly, microscopic hematuria, cardiac murmurs, etc.",
+              "Echocardiography: approximately normal",
+              "Tests for other infectious diseases, such as Brucella and hemorrhagic fever antibodies, were both (-)"
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Intermittent fever; fever of unknown origin is also one of the initial presenting symptoms of lymphoma."
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as lymphadenopathy, night sweats, weight loss, chest tightness, chest pain, dyspnea, fatigue, or pruritus."
+            ]
+          },
+          {
+            "name": "Connective tissue disease",
+            "evidence": [
+              "Middle-aged woman with a prolonged history of intermittent fever"
+            ],
+            "exclusion_reasons": [
+              "No prior history of immune system-related disease",
+              "ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+              "Chest CT also does not support this diagnosis"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tuberculosis",
+        "evidence": [
+          "Acute onset, with clinical manifestations of intermittent fever and intermittent cough",
+          "Chest CT showed: subpleural exudative changes in the bilateral lower lobes, small pericardial effusion, small bilateral pleural effusions"
+        ],
+        "exclusion_reasons": [
+          "No fatigue, night sweats, blood-streaked sputum, weight loss, chills, myalgia, generalized bone and joint symptoms, rash, or enlarged lymph nodes",
+          "TB-DNA, qualitative tuberculosis IgG antibody, acid-fast bacilli (-)"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Infective endocarditis",
+        "evidence": [
+          "Young woman, prolonged duration of fever, small amount of pericardial effusion"
+        ],
+        "exclusion_reasons": [
+          "No anemia, skin or mucosal petechiae, splenomegaly, microscopic hematuria, cardiac murmurs, etc.",
+          "Echocardiography: approximately normal",
+          "Tests for other infectious diseases, such as Brucella and hemorrhagic fever antibodies, were both (-)"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Intermittent fever; fever of unknown origin is also one of the initial presenting symptoms of lymphoma."
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as lymphadenopathy, night sweats, weight loss, chest tightness, chest pain, dyspnea, fatigue, or pruritus."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Connective tissue disease",
+        "evidence": [
+          "Middle-aged woman with a prolonged history of intermittent fever"
+        ],
+        "exclusion_reasons": [
+          "No prior history of immune system-related disease",
+          "ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+          "Chest CT also does not support this diagnosis"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bone marrow cytology examination",
+          "basis_in_stage3_input": "Bone marrow aspiration: bone marrow cytologic examination: decreased bone marrow cellularity",
+          "why_order_this_exam": "The patient presented with fever for more than 40 days as the প্রধান manifestation. Early routine infectious disease, autoimmune, and tumor-related screening did not identify a clear cause. The differential diagnosis at one point required evaluation for hematologic diseases such as lymphoma and other bone marrow-involving diseases associated with fever of unknown origin. Bone marrow cytology can assess bone marrow proliferative activity, the status of trilineage hematopoiesis, and whether there are abnormal cells, parasites, or evidence of bone marrow suppression, and is used to explain the cause of prolonged fever with poor general condition and to help exclude hematologic malignancies, bone marrow infection, or other bone marrow lesions. In this case, the results suggested decreased bone marrow proliferation; although this did not support definite malignant infiltration, it provided a basis for subsequently shifting the diagnostic focus to an infectious etiology rather than a hematologic malignancy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "Bone marrow aspiration: Bone marrow smear: 1. Hypocellular marrow, granulocytic series accounts for 73%, erythroid series accounts for 7.5%; 2. Relative hyperplasia of the granulocytic series with generally normal morphology; 3. Decreased erythroid proliferation, mature erythrocytes generally normal; 4. Slight morphologic abnormalities in lymphocytes and monocytes; 5. Megakaryocytic series: 5 cells, platelets readily seen; 6. No parasites or abnormal cells seen.",
+          "why_order_this_exam": "In the setting of prolonged fever, night sweats, poor appetite, and poor mental status, with initially atypical chest CT findings and repeatedly negative peripheral pathogen studies, bone marrow smear was an important specimen for further investigation of the cause of fever. This examination allows more detailed assessment of the proportion and morphology of the granulocytic, erythroid, and megakaryocytic lineages, to determine whether leukemia, bone marrow involvement by lymphoma, hemophagocytic cell-related changes, parasitic infection, or infiltration by atypical cells is present, and provides mutual corroboration with bone marrow cell examination. In this case, the smear showed decreased bone marrow proliferation, relatively active granulocytic lineage with generally normal morphology, decreased erythroid lineage, and no parasites or atypical cells seen, which helped reduce the likelihood of hematologic malignancy and parasitic infection and supported continued focus on occult infection, especially the subsequently confirmed bacteremia and infective endocarditis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac biomarkers",
+          "basis_in_stage3_input": "Repeat testing of myocardial infarction markers: BNP 367 pg/ml.",
+          "why_order_this_exam": "During the course of the illness, the patient had shortness of breath after activity. Chest CT showed a small amount of pericardial effusion. Earlier myocardial infarction markers showed elevated BNP and mildly abnormal troponin. In the setting of prolonged fever, infection-related cardiac involvement should be considered. The purposes of repeating myocardial infarction markers are: first, to assess whether there is myocardial injury, increased cardiac functional load, or cardiac involvement associated with infective endocarditis; second, to provide a basis for subsequent cardiac imaging studies and treatment risk assessment; third, to dynamically assess disease severity in conjunction with the clinical course. Although this test cannot directly confirm infective endocarditis, it can suggest whether the heart has already been affected by infection or inflammation, thereby prompting further echocardiography to look for valvular vegetations and helping assess whether more aggressive anti-infective therapy and cardiothoracic surgical intervention are needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "BNP",
+          "basis_in_stage3_input": "Repeat testing of myocardial infarction markers: BNP 367 pg/ml.",
+          "why_order_this_exam": "After prolonged fever, the patient developed shortness of breath on exertion. Chest CT already showed a small pericardial effusion and small bilateral pleural effusions, suggesting possible circulatory load changes or infection-related cardiac involvement. BNP is used to assess ventricular wall tension and cardiac functional load, helping determine whether the shortness of breath is due only to respiratory infection or whether it is already complicated by impaired cardiac function, valvular disease, or infective endocarditis-related hemodynamic changes. BNP was previously markedly elevated; repeat BNP testing can monitor the dynamic trend, assess disease severity and treatment response, and provide support for whether to further complete echocardiography, strengthen monitoring, and refer to cardiac surgery. Combined with the subsequent finding of mitral valve vegetation formation, BNP testing has important value in identifying cardiac involvement caused by infective endocarditis.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bacterial smear",
+          "basis_in_stage3_input": "Bacterial smear result: G-, + bacilli and cocci observed.",
+          "why_order_this_exam": "The patient had persistent fever for more than 40 days, and empiric antibiotic therapy was ineffective. The first 4 blood cultures and multiple pathogen tests did not identify a pathogen, while chest CT showed subpleural exudative lesions and small pleural and pericardial effusions; clinically, it was necessary to continue actively searching for evidence of infection. A bacterial smear can rapidly provide information on whether bacteria are present and the approximate bacterial group before culture results become available, helping determine that the fever is more suggestive of bacterial infection rather than TB, fungal infection, viral infection, or a noninfectious disease, and providing early clues for adjustment of empiric antibacterial therapy. Although the smear only showed G-, + bacilli and cocci, with limited specificity, in the setting of prolonged fever of unknown origin it suggested the possibility of bacterial infection, supporting repeated submission of blood cultures and combined evaluation with echocardiography to identify the infectious focus, and it laid the groundwork for the subsequent confirmed diagnosis of Haemophilus parainfluenzae bacteremia and infective endocarditis.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "5th blood culture result: Haemophilus parainfluenzae detected.",
+          "why_order_this_exam": "For patients with prolonged fever, poor response to antibiotics, and a period during which infective endocarditis was considered, blood culture is one of the most critical etiologic tests. In this patient, early chest imaging was atypical, and evaluations for TB, fungi, viruses, autoimmune disease, and tumor mostly did not indicate a definite cause. Later, clues such as pericardial effusion and exertional shortness of breath suggested that repeated blood cultures were needed to improve the detection rate. The clinical goals of blood culture are to determine whether persistent bacteremia is present, identify the causative bacterial species, jointly fulfill the diagnostic criteria for infective endocarditis together with echocardiographic findings, and provide specimen sources for subsequent antimicrobial susceptibility testing and precise anti-infective treatment. In this case, the 5th blood culture detected Haemophilus parainfluenzae, directly confirming bacteremia, and, together with mitral valve vegetation, completed the key diagnostic confirmation pathway for infective endocarditis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Drug susceptibility testing",
+          "basis_in_stage3_input": "Sensitive to levofloxacin, ampicillin/sulbactam, meropenem, azithromycin, and ceftriaxone sodium.",
+          "why_order_this_exam": "The patient had a prolonged febrile course, prior self-administered antibiotic therapy was ineffective, and the final blood culture had confirmed Haemophilus parainfluenzae bacteremia. The infectious focus was located on the cardiac valve, constituting a severe infection that requires adequate-dose, adequate-duration, targeted antimicrobial therapy. The purpose of antimicrobial susceptibility testing is to assess the pathogen's susceptibility to commonly used antimicrobial agents after pathogen identification, to avoid continuing empiric, non-targeted therapy, to reduce the risks of treatment failure, persistent bacteremia, vegetation enlargement, embolization, and valvular destruction, and to provide a basis for whether to choose broad-spectrum agents or a narrow-spectrum regimen. The results showed susceptibility to multiple drugs, directly guiding the clinical selection of meropenem for anti-infective treatment, and were consistent with the patient's response of normalization of body temperature after treatment, reflecting the key value of this test for treatment decision-making and assurance of therapeutic efficacy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "basis_in_stage3_input": "Repeat echocardiography showed: mitral valve vegetation formation (7*8 mm).",
+          "why_order_this_exam": "The patient had prolonged persistent fever, and routine examinations failed to explain the cause. Exertional shortness of breath, elevated BNP, and a small pericardial effusion on chest CT also developed. Although the initial echocardiogram was roughly normal and physical examination revealed no obvious murmur, infective endocarditis remained an important differential diagnosis. Echocardiography is the core examination for identifying valvular vegetations, valvular regurgitation, periannular complications, and assessing cardiac function. It can directly answer the key clinical question of whether infective endocarditis is present, and helps determine the lesion location, vegetation size, embolic risk, and whether cardiothoracic surgical intervention is needed. The need for repeat follow-up lies in that early vegetations may be small or not detected, but may gradually become apparent as the disease course evolves. In this case, repeat examination identified a 7×8 mm vegetation on the mitral valve, which together with positive blood cultures constituted decisive evidence for the confirmed diagnosis of infective endocarditis and directly affected the subsequent anti-infective regimen and referral to cardiac surgery.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bone marrow aspiration: bone marrow cell examination: decreased bone marrow cellularity; bone marrow smear: 1. Decreased bone marrow cellularity, granulocytic series 73%, erythroid series 7.5%; 2. Relatively active granulocytic hyperplasia with generally normal morphology; 3. Decreased erythroid hyperplasia, mature erythrocytes generally normal; 4. Abnormal morphology of lymphocytes and monocytes; 5. Megakaryocytic series: 5 cells, platelets readily seen; 6. No parasites or special cells seen. Repeat myocardial infarction markers: BNP 367 pg/ml. Bacterial smear report: G-, + bacilli and cocci seen. The 5th blood culture report: Haemophilus parainfluenzae detected. Sensitive to levofloxacin, ampicillin/sulbactam, meropenem, azithromycin, and ceftriaxone sodium. Repeat echocardiography showed: mitral valve vegetation formation (7*8mm).",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRyxMPsa4dpia3hibtZvYLhSrY66KXfP1pP9xfqpmjtzsgkIsyFmHRrtWQw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3 Echocardiography: mitral valve vegetation formation",
+          "local_src": "cleaned_cases_image_cache/479529c426cefc1ff56f8885e554fc956d1c0b8e.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKpp3EFTUo1pqhGOIAbsCRycKpoB3lsaehTAYWGV6sK0ahbae2ibxy8tRfTyNSkvZKydm5HkWMiaibQg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "The patient had an acute onset, with clinical manifestations including intermittent fever and intermittent cough.",
+          "local_src": "cleaned_cases_image_cache/dad51802e5e2a00169342822f81f57c6b9412c10.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Infective endocarditis, bacteremia (Haemophilus parainfluenzae)",
+      "diagnostic_basis": [
+        "The 5th blood culture grew Haemophilus parainfluenzae, supporting a diagnosis of bacteremia.",
+        "Repeat echocardiography showed: mitral valve vegetation formation (7*8 mm); in conjunction with the medical history, infective endocarditis was considered."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "According to the blood culture antimicrobial susceptibility results, meropenem 1.0 g/dose 3 times/day was given for anti-infective and symptomatic treatment.",
+        "Further evaluation in the Department of Cardiac Surgery"
+      ],
+      "treatment_response": [
+        "After 4 days of treatment, the patient's body temperature returned to normal; repeat ESR was 81 mm/hr."
+      ]
+    }
+  }
+}

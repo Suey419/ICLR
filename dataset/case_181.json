@@ -1,0 +1,290 @@
+{
+  "status": "success",
+  "case_id": "case_181",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Patient Tong, 41 years old, was admitted to the Department of Respiratory and Critical Care Medicine of our hospital on Day 0, for \"painful skin erythema for 2 months, cough and sputum production for 1 month.\" In late period, approximately 2 months before Day 0, he developed skin erythema without an obvious precipitating cause, mainly on the extensor aspects of both upper extremities, with some lesions presenting as indurated protrusions above the skin surface, accompanied by localized pain. In mid-September, the above symptoms worsened compared with before and were accompanied by decreased muscle strength, most prominently in the proximal muscle groups of the extremities, while cough and wheezing gradually developed, with occasional white sputum. He sought care at a local clinic, where IV antibiotic treatment was ineffective. Subsequently, the cough, wheezing, and muscle weakness gradually worsened, and he presented to a local county hospital, where chest CT, cervical spine MRI, and other examinations were performed, showing scattered interstitial lesions in both lungs. Anti-infective treatment and other therapies were given, with no obvious improvement. Repeat CT showed no improvement, and the muscle weakness worsened, with new-onset hoarseness. Mental status was fair, with no significant change in weight, decreased appetite, normal bowel and bladder function, and acceptable sleep. Previously healthy, he denied a history of chronic disease, denied smoking or alcohol use, and denied a history of hereditary disease. Personal history, marital and reproductive history, and family history were unremarkable. Physical examination on admission: T 36.2℃, P: 86 beats/min, R: 21 breaths/min, BP: 122/70 mmHg. General condition was poor; he walked into the ward with assistance, was alert, mildly fatigued, cooperative with the examination, and in a passive position. On the skin, increased keratosis was seen on the extensor surfaces of both upper extremities and the elbows, with scattered skin breaks and रक्त crusts within the skin lines; scattered small red papules were present on the dorsal aspects of both hands, and the skin of the fingertips showed keratosis with desquamation. No obvious abnormality of the chest wall was noted, and the anteroposterior diameter of the thorax was normal. Scattered dry rales were heard in both lower lungs, more prominent over the dorsal aspects of both lower lungs. Cardiac and abdominal examinations were grossly normal; distal muscle strength in both lower extremities was grade 5, proximal grade 3; distal muscle strength in both upper extremities was grade 5, proximal grade 3+; neurologic examination showed no obvious abnormality, and there was no edema in either lower extremity. Ancillary examination: chest CT (Day -19, outside hospital): multiple inflammatory lesions in both lungs.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517kuqGy9V2pUkRXkxHf9eW0zWm9E0mGpkBrYkJ6fo2QooAHibYs6e32Aw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Skin images:",
+          "local_src": "cleaned_cases_image_cache/c775afbcb8334e0de42f543833d9fa357b0d209a.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517ibpG42c9iaxCMSB77GQFQah3zDzUqycUicGdwkErOhMAcqlbCia5BnYJZA/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/9fbca1976f9256eb639d6802038cc956728557f2.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Classic dermatomyositis with interstitial lung disease",
+          "supporting_evidence": [
+            "The phase 1 documentation noted marked decreased strength in the proximal muscle groups of all four extremities: proximal muscle strength of both lower extremities was grade 3, and proximal muscle strength of both upper extremities was grade 3+, consistent with the common pattern of involvement in inflammatory myopathy.",
+            "In the first-stage text and skin images, scattered small red papules are visible on the dorsal aspects of both hands, with increased keratosis of the skin on the extensor surfaces of both upper limbs and the elbows, fissuring within the skin lines, and blood crusts; the distribution and morphology suggest possible dermatomyositis-like skin lesions.",
+            "The phase 1 skin images showed hyperkeratosis with desquamation of the fingertip skin, supporting inflammatory myopathy-related hand skin changes.",
+            "The first-stage text indicates progressively worsening cough and dyspnea; chest CT from an outside hospital showed scattered bilateral interstitial lung lesions; the attached chest CT images also show scattered bilateral interstitial/inflammatory changes, suggesting possible concomitant dermatomyositis-associated ILD.",
+            "Poor response to antibiotic therapy, and repeat CT showed no improvement, further supporting a pulmonary disease not attributable solely to bacterial infection.",
+            "New-onset hoarseness can be seen in inflammatory myopathy-related involvement of the pharyngeal and laryngeal muscles."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a typical heliotrope rash or a clear description of Gottron sign; it only noted papules on the dorsum of the hands and hyperkeratosis of the elbows, so the specificity remains limited.",
+            "In the first stage, no additional supporting data were provided, such as muscle enzymes, autoantibodies, electromyography, or muscle imaging."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Antisynthetase syndrome",
+          "supporting_evidence": [
+            "The phase 1 text and images show hyperkeratosis with desquamation of the fingertip skin and rough, fissured changes of the hands, consistent with features suggestive of “mechanic’s hands.”",
+            "The concurrent presence of proximal muscle weakness, cough and wheezing, and chest CT indicating scattered interstitial lesions in both lungs constitutes the clinical combination of myositis with interstitial lung disease.",
+            "The attached skin image shows hyperkeratotic lesions on the extensor aspect of the elbow, suggesting connective tissue disease-related skin involvement.",
+            "Both pulmonary symptoms and muscle weakness showed progressive worsening, and the response to anti-infective therapy was poor, supporting the possibility of an autoimmune disease."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide common accompanying manifestations of antisynthetase syndrome such as fever, arthritis/arthralgia, and Raynaud phenomenon.",
+            "No results for myositis antibodies such as anti-Jo-1 were provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Polymyositis or other idiopathic inflammatory myopathies with interstitial lung disease",
+          "supporting_evidence": [
+            "The first-stage text clearly indicates progressive symmetric proximal muscle weakness, consistent with a core manifestation of idiopathic inflammatory myopathy.",
+            "Cough, dyspnea, and chest CT showing scattered interstitial abnormalities in both lungs may be seen in inflammatory myopathy-associated lung involvement.",
+            "Poor general condition, passive position, entered the ward with assistance, suggesting that the myopathy has a significant impact on functional status.",
+            "There was no significant improvement with anti-infective treatment, which does not support simple infection as the sole cause of all manifestations."
+          ],
+          "opposing_evidence": [
+            "The first phase had relatively prominent cutaneous manifestations, favoring dermatomyositis or antisynthetase syndrome rather than isolated polymyositis.",
+            "In the first stage, no evidence of myalgia, elevated muscle enzymes, EMG, or muscle biopsy was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Organizing pneumonia or nonspecific interstitial pneumonia (which may be idiopathic or secondary)",
+          "supporting_evidence": [
+            "The stage 1 text indicates progressively worsening cough and wheezing; chest CT showed scattered interstitial lesions in both lungs, and the accompanying CT images also support scattered inflammatory/interstitial changes in both lungs.",
+            "Poor response to antibiotic therapy, with no improvement on follow-up CT, suggesting the possibility of an inflammatory pulmonary parenchymal lesion other than atypical infection.",
+            "Scattered dry rales were heard in both lower lungs, more pronounced over the dorsal aspects of both lower lungs, consistent with the physical signs of interstitial lung disease."
+          ],
+          "opposing_evidence": [
+            "Cannot explain the marked proximal muscle weakness and characteristic cutaneous changes of the hands/elbows in the first phase.",
+            "The phase 1 lung imaging narrative description was “multiple inflammatory lesions,” but no characteristic imaging details of organizing pneumonia or NSIP were provided."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "muscle enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis-related testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Viral testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "immune cell subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease-related antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoantibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "25-antibody myositis-specific antibody panel test",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Routine laboratory tests (Day 0): Complete blood count: WBC: 2.8×10^9/L, hemoglobin: 95 g/L, platelets: 127×10^9/L, hs-CRP: 18.02 mg/L. Chemistry: albumin: 28.4 g/L, alanine aminotransferase/aspartate aminotransferase: 285 U/L. Muscle enzymes: creatine kinase (CK): 1970 U/L, CK-MM: 1956 U/L. Coagulation function: D-dimer: 3.12 ug/ml, FDP: 9.1 mg/L. TB-related: T-spot negative, acid-fast stain negative. Inflammation-related markers: ESR 87 mm/h, IL-6: 41.1 pg/mL. Viral testing: respiratory viruses and influenza virus were both negative. Immune cell subsets: indices and proportions were basically without abnormality. Immunoglobulins: serum IgE 211.00 IU/ml. Infectious disease-related antibodies: normal. Tumor markers: ferritin >2000.00 ug/L. Autoimmune antibodies: ANA: dense speckled, antibody 1:100: weakly positive; Ro52 antibody: weakly positive; most others negative. Arterial blood gas analysis suggested hypoxemia. Repeat chest CT showed further enlargement of the extent of bilateral subpleural lung lesions, some with interstitial-like changes.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517xiaTdqFp6jSEaCFmXqpPzBv94He6Oic7caoTZxUddnIhRgKM2SyoUlVQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "But the key laboratory indicators revealed the truth to us",
+            "local_src": "cleaned_cases_image_cache/b5ecc6f704a4f5088dc1137287ff05264cd76395.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Neurologic disease (myasthenia gravis)",
+            "evidence": [
+              "Decreased proximal muscle strength in both lower extremities, with hoarseness and dysphagia developing over a short period"
+            ],
+            "exclusion_reasons": [
+              "Myasthenia gravis usually presents with fluctuation, is milder in the morning and worse in the evening, often involves the extraocular muscles and bulbar muscles, and usually has onset in the peripheral muscle groups with gradual centripetal progression."
+            ]
+          },
+          {
+            "name": "Lambert-Eaton syndrome",
+            "evidence": [
+              "Symmetric muscle weakness beginning in the central muscle groups"
+            ],
+            "exclusion_reasons": [
+              "This disease is more commonly seen in paraneoplastic muscle weakness, usually associated with neuroendocrine tumors such as small cell lung cancer. This patient had no typical imaging findings, and the laboratory tests mainly showed elevated inflammatory markers and muscle enzymes."
+            ]
+          },
+          {
+            "name": "Idiopathic inflammatory diseases (dermatomyositis, polymyositis, antisynthetase syndrome, etc.)",
+            "evidence": [
+              "autoimmune-mediated inflammatory muscle injury"
+            ],
+            "exclusion_reasons": [
+              "All autoimmune antibodies in this patient were negative; an antinuclear antibody (ANA) titer of 1:100 has extremely limited diagnostic value."
+            ]
+          },
+          {
+            "name": "CTD-ILD (myositis-associated interstitial pneumonia)",
+            "evidence": [
+              "The disease pattern of \"rash + muscle involvement + interstitial lung disease\" in the patient",
+              "Arterial blood gas analysis indicated hypoxemia, and repeat chest CT showed further enlargement of the extent of subpleural lesions in both lungs, some with interstitial-like changes."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Neurologic disease (myasthenia gravis)",
+        "evidence": [
+          "Decreased proximal muscle strength in both lower extremities, with hoarseness and dysphagia developing over a short period"
+        ],
+        "exclusion_reasons": [
+          "Myasthenia gravis usually presents with fluctuation, is milder in the morning and worse in the evening, often involves the extraocular muscles and bulbar muscles, and usually has onset in the peripheral muscle groups with gradual centripetal progression."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Idiopathic inflammatory diseases (dermatomyositis, polymyositis, antisynthetase syndrome, etc.)",
+        "evidence": [
+          "autoimmune-mediated inflammatory muscle injury"
+        ],
+        "exclusion_reasons": [
+          "All autoimmune antibodies in this patient were negative; an antinuclear antibody (ANA) titer of 1:100 has extremely limited diagnostic value."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "CTD-ILD (myositis-associated interstitial pneumonia)",
+        "evidence": [
+          "The disease pattern of \"rash + muscle involvement + interstitial lung disease\" in the patient",
+          "Arterial blood gas analysis indicated hypoxemia, and repeat chest CT showed further enlargement of the extent of subpleural lesions in both lungs, some with interstitial-like changes."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "25-antibody myositis-specific antibody panel test",
+          "basis_in_stage3_input": "Results of the 25-item myositis-specific antibody panel: MDA5 antibody positive.",
+          "why_order_this_exam": "The patient is a 41-year-old woman who initially developed dermatomyositis-like skin lesions, including painful erythema, papules, hyperkeratosis, and desquamation on the extensor surfaces of both upper extremities, the elbows, the dorsum of the hands, and the fingertips, followed by progressive symmetric proximal muscle weakness and hoarseness, and then worsening cough and wheezing within 1 month; outside hospital and repeat chest CT showed लगातार progressive bilateral interstitial/inflammatory lung lesions, anti-infective treatment was ineffective, and blood gas analysis indicated hypoxemia, suggesting connective tissue disease-associated interstitial lung disease with rapid progression. Laboratory testing also showed markedly elevated CK and CK-MM, elevated AST, weakly positive ANA, and weakly positive Ro52, further supporting a disease within the inflammatory myopathy spectrum, but routine autoantibodies could not complete subtyping. At this time, the purpose of ordering a myositis-specific antibody panel was, based on the clinical combination of \"rash + muscle injury + rapidly progressive interstitial lung disease,\" to determine whether this represented dermatomyositis/clinically amyopathic dermatomyositis, antisynthetase syndrome, or another idiopathic inflammatory myopathy subtype, especially to identify the MDA5 antibody, which is closely associated with rapidly progressive interstitial lung disease. This test is of key value for confirming MDA5-positive dermatomyositis, can help explain why the pulmonary lesions worsened within a short period of time, and can distinguish it from simple infectious pneumonia, nonspecific interstitial pneumonia, organizing pneumonia, and other neuromuscular diseases; at the same time, it directly affects prognostic assessment and selection of treatment intensity, because once MDA5 positivity is confirmed, it usually indicates high risk and susceptibility to rapidly progressive interstitial lung disease, requiring early initiation and intensification of glucocorticoids combined with immunosuppressive/immunomodulatory therapy, along with enhanced assessment of the risk of respiratory failure.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Results of the 25-item myositis-specific antibody panel: MDA5 antibody positive.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517CjPl62U2pNzMnZhmBLBohCQFOBt87LJXG27tXlHCeicQxmsNERuCdVQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "with a positive MDA5 antibody result reported",
+          "local_src": "cleaned_cases_image_cache/f74d6424b4db40eb2a42ad95e97d64b2cfff1f0b.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517VIB32u5Qiarl3uKZcunZWtxdibQSfibVRXZt7ibtEKb2XABH3xY8o2XV1Q/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/a88d42cd4964be522e32fe14752eb4a106a8029b.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKNo1r6caamx9bqiav5xD517jjxyR4s1D7u4YOPHALoNakrXp77WclSPBDanBJPm6FPd84R1Hq3kLQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Images: (from left to right) 9-24, 10-7, 10-14, 10-23, 10-27",
+          "local_src": "cleaned_cases_image_cache/cebde31847d0624a99eabd86467a979cb920d96c.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Dermatomyositis (MDA5-positive), rapidly progressive interstitial pneumonia, type I respiratory failure",
+      "diagnostic_basis": [
+        "The patient has relatively typical cutaneous lesions: hyperkeratosis with desquamation-like changes on parts of the fingertips of both hands (mechanic's hands), and hyperkeratosis with rash on the dorsal aspects of both hands, the elbows, and the dorsal aspects of the upper extremities, some with ulcerative-like appearance (Gottron sign).",
+        "There was very marked muscle injury; electromyography and other tests excluded neurologic involvement, consistent with manifestations of dermatomyositis.",
+        "Test results returned showing a strongly positive myositis antibody panel, with MDA5 antibody positive",
+        "Interstitial lung disease rapidly worsens over a short period of time, leading to a sharp decline in respiratory function"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Induction therapy with methylprednisolone 80 mg/d, increased to methylprednisolone 120 mg/d after the antibody results were reported",
+        "Combined with cyclophosphamide 0.4 g/w*2w",
+        "Intravenous immunoglobulin pulse therapy (0.4 g/kg*5 d)",
+        "Treatment with tofacitinib 5 mg twice daily combined with FK506 3 mg/d",
+        "Nintedanib 150 mg orally twice daily for antifibrotic therapy"
+      ],
+      "treatment_response": [
+        "After treatment, the patient's oxygenation did not improve significantly and the patient was transferred to the RICU, with support changed to HFNC. The condition subsequently continued to progress, and even endotracheal intubation with mechanical ventilatory support could not be maintained, requiring ECMO support. Ultimately, the patient died of respiratory failure."
+      ]
+    }
+  }
+}

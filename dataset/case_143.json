@@ -1,0 +1,408 @@
+{
+  "status": "success",
+  "case_id": "case_143",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 68 years old, farmer. Chief complaint: \"cough, sputum production, and fever for 20 days\"; admitted to our department on Day 0. Twenty days before admission, after being caught in the rain, the patient developed paroxysmal cough with a small amount of yellow purulent sputum, which was relatively easy to expectorate, accompanied by fever, with a maximum temperature of 37.9℃, presenting as persistent low-grade fever, accompanied by pulling pain in the left anterior chest, which was more obvious after coughing, and inability to lie flat at night. He presented to a local clinic and was given oral medications (details unknown), after which the above symptoms did not improve significantly. On Day -8, the patient presented to the local county hospital and was treated with \"moxifloxacin combined with ceftazidime\" until 11-21. From 11-22 to 11-24, he was treated with \"moxifloxacin, imipenem, and cefoxitin\". The cough improved slightly, but he still had a small amount of white sticky sputum, accompanied by intermittent low-grade fever. Five days before admission, chest CT performed at our hospital showed \"left upper lobe consolidation and partial atelectasis, with possible tumor with obstructive pneumonia, atelectasis, or pneumonic-type tumor (Figure 1).\" On Day 0, he was given \"Avelox and ceftriaxone\" for anti-infective treatment, bronchodilation, expectoration-facilitating therapy, etc., but still had intermittent fever, with a maximum temperature of 37.9℃. The cough improved slightly, the sputum became white and thin, and the amount decreased. The patient had lost 5 kg over the past 1 month. Past history included \"paroxysmal atrial fibrillation\"; otherwise unremarkable. Physical examination on admission: T 36.2℃, P 82/min, R 21/min, BP 99/62 mmHg. Clear consciousness. Decreased breath sounds in the left lung; clear breath sounds in the right lung; moist rales heard in the left lower lung; no dry rales heard in either lung. No obvious abnormalities were found on cardiac or abdominal examination. No edema in either lower extremity. Ancillary examinations: Complete blood count: WBC 8.0×109/L, N 77.3%, Hb 126 g/L, PLT 579×109/L. Biochemistry: albumin 24 g/L, r-GT 81 U/L, others normal. CRP 109 mg/L, ESR 89 mm/h, NAP score 112, PCT <0.05 ng/ml. Arterial blood gas analysis (FiO2 21%): PH 7.47, PO2 62 mmHg, PCO2 38 mmHg, BE 3.9 mmol/L, AB 27.7 mmol/L. ECG: atrial fibrillation; incomplete right bundle branch block. Pulmonary function: pre-bronchodilator: FVC 2.57 L, FEV1 1.55 L, FVC % predicted 73.1%, FEV1 % predicted 56.9%, FEV1/FVC 60.34; post-bronchodilator: FVC 2.89 L, FEV1 1.63 L, FVC % predicted 82.4%, FEV1 % predicted 60.1%, FEV1/FVC 56.45%; mildly decreased diffusing capacity, moderate-to-severe obstructive ventilatory dysfunction, bronchodilator test negative. Coagulation studies and biochemistry were unremarkable. The following (Figure 1) is the chest CT obtained 5 days before admission, showing: 1. Multiple lesions in the left lung and multiple small and mildly enlarged lymph nodes in the left hilar region and mediastinum; inflammatory lesions with left upper lobe consolidation and partial atelectasis were considered, with possible tumor with obstructive inflammation, atelectasis, or pneumonic-type tumor; 2. Small left pleural effusion.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvEd2iaXPRnzAHQ1ncgySwEwdEJSzCiaCEERVB6uN34MiasRJST3FiceCGQQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/6effefac94fbc9dc0081fb84964ba1ad35834a95.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvxU7EcwmS4KX7Ade5UNCxjDfGJPUU7iaG0dpbBM0SticicAOoycABIT1sQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1: Chest CT before admission",
+          "local_src": "cleaned_cases_image_cache/5c51eb78e8b2be005cdbd85aaa347f10b5949343.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Left central lung cancer with obstructive pneumonia/atelectasis",
+          "supporting_evidence": [
+            "Chest CT suggests \"consolidation and partial atelectasis in the left upper lobe; possible tumor with obstructive pneumonia and atelectasis, or pneumonic-type tumor,\" and also shows multiple small and mildly enlarged lymph nodes in the left hilar region and mediastinum",
+            "The accompanying image shows extensive consolidation in the left lung with associated volume loss, consistent with the imaging features of post-obstructive atelectasis/obstructive pneumonitis.",
+            "Male patient, 68 years old, with a 5 kg weight loss over the past month, suggesting possible malignancy",
+            "After antimicrobial therapy, there was only slight improvement in the cough symptoms; the patient still had a small amount of white viscid sputum with intermittent low-grade fever, and the overall improvement was insufficient.",
+            "On physical examination, breath sounds in the left lung were diminished, and moist rales were audible in the left lower lung, consistent with a left intrapulmonary mass complicated by postobstructive infection.",
+            "Traction-like pain in the left anterior chest, inability to lie flat at night, and a small left pleural effusion suggest that the local extent of the lesion is relatively large."
+          ],
+          "opposing_evidence": [
+            "The onset was associated with the development of cough, yellow purulent sputum, and low-grade fever after being caught in the rain; clinically, it may also initially present as infection.",
+            "Elevated CRP 109mg/L and ESR 89mm/h support the presence of a significant inflammatory process and cannot be explained by tumor alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Community-acquired pneumonia (predominantly in the left lung) with partial atelectasis and a small pleural effusion",
+          "supporting_evidence": [
+            "Chief complaint: “cough, sputum production, and fever for 20 days”; acute onset after getting caught in the rain, with yellow purulent sputum and persistent low-grade fever, consistent with manifestations of pulmonary infection.",
+            "CRP 109mg/L and ESR 89mm/h were markedly elevated, supporting an inflammatory/infectious lesion",
+            "Physical examination: moist crackles in the left lower lung, decreased breath sounds in the left lung",
+            "Chest CT described \"an inflammatory lesion is considered, with left upper lobe consolidation and partial atelectasis,\" with a small left pleural effusion on the left.",
+            "After treatment with multiple antimicrobial agents, the cough and sputum characteristics improved to some extent, suggesting that at least part of the lesions had an infectious component."
+          ],
+          "opposing_evidence": [
+            "After multiple courses of intensive antibacterial therapy, intermittent low-grade fever persisted; imaging still suggested the possibility of a tumor, and uncomplicated common bacterial pneumonia was insufficient to explain the findings.",
+            "A 5 kg weight loss over the past month is atypical for simple short-duration community-acquired pneumonia.",
+            "CT suggests hilar and mediastinal lymph nodes and upper lobe consolidation with atelectasis, warranting increased vigilance for an obstructive etiology"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pneumonic-type lung cancer (such as invasive mucinous adenocarcinoma, etc.)",
+          "supporting_evidence": [
+            "Chest CT directly suggested \"possible pneumonic-type tumor\"",
+            "The accompanying image shows a large area of consolidation in the left lung, which did not significantly resolve after anti-infective treatment, consistent with the characteristic of pneumonic-type lung cancer presenting as persistent consolidation.",
+            "The patient is an elderly male, with a 5 kg weight loss over the past month, suggesting an increased risk of malignancy.",
+            "Multiple small and mildly enlarged lymph nodes in the left hilar region and mediastinum, and a small amount of pleural effusion, all of which can be seen in lung malignancy"
+          ],
+          "opposing_evidence": [
+            "At symptom onset, there was yellow purulent sputum and low-grade fever, and the symptoms partially improved after anti-infective treatment, suggesting a relatively clear infectious component.",
+            "In the first stage, no hemoptysis or isolated intrapulmonary mass clearly suggestive of lung cancer, or other more direct supporting findings for lung cancer, were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary tuberculosis (predominantly involving the left upper lung, possibly accompanied by obstruction or atelectasis)",
+          "supporting_evidence": [
+            "The patient has cough, low-grade fever, and 5 kg weight loss, a combination of systemic and respiratory symptoms seen in TB.",
+            "The lesion is located in the left upper lung with ipsilateral hilar/mediastinal lymph nodes; based on the imaging distribution, TB cannot be completely excluded.",
+            "Persistent intermittent low-grade fever after treatment with multiple conventional antibacterial agents suggests the possibility of infection with non-common bacteria."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not describe clues supporting TB such as night sweats, hemoptysis, or a history of TB contact.",
+            "PCT <0.05 ng/ml does not support severe bacterial infection, but is not specifically supportive of TB",
+            "The chest CT report is more suggestive of inflammatory lesions combined with tumor-related obstruction, rather than primarily indicating typical signs of TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lung abscess/necrotizing pneumonia",
+          "supporting_evidence": [
+            "At onset, cough with yellow purulent sputum and fever, with markedly elevated inflammatory markers CRP and ESR, can be seen in necrotizing pulmonary infection.",
+            "Left anterior chest pain and a small left pleural effusion may be seen in more severe pulmonary infection with pleural involvement",
+            "In the attached image, the area of consolidation in the left lung is relatively extensive, and focal lucencies/heterogeneous changes mean that necrotizing infection cannot be completely excluded."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not clearly describe typical manifestations of lung abscess such as cavitation, air-fluid level, or a large amount of foul-smelling purulent sputum.",
+            "The chest CT report did not primarily consider lung abscess, but rather emphasized the possibility of a tumor with obstructive inflammation or a pneumonic-type tumor.",
+            "The highest body temperature was only 37.9°C, which is not entirely consistent with the high fever commonly seen in typical lung abscess."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Persistent cough, low-grade fever, imaging showing large areas of consolidation, and poor response to conventional anti-infective treatment may be seen in organizing pneumonia",
+            "PCT <0.05 ng/ml does not support uncontrolled typical bacterial infection, suggesting the possibility of an atypical inflammatory pulmonary parenchymal lesion",
+            "The attached image shows extensive consolidation in the left lung, which may overlap with the imaging appearance of organizing pneumonia"
+          ],
+          "opposing_evidence": [
+            "CT has already suggested the possibility of partial atelectasis of the left upper lobe and a tumor with concomitant obstructive lesion, which is more specific than organizing pneumonia.",
+            "The presence of left hilar and mediastinal lymph nodes, weight loss, and a small pleural effusion makes it necessary to first exclude neoplastic disease.",
+            "The phase 1 information did not provide more typical clues of organizing pneumonia, such as migratory lesions or a bilateral multifocal peripheral distribution."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry (albumin, γ-GT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP, ESR, neutrophil alkaline phosphatase score, PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test + bronchodilator test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear + sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB‑SPOT, TORCH, respiratory pathogen antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (CA19-9, CEA, AFP, CA125, NSE, CYFRA21-1)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage fluid examination + bronchial mucosal biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune panel (ANA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Humoral immunity (IgG, IgA, IgM, C3, C4, IgE, IgG subclasses)",
+          "requirement": "required"
+        },
+        {
+          "exam": "RF、ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "reason": "Clearly demonstrates pulmonary lesion formation and blood supply characteristics, providing important imaging evidence for subsequent needle biopsy and lesion characterization",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, we immediately completed sputum smear testing: Gram-positive cocci were detected. Sputum culture was negative. TB-SPOT, TORCH, and respiratory pathogen antibodies were all negative. Tumor markers (CA199, CEA, AFP, CA125, NSE, CYFRA21-1, etc.) showed no abnormalities. On day 3 after admission, bronchoscopy showed inflammatory changes in the left upper lobe bronchus; submitted bronchoalveolar lavage fluid and bronchial secretions were negative for bacterial, fungal, and mycobacterial smears and cultures. Pathology: (BALF, brush): a small amount of actively proliferating glandular epithelium with mild nuclear heterogeneity was seen. (Left upper lobe apicoposterior segment): bronchial mucosal erosion, with marked interstitial infiltration of acute and chronic inflammatory cells accompanied by histiocyte aggregation. The alveolar epithelium had disappeared and the lumen was closed, with fibrous tissue proliferation accompanied by abundant eosinophilic amyloid-like material deposition; a small amount of granulation tissue proliferation was seen. The pulmonary interstitium showed hyaline degeneration with infiltration of acute and chronic inflammatory cells, accompanied by histiocyte aggregation. In conjunction with the medical history, the findings were consistent with bronchitis and acute alveolar injury lesions. Repeat chest CT showed that the lesion had not been absorbed (Figure 2a).",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvyN86AgW2nibzGOOXibVWqvpMrFibYPs1omC9DCxs4M6iaaMoYpk9a9ZWGQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2: a - follow-up chest CT",
+            "local_src": "cleaned_cases_image_cache/6cd50e7389150eda69e1b8a452f5f38f5b268eb5.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvE14URibLG0kAWa0MWjssfWzxhr3JDMw4In76zOlp8eBQLibyYrd4z89Q/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 2: b - follow-up chest CT",
+            "local_src": "cleaned_cases_image_cache/ce5f3aba56f1f1ad4d6dadfa69ad9ad05bcfe617.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "pneumonia",
+            "evidence": [
+              "The patient has symptoms of fever, cough, and sputum production; on physical examination, moist rales can be heard in the left lower lung.",
+              "CBC showed leukocytosis, with elevated CRP and ESR",
+              "Chest CT suggests an inflammatory lesion with left upper lobe consolidation and partial atelectasis.",
+              "Symptoms improved slightly after antibiotic treatment at an outside hospital"
+            ],
+            "exclusion_reasons": [
+              "Symptoms remained unrelieved after treatment with multiple antibiotics in succession.",
+              "On follow-up chest CT, the lesion had also not resolved."
+            ]
+          },
+          {
+            "name": "Special infections (pulmonary TB, etc.)",
+            "evidence": [
+              "The patient has persistent low-grade fever and a 5 kg weight loss over the past month.",
+              "The lesion on chest CT is located in the left upper lobe."
+            ],
+            "exclusion_reasons": [
+              "TB-SPOT, TORCH, and respiratory pathogen antibodies were all negative"
+            ]
+          },
+          {
+            "name": "Pulmonary tumor",
+            "evidence": [
+              "The patient is an elderly male with a recent 5 kg weight loss and symptoms of cough, sputum production, and fever.",
+              "Chest CT showed 'possible tumor with obstructive inflammation, atelectasis, or pneumonic-type tumor'"
+            ],
+            "exclusion_reasons": [
+              "Based on the pathology results of the CT-guided lung needle biopsy, a neoplastic lesion is not considered at this time"
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "Based on the pathology results of the CT-guided percutaneous lung biopsy... organizing pneumonia is highly likely"
+            ],
+            "exclusion_reasons": [
+              "After glucocorticoid therapy, the pulmonary lesions instead increased in number and progressed"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Community-acquired pneumonia",
+        "evidence": [
+          "The patient has symptoms of fever, cough, and sputum production; on physical examination, moist rales can be heard in the left lower lung.",
+          "CBC showed leukocytosis, with elevated CRP and ESR",
+          "Chest CT suggests an inflammatory lesion with left upper lobe consolidation and partial atelectasis.",
+          "Symptoms improved slightly after antibiotic treatment at an outside hospital"
+        ],
+        "exclusion_reasons": [
+          "Symptoms remained unrelieved after treatment with multiple antibiotics in succession.",
+          "On follow-up chest CT, the lesion had also not resolved."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary tumor",
+        "evidence": [
+          "The patient is an elderly male with a recent 5 kg weight loss and symptoms of cough, sputum production, and fever.",
+          "Chest CT showed 'possible tumor with obstructive inflammation, atelectasis, or pneumonic-type tumor'"
+        ],
+        "exclusion_reasons": [
+          "Based on the pathology results of the CT-guided lung needle biopsy, a neoplastic lesion is not considered at this time"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [
+          "Based on the pathology results of the CT-guided percutaneous lung biopsy... organizing pneumonia is highly likely"
+        ],
+        "exclusion_reasons": [
+          "After glucocorticoid therapy, the pulmonary lesions instead increased in number and progressed"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "basis_in_stage3_input": "On day 8 after admission, CT-guided percutaneous lung biopsy was performed.",
+          "why_order_this_exam": "The patient is a 68-year-old man with persistent consolidation and partial atelectasis of the left upper lung, accompanied by a small pleural effusion and hilar/mediastinal lymph nodes. Despite treatment with multiple antibacterial agents, he continues to have intermittent low-grade fever and nonresolving lesions, along with a 5 kg weight loss over 1 month. Imaging has consistently been unable to exclude lung cancer, pneumonic-type tumor, special infection, or organizing inflammation. Earlier bronchoscopy and BALF pathogen studies were both negative, and bronchial mucosal pathology showed only inflammation and acute alveolar injury, still lacking निर्णsive evidence. Therefore, direct tissue sampling of the left upper lung consolidation is needed. The core purpose of this examination is to obtain substantive tissue from the lesion to determine whether it is tumor, infection, organizing pneumonia, or another rare inflammatory/immune-mediated disease, and to provide a basis for whether to use glucocorticoids, whether to continue anti-infective therapy, or whether to shift to antitumor treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathological examination",
+          "basis_in_stage3_input": "Postoperative pathology showed: (left upper lung needle biopsy tissue): microscopically, mixed inflammatory cell infiltration of the pulmonary interstitium by lymphocytes, plasma cells, neutrophils, and eosinophils was seen; fibrinous exudate with organization was present in the alveolar spaces, consistent with inflammatory changes.",
+          "why_order_this_exam": "Percutaneous lung biopsy only accomplished tissue sampling; the postoperative pathology was what truly determined the diagnostic direction. The patient's lesion was persistent and nonresolving; on imaging it resembled both a tumor and inflammation, and routine pathogen testing was negative with poor response to anti-infective therapy, so histology was needed to determine the nature of the lesion. The clinical questions this examination needed to address were: whether malignant tumor cells, special infectious granulomas, necrotizing lesions, or non-neoplastic inflammation predominantly characterized by organization and inflammatory cell infiltration were present. The postoperative pathology initially suggested mixed inflammatory cell infiltration and organization, supporting an inflammatory/organizing process and reducing the likelihood of ordinary lung cancer; however, because it still could not fully explain lesion progression, it also provided a basis for subsequent deeper investigation of pathologic and immunologic clues.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up chest examination",
+          "basis_in_stage3_input": "Follow-up chest imaging showed \"more lesions than previously, with progression\" (Figure 2b).",
+          "why_order_this_exam": "The patient had previously undergone multiple courses of anti-infective therapy, and organizing pneumonia had at one point been considered; however, the nature of the lesions remained unclear throughout, so serial follow-up chest imaging was required to assess changes in the disease course. The main purpose of this examination was to determine whether the pulmonary consolidation/atelectasis had resolved, remained stable, or continued to progress, thereby validating prior diagnostic reasoning and treatment response. The results showed that the lesions had increased and progressed compared with before, indicating that a simple infection or ordinary organizing pneumonia was insufficient to explain the findings, and also suggesting that blindly continuing treatment along the original pathway might delay the condition. This prompted the clinical team to pursue further outside-hospital consultation, repeat pathology, and immune-related testing to reassess possibilities such as rare immune-mediated diseases and lymphoplasmacytic proliferative disorders.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Further pathological examination",
+          "basis_in_stage3_input": "Peking Union Medical College Hospital was contacted to further complete the pathology examination. The pathology report from Peking Union Medical College Hospital stated: pulmonary consolidation, with prominent lymphocytic and plasma cell infiltration, accompanied by fibrous tissue necrosis and a small amount of red-staining amyloid material deposition, with scattered mitotic figures; a lymphoplasmacytic proliferative disorder cannot be excluded.",
+          "why_order_this_exam": "The initial needle biopsy pathology showed only inflammatory changes and organization, which did not fully correlate with the clinical progression; meanwhile, follow-up imaging instead showed progression, suggesting that the original pathology may have been limited by sampling or may require higher-level pathologic interpretation. The purpose of further completing the pathologic evaluation was to conduct a more in-depth review of the existing specimen and further determine whether there was a missed tumor diagnosis, special infection, lymphoproliferative disease, plasma cell-related disease, or other rare interstitial/immunologic lesions. Peking Union Medical College Hospital pathology indicated extensive lymphocyte and plasma cell infiltration and raised that a lymphoplasmacytic proliferative disease could not be excluded. This step was crucial for broadening the differential diagnosis and avoiding simply classifying it as ordinary inflammation, and it also provided direction for subsequent immunohistochemistry and serum immunologic testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum immunologic tests",
+          "basis_in_stage3_input": "The patient's serum immune-related tests were further completed: comprehensive autoimmune panel—antinuclear antibody 1:1000+, nuclear membrane pattern+, all others negative. Humoral immunity: IgG 15.8g/L, IgA 1.49g/L, IgM 1.08g/L, C3 0.979g/L, C4 0.318g/L, IgE 662 IU/ml, IgG1 10.70g/L, IgG2 8.68g/L, IgG3 0.78g/L, IgG4 13.60g/L. RF 22.2IU/ml, ANCA negative.",
+          "why_order_this_exam": "The patient's pulmonary lesions were prolonged, the response to anti-infective treatment was poor, pathology repeatedly showed extensive plasma cell and lymphocyte infiltration, and imaging continued to progress, indicating that the findings could not be explained solely from the perspective of infection or tumor and that immune-mediated diseases must be systematically evaluated. The purpose of serum immune-related testing is to look for evidence of connective tissue disease, vasculitis, IgG4-related disease, and other conditions at the systemic level, and to corroborate these findings with histopathology. Among the results, a high-titer positive ANA and elevated IgE, especially markedly elevated IgG4, provide important supportive value for IgG4-related disease; at the same time, results such as negative ANCA help narrow the differential diagnosis and provide a strong basis for ultimately selecting glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "comprehensive autoimmune panel",
+          "basis_in_stage3_input": "Comprehensive autoimmune panel: ANA 1:1000+, nuclear membrane pattern+, all others negative.",
+          "why_order_this_exam": "The patient has persistent pulmonary consolidation, low-grade fever, elevated inflammatory markers but not elevated PCT, repeatedly negative microbiologic studies, and pathology predominantly showing inflammation and plasma cell infiltration; it is necessary to evaluate for connective tissue disease-related pulmonary involvement or other autoimmune lung diseases. The comprehensive autoimmune panel is mainly intended to determine whether the lesion is a pulmonary manifestation of a systemic autoimmune disease and whether there is an underlying disease requiring immunosuppressive therapy. ANA 1:1000 positivity suggests an underlying immune activation state. Although it is not diagnostically specific, when evidence for pathogens and tumor is insufficient, it heightens suspicion for immune-related lesions and prompts further integrated assessment in conjunction with IgG4 and pathologic immunohistochemistry.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Humoral immunity",
+          "basis_in_stage3_input": "Humoral immunity: IgG 15.8 g/L, IgA 1.49 g/L, IgM 1.08 g/L, C3 0.979 g/L, C4 0.318 g/L, IgE 662 IU/ml, IgG1 10.70 g/L, IgG2 8.68 g/L, IgG3 0.78 g/L, IgG4 13.60 g/L.",
+          "why_order_this_exam": "Because pathology repeatedly showed extensive plasma cell infiltration, it was clinically necessary to determine whether a humoral immune abnormality was present, especially IgG4-related disease or other plasma cell-related disorders. This test was intended to evaluate total immunoglobulin levels and subclass distribution, determine whether IgG4 was elevated, and assist in differentiating reactive inflammation, systemic immune disease, and plasma cell proliferative disorders. The results showed a markedly elevated IgG4 of 13.60 g/L. Combined with elevated IgE and plasma cell enrichment in the tissue, this strongly supports IgG4-related disease and also directly affects subsequent glucocorticoid treatment decisions and assessment of expected therapeutic response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "RF",
+          "basis_in_stage3_input": "RF 22.2 IU/mL, ANCA negative.",
+          "why_order_this_exam": "In the setting of persistent pulmonary consolidation, protracted inflammation, and negative pathogen studies, autoimmune diseases such as rheumatoid arthritis-associated lung involvement need to be excluded, because they can also present with organizing pneumonia-like or interstitial inflammatory changes. The clinical question that RF testing is intended to address is whether there is an underlying rheumatoid immune background, thereby explaining the pulmonary lesions and influencing the immunotherapy plan. Although in this case RF was only mildly elevated and there were no typical joint manifestations, rheumatoid disease cannot be diagnosed on this basis alone; however, as part of the immunologic panel, it helps complete the systematic differential diagnosis and avoid missing connective tissue disease-associated lung disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "basis_in_stage3_input": "RF 22.2 IU/mL, ANCA negative.",
+          "why_order_this_exam": "The patient's pulmonary lesions were characterized by consolidation, inflammatory cell infiltration, partial necrosis, and radiographic progression. Clinically, immune-mediated lung injury such as ANCA-associated vasculitis should be included in the differential diagnosis, because it can present with pulmonary consolidation, inflammatory response, systemic symptoms, and requires early glucocorticoid/immunosuppressive therapy. The purpose of ANCA testing was to evaluate for pulmonary involvement caused by small-vessel vasculitis and to help explain the persistent low-grade fever and prolonged imaging abnormalities. A negative result lowered the likelihood of vasculitis, thereby shifting the diagnostic focus more toward IgG4-related disease and other plasma cell infiltrative lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Further pathological examination",
+          "basis_in_stage3_input": "Pathologic examination was further completed again: (left native upper lobe apicoposterior segment) loss of alveolar epithelium with luminal obliteration, interstitial fibroblast proliferation with focal collagen degeneration; histiocytes and a small amount of granulation tissue proliferation are seen, with abundant plasma cell infiltration. Plasma cell immunohistochemical expression: CD138 (plasma cells +++), IgG4 (>40%, 30/high-power field), IgG (++). In conjunction with the clinical findings, this is consistent with IgG4-related disease.",
+          "why_order_this_exam": "After outside-hospital pathology consultation had already suggested that a lymphoplasmacytic proliferative disorder could not be excluded, further in-depth evaluation of the histologic features was still required, especially to determine whether the plasma cell infiltration had the morphologic features and ratio-based evidence of IgG4-related disease. The purpose of repeating and completing the pathologic examination was to elevate \"nonspecific inflammation/plasma cell infiltration\" to the level of a classifiable diagnosis, to clarify whether the pathologic criteria for IgG4-related disease were met, and to distinguish it from malignant lymphoplasmacytic proliferation and reactive changes after chronic infection. The final pathology, together with plasma cell immunohistochemistry, indicated a high proportion of IgG4-positive cells, which directly constituted the core basis for definitive diagnosis and also provided pathologic support for subsequent glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Plasma cell immunohistochemistry",
+          "basis_in_stage3_input": "Plasma cell immunohistochemical expression: CD138 (plasma cells +++), IgG4 (>40%, 30/high-power field), IgG (++); in conjunction with the clinical findings, this is consistent with IgG4-related disease.",
+          "why_order_this_exam": "The diagnostic challenge in this case lies in determining whether the extensive plasma cell infiltration in the pathology represents a nonspecific inflammatory reaction or an IgG4-related lesion with specific significance. The purpose of plasma cell immunohistochemistry is to quantitatively and qualitatively assess the number of plasma cells and the expression of IgG4/IgG, in order to resolve the differential diagnosis between IgG4-related disease and other plasma cell proliferative disorders, chronic inflammation, and tumors with reactive infiltration. CD138 indicates abundant plasma cells, and IgG4 greater than 40%, 30 per high-power field, has been corroborated by elevated serum IgG4, which is of निर्णative value for establishing IgG4-related lung disease and directly supports the choice of glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "The remaining immunohistochemistry",
+          "basis_in_stage3_input": "The remaining immunohistochemical expression: CD68 (histiocytes+), CD163 (histiocytes+), CD138 (plasma cells+++), Actin (SM) (fibroblasts+).",
+          "why_order_this_exam": "In addition to plasma cell-related markers, the remaining immunohistochemical studies also need to be added to comprehensively assess the cellular composition of the lesion and the type of tissue reaction. This evaluation primarily addresses the following: whether the lesion is predominantly characterized by a histiocytic reaction, fibroblastic proliferation, and plasma cell infiltration, and whether there is evidence supporting a fibroinflammatory lesion rather than a purely neoplastic process. The results showed that CD68 and CD163 positivity indicate a histiocytic component, and Actin (SM) positivity indicates fibroblastic/myofibroblastic proliferation. Combined with strong CD138 positivity, these findings are consistent with the histologic background of an IgG4-related fibroinflammatory lesion. This helps further exclude a solitary epithelial malignancy, strengthens the overall pathologic interpretation, and provides structural evidence for the final integrated diagnosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On hospital day 8, a CT-guided percutaneous lung biopsy was performed. Postoperative pathology showed: (left upper lung biopsy tissue): microscopically, mixed inflammatory cell infiltration in the pulmonary interstitium, including lymphocytes, plasma cells, neutrophils, and eosinophils; fibrinous exudation in the alveolar spaces with organization, consistent with inflammatory changes. Repeat chest imaging showed that the \"lesions had increased and progressed compared with before\" (Figure 2, b). Peking Union Medical College Hospital was contacted, and the pathology evaluation was further repeated. The pathology report from Peking Union Medical College Hospital stated: pulmonary consolidation, with prominent lymphocytic and plasma cell infiltration, accompanied by necrosis of fibrous tissue and a small amount of red-staining amyloid material deposition, with scattered mitotic figures; a lymphoplasmacytic proliferative disorder could not be excluded. IHC: CK (epithelium+), TTF-1 (epithelium+), CD68 (focally+), CD21 (-). The patient's serum immune-related tests were further completed: autoimmune panel—ANA 1:1000+, nuclear membrane pattern+, others negative. Humoral immunity: IgG 15.8g/L, IgA 1.49g/L, IgM 1.08g/L, C3 0.979g/L, C4 0.318g/L, IgE 662 IU/ml, IgG1 10.70g/L, IgG2 8.68g/L, IgG3 0.78g/L, IgG4 13.60g/L. RF 22.2IU/ml, ANCA negative. Repeat pathology evaluation: (left native upper lobe apicoposterior segment) loss of alveolar epithelium with luminal obliteration, interstitial fibroblast proliferation with focal collagen degeneration, histiocytes and scant granulation tissue proliferation, and marked plasma cell infiltration. Plasma cell immunohistochemistry expression: CD138 (plasma cells+++), IgG4 (>40%, 30/high-power field), IgG (++); in conjunction with the clinical findings, consistent with IgG4-related disease. Other immunohistochemical expression: CD68 (histiocytes+), CD163 (histiocytes+), CD138 (plasma cells+++), Actin (SM) (fibroblasts+).",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvAyCjciaTtejGKr1KwFPs44nI63GJ6qicCzSIt5Rl6Kgcl9ialS9e9DxYg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 3: Patient pathology. a. Hematoxylin-eosin staining, ×200, showing marked plasma cell infiltration; b. immunohistochemical staining, ×200, showing: IgG4 >40%, 30 per high-power field",
+          "local_src": "cleaned_cases_image_cache/f7932e00826dd6bf6e2cd4181e562d8db20f7c94.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstIRNHxG99t3I6fG5HiaZnXjvc0KULeicIkN0E1ycC34DFDRIicuWlLH9xBiaNlicKQ4hYP76lGicXuCn28w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: Changes in chest CT during the patient's treatment course",
+          "local_src": "cleaned_cases_image_cache/3f8eb92a71bad5a3afb859e8855745607616c769.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "IgG4-related lung disease  paroxysmal atrial fibrillation",
+      "diagnostic_basis": [
+        "The patient's symptoms and signs",
+        "Serum immunologic testing",
+        "Pathology results",
+        "Chest CT showed left upper lobe consolidation",
+        "History of paroxysmal atrial fibrillation"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg BID for 10 days",
+        "After discharge, continue regular prednisone 40 mg bid, tapering by 5 mg every month."
+      ],
+      "treatment_response": [
+        "Follow-up chest CT showed interval resolution of the lesions compared with the prior study.",
+        "The patient no longer had fever, cough, or sputum production. Physical examination: alert, coarse breath sounds bilaterally, no dry or wet rales were heard.",
+        "At the 6-month follow-up, the glucocorticoid dose was tapered to 20 mg bid. Repeat chest CT during this period showed gradual absorption of the lesions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "status": "success",
+  "case_id": "case_127",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female patient, 35 years old, from Kaifeng, Henan, was admitted to our Department of Pulmonary and Critical Care Medicine on Day 0 with the chief complaint of \"intermittent fever and cough for 10 days, dyspnea for 1 day.\" Present illness: The patient developed recurrent fever 10 days before admission after getting chilled, with a peak temperature of 38.7℃, accompanied by cough and sputum production, expectorating a moderate amount of yellow purulent sputum with difficulty expectorating, and hoarseness. There was no hemoptysis or chest pain, and no chest tightness or shortness of breath. After self-administered oral ibuprofen suspension, the temperature could return to normal. Four days ago, the above symptoms worsened with chest tightness, so she went to Weishi County Central Hospital, Kaifeng City, where chest CT showed \"pulmonary infection.\" Intravenous infusion of \"cefotaxime sodium + levofloxacin\" was ineffective, and treatment was later changed to \"meropenem + peramivir\" and other medications. One day ago, she developed dyspnea, worsened after activity, with persistent intermittent fever. Repeat chest CT showed \"bilateral lung infection worsened compared with before,\" and arterial blood gas analysis showed hypoxemia. Due to worsening of her condition, she was transferred to our hospital and admitted from the outpatient clinic with \"1. Community-acquired pneumonia 2. Hypoxemia.\" Since onset, appetite has been poor, sleep has been poor, bowel and bladder function have been normal, mental status has been normal, and there has been no weight loss. Past history: The patient had previously been infected with novel coronavirus 1 month ago, with main symptoms of fever and sore throat, without cough or chest tightness, and improved after symptomatic treatment. She is usually in good health, with no history of hypertension or heart disease, no history of diabetes or cerebrovascular disease, no history of infectious diseases, and no history of food or drug allergies. Personal history: The patient was born in her native place, has lived locally for a long time, mainly works in farming, and lives in a multistory building. No history of exposure to dust or toxic substances, no history of drug abuse, and no history of smoking or alcohol use. Her parents, spouse, and children are all healthy. Physical examination: Temperature 37.9℃, pulse 109/min, respiratory rate 22/min, blood pressure 128/86 mmHg, SpO2 91% (not on oxygen). Normal development, thin body habitus, clear consciousness, suboptimal general condition. No jaundice, rash, petechiae, cyanosis, or pallor of the skin over the whole body; no edema or subcutaneous nodules. No enlargement of superficial lymph nodes. Bilateral pupils equal, round, approximately 3 mm in diameter, with brisk light reflexes. Chest symmetric without deformity, bilateral respiratory excursion equal, tactile fremitus not decreased, no pleural friction fremitus, no tenderness of the chest wall or ribs. Percussion of both lungs was resonant. The liver-lung border was at the 5th intercostal space on the right midclavicular line. Breath sounds of both lungs were coarse, with scattered wheezes audible; no pleural friction rub was heard. Heart rate 109/min, regular rhythm, no murmurs heard on auscultation over the valve areas. No abnormalities on abdominal examination or neurologic examination.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnIRYJzZ9Kia8zgyYXc5LFZlEhTdg4VlCf5ia7Wgf3OWvLIAN12t3hnIIA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Discussion question: The patient's main manifestations are high fever and dyspnea",
+          "local_src": "cleaned_cases_image_cache/2656d5f9ab3e1ad732d04304600f9499b997480b.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia (bilateral multifocal bacterial bronchopneumonia)",
+          "supporting_evidence": [
+            "Typical acute onset in the community, with fever, cough, and yellow sputum after exposure to cold, gradually worsening with development of dyspnea;",
+            "Imaging showed multiple patchy opacities and areas of consolidation in both lungs, some accompanied by ground-glass opacities, consistent with multilobar infiltrates in severe pneumonia;",
+            "Arterial blood gas analysis showed hypoxemia; SpO2 on admission was 91% (not receiving oxygen).",
+            "On physical examination, breath sounds were coarse in both lungs, with scattered wheezing audible;",
+            "The outside hospital had already treated the patient for pulmonary infection, but the condition continued to progress, suggesting the possibility of severe or refractory infection;",
+            "Recent history of COVID-19 infection, suggesting possible airway barrier damage and transient immune dysfunction, serving as a predisposing factor for severe pneumonia."
+          ],
+          "opposing_evidence": [
+            "At an outside hospital, treatment with \"cefotaxime sodium + levofloxacin\" followed by \"meropenem + peramivir\" was ineffective, which does not support infection with common susceptible bacteria.",
+            "Auscultation did not describe obvious moist rales, and the first-stage information did not provide typical signs of lobar consolidation"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Viral pneumonia (including post-COVID-related viral pulmonary infection)",
+          "supporting_evidence": [
+            "The patient was infected with SARS-CoV-2 1 month ago, with the main symptoms of fever and sore throat.",
+            "At this onset, there were fever and cough, followed by rapid progression to dyspnea and hypoxemia, which can be seen in viral pneumonia.",
+            "Poor response to antibacterial therapy at an outside hospital, suggesting possible atypical pathogens or viral pathogens",
+            "The phase 1 chest CT images showed multiple lesions in both lungs, with bilateral lung involvement, consistent with the multifocal distribution characteristic of viral pneumonia."
+          ],
+          "opposing_evidence": [
+            "The patient has a moderate amount of yellow purulent sputum, which is more supportive of bacterial infection.",
+            "In the first-stage chest CT images, there was no typical description of predominantly diffuse ground-glass opacities; the imaging findings were more consistent with nodular/consolidative lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis (bronchogenic dissemination type or caseous pneumonia type tuberculosis)",
+          "supporting_evidence": [
+            "Fever and cough for 10 days, with poor response to anti-infective therapy",
+            "Stage 1 chest CT images show multiple nodular/patchy lesions in both lungs, some distributed along the bronchi, requiring differentiation from bronchogenic dissemination tuberculosis.",
+            "The patient has a thin body habitus."
+          ],
+          "opposing_evidence": [
+            "Rapid onset, progressing to dyspnea and hypoxemia within 10 days, more consistent with an acute infectious process",
+            "Denies hemoptysis, no weight loss, no superficial lymphadenopathy",
+            "Phase I information did not provide supportive information such as a history of TB contact or night sweats."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Fungal pneumonia (invasive aspergillosis, etc.)",
+          "supporting_evidence": [
+            "Fever, cough, and progressive dyspnea, with poor response to broad-spectrum antibiotic therapy;",
+            "Post-COVID immune dysfunction is a high-risk factor for invasive pulmonary aspergillosis. Chest CT images show multiple nodules/consolidative lesions in both lungs, with apparent ground-glass changes surrounding some lesions. The lesions are distributed along the bronchi, and there is marked bronchial mucosal thickening; imaging findings of fungal infection should be considered.",
+            "Hypoxemia occurred, suggesting relatively severe involvement of the lung parenchyma;"
+          ],
+          "opposing_evidence": [
+            "The patient is usually in good health, with no diabetes and no definite history of immunosuppression.",
+            "In the first stage, no high-risk factors for fungal infection such as long-term corticosteroid use, malignancy, organ transplantation, or agranulocytosis were provided.",
+            "Moderate-volume yellow purulent sputum, more commonly seen in bacterial infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Organizing pneumonia (secondary post-infectious organizing pneumonia)",
+          "supporting_evidence": [
+            "History of COVID-19 infection 1 month ago; organizing pneumonia may occur secondary to infection",
+            "This episode initially presented with fever and cough, followed by progression to dyspnea and hypoxemia, and anti-infective treatment at an outside hospital was ineffective.",
+            "Phase I chest CT images showed multiple patchy lesions in both lungs, which may overlap with the imaging appearance of organizing pneumonia"
+          ],
+          "opposing_evidence": [
+            "The patient has recurrent fever, Tmax 38.7℃, and a moderate amount of yellow purulent sputum, which is more supportive of active infection rather than simple organizing inflammation.",
+            "Stage 1 information did not provide evidence of typical migratory lesions or a subacute course"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + inflammatory markers (PCT, ESR, CRP)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis + stool routine examination + occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function + electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function + D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers (BNP, CK-MB, troponin, myoglobin)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Hemoglobin A1c",
+          "requirement": "required"
+        },
+        {
+          "exam": "Six infectious disease tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "fungal G test, GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT.TB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture + blood culture + special sputum staining",
+          "requirement": "required"
+        },
+        {
+          "exam": "Influenza A/B and SARS-CoV-2 nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgE, rheumatoid panel, ANCA, ANA profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the liver, gallbladder, pancreas, spleen, and urinary system",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytokines",
+          "reason": "Assess the degree of inflammation, differentiate infectious from noninfectious causes, determine the status of cellular immune function, and guide subsequent anti-inflammatory and immunomodulatory therapy.",
+          "basis_in_stage3_input": "The patient is a young woman with acute progressive severe pneumonia, poor response to anti-infective therapy, and a high suspicion of an underlying immunodeficiency.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Physical examination: Temperature 37.9℃, pulse 109/min, respirations 22/min, blood pressure 128/86 mmHg, SpO2 91% (not receiving oxygen). Normal development, thin body habitus, alert, in poor general condition. No jaundice, rash, petechiae, cyanosis, or pallor of the skin; no edema or subcutaneous nodules. No superficial lymphadenopathy. Pupils equal, round, bilaterally, approximately 3 mm in diameter, with brisk light reflexes. Chest symmetrical without deformity; bilateral chest expansion symmetric; tactile fremitus not decreased; no pleural friction fremitus; no tenderness of the chest wall or ribs. Percussion of both lungs was resonant; the liver-lung border was at the 5th intercostal space on the right midclavicular line. Breath sounds were coarse in both lungs, with scattered wheezing audible; no pleural friction rub was heard. Heart rate 109/min, regular rhythm, no murmur heard at any valvular auscultation area. Abdominal examination and neurologic examination were unremarkable. Laboratory tests: Routine tests: CBC and inflammatory markers: WBC 12.59×10^9/L↑, hemoglobin 108.0 g/L↓, lymphocyte percentage 16.0%↓, monocyte percentage 20.6%↑, absolute neutrophil count 7.50×10^9/L↑, absolute lymphocyte count 1.56×10^9/L, absolute monocyte count 2.59×10^9/L↑, PCT 0.044 ng/mL, ESR 45 mm/h↑, CRP 118 mg/L↑. Urinalysis, stool routine + occult blood: normal. Arterial blood gas analysis (not receiving oxygen): pH 7.45, pO2 64.1 mmHg, pCO2 37.4 mmHg, sPO2 92%, lactate 2.53 mmol/L, no other obvious abnormalities. Biochemical indices: fasting blood glucose 5.7 mmol/L, potassium 5.91↑ mmol/L, ALT 463↑ U/L, AST 603↑ U/L, GGT 609↑ U/L, ALP 256↑ U/L, total protein 57.9↓ g/L, albumin 33.0↓ g/L. Coagulation function: prothrombin time 12.9 s, activated partial thromboplastin time 24.6 s, fibrinogen 5.65 g/L↑, D-dimer 1.84 mg/L↑, fibrinogen degradation products 7.19 ug/mL↑. Myocardial markers: BNP 148 pg/ml, CK-MB 2.35 ng/ml, troponin 0.01 mg/ml, myoglobin 34.2 ng/ml. Hemoglobin A1c: 5.61%. Lymphocyte subsets: no result. Pathogen testing: six infectious disease panel: negative; fungi: G test and GM test negative; TB: T-SPOT antigen A well 0, antigen B well 0; sputum culture, blood culture, special sputum stains, and influenza A and B antigens were all negative. Immune-related indices: IgE: 157 IU/ml; rheumatoid panel, ANCA panel, and ANA profile: negative. Ultrasound: Color Doppler ultrasound of bilateral lower extremity veins, echocardiography, hepatobiliary-pancreatic-splenic ultrasound, and urinary system ultrasound showed no obvious abnormalities.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnFCFCFhEwe07Ria2pV0HdKkFAXzyPZFVd02r60kWhUNRTrNlotLYFvVg/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/8a11a8864458ee3bcdf3617a6e58ab31615a85fe.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnM2hZiaCjlEdibcGs6Dm5XHMLt9G022G5MjyuSJdBoicwtVRFXk215ZUUA/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/47434af19777b9ca008152c914137b5aa7cc73ff.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnb7uRdU0QWh6eyIclicpHTGWwf7TAKmL4OnzTfrGPXth5e1ZJ8QCgy7g/640?wx_fmt=png&from=appmsg",
+            "near_text": "mNGS results on Day +4",
+            "local_src": "cleaned_cases_image_cache/099fee03f8cf48f1bdb3372781614a564fb33e77.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Community-acquired bacterial pneumonia",
+            "evidence": [
+              "Acute onset, high fever, cough, and expectoration of yellow purulent sputum",
+              "Complete blood count showed elevated white blood cells and neutrophils, with markedly elevated inflammatory markers",
+              "Chest CT showed multiple infiltrative opacities in both lungs",
+              "There was transient partial resolution after broad-spectrum antibiotic treatment."
+            ],
+            "exclusion_reasons": [
+              "No response to treatment with multiple broad-spectrum antibiotics, with rapid progression of the lesions",
+              "Both sputum culture and blood culture were negative, with no clear bacteriologic evidence of a bacterial pathogen.",
+              "Bronchoscopy showed typical white necrotic material/pseudomembrane, manifestations of nonbacterial pneumonia"
+            ]
+          },
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "History of COVID-19 infection 1 month ago",
+              "Acute onset with fever and dyspnea",
+              "Chest CT shows ground-glass opacities and bronchial wall thickening"
+            ],
+            "exclusion_reasons": [
+              "Influenza A and B antigen negative, no positive results on respiratory viral screening",
+              "Inflammatory markers (CRP, ESR) were significantly elevated, not consistent with a simple viral infection",
+              "No pathogenic viruses were detected by mNGS in bronchoalveolar lavage fluid."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "Fever, cough, pulmonary infiltrates",
+              "Lesions distributed along the bronchi"
+            ],
+            "exclusion_reasons": [
+              "T-SPOT negative, sputum acid-fast stain negative",
+              "No constitutional symptoms of TB",
+              "On bronchoscopy, a white necrotic pseudomembrane was seen, without typical tuberculous granulomatous changes."
+            ]
+          },
+          {
+            "name": "Invasive tracheobronchial aspergillosis (ITBA)",
+            "evidence": [
+              "Young woman, engaged in farming, with a history of soil/grain exposure",
+              "Immune dysregulation after COVID-19 infection, lymphopenia",
+              "Bronchoscopy showed extensive white necrotic material, pseudomembranes, and luminal stenosis of the vocal cords/airway",
+              "Fluorescent staining of bronchoalveolar lavage fluid showed 45° branching septate hyphae",
+              "BALF culture positive for Aspergillus fumigatus, with a significantly elevated GM test of 2.07",
+              "mNGS detected Aspergillus fumigatus sequences"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Community-acquired bacterial pneumonia",
+        "evidence": [
+          "Acute onset, high fever, cough, and expectoration of yellow purulent sputum",
+          "Complete blood count showed elevated white blood cells and neutrophils, with markedly elevated inflammatory markers",
+          "Chest CT showed multiple infiltrative opacities in both lungs",
+          "There was transient partial resolution after broad-spectrum antibiotic treatment."
+        ],
+        "exclusion_reasons": [
+          "No response to treatment with multiple broad-spectrum antibiotics, with rapid progression of the lesions",
+          "Both sputum culture and blood culture were negative, with no clear bacteriologic evidence of a bacterial pathogen.",
+          "Bronchoscopy showed typical white necrotic material/pseudomembrane, manifestations of nonbacterial pneumonia"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "History of COVID-19 infection 1 month ago",
+          "Acute onset with fever and dyspnea",
+          "Chest CT shows ground-glass opacities and bronchial wall thickening"
+        ],
+        "exclusion_reasons": [
+          "Influenza A and B antigen negative, no positive results on respiratory viral screening",
+          "Inflammatory markers (CRP, ESR) were significantly elevated, not consistent with a simple viral infection",
+          "No pathogenic viruses were detected by mNGS in bronchoalveolar lavage fluid."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "Fever, cough, pulmonary infiltrates",
+          "Lesions distributed along the bronchi"
+        ],
+        "exclusion_reasons": [
+          "T-SPOT negative, sputum acid-fast stain negative",
+          "No constitutional symptoms of TB",
+          "On bronchoscopy, a white necrotic pseudomembrane was seen, without typical tuberculous granulomatous changes."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Invasive tracheobronchial aspergillosis (ITBA)",
+        "evidence": [
+          "Young woman, engaged in farming, with a history of soil/grain exposure",
+          "Immune dysregulation after COVID-19 infection, lymphopenia",
+          "Bronchoscopy showed extensive white necrotic material, pseudomembranes, and luminal stenosis of the vocal cords/airway",
+          "Fluorescent staining of bronchoalveolar lavage fluid showed 45° branching septate hyphae",
+          "BALF culture positive for Aspergillus fumigatus, with a significantly elevated GM test of 2.07",
+          "mNGS detected Aspergillus fumigatus sequences"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy performed on Day +3 showed",
+          "why_order_this_exam": "The patient had fever, cough with purulent sputum for 10 days, with rapid progression to dyspnea and hypoxemia over a short period. Chest CT suggested worsening bilateral pulmonary infection, and the poor response to routine broad-spectrum anti-infective treatment at an outside hospital and after admission suggests that this is not ordinary bacterial pneumonia. The patient also had hoarseness and scattered wheezing, suggesting possible involvement of the upper airway and central airways. Bronchoscopy can directly visualize whether there are white necrotic materials, pseudomembranes, erosions, stenosis, and luminal obstruction in the larynx, trachea, and bronchial mucosa, addressing the key clinical question of whether invasive airway lesions are present. It can also simultaneously obtain bronchoalveolar lavage fluid and pathologic specimens, improving the ability to differentiate fungal infection, TB, uncommon pathogens, and neoplastic lesions; it can also assess the degree of airway stenosis and secretion obstruction, providing a basis for subsequent local lavage, local antifungal therapy, and selection of the overall treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid culture",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid submitted for culture",
+          "why_order_this_exam": "The patient's condition is progressing rapidly, and hypoxemia has already developed. In addition, early routine etiologic studies, including sputum culture, blood culture, special staining of sputum, and influenza antigen, were all negative, and empiric antimicrobial therapy was ineffective, indicating that upper respiratory tract or sputum specimens are unlikely to reflect the true pathogen in the lower respiratory tract. After obtaining bronchoalveolar lavage fluid by bronchoscopy, culture can be performed to directly search for bacterial or fungal pathogens at the site of the lesion, thereby addressing whether there is a true lower respiratory tract infection and what the specific pathogen is. This test helps identify the causative organism, distinguish colonization from infection, exclude simple typical bacterial pneumonia, and provide microbiologic evidence for the subsequent selection and adjustment of anti-infective drugs, especially antifungal agents.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "basis_in_stage3_input": "BALF submitted for culture and Gomori methenamine silver stain",
+          "why_order_this_exam": "In the setting of fever, worsening dyspnea, imaging progression, and lack of response to broad-spectrum antibacterial therapy, fungal infection should be a key focus of the evaluation. Bronchoscopy has already shown a large amount of white necrotic material within the airway, pseudomembranous attachment, and luminal stenosis; these endoscopic findings are highly suggestive of invasive fungal airway disease. Grocott's methenamine silver stain is relatively sensitive for demonstrating fungal hyphae and can directly assess for the presence of fungal hyphae and their morphologic features, helping to determine whether tissue-invasive fungal infection is present. This test plays an important role in supporting infection with filamentous fungi such as Aspergillus and in differentiating it from bacterial infection or noninfectious mucosal necrosis. It can also be correlated with culture, GM, mNGS, and pathology results to increase diagnostic confidence.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal fluorescent staining",
+          "basis_in_stage3_input": "BALF submitted for culture, Gomori methenamine silver stain, fungal fluorescent stain",
+          "why_order_this_exam": "The patient’s clinical presentation is progressive pulmonary infection involving the airways, failure of conventional antibacterial therapy, and extensive white necrotic material and pseudomembranes seen on bronchoscopy; it is necessary to rapidly determine whether a fungal component is present. Fungal fluorescent staining can more rapidly detect fungal hyphae or spores in specimens and, as an early suggestive test, helps address whether antifungal therapy should be initiated early or intensified. Its results can complement Gomori methenamine silver staining and culture, improving the efficiency of identifying fungal infections such as Aspergillus, while also helping to exclude lesions caused by isolated bacterial infection, viral infection, or TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Galactomannan test",
+          "basis_in_stage3_input": "BALF sent for culture, Gomori methenamine silver stain, fungal fluorescent stain, GM assay",
+          "why_order_this_exam": "The patient has progressive bilateral lung lesions, hypoxemia, no response to broad-spectrum antibacterial agents, and necrotic pseudomembrane formation in the airway. Although the serum G and GM were negative at admission, negative serum results cannot exclude Aspergillus infection localized to the lungs and airway; therefore, GM testing at the BALF level is needed. This test primarily addresses whether there is Aspergillus-related invasive infection, especially in airway-type or focal pulmonary aspergillosis, in which BALF GM is more valuable than serum. A positive result helps support the diagnosis of invasive Aspergillus infection and, together with staining, culture, mNGS, and pathology, constitutes multidimensional evidence to guide early selection of an antifungal treatment regimen targeting Aspergillus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "mNGS",
+          "basis_in_stage3_input": "BALF was sent for culture, methenamine silver stain, fungal fluorescence stain, GM assay, mNGS, and pathology. mNGS result dated Day +4",
+          "why_order_this_exam": "The patient has severe progressive pulmonary infection, with negative routine etiologic studies, ineffective empiric antimicrobial therapy, and requires prompt differentiation among bacteria, viruses, TB, fungi, and other uncommon pathogens. mNGS can provide relatively comprehensive coverage of pathogens that are difficult to detect by routine culture in a single test, addressing the key question of which pathogen is causing the rapid clinical deterioration. In this case, with prominent airway involvement, atypical imaging and clinical features, and routine examinations insufficient for definitive characterization, mNGS can help rapidly identify pathogens such as Aspergillus, exclude viral or other uncommon infections, and provide important evidence for whether to escalate, combine, or change antifungal therapy subsequently.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "BALF sent for culture, Gomori methenamine silver stain, fungal fluorescent stain, GM assay, mNGS, and pathology",
+          "why_order_this_exam": "Culture or molecular testing alone is sometimes insufficient to fully distinguish fungal colonization from true invasive infection, whereas in this case bronchoscopy already showed extensive white necrotic material, erosion, and luminal stenosis, suggesting possible direct fungal invasion of the mucosa. The purpose of pathologic examination is to determine whether histologic fungal invasion, necrosis, and inflammatory response are present, and to further differentiate these from TB, tumor, nonspecific inflammation, or organizing lesions. The pathologic results are of high value for confirming invasive tracheobronchial aspergillosis and can also provide a basis for assessment of disease severity and selection of the intensity of subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine bacterial culture and identification",
+          "basis_in_stage3_input": "Routine bacterial culture and identification: Aspergillus fumigatus",
+          "why_order_this_exam": "The patient initially presented with community-acquired pneumonia, accompanied by yellow purulent sputum and elevated inflammatory markers. Clinically, common bacterial pathogens first needed to be ruled out, but the initial sputum culture and blood culture did not identify a pathogen, and antibacterial therapy was ineffective; therefore, culture and identification had to be continued using more reliable lower respiratory tract specimens. Although the test is termed routine bacterial culture and identification, fungal pathogens may also grow during actual specimen submission and testing; in this case, Aspergillus fumigatus was detected. This test resolved the questions of whether a cultivable pathogen was present and the pathogen species assignment, provided key evidence for deprioritizing ordinary bacterial pneumonia in the primary diagnosis and instead supporting Aspergillus infection, and had direct guiding significance for subsequent targeted antifungal therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspergillus galactomannan test",
+          "basis_in_stage3_input": "(GM test) Galactomannan: Aspergillus galactomannan 2.07↑ μg/L",
+          "why_order_this_exam": "The patient had progressive fever, dyspnea, hypoxemia, worsening bilateral lung lesions, and pseudomembranous necrosis of the airways. Invasive Aspergillus infection was highly suspected clinically, but further Aspergillus-specific evidence was needed. Aspergillus galactomannan testing can reflect the release of Aspergillus-related antigens and primarily addresses whether the pathogen is more likely Aspergillus and whether the evidence for fungal infection has reached a high level of reliability. In this case, this marker was markedly elevated and was mutually supportive with bronchoscopic morphologic abnormalities, hyphal staining, culture, and mNGS results, helping to establish the diagnosis of invasive tracheobronchial aspergillosis, exclude other non-Aspergillus pathogens, and promote early initiation or intensification of anti-Aspergillus therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture and antifungal susceptibility testing",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "The patient's NGS pathogen testing suggested Aspergillus fumigatus infection, but culture is the gold standard, and intrinsic or acquired resistance in Aspergillus is not uncommon, in order to guide precise antifungal therapy and avoid failure of empiric treatment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy performed on Day +3 showed white necrotic material attached to both vocal cords; a large amount of white necrotic material was seen attached to the mucosa of the carina, the left and right main bronchi, and their branches, partially accompanied by erosion. A large amount of white coating was seen attached to the distal right upper lobe bronchus and obstructing the lumen, resulting in luminal stenosis. Normal saline lavage was performed, and bronchoalveolar lavage fluid was sent for culture, Grocott's methenamine silver stain, fungal fluorescence stain, GM test, mNGS, and pathology. The results showed that Grocott's methenamine silver stain revealed septate hyphae with 45-degree branching and antler-like appearance, suspicious for Aspergillus; routine bacterial culture and identification: Aspergillus fumigatus; (GM test) galactomannan: Aspergillus galactomannan 2.07↑μg/L. mNGS result on Day +4",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnFZFcibBakDQiaFJXxjQ2Elb6akwnnLZR2pCQjDz1rJEialLuhhQv9TTLw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/28844a0a54f9462dd830ca056a9475ff4c303bea.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnT30wsW4RneI58r1T9WYJg01ic4aFia7583k46ycEwvCoGgQJwyPhialicA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/08b1512ccf2c5201b1ff22a86d80b6501b496810.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnwRPBvib9pVSyfzJLWJ75Vraazl1E23mv4svvl2ogJI4OF6zHOXZGMOQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure: (left) Day +2; (right) Day +17",
+          "local_src": "cleaned_cases_image_cache/187eb82d9bae6f6233f872e284d50b6e79b02830.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnlZA6iamLuZwSQZaQ8HYjcSEiaMiaNzYX2k8iaIj7bbBeb9awpFlaaDZq8g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Images: (left) Day +17; (right) Day +33",
+          "local_src": "cleaned_cases_image_cache/f63f9b45f2e4fb9c9704ae4df2a84dc4595740cd.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qntBmIwGZgfFRI3Lv2D5wYWTNxVibFbDIJAvFwMOZzuBRJSicj4yHPMB7g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/902b41cc4c589ffc9b75b50ec510e3689f693778.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnicSp1wG7X3YFkRFInSLA3dDciaNbcla5TpeC51QYB06ARzhbQvXhVaIw/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/d91f66aacaa951c5e94b804d2ca2ecf18203c39b.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnoJlxoiaSEpzMOvwd7cTBZRZnibAeeQROc8nok1PrYTmImHwXCRdWyaPQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/d72597413175f7a586faedff147768bcff4a3fc6.jpg"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnP32Qem9ibPPFXQ6o5gDibw4LoJbuIWNPrMoPQF9NVInibpWooUS0sWqsA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure: Repeat bronchoscopy on Day +47: vocal cords were normal; the mucosa of the lower trachea was rough and edematous; mucosal erythema and swelling were seen in the left and right main bronchi and their branches at all levels; no purulent coating was seen; markedly improved compared with before.",
+          "local_src": "cleaned_cases_image_cache/442c1067f8b90fb85843da5026500bdd0dcb6e55.jpg"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnoB86ZYDGzIy8sk9hEsfnjFgEktDZXqd8GtWVBJnQDE9xp0NeTTTAHg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/43fdd05a562d05b6d52fbe182080cc4b9b0ef9d3.jpg"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qnAOOqZdJIt6QFEuGgn3lrVBASLap6zaZY8xRWFng3FK77LxsL5C2hQA/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/64fb0550a28647fefcd3922d93838f8535da2ad9.jpg"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstLNjuQUg9R1MI0nyVBp75qn5V3jqaRtHZmGElsuEQAlM98YtaLJKlsyF0egal9j1bJibEZ4Jyv1u0g/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Image: follow-up chest CT on Day +122",
+          "local_src": "cleaned_cases_image_cache/4ac6df9f920ad449c6ec34e947200f11c7c8621d.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Invasive tracheobronchial aspergillosis Invasive laryngotracheobronchial aspergillosis.",
+      "diagnostic_basis": [
+        "Medical history",
+        "Laboratory tests",
+        "CT",
+        "Bronchoscopy"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oxygen inhalation",
+        "ECG monitoring",
+        "Intravenous voriconazole 0.2 g Q12H",
+        "Nebulized inhalation of amphotericin B and ambroxol nebulizer solution",
+        "Hepatoprotective therapy with magnesium isoglycyrrhizinate, along with symptomatic treatment including expectorant therapy, antiasthmatic therapy, and nutritional support",
+        "Local treatment with bronchoscopic instillation of amphotericin B",
+        "Added caspofungin 50 mg QD intravenously",
+        "Discontinue voriconazole, switch to oral posaconazole 10 mL BID, combined with intravenous caspofungin 50 mg QD"
+      ],
+      "treatment_response": [
+        "5 days later, repeat voriconazole drug concentration reached the target level (3.58ug/mL), but the patient still had intermittent high fever, with a peak of 38.9℃, poor mental status, and dyspnea remained severe, worsening after getting out of bed and being active. On oxygen 3-5 L/min, sPO2 fluctuated between 89%-92%. Repeat chest CT on Day +16 showed slight improvement in the right upper lung compared with Day +2, and slight progression in both lower lungs.",
+        "Caspofungin 50 mg QD was added intravenously. After 6 days of combination therapy, the patient still had intermittent high fever and relatively severe dyspnea; chest CT suggested local progression, and refractory or progressive ITBA was considered.",
+        "Switched to oral posaconazole 10 mL Bid, combined with intravenous caspofungin 50 mg QD. Approximately 5 days later, the patient’s body temperature gradually returned to normal, and dyspnea improved. The posaconazole blood concentration was 0.96 ug/mL, which was below target; the reason for not reaching target was considered to be reduced drug absorption due to the patient’s insufficient intake of fatty foods. The patient was instructed to increase intake of foods rich in fat when taking oral posaconazole. Ten days later, repeat posaconazole blood concentration reached target (2.65 ug/mL).",
+        "On Day +33, the patient underwent follow-up chest CT, which showed marked improvement in the pulmonary opacities and bronchial wall thickening. After discharge, oral posaconazole 10 mL BID was continued.",
+        "Repeat bronchoscopy on Day +47: vocal cords normal; mucosa of the lower trachea was rough and edematous; mucosal erythema and swelling were seen in the left and right main bronchi and branches at all levels; no purulent plaques were seen; markedly improved compared with previously."
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "status": "success",
+  "case_id": "case_171",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 69 years old, farmer. Chief complaint: \"recurrent dyspnea for more than 20 days.\" He was admitted to our hospital on Day 0. More than 20 days earlier, the patient developed dyspnea, which was more obvious after activity, accompanied by cough and white sputum. On Day -15, chest CT at a local hospital indicated \"left lung infection with left pleural effusion,\" and he was subsequently hospitalized. Pleural fluid drainage was performed, yielding a light yellow, clear fluid. Pleural fluid testing on Day -13 showed: total protein 12.2 g/L, LDH 93 U/L, mononuclear cells 93%, multinuclear cells 7%, Rivalta test negative, and pleural fluid cytology did not detect tumor cells. At the outside hospital, levofloxacin was given for anti-infective treatment. After treatment, repeat chest CT showed that the left lung infection and pleural effusion were basically absorbed, and he was later discharged. After discharge, the patient again developed worsening cough and worsening chest tightness within a short period, without fever or other discomfort. On Day -1, he presented to the emergency department of our hospital. Chest CT indicated a large left pleural effusion, with decreased oxygen saturation, and emergency thoracentesis was performed. The fluid was still light yellow and clear. Routine pleural fluid analysis showed: nucleated cells: 289*10^6/L, eosinophils 2%, phagocytes 1%, mesothelial cells 3%, neutrophils 11%, lymphocytes 75%, macrophages 8%. Pleural fluid biochemistry: total protein 10.0 g/L, adenosine deaminase 2 U/L, lactate dehydrogenase 53 U/L. The patient was subsequently admitted to our department.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUze2ZpgM26y3Rza0Dd93y9tfuOjGoqeFP8Och0QnPCx6txrsRcx7PibwVg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1a: CT before thoracentesis for pleural effusion at an outside hospital on Day -15",
+          "local_src": "cleaned_cases_image_cache/d319804eb03685aa41165724a5b743972aa831ba.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzeWL7xlPXPDJicYyz07nRYWmVHPGY56HOsEHaud0N5JZOuIhviaHO4QiclA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 1b: CT after thoracentesis for pleural effusion at an outside hospital on Day -8",
+          "local_src": "cleaned_cases_image_cache/ece6f1a3da2aa20897e5bdf39bf5723ba3cfe87b.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzevUeL1emOcib2LU82NaiaNu9DTbSOE7Qhk0RxH3gIibA5lmHH7XEURRVKQ/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 2: Emergency CT at our hospital on Day -1: scattered inflammatory changes in the left lung, large left pleural effusion with atelectasis and consolidation involving most of the left lung",
+          "local_src": "cleaned_cases_image_cache/1fe2439c060aa4c3920107cc1166a7e25251d923.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Malignant pleural effusion (represented by pleural metastasis related to lung cancer or malignant pleural tumors)",
+          "supporting_evidence": [
+            "Male, 69 years old, in the high-risk age group for malignant causes of pleural effusion",
+            "The left pleural effusion recurred within a short period. After treatment at another hospital, the \"left lung infection and pleural effusion were basically absorbed.\" After discharge, cough recurred within a short period, with worsening chest tightness. Chest CT on Day -1 showed a large left pleural effusion.",
+            "Lymphocyte-predominant pleural fluid: routine pleural fluid analysis on Day -1 showed 75% lymphocytes, which can be consistent with malignant pleural effusion",
+            "Imaging shows a large left pleural effusion with marked compression of the left lung, falling within a spectrum of dangerous etiologies that warrant priority concern.",
+            "Outside-hospital pathology of the pleural effusion did not identify tumor cells, but a single negative result cannot completely rule out malignant pleural effusion"
+          ],
+          "opposing_evidence": [
+            "Pathologic examination of pleural effusion at an outside hospital found no tumor cells",
+            "Pleural fluid total protein 10.0-12.2 g/L, LDH 53-93 U/L, Rivalta test negative; overall, this more strongly demonstrates a low-protein, low-LDH pattern and is atypical for common malignant exudative pleural effusion.",
+            "The phase I images did not clearly provide evidence of pleural nodules, diffuse pleural thickening, or a definite intrapulmonary mass."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy/tuberculous pleural effusion",
+          "supporting_evidence": [
+            "The pleural fluid differential cell count was predominantly lymphocytic (75%; mononuclear cells 93% at an outside hospital), consistent with one of the common cytologic features of tuberculous pleural effusion.",
+            "The patient is an elderly man with recurrent unilateral pleural effusion; tuberculous pleuritis is an important differential diagnosis for recurrent unilateral pleural effusion.",
+            "The pleural fluid appears as a pale yellow, clear fluid and may be seen in tuberculous pleural effusion."
+          ],
+          "opposing_evidence": [
+            "Pleural fluid adenosine deaminase 2 U/L, clearly not supportive of the typical findings of tuberculous pleural effusion",
+            "Pleural fluid total protein 10.0-12.2 g/L, LDH 53-93 U/L, Rivalta test negative; overall not consistent with the typical features of tuberculous exudative effusion",
+            "In the text from the first stage, there was no description of fever or other systemic toxic symptoms."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "pneumonia-associated pleural effusion/parapneumonic pleural effusion",
+          "supporting_evidence": [
+            "The patient had cough and expectoration of white sputum, and a lung CT at a local hospital on Day -15 indicated \"left lung infection with left pleural effusion\"",
+            "After anti-infective treatment with levofloxacin at an outside hospital, repeat chest CT showed that the left lung infection and pleural effusion had largely resolved, suggesting that the effusion was temporally related to the infectious process.",
+            "There is currently a large left pleural effusion with compressive atelectasis of the left lung; infection-related pleural effusion still needs to be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient had no fever or other discomfort.",
+            "The pleural fluid cells were predominantly lymphocytes (75%), rather than the neutrophil predominance more commonly seen in atypical acute bacterial infection",
+            "Pleural fluid total protein and LDH are both low, and the Rivalta test is negative, which is not consistent with the typical features of a parapneumonic exudate",
+            "The pleural fluid appeared as a pale yellow, clear fluid, not suggestive of purulent or obviously inflammatory pleural effusion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Transudative pleural effusion caused by heart failure or other systemic factors",
+          "supporting_evidence": [
+            "Pleural fluid biochemistry on both occasions showed extremely low total protein (12.2 g/L, 10.0 g/L) and low LDH (93 U/L, 53 U/L), and the Rivalta test was negative; overall, these findings are more consistent with a transudative effusion.",
+            "The pleural fluid was pale yellow and clear in appearance, which can be seen in transudative pleural effusion.",
+            "The patient mainly presents with dyspnea, more pronounced after exertion, which can be seen in ventilatory limitation caused by a large transudative pleural effusion."
+          ],
+          "opposing_evidence": [
+            "The pleural effusion is a marked unilateral large left-sided effusion; pleural effusion related to heart failure is more commonly bilateral or right-sided, and a persistent recurrent unilateral large left-sided effusion is relatively atypical.",
+            "The text from the first stage did not provide supportive information such as a history of heart disease, lower extremity edema, orthopnea, or elevated BNP.",
+            "The pleural fluid cell differential shows a relatively high proportion of lymphocytes, which is not a specific finding of pleural effusion due to uncomplicated heart failure."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary embolism-related pleural effusion",
+          "supporting_evidence": [
+            "The patient’s principal symptom is dyspnea, accompanied by decreased oxygen saturation; pulmonary embolism is a high-risk etiology that requires early differentiation.",
+            "Pleural effusion may be unilateral and may be accompanied clinically by cough, chest tightness, and dyspnea."
+          ],
+          "opposing_evidence": [
+            "The phase 1 text did not provide typical risk factors or accompanying manifestations such as sudden chest pain, hemoptysis, prolonged bed rest, surgery, or deep vein thrombosis.",
+            "The pleural fluid was described as a pale yellow, clear fluid, with no indication of hemorrhagic pleural effusion.",
+            "The first-stage images mainly show a large left pleural effusion and compressive changes of the lung, without direct imaging evidence of pulmonary infarction, etc."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Noncardiogenic transudative pleural effusion due to hypoproteinemia/liver and kidney diseases, etc.",
+          "supporting_evidence": [
+            "Pleural fluid total protein was extremely low (10.0-12.2 g/L), LDH was low, and the Rivalta test was negative; the biochemical pattern supports transudative pleural effusion.",
+            "The pleural fluid appeared as a pale yellow, clear fluid, consistent with the typical appearance of a transudate."
+          ],
+          "opposing_evidence": [
+            "The stage 1 text did not provide information on underlying diseases such as cirrhosis, ascites, nephrotic syndrome, chronic renal insufficiency, and malnutrition.",
+            "The effusion is a large unilateral left-sided pleural effusion with short-term recurrence, which is not the typical distribution pattern of pleural effusion in most systemic hypoproteinemic states.",
+            "The presence of cough, sputum production, and prior imaging suggesting left lung infection makes an explanation based solely on systemic hypoproteinemia insufficient."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Left atrial CTA",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Left atrial CTA revealed two abnormalities of the pulmonary vessels: 1. The left superior pulmonary vein and the middle branch of the right pulmonary vein were not visualized, suggesting localized venous occlusion or absence; 2. Multiple branches of the left lower pulmonary artery were dilated. Pulmonary artery CTA revealed, in addition to the above pulmonary vascular abnormalities, stenosis at the origins of the anterior segmental artery and the apicoposterior segmental artery of the left upper lobe, stenosis at the origin of the right upper lobe artery, marked narrowing of the right interlobar artery, and occlusion of the medial, anterior, and lateral segmental arteries within the right middle lobe and lower lobe. General cardiology consultation opinion: pulmonary artery/vein stenosis or occlusion caused by compression from fibrosing mediastinitis is highly likely. General rheumatology consultation opinion recommended evaluation for Behcet disease or large-vessel arteritis. After further history taking and physical examination.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUze0C5NrAoXvFGh2LbMgrFQcwpas97X3YgeIMm3lSCXMbzdYzlnvBFORQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3a: Left atrial CTA showed nonvisualization of the left superior pulmonary vein",
+            "local_src": "cleaned_cases_image_cache/460ed157e9e618e551ccdb0d05b17e5d7386a06a.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzeFMVtGCFxTmBhHuQwT8Jh0Avox0GzJ0pKASicYHATZebvQnSvNibpchnw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 3b: Left atrial CTA showed dilation of the branch of the left lower pulmonary artery",
+            "local_src": "cleaned_cases_image_cache/b6c1ae5fc081ae5d63ce04cacdf171ec2abdc102.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzeFENTsZntImec327cnzBNAtj6ntGTZxQRAWtBiaZxxZpxicv99qBFIg5A/640?wx_fmt=png&from=appmsg",
+            "near_text": "Figure 4: Pulmonary artery CTA showed stenosis at the ostia of the anterior segmental artery and the apicoposterior segmental artery of the left upper lobe, and marked narrowing of the right interlobar artery",
+            "local_src": "cleaned_cases_image_cache/fd828aeaf422a88e7368d9d852eaa73f701371b6.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tumor, tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "These causes of unilateral pleural effusion mostly result in an exudative effusion, rather than the transudative effusion in this patient"
+            ]
+          },
+          {
+            "name": "Abnormal cardiac function, abnormal renal function, or hypoproteinemia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no obvious clinical manifestations or abnormal laboratory findings of cardiac dysfunction, renal dysfunction, or hypoproteinemia."
+            ]
+          },
+          {
+            "name": "Rheumatic disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient’s autoantibodies were all normal, and inflammatory markers, including ESR and ferritin, were within the normal range; there is no clear evidence that the pleural effusion was caused by a rheumatic disease."
+            ]
+          },
+          {
+            "name": "Behçet disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "After further history taking and physical examination, no evidence of Behçet disease was found."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tumor, tuberculosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "These causes of unilateral pleural effusion mostly result in an exudative effusion, rather than the transudative effusion in this patient"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Rheumatic disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient’s autoantibodies were all normal, and inflammatory markers, including ESR and ferritin, were within the normal range; there is no clear evidence that the pleural effusion was caused by a rheumatic disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Behçet disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "After further history taking and physical examination, no evidence of Behçet disease was found."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PET/CT scan",
+          "basis_in_stage3_input": "PET/CT results: multiple lymph nodes in the left clavicular region, mediastinum, and bilateral hila with increased glucose metabolism, possibly representing inflammatory hyperplasia; no increased uptake was seen in the remaining mediastinum or the pulmonary artery region.",
+          "why_order_this_exam": "The patient is a 69-year-old man with recurrent dyspnea for more than 20 days, hypoxemia, and recurrent large-volume unilateral pleural effusion within a short period. Prior CTA had already identified multifocal stenosis/occlusion of the bilateral pulmonary arteries and pulmonary venous abnormalities, suggesting that simple infection or uncomplicated transudative pleural effusion cannot explain all manifestations. The purpose of PET/CT is to comprehensively evaluate the mediastinum, hila, lung parenchyma, and other sites systemically and within the chest for lesions caused by tumor, active inflammation, or granulomatous disease, with emphasis on differentiating etiologies such as fibrosing mediastinitis, sarcoidosis, metastatic tumor, or vasculitis. If hypermetabolism is present in the pulmonary artery region or mediastinal soft tissue, it may support active inflammation/tumor and help localize biopsy; if there is no significant increased uptake around the vessels, this would help reduce the likelihood of active vasculitis such as aortitis and provide a basis for subsequent assessment favoring chronic thrombotic disease, fibrosing mediastinitis, or congenital factors, while also affecting whether anti-inflammatory therapy, antitumor therapy, or further interventional treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary ventilation-perfusion scintigraphy",
+          "basis_in_stage3_input": "Ventilation-perfusion scintigraphy showed mildly sparse radiotracer distribution in the posterior segment of the right upper lobe and the lateral segment of the right middle lobe; no abnormality was seen on ventilation.",
+          "why_order_this_exam": "The patient has persistent dyspnea, marked worsening after exertion, and decreased oxygen saturation. CTA further indicated occlusion of the artery to the medial and anterior/lateral segments of the right middle and lower lobes, with stenosis of other branches, highly suggesting abnormal pulmonary blood flow perfusion. Ventilation-perfusion scintigraphy is used to define the functional distribution of impaired intrapulmonary perfusion and to determine whether there is a mismatched pattern of \"normal ventilation with perfusion defects,\" thereby supporting chronic thromboembolic pulmonary hypertension or blood flow obstruction caused by other mechanical pulmonary arterial stenosis/occlusion. This examination can complement the limitations of anatomic CTA, help distinguish vascular dyspnea from simple infection, compression from pleural effusion, or airway lesions, and can also be used to assess the extent of involved pulmonary segments, providing a functional basis for whether to further perform right heart catheterization, pulmonary angiography, and balloon dilation/stent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "No abnormalities were seen on bronchoscopy",
+          "why_order_this_exam": "The patient had recurrent cough, expectoration of white sputum, chest tightness, and dyspnea. Imaging also suggested abnormal vessels and multiple lymph nodes in the mediastinal and hilar regions. The cardiovascular medicine department had considered fibrosing mediastinitis compressing the pulmonary arteries and veins. The purpose of bronchoscopy was to directly assess whether the airway had extrinsic stenosis, mucosal infiltration, endoluminal mass, or infectious changes, in order to determine whether the mediastinal lesion also involved the bronchi and to exclude an endobronchial cause of the dyspnea and imaging abnormalities. If abnormalities were found, it could also provide access for brushings, biopsy, or further EBUS-guided tissue sampling; if no abnormalities were seen on bronchoscopy, this would help indicate that the principal issue was not a central airway lesion, further supporting predominant pulmonary vascular involvement and helping focus subsequent diagnosis and treatment on pulmonary vascular etiologies and interventional evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS-TBNA of lymph node stations 4R, 4L, and 11R",
+          "basis_in_stage3_input": "EBUS-TBNA of the 4R, 4L, and 11R lymph node stations all showed lymphocytes; the diagnosis of sarcoidosis was not pathologically supported.",
+          "why_order_this_exam": "PET/CT showed increased glucose metabolism in multiple lymph nodes in the left clavicular region, mediastinum, and bilateral hilar regions. During the MDT, both Radiology and Nuclear Medicine suggested that sarcoidosis should be considered. In addition, the patient had unexplained pulmonary artery/pulmonary vein abnormalities, a trend toward pulmonary hypertension, and recurrent pleural effusions, so pathologic evidence should be obtained as much as possible to clarify the etiology. EBUS-TBNA can provide minimally invasive sampling of mediastinal and hilar lymph nodes, mainly to determine whether these hypermetabolic lymph nodes represent sarcoidosis, tumor metastasis, TB/other infection, or a nonspecific inflammatory reaction. The pathologic results are crucial for confirming or excluding sarcoidosis and malignant disease, and also directly affect whether subsequent glucocorticoid/immunotherapy, anti-infective/anti-TB treatment is needed, or whether to continue advancing diagnosis and treatment along the direction of CTEPH/fibrosing mediastinitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thrombophilia testing",
+          "basis_in_stage3_input": "Thrombophilia testing: lupus anticoagulant dRVVT normalized ratio 1.40 (↑), plasma protein S activity 73.0% (↓).",
+          "why_order_this_exam": "Imaging has already shown stenosis and occlusion of multiple pulmonary artery branches, and the patient developed dyspnea, hypoxemia, and subsequently confirmed pulmonary hypertension. Cardiovascular surgery has raised a high suspicion for chronic thromboembolic pulmonary hypertension. Although the early records lacked typical provoking factors for acute pulmonary embolism, in the setting of pulmonary artery occlusion/stenosis of unclear cause, a systematic evaluation is required to determine whether an acquired or inherited hypercoagulable state is present. The clinical purpose of thrombophilia testing is to determine whether the patient has an underlying basis that triggers or maintains chronic thrombus formation in the pulmonary vasculature, thereby supporting the etiology of CTEPH and affecting the need for anticoagulation, the duration of anticoagulation, and the follow-up strategy. If a thrombotic tendency is suggested, it may also help explain the hemodynamic relationship between the pulmonary artery lesions and recurrent pleural effusion, and strengthen perioperative thrombotic risk assessment during subsequent interventional treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lupus anticoagulant dRVVT normalized ratio",
+          "basis_in_stage3_input": "Lupus anticoagulant dRVVT standardized ratio 1.40 (↑)",
+          "why_order_this_exam": "In the setting of multiple pulmonary artery stenoses/occlusions, dyspnea, hypoxemia, and evidence of pulmonary hypertension, it is necessary to further determine whether an antiphospholipid-related hypercoagulable state is present. An elevated dRVVT normalized ratio may suggest a tendency toward lupus anticoagulant positivity and is an important test for screening thrombotic risk related to antiphospholipid syndrome. This test primarily addresses whether an immune-mediated hypercoagulable mechanism is involved in the patient's pulmonary artery lesions; if abnormal, it may provide etiologic support for chronic thrombosis, help explain why pulmonary artery occlusion occurred despite the absence of obvious traditional risk factors, and also affect the choice and duration of anticoagulation therapy as well as the level of vigilance for recurrent thrombosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Plasma protein S activity",
+          "basis_in_stage3_input": "Plasma protein S activity 73.0% (↓)",
+          "why_order_this_exam": "Pulmonary artery CTA in the patient has already shown stenosis and occlusion of multiple pulmonary arteries. Clinically, there are also progressive dyspnea, hypoxemia, and subsequent manifestations of pulmonary hypertension; therefore, it is necessary to assess whether there is a thrombophilic tendency caused by a defect in the natural anticoagulant system. Decreased plasma protein S activity may suggest protein S deficiency, which is one of the important risk factors for venous thromboembolism. The purpose of testing this parameter is to identify a potential underlying etiology of chronic pulmonary thrombosis and CTEPH, and to provide a basis for subsequent long-term anticoagulation therapy; if decreased protein S activity is present, this would further support that the patient's pulmonary arterial lesions are not merely due to simple external compression or inflammatory changes, but may also involve a thromboembolic mechanism, which is of important significance for treatment direction and recurrence prevention.",
+          "requirement": "required"
+        },
+        {
+          "exam": "contrast-enhanced cardiac MRI",
+          "basis_in_stage3_input": "Contrast-enhanced cardiac MRI showed pulmonary hypertension-related changes, right ventricular systolic function within the normal range, dilation of the left lower pulmonary artery, and mild fibrosis of the left ventricular myocardium.",
+          "why_order_this_exam": "The patient has developed persistent dyspnea,明显 after exertion, with decreased blood oxygen, and CTA indicates stenosis/occlusion of multiple pulmonary artery branches and pulmonary venous abnormalities. Clinically, it is necessary to determine whether these structural pulmonary vascular lesions have already caused significant cardiopulmonary hemodynamic consequences. Contrast-enhanced cardiac MRI can more comprehensively assess right ventricular size, function, wall motion, pulmonary artery morphology, and myocardial tissue characteristics, with emphasis on determining whether there is pulmonary hypertension-related cardiac remodeling, increased right heart load, and whether other myocardial diseases or occult cardiogenic factors are present. This examination is valuable for establishing disease severity, assessing the patient's tolerance for interventional treatment, and distinguishing it from dyspnea caused solely by pleural effusion or infection; if pulmonary hypertension changes are found while right ventricular systolic function is still preserved, it may also help guide the timing of subsequent interventional reconstruction and anticoagulation therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "PET/CT results: Multiple lymph nodes in the left clavicular region, mediastinum, and bilateral hila showed increased glucose metabolism, favoring inflammatory hyperplasia; no increased uptake was seen in the remaining mediastinum or pulmonary artery region. Multidisciplinary discussion (MDT) opinions: Radiology considered sarcoidosis or congenital factors; Nuclear Medicine believed there was no obvious vascular hypermetabolism on imaging, which was not consistent with aortitis, and sarcoidosis should be considered; Rheumatology/Immunology believed there was no evidence of vasculitis, and sarcoidosis could not be excluded; Cardiovascular Surgery primarily considered chronic thromboembolic pulmonary hypertension (CTEPH); Cardiology considered fibrosing mediastinitis. Lung ventilation-perfusion scintigraphy suggested mildly sparse radiotracer distribution in the posterior segment of the right upper lobe and the lateral segment of the right middle lobe; no abnormality was seen on ventilation imaging. No abnormality was seen on bronchoscopy; EBUS-TBNA of lymph node stations 4R, 4L, and 11R all showed lymphocytes, and the diagnosis of sarcoidosis was not pathologically supported. Thrombophilia testing: lupus anticoagulant dRVVT normalized ratio 1.40 (↑), plasma protein S activity 73.0% (↓). Contrast-enhanced cardiac MRI suggested: changes of pulmonary hypertension, right ventricular systolic function within the normal range, dilation of the left lower pulmonary artery, and mild fibrosis of the left ventricular myocardium.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzeIb1cqFfGeYXGDgOzznVE7QKHMKibg1UyZDoM2gZKkXvn6K2vvm4jiatw/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 5: PET/CT showed high uptake in multiple mediastinal lymph nodes",
+          "local_src": "cleaned_cases_image_cache/d3b7581d04cccd8e5b3f902ffaf8aa421cfb7263.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzeHQePL0UWXJUSjBq9xicTykqq8iawlCXWXibDosTWCQ9kphvZx9atPjRCw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/1ef63590f1d4125c2fc2ed99a99ee075a543cce6.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzervibZDvo3EBJhFlM85ciaBawX1Zp5G4Bs0OhAe0BM6CVLuKakW4Z3rbw/640?wx_fmt=png&from=appmsg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/5e2624b04e2fbf3612a58923258a7ef3cfda1008.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstJjrvGwicjllbd4dktbhDUzea4iceS09oUbfERLuKNft8nZpPtv0M8I5NPiasOc4XWUHyUjnTF3OUAkA/640?wx_fmt=png&from=appmsg",
+          "near_text": "Figure 7: Comparison of CTPA on Day +4 and postoperative CTPA on Day +61",
+          "local_src": "cleaned_cases_image_cache/5e3460b206204ee926d9cad504eb2d6779a170f6.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Pre-capillary pulmonary arterial hypertension (2022 ESC/ERS diagnostic criteria); 2. Pulmonary artery stenosis.",
+      "diagnostic_basis": [
+        "Right heart catheterization measured pulmonary artery pressure 46/11 (23) mmHg, cardiac output by thermodilution approximately 3.0 L/min, and pulmonary vascular resistance 6 Wood units",
+        "Superselective pulmonary angiography demonstrated stenosis and occlusion of multiple pulmonary artery branches, with >90% stenosis of the common trunk of the right A8-A10 pulmonary arteries",
+        "Protein S deficiency, elevated lupus anticoagulant ratio, thrombophilia cannot be excluded"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Right heart catheterization + superselective pulmonary angiography + balloon angioplasty of a pulmonary artery branch + pulmonary artery stent implantation",
+        "Anticoagulation therapy"
+      ],
+      "treatment_response": [
+        "The pleural effusion is under control, and the amount of pleural fluid has decreased compared with previously.",
+        "Recanalization at the stenotic segment of the right lower lobe pulmonary artery; the diameter of the dilated left lower pulmonary artery is smaller than before.",
+        "Cough decreased, with no chest tightness or dyspnea; pleural effusion drainage is not required"
+      ]
+    }
+  }
+}

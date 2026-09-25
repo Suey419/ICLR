@@ -1,0 +1,378 @@
+{
+  "status": "success",
+  "case_id": "case_173",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: The patient is from Nanning, 41 years old, and was admitted to our Department of Pulmonary and Critical Care Medicine on Day 0, for “recurrent fever with rash for 10 days.” The patient developed fever after taking a cold shower 10 days before admission, with body temperature fluctuating between 36.5℃ and 38.5℃, without wheezing, shortness of breath, cough, or sputum production, and without chills or rigors. This was accompanied by small blisters on both palms and both lower extremities, as well as edematous erythema on the face, axillae, and groin, with mild pruritus. After 5 days of oral cephalosporin anti-infective treatment at a community hospital, the patient still had recurrent fever, and the rash and erythema worsened compared with before, so the patient presented to the local city hospital, where a complete blood count showed: white blood cells: 11.2*10^9/L, lymphocytes: 0.89*10^9/L, eosinophils: 2.07×10⁹/L. During hospitalization, ceftazidime was given for anti-infective treatment, but the body temperature still fluctuated, the rash symptoms worsened, and multiple erythematous maculopapular rashes appeared on the face, both axillae, and bilateral groin with worsening pruritus, accompanied by generalized fatigue. For further diagnosis and treatment, the patient was admitted to our department with “fever of unknown origin.” Since the onset of illness, the patient’s mental status has been fair, with no significant change in body weight, decreased appetite, normal bowel movements, decreased urine output, and short sleep duration. The patient was previously in good health, with a 2-year history of hypertension (maximum 160/110 mmHg, not regularly treated). Personal history and family history were unremarkable. Physical examination on admission: T 38.2℃, P: 62/min, R: 21/min, BP: 132/84 mmHg. Mild scleral icterus. Multiple erythematous maculopapular rashes and ruptured crusted lesions were present over the whole body. The thorax was symmetric without deformity, no sternal tenderness, respiratory movement was normal, breath sounds were clear in both lungs, the liver and spleen were not palpable as enlarged, and there was no edema in either lower extremity. No pleural friction fremitus was present; percussion of both lungs was resonant, breath sounds in both lungs were clear, and tactile fremitus was equal bilaterally; no dry or moist rales were heard. The abdomen was flat and soft, with no visible gastrointestinal contour and no varicose veins of the abdominal wall; tympany was noted on percussion; the liver and spleen were not palpable below the costal margin; Murphy sign was negative; there was no percussion tenderness over the liver or kidney regions, no abdominal tenderness or rebound tenderness, no guarding; and shifting dullness was negative.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+          "supporting_evidence": [
+            "Fever present (temperature fluctuated between 36.5°C and 38.5°C; admission T 38.2°C)",
+            "Extensive rash: multiple erythematous maculopapular rashes and ruptured crusted lesions over the entire body; multiple erythematous maculopapular rashes on the face, bilateral axillae, and bilateral groins; small blisters on both palms and both lower extremities",
+            "Accompanied by edematous erythema of the face, axillae, and groin; facial involvement and edema support the possibility of a severe drug eruption",
+            "Rash with pruritus, which worsened after oral cephalosporin use and after ceftazidime treatment during hospitalization, suggesting a drug-related cause",
+            "CBC showed eosinophils 2.07×10^9/L, with marked eosinophilia",
+            "Mild scleral icterus and decreased urine output, suggesting possible systemic involvement"
+          ],
+          "opposing_evidence": [
+            "The patient's initial fever and rash occurred before oral treatment with a cephalosporin at a community hospital; the temporal relationship between the initial trigger and the specific sensitizing drug was not typical.",
+            "No definite manifestations such as lymphadenopathy or hepatosplenomegaly were noted in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Severe drug eruption/drug hypersensitivity reaction (non-DRESS-type drug eruption)",
+          "supporting_evidence": [
+            "The rash worsened after the use of cephalosporin antibiotics and ceftazidime.",
+            "The rash morphology includes erythematous maculopapules, small vesicles, erosions with crusting, accompanied by mild to worsening pruritus",
+            "Accompanied by fever and generalized fatigue, consistent with manifestations of a systemic drug reaction",
+            "Eosinophils 2.07×10^9/L, supporting an allergic/hypersensitivity background"
+          ],
+          "opposing_evidence": [
+            "The patient had already developed fever and rash before receiving oral cephalosporins at a community hospital, suggesting that not all manifestations can be explained by the subsequent drug exposure.",
+            "The presence of clues to systemic involvement such as mild scleral icterus and decreased urine output warrants greater consideration of more severe types such as DRESS, rather than a simple drug-induced rash."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Hypereosinophilic syndrome (HES)",
+          "supporting_evidence": [
+            "Eosinophils 2.07×10^9/L, markedly elevated",
+            "Accompanied by fever, widespread rash, and pruritus; skin involvement may be seen in HES",
+            "Mild scleral icterus and decreased urine output suggest possible extracutaneous organ involvement."
+          ],
+          "opposing_evidence": [
+            "The disease course was only 10 days, with acute onset, which is atypical compared with the persistent course commonly seen in primary HES.",
+            "In the first stage, there was no clear evidence of multi-organ damage involving the heart, lungs, nervous system, gastrointestinal tract, or other organs.",
+            "There is a stronger alternative explanation: worsening after medication exposure."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory viral nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "immune cell subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease-related antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + parasite screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "FeNO",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paranasal sinus CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "skin biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Chest CT (Day 0): Multiple inflammatory lesions in both lungs; multiple mildly enlarged lymph node shadows in the mediastinum and bilateral axillae; enlarged cardiophrenic angle lymph nodes; small bilateral pleural effusions. Routine laboratory tests (Day 0): CBC: WBC 14.8×10⁹/L, LY% 8.1%, EOS %37.2%, Neu 7.43×10⁹/L, EOS 5.51×10⁹/L, RBC 4.23×10¹²/L, PLT 118×10⁹/L, CRP 28.52mg/L. Chemistry: TBIL 58.8umol/L, ALT 120U/L; the remaining parameters (direct bilirubin, total protein, etc.) were normal. Urinalysis: light yellow urine color; nitrite, urine glucose, and occult blood all negative; urine bilirubin 1+, urobilinogen 3+, urine protein 1+, urine ketones 3+, manual urine protein 1+. Coagulation function: D-dimer 3.59ug/ml, FDP 11.7mg/L; the remaining parameters were normal. TB-related: T-spot negative, acid-fast stain negative. ESR 29mm/h. Viral testing: Respiratory viruses: nucleic acid tests for human metapneumovirus, adenovirus, respiratory syncytial virus, and parainfluenza virus were all negative; influenza viruses: both influenza A and influenza B antigen tests were negative. Immune cell subsets: indices and proportions were basically without abnormalities. Immunoglobulins: serum IgG 16.10g/L, serum IgA 3.59g/L, serum IgM 3.46g/L, serum IgE 1500.00IU/ml, IgG4 1.0400g/L. Infectious disease-related antibodies: normal. Tumor markers: carcinoembryonic antigen 0.57ug/L, neuron-specific enolase 15.4ug/L, CA19-9 3.79U/ml, CYFRA211 0.912ug/l; CA125 57.40U/ml, ferritin 1091.00ug/L, squamous cell carcinoma antigen 5.2ng/ml. Stool routine + parasite screening: brown loose stool; RBCs, WBCs, and macrophages on microscopy were all 0/HP; no amoeba, whipworm eggs, hookworm eggs, or roundworm eggs were found; occult blood negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6KZVfXh5iaZOpOULnfthqlia7icvSrILISS7nOicJrAtYLvwZwm1awxCeibQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/2587936e9e408de8b86d77c3c59305ba83aec44d.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6FRqWpZibagtgE8VT5fQR8qF5sP9EYorWPTq2QIh70nOmUgWHo6VhVtw/640?wx_fmt=png&from=appmsg",
+            "near_text": "Chest CT (Day 0)",
+            "local_src": "cleaned_cases_image_cache/68954bcf3b1711860f45abfb8fde81b1c74812da.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6GIlyD7I0VjmwUN2vzXzlLkDOiah9yAhmzle2xsHgvXEDYRryTe5mibjw/640?wx_fmt=jpeg&from=appmsg",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/0c565c7f597b40d88bb028500a8e682f4698cdbb.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u65aPrAEFxe3KWbic86pK9cRR78gYhlbPwWgfRshmjCor2J8x0O3qnpibQ/640?wx_fmt=png&from=appmsg",
+            "near_text": "Patient skin images",
+            "local_src": "cleaned_cases_image_cache/0114c310db3b635310716cb91788c836bdd56bfb.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "common bacterial infection",
+            "evidence": [
+              "Fever with rash",
+              "Complete blood count showed white blood cells 11.2×10⁹/L"
+            ],
+            "exclusion_reasons": [
+              "Broad-spectrum antibiotic therapy was ineffective",
+              "Increased rash and worsening pruritus",
+              "Condition continues to worsen"
+            ]
+          },
+          {
+            "name": "common allergy",
+            "evidence": [
+              "The morphology of the rash (edematous erythema + small vesicles) is more suggestive of an allergic etiology."
+            ],
+            "exclusion_reasons": [
+              "Accompanied by persistent fever and multisystem involvement"
+            ]
+          },
+          {
+            "name": "Parasitic infection",
+            "evidence": [
+              "Mild eosinophilia"
+            ],
+            "exclusion_reasons": [
+              "No history of exposure to infested water",
+              "Routine parasite screening and infectious marker testing showed no positive findings"
+            ]
+          },
+          {
+            "name": "Acute eosinophilic pneumonia",
+            "evidence": [
+              "acute dyspnea, moderate fever, bilateral interstitial and alveolar infiltrates"
+            ],
+            "exclusion_reasons": [
+              "Peripheral blood eosinophils were normal (in this case, the patient's peripheral blood eosinophils were markedly elevated)"
+            ]
+          },
+          {
+            "name": "Chronic eosinophilic pneumonia",
+            "evidence": [
+              "Peripheral blood eosinophil percentage >25%, BALF percentage >40%"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Langerhans cell histiocytosis",
+            "evidence": [
+              "Fatigue, weight loss, chest pain, and fever, etc."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "common allergy",
+        "evidence": [
+          "The morphology of the rash (edematous erythema + small vesicles) is more suggestive of an allergic etiology."
+        ],
+        "exclusion_reasons": [
+          "Accompanied by persistent fever and multisystem involvement"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Parasitic infection",
+        "evidence": [
+          "Mild eosinophilia"
+        ],
+        "exclusion_reasons": [
+          "No history of exposure to infested water",
+          "Routine parasite screening and infectious marker testing showed no positive findings"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "ANCA-associated vasculitis",
+        "evidence": [
+          "Markedly elevated blood eosinophils, abnormal liver function tests and urinalysis"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy showed no obvious abnormalities.",
+          "why_order_this_exam": "The patient presented with persistent fever, marked elevation of peripheral blood eosinophils, and chest CT showing multiple inflammatory lesions in both lungs and a small pleural effusion. Although there were no obvious typical respiratory symptoms such as cough, sputum production, or wheezing, pulmonary involvement on imaging was already present, and anti-infective therapy was ineffective, so the nature of the pulmonary lesions required further clarification. Bronchoscopy can directly assess whether the airway mucosa has infection, bleeding, granulation tissue, tumor, or other structural lesions, and provides access for subsequent bronchoalveolar lavage sampling. Even though bronchoscopy in this case showed no obvious abnormalities, this result still helps exclude obvious organic lesions of the central airway, suggesting that the lesions are more likely located at the level of the lung parenchyma/small airways, and supports subsequent further diagnosis and formulation of a treatment plan from the perspectives of eosinophil-related pulmonary involvement, vasculitis, and immune-mediated disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid differential cell count",
+          "basis_in_stage3_input": "The proportion of eosinophils in the bronchoalveolar lavage fluid was also elevated.",
+          "why_order_this_exam": "The patient's chest CT already showed multiple inflammatory opacities in both lungs, and the peripheral blood eosinophil count was markedly elevated (EOS 5.51×10^9/L, 37.2%). At the same time, screening for bacteria, TB, common respiratory viruses, and parasites all lacked supportive evidence, and antibacterial treatment was ineffective. Therefore, it was necessary to determine whether the pulmonary opacities represented eosinophilic pulmonary infiltrates rather than simple infection. BALF cell differential can directly assess the composition of inflammatory cells in the lungs and clarify whether eosinophilia is present at the alveolar level, which is of key value for differentiating infectious pneumonia, chronic eosinophilic pneumonia, and EGPA-related pulmonary involvement. In this case, elevated eosinophils in the lavage fluid, together with peripheral blood eosinophilia, provided important evidence for establishing an eosinophil-related systemic disease, excluding simple infection, and supporting subsequent glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody testing",
+          "basis_in_stage3_input": "Autoantibody test results returned: MPO-ANCA positive.",
+          "why_order_this_exam": "In addition to fever and rash, the patient also had abnormal lung imaging, urine protein 1+, abnormal liver function, a small pleural effusion, and marked eosinophilia, suggesting not a localized allergy or simple infection, but the possible presence of a systemic immune-mediated disease or vasculitis. Autoantibody testing, especially ANCA-related assays, is helpful in differentiating among drug reaction, eosinophilic pneumonia, hypereosinophilic syndrome, and ANCA-associated vasculitis. MPO-ANCA positivity is mutually corroborative with the patient's eosinophilia and clues of pulmonary involvement, sinus involvement, skin involvement, and renal involvement, significantly increasing the probability of an EGPA diagnosis; it also provides a basis for subsequent immunosuppressive treatment such as glucocorticoids and helps assess disease subtype and risk of relapse.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "basis_in_stage3_input": "Pulmonary function test results: post-bronchodilator ventilatory function showed moderate obstructive impairment; the bronchodilator test was questionably positive.",
+          "why_order_this_exam": "Although the patient's chief complaint on admission was not primarily obvious wheezing or dyspnea, the presence of abnormal pulmonary imaging, elevated FeNO, and increased eosinophils in peripheral blood and BALF requires evaluation for concomitant small airway/airway obstructive disease, which is very important for identifying the asthma phenotype in EGPA. PFT can objectively assess the degree of ventilatory impairment, whether obstructive changes are present, and disease severity, helping to explain whether pulmonary involvement is predominantly due to airway inflammation or predominantly due to infection/interstitial disease. In this case, moderate obstructive impairment was shown, providing functional evidence of respiratory system involvement in the diagnosis of EGPA, and also providing a baseline for subsequent glucocorticoid therapy, whether long-term inhaled therapy is needed, and for disease monitoring and follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "basis_in_stage3_input": "Pulmonary function test results: post-bronchodilator ventilatory function showed moderate obstructive impairment; the bronchodilator test was questionably positive.",
+          "why_order_this_exam": "On the basis that PFT has already indicated obstructive ventilatory dysfunction, it is still necessary to further determine whether this obstruction is reversible in order to identify asthma-like airway hyperresponsiveness. EGPA is often closely associated with asthma or eosinophilic airway inflammation, whereas this patient has no typical asthma-related clinical complaints; therefore, a bronchodilator reversibility test is particularly important for detecting occult or atypical reversible airflow limitation. This test can help distinguish fixed obstruction, post-infectious changes, and reversible airway lesions related to eosinophilic inflammation, and, together with FeNO, eosinophil count, and sinus imaging findings, build the diagnostic chain for EGPA; at the same time, its results will also affect whether subsequent combination therapy with bronchodilators or inhaled anti-inflammatory treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "FeNO",
+          "basis_in_stage3_input": "FeNO：50 ppb。",
+          "why_order_this_exam": "The patient had marked eosinophilia, pulmonary involvement, and subsequently confirmed obstructive ventilatory impairment, but lacked the typical clinical manifestation of wheezing; therefore, noninvasive evidence supporting eosinophilic airway inflammation was needed. FeNO can reflect the activity of type 2 airway inflammation/eosinophilic inflammation and is helpful for identifying asthma-related phenotypes, assessing the burden of eosinophilic airway inflammation, and distinguishing it from simple infection. In this case, FeNO was elevated; together with increased eosinophils in peripheral blood and BALF, a suspiciously positive bronchodilator test, and manifestations of sinusitis, this further supports an EGPA-related airway inflammatory background and provides a reference for subsequent assessment of response to glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT of the paranasal sinuses",
+          "basis_in_stage3_input": "Paranasal sinus CT results indicate: bilateral ethmoid sinus inflammation.",
+          "why_order_this_exam": "EGPA commonly involves the upper airway and paranasal sinuses, and sinusitis is an important associated manifestation and classification clue. Although the patient's initial presentation was fever, rash, and pulmonary opacities, in the context of increased eosinophils in peripheral blood/BALF, MPO-ANCA positivity, and obstructive changes on pulmonary function testing, it is necessary to actively screen for sinus involvement to supplement the diagnostic evidence for systemic vasculitis. Paranasal sinus CT can objectively demonstrate the extent and location of sinus inflammation, helping to further distinguish EGPA from simple eosinophilic pneumonia, drug reaction, and other conditions. This case suggests bilateral ethmoid sinus inflammation, which is highly consistent with eosinophilic airway inflammation and systemic vasculitis, expanding the diagnosis from a single pulmonary disease to multisystem EGPA and guiding subsequent comprehensive treatment and otolaryngology-related follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Skin biopsy of the lower-extremity rash",
+          "basis_in_stage3_input": "A skin biopsy of the rash on the lower extremities was also performed in collaboration with the Department of Dermatology.",
+          "why_order_this_exam": "The patient had extensive rash, small vesicles, maculopapular eruptions, erosions with crusting, and pruritus, accompanied by persistent fever, marked eosinophilia, evidence of liver and kidney involvement, and pulmonary abnormalities. Initially, a broad differential diagnosis was required, including drug eruption, DRESS, viral exanthem, and cutaneous lesions of systemic vasculitis. Skin biopsy is the most direct and relatively low-risk method for obtaining histopathologic evidence and can determine whether the skin lesions show vasculitic changes, extravascular eosinophilic infiltration, or other characteristic pathologic features of drug eruption, thereby addressing the key question of whether the rash represented simple drug hypersensitivity or a manifestation of systemic eosinophilic vasculitis. In conjunction with the final pathology indicating extravascular eosinophilic infiltration, this examination provided important histopathologic evidence for the diagnosis of EGPA and also helped avoid misdiagnosing the patient as having simple infection or an ordinary drug eruption, directly affecting subsequent immunosuppressive treatment decisions.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy showed no obvious abnormalities. The proportion of eosinophils in the bronchoalveolar lavage fluid was also elevated. Autoantibody test results returned: MPO-ANCA positive. Pulmonary function results: post-bronchodilator ventilatory function showed moderate obstructive impairment; bronchodilator test was suspected positive. FeNO: 50 ppb. Paranasal sinus CT suggested bilateral ethmoid sinus inflammation. A skin biopsy of the rash on the lower extremities was also performed in collaboration with Dermatology.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6PglN48NFIMbq1040CrXvtC9FOVKPMKW0BCbtdvn1WclQ7nyJMnYR6w/640?wx_fmt=png&from=appmsg",
+          "near_text": "Bronchoscopy showed no obvious abnormalities.",
+          "local_src": "cleaned_cases_image_cache/0e9d65990172b438042da158a19c860ac4a76d82.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6TMkHzXLJbuse8zR0StHYMDZ20htM3E7wEpNeBdzH71Y1Dp39cMX29Q/640?wx_fmt=png&from=appmsg",
+          "near_text": "Meanwhile, the autoantibody test results were reported:",
+          "local_src": "cleaned_cases_image_cache/aa5b46b446cf554a50a10c5e891d70c383aa5928.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6ia2SAvvdpjYZUWiaNO2Iib7GZkmN4ibdHmrLYw5V2eeFmy9biaCq4qZp0Gg/640?wx_fmt=png&from=appmsg",
+          "near_text": "Pulmonary function test results: Post-bronchodilator ventilatory function showed moderate obstructive impairment; bronchodilator reversibility test was equivocal positive. FeNO: 50 ppb.",
+          "local_src": "cleaned_cases_image_cache/a9602ae462d97d66d10dc6c7ac26251417c9478c.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6EMuB6WRZFrVX4YYsNCo6YMHFkBIpfBnh6sMYR7MnJHuSeuQJR1f7Ow/640?wx_fmt=png&from=appmsg",
+          "near_text": "Paranasal sinus CT showed bilateral ethmoid sinus inflammation. A skin biopsy of the lower-extremity rash was also performed in collaboration with Dermatology:",
+          "local_src": "cleaned_cases_image_cache/1f1d33cbf91393352413dbf4bbb5c9a2b24c769c.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/qcrGY40NstKvGaL0NgaiataiaXDicciaS8u6AYXLvzsERKVJ7TkBhYzAVV3ATiayVnQvUQxeeCrFFmKpjj6HMsbdeLg/640?wx_fmt=png&from=appmsg",
+          "near_text": "This patient did not exhibit the classic asthma symptoms of EGPA",
+          "local_src": "cleaned_cases_image_cache/a3aeb47155bb76a8184665799a13a977c3d73fd0.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Eosinophilic granulomatosis with polyangiitis (EGPA) involving the skin, liver, and kidneys",
+      "diagnostic_basis": [
+        "Elevated eosinophils in peripheral blood and bronchoalveolar lavage fluid",
+        "MPO-ANCA positive",
+        "Multisystem injury (yellowing of the conjunctiva suggests liver involvement; urinalysis showed urine protein 1+ and urine bilirubin 1+, suggesting injury to the kidneys and hepatobiliary system; rash)",
+        "PFT suggests a moderate obstructive ventilatory defect, and the bronchodilator test is equivocal positive",
+        "Paranasal sinus CT showed inflammatory changes in the bilateral ethmoid sinuses",
+        "Skin biopsy indicated extravascular eosinophilic infiltration"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg once daily for anti-inflammatory treatment",
+        "Symptomatic correction of electrolyte disturbances and protection of liver and kidney function"
+      ],
+      "treatment_response": [
+        "5 days later, the patient's body temperature was normal, the rash had markedly subsided, and fatigue and poor appetite had significantly decreased.",
+        "On repeat testing 1 week later, CRP and eosinophil levels had decreased significantly compared with the previous values."
+      ]
+    }
+  }
+}

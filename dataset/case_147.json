@@ -1,0 +1,348 @@
+{
+  "status": "success",
+  "case_id": "case_147",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male patient, 53 years old, was admitted to Fujian Provincial Hospital on Day 0, for \"recurrent cough, sputum production, and fever for 2 years.\" History of present illness: The patient developed paroxysmal cough after an episode of catching a cold 2 years before admission, producing a moderate amount of yellow-white sticky sputum that was relatively easy to expectorate, accompanied by fever, with a maximum temperature of 39.5℃. He sought care at a local township health center near his residence and was treated with intravenous infusion. His temperature returned to normal, and the cough and sputum production improved. During the following year, the patient had recurrent cough and sputum production, and the symptoms improved after symptomatic treatment at a local clinic. However, 1 year ago, after another episode of catching a cold, he again developed paroxysmal cough accompanied by fever, with a maximum temperature of 39.6℃, and sought care at a local hospital. Blood routine at the local hospital showed: WBC 40.27×10^9/L, LYM 5.4%. Lung CT showed patchy opacity in the left upper lung and diffuse patchy opacities and areas of consolidation in both lower lungs, considered infectious lesions. He was treated with anti-infective therapy, bronchodilator therapy, and cough/expectorant treatment. His temperature returned to normal, and the cough and sputum production improved. Repeat chest CT showed that multiple lesions in both lungs had been absorbed compared with before, while lesions in the right upper lobe had increased. He did not pay attention and did not seek further diagnosis or treatment. During this period, cough and sputum production recurred repeatedly, and he sought symptomatic treatment at local clinics multiple times. Four months before this admission, that is, 51 days previously, he again developed cough, sputum production, and fever on two occasions; the triggers, severity, and nature were the same as before. He sought care at a local hospital, and his condition improved after anti-infective treatment, but the symptoms recurred. Twenty-three days previously, he sought care at a tertiary hospital in Fujian Province. Blood routine showed: WBC 11.20×10^9/L, NE 80.2%. Lung CT showed bronchiectasis in both lower lungs and scattered patchy opacities; compared with the previous images, new lesions were seen. Bronchoscopy showed: \"Right upper lobe posterior segment TBLB: a small amount of fragmented mucosal epithelium and lung tissue was seen, with partial alveolar collapse and fibrous tissue hyperplasia accompanied by a small amount of lymphocytic infiltration.\" He was treated with \"cefotiam\" for anti-infection and \"doxofylline\" for bronchodilation, and his symptoms improved. Six days before admission, he again developed cough, sputum production, and fever, with a maximum temperature of 39.5℃. For further diagnosis and treatment, he was admitted from the outpatient clinic with a proposed diagnosis of \"bilateral bronchiectasis with infection.\" Past history: The patient had been diagnosed at another hospital 1 year ago as a \"hepatitis B surface antigen carrier\"; he received no treatment and did not monitor hepatitis B virus-related indicators. He denied diabetes and denied a history of long-term medication use. Personal history: The patient smoked for 20 years, averaging 30 cigarettes/day, and had quit smoking for 10 years. Family history: He stated that his marital/reproductive history and family history were unremarkable. Physical examination on admission: T 37.5℃, P 89/min, R 20/min, BP 124/65mmHg. SPO2 95%(FIO2 21%). Barrel chest and widened intercostal spaces. Coarse breath sounds in both lungs; dry and wet rales were audible in both lower lungs; no wheezing or pleural friction rub was heard. No obvious abnormalities were found on cardiac or abdominal examination. No edema in either lower extremity. Ancillary examinations: Blood routine (Day 0): WBC 13.3×10^9/L, N 85.2%, Hb 133g/L, PLT 267×10^9/L. Procalcitonin (PCT) 0.36ng/ml, CRP 140 mg/L, ESR 50mm/h. Liver and kidney function and electrolytes: albumin 33g/L, total bilirubin 5.7umol/l, ALT 15U/L, AST 24U/L, creatinine 74mmol/L, potassium 3.7mmol/L, sodium 137mmol/L. Glycated hemoglobin: 6.1%. Total serum IgE 81.4IU/ml. Autoimmune panel: antinuclear antibody 1:100 positive (+), speckled pattern positive (+), PR3-ANCA, MPO-ANCA, anti-glomerular basement membrane antibody: negative. GM test and fungal D-glucan test: negative. Tumor markers: CA199 268.6U/ml, squamous cell carcinoma antigen 5.91ng/ml, CA125 107.7U/ml, NSE, CYFRA21-1, pro-gastrin-releasing peptide, serum CEA, serum AFP: negative. ECG: 1. Sinus rhythm. 2. Brugada-like wave changes in leads V1 and V2. Pulmonary function: 1. Severe obstructive ventilatory dysfunction. 2. Bronchodilator test negative. Fractional exhaled nitric oxide (FeNO) test: negative. Plain chest CT at our hospital (Day +1) showed: 1. Partial bronchiectasis in both lungs with localized mucus plugging, and scattered inflammation in both lungs. 2. Bilateral emphysema with localized bullous changes (prominent in the left upper lung, largest approximately 3.0*2.4cm).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJCQIuVziaPoE7ONrs0WbM2gWCu0BfAtV3hIPFRYHMEbL09rl2lqXCBdpWFzvqO1ibwEnCEfuo3P6wQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figures 1-4: Non-contrast chest CT performed at our hospital (Day +1) showed:",
+          "local_src": "cleaned_cases_image_cache/21a8bf166eaf49f5414704eac6c2a807c381d4ee.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute exacerbation of bronchiectasis with bilateral bacterial pulmonary infection",
+          "supporting_evidence": [
+            "The first-stage text clearly documents “recurrent cough, sputum production, and fever for 2 years”; symptoms could be relieved after multiple courses of anti-infective treatment but recurred repeatedly, consistent with the clinical course of recurrent infectious exacerbations of bronchiectasis.",
+            "Cough with a moderate amount of yellow-white sticky sputum, fever up to 39.5-39.6°C, suggesting increased infectious airway secretions",
+            "Multiple complete blood counts showed elevated WBC count and neutrophils, such as WBC 40.27×10^9/L, LYM 5.4%; on admission WBC 13.3×10^9/L, N 85.2%",
+            "CRP 140 mg/L, ESR 50 mm/h, PCT 0.36 ng/ml, supporting active inflammation/infection",
+            "23 days ago, lung CT showed: \"bronchiectasis in both lower lungs, scattered patchy opacities; compared with the prior film, newly developed lesions are seen\"",
+            "Chest CT at our hospital showed \"focal bronchiectasis in both lungs with localized mucus plugging, and scattered inflammatory changes in both lungs\"",
+            "On physical examination, dry and moist rales were audible in both lower lungs, consistent with retention of airway secretions in bronchiectasis with infection.",
+            "The attached images show multiple patchy/consolidative lesions in both lungs, some distributed along the bronchi, with bronchiectasis and signs of mucus plugging."
+          ],
+          "opposing_evidence": [
+            "Although the lesions were partially absorbed after anti-infective treatment, there were new lesions and a prolonged recurrent course, suggesting that in addition to common bacterial infection, an underlying etiology or atypical pathogen should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Nontuberculous mycobacterial pulmonary disease (with bronchiectasis)",
+          "supporting_evidence": [
+            "The disease course has lasted 2 years, characterized by recurrent cough, sputum production, and fever, with transient improvement after anti-infective treatment but repeated recurrence, consistent with the features of chronic infectious airway disease.",
+            "Imaging showed bronchiectasis, scattered new lesions, and multiple patchy opacities in both lungs, suggesting possible chronic recurrent disseminated bronchogenic infection.",
+            "The accompanying image shows multiple bilateral peribronchial patchy opacities and bronchiectatic changes, with a multifocal distribution.",
+            "Prior bronchoscopic TBLB showed only nonspecific changes: fibrous tissue proliferation with a small amount of lymphocytic infiltration, and routine pathology could not explain the recurrent persistent lesions.",
+            "After conventional anti-infective therapy, there was only partial improvement, and new lesions may appear; this is not fully consistent with a simple single episode of community-acquired pneumonia."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide acid-fast bacilli smear, mycobacterial culture, or molecular biologic evidence.",
+            "The text in the first stage did not describe more specific clues such as typical cavitation, tree-in-bud pattern, or a middle lobe/lingular-predominant distribution."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis (active pulmonary tuberculosis or bronchogenic disseminated tuberculosis)",
+          "supporting_evidence": [
+            "Chronic recurrent cough, sputum production, and fever for 2 years, with features of chronic infectious lung disease",
+            "Past and current imaging indicate multiple patchy opacities and areas of consolidation in both lungs; the lesions have been prolonged and recurrent, with partial absorption accompanied by new lesions, and TB should be considered.",
+            "On the attached image, an abnormal lesion is visible in the upper lobe, with multifocal distribution in both lungs, representing an imaging background in which TB should be considered in the differential diagnosis.",
+            "Bronchoscopic pathology did not suggest definite changes specific for common bacterial pneumonia"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide typical accompanying symptoms of TB such as night sweats, weight loss, and hemoptysis.",
+            "Phase 1 information did not provide sputum acid-fast staining, Mycobacterium tuberculosis testing, or TB immunologic evidence.",
+            "The CT report from our hospital places greater emphasis on bronchiectasis, mucus plugging, and scattered inflammatory changes, and does not explicitly describe the typical cavitary lesions or tree-in-bud pattern of TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lung cancer with post-obstructive infection/tumor-related secondary bronchiectasis",
+          "supporting_evidence": [
+            "Male, 53 years old, smoked for 20 years, averaging 30 cigarettes/day, a risk factor for lung cancer",
+            "The lesions are recurrent and protracted; after anti-infective treatment, some lesions in both lungs were absorbed, but there was an \"increase in lesions in the right upper lobe,\" suggesting that infection alone cannot explain the findings.",
+            "Among the tumor markers, CA199 268.6U/ml, squamous cell carcinoma antigen 5.91ng/ml, and CA125 107.7U/ml were elevated; although nonspecific, this suggests the need for vigilance for neoplastic lesions.",
+            "The attached image shows a relatively prominent focal lesion in the right lung, with surrounding bronchiectatic/inflammatory changes and possible post-obstructive infection.",
+            "The bronchoscopic TBLB specimen showed only \"a small amount of fragmented mucosal epithelium and lung tissue\"; sampling was limited, and a tumor cannot be adequately excluded."
+          ],
+          "opposing_evidence": [
+            "On the first-stage imaging, multiple scattered lesions in both lungs and bronchiectasis in both lower lungs were present simultaneously, which is more suggestive of an infectious/inflammatory process rather than a single primary tumor.",
+            "The phase 1 information did not provide a clear description of a space-occupying lesion, hilar or mediastinal lymphadenopathy, or pleural effusion.",
+            "Serum CEA, CYFRA21-1, NSE, and pro-gastrin-releasing peptide were negative, not supporting some common lung cancer phenotypes, but they cannot be excluded"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Acute infectious exacerbation of chronic obstructive pulmonary disease",
+          "supporting_evidence": [
+            "Has a long-term smoking history: 20 years, average 30 cigarettes/day",
+            "Physical examination revealed barrel chest and widened intercostal spaces",
+            "Pulmonary function testing indicated \"severe obstructive ventilatory dysfunction,\" bronchodilator test negative",
+            "Chest CT showed bilateral emphysema with localized pulmonary bullae (prominent in the left upper lung).",
+            "This episode is characterized by cough, sputum production, fever, and bilateral dry and wet rales, and may represent an acute exacerbation of COPD complicated by infection."
+          ],
+          "opposing_evidence": [
+            "Recurrent high fever, markedly elevated inflammatory markers, and multiple patchy opacities/consolidations on imaging more strongly suggest infectious parenchymal lung disease and bronchiectasis, and are not sufficiently explained by COPD alone",
+            "The first-stage information did not emphasize progressive exertional dyspnea as the chief complaint; SpO2 95% (FiO2 21%), and hypoxemia was not prominent this time."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection-specific T lymphocytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Epstein-Barr virus DNA and cytomegalovirus quantification",
+          "requirement": "required"
+        },
+        {
+          "exam": "comprehensive autoimmune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum cortisol",
+          "requirement": "required"
+        },
+        {
+          "exam": "Hepatitis B five-item panel",
+          "reason": "Outside-hospital diagnosis: hepatitis B surface antigen carrier",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Bronchoscopy was performed on Day +2. Under bronchoscopy, a moderate amount of white, thick secretions was seen adherent to the walls of the trachea and bilateral bronchi. After removal, white plaques were seen adherent along the entire membranous portion of the trachea and the mucosa of both main bronchi. Bronchoalveolar lavage fluid and bronchial secretions were collected for microbiologic testing. Repeat complete blood count showed (Day +3): WBC 29.4×10^9/L, N 90.9%, Hb 114g/L, PLT 252×10^9/L, PCT 0.51ng/ml. Inflammatory markers were elevated compared with previously, most notably the leukocyte count. Gram-positive bacteria were detected in the sputum smear, bronchial secretion smear, and bronchoalveolar lavage fluid. On Day +4, sputum culture: Haemophilus influenzae, colony count 2+. Antimicrobial susceptibility: resistant to co-trimoxazole; sensitive to ampicillin, amoxicillin/clavulanate, chloramphenicol, cefaclor, cefotaxime, cefuroxime, ofloxacin (norfloxacin), rifampin (1.0ug/ml), and tetracycline.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Nontuberculous mycobacterial infection",
+            "evidence": [
+              "The patient has a chronic course with recurrent episodes, presenting with cough, sputum production, and fever. Chest CT showed bilateral bronchiectasis with infection. The condition temporarily improved after anti-infective treatment but continued to recur."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pseudomonas aeruginosa infection",
+            "evidence": [
+              "The patient has underlying bronchiectasis, with repeated hospitalizations recently and antibiotic use >4 times in the past year."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "The patient has a history of chronic cough, sputum production, and fever; review of the chest CT showed a partial tree-in-bud pattern."
+            ],
+            "exclusion_reasons": [
+              "The lesions are mostly located in the basal segments of both lower lungs, which are not common sites of TB, and there are systemic toxic symptoms such as hemoptysis and night sweats; with non-antituberculous treatment, body temperature could return to normal, therefore pulmonary TB is less likely."
+            ]
+          },
+          {
+            "name": "Haemophilus influenzae infection",
+            "evidence": [
+              "Sputum culture grew Haemophilus influenzae"
+            ],
+            "exclusion_reasons": [
+              "Antimicrobial susceptibility testing indicated that this organism was susceptible to cephaclor, cefotaxime, cefuroxime, and other cephalosporins. After admission, cefoperazone sodium/sulbactam sodium was used empirically for anti-infective treatment, but why did the patient still have recurrent fever? Why did the inflammatory markers rise further?"
+            ]
+          },
+          {
+            "name": "MRSA infection",
+            "evidence": [
+              "The patient has risk factors for MRSA infection, including a long history of recurrent hospitalizations, recent hospitalization, and recent use of antibacterial agents. Gram-positive bacteria were detected on sputum smear, bronchial secretion smear, and bronchoalveolar lavage fluid, and the white blood cell count was markedly elevated."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary nocardiosis",
+            "evidence": [
+              "The patient has a chronic course"
+            ],
+            "exclusion_reasons": [
+              "There is no underlying immunosuppression, and chest CT showed no obvious abscess or nodule formation; therefore, the likelihood of this disease is considered low at this time."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Nontuberculous mycobacterial infection",
+        "evidence": [
+          "The patient has a chronic course with recurrent exacerbations, manifested by cough, sputum production, and fever. Chest CT showed bilateral bronchiectasis with infection. After anti-infective treatment, the condition once improved but continued to recur; imaging suggests bronchiectasis, which is a predisposing condition for NTM."
+        ],
+        "exclusion_reasons": [
+          "No pathogen detected in sputum"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pseudomonas aeruginosa infection",
+        "evidence": [
+          "The patient has underlying bronchiectasis, with repeated hospitalizations recently and antibiotic use >4 times in the past year."
+        ],
+        "exclusion_reasons": [
+          "No pathogen detected"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "The patient has a history of chronic cough, sputum production, and fever; review of the chest CT showed a partial tree-in-bud pattern."
+        ],
+        "exclusion_reasons": [
+          "The lesions are mostly located in the basal segments of both lower lungs, which are not common sites of TB, and there are systemic toxic symptoms such as hemoptysis and night sweats; with non-antituberculous treatment, body temperature could return to normal, therefore pulmonary TB is less likely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Haemophilus influenzae infection",
+        "evidence": [
+          "Sputum culture grew Haemophilus influenzae"
+        ],
+        "exclusion_reasons": [
+          "Antimicrobial susceptibility testing indicated that this organism was susceptible to cephaclor, cefotaxime, cefuroxime, and other cephalosporins. After admission, cefoperazone sodium/sulbactam sodium was used empirically for anti-infective treatment, but why did the patient still have recurrent fever? Why did the inflammatory markers rise further?"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "MRSA infection",
+        "evidence": [
+          "The patient has risk factors for MRSA infection, including a long history of recurrent hospitalizations, recent hospitalization, and recent use of antibacterial agents. Gram-positive bacteria were detected on sputum smear, bronchial secretion smear, and bronchoalveolar lavage fluid, and the white blood cell count was markedly elevated."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary nocardiosis",
+        "evidence": [
+          "The patient has a chronic course"
+        ],
+        "exclusion_reasons": [
+          "There is no underlying immunosuppression, and chest CT showed no obvious abscess or nodule formation; therefore, the likelihood of this disease is considered low at this time."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "BALF culture",
+          "basis_in_stage3_input": "Both BALF and bronchial secretion cultures indicated Nocardia pseudobrasiliensis.",
+          "why_order_this_exam": "The patient has a 2-year history of recurrent cough, sputum production, and high fever. After multiple courses of anti-infective treatment, there was only temporary relief. Six days before the most recent admission, high fever recurred up to 39.5℃. After admission, inflammatory markers were markedly elevated, and repeated chest CT showed scattered inflammatory lesions in both lungs, bronchiectasis with mucus plugging, and new lesions, indicating a prolonged, recurrent, and relatively severe lower respiratory tract infection. Previous sputum culture grew Haemophilus influenzae, and antimicrobial susceptibility testing indicated susceptibility to some of the antibacterial agents used, but the patient still had recurrent fever clinically and a continued rise in the white blood cell count, suggesting that the routine sputum culture results could not fully explain the condition and that the true deep airway pathogen needed to be further investigated. BALF is collected from the diseased lower respiratory tract and is less contaminated by the upper airway; it is especially suitable for culture in the setting of bronchiectasis, abundant secretions, recurrent and persistent imaging abnormalities, and suspected infection with special pathogens. The core purpose of this test is to determine whether special pathogens such as Nocardia are present, distinguish colonization from infection, explain the reason for the poor response to routine treatment, and provide key etiologic evidence for subsequent selection of targeted therapy such as trimethoprim-sulfamethoxazole; it also helps exclude differential diagnoses caused only by common bacteria, TB/nontuberculous mycobacteria, or fungal infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial secretion culture",
+          "basis_in_stage3_input": "Both BALF and bronchial secretion cultures indicated Nocardia pseudobrasiliensis.",
+          "why_order_this_exam": "The patient had underlying bilateral bronchiectasis, COPD, and a large amount of thick secretions. Bronchoscopy showed a moderate amount of white thick secretions adherent to the trachea and bilateral bronchi, suggesting that the pathogen was highly likely to be persistently colonizing the airway and causing recurrent infection. During the course of the disease, there were multiple episodes of fever, cough with yellow-white sticky sputum, and imaging lesions that at times resolved and at times newly appeared; after admission, WBC increased to 29.4×10^9/L and N to 90.9%, indicating highly active infection. Therefore, direct culture of bronchial secretions was needed to obtain etiologic evidence more closely reflecting the local suppurative airway infection. This test can be corroborated with BALF culture: if both indicate the same pathogen, as in this case where both indicated Nocardia brasiliensis, this more strongly supports it as the true pathogen rather than incidental contamination, thereby increasing the diagnostic reliability of pulmonary nocardiosis. At the same time, bronchial secretion culture can also help explain the reason for recurrent episodes despite prior empiric treatment with cephalosporins and other agents, further differentiate it from Haemophilus influenzae, MRSA, Pseudomonas aeruginosa, mycobacteria, and others, and directly affect adjustment of the anti-infective regimen and selection of treatment duration.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On the afternoon of Day +4, the bacteriology laboratory of the Provincial Hospital reported verbally that both BALF and bronchial secretion cultures suggested Nocardia brasiliensis, indicating possible pulmonary nocardiosis.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJCQIuVziaPoE7ONrs0WbM2gGuApiadz4U8D2nEozFpwM0AOLyeZI2TTtvn0F0nSebQvdYib7WnBZia1w/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "On Day +5, the patient's body temperature returned to normal.",
+          "local_src": "cleaned_cases_image_cache/dda0bf0b85b6cff30fdd36a9107df49fa77ed48c.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJCQIuVziaPoE7ONrs0WbM2gvvzRYZz8rcU5y0bt6zVCt8XgiadCuBCDAicemXaf7xTqicsrUjwuuJhlQ/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figure 5-7: Non-contrast chest CT (Day +12) showed:",
+          "local_src": "cleaned_cases_image_cache/3a3600e1aa222989672488e428b821964c5ea45b.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/qcrGY40NstJCQIuVziaPoE7ONrs0WbM2gjQUiaibALO9NSibd7Ec1YcMEM3ewN9g98zusaTvMw6P9ibbvDiaTthDoZicg/640?wx_fmt=jpeg&from=appmsg",
+          "near_text": "Figures 8-9: Non-contrast chest CT (Day +111) showed:",
+          "local_src": "cleaned_cases_image_cache/f846875e5256419147c2452488c93e55cfc89893.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Pulmonary nocardiosis; 2. Bronchiectasis with infection; 3. Chronic obstructive pulmonary disease;",
+      "diagnostic_basis": [
+        "The patient has underlying respiratory diseases (COPD, bilateral bronchiectasis with infection), with a chronic course and recurrent cough, sputum production, and fever. On physical examination, breath sounds in both lungs were coarse, and dry and wet rales were audible in both lower lungs. Repeated follow-up complete blood counts and inflammatory markers were elevated. Chest CT showed patchy opacities in both lungs and bronchiectasis. Cultures of BALF and bronchial secretions both grew Nocardia brasiliensis-like organisms.",
+        "The patient had a smoking history of more than 20 years, with recurrent cough and sputum production for 2 years. Physical examination revealed a barrel chest and widened intercostal spaces. Chest CT showed bilateral emphysema and pulmonary bullae. Pulmonary function testing indicated severe obstructive ventilatory dysfunction, and the bronchodilator test was negative.",
+        "Antibiotic treatment is effective, but the condition is recurrent",
+        "After targeted anti-Nocardia treatment, the patient's symptoms and bilateral lung lesions improved significantly."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Anti-infective therapy with trimethoprim-sulfamethoxazole + linezolid + cefoperazone/sulbactam was given",
+        "On Day +13, linezolid was discontinued, and anti-infective therapy with TMP-SMX + cefoperazone/sulbactam was administered.",
+        "After discharge, regularly took co-trimoxazole 480 mg q8h + amoxicillin-clavulanate (7:1) 1 g bid for 6 months"
+      ],
+      "treatment_response": [
+        "On Day +5, the patient's body temperature returned to normal, and the cough and sputum production improved compared with before.",
+        "On Day +7, BALF culture: Nocardia brasiliensis-like 2+; bronchial secretion culture: Nocardia brasiliensis-like 1+",
+        "On Day +8, repeat complete blood count: WBC 9.5×10^9/L, N 71.2%, Hb 123 g/L, PLT 584×10^9/L. PCT 0.49 ng/ml, CRP 17.2 mg/L. Inflammatory markers decreased significantly, with no obvious abnormalities in liver or kidney function.",
+        "Noncontrast chest CT (Day +12) showed: 1. Multiple bronchiectatic changes in both lungs with focal mucus plugging; scattered multifocal inflammatory lesions in both lungs; lesions in both lower lungs showed absorption compared with before, while the remaining pulmonary lesions had progressed compared with before. In conjunction with the patient's symptoms, signs, and examination results, pulmonary infection was considered to be improving.",
+        "The patient's condition improved, and the patient was discharged after 12 days of anti-infective treatment with co-trimoxazole. The patient then regularly took \"co-trimoxazole 480 mg q8h + amoxicillin/clavulanate (7:1) 1 g bid\" for 6 months and reported no further discomfort.",
+        "On Day +111, the patient underwent repeat non-contrast chest CT: 1. Scattered multiple inflammatory changes in both lungs, slightly absorbed compared with before; multiple bronchiectases in both lungs with a small amount of mucus plugging. 2. Emphysematous changes in both lungs with multiple bullae."
+      ]
+    }
+  }
+}
