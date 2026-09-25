@@ -1,0 +1,581 @@
+{
+  "status": "success",
+  "case_id": "case_71",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 19-year-old young man who was admitted to our hospital on Day 0, with the chief complaint of \"pleural effusion for more than 1 month.\" More than 1 month earlier, he developed paroxysmal cough and sputum production without an obvious precipitating cause. A local hospital considered \"chronic pharyngolaryngitis,\" and he improved after amoxicillin anti-infective treatment. On Day -48, he developed left-sided chest pain, with paroxysmal colicky pain, accompanied by shortness of breath. On Day -47, he developed fever, with a maximum temperature of 39.5℃. Chest CT of both lungs showed: bilateral pulmonary inflammation and a small left pleural effusion. On Day -46, complete blood count: WBC 16.76*10^9/L, platelets 31*10^9/L. On Day -44, swelling developed in the right lower extremity below the knee joint. On Day -41, swelling and discomfort below the right knee joint were noted, accompanied by worsening chest pain. Pulmonary artery CTA showed: bilateral pulmonary embolism. Venous color Doppler ultrasound of the right lower extremity showed: thrombosis in the right superficial femoral, deep femoral, posterior tibial, and popliteal veins, and right great saphenous vein insufficiency. He was admitted to the intensive care unit of the Third Xiangya Affiliated Hospital. Testing showed IgE 1730 IU/ml, anticardiolipin IgA (+), anticardiolipin IgG (+), protein C activity 88%, protein S activity 0.2%↓. Routine pleural fluid analysis: red color, turbid clarity, total cell count 110200, nucleated cell count 2990, mononuclear cells 52.7%, polymorphonuclear cells 45%; pleural fluid biochemistry: total protein 44.4, albumin 26.7, chloride 109.7, glucose 6.44, ADA 0, LDH 484; pleural fluid CEA 0.591, smear and Gram stain showed no bacteria, acid-fast stain was negative, and no tumor cells were seen. On Day -27, 3D lung imaging showed: moderate to large right pleural effusion, partial atelectasis of the right lung, improved absorption of the left lung inflammation compared with before, and decreased left pleural effusion compared with before. He was discharged on Day -18. During this period, pleural effusion ultrasound was regularly rechecked, and the effusion did not show obvious absorption. On Day -1, the patient presented to our hospital. Complete blood count showed: eosinophil percentage 9.5%, absolute eosinophil count 0.91*10^9/L. Liver and kidney function were normal. Past history: around Day -64, after a basketball game, he developed soreness, distention, and discomfort on the medial side of the right ankle. On Day -53, after applying a topical medication for promoting blood circulation and removing blood stasis, an ecchymosis approximately 3x5 cm in size with swelling appeared on the medial side of the right ankle joint, which resolved after ice compress and topical medication application. Over the past 2 years, allergic dermatitis has recurred repeatedly. History of allergy to cefmenoxime and history of allergy to roxithromycin. Physical examination on admission: temperature 36.7℃; pulse 125 beats/min; respiration 20 breaths/min; blood pressure 135/87 mmHg. Decreased tactile fremitus in the right lower lung, dullness to percussion in the right lower lung, and absent breath sounds in the right lower lung. Heart rate 125 beats/min. Ancillary examinations: bone marrow aspiration on Day -27 showed active bone marrow hyperplasia, increased proportions of eosinophils in bone marrow and peripheral blood, megakaryocyte distribution with 4/18 platelet-producing megakaryocytes, and platelets rarely seen in distribution.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrpztRhUrhbwaTRE613X72fRcqzcK63z1cPFzH979iapSCicibUyT2VyP7cvnMuI2D7Ndu4du4SUxIg/640?wx_fmt=png",
+          "near_text": "Table 1. Pleural effusion volume as shown by color Doppler ultrasound",
+          "local_src": "cleaned_cases_image_cache/78ec3d3ccb13121eb65d19170734ba17bded4ebd.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pleural effusion associated with pulmonary embolism and pulmonary infarction (predominantly right-sided, hemorrhagic exudative pleural effusion)",
+          "supporting_evidence": [
+            "The phase I text clearly indicates: \"Pulmonary artery CTA showed: bilateral pulmonary embolism,\" and there was also \"thrombus formation in the right superficial femoral, deep femoral, posterior tibial, and popliteal veins.\"",
+            "On Day -48, left-sided chest pain developed, with paroxysmal colicky pain and shortness of breath, consistent with the pleuritic chest pain and dyspnea that can occur in pulmonary embolism/pulmonary infarction.",
+            "Routine pleural fluid analysis showed \"color: red, transparency: turbid,\" suggesting hemorrhagic pleural effusion; pleural effusion associated with pulmonary infarction may be hemorrhagic.",
+            "Pleural fluid biochemistry: total protein 44.4, LDH 484, supporting features of exudative pleural effusion",
+            "Imaging data show persistent pleural effusion, predominantly on the right; on Day -12, the right-sided effusion reached 84 mm, and it continued to recur thereafter, consistent with the possibility of a pleural reaction after pulmonary embolism / prolonged post-infarction pleural effusion.",
+            "Physical examination showed decreased tactile fremitus over the right lower lung, dullness to percussion, and absent breath sounds, consistent with a larger right pleural effusion"
+          ],
+          "opposing_evidence": [
+            "On Day -47, there was a fever up to 39.5℃, and CT indicated bilateral pulmonary inflammation, suggesting that the pleural effusion may also be infection-related and not necessarily fully explained by pulmonary embolism.",
+            "Pleural effusion has persisted for more than 1 month and has not shown significant absorption on repeat examination, making it more protracted than a simple small-volume pleural effusion associated with pulmonary embolism."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Antiphospholipid syndrome-associated hypercoagulable state (may explain recurrent/extensive venous thrombosis and secondary pulmonary embolism, pleural effusion)",
+          "supporting_evidence": [
+            "Phase 1 text prompt: \"anticardiolipin IgA (+), anticardiolipin IgG (+)\"",
+            "The patient developed \"thrombus formation in the right superficial femoral, deep femoral, posterior tibial, and popliteal veins\" and \"bilateral pulmonary embolism\" within a short period, suggesting a marked hypercoagulable tendency.",
+            "On Day -46, the platelet count was 31*10^9/L, indicating thrombocytopenia; antiphospholipid syndrome can be associated with thrombocytopenia.",
+            "The patient developed a severe venous thrombotic event at only 19 years of age, and an immune-mediated hypercoagulable state should be considered."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide lupus anticoagulant, anti-β2 glycoprotein I antibody, or antibody repeat results at an interval of 12 weeks.",
+            "Phase 1 information did not provide clear evidence of other typical manifestations of the autoimmune system"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Hereditary or acquired thrombophilia associated with protein S deficiency",
+          "supporting_evidence": [
+            "Phase 1 text prompt: \"Protein S activity 0.2%↓\", markedly decreased",
+            "The patient is young and developed extensive deep venous thrombosis of the lower extremities and bilateral pulmonary artery embolism, consistent with severe hypercoagulability.",
+            "Protein C activity was 88%, while protein S activity was significantly decreased, further supporting that protein S-related abnormalities should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Phase I information did not indicate whether protein S was measured during the acute thrombotic phase, infectious phase, or during anticoagulant therapy; the result may have been affected by the clinical condition.",
+            "Protein S deficiency can explain thrombosis, but it cannot alone adequately explain fever, inflammatory opacities in the lungs, and eosinophilia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Eosinophil-related syndrome/hypereosinophilic syndrome (possibly with thrombosis and pleural involvement)",
+          "supporting_evidence": [
+            "Complete blood count on Day -1 showed \"eosinophil percentage 9.5%, absolute eosinophil count 0.91*10^9/L\"",
+            "Bone marrow aspiration showed \"elevated proportions of eosinophils in the bone marrow and peripheral blood\"",
+            "Over the past 2 years, recurrent episodes of \"allergic dermatitis\" with markedly elevated \"IgE 1730 IU/ml,\" suggesting an allergic/eosinophilic immune abnormality background",
+            "In young patients presenting with unexplained extensive thrombosis, pleural effusion, and pulmonary involvement, eosinophil-related diseases causing endothelial injury and a hypercoagulable state should be considered"
+          ],
+          "opposing_evidence": [
+            "In the first stage, the absolute eosinophil count was 0.91*10^9/L, which had not yet reached the commonly used threshold of 1.5*10^9/L for typical hypereosinophilic syndrome.",
+            "The information from the first stage did not provide evidence of typical involvement of other organs such as the heart, nervous system, or gastrointestinal tract."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Infectious pleuritis/pneumonia-associated pleural effusion (parapneumonic pleural effusion)",
+          "supporting_evidence": [
+            "Paroxysmal cough and sputum production began more than 1 month ago",
+            "Fever developed on Day -47, with a maximum temperature of 39.5℃",
+            "Chest CT showed \"bilateral pulmonary inflammation, small left pleural effusion\"",
+            "On Day -46, complete blood count: WBC 16.76*10^9/L, indicating an inflammatory response",
+            "The pleural fluid shows exudative changes, which can be seen in infection-related pleural effusion."
+          ],
+          "opposing_evidence": [
+            "Pleural fluid ADA 0, not supportive of the common manifestations of tuberculous pleurisy or some inflammatory pleuritis",
+            "Pleural fluid smear: no bacteria seen on Gram stain; acid-fast stain negative",
+            "Pleural fluid glucose was 6.44, which is not the low-glucose finding commonly seen in complicated empyema.",
+            "Follow-up imaging showed that the inflammation in the left lung had been absorbed compared with previously, but the right pleural effusion persisted and fluctuated with an increasing amount; a simple parapneumonic effusion is a relatively insufficient explanation."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Tuberculous pleurisy or pleural TB",
+          "supporting_evidence": [
+            "The patient is young, and the pleural effusion has persisted for more than 1 month without significant resolution.",
+            "There was a history of fever and chest pain; tuberculous pleuritis may present with fever, chest pain, and pleural effusion.",
+            "Imaging studies show persistent pleural effusion with fluctuating changes."
+          ],
+          "opposing_evidence": [
+            "Pleural fluid ADA 0, clearly not supportive of tuberculous pleuritis",
+            "Pleural fluid acid-fast stain negative",
+            "Pleural fluid differential cell count: mononuclear cells 52.7%, polymorphonuclear cells 45%; no typical lymphocyte-predominant pattern was observed",
+            "Confirmed bilateral pulmonary embolism and lower-extremity deep vein thrombosis are already present, which can more directly explain the chest pain, dyspnea, and part of the pleural effusion."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "TnI",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody (PPD-IgG)",
+          "requirement": "required"
+        },
+        {
+          "exam": "PPD test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Interferon-gamma release assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complement C3",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complement C4",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HCY",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatoid factor",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "P-ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "a-ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-cyclic citrullinated peptide antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-glomerular basement membrane antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-ENA antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoimmune hepatitis panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein C",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein S",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive parasitic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine pleural fluid analysis, right side",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right pleural effusion biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion TB panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion carcinoembryonic antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid acid-fast stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid culture + antimicrobial susceptibility testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of both lungs",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas: pH 7.46↑, PO2 105 mmHg, HCO3- 28.4 mmol/L, standard HCO3 28.2 mmol/L, SO2c 98%↑. Complete blood count: hemoglobin 129 g/L, eosinophil count 0.92×10^9/L↑, eosinophil percentage 12.30%, mean corpuscular hemoglobin concentration 315 g/L. Liver function: total protein 64.9 g/L, albumin 39.0 g/L; cardiac enzymes: creatine kinase 33.9 U/L; blood lipids: high-density lipoprotein cholesterol 1.00 mmol/L; urinalysis, stool routine, renal function, electrolytes, fasting blood glucose, coagulation function, PCT, NT-proBNP, and TnI showed no abnormalities. D-dimer, ESR, and CRP were not abnormal. TB panel (blood): Mycobacterium tuberculosis antibody (PPD-IgG) positive; PPD: 1:2000 (+), 1:10000 (-). Interferon-gamma release assay negative. Connective tissue disease-related: complement C3, complement C4, HCY, rheumatoid factor, ANA, C-ANCA, P-ANCA, a-ANCA, anti-cyclic citrullinated peptide antibody, anti-glomerular basement membrane antibody, anti-ENA antibody, autoimmune liver panel, ENA, and anticardiolipin antibody showed no abnormalities. Protein C and protein S were normal. Parasite panel (-). Right pleural effusion examination: routine: Rivalta test positive (+), total cell count 32000×10^6/L, white blood cells 1350×10^6/L, mononuclear cells 0.65, multinuclear cells 0.35. Biochemistry: lactate dehydrogenase 241.1 U/L; globulin 16.8 g/L, adenosine deaminase 7.9 U/L, total protein 49.0 g/L, albumin 32.2 g/L, glucose 7.22 mmo1/L, chloride 106.7 mmol/L. TB panel: Mycobacterium tuberculosis antibody (PPD-IgG) positive (weak), Mycobacterium tuberculosis antibody (PPD-IgM) negative, Jieming test negative; carcinoembryonic antigen normal; acid-fast stain (-); culture + drug susceptibility (-). Day +5 echocardiography: 1. Intracavitary mass in the right atrium: thrombus considered highly likely; 2. Right pleural effusion (small amount). Duplex ultrasound of the deep veins of both lower extremities: blood flow in the deep veins of both lower extremities was patent. Day +6 contrast-enhanced CT of both lungs showed: bilateral pulmonary inflammation with pleural effusion. Pulmonary artery CTA: 1. No obvious abnormality on pulmonary artery CTA. 2. Multiple bilateral pulmonary exudative lesions, right pleural effusion.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrpztRhUrhbwaTRE613X72ApKnC3YNS1h2Ioiad0VxPIkL5VW2eUSG1ibCx0pTT6sTkgbtic2QCa6Fg/640?wx_fmt=png",
+            "near_text": "Figure 1. Contrast-enhanced CT of the lungs",
+            "local_src": "cleaned_cases_image_cache/e5b9455aa9cd906bfa7b933e632e36da60e3ece8.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No space-occupying lesion was detected, and pleural fluid CEA was not elevated, so malignancy can basically be excluded."
+            ]
+          },
+          {
+            "name": "Tuberculous pleural effusion",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's pleural fluid polymorphonuclear cell proportion was 45%, ADA was not elevated, and there were manifestations of fever and elevated inflammatory markers, which are not consistent with the features of tuberculous pleural effusion."
+            ]
+          },
+          {
+            "name": "Infectious pleural effusion",
+            "evidence": [
+              "Pleural effusion with 45% polymorphonuclear cells, non-elevated ADA, accompanied by fever and elevated inflammatory markers"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pleural effusion caused by pulmonary embolism",
+            "evidence": [
+              "The patient also had pulmonary embolism, and the pleural effusion still did not resolve after the inflammation was controlled."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "thrombophilia",
+            "evidence": [
+              "Marked eosinophil elevation, considered thrombophilia caused by acquired factors related to eosinophilia"
+            ],
+            "exclusion_reasons": [
+              "No definite etiologic factor for hereditary thrombophilia has been identified by the examinations performed to date."
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Deep vein thrombosis of the right lower extremity",
+            "evidence": [],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Malignant tumor",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No space-occupying lesion was detected, and pleural fluid CEA was not elevated, so malignancy can basically be excluded."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Tuberculous pleural effusion",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's pleural fluid polymorphonuclear cell proportion was 45%, ADA was not elevated, and there were manifestations of fever and elevated inflammatory markers, which are not consistent with the features of tuberculous pleural effusion."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infectious pleural effusion",
+        "evidence": [
+          "Pleural effusion with 45% polymorphonuclear cells, non-elevated ADA, accompanied by fever and elevated inflammatory markers"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pleural effusion caused by pulmonary embolism",
+        "evidence": [
+          "The patient also had pulmonary embolism, and the pleural effusion still did not resolve after the inflammation was controlled."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "thrombophilia",
+        "evidence": [
+          "Marked eosinophil elevation, considered thrombophilia caused by acquired factors related to eosinophilia"
+        ],
+        "exclusion_reasons": [
+          "No definite etiologic factor for hereditary thrombophilia has been identified by the examinations performed to date."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "ENA",
+          "basis_in_stage3_input": "Dermatology laboratory tests: ENA and ANA negative.",
+          "why_order_this_exam": "The patient is a 19-year-old male who sequentially developed recurrent allergic dermatitis-like rash, eosinophilia, markedly elevated IgE, extensive venous thrombosis, and pleural effusion. Clinically, it is necessary to differentiate skin manifestations and a hypercoagulable state caused by connective tissue disease or vasculitis-related disorders. ENA is helpful for screening autoimmune diseases such as systemic lupus erythematosus, Sjögren syndrome, and mixed connective tissue disease, and for explaining clues such as rash, pleural involvement, and transient anticardiolipin antibody positivity. A negative result for this test helps reduce the likelihood of hypercoagulability and pleural effusion secondary to autoimmune disease, thereby shifting the diagnostic focus to eosinophil-related diseases and Kimura disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "basis_in_stage3_input": "Dermatology laboratory tests: ENA and ANA negative.",
+          "why_order_this_exam": "During the course of the disease, the patient had pleural effusion, rash, thrombosis, a history of positive anticardiolipin antibody, and marked thrombocytopenia. These manifestations can be seen in systemic autoimmune disease, especially lupus-spectrum disorders; therefore, ANA is needed for baseline screening. The ANA result determines whether further evaluation should be completed in the direction of connective tissue disease or secondary antiphospholipid syndrome, and also affects subsequent immunotherapy strategy. A negative ANA combined with a negative ENA can help exclude a background of common connective tissue diseases, supporting that the current lesions are not caused by a typical systemic autoimmune disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of skin biopsy from the rash site",
+          "basis_in_stage3_input": "Skin biopsy pathology result from the rash site: the epidermis, dermis, and subcutaneous tissue are essentially normal overall; sparse histiocytes are seen in the superficial dermal vessels, and no eosinophils are identified.",
+          "why_order_this_exam": "Over the past 2 years, the patient has had recurrent atopic dermatitis-like episodes, accompanied by elevated peripheral eosinophils, markedly elevated IgE, and the subsequent appearance of superficial body masses. Skin pathology is an important basis for distinguishing simple atopic dermatitis, eosinophilic infiltrative dermatosis, vasculitis, and cutaneous manifestations related to Kimura disease. This examination was mainly intended to determine whether the rash showed histopathologic evidence of eosinophilic infiltration, vasculitis, necrosis, or granulomas, thereby explaining the relationship between the systemic manifestations and the skin lesions. The results showed no obvious specific changes or eosinophilic infiltration, suggesting that the prior rash could not be used directly as a basis for definitive diagnosis and that further characterization would need to rely on subsequent pathology of the mass.",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "basis_in_stage3_input": "Repeat testing of blood lipids, HCY, the anemia panel, protein C, and protein S showed no abnormalities.",
+          "why_order_this_exam": "As a young adult, the patient developed deep vein thrombosis of the right lower extremity, bilateral pulmonary artery embolism, and a mass-like shadow in the right atrium, indicating an obvious hypercoagulable/prothrombotic background and warranting a systematic evaluation for reversible and underlying risk factors. A lipid panel can assess whether there is vascular endothelial injury and increased thrombotic risk due to abnormal lipid metabolism, and also provide baseline metabolic data before long-term anticoagulation and subsequent glucocorticoid therapy. The results were unremarkable, which helps reduce interference from common metabolic prothrombotic factors and makes the etiology more suggestive of an eosinophil-related acquired thrombophilic state.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HCY",
+          "basis_in_stage3_input": "Repeat testing of blood lipids, HCY, the anemia panel, protein C, and protein S showed no abnormalities.",
+          "why_order_this_exam": "Elevated homocysteine is one of the important acquired prothrombotic factors that should be evaluated in young patients with thrombosis. This patient had thrombosis at extensive sites and at a young age, and prior protein S and anticardiolipin antibody results were inconsistent over time; therefore, HCY needs to be rechecked to determine whether there is a metabolic abnormality that could explain the thrombosis. A normal HCY level would help exclude this common potentially modifiable cause and support that the patient's thrombophilic state is more related to eosinophilia and the subsequently confirmed Kimura disease.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Anemia panel",
+          "basis_in_stage3_input": "Repeat testing of blood lipids, HCY, the anemia panel, protein C, and protein S showed no abnormalities.",
+          "why_order_this_exam": "The patient previously had bloody pleural effusion, long-term inflammatory-like manifestations, and repeated blood draws and hospitalization, and requires evaluation for hematologic problems such as iron deficiency and folate or vitamin B12 abnormalities. The anemia panel can both explain hemoglobin fluctuations and help determine whether there is underlying nutritional deficiency, chronic inflammation, or bone marrow abnormality, avoiding misattribution of some nonspecific symptoms to the primary disease. In addition, abnormalities in indicators such as B12 may also provide indirect clues in clonal diseases with eosinophilia. The results were normal, suggesting that there are currently no obvious nutritional or related hematologic factors supporting other disease directions.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Protein C",
+          "basis_in_stage3_input": "Repeat testing of blood lipids, HCY, the anemia panel, protein C, and protein S showed no abnormalities.",
+          "why_order_this_exam": "The patient developed deep vein thrombosis of the lower extremities and pulmonary embolism at age 19, so hereditary or acquired defects of the natural anticoagulant system must first be ruled out. Although the protein C activity measured at another hospital was not significantly decreased, standardized repeat testing is still required in patients with severe thrombosis to exclude the effect of the acute phase, infection, or treatment status on a single result. Normal protein C helps reduce the likelihood of classic hereditary thrombophilia and supports subsequent attribution of the etiology to other acquired factors.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein S",
+          "basis_in_stage3_input": "Repeat testing of blood lipids, HCY, the anemia panel, protein C, and protein S showed no abnormalities.",
+          "why_order_this_exam": "At an outside hospital, protein S activity was previously measured at 0.2%, which was markedly decreased. Because the patient also has extensive venous thrombosis and pulmonary embolism, repeat protein S testing is extremely important for etiologic assessment. The main purpose of this test is to determine whether the previously marked decrease indicates true hereditary/persistent deficiency, or a transient abnormality caused by the acute thrombotic phase, infection, and anticoagulation therapy. Normalization on repeat testing indicates that the previous result may have been affected by timing-related factors, weakening the explanatory value of isolated protein S deficiency for the entire clinical course, and thereby prompting continued investigation for eosinophil-related acquired thrombotic predisposition.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "basis_in_stage3_input": "Coagulation function: fibrinogen concentration 1.72 g/L.",
+          "why_order_this_exam": "The patient previously experienced a severe thrombotic event and received anticoagulation therapy, and also has hemorrhagic pleural effusion and a subsequent need for surgical tissue sampling; therefore, coagulation function monitoring is an important component of both etiologic evaluation and safety assessment. A low fibrinogen level suggests possible consumption or activation of the coagulation-fibrinolytic system and requires comprehensive assessment in conjunction with thrombotic activity, bleeding risk, and perioperative management. This test directly affects adjustment of anticoagulation intensity, risk assessment for invasive procedures, and understanding of whether the current hypercoagulable state remains active.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation factors",
+          "basis_in_stage3_input": "Coagulation factors: factor IX level 300.2%↑, fibrin degradation products 3.22 ug/mL↑.",
+          "why_order_this_exam": "In addition to baseline coagulation function, the patient is young and has severe venous thrombosis without a clear precipitating factor, requiring further characterization of coagulation factor levels and fibrinolytic status. A marked elevation of factor IX may suggest a prothrombotic tendency, and elevated fibrin degradation products indicate the presence of thrombosis and secondary activation of fibrinolysis in vivo; both help explain the DVT, pulmonary embolism, and intracardiac mass. This testing can help confirm that a hypercoagulable state is still present, supporting continued anticoagulation and further etiologic screening for thrombophilia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-exome sequencing",
+          "basis_in_stage3_input": "Whole-exome sequencing result: No thrombophilia-related gene mutations were identified.",
+          "why_order_this_exam": "The patient had an extremely early age at disease onset and, within a short period, developed extensive deep vein thrombosis, bilateral pulmonary embolism, and a thrombus-like mass in the right atrium. When conventional acquired factors are insufficient to fully explain this, hereditary thrombophilia or rare genetic abnormalities should be considered. The purpose of whole-exome sequencing is to identify, as comprehensively as possible, known or potential thrombosis-related gene variants, to provide a basis for lifelong recurrence risk assessment, family counseling, and long-term anticoagulation strategy. No relevant mutations were detected in the results. Although this cannot absolutely exclude all genetic risks, it substantially reduces the likelihood of classic hereditary thrombophilia as the primary cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Qualitative testing for the FIP1L1/PDGFRα fusion gene in peripheral blood",
+          "basis_in_stage3_input": "Peripheral blood qualitative testing for the FIP1L1/PDGFRα fusion gene: negative.",
+          "why_order_this_exam": "The patient has persistent eosinophilia, increased eosinophil proportions in the bone marrow and peripheral blood, elevated IgE, and thrombotic and pleural involvement. This combination warrants evaluation for clonal/myeloproliferative hypereosinophilic syndrome. FIP1L1/PDGFRα is a key molecular marker closely associated with myeloid/lymphoid neoplasms with eosinophilia; when positive, it not only explains the eosinophilia and organ damage, but also directly affects the choice of targeted therapy. A negative result helps exclude this important treatable cause, making subsequent consideration more supportive of reactive eosinophilia or Kimura disease-related changes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood qualitative testing for the ETV6-PDGFRβ fusion gene",
+          "basis_in_stage3_input": "Peripheral blood qualitative testing for the ETV6-PDGFRβ fusion gene: negative.",
+          "why_order_this_exam": "Similar to FIP1L1/PDGFRα, ETV6-PDGFRβ-associated rearrangement is also a clonal cause that must be excluded when eosinophilia is accompanied by systemic involvement. This patient had bone marrow eosinophilia and severe thrombotic manifestations; if this fusion gene were present, it would suggest a hematologic neoplastic disorder and would alter prognostic assessment and the treatment regimen. A negative result supports that there is currently no such clonal molecular evidence, which helps narrow the differential diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood FISH test",
+          "basis_in_stage3_input": "Peripheral blood FISH test: negative.",
+          "why_order_this_exam": "The patient’s clinical features suggest that evaluation should not be limited to the routine hematologic level; FISH is needed for further screening for chromosomal rearrangements or occult clonal abnormalities, especially when eosinophilia, clues of bone marrow abnormalities, and thrombotic events coexist. This test can supplement the limitations of fusion gene testing and help identify certain cytogenetic abnormalities, thereby determining whether it is a myeloproliferative/clonal disorder. A negative result further reduces the likelihood of hematologic neoplastic eosinophilia and provides indirect support for the final attribution to Kimura disease and an acquired prothrombotic state.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Superficial soft tissue mass ultrasound",
+          "basis_in_stage3_input": "Superficial soft tissue mass ultrasound: sonographic findings superior to the bilateral elbow joints, suggestive of enlarged lymph nodes.",
+          "why_order_this_exam": "In addition to the earlier pleural effusion and thrombosis issues, the patient subsequently developed a painless mass in the right upper arm for 3 months. Physical examination showed a soft mass with limited mobility palpable on the medial side of the right elbow. The purpose of color Doppler ultrasound of the superficial mass is to clarify the nature, extent, blood supply, and relationship to surrounding tissues of the lesion, and to distinguish lymph node enlargement, an inflammatory mass, a soft tissue tumor, or Kimura disease-related lymph node/subcutaneous lesions. This examination also provides an imaging basis for selecting excision or needle biopsy approach, assessing surgical feasibility, and reducing procedural risk.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "basis_in_stage3_input": "Echocardiography: no obvious abnormality of the intracardiac structures.",
+          "why_order_this_exam": "On Day +5, transthoracic echocardiography revealed a mass-like shadow in the right atrium, with thrombus considered highly likely. Given the history of pulmonary embolism and lower-extremity deep vein thrombosis, repeat transthoracic echocardiography was needed for dynamic assessment of whether the intracardiac thrombus had resolved and whether structural heart disease causing thrombus formation was present. This examination was relevant both to assessment of the current anticoagulation efficacy and to whether there was still a new source of emboli and risk of recurrence. The results indicated no obvious abnormality in the intracardiac structures; combined with the subsequent treatment response, this supported effective anticoagulation and improvement of the intracardiac lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT showed no obvious abnormality.",
+          "why_order_this_exam": "The patient previously had bilateral pulmonary inflammation, persistent right pleural effusion, bilateral pulmonary emboli, chest pain, and shortness of breath. Follow-up chest CT is very important for determining whether the pulmonary infiltrative lesions, post-infarction changes, and pleural effusion have completely resolved. This examination mainly addresses three issues: whether there are still residual lesions from infection or pulmonary infarction, whether there is an occult tumor or other pulmonary parenchymal abnormality, and whether pulmonary status is stable for subsequent surgery or treatment. CT showed no obvious abnormality, indicating that the previous pulmonary involvement related to pulmonary embolism/inflammation has significantly recovered, and also supporting that the current mass lesion is relatively confined to the body surface rather than progressive pulmonary disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Excisional biopsy of right elbow mass",
+          "basis_in_stage3_input": "On Day +198, excision biopsy of a right elbow mass was performed.",
+          "why_order_this_exam": "In the setting of eosinophilia, markedly elevated IgE, and recurrent skin allergy, the patient subsequently developed a persistent painless right elbow mass. Imaging suggested lymph node enlargement, but hematologic studies and imaging alone still could not establish a definitive diagnosis among Kimura disease, reactive lymphoid hyperplasia, lymphoma, and other soft tissue lesions. Excisional biopsy can directly obtain intact tissue architecture and is the निर्णसive examination for determining the pathologic type and identifying key features such as lymphoid follicular changes, eosinophilic infiltration, and vascular proliferation. This examination ultimately played a central role in confirming Kimura disease, excluding malignancy, and guiding whether to add glucocorticoid therapy subsequently.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Dermatology laboratory tests: ENA and ANA negative. Pathology results of skin biopsy from the rash site: the epidermis, dermis, and subcutaneous tissue were grossly normal; sparse histiocytes were seen in superficial dermal vessels, and no eosinophils were seen. Repeat lipid profile, HCY, anemia panel, protein C, and protein S showed no abnormalities. Coagulation function: fibrinogen concentration 1.72 g/L. Coagulation factors: factor IX 300.2%↑, fibrin degradation products 3.22 ug/mL↑. Whole-exome sequencing: no thrombophilia-related gene mutations were detected. Peripheral blood qualitative test for FIP1L1/PDGFRα fusion gene: negative. Peripheral blood qualitative test for ETV6-PDGFRβ fusion gene: negative. Peripheral blood FISH: negative. On Day +194, the patient was admitted because of a painless mass in the right upper arm noted for 3 months. A coin-sized mass was palpable on the medial side of the right elbow, with no local redness or swelling, no tenderness, soft in consistency, and low mobility. Color Doppler ultrasound of the superficial mass: sonographic appearance above both elbow joints, suggestive of lymph node enlargement. Echocardiography: no obvious abnormality in intracardiac structures. Chest CT showed no obvious abnormality. On Day +198, excision and pathologic examination of the right elbow mass were performed.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrpztRhUrhbwaTRE613X72v1RGszJS9K7PLhsNqxISQiaIcaicDIaoZaKO4bGV4RibN18Kgx6pXkDxQ/640?wx_fmt=png",
+          "near_text": "Table 2. Follow-up eosinophil results",
+          "local_src": "cleaned_cases_image_cache/80acbd94321fa10cc76c2a5f7257ca034ef7b114.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLrpztRhUrhbwaTRE613X723SYictiatvKVV6OWUBdVez4Yia69ahZoDd2JCvn9PUIfKiaZ2FBAekTDiaw/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/238e195c3264be5fbe7e6d77f402e5eb23ebe2de.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLrpztRhUrhbwaTRE613X72ddPkCBrHWSEDTz2icNYhxo70CraqUWfgAl6ch3arK2WZzNTnXibjuOHQ/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/20dc894eece20bf279f0ca0518d3f8cf3bf0f6fe.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLrpztRhUrhbwaTRE613X72Zhwm45PqWkDK0hJaMERlyEkbsjmGTtcPWasJxrhCeWS6GLiafSuW2PA/640?wx_fmt=jpeg",
+          "near_text": "Figure 2. Pathology of the right elbow lymph node",
+          "local_src": "cleaned_cases_image_cache/c58229561a2b659dec5aa96bd9f181a4dce22840.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Kimura disease; 2. thrombophilia.",
+      "diagnostic_basis": [
+        "Geographic distribution, age, and sex predilection",
+        "Elevated eosinophils and IgE",
+        "Postoperative pathology showed findings consistent with Kimura disease."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Rivaroxaban anticoagulation",
+        "Right pleural effusion drainage",
+        "Add prednisone",
+        "Excisional biopsy of right elbow mass"
+      ],
+      "treatment_response": [
+        "Pulmonary embolism has improved and resolved",
+        "A small mass-like echogenicity above the right atrial Eustachian valve, significantly decreased compared with before",
+        "No pleural effusion"
+      ]
+    }
+  }
+}

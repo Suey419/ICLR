@@ -1,0 +1,356 @@
+{
+  "status": "success",
+  "case_id": "case_27",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Ms. Tang, a 50-year-old woman, presented to an outside hospital 5 years ago because of an episode of upper abdominal pain, and physical examination revealed generalized superficial lymphadenopathy. Lymph node biopsy established the diagnosis of diffuse large B-cell lymphoma. At the outside hospital, she sequentially received 6 cycles of chemotherapy with the following regimens: NCID, NCOD, NCID, ECHOP, ECHOP, and CHOP, with good therapeutic response. More than 1 year ago, the patient developed poor appetite, fatigue, and progressive enlargement of the left cervical lymph nodes, and again underwent lymph node biopsy at an outside hospital, which confirmed persistent diffuse large B-cell lymphoma. The hematology department at the outside hospital administered 2 cycles of treatment with RCHOP and CHOP regimens. After chemotherapy, her white blood cell count decreased and remained chronically between 2-3*10^9/L. Approximately 4 months ago, without an obvious precipitating factor, the patient again developed recurrent low-grade fever, with temperature fluctuating throughout the day between 37.5℃-38.3℃, accompanied by intermittent dry cough. More than 1 month before this admission to our hospital for treatment, her intermittent fever was still present, and she also developed exertional dyspnea, specifically becoming short of breath when walking on level ground or washing/grooming, accompanied by frequent cough productive of white foamy sputum. Past medical history: denied any disease history other than lymphoma; personal history: no history of smoking or alcohol use, no history of food or drug allergy; family history: family members are healthy, siblings have no similar disease history, denied family history of hereditary disease. After admission, arterial blood gas analysis showed: pH 7.40, PO2 52 mmHg, PCO2 34 mmHg, BE 2.6 mmol/L, Lac 0.8 mmol/L, SPO2 91% (nasal cannula oxygen 3 L/min). Physical examination showed: clear consciousness, T 39.0℃, R 27 breaths/min, BP 102/60 mmHg, HR 112 beats/min, SPO2 92%, no cyanosis of the lips, clear breath sounds in both lungs, moist rales and pleural friction rub heard, no wheezing, no obvious abnormalities in the heart or abdomen, no edema of both lower extremities, and no palpable enlargement of superficial lymph nodes. Ancillary examinations showed: complete blood count with white blood cell count 2.5*10^9/L, N 79.2%, L 12%, ANA 1:100, PCT 0.25 ng/ml, CRP 77.10 mg/L, erythrocyte sedimentation rate 28 mm/h, no abnormalities in liver function, renal function, or electrolytes, rheumatoid factor normal, antinuclear antibody and ANCA negative, blood tumor panel normal, routine stool and urine tests normal, pre-transfusion testing normal, muscle enzyme panel normal, myocardial enzyme panel and BNP normal. Chest CT showed: diffuse lesions in both lungs.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis jirovecii pneumonia (PJP)",
+          "supporting_evidence": [
+            "The patient has a history of diffuse large B-cell lymphoma and has received multiple courses of chemotherapy, representing an immunocompromised background.",
+            "After chemotherapy, the WBC count decreased and remained between 2-3*10^9/L for a prolonged period; on this CBC, the WBC count was 2.5*10^9/L, indicating decreased host defense capacity",
+            "Recurrent low-grade fever over the past 4 months, accompanied by intermittent dry cough, with exertional dyspnea developing later, consistent with the subacute onset pattern of opportunistic infection",
+            "Arterial blood gas analysis showed PO2 52 mmHg and PCO2 34 mmHg; SpO2 was 91% while receiving oxygen via nasal cannula at 3 L/min, indicating significant hypoxemia",
+            "Chest CT showed diffuse bilateral lung abnormalities, consistent with the common pattern of diffuse bilateral involvement in PJP",
+            "On pulmonary examination, breath sounds are clear, with only moist crackles heard; the physical findings may be disproportionate to the imaging findings and degree of hypoxemia, supporting interstitial/diffuse lung disease."
+          ],
+          "opposing_evidence": [
+            "In the later stage, the patient developed frequent cough with expectoration of white frothy sputum, whereas PJP more commonly presents with a dry cough.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Viral pneumonia (such as cytomegalovirus pneumonia or other immunosuppression-related viral pneumonia)",
+          "supporting_evidence": [
+            "The patient had marked immunosuppression and leukopenia after lymphoma and repeated chemotherapy.",
+            "Fever, dry cough, exertional dyspnea, hypoxemia, and diffuse bilateral lung lesions are consistent with the common manifestations of viral pneumonia, especially viral pneumonia in immunocompromised hosts",
+            "The course is several weeks to several months, with a prolonged progressive pattern, consistent with the presentation of some viral pneumonias in immunosuppressed patients",
+            "CRP 77.10 mg/L was elevated, suggesting the presence of an inflammatory response"
+          ],
+          "opposing_evidence": [
+            "PCT 0.25 ng/ml is not elevated, which further does not support typical bacterial infection, but it is not specific evidence for viral pneumonia.",
+            "Stage 1 information did not provide virologic testing or typical imaging details to directly support a specific viral pathogen."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary infiltration by lymphoma or recurrent lymphoma involving the lung",
+          "supporting_evidence": [
+            "The patient has a history of diffuse large B-cell lymphoma, and recurrence was confirmed more than 1 year ago.",
+            "Recurrent fever over the past 4 months, which may represent one manifestation of tumor-related fever",
+            "Chest CT showed diffuse lesions in both lungs; lymphoma may present as diffuse pulmonary infiltration",
+            "The absence of palpable enlargement of superficial lymph nodes on this examination does not exclude deep or pulmonary involvement."
+          ],
+          "opposing_evidence": [
+            "The concurrent presence of dry cough, white frothy sputum, moist crackles, pleural friction rub, and marked hypoxemia is more suggestive of an active pulmonary inflammatory/infectious process.",
+            "Elevated CRP 77.10 mg/L supports an inflammatory response, favoring concomitant infection or inflammatory lung injury rather than simple tumor progression.",
+            "Stage I information did not provide evidence of progressive peripheral lymphadenopathy, hepatosplenomegaly, or other definite tumor progression."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Drug-related lung injury/interstitial pneumonia (chemotherapy drug-induced pneumonitis)",
+          "supporting_evidence": [
+            "The patient previously received multiple chemotherapy regimens and additional chemotherapy, with a risk of drug-induced lung injury",
+            "The clinical presentation includes recurrent fever, dry cough, exertional dyspnea, and hypoxemia; chest CT shows diffuse bilateral lung lesions, consistent with the common syndrome of drug-induced interstitial pneumonitis.",
+            "PCT 0.25 ng/ml is not elevated and does not strongly support a typical bacterial infection"
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide a clear temporal relationship between pulmonary symptoms and a certain post-chemotherapy medication use.",
+            "Elevated CRP 77.10 mg/L, T 39.0℃, and elevated neutrophil percentage 79.2% suggest that an infectious etiology should still be prioritized.",
+            "The patient's disease course has lasted nearly 4 months, and there is insufficient evidence for isolated drug-induced pneumonitis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Bacterial pneumonia (including atypical pathogen pneumonia)",
+          "supporting_evidence": [
+            "The patient has fever, cough, expectoration of white foamy sputum, and shortness of breath, consistent with common symptoms of pulmonary infection.",
+            "On physical examination, crackles and a pleural friction rub were heard, suggesting inflammatory involvement of the lung parenchyma or pleura.",
+            "CRP 77.10 mg/L elevated, ESR 28 mm/h, suggesting inflammatory activity",
+            "The patient has leukopenia; severe bacterial or atypical pathogen pneumonia may occur in an immunocompromised host, and the peripheral white blood cell count may not necessarily be elevated."
+          ],
+          "opposing_evidence": [
+            "The clinical course has lasted nearly 4 months, more protracted than typical acute bacterial pneumonia.",
+            "PCT 0.25 ng/ml is not elevated and does not support typical invasive bacterial infection",
+            "Chest CT was described only as diffuse bilateral lung abnormalities, without providing information such as focal consolidation that would more strongly support typical bacterial pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Diffuse alveolar hemorrhage or systemic immune-mediated lung injury (e.g., ANCA-associated vasculitis/connective tissue disease-associated interstitial lung disease)",
+          "supporting_evidence": [
+            "The patient has diffuse bilateral lung lesions, hypoxemia, and a pleural friction rub, which can be seen in diffuse pulmonary immune-inflammatory diseases.",
+            "ANA 1:100 suggests the presence of a weakly positive autoantibody background"
+          ],
+          "opposing_evidence": [
+            "ANA and ANCA were negative, and rheumatoid factor was normal, not supporting common systemic autoimmune disease or ANCA-associated vasculitis",
+            "In the first stage, there was no evidence such as hemoptysis, renal dysfunction, rash, or arthritis to support diffuse alveolar hemorrhage or systemic vasculitis/connective tissue disease.",
+            "In the setting of immunosuppression, infectious etiologies and tumor-related etiologies should be given higher priority."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PPD skin test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum bacterial and fungal smear and culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeated sputum cytology for exfoliated cells",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear for acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum TB culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen panel (9 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Epstein-Barr virus screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "giant cell screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Influenza A and B screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "PPD skin test was negative. No positive findings were identified in either the anaerobic or aerobic blood culture bottles. Five sputum bacterial and fungal smears and cultures were negative. Cytologic examination of sputum for exfoliated cells on 3 occasions showed no cancer cells. Sputum AFB smears were negative on 3 occasions. TB culture results are still pending. The 9-item respiratory pathogen panel was negative. EBV and CMV testing were within the normal range. Influenza A and B screening was negative. Bone marrow aspiration result: bone marrow proliferation was hypoactive, histiocytes 2%. Hematology consultation considered that no characteristic manifestations of lymphoma were seen in the bone marrow, but in combination with the patient's underlying disease, pulmonary infiltration by lymphoma still could not be excluded, and lung biopsy was recommended. At the same time, repeat CBC showed: WBC 1.8*10^9/L, N 88.2%, L14%; PCT 0.89 ng/ml, CRP >100 mg/L. Observation of the patient's daily temperature changes after treatment showed that the peak temperature was trending downward, with temperature fluctuating between 37.5-38.1℃ throughout the day, but it still did not return to normal at any time during the day. Repeat blood gas analysis (on 5 L/min oxygen by mask) showed: pH 7.45, PO2 56 mmHg, PCO2 37 mmHg, BE -2.2 mmol/L, Lac 1.2 mmol/L, SPO2 90%; respiratory failure further worsened.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJWntuKXusVKxPutlW6S9oBGzCOxJ7PbweRzjlZucr9MufB51PNYnxtTuRc8KXGgvK95viabRW7Ctw/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/682ab8164b93d0eddc05d333aa87f85275a41cce.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJWntuKXusVKxPutlW6S9oBydkLwtTPWBBcAfDN5UuRiaQSwua8OVNw4WoQmyJYPeZ9Kze6Vsdib9ibg/640?wx_fmt=jpeg",
+            "near_text": "Despite multimodal differential diagnosis, the etiology remains unclear.",
+            "local_src": "cleaned_cases_image_cache/7b115c9eff40aa299bedb213d816241707a57bf1.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious lesion",
+            "evidence": [
+              "In the context of chronic fever and the imaging findings, an infectious process is the primary consideration."
+            ],
+            "exclusion_reasons": [
+              "PPD skin test was negative; both anaerobic and aerobic blood culture bottles showed no positive findings; 5 sputum bacterial and fungal smears and cultures were negative; 3 sputum acid-fast bacilli tests were negative; the 9-item respiratory pathogen panel was negative; EB and cytomegalovirus testing were within normal range; influenza A and B screening was negative.",
+              "Broad-spectrum treatment failed to normalize body temperature and appeared not to have achieved the expected effect."
+            ]
+          },
+          {
+            "name": "lymphomatous pulmonary infiltration",
+            "evidence": [
+              "Chemotherapy was interrupted for 4 months due to fever, indicating that the patient’s overall treatment course after lymphoma relapse was insufficient, and further differentiation is needed to determine whether the lymphoma progressed after treatment interruption."
+            ],
+            "exclusion_reasons": [
+              "Bone marrow aspiration results: bone marrow hypoplasia with decreased activity, histiocytes 2%. No characteristic manifestations of lymphoma were seen in the bone marrow."
+            ]
+          },
+          {
+            "name": "Chemotherapy-induced lung injury",
+            "evidence": [
+              "Physical examination revealed a friction rub, CT suggested diffuse bilateral lung lesions, arterial blood gas analysis showed type I respiratory failure, and chronic lung injury caused by rituximab and chemotherapeutic agents also needed to be differentiated."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious lesion",
+        "evidence": [
+          "In the context of chronic fever and the imaging findings, an infectious process is the primary consideration."
+        ],
+        "exclusion_reasons": [
+          "PPD skin test was negative; both anaerobic and aerobic blood culture bottles showed no positive findings; 5 sputum bacterial and fungal smears and cultures were negative; 3 sputum acid-fast bacilli tests were negative; the 9-item respiratory pathogen panel was negative; EB and cytomegalovirus testing were within normal range; influenza A and B screening was negative.",
+          "Broad-spectrum treatment failed to normalize body temperature and appeared not to have achieved the expected effect."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphomatous pulmonary infiltration",
+        "evidence": [
+          "Chemotherapy was interrupted for 4 months due to fever, indicating that the patient’s overall treatment course after lymphoma relapse was insufficient, and further differentiation is needed to determine whether the lymphoma progressed after treatment interruption."
+        ],
+        "exclusion_reasons": [
+          "Bone marrow aspiration results: bone marrow hypoplasia with decreased activity, histiocytes 2%. No characteristic manifestations of lymphoma were seen in the bone marrow."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Chemotherapy-induced lung injury",
+        "evidence": [
+          "Physical examination revealed a friction rub, CT suggested diffuse bilateral lung lesions, arterial blood gas analysis showed type I respiratory failure, and chronic lung injury caused by rituximab and chemotherapeutic agents also needed to be differentiated."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Transbronchial cryobiopsy under rigid bronchoscopy (TBCB)",
+          "basis_in_stage3_input": "Underwent transbronchial cryobiopsy under rigid bronchoscopy (TBCB).",
+          "why_order_this_exam": "The patient is an immunosuppressed host with relapsed diffuse large B-cell lymphoma after multiple courses of chemotherapy and long-term leukopenia. Over the past 4 months, the patient had persistent fever, dry cough, and gradually developed exertional dyspnea. After admission, there was marked hypoxemia and progressive type I respiratory failure. Chest CT showed diffuse bilateral pulmonary lesions. Previous blood cultures; repeated sputum bacterial, fungal, and acid-fast bacilli testing; 9-item respiratory pathogen testing; EB/cytomegalovirus; and influenza screening were all negative. After broad-spectrum treatment, body temperature decreased only partially and could not return to normal. Bone marrow examination also failed to explain the pulmonary lesions. Therefore, infection, pulmonary infiltration by lymphoma, and chemotherapy drug-induced lung injury all require further differentiation. TBCB can obtain larger and more representative lung tissue in diffuse pulmonary lesions for pathology, special stains, and tissue culture, directly determining whether the lesion is infectious, neoplastic, or interstitial/drug-induced injury, while also providing a key basis for subsequent selection of anti-infective or antitumor regimens; in the context of rapid disease progression and repeatedly negative noninvasive tests, its diagnostic value is higher than lavage alone.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast bacilli testing of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "BALF results indicated: acid-fast bacilli and exfoliated cells were negative",
+          "why_order_this_exam": "The patient has had prolonged low-grade fever, cough, and diffuse bilateral lung lesions. Subsequent pathology also indicated granulomatous inflammation and necrotic material, all of which require focused evaluation for TB or nontuberculous mycobacterial infection; in addition, the patient has lymphoma and post-chemotherapy leukopenia, placing the patient in a high-risk group for opportunistic infections such as TB. Although prior PPD and 3 sputum acid-fast bacilli smears were negative, the sensitivity of noninvasive sputum testing is limited in immunosuppressed patients and in diffuse pulmonary lesions, and it cannot adequately exclude lower respiratory tract mycobacterial infection. Bronchoscopic lavage fluid acid-fast bacilli testing is performed to obtain specimens directly from the airways related to the lesions, increase the detection rate, and facilitate early confirmation or exclusion of a mycobacterial etiology, thereby avoiding misclassification of infection as pulmonary infiltration by lymphoma or drug-induced lung injury, which could affect the treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic lavage fluid exfoliative cytology",
+          "basis_in_stage3_input": "BALF results indicated: acid-fast bacilli and exfoliated cells were negative",
+          "why_order_this_exam": "The patient has a history of relapsed diffuse large B-cell lymphoma, and chemotherapy was interrupted for 4 months because of fever. The diffuse bilateral pulmonary lesions need to be differentiated from pulmonary infiltration by lymphoma. Although bone marrow aspiration showed no characteristic findings of lymphoma, focal or diffuse pulmonary involvement cannot be excluded; although no malignant cells were seen on 3 previous sputum exfoliative cytology examinations, this is still insufficient to exclude neoplastic pulmonary lesions. Exfoliative cytology examination of bronchoalveolar lavage fluid obtained by bronchoscopy can provide cytologic evidence from involved areas of the lower respiratory tract, helping to detect abnormal tumor cells or other suggestive cellular components, and can corroborate lung tissue pathology to determine whether the intrapulmonary lesions are infection or tumor infiltration, thereby deciding whether it is necessary to continue antitumor therapy rather than anti-infective therapy alone.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "Galactomannan test and lavage fluid culture were negative",
+          "why_order_this_exam": "The patient is an immunocompromised host after chemotherapy for lymphoma, with long-term leukopenia, presenting with persistent fever, cough, progressive hypoxemia, and diffuse bilateral lung lesions. When routine bacteriologic and virologic tests are negative, invasive fungal infection in particular needs to be ruled out. The GM test, as an important adjunctive test for fungal infections such as Aspergillus infection, can provide additional clues when routine cultures are negative and help determine whether there is an opportunistic fungal infection that needs early empiric coverage. The clinical question addressed by this test is: in the setting of a protracted disease course and progression of respiratory failure, is there an occult fungal etiology, so as to avoid missed diagnosis and delayed antifungal therapy; at the same time, if the result is negative, it can also be integrated with PAS staining, tissue culture, and other results to reduce the likelihood of invasive fungal infection and narrow the differential diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lavage fluid culture",
+          "basis_in_stage3_input": "Galactomannan test and lavage fluid culture were negative",
+          "why_order_this_exam": "The patient has high fever, persistently elevated CRP, diffuse bilateral lung lesions, and worsening respiratory failure; infection has always been the primary consideration. However, previous blood cultures and multiple sputum cultures were all negative, suggesting that routine upper respiratory tract or peripheral specimens may not have reflected the true pathogen. Bronchoscopic lavage fluid culture can directly detect pathogens related to lower respiratory tract lesions, including bacteria and some fungi, helping to determine whether deep pulmonary infection is present and providing a microbiologic basis for subsequent drug selection. The main question this test is intended to address is: when noninvasive pathogen testing is repeatedly negative and empiric treatment is unsatisfactory, whether the pulmonary lesions are caused by cultivable pathogens; at the same time, a negative result may also suggest the need to further rely on lung tissue pathology and tissue culture to distinguish infectious from noninfectious lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "lavage fluid TB culture",
+          "basis_in_stage3_input": "The lavage fluid TB culture result is still pending.",
+          "why_order_this_exam": "The patient’s disease course has been protracted for several months, with prolonged low-grade fever, cough, and diffuse bilateral lung lesions. In the setting of immunosuppression, TB or nontuberculous mycobacterial infection cannot be readily excluded on the basis of negative PPD and sputum acid-fast bacilli results; especially since subsequent pathology suggested granulomatous inflammation with necrosis, making mycobacterial infection an entity that must be systematically investigated. Although mycobacterial culture of lavage fluid has a long turnaround time, it remains an important method for improving the diagnostic sensitivity for mycobacterial infection and for subsequent species identification, and can be used to resolve the issue of etiologic confirmation when acid-fast staining and TB-DNA are negative but the clinical/pathologic findings remain suspicious; once positive, it also has implications for anti-TB treatment decisions and infection control.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy tissue culture",
+          "basis_in_stage3_input": "Biopsy lung tissue culture results: no fungal growth; Streptococcus sanguinis (chloramphenicol-resistant), Enterococcus faecalis (resistant to clindamycin and quinupristin/dalfopristin, susceptible to vancomycin), and Leuconostoc pseudomesenteroides were cultured.",
+          "why_order_this_exam": "Against a background of prolonged fever, diffuse bilateral lung lesions, and severe hypoxemia, multiple prior noninvasive etiologic studies had yielded no definitive results, while the condition continued to progress; therefore, relying only on sputum or lavage fluid might be insufficient to identify the true pathogen. Culture of biopsied lung tissue, obtained directly from the affected pulmonary parenchyma, can better determine whether a deep pulmonary infection is present, what the specific pathogen is, and its drug-resistance characteristics, and is especially applicable in immunosuppressed hosts in whom routine specimens are negative but infection remains highly suspected. This test is used not only to confirm or support an infectious lesion, but also directly affects antimicrobial selection and de-escalation/escalation treatment strategies, avoiding management of infection as lymphoma infiltration or drug-induced lung injury.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology results indicate: granulomatous inflammation, necrotic material, and a small amount of hyalinized tissue",
+          "why_order_this_exam": "The central clinical challenge in this case is: in an immunosuppressed patient with diffuse bilateral lung lesions and progressive respiratory failure, how to distinguish among infection, pulmonary infiltration by lymphoma, and chemotherapy drug-induced lung injury when noninvasive tests are negative. Lung tissue pathology is key to answering this question because it can directly evaluate the type of inflammation in the lung parenchyma and whether there is necrosis, granulomas, tumor cell infiltration, or a characteristic pattern of interstitial injury. The patient has a history of relapsed lymphoma, while also having persistent fever and elevated inflammatory markers, making it difficult to distinguish based on clinical features and imaging alone; the purpose of pathologic examination is to establish the nature of the lesion and guide subsequent management toward anti-infective therapy, antitumor therapy, or glucocorticoids/discontinuation of the drug. For critically ill patients with worsening oxygenation, obtaining pathologic evidence as soon as possible is particularly crucial for treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CK (-) EMA (-) CD68 (+) Ki67 5% (+) PAS (-) CD45 (+) CD20 (-) CD3 (+)",
+          "why_order_this_exam": "The patient has a definite history of recurrent diffuse large B-cell lymphoma, and diffuse pulmonary lesions must always be differentiated clinically from pulmonary infiltration by lymphoma. Routine histopathology alone may sometimes be insufficient to completely exclude neoplastic infiltration in the setting of necrosis and inflammation; therefore, immunohistochemistry is needed to further clarify the cell of origin and expression profile. The clinical questions addressed by this test are: whether the lesion contains a B-cell phenotype consistent with lymphoma, whether there is a tumor of epithelial origin, or whether it is predominantly inflammatory/histiocytic reaction. Immunohistochemistry results can provide key evidence to exclude or support pulmonary infiltration by lymphoma and help avoid inappropriate further chemotherapy; at the same time, in conjunction with routine histopathology, they can support infectious inflammation rather than drug-induced interstitial disease or neoplastic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "PAS stain (-)",
+          "why_order_this_exam": "The patient is markedly immunosuppressed. Although routine pathogen testing is negative, the diffuse bilateral lung lesions and hypoxemia continue to progress, so fungi and other pathogens that may be identified by special stains should be considered. PAS staining can help detect certain fungi, fungus-like structures, and specific microorganism-related components in lung tissue, and is an important adjunct in histopathology for evaluating infectious etiologies. Because granulomatous inflammation and necrosis are present in this case, if routine HE staining does not reveal a definite pathogen, special stains can help further search for evidence of infection and address the question of whether occult fungal infection or other special infections are present; the results will also affect whether empiric antifungal therapy is needed and the differential consideration of drug-induced lung injury versus tumor infiltration.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Acid-fast stain (-)",
+          "why_order_this_exam": "The patient had a prolonged disease course, persistent low-grade fever, and chest CT showing diffuse bilateral lung lesions; subsequent histopathology demonstrated necrotizing granulomatous inflammation. This combination must prompt a serious clinical evaluation for TB and other mycobacterial infections. Although the initial PPD and sputum acid-fast bacillus testing were negative, the sensitivity of these tests is limited in the setting of immunosuppression and they cannot replace direct evaluation at the histologic level. Acid-fast staining of the biopsied lung tissue is intended to directly detect acid-fast bacilli at the site of the lesion, thereby supporting or excluding mycobacterial infection as soon as possible and avoiding misinterpretation as simple bacterial infection, lymphoma infiltration, or drug-induced injury; the result also affects whether anti-TB treatment should be initiated early.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "basis_in_stage3_input": "TB-DNA（-）",
+          "why_order_this_exam": "In this case, the differential diagnosis of TB remained important throughout: the patient had an immunosuppressed background, prolonged fever, cough, diffuse pulmonary lesions, and histopathology suggesting granulomatous inflammation and necrosis. Conventional smear and culture have the limitations of insufficient sensitivity or slow turnaround, so adding TB-DNA helps rapidly detect Mycobacterium tuberculosis nucleic acid in tissue or related specimens, improving the efficiency of early diagnosis. The main question this test was intended to address was: when faced with granulomatous necrotizing pathology, can etiologic support for TB be obtained rapidly, so that TB can be distinguished as soon as possible from non-TB infection, lymphoma infiltration, and drug-induced lung injury, while reducing the risk of an incorrect treatment direction.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Transbronchial cryobiopsy (TBCB) under rigid bronchoscopy was performed. On postoperative day 3 after the biopsy, bronchoalveolar lavage fluid results showed negative acid-fast bacilli and exfoliated cells, and negative GM test and lavage fluid culture; the mycobacterial culture result from the lavage fluid was pending. Culture of the biopsied lung tissue showed no fungal growth, and grew viridans streptococci (chloramphenicol-resistant), Enterococcus faecalis (resistant to clindamycin and quinupristin/dalfopristin, vancomycin-sensitive), and Leuconostoc pseudomesenteroides. Pathology showed granulomatous inflammation, necrotic material, and a small amount of hyalinized tissue; immunohistochemistry: CK (-), EMA (-), CD68 (+), Ki67 5% (+), PAS (-), CD45 (+), CD20 (-), CD3 (+); PAS stain (-), acid-fast stain (-), TB-DNA (-). The pathology conclusion did not indicate features of lymphoma, and the immunohistochemistry results also excluded the expression profile characteristic of lymphoma; there was insufficient supporting evidence for pulmonary infiltration by lymphoma. The pathology conclusion did not indicate features of interstitial change, which is inconsistent with the manifestations of drug-induced pulmonary fibrosis.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJWntuKXusVKxPutlW6S9oBAOtkAN3LicsWhEW9WmOiaStB53RcqKVC8HD6HI0V6g8kM7iasuGANsPrA/640?wx_fmt=jpeg",
+          "near_text": "Transbronchial cryobiopsy of the posterior segment of the right upper lobe",
+          "local_src": "cleaned_cases_image_cache/3598640b5c4477e777c6582183753b18050f2833.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJWntuKXusVKxPutlW6S9oBqPh30kXVKFefgHuunibLfSlU8MXdRcOrdap6tTibBTTr3hgnaj7pyKcw/640?wx_fmt=png",
+          "near_text": "Lung tissue specimen obtained by TBCB",
+          "local_src": "cleaned_cases_image_cache/f2e2eb8aa423c1679c0f982a502b9671a380c21f.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJWntuKXusVKxPutlW6S9oBiaalhhNbTxmbFickA1LiaYTYdIRlDGTX5EyjyvIn17oGOkgC17lia7kNTQ/640?wx_fmt=jpeg",
+          "near_text": "Microscopic appearance of Pseudomembranous Candida (blue-purple)",
+          "local_src": "cleaned_cases_image_cache/3bf23d231db29b60af9cf2dc4ba7f490e294bb76.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Infectious factors are the primary etiology of the patient's current diffuse bilateral lung lesions (infection with Streptococcus sanguinis, Enterococcus faecalis, and Leuconostoc pseudomesenteroides).",
+      "diagnostic_basis": [
+        "Biopsy lung tissue culture results: no fungal growth; Streptococcus sanguinis isolated (chloramphenicol-resistant), Enterococcus faecalis isolated (resistant to clindamycin and quinupristin/dalfopristin, vancomycin-susceptible), and Leuconostoc pseudomesenteroides isolated",
+        "Pathology results indicate: granulomatous inflammation, necrotic material, and a small amount of hyalinized tissue",
+        "The pathologic conclusion did not indicate features of lymphoma, and the immunohistochemistry results also ruled out the expression profile characteristic of lymphoma; there is insufficient supporting evidence for pulmonary infiltration by lymphoma.",
+        "The pathologic conclusion did not indicate features of interstitial changes, which is inconsistent with the manifestations of drug-induced pulmonary fibrosis."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Adjust the medications to \"penicillin 4 million U IV infusion q12h, vancomycin 500 mg IV infusion q12h\" and continue treatment"
+      ],
+      "treatment_response": [
+        "On follow-up, after the patient was transferred to the Hematology Department, the above regimen was continued, and the body temperature gradually decreased and returned to normal. Regrettably, because of the prolonged earlier disease course, prolonged systemic hypoxia, extensive diffuse lesions in both lungs, severe acidosis, myocardial injury, liver function impairment, and coagulation dysfunction, the patient developed multiple organ failure. Despite transfer back to the ICU, the patient's life could not be saved."
+      ]
+    }
+  }
+}

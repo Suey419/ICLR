@@ -1,0 +1,520 @@
+{
+  "status": "success",
+  "case_id": "case_82",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 62-year-old female patient with unremarkable personal history and family history, no surgical history, and no allergy history was admitted to the Department of Pulmonary and Critical Care Medicine, Tangdu Hospital, on Day 0, with the chief complaints of \"shortness of breath on exertion for 12 days, intermittent abdominal pain, nausea, and vomiting for 1 day.\" Since Day -12, the patient had noted shortness of breath on exertion, was able to lie flat, and had slight relief after rest. There was no cough or sputum production, no chest pain or hemoptysis, and no fever. She received symptomatic treatment for \"coronary heart disease\" at a clinic, but her symptoms did not improve. Beginning on Day -7, the patient noted progressively worsening shortness of breath, with limitation of daily activities, and later presented to a local tertiary hospital. Testing showed pro-BNP 8247 pg/ml, troponin TnI 0.04 ng/ml, D-dimer 4560 ng/ml, and arterial blood gas analysis suggested PO2 58 mmHg and type I respiratory failure. Pulmonary artery CTA subsequently suggested diffuse pulmonary embolism and bilateral lower lung infiltrates. Echocardiography showed tricuspid regurgitation (moderate), aortic regurgitation (mild), and pulmonary hypertension (moderate). Vascular ultrasound showed thrombosis of the bilateral great saphenous veins, superficial femoral veins, and intramuscular veins. Diagnoses: 1. Pulmonary thromboembolism (intermediate risk), 2. Bilateral lower-extremity deep venous thrombosis. She was then given oral rivaroxaban 15 mg every 12 hours, cefoperazone/sulbactam 3.0 g every 12 hours for anti-infective treatment, as well as symptomatic treatment including improvement of circulation and oxygen therapy. On Day -1, the patient's shortness of breath was relieved, but without obvious precipitating factors she again developed nausea and vomited twice; the vomitus consisted of gastric contents, with no hematemesis. This was accompanied by paroxysmal upper abdominal pain of variable duration, with no clear relation to meals, and mild diarrhea (3-4 times/day) with loose stools. There was no other discomfort. Ancillary examinations at the outside hospital: blood and urine amylase were normal. Ultrasound showed no obvious abnormalities of the liver, gallbladder, pancreas, spleen, or kidneys. Fecal occult blood test was weakly positive. Gastroscopy and colonoscopy showed no abnormalities. Contrast-enhanced abdominal CT showed no abnormalities. She was therefore transferred to our department. After admission, physical examination was immediately performed: temperature 37.9℃, pulse 98 beats/min, blood pressure 118/80 mmHg, pulse oxygen saturation 93% (without oxygen). Breath sounds in both lungs were coarse, with no obvious dry or wet rales heard. Heart rate was 98 beats/min, rhythm regular, and no murmur was heard. The abdomen was soft, with mild epigastric tenderness and no rebound tenderness, bowel sounds 3 times/min, shifting dullness negative, and mild edema of both lower extremities. The remainder of the physical examination showed no obvious abnormalities.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLHWRedfw8DhcO7QCBx3hKZVo7rfMpicEP7kjzvdPnU6o3pf76q2bIPq2XiawjfKSUGbFAYEkIFUzLw/640?wx_fmt=png",
+          "near_text": "Chest CT",
+          "local_src": "cleaned_cases_image_cache/39842d207a76202149ae0399b8145173afcef815.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute pulmonary thromboembolism (bilateral/diffuse, with hypoxemia)",
+          "supporting_evidence": [
+            "Developed shortness of breath after exertion starting on Day -12; progressive worsening of shortness of breath starting on Day -7, with limitation of activities of daily living",
+            "Arterial blood gas analysis showed PO2 58 mmHg, type I respiratory failure",
+            "D-dimer 4560 ng/ml, markedly elevated",
+            "Pulmonary artery CTA indicated diffuse pulmonary embolism",
+            "Figure 2 shows multiple filling defects within the bilateral pulmonary arteries and their branches.",
+            "Echocardiography showed pulmonary hypertension (moderate) and tricuspid regurgitation (moderate), consistent with increased pulmonary vascular resistance.",
+            "Vascular color Doppler ultrasound showed thrombosis of the bilateral great saphenous veins, superficial femoral veins, and intermuscular veins, indicating a definite source of venous thromboembolism.",
+            "On admission, transcutaneous oxygen saturation was 93% (not receiving oxygen), with persistent oxygenation impairment."
+          ],
+          "opposing_evidence": [
+            "No chest pain or hemoptysis",
+            "Able to lie flat, suggesting there was no obvious orthopnea due to acute left heart failure at that time."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary embolism–related increased right heart load/acute right ventricular dysfunction",
+          "supporting_evidence": [
+            "pro-BNP 8247 pg/ml markedly elevated",
+            "Echocardiography showed moderate tricuspid regurgitation and moderate pulmonary hypertension.",
+            "Cardiac troponin I (TnI) 0.04 ng/ml, suggesting possible concomitant myocardial injury",
+            "Progressive worsening of shortness of breath after activity suggests impaired cardiopulmonary reserve",
+            "Mild edema of both lower extremities, supporting increased right heart load or venous congestion",
+            "Figure 2 shows extensive bilateral pulmonary artery emboli, which can lead to an acute increase in right ventricular afterload."
+          ],
+          "opposing_evidence": [
+            "Blood pressure 118/80 mmHg, with no evidence of hypotension or shock",
+            "Physical examination: heart rate 98 beats/min, no obvious signs of severe circulatory failure"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary infarction- or pulmonary embolism-related pulmonary parenchymal exudation/secondary infection",
+          "supporting_evidence": [
+            "Pulmonary artery CTA performed at an outside hospital showed infiltrates in both lower lungs",
+            "Body temperature 37.9℃, low-grade fever present",
+            "Coarse breath sounds in both lungs",
+            "Pulmonary embolism itself may be complicated by pulmonary infarction and reactive pleuropulmonary parenchymal changes"
+          ],
+          "opposing_evidence": [
+            "No cough or sputum production",
+            "No chest pain or hemoptysis",
+            "No obvious dry or wet rales were heard."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Shortness of breath caused by acute coronary syndrome or other cardiogenic diseases",
+          "supporting_evidence": [
+            "62-year-old woman",
+            "Progressively worsening shortness of breath after activity",
+            "Elevated pro-BNP 8247 pg/ml",
+            "Troponin TnI 0.04 ng/ml"
+          ],
+          "opposing_evidence": [
+            "No chest pain",
+            "After a clinic provided symptomatic treatment for \"coronary heart disease,\" the symptoms did not improve.",
+            "Pulmonary artery CTA suggests diffuse pulmonary embolism, and Fig. 2 shows multiple intraluminal filling defects in the pulmonary arteries, which better explains the current dyspnea.",
+            "Echocardiography mainly indicated pulmonary hypertension and tricuspid regurgitation; in the first stage, no direct evidence was provided to support acute left heart ischemia or overt left-sided heart failure."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Abdominal pain, nausea, and vomiting caused by acute gastrointestinal disease or mesenteric ischemia",
+          "supporting_evidence": [
+            "On Day -1, nausea and 2 episodes of vomiting of gastric contents occurred without an obvious precipitating cause.",
+            "Accompanied by paroxysmal epigastric pain, with variable duration",
+            "Mild diarrhea (3-4 times/day), with loose stools",
+            "On admission examination, the abdomen was soft, with mild tenderness in the upper abdomen."
+          ],
+          "opposing_evidence": [
+            "Blood and urine amylase normal",
+            "Ultrasound showed no obvious abnormalities of the liver, gallbladder, pancreas, spleen, or kidneys.",
+            "Gastroscopy and colonoscopy showed no abnormalities.",
+            "Contrast-enhanced abdominal CT showed no abnormalities",
+            "No rebound tenderness; shifting dullness negative, suggesting that there are currently no definite signs of an acute abdomen."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pulmonary artery CTA (pulmonary CTPA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of the lower extremities",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP (B-type natriuretic peptide precursor)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzyme panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood lactate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fecal occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal vascular Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced abdominal CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal aortic CTA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Upper abdominal CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood and urine amylase",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gastroscopy and colonoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, multiple examinations were completed. Pulmonary artery CTA showed extensive bilateral pulmonary artery thrombi involving the distal right main pulmonary artery and the lobar, segmental, and subsegmental pulmonary arteries of both lungs, with filling defects of varying degrees, confirming multiple pulmonary emboli. The cardiac silhouette was enlarged, most prominently in the right atrium and right ventricle. Linear/patchy increased-density opacities were seen adjacent to the cardiac silhouette in the medial segment of the right middle lobe and the lingular segment of the left upper lobe, considered consistent with incomplete lung expansion; there were no definite infectious lesions in the lungs. Transthoracic echocardiography showed moderate tricuspid regurgitation and moderate pulmonary hypertension, without atrial septal defect or other valvular disease. Lower-extremity venous duplex ultrasound showed deep vein thrombosis in both lower extremities (considered the embolic source of the pulmonary embolism). Complete blood count showed markedly elevated white blood cells 20.61×10^9/L, neutrophils 88.6%, and absolute neutrophil count 18.26×10^9/L. Coagulation studies showed APTT 50.0s and INR 1.78. D-dimer was 11758ng/ml, significantly above the normal range. Arterial blood gas analysis indicated hypoxemia. BNP 5163pg/ml and troponin 0.12ng/ml were both markedly elevated, indicating right heart dysfunction and myocardial injury. Cardiac enzyme panel showed LDH 408U/L and CK-MB 25U/L, mildly elevated. Blood lactate was 2.50mmol/L, mildly elevated. ECG showed P pulmonale and sinus tachycardia. Stool routine testing showed positive occult blood; stool culture results were still pending. Previous gastroscopy and colonoscopy showed no obvious abnormalities; abdominal ultrasound and upper abdominal CT at an outside hospital showed no abnormalities; blood and urine amylase tests were normal. Subsequent abdominal vascular studies were completed to rule out mesenteric ischemia and other conditions.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLHWRedfw8DhcO7QCBx3hKZ3J4JxsTG9doeKJdRnseavogvKMic8sv7iaLg6SEkaicC5CkdV5NfdeDRQ/640?wx_fmt=png",
+            "near_text": "Complete CTA",
+            "local_src": "cleaned_cases_image_cache/f4d674ace909caaa4554afe4e458856d45e3c84f.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary thromboembolism (multiple)",
+            "evidence": [
+              "Pulmonary artery CTA showed extensive pulmonary arterial thrombi in both lungs, with multiple filling defects",
+              "Clinical manifestations such as shortness of breath and hypoxemia",
+              "Elevated BNP and troponin, with markedly elevated D-dimer",
+              "Echocardiography showed tricuspid regurgitation and pulmonary hypertension",
+              "Deep venous thrombosis of both lower extremities as the source of emboli"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "intermediate-risk acute pulmonary embolism",
+            "evidence": [
+              "Hemodynamically stable",
+              "right heart dysfunction is present",
+              "Elevated myocardial injury markers"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Deep venous thrombosis of both lower extremities",
+            "evidence": [
+              "Lower extremity deep venous ultrasonography showed partial recanalization after thrombus formation within the venous lumen",
+              "source of pulmonary emboli"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Secondary pulmonary arterial hypertension",
+            "evidence": [
+              "Acute pulmonary embolism causing obstruction of the pulmonary vascular bed",
+              "Echocardiography showed moderate pulmonary hypertension",
+              "Moderate tricuspid regurgitation"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "right heart dysfunction, myocardial injury",
+            "evidence": [
+              "BNP markedly elevated",
+              "Elevated troponin",
+              "Elevated LDH and CK-MB",
+              "ECG showed P pulmonale and sinus tachycardia",
+              "Right heart enlargement"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "patent foramen ovale/reopening of the foramen ovale",
+            "evidence": [
+              "Echocardiography showed a small right-to-left shunt at the patent foramen ovale",
+              "Pulmonary hypertension causing increased right atrial pressure"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Paradoxical embolism (highly suspected)",
+            "evidence": [
+              "Presence of venous thrombosis and pulmonary embolism",
+              "Right-to-left shunt through a patent foramen ovale",
+              "Pulmonary hypertension causing a right-to-left pressure gradient",
+              "Systemic arterial embolic manifestations such as abdominal pain and hematochezia occurred",
+              "Exclude other obvious lesions of the abdominal organs"
+            ],
+            "exclusion_reasons": [
+              "Abdominal vascular ultrasound was obscured by bowel gas and was not clearly visualized",
+              "Abdominal arterial CTA is needed for further confirmation."
+            ]
+          },
+          {
+            "name": "Superior mesenteric artery thrombosis",
+            "evidence": [
+              "severe paroxysmal abdominal colicky pain",
+              "Hematochezia, coffee-ground stool",
+              "Fever",
+              "Pathological basis for paradoxical embolism is present"
+            ],
+            "exclusion_reasons": [
+              "Abdominal vascular ultrasound did not directly demonstrate thrombus",
+              "Abdominal CTA is required for definitive diagnosis"
+            ]
+          },
+          {
+            "name": "Gastrointestinal symptoms related to anticoagulant therapy",
+            "evidence": [
+              "Anticoagulation with rivaroxaban",
+              "Nausea, vomiting, abdominal pain, and diarrhea",
+              "Fecal occult blood weakly positive"
+            ],
+            "exclusion_reasons": [
+              "No obvious systemic bleeding manifestations",
+              "No hematemesis",
+              "Abdominal pain and diarrhea are not common manifestations of rivaroxaban"
+            ]
+          },
+          {
+            "name": "Gut dysbiosis/secondary intestinal infection",
+            "evidence": [
+              "Use broad-spectrum antibiotics such as levofloxacin",
+              "Diarrhea, abdominal pain, positive fecal occult blood"
+            ],
+            "exclusion_reasons": [
+              "Stool culture result is still pending"
+            ]
+          },
+          {
+            "name": "stress-related gastrointestinal ulcer",
+            "evidence": [
+              "Massive pulmonary embolism is a stress state",
+              "Positive fecal occult blood, abdominal pain"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Biliary and pancreatic organ lesions",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Pre-admission abdominal ultrasound and upper abdominal CT showed no abnormalities",
+              "Blood and urine amylase normal"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary thromboembolism (multiple)",
+        "evidence": [
+          "Pulmonary artery CTA showed extensive pulmonary arterial thrombi in both lungs, with multiple filling defects",
+          "Clinical manifestations such as shortness of breath and hypoxemia",
+          "Elevated BNP and troponin, with markedly elevated D-dimer",
+          "Echocardiography showed tricuspid regurgitation and pulmonary hypertension",
+          "Deep venous thrombosis of both lower extremities as the source of emboli"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "intermediate-risk acute pulmonary embolism",
+        "evidence": [
+          "Hemodynamically stable",
+          "right heart dysfunction is present",
+          "Elevated myocardial injury markers"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Secondary pulmonary arterial hypertension",
+        "evidence": [
+          "Acute pulmonary embolism causing obstruction of the pulmonary vascular bed",
+          "Echocardiography showed moderate pulmonary hypertension",
+          "Moderate tricuspid regurgitation"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "right heart dysfunction, myocardial injury",
+        "evidence": [
+          "BNP markedly elevated",
+          "Elevated troponin",
+          "Elevated LDH and CK-MB",
+          "ECG showed P pulmonale and sinus tachycardia",
+          "Right heart enlargement"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Paradoxical embolism (highly suspected)",
+        "evidence": [
+          "Presence of venous thrombosis and pulmonary embolism",
+          "Right-to-left shunt through a patent foramen ovale",
+          "Pulmonary hypertension causing a right-to-left pressure gradient",
+          "Systemic arterial embolic manifestations such as abdominal pain and hematochezia occurred",
+          "Exclude other obvious lesions of the abdominal organs"
+        ],
+        "exclusion_reasons": [
+          "Abdominal vascular ultrasound was obscured by bowel gas and was not clearly visualized",
+          "Abdominal arterial CTA is needed for further confirmation."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Superior mesenteric artery thrombosis",
+        "evidence": [
+          "severe paroxysmal abdominal colicky pain",
+          "Hematochezia, coffee-ground stool",
+          "Fever",
+          "Pathological basis for paradoxical embolism is present"
+        ],
+        "exclusion_reasons": [
+          "Abdominal vascular ultrasound did not directly demonstrate thrombus",
+          "Abdominal CTA is required for definitive diagnosis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Gastrointestinal symptoms related to anticoagulant therapy",
+        "evidence": [
+          "Anticoagulation with rivaroxaban",
+          "Nausea, vomiting, abdominal pain, and diarrhea",
+          "Fecal occult blood weakly positive"
+        ],
+        "exclusion_reasons": [
+          "No obvious systemic bleeding manifestations",
+          "No hematemesis",
+          "Abdominal pain and diarrhea are not common manifestations of rivaroxaban"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Gut dysbiosis/secondary intestinal infection",
+        "evidence": [
+          "Use broad-spectrum antibiotics such as levofloxacin",
+          "Diarrhea, abdominal pain, positive fecal occult blood"
+        ],
+        "exclusion_reasons": [
+          "Stool culture result is still pending"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "stress-related gastrointestinal ulcer",
+        "evidence": [
+          "Massive pulmonary embolism is a stress state",
+          "Positive fecal occult blood, abdominal pain"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Abdominal arterial CTA",
+          "basis_in_stage3_input": "The MDT team in Radiology performed an abdominal arterial CTA examination on the patient.",
+          "why_order_this_exam": "In the setting of established extensive pulmonary embolism, bilateral lower-extremity venous thrombosis, pulmonary hypertension, and right-to-left shunt through a patent foramen ovale, the patient developed new intermittent abdominal pain, nausea and vomiting, diarrhea, and positive fecal occult blood during anticoagulation. Subsequent differential diagnosis raised a high suspicion for paradoxical embolism causing mesenteric arterial embolism. Prior abdominal ultrasound, upper abdominal CT, gastrointestinal endoscopy, blood and urine amylase, and an outside contrast-enhanced abdominal CT were all unable to explain the symptoms, while abdominal vascular ultrasound was nondiagnostic because of bowel gas interference; therefore, abdominal arterial CTA is needed to directly assess whether there is acute embolism or truncation of the celiac trunk and mesenteric arteries. The purpose of this examination is to determine as soon as possible whether the abdominal pain is due to vascular ischemia, to assess whether there is superior mesenteric artery occlusion requiring urgent interventional thrombolysis/reperfusion therapy, and to evaluate the intestinal wall and abdominal cavity for associated complications, thereby providing a basis for subsequent treatment selection and risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal CT angiography",
+          "basis_in_stage3_input": "Abdominal vascular CTA can not only visualize the mesenteric vessels and their branches, but also evaluate whether the bowel is ischemic and assess the abdominal cavity, while also allowing differentiation from other abdominal diseases.",
+          "why_order_this_exam": "In this patient, abdominal pain accompanied by nausea, vomiting, diarrhea, and positive fecal occult blood requires not only confirmation of whether mesenteric vascular embolism is present, but also assessment of whether the bowel has already developed ischemic edema, a trend toward necrosis, and intra-abdominal complications. The patient had previously undergone evaluation excluding biliary and pancreatic disease, structural gastrointestinal lesions, and obvious infectious lesions, but the symptoms still could not be explained, and the underlying pathophysiologic basis for the paradoxical embolism was clear. Therefore, abdominal vascular CTA is used not only to evaluate the vessels, but also to simultaneously assess ischemic consequences such as bowel wall thickening, enhancement changes, bowel dilation, and ascites. This examination can also help differentiate other causes of abdominal pain, such as simple gastroenteritis, stress-related gastrointestinal injury, or anticoagulation-related bleeding, thereby answering the clinical questions that directly affect the timing and method of treatment: 'Is this vascular abdominal pain, how severe is the ischemia, and has an abdominal catastrophe already developed?'",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced abdominal CT",
+          "basis_in_stage3_input": "The contrast-enhanced abdominal CT performed outside the hospital did not indicate superior mesenteric artery thrombosis.",
+          "why_order_this_exam": "Contrast-enhanced abdominal CT had important comparative and dynamic disease-course significance in this case. The patient’s initial contrast-enhanced abdominal CT at an outside hospital showed no obvious abnormality, but abdominal pain and other symptoms subsequently persisted and worsened, suggesting that the lesion may have been in an early stage or a progressive stage, or that the routine contrast-enhanced scan at that time failed to capture the vascular lesion. Reviewing and referencing this examination result can help clinicians recognize that routine contrast-enhanced CT alone may miss acute mesenteric arterial embolism, especially when the patient’s symptoms and signs are not fully concordant but the risk of thrombosis is extremely high; vascular ischemia should not be excluded on the basis of a single negative result. This examination result therefore prompted further escalation to a more targeted CTA examination to address why mesenteric ischemia remained highly suspected despite previously negative imaging, and to help determine whether this represented newly developed thrombosis.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CTA of the entire abdomen",
+          "basis_in_stage3_input": "However, whole-abdomen CTA after admission clearly showed truncation of the proximal-to-mid segment of the superior mesenteric artery, suggesting the possibility of a new thrombus; mild wall thickening of portions of the small bowel in the left lower abdomen, considered mild ischemic edematous change, but no obvious ascites or bowel dilatation was seen.",
+          "why_order_this_exam": "In a patient with confirmed pulmonary embolism and the anatomic and hemodynamic basis for paradoxical embolism, whole-abdomen CTA is the key examination for determining the cause of abdominal pain and assessing disease severity. First, it can directly determine whether there is occlusion of the main trunk or branches of the superior mesenteric artery; in this case, it ultimately showed truncation of the proximal-to-mid segment, supporting a new thrombus. Second, it can assess the extent of bowel wall involvement, showing mild thickening of part of the small bowel wall and ischemic edematous changes, suggesting that ischemia had already occurred, but without obvious late necrotic signs such as significant intraperitoneal fluid or bowel dilatation. Third, it helps distinguish this from other intra-abdominal diseases, explaining why the previous routine abdominal examination was negative while the patient still had obvious abdominal symptoms. The results of this examination are directly related to confirming the diagnosis of \"pulmonary embolism with superior mesenteric artery embolism (paradoxical embolism),\" and to deciding on subsequent superior mesenteric artery angiography plus catheter-directed thrombolysis rather than only continuing routine anticoagulation; it plays a decisive role in treatment timing, complication risk assessment, and prognosis determination.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The MDT team in the Department of Radiology performed abdominal arterial CTA on the patient. Director Cui Guangbin of Radiology interpreted the abdominal CTA findings: high-resolution CT angiography (CTA) has replaced DSA as the preferred examination for diagnosing acute mesenteric ischemia, with a sensitivity of 73-100% and a specificity of 90-100%. Abdominal vascular CTA can visualize the mesenteric vessels and their branches, assess whether the bowel is ischemic and evaluate the abdominal cavity, and also differentiate it from other abdominal diseases. Multidetector spiral CT with multiplanar reconstruction can clearly demonstrate an embolus within the superior mesenteric artery and assess the size of the embolus, the degree of embolization, and the extent of embolization. Important diagnostic findings are abrupt cutoff of the superior mesenteric artery or partial intraluminal filling defects. In this patient, an outside-hospital contrast-enhanced abdominal CT did not indicate superior mesenteric artery thrombosis, but whole-abdomen CTA after admission clearly showed abrupt cutoff of the proximal to mid superior mesenteric artery, suggesting possible newly developed thrombosis; mild wall thickening of part of the small bowel in the left lower abdomen was noted, considered mild ischemic edematous change, and no obvious ascites or bowel dilatation was seen.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKQkN7GeVBTnam2JJnofUqiaKDrdxCrm3Zkp8wexPL92O79llJjjtlPetjRk7Wpv8ibrzvJtGCmperg/640?wx_fmt=png",
+          "near_text": "Superior mesenteric artery embolism, thrombolysis catheter indwelling",
+          "local_src": "cleaned_cases_image_cache/f9aa6667156bf0f3eed5419586269005bcc32a91.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLHWRedfw8DhcO7QCBx3hKZW3lDoJiayay9n6Thh05bLhRZ1iaMaRPYPgKORHA7neKgg6YuJNj0Jg7w/640?wx_fmt=png",
+          "near_text": "48 h after thrombolysis",
+          "local_src": "cleaned_cases_image_cache/77db51bc936f1c747f9d994c9f0615eca2dbb999.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary embolism with superior mesenteric artery embolism (paradoxical embolism)",
+      "diagnostic_basis": [
+        "Whole-abdomen CTA clearly shows truncation of the proximal-to-mid segment of the superior mesenteric artery, suggesting possible new thrombosis.",
+        "Pulmonary hypertension causes increased right ventricular and right atrial pressure, leading to opening of a potentially patent foramen ovale. In this way, a right-to-left shunt pathway from the right heart and venous system is present, causing superior mesenteric artery embolism.",
+        "The patient's symptoms manifested as severe abdominal pain, and relevant examinations confirmed the diagnosis of concomitant superior mesenteric artery embolism; the occurrence of hematochezia is consistent with the clinical features of superior mesenteric artery embolism."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Superior mesenteric artery angiography + catheter-directed thrombolysis",
+        "Place the thrombolysis catheter into the main trunk of the mesenteric artery for thrombolysis",
+        "Urokinase 200,000 U was continuously infused via the thrombolysis catheter, one dose every 8 hours, with the planned thrombolysis duration of 48-72 h.",
+        "Low-molecular-weight heparin 7000 IU subcutaneous injection Q12h for anticoagulation",
+        "Subsequently, standard anticoagulation (rivaroxaban 20 mg qd orally)"
+      ],
+      "treatment_response": [
+        "At 48 h, the patient passed a large amount of coffee-colored watery stool, approximately 300 ml, and thrombolytic therapy was therefore suspended.",
+        "Repeat colonoscopy showed a large amount of coffee-colored fluid in the rectum, sigmoid colon, descending colon, and transverse colon; no evidence of ischemic necrosis was seen in the bowel.",
+        "Repeat angiography showed that the middle and lower segments remained occluded, but opacification of the main trunk and distal branches was significantly improved compared with before",
+        "On day 4 after thrombolysis, the patient's abdominal pain was markedly relieved compared with before, with intermittent passage of coffee-ground watery stool; after day 4, hematochezia did not recur.",
+        "On day 8 after thrombolysis, started a liquid diet, with no obvious discomfort, and passed a small amount of formed stool",
+        "Discharged on day 12 after thrombolysis",
+        "Before discontinuation of anticoagulant therapy, repeat chest CTA showed no pulmonary embolism in the bilateral pulmonary arteries. Repeat abdominal CTA showed normal visualization of the superior mesenteric artery. The patient has currently been followed up for nearly 2 years, with no obvious recurrence."
+      ]
+    }
+  }
+}

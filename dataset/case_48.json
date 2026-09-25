@@ -1,0 +1,293 @@
+{
+  "status": "success",
+  "case_id": "case_48",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "At age 3 years, the patient developed recurrent nocturnal labored breathing with wheezing without an obvious precipitating factor, and was subsequently seen at a local hospital and diagnosed with asthma. After treatment with half a tablet of prednisone plus Bricanyl for asthma relief, the nocturnal wheezing symptoms were significantly relieved, and the medication was discontinued at age 6 years. At age 9 years, the patient again developed intermittent paroxysmal cough, expectoration of white foamy sputum, and wheezing, occurring approximately once every 1-3 months; each episode required intravenous medication for relief. The patient believed that asthma attacks were often triggered by improper diet, and therefore avoided spicy foods and seafood. Starting at age 26 years, the patient came to our hospital's asthma clinic and was treated with Symbicort 320 ug Bid combined with Singulair; afterward, the frequency of attacks was significantly reduced compared with before, and each attack could be relieved by inhaled salbutamol. However, over the past 2 years, the patient felt that the attacks had become more frequent than before, and each attack required intravenous corticosteroids for relief. In 2016, the patient was admitted for further treatment with a diagnosis of severe asthma. Past history, family history, and allergy history: the patient reported positive skin prick allergy testing to egg and milk, but currently has no discomfort after eating egg or milk. There is a history of allergy to erdosteine, azithromycin, lincomycin, moxifloxacin, and Suhuang Zhike capsules. The patient's maternal ancestors had a history of asthma. The patient has no smoking history and has been intermittently unemployed at home because of asthma, and denies occupational exposure to toxic or harmful dusts or other special environmental exposures. Physical examination after admission: the patient had mild cushingoid facies and central obesity. Vital signs were stable, the patient was alert, there was no facial rash, no cyanosis of the lips, breath sounds were clear in both lungs, no dry or wet rales were heard, there were no obvious abnormalities on cardiac, abdominal, or neurologic examination, and there was no edema of either lower extremity. Outpatient examinations: pulmonary function testing suggested severe obstructive ventilatory dysfunction. FENO: 28ppb. Chest imaging: an outside-hospital chest CT report indicated no abnormalities in either lung; chest radiograph at our hospital was generally normal. Other ancillary tests: IgE 321.0 IU/mL; house dust mite-specific IgE 27.1KUA/L; dust mite-specific IgE 17.8KUA/L; all other inhalant allergen tests were negative. Absolute peripheral blood eosinophil count: 0.01*10^9/L.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bronchial asthma (severe/refractory asthma)",
+          "supporting_evidence": [
+            "Since age 3 years, recurrent nocturnal coarse breathing accompanied by wheezing; previously diagnosed with asthma at a local hospital. After treatment with prednisone 1/2 tablet + Bricanyl for asthma relief, the nocturnal wheezing symptoms were significantly relieved.",
+            "At age 9, intermittent paroxysmal cough recurred, with white frothy sputum and wheezing, and followed a recurrent course.",
+            "Since age 26, after regular treatment in the asthma clinic, the frequency of attacks decreased; during each attack, inhaled salbutamol relieved symptoms, suggesting bronchodilator responsiveness.",
+            "Over the past 2 years, exacerbations have been more frequent than before, and each exacerbation required intravenous corticosteroids for relief, consistent with severe disease and poor control.",
+            "Pulmonary function testing indicated severe obstructive ventilatory dysfunction",
+            "Maternal family history of asthma supports a genetic predisposition to asthma"
+          ],
+          "opposing_evidence": [
+            "On admission physical examination, breath sounds were clear in both lungs, and no dry or moist rales were heard.",
+            "FeNO: 28 ppb, not very high",
+            "Peripheral blood eosinophil absolute count: 0.01*10^9/L, not supportive of a typical eosinophilic phenotype"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Allergic asthma (related to dust mite sensitization)",
+          "supporting_evidence": [
+            "Elevated IgE 321.0 IU/mL",
+            "House dust mite-specific IgE 27.1 KUA/L; Dermatophagoides pteronyssinus-specific IgE 17.8 KUA/L, indicating definite sensitization to inhalant allergens",
+            "The patient has a history of positive skin prick test for allergens: egg and milk allergy.",
+            "Maternal grandparents have a history of asthma, suggesting an atopic/asthmatic predisposition background",
+            "History of long-term recurrent episodes of wheezing and cough, consistent with common clinical manifestations of allergic asthma"
+          ],
+          "opposing_evidence": [
+            "All other inhalant allergen tests were negative",
+            "Absolute peripheral blood eosinophil count: 0.01*10^9/L",
+            "FENO: 28 ppb, no significant elevation"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Gastroesophageal reflux-related cough / reflux-induced bronchospasm",
+          "supporting_evidence": [
+            "The patient reports that asthma attacks are often triggered by inappropriate diet; spicy foods, seafood, and similar foods are avoided, suggesting food-related triggering factors.",
+            "Recurrent episodic cough and wheezing as the main manifestations, which may be consistent with reflux-related airway hyperresponsiveness",
+            "Chest CT and chest radiograph are grossly normal, suggesting that the symptoms may not be caused by obvious pulmonary parenchymal lesions"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide typical reflux symptoms such as acid regurgitation, heartburn, retrosternal discomfort, or nocturnal reflux.",
+            "The patient has had a clear history of wheezing since childhood, and responded to bronchodilator and corticosteroid therapy, further supporting primary asthma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Vocal cord dysfunction/inducible laryngeal obstruction",
+          "supporting_evidence": [
+            "The patient had recurrent paroxysmal dyspnea-like symptoms, but vital signs were stable on admission, breath sounds were clear in both lungs, and no dry or moist rales were heard, suggesting no obvious pulmonary physical findings during the interictal period.",
+            "Chest imaging is essentially normal, which may be seen in functional upper airway disorders",
+            "Over the past 2 years, the patient has subjectively experienced frequent exacerbations and has required multiple courses of intravenous corticosteroids for relief, suggesting that some symptoms may not be solely caused by lower airway inflammation."
+          ],
+          "opposing_evidence": [
+            "The course of illness began at age 3 with typical nocturnal wheezing, and relief with inhaled salbutamol further supports asthma.",
+            "Pulmonary function testing indicates severe obstructive ventilatory dysfunction, more consistent with lower airway obstruction rather than isolated laryngeal functional abnormality",
+            "In the first stage, no clues such as inspiratory stridor, throat tightness, or voice abnormalities were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Allergic bronchopulmonary aspergillosis (ABPA)",
+          "supporting_evidence": [
+            "The patient has a long-term history of asthma.",
+            "Elevated IgE 321.0 IU/mL",
+            "Recurrent wheezing episodes with suboptimal control may be seen in patients with ABPA and asthma"
+          ],
+          "opposing_evidence": [
+            "The outside hospital chest CT report indicated no abnormalities in either lung; the chest radiograph at our hospital was essentially normal, with no supportive imaging abnormalities.",
+            "Peripheral blood eosinophil absolute count: 0.01*10^9/L, does not support this diagnosis",
+            "In the first phase, no clues such as Aspergillus-related sensitization, recurrent expectoration of brown mucus plugs, or bronchiectasis were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Recurrent bronchospasm caused by food-related allergic reactions",
+          "supporting_evidence": [
+            "The patient reports that asthma attacks are often triggered by dietary indiscretion and avoids spicy foods, seafood, and similar foods.",
+            "History of positive skin prick testing for egg and milk allergy",
+            "Recurrent episodes predominantly characterized by wheezing, possibly consistent with allergy-induced airway symptoms"
+          ],
+          "opposing_evidence": [
+            "The patient currently has no discomfort after consuming eggs and milk, suggesting that the previous food sensitization may not necessarily have current clinical relevance.",
+            "Among the confirmed inhalant allergens, positivity for house dust mite and dust mite is more definite.",
+            "Stage 1 information did not provide evidence of concomitant allergic reactions such as rash, swelling of the lips, tongue, or pharynx, abdominal pain, diarrhea, or anaphylactic shock."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Conduct appropriate evaluation and, when necessary, diagnosis and treatment for potential comorbidities such as gastroesophageal reflux, upper airway disease, and psychiatric disorders",
+          "requirement": "required"
+        },
+        {
+          "exam": "Obtain a detailed medical history and review medication use",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, through detailed history taking and review of medication use, poor inhaler technique, poor adherence, ongoing allergen exposure, comorbid sinusitis, gastroesophageal reflux, and diseases such as obstructive sleep apnea-hypopnea syndrome were again gradually excluded.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKIiaPnrKAWplW7B0vogpwqJDsmAQyp9HKHH3YCMnCIwey4LJomECWichA3PpncYfy7clGM28SXdwqQ/640?wx_fmt=png",
+            "near_text": "Analyze the characteristics of this case:",
+            "local_src": "cleaned_cases_image_cache/f6f81253dc8a014643fa7f892c2893a9fec694c3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Poor inhaler technique, poor adherence, continued allergen exposure, comorbid sinusitis, gastroesophageal reflux, and obstructive sleep apnea-hypopnea syndrome",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Through detailed history taking and review of medication use, causes were again ruled out step by step."
+            ]
+          },
+          {
+            "name": "Refractory asthma",
+            "evidence": [
+              "Still difficult to achieve effective control after treatment with the GINA-recommended Step 4 treatment regimen"
+            ],
+            "exclusion_reasons": [
+              "If refractory asthma shows significant improvement after addressing contributory factors such as inhaler technique and adherence, it should not be classified as severe asthma."
+            ]
+          },
+          {
+            "name": "Severe asthma / early-onset allergic asthma",
+            "evidence": [
+              "Good adherence and correct inhaler technique, remains uncontrolled despite optimized high-dose ICS/LABA therapy, or requires high-dose ICS/LABA to maintain control",
+              "This young female patient with asthma, based on the characteristics of her medical history, meets the definition and features of severe asthma, and her condition was partially relieved after prior regular inhaled medium- to high-dose ICS/LABA therapy. Factors interfering with treatment outcomes, including treatment adherence and correctness of inhaler technique, can be excluded, and unavoidable factors such as environmental allergens can also be excluded."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Poor inhaler technique, poor adherence, continued allergen exposure, comorbid sinusitis, gastroesophageal reflux, and obstructive sleep apnea-hypopnea syndrome",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Through detailed history taking and review of medication use, causes were again ruled out step by step."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Refractory asthma",
+        "evidence": [
+          "Still difficult to achieve effective control after treatment with the GINA-recommended Step 4 treatment regimen"
+        ],
+        "exclusion_reasons": [
+          "If refractory asthma shows significant improvement after addressing contributory factors such as inhaler technique and adherence, it should not be classified as severe asthma."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Severe asthma / early-onset allergic asthma",
+        "evidence": [
+          "Good adherence and correct inhaler technique, remains uncontrolled despite optimized high-dose ICS/LABA therapy, or requires high-dose ICS/LABA to maintain control",
+          "This young female patient with asthma, based on the characteristics of her medical history, meets the definition and features of severe asthma, and her condition was partially relieved after prior regular inhaled medium- to high-dose ICS/LABA therapy. Factors interfering with treatment outcomes, including treatment adherence and correctness of inhaler technique, can be excluded, and unavoidable factors such as environmental allergens can also be excluded."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "After admission, complete blood count: WBC 12.25x10^9/L, Neu% 89.9%",
+          "why_order_this_exam": "The patient has long-standing severe asthma, with recurrent exacerbations over the past 2 years, repeatedly requiring intravenous corticosteroids for relief, and was admitted again this time because of worsening dyspnea. A complete blood count can assess whether infection or an acute inflammatory trigger is present and, in conjunction with the history of extremely low peripheral blood eosinophils and long-term corticosteroid use, determine whether the current inflammatory phenotype is more neutrophilic and the effect of corticosteroids on the blood count. Understanding changes in the white blood cell and neutrophil counts may help explain the cause of this exacerbation, distinguish a simple acute asthma exacerbation from asthma with concomitant infection, and thereby guide whether anti-infective therapy is needed and the direction of subsequent further evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "basis_in_stage3_input": "CRP 11mg/L",
+          "why_order_this_exam": "The patient has a long course of recurrent wheezing and cough, with frequent recent exacerbations, and each episode often requires systemic glucocorticoids or even hospitalization. CRP is used to assess systemic inflammatory activity, helping determine whether this symptom worsening is accompanied by an infectious trigger, and corroborating the CBC, elevated neutrophils, and subsequently increased neutrophils in bronchoalveolar lavage fluid. This test helps distinguish allergic/eosinophilic asthma exacerbation from infection or neutrophil-predominant airway inflammation, thereby influencing the choice of anti-infective and anti-inflammatory treatment strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "basis_in_stage3_input": "Liver and kidney function and electrolytes were all normal",
+          "why_order_this_exam": "The patient had severe disease with recurrent acute exacerbations. Previously and during hospitalization, systemic corticosteroids, nebulized bronchodilators, and anti-infective agents were required. The patient subsequently also underwent evaluation for bronchial thermoplasty and targeted therapy; therefore, routine assessment of baseline organ function was necessary. Liver and renal function tests were used, on the one hand, to assess the patient's current systemic status and whether complications were present, and on the other hand, to evaluate medication safety, dose selection, and whether there were any contraindications to treatment, thereby providing a basis for risk assessment for subsequent anti-infective therapy, corticosteroids, and other interventions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "basis_in_stage3_input": "Liver and kidney function and electrolytes were all normal",
+          "why_order_this_exam": "The patient has recurrent severe asthma. During treatment, β2-agonists, systemic corticosteroids, and nebulized medications may be used frequently, all of which may affect electrolyte balance. Electrolyte testing can assess the overall systemic status during acute exacerbations and treatment-related risks, and is particularly helpful for identifying abnormalities such as hypokalemia, thereby avoiding problems such as arrhythmias and weakness induced by drug therapy, and providing a safety basis for subsequent bronchodilator therapy and inpatient management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "During bronchoscopy, differential cell count of bronchoalveolar lavage fluid showed elevated neutrophils",
+          "why_order_this_exam": "Although the patient has long been treated as having severe asthma, routine chest CT and chest radiography are basically normal, and control remains poor despite standardized medium- to high-dose ICS/LABA therapy, suggesting that the entire clinical picture cannot be explained by typical asthma alone. Bronchoscopy can directly visualize the airway anatomy and intraluminal status to identify causes such as occult structural lesions, congenital bronchial abnormalities, stenosis, atresia, or branching variants, and can also obtain bronchoalveolar lavage fluid to assess local inflammatory characteristics. The clinical purpose of this examination is to explain the discrepancy between severe manifestations and routine imaging findings, exclude important structural causes other than asthma, and provide a key basis for deciding whether to continue treatment escalation solely as asthma or to adjust the diagnostic direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF differential cell count",
+          "basis_in_stage3_input": "During bronchoscopy, differential cell count of bronchoalveolar lavage fluid showed elevated neutrophils",
+          "why_order_this_exam": "The patient previously had an FENO of only 28 ppb and a peripheral blood eosinophil count of 0.01×10^9/L, which is not fully consistent with the severe and recurrently exacerbating clinical presentation; therefore, further clarification of the type of local airway inflammation is needed. Differential cell count of bronchoalveolar lavage fluid can directly reflect the inflammatory cell composition of the lower respiratory tract, determine whether the airway inflammation is neutrophil-dominant, and help explain why the patient has a limited response to conventional asthma treatment targeting eosinophilic inflammation. This result can help distinguish infection-related from noninfectious neutrophilic inflammation, optimize anti-inflammatory and anti-infective regimens, and indicate whether further evaluation for potential structural abnormalities or other etiologies is warranted.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat bronchoscopy",
+          "basis_in_stage3_input": "Repeat bronchoscopy was performed for further evaluation of the related causes, revealing congenital bronchial atresia (right upper lobe).",
+          "why_order_this_exam": "Despite standard treatment, with common comorbidities and adherence issues having been excluded, the patient continued to have recurrent acute exacerbations, and symptoms did not show sustained stable improvement after bronchial thermoplasty, indicating that a potential underlying organic cause needed to be further investigated. The initial bronchoscopy and lavage results had already suggested local abnormal findings, but were still insufficient to fully explain the clinical course; therefore, the purpose of repeat bronchoscopy was to carefully reassess the bronchial orifices, course, and anatomic structure, and to look for a congenital abnormality that might previously have been easily overlooked. This examination ultimately identified congenital bronchial atresia of the right upper lobe, directly resolving the key diagnostic issue that had long been mistaken for simple severe asthma, and played a निर्णसive role in establishing the diagnosis, correcting previous misperceptions, and adjusting the subsequent treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT",
+          "basis_in_stage3_input": "Chest ultra-thin-slice CT was completed and confirmed: congenital bronchial atresia (right upper lobe), with collateral development of a right middle lobe bronchial branch into the right upper lobe",
+          "why_order_this_exam": "After follow-up bronchoscopy revealed suspected congenital bronchial atresia, further imaging is needed to more precisely delineate the location and extent of the lesion and any bronchial branching anomalies. A routine chest CT performed at an outside hospital and prior chest radiographs at our hospital did not show definite abnormalities, indicating that this lesion is relatively occult; therefore, ultra-thin-section chest CT is needed for higher-resolution evaluation of the small airways and anatomic relationships. This examination can confirm right upper lobe bronchial atresia and compensatory collateral development, clarify the origin and course of the abnormal bronchus, provide imaging evidence for the final diagnosis, help differentiate it from simple asthma, bronchiectasis, or other pulmonary diseases, and provide a basis for subsequent assessment of the appropriateness and risks of intervention, bronchial thermoplasty, and long-term treatment planning.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day 0, the patient was readmitted due to worsening dyspnea. After admission, CBC showed: WBC 12.25x10^9/L, Neu% 89.9%; CRP 11 mg/L; liver and kidney function and electrolytes were all normal. During bronchoscopy, differential cell count of bronchoalveolar lavage fluid showed increased neutrophils. Repeat bronchoscopy was performed to further investigate the related causes and revealed congenital bronchial atresia (right upper lobe). Review of the video from the first thermoplasty procedure found that this abnormal anatomy had already been present before the initial treatment, but the structural abnormality was relatively concealed, and the bronchus of the right lower lobe had completely shifted to the position of the upper lobe opening. Further thin-section chest CT confirmed: congenital bronchial atresia (right upper lobe), with collateral development of a branch of the right middle lobe bronchus into the right upper lobe.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKIiaPnrKAWplW7B0vogpwqJcDIQ4YAJAKiaJ03JoNYXhb509xzRicSwnqMqHZJ02XdmiarMjmBG3Tqfw/640?wx_fmt=png",
+          "near_text": "Consideration: What are the possible reasons for failure of bronchial thermoplasty treatment in this patient?",
+          "local_src": "cleaned_cases_image_cache/6c1c77f5dadbd4f667291c9c72f14fb712649340.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKIiaPnrKAWplW7B0vogpwqJZDx9ByeSBIo7KsSfzbFQJRibwyibpV5ZnDpaxdfDz4mqAL9viaKYGZVBQ/640?wx_fmt=jpeg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/759b182b85250c45c8c671ef12963cebde9fcb02.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKIiaPnrKAWplW7B0vogpwqJ5cMTagmOH1gp2WXkJ7ibMQkTrSKrZNuv2rPmm6snOJXMX7ZC7Kf2I4g/640?wx_fmt=jpeg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/941e4c4ac27745635ec5aa37db41ed27056bafb5.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKIiaPnrKAWplW7B0vogpwqJIdgIeyqvjlZJR7nJkxNGu5RicibwWw4pXJLib9IAuBOeShmAovW8Dv9DQ/640?wx_fmt=jpeg",
+          "near_text": "Although the patient meets the indications for omalizumab, they do not have the characteristics of the population most likely to achieve the best therapeutic response.",
+          "local_src": "cleaned_cases_image_cache/da2bb23b9184397deadb38f4abbe647a2b0ac88d.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Congenital bronchial atresia (right upper lobe), severe asthma (early-onset allergic asthma)",
+      "diagnostic_basis": [
+        "Repeat bronchoscopy showed congenital bronchial atresia (right upper lobe), and the bronchus of the right lower lobe had completely shifted to the upper lobe orifice.",
+        "Ultra-thin-section chest CT confirmed: congenital bronchial atresia (right upper lobe), with collateral development of a right middle lobe bronchial branch into the right upper lobe"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Bronchial thermoplasty (3 sessions)",
+        "Rocephin anti-infective therapy, oral methylprednisolone and prednisone, supplemented with nebulized Pulmicort Respules + terbutaline + Atrovent for bronchodilator therapy and symptomatic treatment",
+        "oral roxithromycin therapy",
+        "Add nebulized bronchodilator medication as needed; maintain long-term treatment during the stable phase of asthma; provide symptomatic treatment during the acute phase",
+        "Omalizumab targeted therapy (450 mg subcutaneous injection once monthly)"
+      ],
+      "treatment_response": [
+        "Before the second bronchial thermoplasty, the patient reported significant improvement in his condition, increased exercise tolerance, and no acute asthma exacerbation.",
+        "After the 3rd bronchial thermoplasty, the patient reported that symptoms were slightly worse than before, with recurrent acute exacerbations still occurring, requiring hospitalization for systemic corticosteroid therapy, and frequent precordial pain.",
+        "After treatment with omalizumab, the patient still had recurrent acute exacerbations. Chest pain developed after the exacerbations. The patient improved after receiving systemic corticosteroids and cefaclor or intravenous cefoxitin, but overall the frequency of exacerbations and the dose and frequency of systemic corticosteroid use were slightly improved compared with before omalizumab use."
+      ]
+    }
+  }
+}

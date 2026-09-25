@@ -1,0 +1,552 @@
+{
+  "status": "success",
+  "case_id": "case_78",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient was a 63-year-old male farmer who was admitted to the Emergency Department of the Second Xiangya Hospital of Central South University on Day 0, with a chief complaint of \"recurrent fever for 7 days.\" He reported fever after suspected exposure to cold, with a maximum temperature of 40℃, without cough or sputum production, without chills or rigors, without limb convulsions, and without abdominal pain or diarrhea, but with dizziness, fatigue, and myalgia of the extremities. At the onset of illness, the patient received intravenous infusion treatment at a local clinic (details unknown), but his condition did not improve. He was subsequently transferred to a local hospital, where the preliminary diagnoses were pulmonary infection and acute exacerbation of COPD, and he was treated with antipyretic therapy, anti-infective therapy, acid suppression and gastric protection, fluid replacement, maintenance of water and electrolyte balance, and other symptomatic treatment. After treatment, there was no significant improvement, and he continued to have recurrent fever, with the remaining symptoms unchanged. On Day 0, the patient presented to our hospital's Emergency Department. Since disease onset, the patient had poor精神 and appetite, normal urination and defecation, and no significant change in body weight. Past history: the patient had previously been in good health and had no history of underlying disease. The patient reported being born in the Liling area and having lived locally for a long time. He enjoyed fishing, but denied a history of contact with schistosomiasis-infested water. He also had a smoking history of more than 40 years, smoking about 20 cigarettes per day. He denied alcohol use and denied toxic exposure. Family history was unremarkable. A physical examination was performed immediately after admission: temperature 39.7℃, pulse 92/min, respiratory rate 20/min, blood pressure 111/58 mmHg. He appeared acutely ill, was conscious, in fair general condition, assumed an active position, cooperated with the examination, and answered questions appropriately. The thorax was without deformity, bilateral respiratory movement was symmetric, tactile fremitus was not increased, percussion of both lungs was resonant, breath sounds in both lungs were coarse, and prominent dry and moist rales were heard in both lower lungs. No pleural friction rub was heard. Cardiovascular, abdominal, and neurologic examinations showed no abnormalities. There was no edema of either lower extremity and no clubbing.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia (including bronchopneumonia)",
+          "supporting_evidence": [
+            "Recurrent fever for 7 days, with a maximum temperature of 40℃; temperature on admission was 39.7℃",
+            "Coarse breath sounds in both lungs, with obvious dry and moist rales audible in both lower lungs",
+            "A local hospital had previously made a tentative diagnosis of \"pulmonary infection\"",
+            "Since disease onset, the patient has had poor mental status and appetite, suggesting the possibility of an acute infectious disease."
+          ],
+          "opposing_evidence": [
+            "No cough or sputum production",
+            "Respiratory rate 20 breaths/min, no obvious respiratory distress described",
+            "No obvious signs of consolidation were described on chest examination and percussion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Atypical pathogen pneumonia (such as Legionella pneumonia, Mycoplasma/Chlamydia pneumonia)",
+          "supporting_evidence": [
+            "Marked high fever, with a maximum temperature of 40℃",
+            "Local respiratory tract symptoms are not prominent; no cough or sputum production",
+            "Complains of dizziness, fatigue, and soreness of the extremities, consistent with systemic infectious toxic symptoms.",
+            "Prominent dry and wet rales are audible in both lower lungs, suggesting pulmonary involvement.",
+            "Previously, after anti-infective treatment at an outside hospital, there was no significant improvement in the condition, suggesting possibilities other than common bacterial infection."
+          ],
+          "opposing_evidence": [
+            "In phase 1, no information was provided regarding gastrointestinal symptoms, altered consciousness, or other clues more suggestive of specific atypical pathogens.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Sepsis/bacteremia due to infection of unknown site",
+          "supporting_evidence": [
+            "Persistent recurrent high fever for 7 days; admission temperature 39.7℃",
+            "No significant improvement after IV infusion and anti-infective treatment at an outside hospital",
+            "Systemic symptoms such as fatigue and poor appetite are present",
+            "Blood pressure 111/58 mmHg; although there is no shock, vigilance is required for systemic dissemination of infection."
+          ],
+          "opposing_evidence": [
+            "Alert and oriented, in fair general condition, answers questions appropriately",
+            "Pulse 92 beats/min, respiratory rate 20 breaths/min; in the first stage, there were no definite manifestations of circulatory or respiratory failure",
+            "In the first stage, no definite primary infectious focus was identified; physical examination of other systems was unremarkable except for pulmonary findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Leptospirosis",
+          "supporting_evidence": [
+            "The patient is a male farmer who has long resided locally and has a background of rural environmental exposure.",
+            "High fever accompanied by dizziness, fatigue, and myalgia of the extremities, consistent with manifestations of acute systemic infection",
+            "Dry and wet rales can be heard in the lungs; leptospirosis may have pulmonary involvement."
+          ],
+          "opposing_evidence": [
+            "The patient denies a history of contact with schistosomiasis-contaminated water, but this information does not directly establish the absence of other sewage- or animal-related exposures.",
+            "No description of jaundice, abdominal pain, diarrhea, oliguria, etc.",
+            "No supporting clues such as conjunctival congestion or gastrocnemius tenderness were provided in the first-stage information"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease with lower respiratory tract infection",
+          "supporting_evidence": [
+            "Has a smoking history of more than 40 years, approximately 20 cigarettes per day, which is a high-risk factor for COPD",
+            "Coarse breath sounds in both lungs, with obvious dry and moist rales audible in both lower lungs",
+            "At an outside hospital, a provisional diagnosis of \"acute exacerbation of COPD\" was made."
+          ],
+          "opposing_evidence": [
+            "Past history indicates previously good health, no history of underlying disease, and no previously established diagnosis of COPD",
+            "No cough or sputum production",
+            "No wheezing, chest tightness, or dyspnea described",
+            "Respiratory rate 20 breaths/min; no obvious signs of ventilatory limitation described in the first phase"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary TB or other chronic lung infection",
+          "supporting_evidence": [
+            "Persistent unresolved fever",
+            "Marked dry and wet rales are audible in both lower lungs.",
+            "No significant improvement after anti-infective treatment at an outside hospital"
+          ],
+          "opposing_evidence": [
+            "Acute onset, with a disease course of only 7 days, more suggestive of an acute infection",
+            "No cough or sputum production",
+            "No significant change in body weight",
+            "No clues such as night sweats, hemoptysis, or chronic wasting were provided in the first stage"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "N-terminal pro-brain natriuretic peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac troponin I",
+          "requirement": "optional"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae",
+          "requirement": "required"
+        },
+        {
+          "exam": "Legionella antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "HIV",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TB spot test",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB T-cell test",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum smear",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Weil-Felix test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive parasitic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine and stool cultures",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-ENA",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-cell subsets",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bedside electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Vascular ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "carcinoembryonic antigen",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Nonsmall cell lung cancer-associated antigen",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Neuron-specific enolase",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Portable chest radiograph",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, relevant examinations were completed: Arterial blood gas analysis showed (at admission) PH 7.52, PCO2 22.6mmHg, PO2 61.4mmHg, K+ 3.4mmol/l, NA+ 131mmol/L, CL- 109mmol/l (on room air), overall considered respiratory alkalosis; complete blood count: white blood cell count 8.00×10^9/L, hemoglobin 129g/l, platelet count 73×10^9/L, neutrophil percentage 87.90%; coagulation function: fibrin degradation products 39.16ug/mL↑, international normalized ratio 1.23↑, prothrombin time activity 65.20%, antithrombin III activity 68.70%, D-dimer 12.00mg/L FEU; liver function: ALT 50.1u/l, AST 55.8u/l, total protein 50.0g/l, albumin 27.8g/l; renal function: urea 2.75mmol/l, uric acid 114.1umol/l, lactate dehydrogenase 449.6u/l; electrolytes: sodium 135.8mmol/l, calcium 1.88mmol/l, phosphorus 0.53mmol/l↓, lactate 2.35mmol/l; NT-proBNP: 1548.81pg/ml↑; troponin I: 0.03ng/ml. Infection-related markers: ESR 13mm/h, procalcitonin 1.24ng/ml; CRP 90.80mg/l; G test (-), GM test (-); Mycoplasma pneumoniae (-), Legionella antibody (-), HIV+TP (-); TB spot test (-), TB T-cell test (-); sputum Gram stain showed gram-positive cocci and gram-negative diplococci; sputum smear: no fungus seen on microscopy, red blood cells 4+/HP, white blood cells 2-8/HP; hepatitis panel (-); Weil-Felix test: negative; viral panel: herpes simplex virus type I antibody (HSV) IgG positive; parasite panel: negative; multiple blood cultures were all negative; sputum culture: negative; urine and stool cultures: negative; immune-related markers: ANA (-), anti-ENA (-), ANCA (-); T-cell subsets: T lymphocytes (CD3+) 67%, Ts lymphocytes (CD8+) 41%, Th lymphocytes (CD4+) 25%↓, Th cells (CD4+)/Ts cells (CD8+) 0.60↓; bedside ECG & color Doppler ultrasound: ECG showed atrial fibrillation with rapid ventricular rate. Echocardiography: mild mitral and tricuspid regurgitation, left ventricular systolic function measurement within the normal range. Pleural ultrasound: bilateral pleural effusions. Vascular ultrasound: atherosclerosis of the arteries of both lower extremities. Other examinations: carcinoembryonic antigen (-), non-small cell lung cancer-associated antigen (-), neuron-specific enolase (-). Chest imaging examinations: the first bedside chest radiograph showed bilateral pulmonary infiltrates, infection considered, and small bilateral pleural effusions; the second follow-up bedside chest radiograph showed increased bilateral pulmonary infiltrative lesions compared with before; the third repeat follow-up bedside chest radiograph showed progression of bilateral pulmonary infiltrates, with bilateral pleural effusions increased compared with before. Lung CT on Day +8 showed diffuse bilateral interstitial lung disease with infection and moderate bilateral pleural effusions. Pulmonary artery CTA showed no obvious abnormality.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEBBYjdX7NXnFthgxRRLZ06p5d5hqJXSnhabRFYkzRqIvwBrXKziaFxtg/640?wx_fmt=jpeg",
+            "near_text": "Figures 1-3: From left to right, bedside chest radiographs dated Day 0, Day +2, and Day +7, respectively",
+            "local_src": "cleaned_cases_image_cache/b1858699172c59e6d7965a945381ccc6c465c047.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEWpr6UyFYfdkvySrmQDTHiaetq17b0VpZXnuKZlSDLMs81I1JGfnMGGA/640?wx_fmt=jpeg",
+            "near_text": "Figures 1-3: From left to right, bedside chest radiographs dated Day 0, Day +2, and Day +7, respectively",
+            "local_src": "cleaned_cases_image_cache/ce759d276b31a069716fbe54633f23a359a1128e.jpg"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEH5tTOSP8ic8tOmJUlFGQ1awIdXtg3FFxvKjR7YDG3WnjXxP9nx9vkSg/640?wx_fmt=jpeg",
+            "near_text": "Figures 1-3: From left to right, bedside chest radiographs dated Day 0, Day +2, and Day +7, respectively",
+            "local_src": "cleaned_cases_image_cache/d5d60cb74fa65c890e1754e802a5937f9807571c.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEINlsTKG1DSAcG0dZB8lbBdlABZichibm26hvL71FbePWEDeKY4EX27Aw/640?wx_fmt=png",
+            "near_text": "Figure 4: Lung HRCT on Day +8 ↑",
+            "local_src": "cleaned_cases_image_cache/1c77afd966f50f33b6e56f930d9a368d04aaf152.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEpBbPQ8JAOtnEq0YHBNbaDiaWq7UM6SBh9m3cBxcNUcllfyXbjt1WHcg/640?wx_fmt=png",
+            "near_text": "Figure 4: Lung HRCT on Day +8 ↑",
+            "local_src": "cleaned_cases_image_cache/cf24bcea1b4a3f23a85d877ad1c7e3b10e1b9967.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEybpocVomEia4icbbcKsibEWdV3D22CVoUJTTIttkdt3SaWhpT8iczePN4Q/640?wx_fmt=png",
+            "near_text": "Figure 5: Clinical analysis flowchart",
+            "local_src": "cleaned_cases_image_cache/6941eb068815c894b4299d0462ea67190a7b81e4.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "disseminated pulmonary tuberculosis",
+            "evidence": [
+              "Clinically, it may present with fever",
+              "Chest CT may show diffuse lesions"
+            ],
+            "exclusion_reasons": [
+              "The patient has no symptoms related to TB toxemia.",
+              "Laboratory TB-related tests were negative",
+              "Pulmonary CT does not show the miliary nodular changes commonly seen in disseminated pulmonary tuberculosis."
+            ]
+          },
+          {
+            "name": "Invasive pulmonary fungal disease",
+            "evidence": [
+              "Clinically, it may present with fever",
+              "Chest CT may show multiple diffuse lesions in both lungs",
+              "Poor response to antibiotic therapy"
+            ],
+            "exclusion_reasons": [
+              "The patient had no prior underlying disease and no obvious host factors.",
+              "Chest CT did not show typical signs of fungal infection such as the halo sign seen with Aspergillus.",
+              "Laboratory tests: fungus-related tests were negative"
+            ]
+          },
+          {
+            "name": "Pneumocystis pneumonia",
+            "evidence": [
+              "Clinically, it may present with fever and shortness of breath",
+              "Chest CT may show diffuse bilateral lung lesions"
+            ],
+            "exclusion_reasons": [
+              "The patient has no underlying disease.",
+              "Laboratory tests showed no immunodeficiency; G test was negative",
+              "No related positive etiologic findings"
+            ]
+          },
+          {
+            "name": "Pulmonary alveolar proteinosis",
+            "evidence": [
+              "Clinically, it may present with fever and shortness of breath",
+              "Chest CT may show diffuse bilateral pulmonary lesions"
+            ],
+            "exclusion_reasons": [
+              "The patient had an acute onset, a short disease course, and rapidly worsening dyspnea.",
+              "Chest CT did not show the typical signs of a \"crazy-paving\" pattern"
+            ]
+          },
+          {
+            "name": "Rheumatologic immune-related disease",
+            "evidence": [
+              "Clinically, it may present with fever and shortness of breath",
+              "Chest CT may show diffuse bilateral lung lesions"
+            ],
+            "exclusion_reasons": [
+              "The patient previously had no rheumatologic or immune-related symptoms such as joint swelling and pain.",
+              "Laboratory tests showed all autoimmune antibodies were negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "disseminated pulmonary tuberculosis",
+        "evidence": [
+          "Clinically, it may present with fever",
+          "Chest CT may show diffuse lesions"
+        ],
+        "exclusion_reasons": [
+          "The patient has no symptoms related to TB toxemia.",
+          "Laboratory TB-related tests were negative",
+          "Pulmonary CT does not show the miliary nodular changes commonly seen in disseminated pulmonary tuberculosis."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Invasive pulmonary fungal disease",
+        "evidence": [
+          "Clinically, it may present with fever",
+          "Chest CT may show multiple diffuse lesions in both lungs",
+          "Poor response to antibiotic therapy"
+        ],
+        "exclusion_reasons": [
+          "The patient had no prior underlying disease and no obvious host factors.",
+          "Chest CT did not show typical signs of fungal infection such as the halo sign seen with Aspergillus.",
+          "Laboratory tests: fungus-related tests were negative"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pneumocystis pneumonia",
+        "evidence": [
+          "Clinically, it may present with fever and shortness of breath",
+          "Chest CT may show diffuse bilateral lung lesions"
+        ],
+        "exclusion_reasons": [
+          "The patient has no underlying disease.",
+          "Laboratory tests showed no immunodeficiency; G test was negative",
+          "No related positive etiologic findings"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary alveolar proteinosis",
+        "evidence": [
+          "Clinically, it may present with fever and shortness of breath",
+          "Chest CT may show diffuse bilateral pulmonary lesions"
+        ],
+        "exclusion_reasons": [
+          "The patient had an acute onset, a short disease course, and rapidly worsening dyspnea.",
+          "Chest CT did not show the typical signs of a \"crazy-paving\" pattern"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Rheumatologic immune-related disease",
+        "evidence": [
+          "Clinically, it may present with fever and shortness of breath",
+          "Chest CT may show diffuse bilateral lung lesions"
+        ],
+        "exclusion_reasons": [
+          "The patient previously had no rheumatologic or immune-related symptoms such as joint swelling and pain.",
+          "Laboratory tests showed all autoimmune antibodies were negative"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Perform a careful physical examination",
+          "basis_in_stage3_input": "A careful physical examination was immediately performed, which revealed a typical eschar-like skin lesion on the patient's left lower leg.",
+          "why_order_this_exam": "The patient had an onset with persistent high fever for 7 days, with a maximum temperature of 40℃. Treatment for pulmonary infection at an outside hospital was ineffective. After admission, the patient developed progressive diffuse bilateral pulmonary infiltrates, hypoxemia, thrombocytopenia, coagulation abnormalities, and manifestations of sepsis, suggesting that simple common community-acquired pneumonia could not fully explain the condition and that the primary clue needed to be re-investigated. The patient is a farmer, has lived in a rural area for a long time, and had a history of outdoor fishing exposure before disease onset, indicating a risk of vector-borne and natural focal infectious diseases. The purpose of a careful full-body physical examination was to look for signs such as an eschar, ulcer, rash, and lymphadenopathy, which are key clues for scrub typhus and other rickettsial infections, thereby addressing the core question of what the etiology is of high fever with severe pulmonary involvement. Identification of a typical eschar can significantly increase the probability of diagnosing scrub typhus, help narrow the differential diagnosis from a broad range of infectious and noninfectious diffuse lung diseases, and guide subsequent selection of skin lesion sampling and early initiation of targeted anti-rickettsial therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Skin lesion pathology",
+          "basis_in_stage3_input": "Pathology of the skin lesion at this site showed a superficial ulcer covered by a large amount of necrotic tissue, with perivascular infiltration of plasma cells and lymphocytes in the dermis.",
+          "why_order_this_exam": "After careful physical examination revealed an eschar-like skin lesion on the left lower leg, it was necessary to further determine whether the lesion was related to systemic infection rather than simple trauma, secondary infection after an insect bite, or other skin lesions. During the course of illness, the patient had persistent high fever, rapid progression of pulmonary imaging findings to diffuse bilateral lung disease with ARDS-like manifestations, while routine blood cultures and sputum cultures were repeatedly negative or could not explain the full clinical picture, indicating that this key clue of the eschar had to be pursued. Skin lesion pathology can demonstrate changes such as necrosis, ulceration, and perivascular inflammatory cell infiltration, addressing whether the lesion is consistent with pathology related to scrub typhus and providing histologic support for linking the severe pulmonary manifestations to vector-borne rickettsial infection. This examination helps increase diagnostic credibility, exclude other skin infections or vasculitic lesions, and provide a basis for subsequently shifting the treatment focus to targeted regimens such as doxycycline.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "High-throughput pathogen gene testing (peripheral blood specimen)",
+          "basis_in_stage3_input": "Send-out high-throughput pathogen gene testing of the peripheral blood specimen indicated detection of DNA sequences of Acinetobacter baumannii and Orientia tsutsugamushi.",
+          "why_order_this_exam": "The patient had persistent high fever and rapidly worsening illness, with type I respiratory failure, progressively worsening diffuse bilateral pulmonary exudative opacities, pleural effusion, thrombocytopenia, coagulation dysfunction, and manifestations of sepsis. However, multiple routine etiologic tests in the early stage, including blood culture, sputum culture, urine and stool cultures, Mycoplasma, Legionella, fungi, and TB-related testing, failed to identify the true pathogen, and empiric anti-infective treatment at the outside hospital and after admission was ineffective. At this point, a broader-coverage testing method that is more sensitive for difficult-to-culture and unusual pathogens was needed to address the key question of whether there was a special pathogen or mixed infection that was difficult to detect by conventional methods. Peripheral blood mNGS can directly detect pathogen DNA in the bloodstream in the setting of severe systemic infection, and is particularly suitable for pathogens that are difficult to culture by conventional methods, such as Orientia tsutsugamushi; it can also identify clues to nosocomial or secondary bacterial infection. This test has direct value for confirming scrub typhus, identifying whether Acinetobacter baumannii coinfection is present, explaining the cause of ARDS and sepsis, and determining whether to add doxycycline and how to combine the antibacterial regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "basis_in_stage3_input": "Both sputum cultures grew pandrug-resistant Acinetobacter baumannii.",
+          "why_order_this_exam": "After admission, chest radiography and CT showed persistent progression of bilateral pulmonary infiltrates, ultimately progressing to severe pneumonia and respiratory failure, and it was necessary to determine whether a bacterial pathogen was present in the lower respiratory tract and its antimicrobial resistance. Although the underlying etiology was later confirmed to be scrub typhus, the severe pulmonary involvement during the course of illness, multiple rounds of anti-infective therapy, and subsequent mechanical ventilation all suggested a high risk of secondary or concomitant bacterial infection. The purpose of sputum culture was to determine whether the pulmonary lesions were complicated by a treatable bacterial infection and, if so, the antimicrobial susceptibility profile. Both cultures yielded pandrug-resistant Acinetobacter baumannii, indicating that hospital-acquired/opportunistic lower respiratory tract infection or colonization should at least be highly suspected, with important implications for antimicrobial selection, infection control, and prognosis assessment. This test can also help distinguish lung injury caused by scrub typhus alone from a component of concurrent severe bacterial pneumonia, thereby optimizing combination anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Midstream urine culture",
+          "basis_in_stage3_input": "Midstream urine culture, stool culture, BALF GM test, and acid-fast stain were negative.",
+          "why_order_this_exam": "The patient was admitted with high fever of unknown origin, manifestations of sepsis, and multiorgan involvement. Although the pulmonary imaging abnormalities were prominent, an extrapulmonary infectious focus such as the urinary tract could not be excluded as the source of fever early in the course. Treatment at the outside hospital was ineffective, and routine examinations after admission did not rapidly clarify the cause; therefore, systematic screening for possible sites of infection was required. Midstream urine culture was used to address whether a urinary tract infection or a urinary source related to bacteremia was present, and it has fundamental screening value, especially in the differential diagnosis of severe infection. A negative result helps exclude urinary tract infection as the primary source of persistent high fever and sepsis, narrows the etiologic range, allows the clinical focus to shift more toward vector-borne infection and the pulmonary lesion itself, and also avoids misdirection of antimicrobial therapy due to misidentification of the infectious focus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool culture",
+          "basis_in_stage3_input": "Midstream urine culture, stool culture, BALF GM test, and acid-fast stain were negative.",
+          "why_order_this_exam": "Although the patient had no obvious gastrointestinal symptoms such as abdominal pain or diarrhea at disease onset, the presentation was characterized by persistent high fever, marked systemic toxic symptoms, a long-unclear etiology, and lack of response to routine empiric therapy; therefore, the possibility of intestinal infection still needed to be systematically evaluated during the workup for severe infection. The purpose of stool culture was to determine whether there was an intestinal bacterial infection or another gastrointestinal infectious focus contributing to the systemic inflammatory response, especially when the patient's condition progressed to sepsis, at which point common sources of infection needed to be excluded as thoroughly as possible. A negative culture helps argue against an enteric source of infection when there is insufficient evidence for biliary/intestinal tract-related infection, reduces unnecessary differential diagnostic considerations, and further supports that the persistent fever was not caused by an intestinal pathogen, and that etiologies such as scrub typhus and secondary pulmonary infection should be considered more strongly.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "basis_in_stage3_input": "Midstream urine culture, stool culture, BALF GM test, and acid-fast stain were negative.",
+          "why_order_this_exam": "The patient had progressive diffuse bilateral lung lesions, hypoxemia, rapid radiographic deterioration, and poor response to anti-infective treatment. In the early differential diagnosis, invasive pulmonary fungal disease and Pneumocystis pneumonia were specifically considered. Although the patient had no obvious underlying immunosuppressive disease, the T-cell subset analysis showed a decreased CD4 proportion, and the severe pulmonary infection progressed rapidly; therefore, it was necessary to directly evaluate fungus-related evidence in lower respiratory tract specimens. The BALF GM test was used to address whether the diffuse pulmonary lesions were caused by fungal infection such as invasive aspergillosis, and compared with serum testing, it is closer to the lesion site. A negative result, together with a negative G test and the absence of typical fungal signs on imaging, can lower the weight of invasive pulmonary fungal disease in the differential diagnosis, help exclude an important cause with a completely different treatment pathway, reduce unnecessary antifungal treatment, and prompt the clinical team to continue searching for other etiologies such as scrub typhus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Midstream urine culture, stool culture, BALF GM test, and acid-fast stain were negative.",
+          "why_order_this_exam": "The patient had persistent high fever, and chest CT showed diffuse bilateral interstitial lung disease and infection with poor response to conventional treatment; therefore, pulmonary TB or other mycobacterial infection had to be included early in the differential diagnosis, especially in the setting of diffuse pulmonary lesions and recurrent fever. Although the course was relatively acute, there were no typical constitutional symptoms of TB, and both the TB spot test and T-cell test were negative, these were still insufficient to completely replace direct etiologic evaluation. The purpose of acid-fast staining was to address whether there was evidence of mycobacterial infection in the lower respiratory tract; it is one of the rapid, direct exclusionary tests. A negative result, together with imaging findings not consistent with typical miliary TB, helps reduce the likelihood of diagnoses such as disseminated pulmonary TB, avoid an erroneous anti-TB treatment pathway, and shift the diagnostic focus to scrub typhus-related ARDS and concomitant bacterial infection.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeated questioning of the patient's family regarding the medical history revealed that the patient usually especially enjoyed wild fishing and had a recent history of going out for wild fishing shortly before this onset. A careful physical examination was immediately performed and revealed a typical eschar-like rash on the patient's left lower leg. Pathologic examination of the skin lesion from this site showed a superficial ulcer covered with a large amount of necrotic tissue, with perivascular infiltration of plasma cells and lymphocytes in the dermis. Send-out high-throughput pathogen gene testing (peripheral blood specimen) suggested the presence of DNA sequences of Acinetobacter baumannii + Orientia tsutsugamushi. Two sputum cultures both grew pandrug-resistant Acinetobacter baumannii. Midstream urine culture, stool culture, BALF GM test, and acid-fast stain were negative.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEzhg12SMtDhn5lC3ppyOFSqgSIpO0sM6MnuBCa34NlDX82tYXAJRDibw/640?wx_fmt=png",
+          "near_text": "Figure 6A: eschar on the medial aspect of the left lower leg",
+          "local_src": "cleaned_cases_image_cache/43f89175400980ba6c5278402c10a955d937820b.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEmJC796B55qe8OTL5Y4Gia9etGOoB8L80hyqS3uwnpZYo5jGttqUorow/640?wx_fmt=jpeg",
+          "near_text": "Figure 6B: histopathology of the skin lesion",
+          "local_src": "cleaned_cases_image_cache/8930b8f2e30a00daadfd8189dd1099b73745a299.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEsxFiceIy2iaR3WVOaef8su5VwvPGYrJvpf3NiaHkg2vj08QqKmicdJ4mCQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 7A (left): Acinetobacter baumannii identified in peripheral blood; Figure 7B (right): Orientia tsutsugamushi identified in peripheral blood",
+          "local_src": "cleaned_cases_image_cache/8d9cffd552ac503608e29f5206059fe82a254d2c.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI1Vcnhyby9rKORNHIomvFEbBRsfMyLYST4uicibT8kILVjQJ8XemnPiamSEEXuYicrPv15AFqaXUp4cw/640?wx_fmt=jpeg",
+          "near_text": "Figure 7A (left): Acinetobacter baumannii identified in peripheral blood; Figure 7B (right): Orientia tsutsugamushi identified in peripheral blood",
+          "local_src": "cleaned_cases_image_cache/8f8705da88416c2551680c2926d209083bb2ccfa.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Scrub typhus complicated by ARDS and sepsis, severe pneumonia, type I respiratory failure",
+      "diagnostic_basis": [
+        "The patient enjoys outdoor fishing; although unable to recall accurately, there is a high likelihood of a history of mosquito or insect bites.",
+        "Later, a suspected typical eschar-like skin lesion of scrub typhus was found below the popliteal fossa, which is a typical skin lesion of scrub typhus.",
+        "Peripheral blood tested positive for Orientia tsutsugamushi DNA sequence"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Add doxycycline (0.1 g po Bid) + tigecycline (50 mg ivgtt Q12h) + linezolid (600 mg ivgt Q12h) to intensify anti-infective therapy",
+        "Oral endotracheal intubation for invasive mechanical ventilation",
+        "Prone position ventilation therapy for multiple days"
+      ],
+      "treatment_response": [
+        "The patient still has persistent high fever",
+        "Dyspnea markedly worsened, the oxygenation index continued to decline, and oxygen saturation remained difficult to maintain after use of noninvasive ventilation.",
+        "Hypoxemia remains uncorrectable, SpO2: 65%",
+        "The family stated that they understood and requested withdrawal of treatment and discharge; after discharge home, the patient died."
+      ]
+    }
+  }
+}

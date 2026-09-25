@@ -1,0 +1,373 @@
+{
+  "status": "success",
+  "case_id": "case_88",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 40-year-old man from Hunan who has lived in a mountainous area for many years and works as a forest ranger. His home is damp and moldy. Chief complaint: \"cough for 5 years, dyspnea for 2 months, sputum production for 10 days.\" In 2009, after catching a cold, the patient developed \"paroxysmal cough,\" mainly dry cough, worse on waking in the morning and during eating, lasting about 1 minute each time, 4-5 times daily, without dyspnea, chest pain, sputum production, hemoptysis, fatigue, or other symptoms. He was diagnosed with pulmonary TB at a local hospital and received regular 4-drug anti-TB therapy plus hepatoprotective treatment for 7 months. Because symptoms did not improve, he was hospitalized at the local hospital for 15 days and given anti-TB treatment, but symptoms did not improve significantly. In approximately 37 months before Day 0, he began anti-TB treatment with traditional Chinese medicine for 4 months, and repeat CT in approximately 29 months before Day 0 showed improvement of the chest lesions compared with before: the original patchy and confluent increased-density opacities in both upper lungs were basically absorbed, and scattered small nodular increased-density opacities were seen in both upper lungs. In approximately 11 months before Day 0, he presented to our hospital, and based on chest CT findings and the clinical picture, pulmonary alveolar proteinosis was considered as the diagnosis; no further treatment was given because of patient-related factors. Beginning in approximately 2 months before Day 0, the patient developed exertional shortness of breath without an obvious precipitating cause; he felt labored breathing during both inspiration and expiration, with increased respiratory rate and decreased depth, accompanied by chest pain, fatigue, and night sweats. In early period, around Day 0, he developed sputum production, consisting of white sticky sputum, occurring mostly at night. The duration and frequency of cough both increased. Chest CT showed increased density and extent of the bilateral upper lung lesions compared with before, an increased number of multiple nodular increased-density opacities in both lungs, and multiple enlarged mediastinal lymph nodes. The patient was admitted to our department on Day 0. Since disease onset, the patient's mental status and appetite have been fair, sleep has been fair, urine output has been low, bowel movements have been normal, and body weight has decreased by about 5 kg over 2 months. The patient denies a history of \"hypertension,\" \"coronary heart disease,\" or \"diabetes mellitus.\" He was diagnosed with pulmonary TB in 2009, denies a history of or exposure to infectious diseases such as \"hepatitis B\" and \"typhoid fever,\" denies a history of trauma, surgery, or blood transfusion, denies drug and food allergies, and his immunization history is unknown. He smokes a small amount and does not drink alcohol. No history of commercial sex exposure. Physical examination: T: 37.5℃, P: 80/min, R: 21/min, BP: 120/70 mmHg; several lymph nodes were palpable in the left supraclavicular region, the largest measuring 0.6 cm × 0.6 cm, soft, and mobile; bilateral tactile fremitus was symmetrically increased, chest expansion was symmetric, no pleural friction fremitus was present, percussion was dull over both lungs, breath sounds were diminished in both lungs, and fine moist inspiratory crackles were heard in the right lower lung.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcXb24jg7kVBy7V0fDH7DqvvVwTlwLFqju18r9VD4Zxu3Ra4y0cZEWDQ/640?wx_fmt=png",
+          "near_text": "Figure 1: CT scans before admission (including approximately 66 months before Day 0, approximately 40 months before Day 0, approximately 29 months before Day 0, approximately 11 months before Day 0, and around Day 0)",
+          "local_src": "cleaned_cases_image_cache/664cb7b50988ddd051c7de8d3067dde654171faa.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary alveolar proteinosis",
+          "supporting_evidence": [
+            "The text in the first stage explicitly states: \"In approximately 11 months before Day 0, the patient presented to our hospital; based on the chest CT findings and clinical assessment, the diagnosis under consideration was pulmonary alveolar proteinosis.\"",
+            "The disease course has been protracted for 5 years, characterized mainly by cough, with gradually progressive exertional dyspnea developing later, consistent with the chronic course of diffuse alveolar filling disease.",
+            "The accompanying images show multiple ground-glass/patchy areas of increased opacity in both lungs, some with a diffuse distribution, imaging findings consistent with a disease characterized by intra-alveolar material deposition.",
+            "Physical examination showed dullness to percussion over both lungs, decreased breath sounds, and fine inspiratory crackles in the right lower lung, supporting pulmonary consolidation or an intra-alveolar filling lesion."
+          ],
+          "opposing_evidence": [
+            "Chest CT in around Day 0 showed \"an increased number of multiple nodular hyperdense opacities in both lungs compared with previously, and multiple enlarged mediastinal lymph nodes\"; the increase in nodules and marked lymphadenopathy are not the most typical manifestations of pulmonary alveolar proteinosis.",
+            "The patient has chest pain, night sweats, and weight loss of approximately 5 kg, suggesting that infectious or granulomatous disease must also be strongly considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Chronic hypersensitivity pneumonitis (extrinsic allergic alveolitis)",
+          "supporting_evidence": [
+            "The patient lives year-round in a mountainous area and works as a forest ranger; the home is damp and moldy, with a background of ongoing inhalational exposure to organic dust/mold antigens.",
+            "Symptoms include chronic cough, with worsening exertional dyspnea in the later stage, consistent with the clinical presentation spectrum of chronic hypersensitivity pneumonitis.",
+            "The attached images show multiple scattered nodular and ground-glass/patchy opacities in both lungs, and the imaging findings fluctuate over time, consistent with possible inhalation-related interstitial/bronchioloalveolar inflammatory lesions.",
+            "On physical examination, fine inspiratory crackles can be heard in the right lower lung, which may be seen in interstitial or alveolar inflammatory lesions."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no clear pattern of acute exacerbations after exposure was described, such as symptom fluctuations within hours after each exposure.",
+            "Multiple enlarged mediastinal lymph nodes, palpable left supraclavicular lymph nodes, night sweats, and weight loss are not specific manifestations of chronic hypersensitivity pneumonitis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "In 2009, the patient was diagnosed with pulmonary TB at a local hospital.",
+            "Long-standing chronic cough, with dyspnea, chest pain, fatigue, and night sweats over the past 2 months, and weight loss of approximately 5 kg; features consistent with tuberculous toxemia.",
+            "Chest CT in around Day 0 showed increased extent of increased-density lesions in both upper lungs compared with previously, an increased number of multiple nodular increased-density opacities in both lungs compared with previously, and enlargement of multiple mediastinal lymph nodes; the imaging distribution and accompanying lymphadenopathy can be seen in active TB.",
+            "On physical examination, a left supraclavicular lymph node is palpable; tuberculous lymphadenopathy should be considered."
+          ],
+          "opposing_evidence": [
+            "After previously receiving a prolonged course of anti-TB treatment, the symptoms showed no significant improvement.",
+            "Follow-up CT in approximately 29 months before Day 0 showed that the original patchy and confluent increased-density opacities in both upper lungs had basically been absorbed, but there is currently recurrent progression, suggesting that in addition to TB, other diseases that may have a fluctuating progressive course should also be considered.",
+            "In the first stage, no additional supporting information was provided, such as hemoptysis, definite fever, or a history of TB exposure."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Chronic pulmonary fungal infection (such as aspergillosis or other environmentally associated fungal lung diseases)",
+          "supporting_evidence": [
+            "The patient lives in a damp, moldy house and has long worked in forest protection in mountainous areas, with a background of fungal spore exposure.",
+            "The chronic, protracted course, with recent onset of productive cough, shortness of breath, chest pain, fatigue, night sweats, and weight loss, may be seen in chronic pulmonary fungal infection.",
+            "Chest CT in around Day 0 showed an increased number of multiple nodular hyperdense opacities in both lungs, accompanied by enlargement of multiple mediastinal lymph nodes. The accompanying images showed multiple patchy and nodular opacities in both lungs; infectious lesions should be considered."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no obvious predisposing factors such as immunosuppression, long-term corticosteroid use, or diabetes mellitus were present.",
+            "In the first stage, typical imaging signs more suggestive of specific fungal infections, such as cavitation, fungus ball, and subpleural wedge-shaped infarct-like lesions, were not described."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Sarcoidosis",
+          "supporting_evidence": [
+            "The patient is a young to middle-aged man with a long disease course.",
+            "Chest CT in around Day 0 showed multiple enlarged mediastinal lymph nodes; on physical examination, several lymph nodes were palpable in the left supraclavicular area, suggesting intrathoracic and extrathoracic lymph node involvement.",
+            "The attached images and text suggest multiple nodular increased-density opacities in both lungs, which may be seen as pulmonary nodules/interstitial involvement in sarcoidosis."
+          ],
+          "opposing_evidence": [
+            "Imaging over a long period has been characterized predominantly by patchy and confluent areas of increased opacity in the upper lungs, along with diffuse ground-glass/alveolar filling-like changes, which are not the most typical manifestations of sarcoidosis.",
+            "Cough with sputum, night sweats, and weight loss are more suggestive of infectious disease or other inflammatory diseases.",
+            "No sarcoidosis-related clues such as skin, eye, parotid gland, or hypercalcemia were provided in the first stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary adenocarcinoma (represented by multifocal pneumonic-type / mucinous lung adenocarcinoma) or other neoplastic pulmonary lesions",
+          "supporting_evidence": [
+            "The patient has had a weight loss of approximately 5 kg over the past 2 months, along with chest pain and fatigue, suggesting that neoplastic disease should be included in the differential diagnosis.",
+            "Chest CT in around Day 0 showed an increased number of multiple nodular high-density opacities in both lungs compared with previously, accompanied by multiple enlarged mediastinal lymph nodes; neoplastic lesions can have similar manifestations.",
+            "During the course of the disease, the duration and frequency of cough increased; later, white mucoid sputum appeared. Some lung adenocarcinomas may present with cough, excessive sputum, and multifocal infiltrative opacities."
+          ],
+          "opposing_evidence": [
+            "The patient has only a small smoking history and is 40 years old, which is relatively not the most typical high-risk population.",
+            "The disease course has lasted 5 years, and prior imaging showed marked improvement, which is less consistent with the natural course of most untreated pulmonary malignancies.",
+            "The attached images show lesions widely distributed in both lungs with some fluctuation, further suggesting inflammatory/depositional/immune-mediated disease."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete immunologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "systemic lupus erythematosus panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum acid-fast bacilli test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion four-item panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "hepatitis panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HIV test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "T-SPOT test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cervical lymph node biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "transbronchial lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture of lung tissue",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology review (PAS stain, diastase-digested PAS stain, acid-fast stain)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory test results were as follows: CBC showed WBC: 9.9*10^9/L; liver function, renal function, and myocardial enzymes showed albumin: 30.7 g/L; G test: 196.02 pg/mL, GM test: 45.10 ng/mL; immune panel showed IgG: 31.8 g/L; rheumatologic panel showed rheumatoid factor: 109 IU/mL; ESR: 61 mm/h; lupus panel, ANA profile, sputum acid-fast bacilli smear, pre-transfusion four-item panel, hepatitis panel, HIV, and T-SPOT were all negative. Cervical lymph node biopsy, transbronchial lung biopsy, and CT-guided percutaneous lung biopsy were completed, and pathology from all three indicated granulomatous inflammation; repeat CT on Day +11 suggested progression of bilateral lung lesions; pathology review showed PAS (+), diastase-digested PAS (+), acid-fast (-); right lower lung puncture tissue showed granulomatous inflammation, with no caseous necrosis seen; pathology of left supraclavicular lymph node biopsy showed granuloma formation; bronchoscopic examination diagnosis was bronchitis, and pathology of the dorsal segment of the right lower lobe showed granulomatous inflammation; CT-guided percutaneous lung biopsy showed granulomatous inflammation in the right lower lung, with no caseous necrosis seen; special stain results: PAS (-), diastase-digested PAS (-), acid-fast stain (-); fungal culture of lung tissue was completed.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcXKxw02Qeicp2cRsx4l9BWffdVxMuFw5vz1zZ1LibF1YnDicnDUibj61clg/640?wx_fmt=png",
+            "near_text": "Figure 2: pathology of left supraclavicular lymph node biopsy",
+            "local_src": "cleaned_cases_image_cache/194570ab68710eca8597377de779de574dcc0091.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcKQGMI8kASkV6x0gaiab0VJRHRaE7mTPC1xJYZIF8wY0HGY3jQve2Upg/640?wx_fmt=png",
+            "near_text": "Figure 3: Bronchoscopic images + pathology of transbronchial lung biopsy",
+            "local_src": "cleaned_cases_image_cache/bdba1712d2cf6b87ed6b77715d7a3e90495c75ff.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcysmPcQ49vyrUCkTvvavA2tiaHC8SptEkDPYKZDFiaqzxaWBVEhSvdiblg/640?wx_fmt=png",
+            "near_text": "Figure 4: Pathology of percutaneous lung needle biopsy",
+            "local_src": "cleaned_cases_image_cache/42e1a8311a98ffa988e328ef62b97a09425204e3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "History of pulmonary TB",
+              "Elevated erythrocyte sedimentation rate",
+              "Cervical lymph node biopsy, transbronchial lung biopsy via bronchoscopy, and CT-guided percutaneous lung biopsy: pathology from all three procedures showed granulomatous inflammation."
+            ],
+            "exclusion_reasons": [
+              "Received quadruple anti-TB therapy plus hepatoprotective treatment for 5 days; after treatment, the patient's cough progressively worsened.",
+              "Repeat CT on Day +11 showed progression of bilateral lung lesions during anti-TB treatment."
+            ]
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "G and GM tests positive"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary alveolar proteinosis",
+            "evidence": [
+              "CT shows ground-glass, reticular, and patchy opacities. The lesions often have a clear demarcation from the surrounding lung parenchyma with irregular borders, forming a characteristic map-like appearance. Ground-glass opacities, alveolar consolidation, and interlobular septal thickening are interwoven, producing a crazy-paving pattern."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "History of pulmonary TB",
+          "Elevated erythrocyte sedimentation rate",
+          "Cervical lymph node biopsy, transbronchial lung biopsy via bronchoscopy, and CT-guided percutaneous lung biopsy: pathology from all three procedures showed granulomatous inflammation."
+        ],
+        "exclusion_reasons": [
+          "Received quadruple anti-TB therapy plus hepatoprotective treatment for 5 days; after treatment, the patient's cough progressively worsened.",
+          "Repeat CT on Day +11 showed progression of bilateral lung lesions during anti-TB treatment."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "G and GM tests positive"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary alveolar proteinosis",
+        "evidence": [
+          "CT shows ground-glass, reticular, and patchy opacities. The lesions often have a clear demarcation from the surrounding lung parenchyma with irregular borders, forming a characteristic map-like appearance. Ground-glass opacities, alveolar consolidation, and interlobular septal thickening are interwoven, producing a crazy-paving pattern."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pathology department review of the pathology results",
+          "basis_in_stage3_input": "Pathology department review of the pathology results: PAS (+), diastase-digested PAS (+), acid-fast stain (-); (right lower lung biopsy tissue) granulomatous inflammation, no caseous necrosis identified.",
+          "why_order_this_exam": "The patient has had a disease course of 5 years. Over the past 2 months, progressive dyspnea, chest pain, night sweats, and weight loss developed. Imaging showed progression of bilateral lung lesions with mediastinal and supraclavicular lymphadenopathy. In addition, prior long-term anti-tuberculosis treatment for presumed pulmonary TB was ineffective, and CT still showed progression during anti-tuberculosis therapy after hospitalization, suggesting that the original diagnosis needs to be re-evaluated. Previous cervical lymph node biopsy, bronchoscopic lung biopsy, and CT-guided lung puncture biopsy all showed only granulomatous inflammation, with multiple differential diagnoses including TB, fungal infection, sarcoidosis, and pulmonary alveolar proteinosis. Pathology review can integrate H&E and special stain results, with emphasis on confirming the nature of the granulomas, whether there are fungal-related morphologic clues, and whether tuberculous caseous necrosis is supported, thereby improving the accuracy of the pathologic diagnosis, avoiding continued inappropriate anti-tuberculosis treatment due to an initial misdiagnosis, and providing a key basis for whether to initiate targeted antifungal therapy subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS",
+          "basis_in_stage3_input": "PAS（+）",
+          "why_order_this_exam": "The patient has had long-term chronic cough, with recent marked worsening of symptoms and imaging findings. The G test and GM test are positive, and the living environment is damp and moldy; there is also a history of long-term forest ranger work in mountainous areas and subsequently traced bamboo rat exposure, all of which suggest an increased likelihood of fungal infection. Repeated pathology of the lung and lymph nodes has shown only granulomatous inflammation, and anti-TB treatment has been ineffective, so special stains are needed to look for clues to the pathogen. PAS stain is helpful for demonstrating polysaccharide components of the fungal cell wall; in granulomatous lung disease it can help detect fungal elements in tissue and distinguish them from purely noninfectious granulomas. This examination primarily addresses the key question of whether a fungal pathogen is present behind the granulomatous inflammation, and it plays an important role in redirecting the diagnostic approach from TB to fungal infection, supporting subsequent fungal culture, and early selection of an antifungal regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Digestive PAS",
+          "basis_in_stage3_input": "Digestive PAS (+)",
+          "why_order_this_exam": "In this case, imaging has long shown ground-glass opacities, patchy opacities, and nodular opacities. Pulmonary alveolar proteinosis had previously been considered, but there has recently been progressive worsening and multistation lymph node involvement, and the pathology shows granulomatous inflammation, suggesting a need to differentiate between an intra-alveolar material deposition disease and an infectious granulomatous disease. Diastase-PAS can further determine the nature of PAS-positive material after amylase digestion, helping distinguish glycogen, proteinaceous material, and fungal-related polysaccharide components, thereby improving the ability to determine the source of abnormal material within the tissue. This test is intended to address the question of whether 'PAS positivity more strongly supports pulmonary alveolar proteinosis or a fungal-related lesion,' and, together with routine PAS, pathologic morphology, and culture results, it can provide mutual confirmation, help clarify the etiology, and guide whether antifungal therapy should be the main treatment rather than continuing the previous incorrect diagnostic and treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathologic examination of right lower lung puncture tissue",
+          "basis_in_stage3_input": "(right lower lung biopsy tissue) Granulomatous inflammation; no caseous necrosis identified.",
+          "why_order_this_exam": "The patient had diffuse progressive bilateral lung lesions, an increased number of nodules, and mediastinal lymphadenopathy. Clinical manifestations included progressive dyspnea, sputum production, chest pain, night sweats, and weight loss. Imaging and serology alone were insufficient to reliably distinguish among TB, fungal infection, sarcoidosis, tumor, and pulmonary alveolar proteinosis. Right lower lung needle biopsy can directly obtain lesional tissue and is an important means of obtaining pathologic evidence when the disease is progressing, prior treatment has been ineffective, and noninvasive examinations cannot establish a definitive diagnosis. This pathologic examination was primarily intended to determine whether the nature of the lesion was infectious, inflammatory, or neoplastic, whether granulomas, necrosis, special pathogens, or abnormal intra-alveolar deposits were present, and to provide a tissue sampling basis for further special stains such as PAS, diastase-PAS, and acid-fast staining, as well as fungal culture. The absence of caseous necrosis, although it cannot completely exclude TB, reduces support for typical TB; when combined with subsequent culture results, it helps ultimately establish the diagnosis of Talaromyces marneffei pneumonia and guide discontinuation of anti-TB treatment in favor of antifungal therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal culture of lung tissue",
+          "basis_in_stage3_input": "On Day +10, the lung tissue fungal culture result was reported as Talaromyces marneffei.",
+          "why_order_this_exam": "Although this case had clinically been managed as TB for a long time, the patient's damp, moldy living environment, unusual occupational exposure, positive G and GM tests, pathology repeatedly suggesting granulomatous inflammation, special stains indicating possible fungus, and ineffective anti-TB treatment with disease progression all strongly indicated the need to obtain direct etiologic evidence. Fungal culture of lung tissue is one of the most valuable confirmatory methods on the basis of already obtained lesional tissue; it can directly isolate and identify the pathogenic fungus and resolve the key question of 'which fungus is causing the pulmonary granulomatous lesion.' In this case, culture yielding Talaromyces marneffei not only established the diagnosis, but also markedly narrowed the differential diagnosis from TB, other fungal infections, and noninfectious granulomatous diseases, and directly affected treatment selection—prompt discontinuation of the ineffective anti-TB regimen and change to targeted antifungal therapy with liposomal amphotericin B followed by itraconazole.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Pathology department review of the pathology results: PAS (+), diastase-digested PAS (+), acid-fast stain (-); (right lower lung core biopsy tissue) granulomatous inflammation, no caseous necrosis identified. On retrospective review of the patient's history, it was learned that the patient had a long-term history of capturing, slaughtering, and eating bamboo rats. On Day +10, the lung tissue fungal culture result was reported as: Talaromyces marneffei.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcwjhhLMic3zy3iblkibZhaF1hghXTWVBbQaS1Hzubicods25oUMTF9N3LLg/640?wx_fmt=png",
+          "near_text": "Figure 6: Follow-up CT after discharge (CT dates include approximately 1 month after Day 0, approximately 3 months after Day 0, approximately 9 months after Day 0, approximately 15 months after Day 0, approximately 27 months after Day 0, and approximately 51 months after Day 0)",
+          "local_src": "cleaned_cases_image_cache/577fa008813726347ad0eb022d648ff4f5d7488c.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLI2lWhibLfYtIR7KQFg3eHcBYUsZh55z402QsJIqkkmHGSt20vfRW3PmPNj3QeIOOtv9nUdZyaeew/640?wx_fmt=png",
+          "near_text": "Figure 5: Chest CT (comparison of Day +11 and Day -12)",
+          "local_src": "cleaned_cases_image_cache/66d5debb1cf6c4327440c8cd097139ae03a6c6c4.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Talaromyces marneffei pneumonia",
+      "diagnostic_basis": [
+        "Middle-aged man, cough, dyspnea, sputum production, multiple enlarged lymph nodes, chronic onset",
+        "Had a long-term history of capturing, slaughtering, and consuming bamboo rats",
+        "Laboratory tests showed positive G and GM tests",
+        "All three pathology specimens indicated granulomatous inflammation; PAS (+), diastase-digested PAS (+), acid-fast stain (-).",
+        "Repeat CT during hospitalization indicated progression of bilateral pulmonary lesions during anti-TB treatment, making TB less likely",
+        "Fungal culture of percutaneous lung tissue grew Talaromyces marneffei"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "On Day +5 and 25, standard four-drug anti-TB therapy plus hepatoprotective treatment were administered (isoniazid tablets 0.3 qd + rifampin capsules 0.45 qd + ethambutol tablets 0.75 qd + pyrazinamide tablets 0.5 tid + glucurolactone tablets 0.2 tid).",
+        "Anti-TB treatment was discontinued, and antifungal therapy was started on Day +12 (amphotericin B liposome 40mg IV drip qd*1 month, followed sequentially by itraconazole oral solution 200mg PO bid*8 months)."
+      ],
+      "treatment_response": [
+        "Symptoms such as cough and dyspnea were all significantly relieved.",
+        "Marked improvement in pulmonary imaging findings",
+        "Follow-up for 4 years: except for a persistent mild cough, the patient had no other respiratory-related discomfort."
+      ]
+    }
+  }
+}

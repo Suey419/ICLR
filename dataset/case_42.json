@@ -1,0 +1,463 @@
+{
+  "status": "success",
+  "case_id": "case_42",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 59-year-old male patient presented with a chief complaint of \"cough and sputum production for more than 10 months, and pleural effusion detected for more than 10 months.\" On Day 0, he developed a cough without an obvious trigger, predominantly at night, with a small amount of white sputum, accompanied by decreased exercise tolerance. He had no chest pain, fever, night sweats, hemoptysis, or other discomfort. He had previously been seen at a tertiary hospital in Nanchang, where contrast-enhanced chest CT and bronchoscopy showed mediastinal lymphadenopathy with right pleural effusion, and lung cancer was considered; no malignant cells were found in the pleural fluid. On Day +13, he underwent endobronchial ultrasound at a tertiary hospital in Shanghai, which showed \"mucosal protrusions in the right upper lobe and right middle bronchus and mucosal protrusion in the left lower lobe, with mediastinal and left hilar lymphadenopathy.\" EBUS-TBNA found no evidence of tumor, and sputum acid-fast bacillus smear, culture, and T-SPOT showed no evidence of TB. PET-CT suggested \"possible inflammatory lesions involving the right neck, clavicular region, mediastinum, bilateral hila, right axilla, abdominopelvic cavity, retroperitoneal lymph nodes, and possibly the left upper lobe, bilateral pleura, diaphragm, and splenic hilum; bilateral pleural effusions; possible pituitary adenoma,\" and it was considered that \"inflammatory disease is more likely, but tumor cannot be excluded.\" Beginning on Day +17, he was treated with cephalosporins combined with levofloxacin for 21 days for anti-infective therapy; cough and sputum production decreased, and the pleural effusion was reduced. Starting in approximately 4 months after Day 0, cough, sputum production, and chest tightness worsened again. Re-examination on Day +182 showed increased pleural effusion again; acid-fast bacillus smear, bronchoscopic brushing, and BALF-Xpert were all negative. Diagnostic anti-TB treatment was given for nearly 3 months (Day +188 to Day +269), with no significant improvement in symptoms. Re-examination on Day +269 showed that the right pleural effusion had increased significantly compared with before, and anti-TB drugs were discontinued. On Day +272, bronchoscopic brushing and bronchoalveolar lavage cytology showed no malignant cells, and pathology reported \"(right upper lobe neoplasm) scant lymphoid tissue with atypical hyperplasia.\" Consultation by the pathology department of a tumor hospital reported \"(left lower lobe orifice mucosa) chronic mucosal inflammation, with compressed lymphocytes seen in the stroma.\" He was admitted from the outpatient clinic with \"pleural effusion of undetermined cause.\" Mental status was fair, and body weight had increased by about 3 kg. Past history: decreased libido for more than 3 years. Pulmonary TB was diagnosed in 2014 and was cured after 18 months of anti-TB treatment, with residual calcified foci in the right upper lung. History of hyperuricemia for 3 years. He denied hepatitis B, HIV, etc. He had worked in administrative duties at a slaughterhouse for decades and frequently had contact with pig skin and hair. Physical examination on admission: anemic appearance, absence of pubic hair and axillary hair, one enlarged right submandibular lymph node palpable, approximately 1 cm in diameter. Dullness to percussion over the right lower lung and decreased breath sounds in the right lower lung. Infantile genitalia. Outside hospital ancillary examinations: TB/fungal-related laboratory tests were all negative; pleural ultrasound showed bilateral anechoic pleural spaces; repeated exfoliative cytology of pleural fluid showed no malignant cells; pleural fluid testing showed mononuclear cells 97.7%; bronchoscopy showed multiple polypoid protrusions, luminal narrowing, and abundant mucosal vessels; contrast-enhanced chest CT showed left upper lobe bronchial stenosis, enlarged mediastinal lymph nodes with conglomeration, pleural thickening in both lungs, and bilateral pleural effusions; superficial lymph node ultrasound showed hypoechoic nodules in the right supraclavicular and left root-of-neck/supraclavicular regions.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsrvjVgFQX56Uq86TYI6ud2ktJ2tUg5DAPM1ov9tiaiakiaHxlg03iaNk1Eg/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/afda0053f7465cb4f1c1dee02c98f117bfeb8768.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsW0QUNtHKHicTib7BEmn3TdpGmasSpZCfGwqtr8Uk7yJV09yAZBvHiaNkg/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Endobronchial ultrasound bronchoscope",
+          "local_src": "cleaned_cases_image_cache/f624e76afe0c1c05c88234be0b8c18a8483b9aa1.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsPh5ibicFqz9iaLmrGjzaYFC4YibkL8w9v8y0H0a6Yib4tQVVOxvuicdftK3w/640?wx_fmt=png",
+          "near_text": "Figure 2: Bronchoscopic comparison. Upper row: before anti-tuberculosis treatment on Day +184; lower row: after anti-tuberculosis treatment on Day +268",
+          "local_src": "cleaned_cases_image_cache/0a93849be1e54d445da7b18902366e40db7993f7.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvs5PqwENxwK2SpOEHcyT2iceQEiaC7eI8ys55kH3mLEnCend6cIBdnGTow/640?wx_fmt=jpeg",
+          "near_text": "Figure 3: Contrast-enhanced chest CT at a tertiary Grade A hospital in Nanchang City (Day +3)",
+          "local_src": "cleaned_cases_image_cache/43e5207fb47325a85f88d4c49b29737b5160ed86.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsMxvX5jzRMIFsKHj3e0oXEU5ntISrwN67Bsa8XRJU96BDDYDEiaacJeA/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: Comparison of non-contrast chest CT scans: ① Day +69, a tertiary hospital in Nanchang (follow-up after anti-infective treatment); ② Day +169, a tertiary hospital in Nanchang (follow-up after symptom worsening, before anti-TB treatment); ③ Day +262, a tertiary hospital in Shanghai (follow-up after anti-TB treatment)",
+          "local_src": "cleaned_cases_image_cache/f73f7dc1fe45158dba184a632f994d1e3fecd614.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsSFM1ahzgzo674U60Lm3nRgtIr0LxJXzA0qM2ME9EaPczp58e0l2MWQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 5a. Non-contrast chest CT at a tertiary hospital in Shanghai (Day +269)",
+          "local_src": "cleaned_cases_image_cache/14f78cd1f979c75633dad6124f486a2985ba2a21.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsXbWYOBLxnR135lRzhcaCMoYicF6Mqw8cTBtYQribhzhWAI72tMcNyWAA/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/3c5b25743e5d8eb4b89dc1ee9f8eb8431df2b716.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsPibzUnyjO72GjCGytgg5QTVKalCkWiaWF6GEcVF7nbdXoGLXPiaNfh9qg/640?wx_fmt=jpeg",
+          "near_text": "Figure 5b. PET/CT examination at a tertiary hospital in Shanghai (Day +14) →: abdominal aortic wall, pancreatic body and tail, hepatic cyst",
+          "local_src": "cleaned_cases_image_cache/382685da9ef251fbb0ecff9c018749d1c1c473ff.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Lymphoma or other predominantly intrathoracic lymphoproliferative diseases",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT showed enlarged mediastinal lymph nodes with conglomeration, bilateral pleural thickening, and bilateral pleural effusions",
+            "PET-CT suggested that the lesions involved the right cervical region, supraclavicular region, mediastinum, bilateral hilar regions, right axilla, abdominopelvic cavity, retroperitoneal lymph nodes, and splenic hilum, with multistation distribution",
+            "On physical examination, an enlarged right submandibular lymph node was palpable; superficial lymph node ultrasound showed hypoechoic nodules in the right supraclavicular region and the left root of the neck/supraclavicular region.",
+            "Bronchoscopy showed multiple polypoid elevations, narrowing of the bronchial orifices, and a richly vascularized mucosa, suggesting the possibility of an infiltrative lesion of the airway mucosa/submucosa",
+            "Pathology report: a small amount of atypical lymphoid hyperplasia was observed.",
+            "Repeated pleural fluid cytology showed no malignant cells, and pleural fluid mononuclear cells were 97.7%, which is more supportive of a lymphocyte-predominant effusion"
+          ],
+          "opposing_evidence": [
+            "EBUS-TBNA found no evidence of tumor",
+            "No malignant cells were identified on multiple bronchoscopic brushings or bronchoalveolar lavage cytology.",
+            "After 21 days of anti-infective treatment with cephalosporins combined with levofloxacin, cough and sputum production decreased, and the pleural effusion decreased, which is not entirely consistent with the pattern of continuous progression typical of untreated lymphoma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lung cancer with mediastinal/hilar lymph node metastases and pleural metastases (including central or multicentric airway involvement)",
+          "supporting_evidence": [
+            "Prior contrast-enhanced chest CT and bronchoscopy at an outside hospital suggested mediastinal lymphadenopathy with right pleural effusion; lung cancer was previously considered.",
+            "Contrast-enhanced chest CT suggests stenosis of the left upper lobe bronchus. Combined with bronchoscopic findings of multiple polypoid protrusions, luminal narrowing, and a richly vascularized mucosa, a neoplastic lesion of the central airway is possible.",
+            "There are bilateral pleural effusions, pleural thickening, and multistation lymphadenopathy, consistent with intrathoracic malignancy with lymph node and pleural involvement.",
+            "59-year-old man, chronic cough and sputum production accompanied by decreased exercise tolerance, with a protracted course"
+          ],
+          "opposing_evidence": [
+            "No cancer cells were found in the pleural effusion, and repeated pleural fluid exfoliative cytology showed no malignant cells.",
+            "EBUS-TBNA found no evidence of tumor",
+            "On Day +272, no malignant cells were seen on bronchoscopic brushing or bronchoalveolar lavage cytology.",
+            "PET-CT suggests that an inflammatory lesion is more likely, but a tumor cannot be excluded."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Tuberculous pleuritis/tracheobronchial tuberculosis or recurrent disseminated tuberculosis",
+          "supporting_evidence": [
+            "History of pulmonary TB diagnosed in 2014, cured after 18 months of anti-tuberculosis treatment, with a residual calcified lesion in the right upper lung",
+            "Chronic cough and sputum production, mediastinal and hilar lymphadenopathy, and bilateral pleural effusions can be seen in tuberculous pleuritis or tracheobronchial tuberculosis.",
+            "Bronchoscopy showed multiple mucosal elevations and stenosis of the bronchial openings; tuberculous bronchial lesions may have similar findings",
+            "Pleural fluid mononuclear cells 97.7%, consistent with the mononuclear cell predominance commonly seen in tuberculous pleural effusion"
+          ],
+          "opposing_evidence": [
+            "Sputum acid-fast bacilli smear, culture, and T-SPOT testing showed no evidence of TB",
+            "On Day +182, repeat acid-fast bacilli smear and BALF-Xpert were both negative",
+            "TB-related laboratory tests at the outside hospital were all negative",
+            "After nearly 3 months of diagnostic anti-TB treatment, the symptoms did not improve significantly, and on repeat examination on Day +269, the amount of right pleural effusion had increased significantly compared with before."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Sarcoidosis",
+          "supporting_evidence": [
+            "Imaging showed mediastinal and bilateral hilar lymphadenopathy, and PET-CT showed multistation lymph node involvement, consistent with the distribution pattern of systemic granulomatous disease.",
+            "Bronchoscopy may reveal multiple mucosal elevations, and sarcoidosis can involve the airway mucosa",
+            "Multiple oncologic and TB evaluations failed to establish evidence of malignancy or TB; noninfectious granulomatous disease should be considered",
+            "PET-CT favored the possibility of an inflammatory lesion"
+          ],
+          "opposing_evidence": [
+            "Bilateral pleural effusions are relatively prominent and repeatedly increase, which is uncommon in sarcoidosis.",
+            "Pathology did not show noncaseating granulomas",
+            "Although lesions involving the abdominopelvic cavity, retroperitoneum, and splenic hilum can be seen in systemic disease, the overall manifestations are more extensive and complex than those of typical sarcoidosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "IgG4-related disease (involvement of the mediastinal/hilar lymph nodes, airways, and pleura)",
+          "supporting_evidence": [
+            "May present with multistation lymphadenopathy, airway wall/bronchial mucosal involvement, pleural thickening, and pleural effusion",
+            "Bronchoscopy showed multiple polypoid protrusions and a richly vascularized mucosa, suggesting the possibility of an inflammatory infiltrative lesion",
+            "PET-CT favors an inflammatory lesion rather than a definite tumor",
+            "Multiple cytologic examinations and EBUS-TBNA found no evidence of malignancy"
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide evidence of elevated IgG4, eosinophilia, or involvement of other organs such as the salivary glands/pancreas/lacrimal glands.",
+            "Available pathology shows only chronic inflammation and lymphocytic hyperplasia; no characteristic IgG4-related pathological information was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Multicentric Castleman disease or unclassified systemic inflammatory lymphoproliferative disease",
+          "supporting_evidence": [
+            "Multistation lymphadenopathy is present in the neck, clavicular regions, mediastinum, hilar regions, axillae, abdominopelvic cavity, and retroperitoneum.",
+            "Accompanied by bilateral pleural effusions, an anemic appearance, and systemic inflammatory/proliferative manifestations; PET-CT suggests possible extensive inflammatory lesions.",
+            "Pathology previously suggested a small amount of atypical lymphoid tissue proliferation; an atypical lymphoproliferative disorder has not yet been excluded."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no supporting evidence was provided for fever, significant weight loss, hepatosplenomegaly, or characteristic laboratory abnormalities.",
+            "None of the currently obtained specimens yielded characteristic pathologic findings supporting Castleman disease."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "thoracoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, CBC: WBC 3.9x10^9/L, Hb 101g/L, CRP 19.54mg/L; blood biochemistry: total protein 98.3g/L, albumin 38.1g/L, globulin 60g/L, albumin/globulin ratio 0.63; ESR 108mm/L; G test 481.4pg/mL (+), which converted to (-) on repeat testing; serum tumor marker CA125 74.66U/mL; the remaining tumor markers, PCT, endotoxin, T-SPOT, hepatitis B, hepatitis C, syphilis, and HIV were all (-); IgG4 (Day +322) 13.3g/L; T-lymphocyte subsets: CD4 150, CD8 199, CD4/CD8 0.75%. Pleural fluid routine analysis: Rivalta test weakly positive, lymphocytes 91%; pleural fluid biochemistry: pleural fluid total protein 83.7g/L, pleural fluid LDH 144U/L, pleural fluid glucose 6mmol/L, pleural fluid ADA 41U/L. ECG: sinus rhythm, T-wave changes, right axis deviation of the QRS axis. Bronchoscopy: localized mucosal bulge on the right side of the lower trachea, with abundant submucosal vessels at the bulging area. Bilateral bronchi and their branches: diffusely irregular mucosal bulging, vascular richness at the bulging areas, mucosal edema, uneven luminal stenosis, loss of the cartilaginous ring morphology, and marked widening of the secondary/tertiary carinas. Biopsy was performed at the carina between the right middle lobe and right lower lobe. Thoracoscopy: 1.2L of dark yellow pleural fluid was aspirated, and scattered nodular protrusions were seen on the parietal pleura.",
+        "images": [
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsv0nzNWZI3CGiaRMT8DcETwd9Zic3ZjnE7GNbHhyoyOSLsThic5RJ9ibibAw/640?wx_fmt=jpeg",
+            "near_text": "Figure 6: bronchoscopy records of the patient dated Day +303",
+            "local_src": "cleaned_cases_image_cache/d85b0a10eb7b50671fe6162097ef97f4c1d2bfbd.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Lung cancer with multiple metastases",
+            "evidence": [
+              "Elderly male with chronic cough and prolonged fever",
+              "Imaging showed a mass in the left hilar region, with multiple enlarged lymph nodes in the mediastinum, bilateral hila, supraclavicular fossae, and retroperitoneum.",
+              "Hepatomegaly and splenomegaly with multiple splenic nodules are seen, as well as osseous destruction at multiple sites throughout the body, including the thoracic and lumbar vertebrae, ribs, and clavicles, consistent with distant metastatic disease."
+            ],
+            "exclusion_reasons": [
+              "Multiple bronchoscopic histopathology results showed only chronic mucosal inflammation, with no cancer cells identified",
+              "No gold-standard tumor pathology evidence; unable to confirm the cellular origin of the malignant tumor."
+            ]
+          },
+          {
+            "name": "Hematologic malignancies (lymphoma, multiple myeloma)",
+            "evidence": [
+              "The patient has prolonged fever, multiple enlarged superficial and deep lymph nodes throughout the body, and hepatosplenomegaly.",
+              "Osseous destruction of multiple vertebral bodies and posterior elements, with vertebral compression changes, is a common manifestation of involvement by hematologic malignancies.",
+              "A chronic wasting course, consistent with the clinical characteristics of hematologic malignancy"
+            ],
+            "exclusion_reasons": [
+              "This tissue biopsy showed only chronic inflammatory changes, with no characteristic pathologic morphology of lymphoma or myeloma and no evidence of abnormal cellular clonality.",
+              "No laboratory evidence, such as bone marrow aspiration and serum protein electrophoresis, supporting hematologic disease"
+            ]
+          },
+          {
+            "name": "Mycobacterium tuberculosis infection",
+            "evidence": [
+              "Elderly patient with a chronic course, with prolonged fever, cough, and other systemic consumptive symptoms",
+              "May involve the lung tissue, systemic lymph nodes, spleen, and skeleton, causing multiorgan granulomatous injury",
+              "Generalized lymphadenopathy and nodular lesions in multiple organs are consistent with a pattern of disseminated TB involvement"
+            ],
+            "exclusion_reasons": [
+              "Bronchoscopic pathology: PAS (-), acid-fast stain (-); no Mycobacterium tuberculosis identified",
+              "Pathology showed no caseating granulomatous changes characteristic of TB.",
+              "Extensive multifocal osteolytic bone destruction and widespread vertebral metastasis-like lesions are not consistent with the imaging features of typical disseminated TB"
+            ]
+          },
+          {
+            "name": "Nontuberculous mycobacterial infection",
+            "evidence": [
+              "Chronic prolonged fever and cough, poor response to conventional anti-infective treatment",
+              "Multiple pulmonary nodules, multiregional lymphadenopathy throughout the body, hepatic and splenic lesions with multiple osseous destructive lesions, chronic multiorgan damage",
+              "Histopathology suggested chronic inflammation of the mucosa on a background of chronic granulomatous inflammation."
+            ],
+            "exclusion_reasons": [
+              "There are currently no positive etiologic results, such as mycobacterial culture or molecular biologic testing, to support the diagnosis."
+            ]
+          },
+          {
+            "name": "Disseminated invasive fungal infection (Cryptococcus, Talaromyces marneffei, etc.)",
+            "evidence": [
+              "Fungi can cause chronic pulmonary lesions and lead to disseminated systemic infection",
+              "Can cause generalized lymphadenopathy, hepatic and splenic involvement, and multiple destructive osseous lesions, consistent with the patient's presentation"
+            ],
+            "exclusion_reasons": [
+              "The special fungal stains on the current pathology specimen are negative; there is currently no etiologic evidence such as fungal antigen or culture, and further evaluation is needed for exclusion."
+            ]
+          },
+          {
+            "name": "Nocardia / Actinomyces chronic infection",
+            "evidence": [
+              "Two categories of pathogenic bacteria are likely to cause chronic suppurative pulmonary lesions that are prolonged and unhealed.",
+              "Can induce granulomatous inflammation of systemic lymph nodes, chronic multi-organ damage, prolonged fever"
+            ],
+            "exclusion_reasons": [
+              "There is currently no etiologic evidence such as secretion culture or special bacterial staining; a definitive diagnosis cannot be made at present, and further microbiologic testing is needed for differential diagnosis."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lung cancer with multiple metastases",
+        "evidence": [
+          "Elderly male with chronic cough and prolonged fever",
+          "Imaging showed a mass in the left hilar region, with multiple enlarged lymph nodes in the mediastinum, bilateral hila, supraclavicular fossae, and retroperitoneum.",
+          "Hepatomegaly and splenomegaly with multiple splenic nodules are seen, as well as osseous destruction at multiple sites throughout the body, including the thoracic and lumbar vertebrae, ribs, and clavicles, consistent with distant metastatic disease."
+        ],
+        "exclusion_reasons": [
+          "Multiple bronchoscopic histopathology results showed only chronic mucosal inflammation, with no cancer cells identified",
+          "No gold-standard tumor pathology evidence; unable to confirm the cellular origin of the malignant tumor."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hematologic malignancies (lymphoma, multiple myeloma)",
+        "evidence": [
+          "The patient has prolonged fever, multiple enlarged superficial and deep lymph nodes throughout the body, and hepatosplenomegaly.",
+          "Osseous destruction of multiple vertebral bodies and posterior elements, with vertebral compression changes, is a common manifestation of involvement by hematologic malignancies.",
+          "A chronic wasting course, consistent with the clinical characteristics of hematologic malignancy"
+        ],
+        "exclusion_reasons": [
+          "This tissue biopsy showed only chronic inflammatory changes, with no characteristic pathologic morphology of lymphoma or myeloma and no evidence of abnormal cellular clonality.",
+          "No laboratory evidence, such as bone marrow aspiration and serum protein electrophoresis, supporting hematologic disease"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Mycobacterium tuberculosis infection",
+        "evidence": [
+          "Elderly patient with a chronic course, with prolonged fever, cough, and other systemic consumptive symptoms",
+          "May involve the lung tissue, systemic lymph nodes, spleen, and skeleton, causing multiorgan granulomatous injury",
+          "Generalized lymphadenopathy and nodular lesions in multiple organs are consistent with a pattern of disseminated TB involvement"
+        ],
+        "exclusion_reasons": [
+          "Bronchoscopic pathology: PAS (-), acid-fast stain (-); no Mycobacterium tuberculosis identified",
+          "Pathology showed no caseating granulomatous changes characteristic of TB.",
+          "Extensive multifocal osteolytic bone destruction and widespread vertebral metastasis-like lesions are not consistent with the imaging features of typical disseminated TB"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Nontuberculous mycobacterial infection",
+        "evidence": [
+          "Chronic prolonged fever and cough, poor response to conventional anti-infective treatment",
+          "Multiple pulmonary nodules, multiregional lymphadenopathy throughout the body, hepatic and splenic lesions with multiple osseous destructive lesions, chronic multiorgan damage",
+          "Histopathology suggested chronic inflammation of the mucosa on a background of chronic granulomatous inflammation."
+        ],
+        "exclusion_reasons": [
+          "There are currently no positive etiologic results, such as mycobacterial culture or molecular biologic testing, to support the diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Disseminated invasive fungal infection (Cryptococcus, Talaromyces marneffei, etc.)",
+        "evidence": [
+          "Fungi can cause chronic pulmonary lesions and lead to disseminated systemic infection",
+          "Can cause generalized lymphadenopathy, hepatic and splenic involvement, and multiple destructive osseous lesions, consistent with the patient's presentation"
+        ],
+        "exclusion_reasons": [
+          "The special fungal stains on the current pathology specimen are negative; there is currently no etiologic evidence such as fungal antigen or culture, and further evaluation is needed for exclusion."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Nocardia / Actinomyces chronic infection",
+        "evidence": [
+          "Two categories of pathogenic bacteria are likely to cause chronic suppurative pulmonary lesions that are prolonged and unhealed.",
+          "Can induce granulomatous inflammation of systemic lymph nodes, chronic multi-organ damage, prolonged fever"
+        ],
+        "exclusion_reasons": [
+          "There is currently no etiologic evidence such as secretion culture or special bacterial staining; a definitive diagnosis cannot be made at present, and further microbiologic testing is needed for differential diagnosis."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Serum IgG4",
+          "basis_in_stage3_input": "Elevated serum IgG4 13.3 g/L",
+          "why_order_this_exam": "The patient has had a prolonged course of more than 10 months, manifested by recurrent cough, sputum production, chest tightness, bilateral pleural effusions, multistation lymphadenopathy, diffuse elevation of the airway mucosa, and pleural involvement. Multiple evaluations for malignancy and TB have been negative, and nearly 3 months of anti-TB treatment has been ineffective, suggesting that nontumorous, non-TB systemic inflammatory disease should be strongly considered. Serum IgG4 is already elevated; repeat testing combined with dynamic assessment can serve as one of the important supportive pieces of evidence for IgG4-related disease, to determine whether the disease feature of abnormally elevated immunoglobulin IgG4 is present, and to distinguish it from diseases such as Castleman disease, lymphoma, and chronic infection that can cause hypergammaglobulinemia and multistation lymphadenopathy. Although this test cannot establish the diagnosis on its own, it is of important value in increasing the diagnostic likelihood of IgG4-related disease and in guiding whether tissue IgG4/IgG staining and selection of a systemic treatment regimen are necessary.",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "basis_in_stage3_input": "Elevated erythrocyte sedimentation rate: 108 mm/L",
+          "why_order_this_exam": "The patient has chronic respiratory symptoms, recurrent pleural effusion, lymphadenopathy at multiple sites, and marked systemic inflammatory manifestations. Previous anti-infective therapy resulted in only transient relief, and anti-TB treatment was ineffective, suggesting persistent disease activity. A markedly elevated erythrocyte sedimentation rate reflects the degree of chronic inflammation and immune activation in the body, helps assess current disease activity, and, in conjunction with CRP, globulin, and the extent of involvement on imaging, supports consideration of IgG4-related disease or other systemic inflammatory diseases. At the same time, a persistently markedly elevated erythrocyte sedimentation rate also indicates that lymphoproliferative disorders, chronic infection, and other differential diagnoses still require vigilance. Therefore, this test is useful for assessing disease severity, follow-up of therapeutic efficacy, and monitoring treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "basis_in_stage3_input": "Elevated CRP",
+          "why_order_this_exam": "The patient has a chronic protracted course with recurrent increases in pleural effusion and extensive involvement of the airways and pleura, suggesting persistent inflammatory activity. CRP can be used to assess the current inflammatory burden and degree of activity, help distinguish purely structural lesions from an active inflammatory process, and, together with ESR and globulin, evaluate systemic inflammatory status. Because the patient previously had temporary improvement in symptoms and pleural effusion after anti-infective treatment, followed by recurrence, while TB- and tumor-related tests were repeatedly negative, dynamic changes in CRP are needed to help determine whether this represents an infectious process, activity of an immune-inflammatory disease, or reactive inflammation associated with another disease. This test is useful for assessing disease severity, monitoring treatment response, and informing the safety of subsequent steroid/immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "globulin",
+          "basis_in_stage3_input": "Markedly elevated globulin",
+          "why_order_this_exam": "The patient had total protein 98.3 g/L, globulin 60 g/L, and a reversed albumin/globulin ratio, together with anemia, elevated erythrocyte sedimentation rate, multistation lymphadenopathy, and pleural effusion, suggesting marked immune activation or a plasma cell/lymphocyte-related abnormality. Rechecking and assessing the globulin level would help determine the degree of hyperglobulinemia and its concordance with elevated IgG4, thereby supporting the diagnostic consideration of IgG4-related disease as an immune-mediated disorder. On the other hand, marked hyperglobulinemia can also be seen in Castleman disease, lymphoma, and chronic infection, so this parameter remains valuable for the differential diagnosis. This test can help determine whether further studies such as immunoglobulin typing and serum protein electrophoresis are needed, and can provide a baseline for assessing disease activity and post-treatment changes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thoracoscopy",
+          "basis_in_stage3_input": "Scattered nodular protrusions on the parietal pleura under thoracoscopy",
+          "why_order_this_exam": "The patient has had persistent bilateral pleural effusions for more than 10 months with repeated reaccumulation. Chest imaging shows pleural thickening. Repeated cytologic examinations of the pleural fluid have shown no malignant cells. TB-related tests are negative, and empiric anti-TB treatment was ineffective, indicating that pleural fluid analysis and imaging alone still cannot determine the nature of the pleural lesion. Thoracoscopy allows direct visualization of pleural lesions; scattered nodular protrusions have already been seen on the parietal pleura, suggesting the presence of a solid pleural lesion and the need for further targeted tissue sampling. The key clinical question of this examination is to distinguish IgG4-related pleural involvement, pleural tumor metastasis, lymphoma involving the pleura, tuberculous pleuritis, and other chronic inflammatory lesions. Thoracoscopy can both improve the diagnostic yield and provide more adequate tissue for subsequent pathology, immunohistochemistry, and etiologic testing, which is crucial for definitive diagnosis and treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy of the right anterior chest wall lesion",
+          "basis_in_stage3_input": "Biopsy of the right anterior chest wall lesion",
+          "why_order_this_exam": "The patient has pleural lesions, pleural effusion, and extensive systemic involvement. If there is an accessible lesion in the right anterior chest wall, biopsy of that site can obtain relatively intact tissue at lower risk and is more likely than repeated brush cytology or pleural fluid cytology to clarify the nature of the lesion. Because repeated bronchoscopy cytology, EBUS-TBNA, and pleural fluid examinations have all failed to yield evidence of tumor, while the disease still manifests as infiltrative lesions at multiple sites, solid tissue is required to determine whether this represents an IgG4-related fibroinflammatory lesion, a lymphoproliferative disorder, metastatic tumor, or infectious granuloma. This examination can address key questions such as whether there is characteristic lymphoplasmacytic infiltration, fibrosis, and an increased number of IgG4-positive plasma cells, and can provide direct evidence for excluding malignant tumor, TB, and other infections.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Examination of superficial lymph nodes throughout the body",
+          "basis_in_stage3_input": "Multisite lymphadenopathy",
+          "why_order_this_exam": "PET-CT and imaging suggested multistation lymphadenopathy involving the neck, supraclavicular region, mediastinum, bilateral hila, axillae, abdominopelvic cavity, retroperitoneum, and other regions. On physical examination, an enlarged right submandibular lymph node was also palpable, suggesting the possibility of a systemic disease. Multiple airway sampling procedures failed to establish a definitive diagnosis, whereas lymph nodes are relatively high-yield sampling sites. The purpose of lymph node evaluation is to determine whether this lymphadenopathy represents reactive/characteristic lymphoplasmacytic infiltration due to IgG4-related disease, or lymphoma, Castleman disease, metastatic carcinoma, or infectious lymphadenitis. This evaluation is critical for both definitive diagnosis and differential diagnosis. In particular, given that prior pathology showed only atypical lymphoid hyperplasia and lymphoma still cannot be completely excluded with confidence, lymph node histology, immunohistochemistry, and even subtyping are needed to determine whether subsequent glucocorticoid/immunosuppressive therapy or antitumor treatment should be used.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion examination",
+          "basis_in_stage3_input": "Bilateral pleural effusions",
+          "why_order_this_exam": "One of the patient's main manifestations is recurrent pleural effusion, with a long duration, and the right pleural effusion had previously increased significantly. Previous pleural fluid was lymphocyte-predominant, had high protein, and Rivalta test weakly positive, suggesting an exudative effusion; however, malignant cells were not seen on repeated exfoliative cytology, and the evidence for TB was also insufficient, so the etiology still cannot be explained. The purpose of continuing to complete pleural effusion testing is to further analyze the nature of the effusion, assess whether malignant cells, abnormal lymphocyte populations, evidence of infection, or inflammatory features consistent with IgG4-related disease are present, and to corroborate the pleural biopsy results. This testing can also help determine the relationship between respiratory symptoms and effusion burden, assess whether drainage is needed, and support subsequent treatment monitoring, and is especially important for excluding neoplastic and tuberculous pleuritis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related tests",
+          "basis_in_stage3_input": "TB- and tumor-related tests were all negative",
+          "why_order_this_exam": "The patient has a prior history of pulmonary TB and now presents again with chronic cough, sputum production, mediastinal and hilar lymphadenopathy, bilateral pleural effusions, and bronchial mucosal elevation and stenosis. Clinically, TB, especially tuberculous pleuritis or endobronchial TB, had been an important differential diagnosis. Although multiple tests, including sputum acid-fast bacilli smear, culture, T-SPOT, and BALF-Xpert, were negative, and there was no significant improvement after nearly 3 months of diagnostic anti-TB treatment, making TB markedly less likely, before the final diagnosis of IgG4-related disease is established, TB still needs to be excluded as thoroughly as possible through further TB-related testing, especially in combination with fresh tissue, pleural fluid, or pleural specimens. The clinical significance of doing so is to avoid misdiagnosing potential TB as an immune-mediated disease and then administering glucocorticoids or immunosuppressive therapy, which could lead to dissemination of infection and increased treatment risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor-related tests",
+          "basis_in_stage3_input": "TB- and tumor-related tests were all negative",
+          "why_order_this_exam": "The patient is a 59-year-old man. Imaging previously suggested mediastinal lymphadenopathy with pleural effusion, and an outside hospital at one point considered lung cancer; PET-CT showed involvement of multiple sites including multistation lymph nodes and pleura, and bronchoscopy revealed multiple polypoid protrusions, richly vascularized mucosa, and luminal stenosis, all suggesting that malignancy, especially lung cancer, lymphoma, or metastatic tumor, needed to be repeatedly investigated. Although prior EBUS-TBNA, brush cytology, BALF cytology, and pleural fluid cytology did not show evidence of malignancy, these examinations have sampling limitations and the possibility of false-negative results. The purpose of continuing tumor-related investigations is to exclude intrathoracic malignancy and systemic malignancy as much as possible before diagnosing IgG4-related disease, and to determine whether the multistation lesions represent inflammatory infiltration rather than tumor dissemination. The results will directly affect the subsequent treatment direction, because the treatments for malignancy and IgG4-related disease are completely different, and misdiagnosis would delay the optimal timing of treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology ruled out lymphoma",
+          "why_order_this_exam": "The key to the diagnosis in this case lies in histopathology. The patient has generalized lymphadenopathy, pleural nodules, diffuse elevation of the airway mucosa, recurrent pleural effusion, anemia, and hypergammaglobulinemia. Clinically, lymphoma, metastatic tumor, TB, and IgG4-related disease had all been considered. Previous pathology showed only chronic inflammation or a small amount of atypical lymphoid hyperplasia, which cannot fully explain the systemic involvement; therefore, more adequate and more representative pathologic examination remains essential. The central questions that pathology must address include: whether lymphoma or another malignant tumor is present; whether there is evidence of infectious granulomas such as TB or fungal infection; and whether there are characteristic lymphoplasmacytic infiltration and fibrotic changes of IgG4-related disease. The pathology results are निर्णutive for the final diagnosis, exclusion of important differential diagnoses, assessment of the safety of glucocorticoid/immunosuppressive therapy, and formulation of the subsequent treatment plan.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Serum IgG4 13.3 g/L elevated, ESR 108 mm/L increased, CRP elevated, globulin markedly elevated; thoracoscopy showed scattered nodular protrusions on the parietal pleura, biopsy of the right anterior chest wall lesion; lymphadenopathy at multiple sites, bilateral pleural effusion, anti-infective and anti-tuberculosis treatment ineffective; prior decreased libido, infantile genitalia, pituitary tumor possible; TB- and tumor-related examinations were all negative, and pathology excluded lymphoma.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstICSuz0VtlYibUQ1L0fxJJvsd8tDcm2xyBSnwQjpORnq4EGUASicoSuqhIgLxdDziagUYOcsI2XIGPqQ/640?wx_fmt=png",
+          "near_text": "Figure 7: Thoracoscopic findings from Day +321",
+          "local_src": "cleaned_cases_image_cache/0e391745f478ba68133d7ac02bc4525efb4f6419.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "IgG4-related disease",
+      "diagnostic_basis": [
+        "Chronic course, recurrent cough and shortness of breath",
+        "Repeated pleural effusion studies for infection and malignancy; prior pathology excluded malignancy and hematologic proliferative disorders",
+        "Serum IgG4 and thoracoscopic pathology support"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [],
+      "treatment_response": []
+    }
+  }
+}

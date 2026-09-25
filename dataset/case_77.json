@@ -1,0 +1,278 @@
+{
+  "status": "success",
+  "case_id": "case_77",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 49-year-old man presented to a local hospital for \"cough, sputum production, and hemoptysis\" and was diagnosed with severe pulmonary infection and diabetic ketoacidosis. He had a more than 20-year history of diabetes mellitus without regular diagnosis or treatment. Over a period of more than 1 month, the patient was treated at several hospitals in Hebei and sequentially received antibacterial and anti-TB treatment, among others, all without effect. The condition continued to progress, with disseminated lesions appearing in both lungs, involving the bilateral upper lungs and bilateral lower lungs. One month ago, the patient presented to a tertiary hospital in Beijing and was diagnosed with pulmonary mucormycosis. He was immediately started on intravenous liposomal amphotericin B sulfate complex (300 mg/day) combined with posaconazole (300 mg/day). However, after 1 month of full-dose treatment, his symptoms still did not improve. By the time he presented to our hospital, the pulmonary lesions had continued to progress. Chest CT showed spread of mucormycosis infection in the left upper lobe and the right upper, middle, and lower lobes. The patient himself had also developed listlessness, decreased appetite, worsening hemoptysis, and a 20 kg weight loss.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUWiaNNYEZSceMensw1LYiahsSMnYBtvfvYW10SLIRqn6eUJRr51ibLby17VPRnFkAv7RsI4TOYiaXmw/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT performed at an outside hospital showed multiple lesions in both lungs, predominantly involving the bilateral upper lungs, with cavitation in some lesions.",
+          "local_src": "cleaned_cases_image_cache/78ef9f9960529331dd67eb18af6b9869807c7111.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary mucormycosis (invasive pulmonary mucormycosis)",
+          "supporting_evidence": [
+            "A 49-year-old man with a history of diabetes mellitus for more than 20 years, without regular diagnosis and treatment, and with prior diabetic ketoacidosis; this is an important high-risk background for invasive mucormycosis.",
+            "The symptoms were “cough, sputum production, hemoptysis,” and at presentation “worsening hemoptysis,” which are consistent with common manifestations of invasive fungal infection, especially angioinvasive fungal disease.",
+            "The condition has continued to progress over more than 1 month, with disseminated lesions in both lungs involving the bilateral upper and lower lungs, suggesting an invasive, progressive pulmonary disease.",
+            "The text in the first stage already mentioned that at a tertiary hospital in Beijing, he was previously “diagnosed with pulmonary mucormycosis,” and subsequent chest CT indicated “spread of mucormycosis infection in the left upper lobe and the right upper, middle, and lower lobes.”",
+            "The attached chest CT images show multiple areas of consolidation/nodular lesions in both lungs, with more prominent lesions in the upper lungs. Some lesions demonstrate necrotic or cavitary changes. The imaging findings support invasive fungal infection."
+          ],
+          "opposing_evidence": [
+            "After 1 month of adequate antifungal therapy, symptoms still did not improve, and the pulmonary lesions continued to progress, indicating that isolated pulmonary mucormycosis cannot fully explain the entire clinical course.",
+            "No direct etiologic or histopathologic evidence was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Other invasive pulmonary mold infections (such as invasive pulmonary aspergillosis)",
+          "supporting_evidence": [
+            "The patient has long-standing diabetes mellitus and a prior episode of diabetic ketoacidosis, placing the patient in a high-risk group for invasive fungal infection.",
+            "There are cough, sputum production, and hemoptysis, and the hemoptysis has worsened, consistent with clinical manifestations seen in invasive mold infection.",
+            "The lesions are disseminated in both lungs and continue to progress, suggesting invasive pulmonary infection.",
+            "The accompanying CT images show multiple areas of consolidation/nodular lesions in both lungs, some with a tendency toward cavitary necrosis; this type of imaging manifestation can also be seen in invasive pulmonary aspergillosis and other mold infections."
+          ],
+          "opposing_evidence": [
+            "The text in the first stage has clearly indicated that the patient had previously been diagnosed with \"pulmonary mucormycosis\"; compared with other mold infections, the currently available information more directly supports Mucor rather than Aspergillus.",
+            "Phase 1 information did not provide typical laboratory evidence related to Aspergillus, such as mycological or serological indications."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Active pulmonary TB (including cavitary TB or endobronchial spread TB)",
+          "supporting_evidence": [
+            "The patient has \"cough, sputum production, hemoptysis,\" and a 20 kg weight loss, all of which can be seen in pulmonary TB.",
+            "Lesions involve the bilateral upper and lower lungs, and the disseminated bilateral pulmonary lesions have some imaging overlap with endobronchial spread or hematogenous dissemination of TB.",
+            "The accompanying CT images show lesions predominantly involving the upper lungs, with some lesions demonstrating cavitary/necrotic changes; an upper-lung-predominant distribution can be seen in pulmonary TB."
+          ],
+          "opposing_evidence": [
+            "Sequential courses of “anti-TB and other treatments were all ineffective,” reducing the likelihood of active pulmonary TB as the primary etiology.",
+            "The patient has diabetic ketoacidosis, a stronger risk factor for invasive fungal infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Necrotizing bacterial pneumonia/lung abscess (including Staphylococcus aureus, Klebsiella, etc.)",
+          "supporting_evidence": [
+            "The initial presentation was “cough, sputum production, hemoptysis”; at the local hospital, the initial diagnosis was “severe pulmonary infection,” which was clinically consistent with necrotizing bacterial pneumonia.",
+            "Poor glycemic control in diabetes can increase the risk of severe bacterial infection.",
+            "The attached CT images show multiple areas of consolidation, with some lesions demonstrating a tendency toward necrosis or cavitation, as can be seen in necrotizing pneumonia or lung abscess."
+          ],
+          "opposing_evidence": [
+            "After “antibacterial” treatment was ineffective and the condition continued to progress, the likelihood of simple bacterial pneumonia/lung abscess was reduced.",
+            "Disseminated bilateral lung lesions with persistent progression involving multiple lobes and marked weight loss are more suggestive of a chronic invasive etiology rather than an ordinary bacterial infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary nocardiosis",
+          "supporting_evidence": [
+            "The patient has long-standing diabetes mellitus with a protracted progressive course and belongs to a population at relatively high risk for opportunistic infection.",
+            "Clinically, pulmonary nocardiosis may present as a chronic progressive pulmonary infection with cough, sputum production, hemoptysis, and weight loss.",
+            "The accompanying CT images show multiple nodules/consolidations, which may be accompanied by cavitary necrotic changes, overlapping with the imaging manifestations of pulmonary nocardiosis."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide more typical background factors for Nocardia infection, such as explicit immunosuppressive therapy or organ transplantation.",
+            "The text in the first stage already contained more direct information indicating mucormycosis infection."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Malignant lung tumor with necrotic cavitation or intrapulmonary metastasis",
+          "supporting_evidence": [
+            "The patient has hemoptysis, decreased appetite, listlessness, and a 20 kg weight loss, which are warning signs that may be seen in malignant tumors.",
+            "The accompanying CT images show multiple lesions in both lungs, some with necrotic/cavitary changes; certain lung cancers or metastatic tumors may also present with similar findings."
+          ],
+          "opposing_evidence": [
+            "During the course of the illness, the patient had been diagnosed with \"severe pulmonary infection, diabetic ketoacidosis,\" and diabetic ketoacidosis was present as a strong background risk factor for infection; therefore, an infectious etiology is prioritized.",
+            "Disseminated progression in both lungs involving multiple lobes; in conjunction with sputum production, this is more suggestive of an infectious disease rather than a simple primary pulmonary malignancy.",
+            "Phase I information did not provide clues to a primary tumor or definitive oncologic evidence."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen panel (9 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal (1,3)-β-D-glucan test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal GM assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, chest CT showed multiple patchy and confluent infiltrative consolidative opacities in the left upper lobe and the right upper, middle, and lower lobes. Arterial blood gas analysis indicated type I respiratory failure. Tumor markers, a nine-respiratory-pathogen panel, fungal D-glucan testing, the fungal GM test, and Mycobacterium tuberculosis antibody testing showed no obvious abnormalities; repeated sputum cultures were negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUWiaNNYEZSceMensw1LYiah1djSzLQlZ9wMxPKZJdQwSHVpmH62gIG884qHXsKed3dLFh5bjxI8FA/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT on admission showed multiple patchy and confluent intrapulmonary infiltrative consolidation opacities, a large area of consolidation with cavitation in the right upper lung, and a fungal ball in the left upper lung.",
+            "local_src": "cleaned_cases_image_cache/20c2e61a2d1c3c92c5706072ac19760ac7ce1f69.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIUWiaNNYEZSceMensw1LYiahiaMsCSYx9cAvsKOGd4EclZoZmRw7j1caEUPabSMNnWbOeOK4UBCznicg/640?wx_fmt=jpeg",
+            "near_text": "Figure 9: Chest CT at admission",
+            "local_src": "cleaned_cases_image_cache/cb04be7926a670b798f36264076d164e5040dfb8.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "pulmonary mucormycosis",
+            "evidence": [
+              "1 month ago, the patient was seen at a tertiary hospital in Beijing and was diagnosed with pulmonary mucormycosis."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "pulmonary mucormycosis",
+        "evidence": [
+          "1 month ago, the patient was seen at a tertiary hospital in Beijing and was diagnosed with pulmonary mucormycosis."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Flexible bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy performed on Day 0 showed: a polyp in the lower airway; the airway of the anterior segment of the right upper lobe was completely obstructed by white viscous secretions; white viscous secretions in the apical segment of the left upper lobe.",
+          "why_order_this_exam": "The patient is a high-risk host with long-standing poorly controlled diabetes mellitus and a prior episode of diabetic ketoacidosis. Over more than 1 month, cough, sputum production, and hemoptysis have shown continuous progression, accompanied by listlessness, decreased appetite, and a 20 kg weight loss. There has been no improvement despite sequential antibacterial, anti-TB, and adequate antifungal therapy. Chest CT showed disseminated progressive consolidative lesions involving multiple lobes in both lungs, and type I respiratory failure has already developed. At this time, flexible bronchoscopy can, on the one hand, directly assess whether there are necrotic materials, polypoid lesions, white viscous secretions, or luminal obstruction within the airway, thereby explaining the hemoptysis, persistent infection, and localized obstructive changes; on the other hand, it can obtain specimens from deep lesions and secretions, providing a basis for subsequent pathology, special stains, and pathogen testing. The core issues this examination is intended to address are whether the lesions involve the bronchial lumen, whether there are lesions amenable to sampling, and whether there is direct morphologic evidence of a persistently progressive pulmonary infection; it also helps assess the feasibility of subsequent interventional removal of obstructing material and local therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic biopsy tissue pathology",
+          "basis_in_stage3_input": "Histopathology of the bronchoscopic biopsy tissue showed inflammatory necrosis with aseptate hyphae present; the hyphae were broad, irregularly arranged, and showed right-angle branching, with morphology consistent with Mucorales.",
+          "why_order_this_exam": "Although pulmonary mucormycosis had previously been considered at another hospital in this case, the patient's symptoms and imaging continued to progress after 1 month of treatment with amphotericin B lipid complex combined with posaconazole. Based on the clinical presentation and CT alone, it was difficult to completely exclude other invasive fungal infections, TB, necrotizing bacterial infection, or even tumor. The patient also had severe manifestations including worsening hemoptysis, disseminated bilateral pulmonary lesions, and marked weight loss; therefore, direct histologic evidence had to be obtained. The purpose of bronchoscopic biopsy histopathology was to determine whether tissue invasion, inflammatory necrosis, and fungal hyphal morphology were present, and to clarify whether the pathogen was consistent with the characteristics of Mucorales, thereby establishing a definitive diagnosis rather than merely presuming infection. This examination is particularly critical for distinguishing mucormycosis from aspergillosis and other mold infections, excluding malignant tumor or other necrotizing lesions, and it directly affects whether to continue intensified anti-mucormycosis therapy and combine it with bronchoscopic interventional removal of the lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS special stain",
+          "basis_in_stage3_input": "Special stains: PAS (+), Gomori methenamine silver (+), acid-fast stain (-).",
+          "why_order_this_exam": "The patient's protracted course, disseminated imaging findings, and lack of response to multiple empiric treatments suggest the need to further improve the detection and confirmation of fungal elements on a pathologic basis. PAS staining can highlight fungal elements in tissue, helping to more clearly demonstrate hyphae against a background of inflammatory necrosis and to verify whether the pathogen seen on bronchoscopic biopsy truly exists within the tissue rather than representing contamination. For a patient like this case, with a high suspicion of invasive fungal infection and already developing airway obstruction and worsening hemoptysis, PAS staining is intended to determine whether fungal tissue invasion is present within the lesion and whether the pathologic morphology supports invasive fungal disease. The result helps strengthen the pathologic evidence chain for mucormycosis, corroborates routine HE and other special stains, and provides a basis for definitive diagnosis and continuation of the antifungal regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "basis_in_stage3_input": "Special stains: PAS (+), Gomori methenamine silver (+), acid-fast stain (-).",
+          "why_order_this_exam": "Because the patient was clinically severe, progressive, and had disseminated bilateral pulmonary lesions, while routine serologic tests before and after admission at the outside hospital, such as D-glucan and the GM test, showed no significant abnormalities, and sputum cultures were repeatedly negative, special histochemical stains in tissue were particularly important for confirming fungal infection. Gomori methenamine silver stain can more clearly demonstrate the fungal cell wall and hyphal contours, helping identify the distribution and invasiveness of hyphae in deep tissue. In this case, the core purpose of ordering this test was to further confirm the presence of fungi in pathologic necrotic tissue and, together with morphologic clues such as broad, nonseptate hyphae and right-angle branching, increase the diagnostic confidence for mucormycosis while reducing the risk of misinterpreting necrotic debris or fibrinoid material as pathogens. This result is of important value for confirming invasive fungal disease and supporting the continuation of a treatment strategy directed against Mucorales.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast special stain",
+          "basis_in_stage3_input": "Special stains: PAS (+), Gomori methenamine silver (+), acid-fast stain (-).",
+          "why_order_this_exam": "The patient’s initial symptoms included cough, sputum production, and hemoptysis, with marked weight loss and disseminated lesions involving both lungs, especially the upper lungs; these manifestations overlap with pulmonary TB. Although prior anti-TB treatment was ineffective and there was no obvious abnormality in Mycobacterium tuberculosis antibody testing, this is still insufficient to completely exclude TB or mycobacterial infection. Especially when imaging shows a tendency toward necrosis, consolidation, or even cavitation, acid-fast staining on pathologic specimens is helpful for directly evaluating for mycobacteria. The clinical question this test is intended to address is: whether the current lesions are caused by TB or other acid-fast bacilli, or whether there is a mixed infection coexisting with fungi. A negative acid-fast result can narrow the differential diagnosis, support that the lesions are not primarily caused by mycobacteria, thereby avoiding continued inappropriate anti-TB treatment, and more clearly shift the diagnostic and therapeutic focus to mucormycosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Metagenomic next-generation sequencing (mNGS) of pathologic tissue",
+          "basis_in_stage3_input": "Metagenomic next-generation sequencing (mNGS) of pathologic tissue showed Rhizomucor pusillus.",
+          "why_order_this_exam": "This patient had severe disease with rapid progression, in the setting of long-standing diabetes mellitus and diabetic ketoacidosis. The bilateral lung lesions continued to spread after 1 month of adequate combination antifungal therapy, indicating that empiric judgment alone was insufficient and that more precise etiologic classification was urgently needed. Although the morphologic features on bronchoscopic biopsy pathology were already highly suggestive of Mucorales, different pathogens within the order Mucorales are often difficult to identify precisely to the genus or species level based on morphology alone, and routine sputum culture was negative and serologic testing was insensitive. Performing mNGS on the pathologic tissue was mainly intended to address precise pathogen identification, confirm the pathologic suggestion of Mucorales infection, identify the specific causative organism as much as possible, such as Rhizomucor dailiensis, and evaluate for possible coinfection with other pathogens. This test was of major significance for final confirmed diagnosis, strengthening the etiologic evidence, supporting continuation of systemic and local treatment directed against Mucorales, and assessing whether a change in strategy was needed when treatment response was poor.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After admission, electronic bronchoscopy performed on Day 0 showed: a polyp in the lower airway; the anterior segment of the right upper lobe airway was completely obstructed by white, viscous secretions; and white, viscous secretions were present in the apical segment of the left upper lobe. Histopathology of bronchoscopic biopsy tissue showed inflammatory necrosis, within which broad aseptate hyphae were seen, arranged haphazardly, with right-angle branching, morphologically consistent with Mucorales. Special stains: PAS (+), GMS (+), acid-fast (-). Metagenomic next-generation sequencing (mNGS) of pathologic tissue identified Rhizomucor delemar.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUWiaNNYEZSceMensw1LYiah3w6K5LqxYaG7RWPs6RuuP0mrYt2y0z5OmheVF3aOiadvfcL03SrAg0g/640?wx_fmt=png",
+          "near_text": "Figure 3 (left): right upper lobe bronchus; Figure 4 (right): apical segment of the left upper lobe: bronchoscopy showed necrotic mucormycosis material obstructing the airway",
+          "local_src": "cleaned_cases_image_cache/2c8e7f9fa98bf8e502a3d491ff9a27626b320704.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUWiaNNYEZSceMensw1LYiahhgd0Iiaa72RfFT7QNkTLWLaSawIY3x5PDibtjEkqQlic6prA69DqDIdKA/640?wx_fmt=png",
+          "near_text": "Figures 5-6: Pathology shows abundant mucormycotic hyphae within necrotic tissue",
+          "local_src": "cleaned_cases_image_cache/935605bca82a9c6b5cef6796adad8d41581a4196.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUWiaNNYEZSceMensw1LYiahGqbZiadFIcibOMeNuOSk9LQzeAStGjqN6hytAOTGhsEuWJEj7GLmfD4Q/640?wx_fmt=png",
+          "near_text": "Figure 7 (left): right lung; Figure 8 (right): left lung, bronchopulmonary lesions removed by bronchoscopy interventional treatment including cryotherapy.",
+          "local_src": "cleaned_cases_image_cache/58d738f3474b277dd57d8fd841372885454a8fb5.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIUWiaNNYEZSceMensw1LYiahS71PGDibugoKSCcekYUQMt64NxdDuVTxFiaBdiaXwLWRGI2s89tSWFhAw/640?wx_fmt=jpeg",
+          "near_text": "Figure 10: Chest CT at discharge: interval of 41 days",
+          "local_src": "cleaned_cases_image_cache/bc93e88759fda70b7842e5e3a868ea16fb90d584.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Disseminated pulmonary mucormycosis",
+      "diagnostic_basis": [
+        "Histopathology of bronchoscopic biopsy tissue showed inflammatory necrosis, within which broad aseptate hyphae were seen, arranged irregularly, with right-angle branching, morphologically consistent with Mucorales.",
+        "Special stains: PAS (+), Gomori methenamine silver (+), acid-fast stain (-)",
+        "Pathologic tissue metagenomic next-generation sequencing (mNGS) identified Delitschia."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Intravenous systemic therapy with amphotericin B lipid complex sulfate (300 mg/day) combined with posaconazole (300 mg/day)",
+        "Amphotericin B 10 mg bid by nebulized inhalation",
+        "Weekly local targeted instillation of amphotericin B under navigational and endobronchial ultrasound bronchoscopy guidance",
+        "Bronchoscopic cryotherapy with complete cryoextraction and removal of the right endobronchial lesion",
+        "The pulmonary fungus ball in the apical segment of the left upper lobe was also completely removed by bronchoscopic interventional treatment.",
+        "Symptomatic treatment for the patient's underlying diseases, including glucose-lowering therapy",
+        "Use potassium supplementation and potassium-sparing diuretics",
+        "Continue oral posaconazole tablets after discharge"
+      ],
+      "treatment_response": [
+        "During treatment, the patient developed hypokalemia; after administration of potassium supplementation and potassium-sparing diuretics, the serum potassium level remained within the normal range.",
+        "After approximately 1.5 months of treatment, follow-up chest CT showed that the pulmonary lesions had almost completely resolved compared with before."
+      ]
+    }
+  }
+}

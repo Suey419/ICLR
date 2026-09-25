@@ -1,0 +1,466 @@
+{
+  "status": "success",
+  "case_id": "case_9",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 68 years old, was admitted on Day 0 due to cough and sputum production for more than 20 days, hemoptysis for 12 days, with worsening for 2 days. More than 20 days before admission, after catching a cold, the patient developed cough with a small amount of white sticky sputum, without fever or hemoptysis. He took cough suppressant medication on his own (details unknown), with no significant improvement in cough. Twelve days before admission, hemoptysis developed, characterized by bright red mucus mixed with white sticky sputum, with a small amount of sputum, accompanied by fatigue, without obvious shortness of breath, fever, or night sweats, and without chest tightness or chest pain. He presented to Yanliang District People's Hospital of Xi'an, where chest CT showed a small amount of patchy opacities in both lower lungs. Complete blood count: WBC 5.4×10^9/L, neutrophil percentage 85.2%, RBC 3.34×10^12/L, hemoglobin 102g/L, platelets 333×10^9/L. Coagulation panel: fibrinogen 6.75g/L, D-dimer 0.55mg/L, with no other obvious abnormalities. Urinalysis: RBC 3+. Renal function was roughly normal. Abdominal ultrasound suggested bilateral renal parenchymal changes, considered acute kidney injury. Hemostatic, anti-infective, and other treatments were given (details unknown). The sputum was white and sticky, with dark red mucus. Two days before admission, the volume of hemoptysis increased significantly, consisting of mouthfuls of bright red blood, approximately 100ml/day, and he was therefore transferred to the emergency department of our hospital. Repeat chest CT showed large areas of infiltrative opacities in both lungs, with increased density and greater extent compared with before. After consultation by our department, he was admitted to our department with the diagnosis of \"hemoptysis of unknown etiology.\" Since onset of illness, the patient had poor mental status and appetite, with decreased urine and stool output. Past history included hypertension for more than 1 year, with a highest recorded blood pressure of 200/100mmHg. He was taking levamlodipine tablets 2.5mg once daily, and blood pressure was fairly well controlled. No history of diabetes, coronary artery disease, hepatitis, or TB. Smoking history of more than 30 years, averaging 20 cigarettes/day; alcohol use for more than 30 years, averaging 6-7 liang/day. No similar family history. Physical examination on admission: T 36.5℃, P 96/min, R 23/min, BP 154/65mmHg, on oxygen by face mask at 12L/min, oxygen saturation 90-95%. Oxygenation index 80mmHg (arterial blood gas analysis: pH 7.452, pCO2 27.5mmHg, pO2 55.5mmHg, HCO3- 18.9mmol/l). Thin body habitus, lips slightly pale, decreased breath sounds in both lungs, scattered moist crackles audible, no wheezing heard. Heart rate 96/min, heart sounds strong, regular rhythm, no murmur heard. Abdomen soft, no tenderness or rebound tenderness, no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmaQ0icwiatt2nsUZiaemRcRicgpNZF4ZsAI6rib2qs7jic9e3VjAZyEydeC6Yg/640?wx_fmt=jpeg",
+          "near_text": "09-11",
+          "local_src": "cleaned_cases_image_cache/d1569bc85a15d1490a3b7535a644740575fb3aa7.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmaQn0HEe6Wzseiadv6lDUpXgOIlb8Kia3FWyrT92b3ibewmPlB0LX0Bw8xA/640?wx_fmt=jpeg",
+          "near_text": "09-20",
+          "local_src": "cleaned_cases_image_cache/da22f7989c172da0caca8b6ad72ae7bbcab2846e.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Diffuse alveolar hemorrhage syndrome (pulmonary-renal syndrome; ANCA-associated vasculitis or anti-GBM disease should be considered)",
+          "supporting_evidence": [
+            "Hemoptysis for 12 days, with a marked increase in the volume of hemoptysis 2 days ago, consisting of mouthfuls of bright red blood, approximately 100 ml/day",
+            "Repeat chest CT showed extensive bilateral pulmonary infiltrative opacities, with increased density and more extensive involvement than previously; review of the attached chest CT images shows multiple bilateral patchy/confluent areas of consolidation or ground-glass infiltrative opacities in both lungs, more prominent in the mid and lower lungs, consistent with one of the imaging features of diffuse alveolar hemorrhage",
+            "With oxygen delivered by face mask at 12 L/min, oxygen saturation remained 90-95%. Arterial blood gas showed pO2 55.5 mmHg and oxygenation index 80 mmHg, indicating severe hypoxemia, which can be seen in diffuse alveolar hemorrhage.",
+            "RBC count 3.34×10^12/L, hemoglobin 102g/L, lips slightly pale, suggesting possible blood loss- or bleeding-related anemia",
+            "Urinalysis: red blood cells 3+; abdominal ultrasound suggested bilateral renal parenchymal changes, acute kidney injury was considered, with clues to a pulmonary-renal syndrome with pulmonary hemorrhage and renal involvement",
+            "No fever; total white blood cell count 5.4×10^9/L, which does not support a typical severe febrile bacterial infection; noninfectious hemorrhagic lung disease should be considered more strongly."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no definite history of autoimmune disease, rash, sinusitis, arthralgia, or other accompanying manifestations of systemic vasculitis was provided.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Severe community-acquired pneumonia/hemorrhagic pneumonia",
+          "supporting_evidence": [
+            "History of cold exposure before onset, followed by cough and expectoration of white sticky sputum for more than 20 days",
+            "Initial chest CT showed a small amount of patchy opacity in both lower lungs; later it progressed to extensive exudative opacities in both lungs, with increased density and greater extent than before; the attached CT images show multifocal exudative/consolidative opacities in both lungs, consistent with the imaging appearance of infectious pneumonia.",
+            "Physical examination: decreased breath sounds in both lungs, with scattered moist rales audible.",
+            "Marked hypoxemia and a respiratory rate of 23 breaths/min are present, suggesting a severe pulmonary process",
+            "Neutrophil percentage increased to 85.2%, which may support bacterial infection or a stress response"
+          ],
+          "opposing_evidence": [
+            "No fever throughout the course; total white blood cell count 5.4×10^9/L, with no strong evidence of infectious inflammation",
+            "Hemoptysis is a relatively prominent manifestation, and the volume can reach approximately 100 ml/day, which is more severe than in typical common pneumonia; other hemorrhagic causes should be considered.",
+            "Urinalysis: red blood cells 3+ and acute kidney injury should be considered; these cannot be adequately explained by ordinary pneumonia alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary TB (active pulmonary TB with hemoptysis)",
+          "supporting_evidence": [
+            "Elderly male, cough and sputum production for more than 20 days and hemoptysis for 12 days; hemoptysis is one of the common manifestations of pulmonary TB",
+            "The attached CT images show lesions in both lungs, with scattered abnormal opacities also seen in the upper lungs; TB should be included in the differential diagnosis.",
+            "Thin body habitus; poor energy and appetite after illness, seen in wasting diseases"
+          ],
+          "opposing_evidence": [
+            "No fever or night sweats; the history clearly indicates no history of TB",
+            "Imaging was characterized predominantly by rapidly progressive extensive infiltrative opacities in both lungs; in the first stage, there was no clear description of features more suggestive of TB such as cavitation or tree-in-bud pattern.",
+            "The presence of urine red blood cells 3+ together with suspected acute kidney injury further suggests the possibility of a systemic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Primary lung cancer with hemorrhage and post-obstructive infection / tumor-associated alveolar hemorrhage",
+          "supporting_evidence": [
+            "Male, 68 years old, has smoked for more than 30 years, averaging 20 cigarettes/day, and is in a high-risk group for lung cancer",
+            "Hemoptysis is one of the common initial presentations of lung cancer",
+            "The attached CT images show bilateral pulmonary infiltrative opacities, but on some slices the lesions around the hilar regions are more prominent; the possibility of a central lesion with surrounding inflammatory or hemorrhagic changes should be considered.",
+            "Thin body habitus and poor appetite suggest that the possibility of malignancy cannot be ignored."
+          ],
+          "opposing_evidence": [
+            "In the first stage, chest CT was described as showing a small amount of patchy opacities in both lower lungs, which later progressed to extensive exudative opacities in both lungs; there was no definite mention of a space-occupying lesion, mass, hilar or mediastinal lymphadenopathy, or signs of bronchial obstruction.",
+            "The course is relatively acute, and the bilateral diffuse progression on imaging is more suggestive of inflammation or a diffuse hemorrhagic process.",
+            "Urinalysis showed red blood cells 3+, and the renal changes are not easily explained by lung cancer alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Cardiogenic pulmonary edema / hypertensive acute left heart failure with bloody sputum",
+          "supporting_evidence": [
+            "Past history of hypertension, with the highest blood pressure 200/100mmHg",
+            "The attached CT images show bilateral infiltrative opacities in both lungs, some of which may overlap with the imaging appearance of pulmonary edema.",
+            "Severe hypoxemia may be seen in acute pulmonary edema"
+          ],
+          "opposing_evidence": [
+            "No chest tightness or chest pain. On physical examination, no cardiac murmur was heard, there was no edema in either lower extremity, and there were no typical signs of increased volume load.",
+            "Hemoptysis is predominantly mouthfuls of bright red blood, which is atypical compared with the pink frothy sputum more commonly seen in isolated cardiogenic pulmonary edema.",
+            "Urine red blood cells 3+ and consideration of acute kidney injury are more suggestive of pulmonary-renal syndrome rather than simple heart failure.",
+            "In the first stage, no supporting information such as cardiomegaly or elevated BNP was provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary embolism with pulmonary infarction",
+          "supporting_evidence": [
+            "May present with hemoptysis, hypoxemia, and peripheral wedge-shaped or patchy infiltrative opacities in the chest",
+            "D-dimer 0.55 mg/L not completely negative",
+            "The patient is of advanced age; pre-admission functional status is unknown; high-risk diseases should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "No obvious chest pain or chest tightness; no lower extremity edema",
+            "Imaging shows extensive, progressive, multiple exudative opacities in both lungs, more prominent in the lower lungs, and is even less consistent with the typical presentation of focal pulmonary infarction.",
+            "The course began with cough and sputum production, with hemoptysis gradually developing; this is not the most common presenting pattern of pulmonary embolism.",
+            "Urine red blood cells 3+ and suspected acute kidney injury cannot be well explained by pulmonary embolism"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac markers of myocardial infarction",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody titer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Systemic vasculitis panel",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the patient had intermittent expectoration of mouthfuls of bright red blood, averaging 1 mouthful/h. At around 12:00 noon, complete blood count showed: white blood cell count 8.67×10^9/L, neutrophil percentage 87.5%, red blood cell count 2.00×10^12/L, hemoglobin 63 g/L, platelet count 334×10^9/L. Liver and kidney function were roughly normal. At 5:00 PM on the afternoon of admission, the patient's condition worsened, and oxygen saturation decreased to a nadir of 70%. Physical examination: pale complexion, pale lips, and abundant moist rales audible in both lungs. Repeat complete blood count: white blood cell count 8.67×10^9/L, neutrophil percentage 87.5%, red blood cell count 2.00×10^12/L, hemoglobin 63 g/L, platelet count 334×10^9/L. Liver and kidney function were roughly normal. Bedside bronchoscopy was performed, which showed extensive fresh bleeding in the bilateral bronchi. Arterial blood gas analysis repeated 2 hours after intubation: pH 7.347, pCO2 35 mmHg, pO2 67.8 mmHg, HCO3- 18.7 mmol/L.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "Acute onset",
+              "Mild elevation of inflammatory markers",
+              "Imaging showed patchy opacities in both lungs"
+            ],
+            "exclusion_reasons": [
+              "At the outside hospital, anti-infective and hemostatic treatment was administered with poor effect, and the volume of hemoptysis gradually increased.",
+              "Rapid worsening after anti-infective treatment"
+            ]
+          },
+          {
+            "name": "Pulmonary thromboembolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "D-dimer normal",
+              "No chest pain; dyspnea symptoms"
+            ]
+          },
+          {
+            "name": "Systemic diseases (pulmonary hemorrhage-nephritis syndrome, systemic vasculitis)",
+            "evidence": [
+              "Ultrasound suggested evidence of renal injury in the patient",
+              "Urine occult blood 3+"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Rupture of an anomalous bronchial artery vessel",
+            "evidence": [],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary infection",
+        "evidence": [
+          "Acute onset",
+          "Mild elevation of inflammatory markers",
+          "Imaging showed patchy opacities in both lungs"
+        ],
+        "exclusion_reasons": [
+          "At the outside hospital, anti-infective and hemostatic treatment was administered with poor effect, and the volume of hemoptysis gradually increased.",
+          "Rapid worsening after anti-infective treatment"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary thromboembolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "D-dimer normal",
+          "No chest pain; dyspnea symptoms"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Systemic diseases (pulmonary hemorrhage-nephritis syndrome, systemic vasculitis)",
+        "evidence": [
+          "Ultrasound suggested evidence of renal injury in the patient",
+          "Urine occult blood 3+"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Rupture of an anomalous bronchial artery vessel",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Systemic vasculitis panel",
+          "basis_in_stage3_input": "Systemic vasculitis panel: pANCA positive, MPO positive.",
+          "why_order_this_exam": "The patient presented with progressive hemoptysis, rapidly worsening diffuse bilateral pulmonary infiltrative opacities, severe hypoxemia, and extensive fresh bleeding in the bilateral bronchi on bronchoscopy, accompanied by positive occult blood in urine and renal abnormalities. Clinically, it is first necessary to determine whether this is pulmonary-renal syndrome. A systemic vasculitis panel, especially ANCA and MPO, helps determine whether ANCA-associated small-vessel vasculitis is present, and is the key test for establishing microscopic polyangiitis as the core etiology, differentiating it from simple infectious pneumonia or other non-immune hemorrhagic diseases, and deciding whether to promptly initiate immunotherapy such as pulse corticosteroids, cyclophosphamide, and plasma exchange.",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody titer",
+          "basis_in_stage3_input": "Antinuclear antibody titer: ANA positive, nucleolar pattern, 1:1000 weakly positive.",
+          "why_order_this_exam": "The patient has manifestations of diffuse alveolar hemorrhage and renal involvement. In addition to ANCA-associated vasculitis, connective tissue disease-related pulmonary-renal involvement should also be considered in the differential diagnosis. The antinuclear antibody titer can be used to assess whether there is an underlying systemic autoimmune background, helping differentiate isolated ANCA-associated vasculitis from overlap with or alternative diagnoses of other immune-mediated diseases; the result also provides a basis for subsequent rheumatology consultation, further immunologic classification, and determination of the intensity of immunosuppression.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up ultrasound",
+          "basis_in_stage3_input": "Follow-up ultrasound showed diffuse bilateral renal disease, with patent blood flow in both lower extremities.",
+          "why_order_this_exam": "In addition to diffuse pulmonary hemorrhage, the patient had positive urine RBCs, oliguria, and outside-hospital findings suggesting bilateral renal parenchymal changes early in the course. Further confirmation is needed as to whether there is renal involvement and its extent. Repeat ultrasound can dynamically assess diffuse bilateral renal lesions and support the diagnosis of pulmonary-renal syndrome; at the same time, evaluation of blood flow in both lower extremities can screen for clues of lower-extremity venous thrombosis in the context of critical hospitalization, hypoxemia, and limited mobility, assisting in the differential diagnosis from pulmonary embolism and other conditions. This examination is valuable for clarifying the extent of multisystem involvement and assessing the risk of subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "basis_in_stage3_input": "Urinalysis: occult blood 3+, protein 2+, glucose 1+.",
+          "why_order_this_exam": "During the course of the disease, pulmonary manifestations were prominent, but there were also clues of renal involvement. Urinalysis is the basic test for determining whether pulmonary-renal syndrome is present. Urine occult blood 3+ and urine protein 2+ suggest possible glomerular involvement, can provide direct evidence for nephritis caused by ANCA-associated vasculitis, and help distinguish it from diseases confined to the lungs, such as isolated pulmonary infection and bronchial hemorrhage. These results can also be used for dynamic monitoring of the progression of renal injury and for assessing whether more aggressive immunosuppression and plasma exchange are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat renal function tests",
+          "basis_in_stage3_input": "Renal function was rechecked after the first plasma exchange: Cr 99 umol/L, BNU 10.65 mmol/L, ALB 26.2 g/L.",
+          "why_order_this_exam": "The patient is considered to have ANCA-associated vasculitis and has already shown clues of renal involvement, and has received treatments such as plasma exchange and steroid pulse therapy; dynamic assessment is needed to determine whether renal function is worsening or improving. Repeat renal function tests can clarify changes in serum creatinine and blood urea nitrogen and assess the degree of vasculitis-related renal injury and treatment response; meanwhile, hypoalbuminemia helps reflect systemic inflammation, exudation, and nutritional status, and can guide subsequent albumin supplementation, fluid management, and medication dosage adjustment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "DIC panel",
+          "basis_in_stage3_input": "DIC panel: 3P test positive, FDP 14.42 ug/ml, D-dimer 4.967 ug/ml, no other obvious abnormalities.",
+          "why_order_this_exam": "The patient previously had persistent massive hemoptysis, with hemoglobin rapidly decreasing from 102 g/L to 63 g/L, and received blood transfusion, hemostatic therapy, and intensive supportive treatment. Whether the bleeding is accompanied by abnormal consumptive coagulopathy must be assessed promptly. The DIC panel can help determine whether disseminated intravascular coagulation or secondary hyperfibrinolysis is present, thereby distinguishing whether the bleeding is mainly caused by vasculitic alveolar hemorrhage or is due to a coexisting coagulation disorder, and guiding the selection and risk control of cryoprecipitate, fresh frozen plasma, and hemostatic regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-glomerular basement membrane antibody (GBM)",
+          "basis_in_stage3_input": "The nephrology laboratory reported negative anti-glomerular basement membrane antibody (GBM).",
+          "why_order_this_exam": "The patient presents with a typical pulmonary-renal syndrome pattern: hemoptysis, diffuse pulmonary hemorrhage, hypoxemia, occult blood in urine, and renal abnormalities; therefore, anti-GBM disease must be included in the differential diagnosis. Anti-glomerular basement membrane antibody testing is the key test for excluding Goodpasture syndrome; a positive result would directly affect the diagnostic classification, timing of treatment, and plasmapheresis strategy. The negative result on this occasion helps support ANCA-associated vasculitis rather than anti-GBM disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat antinuclear antibody titer",
+          "basis_in_stage3_input": "Repeat testing showed the antinuclear antibody titer decreased from 1:1000 weakly positive to 1:320.",
+          "why_order_this_exam": "After the patient receives immunotherapy such as corticosteroid pulse therapy, IVIG, and plasma exchange, dynamic monitoring of changes in immunologic markers is needed to help assess disease activity and treatment response. Although repeat testing of the antinuclear antibody titer is not the most disease-specific marker for this condition, in the setting of initially clearly positive ANA, changes in the titer help evaluate whether the state of immune activation has decreased and provide supplementary information on whether to continue intensified immunosuppression and whether overlap with other connective tissue diseases is present.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "Hospital day 5, complete blood count: total white blood cell count 12.84×10^9/L, neutrophil percentage 7.6%, total red blood cell count 3.05×10^12/L, hemoglobin 93 g/L, platelet count 182×10^9/L.",
+          "why_order_this_exam": "During the course of the disease, the patient had recurrent massive hemoptysis and severe anemia, and later developed fever and a risk of infection, while also receiving treatment with glucocorticoids, cyclophosphamide, blood transfusion, and other therapies; therefore, CBC must be monitored dynamically. First, it can assess whether hemoglobin continues to decline after bleeding and whether transfusion and hemostatic therapy are effective; second, it can monitor changes in the white blood cell and neutrophil counts to help determine secondary infection; third, it can monitor platelets to identify whether consumptive coagulopathy or drug-related bone marrow suppression is also present, thereby guiding adjustment of anti-infective, hemostatic, and immunotherapy treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Thrombus removal was performed in the bronchoscopy suite; bronchoscopy showed a large amount of thrombus in the trachea obstructing the lumen.",
+          "why_order_this_exam": "Airway/alveolar hemorrhage had already been confirmed early in the course, and subsequently a large amount of thrombus obstruction developed within the airways, posing risks of asphyxia, limited ventilation, and difficulty with weaning. Bronchoscopy can not only directly assess the site and activity of bleeding and differentiate diffuse alveolar hemorrhage from focal airway bleeding, but also perform thrombus removal, lavage and suction, and local hemostatic treatment, and it plays a critical role in improving airway patency, assessing the risk of rebleeding, and formulating a respiratory support strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "Repeat complete blood count; obtain blood cultures.",
+          "why_order_this_exam": "During immunosuppressive therapy, mechanical ventilation, and critical care hospitalization, the patient developed recurrent fever of 38.7-39℃ on day 6 and day 9, with a marked increase in white blood cell count; hospital-acquired infection, including bloodstream infection, should be considered. Blood culture is used to determine whether bacteremia is present and to guide pathogen stratification and adjustment of antimicrobial therapy, especially in the context of limited response to prior empiric anti-infective treatment and the subsequent possibility of multidrug-resistant pathogens; this is very important for excluding fever caused solely by vasculitis activity and for optimizing the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lavage fluid culture",
+          "basis_in_stage3_input": "Check lavage fluid culture, smear, blood G, and GM assay.",
+          "why_order_this_exam": "Later in the course, the patient developed fever and an elevated white blood cell count, and had undergone intubation, bronchoscopy, and received high-dose glucocorticoids and cyclophosphamide, indicating a very high risk of secondary pulmonary infection. BALF culture can more directly reflect lower respiratory tract pathogens, help distinguish whether residual imaging changes represent the absorption phase of hemorrhage or concurrent infection, and provide a basis for identification of multidrug-resistant organisms and precise antimicrobial selection, thereby avoiding missed treatment of infection during vasculitis treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "smear",
+          "basis_in_stage3_input": "Check lavage fluid culture, smear, blood G, and GM assay.",
+          "why_order_this_exam": "In patients who are critically ill, febrile, and receiving immunosuppressive therapy, preliminary etiologic screening information should be obtained as soon as possible. Smear examination of lavage fluid or related specimens can rapidly suggest clues to bacterial, fungal, or other infections and provides feedback earlier than culture, helping to make a preliminary determination, while awaiting culture results, as to whether a lower respiratory tract infection is present and its nature, thereby guiding whether empiric anti-infective or antifungal therapy needs to be adjusted promptly.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ABG",
+          "basis_in_stage3_input": "Check lavage fluid culture, smear, blood G, and GM assay.",
+          "why_order_this_exam": "After the patient received pulse corticosteroid therapy, IVIG, cyclophosphamide, and mechanical ventilation, the risk of opportunistic infection increased significantly; later development of fever and white pseudomembranes in the oral cavity warrants increased vigilance for fungal infection. The serum G test can be used as one of the screening methods for invasive fungal infection, helping determine whether the fever is related to deep fungal infection and providing a basis for whether to initiate or continue antifungal therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Galactomannan test",
+          "basis_in_stage3_input": "Check lavage fluid culture, smear, blood G, and GM assay.",
+          "why_order_this_exam": "The patient is in a high-risk population for severe disease, immunosuppression, and ventilator-associated infection. If persistent fever occurs, invasive fungal infections such as aspergillosis should be excluded. The GM test is helpful for early screening of Aspergillus-related infection. In combination with culture, smear, and imaging, it can help differentiate pulmonary injury due to vasculitis, bacterial infection, and fungal infection, and provide support for whether to use antifungal agents such as voriconazole.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "basis_in_stage3_input": "Coagulation panel: FDP 7.5 ug/mL, D-dimer 2.993 ug/mL, all others negative.",
+          "why_order_this_exam": "The patient previously had massive hemoptysis, abnormalities in DIC-related indicators, and a history of blood product transfusion. Although hemoptysis decreased later, dynamic repeat monitoring of coagulation function is still required. The coagulation panel can assess whether coagulation activation or hyperfibrinolysis persists after hemostasis, help determine the risk of ongoing or recurrent bleeding, and guide whether to continue hemostatic medications, plasma, or cryoprecipitate support, while also avoiding excessive intervention after coagulation is basically stable.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "basis_in_stage3_input": "Renal function: Cr 114.2umol/L, BUN 20.73mmol/L, ALB 34.8g/L.",
+          "why_order_this_exam": "ANCA-associated vasculitis commonly involves the kidneys. The patient already has diffuse bilateral renal lesions, occult hematuria, and proteinuria, and has previously received plasma exchange, glucocorticoids, and cyclophosphamide. Dynamic monitoring of renal function can determine whether renal injury continues to progress or improves, helping assess treatment efficacy, prognosis, and medication dosing safety; at the same time, changes in blood urea nitrogen and albumin also help comprehensively assess catabolic metabolism, nutritional status, and inflammatory status.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "basis_in_stage3_input": "Repeat arterial blood gas analysis after extubation: pH 7.519, pCO2 43.6 mmHg, pO2 62.6 mmHg, HCO3- 35.3 mmol/L.",
+          "why_order_this_exam": "At the time of admission, the patient already had severe hypoxemia and type I respiratory failure, and later underwent endotracheal intubation and mechanical ventilation due to diffuse alveolar hemorrhage. Repeat blood gas analysis after extubation can directly assess recovery of oxygenation, whether ventilation is stable, and whether an acid-base imbalance is present; determine whether weaning was successful and whether high-flow oxygen is still required or respiratory support needs to be readjusted, which is crucial for critical respiratory management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "basis_in_stage3_input": "Both the G test and GM test were negative.",
+          "why_order_this_exam": "In the setting of immunosuppression and prolonged hospitalization, the patient developed fever and oral pseudomembranes, and deep fungal infection needs to be ruled out. The G test, as a nonspecific fungal-related screening test, can be used together with GM, fungal smear, and culture to differentiate the cause of fever and determine whether invasive fungal infection is present, thereby helping decide whether empiric antifungal therapy should be continued or discontinued.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "fungal smear",
+          "basis_in_stage3_input": "Fungal smear: no fungi detected; fungal culture negative.",
+          "why_order_this_exam": "In the later course, the patient had recurrent fever and was treated with corticosteroids, cyclophosphamide, and broad-spectrum antibacterial agents, increasing the risk of airway or pulmonary fungal infection. Fungal smear can provide rapid initial screening for the presence of fungal colonization or infection; in combination with oral pseudomembrane, G/GM results, and imaging changes, it helps differentiate infectious fever from primary disease activity and provides an early basis for antifungal treatment decisions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "Fungal smear: no fungi detected; fungal culture negative.",
+          "why_order_this_exam": "In severely immunosuppressed patients, it is difficult to distinguish fungal infection from noninfectious lung injury based on clinical manifestations alone. Although fungal culture has a relatively slow turnaround time, it can provide relatively reliable etiologic evidence to help confirm or exclude pulmonary fungal infection, reduce unnecessary antifungal exposure, and, together with G/GM and smear results, assess the true cause of fever and pulmonary lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "13-item respiratory pathogen test",
+          "basis_in_stage3_input": "Two respiratory pathogen panel tests in our department's laboratory indicated multidrug-resistant Acinetobacter baumannii, sensitive only to cefoperazone sodium/sulbactam sodium, minocycline, and tigecycline, and resistant to meropenem.",
+          "why_order_this_exam": "On the basis of primary vasculitic pulmonary hemorrhage, the patient subsequently developed fever and a marked elevation in white blood cell count, with a history of intubation, mechanical ventilation, bronchoscopy, and immunosuppressive therapy, indicating an extremely high risk of hospital-acquired lower respiratory tract infection. Respiratory pathogen testing can rapidly identify the causative organism and resistance characteristics, determine whether multidrug-resistant Acinetobacter baumannii infection is present, and directly guide adjustment of the antimicrobial regimen from empiric therapy to targeted therapy with susceptible agents, which is critical for controlling secondary infection and improving prognosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat chest CT",
+          "basis_in_stage3_input": "Repeat chest CT: the extent of the bilateral high-density opacities has increased compared with before, with decreased density and marked interval absorption/improvement; the density of the nodule in the lateral basal segment of the left lower lobe has decreased compared with before.",
+          "why_order_this_exam": "The patient’s initial chest CT showed extensive bilateral pulmonary infiltrative opacities with rapid progression, and bronchoscopy confirmed alveolar/airway hemorrhage; after treatment, objective assessment is needed to determine whether the pulmonary lesions are continuing to progress, whether there is superimposed infection, or whether the hemorrhage is being absorbed. Follow-up chest CT can dynamically monitor changes in bilateral high-density opacities and nodules, assess the degree of resolution of diffuse alveolar hemorrhage, determine whether there is still new consolidation or infectious foci, and provide imaging evidence for subsequent glucocorticoid tapering, adjustment of anti-infective therapy, and evaluation of discharge timing.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "At 8 PM, laboratory results were reported: systemic vasculitis panel: pANCA positive, MPO positive. ANA titer: ANA positive, nucleolar pattern, 1:1000 weakly positive. Repeat ultrasound suggested diffuse bilateral renal disease, with patent blood flow in both lower extremities. Urinalysis: occult blood 3+, protein 2+, glucose 1+. Rheumatology and Immunology consultation was urgently requested. After the first plasma exchange, repeat renal function showed: Cr 99 umol/L, BNU 10.65 mmol/L, ALB 26.2 g/L. DIC panel: 3P test positive, FDP 14.42 ug/ml, D-dimer 4.967 ug/ml, with no other obvious abnormalities. Laboratory testing from Nephrology reported anti-glomerular basement membrane antibody (GBM) negative. Repeat ANA titer decreased from 1:1000 weakly positive to 1:320. On hospital day 5, CBC: WBC 12.84×10^9/L, neutrophil percentage 7.6%, RBC 3.05×10^12/L, hemoglobin 93 g/L, platelets 182×10^9/L. DIC panel: 3P test negative, TT 24 sec, FDP 24.8 ug/ml, D-dimer 6.77 ug/ml, with no other obvious abnormalities. Thrombus removal was performed in the bronchoscopy suite; bronchoscopy showed a large amount of thrombus in the trachea obstructing the lumen. On the afternoon of hospital day 6, the patient developed fever, 38.7℃. Repeat CBC and blood cultures were obtained. CBC: WBC 10.68×10^9/L, neutrophil percentage 92.4%, RBC 2.93×10^12/L, hemoglobin 89 g/L, platelets 164×10^9/L. BALF culture, smear, serum G test, and GM test were sent. On hospital day 9, the patient again developed fever with a maximum temperature of 39℃. CBC: WBC 19.71×10^9/L, neutrophil percentage 93.3%, RBC 3.65×10^12/L, hemoglobin 112 g/L, platelets 262×10^9/L. Coagulation panel: FDP 7.5 ug/mL, D-dimer 2.993 ug/mL, all others negative. Renal function: Cr 114.2 umol/L, BNU 20.73 mmol/L, ALB 34.8 g/L. Repeat arterial blood gas analysis after extubation: pH 7.519, pCO2 43.6 mmHg, pO2 62.6 mmHg, HCO3- 35.3 mmol/l. On hospital day 11, the patient was receiving oxygen via nasal cannula at 5 L/min, without obvious shortness of breath, with intermittent cough, sticky sputum that was difficult to expectorate, and dark red blood streaks in the sputum; maximum temperature was 37.8℃, with throat pain. Physical examination: several white pseudomembranous spots in the oral cavity, some confluent into patches; slightly decreased breath sounds in the left lower lung; no dry or moist rales heard in either lung; no obvious abnormalities of the heart or abdomen; no edema of both lower extremities. Arterial blood gas analysis: pH 7.482, pCO2 39.3 mmHg, pO2 68.4 mmHg, HCO3- 29.1 mmol/l. Both the G test and GM test were negative. Fungal smear showed no fungi detected, and fungal culture was negative. Two respiratory pathogen 13-panel tests performed by our department's laboratory both indicated multidrug-resistant Acinetobacter baumannii, sensitive only to cefoperazone sodium/sulbactam sodium, minocycline, and tigecycline, and resistant to meropenem. On hospital day 17, the patient's temperature was normal, there was no further hemoptysis, and symptoms had improved significantly. Repeat CBC: WBC 9.24×10^9/L, neutrophil percentage 93.6%, RBC 2.54×10^12/L, hemoglobin 78 g/L, platelets 175×10^9/L. Cr was approximately normal, BNU 10.85 mmol/l. Oxygen via nasal cannula at 2 L/min, oxygenation index 386 mmHg. (On 3 L/min oxygen) arterial blood gas analysis: pH 7.419, pCO2 31.1 mmHg, pO2 112 mmHg, HCO3- 19.8 mmol/l. Repeat chest CT: the extent of high-density opacities in both lungs had increased compared with before, with decreased density, showing marked absorption and improvement compared with before; the density of the nodule in the lateral basal segment of the left lower lobe was decreased compared with before.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibma99doxz94oBlBmbiaZx1iafDnBwX3zIxmNg4IC3iaSf4ngVLzZFsSaJ2Xw/640?wx_fmt=jpeg",
+          "near_text": "Repeat renal function tests after the first plasma exchange",
+          "local_src": "cleaned_cases_image_cache/b37dd9bba28bfc71dbc0b3de132490ad96aef51e.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmaJu8LS9FZV3PTdlDce5j7XkCMIApiakoiaiaLQpZNK78hwtibwzTJ18wsEw/640?wx_fmt=png",
+          "near_text": "Clinical course change 2:",
+          "local_src": "cleaned_cases_image_cache/147270eed519dedfee140d6ced862ab6f967b5bc.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmacAtDBDvlQhibM7WUDXUzVRicL6KhtD3P1eNzuFbsaxkBNMKaTSSXDxqA/640?wx_fmt=jpeg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/422770864eb6abdbbabc86dad305b1feb429b828.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmajXCgicGsDWeFBTgyCoPjoexXlTLQtt5sW8EVlibl9rSaYdoiarfu5gmIg/640?wx_fmt=jpeg",
+          "near_text": "On hospital day 17, the patient's body temperature was normal.",
+          "local_src": "cleaned_cases_image_cache/eb45ecc3a99e977dd875037c59b1cf75855b6942.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmaczUiaiaWHbo4vX7UKHXOr9vNVsmiadWyR5fdOzSWGpOJibxgCyEJLtO5JQ/640?wx_fmt=jpeg",
+          "near_text": "10-08",
+          "local_src": "cleaned_cases_image_cache/44e15b472ca972e8b4528cfebb12237609463c3d.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIYAg7wopLicVB7mwL2ZHibmaRiaXecoGMibibRmHyV8NiariaB4K5Cj4Bbu382iaalsB7PsehzSWHPR7G6nw/640?wx_fmt=jpeg",
+          "near_text": "Final diagnosis",
+          "local_src": "cleaned_cases_image_cache/fce87cecdd8fc653647be9a75669b4c8cd25fdd8.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Microscopic polyangiitis, 2. diffuse alveolar hemorrhage, 3. pulmonary infection (bilateral), 4. type I respiratory failure, 5. diffuse renal lesions, 6. anemia (moderate), 7. hypoproteinemia, 8. grade 3 hypertension",
+      "diagnostic_basis": [
+        "Systemic vasculitis panel: pANCA positive, MPO positive",
+        "Antinuclear antibody titer: ANA positive, nucleolar pattern, 1:1000 weakly positive",
+        "Repeat ultrasound indicated diffuse bilateral renal lesions",
+        "Urinalysis: occult blood 3+, protein 2+, glucose 1+",
+        "Rheumatology consultation: diagnosed with microscopic polyangiitis and diffuse alveolar hemorrhage",
+        "Bedside bronchoscopy showed extensive fresh bleeding in the bilateral bronchi.",
+        "A 13-respiratory-pathogen test indicated multidrug-resistant Acinetobacter baumannii"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oxygen via face mask",
+        "IV infusion of cefoperazone sodium/sulbactam sodium for anti-infective treatment",
+        "Oral Yunnan Baiyao; intravenous bolus hemocoagulase agkistrodon; intramuscular vitamin K1; intravenous infusion of aminomethylbenzoic acid, etamsylate, aminocaproic acid in sodium chloride, and posterior pituitary extract, among other hemostatic treatments",
+        "Methylprednisolone sodium succinate for injection, intravenous drip for anti-inflammatory treatment",
+        "Doxofylline IV infusion for bronchodilation and relief of asthma",
+        "Endotracheal intubation under laryngoscopic guidance, followed by mechanical ventilatory support",
+        "Bedside bronchoscopy; epinephrine hydrochloride was instilled in divided doses under bronchoscopic visualization",
+        "Transfusion of suspended red blood cells, fresh frozen plasma, and cryoprecipitate coagulation factors",
+        "Escalate antibiotics to meropenem IV drip",
+        "Methylprednisolone sodium succinate for injection + IVIG pulse therapy",
+        "Sequential treatment with prednisone, while cyclophosphamide was administered by intravenous infusion",
+        "plasma exchange",
+        "Reduced glutathione was added for renal protection, and human serum albumin was infused.",
+        "In the bronchoscopy suite, thrombus removal was performed, with lavage and suction, cryoextraction of the thrombus, and local injection of hemocoagulase for hemostasis.",
+        "Ibuprofen suspension administered via nasogastric feeding",
+        "The ventilator was adjusted to CPAP, and pressure support was gradually reduced; the patient was weaned and extubated, and oxygen was administered via nasal cannula and face mask.",
+        "Preemptive antifungal therapy with add-on voriconazole",
+        "Change Meropenem to Sulperazon",
+        "Discontinue hemostatic agents"
+      ],
+      "treatment_response": [
+        "The patient's vital signs are temporarily stable.",
+        "Repeat testing showed the antinuclear antibody titer decreased from 1:1000 weakly positive to 1:320",
+        "The patient had no further fresh hemoptysis, and hemoglobin did not decrease significantly further",
+        "Antinuclear antibody titer 1:100 positive. MPO turned negative",
+        "After thrombus removal, the lumen was patent.",
+        "Body temperature gradually decreased to the normal range",
+        "The patient's symptoms gradually improved, and the body temperature decreased compared with previously.",
+        "In spontaneous breathing trial mode, the preset targets were achieved on both days; extubation was performed after ventilator weaning.",
+        "On hospital day 17, the patient's body temperature was normal, there was no further hemoptysis, and symptoms improved significantly.",
+        "Follow-up chest CT: Compared with the previous study, the extent of the high-density opacities in both lungs has increased, with decreased density and marked interval absorption/improvement; the density of the nodule in the lateral basal segment of the left lower lobe is decreased compared with the previous study",
+        "On physical examination, the oral pseudomembrane had resolved; on auscultation, breath sounds were clear in both lungs; the patient's general condition improved, and the patient was discharged."
+      ]
+    }
+  }
+}

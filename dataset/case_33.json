@@ -1,0 +1,395 @@
+{
+  "status": "success",
+  "case_id": "case_33",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 56-year-old man who was admitted to our hospital's Department of Respiratory Medicine with \"cough and intermittent chest pain for more than 1 month.\" More than 1 month before admission, he developed a cough with scant sputum and intermittent right-sided chest pain without obvious precipitating factors. The pain was more pronounced with deep breathing or change in position. He had no fever, hemoptysis, fatigue, night sweats, palpitations, or other symptoms. At the onset of illness, he did not pay much attention to it and self-administered \"compound licorice oral liquid,\" without relief. One week earlier, a chest X-ray at a local hospital showed possible right pleural effusion. He then presented to the outpatient clinic of our hospital, where chest CT showed a mass and linear opacities in the right middle and lower lobes and right pleural effusion. He underwent \"closed thoracic drainage,\" and approximately 1500 ml of pleural fluid was drained over 72 hours. Pleural fluid routine analysis showed: qualitative protein 1+, white blood cell count 2.7*10^9/L, monocyte percentage 92.5%; pleural fluid biochemistry showed: glucose 6.5890 mmol/l↑, total protein 51 g/L↓, lactate dehydrogenase 390 U/L, ADA 20.60 IU/L. He was admitted for further diagnosis and treatment. During the course of illness, the patient's mental status, appetite, and sleep were acceptable; bowel and bladder habits were normal; and there was no obvious change in body weight. Personal history: smoking for more than 40 years, averaging 20 cigarettes/day; previously worked as a seaman. The remainder of the personal history, past medical history, marital/reproductive history, and family history were unremarkable according to the patient's report. After admission, physical examination showed: T 37℃, P 84/min, R 20/min, BP 135/70 mmHg, clear consciousness, no bulbar conjunctival edema, and no jugular venous distention. Breath sounds were slightly coarse in both lungs, with decreased breath sounds in the right lower lung; no rales were heard. There was no precordial bulge, the cardiac dullness border was not enlarged, heart rhythm was regular, and no murmur was heard. The abdomen was non-tender, without rebound tenderness; the liver and spleen were not palpable below the costal margin; shifting dullness was negative. No edema was present in either lower extremity. Laboratory examinations were as follows: 1. Complete blood count: Hb 135.0 g/L, WBC 7.22*10^9/L, N% 61.6%, EOS% 6.2%↑, absolute EOS count 0.45*10^9/L↑, PLT 275*10^9/L. 2. Urinalysis: negative. Stool routine + OB: negative. Coagulation: D-Dimmer 1935.00 ng/ml↑. 3. Blood biochemistry: no abnormalities in blood glucose, liver function, kidney function, electrolytes, myocardial enzyme profile, myocardial injury markers (including BNP), blood lipids, etc. 4. Arterial blood gas: approximately normal. 5. Other indicators: SAA 27.27 mg/l↑, ESR 56 mm/h↑, CRP 96.0 mg/L↑, PCT 0.02 ng/ml. 6. G test 116.2 pg/mL↑. QFT (-). Serum cryptococcal latex agglutination test (-). 7. Immunoglobulins (-). Rheumatologic panel (-). Blood tumor markers (-). Allergens: negative. 8. Sputum tests: TB smear (-) *3 times, routine culture (-), fungal culture (-), liquid-based cytology (-). 9. Pleural fluid routine analysis and biochemistry. 10. Pulmonary function: moderate ventilatory impairment (restrictive), mild diffusion impairment, bronchodilator test negative. 11. Contrast-enhanced lung ultrasound: solid lesion in the right lung, favoring benign. Right pleural effusion. 12. Chest CT: mass and linear opacities in the right middle and lower lobes, right pleural effusion.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Peripheral lung cancer with malignant pleural effusion",
+          "supporting_evidence": [
+            "56-year-old man, with a smoking history of more than 40 years, averaging 20 cigarettes/day, is in a high-risk group for lung cancer",
+            "Chest CT showed: a mass and streaky opacities in the right middle and lower lobes, and right pleural effusion",
+            "Symptoms include cough and intermittent right-sided chest pain for more than 1 month; the chest pain is pronounced with deep breathing or changes in position and may be seen with pleural involvement",
+            "Pleural fluid total protein 51 g/L and lactate dehydrogenase 390 U/L suggest a high likelihood of exudative pleural effusion",
+            "Pleural fluid white blood cell count 2.7*10^9/L, monocyte percentage 92.5%, can be consistent with either malignant or tuberculous pleural effusion"
+          ],
+          "opposing_evidence": [
+            "Blood tumor markers (-)",
+            "Contrast-enhanced lung ultrasound: solid lesion in the right lung, favor benign",
+            "No significant change in body weight was noted during the course of the disease.",
+            "No hemoptysis, fatigue, or other manifestations"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy/pulmonary tuberculosis with pleural effusion",
+          "supporting_evidence": [
+            "The illness began with cough, chest pain, and right pleural effusion; tuberculous pleurisy may present with chest pain and unilateral pleural effusion.",
+            "Pleural fluid mononuclear cell percentage 92.5%; a lymphocyte/mononuclear cell-predominant pleural effusion supports a tuberculous or malignant etiology",
+            "ESR 56 mm/h↑, CRP 96.0 mg/L↑, indicating the presence of an inflammatory response",
+            "Chest CT showed a mass and linear opacities in the middle and lower lobes of the right lung; linear opacities in the lung can be seen in post-TB or changes related to active TB."
+          ],
+          "opposing_evidence": [
+            "No TB systemic symptoms such as fever, night sweats, or fatigue",
+            "QFT（-）",
+            "Sputum examination: TB smear (-) ×3",
+            "Pleural fluid ADA 20.60 IU/L, not supportive of tuberculous pleural effusion with typically elevated ADA",
+            "No significant change in body weight"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary embolism with pulmonary infarction and reactive pleural effusion",
+          "supporting_evidence": [
+            "Chest pain is right-sided and is pronounced with deep breathing or changes in position, consistent with pleuritic chest pain; this can be seen in pulmonary infarction/pleural involvement.",
+            "D-Dimmer1935.00ng/ml↑",
+            "Right pleural effusion can be seen as reactive pleural effusion after pulmonary embolism",
+            "Chest CT describes a mass and linear opacities in the middle and lower lobes of the right lung; pulmonary infarction may present as peripheral consolidation-like or mass-like opacities"
+          ],
+          "opposing_evidence": [
+            "No obvious sudden dyspnea was mentioned in the history.",
+            "Vital signs stable: P 84 beats/min, R 20 breaths/min, BP 135/70 mmHg",
+            "Arterial blood gas: essentially normal",
+            "No edema in either lower extremity; no evidence related to deep vein thrombosis was provided in Phase I."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary infection with pleuritis/parapneumonic pleural effusion (including post-obstructive infection and organizing pneumonia)",
+          "supporting_evidence": [
+            "Manifestations include cough, scant sputum, and chest pain",
+            "CRP 96.0 mg/L↑, SAA 27.27 mg/L↑, ESR 56 mm/h↑, indicating a marked inflammatory response",
+            "Chest CT showed a mass, linear opacities, and right pleural effusion in the right middle and lower lobes; infectious consolidation or organizing pneumonia may present as a mass-like opacity accompanied by pleural effusion",
+            "Pleural fluid white blood cell count 2.7*10^9/L, suggesting the presence of an inflammatory reaction in the pleural cavity"
+          ],
+          "opposing_evidence": [
+            "No fever",
+            "WBC 7.22*10^9/L, N% 61.6%, peripheral blood white blood cell and neutrophil counts were not significantly elevated",
+            "PCT 0.02ng/ml, does not support typical bacterial infection",
+            "Sputum culture (-)",
+            "The pleural effusion is mononuclear cell-predominant, which is not the typical cytologic pattern of acute bacterial infectious pleural effusion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Malignant pleural mesothelioma or other pleural-origin tumors",
+          "supporting_evidence": [
+            "The patient previously worked as a seafarer, with possible asbestos-related occupational exposure.",
+            "The main manifestations are unilateral right pleural effusion and chest pain; tumors of pleural origin commonly present in this way.",
+            "Chest pain is pronounced during deep inspiration or with changes in body position, suggesting possible pleural involvement",
+            "Pleural effusion with predominantly mononuclear cells can also be seen in malignant pleural disease"
+          ],
+          "opposing_evidence": [
+            "The key findings described on chest CT are a mass and linear opacities in the right middle and lower lobes; no typical clues suggestive of pleural mesothelioma, such as diffuse pleural thickening or nodular pleural changes, were mentioned.",
+            "Contrast-enhanced lung ultrasound suggests a solid lesion in the right lung, favoring a benign lesion",
+            "Blood tumor markers (-)",
+            "Stage 1 information did not provide a clear history of asbestos exposure"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary fungal infection with pleural effusion",
+          "supporting_evidence": [
+            "G test 116.2 pg/mL↑",
+            "Chest CT showed a mass and linear opacities in the right middle and lower lobes; fungal infection may present as mass-like or consolidation-like opacities.",
+            "Elevated CRP, ESR, and SAA suggest the presence of an inflammatory process.",
+            "Right pleural effusion may occur in some invasive fungal infections or fungal infections with pleural involvement."
+          ],
+          "opposing_evidence": [
+            "Serum cryptococcal latex agglutination test (-)",
+            "Sputum fungal culture (-)",
+            "Immunoglobulin (-); no definite immunosuppressive background was identified in the first stage.",
+            "No fever",
+            "Phase 1 information did not provide clear contradictory evidence to support a specific fungal pathogen."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CT angiography of the chest (CTA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Circulating antibodies to blood parasites",
+          "requirement": "required"
+        },
+        {
+          "exam": "video bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Percutaneous lung puncture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "1. Chest CT angiography (CTA) (Day 0): Mass and linear opacities in the right middle and lower lobes, right pleural effusion, increased effusion compared with the prior film dated Day -2, and no obvious filling defect on CTA. 2. Send-out blood circulating parasite antibody: negative. 3. Electronic bronchoscopy: The bronchoscope was smoothly inserted through the nose; glottic closure was acceptable, tracheal rings were clear, and the carina was sharp; the lumens of the bronchi in each lobe and segment on both sides were patent, the mucosa was smooth, a small amount of mucoid sputum was seen and suctioned, no neoplasm was seen, and no bleeding was seen. Lavage of the right lower lobe was performed and submitted for examination, and brushings were sent for exfoliated cytology, Mycobacterium tuberculosis, and liquid-based cytology. Reported results: acid-fast bacilli on brushings (-), exfoliated cells on liquid-based cytology (-). 4. Percutaneous lung puncture: (Right lung) smear from needle aspiration: no malignant cells seen. (Right lung) liquid-based specimen from needle aspiration: lymphocytes and histiocytes seen. Pathology of right lung core biopsy tissue: granulomatous inflammation; special stains pending.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eS5TtbjQIMzqlrSXp9pevz2Lu8qgSrOnpEOqSIpfKyTSziczN24MZN0hw/640?wx_fmt=png",
+            "near_text": "(Left Day -2; right Day 0)",
+            "local_src": "cleaned_cases_image_cache/218782132eff35779a5e711648a0f5e2c3fbcdd1.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSSrpaEYbJYyBKuPeoWIt4vbTOtTGiavgHZWBRIIf831SqJh9h8D3iajQw/640?wx_fmt=png",
+            "near_text": "Figure 3: Chest CT angiography (CTA) (Day 0)",
+            "local_src": "cleaned_cases_image_cache/1b58bc5654d997cbb28e6ce30b2363f93b2539dd.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSgDJb6u4kw9tzxQ5VxellJ2PpfGQrbicHLPPbv0j5QrVB7ROAsdLKxicQ/640?wx_fmt=png",
+            "near_text": "Figure 4: Findings on electronic bronchoscopy",
+            "local_src": "cleaned_cases_image_cache/04cfc8899fc146c57faf1a2c96b24b982cb43e07.png"
+          },
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSTX7qyJhbIfyUI48drPOlvXPlD6sMaULGIMJrBU2ovAC7GtFdsyvib9Q/640?wx_fmt=png",
+            "near_text": "Figure 1: Routine pleural fluid analysis and biochemistry",
+            "local_src": "cleaned_cases_image_cache/3815ea8cd42f46684faed1780329ffaa0c20b144.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSo17PGZgfL1CuSI70ibWiaoau98jk3h3l5BehcSk8oscHhrNjfxkW7FkA/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/d2a151f0f09c3fe0f4bb0762aa4cece33215c5a6.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSZZKU6XJwpf3rF3AYqh0Pe3R4NMyfB3DIQuAicSK71QgkcstibQ7WYpQA/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT (Day -2)",
+            "local_src": "cleaned_cases_image_cache/dbb631845b30fa0413dc4548efd71805c2edd15a.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tuberculosis and nontuberculous mycobacterial infection",
+            "evidence": [
+              "The patient is a middle-aged man, previously healthy, with a subacute onset this time, cough, infiltrative opacity in the middle and lower lobes of the right lung, right pleural effusion, and the pleural fluid was an exudate."
+            ],
+            "exclusion_reasons": [
+              "The patient had no obvious toxic symptoms; QFT and pleural fluid ADA were both negative, and repeated testing of sputum, pleural effusion, and lavage fluid showed no evidence of mycobacteria."
+            ]
+          },
+          {
+            "name": "Pulmonary mycosis",
+            "evidence": [
+              "G test positive"
+            ],
+            "exclusion_reasons": [
+              "The patient did not have high-risk susceptibility factors for fungal infection such as advanced age, concomitant severe underlying disease, immunocompromise, or abuse of antibiotics and corticosteroids; moreover, no fungal spores and/or hyphae were found in multiple examinations of sputum, pleural effusion, and lavage fluid, and the serum cryptococcal latex agglutination test was negative."
+            ]
+          },
+          {
+            "name": "pulmonary parasitic disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient currently has no clear epidemiologic history, and the send-out blood parasite circulating antibody is negative."
+            ]
+          },
+          {
+            "name": "Secondary pulmonary infection",
+            "evidence": [
+              "Infection markers: SAA 27.27 mg/L↑, CRP 96.0 mg/L↑"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no mediastinal or hilar lymphadenopathy, no typical imaging distribution characteristics such as intrapulmonary lesions distributed along the lymphatic routes, and no corresponding symptoms or signs of extrapulmonary organ involvement."
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no clear history of inhalation exposure to specific allergens, and the imaging findings also do not support the typical manifestations of hypersensitivity pneumonitis."
+            ]
+          },
+          {
+            "name": "Inorganic dust or foreign body deposition",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The currently available evidence is still insufficient to support a diagnosis of this type of disease, and there is a lack of a typical occupational or environmental exposure history."
+            ]
+          },
+          {
+            "name": "Vasculitis, connective tissue diseases, hereditary diseases, etc.",
+            "evidence": [],
+            "exclusion_reasons": [
+              "There are often corresponding underlying diseases, symptoms, physical signs, abnormal immunologic test results, or a family history; based on the characteristics of this patient's case, it can be temporarily excluded."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tuberculosis and nontuberculous mycobacterial infection",
+        "evidence": [
+          "The patient is a middle-aged man, previously healthy, with a subacute onset this time, cough, infiltrative opacity in the middle and lower lobes of the right lung, right pleural effusion, and the pleural fluid was an exudate."
+        ],
+        "exclusion_reasons": [
+          "The patient had no obvious toxic symptoms; QFT and pleural fluid ADA were both negative, and repeated testing of sputum, pleural effusion, and lavage fluid showed no evidence of mycobacteria."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary mycosis",
+        "evidence": [
+          "G test positive"
+        ],
+        "exclusion_reasons": [
+          "The patient did not have high-risk susceptibility factors for fungal infection such as advanced age, concomitant severe underlying disease, immunocompromise, or abuse of antibiotics and corticosteroids; moreover, no fungal spores and/or hyphae were found in multiple examinations of sputum, pleural effusion, and lavage fluid, and the serum cryptococcal latex agglutination test was negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary parasitic disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient currently has no clear epidemiologic history, and the send-out blood parasite circulating antibody is negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Secondary pulmonary infection",
+        "evidence": [
+          "Infection markers: SAA 27.27 mg/L↑, CRP 96.0 mg/L↑"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no mediastinal or hilar lymphadenopathy, no typical imaging distribution characteristics such as intrapulmonary lesions distributed along the lymphatic routes, and no corresponding symptoms or signs of extrapulmonary organ involvement."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no clear history of inhalation exposure to specific allergens, and the imaging findings also do not support the typical manifestations of hypersensitivity pneumonitis."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Inorganic dust or foreign body deposition",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The currently available evidence is still insufficient to support a diagnosis of this type of disease, and there is a lack of a typical occupational or environmental exposure history."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Vasculitis, connective tissue diseases, hereditary diseases, etc.",
+        "evidence": [],
+        "exclusion_reasons": [
+          "There are often corresponding underlying diseases, symptoms, physical signs, abnormal immunologic test results, or a family history; based on the characteristics of this patient's case, it can be temporarily excluded."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "special stains of the lung puncture specimen",
+          "basis_in_stage3_input": "Special stain results from lung biopsy: (right lung) scant granulomatous inflammation; no specific pathogens identified on special stains; a small number of asbestos bodies are seen; please correlate with the clinical findings and relevant occupational history.",
+          "why_order_this_exam": "The patient presented with cough, right-sided chest pain, mass-like/linear lesions in the right middle and lower lobes, and right pleural effusion; the effusion was at one point large in volume and was a bloody pleural effusion. The nature of the lesion has consistently required differentiation among infection, tumor, pleura-related disease, and occupational exposure-related lung disease. Early CTA showed no pulmonary embolism. Bronchoscopy showed no neoplasm; brush cytology and liquid-based cytology were negative. Pathology from percutaneous lung biopsy showed only granulomatous inflammation. Routine pathology cannot yet determine whether the granuloma is caused by TB/nontuberculous mycobacteria, fungi, foreign body reaction, or other noninfectious causes. The patient has a past history of long-term smoking and work as a seaman; it was later additionally reported that there was a history of asbestos loading/unloading exposure. At the same time, the G test was elevated and inflammatory markers were elevated, but QFT was negative, sputum acid-fast bacilli was negative, sputum mold culture was negative, and cryptococcus was negative, indicating that clinical findings and routine laboratory tests alone are insufficient for a definitive diagnosis. Therefore, special stains need to be performed on the lung biopsy specimen. On the one hand, this is to look for specific pathogens such as acid-fast bacilli and fungi, to help confirm or exclude infectious granuloma and avoid mistreatment; on the other hand, it is to identify clues of foreign material/dust deposition such as asbestos bodies and, together with the occupational history, support the possibility of asbestos-related lesions. This examination is directly related to etiologic assessment, whether to continue to intensify pathogen testing, whether anti-TB or antifungal treatment is needed, and whether follow-up and symptomatic management are more appropriate; it plays a key role in confirming the diagnosis and selecting the treatment direction.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After a new round of detailed history taking, we obtained several new pieces of information: ① The patient works as a seaman and has a history of eating raw food; ② more than 1 month ago, the patient had cough syncope; ③ during the fall, the right chest struck the ground. ④ One additional previous piece of information: hemorrhagic pleural effusion. The special stains from the lung biopsy were reported as follows: (right lung) a small amount of granulomatous inflammation; no specific pathogen identified on special stains; a small number of asbestos bodies seen; please correlate with the clinical findings and relevant occupational history. After again carefully inquiring about the patient's life history and occupational history, the patient recalled and mentioned that during work as a seaman, he had long been involved in loading and unloading work, including asbestos materials.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSakILWWJ3RlgV9Ty7QEiaMpolLRtuVgd2I8G3ia0tn0bekMIev5uYibzPg/640?wx_fmt=png",
+          "near_text": "Figure 5: Appearance of the patient's pleural effusion",
+          "local_src": "cleaned_cases_image_cache/01ffec620317137a33c9398813baf852f52e2cda.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSyLl25BjYflF4bXsef5tAucviaAjiaXEGGK2qPfeclvAsDibrEJHf4shPg/640?wx_fmt=png",
+          "near_text": "Figure 6 (left): extensive diffuse pattern; Figure 7 (right): focal diffuse pattern",
+          "local_src": "cleaned_cases_image_cache/17db1ada93791fdd61a233bff7bbe75843b2e34d.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSkmyLgt5Ge51ZmJgxwia8hNf7RsvckBDl94Y1Qeew4JoftKdYfeOtxXw/640?wx_fmt=png",
+          "near_text": "Figure 8 (left): branching type; Figure 9 (right): mass type",
+          "local_src": "cleaned_cases_image_cache/72654c524d7654ade3a2762f9389890ace7300f1.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSKVTSqegqoxYAkU3dpAYLnNIOnoC0Rfic6RNPYATkXribCGPNvjj0azJQ/640?wx_fmt=png",
+          "near_text": "Figure 10 (left): peripheral type; Figure 11 (right): consolidation type",
+          "local_src": "cleaned_cases_image_cache/6ecd7248673eccf36007a742c91cfe2a55fac522.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSUib6ftxImnDAq8z5WOm7YNe5cSO2qUefibdXw1LJjz7yzzObRfEy2ib9Q/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/32d9c63a5c6cfb8fa34ff08a3592bb92bf2a73c6.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eSeH0ibPPHb9H7f1ImMnIgC7S42Von9ALNgChibC6aIH0GK92vjNYas94w/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/e3f7e5edaf0c7595d5989303b53a4fb8b15fc437.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGKAGicpD1gMicPw3ckXF4eS418MKBia4EbIavowEqDJvZYWRDbudYHa2RXrZYwwicOicSZaFpWup6ILQ/640?wx_fmt=png",
+          "near_text": "Figure 12: Special staining results of the lung puncture examination",
+          "local_src": "cleaned_cases_image_cache/89b1ac12337748158a8c17af5f5ca8f7e4d08e51.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Right lung opacity with right pleural effusion, etiology to be determined: possible pulmonary contusion; 2. Granulomatous inflammation of the right lung: possibly caused by asbestos; 3. Secondary pulmonary infection.",
+      "diagnostic_basis": [
+        "More than 1 month ago, the patient developed cough syncope and landed on the right chest during the fall, with hemorrhagic pleural effusion.",
+        "Special stain results from lung biopsy: (right lung) scant granulomatous inflammation; no specific pathogens identified on special stains; scant asbestos bodies seen",
+        "During his work as a crew member, he had long-term involvement in loading and unloading work, including asbestos materials.",
+        "Infection markers: SAA 27.27 mg/L↑, CRP 96.0 mg/L↑"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Anti-infective therapy: moxifloxacin (Avelox)",
+        "Symptomatic treatment: carbocysteine, acetylcysteine",
+        "Close follow-up"
+      ],
+      "treatment_response": [
+        "After 1 month: mass and linear opacities in the right middle and lower lobes, right pleural effusion; compared with the prior film dated Day 0, the lesions are slightly resolved and the effusion is decreased",
+        "4 months later: mass and linear opacities in the right middle and lower lobes, right pleural effusion; compared with the prior film from Day +33, the lesions show slight resolution, and the pleural effusion has decreased"
+      ]
+    }
+  }
+}

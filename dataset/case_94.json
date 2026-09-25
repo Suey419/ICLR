@@ -1,0 +1,452 @@
+{
+  "status": "success",
+  "case_id": "case_94",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 31 years old, from Jiangsu. Chief complaint: \"recurrent hemoptysis for 1 year, chest tightness for 1 month\"; admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day +31. Over the past more than 1 year, the patient had recurrent episodes of hemoptysis, ranging from blood-streaked sputum with bright red streaks to more than 10 mouthfuls of fresh blood in a single episode, occasionally accompanied by cough and upper respiratory tract infection symptoms. He was treated multiple times at local hospitals and was diagnosed with \"aspergilloma\" and given oral voriconazole. The patient reported multiple lesions in the ipsilateral lung but no surgical treatment. Over the past more than 1 month, the patient developed chest tightness without obvious precipitating factors, with occasional wheezing and limitation of activity, and went to a local hospital for evaluation. On auscultation, the local physician found decreased breath sounds in the left lung. Chest CT showed a large left pneumothorax with pleural effusion. The patient was hospitalized on Day 0 with \"pneumothorax, bronchiectasis.\" Arterial blood gas analysis indicated type I respiratory failure, PaO2 55mmHg; peripheral blood eosinophils 2.54×10^9/L, WBC 10.27×10^9/L, D-dimer 0.81mg/L; serum G test and GM test were negative. Molecular testing of sputum respiratory pathogens: methicillin-resistant Staphylococcus +. Closed thoracic drainage was performed. \"Piperacillin/sulbactam combined with linezolid\" was given for anti-infective treatment, and the patient's chest tightness and wheezing symptoms were relieved. mNGS of left pleural effusion detected Aspergillus fumigatus; the exact sequence count is unknown. Serum total IgE＞500IU/ml. He was later discharged with the tube in place and has remained so until now. Before this admission, he visited Professor Shi Yi's specialist outpatient clinic at our hospital and was subsequently admitted to our department for further diagnosis and treatment. During treatment, the patient reported a small amount of purulent fluid at the tube insertion site with local itching. The patient had no dizziness or headache, no chest tightness or palpitations, no abdominal pain or diarrhea, and no urinary frequency, urgency, or dysuria. Bowel movements were regular. No joint pain or limitation of movement. Sleep and appetite were normal, with no significant recent weight loss. Past medical history: Denies history of hypertension, coronary artery disease, or diabetes. Denies history of hepatitis, TB, or typhoid fever. Denies history of major trauma or blood transfusion. Denies drug or food allergies; vaccinations up to date per routine schedule. Personal history: Denies smoking, alcohol use, and exposure to drugs or toxic substances; self-employed driver, previously transported construction materials, not working for more than 1 year. Family history: unremarkable. Physical examination: T 36.1℃, P 102 beats/min, R 20 breaths/min, BP 123/89mmHg, SPO2 97% (oxygen 2L/min). The patient was alert, in fair general condition, with متوسط nutrition and normal development. Skin and mucous membranes of the whole body were intact, without jaundice or petechiae, no skin ulceration, and no superficial lymphadenopathy. The thorax was symmetric, without deformity, and the intercostal spaces were not widened. A tube was placed in the left anterior chest connected to a drainage bottle; a small amount of purulent fluid was visible at the puncture site. Tactile fremitus was normal. Bilateral chest expansion was symmetric. Percussion of both lungs was resonant. On auscultation, breath sounds on the left were slightly decreased compared with the right; no obvious dry or wet rales were heard in either lung. No precordial bulge, no palpable thrill, cardiac borders were not enlarged, and no pathologic murmur was heard in the auscultatory areas of the cardiac valves. The abdomen was flat and soft throughout, with no tenderness or rebound tenderness on palpation. The liver and spleen were not palpable below the costal margin. No percussion tenderness over the liver or kidney regions. Shifting dullness was negative. Bowel sounds were present. No deformity of the spine or extremities, and no edema of both lower extremities. Muscle strength and tone of all extremities were normal. No decrease in superficial or deep sensation. Physiologic reflexes were present, and no pathologic reflexes were elicited. Meningeal irritation signs were negative. Cerebellar ataxia signs were negative.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic pulmonary aspergillosis/aspergilloma",
+          "supporting_evidence": [
+            "For more than the past year, recurrent hemoptysis, ranging from blood-streaked sputum to coughing up more than ten mouthfuls of fresh blood at one time, consistent with common manifestations of pulmonary aspergillus-related lesions",
+            "He was treated multiple times at a local hospital and was previously diagnosed with \"aspergilloma\" and given oral voriconazole therapy.",
+            "The patient self-reported multiple lesions in the ipsilateral lung.",
+            "Left pleural effusion mNGS indicated Aspergillus fumigatus",
+            "Chest CT showed a large left pneumothorax with pleural effusion, suggesting severe structural lung disease in the ipsilateral lung"
+          ],
+          "opposing_evidence": [
+            "Blood G test and GM test negative",
+            "Phase 1 information did not provide a definite imaging description of cavitation or a typical fungal ball."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Allergic bronchopulmonary aspergillosis (ABPA)",
+          "supporting_evidence": [
+            "Peripheral blood eosinophils 2.54×10^9/L, markedly elevated",
+            "Serum total IgE >500 IU/ml",
+            "The patient occasionally has wheezing and chest tightness.",
+            "Previously diagnosed with bronchiectasis",
+            "There is evidence suggestive of Aspergillus involvement: previously diagnosed with an aspergilloma; pleural effusion mNGS indicated Aspergillus fumigatus"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide a clear prior history of asthma",
+            "The main symptoms were recurrent hemoptysis and a large left pneumothorax with pleural effusion, which are not the most typical initial manifestations of ABPA.",
+            "Blood G test and GM test negative"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bronchiectasis with recurrent infection/hemoptysis",
+          "supporting_evidence": [
+            "The patient had previously been hospitalized at a local hospital for pneumothorax and bronchiectasis.",
+            "Recurrent hemoptysis for more than 1 year, occasionally accompanied by cough and symptoms of upper respiratory tract infection, consistent with common clinical manifestations of bronchiectasis",
+            "Sputum respiratory pathogen molecular testing was positive for methicillin-resistant Staphylococcus, suggesting possible concurrent airway infection",
+            "After anti-infective treatment with piperacillin/sulbactam combined with linezolid, chest tightness and wheezing symptoms were relieved"
+          ],
+          "opposing_evidence": [
+            "On physical examination, no obvious dry or moist rales were heard in either lung.",
+            "The first-stage information did not provide a history of typical large amounts of purulent sputum or long-term recurrent suppurative infections."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Left secondary spontaneous pneumothorax with pleural effusion/hydropneumothorax (bronchopleural fistula should be suspected)",
+          "supporting_evidence": [
+            "Chest CT showed a large left pneumothorax with pleural effusion.",
+            "The local physician noted decreased breath sounds in the left lung on auscultation; on this physical examination, breath sounds on the left were slightly reduced compared with the contralateral side.",
+            "Previously hospitalized for \"pneumothorax, bronchiectasis\" and underwent closed thoracic drainage, then was discharged with the tube in place and has remained so to date",
+            "Arterial blood gas analysis indicated type I respiratory failure, PaO2 55mmHg, indicating that pulmonary ventilation/gas exchange was significantly impaired at that time",
+            "Multiple lesions are present in the ipsilateral lung, suggesting the possibility of secondary rather than simple primary pneumothorax."
+          ],
+          "opposing_evidence": [
+            "Vital signs are currently relatively stable, SpO2 97% (on oxygen 2 L/min)",
+            "Stage 1 information did not provide direct evidence of persistent large-volume air leak or a definite bronchopleural fistula."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Necrotizing bacterial pulmonary infection with pleural infection/empyema",
+          "supporting_evidence": [
+            "Large left pneumothorax with pleural effusion, suggesting the possibility of pleural space infection",
+            "A small amount of purulent fluid at the catheter insertion site, with local pruritus",
+            "Sputum respiratory pathogen molecular testing indicated methicillin-resistant Staphylococcus+",
+            "WBC 10.27×10^9/L",
+            "Chest tightness and wheezing improved after anti-infective treatment"
+          ],
+          "opposing_evidence": [
+            "T 36.1℃; information from the first stage did not indicate fever or obvious manifestations of infectious toxemia",
+            "The clinical course is characterized mainly by recurrent hemoptysis for more than 1 year, which is atypical for a simple acute bacterial necrotizing infection."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary tuberculosis or nontuberculous mycobacterial lung disease",
+          "supporting_evidence": [
+            "Recurrent hemoptysis for more than 1 year, which may be seen in TB or nontuberculous mycobacterial lung disease",
+            "The patient self-reported multiple lesions in the ipsilateral lung.",
+            "Subsequently, a large left pneumothorax with pleural effusion developed, suggesting the possibility of an underlying chronic destructive pulmonary lesion"
+          ],
+          "opposing_evidence": [
+            "Denies a history of TB",
+            "No obvious fever, night sweats, or significant recent weight loss",
+            "In phase 1, no history of TB contact, sputum acid-fast bacilli, or TB-related test results were provided to support the diagnosis."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion 8-item panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Interferon-gamma release assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Serum total IgE",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pleural effusion routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid exfoliative cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +34, arterial blood gas analysis showed pH 7.43, PaO₂ 87mmHg, PaCO₂ 35mmHg, and P/F 264; regarding CBC and inflammatory markers, on Day +32 the CBC showed WBC 10.17×10⁹/L, HGB 143g/L, neutrophil percentage 43.3%, lymphocyte percentage 16.9%, eosinophil percentage 28.9%, PCT 0.23ng/mL, ESR 4mm/h, and CRP 56.96mg/L; repeat CBC on Day +34 showed WBC 9.9×10⁹/L, HGB 129g/L, neutrophil percentage 57.6%, lymphocyte percentage 12.4%, eosinophil percentage 22.4%, and CRP markedly increased to 331.48mg/L; biochemical markers indicated on Day +32 ALT 60.5U/L, AST 39.8U/L, and GGT 514.4U/L; immune-related markers showed on Day +33 serum total IgE >2500KIU/L, and lymphocyte subsets showed T-lymphocyte percentage 83.95%, CD4⁺ T-lymphocyte percentage 51.39%, CD8⁺ T-lymphocyte percentage 27.76%, B-lymphocyte percentage 7.82%, NK cell percentage 6.04%, and CD4⁺/CD8⁺ ratio 1.85; urinalysis, stool routine + OB, coagulation function, and the pre-transfusion eight-item panel were all negative; in etiologic testing, the fungal GM test, G test, Mycobacterium tuberculosis antibody, and interferon-gamma release assay were all negative; tumor markers showed CA724 27.85U/ml and NSE 17.42ng/mL, with the remainder normal; pleural effusion testing showed that on Day +33 and Day +36 the pleural fluid was light yellow on both occasions, with WBC counts of 15798×10⁶/L and 125169×10⁶/L, respectively, neutrophil percentages of 60% and 70%, respectively, and lymphocyte percentages of 40% and 30%, respectively; the Rivalta test changed from negative to positive; pleural fluid exfoliative cytology showed no malignant tumor cells, with mesothelial cells, histiocytes, lymphocytes, and numerous neutrophils seen; imaging and color Doppler ultrasound showed no obvious abnormalities in the arteries and veins of both lower extremities, echocardiography suggested impaired left ventricular diastolic function, and contemporaneous lung HRCT showed pulmonary lesions.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJ6tIQUQCpBTmEdTEB1PlNpLzn9onO6yfvokY99tSgdjASV1rHFDpcFQ/640?wx_fmt=png",
+            "near_text": "Complete blood count and inflammatory markers:",
+            "local_src": "cleaned_cases_image_cache/dd2ac753f0d8546ba3e5fc16bcd22a6a115fcac2.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJ29UI2SEW7PRmibm6D1VLLQOx99fy4mCwYPcPcSCpyn76XhFZfJkE33w/640?wx_fmt=png",
+            "near_text": "Urinalysis, stool routine + OB, coagulation profile, and pre-transfusion eight-item panel: normal.",
+            "local_src": "cleaned_cases_image_cache/4578a6449fd581c6152cf22724593193ab94f8be.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJjuXuM1eicI9TbKlqKic40oYiaBemCCOEuwCfLZljKsRjwc4GEwA4Dd9YA/640?wx_fmt=png",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/ec8241966e5e5a1db7af92d4d62a4029f8651558.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJyqyg6zNv5RlPM9ia5gd06MIm4axoylvk4a4ZqVKWxu8eKRgIpcweqQQ/640?wx_fmt=png",
+            "near_text": "Lymphocyte subsets:",
+            "local_src": "cleaned_cases_image_cache/a98c5b3019b1970e4cc0ccc647865e11efa74df5.png"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJScdqRUlxUMlqsTUao166o51BSyvMzTh7pvAQ7NkFF61PQS8b8enYBg/640?wx_fmt=png",
+            "near_text": "Pleural fluid exfoliative cytology:",
+            "local_src": "cleaned_cases_image_cache/23c10e50c15d3663fd501a9555c124562415e5f1.png"
+          },
+          {
+            "image_id": "fig13",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJW6qQ2yibNgRS9YbGwibAV7cNuVUjia8pv5hsDPBvUMO7uiaSys6kiaAqbQw/640?wx_fmt=png",
+            "near_text": "Figure 1: Chest HRCT (Day +31)",
+            "local_src": "cleaned_cases_image_cache/343c4f4fbd5f2c92722fa6e6db7dff8f46f05009.png"
+          },
+          {
+            "image_id": "fig14",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJFFVS0exDc6ZvYRUauLe3SNW8FwISibTic9yJMAyiad6FWGakecEa5UPxw/640?wx_fmt=png",
+            "near_text": "Figure 2: Patient temperature status (Day +31—Day +37)",
+            "local_src": "cleaned_cases_image_cache/c255a953fe95d1ae7af6a692f49d10f95d443447.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Aspergillus empyema",
+            "evidence": [
+              "Chest HRCT showed an aspergilloma",
+              "Pleural fluid mNGS at an outside hospital: Aspergillus fumigatus",
+              "Serum total IgE >2500 IU/ml",
+              "Pleural effusion suggesting empyema"
+            ],
+            "exclusion_reasons": [
+              "Aspergillus empyema is usually black; this patient's pleural effusion was light yellow and purulent",
+              "Before admission, the patient had already received oral voriconazole treatment for nearly 3 months; after admission, recurrent high fever persisted."
+            ]
+          },
+          {
+            "name": "bacterial empyema",
+            "evidence": [
+              "The most common pathogen in bacterial empyema is Staphylococcus aureus, followed by Pseudomonas aeruginosa, Escherichia coli, etc.",
+              "Routine pleural fluid analysis showed a marked increase in white blood cells and obvious turbidity."
+            ],
+            "exclusion_reasons": [
+              "In the complete blood count, the neutrophil percentage was not significantly elevated, while eosinophils were markedly elevated.",
+              "Pleural fluid culture and mNGS at an outside hospital did not provide relevant etiologic evidence.",
+              "After admission, the pleural fluid culture results were not yet available."
+            ]
+          },
+          {
+            "name": "Allergic bronchopulmonary aspergillosis",
+            "evidence": [
+              "This patient has a confirmed Aspergillus infection.",
+              "Serum total IgE >2500 IU/ml",
+              "Complete blood count showed a marked increase in eosinophils"
+            ],
+            "exclusion_reasons": [
+              "Although the patient has wheezing, asthma has not currently been diagnosed.",
+              "Aspergillus-specific IgE result not yet available"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Aspergillus empyema",
+        "evidence": [
+          "Chest HRCT showed an aspergilloma",
+          "Pleural fluid mNGS at an outside hospital: Aspergillus fumigatus",
+          "Serum total IgE >2500 IU/ml",
+          "Pleural effusion suggesting empyema"
+        ],
+        "exclusion_reasons": [
+          "Aspergillus empyema is usually black; this patient's pleural effusion was light yellow and purulent",
+          "Before admission, the patient had already received oral voriconazole treatment for nearly 3 months; after admission, recurrent high fever persisted."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "bacterial empyema",
+        "evidence": [
+          "The most common pathogen in bacterial empyema is Staphylococcus aureus, followed by Pseudomonas aeruginosa, Escherichia coli, etc.",
+          "Routine pleural fluid analysis showed a marked increase in white blood cells and obvious turbidity."
+        ],
+        "exclusion_reasons": [
+          "In the complete blood count, the neutrophil percentage was not significantly elevated, while eosinophils were markedly elevated.",
+          "Pleural fluid culture and mNGS at an outside hospital did not provide relevant etiologic evidence.",
+          "After admission, the pleural fluid culture results were not yet available."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Allergic bronchopulmonary aspergillosis",
+        "evidence": [
+          "This patient has a confirmed Aspergillus infection.",
+          "Serum total IgE >2500 IU/ml",
+          "Complete blood count showed a marked increase in eosinophils"
+        ],
+        "exclusion_reasons": [
+          "Although the patient has wheezing, asthma has not currently been diagnosed.",
+          "Aspergillus-specific IgE result not yet available"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Catheter culture",
+          "basis_in_stage3_input": "Day +35 catheter culture: Staphylococcus aureus 4+, ciprofloxacin intermediate, penicillin resistant.",
+          "why_order_this_exam": "The patient was admitted with a long-term indwelling chest drain after massive left pneumothorax with pleural effusion. A small amount of purulent fluid and localized pruritus were noted at the catheter insertion site. Pleural fluid white blood cells were markedly elevated, and CRP was significantly elevated, suggesting pleural space infection and a high risk of catheter-related infection. The purpose of catheter culture is to determine whether the drainage device/sinus tract is a persistent infectious focus, assess whether Staphylococcus aureus is involved in empyema formation, and guide subsequent antimicrobial selection based on susceptibility results, as well as whether catheter replacement or removal and pleural irrigation are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy and bronchoalveolar lavage",
+          "basis_in_stage3_input": "Bronchoscopy and bronchoalveolar lavage were performed on Day +36",
+          "why_order_this_exam": "The patient has recurrent hemoptysis for 1 year and chest tightness and wheezing for 1 month. Imaging suggests pulmonary lesions with clues of an aspergilloma, with concomitant bronchiectasis, pneumothorax, empyema, and pleural fluid mNGS from an outside hospital suggesting Aspergillus fumigatus. The etiology may simultaneously involve endobronchial infection, Aspergillus-related lesions, and allergic inflammatory reactions. Bronchoscopy and bronchoalveolar lavage can directly assess endobronchial lesions and the source of bleeding, obtain lower respiratory tract specimens for etiologic and cytologic analysis, and distinguish simple colonization, active infection, TB/nontuberculous mycobacterial infection, and eosinophilic airway inflammation, thereby providing a basis for subsequent anti-infective therapy, antifungal therapy, and whether interventional/surgical management is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Etiology",
+          "basis_in_stage3_input": "Etiology: no bacteria or fungi detected; no acid-fast bacilli detected.",
+          "why_order_this_exam": "The patient has long-standing recurrent hemoptysis, with possible pulmonary aspergilloma, and is also complicated by pleural infection, marked eosinophilia, and significantly elevated total IgE. Clinically, differentiation is required among bacterial empyema, Aspergillus-related lung disease, TB, or nontuberculous mycobacterial infection. Systematic etiologic testing of bronchoalveolar lavage fluid is performed to determine whether there is bacterial, fungal, or acid-fast bacillary infection in the lower respiratory tract, to assess whether the intrapulmonary lesion and pleural infection have the same origin, and to avoid biased judgment based solely on outside-hospital pleural fluid mNGS or prior empiric treatment, thereby affecting selection of the antibacterial and antifungal regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Differential cell count",
+          "basis_in_stage3_input": "Cell differential count: nucleated cells 65×10^6/L, alveolar macrophages 24.6%, lymphocytes 32.3%, neutrophils 32.3%, eosinophils 10.8%.",
+          "why_order_this_exam": "Marked peripheral blood eosinophilia, total IgE >2500 KIU/L, along with chest tightness, wheezing, an Aspergillus-related history, and subsequent elevation of Aspergillus fumigatus-specific IgE make ABPA an important differential diagnosis; however, the pleural effusion also showed purulent changes, and both catheter and pleural fluid cultures indicated Staphylococcus aureus, so an infectious factor cannot be ignored. Differential cell count of bronchoalveolar lavage fluid can determine the inflammatory pattern in the airways—whether it is eosinophilic/allergic inflammation or neutrophil-predominant infectious inflammation—and helps support ABPA, assess the degree of concomitant infection, and determine whether anti-allergic/immunomodulatory treatment should be further considered on the basis of anti-infective therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "GM test: 0.4.",
+          "why_order_this_exam": "The patient was previously diagnosed with an aspergilloma and has had long-term recurrent hemoptysis. Pleural fluid mNGS at an outside hospital indicated Aspergillus fumigatus, and HRCT showed clues suggestive of an aspergilloma. At the same time, the patient had already been taking oral voriconazole for nearly 3 months before admission; therefore, it is still necessary to assess whether active Aspergillus infection is present and its intensity. The GM test is used to assist in judging the likelihood of invasive or active aspergillosis, and, together with the previous negative serum GM, the current BALF/pleural fluid etiologic results, and the treatment response, helps differentiate Aspergillus colonization, aspergilloma, ABPA, and invasive Aspergillus infection, which is valuable for determining whether to intensify the antifungal regimen and for treatment duration assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal culture",
+          "basis_in_stage3_input": "Bacterial and fungal culture: (-).",
+          "why_order_this_exam": "The patient has complex pulmonary and pleural lesions: on the one hand, there is hemoptysis, Aspergillus-related clues, outside-hospital pleural fluid mNGS positive for Aspergillus fumigatus, and elevated IgE/eosinophils; on the other hand, there are manifestations of empyema, purulent discharge from the catheter site, markedly elevated CRP, and subsequent pleural fluid culture growing drug-resistant Staphylococcus aureus. Bacterial and fungal cultures of bronchoalveolar lavage fluid were performed to directly identify culturable pathogens in the lower respiratory tract, determine whether the intrapulmonary infection is consistent with the pleural space infection, assess whether there is active fungal infection, and use negative results to indirectly suggest that the intrapulmonary lesion may be more consistent with an aspergilloma/allergic process rather than a culturable bacterial or fungal infection, thereby optimizing anti-infective and antifungal treatment strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "allergen",
+          "basis_in_stage3_input": "Day +37 Allergens: mold positive 3+, dust mites positive 4+, cockroach positive 3+, crab positive 4+.",
+          "why_order_this_exam": "Over the past month, the patient has had chest tightness and intermittent wheezing. The patient has a history of bronchiectasis, markedly elevated peripheral blood eosinophils, serum total IgE >2500 KIU/L, and a definite history related to Aspergillus and pulmonary lesions, suggesting an atopic predisposition and possible ABPA. Allergen testing was performed to assess whether the patient has a broad atopic background, to help explain the elevated IgE and eosinophilia, to strengthen understanding of the hypersensitivity mechanism, and, together with subsequent Aspergillus fumigatus-specific IgE, to support the diagnosis of ABPA, while also providing a reference for subsequent exposure avoidance and whether to consider treatments such as omalizumab.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "Day +38 Blood culture: negative.",
+          "why_order_this_exam": "There is strong evidence of pleural space infection: the pleural fluid white blood cell count increased sharply, the Rivalta test converted to positive, there were purulent secretions at the catheter insertion site, and both the catheter culture and subsequent pleural fluid cultures indicated Staphylococcus aureus. In addition, the clinical course mentioned recurrent high fever and markedly elevated inflammatory markers, indicating a risk of bloodstream infection or sepsis. The clinical purpose of blood cultures is to determine whether the infection has spread beyond the local site into the bloodstream, assess disease severity, and provide a basis for escalation of antimicrobial therapy or determination of treatment duration; a negative result would help suggest that the current infection may still be primarily localized to the pleural space.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pleural fluid bacterial and fungal culture",
+          "basis_in_stage3_input": "Pleural fluid bacterial and fungal culture on Day +39: Staphylococcus aureus, resistant to penicillin and oxacillin, intermediate to ciprofloxacin.",
+          "why_order_this_exam": "The background at disease onset was a large left pneumothorax with pleural effusion and long-term indwelling tube drainage. Routine pleural fluid analysis showed a marked increase in white blood cells with neutrophil predominance, and the Rivalta test became positive, consistent with empyema; meanwhile, prior pleural fluid mNGS indicated Aspergillus fumigatus, which also requires differentiation from Aspergillus-related empyema. Pleural fluid bacterial and fungal cultures are the key tests for determining the pathogen causing empyema, and can directly answer whether the pleural infection is predominantly bacterial or fungal, while guiding antimicrobial selection, pleural irrigation, and drainage management through antimicrobial susceptibility results; isolation of methicillin-resistant Staphylococcus aureus can also corroborate catheter culture results and clarify the main pathogen causing the pleural infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspergillus fumigatus-specific IgE",
+          "basis_in_stage3_input": "Day +44 Aspergillus fumigatus-specific IgE: elevated (details unspecified).",
+          "why_order_this_exam": "In addition to having an aspergilloma and pleural effusion mNGS from an outside hospital indicating Aspergillus fumigatus, the patient also has important clinical clues for ABPA: chest tightness and wheezing, a background of bronchiectasis, markedly elevated peripheral blood eosinophils, and total IgE >2500 KIU/L. Aspergillus fumigatus-specific IgE is one of the important immunologic pieces of evidence for establishing ABPA. The core purpose of the test is to determine whether the patient has a specific hypersensitivity reaction to Aspergillus fumigatus, thereby distinguishing simple Aspergillus colonization/aspergilloma from ABPA; the result directly affects establishment of the final diagnosis and is related to whether anti-allergic therapy, biologic agents, and other treatment regimens need to be added on top of antifungal therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Day +35 catheter culture: Staphylococcus aureus 4+, ciprofloxacin intermediate, penicillin resistant. Day +36 bronchoscopy and bronchoalveolar lavage performed: Microbiology: no bacteria or fungi seen, no acid-fast bacilli seen. Differential cell count: nucleated cells 65×10^6/L, alveolar macrophages 24.6%, lymphocytes 32.3%, neutrophils 32.3%, eosinophils 10.8%. GM test: 0.4. Bacterial + fungal culture: (-). Day +37 allergens: mold positive 3+, dust mites positive 4+, cockroach positive 3+, crab positive 4+. Day +38 blood culture: negative. Day +39 pleural fluid bacterial + fungal culture: Staphylococcus aureus, resistant to penicillin and oxacillin, ciprofloxacin intermediate. Day +44 Aspergillus fumigatus-specific IgE: elevated (details unknown).",
+      "images": [
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJqe3ouiaEJgWXO3zMJoOibkRIBKaTjM2UyjhKC0ckQkos8nqT32KCBCgQ/640?wx_fmt=png",
+          "near_text": "Day +37 Allergens:",
+          "local_src": "cleaned_cases_image_cache/5cd6576f463dc9c0f5a91c88a66e5a5c7269dfd5.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJsCUu5GyjGdibLicHD4GETZJ5eHv9ldB692UyQxp2Smiaicf7sQgMpbWiczA/640?wx_fmt=png",
+          "near_text": "Day +44 Aspergillus fumigatus-specific IgE:",
+          "local_src": "cleaned_cases_image_cache/9600a9cbfc5f48341024b3d11b51c8426ee55ece.png"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJ9f0N4w5UvhpnqDEyOQwDicFh6PpAMia3EjuTjD1ufY7DhN6BphUtGsPQ/640?wx_fmt=png",
+          "near_text": "Figure 3: Patient body temperature status (Day +38—Day +43)",
+          "local_src": "cleaned_cases_image_cache/08446e9b66ab1890f47c1947f8c358e1929c519f.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJBFeFB0ug5sfEDFJrxKA1whhfTTJA7YFXprcwAhibvwfRAHTOubcdztg/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/733287281a519b04d5b02e2a64216c6f4259ffa9.png"
+        },
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJfRs4cr9EmfCGpkYlibOuKlH3CGutaHBHZMRQXOv0jlBI2iaXMWdcFtKw/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/ce1fd47222d211367bdf089a34b543cf3aca80f6.png"
+        },
+        {
+          "image_id": "fig20",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJRyVmMZxOW4d68vvTSFHfJgnpTPoicicpBhujS4VfT2w7gzvHgew4H59SVfnqoX2GR84np9Id1tuJA/640?wx_fmt=png",
+          "near_text": "Team experience and reflections",
+          "local_src": "cleaned_cases_image_cache/3078368dd116dc952c598bfa02a53664f08e2022.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pneumothorax, empyema, aspergilloma, allergic bronchopulmonary aspergillosis (ABPA)",
+      "diagnostic_basis": [
+        "Based on a series of ancillary examinations performed before and after the patient's admission"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Voriconazole 0.2 g q12h + linezolid 0.6 g q12h + Tienam 2.0 g q8h",
+        "Caspofungin acetate 50 mg qd was added, along with nutritional support and pleural cavity lavage.",
+        "Discontinue caspofungin",
+        "Two left-sided drainage tubes were removed. On discharge, oral linezolid tablets (for 16 days) + voriconazole + cefixime were prescribed for anti-infective treatment.",
+        "Subsequent intermittent omalizumab therapy"
+      ],
+      "treatment_response": [
+        "Body temperature decreased to below 38°C; repeat serum GM was normal, PCT 0.61, CRP decreased to 145 mg/L",
+        "Chest tightness and wheezing symptoms improved",
+        "Negative bronchodilator test",
+        "Repeat chest HRCT showed imaging improvement"
+      ]
+    }
+  }
+}

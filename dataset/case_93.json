@@ -1,0 +1,564 @@
+{
+  "status": "success",
+  "case_id": "case_93",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 58 years old, from Pingliang, Gansu. Chief complaint: \"cough and shortness of breath after activity for 1 week\"; admitted to the Department of Respiratory and Critical Care Medicine inpatient ward of Tangdu Hospital on Day 0. History of present illness: The patient developed cough 1 week before this admission after catching a chill, with yellow purulent sputum, large sputum volume, accompanied by chest tightness and shortness of breath after activity; accompanied by palpitations; no fever, chest pain, or hemoptysis; no night sweats or fatigue; no orthopnea, bilateral lower extremity edema, or other discomfort, and therefore presented to Huating Traditional Chinese Medicine Hospital, Pingliang, Gansu, where chest CT showed: bilateral lung infection, multiple nodular shadows in both lower lungs, metastatic tumor considered, calcification of the aortic and coronary arterial walls, generalized cardiomegaly, postoperative changes of the heart, right pleural thickening, and a small left pleural effusion. After 6 days of anti-infective treatment, the patient's cough and shortness of breath did not improve significantly. He was admitted from the outpatient clinic with \"bilateral pulmonary opacities of undetermined etiology.\" After admission, the patient was in fair general condition, with decreased physical strength, fair appetite, fair sleep, no significant change in body weight, and normal bowel and bladder function. Past medical history: History of hypertension for more than 10 years, with highest blood pressure 180/100mmHg, currently taking enalapril maleate tablets for antihypertensive treatment; history of diabetes mellitus for more than 10 years, currently taking acarbose tablets and pioglitazone/metformin tablets for glucose control; history of atrial fibrillation for more than 3 years, underwent radiofrequency ablation at Xijing Hospital 1 year ago, restored to sinus rhythm after surgery, currently taking metoprolol succinate sustained-release tablets for rate control. Denies other past history such as \"cerebrovascular disease.\" Surgical history: Thoracotomy for cardiac trauma in 1982; gallstone surgery in 2008; left inguinal hernia surgery in 2010; prostate surgery in 2020. Transfusion history: Received blood transfusion during cardiac surgery in 1982; denies transfusion reactions. Personal history: Keeps flowers and a dog at home; history of alcohol use for 30 years, abstinent for 5 years; smoked for 20 years, quit 3 months before admission; no history of exposure to radioactive substances or toxins. Family history: Father is alive; mother died of \"cerebral infarction.\" Physical examination after admission: T 36.1℃, P 70 beats/min, R 18 breaths/min, BP 98/68mmHg, SPO2 89% (not receiving oxygen); lips slightly cyanotic. No rash on the skin; no enlarged lymph nodes palpable throughout the body; a 30 cm surgical scar visible on the anterior chest; no thoracic deformity; symmetric bilateral respiratory movement; tactile fremitus not increased; resonant percussion over both lungs; breath sounds clear in both lungs; a few moist rales heard in the left lower lung; no Velcro rales; no pleural friction rub. No precordial bulge; enlarged cardiac borders; heart rate 70 beats/min, regular rhythm; no pathologic murmur heard in any valvular auscultation area. A 6-7 cm surgical scar visible in the right upper abdomen; abdomen flat and soft; no hepatosplenomegaly; no abdominal tenderness or guarding. No edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRKjRoomDS36A1tMHTNf9yWFpm2IIjDzibnsTdWIgFChSicicDVWq5wCa5g/640?wx_fmt=png",
+          "near_text": "Figure 1. Patient's chest CT (Day +1)",
+          "local_src": "cleaned_cases_image_cache/d3120d47a15167beed2028eb5675ac86e7751dee.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia (bilateral lung infection, more pronounced involvement of the left lower lung)",
+          "supporting_evidence": [
+            "Chief complaint: \"Cough and shortness of breath after exertion for 1 week\"",
+            "History of present illness records: \"After exposure to cold, developed cough with expectoration of yellow purulent sputum, large sputum volume, accompanied by chest tightness and shortness of breath after exertion\"",
+            "Outside hospital chest CT showed \"bilateral lung infection\"",
+            "Physical examination revealed a few moist rales in the left lower lung.",
+            "SpO2 89% (not receiving oxygen), indicating hypoxemia, consistent with impaired gas exchange caused by pulmonary infection",
+            "The attached phase 1 CT images show patchy consolidation or inflammatory infiltrates in the bilateral lower lobes, more pronounced on the left, supporting an infectious lesion."
+          ],
+          "opposing_evidence": [
+            "After 6 days of anti-infective treatment, the patient's cough and shortness of breath showed no significant improvement.",
+            "Chest CT at an outside hospital also showed \"multiple nodular opacities in both lower lungs, suspicious for metastatic tumors,\" indicating that simple infection cannot fully explain the imaging findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary metastases (with or without post-obstructive and/or concurrent infection)",
+          "supporting_evidence": [
+            "Outside-hospital chest CT explicitly documented \\\"multiple nodular opacities in both lower lungs, consider metastatic tumor\\\"",
+            "The attached phase I CT images show multiple nodular opacities in both lower lungs, with some nodules adjacent to areas of consolidation.",
+            "Age 58 years, with a 20-year smoking history, which is one of the background risk factors for malignancy-related pulmonary lesions.",
+            "A small left pleural effusion may be seen with malignant pleural involvement or tumor-related pleural effusion"
+          ],
+          "opposing_evidence": [
+            "The symptoms had an acute onset, only 1 week in duration, and were mainly characterized by yellow purulent sputum and cough, which is more suggestive of an infectious exacerbation.",
+            "No significant weight loss, night sweats, or fatigue",
+            "No definite history of a primary tumor was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Primary lung cancer (multifocal lesions or with obstructive pneumonia/pleural effusion)",
+          "supporting_evidence": [
+            "The patient is a 58-year-old man with a 20-year smoking history.",
+            "Outside-hospital CT showed multiple nodular opacities in both lower lungs, requiring differentiation from lung malignancy",
+            "The accompanying phase I CT images show pulmonary nodules with focal consolidation; malignant tumor with concomitant infection cannot be excluded.",
+            "Hypoxemia (SpO2 89%) and a small left pleural effusion are present, which may be seen in a progressive space-occupying pulmonary lesion"
+          ],
+          "opposing_evidence": [
+            "The onset was cough and yellow purulent sputum within 1 week after “catching a chill,” which more strongly supports infection as the trigger.",
+            "No hemoptysis or chest pain",
+            "Phase I information did not describe a definite hilar mass, mediastinal lymphadenopathy, or significant weight loss"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Manifested by cough, exertional dyspnea, and hypoxemia; may be seen in organizing pneumonia",
+            "After 6 days of anti-infective treatment, the symptoms did not improve significantly, suggesting that this was not simply ordinary bacterial pneumonia.",
+            "The accompanying first-stage CT images show patchy areas of consolidation in the peripheral lungs/lower lungs, which on imaging can be consistent with organizing pneumonia."
+          ],
+          "opposing_evidence": [
+            "There is obvious yellow purulent sputum, which more typically supports bacterial infection.",
+            "CT at an outside hospital showed multiple nodules and suggested metastatic tumors; a neoplastic lesion still needs to be excluded as a priority",
+            "Phase 1 information did not provide definite secondary clues such as autoimmune disease, drug exposure, or a history of radiotherapy."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary TB or other chronic granulomatous infections (including fungal infections)",
+          "supporting_evidence": [
+            "Cough and shortness of breath with multiple pulmonary nodular opacities; on imaging, differentiation from chronic infections such as TB or fungal infection is required.",
+            "No significant improvement after 6 days of anti-infective therapy, suggesting possible etiologies other than common bacterial infection",
+            "Right pleural thickening and a small left pleural effusion may be seen in some chronic infectious pleuropulmonary lesions"
+          ],
+          "opposing_evidence": [
+            "No fever, night sweats, or fatigue; no significant change in body weight",
+            "The onset was only 1 week ago, and after exposure to cold there was a large amount of yellow purulent sputum, which is more suggestive of an acute infection.",
+            "The attached first-stage CT images and report did not indicate typical findings more suggestive of TB, such as upper lobe cavitation and tree-in-bud pattern."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Heart failure-related pulmonary congestion/pleural effusion",
+          "supporting_evidence": [
+            "The patient has hypertension, atrial fibrillation, and a history of prior cardiac surgery.",
+            "Outside-hospital CT indicated \"global cardiomegaly\", and physical examination showed \"cardiac enlargement\"",
+            "Chest tightness and shortness of breath after activity, SpO2 89% (not receiving oxygen)",
+            "Small left pleural effusion is present"
+          ],
+          "opposing_evidence": [
+            "No orthopnea, bilateral lower extremity edema, or other discomfort",
+            "Yellow purulent sputum with cough, moist rales in the left lower lung, and CT indicating bilateral pulmonary infection further support an infectious pulmonary etiology",
+            "Outside-hospital CT showed multiple nodular opacities in both lower lungs; heart failure usually cannot explain multiple nodular opacities."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers (liver and kidney function, electrolytes, myocardial enzymes, TNT, BNP, thyroid function)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Four infectious disease screening tests (hepatitis B five-item panel, hepatitis C, HIV, TP)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal-related tests (sputum smear, sputum culture, blood GM test, blood G test)",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related tests (erythrocyte sedimentation rate, sputum acid-fast stain, tuberculin skin test, interferon-gamma release assay)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (five lung tumor markers)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immune-related markers (ANA panel, ANA titer, ANCA-associated vasculitis panel, four-item rheumatologic panel, immunoglobulin and complement panel)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the heart and bilateral lower extremity veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fractional exhaled nitric oxide (FeNO)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ultrasound-guided transbronchoscopic lung biopsy (transbronchial cryobiopsy)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid examination (Gram stain, bacterial culture, fungal culture, PAS stain, acid-fast stain, liquid-based cytology)",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory bacterial nucleic acid testing of bronchoalveolar lavage fluid",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterial species identification in bronchoalveolar lavage fluid",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF G test, GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tissue histopathologic examination and special stains (GMS, PAS, mucicarmine)",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis showed pH 7.40, PO2 60.8mmHg, PCO2 42.7mmHg, HCO3- 25.9mmol/L; complete blood count, C-reactive protein, and procalcitonin results are detailed in the table; urinalysis showed urine glucose +-, stool routine was normal; biochemical tests showed myocardial enzymes, liver and kidney function, electrolytes, TNT, BNP, and thyroid function were all normal; coagulation function showed fibrinogen concentration 4.01g/l (elevated), with the remaining indicators normal. In pathogen and tumor-related tests, the four infectious disease screens (hepatitis B five-item panel, hepatitis C, HIV, TP) were all negative; fungal-related tests (sputum smear, sputum culture, blood GM test, blood G test) showed no abnormalities; TB-related tests showed ESR 33mm/h, sputum acid-fast stain and tuberculin skin test were both negative, and interferon-gamma release assay was positive; tumor markers (five lung tumor markers) showed neuron-specific enolase 19.80ng/L (elevated), with the remaining indicators normal. Among immune-related markers, ANA profile was negative, ANA titer was positive at 1:320, the ANCA-associated vasculitis panel showed pANCA positive and the remainder negative, and the four rheumatologic items and immunoglobulin/complement panel were all negative. Color Doppler ultrasound (heart + bilateral lower extremity veins) showed slight biatrial enlargement, widened pulmonary artery diameter, slight dilation of the aortic sinus, normal measured left ventricular systolic function, mild pulmonic and tricuspid regurgitation, and patent segmental blood flow in the deep veins of both lower extremities. Pulmonary function testing showed severe small airway airflow obstruction (pre-bronchodilator MEF25 0.38L [23.85%pred], post-bronchodilator 0.48L [30.33%pred]), moderate mixed ventilatory dysfunction (pre-bronchodilator FVC 2.90L [73.48%pred], post-bronchodilator 3.10L [78.65%pred]; pre-bronchodilator FEV1 2.01L [69.37%pred], post-bronchodilator 2.26L [72.92%pred]; pre-bronchodilator FEV1/FVC 69.37%, post-bronchodilator 72.92%), moderate ventilatory impairment, moderate impairment of diffusing capacity (DLCO SB 60.48%pred), positive bronchodilator test (after inhalation of salbutamol aerosol 400ug, FEV1 increased by 12% and by an absolute value of 250ml after 20 minutes), FeNO 15ppb. Bronchoscopy on Day +6 showed no abnormalities; an abnormal hypoechoic area was detected in the lingular segment of the left upper lobe, and ultrasound-guided transbronchial lung biopsy (cryobiopsy) was performed, with lavage fluid collected for testing; bronchoalveolar lavage fluid testing on Day +8 showed Gram stain positive for G+ cocci + and G- bacilli +, no fungi or acid-fast bacilli detected, and bacterial + fungal culture, respiratory bacterial nucleic acid testing, mycobacterial species identification, G test, and GM test were all negative; lung biopsy pathology results from Tangdu Hospital on Day +9 showed that in the submitted specimen (superior lingular segment of the left upper lobe), accumulations of round yeast-like organisms were seen within striated muscle tissue and fibrous tissue, and the histologic features and special stains suggested mycosis (favoring Cryptococcus); among the special stains, Gomori methenamine silver (+), PAS (+), and mucicarmine (+).",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRwOr8ynJA8dhQhPtIM6uVDbMD9gITvGlwe6VpCuR3oJoL5DmXzphQYw/640?wx_fmt=png",
+            "near_text": "Urinalysis: urine glucose +-. Stool routine normal.",
+            "local_src": "cleaned_cases_image_cache/87320dc68c092dd79958776ba19f7304631e92de.png"
+          },
+          {
+            "image_id": "fig15",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRwr0EoRhZaO66txIhPhf4HgVa3NpvIFGDmibIBiccr3BC5K6EhMUxEf9w/640?wx_fmt=png",
+            "near_text": "Figure 2. Pathology results of transbronchial lung biopsy (Day +9)",
+            "local_src": "cleaned_cases_image_cache/c4590b445ce1f7f97ab198161ed17dabf46025b0.png"
+          },
+          {
+            "image_id": "fig17",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRTnwS5C2J8GxyqGXBOiaW07YjtsAqek3lZflp3sPKODFbfGzpLfwNRNQ/640?wx_fmt=png",
+            "near_text": "Could the patient have an infectious disease?",
+            "local_src": "cleaned_cases_image_cache/ef3b8cafff2c4fa353e9088a2842b04a25a13eef.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "bacterial infection",
+            "evidence": [
+              "The patient had an acute onset, with clinical manifestations including cough, sputum production, shortness of breath, and hypoxemia.",
+              "Mild elevations in white blood cell count, neutrophil percentage, CRP, etc.",
+              "Chest HRCT showed multiple areas of consolidation in both lungs"
+            ],
+            "exclusion_reasons": [
+              "No fever or other symptoms",
+              "No pathogenic bacteria were detected on sputum culture",
+              "No significant radiographic absorption after antibiotic treatment",
+              "Lack of relevant etiologic test evidence for bacterial infection; the symptoms, blood count, and imaging findings are not consistent."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "The patient has a history of diabetes mellitus.",
+              "Clinical manifestations include cough, sputum production, shortness of breath, hypoxemia, etc.",
+              "Erythrocyte sedimentation rate mildly elevated, blood T-SPOT positive",
+              "Chest HRCT showed multiple areas of consolidation in both lungs, with scattered solid nodules in both lungs"
+            ],
+            "exclusion_reasons": [
+              "The patient has a short disease course, without moderate TB symptoms such as low-grade afternoon fever, night sweats, fatigue, and weight loss.",
+              "Anti-tuberculosis antibody, sputum acid-fast stain, and tuberculin skin test were negative",
+              "Mycobacterial species identification in bronchoalveolar lavage fluid was negative, and no etiologic evidence of TB was found",
+              "Lung biopsy pathology showed no granulomatous necrosis"
+            ]
+          },
+          {
+            "name": "Malignant neoplasm of the lung",
+            "evidence": [
+              "The patient has symptoms of cough and shortness of breath.",
+              "Chest HRCT showed bilateral mass-like soft-tissue density opacities in both lungs with marked heterogeneous enhancement, scattered solid-density nodular opacities in both lungs, and small lymph node density shadows in the mediastinal lymph nodes.",
+              "Tumor markers showed a mildly elevated NSE",
+              "No improvement after standard anti-infective treatment"
+            ],
+            "exclusion_reasons": [
+              "The patient has a short disease course, with no blood-streaked sputum, weight loss, or other symptoms.",
+              "No tumor cells were found on lung biopsy pathology or in bronchoalveolar lavage fluid."
+            ]
+          },
+          {
+            "name": "Pulmonary manifestations of connective tissue disease",
+            "evidence": [
+              "The patient's clinical symptoms include cough and shortness of breath after exertion.",
+              "ANA titer 1:320 positive, pANCA positive",
+              "Chest HRCT showed multiple areas of consolidation in both lungs",
+              "PFT showed moderate diffusion impairment",
+              "Blood gas values are close to type I respiratory failure"
+            ],
+            "exclusion_reasons": [
+              "The patient is a middle-aged man with no prior history of immune system-related disease.",
+              "No symptoms such as fever, rash, muscle pain, or joint pain",
+              "Laboratory tests indicated that ANA titer, rheumatoid factor, and immunoglobulin and complement panel tests were all negative."
+            ]
+          },
+          {
+            "name": "Interstitial lung disease",
+            "evidence": [
+              "The patient has symptoms such as cough and shortness of breath on exertion.",
+              "Arterial blood gas analysis was close to type I respiratory failure",
+              "Chest HRCT shows bilateral lung involvement",
+              "PFT showed moderate diffusion impairment"
+            ],
+            "exclusion_reasons": [
+              "The patient has a short medical history, with no relevant exposure history, occupational history, personal history, or medication history.",
+              "No symptoms such as progressive shortness of breath after activity",
+              "No Velcro crackles were heard on physical examination."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "bacterial infection",
+        "evidence": [
+          "The patient had an acute onset, with clinical manifestations including cough, sputum production, shortness of breath, and hypoxemia.",
+          "Mild elevations in white blood cell count, neutrophil percentage, CRP, etc.",
+          "Chest HRCT showed multiple areas of consolidation in both lungs"
+        ],
+        "exclusion_reasons": [
+          "No fever or other symptoms",
+          "No pathogenic bacteria were detected on sputum culture",
+          "No significant radiographic absorption after antibiotic treatment",
+          "Lack of relevant etiologic test evidence for bacterial infection; the symptoms, blood count, and imaging findings are not consistent."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "The patient has a history of diabetes mellitus.",
+          "Clinical manifestations include cough, sputum production, shortness of breath, hypoxemia, etc.",
+          "Erythrocyte sedimentation rate mildly elevated, blood T-SPOT positive",
+          "Chest HRCT showed multiple areas of consolidation in both lungs, with scattered solid nodules in both lungs"
+        ],
+        "exclusion_reasons": [
+          "The patient has a short disease course, without moderate TB symptoms such as low-grade afternoon fever, night sweats, fatigue, and weight loss.",
+          "Anti-tuberculosis antibody, sputum acid-fast stain, and tuberculin skin test were negative",
+          "Mycobacterial species identification in bronchoalveolar lavage fluid was negative, and no etiologic evidence of TB was found",
+          "Lung biopsy pathology showed no granulomatous necrosis"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant neoplasm of the lung",
+        "evidence": [
+          "The patient has symptoms of cough and shortness of breath.",
+          "Chest HRCT showed bilateral mass-like soft-tissue density opacities in both lungs with marked heterogeneous enhancement, scattered solid-density nodular opacities in both lungs, and small lymph node density shadows in the mediastinal lymph nodes.",
+          "Tumor markers showed a mildly elevated NSE",
+          "No improvement after standard anti-infective treatment"
+        ],
+        "exclusion_reasons": [
+          "The patient has a short disease course, with no blood-streaked sputum, weight loss, or other symptoms.",
+          "No tumor cells were found on lung biopsy pathology or in bronchoalveolar lavage fluid."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary manifestations of connective tissue disease",
+        "evidence": [
+          "The patient's clinical symptoms include cough and shortness of breath after exertion.",
+          "ANA titer 1:320 positive, pANCA positive",
+          "Chest HRCT showed multiple areas of consolidation in both lungs",
+          "PFT showed moderate diffusion impairment",
+          "Blood gas values are close to type I respiratory failure"
+        ],
+        "exclusion_reasons": [
+          "The patient is a middle-aged man with no prior history of immune system-related disease.",
+          "No symptoms such as fever, rash, muscle pain, or joint pain",
+          "Laboratory tests indicated that ANA titer, rheumatoid factor, and immunoglobulin and complement panel tests were all negative."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Interstitial lung disease",
+        "evidence": [
+          "The patient has symptoms such as cough and shortness of breath on exertion.",
+          "Arterial blood gas analysis was close to type I respiratory failure",
+          "Chest HRCT shows bilateral lung involvement",
+          "PFT showed moderate diffusion impairment"
+        ],
+        "exclusion_reasons": [
+          "The patient has a short medical history, with no relevant exposure history, occupational history, personal history, or medication history.",
+          "No symptoms such as progressive shortness of breath after activity",
+          "No Velcro crackles were heard on physical examination."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary cryptococcosis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy + transbronchial cryobiopsy",
+          "basis_in_stage3_input": "Bronchoscopy + transbronchial cryobiopsy (Day +6)",
+          "why_order_this_exam": "The patient developed acute cough, yellow purulent sputum, and shortness of breath on exertion, with hypoxemia. Chest CT showed multiple areas of consolidation/nodular opacities in both lungs, and there was no significant improvement after 6 days of anti-infective treatment at an outside hospital; simple bacterial pneumonia cannot explain all manifestations. At the same time, differentiation is needed from pulmonary malignancy, TB, fungal infection, organizing pneumonia, and connective tissue disease-related pulmonary involvement. Bronchoscopy can directly assess whether there is an endobronchial tumor or obstructive lesion and obtain lavage fluid and tissue from sites of imaging abnormalities; transbronchial lung cryobiopsy can obtain larger and more structurally intact lung tissue, improving the pathologic diagnostic yield, and is used to clarify the nature of the lesion as soon as possible, providing a key basis for subsequent decisions regarding anti-infective, antifungal, or other treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF Gram stain",
+          "basis_in_stage3_input": "BALF results (Day +8): Gram stain showed G+ cocci+",
+          "why_order_this_exam": "The patient presented with cough, purulent sputum, and shortness of breath. Early in the clinical course, common bacterial pulmonary infection should first be ruled out, especially when empiric anti-infective therapy has already been given at another hospital with poor response; in this situation, it is necessary to determine as soon as possible whether there is still evidence of a bacterial pathogen. BALF is derived from the lower respiratory tract and reflects infection at the lesion site better than sputum specimens. Gram stain can rapidly indicate the presence or absence of bacteria and their general category, help explain the areas of consolidation on imaging, guide whether to continue or adjust antibacterial agents, and, together with subsequent culture, nucleic acid testing, and pathologic results, determine whether bacterial infection is the primary cause, a mixed infection, or colonization/contamination.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast stain of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "No acid-fast bacilli seen on acid-fast stain",
+          "why_order_this_exam": "The patient has a history of diabetes mellitus. Chest imaging shows multiple areas of consolidation in both lungs accompanied by scattered nodules, and there has been no significant improvement with conventional anti-infective treatment. TB and other mycobacterial infections are important differential diagnoses that must be excluded. Although the patient does not have the typical afternoon low-grade fever, night sweats, or weight loss, the T-SPOT is positive and the imaging findings are complex, so direct microbiologic evidence still needs to be sought. Acid-fast staining of bronchoalveolar lavage fluid can rapidly screen for the presence of acid-fast bacilli and help distinguish TB/nontuberculous mycobacterial infection from fungal infection, tumor, or inflammatory disease, thereby avoiding inappropriate use of antibacterial therapy alone or glucocorticoid treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal culture",
+          "basis_in_stage3_input": "Bacterial and fungal culture (-)",
+          "why_order_this_exam": "In this case, both acute purulent sputum and areas of consolidation support infection, while multiple nodules and lack of response to antibacterial therapy suggest the possibility of an atypical pathogen or a noninfectious disease; therefore, both bacterial and fungal cultures should be performed on the bronchoalveolar lavage fluid. The purpose of culture is to obtain viable pathogens as much as possible, determine whether a culturable bacterial or fungal infection is present, and, when necessary, provide a basis for further identification and antimicrobial susceptibility testing. This test is valuable for distinguishing simple bacterial infection, fungal infection, mixed infection, or a noninfectious lesion, and it can also corroborate the subsequent pathologic finding of \"yeast-like material\" or explain why some microbiologic tests are negative.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory bacterial nucleic acid testing of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "BALF respiratory bacterial nucleic acid test (-)",
+          "why_order_this_exam": "The patient has already received 6 days of anti-infective therapy, and the positivity rate of conventional culture and smear may be reduced due to prior medication use; meanwhile, the patient still has persistent symptoms and hypoxemia, requiring a faster and more sensitive assessment of whether common respiratory bacteria are the main causative pathogens. Bacterial nucleic acid testing of bronchoalveolar lavage fluid can provide supplementary etiologic evidence when culture is negative or affected by antibiotics, helping determine whether antimicrobial therapy still needs to be intensified or changed. If nucleic acid testing is also negative, this further supports that common bacteria are not the primary cause, helping shift the diagnostic focus to fungi, TB, tumors, and other noninfectious lung diseases.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterial species identification in bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "Mycobacterial species identification in bronchoalveolar lavage fluid was negative",
+          "why_order_this_exam": "In addition to acid-fast staining, this case also requires further mycobacterial species identification, because the patient's diabetes mellitus, multiple nodular/consolidative opacities in both lungs, positive T-SPOT, and poor response to anti-infective therapy place both TB and nontuberculous mycobacterial infection in the differential diagnosis. Acid-fast staining alone has limited sensitivity, whereas species identification helps determine at the pathogen level whether Mycobacterium tuberculosis or other nontuberculous mycobacteria are present, and directly affects isolation measures and the selection of anti-TB/anti-NTM therapy. A negative result of this test is of important value for excluding a mycobacterial etiology and supporting the subsequent diagnosis of cryptococcosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF G and GM tests",
+          "basis_in_stage3_input": "BALF G and GM tests (-)",
+          "why_order_this_exam": "The patient's pulmonary lesion responds poorly to conventional antibacterial therapy, and the imaging findings are atypical, so invasive fungal infection should be considered. G and GM testing of bronchoalveolar lavage fluid can serve as adjunctive screening for fungal pathogens in the lower respiratory tract; the G test reflects certain fungal cell wall components, whereas GM is more suggestive of Aspergillus-related clues. The clinical purpose of performing this testing is to assess as early as possible, before pathology results are available, whether common invasive fungal infections are present, and to help differentiate fungi such as Aspergillus from Cryptococcus, bacteria, or noninfectious lesions. Even if the results are negative, they also help indicate that not all fungal infections will test positive, providing context for subsequent identification of Cryptococcus in conjunction with special pathologic stains.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial cryobiopsy pathology examination",
+          "basis_in_stage3_input": "Cryobiopsy lung pathology result (Day +9)",
+          "why_order_this_exam": "In this case, the imaging findings may be seen in infection as well as in malignant tumors, organizing pneumonia, granulomatous disease, and connective tissue disease-associated lung injury, while routine laboratory tests and lavage fluid pathogen studies were unable to establish a definitive diagnosis. The core value of pathologic examination of transbronchial cryobiopsy lies in directly observing tissue architecture and the nature of the lesion, to determine whether there is tumor cell infiltration, granulomatous inflammation, organizing change, or specific pathogen infection. For this case, pathology can resolve the key question of whether the multiple pulmonary opacities are infection, tumor, or inflammatory interstitial lung disease, and provide the strongest basis for whether to initiate antifungal therapy subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: Gomori methenamine silver",
+          "basis_in_stage3_input": "Special stain: Gomori methenamine silver (+)",
+          "why_order_this_exam": "On routine staining of the lung biopsy pathology specimen, accumulations of round yeast-like material were seen, but morphology alone still requires further confirmation as to whether they are fungi and what their histologic characteristics are. Grocott methenamine silver staining is relatively sensitive for demonstrating fungal cell walls and can help highlight the fungal contours within the lesion, enhancing recognition of fungal infection. In this case, this special stain was performed in order to histologically confirm a fungal lesion despite negative bacterial culture and BAL fungal-related testing, support shifting the diagnosis from tumor, TB, or noninfectious inflammation toward mycosis, and provide a chain of evidence for subsequently favoring Cryptococcus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: PAS",
+          "basis_in_stage3_input": "Special stain: PAS (+)",
+          "why_order_this_exam": "Yeast-like structures are seen in the lung tissue in this case, and multiple special stains are required to further confirm their fungal nature and distinguish them from other vacuolated, necrotic, or mucoid changes. PAS stain can demonstrate fungus-related polysaccharide components and helps assess the distribution and morphology of yeast-like pathogens in the tissue. Given the patient's lack of response to antibacterial therapy, negative routine pathogen testing, and multiple pulmonary lesions, the purpose of PAS staining is to enhance the reliability of the pathologic diagnosis, assist in excluding tumor and noninfectious lesions, and, together with Gomori methenamine silver and mucicarmine, establish histologic evidence supporting Cryptococcus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: mucus impaction",
+          "basis_in_stage3_input": "Special stains: Gomori methenamine silver (+), PAS (+), mucicarmine (+)",
+          "why_order_this_exam": "When yeast-like pathogens within the lung tissue are suspected, mucicarmine stain is important for demonstrating the capsule-like mucinous component of Cryptococcus. The patient has diabetes, keeps flowers at home, the pulmonary lesion did not respond to antibacterial therapy, and multiple pathogen tests on BAL failed to identify a definite cause; pathology needs to further distinguish common fungal infection from specific yeasts such as Cryptococcus. The clinical question for performing mucicarmine stain is: do these round yeast-like structures have mucinous capsular features consistent with Cryptococcus? This result directly affects the final suspected pathogen and the choice of antifungal regimen.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "blood cryptococcal antigen agglutination titer",
+          "basis_in_stage3_input": "Further examination: blood cryptococcal antigen agglutination titer: ≥1:2560",
+          "why_order_this_exam": "When lung biopsy pathology and special stains have already suggested a fungal infection with a tendency toward Cryptococcus, further non-culture-based pathogen testing is needed to increase diagnostic certainty and to assess the systemic fungal burden and risk of dissemination. Serum cryptococcal antigen testing has high diagnostic value for cryptococcal infection, especially in situations with negative cultures or when histopathology is suggestive but additional evidence is still needed. In this case, the purpose of performing this test is to confirm whether the pulmonary fungal infection is consistent with Cryptococcus and to help determine whether hematogenous dissemination may be present, thereby deciding whether further central nervous system evaluation is needed and selecting the intensity of antifungal therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced head CT",
+          "basis_in_stage3_input": "Contrast-enhanced head CT: lesion in the right temporo-occipital lobe (old lesion)",
+          "why_order_this_exam": "Once pulmonary pathology suggests cryptococcus, clinicians must consider whether central nervous system dissemination has occurred, because this would significantly alter diagnostic stratification, selection of therapeutic agents, and treatment duration. Although the case did not describe obvious neurologic symptoms such as headache, vomiting, or disturbance of consciousness, the patient's serum cryptococcal antigen titer was high, and diabetes is a predisposing background; therefore, contrast-enhanced head CT is required as dissemination screening and imaging assessment before lumbar puncture. This examination is intended to detect a space-occupying lesion, meningeal involvement, or other intracranial abnormalities, assess the safety of lumbar puncture, and help determine whether cryptococcal meningoencephalitis or other intracranial lesions are present.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lumbar puncture",
+          "basis_in_stage3_input": "Lumbar puncture: routine examination colorless and clear, slightly turbid; qualitative globulin positive; total cell count 62*10E6/L; white blood cell count 0",
+          "why_order_this_exam": "In this case, lung tissue pathology favors cryptococcus, and the blood cryptococcal antigen titer is ≥1:2560, indicating that not only should pulmonary cryptococcosis be diagnosed, but concomitant central nervous system involvement must also be evaluated. Lumbar puncture is a key step in assessing whether cryptococcus has disseminated to the meningeal-cerebrospinal fluid system, and cerebrospinal fluid can be obtained for routine, biochemical, and etiologic testing. The clinical question is whether the patient currently has only a localized pulmonary infection or has already developed cryptococcal meningitis/disseminated cryptococcosis. This conclusion will directly determine the intensity of the treatment regimen, whether more aggressive antifungal therapy is needed, and the duration of treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF India ink stain",
+          "basis_in_stage3_input": "India ink stain (-)",
+          "why_order_this_exam": "After lumbar puncture, India ink staining of cerebrospinal fluid is one of the classic rapid screening methods for central nervous system cryptococcal infection. In this case, the reason for performing this test was that pathology and serology had already strongly suggested cryptococcal infection, and it was necessary to determine as soon as possible whether encapsulated yeast-like pathogens could be directly seen in the cerebrospinal fluid. This test helps to rapidly support or argue against the diagnosis of cryptococcal meningitis, and, together with cerebrospinal fluid cryptococcal antigen, cytology, and protein results, to interpret whether central dissemination is present, thereby affecting treatment stratification.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid cryptococcal antigen test",
+          "basis_in_stage3_input": "Cryptococcal antigen test (-)",
+          "why_order_this_exam": "Because the patient's serum cryptococcal antigen titer was markedly elevated and the lung pathology also suggested Cryptococcus, cerebrospinal fluid cryptococcal antigen testing is the key etiologic test for determining whether there is concomitant central nervous system involvement. Its purpose is to improve the detection rate of cryptococcal infection at the cerebrospinal fluid level, address the insufficient sensitivity of India ink staining, and help distinguish isolated pulmonary cryptococcosis from disseminated cryptococcosis. This result has direct guiding significance for deciding whether to treat according to a central nervous system infection regimen and whether to prolong the treatment course.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF cytology",
+          "basis_in_stage3_input": "Cytology: red blood cells 142*10E6/L, white blood cells 1*10E6/L, lymphocyte percentage 47%, monocyte percentage 46%, neutrophil percentage 1%",
+          "why_order_this_exam": "When evaluating possible central dissemination of Cryptococcus, specific etiologic evidence alone is insufficient; CSF cytology is also needed to characterize the pattern of inflammatory response. Although this patient's cranial imaging did not indicate definite active lesions, because the serum cryptococcal antigen titer is high and the pulmonary pathology is definitive, it is still necessary to determine whether there is increased cellularity and altered differential cell counts in the CSF to support or argue against a meningitic process. CSF cytology helps comprehensively assess the activity of central nervous system infection, exclude other infections or neoplastic meningeal involvement, and, together with protein, India ink stain, and antigen results, determine whether there is clinically significant CSF involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid protein test",
+          "basis_in_stage3_input": "Protein: immunoglobulin 30.1 mg/L, albumin 210 mg/L",
+          "why_order_this_exam": "CSF protein testing is an important component of lumbar puncture assessment. In this case, the reason for performing this test is that pulmonary cryptococcosis has basically been established, and it is necessary to further determine whether the blood-brain barrier is impaired and whether there are inflammatory changes in the CSF, thereby assessing whether there is indirect evidence of cryptococcal meningoencephalitis. Abnormal protein levels may suggest the degree of CNS involvement and, when combined with routine CSF studies, cytology, India ink stain, and cryptococcal antigen results, improve the accuracy of assessing disseminated cryptococcosis, further guiding treatment intensity and follow-up priorities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryobiopsy lung tissue histopathology slides sent to an outside hospital for consultation",
+          "basis_in_stage3_input": "Cryobiopsy lung tissue histopathology slides sent to an outside hospital for consultation (Day +15)",
+          "why_order_this_exam": "The pulmonary imaging findings in this case were complex, and the initial differential diagnosis was broad, including bacterial infection, TB, lung malignancy, connective tissue disease-associated lung disease, and ILD, whereas the final diagnosis mainly relied on lung tissue pathology. Because histopathologic interpretation of fungi, especially Cryptococcus, requires substantial experience, and this diagnosis would directly determine the long-term antifungal treatment regimen, sending the slides to an outside hospital for consultation could further verify the pathologic conclusion and reduce the risk of misinterpretation. The clinical purpose was to obtain a higher-level pathologic consensus at a key diagnostic confirmation point and to determine whether the round vacuolated spores were consistent with pulmonary cryptococcosis, thereby providing a more solid basis for the final diagnosis and subsequent standardized treatment.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy + transbronchial cryobiopsy (Day +6): No abnormalities were seen on bronchoscopy. An abnormal hypoechoic area was detected in the lingular segment of the left upper lobe, and ultrasound-guided transbronchial lung biopsy was performed. Bronchoalveolar lavage fluid results (Day +8): Gram stain showed G+ cocci+; no G- cocci-, G+ bacilli-, or G- bacilli+ were seen; no fungi were detected. Acid-fast stain showed no acid-fast bacilli. Bacterial + fungal culture (-); BALF respiratory bacterial nucleic acid testing (-); BALF mycobacterial species identification negative; BALF G and GM tests (-). Cryobiopsy pathology result (Day +9): (left upper lobe, superior lingular segment) Submitted striated muscle tissue and fibrous tissue showed accumulation of round yeast-like organisms; histologic features and special stains suggest fungal disease (favor Cryptococcus). Special stains: GMS (+), PAS (+), mucicarmine (+). Further examinations: Blood cryptococcal antigen agglutination titer: ≥1:2560. Contrast-enhanced head CT: lesion in the right temporo-occipital lobe (old lesion). Lumbar puncture: routine examination colorless and clear, slightly turbid, qualitative globulin positive, total cell count 62*10E6/L, white blood cell count 0; India ink stain (-); cryptococcal antigen test (-); cytology: red blood cells 142*10E6/L, white blood cells 1*10E6/L, lymphocyte percentage 47%, monocyte percentage 46%, neutrophil percentage 1%; protein: immunoglobulin 30.1mg/L, albumin 210mg/L. Outside hospital consultation on cryobiopsy lung tissue pathology slides (Day +15): \"Needle biopsy of the lingular segment of the upper lobe\" showed tissue proliferation within fibrous tissue containing round vacuolated spores, suggesting cryptococcal pneumonia.",
+      "images": [
+        {
+          "image_id": "fig19",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRDX97ibpG1hkq46f1cngyA3A2nO06L4x1EeF7DawiajN5S6V6ibDJyf1HQ/640?wx_fmt=png",
+          "near_text": "4. Cryobiopsy lung tissue pathology slides sent to an outside hospital for consultation",
+          "local_src": "cleaned_cases_image_cache/7fd5e1e1a478a8adb9fff90895207fae5eb4079d.png"
+        },
+        {
+          "image_id": "fig20",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRhykqZLTdTY7BhNbTsEm6QtNuX4tIRibpvyweI1sia9LicLJ1AYucEiczAg/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/9509a952f25639ba861a3f4bcfbdd309d025451f.png"
+        },
+        {
+          "image_id": "fig21",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLicIcfCdPQT3zKjykvR2fMRZcmKq1A2OTDgXFKHUbictjth6G7RibBx8WBicPUOVkxlBlG1pjbZic28rA/640?wx_fmt=png",
+          "near_text": "Final diagnosis of the patient:",
+          "local_src": "cleaned_cases_image_cache/5fe1286c50f89ca5f03b47bb04c78306975a9bd3.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary cryptococcosis",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged male, with a history of diabetes, keeps flowers at home. Acute onset, short disease course",
+        "Symptoms: cough and shortness of breath after exertion for 1 week; after anti-infective treatment at an outside hospital, there was no significant absorption of the pulmonary lesions.",
+        "Physical signs: moist rales audible at the left lung base",
+        "Ancillary examinations: (1) Chest HRCT showed bilateral mass-like soft-tissue density opacities with marked heterogeneous enhancement, scattered solid-density nodules in both lungs, and small lymph node density shadows in the mediastinal lymph nodes; (2) moderate mixed ventilatory dysfunction, moderate diffusion dysfunction, positive bronchodilator test (FEV1 increased by 12%), FeNO 15 ppb; (3) Pathology from transbronchial cryobiopsy showed, for the \"left upper lobe lingular segment needle biopsy,\" tissue proliferation within fibrous tissue containing round vacuolated spores, suggesting cryptococcal inflammation. GMS (+), PAS (+), mucicarmine (+); (4) blood cryptococcal antigen agglutination titer: ≥1:2560."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Fluconazole capsules 400 mg orally once daily"
+      ],
+      "treatment_response": [
+        "Gradually asymptomatic from a respiratory standpoint, blood glucose well controlled, no adverse reactions, with significant therapeutic effect",
+        "Repeat chest HRCT before and after antifungal therapy showed imaging absorption compared with the prior study."
+      ]
+    }
+  }
+}

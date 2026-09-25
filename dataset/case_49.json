@@ -1,0 +1,438 @@
+{
+  "status": "success",
+  "case_id": "case_49",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 27-year-old male patient from Huaihua, Hunan, was admitted to the Department of Respiratory Medicine of our hospital in approximately 1 month after Day 0 with the chief complaint of \"enlarged lymph nodes for 1 year, shortness of breath for half a year.\" In approximately 16 months before Day 0, the patient developed bilateral cervical and supraclavicular lymph node enlargement accompanied by chest pain. The pain location was not fixed, mostly involving the lateral chest, with occasional anterior chest pain. It was paroxysmal and needle-like, lasting for several seconds to 1 minute each time and resolving spontaneously. There was no cough or sputum production, no chills or fever, no night sweats, and no dyspnea or other discomfort. On Day -123 of the same year, the patient presented to a local hospital. Physical examination revealed multiple enlarged lymph nodes in the bilateral anterior cervical, posterior cervical, and supraclavicular regions, the largest about the size of a broad bean. Chest CT showed nodules and patchy opacities in both upper lungs, with mediastinal and bilateral hilar lymphadenopathy. T-SPOT was negative. Pathology of fine-needle aspiration biopsy of a supraclavicular lymph node showed granulomatous inflammation. Bronchoscopy showed uneven bronchial mucosa in the right intermediate bronchus and right middle lobe bronchus, and endobronchial TB was considered possible. The patient improved after symptomatic treatment and was discharged; the specific medications are unknown. No anti-TB treatment was given. After discharge, the patient occasionally had dull chest pain. In approximately 5 months before Day 0, the patient developed chest tightness and shortness of breath, which became obvious after exertion; he experienced shortness of breath and discomfort after walking 800-1000 meters or climbing stairs to the 2nd-3rd floor. This was accompanied by dry mouth and large fluid intake, with a 24-hour urine volume of 8000-9000 mL. Occasional dizziness was present. There was no headache, no chills or fever, no night sweats, and no cough or sputum production or other discomfort. On Day 0, the patient again presented to a local hospital, where chest CT showed that compared with approximately 16 months before Day 0, the nodules and patchy opacities in both lungs had increased significantly, but the mediastinal and bilateral hilar lymph nodes had decreased in size. The patient had no significant past medical history, denied a history of TB and close contact exposure, and had no history of drug allergy. He had smoked for more than 10 years, about 7 cigarettes per day. He had worked as an excavator operator for 4 years and had a history of dust exposure. The marital/reproductive history and family history were unremarkable. After admission, physical examination was first performed: temperature 36.6℃, heart rate 108 beats/min, respiratory rate 20 breaths/min, blood pressure 132/82 mmHg, SPO2 94%. Multiple enlarged lymph nodes were palpable in the bilateral cervical regions, supraclavicular fossae, submandibular, submental, postauricular, and axillary regions, about the size of soybeans (smaller than in 2017), with no adhesion to surrounding tissues, mobile, and non-tender. Bilateral respiratory motion was normal, tactile fremitus was symmetric, percussion of both lungs was resonant, and auscultation revealed coarse breath sounds in both lungs, without dry or moist rales and without pleural friction rub. Cardiac, abdominal, and neurologic examinations showed no abnormalities. There was no edema of the lower extremities and no clubbing. Laboratory and ancillary examinations: 1. TB-related tests: approximately 16 months before Day 0 T-SPOT 5.8 pg/ml. approximately 16 months before Day 0 TB antibody negative. approximately 16 months before Day 0 Mycobacterium tuberculosis TB-DNA quantification <5.00E+0.2 IU/ml. 2. Bronchoscopy: endobronchial TB was considered on endoscopic diagnosis. BALF pathology brush smear showed scattered and clustered respiratory epithelial cells; in addition, a few densely arranged cells with unclear morphology were seen. BALF differential cell count: granulocytes 18%, lymphocytes 20%, epithelial cells 12%, pulmonary macrophages 50%. Chest CT (approximately 16 months before Day 0): nodules and patchy opacities in both upper lungs, mediastinal and bilateral hilar lymphadenopathy. Lung CT (approximately 1 month after Day 0): nodules and patchy opacities in both lungs had increased significantly compared with before, but the mediastinal and bilateral hilar lymph nodes had decreased in size compared with before. Abdominal CT: retroperitoneal lymphadenopathy and multiple nodular lesions in the spleen.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8Cic3aoQictCxhZMnhuK0T2D2NPCgiaJ0wz3StBXM1dw0KghI718R5JH6TA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT, approximately 16 months before Day 0",
+          "local_src": "cleaned_cases_image_cache/fef4da59cae2db1ade0693332a0adc592eb4daab.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Sarcoidosis (multisystem involvement, pulmonary nodules/patchy opacities with extensive lymphadenopathy)",
+          "supporting_evidence": [
+            "A 27-year-old young man with a relatively long disease course initially presented with bilateral cervical and supraclavicular lymphadenopathy, followed by dyspnea, consistent with the clinical course of a systemic granulomatous disease.",
+            "Pathology from fine-needle aspiration biopsy of the supraclavicular lymph node showed granulomatous inflammation",
+            "Chest CT showed nodules and patchy opacities in both upper lungs, and mediastinal and bilateral hilar lymphadenopathy; over time, the bilateral pulmonary nodules and patchy opacities increased, while the mediastinal and bilateral hilar lymph nodes decreased in size, suggesting a process not consistent with a simple acute infection.",
+            "Abdominal CT showed retroperitoneal lymphadenopathy and multiple nodular lesions in the spleen, suggesting extrapulmonary multisystem involvement",
+            "In the first-stage images, multiple bilateral pulmonary nodules/patchy opacities and mediastinal and hilar lymphadenopathy are visible; the imaging features may be consistent with sarcoidosis.",
+            "No chills, fever, or night sweats; no obvious cough or sputum production; TB-related tests tended to be negative, supporting a noninfectious granulomatous disease."
+          ],
+          "opposing_evidence": [
+            "Pulmonary lesions manifested as a marked increase in bilateral pulmonary nodules and patchy opacities compared with previously, with relatively rapid imaging progression, an imaging pattern atypical for classic sarcoidosis",
+            "Dry mouth, polydipsia, and a 24-hour urine volume of 8000-9000 mL are present, suggesting possible clues to another systemic disease and cannot be fully explained by sarcoidosis alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Langerhans cell histiocytosis (pulmonary involvement with possible pituitary/systemic involvement)",
+          "supporting_evidence": [
+            "The patient is a young male with a smoking history of more than 10 years; pulmonary Langerhans cell histiocytosis is common in young smokers.",
+            "Chest CT showed bilateral pulmonary nodules and patchy opacities, which were significantly increased compared with before; multiple nodular lesions in the lungs can be seen in the early stage of this disease",
+            "Accompanied by marked dry mouth, polydipsia, and a 24-hour urine output of 8000-9000 mL, suggesting possible central diabetes insipidus; diabetes insipidus can be seen in systemic Langerhans cell histiocytosis.",
+            "In addition to the lungs, there is enlargement of multiple superficial and retroperitoneal lymph node stations and multiple nodular lesions in the spleen, supporting the possibility of a systemic disease.",
+            "In the first-stage images, multiple nodular opacities are visible in both lungs, which may be consistent with the pulmonary nodular stage of this disease."
+          ],
+          "opposing_evidence": [
+            "It is known that the pathology from fine-needle aspiration biopsy of the supraclavicular lymph node showed only granulomatous inflammation, and did not provide evidence of Langerhans cell infiltration.",
+            "Mediastinal and bilateral hilar lymphadenopathy is not the most typical manifestation in pulmonary Langerhans cell histiocytosis"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Tuberculosis (including endobronchial tuberculosis/disseminated tuberculosis)",
+          "supporting_evidence": [
+            "Previous bronchoscopy showed irregular mucosa of the right intermediate bronchus and right middle lobe bronchus, with possible endobronchial TB considered.",
+            "Pulmonary lesions are located in both upper lungs and present as nodules and patchy opacities; upper-lung distribution can be seen in TB",
+            "Superficial lymphadenopathy with granulomatous inflammatory pathological changes; may be seen in tuberculous lymphadenitis",
+            "Retroperitoneal lymphadenopathy and multiple nodular lesions in the spleen can also be seen in disseminated TB"
+          ],
+          "opposing_evidence": [
+            "T-SPOT negative in approximately 16 months before Day 0",
+            "TB antibody negative in approximately 16 months before Day 0",
+            "approximately 16 months before Day 0: Mycobacterium tuberculosis TB-DNA quantification <5.00E+0.2 IU/ml",
+            "No history of TB or close contact with TB",
+            "During the course of the illness, there were no chills, fever, or night sweats, and no common systemic or respiratory symptoms of TB such as cough or sputum production.",
+            "Without anti-TB treatment, the mediastinal and bilateral hilar lymph nodes decreased in size compared with previously, atypically supporting progressive active TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lymphoma (with involvement of the lungs, spleen, and multiple lymph node regions)",
+          "supporting_evidence": [
+            "Multiple enlarged lymph nodes are palpable in the bilateral neck, supraclavicular fossae, submandibular, submental, postauricular, and axillary regions; additionally, there is lymphadenopathy in the mediastinum, bilateral hila, and retroperitoneum, consistent with multistation lymph node involvement.",
+            "Multiple nodular splenic lesions suggest the possibility of a lymphoid neoplastic disorder.",
+            "The patient has chest tightness and shortness of breath. Chest CT showed a marked increase in bilateral pulmonary nodules and patchy opacities compared with previously, which can be seen with pulmonary involvement by lymphoma.",
+            "Younger age; some lymphomas can occur in young individuals"
+          ],
+          "opposing_evidence": [
+            "Pathology from fine-needle aspiration biopsy of the supraclavicular lymph node showed granulomatous inflammation rather than definitive evidence of malignant lymphoma",
+            "No B symptoms such as fever or night sweats",
+            "Some superficial lymph nodes are smaller than in 2017, are not adherent to the surrounding tissues, have good mobility, and are non-tender; support for malignant lymphoma is limited."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Occupational dust-related lung diseases such as pneumoconiosis/silicosis",
+          "supporting_evidence": [
+            "Worked as an excavator operator for 4 years, with a history of dust exposure",
+            "Chest CT showed bilateral pulmonary nodular opacities with mediastinal and bilateral hilar lymphadenopathy. Multiple bilateral pulmonary nodular opacities were also seen on the stage I images. Occupational dust-related diseases may present as small nodules and intrathoracic lymphadenopathy.",
+            "Predominantly upper lung lesions, consistent with the distribution pattern of some pneumoconioses"
+          ],
+          "opposing_evidence": [
+            "Age 27 years, duration of dust exposure 4 years, relatively short",
+            "There is widespread superficial lymphadenopathy, retroperitoneal lymphadenopathy, and multiple nodular lesions in the spleen, which are difficult to explain solely by simple pneumoconiosis.",
+            "The pathology of the supraclavicular lymph node showed granulomatous inflammation, which is not specific pathological evidence for pneumoconiosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Systemic fungal infection or other chronic granulomatous infections such as nontuberculous mycobacterial infection",
+          "supporting_evidence": [
+            "Lymph node fine-needle aspiration biopsy pathology showed granulomatous inflammation, suggesting that chronic granulomatous infectious disease should still be considered",
+            "Chest CT and the first-phase images show multiple nodules and patchy opacities in both lungs, which can be seen in fungal infection or nontuberculous mycobacterial infection.",
+            "There is multistation lymphadenopathy and multiple nodular lesions in the spleen, suggesting possible systemic disseminated disease."
+          ],
+          "opposing_evidence": [
+            "No underlying immunosuppressive disease history was provided in the first stage",
+            "No systemic infectious symptoms such as fever, chills, or night sweats",
+            "No respiratory tract infection symptoms such as cough or sputum production",
+            "No direct mycologic or nontuberculous mycobacterial evidence was provided in the first-phase information"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete superficial lymph node ultrasound examination of the whole body to clarify the distribution, size, and morphology of enlarged lymph nodes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat chest HRCT to compare changes in prior pulmonary and mediastinal lymph node lesions",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete abdominal CT to evaluate for involvement of the abdominal cavity, retroperitoneal lymph nodes, and organs such as the liver and spleen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat TB-related tests, including T-SPOT, PPD test, TB antibody, and quantitative TB-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + mucosal biopsy + bronchoalveolar lavage fluid (BALF) submitted for testing, including pathology, pathogen testing, and differential cell count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Measure serum angiotensin-converting enzyme (ACE), erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), and procalcitonin (PCT).",
+          "requirement": "required"
+        },
+        {
+          "exam": "Check serum calcium and 24-hour urinary calcium to rule out abnormalities of calcium metabolism",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete a full rheumatologic and immunologic panel and ANA profile to exclude autoimmune disease",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced MRI of the sellar region of the head was performed to evaluate for central nervous system involvement, especially pituitary involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete diabetes insipidus-related tests, including urine specific gravity, urine osmolality, and the water deprivation test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor marker screening to exclude malignancy-related lesions",
+          "requirement": "required"
+        },
+        {
+          "exam": "Perform metagenomic next-generation sequencing (NGS) on BALF for infectious pathogen detection to comprehensively screen for infectious pathogens",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Based on the above results, multiple additional tests were performed: Complete blood count: WBC 5.6×109/L, RBC 5.22×1012/L, Hb 162g/L, PLT 232×109/L, neutrophil count 3.6×109/L, neutrophil percentage 64.8%, lymphocyte percentage 17.9%. Urinalysis: normal, urine specific gravity 1.005; stool routine: normal, OB negative. Liver function, renal function, myocardial enzymes, and electrolytes were all normal. Coagulation studies and D-dimer were both normal. The four pre-transfusion screening tests were all negative, and the five lung cancer markers were all normal. Endocrine-related tests: blood glucose and HbA1c were both normal, ACTH 17.22pg/ml, ALD 158.03pg/ml, renin 44.99pg/ml, angiotensin II 84.35ng/L, ACE 258IU/L↑, cortisol 20.34μg/dl. Infection-related markers: ESR 44mm/h↑, CRP 1.47mg/L, PCT＜0.005ng/ml. BALF infectious pathogen high-throughput gene sequencing NGS report: no fungi, viruses, Mycobacterium tuberculosis, parasites, Mycoplasma, Chlamydia, or pathogenic bacteria detected. TB-related markers: PPD test negative, TB antibody IgM and IgG both negative, T-SPOT negative. Rheumatologic and immunologic panel all normal. ANA panel all negative. Other tests: G test＜37.5pg/ml, GM test 0.16, 24-hour urine calcium 18.16mmol/24h↑, serum calcium 2.60mmol/L (2.00～2.60 mmol/L). Diabetes insipidus-related tests: ① before water deprivation, urine specific gravity 1.005, urine osmolality 64mOsm/kg↓; ② after water deprivation, urine specific gravity 1.010, urine osmolality 148 mOsm/kg↓. Arterial blood gas analysis: pH 7.443, PCO2 32.1mmHg, PO2 83mmHg, BE -2mmol/L, HCO3- 21.9mmol/L, SPO2 97%, FiO2 21%. Bronchoscopy: nodular changes of the mucosa in the right main bronchus, bronchus intermedius, middle and lower lobe bronchi, and anterior segment of the upper lobe; uneven bronchial mucosa in the left lower lobe. BALF acid-fast stain negative; BALF GM test 0.54 negative; BALF smear showed no bacteria, culture grew normal pharyngeal flora, and no fungal growth. Echocardiography: mild regurgitation of the tricuspid valve, pulmonic valve, and valve II. Superficial lymph node ultrasound: multiple enlarged lymph nodes in the bilateral neck, supraclavicular fossae, infraclavicular regions, axillae, and groin. Bronchoscopic biopsy pathology: (right middle/intermediate bronchus, right middle and lower lobes) granulomatous inflammation, acid-fast stain (-), PAS (-). Contrast-enhanced MRI of the sellar region: focal nodular thickening of the pituitary stalk. The team conducted a clinical analysis of this patient and first reviewed the clinical features: 1. Symptoms: shortness of breath, polydipsia and polyuria, dizziness for half a year. 2. Signs: cervical and supraclavicular lymphadenopathy. 3. Ancillary examinations: ① chest CT: bilateral hilar and mediastinal lymphadenopathy with pulmonary nodular and patchy opacities; ② bronchoscopic mucosal biopsy: noncaseating granulomatous inflammation, acid-fast stain negative; ③ elevated serum ACE activity; ④ T-SPOT and PPD skin test negative; ⑤ lymphocytes in BALF＞10%; ⑥ 24-hour urine calcium 18.16mmol/24h↑; ⑦ multiple splenic nodules and nodular thickening of the pituitary. Summary of the patient's case features for diagnostic analysis: the patient is a young man with chronic generalized superficial and mediastinal lymphadenopathy for 17 months, multiple small pulmonary nodules, biopsy showing granulomatous inflammation, multiple splenic nodules, and intracranial pituitary lesion, considered to represent granulomatous lesions. This case was analyzed with chronic granulomatous inflammation as the starting point; see the diagnostic pathway flowchart.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CiaSmsBxJQMibWH595dCKwoC2iaF2CDlevz8YJoiaJrBuEz6Xa0mOicicicFyA/640?wx_fmt=png",
+            "near_text": "Figure 4: Bronchoscopy",
+            "local_src": "cleaned_cases_image_cache/03a9106422770fd6784cb0bdbf98c97bf8960fc7.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8Cs6UyfFZ1qVSFtc4iaWSh2cMaNYHOjliccoGxE3TM7JR3avNcKpSYTaQg/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT, approximately 1 month after Day 0",
+            "local_src": "cleaned_cases_image_cache/e8846cfd54f0fc7f0b3364e9206e6b3f9373e336.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CKNZIn5GrzTiaiauJAC9Q9snOxFNPrkAx34Lz3S4JWgrw2EVQSU7MIISQ/640?wx_fmt=png",
+            "near_text": "Figure 3: Abdominal CT shows multiple nodular lesions in the spleen",
+            "local_src": "cleaned_cases_image_cache/df2597c0f3a8771fa539410284da6a7fb42edf20.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tuberculosis and nontuberculous mycobacteria",
+            "evidence": [
+              "It may present as a chronic course with granulomatous inflammation. Chest CT may show polymorphic changes and miliary nodules, and bronchoscopy may show granulomatous changes, involving the lymph nodes, spleen, and brain, resulting in TB at the corresponding sites."
+            ],
+            "exclusion_reasons": [
+              "The patient has no symptoms of TB toxemia, such as prolonged low-grade afternoon fever, night sweats, weight loss, and fatigue.",
+              "Laboratory tests: acid-fast stain (-), PPD (-), T-SPOT (-); pathologic biopsy showed noncaseating granulomas.",
+              "Evolution of the lesions: without anti-TB treatment, the patient's lymph nodes decreased significantly in size, whereas the pulmonary lesions increased markedly, which is not consistent with TB or nontuberculous mycobacterial disease."
+            ]
+          },
+          {
+            "name": "Bacteria (Nocardia and Actinomyces)",
+            "evidence": [
+              "All are Gram stain-positive bacteria and can cause chronic suppurative pulmonary infection and suppurative granulomatous inflammation of the lymph nodes."
+            ],
+            "exclusion_reasons": [
+              "Although this patient has granulomatous lesions in the lungs, lymph nodes, pituitary gland, and spleen, there are no suppurative changes within the granulomas. The clinical symptoms show no signs of infection, such as fever, cough with purulent sputum, hemoptysis, etc. Physical examination reveals no moist rales. Laboratory infection markers are all within the normal range. Chest CT shows no definite signs of suppurative infection such as large areas of consolidation, cavitation, or air-fluid levels. Multiple bacterial cultures were negative."
+            ]
+          },
+          {
+            "name": "Fungi (Aspergillus, Cryptococcus, Talaromyces marneffei)",
+            "evidence": [
+              "Chronic fungal infection can also cause granulomatous inflammation"
+            ],
+            "exclusion_reasons": [
+              "Aspergillus generally rarely causes systemic dissemination resulting in lesions of the lymph nodes, intracranial region, and spleen; laboratory tests: GM test negative, fungal culture negative.",
+              "Pulmonary cryptococcosis... This patient had no signs of infection, which is inconsistent with the above, so it can be excluded",
+              "Talaromyces marneffei ... the above manifestations are inconsistent with this patient and can be ruled out"
+            ]
+          },
+          {
+            "name": "Foreign body granuloma",
+            "evidence": [
+              "Refers to granuloma caused by foreign bodies (surgical sutures, dust, talc, wood splinters, etc.).",
+              "Although the patient has a personal history of operating an excavator"
+            ],
+            "exclusion_reasons": [
+              "This type of dust generally causes pneumoconiosis, but the patient's CT findings do not support pneumoconiosis."
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "A group of diffuse interstitial granulomatous lung diseases caused by repeated inhalation of various antigenic organic dusts and low-molecular-weight chemical substances in susceptible individuals."
+            ],
+            "exclusion_reasons": [
+              "This disease does not involve extrapulmonary organs or lymph nodes, and this patient has no history of organic dust inhalation."
+            ]
+          },
+          {
+            "name": "Granulomatosis with polyangiitis",
+            "evidence": [
+              "A necrotizing granulomatous lesion with vasculitis, characteristically presenting with the triad of upper and lower respiratory tract involvement, systemic necrotizing vasculitis, and glomerulonephritis."
+            ],
+            "exclusion_reasons": [
+              "The patient had no upper respiratory tract or renal lesions, and all vasculitis tests were negative."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tuberculosis and nontuberculous mycobacteria",
+        "evidence": [
+          "It may present as a chronic course with granulomatous inflammation. Chest CT may show polymorphic changes and miliary nodules, and bronchoscopy may show granulomatous changes, involving the lymph nodes, spleen, and brain, resulting in TB at the corresponding sites."
+        ],
+        "exclusion_reasons": [
+          "The patient has no symptoms of TB toxemia, such as prolonged low-grade afternoon fever, night sweats, weight loss, and fatigue.",
+          "Laboratory tests: acid-fast stain (-), PPD (-), T-SPOT (-); pathologic biopsy showed noncaseating granulomas.",
+          "Evolution of the lesions: without anti-TB treatment, the patient's lymph nodes decreased significantly in size, whereas the pulmonary lesions increased markedly, which is not consistent with TB or nontuberculous mycobacterial disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bacteria (Nocardia and Actinomyces)",
+        "evidence": [
+          "All are Gram stain-positive bacteria and can cause chronic suppurative pulmonary infection and suppurative granulomatous inflammation of the lymph nodes."
+        ],
+        "exclusion_reasons": [
+          "Although this patient has granulomatous lesions in the lungs, lymph nodes, pituitary gland, and spleen, there are no suppurative changes within the granulomas. The clinical symptoms show no signs of infection, such as fever, cough with purulent sputum, hemoptysis, etc. Physical examination reveals no moist rales. Laboratory infection markers are all within the normal range. Chest CT shows no definite signs of suppurative infection such as large areas of consolidation, cavitation, or air-fluid levels. Multiple bacterial cultures were negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungi (Aspergillus, Cryptococcus, Talaromyces marneffei)",
+        "evidence": [
+          "Chronic fungal infection can also cause granulomatous inflammation"
+        ],
+        "exclusion_reasons": [
+          "Aspergillus generally rarely causes systemic dissemination resulting in lesions of the lymph nodes, intracranial region, and spleen; laboratory tests: GM test negative, fungal culture negative.",
+          "Pulmonary cryptococcosis... This patient had no signs of infection, which is inconsistent with the above, so it can be excluded",
+          "Talaromyces marneffei ... the above manifestations are inconsistent with this patient and can be ruled out"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Foreign body granuloma",
+        "evidence": [
+          "Refers to granuloma caused by foreign bodies (surgical sutures, dust, talc, wood splinters, etc.).",
+          "Although the patient has a personal history of operating an excavator"
+        ],
+        "exclusion_reasons": [
+          "This type of dust generally causes pneumoconiosis, but the patient's CT findings do not support pneumoconiosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "A group of diffuse interstitial granulomatous lung diseases caused by repeated inhalation of various antigenic organic dusts and low-molecular-weight chemical substances in susceptible individuals."
+        ],
+        "exclusion_reasons": [
+          "This disease does not involve extrapulmonary organs or lymph nodes, and this patient has no history of organic dust inhalation."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Granulomatosis with polyangiitis",
+        "evidence": [
+          "A necrotizing granulomatous lesion with vasculitis, characteristically presenting with the triad of upper and lower respiratory tract involvement, systemic necrotizing vasculitis, and glomerulonephritis."
+        ],
+        "exclusion_reasons": [
+          "The patient had no upper respiratory tract or renal lesions, and all vasculitis tests were negative."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest imaging examination",
+          "basis_in_stage3_input": "The clinical and imaging findings are consistent with sarcoidosis",
+          "why_order_this_exam": "The patient is a 27-year-old young man with a 17-month disease course, initially presenting with generalized superficial lymphadenopathy, followed by progressive exertional dyspnea; chest CT showed that bilateral pulmonary nodules and patchy opacities had increased markedly compared with before, whereas the mediastinal and bilateral hilar lymph nodes had decreased in size compared with before, suggesting that the pulmonary lesions are undergoing dynamic evolution. Chest imaging is an important basis for determining whether the findings fit the typical pattern of intrathoracic involvement in sarcoidosis; it can evaluate the distribution and staging features of hilar/mediastinal lymph nodes and pulmonary parenchymal nodules and patchy opacities, and help differentiate it from TB, fungal infection, Langerhans cell histiocytosis, pneumoconiosis, and lymphoma. In this case, this examination was used both to confirm the imaging features of pulmonary involvement in a multisystem granulomatous disease and to assess the extent and severity of the lesions, providing a basis for subsequent decisions on whether bronchoscopic sampling is needed, how to formulate a corticosteroid treatment regimen, and follow-up of therapeutic efficacy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Head imaging examination",
+          "basis_in_stage3_input": "Considering the cranial imaging features, pituitary stalk thickening involvement is suspected",
+          "why_order_this_exam": "Since approximately 5 months before Day 0, the patient developed marked dry mouth, polydipsia, and polyuria, with a 24-hour urine volume of 8000-9000 ml, occasionally accompanied by dizziness, suggesting possible involvement of the hypothalamic-pituitary region. Cranial imaging, especially contrast-enhanced imaging of the sellar region, can directly assess focal nodular thickening of the pituitary stalk and pituitary involvement, correlating the clinical manifestation of diabetes insipidus with an organic lesion. The core clinical question of this examination is to determine whether the polydipsia and polyuria are caused by a central lesion and whether they can be explained under a unifying diagnosis together with systemic granulomatous lesions involving the lungs, lymph nodes, spleen, and other sites. Because the main noninfectious diseases that can cause pituitary diabetes insipidus are sarcoidosis and Langerhans cell histiocytosis, cranial imaging is critical for narrowing the differential diagnosis, supporting the diagnosis of systemic sarcoidosis, and guiding endocrine evaluation and subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Water deprivation test",
+          "basis_in_stage3_input": "Water deprivation test supports the diagnosis of diabetes insipidus",
+          "why_order_this_exam": "The patient has had persistent polydipsia and polyuria for more than 6 months, with a 24-hour urine volume as high as 8000-9000 ml. After admission, the urine specific gravity was 1.005 and urine osmolality was 64 mOsm/kg, indicating markedly dilute urine; however, symptoms and a single urinalysis alone are still insufficient to functionally confirm diabetes insipidus. The water deprivation test is used to determine whether the body's ability to concentrate urine is impaired, and is an important examination for establishing whether diabetes insipidus is present and for supporting a central mechanism. In this case, the question this test needs to resolve is whether the polyuria is due to pituitary/hypothalamic involvement, rather than simple psychogenic polydipsia or other metabolic factors. Because the case also has pituitary stalk thickening and systemic granulomatous lesions, the water deprivation test results can link the endocrine abnormality with the imaging abnormalities, thereby increasing the diagnostic credibility of pituitary involvement by sarcoidosis and providing a basis for subsequent decisions on whether corresponding endocrine replacement and systemic glucocorticoid therapy are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination",
+          "basis_in_stage3_input": "In conjunction with the pathologic features, the correct diagnosis can ultimately be made.",
+          "why_order_this_exam": "Although the clinical presentation and imaging in this case highly suggest sarcoidosis, sarcoidosis is essentially a diagnosis of exclusion and must rely on histopathology to confirm the granulomatous inflammatory nature. The patient previously had a supraclavicular lymph node fine-needle aspiration biopsy showing granulomatous inflammation, and bronchoscopic mucosal biopsy showed noncaseating granulomatous inflammation; acid-fast stain was negative and PAS was negative. These findings are the key evidence supporting sarcoidosis and excluding infectious granulomas. The clinical questions to be addressed by pathologic examination include: confirming whether noncaseating granulomas are present, whether there is caseous necrosis or suppurative change, and whether there are neoplastic lesions or special cellular infiltrates, thereby differentiating it from TB, fungal infection, bacterial suppurative granuloma, Langerhans cell histiocytosis, and lymphoma. This examination is directly related to the final diagnosis and whether glucocorticoid therapy can be safely initiated, because if infectious granulomas have not been adequately excluded, steroid therapy may carry significant risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial testing",
+          "basis_in_stage3_input": "Exclude a series of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections",
+          "why_order_this_exam": "The patient has multisystem granulomatous lesions involving the lungs, superficial and retroperitoneal lymph nodes, spleen, and pituitary gland, but infectious causes must be systematically excluded before a diagnosis of sarcoidosis. Some chronic bacterial infections, such as Nocardia and Actinomyces, can cause chronic granulomatous changes in the lungs, sometimes with lymph node involvement, and therefore bacteriologic testing is required. Although this case has no obvious manifestations of infection such as fever, purulent sputum-producing cough, or hemoptysis, and the CBC, CRP, and PCT basically do not support active bacterial infection, and BALF smear and culture also did not indicate pathogenic bacteria, these negative results themselves are important evidence for excluding bacterial granulomas. This evaluation is intended to determine whether the existing noncaseating granulomas could still be caused by bacterial infection; only after adequate exclusion can noninfectious systemic granulomatous disease be supported with greater confidence and the risk of subsequent glucocorticoid therapy masking infection and leading to dissemination be reduced.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal testing",
+          "basis_in_stage3_input": "Exclude a series of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections",
+          "why_order_this_exam": "Chronic fungal infection can also present with pulmonary nodules, patchy opacities, and granulomatous inflammation; some cases may also be accompanied by multisystem involvement. Therefore, in a patient such as this case, with intrapulmonary lesions combined with multistation lymph node, splenic, and pituitary abnormalities, mycologic evaluation must be performed. Although there was no obvious immunosuppressive background and no infectious toxic symptoms such as fever in this case, pathology indicated only granulomatous inflammation, and fungal infection cannot be excluded based solely on clinical impression. Fungal testing includes culture, GM/G tests, and related etiologic testing; its clinical purpose is to exclude Aspergillus, Cryptococcus, and other systemic fungal infections from the differential diagnosis. This evaluation is particularly important in this case, because if a fungal granuloma is mistaken for sarcoidosis and steroids are used, the infection may worsen; in this case, negative GM and G tests, with no fungi detected on culture or NGS, further support the final diagnosis of noninfectious sarcoidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterial testing",
+          "basis_in_stage3_input": "Exclude a series of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections",
+          "why_order_this_exam": "Mycobacterial infection, especially TB and nontuberculous mycobacterial infection, is one of the most important entities in the differential diagnosis of granulomatous disease. In this case, the prior upper-lung nodules and patchy opacities, as well as uneven bronchial mucosa seen on bronchoscopy, had raised the possibility of endobronchial TB, and the lymph node pathology showed granulomatous inflammation; therefore, mycobacterial testing was a key step in the diagnostic pathway. It was necessary in order to determine whether these granulomatous lesions were caused by TB or nontuberculous mycobacteria, rather than sarcoidosis. In the context of this case, the patient had no TB constitutional symptoms such as fever, night sweats, cough, or sputum production; T-SPOT, PPD, TB antibody, and TB-DNA were all negative; BALF acid-fast staining was negative; pathology showed noncaseating granulomas; and the lymph nodes decreased in size while the pulmonary lesions increased in number without anti-TB treatment. All of these findings reduced support for mycobacterial infection. Only after completing these tests could sarcoidosis be considered the leading diagnosis with greater safety and glucocorticoid therapy initiated.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasitic examination",
+          "basis_in_stage3_input": "Exclude a series of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections",
+          "why_order_this_exam": "Although parasitic infection is not the primary consideration in this case, parasites can also induce a granulomatous reaction and, in theory, cause pulmonary or systemic multiorgan lesions; therefore, systematic evaluation still needs to be included when making the exclusionary diagnosis of sarcoidosis. The patient has a chronic course, multiple pulmonary nodules, and multisystem involvement, and pathology also suggests granulomatous inflammation. If parasitic infection is not excluded, a comprehensive differential diagnosis of infectious granulomas cannot be completed. This testing is intended to determine whether there is granulomatous disease caused by a rare parasitic infection, thereby avoiding misdiagnosis as sarcoidosis. In this case, parasite testing mainly serves to complete the differential diagnostic workup and for pretreatment risk control; NGS in the case detected no parasites or other pathogens, which further supports a noninfectious etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Examinations related to foreign body granulomatous tissue",
+          "basis_in_stage3_input": "Exclude a range of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections, and foreign body granulomatous tissue.",
+          "why_order_this_exam": "The patient has a 4-year history of excavator work and dust exposure, so theoretically there is a possibility of a foreign-body granulomatous reaction triggered by inhalation of foreign material or dust. Therefore, pathologic and imaging assessment is needed for foreign-body granulomatous tissue-related lesions. Although the available data indicate that the chest CT does not support typical pneumoconiosis, and the involvement of widespread superficial lymph nodes, retroperitoneal lymph nodes, spleen, and pituitary gland is also difficult to explain by a simple foreign-body reaction alone, exclusion is still required diagnostically because the pathology shows granulomatous inflammation. The clinical question of this evaluation is whether there is focal/systemic granuloma induced by exogenous particles or foreign material, so as to avoid misclassifying an occupational exposure-related disease as sarcoidosis. For subsequent treatment, the management focus of foreign-body-related lesions differs from that of sarcoidosis; therefore, this evaluation helps improve diagnostic accuracy and guide etiologic management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Examinations related to allergic non-pneumonia",
+          "basis_in_stage3_input": "Hypersensitivity pneumonitis and granulomatosis with polyangiitis also need to be specifically evaluated",
+          "why_order_this_exam": "Hypersensitivity pneumonitis may present as diffuse interstitial lung disease with granulomatous inflammation; therefore, it is one of the important differential diagnoses in patients with pulmonary nodules/patchy opacities and dyspnea. The reason related evaluation is needed is that, in this case, the pulmonary lesions have shown obvious progression, and bronchoscopy pathology showed granulomatous inflammation; the pathologic term alone cannot directly exclude hypersensitivity pneumonitis. This evaluation mainly integrates a detailed exposure history, imaging pattern, and relevant laboratory clues to determine whether there are immune-mediated granulomatous pulmonary lesions caused by repeated inhalation of organic dust or other antigens. However, in this case there is no clear history of organic dust inhalation, and there is extensive involvement of superficial lymph nodes, retroperitoneal lymph nodes, spleen, and pituitary gland; these findings are not consistent with the characteristic that hypersensitivity pneumonitis usually does not involve extrapulmonary organs or lymph nodes. Completing this line of evaluation helps exclude localized immune-mediated pulmonary disease and further supports systemic sarcoidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Granulomatosis with polyangiitis-related examinations",
+          "basis_in_stage3_input": "Hypersensitivity pneumonitis and granulomatosis with polyangiitis also need to be specifically evaluated",
+          "why_order_this_exam": "Granulomatosis with polyangiitis can involve the upper and lower respiratory tracts and form necrotizing granulomas, and is one of the noninfectious granulomatous diseases that must be differentiated from sarcoidosis. In this patient, there were multiple pulmonary nodules and patchy opacities, dyspnea, and pathology suggested granulomatous inflammation; therefore, vasculitis-related testing must be performed in the diagnostic evaluation of systemic granulomatous lesions to determine whether a vasculitic etiology is present. The value of this testing in this case is that, if evidence of vasculitis is present, the treatment strategy, prognostic assessment, and intensity of immunosuppression would all differ from those for sarcoidosis. In the context of the complete case, the patient had no typical upper respiratory tract involvement, no renal damage, a normal comprehensive rheumatologic and immunologic panel and ANA profile, and no other evidence supporting systemic necrotizing vasculitis; therefore, the relevant test results help exclude granulomatosis with polyangiitis, thereby reinforcing sarcoidosis as the final diagnosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "We also conducted a multidisciplinary discussion regarding this patient's condition: Radiology: The clinical and imaging findings are consistent with sarcoidosis. Stage I and II sarcoidosis can present with symmetric hilar and mediastinal lymphadenopathy; stage III sarcoidosis shows pulmonary nodules and fibrotic lesions with disappearance of mediastinal lymph nodes; stage IV sarcoidosis presents with honeycomb lung. Sarcoidosis also very easily involves the intracranial pituitary, leading to diabetes insipidus, which this patient completely matches. Endocrinology: Nodular thickening can be seen in the intracranial pituitary region. Clinically, the patient has a marked increase in urine output, 9000 ml/24h, consistent with diabetes insipidus. The water deprivation test supports the diagnosis of diabetes insipidus. Although some examinations have not yet been completed, in combination with the cranial imaging features, pituitary thickening with involvement is considered, caused by the same disease as the pulmonary lesions; using a unifying diagnosis, sarcoidosis is considered. Pulmonology: Sarcoidosis is a systemic granulomatous disease of unknown etiology, and any organ can be involved. The diagnosis of sarcoidosis is a diagnosis of exclusion and requires comprehensive analysis to exclude a series of diseases that may cause granulomas, such as bacterial, fungal, mycobacterial, and parasitic infections, foreign body granulomatous tissue, hypersensitivity pneumonitis, and granulomatosis with polyangiitis, which also require focused evaluation. It should be noted that there are only two noninfectious diseases that can cause pituitary diabetes insipidus: one is Langerhans cell histiocytosis, and the other is sarcoidosis. Therefore, based on the patient's distinctive pulmonary and cranial imaging features, combined with the pathologic characteristics, the correct diagnosis can ultimately be made.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CebMIlz7PKnmlE3SMnVJQAo6uzYVFZDVyS226WbYUjkCuMctPIEnHfA/640?wx_fmt=png",
+          "near_text": "Figure 5: Bronchial biopsy pathology",
+          "local_src": "cleaned_cases_image_cache/7a472a01b5dbe22bda984bbaa3f287aafc757ca6.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8Cib9ZI3oWTazqJbrcO5ibgL9pxf6XyZZ2nA992sqtibCjwiabq6CbbtIzCg/640?wx_fmt=png",
+          "near_text": "Figure 6: Sellar region MRI",
+          "local_src": "cleaned_cases_image_cache/0c4902d246ea5bab837f019be93f032faffedee5.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CUJFQAAMMluAjRsHWTicfoFKEMMf8rVTico9kiam0HBicKeicMJfnSLPvqBQ/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/cb77135d4b82a9921c968d3bf401f45dd41d8eb7.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Sarcoidosis",
+      "diagnostic_basis": [
+        "Symptoms: shortness of breath, polydipsia, polyuria, and dizziness for half a year.",
+        "Physical signs: cervical and supraclavicular lymphadenopathy.",
+        "Ancillary examinations: ① Chest CT: bilateral hilar and mediastinal lymphadenopathy, with nodular and patchy opacities in the lungs; ② Bronchoscopic mucosal biopsy: noncaseating granulomatous inflammation, acid-fast stain negative; ③ elevated serum ACE activity; ④ T-SPOT and PPD skin test negative; ⑤ lymphocytes >10% in BALF; ⑥ 24h urinary calcium 18.16 mmol/24h ↑; ⑦ multiple splenic nodules and thickening of the pituitary stalk."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Systemic glucocorticoid therapy is the first-line treatment for sarcoidosis. The initial dose is 30–60 mg/d (0.5–1 mg/kg), gradually reduced to 20 mg/d within 2 months, then reduced to 15 mg/d within 1 month, and maintained at this dose for 6–9 months. Thereafter, reduce by 2.5 mg/d every 2–4 weeks, for a total treatment course of 1 year or longer.",
+        "The patient is taking prednisone."
+      ],
+      "treatment_response": [
+        "Follow-up examination after 2 months of prednisone showed that the pulmonary lesions had been significantly absorbed."
+      ]
+    }
+  }
+}

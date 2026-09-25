@@ -1,0 +1,554 @@
+{
+  "status": "success",
+  "case_id": "case_58",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 48-year-old man, employed as a security guard, who was admitted to our Department of Integrated Traditional Chinese and Western Medicine on Day 0. Chief complaint: \"recurrent cough, sputum production, and fever for more than 2 months, worsened with shortness of breath for more than 1 week.\" More than 2 months before admission, the patient developed cough and sputum production without an obvious precipitating cause. The sputum was white, clear, and thin, accompanied by fever, without wheezing or dyspnea, and without chest tightness, chest pain, or other discomfort. The patient received symptomatic treatment at a local clinic (details unknown), after which the symptoms improved; he did not pay further attention and did not undergo additional evaluation or treatment. Thereafter, the above symptoms recurred repeatedly. More than 1 week before admission, the patient again developed persistent high fever, with a maximum temperature of 38.8℃, accompanied by cough, sputum production, and shortness of breath, without nasal congestion, clear rhinorrhea, sore throat, or malaise, and without hemoptysis, palpitations, nausea, vomiting, or other discomfort. The patient presented to the First Affiliated Hospital of Chengdu Medical College, where rheumatologic testing showed \"anti-CCP and RF positive,\" and \"connective tissue disease, bacterial pneumonia\" was considered. He was treated sequentially with anti-infective therapy including \"cefoperazone-sulbactam, levofloxacin, ceftriaxone sodium, and etimicin,\" but fever persisted, so he was admitted to our Department of Integrated Traditional Chinese and Western Medicine for further evaluation and treatment. Since the onset of illness, his mental status and appetite have been fairly good, bowel and bladder habits have been normal, but sleep quality has been poor, and there has been no significant change in weight. On inquiry into past history, his general health was average. The patient reported a history of \"chronic pharyngitis\" for more than 10 years and denied a history of hypertension, diabetes mellitus, coronary heart disease, or other chronic diseases. He denied trauma or surgical history and denied food or drug allergies. He had a 20-year smoking history of 20 cigarettes per day, but had quit smoking 5 years earlier. He denied alcohol abuse and denied dust exposure or special environmental exposures. Immunizations were according to local schedule. Marital/reproductive history and family history were unremarkable. Physical examination after admission was as follows: T: 37.5℃, P: 101/min, R: 20/min, BP: 113/66 mmHg. The patient was alert, with an acutely ill appearance. No jaundice of the skin or sclera was noted. No enlargement of superficial lymph nodes was palpated throughout the body. No deformity of the extremity joints was seen. No jugular venous distention was present. Cardiac borders were normal, rhythm was regular, and no murmur was heard in any valve area. No abnormality of the thoracic cage was noted, and percussion of both lungs was resonant. Breath sounds were clear in both lungs, with fine moist crackles audible in both lower lungs. The abdomen had a normal contour, was soft throughout, without tenderness or rebound tenderness, and no abdominal mass was palpated. The liver was not palpable below the costal margin. The spleen was not palpable below the costal margin. Both kidneys were not palpable. No edema was present in either lower extremity. No deformity of the spine or extremity joints was noted, with no tenderness or percussion pain, and no clubbing. Neurologic examination was (-). Ancillary examinations were as follows: 1. Laboratory tests (Department of Integrated Traditional Chinese and Western Medicine): 1) Arterial blood gas analysis (nasal cannula oxygen 3 L/min) (Day 0): pH 7.441, PCO2 30.9 mmHg, PO2 70 mmHg, SO2 96.1%. 2) Complete blood count (Day +1): white blood cell count 12.40 x 10^9/L, segmented neutrophil percentage 85.2%, platelet count 524 x 10^9/L. 3) Procalcitonin (Day +1): 0.13 ng/ml. 4) Blood biochemistry: no obvious abnormalities in liver or kidney function. 2. Imaging studies (Day +1): scattered ground-glass patchy opacities and areas of consolidation in the bilateral lower lobes, some with honeycomb-like change, mostly representing infectious interstitial changes; enlarged mediastinal and right hilar lymph nodes.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEdT0B2jpYDoEsvLPWz1HYfdHlKv5BjevSM1HrricicYjeiaR3L4uvfKV7g/640?wx_fmt=png",
+          "near_text": "Further ancillary examinations after admission were as follows (Department of Integrated Traditional Chinese and Western Medicine):",
+          "local_src": "cleaned_cases_image_cache/36ee17a8e21d3124ec9a21b325b1729ca0a42935.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia/persistent bacterial infection of the lower respiratory tract",
+          "supporting_evidence": [
+            "Chief complaint: recurrent cough, sputum production, and fever for more than 2 months, worsening with shortness of breath for more than 1 week",
+            "More than 1 week before admission, the patient again developed persistent high fever, with a maximum temperature of 38.8℃, accompanied by cough, sputum production, and shortness of breath",
+            "Complete blood count showed a white blood cell count of 12.40 x 10^9/L and a segmented neutrophil percentage of 85.2%, suggesting an inflammatory response more consistent with bacterial infection.",
+            "On physical examination, fine crackles were audible in both lower lungs",
+            "Chest CT showed \"scattered patchy ground-glass opacities and areas of consolidation in the bilateral lower lobes\"; imaging demonstrated patchy infiltrates and consolidation in both lower lungs, consistent with pulmonary infection.",
+            "Arterial blood gas analysis on nasal cannula oxygen at 3 L/min showed PO2 70 mmHg, indicating hypoxemia and supporting pulmonary parenchymal involvement"
+          ],
+          "opposing_evidence": [
+            "After sequential anti-infective therapy with cefoperazone-sulbactam, levofloxacin, ceftriaxone sodium, and etimicin, the patient still had fever.",
+            "Procalcitonin 0.13 ng/ml, not strongly supportive of typical bacterial infection",
+            "CT suggested \"some areas showed honeycomb-like changes, mostly infectious interstitial changes,\" indicating that in addition to simple bacterial pneumonia, an interstitial lung disease process should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Connective tissue disease-associated interstitial lung disease (especially rheumatoid arthritis-associated interstitial lung disease)",
+          "supporting_evidence": [
+            "At an outside hospital, the rheumatologic three-item panel showed positive anti-CCP and RF.",
+            "Chest CT showed scattered ground-glass patchy opacities and areas of consolidation in the bilateral lower lobes, some with honeycombing, consistent with imaging warning signs of interstitial lung disease",
+            "The lesions predominantly involve the lower lungs; imaging shows bilateral lower lung involvement, consistent with the distribution pattern of some connective tissue disease-associated interstitial lung diseases.",
+            "Persistent fever after antibacterial therapy suggests that infection alone cannot fully explain the clinical condition",
+            "Arterial blood gas analysis indicated hypoxemia, supporting diffuse pulmonary parenchymal/interstitial involvement"
+          ],
+          "opposing_evidence": [
+            "No deformity of the joints of the extremities; no tenderness or percussion pain of the spine or joints of the extremities. In the first stage, no definite symptoms or signs of arthritis were provided.",
+            "At disease onset, fever and productive cough were present, and the clinical manifestations of infectious disease remained relatively prominent."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Course of illness of more than 2 months, recurrent fever and cough, recently worsened, consistent with a subacute course",
+            "Chest CT showed scattered ground-glass patchy opacities and consolidative opacities in the bilateral lower lobes; imaging demonstrated multiple patchy consolidative/ground-glass opacities in both lower lungs, consistent with one of the common imaging manifestations of organizing pneumonia.",
+            "Persistent fever after treatment with multiple antibacterial agents suggests the possibility of atypical infection or noninfectious inflammatory lung disease.",
+            "Physical examination revealed fine crackles in both lower lungs, accompanied by hypoxemia, supporting inflammatory lesions of the alveoli and interstitium."
+          ],
+          "opposing_evidence": [
+            "Leukocytosis and an increased neutrophil percentage are present, which can still be explained by infectious pneumonia.",
+            "No definite migratory pulmonary infiltrates or pathologic evidence were provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Atypical pathogen pneumonia/viral pneumonia",
+          "supporting_evidence": [
+            "Chest CT showed scattered patchy ground-glass opacities in the bilateral lower lobes with consolidation; ground-glass opacities may be seen in atypical pathogens or viral pneumonia.",
+            "Procalcitonin 0.13 ng/ml, does not strongly support typical bacterial infection, suggesting that atypical pathogens should be considered",
+            "Persistent fever despite treatment with multiple conventional antibacterial agents suggests the possibility of pathogens other than common bacterial infections.",
+            "The patient has fever, cough, shortness of breath, and hypoxemia, consistent with the spectrum of pulmonary infectious diseases."
+          ],
+          "opposing_evidence": [
+            "No accompanying symptoms of upper respiratory viral infection such as nasal congestion, clear rhinorrhea, sore throat, or generalized malaise",
+            "Leukocytosis with a neutrophil percentage of 85.2%, more suggestive of a bacterial infectious response"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The course of illness has lasted for more than 2 months, with recurrent fever, cough, and sputum production, representing chronic/subacute pulmonary infectious manifestations.",
+            "Poor response to conventional anti-infective therapy suggests the need to be alert to infection with unusual pathogens",
+            "Chest CT showed patchy opacities in the lungs and enlargement of mediastinal and right hilar lymph nodes; hilar and mediastinal lymphadenopathy can be seen in TB"
+          ],
+          "opposing_evidence": [
+            "The patient denies hemoptysis, with no significant change in body weight.",
+            "The imaging description is characterized mainly by scattered ground-glass patchy opacities, consolidative opacities, and partial honeycomb changes in the bilateral lower lobes; in the first stage, no typical upper lobe predominance, cavitation, or tree-in-bud pattern was described.",
+            "Phase 1 information did not provide a history of TB exposure or an immunosuppressive background"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Fungal pneumonia",
+          "supporting_evidence": [
+            "Recurrent fever, cough and sputum production, with persistent fever despite treatment with multiple antibacterial agents",
+            "Chest CT showed scattered ground-glass patchy opacities and consolidative opacities in the lower lobes of both lungs; fungal infection may present with such nonspecific infiltrative opacities.",
+            "Hypoxemia is present, suggesting relatively marked involvement of the lung parenchyma."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no clear high-risk factors for fungal infection such as immunosuppression, long-term steroid use, diabetes mellitus, or tumor were identified.",
+            "Imaging did not describe characteristic findings more suggestive of fungal infection, such as cavitation, the halo sign, the reverse halo sign, or nodules.",
+            "Elevated white blood cell count and an increased neutrophil percentage do not specifically support fungal infection."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "13 respiratory viruses",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen nucleic acid test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chlamydia",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "TORCH",
+          "requirement": "required"
+        },
+        {
+          "exam": "CMV-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasite-related antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pneumocystis nucleic acid qualitative test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood smear for malaria parasites",
+          "requirement": "required"
+        },
+        {
+          "exam": "Metagenomic next-generation sequencing for infectious pathogens",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum smear",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum exfoliative cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "EB-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatoid factor",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-CCP antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-keratin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antinuclear antibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoelectrophoresis + quantitative immunoglobulin light chain assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "NK cell",
+          "requirement": "required"
+        },
+        {
+          "exam": "ASO",
+          "requirement": "required"
+        },
+        {
+          "exam": "complement",
+          "requirement": "required"
+        },
+        {
+          "exam": "T subvariant",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial brushing smear",
+          "requirement": "required"
+        },
+        {
+          "exam": "Desquamated cells in bronchoalveolar lavage fluid",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal and urinary tract color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid and cervical lymph node color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometry",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bone marrow pathology",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Percutaneous lung biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further ancillary examinations after admission were as follows (Department of Integrated Traditional Chinese and Western Medicine): 1) Respiratory virus panel (13 items), respiratory pathogen nucleic acid testing, Mycoplasma pneumoniae, Chlamydia, GM test, TORCH, CMV-DNA, parasite-related antibodies, cryptococcal antigen, qualitative Pneumocystis nucleic acid test, blood smear for malaria parasites, second-generation sequencing metagenomic testing for infectious pathogens, blood culture, and bone marrow culture: negative. 2) Multiple sputum smears submitted: few G+ streptococci, few G- bacilli, no acid-fast bacilli detected; sputum culture: negative. 3) Exfoliative sputum cytology: small number of hyperplastic epithelial cells identified. 4) Tumor marker panel: serum carbohydrate antigen 125 100.80 U/ml. 5) EB-DNA: 1.15E+02 (Day +3), 2.38E+01 (Day +13). 6) Rheumatoid factor 388.00 IU/ml, anti-CCP antibody >500.00 U/ml, anti-keratin antibody positive (+). 7) ANCA and anticardiolipin antibody: negative; ANA panel: ANA suspicious (±). 8) Immunoelectrophoresis + quantitative immunoglobulin light chains: immunoglobulin A 3120.00 mg/L. NK cells, ASO, complement, and T-cell subsets were all negative. 9) Bronchoscopy: no obvious abnormalities in the glottis, trachea, carina, or all levels of bronchi on both sides. 10) Bronchial brush cytology: no malignant cells detected. 11) Exfoliative cytology of BALF: no malignant cells detected. 12) ECG, echocardiography, and abdominal + urinary tract ultrasonography showed no obvious abnormalities. 13) Thyroid and cervical lymph node ultrasonography: a 12×10mm lymph node was seen in the right supraclavicular region, with unclear corticomedullary differentiation and scant blood flow signal; several lymph nodes were seen in the left supraclavicular region, the largest measuring 7×6mm. 14) Bone marrow flow cytometry (Day +12): among CD3-positive cells, the proportion of CD8-positive cells was increased, accounting for about 59%; CD4-positive cells accounted for 26%; no other obvious abnormal phenotypic cell populations were seen. 15) Bone marrow pathology: the submitted bone marrow hematopoietic cells showed hypoproliferation; immunophenotyping is required to assist diagnosis. 16) Bone marrow smear: currently active bone marrow proliferation, granulocytic series increased, accounting for 81.2%; erythroid series accounted for 9%. 17) Percutaneous lung biopsy on Day +11: alveolar epithelial cell hyperplasia with interstitial fibrous tissue hyperplasia. At 12:40 PM on Day +18, the patient suddenly developed worsening dyspnea, approximately 30+ breaths/min, tachycardia with heart rate 131 beats/min, blood pressure 126/88mmHg. Arterial blood gas analysis: pH 7.437, PaO2 40.2mmHg, PaCO2 30mmHg, Lac 2.7mmol/L, SaO2 76%. The patient was transferred to our department for treatment after endotracheal intubation. After taking over the patient, the condition was immediately assessed as follows: 1) Mental status: under analgesia, sedation, and neuromuscular blockade, CPOT score 0, RASS score -4. 2) Respiration: moist crackles audible in both lungs. Ventilator settings: AC/VC, f 12 breaths/min, VT 380ml, PEEP 12cmH2O, FiO2 90%. Monitoring: f 12 breaths/min, VT 360-400ml, plateau pressure 28, compliance 24. Blood gas: pH 7.327, PaCO2 44.7mmHg, PaO2 91.3mmhg, SaO2 96.9%, Lac 1.4mmol/L. 3) Circulation: HR 90 beats/min, BP 106/70mmHg (norepinephrine 0.2ug/kg.min); physical examination showed no mottling or prolonged capillary refill time, Lac 1.4mmol/L. Bedside ultrasound: inferior vena cava 1.9cm, variability <20%. 4) Laboratory tests: WBC 39.39X10^9/L, HB 84g/l, PCT 1.64, ALB 20.5g/l. No abnormalities in liver or renal function. 5) Imaging: (bedside chest X-ray on Day +18)",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEBRofhCTGZQ0ftia3vrP7ib9c9nm2CrenoHAs20BzWdZI1U8q5wibIUCJw/640?wx_fmt=png",
+            "near_text": "Repeat chest CT on Day +10 compared with Day +1:",
+            "local_src": "cleaned_cases_image_cache/2c8495e388914bccd1708cb9b1059664c0cf4924.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bElsgiaDn4Sb7TP7Nbwy5kKxpo3jx05SSRo5Nm3VThPN9eYKzPLUqpRRQ/640?wx_fmt=png",
+            "near_text": "The patient developed sudden worsening dyspnea and was transferred to our department after endotracheal intubation... How should this be evaluated? How should treatment be carried out?",
+            "local_src": "cleaned_cases_image_cache/275076ee9f51e354569f7a5bc886b2c640c35900.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bERSUQrQUkFBbZLG2GZtt8kHNyXg1icb03u2Q9BiaxiaXXY77UzLibNvFqEw/640?wx_fmt=png",
+            "near_text": "Subsequently, the team discussed and analyzed the case.",
+            "local_src": "cleaned_cases_image_cache/48e6f4f7804a434208f09b1e588d2bb058bdf4b1.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bE5c3fibbQibOBbg7KUwurqrXxleZKbsDCTEDibE6RR9uZODkJF3qCVsibnA/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/8ab5b38477de467125390b1c43dc9bbe13200d6b.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious diseases (common bacteria, drug-resistant bacteria, Mycobacterium tuberculosis, fungi, parasites, and other special infections)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Prior antibiotic therapy essentially covered common microorganisms including gram-positive bacteria, gram-negative bacteria, and viruses. PCT was mildly elevated. Multiple tests, including metagenomics, did not identify any pathogen with clinically meaningful positive significance. Regarding infectious disease, the chain of evidence remains insufficient."
+            ]
+          },
+          {
+            "name": "Noninfectious diseases (cryptogenic organizing pneumonia, eosinophilic pneumonia, pulmonary embolism, ANCA-associated vasculitis, connective tissue disease-associated interstitial lung disease, acute interstitial pneumonia)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The current ancillary examinations are temporarily unable to provide a definitive conclusion; in order to further diagnosis and treatment, it is necessary to obtain more informative pathological evidence."
+            ]
+          },
+          {
+            "name": "CTD-ILD",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Epstein-Barr virus-associated lymphoproliferative disease",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Bilateral pneumonia",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Type I respiratory failure",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hypoproteinemia",
+            "evidence": [],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious diseases (common bacteria, drug-resistant bacteria, Mycobacterium tuberculosis, fungi, parasites, and other special infections)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Prior antibiotic therapy essentially covered common microorganisms including gram-positive bacteria, gram-negative bacteria, and viruses. PCT was mildly elevated. Multiple tests, including metagenomics, did not identify any pathogen with clinically meaningful positive significance. Regarding infectious disease, the chain of evidence remains insufficient."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious diseases (cryptogenic organizing pneumonia, eosinophilic pneumonia, pulmonary embolism, ANCA-associated vasculitis, connective tissue disease-associated interstitial lung disease, acute interstitial pneumonia)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The current ancillary examinations are temporarily unable to provide a definitive conclusion; in order to further diagnosis and treatment, it is necessary to obtain more informative pathological evidence."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "CTD-ILD",
+        "evidence": [
+          "Antibodies positive, imaging suggests consolidation + ground-glass opacity"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Epstein-Barr virus-associated lymphoproliferative disease",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Bilateral pneumonia",
+        "evidence": [
+          "Imaging support"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "repeat blood culture",
+          "basis_in_stage3_input": "Repeat blood cultures and etiologic studies including metagenomic testing of bronchoalveolar lavage fluid remained negative.",
+          "why_order_this_exam": "The patient had recurrent fever, cough with sputum production, and shortness of breath, with a disease course of more than 2 months, and persistent fever despite multiple anti-infective treatments. In the later stage, there was also a rapid worsening of dyspnea and type I respiratory failure requiring endotracheal intubation and mechanical ventilation, suggesting severe illness, and bloodstream infection or secondary infection should not be readily overlooked. Although earlier and repeat microbiologic studies were mostly negative, negative cultures in the setting of antibiotic use cannot completely exclude infection. The purpose of repeat blood cultures is to continue evaluating whether bacterial or fungal bloodstream infection or drug-resistant organism infection is present, to explain the marked leukocytosis and elevated PCT, and to provide or exclude evidence for the infectious component in 'AFOP with mild infection,' thereby helping determine whether it is necessary to continue, escalate, or adjust the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing of bronchoalveolar lavage fluid by metagenomics",
+          "basis_in_stage3_input": "Repeat blood cultures and etiologic studies including metagenomic testing of bronchoalveolar lavage fluid remained negative.",
+          "why_order_this_exam": "Chest imaging showed ground-glass opacities, consolidations, and interstitial changes in the bilateral lower lobes. Clinically, the patient had prolonged fever and a poor response to conventional antibacterial therapy, followed by rapid progression to severe hypoxemia and respiratory failure, making infectious and noninfectious lung disease difficult to distinguish for a time. Metagenomic testing of bronchoalveolar lavage fluid can further screen for bacteria, viruses, fungi, and special pathogens when routine cultures are negative and the pathogen spectrum is complex. The main purpose of this test was to determine whether an occult pathogen was still causing diffuse pulmonary lesions or acute exacerbation. It played a critical role in excluding infectious disease, supporting a shift in diagnostic focus toward noninfectious lesions such as AFOP, and determining whether treatment should be based primarily on glucocorticoids while retaining what type of anti-infective coverage.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat testing of anti-CCP, ASO, rheumatoid factor, and changes in AKA",
+          "basis_in_stage3_input": "Repeat testing of anti-CCP, ASO, rheumatoid factor, and AKA changes.",
+          "why_order_this_exam": "At the outside hospital and again after admission, the patient was found to be positive for RF, anti-CCP, and antikeratin antibodies. Chest CT also showed interstitial involvement predominantly in the lower lungs, and anti-infective treatment was ineffective. Therefore, connective tissue disease-associated interstitial lung disease, especially rheumatoid arthritis-associated lung involvement, is an important diagnostic consideration. Repeating these immunologic markers is intended, on the one hand, to confirm whether the autoantibody abnormalities persist and to assess their dynamic changes; on the other hand, after pathology ultimately demonstrated AFOP, to further determine whether AFOP may be secondary to an underlying rheumatologic/immunologic background rather than a purely primary lesion. This testing helps refine etiologic stratification, rule out a simple infectious explanation, and assess whether subsequent management should focus on glucocorticoids or even further immunomodulatory therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy pathology",
+          "basis_in_stage3_input": "Day +23 lung biopsy pathology report showed",
+          "why_order_this_exam": "Previous imaging and laboratory examinations failed to identify the etiology: repeated pathogen testing was negative; bronchoscopy and exfoliative cytology of lavage fluid showed no malignant cells; the early result of percutaneous lung puncture indicated only alveolar epithelial hyperplasia with interstitial fibrous tissue proliferation, lacking diagnostic value. Meanwhile, the patient's condition progressively worsened, with severe hypoxemia and a need for mechanical ventilation, indicating that higher-quality histologic evidence needed to be obtained as soon as possible. The core objective of lung puncture biopsy pathology was to determine the pathologic type of diffuse parenchymal lung disease and to distinguish among infectious pneumonia, organizing pneumonia, acute interstitial pneumonia, eosinophilic pneumonia, CTD-ILD, and other patterns of acute lung injury. The final pathology showed eosinophilic intra-alveolar exudates forming plug-like changes, and the histologic morphology was consistent with AFOP. This examination directly determined the direction of the definitive diagnosis and affected the initiation and continuation of subsequent glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBER1/2 in situ hybridization",
+          "basis_in_stage3_input": "In situ hybridization showed: EBER1/2 (occasional+).",
+          "why_order_this_exam": "The patient previously had low-level positive EB-DNA. Imaging indicated abnormalities of the mediastinal, hilar, and supraclavicular lymph nodes, and bone marrow examination did not identify the cause; therefore, during pathologic evaluation of the lung tissue, it was necessary to further determine whether EBV-associated lymphoproliferative disease involving the lung was present. EBER1/2 in situ hybridization can directly identify EBV-associated cells at the tissue level and address whether the pulmonary lymphocytic infiltration is related to EBV. Although the result showed only scattered positive cells and cannot directly establish EBV-LPD, it suggests that further evaluation should continue in conjunction with peripheral blood and lymph node findings, thereby avoiding misclassifying a potential lymphoproliferative disease as a simple inflammatory lung disease and affecting the safety of subsequent immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS",
+          "basis_in_stage3_input": "Special stains: PAS (+), Masson showed red staining, acid-fast (-), Gomori methenamine silver (-).",
+          "why_order_this_exam": "The patient had prolonged fever, diffuse pulmonary imaging abnormalities, no response to conventional anti-infective therapy, and the condition had acutely deteriorated to respiratory failure. Clinically, it was necessary to continue pathologic evaluation for unusual infections and to characterize the nature of the material within the alveolar spaces. PAS stain is used to identify certain glycoprotein-like or polysaccharide components and also helps provide adjunctive assessment of alveolar space exudates, organizing components, and clues to some unusual infections. In conjunction with the percutaneous lung biopsy pathology in this case, PAS, as one of the special stains, was intended to provide additional information to differentiate AFOP from other alveolar-filling lesions and infection-related lesions, help exclude certain fungal or other unusual lesions, and improve the reliability of the pathologic diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "MAsson",
+          "basis_in_stage3_input": "Special stains: PAS (+), Masson showed red staining, acid-fast (-), Gomori methenamine silver (-).",
+          "why_order_this_exam": "The patient's pulmonary lesions were prolonged without resolution and progressed rapidly. Early lung biopsy showed only nonspecific epithelial hyperplasia and interstitial fibrous proliferation, which was still insufficient to explain the severe hypoxemia and imaging changes; therefore, special stains were needed to further clarify the components of the lesions within the alveolar spaces and interstitium. Masson staining helps identify fibrinous exudates and collagen/organizing components, and is of important value in distinguishing AFOP, cryptogenic organizing pneumonia, and other pathologic patterns of acute lung injury. In this case, the purpose of this examination was to determine the nature of the eosinophilic plug-like material within the alveolar spaces and the pattern of tissue repair, thereby strengthening the pathologic basis for a diagnosis of AFOP and supporting subsequent treatment mainly with glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast",
+          "basis_in_stage3_input": "Special stains: PAS (+), Masson showed red staining, acid-fast (-), Gomori methenamine silver (-).",
+          "why_order_this_exam": "The patient’s disease course has lasted for more than 2 months, with recurrent fever and cough. Imaging showed pulmonary infiltrates accompanied by mediastinal and hilar lymphadenopathy, and the response to routine anti-infective therapy was poor; therefore, Mycobacterium tuberculosis infection has consistently been one of the special infections that needed to be excluded. Although no acid-fast bacilli were seen on sputum smear, the sensitivity of sputum testing is limited, especially after treatment with multiple antimicrobial agents, so it still cannot be completely ruled out. Acid-fast staining of the lung biopsy tissue was performed to directly look for evidence of mycobacteria at the site of the lesion and to address whether the pulmonary lesion was caused by tuberculosis or nontuberculous mycobacteria. A negative result helps weaken the diagnosis of tuberculosis, supports shifting the primary diagnosis toward AFOP, and reduces the risk of missing tuberculosis during glucocorticoid therapy and thereby causing dissemination.",
+          "requirement": "required"
+        },
+        {
+          "exam": "methenamine silver",
+          "basis_in_stage3_input": "Special stains: PAS (+), Masson showed red staining, acid-fast (-), Gomori methenamine silver (-).",
+          "why_order_this_exam": "The patient's findings of pulmonary ground-glass opacities, consolidation, progressive hypoxemia, and negative routine pathogen testing also require differentiation from fungal infection, especially special pathogens such as Pneumocystis, because these pathogens may be negative on routine culture yet cause severe respiratory failure in immunocompromised or critically ill patients. Gomori methenamine silver staining is an important pathologic method for screening for certain fungal components. This test is primarily intended to determine whether there is morphologic evidence of fungi or Pneumocystis in the lung tissue, thereby helping to exclude occult fungal infection. A negative result, together with negative BAL metagenomics, provides mutually corroborating evidence that helps support a diagnosis of noninfectious disease and provides a safer basis for treatment with glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood evaluation",
+          "basis_in_stage3_input": "EBER1/2 in situ hybridization showed occasional positive lymphocytes; please correlate with the clinical peripheral blood findings to exclude Epstein-Barr virus-associated lymphoproliferative disease (EBV-LPD).",
+          "why_order_this_exam": "The patient's lung tissue EBER1/2 in situ hybridization showed occasional positivity; prior EB-DNA testing had shown low-level positivity, and there are abnormal supraclavicular lymph nodes and an increased CD8 proportion on bone marrow flow cytometry, indicating that EBV-associated lymphoproliferative disorder still needs to be considered. The purpose of examining the peripheral blood is to assess, in conjunction with blood cell counts, peripheral blood smear, or, if necessary, peripheral blood immunophenotyping, whether there are abnormal lymphocytes, persistent immune activation, or hematologic involvement. This evaluation is intended to determine whether the 'occasional EBER positivity' is a nonspecific phenomenon or a peripheral clue to EBV-LPD, which is important for excluding a significant differential diagnosis, avoiding prolonged immunosuppression solely based on AFOP, and determining whether further hematology/lymphatic specialty evaluation is warranted.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic diagnosis after excision of a superficial lymph node",
+          "basis_in_stage3_input": "If superficial lymphadenopathy is present, excision is recommended and the specimen should be sent for pathologic diagnosis.",
+          "why_order_this_exam": "Imaging has already shown mediastinal and hilar lymphadenopathy, and neck ultrasound found abnormal bilateral supraclavicular lymph nodes. In addition, occasional positivity for EBER1/2 in lung tissue and previously low-level positive EB-DNA suggest that, beyond simple pulmonary inflammation, EBV-associated lymphoproliferative disease or other lymphatic system diseases still need to be excluded. Excisional biopsy of a superficial lymph node with submission for pathology can provide a more complete tissue architecture, which is superior to simple fine-needle aspiration and is more suitable for determining reactive hyperplasia, EBV-LPD, lymphoma, etc. This examination primarily addresses the key question of whether there is a lymphoproliferative disease that can explain the pulmonary lesions and systemic inflammatory response, and it is very important for ultimately excluding major differential diagnoses, assessing the risks of corticosteroid and immunotherapy, and determining whether further hematology treatment is needed.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The team performed further ancillary examinations on the patient: 1. Repeat blood cultures and metagenomic pathogen testing of bronchoalveolar lavage fluid remained negative. 2. Repeat anti-CCP, ASO, rheumatoid factor, and AKA changes. The lung biopsy pathology report dated Day +23 showed: 1) In situ hybridization: EBER1/2 (occasional +). 2) Special stains: PAS (+), Masson showed red staining, acid-fast (-), GMS (-). 3) In conjunction with the histomorphology, the pathologic diagnosis was: slight widening of the alveolar septa with a small amount of lymphocytic infiltration and occasional neutrophilic infiltration; red-staining exudates forming plug-like changes were seen in the alveolar spaces. 4) Consistent with acute fibrinous and organizing pneumonia (AFOP), with mild infection. 5) EBER1/2 in situ hybridization indicated occasional positive lymphocytes; please correlate with the clinical peripheral blood findings to exclude Epstein-Barr virus-associated lymphoproliferative disease (EBV-LPD). If there is superficial lymphadenopathy, excision is recommended and the specimen should be submitted for pathologic diagnosis.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEalNoVjoGAK7fiawSibqHziazTz16GkUROic8aKUXCxeP21C5GrN53BYMIA/640?wx_fmt=png",
+          "near_text": "Changes in oxygenation and ventilator settings are as follows:",
+          "local_src": "cleaned_cases_image_cache/58fc792661c07497a400b2579c0868de7ec5d02b.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bENQhTqoS4taQ5icFbD8YRXm9mzNrC0YJWzuDLhmcMyIGJG0VdVI5EAMQ/640?wx_fmt=png",
+          "near_text": "Imaging changes:",
+          "local_src": "cleaned_cases_image_cache/ba49ede88437de0ea73bcc7fb487ee41a5a830fe.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEjpia4Ax8JnOZ4WPoIrj5LsBmaBfZ0wpIiaI3cuPYkcLGrOntRFXpCxjw/640?wx_fmt=png",
+          "near_text": "Chest CT on Day +10:",
+          "local_src": "cleaned_cases_image_cache/a02060f00770c063ffa4e8f34bc5e8313fe74fd9.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEP7z5ibrmAbpbB1P4DcicyLlY52lyIeD4h7DoTkAMYCuFPkb4PXr6dnng/640?wx_fmt=png",
+          "near_text": "Chest CT on Day +24:",
+          "local_src": "cleaned_cases_image_cache/542a71a1caaf6c1d4758554d77c507a071789a97.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEyJG9NXFaBic6A6n7t41FPOGjFibubZ0sNNS3Vug6ia8coeV2mjdiaZBNZQ/640?wx_fmt=png",
+          "near_text": "Pathology report of lung biopsy dated Day +23, showed:",
+          "local_src": "cleaned_cases_image_cache/126388df911a94b146531ff0d0c6c7b7cf78de0e.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEm4QnFiaQHmwxVN9lapic5LicwjD7B9sUrsbriaIsZaqEAXlv29hwwo7few/640?wx_fmt=png",
+          "near_text": "Patient outcome:",
+          "local_src": "cleaned_cases_image_cache/49c92daf24acf0dc9f2747e11f41769cb195ad71.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEibbOhX6pFnomYP82uNtnN5RicR7Se3c9xHE2ApsW9oF7ecXbPDTBaNkA/640?wx_fmt=png",
+          "near_text": "Day +24",
+          "local_src": "cleaned_cases_image_cache/070073449ae5f63124926d136de20573ba9dfeeb.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEfUroAdjyRFt5UqR8bK90m8Aaagk7orzzmLpZb6icF0IknNcvpp85HEg/640?wx_fmt=png",
+          "near_text": "Day +53",
+          "local_src": "cleaned_cases_image_cache/c9cb1cbcffde6649cd453a0088c1316047daf2ed.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKa6a4E1ZdTHkjmMGGyx5bEaufhRpc0Uiavdia3XGxamVEMvBXqrDymialZLGEsENRreWY2ghxXPu4mQ/640?wx_fmt=png",
+          "near_text": "At this point, the team's final diagnosis for this patient was:",
+          "local_src": "cleaned_cases_image_cache/c82eec60e6b63a384669cd786d6e5d1d04f3d8eb.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Acute fibrinous and organizing pneumonia; 2. Bilateral pneumonia; 3. Type I respiratory failure; 4. Hypoproteinemia.",
+      "diagnostic_basis": [
+        "Considering multiple factors including clinical, imaging, and pathologic evidence",
+        "The percutaneous lung biopsy pathology report is consistent with acute fibrinous and organizing pneumonia (AFOP), with mild infection.",
+        "The diagnosis of AFOP depends on a large lung tissue biopsy specimen. Microscopically, there are extensive distributions of typical fibrin balls, without hyaline membranes, Masson body formation, or marked eosinophilic infiltration. After other acute lung injury lesions such as DAD, OP, and eosinophilic pneumonia (EP) are adequately excluded based on the clinical and imaging findings, a diagnosis of AFOP may be considered."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Continue the original anti-infective treatment regimen",
+        "Continue submitting specimens for pathogen testing, bone marrow examination, and immune-related tests",
+        "Add methylprednisolone 40 mg/d",
+        "Provide respiratory support to the patient and maintain deep sedation",
+        "Protective ventilation, low tidal volume, low recruitability on lung assessment, low-level PEEP, and high-concentration oxygen inhalation",
+        "Position: prone",
+        "Repeat testing of immune and other indices",
+        "Repeat lung biopsy"
+      ],
+      "treatment_response": [
+        "The patient was weaned off the ventilator on Day +25.",
+        "Transferred back to the integrated traditional Chinese and Western medicine department on Day +30, continued methylprednisolone 40 mg/d, no recurrent fever",
+        "Discharged on Day +38",
+        "Repeat examination on Day +51 showed marked reduction in the size of the cervical lymph nodes",
+        "Repeat chest CT on Day +53 showed marked absorption of the lesions."
+      ]
+    }
+  }
+}

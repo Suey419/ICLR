@@ -1,0 +1,401 @@
+{
+  "status": "success",
+  "case_id": "case_14",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 54-year-old male patient was admitted on Day 0, with a chief complaint of dyspnea for 1 day. One day earlier, he accidentally fell into a methane pit, after which he developed dyspnea and headache, followed by coma a few seconds later. After being pulled ashore by his family, his consciousness gradually recovered. The patient had no discomfort such as nausea, vomiting, abdominal pain, or diarrhea. He was transported by Emergency Medical Services 120 to the local county-level People's Hospital. Complete blood count showed: WBC 9.7×10^9/L, HGB 144 g/L, PLT 119×10^9/L, CRP 8.7 mg/L, PCT 18.33 ng/ml. Arterial blood gas analysis showed: PaO2 67 mmHg. Liver and kidney function, electrolytes, and blood lipids were normal. Chest CT suggested bilateral pulmonary infection (report unavailable). At the local hospital, he was given an infusion of methylprednisolone 80 mg and gastric protection therapy, but his condition did not improve and he developed fever, so he was admitted to our hospital for further diagnosis and treatment. The patient had a previous allergy to \"Xiaokang Xitong.\" His personal history, marital and fertility history, and family history were unremarkable. Physical examination on admission: T 38.0℃, P 112 beats/min, R 27 breaths/min, BP 115/72 mmHg, clear consciousness, acute ill appearance, no cyanosis of the lips, coarse breath sounds in both lungs, fine moist rales audible at the right lung base, regular cardiac rhythm, and no pathologic murmur heard in any valvular auscultation area. Complete blood count: WBC 11×10^9/L, HGB 136 g/L, PLT 252×10^9/L. Urinalysis, stool routine, liver and kidney function, electrolytes, myocardial enzymes, coagulation tests, BNP, G test, and GM test were all normal. Arterial blood gas analysis: pH 7.40, PaO2 66.9 mmHg, PaCO2 37.2 mmHg, PCT 14.26 ng/ml, CRP >100 mg/L. CT performed on Day 0 showed ground-glass opacities in both upper lungs and multiple patchy consolidative opacities in both lower lungs.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1aGcFUQXBB90J7ewTLDUhN2lXicSVlo5GadXsSASRVEqPvxpKQicBH1bA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (Day 0)",
+          "local_src": "cleaned_cases_image_cache/2e49bf917e43fc2c0d9a57460a17679a73431651.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1Bq1nl4icVLuyv7ziab0BT37vzR61Ls1MOYNWSIyXxawOyyJmlqgzdEhw/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (Day 0)",
+          "local_src": "cleaned_cases_image_cache/95fb2be6f1e7b6ee7c367d79e8824730b874be00.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Biogas pit-related inhalational lung injury due to toxic/asphyxiating gases (e.g., acute inhalation injury caused by hydrogen sulfide)",
+          "supporting_evidence": [
+            "1 day earlier, the patient accidentally fell into a methane pit, followed by dyspnea and headache, and developed coma several seconds later, consistent with the acute onset after exposure to toxic or asphyxiating gas in a confined space.",
+            "Blood gas analysis indicated hypoxemia: at the local hospital, PaO2 67 mmHg; after admission, PaO2 66.9 mmHg",
+            "After admission, chest CT showed ground-glass opacities in both upper lungs and multiple patchy areas of consolidation in both lower lungs; the accompanying CT images showed patchy exudative/ground-glass opacities in both lungs, consistent with the imaging manifestations of acute inhalation lung injury",
+            "On physical examination, breath sounds were coarse in both lungs, and fine moist rales were audible at the right lung base, suggesting pulmonary parenchymal involvement.",
+            "Acute onset, a clear exposure history, and basically normal liver and kidney function, electrolytes, myocardial enzymes, and BNP further support that the primary lesion is located in the respiratory system."
+          ],
+          "opposing_evidence": [
+            "Fever developed, CRP increased to >100 mg/L, PCT 14.26 ng/ml, indicating that an infectious process must also be strongly considered and cannot be explained solely by simple inhalational injury."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Aspiration pneumonia (related to aspiration)",
+          "supporting_evidence": [
+            "After falling into a biogas pit, the patient developed coma and was pulled ashore; there was a risk of aspiration during the period of coma.",
+            "Subsequently developed fever and dyspnea; on physical examination, fine moist rales were audible at the right lung base.",
+            "Chest CT showed multiple patchy areas of consolidation in both lower lungs. The attached CT images show patchy consolidative/exudative opacities in both lungs, especially more pronounced in the right lung, consistent with common imaging manifestations of post-aspiration pneumonia.",
+            "Inflammatory markers elevated: CRP >100 mg/L, PCT 14.26 ng/ml, WBC 11×10^9/L",
+            "Chest CT at the local hospital had already suggested bilateral pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "Imaging simultaneously shows bilateral upper lobe ground-glass opacities, with a distribution not simply confined to the typical dependent regions, suggesting that in addition to aspiration, inhalational injury or other diffuse lung injury may also be present."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Aspiration chemical pneumonitis/near-drowning-related lung injury",
+          "supporting_evidence": [
+            "The patient rapidly developed dyspnea and coma after falling into a biogas pit, with the possibility of aspiration of liquid, contaminants, or irritant substances in the pit.",
+            "Acute onset, with hypoxemia developing after only 1 day of illness",
+            "Chest CT showed ground-glass opacities in both upper lungs and multiple patchy areas of consolidation in both lower lungs; the accompanying CT images showed multifocal ground-glass opacities and consolidative opacities in both lungs, consistent with chemical pneumonitis or aspiration-related lung injury.",
+            "No obvious gastrointestinal symptoms; liver and kidney function and electrolytes are basically normal, suggesting that the current condition is mainly acute lung injury."
+          ],
+          "opposing_evidence": [
+            "Markedly elevated PCT and the development of fever make the explanation of simple sterile chemical pneumonitis less convincing, suggesting possible coinfection or favoring infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Acute respiratory distress syndrome (ARDS, secondary to inhalation injury/aspiration/infection)",
+          "supporting_evidence": [
+            "The patient had an acute onset, with clear high-risk precipitating factors: biogas pit exposure, possible aspiration after coma, and pulmonary infection/inflammatory response.",
+            "Hypoxemia is present: PaO2 approximately 67 mmHg",
+            "Chest CT showed diffuse bilateral lung involvement, including ground-glass opacities in both upper lungs and multiple patchy areas of consolidation in both lower lungs; the accompanying CT images showed multifocal infiltrates in both lungs",
+            "Respiratory rate 27 breaths/min, suggesting manifestations of acute respiratory distress"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide a specific oxygenation index, PEEP/mechanical ventilation conditions, or the complete temporal information required for an ARDS diagnosis.",
+            "BNP is normal and there is no clear evidence of circulatory failure, but this can only suggest a noncardiogenic possibility and is still insufficient to establish ARDS on its own"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Severe community-acquired pneumonia/secondary bacterial pneumonia after exposure",
+          "supporting_evidence": [
+            "The patient has fever, dyspnea, and moist crackles in the lungs.",
+            "Inflammatory markers were markedly elevated: CRP >100 mg/L, PCT 14.26 ng/mL, WBC 11×10^9/L",
+            "Chest CT suggests bilateral lung infection, and the accompanying CT images show patchy exudative opacities in both lungs.",
+            "Hypoxemia is present, suggesting more severe pneumonia."
+          ],
+          "opposing_evidence": [
+            "The onset of symptoms was extremely closely related to the time of falling into the biogas pit, and the initial presentation included headache and rapid coma, which is more suggestive of an exposure-related inhalational/toxic event as the trigger, rather than the natural onset of ordinary community-acquired pneumonia.",
+            "The disease course was only 1 day, and the onset was excessively abrupt, which does not fully conform to the typical initial presentation of community-acquired pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary contusion/post-traumatic pulmonary parenchymal injury",
+          "supporting_evidence": [
+            "The patient had a definite traumatic event: accidentally fell into a biogas pit",
+            "Chest CT showed bilateral ground-glass opacities and patchy areas of consolidation, which can resemble pulmonary contusion on imaging",
+            "Dyspnea and hypoxemia are present"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not describe accompanying traumatic findings such as chest impact injury, chest pain, chest wall tenderness, subcutaneous emphysema, rib fracture, or pleural effusion/pneumothorax.",
+            "The presence of fever and markedly elevated CRP and PCT is more suggestive of inhalation injury or an infectious process.",
+            "The onset of headache and coma within seconds after exposure is more consistent with toxic/asphyxiant gas exposure rather than simple mechanical chest trauma."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bedside fiberoptic bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Bronchoscopy revealed a small amount of white, viscous secretions, with no obvious aspirated material seen; at the same time, the bronchoscopy lavage fluid was sent for culture. Bedside bronchoscopic bronchoalveolar lavage fluid sputum culture reported growth of Escherichia coli. On repeat CT on Day +4, patchy ground-glass opacities in the right lung and patchy high-density opacities in the right lower lung showed marked improvement. However, at the sites of the original consolidation, miliary nodules appeared to have become more conspicuous instead. On hospital day 14, repeat chest CT on Day +13, showed multiple bilateral centrilobular nodules, with no improvement compared with Day +4.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic15V4e2fcn4aFl7yM36UtFtaLzicDj8XPqKbclZH4o0licSzfsibicTWEoew/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT (Day +4)",
+            "local_src": "cleaned_cases_image_cache/b3c2d9508ae99fce1eba99977d36816d600fd3f6.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1T8icfyPAxSTntAJ80icDR40Pp67me3Bjfqo6HjODDHiakYncSYtlAoesw/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT (Day +4)",
+            "local_src": "cleaned_cases_image_cache/7ed45a4487bc8e16f42a921b0cc4f2d3de1dd004.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1jQMjsk8IKSZ5RbKojdaIibzBdiayvpIvFNExzVtexIDwWvibnnImrQBcA/640?wx_fmt=png",
+            "near_text": "Figure 3: Chest CT (Day +13)",
+            "local_src": "cleaned_cases_image_cache/d8e6db928fa7eade7395c58da3d60fb152c2e89a.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1URhxuF5dicaHOwRUSagznndnuEAKkuNJrWzXkDEyqkeyuuhcr4vqZoQ/640?wx_fmt=png",
+            "near_text": "Figure 3: Chest CT (Day +13)",
+            "local_src": "cleaned_cases_image_cache/472374f3649ce66e84446091ebbe4ae8ced2615a.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tumor",
+            "evidence": [
+              "Acute onset, short history, duration of illness 1 day, but it cannot be excluded that the patient already had pulmonary lesions before accidentally entering the biogas pit."
+            ],
+            "exclusion_reasons": [
+              "Cannot be ruled out at present; bronchoscopy or percutaneous lung biopsy can be performed for differential diagnosis."
+            ]
+          },
+          {
+            "name": "pneumoconiosis",
+            "evidence": [
+              "No prior history of dust exposure, and no related symptoms before accidentally entering the biogas pit"
+            ],
+            "exclusion_reasons": [
+              "Pneumoconiosis can be ruled out"
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "Before accidentally entering the biogas pit, there were no prior imaging studies and no related symptoms, but this CT showed miliary and patchy infiltrates, with the infiltrates predominantly consisting of ground-glass opacities."
+            ],
+            "exclusion_reasons": [
+              "Sarcoidosis can be excluded"
+            ]
+          },
+          {
+            "name": "Subacute hematogenous disseminated pulmonary tuberculosis",
+            "evidence": [
+              "The cause of onset is clear, the duration of illness is short, only 1 day, and there were no related symptoms before accidentally entering the biogas pit."
+            ],
+            "exclusion_reasons": [
+              "This disease can be ruled out to a certain extent"
+            ]
+          },
+          {
+            "name": "Fungi",
+            "evidence": [
+              "A biogas pit is a sewage environment that readily promotes the growth of various fungi. Fungal infection may present as miliary nodules; the nodules may coalesce, and cavitation is common. Fungal pneumonia caused by accidentally entering a biogas pit is a common complication."
+            ],
+            "exclusion_reasons": [
+              "This disease cannot be ruled out at present"
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "There is generally a history of antigen exposure. After antigen exposure, chills, fever, malaise, chest tightness, dyspnea, and cough may occur. Imaging findings in the acute phase may include ground-glass opacities and patchy consolidations; in the subacute phase, multiple centrilobular nodules may be seen."
+            ],
+            "exclusion_reasons": [
+              "Whether biogas can serve as an antigen is a rare clinical question; whether hypersensitivity pneumonitis should be considered in this patient remains to be further verified."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tumor",
+        "evidence": [
+          "Acute onset, short history, duration of illness 1 day, but it cannot be excluded that the patient already had pulmonary lesions before accidentally entering the biogas pit."
+        ],
+        "exclusion_reasons": [
+          "Cannot be ruled out at present; bronchoscopy or percutaneous lung biopsy can be performed for differential diagnosis."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "Before accidentally entering the biogas pit, there were no prior imaging studies and no related symptoms, but this CT showed miliary and patchy infiltrates, with the infiltrates predominantly consisting of ground-glass opacities."
+        ],
+        "exclusion_reasons": [
+          "Sarcoidosis can be excluded"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Subacute hematogenous disseminated pulmonary tuberculosis",
+        "evidence": [
+          "The cause of onset is clear, the duration of illness is short, only 1 day, and there were no related symptoms before accidentally entering the biogas pit."
+        ],
+        "exclusion_reasons": [
+          "This disease can be ruled out to a certain extent"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungi",
+        "evidence": [
+          "A biogas pit is a sewage environment that readily promotes the growth of various fungi. Fungal infection may present as miliary nodules; the nodules may coalesce, and cavitation is common. Fungal pneumonia caused by accidentally entering a biogas pit is a common complication."
+        ],
+        "exclusion_reasons": [
+          "This disease cannot be ruled out at present"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "There is generally a history of antigen exposure. After antigen exposure, chills, fever, malaise, chest tightness, dyspnea, and cough may occur. Imaging findings in the acute phase may include ground-glass opacities and patchy consolidations; in the subacute phase, multiple centrilobular nodules may be seen."
+        ],
+        "exclusion_reasons": [
+          "Whether biogas can serve as an antigen is a rare clinical question; whether hypersensitivity pneumonitis should be considered in this patient remains to be further verified."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PCT",
+          "basis_in_stage3_input": "Further repeat testing: PCT 0.13 ng/mL",
+          "why_order_this_exam": "The patient had an acute onset, with dyspnea, fever, hypoxemia, and bilateral pulmonary infiltrates after biogas digester exposure. PCT was previously markedly elevated early in the course, and bronchoalveolar lavage fluid culture once grew Escherichia coli; dynamic assessment is needed to determine whether active bacterial infection is still present. Repeat PCT decreased significantly to 0.13 ng/mL, which helps indicate that the currently persistent miliary-like/centrilobular nodules do not support progressive bacterial infection and instead favor a nonbacterial inflammatory process, thereby providing a basis for discontinuing or reducing antibacterial therapy and shifting consideration to hypersensitivity pneumonitis and glucocorticoid treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat complete blood count",
+          "basis_in_stage3_input": "WBC 16.3×10^9/L",
+          "why_order_this_exam": "During the course of the illness, the patient had fever, dyspnea, and bilateral lung infection-like changes on imaging; however, later imaging evolved to persistent multiple centrilobular nodules, and the activity of infection needs to be reassessed in conjunction with the systemic inflammatory response. Repeat WBC testing can be used to monitor the severity of inflammation and determine whether ongoing vigilance for infection is still needed or whether it is affected by factors such as glucocorticoid use; in combination with decreasing PCT and CRP and negative pathogen test results, this can avoid misinterpreting leukocytosis alone as persistent bacterial infection and help differentiate infectious from noninfectious pulmonary lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "basis_in_stage3_input": "CRP 6.3mg/L",
+          "why_order_this_exam": "Early in the course, the patient had a markedly elevated CRP accompanied by fever, hypoxemia, and bilateral pulmonary consolidation/ground-glass opacities, suggesting a significant inflammatory response; however, after subsequent improvement of the original consolidation, miliary nodules appeared and persisted, and the clinical focus shifted to differentiating infection, TB, fungi, and hypersensitivity pneumonitis. Repeat CRP testing can dynamically reflect systemic inflammatory activity; a decrease in CRP to a relatively low level suggests that acute bacterial inflammation has markedly improved and is insufficient to explain the persistent imaging abnormalities, thereby supporting further evaluation for nonbacterial causes and providing a reference for adjustment of antimicrobial therapy and selection of the subsequent steroid regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "basis_in_stage3_input": "ESR22 mm/h",
+          "why_order_this_exam": "After the patient’s imaging findings change from acute exudative opacities to persistent centrilobular/miliary nodules, it is necessary to evaluate for TB, fungal infection, or other chronic inflammatory diseases. Although ESR lacks specificity, it can serve as an adjunctive marker of chronic inflammation and infectious activity. Interpretation in conjunction with CRP, PCT, T-SPOT, and microbiologic results helps determine whether persistent active chronic infection is present. When ESR is only mildly elevated without other strong supporting evidence, it favors a nonspecific inflammatory response rather than active TB, providing supportive information for excluding differential diagnoses.",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "basis_in_stage3_input": "T-SPOT well A 26, well B 19",
+          "why_order_this_exam": "On follow-up CT, the patient developed and continued to have miliary/centrilobular nodules; the imaging findings overlap with disseminated pulmonary TB, and TB has consistently needed to be excluded in the earlier differential diagnosis. T-SPOT is used to assess whether there is immunologic evidence of Mycobacterium tuberculosis infection, and is particularly of complementary value when sputum smear is negative, lesion distribution is atypical, and routine culture is unlikely to provide clarification in the short term. The purpose of this test is not to establish the diagnosis independently, but to comprehensively assess the likelihood of TB in conjunction with results such as repeated sputum acid-fast bacilli tests, TB-DNA, and acid-fast staining of lung tissue, and to determine whether further management in the direction of anti-TB treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fiberoptic bronchoscopy",
+          "basis_in_stage3_input": "Perform fiberoptic bronchoscopy",
+          "why_order_this_exam": "Early in the course, the patient had hypoxemia and bilateral pulmonary infiltrates after acute inhalation/poisoning, followed by persistent centrilobular nodules. Imaging alone cannot distinguish post-aspiration infection, TB, fungal infection, tumor, or hypersensitivity pneumonitis. Fiberoptic bronchoscopy can directly assess whether there are aspirated materials, purulent secretions, a mass, or other characteristic changes in the airway, and can obtain lavage fluid for bacterial, fungal, acid-fast bacilli, and cytology examinations. For this case, the main purpose of this examination is to determine the cause of the persistent imaging abnormalities, while in a hypoxemic patient also balancing procedural risk assessment with obtaining etiologic evidence, to provide a basis for whether lung biopsy is needed and for the subsequent treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "No bacterial growth was observed in the bacterial culture of bronchial lavage fluid.",
+          "why_order_this_exam": "The patient previously had fever, elevated PCT and CRP, and bilateral lung infection-like imaging findings, and there was an early risk of aspiration and aspiration pneumonia after coma; therefore, bacterial culture of lower respiratory tract specimens is needed to determine whether persistent bacterial infection or secondary infection is present. Compared with sputum culture, bacterial culture of lavage fluid better reflects the true pathogens of the lower respiratory tract. A negative result, together with a marked decrease in PCT, improvement of consolidation on CT, and persistence of nodules, can weaken the explanatory strength of bacterial pneumonia as the current primary issue, supporting discontinuation or de-escalation of antimicrobial therapy and a shift toward evaluation of other causes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum examination for acid-fast bacilli",
+          "basis_in_stage3_input": "Multiple sputum examinations for acid-fast bacilli were negative",
+          "why_order_this_exam": "Because the patient’s subsequent CT showed miliary/centrilobular nodules, TB, especially disseminated or bronchogenic spread pulmonary TB, must be a key focus of the evaluation. Sputum testing for acid-fast bacilli is the basic examination for etiologic screening of TB; repeated submission can improve the detection rate, and the procedure is simple and low-risk, making it suitable for ongoing assessment before and after invasive examinations such as lung puncture. Multiple negative results, together with the absence of TB toxemia symptoms and negative results from other specimens, help reduce the likelihood of active pulmonary TB and avoid unnecessary anti-TB treatment after misdiagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung puncture examination",
+          "basis_in_stage3_input": "A lung puncture examination was completed",
+          "why_order_this_exam": "After acute biogas digester exposure, although the initial consolidation improved, multiple persistent miliary-like/centrilobular nodules in both lungs failed to resolve, and routine blood inflammatory markers and bronchoscopy-related pathogen studies were insufficient to explain the nature of the lesions. The differential diagnosis still includes tumor, TB, fungal infection, and hypersensitivity pneumonitis; therefore, lung parenchymal tissue needs to be obtained for direct pathologic examination and special stains. Although lung puncture is an invasive procedure, when imaging abnormalities persist and noninvasive examinations cannot establish a definitive diagnosis, it has critical value for establishing the diagnosis, excluding malignancy and specific infections, and determining whether to initiate glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy pathology",
+          "basis_in_stage3_input": "Biopsy pathology results indicated: a small amount of lung tissue with chronic inflammatory changes was seen in fibrinous exudate",
+          "why_order_this_exam": "The most central clinical question in this case is whether the persistent multiple nodular lesions in both lungs are infectious, neoplastic, or immune-/allergic-inflammatory. Routine histopathologic examination after lung biopsy can directly determine whether there is malignant tissue, granulomas, necrosis, fungi, or other specific lesions. Pathology showed fibrinous exudation and chronic inflammatory changes without evidence of tumor, providing key histopathologic evidence to exclude a malignant lesion and support the direction of inflammatory lung injury/hypersensitivity pneumonitis, and also laying the foundation for subsequent use of corticosteroids rather than antitumor therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast staining of biopsy tissue pathology",
+          "basis_in_stage3_input": "Acid-fast stain negative on biopsy tissue pathology",
+          "why_order_this_exam": "The patient's imaging showing miliary nodules still indicates that TB should be a key exclusion, while negative sputum studies and lavage fluid cannot completely rule out low-bacillary-load lesions within the lung tissue. The purpose of performing acid-fast staining on the biopsy tissue is to directly look for acid-fast bacilli at the site of the lesion, thereby increasing the strength of assessment for tuberculous lesions. This test, together with T-SPOT, TB-DNA, and multiple sputum examinations, constitutes a multilevel chain of evidence; negative tissue acid-fast staining can significantly reduce the diagnostic likelihood of active pulmonary TB and avoid mistreating hypersensitivity pneumonitis as TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "basis_in_stage3_input": "TB-DNA: all negative",
+          "why_order_this_exam": "In the presence of miliary/centrilobular nodules on imaging and repeatedly negative routine sputum acid-fast bacillus tests, molecular biologic testing is needed to improve the detection sensitivity for Mycobacterium tuberculosis. TB-DNA can be performed on sputum, lavage fluid, or tissue specimens and is of important value for rapidly determining whether a tuberculous pathogen is present. This test is primarily intended to address the question of whether occult TB is still causing persistent imaging abnormalities; if negative and consistent with negative tissue acid-fast staining and the clinical absence of TB manifestations such as night sweats and fever, it more strongly supports excluding TB and shifting to a diagnosis of hypersensitivity pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "basis_in_stage3_input": "The patient's G test and GM test were negative.",
+          "why_order_this_exam": "The patient had a history of exposure to a biogas digester/sewage environment, followed by persistent multiple nodules on imaging; fungal infection was once an important differential diagnosis. The G test, as a serologic screening tool for invasive fungal infection, can be used to assess whether systemic or active fungal infection is present, and is especially helpful when imaging is atypical and routine cultures are negative. The clinical significance of this test lies in jointly assessing the likelihood of fungal infection together with the GM test, bronchoscopy culture, and lung biopsy tissue results; although a negative result cannot absolutely exclude it on its own, it can significantly reduce the probability of invasive fungal infection and affect whether empiric antifungal therapy is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "The patient's G test and GM test were negative.",
+          "why_order_this_exam": "Given the patient’s unusual exposure environment and the evolution of pulmonary imaging findings from infiltrative opacities to persistent nodular opacities, fungal infection such as Aspergillus should be included in the differential diagnosis. The GM test is mainly used to assist in identifying Aspergillus-related infection and is helpful in determining whether invasive pulmonary aspergillosis is present. In this case, in combination with negative bacterial culture, no fungal hyphae seen in tissue, and no pathological evidence of specific infection, a negative GM result can further weaken a fungal etiology, providing support for excluding fungal infection, avoiding unnecessary antifungal therapy, and supporting the diagnosis of hypersensitivity pneumonitis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic lavage fluid culture",
+          "basis_in_stage3_input": "Culture of bronchoscopic lavage fluid showed no bacterial growth",
+          "why_order_this_exam": "After acute exposure, the patient developed bilateral lung lesions, and persistent imaging abnormalities remained later in the course, requiring repeated confirmation with lower respiratory tract specimen culture to determine whether bacterial pathogens were still present. Bronchoscopic cell lavage fluid culture can reduce upper respiratory tract contamination and is more targeted than routine sputum specimens, helping determine whether bacteria identified on early culture were true pathogens, secondary colonization, or had already been controlled. No bacterial growth was seen on culture; combined with decreasing PCT and CRP and improvement of consolidation, this helps indicate that the current course is not dominated by ongoing bacterial infection, thereby supporting adjustment of the treatment focus.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "To exclude TB and fungal infection, repeat testing was performed: PCT 0.13 ng/mL; WBC 16.3×10^9/L; CRP 6.3 mg/L; ESR 22 mm/h; T-SPOT well A 26, well B 19. Fiberoptic bronchoscopy was completed. Bacterial culture of bronchial lavage fluid showed no bacterial growth, and repeated sputum tests for acid-fast bacilli were negative. A lung needle biopsy was performed. The biopsy pathology result suggested: a small amount of lung tissue with chronic inflammatory changes was seen within fibrinous exudate. Acid-fast staining and TB-DNA of the biopsy tissue pathology were both negative. The patient's G test and GM test were negative, bronchoscopic lavage fluid culture showed no bacterial growth, and no fungal hyphae were seen in the lung biopsy tissue.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic1gZmYvwR17WgevCkgqOvRlkOeIx6wcxLXPzCMaer52OgpOOE4SqA4FA/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT (Day +36)",
+          "local_src": "cleaned_cases_image_cache/27c75484a603a112a0a5baedeeea98f44c047c28.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLUicg3Qqzhq1shH8YeaHIic15wibPWJEdUiaEeEPWbZwaKSrjVXtcNdicPWvxfe86He57MD7Via6DOZicsA/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT (Day +36)",
+          "local_src": "cleaned_cases_image_cache/58357b5b3f177db0d56a85d45ed1e8caa75b56a0.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Biogas poisoning with hypersensitivity pneumonitis",
+      "diagnostic_basis": [
+        "Histopathology of lung biopsy tissue showed no malignant tissue, and tumor can be excluded.",
+        "The patient's G test and GM test were negative, bronchoscopy lavage fluid culture showed no bacterial growth, and no fungal hyphae were seen in lung puncture tissue; fungal infection can be ruled out.",
+        "Acid-fast staining and TB-DNA testing of the lung biopsy tissue were both negative, repeated sputum tests for acid-fast bacilli were all negative, and acid-fast bacilli testing of the bronchoalveolar lavage fluid was also negative. No Mycobacterium tuberculosis was detected in multiple specimens, including sputum, lavage fluid, and lung tissue, and the patient had no clinical manifestations of TB such as fever or night sweats; TB can be excluded.",
+        "Meets three major diagnostic criteria for hypersensitivity pneumonitis: (1), (2), and (5); meets two minor diagnostic criteria: (1) and (3)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Levofloxacin and etimicin were discontinued",
+        "The treatment regimen was changed to methylprednisolone 40 mg, intravenous drip once daily",
+        "Continue oral prednisone for 6 months after discharge"
+      ],
+      "treatment_response": [
+        "On Day +36, repeat chest CT showed marked resolution of multiple miliary nodules in both lungs, and the patient was discharged.",
+        "Repeat chest CT showed complete resolution of the lesions, and the patient recovered."
+      ]
+    }
+  }
+}

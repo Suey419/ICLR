@@ -1,0 +1,382 @@
+{
+  "status": "success",
+  "case_id": "case_2",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 43-year-old woman from Fujian. She presented to our outpatient clinic on Day 0, for \"shortness of breath accompanied by blood-streaked sputum for 2 years.\" The patient developed shortness of breath after moving into a new home 2 years earlier. The symptoms were mild at rest and worsened after activity. This was accompanied by blood-streaked sputum, small in amount, bright red in color, more noticeable with seasonal changes, and occasional fatigue, without fever, chest pain, palpitations, or precordial discomfort. The patient was seen successively at Xijing Hospital, the Second Affiliated Hospital of Xiamen University, and our hospital, and was diagnosed with \"pulmonary bullae.\" Thereafter, the patient received intermittent inhaled medication treatment (details unknown), but the effect was poor. Since the onset of illness, the patient's mental status and appetite have been fairly good, bowel and bladder function have been normal, and there has been no significant weight loss. Further inquiry into her past history revealed that more than 2 years earlier, the patient had undergone surgery in Fujian for a renal hamartoma. On Day -402, gastroscopy showed multiple gastric polyps (more than 300). On Day -153 and Day -150, she underwent partial argon cauterization of multiple gastric polyps under local anesthesia twice in the Department of Gastroenterology at our hospital. The patient denied a history of hypertension, coronary artery disease, diabetes, and other diseases; denied a history of hepatitis, TB, and other infectious diseases; and denied a history of food or drug allergy. In reviewing her personal history, it was found that she was frequently exposed to paint because of work. The remainder of the history was unremarkable. No abnormalities were found on physical examination: temperature 36.5℃, pulse 82/min, respiratory rate 22/min, blood pressure 136/89 mmHg. She was alert, with no facial rash, no cyanosis of the lips, clear breath sounds in both lungs, no dry or wet rales, no obvious abnormality on cardiac examination, a surgical scar on the abdomen, no obvious abnormality on neurologic examination, and no edema of both lower extremities. Prior chest CT imaging data (Day -567) showed multiple small nodules in both lungs, emphysema, and pulmonary bullae. Outpatient chest CT imaging data (Day 0) showed three imaging features: 1. increased bilateral lung markings; 2. multiple small nodules and multiple thin-walled lucencies in both lungs; 3. fat-density and mixed low-density lesions visible at the scanned level of the liver.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGP5ibnZFFhb78N4nYjbR68MBBPDlC1zSuuGVWnhnLdpWAXBb2XdGW4VKw/640?wx_fmt=png",
+          "near_text": "The following are the imaging findings from the patient's outpatient chest CT (Day 0):",
+          "local_src": "cleaned_cases_image_cache/f3f17f45ecd300b5d6e92f1538dbab046933f098.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "A 43-year-old woman with progressive shortness of breath, worsened with exertion, consistent with the population commonly affected by LAM and its respiratory manifestations",
+            "Accompanied by a small amount of bright red blood-streaked sputum; hemoptysis may occur in LAM",
+            "Previous chest CT (Day -567) showed emphysema and pulmonary bullae.",
+            "Outpatient chest CT (Day 0) showed multiple thin-walled lucent lesions in both lungs; the accompanying chest CT images showed scattered multiple thin-walled air-containing cystic lesions in both lungs, consistent with the imaging features of diffuse cystic lung disease",
+            "History of surgery for renal hamartoma; renal angiomyolipoma is strongly associated with LAM",
+            "At the scanned hepatic level, fat-containing and mixed low-attenuation lesions are seen, suggesting the possible presence of hepatic angiomyolipoma or other PEComa-spectrum lesions, indirectly supporting a LAM-associated syndrome."
+          ],
+          "opposing_evidence": [
+            "Outpatient chest CT also showed multiple small nodules in both lungs; typical LAM is predominantly characterized by diffuse thin-walled cysts, and small nodules are not the most typical manifestation.",
+            "Phase 1 information did not show common accompanying manifestations of LAM, such as chylothorax or spontaneous pneumothorax."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberous sclerosis complex-associated lymphangioleiomyomatosis (TSC-LAM)",
+          "supporting_evidence": [
+            "Female, with multiple thin-walled lucencies/cystic changes in both lungs, consistent with an imaging pattern of LAM",
+            "History of surgery for renal angiomyolipoma; renal angiomyolipoma is one of the common renal manifestations of TSC",
+            "Multiple gastric polyps (>300) and fatty/mixed low-density lesions in the liver suggest the possibility of multisystem hamartomatous or neoplastic lesions, and an underlying hereditary syndrome should be considered.",
+            "The attached chest CT images show diffuse multiple thin-walled cystic lesions in both lungs."
+          ],
+          "opposing_evidence": [
+            "Physical examination indicated no facial rash, and neurologic examination showed no obvious abnormalities. In the first stage, no typical manifestations of TSC such as epilepsy, intellectual disability, or periungual fibromas were documented.",
+            "The phase 1 information did not provide a family history of TSC or other definite evidence of typical involvement of other organs."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Birt-Hogg-Dubé syndrome-associated cystic lung disease",
+          "supporting_evidence": [
+            "Chest CT showed multiple thin-walled lucencies in both lungs; the attached images show thin-walled cystic lesions in the lower lungs, within the spectrum of cystic lung disease seen in BHD.",
+            "Previously diagnosed with \"pulmonary bullae,\" indicating that a bullous-like structural abnormality of the lung had been noted clinically.",
+            "There is a prior surgical history of a renal tumor-like lesion; BHD should be considered when hereditary cystic lung disease is accompanied by renal lesions."
+          ],
+          "opposing_evidence": [
+            "The prior renal lesion was described as \"renal hamartoma surgery,\" which is not consistent with the renal epithelial tumor types more commonly seen in BHD.",
+            "Recurrent spontaneous pneumothorax or family history was not described in the first stage",
+            "No facial rash; no common cutaneous manifestations of BHD, such as fibrofolliculomas, were observed.",
+            "Blood-streaked sputum is not a typical initial presentation of BHD"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary Langerhans cell histiocytosis (PLCH)",
+          "supporting_evidence": [
+            "Outpatient chest CT showed multiple small nodules in both lungs and multiple thin-walled lucent lesions; nodules combined with cystic changes are an imaging pattern seen in PLCH.",
+            "The patient has chronic dyspnea; prior CT suggested emphysema and pulmonary bullae, which can clinically overlap with PLCH."
+          ],
+          "opposing_evidence": [
+            "In the first phase, smoking history was not provided, whereas PLCH is strongly associated with smoking.",
+            "The attached images show abnormalities in the lower lungs as well; PLCH more commonly shows upper- and mid-lung predominance with relative sparing of the costophrenic angles; the current first-stage imaging is atypical",
+            "Renal hamartoma and a fatty hepatic lesion cannot be well explained by PLCH"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lymphocytic interstitial pneumonia/follicular bronchiolitis-associated diffuse cystic lung disease (LIP/FB)",
+          "supporting_evidence": [
+            "Outpatient chest CT showed multiple small nodules in both lungs and multiple thin-walled lucencies; LIP/FB can present as cysts with small nodules",
+            "The patient has chronic shortness of breath. The attached CT images show diffuse scattered cystic changes in both lungs, which can be included in the differential diagnosis of diffuse cystic lung disease."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no background of Sjögren syndrome, other autoimmune diseases, immunodeficiency, etc. was provided.",
+            "In the first stage, there were no descriptions such as obvious ground-glass opacities or diffuse interstitial infiltrates that would be more supportive of LIP.",
+            "Renal hamartoma and fatty/mixed low-density lesions in the liver do not support this diagnosis"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inpatient diagnosis and treatment",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "reason": "Exclude connective tissue disease as the cause of multiple cystic lesions in both lungs",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Infection markers: complete blood count, erythrocyte sedimentation rate, PCT",
+          "reason": "Multiple cystic lesions in both lungs, accompanied by hemoptysis; need to assess whether there is concurrent infection.",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "tumor markers",
+          "reason": "Differential diagnosis of multiple cystic lesions in both lungs",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymphocyte testing",
+          "reason": "Multiple cystic lesions in both lungs are mostly rare diseases. Based on the distribution characteristics of the cysts, immunosuppressants or corticosteroid therapy may be needed later, and immune function needs to be assessed.",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "abdominal ultrasound, urinary tract ultrasound, thyroid color Doppler ultrasound",
+          "reason": "Based on multiple cystic lesions in both lungs, LAM is highly likely, and extrapulmonary involvement needs to be assessed.",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After the patient was admitted, we immediately performed examinations. Routine laboratory tests: ECG, routine urinalysis and stool examination, comprehensive biochemistry panel, BNP, troponin, hepatitis panel + HIV + TP, coagulation panel, and thyroid function were all negative; infectious indicators: CBC, ESR, PCT, endotoxin, G & GM tests, TB-related tests, and respiratory pathogen-related tests were all normal; complete female tumor marker panel: normal; autoimmune-related indicators: complete autoantibody panel, neutrophil antibodies, four rheumatologic tests, and complete humoral immunity panel were all normal; others: cytokines: human interleukin-2 189.00 U/ml, human interleukin-6 3.58 pg/ml, human interleukin-8 21.10 pg/ml; T-cell subsets and counts were basically normal; blood allergen screening was negative; arterial blood gas analysis: pH 7.440, paCO2 31.8 mmHg, paO2 93.7 mmHg, paO2 (A-a) 8.4 mmHg; PFT: pulmonary ventilation function and diffusing capacity were both normal, bronchodilator test negative; FeNO 13 ppb. Ultrasound examinations. Echocardiography: no obvious abnormality in intracardiac structure, left ventricular systolic function within the normal range; cervical vascular ultrasound: no obvious abnormality on sonograms of the bilateral cervical arteries; thyroid ultrasound: bilateral thyroid nodules, considered cystic degeneration of nodular goiter; breast and axillary ultrasound: no definite nodules in either breast; upper abdominal ultrasound: multiple hyperechoic nodules in the liver, considered hemangiomas; gynecologic ultrasound: Nabothian cyst of the cervix; urinary system ultrasound: irregular morphology of both kidneys, enlarged right kidney, multiple hyperechoic foci in both kidneys, considered possible bilateral renal hamartomas; an exophytic solid hypoechoic mass at the upper pole of the right kidney with relatively abundant blood flow signals, nature undetermined.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPSJnoqc6xpDaDm1Vuey98tGF7XnnNGonDCsasBoAYia3Z9bw6toPwQwg/640?wx_fmt=png",
+            "near_text": "Three features can be seen on the imaging studies:",
+            "local_src": "cleaned_cases_image_cache/3a5e5c7c0d79a48ac5813549ac348130963bc17f.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPEibzcAsibxXDnhN5HiblHtry89vbqCcu0Co518ecXu4ZvwgFMmCZYD3kw/640?wx_fmt=png",
+            "near_text": "Three features can be seen on the imaging studies:",
+            "local_src": "cleaned_cases_image_cache/dcc1c4b23b5e36815b47e85c609a4e64ab33319b.png"
+          },
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPicBkOqlWXqV3F5zVE4JjL1Iic7o9KLC0UTMlicC8n7Tk6JaxQuO5ibZ9Rw/640?wx_fmt=png",
+            "near_text": "Two features can be seen on the imaging studies:",
+            "local_src": "cleaned_cases_image_cache/9d145d0521facd60a39535c2efa8b9a4aab7f3e0.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPViagicdAvk5w0NURkSe3IsRQYgNLiau7lAhwknhppOpicnL68OzAzX7elQ/640?wx_fmt=png",
+            "near_text": "Two features can be seen on the imaging studies:",
+            "local_src": "cleaned_cases_image_cache/39d14f5b6efc93f25c9da9aa03e45b352bbf5412.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Chronic obstructive pulmonary disease",
+            "evidence": [
+              "Dyspnea"
+            ],
+            "exclusion_reasons": [
+              "The clinical findings do not strongly support it; PFT can be performed to help exclude it."
+            ]
+          },
+          {
+            "name": "bronchial asthma",
+            "evidence": [
+              "Dyspnea",
+              "Shortness of breath developed after moving into a new house, seemingly suggesting an environmental association"
+            ],
+            "exclusion_reasons": [
+              "Blood allergen screening was negative, and the response to inhaled therapy was poor, which does not support asthma; PFT can be performed to further exclude it."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "Hemoptysis"
+            ],
+            "exclusion_reasons": [
+              "TB testing was negative, and imaging also did not support it."
+            ]
+          },
+          {
+            "name": "Endobronchial tuberculosis",
+            "evidence": [
+              "Hemoptysis"
+            ],
+            "exclusion_reasons": [
+              "It cannot be ruled out at present; bronchoscopy may be performed to exclude it."
+            ]
+          },
+          {
+            "name": "Malignant neoplasm of the lung",
+            "evidence": [
+              "Hemoptysis",
+              "Space-occupying lesion in the liver"
+            ],
+            "exclusion_reasons": [
+              "Low likelihood based on imaging; further exclusion is required"
+            ]
+          },
+          {
+            "name": "Bronchiectasis",
+            "evidence": [
+              "Hemoptysis"
+            ],
+            "exclusion_reasons": [
+              "Chest non-contrast CT is not supportive; HRCT is needed, but the likelihood is low"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lymphangioleiomyomatosis (LAM)",
+        "evidence": [
+          "Woman of childbearing age, status post surgery for multiple gastric polyps and renal angiomyolipoma, shortness of breath, specialty examination unremarkable, multiple cystic lesions in both lungs, multiple hepatic space-occupying lesions"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "BHD",
+        "evidence": [
+          "Multiple cystic lesions in both lungs"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "PLCH",
+        "evidence": [
+          "Multiple cystic lesions in both lungs"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "malignant lung neoplasm",
+        "evidence": [
+          "Multiple hepatic space-occupying lesions"
+        ],
+        "exclusion_reasons": [
+          "Tumor markers were normal, and chest CT imaging excluded it."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Endobronchial tuberculosis",
+        "evidence": [
+          "Hemoptysis"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was performed on the patient.",
+          "why_order_this_exam": "The patient is a 43-year-old woman with 2 years of dyspnea accompanied by small-volume bright red blood-streaked sputum. She had previously been diagnosed multiple times only with “pulmonary bullae,” and inhaled therapy was ineffective; chest CT additionally suggested multiple small nodules in both lungs and multiple thin-walled lucent lesions, requiring further clarification of the source of hemoptysis and whether there were endobronchial lesions. After admission, infection and TB-related tests, tumor markers, and autoimmune markers showed no obvious abnormalities, but endobronchial tuberculosis, airway tumor, and nonspecific inflammation still required direct visualization for exclusion. Bronchoscopy allows direct visual assessment of the bronchial mucosa, airway patency, the presence or absence of mass-related stenosis, and active bleeding, and can simultaneously obtain lavage fluid, brushing, and biopsy specimens. It is a key examination for identifying the etiology in the setting of diffuse cystic lung disease suggested by imaging, excluding infection and malignancy, and providing a sampling route for subsequent pathologic confirmation.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid cell differential",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid cell differential: neutrophils 30.00%, lymphocytes 2.00%, macrophages 68.00%;",
+          "why_order_this_exam": "The patient has long-standing dyspnea and intermittent hemoptysis, and imaging shows multiple small nodules and thin-walled cystic changes in both lungs. Clinically, in addition to LAM, infectious, inflammatory, or interstitial lung diseases need to be considered in the differential diagnosis. Although CBC, ESR, PCT, G/GM tests, and TB- and respiratory pathogen-related tests are all normal, these noninvasive tests cannot completely replace assessment of inflammation at the local alveolar level. BALF cell differential helps determine the type of intra-alveolar inflammatory response and assess whether the proportions of neutrophils, lymphocytes, and macrophages support active infection, hypersensitivity, or lymphocytic interstitial lesions, thereby helping to explain the patient's symptoms and imaging findings and providing a basis for whether subsequent evaluation should continue to favor anti-infective treatment, assessment for immune-mediated disease, or greater emphasis on the diagnosis of structural cystic lung disease.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid GeneXpert",
+          "basis_in_stage3_input": "BALF Gene-Xpert: negative;",
+          "why_order_this_exam": "The patient has blood-streaked sputum, one of the common manifestations of TB-related disease, and chest imaging shows multiple nodules. Although the overall imaging is more suggestive of diffuse cystic lung disease, endobronchial TB or pulmonary TB still need to be excluded in the initial differential diagnosis. Previous blood tests and routine TB-related tests were negative, and the imaging findings were also atypical, but over the course of a persistent 2-year disease course, obtaining deep airway specimens for molecular testing would be more helpful in improving the efficiency of screening for Mycobacterium tuberculosis. The clinical purpose of BALF Gene-Xpert is to identify or rule out the TB pathogen as soon as possible, avoid misclassifying an infectious lesion as a rare disease such as LAM, and it is also relevant to subsequent decisions regarding whether anti-TB treatment is needed and assessment of the infection risk after procedures such as bronchoscopic biopsy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bacterial and fungal culture of sputum collected via bronchoscopy",
+          "basis_in_stage3_input": "Sputum collected during bronchoscopy: both bacterial and fungal cultures were negative;",
+          "why_order_this_exam": "The patient has long-term shortness of breath and hemoptysis. Bronchoscopy showed a small amount of thin white secretions and mild mucosal hyperemia, suggesting at least mild airway inflammation; meanwhile, chest CT showed multiple nodules and cystic changes, and some infectious diseases can also present with such imaging findings accompanied by bloody sputum. Although infection markers and serologic screening during hospitalization did not suggest obvious infection, for patients with recurrent hemoptysis, it is still necessary to obtain specimens closer to the lesions by bronchoscopy for bacterial and fungal cultures to improve the pathogen detection rate. This examination is mainly used to exclude chronic airway/parenchymal lung lesions caused by bacterial or fungal infection, reduce interference with imaging and pathologic results, and provide a basis for whether empiric or targeted anti-infective treatment is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopic brush smear",
+          "basis_in_stage3_input": "Bronchoscopic brush smear: no bacteria, fungi, or acid-fast bacilli seen; no cancer cells seen;",
+          "why_order_this_exam": "The patient has had blood-streaked sputum for 2 years, and chest CT showed multiple small nodules in both lungs. Endobronchial TB and pulmonary malignancy were considered in the earlier differential diagnosis. Although female tumor markers, infection markers, and TB-related tests showed no obvious abnormalities, and the imaging was not typical in support of malignancy, hemoptysis with multiple nodules still required further exclusion by airway cytologic evidence. Bronchoscopic brushing can directly obtain cellular components from the bronchial mucosal surface and adjacent lesions for detection of cancer cells, acid-fast bacilli, and fungi, etc., and is of important value in excluding neoplastic lesions within the airway, endobronchial TB, and some infections. Together with biopsy and culture results, it provides mutual corroboration and helps confirm that the patient's pulmonary lesions are more consistent with noninfectious, nonmalignant diseases such as LAM.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "bronchoscopic TBLB",
+          "basis_in_stage3_input": "Transbronchial lung biopsy (TBLB) by bronchoscopy: (Day +9, our hospital) A few dilated lymphatic vessels are seen in the lung tissue, with surrounding spindle cell proliferation. In conjunction with immunohistochemistry, pulmonary lymphangioleiomyomatosis is suggested; please correlate clinically. Immunohistochemistry: D2-40(+), SMA focal (+), CD34(+), ER focal (+), HMB45 focal (+). (Day +15, Xijing Hospital) Chronic inflammation of the bronchial mucosa and lung tissue of the bilateral lower lobe basal segment bronchi, focal widening of the alveolar septa, and focal bundles of spindle cells are seen. Immunohistochemistry showed: CD31(-), CD34(-), D2-40(-), HMB-45(-), Ki-67(+<1%), MITF(-), Pan-mel(-), S-100(-), SMA(+). The findings support the presence of smooth muscle bundles, with no evidence suggestive of neoplasia.",
+          "why_order_this_exam": "The central clinical issue in this case is: although the patient has multiple clues suggestive of LAM, including a 43-year-old woman, progressive exertional dyspnea, recurrent bloody sputum, diffuse thin-walled cystic changes in both lungs, and renal hamartoma and hepatic fatty/mixed low-density lesions, the imaging still shows multiple small nodules, and malignancy, TB, and other cystic lung diseases still need to be excluded at the earlier stage; therefore, histologic confirmation is needed. TBLB can directly obtain lung parenchymal specimens to assess for the characteristic abnormal smooth muscle-like/spindle cell proliferation of LAM, lymphatic dilatation, and pulmonary interstitial involvement. The value of this examination lies in supporting or refuting LAM at the pathologic level, distinguishing simple chronic inflammation, other interstitial lung diseases, or neoplastic lesions, and improving diagnostic specificity in combination with immunohistochemistry. Pathologic evidence is निर्णсуive for whether targeted treatment such as sirolimus can be considered subsequently, and for how to assess prognosis and determine follow-up priorities.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "In conjunction with immunohistochemistry, pulmonary lymphangioleiomyomatosis is suggested; please correlate clinically. Immunohistochemistry: D2-40(+), SMA focal (+), CD34(+), ER focal (+), HMB45 focal (+). (Day +15, Xijing Hospital) Chronic inflammation of the bronchial mucosa of the basal segmental bronchi of both lower lobes and lung tissue; focal widening of the alveolar septa; focal bundles of spindle cells are seen. Immunohistochemical results show: CD31(-), CD34(-), D2-40(-), HMB-45(-), Ki-67(+<1%), MITF(-), Pan-mel(-), S-100(-), SMA(+). The results support the presence of smooth muscle bundles, with no evidence suggestive of neoplasia.",
+          "why_order_this_exam": "In the patient's lung tissue biopsy, dilated lymphatic vessels and spindle cell proliferation were present, but morphology alone is still insufficient to reliably distinguish among LAM, reactive smooth muscle hyperplasia, other PEComa-spectrum lesions, and non-neoplastic interstitial changes, especially when the pathology interpretations from the two hospitals show some discrepancies; in such cases, immunohistochemistry is even more necessary for further characterization. In conjunction with this case's diffuse bilateral cystic lung disease, history of renal hamartoma surgery, possible multiple bilateral renal hamartomas, and tendency toward hepatic angiomyolipoma, the purpose of immunohistochemistry is to identify marker expression patterns supporting the LAM/PEComa spectrum, such as HMB45, SMA, D2-40, and ER, while also assessing proliferative information such as Ki-67 and excluding vascular-origin, melanocytic-origin, or other tumors. This examination directly affects whether the imaging findings and systemic multiorgan involvement can be integrated into a diagnosis of LAM, and guides subsequent treatment selection and evaluation for genetic syndromes.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Brain MRI",
+          "basis_in_stage3_input": "Brain MRI was further performed, and the result reported: \"Multiple ischemic lesions in the bilateral frontoparietal subcortical regions, abnormal signals in the bilateral parietal lobes; contrast-enhanced MRI is recommended.\"",
+          "why_order_this_exam": "In the context of a patient with a high clinical suspicion for LAM accompanied by bilateral renal angiomyolipomas and a hepatic angiomyolipoma-like lesion, it is clinically necessary to further determine whether this is sporadic LAM or TSC-associated LAM. Although the patient has no epilepsy, no intellectual impairment, and no typical TSC manifestations such as facial adenoma sebaceum on physical examination, TSC is a multisystem disease, and central nervous system evaluation remains necessary. Brain MRI is more sensitive than CT and can be used to screen for cortical or subcortical abnormal signal intensities, nodular lesions, and other brain involvement; at the same time, it can also clarify whether the patient has concomitant cerebral ischemic foci or other non-TSC lesions. The clinical significance of this examination lies in completing the assessment of systemic involvement, assisting in differentiating TSC-LAM from sporadic LAM, and providing a basis for whether subsequent neurology evaluation and long-term monitoring are needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "basis_in_stage3_input": "Contrast-enhanced MRI is recommended",
+          "why_order_this_exam": "Non-contrast brain MRI has identified multiple ischemic foci in the subcortical regions of the bilateral frontoparietal lobes and abnormal signals in the bilateral parietal lobes, but the nature of the lesions remains unclear. Non-contrast imaging alone cannot adequately distinguish ischemic changes, inflammatory lesions, tumor-like lesions, or brain abnormalities related to tuberous sclerosis complex. The patient has concomitant clues suggestive of a multisystem hamartoma/PEComa spectrum disorder. If the brain lesions show abnormal enhancement, this would be critical for assessing TSC-related central nervous system involvement or other organic lesions. Therefore, contrast-enhanced MRI is recommended to further clarify lesion margins, enhancement characteristics, and activity, and to reduce misinterpretation. This examination would help refine the TSC-related differential diagnosis, exclude other intracranial problems, and affect subsequent neurology consultation recommendations, follow-up strategy, and overall disease classification.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Genetic testing",
+          "basis_in_stage3_input": "Genetic testing was recommended, but the patient also declined.",
+          "why_order_this_exam": "This patient has manifestations of LAM, along with bilateral renal hamartomas, a tendency toward hepatic angiomyolipoma, and abnormal brain signal, suggesting possible systemic involvement within the TSC/LAM-related disease spectrum; however, the medical history lacks definite clinical features of TSC such as epilepsy, intellectual disability, and typical skin lesions, and neurologic consultation also does not currently consider tuberous sclerosis, so the key classification issue between sporadic LAM and TSC-LAM remains unresolved. Genetic testing is mainly intended to identify relevant pathogenic variants such as TSC1/TSC2, so as to provide genetic evidence when the clinical manifestations are atypical and to help establish or exclude an underlying genetic syndrome. This result is of major significance for disease classification, genetic counseling for the family, the scope of systemic screening, priorities for long-term follow-up, and whether to more actively evaluate multiorgan involvement; it can also strengthen the theoretical support for subsequent treatment selection related to the mTOR pathway.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was performed. Bronchoscopic findings: a small amount of white, thin secretions was seen in the bilateral bronchial system; the mucosa was mildly congested and erythematous; the lumens were patent; no mass or stenosis was seen, suggesting mild inflammatory changes of the bronchial mucosa. Bronchoalveolar lavage fluid cell differential: neutrophils 30.00%, lymphocytes 2.00%, macrophages 68.00%. Bronchoalveolar lavage fluid Gene-Xpert: negative. Bronchoscopic sputum collection: both bacterial and fungal cultures were negative. Bronchoscopic brushing smear: no bacteria, fungi, or acid-fast bacilli were seen; no cancer cells were seen. Bronchoscopic TBLB: (Day +9, our hospital) a small number of dilated lymphatic vessels were seen in the lung tissue, with surrounding spindle cell proliferation; combined with immunohistochemistry, pulmonary lymphangioleiomyomatosis was considered possible; please correlate clinically. Immunohistochemistry: D2-40(+), SMA focal (+), CD34(+), ER focal (+), HMB45 focal (+). (Day +15, Xijing Hospital) chronic inflammation of the bronchial mucosa and lung tissue of the basal segmental bronchi of both lower lobes, focal widening of the alveolar septa, and focal bundles of spindle cells were seen. Immunohistochemistry showed: CD31(-), CD34(-), D2-40(-), HMB-45(-), Ki-67(+<1%), MITF(-), Pan-mel(-), S-100(-), SMA(+). The results support the presence of smooth muscle bundles, with no evidence suggestive of neoplasia. Further brain MRI was performed, and the result reported \"multiple ischemic lesions in the bilateral frontoparietal subcortical regions, abnormal signals in the bilateral parietal lobes; contrast-enhanced MRI recommended.\" Neurology consultation was requested; tuberous sclerosis complex was not considered for the time being, and further contrast-enhanced brain MRI was recommended to exclude other problems, but the patient refused. Genetic testing was recommended, but the patient also refused. We further inquired about the patient's past medical history: no history of seizures, no intellectual decline, and no skin lesions such as facial angiofibromas were seen on physical examination.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPD0hIOmA1bgjFsYMzia2ia08OLqhqiaVicNkl3CCgtyg75k09BWaoibrNsyg/640?wx_fmt=jpeg",
+          "near_text": "Important evidence obtained: pathology supports the diagnosis of lymphangioleiomyomatosis!",
+          "local_src": "cleaned_cases_image_cache/205c5a7508331b2a04beaf4181b004320854f315.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Lymphangioleiomyomatosis 2. Bilateral renal angiomyolipomas 3. Hepatic angiomyolipoma 4. Abnormal signal in the bilateral parietal lobes, nature undetermined 5. Multiple gastric polyps 6. Thyroid nodules 7. Nabothian cyst of the cervix 8. Cerebral ischemic foci",
+      "diagnostic_basis": [
+        "43-year-old female, of childbearing age",
+        "Status post surgery for multiple gastric polyps and renal hamartoma",
+        "Shortness of breath and blood-streaked sputum for 2 years",
+        "No positive findings on specialty physical examination",
+        "Multiple bilateral pulmonary nodules and thin-walled cystic changes",
+        "Multiple hepatic space-occupying lesions (fat-containing and mixed low-density lesions)",
+        "renal hamartoma",
+        "Pathology supports the diagnosis of lymphangioleiomyomatosis",
+        "In conjunction with the Neurology opinion, tuberous sclerosis complex is not being considered at present; instead, sporadic lymphangioleiomyomatosis is being considered, with concomitant renal hamartoma and hepatic angiomyolipoma."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "It is recommended that the patient avoid smoking.",
+        "Oral sirolimus may be tried",
+        "Advised to convalesce after discharge and undergo close follow-up"
+      ],
+      "treatment_response": [
+        "At present, the patient is in good general condition, shortness of breath is not significant, there is occasional blood-streaked sputum, and the condition is basically stable compared with before."
+      ]
+    }
+  }
+}

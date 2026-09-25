@@ -1,0 +1,357 @@
+{
+  "status": "success",
+  "case_id": "case_79",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient was a 75-year-old woman who was admitted to the Department of Pulmonary and Critical Care Medicine, The Second Xiangya Hospital of Central South University, on Day -1, with the chief complaint of \"chest tightness and shortness of breath accompanied by bilateral lower-extremity edema for 3 years, worsened for 3 days.\" The patient began to have symptoms of chest tightness and shortness of breath 3 years earlier, occasionally accompanied by paroxysmal cough with a small amount of white mucoid sputum, along with mild bilateral lower-extremity edema, without chest pain, low-grade fever, night sweats, etc. Episodes occurred mostly in late autumn and early winter each year, and each episode lasted about half a month, but she had never sought specialty care or undergone related examinations. On Day -3, the patient developed bilateral lower-extremity edema without an obvious precipitating cause, and was therefore hospitalized on Day 0. Since disease onset, the patient had poor energy and appetite and light sleep. She had a past history of hypertension for more than 10 years, with fairly good blood pressure control; she denied a history of TB and close contact exposure, and had no history of drug allergy. In her personal history, she denied smoking and alcohol use, but was often exposed to secondhand smoke in the workplace. The patient was married, and the family history was unremarkable. On admission, temperature was 36.5℃, pulse 75/min, respiratory rate 20/min, blood pressure 125/70 mmHg, pulse oxygen saturation 81%, height 165 cm, weight 60 kg, BMI 22 kg/m2. The fingers were swollen. The thorax showed no deformity; bilateral respiratory excursion was symmetric; tactile fremitus was not decreased; percussion of both lungs was resonant; breath sounds were diminished bilaterally, with scattered moist rales audible. The cardiac border was enlarged to the left, heart rate was 75/min, rhythm was regular, heart sounds were diminished, P2>A2, and there was severe bilateral lower-extremity edema. Muscle strength was symmetric in all extremities, muscle tone was normal, with no obvious muscle atrophy and no sensory abnormality.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary hypertension with right heart dysfunction (due to chronic cor pulmonale or other causes)",
+          "supporting_evidence": [
+            "The chief complaint was \"chest tightness, shortness of breath, and bilateral lower extremity edema for 3 years, worsening for 3 days,\" suggesting worsening systemic venous congestion on the basis of chronic cardiopulmonary disease.",
+            "Finger pulse oxygen saturation 81%, indicating significant hypoxemia, which can be seen in chronic pulmonary vascular disease or cor pulmonale",
+            "Physical examination: P2 > A2, suggesting possible elevated pulmonary artery pressure",
+            "Severe edema of both lower extremities, supporting right heart dysfunction or systemic venous congestion",
+            "Breath sounds were decreased in both lungs, with scattered moist rales audible, suggesting coexisting chronic pulmonary disease or abnormal cardiopulmonary function.",
+            "The course of disease has been 3 years, and episodes have occurred mostly in late autumn and early winter each year, consistent with the pattern of recurrent fluctuations of chronic cardiopulmonary disease."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Acute exacerbation of chronic heart failure (possibly predominantly right-sided heart failure, with concomitant left heart involvement)",
+          "supporting_evidence": [
+            "Chest tightness, shortness of breath, and bilateral lower extremity edema for 3 years, with worsening over the past 3 days, consistent with decompensated chronic heart failure.",
+            "Severe edema of both lower extremities is a common sign of heart failure",
+            "Cardiac silhouette enlarged to the left, suggesting cardiomegaly",
+            "Heart sounds are diminished; scattered moist rales are audible in both lungs, supporting the possibility of cardiac insufficiency",
+            "History of hypertension for more than 10 years, which is a risk factor for chronic heart failure",
+            "Poor mental status and poor appetite, suggesting a decompensated state of chronic disease"
+          ],
+          "opposing_evidence": [
+            "Dyspnea recurs annually in late autumn and early winter, further suggesting the possible presence of an underlying chronic respiratory disease.",
+            "P2 > A2 and marked hypoxemia are more suggestive of pulmonary hypertension or involvement of a pulmonary cause"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease/chronic bronchitis",
+          "supporting_evidence": [
+            "Recurrent chest tightness and shortness of breath for 3 years, occasionally accompanied by paroxysmal cough and expectoration of a small amount of white mucoid sputum, consistent with manifestations of chronic airway disease",
+            "Episodes occur mostly in late autumn and early winter each year, suggesting seasonal exacerbations of chronic airway disease.",
+            "Long-term occupational exposure to secondhand smoke is a risk factor for chronic airway disease",
+            "Breath sounds are decreased in both lungs, which may be seen in obstructive ventilatory dysfunction.",
+            "Fingertip oxygen saturation 81%, indicating that hypoxemia may occur during acute exacerbation."
+          ],
+          "opposing_evidence": [
+            "No definite history of long-term heavy smoking",
+            "Severe edema of both lower extremities, P2 > A2, and leftward enlargement of the cardiac silhouette suggest not only a simple airway disease, but also possible significant cardiovascular involvement.",
+            "In the first stage, more typical supportive findings such as barrel chest and wheezing were not provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Connective tissue disease-associated pulmonary arterial hypertension or interstitial lung disease (such as systemic sclerosis spectrum disorders)",
+          "supporting_evidence": [
+            "Swollen fingers are an important clue to manifestations associated with connective tissue disease",
+            "A 3-year course of progressive chest tightness and shortness of breath, which may be seen in connective tissue disease-associated pulmonary arterial hypertension or interstitial lung disease",
+            "Finger pulse oxygen saturation 81%, suggesting pulmonary or pulmonary vascular involvement",
+            "P2 > A2 suggests possible pulmonary hypertension",
+            "Severe edema of both lower extremities may be caused by progression from pulmonary hypertension to right heart failure"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no other typical connective tissue disease features such as Raynaud phenomenon, skin thickening, arthralgia, or muscle weakness were provided.",
+            "Bilateral lungs resonant to percussion; no crackles or imaging evidence provided to support interstitial lung disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary thromboembolism or chronic thromboembolic pulmonary hypertension",
+          "supporting_evidence": [
+            "Worsening shortness of breath for 3 days, with fingertip oxygen saturation of 81%, suggesting the need to be alert for severe pulmonary circulatory disease",
+            "P2 > A2 suggests increased pulmonary artery pressure and may be seen in pulmonary embolism or chronic thromboembolic pulmonary hypertension",
+            "Severe edema of both lower extremities suggests venous congestion or right heart dysfunction; pulmonary circulatory thrombotic disease should be considered"
+          ],
+          "opposing_evidence": [
+            "The disease course has reached 3 years with recurrent seasonal exacerbations, which is inconsistent with the common presentation pattern of typical acute pulmonary embolism.",
+            "During the first stage, typical triggers/manifestations such as chest pain, hemoptysis, tachycardia, prolonged bed rest, or surgery were not reported."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "N-terminal pro-brain natriuretic peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thyroid function panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary CTA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bilateral lower extremity vascular ultrasound",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis on Day 0: pH 7.28, PaO2 72.9 mmHg, PaCO2 82.8 mmHg; N-terminal brain natriuretic peptide 2201.05 pg/ml; D-dimer 5.5 ug/ml; CBC, liver and renal function, electrolytes, cardiac enzymes, inflammatory markers, and five thyroid function tests showed no obvious abnormalities. Echocardiography (left atrium 42 mm, left ventricle 49 mm, right atrium 47 mm, right ventricle 44 mm, left ventricular ejection fraction 58%, estimated pulmonary artery pressure 66 mmHg): showed left atrial and right heart enlargement, poorly coordinated ventricular wall motion, mildly widened aortic internal diameter, aortic sclerosis with plaque formation, mild aortic regurgitation; widened pulmonary artery, elevated estimated pulmonary artery pressure (moderate to severe); impaired left ventricular diastolic function. Pulmonary function test: forced vital capacity (FVC) 0.95 L, FVC/predicted 36.1%, forced expiratory volume in 1 second (FEV1) 0.78 L, FEV1/predicted 39.4%, FEV1/FVC 82%, indicating severe restrictive ventilatory dysfunction; bronchodilator test negative. Chest CT: increased lung markings, scattered patchy and linear infiltrates in both lungs. Pulmonary CTA: a filling defect was seen in the posterior basal segmental artery of the right lower lobe, suggesting embolism of the posterior basal segmental artery of the right lower lobe; the remaining pulmonary arteries had a normal course. Vascular ultrasound of both lower extremities: atherosclerosis with multiple plaque formation in the arteries of both lower extremities, thrombosis in the intramuscular calf veins of both lower extremities. Polysomnography: (apnea-hypopnea index [AHI] 8.2 events/h, lowest oxygen saturation 69%) consistent with mild obstructive sleep apnea syndrome; severe nocturnal sleep-related hypoxemia. Connective tissue disease-related antibodies: rheumatoid factor IgM 78 u/ml; autoimmune liver disease panel; immunoglobulins and others showed no obvious abnormalities. Head MRI and spinal cord imaging showed no abnormalities.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEavNHfcPfvFjSzTCX0FyFZ5bMFkmiaHcvs3KH49lYmorQEBb8yvjRbLA/640?wx_fmt=png",
+            "near_text": "Figure 1. Echocardiography",
+            "local_src": "cleaned_cases_image_cache/dab8dd6ccecfaddfbc6cf99ad752f264ed2926ab.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEQPnnWMMJn70xTWsmG1aUY6wvIL6heg9ficLrpWE9ZSyEiao4fGlAicohQ/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT on Day +6 showed increased pulmonary markings and scattered patchy and linear infiltrates in both lungs.",
+            "local_src": "cleaned_cases_image_cache/c90f442b44d493836b10a1ed78a8ba653a9ec202.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEUqeZelE8SczdVJ8AZhtPc1IYZKvYp3OvBC2bK2LmQTfugIrnD5G9yA/640?wx_fmt=png",
+            "near_text": "Figure 3: Pulmonary CTA (Day +15): A filling defect is seen in the posterior basal segmental artery of the right lower lobe.",
+            "local_src": "cleaned_cases_image_cache/f0c6878fac79226d8fe17acec188f4a1489e5396.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Common respiratory diseases",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient had no manifestations of typical respiratory diseases such as COPD, ILD, thoracic cage deformity, or large airway obstruction, and the relevant examinations did not indicate features of the above diseases."
+            ]
+          },
+          {
+            "name": "Organic disease of the central nervous system",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Head MRI and spinal cord imaging showed no abnormalities."
+            ]
+          },
+          {
+            "name": "Drug, metabolic, and endocrine factors (hypothyroidism)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No significant abnormalities were found on the five-item thyroid function panel and other tests."
+            ]
+          },
+          {
+            "name": "Spinal cord and peripheral nerve lesions",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No manifestations related to post-polio syndrome, amyotrophic lateral sclerosis, Guillain-Barré syndrome, myasthenia gravis, or other similar diseases; no abnormalities were seen on brain and spinal cord imaging."
+            ]
+          },
+          {
+            "name": "Pulmonary arterial hypertension, type 1",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No evidence of pulmonary intra-arterial wall disease, such as arterial wall remodeling, stenosis, thickening, and/or sclerosis."
+            ]
+          },
+          {
+            "name": "Pulmonary hypertension, type 2",
+            "evidence": [],
+            "exclusion_reasons": [
+              "There is no core evidence of abnormal left ventricular pumping caused by left heart dysfunction."
+            ]
+          },
+          {
+            "name": "Group 5 pulmonary hypertension",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's pulmonary hypertension can be clearly identified as secondary to known diseases such as chronic hypoxia and pulmonary thromboembolism, and is not due to an unknown cause."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Common respiratory diseases",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient had no manifestations of typical respiratory diseases such as COPD, ILD, thoracic cage deformity, or large airway obstruction, and the relevant examinations did not indicate features of the above diseases."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Organic disease of the central nervous system",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Head MRI and spinal cord imaging showed no abnormalities."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Drug, metabolic, and endocrine factors (hypothyroidism)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No significant abnormalities were found on the five-item thyroid function panel and other tests."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Spinal cord and peripheral nerve lesions",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No manifestations related to post-polio syndrome, amyotrophic lateral sclerosis, Guillain-Barré syndrome, myasthenia gravis, or other similar diseases; no abnormalities were seen on brain and spinal cord imaging."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Send-out myositis antibody panel test",
+          "basis_in_stage3_input": "Therefore, a myositis antibody panel should be further sent out for testing, and the test report indicated PM-Scl 75 ++, with the remaining items negative.",
+          "why_order_this_exam": "The patient is an elderly woman with recurrent chest tightness and dyspnea for 3 years with progressive worsening. At admission, she had marked hypoxemia and hypercapnia. PFT indicated severe restrictive ventilatory dysfunction, but there was no evidence for common respiratory diseases, thyroid dysfunction, or structural central nervous system lesions, and the existing lung imaging findings were also insufficient to fully explain such severe alveolar hypoventilation. Further history-taking revealed dry mouth, dry eyes for more than 20 years, finger swelling, Raynaud phenomenon, and weakness of both lower extremities, all of which suggested the possibility of connective tissue disease, especially systemic sclerosis spectrum disease or overlapping inflammatory myopathy. A myositis antibody panel was ordered to determine whether there was connective tissue disease-associated myositis/myopathic respiratory muscle involvement, to explain the cause of the restrictive ventilatory defect and chronic alveolar hypoventilation, and to help distinguish simple pulmonary vascular disease, post-pulmonary embolism changes, and autoimmune-related respiratory muscle involvement. A positive PM-Scl antibody is of important value in supporting a systemic sclerosis-associated overlap syndrome, completing the SSc diagnostic scoring, and determining whether subsequent immune-related evaluation and long-term management are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diaphragmatic fluoroscopy",
+          "basis_in_stage3_input": "Diaphragm X-ray fluoroscopy: dynamic observation shows decreased diaphragmatic motion and elevation of the diaphragm.",
+          "why_order_this_exam": "The patient had long-standing chest tightness and dyspnea, and arterial blood gas analysis showed severe hypercapnia, with even type 2 respiratory failure during the course of illness in which PaCO2 increased to 120mmHg, suggesting that in addition to pulmonary vascular disease and pulmonary infection, mechanical or neuromuscular causes of alveolar hypoventilation must also be sought. PFT showed a restrictive ventilatory defect, whereas chest CT showed no extensive pulmonary parenchymal lesions sufficient to explain the severe ventilatory failure; therefore, direct assessment of the motion of the diaphragm, the primary respiratory muscle, was needed. Diaphragmatic fluoroscopy can dynamically observe diaphragmatic position and range of motion and determine whether there is diaphragmatic elevation, decreased motion, or diaphragmatic dysfunction, thereby explaining the patient's chronic hypoventilation and hypercapnia. This examination helps localize the cause to the respiratory muscle level, distinguish simple pulmonary parenchymal/airway disease from diaphragmatic dysfunction, and also provides a basis for subsequent noninvasive ventilatory support and long-term home respiratory management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Dynamic ultrasound observation of diaphragmatic motion",
+          "basis_in_stage3_input": "Dynamic ultrasound observation of diaphragmatic motion: during quiet breathing, bilateral diaphragmatic excursion was reduced, 4 cm on the left and 6 cm on the right (normal value >8-10 cm); during deep breathing, bilateral diaphragmatic motion was normal.",
+          "why_order_this_exam": "In the setting of severe restrictive ventilatory impairment, significant hypercapnia, severe nocturnal hypoxemia, and clinical suspicion of respiratory muscle involvement, a more refined and quantifiable bedside assessment of diaphragmatic function is needed. Compared with fluoroscopy, diaphragmatic ultrasonography can measure diaphragmatic excursion during მშვიდ breathing and deep breathing, determine the degree of reduction and whether reserve function is present, thereby more accurately assessing whether diaphragmatic dysfunction contributes to alveolar hypoventilation. In this patient, ultrasonography showed decreased bilateral diaphragmatic excursion during quiet breathing, while it remained normal during deep breathing, consistent with impaired respiratory muscle function but not complete paralysis. This helps explain the pathophysiologic basis for the patient's chronic ventilatory insufficiency, nocturnal carbon dioxide retention, and effective response to BiPAP therapy. This examination can also help exclude simple structural diaphragmatic paralysis, support the assessment of systemic sclerosis-related respiratory muscle involvement, and provide a basis for whether long-term noninvasive ventilation is needed and for follow-up of changes in diaphragmatic function.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography",
+          "basis_in_stage3_input": "Electromyography showed no abnormalities.",
+          "why_order_this_exam": "The patient not only has chronic chest tightness, dyspnea, and restrictive ventilatory defect, but also bilateral lower-extremity weakness and severe hypercapnia. Common pulmonary diseases, central nervous system lesions, and endocrine-metabolic factors have essentially been excluded; therefore, systematic evaluation is still needed for respiratory failure caused by neuromuscular disease. Electromyography is used to assess whether there are abnormal discharges or conduction abnormalities involving the peripheral nerves, muscles, and neuromuscular junction, in order to differentiate whether respiratory muscle weakness is caused by generalized neuromyopathy, peripheral neuropathy, or myopathy. Although the results showed no abnormalities, this negative result is clinically important: it lowers the likelihood of diagnoses such as spinal cord and peripheral nerve lesions and the diffuse electromyographic abnormalities typical of inflammatory myopathies, making the etiology more suggestive of connective tissue disease-related diaphragmatic/respiratory muscle dysfunction rather than overt peripheral neuromuscular disease. This examination therefore has value in excluding differential diagnoses, narrowing the etiologic range, and supporting the final etiologic assessment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further review of the patient's history revealed dry mouth and dry eyes for more than 20 years, finger swelling, Raynaud phenomenon, and weakness of both lower extremities, with no significant improvement after massage and physical therapy. Therefore, a myositis antibody panel should be sent out for further testing. The report showed PM-Scl 75 ++, and the remaining items were negative. Diaphragmatic fluoroscopy: dynamic observation showed decreased diaphragmatic motion and elevation of the diaphragm. Dynamic ultrasound assessment of diaphragmatic motion: during მშვიდ breathing, bilateral diaphragmatic motion was decreased, 4 cm on the left and 6 cm on the right (normal value >8-10 cm); during deep breathing, bilateral diaphragmatic motion was normal. Electromyography showed no abnormalities. Based on pulmonary hypertension suggested by echocardiography, restrictive ventilatory dysfunction indicated by pulmonary function testing, and decreased bilateral diaphragmatic motion on dynamic ultrasound assessment. According to the diagnostic criteria for systemic sclerosis (systemic sclerosis, SSc) [3], the SSc score reached 9 points, meeting the diagnosis of SSc.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEuafZIJa7Q3qTlDf26AWRia1QDTN5qhdILZOdxGBptqLkROcqv7Jr2JQ/640?wx_fmt=png",
+          "near_text": "Figure 4: X-ray fluoroscopy (Day +16): showed elevation of the diaphragm",
+          "local_src": "cleaned_cases_image_cache/08108d76e34bc831777fcf0b03ec71dfed95421a.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEaujjHicQibSVbFHsGUCvSgs875hsD9vQAdnDsfiag8MFCQxmoibEYLp1lg/640?wx_fmt=png",
+          "near_text": "B: Before ventilator treatment, overnight transcutaneous carbon dioxide monitoring indicated that nocturnal tcPCO2 fluctuated between 57-70 mmHg",
+          "local_src": "cleaned_cases_image_cache/01d21384c2b2777ecf551fbad670e3c1b9161c38.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEvzibyAjZ1XPYGw5vTrzBfz7r1IQ5GZvyDesYmibVrIIT5cju1HdrNb6A/640?wx_fmt=png",
+          "near_text": "A: Daytime transcutaneous carbon dioxide monitoring showed that daytime tcPCO2 fluctuated between 33-60 mmHg",
+          "local_src": "cleaned_cases_image_cache/86a732c5948ee88a4691ff1c12ff1de44f411a8e.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI1Vcnhyby9rKORNHIomvFEp0V3ibpPBKhSFd8ia8Dvq8KXW8T8bgVHsTQPIHYta0SP30ZrvkQAceqA/640?wx_fmt=png",
+          "near_text": "C: After treatment with BiPAP, overnight transcutaneous carbon dioxide monitoring showed nocturnal tcPCO2 fluctuating between 45-54 mmHg",
+          "local_src": "cleaned_cases_image_cache/e035d04cf3458fea2f2c52d91e60f8c0ded35e3d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1) Alveolar hypoventilation syndrome secondary to systemic sclerosis, type II respiratory failure, moderate pulmonary hypertension, chronic decompensated cor pulmonale, cardiac function class III; 2) mild obstructive sleep apnea syndrome, severe hypoxemia; 3) pulmonary embolism (intermediate-low risk)",
+      "diagnostic_basis": [
+        "Symptoms: chest tightness, shortness of breath, and bilateral lower extremity edema for 3 years, worsened for 3 days, with dry mouth and dry eyes for more than 20 years.",
+        "Physical signs: decreased breath sounds in both lungs, with scattered moist rales audible. Cardiac dullness is enlarged to the left, heart sounds are diminished, P2>A2, and there is severe edema of both lower extremities. The fingers are swollen, there is Raynaud phenomenon, and there is weakness in both lower extremities.",
+        "Ancillary examinations: ① Send-out myositis antibody panel showed PM-Scl 75 ++; ② PFT indicated a restrictive ventilatory defect; ③ Dynamic ultrasonographic observation showed decreased bilateral diaphragmatic motion; ② Echocardiography: left atrial and right heart enlargement, dilated pulmonary artery, estimated elevated pulmonary artery pressure (moderate to severe), and reduced left ventricular diastolic function."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Noninvasive ventilatory support (ventilator settings: PEEP 3 cmH2O, PC 13 cmH2O, FiO2 38-42%)",
+        "Diuresis",
+        "anti-heart failure",
+        "nebulized expectorant therapy",
+        "Cardioprotection",
+        "Anti-infective therapy",
+        "Anticoagulation",
+        "Nocturnal BiPAP ventilator therapy",
+        "Home oxygen therapy",
+        "Home noninvasive ventilator-assisted respiratory therapy"
+      ],
+      "treatment_response": [
+        "After treatment with BiPAP ventilatory support, the symptoms improved significantly compared with admission.",
+        "On Day +1, the patient developed poor mental status and somnolence. Arterial blood gas analysis showed: pH 7.14, PaO2 47 mmHg, PaCO2 120 mmHg. After treatment with noninvasive ventilatory support, diuresis, anti-heart failure therapy, nebulization for sputum elimination, cardioprotective therapy, anti-infective therapy, and anticoagulation, the patient's general condition improved and consciousness became clear, but dynamic monitoring with arterial blood gas analysis showed that PaCO2 still fluctuated between 52-67 mmHg.",
+        "Transcutaneous CO2 monitoring: daytime tcPCO2 fluctuated between 33-60 mmHg, nighttime tcPCO2 fluctuated between 57-70 mmHg; after treatment with BiPAP ventilation, nighttime tcPCO2 fluctuated between 45-54 mmHg.",
+        "During hospitalization, after nighttime treatment with a BiPAP ventilator, repeat blood gas analysis and AHI showed improvement compared with before, and right heart failure and pulmonary encephalopathy also improved compared with before. After the patient's chest tightness and shortness of breath improved significantly compared with before, the patient was discharged.",
+        "After discharge, the patient continued home oxygen therapy and home noninvasive ventilatory support; symptoms of chest tightness and shortness of breath did not recur, and the treatment response was good."
+      ]
+    }
+  }
+}

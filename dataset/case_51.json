@@ -1,0 +1,387 @@
+{
+  "status": "success",
+  "case_id": "case_51",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "43-year-old male, chief complaint: \"recurrent cough and sputum production for more than 1 year.\" More than 1 year ago, after catching a cold, he developed cough and sputum production. Evaluation at an outside hospital revealed a mass-like opacity in the left lower lobe, and symptoms improved after anti-infective treatment. Chest CT repeated half a year ago: an irregular mass-like opacity was seen in the posterior basal segment of the left lower lobe, measuring approximately 5.6×6.1 cm on the largest slice, with a small amount of punctate calcification within it; patchy opacities and linear opacities were seen around it, with adjacent pleural thickening and adhesion. More than 4 months ago, CT-guided percutaneous lung biopsy was performed, and pathology diagnosed: mild to moderate chronic inflammation in lung tissue with focal alveolar epithelial hyperplasia. In the outpatient clinic, after treatment with Avelox and others for more than 50 days, repeat chest CT showed no reduction in the mass-like opacity in the left lower lobe. He currently has occasional cough and sputum production. Past history: hypertension for more than 1 year; at age 11-12 years, he was diagnosed with \"pulmonary TB\" at the county hospital in his hometown and regularly took anti-TB medications for more than 1 year. Physical examination: breath sounds in the left lower lung were slightly decreased, with no dry or wet rales heard. Laboratory tests: elevated white blood cell count and neutrophils on CBC; tumor-related screening, infection-related screening (G test, GM test, cryptococcal antigen, PPD skin test, TB-IGRA), and immune-related tests showed no abnormalities. Chest CT on Day 0 suggested an irregular mass-like opacity in the posterior basal segment of the left lower lobe; the first percutaneous lung biopsy was performed on the same day, and both bacterial and fungal cultures were negative.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KonoxFlBQP8hhvNz06S8qbm2DzV7PHicHXcYOwheL9lnjHiaHhyiad4M9ZA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT, Day 0",
+          "local_src": "cleaned_cases_image_cache/1f546181786210340c713dccb35801fb6b56ca82.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KonakyfAPhFBNp1UcWpszfGaGDr8WRJtVqkXOvwk2KHXz1jrQZiaC3Znw/640?wx_fmt=png",
+          "near_text": "Figure 2: First percutaneous lung biopsy (Day 0)",
+          "local_src": "cleaned_cases_image_cache/1a44591c1c13cdb8b2769718e2304e45db08c9ea.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoD2jicKK6OqO69lJVw2Jic3DbniayLsKjPMTp3nmvDZCXDWFD4wIm5PJxA/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT, Day +103",
+          "local_src": "cleaned_cases_image_cache/990ef35460e89d6b0f0ae1f8e6de68289a2b16a0.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (represented by lung adenocarcinoma/pneumonic-type adenocarcinoma)",
+          "supporting_evidence": [
+            "In the first stage, the text note indicates a persistent irregular mass-like opacity in the posterior basal segment of the left lower lobe, measuring approximately 5.6×6.1 cm on the largest slice.",
+            "After 50+ days of outpatient treatment with Avelox and other therapies, repeat chest CT showed no reduction in the patchy mass-like opacity in the left lower lobe, suggesting a lower likelihood of a common infectious lesion.",
+            "Phase 1 images show a mass-like/consolidative lesion in the left lower lung near the pleura, irregular in shape, with surrounding patchy and linear opacities.",
+            "CT-guided percutaneous lung biopsy showed only mild to moderate chronic inflammation with focal alveolar epithelial hyperplasia; a missed tumor due to sampling error of the needle biopsy cannot be completely excluded"
+          ],
+          "opposing_evidence": [
+            "Age 43 years, relatively not in the high-incidence age group for lung cancer",
+            "Disease course of more than 1 year, and symptoms initially improved after anti-infective treatment",
+            "Tumor-related screening revealed no abnormalities",
+            "The pathology from the first percutaneous lung biopsy did not directly indicate a malignant tumor."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary sequestration with recurrent secondary infections",
+          "supporting_evidence": [
+            "The lesion is located in the posterior basal segment of the left lower lobe, which is a common location for pulmonary sequestration.",
+            "Course of disease for more than 1 year, manifested by recurrent cough and sputum production, consistent with the clinical features of recurrent infection of congenitally abnormal lung tissue",
+            "The phase I images show a mass-like lesion in the posterior basal segment of the left lower lobe adjacent to the pleura, with surrounding inflammatory changes and pleural thickening and adhesion.",
+            "Symptoms may improve after anti-infective treatment, but the imaging lesions persist, suggesting that acquired infection alone cannot fully explain the findings"
+          ],
+          "opposing_evidence": [
+            "Phase 1 text and images did not clearly describe any abnormal systemic arterial supply vessel.",
+            "Percutaneous lung biopsy showed only chronic inflammation and provided no direct evidence of a congenital malformation"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Inflammatory myofibroblastic tumor / pulmonary inflammatory pseudotumor",
+          "supporting_evidence": [
+            "The patient is relatively young and has chronic cough and sputum production.",
+            "The first-phase text prompt indicates an irregular mass-like opacity in the left lower lobe, with a small amount of punctate calcification visible internally; inflammatory pseudotumor may present as a mass-like lesion and may be accompanied by calcification.",
+            "Needle biopsy pathology showed mild to moderate chronic inflammation with focal alveolar epithelial hyperplasia, which may overlap with an inflammatory mass-like lesion.",
+            "Tumor-related screening showed no abnormalities, and bacterial and fungal cultures were negative."
+          ],
+          "opposing_evidence": [
+            "There are relatively obvious patchy opacities and linear opacities around the lesion, as well as adjacent pleural thickening and adhesions, which are more suggestive of chronic infection or post-changes of recurrent inflammation.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Secondary pulmonary tuberculosis or nontuberculous mycobacterial pulmonary disease",
+          "supporting_evidence": [
+            "At age 11-12 years, he/she was diagnosed with pulmonary TB and regularly took anti-TB medications for more than 1 year",
+            "The lesion is a chronic persistent patchy mass-like opacity in the left lower lung, with punctate calcifications internally, surrounding linear opacities, and pleural thickening and adhesions, consistent with findings seen in an old or chronic granulomatous lesion.",
+            "Clinically, there is recurrent cough and sputum production, and the imaging findings did not decrease after treatment with conventional antibacterial agents.",
+            "Needle biopsy pathology showed only chronic inflammation; a mycobacterial lesion cannot be excluded due to sampling limitation."
+          ],
+          "opposing_evidence": [
+            "PPD skin test and TB-IGRA showed no abnormalities",
+            "In the first phase, no direct positive evidence of acid-fast bacilli in sputum or Mycobacterium tuberculosis was provided.",
+            "The lesion is located in the posterior basal segment of the left lower lobe, a common predilection site for atypical reactivation pulmonary TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Chronic lung abscess/necrotizing pneumonia",
+          "supporting_evidence": [
+            "History of recurrent cough and sputum production, with elevated leukocyte and neutrophil counts on complete blood count",
+            "Symptoms had previously improved after anti-infective treatment at an outside hospital, suggesting involvement of an infectious factor.",
+            "The phase 1 image shows a mass-like/consolidative lesion in the left lower lung, with surrounding patchy opacities and adjacent pleural reaction, which can be seen in chronic suppurative infection.",
+            "Needle biopsy pathology suggested chronic inflammation"
+          ],
+          "opposing_evidence": [
+            "After 50+ days of treatment with Avelox and others, repeat chest CT showed no reduction in lesion size, which does not support a diagnosis of typical bacterial lung abscess/necrotizing pneumonia.",
+            "The first percutaneous lung biopsy bacterial culture was negative",
+            "Physical examination revealed no dry or moist rales, and the first stage also did not describe obvious manifestations of acute infection such as fever."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Chronic fungal lung infection",
+          "supporting_evidence": [
+            "The lesion has been prolonged and unresolving, presenting as a mass-like occupying lesion in the left lower lung, with surrounding inflammatory changes, consistent with the imaging features of some chronic fungal infections, which may present as nodules/masses or chronic consolidation.",
+            "Needle biopsy pathology showed chronic inflammation, with no significant reduction in size after treatment with conventional antibacterial agents."
+          ],
+          "opposing_evidence": [
+            "In the infection-related screening, the G test, GM test, and cryptococcal antigen showed no abnormalities.",
+            "First percutaneous lung biopsy fungal culture was negative",
+            "Stage 1 did not indicate a definite immunosuppressive background"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat contrast-enhanced chest CT, with focused assessment of the size, density, liquefactive necrotic area, and blood supply of the mass-like opacity in the left lower lobe",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete contrast-enhanced 3D CTA of the thoracic vessels to evaluate for abnormal systemic arterial supply and determine whether pulmonary sequestration is present",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat CT-guided percutaneous lung needle biopsy, targeting the liquefactive necrotic area for biopsy; submit specimens for pathology, bacterial culture, and fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen high-throughput gene testing (NGS) was performed on aspirated fluid and bronchoalveolar lavage fluid (BALF) to precisely screen for pathogens such as fungi and bacteria.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete fungal-related tests: G test, GM test, cryptococcal antigen, to confirm evidence of fungal infection",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat complete blood count, erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), and procalcitonin (PCT) to assess inflammatory activity",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive tumor marker screening (CEA, CA199, NSE, CYFRA21-1) to exclude pulmonary malignancy",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related repeat evaluation: PPD skin test, TB-IGRA, TB-XPERT, to exclude active tuberculosis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatologic and immunologic panel, ANCA screening, to exclude vasculitis and other autoimmune diseases",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function tests and glycated hemoglobin testing to assess basal metabolism and organ function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of both lower extremity veins and echocardiography to evaluate for thrombosis and structural cardiac abnormalities",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + biopsy + BALF submitted for testing, with direct visualization of the airway and collection of etiologic specimens",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Day +103 chest CT: An irregular mass-like opacity was seen in the posterior basal segment of the left lower lobe, measuring approximately 6.2×5.1 cm on the largest slice. Day +145 contrast-enhanced chest CT: An irregular mass-like opacity was seen in the posterior basal segment of the left lower lobe, with mild enhancement after contrast administration. Day +147 bronchoscopy: The bronchial mucosa at all levels was smooth and patent, with no abnormalities seen; BALF was sent for TB-XPERT, GM test, and bacterial and fungal cultures, all of which were negative. Day +149 chest CT: A second percutaneous lung biopsy was performed, and bloody fluid was aspirated from the liquefied area. Pathologic diagnosis: chronic inflammation of lung tissue, focal fibrous tissue hyperplasia, and aggregation of chronic inflammatory cells. NGS and culture of the aspirated fluid both detected Aspergillus.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KobI4RGCJPAsSGmX4sgyKgutqdfXmXLwcpwI5CfWHybgSaUujNzdzn5g/640?wx_fmt=png",
+            "near_text": "Figure 4: Contrast-enhanced chest CT (Day +145)",
+            "local_src": "cleaned_cases_image_cache/2b09bb13287b1b1419bebaba3b7772199ea9b4a6.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoNqpbcRwc7ystDHho9NABG5ryDpCdv6lIMFKhIZtO0OX4dVwz1CTBkQ/640?wx_fmt=png",
+            "near_text": "Figure 5: Contrast-enhanced chest CT, mediastinal window (Day +145)",
+            "local_src": "cleaned_cases_image_cache/aee69fab72ba2d1841d7e77b87dc966b15540c9c.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoxHpxmF7wicW29LRAWLwTkTCNaoG89FMYKIQ2Lryo6FQmWRYXVXmGSLA/640?wx_fmt=png",
+            "near_text": "Figure 6: Bronchoscopic findings",
+            "local_src": "cleaned_cases_image_cache/39c404dfdaefb9c53bd890576eb72ffb5752929d.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoMzicAr6OU9OM0yszTMD5XWxhQS0jLhTAFanibv4cCOsYibo5GnJKEHibpA/640?wx_fmt=png",
+            "near_text": "Figure 7: Second percutaneous lung biopsy (Day +149)",
+            "local_src": "cleaned_cases_image_cache/d0abd86d133f4b8d9651dac3f10801a9b5fdddf1.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoahpictDu8sTtLUQ5GZmjfMliaibOgP9gDhiaGL0PBoibBFG5UHglJ07kCGw/640?wx_fmt=png",
+            "near_text": "Figure 8: Percutaneous lung puncture yielded bloody fluid (Day +149)",
+            "local_src": "cleaned_cases_image_cache/ab43d2f1fff7ed6ac3a5baebe2bbef3e13679cb0.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0Ko7OPtZSh5pPIL8t8ktaBBCCI7jia69uKzLSKTgubC6a4SskW2FKibQM7w/640?wx_fmt=png",
+            "near_text": "Long-term exposure to hair dye and dust",
+            "local_src": "cleaned_cases_image_cache/a746285a1a151e80e217290a2706a9d4e1429e01.png"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KoJcRicCw7CPiahjyBudhyybxMKsmibCkFjBsSRgB1PXUXzz262F5IcQicag/640?wx_fmt=png",
+            "near_text": "Long-term exposure to hair dye and dust",
+            "local_src": "cleaned_cases_image_cache/bd6d4821580d8c0475f9d4bd47c722cbef0e76f4.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Lung abscess",
+            "evidence": [
+              "Recurrent cough and sputum production, mass-like opacity in the left lower lung; contrast-enhanced CT shows mild enhancement, with areas of liquefactive necrosis visible within it"
+            ],
+            "exclusion_reasons": [
+              "The patient had no history of high fever or cough with foul-smelling purulent sputum. Repeated prolonged antibacterial therapy was ineffective, and the lesion gradually enlarged. CT-guided percutaneous lung puncture of the liquefactive necrotic area yielded bloody fluid; NGS and culture showed no pathogenic bacteria."
+            ]
+          },
+          {
+            "name": "tumor",
+            "evidence": [
+              "Mass-like opacity in the left lower lung; contrast-enhanced CT shows mild enhancement, with areas of liquefactive necrosis within; repeated anti-infective therapy ineffective"
+            ],
+            "exclusion_reasons": [
+              "Lung cancer-related tumor markers were not elevated, and neither of the two CT-guided percutaneous lung biopsy pathology reports showed"
+            ]
+          },
+          {
+            "name": "vasculitis",
+            "evidence": [
+              "Solitary mass-like opacity with an internal liquefactive necrotic area; percutaneous lung puncture yielded hemorrhagic fluid. ESR mildly elevated"
+            ],
+            "exclusion_reasons": [
+              "ANCA screening was negative. There was no cavitary formation within the mass-like opacity on chest CT, and two lung biopsy specimens showed no perivascular inflammation. Urinalysis was normal, and there was a lack of manifestations of involvement of other systemic organs."
+            ]
+          },
+          {
+            "name": "Old pulmonary tuberculosis",
+            "evidence": [
+              "Previously diagnosed with secondary pulmonary TB at a local hospital"
+            ],
+            "exclusion_reasons": [
+              "The left lower lobe is not a common site for adolescent pulmonary TB, and there are no obvious linear opacities or scar-like changes of old pulmonary TB; previous bronchoscopy and lung puncture and other examinations showed no evidence of TB infection."
+            ]
+          },
+          {
+            "name": "Pulmonary sequestration",
+            "evidence": [
+              "Recurrent cough and sputum production. Chest CT showed a solitary mass-like opacity in the left lower lobe, containing an area of fluid necrosis. Percutaneous lung puncture yielded hemorrhagic fluid. Repeated antibacterial treatment had poor efficacy."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lung abscess",
+        "evidence": [
+          "Recurrent cough and sputum production, mass-like opacity in the left lower lung; contrast-enhanced CT shows mild enhancement, with areas of liquefactive necrosis visible within it"
+        ],
+        "exclusion_reasons": [
+          "The patient had no history of high fever or cough with foul-smelling purulent sputum. Repeated prolonged antibacterial therapy was ineffective, and the lesion gradually enlarged. CT-guided percutaneous lung puncture of the liquefactive necrotic area yielded bloody fluid; NGS and culture showed no pathogenic bacteria."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tumor",
+        "evidence": [
+          "Mass-like opacity in the left lower lung; contrast-enhanced CT shows mild enhancement, with areas of liquefactive necrosis within; repeated anti-infective therapy ineffective"
+        ],
+        "exclusion_reasons": [
+          "Lung cancer-related tumor markers were not elevated, and neither of the two CT-guided percutaneous lung biopsy pathology reports showed"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "vasculitis",
+        "evidence": [
+          "Solitary mass-like opacity with an internal liquefactive necrotic area; percutaneous lung puncture yielded hemorrhagic fluid. ESR mildly elevated"
+        ],
+        "exclusion_reasons": [
+          "ANCA screening was negative. There was no cavitary formation within the mass-like opacity on chest CT, and two lung biopsy specimens showed no perivascular inflammation. Urinalysis was normal, and there was a lack of manifestations of involvement of other systemic organs."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Old pulmonary tuberculosis",
+        "evidence": [
+          "Previously diagnosed with secondary pulmonary TB at a local hospital"
+        ],
+        "exclusion_reasons": [
+          "The left lower lobe is not a common site for adolescent pulmonary TB, and there are no obvious linear opacities or scar-like changes of old pulmonary TB; previous bronchoscopy and lung puncture and other examinations showed no evidence of TB infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary sequestration",
+        "evidence": [
+          "Recurrent cough and sputum production. Chest CT showed a solitary mass-like opacity in the left lower lobe, containing an area of fluid necrosis. Percutaneous lung puncture yielded hemorrhagic fluid. Repeated antibacterial treatment had poor efficacy."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "3D contrast-enhanced chest vascular scan",
+          "basis_in_stage3_input": "On Day +155, a contrast-enhanced 3D CT angiography of the chest was performed: In the area of patchy opacity in the left lower lobe, pulmonary arteriovenous structures are seen; a possible filling defect is seen within the lumen of the pulmonary artery, and uneven perfusion is considered. Pulmonary embolism to be excluded. In the area of patchy opacity in the left lower lobe, a branch arising from the right inferior phrenic artery is possibly seen; the right inferior phrenic artery is enlarged.",
+          "why_order_this_exam": "The patient is a 43-year-old man with a mass-like opacity in the posterior basal segment of the left lower lobe persisting for more than 1 year, recurrent cough and sputum production, and no radiographic resolution after prolonged antibacterial therapy. Pathology from two lung needle biopsies showed only chronic inflammation, and bloody fluid was aspirated during the second biopsy, suggesting that neither simple infection nor tumor can fully explain the findings. The lesion is located in the posterior basal segment of the left lower lobe, a common site for pulmonary sequestration. In addition, clues including recurrent infection, bloody fluid, and only mild enhancement on contrast-enhanced CT indicate that the presence of an anomalous systemic arterial supply needs to be specifically assessed. This examination can demonstrate the relationship of the lesion to the pulmonary arteries and veins, as well as the origin, course, and extent of anomalous systemic feeding vessels. The current results suggest the course and enlargement of a branch of the right inferior phrenic artery, directly supporting the key diagnosis of pulmonary sequestration. At the same time, it can assess intrapulmonary arterial filling defects and regional perfusion heterogeneity, helping to exclude vascular lesions such as pulmonary embolism, distinguish congenital vascular anomalies, inflammatory mass lesions, and neoplastic lesions, and provide a basis for subsequent surgical planning and preoperative bleeding risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the bilateral lower extremity veins",
+          "basis_in_stage3_input": "Color Doppler ultrasound of both lower-extremity veins: reflux in the left common femoral vein; no deep venous thrombosis detected.",
+          "why_order_this_exam": "Against the background that chest vascular 3D contrast-enhanced scanning had already suggested a possible intraluminal filling defect in the pulmonary artery within the lesion area of the left lower lobe, with pulmonary embolism not yet excluded, further evaluation is needed to identify the source of venous thromboembolism. The patient has a long disease course and complex intrapulmonary lesions, with both recurrent infection and necrosis/liquefaction, as well as vascular imaging abnormalities. Chest imaging alone cannot determine whether the filling defect represents embolism, a localized perfusion abnormality, or is related to a congenital blood supply abnormality. Bilateral lower-extremity venous Doppler ultrasound is the basic screening examination for deep venous thrombosis of the lower extremities and can help confirm whether a common embolic source is present, thereby supporting or weakening the diagnosis of pulmonary embolism and affecting treatment decisions such as whether anticoagulation is needed; meanwhile, when considering pulmonary sequestration and subsequent thoracic surgery, clarifying whether deep venous thrombosis is present also helps assess perioperative thrombotic risk. The current results show no deep venous thrombosis, making it even more necessary to interpret the pulmonary arterial filling defect in conjunction with localized blood supply abnormalities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "basis_in_stage3_input": "Echocardiography: mild left atrial enlargement, aortic dilatation, mild pulmonary artery dilatation, interventricular septal thickening, and normal measured left ventricular systolic function.",
+          "why_order_this_exam": "The patient has a past history of hypertension. Current chest vascular imaging suggests a possible intraluminal filling defect in the pulmonary artery, heterogeneous perfusion, and abnormal vascular course in the lesion region, and it is necessary to assess whether the cardiopulmonary circulation has already been affected. Echocardiography can evaluate right heart load, pulmonary artery internal diameter, cardiac structure, and systolic function, helping determine whether pulmonary hypertension, right heart involvement, or other cardiac factors that could explain the symptoms and imaging abnormalities are present; it can also serve as an important adjunct in differentiating pulmonary embolism-related hemodynamic effects from a simple localized pulmonary vascular malformation. For patients ultimately considered more likely to have pulmonary sequestration and planned for elective referral to thoracic surgery, echocardiography can also assess baseline cardiac function and perioperative tolerance, and, in the context of the patient's hypertension, evaluate anesthesia and surgical risk. The current results indicate mild left atrial enlargement, slight dilation of the aorta and pulmonary artery, and normal left ventricular systolic function, providing basic information for subsequent treatment selection and risk assessment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +155, a 3D contrast-enhanced CT angiography of the chest was performed: pulmonary arteriovenous courses were seen within the patchy opacity region in the left lower lobe; an apparent filling defect was seen within the lumen of the pulmonary artery, and uneven perfusion was considered. Pulmonary embolism to be excluded. An apparent branch course of the right subphrenic artery was seen in the patchy opacity region of the left lower lobe, and the right subphrenic artery was enlarged. Color Doppler ultrasonography of both lower-extremity veins: reflux in the left common femoral vein; no deep venous thrombosis was seen. Echocardiography: slight left atrial enlargement, widening of the aorta, slight widening of the pulmonary artery, thickening of the interventricular septum, and normal measured left-sided systolic function.",
+      "images": [
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0Koib2SiaJibKCw168t0HAndSHaCS1Fic2ROQFWn8uT8Y2txZhqkD6ww9LC9g/640?wx_fmt=png",
+          "near_text": "Figure 9: Diagnostic analysis flowchart",
+          "local_src": "cleaned_cases_image_cache/951e8053be5e5ac30a614c34eda3ba5ae236ea1d.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKEEgqUicdkyKD2qcz1Ec0KorfFv7emwDeS11iaBibfEGr5cPd3iaFwQOe5Cq6ISDgqsRIaj6eibSia5FFg/640?wx_fmt=png",
+          "near_text": "Figure 10: 3D contrast-enhanced chest vascular scan (Day +155)",
+          "local_src": "cleaned_cases_image_cache/cae9322fc1b768d1e27ff3d8776215f5e67e3ce4.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Intralobar pulmonary sequestration with Aspergillus infection; 2. Bacterial pneumonia of the left lower lobe; 3. Hypertension, grade 2, moderate risk; 4. Hiatal hernia.",
+      "diagnostic_basis": [
+        "Basic characteristics: young to middle-aged male, occupation is barbershop owner, with long-term exposure to hair dye and dust; clinically suspected \"TB\" in childhood, previously received anti-TB treatment",
+        "Symptoms: recurrent cough and sputum production for more than 1 year, poor response to prolonged broad-spectrum antibacterial treatment",
+        "Physical signs: breath sounds in the left lower lung were slightly diminished, with no obvious dry or moist rales heard",
+        "Chest CTA: mass-like opacity in the left lower lobe, with an area of liquefactive necrosis within it; a branch of the right subphrenic artery appears to course into the region of the left lower lobe mass-like opacity",
+        "Both percutaneous lung biopsy pathology examinations indicated chronic inflammation. Subsequently, hemorrhagic necrotic fluid was obtained by puncture; NGS and culture of the submitted specimen both detected Aspergillus.",
+        "Elevated blood counts",
+        "Tumor markers, T-SPOT, and PPD skin test were negative"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Tazocin was administered for anti-infective treatment",
+        "Discharge medications: Vfend 200 mg PO q12h, Ceno 0.3 g PO 3 times daily",
+        "Advise the patient to present to Thoracic Surgery for elective surgery."
+      ],
+      "treatment_response": [
+        "The patient's cough, sputum production, and dyspnea improved significantly compared with before, and the repeat complete blood count returned to normal.",
+        "After discharge, the patient took Vfend orally for 3 weeks, and follow-up chest CT showed that the lesion in the left lower lobe of the lung had significantly decreased in size."
+      ]
+    }
+  }
+}

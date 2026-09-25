@@ -1,0 +1,171 @@
+{
+  "status": "success",
+  "case_id": "case_83",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Based on the MDT team’s overall analysis and the ultrasound findings, a right-to-left shunt could already be clearly identified, which also strongly suggested the possibility of paradoxical embolism. However, abdominal vascular ultrasound could not determine whether the patient had an embolus. If a definitive diagnosis was required, what additional examination was still needed? At this point, the patient’s abdominal arteries became the key area of examination. The patient’s outside-hospital contrast-enhanced abdominal CT did not indicate superior mesenteric artery thrombosis.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Abdominal arterial embolism caused by paradoxical embolism",
+          "supporting_evidence": [
+            "The text in the first stage clearly states that “the ultrasound findings can already definitively indicate that the patient has a right-to-left shunt.”",
+            "The text in the first stage explicitly mentions, \"This also strongly suggests the possibility of paradoxical embolism.\"",
+            "The Phase I text states that “the abdominal arteries became the key area of examination,” suggesting clinical concern for embolic events involving the abdominal arteries of the systemic circulation."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Acute mesenteric ischemia (including superior mesenteric artery embolism or distal branch embolism)",
+          "supporting_evidence": [
+            "The Phase 1 text indicates that the abdominal arteries became the primary focus of examination, suggesting that acute ischemic lesions of the major abdominal arteries need to be prioritized in the evaluation.",
+            "The phase I text specifically noted that the outside-hospital contrast-enhanced abdominal CT did not indicate superior mesenteric artery thrombosis, indicating that superior mesenteric artery pathology had already been given focused consideration."
+          ],
+          "opposing_evidence": [
+            "The Stage 1 text explicitly states, \"The contrast-enhanced abdominal CT performed outside the hospital did not indicate superior mesenteric artery thrombosis.\""
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Embolism of other abdominal visceral arteries (e.g., renal artery, splenic artery, celiac trunk branch embolism)",
+          "supporting_evidence": [
+            "The first-phase textual prompt indicates a \"right-to-left shunt,\" which may support the overall possibility of systemic arterial embolization.",
+            "In the first stage, the text states that the abdominal arteries became a key focus of examination, rather than being limited to a single vessel.",
+            "The first-stage text explicitly states that “abdominal vascular ultrasound cannot determine whether the patient has an embolus,” indicating that further evidence of embolism still needs to be sought in the abdominal arterial system."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "In situ thrombosis of an abdominal artery (nonparadoxical embolism)",
+          "supporting_evidence": [
+            "The phase 1 text states that “the abdominal arteries became the focus of examination,” suggesting that occlusive lesions of the abdominal arteries themselves need to be differentiated.",
+            "The phase 1 text mentions that \"abdominal vascular ultrasound cannot determine whether the patient has an embolus,\" indicating that an arterial occlusive lesion has not yet been directly confirmed and needs to be differentiated from in situ thrombosis."
+          ],
+          "opposing_evidence": [
+            "The text in the first stage explicitly mentions a \"right-to-left shunt\" and that it is \"highly suggestive of the possibility of paradoxical embolism,\" making an explanation based solely on in situ thrombosis relatively less favored."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Systemic embolism complicating right-to-left shunt-related disorders such as patent foramen ovale or pulmonary arteriovenous shunt",
+          "supporting_evidence": [
+            "The text in the first stage clearly states that “the ultrasound findings can already definitively indicate that the patient has a right-to-left shunt.”",
+            "The text in the first stage further states, \"This also strongly suggests the possibility of paradoxical embolism.\""
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Abdominal arterial event caused by embolism originating from the abdominal aorta or proximal major arteries (e.g., dislodged mural thrombus/atherosclerotic plaque)",
+          "supporting_evidence": [
+            "The phase I narrative prompt indicates that further examination is needed and that the abdominal arteries became the key area of examination; embolism originating from the proximal great arteries should be considered.",
+            "The Phase 1 narrative states that abdominal vascular ultrasound cannot determine whether the patient has an embolus, suggesting that the source of a proximal embolus may still be unclear."
+          ],
+          "opposing_evidence": [
+            "In the first-stage text, “right-to-left shunt” and “highly suggested the possibility of paradoxical embolism” make the priority of this diagnosis lower relative to paradoxical embolism."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Abdominal arterial CTA",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Whole-abdomen CTA after admission clearly showed truncation of the proximal-to-mid segment of the superior mesenteric artery, suggesting possible new thrombosis; mild wall thickening of portions of the small bowel in the left lower abdomen was noted, considered mild ischemic edematous change, but no obvious ascites or bowel dilatation was seen.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKQkN7GeVBTnam2JJnofUqiaKDrdxCrm3Zkp8wexPL92O79llJjjtlPetjRk7Wpv8ibrzvJtGCmperg/640?wx_fmt=png",
+            "near_text": "Superior mesenteric artery embolism, thrombolysis catheter indwelling",
+            "local_src": "cleaned_cases_image_cache/f9aa6667156bf0f3eed5419586269005bcc32a91.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Embolism originating from the left heart and arterial system",
+            "evidence": [],
+            "exclusion_reasons": [
+              "This patient had no prior history of atrial fibrillation, myocardial infarction, or valvular disease. Echocardiography also showed no valvular disease, vegetations, thrombus, or other such findings."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Embolism originating from the left heart and arterial system",
+        "evidence": [],
+        "exclusion_reasons": [
+          "This patient had no prior history of atrial fibrillation, myocardial infarction, or valvular disease. Echocardiography also showed no valvular disease, vegetations, thrombus, or other such findings."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": []
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Anticoagulation therapy was given initially, and the patient has now developed hematochezia. The patient developed a small amount of hematochezia after 5 days of anticoagulation with rivaroxaban.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLHWRedfw8DhcO7QCBx3hKZW3lDoJiayay9n6Thh05bLhRZ1iaMaRPYPgKORHA7neKgg6YuJNj0Jg7w/640?wx_fmt=png",
+          "near_text": "48 h after thrombolysis",
+          "local_src": "cleaned_cases_image_cache/77db51bc936f1c747f9d994c9f0615eca2dbb999.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary embolism with superior mesenteric artery embolism (paradoxical embolism)",
+      "diagnostic_basis": [
+        "Whole-abdomen CTA clearly shows truncation of the proximal-to-mid segment of the superior mesenteric artery, suggesting possible new thrombosis.",
+        "Pulmonary hypertension causes increased right ventricular and right atrial pressure, leading to opening of a potentially patent foramen ovale. In this way, a right-to-left shunt pathway from the right heart and venous system is present, causing superior mesenteric artery embolism.",
+        "The patient's symptoms manifested as severe abdominal pain, and relevant examinations confirmed the diagnosis of concomitant superior mesenteric artery embolism; the occurrence of hematochezia is consistent with the clinical features of superior mesenteric artery embolism."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Superior mesenteric artery angiography + catheter-directed thrombolysis",
+        "Place the thrombolysis catheter into the main trunk of the mesenteric artery for thrombolysis",
+        "Urokinase 200,000 U was continuously infused via the thrombolysis catheter, one dose every 8 hours, with the planned thrombolysis duration of 48-72 h.",
+        "Low-molecular-weight heparin 7000 IU subcutaneous injection Q12h for anticoagulation",
+        "Subsequently, standard anticoagulation (rivaroxaban 20 mg qd orally)"
+      ],
+      "treatment_response": [
+        "At 48 h, the patient passed a large amount of coffee-colored watery stool, approximately 300 ml, and thrombolytic therapy was therefore suspended.",
+        "Repeat colonoscopy showed a large amount of coffee-colored fluid in the rectum, sigmoid colon, descending colon, and transverse colon; no evidence of ischemic necrosis was seen in the bowel.",
+        "Repeat angiography showed that the middle and lower segments remained occluded, but opacification of the main trunk and distal branches was significantly improved compared with before",
+        "On day 4 after thrombolysis, the patient's abdominal pain was markedly relieved compared with before, with intermittent passage of coffee-ground watery stool; after day 4, hematochezia did not recur.",
+        "On day 8 after thrombolysis, started a liquid diet, with no obvious discomfort, and passed a small amount of formed stool",
+        "Discharged on day 12 after thrombolysis",
+        "Before discontinuation of anticoagulant therapy, repeat chest CTA showed no pulmonary embolism in the bilateral pulmonary arteries. Repeat abdominal CTA showed normal visualization of the superior mesenteric artery. The patient has currently been followed up for nearly 2 years, with no obvious recurrence."
+      ]
+    }
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "status": "success",
+  "case_id": "case_97",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 62 years old, presented to the Department of Pulmonary and Critical Care Medicine of Sir Run Run Shaw Hospital, Zhejiang, in approximately 2 months before Day 0 for \"recurrent chest tightness for more than 4 years, worsening for 1 month\" and was admitted with a tentative outpatient diagnosis of \"pulmonary hypertension.\" The patient reported that more than 4 years earlier he developed chest tightness and shortness of breath after climbing 3 flights of stairs, without fever, cough, or other discomfort, and went to H City Central Hospital, where CT suggested pulmonary infection; locally he was considered to have \"pulmonary TB\" and received standard anti-TB treatment for half a year before stopping the medication. Afterward, the patient continued to have recurrent chest tightness and shortness of breath after exertion, especially after climbing 3 flights of stairs, with occasional nocturnal dry cough. Half a year ago, because of worsening chest tightness and shortness of breath, he presented to the Department of Cardiology of H City First People's Hospital: coronary angiography showed no obvious stenosis; chest CT showed a cavitary lesion with wall thickening in the right upper lung, multiple small nodules in both lungs, emphysema with bullae in both upper lungs, and right pleural thickening; echocardiography showed right heart enlargement, mild tricuspid regurgitation with severe pulmonary hypertension, and impaired left ventricular diastolic function. Severe pulmonary hypertension and chronic bronchitis with emphysema were considered. 1 month ago, the patient's chest tightness and shortness of breath worsened; he developed shortness of breath even when climbing 2 floors, with intermittent nocturnal dry cough, and therefore came to our hospital for evaluation and treatment. Past medical history included old pulmonary TB, fatty liver, and chronic gastritis. Physical examination: Blood pressure: 112/79 mmHg Pulse: 85 beats/min Temperature (ear): 36.5℃ Respiratory rate: 20 breaths/min Oxygen saturation: 97% Alert and oriented, in fair general condition, no icterus of the skin or sclera, no enlargement of superficial lymph nodes throughout the body, cyanosis of the lips, clear breath sounds in both lungs, no obvious dry or wet rales heard, heart rate 85 beats/min, regular rhythm, accentuated P2 in the pulmonic auscultation area; abdomen flat and soft, no tenderness or rebound tenderness, liver and spleen not palpable below the costal margin, no percussion tenderness in the hepatorenal regions, bowel sounds 3-5 times/min, shifting dullness negative. No edema of both lower extremities. Pathologic neurologic signs negative.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "supporting_evidence": [
+            "A >4-year course of recurrent chest tightness and shortness of breath after activity, worsened over the past 1 month, consistent with the symptom pattern of chronic progressive pulmonary arterial hypertension",
+            "Echocardiography showed right heart enlargement, mild tricuspid regurgitation with severe pulmonary hypertension, indicating a marked increase in pulmonary circulatory pressure load.",
+            "Coronary angiography showed no significant stenosis; chest tightness and dyspnea are not readily explained by significant coronary artery disease.",
+            "Physical examination showed cyanosis of the lips and an accentuated P2 in the pulmonic area on auscultation, supporting signs of pulmonary hypertension."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide a clear history of venous thrombosis, acute pulmonary embolism, lower extremity swelling and pain, or high-risk factors for thrombosis.",
+            "The chest CT description provided in the first stage did not indicate typical post-pulmonary infarction changes or signs of chronic thrombus within the pulmonary arteries."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary hypertension associated with chronic obstructive pulmonary disease/emphysema (Group 3 pulmonary hypertension)",
+          "supporting_evidence": [
+            "Chest CT showed emphysema with bullae in both upper lungs, indicating a definite underlying emphysema.",
+            "The patient has long had exertional dyspnea as the main symptom, with occasional dry cough at night, consistent with dyspnea associated with chronic lung disease.",
+            "Previously, at an outside hospital, \"chronic bronchitis with emphysema\" was considered.",
+            "Echocardiography suggested severe pulmonary hypertension, which may be secondary to chronic pulmonary parenchymal/airway disease"
+          ],
+          "opposing_evidence": [
+            "Physical examination: breath sounds were clear in both lungs, with no obvious dry or moist rales heard. In the first stage, no description of typical COPD symptoms such as chronic cough, sputum production, or wheezing was noted.",
+            "Oxygen saturation 97%, insufficient evidence of resting hypoxemia",
+            "Whether the described degree of upper-lobe emphysema alone is sufficient to explain the \"severe\" pulmonary hypertension remains questionable."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary arterial hypertension secondary to structural lung damage after old pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Past history is notable for old pulmonary TB, and the patient previously received standard anti-TB treatment for 6 months.",
+            "Chest CT showed a cavitary lesion with wall thickening in the right upper lobe, multiple tiny nodules in both lungs, and right pleural thickening, suggesting prior TB or post-tuberculous structural changes.",
+            "Chronic pulmonary parenchymal and pleural disease can lead to chronic reduction of the pulmonary vascular bed and hypoxia-related pulmonary hypertension",
+            "Echocardiography and physical signs both support the presence of significant pulmonary hypertension."
+          ],
+          "opposing_evidence": [
+            "Phase 1 did not describe evidence of extensive pulmonary fibrosis, significant reduction in lung volume, or severe ventilatory impairment.",
+            "The patient has no manifestations of active TB such as fever, obvious cough, or sputum production; it cannot be determined solely based on the first stage that post-TB sequelae are the primary etiology."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary arterial hypertension (PAH, idiopathic or due to other causes)",
+          "supporting_evidence": [
+            "The main manifestations were progressive chest tightness and shortness of breath after exertion, with a prolonged course.",
+            "Echocardiography suggested right heart enlargement, mild tricuspid regurgitation with severe pulmonary hypertension",
+            "Physical examination showed cyanosis of the lips and accentuated P2, supporting the clinical manifestations of pulmonary arterial hypertension",
+            "Coronary angiography showed no significant stenosis, and the symptoms were not caused by significant coronary artery stenosis"
+          ],
+          "opposing_evidence": [
+            "Chest CT already showed pulmonary abnormalities including a cavitary lesion in the right upper lobe, multiple small nodules in both lungs, emphysema with pulmonary bullae, and pleural thickening, suggesting that secondary pulmonary hypertension should be prioritized.",
+            "In the first stage, common clues associated with PAH, such as connective tissue disease, portal hypertension, congenital heart disease, and appetite suppressant exposure, were not provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary hypertension associated with left ventricular diastolic dysfunction (Group 2 pulmonary hypertension)",
+          "supporting_evidence": [
+            "Echocardiography suggested impaired left ventricular diastolic function",
+            "The patient’s main symptoms are chest tightness and shortness of breath after exertion; abnormal left ventricular diastolic function may cause exertional dyspnea.",
+            "Age 62 years, a common age group for pulmonary hypertension associated with diastolic dysfunction"
+          ],
+          "opposing_evidence": [
+            "Echocardiography also indicated right heart enlargement and severe pulmonary hypertension, and physical examination showed an accentuated P2, further highlighting the pulmonary circulation/right heart load problem.",
+            "In the first stage, there were no obvious signs of left heart failure such as hypertension, peripheral edema, moist rales, or orthopnea.",
+            "Coronary angiography showed no significant stenosis, with no clear evidence of ischemic heart disease"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Chronic cavitary pulmonary infection (such as active pulmonary TB, nontuberculous mycobacterial disease, or chronic pulmonary aspergillosis) with secondary pulmonary vascular involvement/pulmonary hypertension",
+          "supporting_evidence": [
+            "Chest CT showed a cavitary lesion with wall thickening in the right upper lung and multiple small nodules in both lungs; chronic cavitary pulmonary infection should be considered on imaging.",
+            "Previously, CT indicated pulmonary infection and pulmonary TB was considered; there is also a history of old pulmonary TB.",
+            "Symptoms have worsened over the past 1 month, accompanied by intermittent nocturnal dry cough, suggesting that the pulmonary lesion may still be active"
+          ],
+          "opposing_evidence": [
+            "In the first stage, there were no typical manifestations of active infection such as fever, obvious cough and sputum production, or hemoptysis.",
+            "Physical examination: breath sounds were clear in both lungs, with no obvious dry or moist rales heard.",
+            "The phase 1 information alone is still insufficient to demonstrate that this type of infection can fully explain the preexisting severe pulmonary arterial hypertension."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Preoperative immunotherapy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "vasculitis antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatoid arthritis antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the iliac vein",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary ventilation function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diffusing capacity test",
+          "requirement": "required"
+        },
+        {
+          "exam": "6-minute walk test",
+          "requirement": "required"
+        },
+        {
+          "exam": "12-lead electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT pulmonary angiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Specialized right heart function assessment",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right heart floating catheter examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung ventilation tomography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung perfusion tomography",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Blood tests: WBC count 5.8x10^9/L, RBC count 4.94x10^12/L, platelet count 280x10^9/L, hemoglobin 157 g/L. Liver and renal function normal; CRP and ESR negative. Arterial blood gas: FiO2 21%, PaO2 75.3 mmHg, PaCO2 33.8 mmHg, P/F 359, BNP 1333 pg/ml. Preoperative immune tests, ANA, vasculitis antibodies, and rheumatoid antibodies were negative; thyroid function normal. Color Doppler ultrasound of the deep veins of both lower extremities and iliac veins: blood flow patent. Pulmonary function testing: overall pulmonary ventilatory function essentially normal, bronchodilator test negative, mild diffusion impairment, total lung capacity normal, residual volume and functional residual capacity both within the normal range. Six-minute walk test: 400 m. Standard 12-lead ECG: sinus rhythm (79 bpm), mild inferior ST-T changes. Pulmonary CTPA: embolism of the right main pulmonary artery and some segmental pulmonary arteries considered; please correlate clinically. Additional findings: right upper lobe anterior segment paramediastinal mass-like opacity, MT considered. Scattered patchy opacities in the right lung. Multiple small nodules in both lungs. Emphysema in both lungs. Focal pleural thickening bilaterally. Dilatation of the main pulmonary artery. Arteriosclerosis. Echocardiography showed: EF: 74.8% AAO: 30 mm AO: 32 mm LA: 37 mm PA: 35 mm; no obvious abnormality in the morphology, echogenicity, or motion of the aortic valve or pulmonary valve. Right heart enlargement, right atrial size approximately 53*49 mm, right ventricular anteroposterior diameter 36.2 mm, right ventricular basal transverse diameter 44.4 mm, left atrial and ventricular internal diameters normal. Diagnosis: 1. Right heart enlargement, 2. Mild tricuspid regurgitation with severe pulmonary hypertension, dilated pulmonary artery. Specialized right heart functional assessment: right ventricular wall thickness: 8.3 mm, right ventricular anteroposterior diameter: 36.2 mm, right ventricular basal transverse diameter: 44.4 mm, right atrial size 53*49 mm, pulmonary artery internal diameter: 35 mm; small amount of regurgitant signal visible at the tricuspid valve orifice, Vmax: 4.34 m/s, RVSP: 80 mmHg; right ventricular systolic function: RVFAC: 21.5%, TAPSE: 13 mm, tricuspid annular S' peak: 9.48 cm/s. Inferior vena cava diameter approximately 14.2 mm, with no significant variation with respiration. Right heart catheterization: mean superior vena cava pressure 9 mmHg, right atrium 9 mmHg, right ventricle 94/10 mmHg, mean 43 mmHg, main pulmonary artery 96/33(55) mmHg, pulmonary capillary wedge pressure finally measured at 12 mmHg. CO 3.38 L/min, PVR 994 DS/cm5. Ventilation-perfusion tomographic imaging: areas of sparse radiotracer distribution and perfusion defects mismatched with ventilation were seen in the apical and anterior segments of the right upper lobe, right middle lobe, right lower lobe, and the anterior and medial basal segments of the left upper and lower lobes; pulmonary embolism is considered; please correlate clinically.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUVCwDyETRB2ic0fthh0IMJcHBzyxjibA3H4uBPS5Mn8YruYEdvpkjz6WA/640?wx_fmt=jpeg",
+            "near_text": "Figure 1: Filling defect in the right pulmonary artery",
+            "local_src": "cleaned_cases_image_cache/6d57ebb20fcfa356d2d6f8882f7556ad842e8ba6.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUA3nYSGfPqfGHeibHubQIcGc9N30l4SSexXFXmChxlWbT5o2Lmu3MbicQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 1: Filling defect in the right pulmonary artery",
+            "local_src": "cleaned_cases_image_cache/2d96c856d3eea6662ed92d8d8400d5c0a82b6920.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUa5axBiaics6kzhsawRrGUK32115tAqic5rtBn6MD7pwWFRZfFUOozIMPg/640?wx_fmt=png",
+            "near_text": "Figure 2: Right paratracheal mass",
+            "local_src": "cleaned_cases_image_cache/b7d3211a1d260a26f8bdf29ac63b18a8456527ab.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUtodLiclkO1ktxv0bKgnTfwmicjodJt54LzOWuVKWzLJBTQh6iaSEnYEKA/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Right paratracheal mass",
+            "local_src": "cleaned_cases_image_cache/b0e1238c1214d5d887ffacb5f5eb50acd0a5f060.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUNZ0NTRUguibQaCtQZ1ic1X3NCYtXEr6hHROrLGGeoO4MDCfQjmicfBWmw/640?wx_fmt=png",
+            "near_text": "Figure 3: Color Doppler echocardiography",
+            "local_src": "cleaned_cases_image_cache/7251a818996eae0926f405eb6c21714642471285.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Chronic thromboembolic pulmonary hypertension",
+            "evidence": [
+              "CTPA, V/Q, and floating catheter all indicated pulmonary embolism"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [
+              "Mass-like opacity in the paramediastinal anterior segment of the right upper lobe",
+              "PET showed increased metabolic activity; malignancy cannot be excluded"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Inflammatory granuloma (tuberculous)",
+            "evidence": [
+              "Inflammatory granuloma may also show increased PET metabolic activity",
+              "The patient has a history of pulmonary TB."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "vasculitis",
+            "evidence": [
+              "The patient has pulmonary embolism and patchy mass-like opacity in the lung."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "tumor thrombus",
+            "evidence": [
+              "Intraluminal filling defect in the pulmonary artery"
+            ],
+            "exclusion_reasons": [
+              "Nuclear medicine image review again reported no radiotracer uptake within the pulmonary artery, with a filling defect present; tumor embolus was considered unlikely."
+            ]
+          },
+          {
+            "name": "Pulmonary artery sarcoma",
+            "evidence": [
+              "Intraluminal filling defect in the pulmonary artery"
+            ],
+            "exclusion_reasons": [
+              "The Nuclear Medicine Department reviewed the images again and reported no radiotracer uptake in the pulmonary artery, with a filling defect."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Chronic thromboembolic pulmonary hypertension",
+        "evidence": [
+          "CTPA, V/Q, and floating catheter all indicated pulmonary embolism"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "Mass-like opacity in the paramediastinal anterior segment of the right upper lobe",
+          "PET showed increased metabolic activity; malignancy cannot be excluded"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Inflammatory granuloma (tuberculous)",
+        "evidence": [
+          "Inflammatory granuloma may also show increased PET metabolic activity",
+          "The patient has a history of pulmonary TB."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "vasculitis",
+        "evidence": [
+          "The patient has pulmonary embolism and patchy mass-like opacity in the lung."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-body PET-CT tomography and analysis",
+          "basis_in_stage3_input": "Whole-body PET-CT tomographic imaging and analysis: 1. A mass-like lesion in the paramediastinal anterior segment of the right upper lobe, SUV 14.59, with abnormally increased FDG metabolism; MT is the first consideration; 2. Decreased FDG metabolism in the course of the main right pulmonary artery and some segmental pulmonary arteries; in conjunction with the pulmonary CTPA at our hospital on Day -62, arterial embolism is considered.",
+          "why_order_this_exam": "The patient has had progressive chest tightness and shortness of breath on exertion for more than 4 years, with marked worsening over the past 1 month. Severe pulmonary hypertension has been confirmed. At the same time, chest imaging has persistently shown a right upper lobe anterior segment para-mediastinal mass-like opacity, multiple small nodules, and patchy opacities. There is also a prior history of pulmonary TB. Clinically, differentiation is needed among malignant tumor, inflammatory granuloma, post-tuberculous changes, and pulmonary vascular disease. PET-CT can assess the metabolic activity of the intrapulmonary mass-like opacity and determine whether there are other hypermetabolic lesions or metastatic lesions elsewhere in the body, thereby helping assess the likelihood of tumor and select the biopsy site; at the same time, it can evaluate the metabolic characteristics along the course of the pulmonary arteries to help distinguish chronic thrombotic lesions from tumor emboli, pulmonary artery sarcoma, and similar conditions. The results of this examination directly affect whether subsequent management will favor an oncologic diagnostic and treatment pathway, investigation of infectious/granulomatous etiologies, or further strengthening of the diagnosis and surgical evaluation for chronic thromboembolic pulmonary hypertension.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CTPA",
+          "basis_in_stage3_input": "Correlate with pulmonary CTPA at our hospital on Day -62; arterial embolism is suspected.",
+          "why_order_this_exam": "The patient’s main presentation is long-standing exertional dyspnea. Echocardiography suggests right heart enlargement and severe pulmonary hypertension. Right heart catheterization shows markedly elevated pulmonary artery pressure and significantly increased pulmonary vascular resistance. V/Q scintigraphy further demonstrates multiple mismatched ventilation/perfusion defects, suggesting a high likelihood of chronic thromboembolic pulmonary hypertension. Pulmonary CTPA can directly demonstrate filling defects in the right main pulmonary artery and some segmental pulmonary arteries, as well as the extent of stenosis or occlusion, to determine whether chronic pulmonary embolism is present and to provide imaging differentiation from pulmonary artery lesions caused by pulmonary artery sarcoma, tumor emboli, or vasculitis. As the patient also has a mass-like opacity in the right upper lung, CTPA can also be used in conjunction with assessment of the lung parenchyma and mediastinum to comprehensively evaluate the relationship between the lesions. This examination plays a key role in confirming CTEPH, assessing lesion distribution and operability, and determining whether anticoagulation or surgical pulmonary endarterectomy should be performed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary artery pressure measurement",
+          "basis_in_stage3_input": "1 month later, the patient was readmitted, and pulmonary artery pressure had not decreased",
+          "why_order_this_exam": "This patient had a long disease course with gradually worsening symptoms. At admission, there were already clear manifestations of increased right heart load and severe pulmonary hypertension, and BNP was elevated. Right heart catheterization showed a mean pulmonary artery pressure of 55 mmHg and markedly elevated PVR, indicating severe disease. After initial treatment including anticoagulation, repeat measurement of pulmonary artery pressure was still needed to determine whether pulmonary hemodynamics had improved, to assess whether the disease was continuing to progress, and to clarify whether the current symptoms and right heart dysfunction were still mainly driven by pulmonary hypertension. No decrease in pulmonary artery pressure after 1 month indicates that medical therapy alone had limited efficacy and supports chronic organic obstruction rather than short-term reversible factors, providing important evidence for referral to cardiothoracic surgery for pulmonary endarterectomy. This examination is also used to assess perioperative risk, determine the timing of treatment, and follow postoperative therapeutic efficacy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathology",
+          "basis_in_stage3_input": "Postoperative pathology showed: (1) Pulmonary artery intima and thrombus: fibrous tissue hyperplasia with hyaline degeneration; mixed thrombus also identified. (2) Intrapulmonary mass: special stains: slide C: acid-fast stain (AF) (-), PAS (-), PASM (-); molecular pathology: slide C: TB-DNA (-). Pathologic diagnosis: (right upper) wedge resection lung specimen, necrotizing granulomatous inflammation; please correlate clinically to exclude TB.",
+          "why_order_this_exam": "The patient's key clinical issues are, first, chronic severe pulmonary hypertension and intraluminal pulmonary arterial filling defects, and second, a hypermetabolic mass-like lesion in the right upper lung. The preoperative differential diagnosis includes chronic thrombus, malignant tumor, tumor embolus, pulmonary artery sarcoma, tuberculous or other inflammatory granuloma. Although imaging and functional studies may suggest a direction, definitive characterization still depends on pathology. Postoperative pathologic examination of the pulmonary endarterectomy/thrombectomy specimen and the intrapulmonary mass can directly determine whether the pulmonary arterial lesion is chronic organized thrombus or a neoplastic lesion, and can also clarify whether the intrapulmonary mass is a malignant tumor or necrotizing granulomatous inflammation. The pathologic results not only establish the definitive diagnosis and exclusion in the differential diagnosis, but also determine whether postoperative continuation of anticoagulation is needed, whether further antitumor or anti-infective treatment is needed, and provide the highest-level basis for prognosis assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stains: acid-fast stain (AF), PAS, PASM",
+          "basis_in_stage3_input": "Special stains: slide C: acid-fast stain (AF) (-), PAS (-), PASM (-)",
+          "why_order_this_exam": "The patient has a prior history of pulmonary TB. Imaging has long shown a right upper lobe cavity/mass-like lesion and multiple nodules, and PET also suggested hypermetabolism. Routine postoperative pathology showed necrotizing granulomatous inflammation. At this point, it is necessary to further distinguish TB, fungal infection, and noninfectious granulomatous inflammation, to avoid misclassifying an infectious lesion as a tumor or simple inflammation. Acid-fast staining helps identify evidence of mycobacteria, and PAS and PASM help suggest components related to pathogens such as fungi. Although negative results on these stains cannot completely exclude TB, they can reduce the likelihood of directly visible fungal or acid-fast bacillary infection and narrow the differential diagnosis. This examination plays an important role in explaining the nature of the pulmonary mass, determining whether empiric anti-TB/antifungal treatment is needed, and avoiding unnecessary treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Molecular pathology: TB-DNA",
+          "basis_in_stage3_input": "Molecular pathology: Slide C: TB-DNA (-)",
+          "why_order_this_exam": "In this case, the pathology of the intrapulmonary lesion was necrotizing granulomatous inflammation, and the patient also had a history of old pulmonary TB and a background of a right upper lung lesion. Clinically, one of the most important infectious differential diagnoses is active TB or a TB-related granuloma. High metabolic activity on imaging alone or routine histopathologic morphology cannot reliably distinguish tuberculous granuloma from other necrotizing granulomas, and negative special stains are also insufficient to completely exclude TB. Therefore, additional TB-DNA molecular pathology testing is needed to improve the ability to identify Mycobacterium tuberculosis. The purpose of this test is to address the core question of whether there is etiologic support for Mycobacterium tuberculosis in the pulmonary mass, thereby helping determine whether the lesion is more suggestive of TB or a nontuberculous granuloma, affecting whether to initiate or avoid anti-TB treatment after surgery, and completing the evidence chain for the final diagnosis of 'pulmonary granulomatous inflammation, old pulmonary TB.'",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "PET-CT whole-body tomographic imaging and analysis: 1. A para-mediastinal mass-like lesion in the anterior segment of the right upper lung, SUV 14.59, with abnormally increased FDG metabolism; malignancy is the primary consideration. 2. Decreased FDG metabolism in the trunk of the right pulmonary artery and in the course of some segmental pulmonary arteries; in conjunction with the pulmonary CTPA at our hospital on Day -62, arterial embolism is considered. One month later, the patient was admitted again. The pulmonary artery pressure had not decreased, and the patient was transferred to cardiac surgery for surgical treatment. On Day 0, the patient underwent pulmonary endarterectomy (thoracoscopic-assisted under cardiopulmonary bypass) + open-heart surgery assisted by cardiopulmonary bypass + wedge resection of the lung (right upper) + pulmonary artery embolectomy (under cardiopulmonary bypass) + pulmonary artery repair (under cardiopulmonary bypass). Postoperative pathology showed: (1) Pulmonary artery intima and thrombus: fibrous tissue hyperplasia with hyaline degeneration; mixed thrombus also seen. (2) Intrapulmonary mass: special stains: slide C: acid-fast stain (AF) (-), PAS (-), PASM (-); molecular pathology: slide C: TB-DNA (-). Pathologic diagnosis: wedge resection specimen of the lung (right upper), necrotizing granulomatous inflammation; please correlate clinically to exclude TB.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSURcicZgKxFYu7rO8qH43QJUr68A9hDIXVSCOQyqNdTg1a0O0JbcYUpCg/640?wx_fmt=png",
+          "near_text": "Figure 4: Whole-body PET-CT tomographic imaging (partial screenshots)",
+          "local_src": "cleaned_cases_image_cache/fedc3325ef1e01ef9a14dd849451229ff960b912.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUzjnVTowfQUBlZApWwX2sAOu8NSLYEciapcGJU0I4kcfmKRklL0hA7vQ/640?wx_fmt=png",
+          "near_text": "Figure 5: vascular intima + thrombus (left); vascular intimal thickening (right)",
+          "local_src": "cleaned_cases_image_cache/797a14c9b7f6b304ddc217b7f73c7c7d54376463.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUX10vgeY1lcAor3iaKPhO9V3HU0vN1Db9MY9gibPKxtzAW1gPmEmxuObA/640?wx_fmt=png",
+          "near_text": "Figure 6: Pathology of the intrapulmonary mass",
+          "local_src": "cleaned_cases_image_cache/227982392aee148c8a349595fcc6476176458624.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Chronic thromboembolic pulmonary hypertension 2. Cardiac function class II (NYHA classification) 3. Hypoxemia 4. Pulmonary granulomatous inflammation 5. Old pulmonary TB",
+      "diagnostic_basis": [
+        "After screening with echocardiography, chest CTPA, etc., chronic thromboembolic pulmonary hypertension was identified as the cause.",
+        "Postoperative pathology showed: (1) pulmonary artery intima and thrombus: fibrous tissue proliferation with hyaline change; mixed thrombus also identified",
+        "Pathologic diagnosis: (right upper) wedge resection lung specimen, necrotizing granulomatous inflammation"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Administer (Fraxiparine) nadroparin calcium injection 0.6 mL subcutaneously (once every 12 hours) for anticoagulation therapy",
+        "Underwent thoracoscopic-assisted pulmonary endarterectomy under cardiopulmonary bypass + open heart surgery with cardiopulmonary bypass assistance + wedge resection of the right upper lung + pulmonary artery thrombectomy under cardiopulmonary bypass + pulmonary artery repair under cardiopulmonary bypass",
+        "Postoperatively, rivaroxaban 15 mg QD for anticoagulation (for the first 2 weeks, then 20 mg QD starting after 2 weeks); instructed to continue rivaroxaban 20 mg once daily for lifelong anticoagulation."
+      ],
+      "treatment_response": [
+        "Symptoms significantly improved after pulmonary endarterectomy",
+        "Postoperatively, the patient's pulmonary artery pressure was normal, and the patient had no shortness of breath when climbing 4 flights of stairs.",
+        "At 1-month postoperative follow-up, RVSP was 30 mmHg",
+        "Returned for follow-up 3 months after surgery; functional status was fair, with no obvious shortness of breath when climbing 4 flights of stairs. Repeat echocardiography showed RVSP 40 mmHg, BNP 133 pg/ml."
+      ]
+    }
+  }
+}

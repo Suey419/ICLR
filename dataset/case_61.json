@@ -1,0 +1,392 @@
+{
+  "status": "success",
+  "case_id": "case_61",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 51-year-old woman from Chengdu, Sichuan, who was admitted to our department on Day 0, with the chief complaint of \"recurrent cough and shortness of breath for more than 1 year, recurrence for 1 month.\" More than 1 year earlier, she developed cough without an obvious precipitating factor, producing white frothy sputum, accompanied by wheezing, without fever, night sweats, chest pain, hemoptysis, or extremity edema. She was diagnosed with \"bronchial asthma\" at an outside hospital and improved after symptomatic treatment, but still had cough with dyspnea, which was obvious in the morning and at night. The patient had been on long-term treatment with \"theophylline, montelukast sodium, and Symbicort,\" and her symptoms fluctuated in severity. Eight months earlier, her symptoms worsened again, and relevant examinations at a tertiary hospital showed \"FeNO >300 ppb, Eos% 18.6%, IgE 284.7 IU/L, anti-nRNP antibody and recombinant antigen weakly positive.\" Chest CT showed \"subpleural ground-glass changes in the right upper lobe,\" and PFT showed \"mild obstructive ventilatory dysfunction, normal diffusing function.\" The local hospital diagnosed \"1. bronchial asthma; 2. grade 1 hypertension, low risk,\" and she was treated with \"methylprednisolone, doxofylline, montelukast sodium, acetylcysteine, omalizumab\" and other treatments, with slight improvement. After discharge, she received omalizumab once monthly for 4 months, but later did not receive injections on schedule because of business travel, and her cough and shortness of breath worsened again. The symptoms could be relieved after medication, but recurred repeatedly. One month earlier, after catching a cold, she developed fever with a maximum temperature of 38.9℃ and severe cough. Repeat chest CT at the local hospital suggested \"1. increased lesions in the right upper lobe, with interstitial changes; 2. mediastinal lymph node enlargement.\" Steroid treatment was recommended, but the patient refused and came to our hospital for further diagnosis and treatment. Since the onset of illness, the patient had poor energy and appetite, poor sleep, acceptable bowel and bladder function, and no significant change in weight. Notably, the patient had chronic rhinitis and chronic pharyngitis for more than 40 years, that is, since childhood; hepatitis B e antigen-negative chronic infection for more than 30 years; a 6-year history of cholelithiasis; hypertension for 4 years, with regular oral Shihuida and bisoprolol for blood pressure control; Hashimoto thyroiditis for 3 years; and allergic rhinitis for more than 2 years, which improved slightly after taking \"montelukast,\" but she still had nasal congestion, rhinorrhea, sneezing, and other symptoms. On review of past history, the patient denied a history of TB; she underwent \"appendectomy\" 30 years earlier and \"cesarean section\" 26 years earlier, with a history of massive hemorrhage after discharge, and a history of type O blood transfusion without adverse transfusion reaction; details of immunizations were unclear. Her work had no major special exposures; she served as the supervisor of the materials and equipment department and occasionally inspected a local materials processing plant (processing crushed stone and sand), staying about half an hour each time. She had no history of residence in epidemic areas or endemic areas, no smoking or alcohol history, and no preference for eating raw or cold fish, shrimp, meat, etc. Her marital, reproductive, and family histories were unremarkable. After admission, a physical examination was first performed. Vital signs: T 36.4℃, P 103/min, R 20/min, BP 139/78 mmHg, SaO2 97%. She was conscious and in fair general condition. No rash was seen over the body. Bilateral submandibular lymph nodes about 2 cm in diameter were palpable, smooth, firm, and mobile. The thorax was normal. Percussion of both lungs was resonant. Breath sounds in both lungs were clear, without dry or wet rales. Cardiac borders were normal, rhythm was regular, and no murmurs were heard in any valve area. The abdomen was soft and non-tender, and the liver, spleen, and kidneys were not palpable below the costal margin. No edema was present in either lower extremity. The outside hospital auxiliary examination findings were as follows:",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp118jpNHg20O5kDNsNZF3r5Os4taKckat14RCMq44ibtjqTrCIXb9iawOw/640?wx_fmt=png",
+          "near_text": "Further examinations after admission were as follows:",
+          "local_src": "cleaned_cases_image_cache/8cce67dd151480d37a5f8cc69809dcb4f7ab37fa.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Allergic bronchopulmonary aspergillosis (ABPA)",
+          "supporting_evidence": [
+            "The patient has a definite asthma-like clinical course, with recurrent cough, chest tightness, and wheezing for more than 1 year,明显 in the morning upon waking and at night.",
+            "Outside hospital testing showed FeNO >300 ppb, Eos% 18.6%, and IgE 284.7 IU/L, supporting a background of marked type 2 inflammation and eosinophilic inflammation.",
+            "History of long-standing allergic rhinitis and chronic rhinitis, suggesting an allergic predisposition",
+            "Symptoms once improved slightly after use of methylprednisolone and omalizumab, supporting allergic/eosinophilic airway disease",
+            "Chest CT shows a right upper lung lesion and ground-glass opacities; ABPA may be accompanied by recurrent migratory or focal pulmonary infiltrates"
+          ],
+          "opposing_evidence": [
+            "No definite mention was made in the first-stage information of central bronchiectasis, mucus plugging, or Aspergillus-related specific test results.",
+            "Although total IgE was elevated, the value shown in the first stage was not at a typically markedly high level."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Chronic eosinophilic pneumonia",
+          "supporting_evidence": [
+            "The patient is a middle-aged woman with a history of asthma/wheezing, consistent with the common clinical background of this disease.",
+            "Outside hospital testing showed Eos% 18.6% and FeNO >300 ppb, indicating marked eosinophilic inflammation.",
+            "Chest CT showed subpleural ground-glass changes in the right upper lobe; subsequent follow-up imaging indicated increased lesions in the right upper lobe with interstitial changes, and imaging showed progression of pulmonary infiltrates",
+            "There was slight improvement after glucocorticoid therapy, consistent with the steroid responsiveness characteristic of eosinophilic lung disease.",
+            "Recurrent and prolonged cough and shortness of breath, with recent fever and worsening cough, may be seen during the active phase of eosinophilic pneumonia"
+          ],
+          "opposing_evidence": [
+            "No more direct evidence, such as the absolute peripheral blood eosinophil count or the eosinophil proportion in bronchoalveolar lavage fluid, was provided in the first-stage information.",
+            "Imaging description was predominantly a focal lesion in the right upper lobe; the first stage did not clearly indicate typical bilateral peripheral infiltrates."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+          "supporting_evidence": [
+            "Asthma-like manifestations are present and long-term treatment with theophylline, montelukast, and Symbicort is required.",
+            "A history of long-term rhinitis, chronic pharyngitis, and allergic rhinitis, consistent with the common background of upper airway allergic disease in EGPA",
+            "Eos% 18.6% and FeNO >300 ppb suggest significant eosinophilic inflammation",
+            "Chest CT showed pulmonary infiltrates with progression; EGPA may present with migratory or patchy pulmonary infiltrates."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there were no manifestations of systemic small-vessel vasculitis such as rash, purpura, peripheral neuropathy, renal involvement, or gastrointestinal vasculitis.",
+            "ANCA results were not provided in the first phase",
+            "Physical examination: breath sounds were clear in both lungs; no definite signs of multisystem involvement were observed."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Infectious lung disease (with emphasis on differentiating TB or fungal infection)",
+          "supporting_evidence": [
+            "One month ago, after getting chilled, developed fever with a maximum temperature of 38.9℃, accompanied by severe cough",
+            "Follow-up chest CT showed increased lesions in the right upper lobe, with interstitial changes and mediastinal lymphadenopathy; infectious disease, especially TB or fungal infection, should be considered with caution.",
+            "On physical examination, bilateral submandibular lymph nodes approximately 2 cm were palpable, suggesting possible reactive lymphadenopathy or specific infectious changes.",
+            "The patient had previously received methylprednisolone, omalizumab, and other treatments, with a certain background of immune modulation."
+          ],
+          "opposing_evidence": [
+            "The patient denies a history of TB.",
+            "During the course of the illness, there was no long-term night sweats, hemoptysis, or significant weight loss.",
+            "In the first stage, no purulent sputum, chest pain, or clear etiologic evidence of infection was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Connective tissue disease-related pulmonary involvement or organizing pneumonia",
+          "supporting_evidence": [
+            "Anti-nRNP antibody and recombinant antigen weakly positive, suggesting clues related to connective tissue disease",
+            "History of Hashimoto thyroiditis, suggesting an autoimmune background",
+            "Chest CT showed subpleural ground-glass opacity in the right upper lobe; subsequent imaging suggested an increased number of lesions with interstitial changes, with imaging features possibly consistent with inflammatory interstitial lung disease or organizing pneumonia.",
+            "There was slight improvement after corticosteroid therapy, supporting the possibility of an inflammatory pulmonary parenchymal lesion."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no definite clinical manifestations of connective tissue disease were described, such as Raynaud phenomenon, arthralgia, muscle weakness, dry mouth and dry eyes, or rash.",
+            "PFT suggests normal diffusing capacity, not supporting significant progressive interstitial lung disease",
+            "The concomitant presence of significant eosinophilic inflammation and an asthma background further suggests eosinophilic/allergic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary malignant neoplasm or lymphoproliferative disorder",
+          "supporting_evidence": [
+            "Chest CT showed an increased number of lesions in the right upper lobe compared with before, accompanied by mediastinal lymph node enlargement",
+            "On physical examination, palpable bilateral submandibular lymph nodes measuring approximately 2 cm were noted.",
+            "The patient has had poor appetite and low spirits recently."
+          ],
+          "opposing_evidence": [
+            "The patient has no history of smoking.",
+            "The course was characterized mainly by recurrent cough and wheezing, more pronounced at night and on awakening, which is more consistent with asthma/allergic airway disease features.",
+            "In the first stage, the earliest imaging description was subpleural ground-glass changes, with no definite space-occupying mass described.",
+            "No significant change in body weight, and no tumor-related evidence was provided in the first stage"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest HRCT",
+          "reason": "Repeat the latest imaging studies to assess the characteristics and distribution of the lesions",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy, lavage, and pathogen testing",
+          "reason": "Evaluate the bronchial mucosa and lumen, rule out tumor or other space-occupying lesions, and simultaneously perform BALF bacterial culture",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "PFT, FeNO",
+          "reason": "Assess pulmonary function status and determine whether there is airway obstruction",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers (CBC, CRP, ESR, PCT)",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasite testing",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function tests, immunologic screening",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paranasal sinus CT",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymph node color Doppler ultrasound; needle biopsy if necessary",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further examinations after admission were as follows: 1. Chest HRCT (Day +9): multiple ground-glass patchy opacities in the bilateral upper lobes and right middle lobe, involving the interstitium; a small amount of linear opacities in the posterior basal segments of both lower lobes, inflammatory? Other etiologies to be excluded. Small nodule in the anterior segment of the left upper lobe, most likely inflammatory. Mediastinal lymphadenopathy. Mild focal bilateral pleural thickening. Fracture of the right anterior 4th rib with surrounding callus formation. 2. Bronchoscopy: no obvious abnormality in the structure of the trachea or bronchi at any level under bronchoscopy. BALF: slightly turbid, white in appearance, GM test negative; BALF differential cell count: nucleated cells 160×10^6/L, red blood cells 420×10^6/L. Differential count: neutrophils 4%, lymphocytes 1%, macrophages 9%, eosinophils 2%, ciliated columnar epithelial cells 84%, with abundant ciliated epithelial cells. A small amount of bacteria was seen; no other special abnormal cells were seen. BALF liquid-based cytology diagnosis: no malignant tumor identified; special stains: D-PAS (+), AB (-). BALF-mNGS: Minutimonas diminuta 1844 sequences, Mycobacterium tuberculosis complex 1 sequence. 3. Pulmonary function, bronchial provocation test, and fractional exhaled nitric oxide test: complete PFT: MMEF, V50, and BR moderately decreased, V25 severely decreased, moderate-to-severe small airway airflow limitation, moderately decreased ventilatory reserve function, mildly impaired pulmonary function. Bronchial provocation test: positive, suggesting airway hyperresponsiveness (very mild). FeNO test: 160 ppb. 4. Laboratory tests were as follows: (1) Inflammatory markers: CRP 30.10 mg/L, ESR 51 mm/h, PCT 0.06 ng/ml. (2) Parasites: Clonorchis sinensis IgG+ (twice); other parasite antibodies and stool parasite ova were all negative. (3) Immunology: ANCA negative (twice), anti-Ro-52 antibody +, anti-PM-Scl antibody +, Coombs test +; all other immune indices were negative. (4) Thyroid function: T3 0.88 nmol/L, FT3 2.72 pmol/L, TgAb 506.00 IU/ml. (5) Microbiology: sputum smear showed numerous G- bacilli (3+) and numerous G+ streptococci (3+); TB-IGRA, fungal G test, GM test, cryptococcal capsular antigen, Pneumocystis nucleic acid, CMV, EB, TORCH, etc. were all negative. (6) Others: blood gas analysis, biochemistry, myocardial markers, BNP, tumor markers, immunofixation electrophoresis, serum protein electrophoresis, etc. were all negative. 5. Nasal CT (Day +8): soft tissue opacities were seen in the bilateral maxillary sinuses, ethmoid sinuses, sphenoid sinuses, and frontal sinuses, possibly inflammatory. High-density nodular opacities at the bilateral medial canthi, calcific foci? 6. No obvious deviation of the nasal septum; mucosal erosion in the right Little's area; mildly enlarged bilateral inferior turbinates, mucosal erosion at the anterior end of the left inferior turbinate, mucoid nasal discharge in both nasal cavities; slightly enlarged left uncinate process, no neoplasm seen in either middle meatus; left and right nasopharynx symmetric, with mucosal thickening and a small amount of mucoid discharge on the surface. Endoscopic diagnosis: rhinitis, epistaxis. 7. Bone marrow aspiration: active bone marrow hyperplasia, granulocytic series 53.3%, erythroid series 29%, with increased eosinophils accounting for 13%; no abnormality detected on bone marrow flow cytometry. No significant abnormalities in hematologic fusion gene and FISH testing. 8. Lymph node color Doppler ultrasound: several lymph nodes were detected in the bilateral submandibular regions, lateral cervical regions, along the great cervical vessels, supraclavicular regions, and inguinal regions; the largest were all located in the submandibular regions, approximately 23x10mm on the right and 26x5mm on the left. In some of the above lymph nodes, the corticomedullary distinction was unclear, and punctate/linear blood flow signals were seen within some. 9. Lymph node needle biopsy: reactive lymph node hyperplasia was considered most likely. 10. Abdominal color Doppler ultrasound: gallbladder wall thickening, cholelithiasis. Solid nodule in the left kidney: hamartoma? Subsequently, the patient refused further lung biopsy and sinus surgery, and refused send-out testing for Aspergillus-specific antibodies and other examinations.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp1f1nn80AHG4t0I5EUokWxk4BmXibpNSq88pYPYoKtpelYFjwLZe0iambw/640?wx_fmt=png",
+            "near_text": "2. Bronchoscopy:",
+            "local_src": "cleaned_cases_image_cache/24e12daa9f3cd30ea6fb9178da42a156c3f88f23.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp1g9kJJ5js8hMAOjSkJzflKs6NKEvArYvdUFZPlaG5xdmRdh6RlhzAZQ/640?wx_fmt=png",
+            "near_text": "BALF: slightly turbid appearance, white, GM test negative;",
+            "local_src": "cleaned_cases_image_cache/e136d973cecb753c65e241e50541ea28b1a7ef0c.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp1mk4ZficeZQ46sVNicSQEeTYr6RL5jRzn7dVWqDkw86Wic0qt1GrjTxIBg/640?wx_fmt=png",
+            "near_text": "Complete pulmonary function testing: MMEF, V50, and BR moderately decreased",
+            "local_src": "cleaned_cases_image_cache/77a99baaeff20fec7eae620f28cf2a933c1f16bf.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp1Iw7Qx0kJXcILsnXprZrCf5QJ49jY9tibP08NbV4LzCFl366f2jkaVdA/640?wx_fmt=png",
+            "near_text": "1) Inflammatory marker: CRP 30.10 mg/L",
+            "local_src": "cleaned_cases_image_cache/e5c97e134777910c4a33efc69b7edfa6c03155bb.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp14TGpJFEvWeicKIJUutm63Ucbbicicml9Sm7x7iaAY0TO7F3ByVojpMV9Pw/640?wx_fmt=png",
+            "near_text": "6. No obvious deviation of the nasal septum",
+            "local_src": "cleaned_cases_image_cache/4f9edb7a71ca47ef6c5b6973b9333286a70900e0.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIvshSWYwul1HbXf35rdsp1TIO6EiceWEeOg5fpdJIUicE8mMxkCFRCyEodcI2dEs6jKy4ZNPmmjYSw/640?wx_fmt=png",
+            "near_text": "7. Bone marrow aspiration:",
+            "local_src": "cleaned_cases_image_cache/4516dd5202ec0bbcc45ebb8020f34fa57562c2ff.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIvshSWYwul1HbXf35rdsp1hZ2oLW3RFCXSpU008grZkXBmL7ibw4SVQrIgExLPovricrmbML0XsbRQ/640?wx_fmt=jpeg",
+            "near_text": "8. Lymph node color Doppler ultrasound:",
+            "local_src": "cleaned_cases_image_cache/8d0c433a72ee12c2afa4a21170841c91c37d1bac.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "Symptoms develop 4-6 hours after antigen exposure: fever, dry cough, dyspnea, chest pain, and cyanosis",
+              "CT showed bilateral ground-glass opacities; extensive bilateral patchy, mass-like, and flocculent pulmonary consolidative opacities"
+            ],
+            "exclusion_reasons": [
+              "Usually without eosinophilia",
+              "No obvious airway obstruction or increased vascular resistance",
+              "This diagnosis is considered unlikely."
+            ]
+          },
+          {
+            "name": "EGPA",
+            "evidence": [
+              "Most patients with EGPA present with wheezing; more than 95% of patients have a history of wheezing, cough, and similar symptoms, and 75% of patients develop allergic rhinitis.",
+              "Migratory or transient pulmonary infiltrates are one of the characteristic imaging manifestations of EGPA.",
+              "Markedly increased eosinophils in induced sputum or BALF is also one of the important features",
+              "Sinus CT may reveal findings of sinusitis"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "APBA",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Common chest CT findings that may help distinguish it from EGPA include central bronchiectasis, elevated Aspergillus-specific IgE levels, a positive immediate reaction on Aspergillus skin testing, and positive serum precipitating antibodies to Aspergillus antigen.",
+              "This diagnosis is considered unlikely."
+            ]
+          },
+          {
+            "name": "CEP",
+            "evidence": [
+              "Clinical manifestations, chest imaging findings showing opacities predominantly in the peripheral or subpleural mid- to upper-lung zones, and BAL showing increased eosinophils (≥25%) are used for an integrated assessment."
+            ],
+            "exclusion_reasons": [
+              "The team has not yet ruled out this diagnosis in the patient."
+            ]
+          },
+          {
+            "name": "AEP",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Acute, often fulminant onset (1 month or less), relatively severe hypoxemia, usually without peripheral blood eosinophilia, and imaging shows diffuse opacities",
+              "This diagnosis is considered unlikely."
+            ]
+          },
+          {
+            "name": "Hypereosinophilic syndrome; neoplastic, infectious (parasites, etc.), gastrointestinal diseases, etc.",
+            "evidence": [],
+            "exclusion_reasons": [
+              "This patient has no definite relevant clinical manifestations; a diagnosis is considered unlikely."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "Symptoms develop 4-6 hours after antigen exposure: fever, dry cough, dyspnea, chest pain, and cyanosis",
+          "CT showed bilateral ground-glass opacities; extensive bilateral patchy, mass-like, and flocculent pulmonary consolidative opacities"
+        ],
+        "exclusion_reasons": [
+          "Usually without eosinophilia",
+          "No obvious airway obstruction or increased vascular resistance",
+          "This diagnosis is considered unlikely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "EGPA",
+        "evidence": [
+          "Most patients with EGPA present with wheezing; more than 95% of patients have a history of wheezing, cough, and similar symptoms, and 75% of patients develop allergic rhinitis.",
+          "Migratory or transient pulmonary infiltrates are one of the characteristic imaging manifestations of EGPA.",
+          "Markedly increased eosinophils in induced sputum or BALF is also one of the important features",
+          "Sinus CT may reveal findings of sinusitis"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "APBA",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Common chest CT findings that may help distinguish it from EGPA include central bronchiectasis, elevated Aspergillus-specific IgE levels, a positive immediate reaction on Aspergillus skin testing, and positive serum precipitating antibodies to Aspergillus antigen.",
+          "This diagnosis is considered unlikely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "CEP",
+        "evidence": [
+          "Clinical manifestations, chest imaging findings showing opacities predominantly in the peripheral or subpleural mid- to upper-lung zones, and BAL showing increased eosinophils (≥25%) are used for an integrated assessment."
+        ],
+        "exclusion_reasons": [
+          "The team has not yet ruled out this diagnosis in the patient."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "AEP",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Acute, often fulminant onset (1 month or less), relatively severe hypoxemia, usually without peripheral blood eosinophilia, and imaging shows diffuse opacities",
+          "This diagnosis is considered unlikely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypereosinophilic syndrome; neoplastic, infectious (parasites, etc.), gastrointestinal diseases, etc.",
+        "evidence": [],
+        "exclusion_reasons": [
+          "This patient has no definite relevant clinical manifestations; a diagnosis is considered unlikely."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "Complete blood count and blood biochemistry returned to normal",
+          "why_order_this_exam": "The patient had a history of recurrent cough, shortness of breath, and wheezing, accompanied by fever and pulmonary infiltrates. Before and around the time of admission, there was clear evidence of eosinophilic inflammation, such as elevated Eos%, markedly elevated FeNO, increased eosinophils in the bone marrow, and improvement in symptoms after prednisone treatment. The purposes of repeat complete blood count testing are: first, to dynamically confirm whether peripheral blood cell counts, especially eosinophils, recover with treatment, thereby assessing glucocorticoid efficacy and disease activity; second, to observe whether white blood cells, hemoglobin, platelets, and other parameters recover or become abnormal, in order to help distinguish persistent active eosinophilic lung disease/vasculitis from differential diagnoses such as infection and hematologic disease; third, to provide evidence regarding safety and efficacy for subsequent glucocorticoid tapering and continued treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "basis_in_stage3_input": "Complete blood count and blood biochemistry returned to normal",
+          "why_order_this_exam": "During the disease course, the differential diagnosis involved EGPA, CEP, parasite-related eosinophilic lung disease, and infectious lung disease, and the patient also had underlying conditions including inactive hepatitis B carrier state, cholelithiasis, and a left renal nodule, and had also received systemic glucocorticoid therapy. Repeat biochemical testing can dynamically assess liver and kidney function, electrolytes, and protein levels, and is used both to determine whether systemic inflammation and organ involvement improve with treatment and to evaluate the risks of glucocorticoid therapy and tolerability of subsequent medications; at the same time, if biochemical results return to normal, this also supports that the current condition is under control, with no evident progressive organ damage, which is helpful for adjustment of the treatment plan and follow-up management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Clonorchis sinensis IgG",
+          "basis_in_stage3_input": "Liver fluke IgG became negative",
+          "why_order_this_exam": "The patient previously had positive liver fluke IgG on two occasions, and because there was a clear eosinophilic inflammatory background and pulmonary lesions throughout the course, parasitic infection has consistently been one of the secondary causes of eosinophilia that must be excluded. Although the patient had no definite history of eating raw food, and the other parasite antibodies and stool ova were negative, repeat liver fluke IgG can be used for dynamic assessment of whether this parasite-related clue continues to be present. Conversion of this marker to negative would help suggest that the previous positive clue has weakened, thereby lowering the likelihood in the differential diagnosis that parasitic infection caused the pulmonary lesions and eosinophilia, more strongly supporting a non-parasitic eosinophilic lung disease/immune-related disease, and affecting whether further antiparasitic treatment or infectious disease-directed evaluation is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT",
+          "basis_in_stage3_input": "Repeat chest CT showed complete absorption of the lesions in both lungs",
+          "why_order_this_exam": "The patient's chest imaging had previously progressed from a subpleural ground-glass opacity in the right upper lobe to multiple ground-glass patchy opacities in the bilateral upper lobes and right middle lobe with interstitial involvement, accompanied by mediastinal lymphadenopathy. During this period, differentiation from infection, TB, fungal infection, ABPA, EGPA, CEP, connective tissue disease-related lung involvement, and even neoplastic lesions was still required. After prednisone treatment, repeat chest CT was performed, with the core purpose of directly assessing the trend of change in the pulmonary parenchymal lesions and determining whether they had resolved, migrated, or progressed. If the lesions are completely resolved, this would suggest a steroid-responsive inflammatory/eosinophilic lung disease process, rather than supporting a progressively advancing malignancy or an uncontrolled structural pulmonary infection; at the same time, it would also provide key imaging evidence for subsequent steroid tapering, whether invasive lung biopsy is still needed, and the long-term follow-up strategy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After prednisone treatment, symptoms improved; CBC and blood chemistry returned to normal, and liver fluke IgG converted to negative; follow-up chest CT showed complete resolution of the bilateral pulmonary lesions.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "EGPA? CEP? Eosinophilia, secondary pulmonary alveolar proteinosis, bronchial asthma, allergic rhinitis, chronic sinusitis, grade 1 hypertension, low-risk group, Hashimoto thyroiditis, low T3 syndrome, multiple enlarged lymph nodes (mediastinal, cervical, supraclavicular, and inguinal), cholelithiasis, solid left renal nodule: hamartoma?",
+      "diagnostic_basis": [
+        "Imaging showed bilateral ground-glass opacities in both lungs, predominantly in the subpleural regions of the bilateral upper lungs, with an apparently migratory pattern.",
+        "chronic sinusitis",
+        "Eosinophilia",
+        "Exclude infection with special pathogens"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prednisone 50 mg orally, reduced to 30 mg after 1 month, then gradually tapered to a maintenance dose of 15 mg",
+        "Recommend that the patient be seen in the otolaryngology outpatient clinic, with elective nasal surgery or biopsy, and lung biopsy if necessary"
+      ],
+      "treatment_response": [
+        "The patient's symptoms have somewhat improved",
+        "Complete blood count and blood biochemistry have both returned to normal",
+        "Clonorchis sinensis IgG negative",
+        "Repeat chest CT showed complete resolution of the lesions"
+      ]
+    }
+  }
+}

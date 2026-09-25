@@ -1,0 +1,435 @@
+{
+  "status": "success",
+  "case_id": "case_66",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Ms. Fang, a 56-year-old middle-aged woman, works in a professional technical occupation. She was admitted to our department on Day 0, for \"pulmonary nodules detected for more than 6 months.\" History of present illness: More than 6 months before admission (Day -183), bilateral pulmonary nodules were found on a physical examination at our hospital (largest lesion approximately 0.9 cm in long diameter), and she underwent regular follow-up. On Day -6, repeat chest CT showed that the nodules had increased significantly compared with before (largest lesion 1.8 cm in long diameter). At admission, the patient had no cough or sputum production, mild shortness of breath in the morning, and occasional palpitations, with no other discomfort. Appetite and sleep were fair, bowel and bladder function were normal, and there was no weight gain or loss. Past medical history: more than 20 years of \"hypertension,\" with a highest systolic blood pressure of 170 mmHg; regular treatment with oral \"irbesartan\" 1 tablet qd, with blood pressure controlled at about 130/80 mmHg. History of \"sinus tachycardia\" for many years, taking oral \"Betaloc ZOK\" 11.875 mg qd. History of \"anxiety disorder\" for more than 10 years, taking oral \"fluoxetine\" 20 mg qd. History of \"Hashimoto thyroiditis\" for more than 10 years, untreated. History of \"chronic atrophic gastritis\" for more than 5 years. \"Hyperlipidemia\" for more than 2 years. History of allergy to \"metronidazole.\" Personal history: denies exposure to dust, industrial toxins, and radioactive substances; denies smoking and alcohol use. Menstrual, marital, and reproductive history: menarche at age 13, (5-6 days)/(28-30 days), menopause at age 54. Married at the appropriate age, nulliparous, spouse in good health. Family history: denies family history of hereditary disease. Physical examination: T 36.1℃, P 87/min, R 22/min, BP 139/86 mmHg. No enlargement of superficial lymph nodes was palpable throughout the body, and there was no cyanosis of the lips. The thorax was symmetric. Breath sounds were coarse in both lungs, with no dry or moist rales heard. Heart rate was 87/min, rhythm regular, and no pathologic murmur was heard in any valve auscultation area. The abdomen was flat and soft, with no tenderness or rebound tenderness; the liver and spleen were not palpable, and bowel sounds were normal. No edema was present in either lower extremity, and pathologic signs were (-).",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjj8o5zXNFd4ibo44ia0AlQcJEla01pZ1P11ibBVuvR4VNzMzGFuGwy8DJUg/640?wx_fmt=png",
+          "near_text": "On Day -6, the patient underwent repeat chest CT.",
+          "local_src": "cleaned_cases_image_cache/a1272154aa16ff28aaec064ae91a23d61111f449.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjYoG2booianXzYHE4Mm8icqoUFVqxo7QIQLDAHDsLFrXX48XTSUFDI9GA/640?wx_fmt=png",
+          "near_text": "At admission, the patient had no cough or sputum production.",
+          "local_src": "cleaned_cases_image_cache/90fd2986e668732dee458dd3ad5509911f6396de.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung adenocarcinoma (peripheral type, with possible multifocal lesions)",
+          "supporting_evidence": [
+            "The narrative information from the first stage indicates bilateral pulmonary nodules, and the long-axis diameter of the larger nodule increased progressively from approximately 0.9 cm to 1.8 cm.",
+            "The patient is 56 years old, which is one of the common age groups for onset of lung cancer.",
+            "At admission, there were no obvious infectious symptoms and no weight gain or loss, but the absence of symptoms does not exclude early-stage or peripheral lung cancer.",
+            "The accompanying images show multiple peripheral nodules in both lungs, among which at least one nodule has an irregular morphology and heterogeneous density, consistent with one of the imaging warning features of lung adenocarcinoma."
+          ],
+          "opposing_evidence": [
+            "The patient denies a smoking history.",
+            "At the first-stage physical examination, no superficial lymphadenopathy was noted, and the symptoms were mild.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "metastatic lung tumor",
+          "supporting_evidence": [
+            "The text information in the first stage suggests multiple nodules in both lungs, with a multifocal distribution.",
+            "The larger nodule increased from approximately 0.9 cm to 1.8 cm over more than 6 months, suggesting the possibility of a neoplastic lesion.",
+            "The accompanying images show multiple nodular lesions in both lungs, with an imaging distribution pattern consistent with possible hematogenous pulmonary metastases."
+          ],
+          "opposing_evidence": [
+            "No known history of an extrapulmonary primary tumor was provided in the phase 1 information",
+            "The patient has no obvious systemic symptoms, and there has been no change in body weight.",
+            "Some nodules are located in the peripheral lung, and at least one nodule is not morphologically a typical round “cannonball” metastatic nodule."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculoma or other granulomatous lesions",
+          "supporting_evidence": [
+            "Multiple pulmonary nodules may be seen in tuberculomas or other granulomatous diseases",
+            "The patient's symptoms are relatively mild, with only mild shortness of breath upon waking in the morning and no obvious cough or sputum production, which may be seen in some focal TB or old/subclinical granulomatous lesions.",
+            "Some of the nodules in the attached images are relatively small and have relatively well-defined margins; on imaging, they may resemble granulomatous nodules."
+          ],
+          "opposing_evidence": [
+            "The Phase 1 text information did not indicate fever, night sweats, weight loss, hemoptysis, or other TB toxemia or respiratory symptoms.",
+            "A larger nodule has increased significantly in size over more than 6 months, warranting greater vigilance for a malignant lesion.",
+            "Phase 1 information did not provide a history of TB exposure or prior TB history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Fungal pulmonary infectious nodule",
+          "supporting_evidence": [
+            "Multiple nodules in both lungs may be seen in infectious lesions such as fungal infection",
+            "The patient's clinical symptoms are mild, and some fungal pulmonary nodules may be incidentally discovered during physical examination or follow-up.",
+            "As shown in the attached image, the imaging appearance of multiple nodular lesions may overlap with fungal granulomas."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not indicate high-risk background factors for fungal infection, such as immunosuppression or long-term use of corticosteroids/immunosuppressants.",
+            "No signs of infection such as fever, cough, or sputum production",
+            "Although a larger lesion with marked short-term enlargement can be seen in infection, malignant lesions should still be prioritized for exclusion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Inflammatory pseudotumor/focal organizing pneumonia and other inflammatory nodular lesions",
+          "supporting_evidence": [
+            "Nodular pulmonary opacities may be caused by inflammatory lesions",
+            "The patient's respiratory symptoms are not prominent; some inflammatory pseudotumors or organizing lesions may have no specific manifestations.",
+            "As shown in the attached image, at least one lesion is not a completely typical round nodule; inflammatory lesions may have a similar appearance."
+          ],
+          "opposing_evidence": [
+            "The Phase 1 text did not indicate a recent history of infection, fever, sputum production, or systemic manifestations related to inflammation.",
+            "Multiple nodules in both lungs, and the larger lesions continue to increase in size, which is insufficient to support simple inflammatory lesions",
+            "No favorable evidence such as post-anti-infective changes was provided in the first-stage information."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Benign pulmonary nodules such as pulmonary hamartoma",
+          "supporting_evidence": [
+            "Pulmonary nodules were detected on physical examination and most symptoms are mild; benign pulmonary nodules should be included in the initial differential diagnosis.",
+            "Some peripheral small nodules may be benign lesions"
+          ],
+          "opposing_evidence": [
+            "The textual information from the first stage suggests that the larger nodule increased from approximately 0.9 cm to 1.8 cm, and the growth rate is unfavorable for an ordinary stable benign nodule.",
+            "The attached image does not show findings that strongly support a typical benign hamartoma, such as definite popcorn-like calcification or obvious fat density.",
+            "Multiple lesions in both lungs with progressive enlargement, decreasing the likelihood of benign nodules"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal capsular polysaccharide antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Humoral immunity",
+          "requirement": "optional"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "NT-proBNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "sACE",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, relevant ancillary examinations were completed: (Day +366) Tumor-related: tumor marker panel: PRO-GRP 78.15 pg/ml, others normal. Infection-related: complete blood count, ESR, CRP, cryptococcal capsular polysaccharide antigen, G test, and GM test showed no abnormalities. Others: humoral immunity, T-SPOT, rheumatologic panel, ANCA, NT-proBNP, sACE, and coagulation showed no abnormalities. Contrast-enhanced chest CT was completed. After contraindications were excluded, CT-guided percutaneous lung biopsy was performed. Postoperative pathology showed: (left lung needle biopsy) the submitted specimen consisted of necrotic tissue with hemorrhage; a small amount of chronic inflammatory cell components was focally identified; please correlate clinically. Repeat chest CT on Day +6 showed: bilateral pulmonary nodules with no significant change compared with before. Repeat chest CT on Day +16 showed: multiple bilateral pulmonary nodules with no significant change compared with before. PET-CT on Day +17 showed: multiple bilateral pulmonary nodules with mild to moderate FDG uptake; the largest was located in the apicoposterior segment of the left upper lobe, measuring approximately 2.4*2.2 cm on lung window, SUVmax 1.8. In conjunction with the biopsy pathology, the findings were considered more suggestive of a benign lesion.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjiaNkRn34iasRibtvcFJzFAJyBN7yHj56P5Ilibm3K7XUMFFkicFHFzONVibQ/640?wx_fmt=png",
+            "near_text": "After contraindications were excluded, CT-guided percutaneous lung biopsy was performed (Figure 4)",
+            "local_src": "cleaned_cases_image_cache/df8ac77de8d825c7190d5b5b5f5bb0574ee771c6.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjpGBgp5xrtRoJdqcnMvSRAYthyhz8eX92UEBfMLnha4l1D4nqubCibEw/640?wx_fmt=png",
+            "near_text": "[IMAGE 6]",
+            "local_src": "cleaned_cases_image_cache/38030282fc47e017e4b1308b553e684736c0cfe9.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjj9C1dn2blzsRib7YnOf4okSqgErBZF6avWVG4h3SFx0gYNia0SMsuL6EA/640?wx_fmt=png",
+            "near_text": "After admission, the patient had positive skin tests to penicillin and cefazolin.",
+            "local_src": "cleaned_cases_image_cache/045b8c8215501a87e4d19943b4190e26de3f1dcf.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjCSykv2RKQ8nAYfgK5LnRW1A7Xroy613j1TSaVvBXeRODSplYTg43rA/640?wx_fmt=png",
+            "near_text": "Pathology indicated inflammation, and the response to anti-infective therapy was suboptimal.",
+            "local_src": "cleaned_cases_image_cache/74f985ffb7460f88b00105094b5363d148a968b3.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjj9iaRlg4OSxbmuicGhpmWPRTD3BfDfP0oHCosUiceeCib9gA5PibiboLRPv1A/640?wx_fmt=png",
+            "near_text": "The patient's response to anti-infective therapy and corticosteroid treatment was suboptimal; malignancy cannot be excluded.",
+            "local_src": "cleaned_cases_image_cache/ab3104cd4ceb0406ec536a1299cddc2a326edc50.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjgO2NZLCXaWINUUuydfcFgeeyGcZibS15XCGDaJPGyCH4oe1VQicuA7YA/640?wx_fmt=png",
+            "near_text": "The patient has no discomfort such as chest tightness, dyspnea, cough, or sputum production.",
+            "local_src": "cleaned_cases_image_cache/a2e36fe352ac67fda7f95c1c7ccba5cfe45558f1.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary nodule, etiology to be determined",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hypertension (Grade 2, moderate risk)",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Chronic gastritis",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "anxiety disorder",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hashimoto thyroiditis",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hyperlipidemia",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pathogens not covered",
+            "evidence": [
+              "Pathology indicated inflammation, and the response to anti-infective therapy was suboptimal."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "The department discussion considered organizing pneumonia to be possible."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "tumor",
+            "evidence": [
+              "The patient's response to anti-infective therapy and corticosteroid treatment was suboptimal; malignancy cannot be excluded."
+            ],
+            "exclusion_reasons": [
+              "PET-CT showed mild to moderate FDG uptake in multiple bilateral pulmonary nodules; in conjunction with the biopsy pathology, the findings suggest a greater likelihood of benign lesions."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary nodule, etiology to be determined",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pathogens not covered",
+        "evidence": [
+          "Pathology indicated inflammation, and the response to anti-infective therapy was suboptimal."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [
+          "The department discussion considered organizing pneumonia to be possible."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "tumor",
+        "evidence": [
+          "The patient's response to anti-infective therapy and corticosteroid treatment was suboptimal; malignancy cannot be excluded."
+        ],
+        "exclusion_reasons": [
+          "PET-CT showed mild to moderate FDG uptake in multiple bilateral pulmonary nodules; in conjunction with the biopsy pathology, the findings suggest a greater likelihood of benign lesions."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pathology consultation",
+          "basis_in_stage3_input": "Pathology consultation: (left lung needle biopsy) necrotic tissue with fibrous tissue proliferation and a small amount of inflammatory cell infiltration; special stains show no evidence of infection by specific pathogens. Please correlate with the clinical findings.",
+          "why_order_this_exam": "The patient’s multiple bilateral pulmonary nodules have continued to enlarge since being detected on a physical examination, and subsequent follow-up re-examinations showed further progression. However, the initial percutaneous lung biopsy showed only necrotic tissue, fibrous tissue proliferation, and a small amount of inflammatory cell infiltration, which could not explain the progressive imaging findings and was insufficient to distinguish among infection, organizing inflammation, and necrotic tumor. Previous anti-infective therapy and corticosteroid treatment had suboptimal efficacy, and although PET-CT favored a benign process, tumor could not be excluded. Therefore, pathology consultation is needed to reassess the morphologic features of the existing specimen and determine whether there was sampling bias, whether necrosis obscured tumor components, or whether there are clues to a rare tumor type, so as to provide a basis for whether to continue management as infection or to promptly repeat tissue sampling and adjust the diagnostic and treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CK (epithelial cells+), Vimentin (stromal cells+), LCA (lymphocytes+), CD68 (histiocytes+), ERG (-), TTF-1 (-), CK (-).",
+          "why_order_this_exam": "The patient's imaging showed multiple progressive nodules/consolidative patchy opacities in both lungs, and lobulation and spiculation were seen later, increasing the warning significance for a malignant lesion; however, the initial pathology morphology was not typical, showing only necrosis and an inflammatory cell background. At this time, the purpose of additional immunohistochemistry was to determine whether the lesion contained an epithelial tumor component and to differentiate it from inflammatory necrosis, granulomatous lesions, mesenchymal tumors, or lymphohematopoietic lesions. Markers such as CK and TTF-1 can help assess the possibility of a primary pulmonary epithelial tumor, while LCA, CD68, and Vimentin can help identify an inflammatory cell/histiocytic or stromal background, addressing the core clinical question of 'tumor or non-neoplastic lesion' and providing a basis for whether repeat biopsy is needed, what type of expanded pathologic testing to select, and the subsequent treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "special stains",
+          "basis_in_stage3_input": "Special stains: PAS (-), silver hexamine (-), reticulin stain (-), acid-fast stain (-).",
+          "why_order_this_exam": "Although the patient lacked obvious infectious symptoms such as fever and sputum production, and routine blood testing, CRP, G test, GM test, cryptococcal antigen, and T-SPOT were also unremarkable, the initial lung biopsy pathology was predominantly necrosis and inflammatory components, so occult fungal infection, mycobacterial infection, and other granulomatous pathogen infections still need to be excluded. Especially when subsequent PMseq suggested a complex pathogen background including Legionella, Nocardia, and Aspergillus, special stains on tissue can be used at the pathologic level to look for fungal organisms, acid-fast bacilli, or other characteristic structures, helping determine whether the high-throughput testing results represent true infection, colonization/contamination, or are unrelated to the lesion. This examination is of important value for excluding infectious necrotic lesions and reducing misdiagnosis as tumor or organizing inflammation, and it would also directly affect the treatment decision of anti-infective therapy versus continuing neoplastic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paraffin-embedded tissue section PMseq-DNA high-throughput gene testing for pathogens causing focal infection",
+          "basis_in_stage3_input": "On Day +27, PMseq-DNA high-throughput sequencing for focal infectious pathogenic microorganisms performed on the patient’s paraffin sections detected Legionella pneumophila, sequence count 52635; Nocardia farcinica, sequence count 50; Aspergillus versicolor, sequence count 27; Candida tropicalis, sequence count 9. Viruses, Mycobacterium tuberculosis, Mycoplasma, Chlamydia, and Rickettsia were all not detected.",
+          "why_order_this_exam": "In the setting of continuously enlarging multiple lesions in both lungs and the initial pathology not providing definitive evidence of tumor, the differential diagnosis of an uncovered pathogen had remained a persistent clinical consideration. Because routine infectious disease screening and special stains on tissue failed to identify the etiology, it was necessary to use high-throughput microbial gene testing on FFPE sections to broaden pathogen spectrum coverage. The clinical objective of this test was to identify rare or fastidious pathogens that are difficult to detect by routine culture and serology, explain the cause of necrotic lesions and the poor response to anti-infective therapy, and help differentiate infectious pulmonary nodules/masses from neoplastic lesions. Although the results cannot establish the diagnosis independently, they can provide key clues regarding whether targeted anti-infective therapy should be given, whether tumor should still be suspected, and the direction of subsequent tissue sampling.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-Legionella pneumophila IgM antibody",
+          "basis_in_stage3_input": "On Day +31, anti-Legionella pneumophila IgM antibody was negative.",
+          "why_order_this_exam": "Because PMseq detected Legionella pneumophila with a high sequence count in paraffin sections, while the patient’s clinical presentation was not typical, with neither a clear acute fever–productive cough syndrome nor routine laboratory evidence of infection, further serologic testing is needed to cross-validate this pathogen clue. The purpose of ordering anti–Legionella pneumophila IgM antibody testing is to assess whether there is immunologic support for a recent Legionella infection, thereby determining the clinical relevance of the high-throughput sequencing result and avoiding misattributing contamination, colonization, or nonpathogenic accompanying signals as the primary cause. This test helps address the question of whether targeted treatment against Legionella should be pursued and influences the assessment of the credibility of the infection diagnosis and the prioritization of continued evaluation for tumor.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "On Day +99, follow-up chest CT showed patchy mass-like high-density opacities in both lungs, progressed compared with the previous study, more pronounced in the left lung; the largest measured approximately 3.2*2.8 cm, with lobulation and spiculation, and heterogeneous density. No enlargement of hilar or mediastinal lymph nodes was seen, and no pleural effusion was seen.",
+          "why_order_this_exam": "In the context that prior pathology, etiologic studies, and treatment response had all failed to clarify the cause, repeat chest CT again showed marked progression of the bilateral pulmonary lesions, with imaging features more suggestive of malignant tumor, including patchy confluent high-density opacities, lobulation, spiculation, and heterogeneous density. This contradicted the initial assessment favoring a benign and infectious process; therefore, repeat chest CT was required to reassess the nature of the disease course. The clinical questions this examination needed to address included: whether the lesions were continuing to progress; whether the imaging findings had evolved from nodules into more invasive mass-like lesions; whether lymph node or pleural involvement had developed; and which lesion was most suitable for repeat biopsy. The results directly prompted repeat histologic tissue sampling, helping to correct the misjudgment and providing an imaging basis for tumor staging and subsequent systemic treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Percutaneous lung biopsy",
+          "basis_in_stage3_input": "For further confirmation of the diagnosis, the patient underwent repeat lung needle biopsy at Shanghai Pulmonary Hospital on Day +108.",
+          "why_order_this_exam": "The patient’s lesion continued to progress over several months, and the imaging features suggestive of malignancy became increasingly prominent, whereas the initial CT-guided lung biopsy yielded only necrosis and a small number of inflammatory cells, representing an insufficient diagnostic result; meanwhile, the response to anti-infective therapy and corticosteroid treatment was suboptimal, suggesting that the original explanation in the direction of inflammation/infection was not satisfactory. Therefore, repeat percutaneous lung biopsy was performed to obtain more representative lesional tissue and resolve the निर्णात्मक question of ‘infection, organizing inflammation, or tumor.’ In clinical practice, this procedure is used not only to establish a definitive diagnosis, but also to improve the positive yield by reselecting a more advanced, more solid target lesion, and to provide material for subsequent molecular pathology testing such as immunohistochemistry and EBER, thereby directly affecting the final diagnosis, staging, and selection of chemotherapy/immunotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology showed: CK (+), TTF-1 (SPT24) (-), Napsin A (-), P40 (+), CK5/6 (+), Vimentin (-), ZEB1 (-), SMA (-), Desmin (-), CD68 (-), Ki-67 (5%+), Syn (-), NUT (-), EBER (+).",
+          "why_order_this_exam": "After repeat biopsy, it is necessary to rely on systematic pathologic examination for morphologic and immunophenotypic interpretation of fresh tissue, because all prior noninvasive studies and the initial pathology information in this patient were unable to establish a definitive classification, while the lesion continued to progress, creating a high need for neoplastic evidence. The task of this pathologic examination is to determine whether this is an epithelial malignancy and to further distinguish adenocarcinoma, squamous differentiation, neuroendocrine tumor, sarcomatoid lesion, etc., while also integrating EBER to determine whether it is consistent with the rare type lymphoepithelioma-like carcinoma of the lung. The pathologic result is the core basis for the final diagnosis and also determines whether the patient will subsequently undergo advanced lung cancer staging evaluation and receive chemotherapy combined with immunotherapy, rather than continue empiric anti-infective or corticosteroid treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cell block embedding",
+          "basis_in_stage3_input": "(Right upper lobe) Cell block embedding: correlated with the H&E and immunohistochemistry results.",
+          "why_order_this_exam": "Because specimen acquisition was difficult multiple times and the initial puncture was nondiagnostic, the cytologic/histologic material obtained from repeat puncture needs to be utilized as fully as possible. Cell block embedding can convert needle aspiration cytology material into a tissue section-like form, facilitating combined HE evaluation and multiple additional tests such as immunohistochemistry and EBER, and is particularly suitable for improving diagnostic efficiency when a rare pulmonary malignancy is suspected and the specimen volume is limited. This examination is intended to address how to complete adequate pathologic subtyping and exclude differential diagnoses under conditions of limited specimen volume, and it plays an important role in confirming pulmonary lymphoepithelioma-like carcinoma, reducing the need for repeat specimen acquisition, and providing a complete pathologic basis for subsequent treatment decisions.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After discharge, the patient was seen at Shanghai Pulmonary Hospital. Pathology consultation: (left lung needle biopsy) necrotic tissue with fibrous tissue hyperplasia and a small amount of inflammatory cell infiltration; special stains showed no evidence of specific pathogen infection; please correlate clinically. Immunohistochemistry: CK (epithelial cells+), Vimentin (mesenchymal cells+), LCA (lymphocytes+), CD68 (histiocytes+), ERG (-), TTF-1 (-), CK (-). Special stains: PAS (-), silver stain (-), reticulin stain (-), acid-fast stain (-). On Day +27, PMseq-DNA focal infection pathogen high-throughput genomic testing of the patient's paraffin section showed detection of Legionella pneumophila, sequence count 52635; Nocardia farcinica, sequence count 50; Aspergillus versicolor, sequence count 27; Candida tropicalis, sequence count 9. Viruses, Mycobacterium tuberculosis, Mycoplasma, Chlamydia, and Rickettsia were all not detected. On Day +31, anti-Legionella pneumophila IgM antibody was negative. On Day +50, repeat CT showed multiple irregular nodular opacities in both lungs, the largest located at the lung apex, with a long diameter of approximately 2.4 cm (increased compared with Day +16). On Day +99, repeat chest CT showed patchy mass-like high-density opacities in both lungs, progressed compared with prior imaging, more prominent in the left lung; the largest was approximately 3.2*2.8 cm, with lobulation and spiculation, and heterogeneous density; no enlargement of hilar or mediastinal lymph nodes; no pleural effusion. For further definitive diagnosis, the patient underwent repeat lung needle biopsy at Shanghai Pulmonary Hospital on Day +108. Pathology showed: CK (+), TTF-1 (SPT24) (-), Napsin A (-), P40 (+), CK5/6 (+), Vimentin (-), ZEB1 (-), SMA (-), Desmin (-), CD68 (-), Ki-67 (5%+), Syn (-), NUT (-), EBER (+). (right upper lobe) cell block embedding: correlated with HE and immunohistochemistry results.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjj98tUZTGqw8znCVbmImWWCuMZNaEh2ZoxULmcMfBWQRdlZXqWHeS91g/640?wx_fmt=png",
+          "near_text": "[IMAGE 11]",
+          "local_src": "cleaned_cases_image_cache/0cc8fa26936664b794b581f8c4c91cdec9732100.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjrUPYRzGK4jr0ORZDFJjflBSHnlvD6rlNxibibwXSoWa6RPXWmxus2QHw/640?wx_fmt=png",
+          "near_text": "Paraffin section PMseq-DNA high-throughput genomic testing for pathogens in focal infection detected Legionella pneumophila",
+          "local_src": "cleaned_cases_image_cache/2e2471159c3a458334db07df911cbd1df8f5c777.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjtpboXeyZwshSeKe5ORicysCNjvwbEtYrdauVMeAMr2rcXuU7xcNyqCA/640?wx_fmt=png",
+          "near_text": "Clarithromycin extended-release tablets were prescribed in the outpatient clinic",
+          "local_src": "cleaned_cases_image_cache/5c1ff6ffbe45199a741407edb0c7e96413f808d0.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjicD8oZ4Whfnd1vQJbppCKDn0ouX2mNF9u59TibNOfaPA3ia6x5xA33MaQ/640?wx_fmt=png",
+          "near_text": "For further confirmation of the diagnosis, the patient underwent repeat lung needle biopsy at Shanghai Pulmonary Hospital on Day +108.",
+          "local_src": "cleaned_cases_image_cache/a17f713df069e1d65a3582593c1ad9bf0e648e2f.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjZgnkyxKZ2UomhPMhDqBM0sUYopLrWOicTpZYg8uaFnr8ricpfd6aLonw/640?wx_fmt=png",
+          "near_text": "The patient was diagnosed with pulmonary lymphoepithelioma-like carcinoma",
+          "local_src": "cleaned_cases_image_cache/29dec7e29c019dd639b5d9a12b2b4d7afb5c29c2.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJQQ0ribic5slTAKLiamayQqjjdt18iaPGlEj9LR2p3xBCZAibO3o88cFr0a2vMlJM0HPFPdEoduiaUQLdQ/640?wx_fmt=png",
+          "near_text": "water in, water out",
+          "local_src": "cleaned_cases_image_cache/bf6442d818ad487a1b173d02303208dd5a71c227.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Lymphoepithelioma-like carcinoma of the lung (cTxNxM1a, stage IVA)",
+      "diagnostic_basis": [
+        "On Day +108, a repeat percutaneous lung biopsy was performed at Shanghai Pulmonary Hospital. Pathology showed: CK (+), TTF-1 (SPT24) (-), NapsinA (-), P40 (+), CK5/6 (+), Vimentin (-), ZEB1 (-), SMA (-), Desmin (-), CD68 (-), Ki-67 (5%+), Syn (-), NUT (-), EBER (+). (Right upper lobe) Cell block: based on the HE and immunohistochemistry results, lymphoepithelial carcinoma is favored."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with gemcitabine 1.6 g on days 1 and 5 + cisplatin 40 mg on days 2-4 + pembrolizumab 200 mg on day 1 for 6 cycles",
+        "After 6 cycles, maintenance therapy was given with pembrolizumab 200 mg on day 1."
+      ],
+      "treatment_response": [
+        "Treatment response evaluation: PR",
+        "Grade 1 gastrointestinal adverse reaction per CTCAE"
+      ]
+    }
+  }
+}

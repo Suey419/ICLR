@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "case_id": "case_91",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 62-year-old man with a history of hypertension, COPD, and coronary artery disease, with a history of PCI. In approximately 60 months before Day 0, he presented with fever, cough, and sputum production, and was diagnosed at an outside hospital with right lung adenocarcinoma; surgery was not possible because of poor pulmonary function. In approximately 59 months before Day 0, he underwent Gamma Knife treatment to the lung at an outside hospital, and in approximately 47 months before Day 0 received 3 cycles of chemotherapy with pemetrexed + carboplatin. After the 3rd cycle, the patient developed bone marrow suppression, and chemotherapy was discontinued. In approximately 37 months before Day 0, follow-up CT showed: the lesion in the right middle lobe was slightly smaller than 1 year earlier, with slightly clearer margins; pathologic fracture of the right 5th rib with possible invasion of the adjacent soft tissue. Multiple mildly enlarged lymph nodes in the mediastinum (stations 4R and 4L), slightly smaller than before. In approximately 29 months before Day 0, repeat follow-up CT showed: no significant change in the lesion in the right middle lobe; invasion of the right anterior 5th rib and adjacent subcutaneous soft tissue. Multiple new nodules in both lungs, concerning for metastases; multiple mediastinal lymph node metastases, further enlarged compared with before. Diagnosis: right lung adenocarcinoma, stage IV (T4N3M1c, metastases to both lungs, ribs, mediastinal and supraclavicular lymph nodes), status post radiotherapy and chemotherapy.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Recurrent/progressive right lung adenocarcinoma after treatment with metastases to multiple sites",
+          "supporting_evidence": [
+            "The text in the first stage explicitly documents the outside hospital diagnosis as \"right lung adenocarcinoma\"",
+            "Follow-up CT in approximately 37 months before Day 0 showed that the lesion in the right middle lobe still persisted, pathologic fracture of the right 5th rib with adjacent soft tissue invasion to be excluded, and multiple mildly enlarged mediastinal lymph nodes",
+            "Follow-up CT in approximately 29 months before Day 0 showed no significant change in the lesion in the right middle lobe, but multiple new nodules in both lungs, suspicious for metastatic tumors; multiple mediastinal lymph node metastases were further enlarged compared with previously.",
+            "The first-stage text has documented the diagnosis as \"Stage IV right lung adenocarcinoma (T4N3M1c metastases to both lungs, ribs, mediastinal and supraclavicular lymph nodes) after chemoradiotherapy\"",
+            "There is a pathologic rib fracture with invasion of the adjacent subcutaneous soft tissue, consistent with osseous metastasis from a malignant tumor."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary infectious lesions (such as bacterial infection, TB, or fungal infection) coexisting with or mimicking tumor progression",
+          "supporting_evidence": [
+            "The patient initially presented with \"fever, cough, and sputum production\"; infectious diseases need to be considered in the differential diagnosis at disease onset.",
+            "The patient has a history of chronic obstructive pulmonary disease and is prone to concurrent respiratory tract infections.",
+            "After chemoradiotherapy for a tumor, when the patient's general condition declines and multiple pulmonary nodules appear, infectious lesions still need to be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Follow-up CT after the first stage further emphasized persistent primary lesion in the right lung, newly developed multiple bilateral pulmonary nodules suspicious for metastases, enlarged mediastinal lymph node metastases, and invasion of the rib soft tissues; overall, the findings are more suggestive of malignant tumor progression.",
+            "In the first stage, no direct evidence supporting infection was provided, such as persistent fever, infectious laboratory markers, or improvement after anti-infective treatment."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Post-radiation therapy changes/radiation-induced lung injury or scar change",
+          "supporting_evidence": [
+            "The patient underwent pulmonary gamma knife treatment in approximately 59 months before Day 0.",
+            "CT in approximately 37 months before Day 0 showed that the lesion in the right middle lobe was slightly smaller than one year earlier, with slightly better-defined margins; the localized imaging changes could be confounded with post-treatment changes.",
+            "After prior radiotherapy, imaging abnormalities around the primary lesion need to be differentiated from residual or recurrent tumor."
+          ],
+          "opposing_evidence": [
+            "In approximately 29 months before Day 0, new multiple nodules appeared in both lungs, multiple mediastinal lymph nodes further enlarged, and there was rib/soft tissue invasion, which is difficult to explain solely by post-local radiotherapy changes.",
+            "Post-radiation changes are usually mainly confined to the irradiated area and cannot adequately explain the newly developed multiple nodules in both lungs."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Tumor marker testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy (EBUS-guided lymph node biopsy)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic testing (PD-L1 mRNA testing, targeted therapy drug-related gene mutation testing, chemotherapy drug efficacy-related testing)",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, tumor markers were first tested: CEA 9.67 ng/ml, CA125 82.06 U/ml, CY211 21.75 ng/ml; bronchoscopy: EBUS showed enlargement of the 4L, 11L, and 7 lymph node stations, and biopsy pathology of all three lymph node stations indicated metastatic poorly differentiated adenocarcinoma; genetic testing showed intermediate PD-L1 mRNA expression, with moderate sensitivity to anti-PD-L1 monoclonal antibody; no gene mutations related to targeted therapy drugs were detected; platinum agents showed moderate efficacy, cyclophosphamide, gemcitabine, and paclitaxel showed better efficacy, and pemetrexed showed poorer efficacy.",
+        "images": []
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Stage IV right lung adenocarcinoma (T4N3M1c metastases to both lungs, ribs, mediastinal and supraclavicular lymph nodes) after chemoradiotherapy",
+            "evidence": [
+              "Diagnosed before admission"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "immune checkpoint inhibitor-associated pneumonitis (CIP)",
+            "evidence": [
+              "Dyspnea and/or other respiratory symptoms occurring after ICIs treatment, with new exudative lesions identified on CT scan"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Infectious pneumonia",
+            "evidence": [
+              "Inflammation of the pulmonary parenchyma caused by infection with various pathogens"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Tumor hyperprogression",
+            "evidence": [
+              "After ICIs treatment, rapid disease progression occurred, manifested by an increase in tumor burden of more than 50% compared with before immunotherapy, and a tumor growth rate after immunotherapy more than 2 times the previous rate."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Stage IV right lung adenocarcinoma (T4N3M1c metastases to both lungs, ribs, mediastinal and supraclavicular lymph nodes) after chemoradiotherapy",
+        "evidence": [
+          "Diagnosed before admission"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "immune checkpoint inhibitor-associated pneumonitis (CIP)",
+        "evidence": [
+          "Dyspnea and/or other respiratory symptoms occurring after ICIs treatment, with new exudative lesions identified on CT scan"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Infectious pneumonia",
+        "evidence": [
+          "Inflammation of the pulmonary parenchyma caused by infection with various pathogens"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Tumor hyperprogression",
+        "evidence": [
+          "After ICIs treatment, rapid disease progression occurred, manifested by an increase in tumor burden of more than 50% compared with before immunotherapy, and a tumor growth rate after immunotherapy more than 2 times the previous rate."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Serum tumor markers",
+          "basis_in_stage3_input": "During the immunotherapy phase from approximately 28 months before Day 0 to approximately 21 months before Day 0, serum tumor markers showed CEA 6.97 ng/ml, CY211 12.58 ng/ml, and NSE 11.09 ng/ml",
+          "why_order_this_exam": "The patient has confirmed stage IV adenocarcinoma of the right lung, with prior metastases to both lungs, the ribs, mediastinal and supraclavicular lymph nodes, and imaging after approximately 29 months before Day 0 showed multiple new intrapulmonary nodules and further enlargement of mediastinal lymph nodes, suggesting a high tumor burden. Serum tumor markers are helpful for dynamically assessing tumor activity and treatment response in conjunction with prior baseline levels, and during immunotherapy and subsequent second-line treatment, they assist in determining whether the disease is relatively stable, progressing, or hyperprogressive. If chest tightness, dyspnea, new ground-glass opacities on imaging, or bilateral interstitial changes subsequently occur, dynamic changes in tumor markers may also serve as one of the adjunctive clues for distinguishing tumor progression from isolated immune-related pneumonitis/infection, and provide a reference for subsequent efficacy assessment and treatment regimen adjustment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion tumor markers",
+          "basis_in_stage3_input": "Pleural effusion tumor markers: CEA 6.50 ng/ml, CY211 12.58 ng/ml",
+          "why_order_this_exam": "The patient has advanced lung adenocarcinoma. During the course of the disease, pleural effusion-related examination findings have already appeared, suggesting possible concomitant malignant pleural effusion. Pleural fluid tumor marker testing can be used to assess whether the pleural effusion is more likely of malignant or nonmalignant origin, and can be corroborated with serum markers, imaging findings, and cytology results. For patients like this case, with a prior subpleural lesion, adjacent rib invasion, and later development of chest tightness, shortness of breath, and dullness to percussion on physical examination, determination of the nature of the pleural effusion is directly related to re-confirmation of tumor staging, analysis of the cause of symptoms, and subsequent management strategy, including whether drainage, local control, or adjustment of systemic therapy is needed for malignant pleural effusion.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pleural effusion exfoliative cytology",
+          "basis_in_stage3_input": "Pleural fluid exfoliative cytology shows malignant tumor cells, suggestive of adenocarcinoma",
+          "why_order_this_exam": "Pleural effusion exfoliative cytopathology is important direct evidence for determining whether pleural effusion is malignant. The patient's primary disease is right lung adenocarcinoma, and there are already metastases at multiple sites. If malignant tumor cells are detected in the pleural fluid and suggest adenocarcinoma, pleural involvement/malignant pleural effusion can be confirmed, further supporting the diagnosis of advanced tumor dissemination. Compared with tumor markers alone, this test has greater pathologic value and can help exclude non-neoplastic pleural effusions such as purely infectious or cardiogenic effusions, and provide a basis for subsequent staging, prognostic assessment, and treatment strategy selection. When the patient later repeatedly develops symptoms such as dyspnea and chest tightness, clarifying whether the pleural effusion is tumor-related is particularly critical for explaining the source of symptoms and formulating a management plan.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "During the stage of immune therapy adverse reactions in approximately 11 months before Day 0, complete blood count showed WBC 10.47*10^9/L and neutrophil percentage 85.1%",
+          "why_order_this_exam": "During immunotherapy, the patient developed new pulmonary imaging abnormalities, such as a newly appeared ground-glass opacity in the right middle lobe, followed by bilateral interstitial changes in both lungs. Clinically, the patient had chest tightness, shortness of breath, and dry cough, requiring differentiation among immune-related pneumonitis, infectious pneumonia, and tumor progression. A complete blood count, especially changes in the white blood cell and neutrophil counts, can be used to assess whether there is a tendency toward infection and the intensity of the inflammatory response, and should be interpreted together with CRP, imaging changes, and treatment response. The patient previously developed bone marrow suppression after chemotherapy. If glucocorticoids, anti-infective therapy, or repeat systemic antitumor therapy are needed subsequently, a complete blood count is also a basic test for evaluating treatment tolerability and safety.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "In approximately 11 months before Day 0, during the phase of immune therapy adverse reactions, chest CT showed a new ground-glass opacity in the right middle lobe.",
+          "why_order_this_exam": "Chest CT is the core examination for assessing the condition in this case. The patient had a clear prior history of right lung adenocarcinoma and bilateral lung metastases. After immunotherapy, new ground-glass opacities appeared and then largely resolved after corticosteroid treatment, suggesting that the imaging changes were highly associated with immune therapy-related lung injury; however, in approximately 3 months before Day 0, newly developed bilateral interstitial changes appeared again, and on follow-up in around Day 0, enlargement of the right lung mass was again seen, along with new patchy opacities and nodular opacities in both lungs, indicating a complex condition that requires dynamic differentiation among CIP, infection, tumor progression, and even hyperprogression. Chest CT can assess the distribution, morphology, extent, and temporal change relative to prior lesions of new lesions; determine whether the ground-glass opacities/interstitial changes have resolved, worsened, or evolved; and simultaneously monitor the primary mass, subpleural lesions, and adjacent rib invasion, directly affecting whether to suspend immunotherapy and whether to administer corticosteroids, anti-infective therapy, or change the antitumor regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "basis_in_stage3_input": "In approximately 3 months before Day 0, during the stage of bilateral interstitial lung changes, the complete blood count showed a white blood cell count of 7.30*10^9/L, neutrophil percentage 69.4%, CRP 10.24mg/L, and chest CT showed newly developed bilateral interstitial lung changes, more prominent in the right upper lung; related Figure 4.",
+          "why_order_this_exam": "In approximately 3 months before Day 0, the patient developed chest tightness, dyspnea with slight exertion, and dry cough, accompanied by newly identified bilateral interstitial lung changes on chest CT, more pronounced in the right upper lung, but without fever, and without a significant elevation in leukocyte count on the complete blood count. Clinically, the key differential diagnoses were immune-related pneumonitis, infectious pneumonia, and tumor progression. CRP, as an indicator of inflammatory activity, can be used to assess whether infection or a significant inflammatory response is present, and should be interpreted comprehensively together with symptoms, complete blood count, CT findings, and the subsequent response to glucocorticoids/anti-infective treatment. Although elevated CRP is not specific, in the context of newly developed pulmonary changes after immunotherapy in this case, CRP is helpful for assessing the degree of inflammation, monitoring changes in the disease course and treatment response, and supporting decisions on whether to continue empiric anti-infective therapy, glucocorticoid treatment, and subsequent reassessment.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "During the immunotherapy phase from approximately 28 months before Day 0 to approximately 21 months before Day 0, serum tumor markers showed CEA 6.97ng/ml, CY211 12.58 ng/ml, and NSE 11.09ng/ml; pleural fluid tumor markers showed CEA 6.50ng/ml and CY211 12.58 ng/ml. Pathology of exfoliated cells in pleural fluid revealed malignant tumor cells, suggestive of adenocarcinoma; corresponding to Figure 2. In approximately 11 months before Day 0, during the phase of immunotherapy adverse reactions, routine blood test showed white blood cells 10.47*10^9/L and neutrophil percentage 85.1%; chest CT showed a new ground-glass opacity in the right middle lobe, corresponding to Figure 3a. In approximately 11 months before Day 0, during the post-steroid treatment follow-up phase, chest CT showed that the ground-glass opacity had basically resolved, corresponding to Figure 3b. During the second-line immunotherapy combined with chemotherapy phase from approximately 9 months before Day 0 to approximately 3 months before Day 0, chest CT showed no significant change in the right middle lobe lesion compared with before; PS score was 1. In approximately 3 months before Day 0, during the phase of bilateral pulmonary interstitial changes, routine blood test showed white blood cells 7.30*10^9/L and neutrophil percentage 69.4%, CRP 10.24mg/L; chest CT showed new bilateral pulmonary interstitial changes, more prominent in the right upper lung, corresponding to Figure 4. In around Day 0, during the tumor progression phase, chest CT showed that the right lung mass had increased in size compared with before, with new scattered patchy and nodular opacities in both lungs. In approximately 2 months after Day 0, during the terminal hospitalization phase, routine blood test showed white blood cells 7.30*10^9/L and neutrophil percentage 69.4%, CRP 10.24mg/L; chest CT showed a subpleural lesion in the right middle lobe and adjacent rib lesion, with no significant change compared with before.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLPHiaCHkEwfQ8HialOBAABZCmfMAwttTekfiaUBhyuEk4UgWkN3cicX4oTP6ewaOFiaSzFQ996ObzuGFw/640?wx_fmt=png",
+          "near_text": "Figure 1",
+          "local_src": "cleaned_cases_image_cache/bcd0b869133378a1f42259862cd47663117b306a.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLPHiaCHkEwfQ8HialOBAABZCnFNUvvx2StqQxNKzA7AXm2RPZbibVLEUTRKv5wiakw2EVicRvqNU48E4Q/640?wx_fmt=png",
+          "near_text": "Figure 2",
+          "local_src": "cleaned_cases_image_cache/a5314c2812ff95f68b0ebb17d7f7fc9699136d18.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLPHiaCHkEwfQ8HialOBAABZCWBRO2OEg7t253qd1UDRZhv9nSiaoRYkjrY6ia4jlTJaba6hWJWazPWibQ/640?wx_fmt=png",
+          "near_text": "Figure 3a",
+          "local_src": "cleaned_cases_image_cache/274aad8b9713d4d475028a999ce5814d3e272a52.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLPHiaCHkEwfQ8HialOBAABZC9AKLia7oicLM4EfUn1MSEqvxKlfkoWtqD6jWwKsfAvZ6UMLHYTibN1rFQ/640?wx_fmt=png",
+          "near_text": "Figure 3b",
+          "local_src": "cleaned_cases_image_cache/903e6b5d1701e3cdfb1ea9bbd53e9c3ba312ee24.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLPHiaCHkEwfQ8HialOBAABZCpNYic0rlVO48PYvNDmaY9Zwh6ZiaFJbk5icnn27un5jwicy5AcLVRfHy9w/640?wx_fmt=png",
+          "near_text": "Figure 4",
+          "local_src": "cleaned_cases_image_cache/7688668b1630418e0caf424c099802bad0988db7.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Stage IV right lung adenocarcinoma (T4N3M1c, metastases to both lungs, ribs, mediastinal and supraclavicular lymph nodes), bilateral interstitial changes in both lungs, tumor hyperprogression",
+      "diagnostic_basis": [
+        "In late period, approximately 3 months before Day 0, the patient developed chest tightness, shortness of breath with slight exertion, accompanied by dry cough, without fever. Physical examination showed dullness to percussion over the left lower lung, and wheezing was heard in the left lung. Complete blood count showed white blood cells 7.30*10^9/L, neutrophil percentage 69.4%, C-reactive protein 10.24mg/L. Chest CT indicated a subpleural lesion in the right middle lobe and adjacent rib lesion, with no significant change compared with before. New bilateral interstitial changes were noted in both lungs, more prominent in the right upper lung.",
+        "In around Day 0, follow-up CT showed that the right lung mass had increased in size compared with before, with new scattered patchy opacities and nodular shadows in both lungs; the patient's tumor was considered to have progressed."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Immune checkpoint inhibitor therapy was held, and the patient was hospitalized for empiric anti-infective therapy and corticosteroid treatment.",
+        "Starting Day 0, anlotinib 12 mg orally was administered",
+        "Anlotinib was temporarily discontinued; linezolid was given for anti-infective treatment, SMZ for Pneumocystis pneumonia prophylaxis, along with symptomatic supportive treatment including expectorant and antiasthmatic therapy, anticoagulation, improvement of cardiac function, and immune enhancement."
+      ],
+      "treatment_response": [
+        "After discontinuation of the immune checkpoint inhibitor and treatment with anti-infective therapy and corticosteroids, repeat CT showed that the right lung mass had increased in size compared with previously, with new scattered patchy and nodular opacities in both lungs; tumor progression was assessed.",
+        "During treatment with anlotinib, the patient's cough, sputum production, and chest tightness recurred, and the condition was not effectively controlled; subsequently, the patient was readmitted due to worsening symptoms.",
+        "After symptomatic and supportive treatment, the patient's condition continued to worsen, and the patient ultimately died after discharge against medical advice."
+      ]
+    }
+  }
+}

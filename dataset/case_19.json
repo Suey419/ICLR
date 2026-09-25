@@ -1,0 +1,392 @@
+{
+  "status": "success",
+  "case_id": "case_19",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Patient Wei, a 70-year-old farmer, was admitted with a chief complaint of chest tightness and shortness of breath after exertion for more than 2 years, worsening for 1 month. More than 2 years ago, the patient developed chest tightness and shortness of breath after exertion, which worsened when the weather turned cold or after a common cold. There was no chest pain or hemoptysis, and no fever, cough, or sputum production. At the local county people’s hospital, he was diagnosed with \"asthma, pleural effusion\" and was given symptomatic treatment, but the above symptoms did not improve. He later presented to our hospital, where chest CT showed right pleural effusion and bilateral pulmonary inflammation; echocardiography showed biatrial enlargement, uniform thickening of the left ventricular wall, and mild mitral and tricuspid regurgitation. Thoracentesis showed a transudative effusion. Pleural effusion secondary to heart failure was considered, and he was treated with nebulization, anti-infective therapy, myocardial nutritional therapy, diuresis, and other treatments, with improvement and discharge. The discharge diagnoses were: 1. ACO 2. Coronary artery disease, cardiac insufficiency 3. Hypertrophic cardiomyopathy? Thereafter, the patient underwent multiple follow-up evaluations at local hospitals, all of which found bilateral pleural effusions, more prominent on the right. Symptoms could be relieved after symptomatic treatment such as diuresis and antiasthmatic therapy. More than 1 month ago, the above symptoms of chest tightness and shortness of breath worsened, accompanied by bilateral lower extremity edema, abdominal distension, and poor appetite. He again presented to the local county people’s hospital, where chest CT showed massive right pleural effusion, small left pleural effusion, and bilateral pulmonary inflammation. \"Right thoracentesis and drainage\" was performed. Pleural fluid examination showed a transudative effusion, with daily drainage of 800-1000 ml. The etiology was unclear, and he was admitted to our hospital for further diagnostic evaluation and treatment. Past medical history: diagnosed with \"coronary artery disease\" in around Day 0, and has been taking aspirin and atorvastatin regularly for a long time. Personal history, marital/reproductive history, and family history were unremarkable. Physical examination on admission: T 36.5℃, P 138 beats/min, R 20 breaths/min, BP 115/66 mmHg. The patient was conscious, with a chronically ill appearance. Large areas of purpura were visible on the skin of both upper extremities, the neck, and the anterior chest. Barrel chest, with slightly widened intercostal spaces. Breath sounds were decreased at both lower lungs, with no dry or wet rales or pleural friction rub heard in either lung. Tachycardia, regular rhythm, heart rate 138 beats/min, with no murmur heard in any valve auscultation area. Pitting edema of both lower extremities. Auxiliary examinations: routine blood test, routine stool test, infectious disease screening, coagulation tests, myocardial enzymes, renal function, blood lipids, and electrolytes showed no obvious abnormalities; liver function: gamma-glutamyl transferase 107 U/L, total protein 52.5 g/L, albumin 32.2 g/L; BNP: 5556.89 pg/ml, troponin I 0.197 μg/L; T-SPOT negative; tumor markers: CEA 6.42 ng/ml, CA125 77.65 U/ml; urinalysis: occult blood 3+, protein 1+. Thyroid function: FT3 3.53 pmol/L, FT4 7.17↓ pmol/L, TSH 48.540↑ μIU/ml. Chest CT showed bilateral pulmonary inflammation, bilateral pleural effusions, enlarged cardiac silhouette, pericardial effusion, and slight mediastinal lymph node enlargement. Echocardiography showed: biatrial enlargement, uniform thickening of the left ventricular wall, mild mitral and tricuspid regurgitation, pulmonary hypertension (mild), decreased left ventricular diastolic function, pericardial effusion (small amount), and tachycardia during arrhythmia assessment; pleural ultrasound: bilateral pleural effusions (massive on the right); hepatobiliary-pancreatic-splenic ultrasound showed no abnormalities; thyroid ultrasound: diffuse echogenic changes of the thyroid gland.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIgyhmOK9w148OL31XuBHItsQTSWZ2A4Ma44XYCI6eIGeOQqWdwB3CwuwIu1IdcPv6nQPAXSCPpxA/640?wx_fmt=png",
+          "near_text": "Figure 1: cutaneous purpura",
+          "local_src": "cleaned_cases_image_cache/b502487bcdc4c2bf27e921d94a3d9b9bc5a44603.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIgyhmOK9w148OL31XuBHItKjNAj5zEN1lEXQwzUyHfqHPDjgLACgibnDXQYL1V8c9XsU1UOlj0zYw/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest CT (after right pleural puncture and catheter placement)",
+          "local_src": "cleaned_cases_image_cache/afc55bfc35c64e6fbed4e9b3c9a492ada41adf47.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pleural effusion due to congestive heart failure (predominantly right-sided heart failure/global heart failure)",
+          "supporting_evidence": [
+            "Thoracentesis of the pleural effusion showed a transudate, and pleural effusion secondary to heart failure had previously been considered.",
+            "Recurrent bilateral pleural effusions, more pronounced on the right; symptoms can be relieved after diuresis",
+            "When symptoms worsened more than 1 month ago, they were accompanied by bilateral lower extremity edema, abdominal distension, and poor appetite, suggesting systemic venous congestion.",
+            "BNP: 5556.89 pg/mL, markedly elevated",
+            "Chest CT showed bilateral pleural effusions, enlarged cardiac silhouette, and pericardial effusion",
+            "Color Doppler echocardiography showed biatrial enlargement, trace mitral and tricuspid regurgitation, impaired left ventricular diastolic function, and mild pulmonary hypertension.",
+            "Physical examination showed bilateral lower extremity pitting edema and decreased breath sounds in both lower lungs",
+            "The accompanying chest CT shows a large pleural effusion compressing the adjacent lung tissue."
+          ],
+          "opposing_evidence": [
+            "Pleural effusion has been recurrent over the long term, with a marked right-sided predominance; heart failure alone cannot fully explain its refractoriness and marked asymmetry.",
+            "No obvious moist rales, and the respiratory symptoms are mainly chest tightness and wheezing; signs of pulmonary congestion are not prominent."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Restrictive cardiomyopathy/infiltrative cardiomyopathy (cardiac amyloidosis should be a primary consideration)",
+          "supporting_evidence": [
+            "An elderly patient with recurrent refractory pleural effusion accompanied by pericardial effusion, lower extremity edema, and abdominal distension, suggesting possible restrictive filling impairment",
+            "Echocardiography showed biatrial enlargement, uniform thickening of the left ventricular wall, and decreased left ventricular diastolic function, more consistent with an infiltrative or restrictive cardiomyopathy phenotype.",
+            "BNP was markedly elevated, suggesting significant cardiac involvement",
+            "Physical examination and the attached images show extensive purpura/ecchymoses on both upper extremities, the neck, and the anterior chest; infiltrative systemic diseases may be associated with cutaneous purpura.",
+            "Chest CT showed cardiomegaly and pericardial effusion"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Severe hypothyroidism-related serous cavity effusions (pleural effusion/pericardial effusion)",
+          "supporting_evidence": [
+            "Thyroid function tests showed FT4 7.17↓pmol/L and TSH 48.540↑μIU/ml, supporting marked hypothyroidism.",
+            "Thyroid color Doppler ultrasonography showed diffuse echogenic changes in the thyroid gland",
+            "Chest CT and echocardiography both indicated pericardial effusion; hypothyroidism can cause effusions in multiple serous cavities",
+            "Recurrent bilateral pleural effusions, with transudative pleural fluid; hypothyroidism can cause transudative or hypoproteinemia-related effusions",
+            "Clues associated with fatigue, such as poor appetite, abdominal distension, and edema, may be seen in hypothyroidism or in the state of cardiac function impairment complicated by it"
+          ],
+          "opposing_evidence": [
+            "The patient's heart rate was 138 beats/min; bradycardia is more commonly a typical manifestation of hypothyroidism, and this case is atypical.",
+            "The phase 1 information did not describe typical symptoms of hypothyroidism such as cold intolerance, constipation, and somnolence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Manifestations of right-sided heart failure related to constrictive pericarditis or pericardial disease",
+          "supporting_evidence": [
+            "There are bilateral lower extremity edema, abdominal distension, and pleural effusion, consistent with manifestations of right-sided heart failure/venous congestion.",
+            "Chest CT and color Doppler echocardiography both indicated pericardial effusion",
+            "Recurrent refractory pleural effusions, especially more pronounced on the right, can be seen in hemodynamic abnormalities related to pericardial disease",
+            "Color Doppler echocardiography showed biatrial enlargement and decreased left ventricular diastolic function"
+          ],
+          "opposing_evidence": [
+            "The first stage showed only a small amount of pericardial effusion, with no evidence provided of pericardial thickening, calcification, or definite constrictive hemodynamics.",
+            "More compelling evidence still points to heart failure/cardiomyopathy itself"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Malignant pleural effusion (lung cancer, metastatic tumor, or lymphoma, etc.)",
+          "supporting_evidence": [
+            "The patient is of advanced age, with recurrent pleural effusion and a large right-sided effusion, with persistent daily drainage of 800-1000 ml; a neoplastic lesion should be suspected.",
+            "Chest CT showed slight enlargement of the mediastinal lymph nodes",
+            "Tumor markers: CEA: 6.42 ng/ml, CA125: 77.65 U/ml, elevated",
+            "Chest CT showed inflammatory changes in both lungs, but a large pleural effusion may obscure underlying pulmonary or pleural lesions",
+            "The attached chest CT shows a large pleural effusion."
+          ],
+          "opposing_evidence": [
+            "Pleural fluid analysis showed a transudate, not supporting typical malignant pleural effusion",
+            "During the first stage, chest pain, hemoptysis, marked weight loss, or fever were not described",
+            "Bilateral effusions accompanied by obvious cardiac abnormalities and lower extremity edema are more readily explained by cardiogenic or systemic causes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Transudative pleural effusion caused by systemic factors such as hypoproteinemia/renal disease",
+          "supporting_evidence": [
+            "Total protein 52.5 g/L, albumin 32.2 g/L, with hypoproteinemia",
+            "Urinalysis showed occult blood 3+ and protein 1+, suggesting possible evidence of renal involvement.",
+            "The pleural effusion is a transudate, and bilateral lower extremity edema and abdominal distension may be exacerbated by hypoproteinemia.",
+            "Bilateral pleural effusions consistent with an effusion pattern due to systemic factors"
+          ],
+          "opposing_evidence": [
+            "The degree of hypoalbuminemia is relatively limited and, by itself, is insufficient to explain the large, recurrent pleural effusions.",
+            "No significant abnormalities in renal function were found; urine protein was only 1+, which does not support a typical state of massive protein loss.",
+            "There are also significant cardiac structural and functional abnormalities and markedly elevated BNP, making a cardiogenic cause more likely."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pleural fluid routine analysis, biochemical analysis, and exfoliative cytology examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the whole abdomen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound for Budd-Chiari syndrome",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis virus",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoimmune hepatitis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulins and complement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ceruloplasmin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Dermatology consultation",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, pleural fluid was sent for testing. Routine pleural fluid cell count: 247×10^6/L; pleural fluid biochemistry: LDH 136 U/L, protein 10.8 g/L, ADA: 13 U/L, CEA: 1.21 ng/ml. Pleural fluid exfoliative cytology showed a moderate number of lymphocytes, a small number of mesothelial cells, and phagocytic cells. Contrast-enhanced CT of the whole abdomen was performed, and the CT results showed imaging findings of cirrhosis, a small amount of ascites, exudative changes in the abdominopelvic cavity, and thickening of the rectal wall, considered inflammatory. Further evaluation including color Doppler ultrasound for Budd-Chiari syndrome, hepatitis virus testing, autoimmune liver disease testing, immunoglobulins and complement, ceruloplasmin, and other tests showed no abnormalities. Dermatology consultation considered the diagnosis to be senile purpura.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIgyhmOK9w148OL31XuBHItNZ0bGuhvOibiaR0icoOwp1H6tGn2vKlZdlZw3lSHDW7gLA92tfspyKbiaw/640?wx_fmt=png",
+            "near_text": "Figure 3: Abdominal CT",
+            "local_src": "cleaned_cases_image_cache/8ba0b20a65820bc22dfc7ddaf618de55f8ac2d7a.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Congestive heart failure",
+            "evidence": [
+              "Elevated BNP and echocardiography findings support heart failure"
+            ],
+            "exclusion_reasons": [
+              "After 5 days of cardiotonic, diuretic, and anti-asthmatic treatment, although BNP decreased from 5556.89 pg/ml to 2689 pg/ml, 800-1000 ml of light yellow pleural fluid could still be drained daily, the chest tightness was not relieved, and abdominal distention progressively worsened."
+            ]
+          },
+          {
+            "name": "Hypertrophic cardiomyopathy",
+            "evidence": [
+              "Color Doppler echocardiography showed uniform thickening of the left ventricular wall"
+            ],
+            "exclusion_reasons": [
+              "The thickness of the left ventricular wall and the interventricular septum did not exceed 15 mm; a definitive diagnosis cannot be made."
+            ]
+          },
+          {
+            "name": "Liver cirrhosis",
+            "evidence": [
+              "Abdominal CT showed findings suggestive of cirrhosis, with predominantly right-sided pleural effusion"
+            ],
+            "exclusion_reasons": [
+              "On multiple liver function tests, albumin was consistently above 30 g/L, which does not support pleural effusion caused by hypoproteinemia.",
+              "No portal hypertension, ceruloplasmin was normal, and repeated ascites examinations showed only a trace amount of ascites."
+            ]
+          },
+          {
+            "name": "Renal pleural effusion (nephrotic syndrome, glomerulonephritis, renal failure, dialysis)",
+            "evidence": [
+              "Urinalysis: protein 1+"
+            ],
+            "exclusion_reasons": [
+              "Renal function is normal; nephrotic syndrome cannot be diagnosed based on the 24-hour urinary protein quantification, and there is no significant hypoproteinemia."
+            ]
+          },
+          {
+            "name": "Hypothyroidism",
+            "evidence": [
+              "Thyroid function tests showed FT3 3.53 pmol/L, FT4 7.17↓ pmol/L, TSH 48.540↑ μIU/ml",
+              "Thyroid color Doppler ultrasonography showed diffuse changes in thyroid echogenicity"
+            ],
+            "exclusion_reasons": [
+              "No typical clinical symptoms of hypothyroidism, such as cold intolerance, sparse hair, nail fissures, fatigue, somnolence, poor memory, cognitive decline, slowed responsiveness, or the characteristic facies of hypothyroidism.",
+              "Symptomatic treatment with Euthyrox provided no symptom relief."
+            ]
+          },
+          {
+            "name": "Autoimmune diseases (such as systemic lupus erythematosus, dermatomyositis, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Autoimmune disease was ruled out by serum immunologic testing"
+            ]
+          },
+          {
+            "name": "Malignant neoplasm with multiple metastases",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Repeated pleural fluid pathology showed no tumor cells, tumor markers were negative, and repeated chest and abdominal CT as well as color Doppler ultrasound showed no suspicious tumor lesions."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Congestive heart failure",
+        "evidence": [
+          "Elevated BNP and echocardiography findings support heart failure"
+        ],
+        "exclusion_reasons": [
+          "After 5 days of cardiotonic, diuretic, and anti-asthmatic treatment, although BNP decreased from 5556.89 pg/ml to 2689 pg/ml, 800-1000 ml of light yellow pleural fluid could still be drained daily, the chest tightness was not relieved, and abdominal distention progressively worsened."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypertrophic cardiomyopathy",
+        "evidence": [
+          "Color Doppler echocardiography showed uniform thickening of the left ventricular wall"
+        ],
+        "exclusion_reasons": [
+          "The thickness of the left ventricular wall and the interventricular septum did not exceed 15 mm; a definitive diagnosis cannot be made."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Liver cirrhosis",
+        "evidence": [
+          "Abdominal CT showed findings suggestive of cirrhosis, with predominantly right-sided pleural effusion"
+        ],
+        "exclusion_reasons": [
+          "On multiple liver function tests, albumin was consistently above 30 g/L, which does not support pleural effusion caused by hypoproteinemia.",
+          "No portal hypertension, ceruloplasmin was normal, and repeated ascites examinations showed only a trace amount of ascites."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Renal pleural effusion (nephrotic syndrome, glomerulonephritis, renal failure, dialysis)",
+        "evidence": [
+          "Urinalysis: protein 1+"
+        ],
+        "exclusion_reasons": [
+          "Renal function is normal; nephrotic syndrome cannot be diagnosed based on the 24-hour urinary protein quantification, and there is no significant hypoproteinemia."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hypothyroidism",
+        "evidence": [
+          "Thyroid function tests showed FT3 3.53 pmol/L, FT4 7.17↓ pmol/L, TSH 48.540↑ μIU/ml",
+          "Thyroid color Doppler ultrasonography showed diffuse changes in thyroid echogenicity"
+        ],
+        "exclusion_reasons": [
+          "No typical clinical symptoms of hypothyroidism, such as cold intolerance, sparse hair, nail fissures, fatigue, somnolence, poor memory, cognitive decline, slowed responsiveness, or the characteristic facies of hypothyroidism.",
+          "Symptomatic treatment with Euthyrox provided no symptom relief."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Autoimmune diseases (such as systemic lupus erythematosus, dermatomyositis, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Autoimmune disease was ruled out by serum immunologic testing"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant neoplasm with multiple metastases",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Repeated pleural fluid pathology showed no tumor cells, tumor markers were negative, and repeated chest and abdominal CT as well as color Doppler ultrasound showed no suspicious tumor lesions."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Serum immunoelectrophoresis",
+          "basis_in_stage3_input": "Serum immunoelectrophoresis: IgG lambda positive",
+          "why_order_this_exam": "The patient is 70 years old and has had recurrent chest tightness and shortness of breath on exertion for more than 2 years, with marked worsening over the past 1 month, along with persistent large-volume transudative pleural effusion, bilateral lower extremity edema, and abdominal distention. The condition still could not be explained after routine treatment for heart failure, pulmonary infection, liver disease, kidney disease, hypothyroidism, etc. At the same time, there were clues to multisystem involvement, including biatrial enlargement, uniform thickening of the left ventricular wall, decreased diastolic function, pericardial effusion, markedly elevated BNP, skin purpura, and urine protein/occult blood, suggesting that systemic amyloidosis related to a monoclonal plasma cell disorder should be a key focus of evaluation. Serum immunoelectrophoresis is used to look for monoclonal immunoglobulin components in the blood and determine whether M protein is present and its type, thereby addressing the key clinical question of whether the patient has a light chain- or immunoglobulin-related clonal disorder. This test helps support AL amyloidosis, distinguish it from simple heart failure or nonclonal infiltrative disease, and provide a basis for whether to proceed with bone marrow examination and for selection of a hematology chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine Bence Jones protein electrophoresis",
+          "basis_in_stage3_input": "Urine Bence Jones protein electrophoresis: lambda positive",
+          "why_order_this_exam": "In addition to refractory pleural effusion and manifestations of cardiac involvement, the patient also had urine routine findings of protein 1+ and occult blood 3+, suggesting possible concomitant renal involvement. Given the advanced age, recurrent transudative serous cavity effusions, a myocardial infiltration phenotype, and purpura, it is necessary to further determine whether there is free light chain excretion. The purpose of urine Bence Jones protein electrophoresis is to detect monoclonal light chains in the urine and to address whether the patient has a light chain-secreting plasma cell disorder and whether it is related to renal and systemic organ involvement. This test corroborates serum immunoelectrophoresis and can improve recognition of AL amyloidosis, help distinguish proteinuria due to simple cardiac and renal dysfunction from light chain-related disease, and provide an important basis for subsequent bone marrow evaluation, disease typing, and selection of clonal plasma cell-targeted therapy such as bortezomib.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac MRI",
+          "basis_in_stage3_input": "Cardiac MRI: myocardial involvement, mildly reduced left ventricular function, diffuse thickening of the interventricular septum and diffuse enhancement of the walls of both atria and ventricles, suggesting possible cardiac amyloidosis.",
+          "why_order_this_exam": "The patient had long-term chest tightness and wheezing, recurrent pleural effusions, and on admission had a markedly elevated BNP of 5556.89 pg/ml and elevated troponin I. Echocardiography showed biatrial enlargement, uniform thickening of the left ventricular wall, impaired diastolic function, and a small pericardial effusion. After routine diuretic and cardiotonic therapy, pleural fluid drainage still remained 800-1000 ml daily, suggesting that this was not merely ordinary congestive heart failure and that restrictive/infiltrative cardiomyopathy should be strongly considered. Cardiac MRI can perform myocardial tissue characterization, determine whether diffuse myocardial infiltration is present and its extent, and clarify whether the left ventricular wall thickening is due to hypertrophic cardiomyopathy, myocardial edema, fibrosis, or amyloid deposition. This examination is most valuable for identifying cardiac amyloidosis; it can explain the mechanism of refractory pleural effusion and cardiac insufficiency, assess the severity of cardiac involvement and prognosis, and influence subsequent treatment risk assessment and the intensity of supportive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body diffusion-weighted (PET-like) imaging, non-contrast scan",
+          "basis_in_stage3_input": "Whole-body diffusion (PET-like) imaging plain scan: bilateral posterior pleural effusions; small bilateral hip and knee joint effusions; mild swelling of the visualized subcutaneous soft tissues of the cervical, thoracic, lumbar, and sacral regions, chest and abdominal wall, bilateral hips, bilateral buttocks, bilateral thighs, and bilateral lower legs.",
+          "why_order_this_exam": "During the course of the disease, in addition to pleural effusion, the patient also developed bilateral lower extremity edema, abdominal distention, a small amount of ascites, pericardial effusion, as well as cutaneous purpura and urinary abnormalities, suggesting a possible systemic disease rather than an isolated local cardiopulmonary lesion. Earlier pleural fluid cytology, tumor-related examinations, and abdominal examinations did not reveal definite evidence of malignancy, but assessment of the extent of involvement from a systemic perspective and a search for occult lesions are still needed. The purpose of whole-body diffusion imaging is to determine whether there are extensive abnormal signal changes or exudative changes in soft tissues, serous cavities, and around bones and joints throughout the body, in order to address whether the disease has a systemic distribution and whether metastatic malignancy or other systemic infiltrative diseases should still be considered. This examination helps support the multi-organ involvement pattern of systemic amyloidosis, exclude pleural effusion caused predominantly by a focal malignant lesion, and provide a reference for subsequent biopsy site selection, disease staging, and comprehensive treatment decision-making.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "abdominal fat aspiration biopsy",
+          "basis_in_stage3_input": "Abdominal fat aspiration biopsy was performed. Pathologic diagnosis: a small amount of scattered eosinophilic material was seen in the adipose tissue, Congo red stain positive.",
+          "why_order_this_exam": "In the context of monoclonal light-chain findings, cardiac MRI suggesting possible myocardial amyloidosis, and concomitant pleural effusion, pericardial effusion, soft tissue edema, and evidence of renal involvement, systemic amyloidosis was already highly suspected clinically, but definitive diagnosis still required histologic evidence. Abdominal fat aspiration biopsy is a relatively minimally invasive, lower-risk sampling method, and is particularly suitable for this patient, who has heart failure, refractory effusions, and poor overall condition, to address the central diagnostic question of whether amyloid deposition is truly present in the tissue. This examination can obtain pathologic evidence with lower procedural risk, avoiding direct high-risk organ biopsy, and is crucial for confirming systemic amyloidosis, excluding simple nonspecific edema or other infiltrative lesions, and proceeding as soon as possible to subsequent typing and treatment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Congo red staining",
+          "basis_in_stage3_input": "Abdominal fat aspiration biopsy was performed. Pathologic diagnosis: a small amount of scattered eosinophilic material was seen in the adipose tissue, Congo red stain positive.",
+          "why_order_this_exam": "After specimen collection by abdominal fat aspiration biopsy, the nature of the red-staining material seen on routine pathology alone could not be determined. Because the patient also had multisystem abnormalities clinically and there was a strong suspicion of amyloidosis, confirmation by a specific pathologic method was needed. The purpose of Congo red staining was to determine whether the tissue deposits were amyloid protein and to resolve whether amyloidosis could obtain pathologic confirmation. In this case, a positive Congo red stain would unify such scattered clues as refractory pleural effusion, a restrictive cardiomyopathy phenotype, skin purpura, and urinary abnormalities within the same disease framework, and would be the key evidence for the diagnosis of systemic amyloidosis; at the same time, it would help exclude ordinary fibrosis, hyaline degeneration, or other non-amyloid deposits, laying the foundation for further determination of the AL type in combination with immunologic and bone marrow examinations and for formulation of a chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "basis_in_stage3_input": "Bone marrow aspiration and biopsy were performed: the proportion of plasma cells was increased, accounting for 6%, with occasional binucleated plasma cells; bone marrow flow cytometry showed abnormal clonal plasma cells, accounting for 3.1%.",
+          "why_order_this_exam": "The patient already has positive blood and urine monoclonal light chain-related results and histologically confirmed amyloid deposition; therefore, the next key step is to determine whether the source of the amyloid protein is related to an abnormal bone marrow plasma cell clone. Bone marrow aspiration and biopsy are used to assess the proportion of bone marrow plasma cells, morphologic abnormalities, and the degree of bone marrow involvement, in order to determine whether the patient has clonal plasma cell proliferation and whether the criteria for multiple myeloma or the related plasma cell disorder spectrum are met. This examination can further establish the etiologic basis for classifying the systemic amyloidosis as AL type, help differentiate it from non-AL amyloidosis, and directly affect treatment pathway selection, such as whether to refer to hematology, whether to use a bortezomib-based regimen, and prognosis assessment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bone marrow cell flow cytometry",
+          "basis_in_stage3_input": "Bone marrow flow cytometry showed abnormal clonal plasma cells, accounting for 3.1%.",
+          "why_order_this_exam": "On the basis of bone marrow morphology, the patient still requires further confirmation as to whether the plasma cells have immunophenotypic clonality, because the clinical manifestations are predominantly systemic organ involvement, and the proportion of bone marrow plasma cells may not be high, but they may still drive AL amyloidosis. The purpose of bone marrow flow cytometry is to identify an abnormal plasma cell population and determine its clonality and proportion, thereby addressing whether there is a pathologic plasma cell clone that can explain the abnormal blood and urine light chains and tissue amyloid deposition. In this case, this examination can improve detection sensitivity, supplement the limitations of bone marrow aspiration and biopsy, support the etiologic diagnosis of AL amyloidosis, exclude reactive plasmacytosis, and provide a basis for subsequent hematology chemotherapy regimen planning, treatment response monitoring, and risk stratification.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further related examinations were completed. Serum immunoelectrophoresis: IgG lambda positive; urine Bence Jones protein electrophoresis: lambda positive. Cardiac MRI: myocardial involvement disease, mildly reduced left cardiac function, diffuse thickening of the left ventricular septal wall and diffuse enhancement of the bilateral atrial and ventricular walls, suggesting possible cardiac amyloidosis. Whole-body diffusion (PET-like) plain imaging: bilateral posterior pleural effusions; small amounts of fluid in the bilateral hip joint cavities and knee joint cavities; mild swelling of the subcutaneous soft tissues of the visualized cervical, thoracic, lumbar, and sacral regions, thoracoabdominal wall, bilateral hips, bilateral buttocks, bilateral thighs, and bilateral calves. Abdominal fat aspiration biopsy was performed; pathologic diagnosis: a small amount of scattered red-staining material was seen in the adipose tissue, Congo red stain positive. Bone marrow aspiration and biopsy were performed: increased proportion of plasma cells, accounting for 6%, with occasional binucleated plasma cells; bone marrow flow cytometry showed abnormal clonal plasma cells, accounting for 3.1%.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIgyhmOK9w148OL31XuBHItRAeBga8984ZcTzVu6HxSLPY1hxcbibfEhiatZ6vnBB0dIsbwovgAemvA/640?wx_fmt=png",
+          "near_text": "Figure 4: adipose tissue, Congo red stain (+)",
+          "local_src": "cleaned_cases_image_cache/95a9265c9b7d7597b80b0942222066af81c68aad.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Primary systemic AL amyloidosis",
+      "diagnostic_basis": [
+        "Diagnosis confirmed by abdominal fat aspiration biopsy (Congo red stain positive)",
+        "Serum immunoelectrophoresis: IgG lambda positive",
+        "Urine Bence Jones protein electrophoresis: lambda positive"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Transferred to the hematology department and given bortezomib chemotherapy",
+        "Primarily supportive therapy"
+      ],
+      "treatment_response": [
+        "Poor prognosis"
+      ]
+    }
+  }
+}

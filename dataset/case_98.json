@@ -1,0 +1,477 @@
+{
+  "status": "success",
+  "case_id": "case_98",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Female, 71 years old, engaged in farming year-round, chief complaint: \"back pain and joint pain for 2 years, worsening for 2 weeks, fever for 1 week\"; admitted in approximately 6 months after Day 0 to the Department of Pulmonary and Critical Care Medicine, Xiangya Hospital, Central South University. In approximately 22 months before Day 0, the patient first developed low back pain, with pain in the proximal finger joints of both hands, both wrists, and elbow joints, and was admitted to our hospital's rheumatology department. After completion of the workup, polymyalgia rheumatica was considered, and she was treated with prednisone 15 mg/day and methotrexate 15 mg/week; her symptoms improved and she was discharged. After discharge, the patient continued regular oral prednisone 15 mg/day and methotrexate 15 mg/week. Two years later, around Day +152, the patient again developed shoulder and back pain. On Day +159, she developed fever without obvious precipitating cause, accompanied by paroxysmal dry cough. She presented to our hospital this time and was admitted to the rheumatology ward with \"polymyalgia rheumatica, pulmonary infection.\" Past medical history: denied history of TB, diabetes mellitus, coronary heart disease, etc. Personal history, marital and reproductive history, and family history were unremarkable. Physical examination: T 37.2 ℃, P 118 beats/min, R 22 breaths/min, BP 149/95 mmHg, respirations slightly rapid, no dry or wet rales heard in either lung. No obvious positive findings on cardiac or abdominal examination, and no edema of both lower extremities. Ancillary examinations: chest CT before admission (Figure 1). Review of the patient's previous records: outside hospital CT on Day 0 (Figure 3), outside hospital CT on Day +27 (Figure 4). Admission diagnoses: 1. Polymyalgia rheumatica; 2. Multiple bilateral pulmonary lesions, nature to be determined: fungal infection? lung cancer? TB?",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOxFFfj685WUtiaJICePPfRYzoHIib9auvEtBVuFyGPecVwa0OicQYkY4LA/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/e7c4b9646547a2d180c255d3013fdc4be24336de.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOhcSvjzpAic90ujSicP4pGImIX3wTNnewzfBdZkExoL2e5ibwicOMic7NWUg/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Chest CT on Day +168",
+          "local_src": "cleaned_cases_image_cache/a5ac8ad7f8e9a1c276a2fa1321fd77d4c4f9b3e6.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtONLLRNxVpSZk3neibbO2fZ4pwQJIPxKibeSDPMVmVtMaIhFQMmWLVH5Fg/640?wx_fmt=jpeg",
+          "near_text": "Figure 3: Outside hospital CT on Day 0",
+          "local_src": "cleaned_cases_image_cache/0f06c4d2b0482490cdebdefe03632ee89a0279af.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtO9iamV1jWExg2WX5xnCWYhK5oYSR8e3HhOfLsXHkNo4libuPHqzmMjHicQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: Outside hospital CT on Day +27",
+          "local_src": "cleaned_cases_image_cache/a9357ba55ed953fb5a3ad2c91f398bd5f67ca5e9.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary fungal infection (including invasive pulmonary fungal disease)",
+          "supporting_evidence": [
+            "The patient has a background of immunosuppression due to long-term regular oral prednisone 15 mg/day combined with methotrexate 15 mg/week.",
+            "This episode is characterized by fever and paroxysmal dry cough, consistent with manifestations of an infectious pulmonary disease.",
+            "Chest CT images show multiple lesions in both lungs, presenting as multiple patchy/nodular opacities with a bilateral distribution, rather than a single focal lesion.",
+            "On the admission diagnosis, “fungal infection?” was listed as one of the possible etiologies of the multiple bilateral pulmonary lesions."
+          ],
+          "opposing_evidence": [
+            "At the first-stage physical examination, no dry or moist rales were heard in either lung, and there were no obvious signs of pulmonary consolidation.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The patient is a 71-year-old elderly woman, and long-term use of glucocorticoids and methotrexate increases the risk of TB infection or reactivation.",
+            "Systemic and respiratory symptoms including fever and dry cough",
+            "Chest CT images show multiple lesions in both lungs, with multiple patchy/nodular opacities; TB can present as multifocal lesions.",
+            "\"TB?\" was listed as one of the differential diagnoses on admission."
+          ],
+          "opposing_evidence": [
+            "Past history: explicitly denies a history of pulmonary tuberculosis",
+            "In the first-stage imaging, there was no explicit description of highly typical cavitation, tree-in-bud pattern, or a clear upper-lobe-predominant distribution."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Lung adenocarcinoma/lung cancer (including multifocal lung cancer or pneumonic-type lung cancer)",
+          "supporting_evidence": [
+            "Advanced age, 71 years old",
+            "Chest CT images showed multiple lesions in both lungs, with some lesions appearing patchy or nodular; malignant lesions require a high degree of vigilance.",
+            "The imaging is not simply typical acute lobar consolidation, and follow-up outside-hospital CT studies from around Day 0 and approximately 1 month after Day 0 suggest that the lesions may not be due solely to a very short-term acute infection.",
+            "\"Lung cancer?\" had already been listed in the admission diagnoses as one of the conditions of undetermined nature"
+          ],
+          "opposing_evidence": [
+            "The current symptoms began with 1 week of fever and paroxysmal dry cough, favoring an infectious presentation.",
+            "In the first stage, no information was provided regarding hemoptysis, weight loss, a significant smoking history, or pleural effusion that would more strongly support lung cancer."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Community-acquired pneumonia/atypical pathogen pneumonia",
+          "supporting_evidence": [
+            "On Day +159, the patient developed fever without an obvious precipitating cause, accompanied by paroxysmal dry cough, consistent with a common presentation of pneumonia onset.",
+            "Mild tachypnea, R 22 breaths/min, suggesting respiratory system involvement",
+            "Chest CT images show multiple patchy lesions in both lungs, which may be seen in infectious pneumonia, especially with atypical pathogens or bronchopneumonia.",
+            "Admitted to the rheumatology ward with a diagnosis of \"pulmonary infection\""
+          ],
+          "opposing_evidence": [
+            "On physical examination, no dry or moist rales were heard in either lung; body temperature was only 37.2℃, lacking typical signs of severe pneumonia.",
+            "The patient has prior chest CT studies from around Day 0 and approximately 1 month after Day 0, suggesting that the pulmonary abnormalities may not be entirely due to a newly developed acute infection."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Methotrexate-related lung injury/drug-induced pneumonia",
+          "supporting_evidence": [
+            "The patient had been treated with methotrexate 15 mg/week for approximately two years.",
+            "Drug-induced lung injury may present with fever, dry cough, and shortness of breath, partially consistent with the patient’s current symptoms.",
+            "Chest CT images show multiple patchy lesions in both lungs; drug-induced pneumonitis may present as bilateral diffuse or multifocal opacities"
+          ],
+          "opposing_evidence": [
+            "After long-term regular medication use, the patient's previous symptoms improved; the first stage did not indicate any recent dose increase or recent medication changes.",
+            "There is currently an immunosuppressive background, and the more common and more dangerous causes remain infectious etiologies first."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia (secondary or cryptogenic) / rheumatism-related inflammatory lung lesions",
+          "supporting_evidence": [
+            "The patient has an underlying rheumatic disease and has been receiving long-term immunomodulatory therapy.",
+            "Symptoms include fever, dry cough, and mild shortness of breath, which may be seen in organizing pneumonia.",
+            "Chest CT images show multiple peripheral patchy lesions in both lungs, with imaging features that overlap to some extent with organizing pneumonia"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no clear evidence of rheumatic disease activity was provided that could directly explain the pulmonary lesions.",
+            "The patient also has a significant risk of infection, and infectious etiologies should be prioritized at the current stage."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "U-CMV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "V-EBV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "respiratory nine-pathogen panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum (1,3)-β-D-glucan assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside fiberoptic bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid (BALF) acid-fast staining",
+          "requirement": "required"
+        },
+        {
+          "exam": "X-PERT",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF culture",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On the morning of Day +168, high fever developed, with body temperature up to 39℃, worsening shortness of breath, and respiratory rate reaching about 35 breaths/min. A repeat non-contrast and contrast-enhanced chest CT was performed immediately (Figure 2). On Day +170, the patient's shortness of breath further worsened. Arterial blood gas analysis showed: pH 7.47, PCO2 30 mmHg, PO2 52 mmHg, FiO2 60%. At 10 AM, the patient was transferred to the respiratory ICU. After admission, the diagnoses were: (1) severe pneumonia (2) polymyalgia rheumatica. Ancillary examinations: Day +168: WBC 6.5×10^9, N 4.8×10^9, Hb 114 g/L, PLT 184×10^9, L 0.4×10^9. Day +170: WBC 7.3×10^9, N 5.1×10^9, Hb 104 g/L, PLT 169×10^9, L 0.6×10^9.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOL2NliaUX3XBUgBIRicF55YPlUaEnHx4YWDMAKgaHDYo5ibrMlGDDx7Ymg/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Chest CT on Day +168",
+            "local_src": "cleaned_cases_image_cache/fc89c35a0151361c6811b2b662523f43a5aa198f.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Polymyalgia rheumatica",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "Multiple lesions in both lungs",
+              "Long-term use of glucocorticoids and immunosuppressants"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "lung cancer",
+            "evidence": [
+              "Multiple lesions in both lungs"
+            ],
+            "exclusion_reasons": [
+              "Tumor markers negative"
+            ]
+          },
+          {
+            "name": "tuberculosis",
+            "evidence": [
+              "Multiple lesions in both lungs"
+            ],
+            "exclusion_reasons": [
+              "T-SPOT negative",
+              "BALF acid-fast stain negative",
+              "X-PERT negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Polymyalgia rheumatica",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "Multiple lesions in both lungs",
+          "Long-term use of glucocorticoids and immunosuppressants"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "tuberculosis",
+        "evidence": [
+          "Multiple lesions in both lungs"
+        ],
+        "exclusion_reasons": [
+          "T-SPOT negative",
+          "BALF acid-fast stain negative",
+          "X-PERT negative"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Viral infection",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "ESR",
+          "basis_in_stage3_input": "ESR 117mm/h",
+          "why_order_this_exam": "The patient has been on long-term oral prednisone combined with methotrexate and is therefore an immunosuppressed host; this episode presented with fever and dry cough, and progressed within a short period to high fever, marked dyspnea, respiratory failure, and transfer to the RICU, suggesting an active inflammatory/infectious process. ESR is helpful for assessing the systemic inflammatory burden and for integrated differentiation from activity of her underlying polymyalgia rheumatica and infectious lesions. Although ESR is nonspecific, when the nature of multiple bilateral lung lesions is unclear and differentiation is needed among infection, rheumatic disease-related lung injury, and tumor, it can serve as a baseline marker of disease activity and for subsequent follow-up of therapeutic response.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP",
+          "basis_in_stage3_input": "CRP 116mg/l",
+          "why_order_this_exam": "The patient had 1 week of fever and paroxysmal dry cough, followed by a temperature rising to 39℃, progressively worsening dyspnea, and development of hypoxemia, suggesting a marked acute inflammatory response. CRP can rapidly reflect the intensity of inflammation and help determine that the current pulmonary lesions are more consistent with active infection rather than simple chronic tumor or inactive lesions; when combined with imaging findings of multiple bilateral lung lesions and disease progression, it can be used to assess the severity of infection and dynamic changes after treatment, and is valuable for monitoring the response to anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "basis_in_stage3_input": "PCT <0.05ng/ml",
+          "why_order_this_exam": "The patient is critically ill, presenting with high fever, a respiratory rate of approximately 35 breaths/min, and a marked decrease in PaO2. It is necessary to differentiate whether this is typical severe bacterial pneumonia, atypical pathogen infection, or opportunistic infection. PCT is helpful in assessing the likelihood of bacterial infection and whether there is a tendency toward bacteremia/severe bacterial infection. This patient's PCT is very low, which is inconsistent with the high fever and severe clinical presentation, suggesting insufficient evidence for typical bacterial infection, thereby prompting further etiologic evaluation for fungi, Pneumocystis, TB, and other opportunistic infections, and providing a basis for selection of the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "basis_in_stage3_input": "T-SPOT negative",
+          "why_order_this_exam": "The patient is of advanced age and has long-term use of glucocorticoids and methotrexate, increasing the risk of TB infection or reactivation; additionally, there are fever, dry cough, and multiple nodular/patchy lesions in both lungs, so TB was one of the important differential diagnostic considerations at admission. T-SPOT was used to assess the likelihood of TB infection, particularly as a screening tool when differentiation from fungal infection, lung cancer, and rheumatic disease-associated lung disease is needed. Although a negative result cannot completely exclude TB, in combination with subsequently negative BALF acid-fast stain and negative X-PERT, it can significantly reduce the likelihood of TB as the primary cause and reduce unnecessary empiric anti-TB treatment tendency.",
+          "requirement": "required"
+        },
+        {
+          "exam": "U-CMV-DNA",
+          "basis_in_stage3_input": "U-CMV-DNA 944.8IU/ml",
+          "why_order_this_exam": "After long-term immunosuppressive therapy, the patient developed progressive pulmonary infection and rapidly progressed to severe hypoxemic respiratory failure. Opportunistic viral infection should be included in the evaluation, especially CMV, which in immunocompromised hosts can cause fever and pulmonary interstitial/diffuse lesions, and can coexist with other pathogens as a mixed infection. The purpose of testing U-CMV-DNA is to screen for evidence of CMV replication, help determine whether there is current viral involvement in the illness, whether more targeted virologic evaluation is needed, and assist in explaining the mismatch between ground-glass changes on imaging and severe hypoxemia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "V-EBV-DNA",
+          "basis_in_stage3_input": "V-EBV-DNA 985.2 copies/ml",
+          "why_order_this_exam": "The patient has a history of long-term exposure to corticosteroids and methotrexate; in the setting of impaired cellular immunity, viral reactivation should be considered. EBV-DNA testing is primarily used to assess whether viral replication or reactivation is present, to help explain fever and the systemic inflammatory response, and to evaluate for a virus-related process in the differential diagnosis of multiple bilateral pulmonary lesions. Although EBV is usually not the primary cause of the severe pulmonary manifestations in this case, when routine bacterial cultures are negative, imaging findings are complex, and the condition is rapidly progressive, completing this test may help identify mixed infection or virologic clues related to immunosuppression.",
+          "requirement": "required"
+        },
+        {
+          "exam": "respiratory nine-pathogen panel",
+          "basis_in_stage3_input": "Respiratory pathogen 9-panel test: negative",
+          "why_order_this_exam": "The patient's initial presentation included fever, dry cough, and shortness of breath. Imaging showed multiple bilateral lung lesions. Clinically, common respiratory pathogens should first be ruled out, especially atypical pathogens and common viral/bacterial infections. The respiratory nine-pathogen panel can rapidly narrow the range of pathogens when the condition deteriorates quickly, helping determine whether this is common community-acquired pneumonia or atypical pneumonia. Negative results, together with subsequently low PCT and negative blood and sputum cultures, reduced the likelihood of common respiratory pathogen infection and prompted further bronchoscopy and deep pathogen testing of BALF.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "basis_in_stage3_input": "Viral panel: negative",
+          "why_order_this_exam": "The patient developed severe pneumonia in the setting of immunosuppression, and the imaging showed ground-glass opacities, with rapid disease progression and marked hypoxemia; viral pneumonia or mixed infection with viral involvement must be investigated. A comprehensive viral panel helps systematically exclude common viral pathogens and avoid missing viral infections that can cause diffuse lung injury. Negative results lower the likelihood of uncomplicated common viral pneumonia; together with subsequent positive mycologic results, this more strongly supports opportunistic mixed fungal infection rather than common viral infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "Blood culture, sputum culture: negative",
+          "why_order_this_exam": "The patient previously developed high fever of 39℃ and respiratory failure and was admitted to the intensive care unit; severe bacterial pneumonia complicated by bacteremia or disseminated infection should be considered. The purpose of blood culture is to identify bloodstream infection pathogens, assess whether there is bacterial/fungal infection requiring targeted escalation or adjustment of antimicrobial therapy, and help determine severity and the risk of infectious dissemination. A negative result, together with low PCT and subsequent BALF microbiology results, provided insufficient support for typical hematogenous disseminated bacterial infection, prompting further focus on localized opportunistic pulmonary infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "basis_in_stage3_input": "Blood culture, sputum culture: negative",
+          "why_order_this_exam": "The patient has fever, dry cough, progressive dyspnea, and multiple bilateral lung lesions. Sputum culture is one of the routine tests in the initial etiologic evaluation of pulmonary infection, used to identify common bacteria, some fungi, and other pathogens. The question this test is intended to address is whether there is currently a routine respiratory pathogen that can explain severe pneumonia, thereby guiding empiric anti-infective therapy. Because the sputum culture was negative in this case, and the patient's imaging findings and immunosuppressed background suggest that an opportunistic infection is more likely, subsequent bronchoscopy is needed to obtain a higher-quality BALF specimen for in-depth etiologic testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum (1,3)-β-D-glucan assay",
+          "basis_in_stage3_input": "Serum G test >600 pg/ml",
+          "why_order_this_exam": "The patient had been on long-term glucocorticoid therapy combined with methotrexate and had a significant risk of opportunistic fungal infection; this episode of fever and rapidly progressive dyspnea with hypoxemia, together with chest imaging showing multiple bilateral pulmonary lesions and ground-glass opacities, was highly suggestive of invasive fungal infection or Pneumocystis infection. The serum G test is used to detect fungal cell wall components and helps provide early supportive evidence of fungal infection when cultures are negative or the pathogen is unclear, especially with high suggestive value for Pneumocystis pneumonia. Its marked elevation prompted intensified clinical evaluation for fungal infection, especially Pneumocystis, and it can also be used for dynamic post-treatment monitoring; subsequent decline was also consistent with effective treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "GM assay 0.19 μg/L",
+          "why_order_this_exam": "In the setting of immunosuppression, the patient developed severe pulmonary infection, and invasive mold infections such as aspergillosis should be included in the key differential diagnosis. The GM test is mainly used to assess whether Aspergillus-related infection is present. When the blood G test is elevated and the imaging findings are complex, it can help further refine determination of the fungal spectrum. In this patient, the GM was not elevated, suggesting insufficient support for typical invasive aspergillosis. This helps direct subsequent focus toward etiologic confirmation of Pneumocystis and other fungal pathogens, and also helps avoid concentrating treatment direction excessively on Aspergillus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside fiberoptic bronchoscopy",
+          "basis_in_stage3_input": "On the afternoon of Day +170, the patient underwent bedside fiberoptic bronchoscopy while wearing a noninvasive ventilator mask.",
+          "why_order_this_exam": "By Day +170, the patient's dyspnea had further worsened. Arterial blood gas showed marked hypoxemia, with PaO2 only 52 mmHg on FiO2 60%, meeting the criteria for severe pneumonia, and the patient was transferred to the RICU. At this time, routine blood tests, sputum studies, and imaging still could not identify the pathogen, while the condition was critical and the immunosuppressive background was strong, so a high-quality lower respiratory tract specimen had to be obtained as soon as possible. Bedside fiberoptic bronchoscopy, performed under close monitoring and noninvasive ventilatory support, could directly visualize the airway, assess for purulent secretions or tumor obstruction, and provide a key specimen for BALF pathogen testing; it was the core examination to address the unknown pathogen and guide precise treatment. At the same time, its procedural risk in a hypoxemic patient also needed to be weighed, so it was chosen to be performed at the bedside and completed under respiratory support.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid (BALF) pathogen testing",
+          "basis_in_stage3_input": "Collect bronchoalveolar lavage fluid (BALF) for pathogen testing",
+          "why_order_this_exam": "The patient's condition is progressing rapidly. Routine sputum culture, blood culture, the respiratory nine-pathogen panel, and the comprehensive viral panel have all failed to provide an etiologic answer; however, the patient's long-term immunosuppression, markedly elevated G test, and multiple lesions and ground-glass opacities on chest CT all suggest a high probability of opportunistic infection. BALF pathogen testing can obtain deep alveolar specimens and better reflect the true pathogen than sputum specimens, and is especially suitable for the diagnosis of Pneumocystis, Cryptococcus, TB, and other difficult-to-detect pathogens. The clinical goal of this test is to identify the causative microorganism as soon as possible, exclude opportunistic infections missed by routine testing, and provide direct evidence for whether to continue or adjust the antifungal/anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF acid-fast stain",
+          "basis_in_stage3_input": "BALF acid-fast stain: negative",
+          "why_order_this_exam": "TB was one of the major differential diagnostic considerations from the time of admission because the patient was elderly, had long-term treatment with corticosteroids and methotrexate, and had fever, dry cough, and multiple lesions in both lungs. Acid-fast staining of BALF is closer to the site of the lesions than sputum specimens and is helpful for further seeking evidence of mycobacteria when sputum culture and other tests are negative. This test was mainly used to determine whether the current multiple pulmonary lesions were caused by active pulmonary TB. Although a negative result cannot absolutely exclude it, together with a negative T-SPOT and a negative X-PERT, it constitutes relatively strong evidence against TB and significantly lowers the probability of a TB diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "X-PERT",
+          "basis_in_stage3_input": "X-PERT: negative",
+          "why_order_this_exam": "In immunosuppressed patients, TB may present atypically, and it is often difficult to distinguish it from fungal infection, tumor, or rheumatic disease-related lung disease based on clinical presentation and imaging alone. X-PERT is used for rapid detection of Mycobacterium tuberculosis nucleic acid in BALF specimens, which can improve the efficiency of identifying active TB and provide important evidence for whether to initiate anti-TB treatment early in critically ill patients. In this patient, a negative X-PERT result, together with negative BALF acid-fast staining and a negative T-SPOT, helped shift the diagnostic focus from TB to opportunistic fungal infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "basis_in_stage3_input": "GM test: negative",
+          "why_order_this_exam": "The patient is an immunocompromised host, and multiple bilateral pulmonary lesions rapidly progressed to severe pneumonia; invasive Aspergillus infection needs to be a key consideration in the differential workup. Compared with serum GM, BALF GM is usually more sensitive in focal pulmonary mold infection. Therefore, when blood G is elevated and serum GM is not typical, further testing of BALF GM helps determine whether Aspergillus or other related mold infection is present in the lungs. The purpose of this test is to clarify which fungus is causing the elevated blood G and whether anti-Aspergillus therapy needs to be included. A negative result provides less support for Aspergillus infection and helps shift etiologic attention to Pneumocystis and Cryptococcus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "basis_in_stage3_input": "Gomori methenamine silver stain: Pneumocystis jirovecii detected",
+          "why_order_this_exam": "The patient had long-term use of corticosteroids and methotrexate and developed high fever, progressive dyspnea, severe hypoxemia, and ground-glass opacities on chest imaging; this clinical combination is highly consistent with the common manifestations of Pneumocystis pneumonia. At the same time, the peripheral white blood cell count was not elevated, while lymphocyte count was decreased, which also supports the setting of an opportunistic infection. Gomori methenamine silver stain is an important direct etiologic method for identifying Pneumocystis, especially with critical confirmatory diagnostic value in BALF specimens. The core purpose of this test is to directly demonstrate whether Pneumocystis is present when routine culture and common pathogen screening are negative, thereby determining whether to administer targeted treatment such as trimethoprim-sulfamethoxazole; a positive result would ultimately directly support one of the principal diagnoses in this case.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "At this time, repeat chest CT showed: the previous ground-glass lesions had resolved, and the previous nodular and mass-like lesions had significantly increased in size (Figure 6).",
+          "why_order_this_exam": "The patient's pulmonary lesions were complex, and during the disease course rapidly progressed from common fever and dry cough to severe hypoxemic respiratory failure. Chest CT was crucial for dynamically assessing lesion evolution and determining the etiology and therapeutic response. The initial imaging showed ground-glass opacities, nodules, and mass-like lesions, which can be seen in opportunistic infections but also require differentiation from tumor, TB, and inflammatory lesions. The purpose of follow-up CT after treatment was to observe whether different types of lesions responded consistently to therapy, thereby identifying whether mixed lesions were present that could not be explained by a single pathogen. The results showed resolution of the ground-glass lesions but enlargement of the nodules and mass-like lesions, suggesting that this was not simply a single pathogen or a single disease process. This provided important imaging clues for the subsequent identification of mixed cryptococcal infection and directly affected the later adjustment of treatment from anti-Pneumocystis therapy alone to a regimen that also covered Cryptococcus.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF culture",
+          "basis_in_stage3_input": "BALF culture indicated: Cryptococcus neoformans.",
+          "why_order_this_exam": "Although Pneumocystis was identified on methenamine silver staining, the patient’s imaging did not show only diffuse ground-glass opacities; there were also nodular and mass-like lesions, and these lesions actually enlarged after the initial treatment, suggesting possible coinfection with another pathogen or a mixed infection. The purpose of BALF culture was to perform a more comprehensive etiologic identification of a deep lung specimen, especially to look for fungi that are difficult to distinguish on routine testing. The question this test aimed to answer was: aside from Pneumocystis, was there a second pathogen that could explain the progression of the nodular/mass-like lesions? After Cryptococcus neoformans was cultured, it not only explained the divergent evolution of the imaging findings, but also established the key diagnosis of mixed infection and directly determined the subsequent need to add antifungal therapy targeting Cryptococcus.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further relevant examinations were completed: ESR 117mm/h, CRP 116mg/l, PCT <0.05ng/ml, T-SPOT negative, U-CMV-DNA 944.8IU/ml, V-EBV-DNA 985.2 copies/ml, respiratory pathogen panel of nine: negative; comprehensive viral panel: negative; tumor markers: negative; blood culture and sputum culture: negative. Serum G test >600pg/ml, GM test 0.19μg/L. On the afternoon of Day +170, the patient underwent bedside fiberoptic bronchoscopy while wearing a noninvasive ventilator mask: bronchoscopic findings showed smooth bronchial mucosa at all levels, patent lumens, and no purulent secretions; bronchoalveolar lavage fluid (BALF) was collected for pathogen testing. On the morning of Day +171, the microbiology results were reported back: BALF acid-fast stain: negative; X-PERT: negative; GM test: negative; Gomori methenamine silver stain: Pneumocystis jirovecii was identified. After 5 days of treatment, the patient's dyspnea improved, oxygenation improved, and fever improved. After Day +171, there was no further fever. The G test result decreased to 223pg/ml. At this time, repeat chest CT showed: the original ground-glass opacities had been absorbed, and the original nodular and mass-like lesions had enlarged significantly (Figure 6). BALF culture suggested: Cryptococcus neoformans.",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOj7VGBmGRVwodNQzeAkQrxvtfiaiaFuNxejaFkjLV6ibH1PP4LWaWdtAuQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 5: Changes in oxygenation",
+          "local_src": "cleaned_cases_image_cache/881fdd618f46436385f8bf302bc2f44d8de56490.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOwLWZugAJYYyAwQZPa6zKAXKE45UhiaT9plFKReYjJnIvuw85I2x8UNw/640?wx_fmt=jpeg",
+          "near_text": "Figure 6: CT at our hospital on Day +175",
+          "local_src": "cleaned_cases_image_cache/4ec5a4133473e60b97a95fb4c6a889cc87c7cea5.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOInCrkGpAVEL2ZVfK8kUJbhSCXvEZ7icMBG12K52wIHSS3Q6F6Io3iaAA/640?wx_fmt=jpeg",
+          "near_text": "Figure 7: CT at our hospital on Day +191",
+          "local_src": "cleaned_cases_image_cache/7ce117f905ba9694c3e4093d505bda0bcf3b3672.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLoOSCcXvBOtCSQBY9IZrtOIu3rqDibzLRyILTNtFwqIHA65mYOMUWbprxDTXQe0EgK1EPdoCCOxOQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 8: CT at our hospital on Day +253",
+          "local_src": "cleaned_cases_image_cache/b19d5bc33f1a5e5107383a6c68091e369ed3f903.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Mixed infection with Pneumocystis jirovecii and Cryptococcus neoformans (severe pneumonia), polymyalgia rheumatica",
+      "diagnostic_basis": [
+        "Gomori methenamine silver stain: Pneumocystis jirovecii detected",
+        "BALF culture indicated: Cryptococcus neoformans"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Respiratory support therapy: noninvasive ventilator-assisted ventilation (V60, CPAP 10 cmH2O)",
+        "Anti-infective therapy: trimethoprim-sulfamethoxazole 1.44 g q6h, caspofungin loading dose 70 mg, followed by 50 mg qd, levofloxacin 0.5 g qd",
+        "Other symptomatic and supportive treatment: expectorant therapy, antitussive therapy, nutritional support",
+        "The face mask was removed and changed to high-flow nasal oxygen.",
+        "Awake prone-position ventilation under HFNC; for 3 consecutive days, 3 times daily, 1.5-2 hours each time",
+        "Change the treatment regimen to: trimethoprim-sulfamethoxazole 1.44 g q6h, fluconazole 0.4 qd"
+      ],
+      "treatment_response": [
+        "After 5 days of treatment, the patient's shortness of breath improved, oxygenation improved, and fever improved. There was no further fever after Day +171. The G test result decreased to 223 pg/ml.",
+        "Follow-up chest CT showed: the previously noted ground-glass lesions had resolved, and the previously noted nodular and mass-like lesions had increased significantly in size",
+        "The patient was ultimately discharged after clinical improvement, with regular outpatient follow-up.",
+        "The diagnosis has been established, and treatment has been effective. The patient is currently still under follow-up."
+      ]
+    }
+  }
+}

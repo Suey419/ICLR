@@ -1,0 +1,304 @@
+{
+  "status": "success",
+  "case_id": "case_89",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 60-year-old woman who was admitted to the Department of Pulmonary and Critical Care Medicine, Affiliated Jiangning Hospital of Nanjing Medical University, on Day 0, with the chief complaint of \"intermittent cough and blood-streaked sputum for more than 1 month.\" One month earlier, she developed cough and sputum production without an obvious precipitating cause. The sputum volume was small, mainly yellow-white sputum, which she was able to expectorate spontaneously, with a small amount of blood streaks in the sputum, accompanied by mild chest tightness after activity that was relieved by rest. Therefore, at the early stage of illness, the patient did not pay much attention to it and did not seek medical evaluation or treatment, and the symptoms persisted without improvement. On the day of admission to our hospital (Day 0), the amount of hemoptysis was slightly increased compared with before. Chest CT showed: a mass-like opacity in the left lower lobe, with slight narrowing of the adjacent bronchus. Multiple tiny nodules were also seen in both lungs. A low-density lesion was seen in the liver. Past medical history: the patient had a history of \"latent nephritis\" and a surgical history of \"adnexal cyst resection\" and \"colonic polyp EMR.\" Physical examination before admission: temperature 36.1℃, pulse 68/min, respiratory rate 18/min, blood pressure 110/67 mmHg. She was alert, the neck was supple, the trachea was midline, the thyroid was not enlarged, no enlargement of superficial lymph nodes was palpable throughout the body, the thorax was symmetric without deformity, bilateral respiratory movement was symmetric, and breath sounds in both lungs were slightly decreased with no obvious dry or wet rales heard.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLWMmiatCx4oG4hfldB7rLvt0LvX6tDWCKRawfHXPHnCicYliaTSUIdESFqsU2B7efqojibibA3Via1FFPQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT on Day 0.",
+          "local_src": "cleaned_cases_image_cache/2830af1f32d9eaa6a0724a849c13b995451b2945.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (left lower lobe, with bronchial involvement/obstructive changes)",
+          "supporting_evidence": [
+            "A 60-year-old woman presented with intermittent cough and blood-streaked sputum for more than 1 month; hemoptysis had increased compared with previously. Lung cancer is an important differential diagnosis for hemoptysis and persistent respiratory symptoms in this age group.",
+            "Chest CT showed a patchy mass-like opacity in the left lower lobe, with slight narrowing of the adjacent bronchus, suggesting the possibility of an occupying lesion or bronchial compression/invasion.",
+            "The accompanying phase I CT images show a solid mass-like opacity in the left lower lobe near the hilum/posterior basal segment region, morphologically suggesting the possibility of a neoplastic lesion.",
+            "Accompanied by mild chest tightness after activity, with symptoms persisting for 1 month without improvement, also supporting an organic pulmonary lesion"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Obstructive pneumonia or post-obstructive atelectasis (secondary to left lower lobe bronchial stenosis)",
+          "supporting_evidence": [
+            "The patient has cough and sputum production; the sputum is yellow-white, suggesting an inflammatory or infectious component of the airways.",
+            "Chest CT showed a mass-like opacity in the left lower lobe, with slight narrowing of the adjacent bronchus, consistent with the imaging basis for infectious consolidation or atelectasis distal to bronchial stenosis.",
+            "In the accompanying Phase 1 CT images, the lesion in the left lower lobe appears as a mass-like/consolidative opacity, located in the bronchial distribution, and its morphology can be seen in post-obstructive change."
+          ],
+          "opposing_evidence": [
+            "The course has been more than 1 month with no sustained improvement, warranting increased vigilance for an underlying obstructive etiology beyond simple infection.",
+            "On physical examination prior to admission, body temperature was 36.1℃, no obvious dry or wet rales were heard in either lung, and in the first-stage information, signs of systemic infection were not prominent."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Endobronchial tumor (such as carcinoid or other benign or malignant bronchial tumors)",
+          "supporting_evidence": [
+            "Hemoptysis or blood-streaked sputum as the main manifestations; endobronchial tumors often present with recurrent hemoptysis",
+            "Chest CT suggests slight narrowing of the adjacent bronchus, supporting stenosis caused by an endobronchial or peribronchial lesion",
+            "The accompanying first-phase CT images show a focal mass-like lesion in the left lower lobe, with a location consistent with bronchial involvement."
+          ],
+          "opposing_evidence": [
+            "Phase I information did not clearly describe an endobronchial nodule or obvious signs of atelectasis; the evidence remains nonspecific",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Cough, sputum production, and blood-streaked sputum/hemoptysis may be seen in pulmonary TB",
+            "In addition to a mass-like opacity in the left lower lobe, chest CT also showed multiple tiny nodules in both lungs; similar findings may be seen with disseminated TB or concomitant nodular lesions."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not mention TB constitutional symptoms such as fever, night sweats, or weight loss.",
+            "The lesion is located in the left lower lobe with slight narrowing of the adjacent bronchus and appears as a mass-like opacity; neoplastic or post-obstructive lesions should be considered first, and the findings in the first-stage data are insufficiently specific for TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Metastatic pulmonary tumor or pulmonary metastases with a primary lesion in the left lower lobe",
+          "supporting_evidence": [
+            "Chest CT suggests multiple tiny nodules in the remaining bilateral lungs, which may represent intrapulmonary metastatic lesions",
+            "Also suggests a low-density lesion in the liver; the possibility of extrapulmonary or intrapulmonary malignant tumor with hepatic lesion should be considered.",
+            "There is a mass-like lesion in the left lower lobe of the lung; malignant tumor-related lesions need to be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Past history includes only adnexal cyst excision and colon polyp EMR; no definite prior history of malignancy was provided in the first-stage information.",
+            "Tiny nodules in both lungs can also be seen in infectious or inflammatory lesions and are not specific to metastases."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Fungal lung infection",
+          "supporting_evidence": [
+            "Cough, sputum production, and blood-streaked sputum may be seen in some fungal pulmonary infections",
+            "Chest CT showed a mass-like opacity in the left lower lobe and multiple tiny nodules in both lungs; on imaging, these may overlap with fungal infection.",
+            "The focal consolidation/mass-like opacity in the left lower lobe on the attached phase 1 CT images cannot completely exclude an infectious lesion."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not indicate immunosuppression, long-term corticosteroid use, or other clear high-risk factors for fungal infection",
+            "There were no obvious infectious or toxic manifestations such as fever, and slight narrowing of the adjacent bronchus further suggests that neoplastic or obstructive lesions should be excluded as a priority."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Female tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Five thyroid function tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Panel of 7 lung cancer-related autoantibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function and electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "17 antinuclear antibody items",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-neutrophil antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Spiral CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pelvic CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "2D echocardiography",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, laboratory tests showed: WBC 7.51×10^9/L, N 75%, CRP 25.32 mg/L, PCT 0.31 ng/ml, ESR 39 mm/H. Female tumor marker panel, thyroid function panel (5 items), coagulation studies, D-dimer, 7 lung cancer-related autoantibody panel, stool routine, TB infection T-cell test, liver and kidney function and electrolytes, cryptococcal antigen, 17-item antinuclear antibody panel, and antineutrophil antibodies were normal. Spiral CT on Day +2 showed: left lower lobe mass with multiple exudative opacities, provisionally considered likely infectious lesion. Transient abnormal perfusion in the right hepatic lobe during the arterial phase. Multiple small hepatic cysts and multiple small cysts in the left kidney. Small right renal calculus. Pelvic CT scan showed no obvious abnormality. Two-dimensional transthoracic echocardiography on Day +2: mild mitral regurgitation. Mild tricuspid regurgitation. Mild aortic regurgitation.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLWMmiatCx4oG4hfldB7rLvticxn9MoAO5COkjOOribUdnPODIzNPyUqpMFibCB8r3lzwZM1DeOhO1UtQ/640?wx_fmt=png",
+            "near_text": "Figure 2: Spiral CT on Day +2, left lower lobe mass with multiple infiltrates.",
+            "local_src": "cleaned_cases_image_cache/04cf29824de9600cb314f54e7cad278c8faeb04c.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLWMmiatCx4oG4hfldB7rLvtKWmB8icXgmtlP2vObElw03Q91bslsRIP0L0g8nIHPZaJ29dplyxQsicg/640?wx_fmt=png",
+            "near_text": "Figure 3: Two-dimensional transthoracic echocardiogram on Day +2.",
+            "local_src": "cleaned_cases_image_cache/557003d13e28145db2059a509b37bf4116910eee.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Left lung mass",
+            "evidence": [
+              "Spiral CT on Day +2 showed: a mass in the left lower lobe with multiple infiltrates"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "Spiral CT on Day +2 showed: a mass in the left lower lobe with multiple exudative opacities; infectious lesion provisionally considered possible"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Left lung mass",
+        "evidence": [
+          "Spiral CT on Day +2 showed: a mass in the left lower lobe with multiple infiltrates"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary infection",
+        "evidence": [
+          "Spiral CT on Day +2 showed: a mass in the left lower lobe with multiple exudative opacities; infectious lesion provisionally considered possible"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was performed on Day +3: under painless sedation, a BF-F260 bronchoscope was introduced through the right nasal passage; glottic opening and closing were normal.",
+          "why_order_this_exam": "The patient is 60 years old, with persistent cough for more than 1 month, yellow-white sputum, blood-streaked sputum, and increased hemoptysis on the day of admission compared with previously. Chest CT showed a mass-like/consolidative lesion in the left lower lobe with slight narrowing of the adjacent bronchus. The immediate clinical need is to determine the source of bleeding and whether an endobronchial lesion is present. Bronchoscopy allows direct visualization of the central airway mucosa, luminal stenosis, obstruction, mass lesions, or active bleeding, which helps differentiate lung cancer, endobronchial tumor, post-obstructive infection, and simple inflammation, and can also simultaneously assess the feasibility and risk of subsequent biopsy, lavage, and ultrasound-guided sampling. In this case, with imaging suggesting a space-occupying lesion but only mild to moderate elevation of infection markers and routine tumor and TB screening not providing a definitive conclusion, bronchoscopy is the key gateway examination for further definitive diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endobronchial ultrasound examination",
+          "basis_in_stage3_input": "Changed to a BF-UC260FW endobronchial ultrasound bronchoscope and inserted through the right nasal passage; under EBUS, enlargement of station 7 lymph nodes was observed",
+          "why_order_this_exam": "In the setting of a left lower lobe mass, whether the mediastinal/hilar lymph nodes are involved is critical for differentiating benign from malignant disease and for determining the extent of the lesion. Chest CT showed a mass-like pulmonary lesion, but routine imaging cannot accurately distinguish reactive lymph node enlargement, infectious enlargement, or tumor metastasis; during the clinical course, there were also cough, hemoptysis, and elevated inflammatory markers, so both infection and tumor are possible. Endobronchial ultrasound can provide real-time assessment of the size, morphology, and echogenic characteristics of mediastinal and hilar lymph nodes, and after identifying enlargement of station 7 lymph nodes, precise needle sampling can be performed during the same procedure. The core clinical question of this examination is to determine whether mediastinal lymph node involvement is present and its nature, which is important for lung cancer staging, excluding a purely inflammatory reaction, and determining whether further antitumor treatment is needed or whether to continue searching for an infectious etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TBNA puncture",
+          "basis_in_stage3_input": "TBNA needle aspiration was performed at each enlarged lymph node and hypoechoic area.",
+          "why_order_this_exam": "The nature of the left lower lobe lesion is unclear. EBUS also identified enlargement of station 7 lymph nodes, and imaging alone cannot determine whether this represents tumor metastasis, TB/other infectious lymphadenitis, or reactive change. TBNA can directly obtain cytology/pathology specimens from the enlarged lymph nodes and hypoechoic lesion under ultrasound guidance, and is an important minimally invasive method for simultaneously characterizing the lesion and assessing the nature of the lymph nodes. In this case, this examination is mainly used to increase the detection rate of malignant tumors and to complete mediastinal staging; it can also provide material for infectious etiologic testing. If the result is negative and shows only inflammatory changes, it would help reduce the likelihood of lung cancer metastasis and prompt continued clinical investigation for the cause of special infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "Pathology report: (Group 7 lymph node biopsy) Lymphocytic infiltration is seen in coagulated tissue, with a small amount of cartilage tissue present. (Left lower lobe lesion biopsy) The submitted lung tissue shows acute and chronic inflammation, focal alveolar space congestion and a small amount of exudate, and mild widening of the alveolar septa with fibrosis in some areas. (Left lower lobe basal segment biopsy) Scattered lymphocytes are seen in the submitted coagulated tissue, with a small amount of columnar epithelium and cartilage tissue present.",
+          "why_order_this_exam": "The most critical clinical dilemma in this case is that imaging shows a pulmonary mass/space-occupying lesion accompanied by hemoptysis; clinically, malignant tumors such as lung cancer must first be excluded, but an infectious lesion is also possible. Pathologic examination is the core basis for histologic characterization and can determine whether there are malignant tumor cells, granulomas, necrosis, specific infection, or only acute and chronic inflammation and fibrotic changes. In this case, pathology showed that the left lower lobe lesion was predominantly acute and chronic inflammation, alveolar congestion and exudation, and mild fibrosis, and did not provide histologic evidence of tumor, which is crucial for shifting the diagnostic direction from a malignant space-occupying lesion to an infectious/inflammatory lesion, and also directly affects whether to continue anti-infective treatment and whether further repeat tissue sampling or molecular pathogen testing is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Exfoliative cytology",
+          "basis_in_stage3_input": "Cytology report: No malignant tumor cells were seen in the aspirate from station 7 lymph node. No atypical tumor cells were seen in the lavage fluid from the left lower lobe. No malignant tumor cells were seen in the aspirate from the lesion in the left lower lobe.",
+          "why_order_this_exam": "The patient's symptoms were predominantly hemoptysis and blood-streaked sputum, and the imaging also showed a mass-like lesion. The main role of cytologic examination is to further screen for malignancy, especially when biopsy tissue is limited or sampling may have missed the lesion; exfoliative cytology of lavage fluid, aspirated fluid, and lymph node aspirates can serve as an important supplement. This examination can search for malignant cells from different sites and help assess whether the lesion is lung cancer and whether the mediastinal lymph nodes have been involved. In this case, cytology from multiple sites showed no malignant tumor cells, which corroborated the pathology finding of no definite evidence of malignancy, helping to reduce the likelihood of malignancy and prompting the clinical focus to shift toward identifying special infectious pathogens and selecting an anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF next-generation sequencing test",
+          "basis_in_stage3_input": "BALF next-generation sequencing: 43 sequences of Tropheryma whipplei.",
+          "why_order_this_exam": "Although the patient had a mass-like lesion in the left lower lobe and hemoptysis, the routine infectious disease workup was limited: TB T-cell testing, cryptococcal antigen, and other studies were all normal; pathology showed only acute and chronic inflammation; and neither cytology nor lymph node aspiration revealed malignant tumor cells, indicating that prior conventional methods had not explained the etiology of this mass-like lesion. BALF metagenomic next-generation sequencing is appropriate for broad-spectrum detection of rare, difficult-to-culture, or atypical pathogens when routine culture, smear, cytology, and histopathology are inconclusive. The core question this test was intended to address was whether the pulmonary mass-like lesion was caused by a special infection, thereby avoiding misdiagnosing an infection as a tumor. Tropheryma whipplei was ultimately detected, providing key etiologic evidence for confirming Whipple disease-related pulmonary infection; this also directly guided subsequent adjustment of the anti-infective regimen and explained the subsequent treatment response, including gradual radiographic absorption and complete resolution of symptoms.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was performed on Day +3: under painless sedation, a BF-F260 bronchoscope was introduced through the right nasal passage. Vocal cord abduction and adduction were normal. Bronchoscopy showed scattered bright red blood clots in the bilateral bronchi, with no obvious bleeding site identified. Peripheral radial endobronchial ultrasound of a subsegment of the lateral basal segment of the left lower lobe showed an irregular hypoechoic area with a maximum diameter of approximately 10.7 mm, and peripheral lung biopsy was performed there 3 times. The scope was changed to a BF-UC260FW endobronchial ultrasound bronchoscope and introduced through the right nasal passage. Under EBUS, enlarged station 7 lymph nodes were seen, with a maximum diameter of approximately 10 mm. An irregular hypoechoic area was detectable in the basal segment of the left lower lobe, with a maximum diameter of approximately 21.7 mm; TBNA was performed at the enlarged lymph node and the hypoechoic area. Pathology report: (station 7 lymph node biopsy) lymphocytic infiltration was seen in coagulated tissue, with a small amount of cartilage tissue also seen. (Left lower lobe lesion biopsy) submitted lung tissue showed acute and chronic inflammation, focal alveolar congestion and a small amount of exudate, and mild widening of the alveolar septa with fibrosis in some areas. (Left lower lobe basal segment biopsy) scattered lymphocytes were seen in submitted coagulated tissue, with a small amount of columnar epithelium and cartilage tissue also seen. Cytology report: no malignant tumor cells were seen in the aspirate from station 7 lymph node. No atypical tumor cells were seen in the lavage fluid from the left lower lobe. No malignant tumor cells were seen in the aspirate from the left lower lobe lesion. Metagenomic next-generation sequencing of BALF: Tropheryma whipplei, 43 sequence reads.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLWMmiatCx4oG4hfldB7rLvtFjDUw0riadic7zeNSGX9Gsc7qrMNp6AltwzP164viapswzvHK8eA7KpCA/640?wx_fmt=png",
+          "near_text": "Figure 4: Findings of bronchoscopy performed on Day +3.",
+          "local_src": "cleaned_cases_image_cache/3a83cd6f39a856730e8f7a8c25a92413e5c78d7e.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLWMmiatCx4oG4hfldB7rLvtASksPUSy5SicWkdNYR62YxRNLPAftG7m8qvyd5sDBNcFbZFDapv6lGg/640?wx_fmt=png",
+          "near_text": "Figure 5: Chest CT before and after treatment. a: Spiral CT on Day +2: left lower lobe mass with multiple infiltrates.",
+          "local_src": "cleaned_cases_image_cache/6857100973f843fa5686fe77e4f75ed57c8359f5.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Whipple disease, pulmonary infection",
+      "diagnostic_basis": [
+        "Imaging studies predominantly showed mass-like pulmonary lesions",
+        "Laboratory tests",
+        "Bronchoscopy",
+        "Tropheryma whipplei detected in bronchoalveolar lavage fluid"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with piperacillin-tazobactam and moxifloxacin for anti-infective therapy, hemocoagulase for hemostasis, and ambroxol for cough suppression and expectoration.",
+        "Continue piperacillin/tazobactam anti-infective therapy",
+        "Continue piperacillin-tazobactam infusion for anti-infective treatment, with concurrent oral doxycycline.",
+        "Discontinue IV infusion and administer oral amoxicillin and doxycycline"
+      ],
+      "treatment_response": [
+        "Chest CT re-examination on Day +10: Compared with the previous scan (Day +2), the left lower lobe mass showed no significant change; the surrounding exudative opacities were partially absorbed compared with before, with newly developed small bilateral pleural effusions.",
+        "On Day +45, follow-up CT compared with the prior scan (Day +10) showed that the patchy opacity in the left lower lobe was partially absorbed compared with before, and the bilateral pleural effusions were basically absorbed compared with before.",
+        "Repeat chest CT on Day +194 showed partial absorption of patchy opacities in the left lower lobe.",
+        "Cough and hemoptysis completely resolved"
+      ]
+    }
+  }
+}

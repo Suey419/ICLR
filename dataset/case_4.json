@@ -1,0 +1,378 @@
+{
+  "status": "success",
+  "case_id": "case_4",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 39-year-old male patient, a farmer at home. The patient was admitted on Day 0, with a chief complaint of cough for 6 months, worsening with shortness of breath for 1 week. Six months before presentation to our hospital, he developed a cough without an obvious cause, producing a small amount of white sticky sputum, with occasional blood-streaked sputum, without fever, night sweats, or weight loss. He was treated at a local hospital, and his symptoms improved after azithromycin and Shuanghuanglian treatment. Thereafter, the above symptoms recurred 5 times and were relieved after treatment at the local hospital each time. One week earlier, the above symptoms recurred again and were more severe than before, accompanied by chest tightness, shortness of breath, and chest pain, with marked tenderness over the right anterior chest. He was seen at a local hospital, where chest CT showed 'patchy high-density opacities in both lungs,' and he was hospitalized with a diagnosis of 'pneumonia.' After admission, routine examinations showed no abnormalities, sputum acid-fast bacillus stain was negative, PPD test was negative, and ceftriaxone was given for 2 weeks without effect; cough and shortness of breath gradually worsened, so he came to our hospital and was admitted through the outpatient department with 'pulmonary shadow.' Since the onset of illness, his appetite and sleep were fairly good, bowel and bladder habits were normal, and there was no significant change in body weight. He was previously healthy, denied smoking and alcohol use, and denied a family history of malignancy. Physical examination: T 36.5℃, P 72/min, R 24/min, BP 107/67 mmHg. No enlargement of superficial lymph nodes was palpable throughout the body. On auscultation, breath sounds were coarse in both lungs, with no dry or wet rales heard. Cardiac rhythm was regular, with no pathologic murmurs heard. The abdomen was soft, without tenderness or rebound tenderness. There was no edema in either lower extremity. Chest CT imaging on Day +1: chest CT showed patchy and patchy confluent high-density opacities in the right upper lobe, right lower lobe, and left lung, with relatively clear borders; air bronchograms, a dead branch sign, cystic spaces, and small lucencies were seen within the lesions.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "lung cancer",
+          "supporting_evidence": [
+            "Cough lasting 6 months, with 5 recurrent episodes; only transient relief after anti-infective therapy, with an overall prolonged and recurrent course.",
+            "Symptoms worsened again 1 week ago, with shortness of breath, chest tightness, and chest pain; 2 weeks of ceftriaxone treatment was ineffective, and the symptoms gradually worsened.",
+            "Chest CT showed sheet-like and patchy high-attenuation opacities in both lungs with relatively well-defined margins; air bronchograms, the dead branch sign, cystic spaces, and small cystic air spaces were seen within them, suggesting alveolar consolidation-like lesions with possible tumor-related imaging features.",
+            "Occasional blood-streaked sputum may be seen in pulmonary neoplastic lesions",
+            "No fever, night sweats, or weight loss; routine examinations showed no abnormalities, which does not support typical infectious pneumonia and suggests the possibility of a noninfectious lesion."
+          ],
+          "opposing_evidence": [
+            "The patient is 39 years old, relatively young in age.",
+            "Previously healthy, denies smoking and a family history of malignancy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "organizing pneumonia",
+          "supporting_evidence": [
+            "A 6-month course with recurrent episodes, manifested as cough and dyspnea, consistent with features of subacute or chronic inflammatory lung parenchymal disease",
+            "Chest CT showed sheet-like and patchy high-density opacities in both lungs, with visible air bronchograms, which is one of the common imaging manifestations of organizing pneumonia.",
+            "On physical examination, no obvious dry or moist rales were heard in either lung; the clinical manifestations may not be completely consistent with the severity of the imaging findings.",
+            "Poor response to antibacterial therapy suggests the possibility of non-common bacterial pneumonia"
+          ],
+          "opposing_evidence": [
+            "CT indicates relatively well-defined margins, and a dead branch sign, cystic spaces, and small vacuoles can be seen within it, raising greater concern for a neoplastic lesion.",
+            "Occasional blood-streaked sputum is not a typical manifestation of organizing pneumonia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Chronic cough for 6 months, with occasional blood-streaked sputum; these are symptoms that can be seen in pulmonary TB",
+            "Imaging findings include patchy and mottled high-density opacities in both lungs; TB may show similar pulmonary consolidation or infiltrative opacities.",
+            "A farming occupation and residential background suggest some opportunity for environmental exposure."
+          ],
+          "opposing_evidence": [
+            "No TB toxic symptoms such as fever, night sweats, or weight loss",
+            "Sputum acid-fast bacilli stain negative",
+            "PPD test negative",
+            "Although failure of ceftriaxone treatment does not rule out TB, the information in the first stage lacks more typical imaging descriptions of TB, such as cavities, tree-in-bud pattern, upper lobe fibrosis, etc."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Fungal pneumonia (including cryptococcal pneumonia, etc.)",
+          "supporting_evidence": [
+            "Prolonged and recurrent course, with no response to conventional antibacterial therapy",
+            "Chest CT showed sheet-like and patchy high-density opacities in both lungs, with visible air bronchograms, cystic spaces, and small cysts; fungal infection can have diverse imaging manifestations",
+            "Occasional blood-streaked sputum may be seen in some invasive or chronic fungal infections"
+          ],
+          "opposing_evidence": [
+            "In the first-stage information, no high-risk factors for fungal infection, such as immunosuppression, diabetes mellitus, or long-term corticosteroid use, were identified.",
+            "No fever, routine examinations showed no abnormalities, and the clinical evidence of infection is not strong",
+            "The first-stage information did not provide definitive support from fungal-related testing."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Primary pulmonary lymphoma or other pulmonary lymphoproliferative disorders",
+          "supporting_evidence": [
+            "The disease course is chronic and protracted, with recurrent \"pneumonia\"-like presentations.",
+            "Chest CT shows sheet-like and patchy high-density opacities in both lungs, with relatively well-defined margins and visible air bronchograms within, which may be seen as a consolidation-like manifestation of pulmonary lymphoma",
+            "Poor response to antibacterial therapy suggests a lesion not due to a common infectious process."
+          ],
+          "opposing_evidence": [
+            "No enlargement of superficial lymph nodes was palpable throughout the body",
+            "No B symptoms such as fever, night sweats, or weight loss",
+            "Age 39 is relatively not within the common high-incidence age range."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endotoxin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal D-glucan",
+          "requirement": "required"
+        },
+        {
+          "exam": "galactomannan peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis infection T-lymphocyte test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PPD test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "viral TROCH",
+          "requirement": "optional"
+        },
+        {
+          "exam": "EBV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CMV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "autoantibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-neutrophil antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Tumor marker: neuron-specific enolase",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC, CRP, procalcitonin, ESR, endotoxin, fungal D-glucan, galactomannan peptide, coagulation, liver and kidney function, electrolytes, and myocardial enzymes were all normal; Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, TB infection T-lymphocyte test, and PPD test were negative; viral TROCH, EBV-DNA, and CMV-DNA were negative; autoantibodies, antineutrophil antibodies, and rheumatologic panel were negative; tumor marker neuron-specific enolase 17.90 ng/ml (normal range 0-16.3 ng/ml); arterial blood gas analysis (FiO2 21.0%) showed pH 7.415, PaO2 67.1 mmHg, PaCO2 35.8 mmHg, and SaO2 94.5%. From Day 0 to Day +3, levofloxacin 0.6 g IVD qd + etimicin 300 mg IVD qd were given. On Day -361, bronchoscopy was performed and revealed a small amount of white viscous secretions in the bilateral bronchi; after suctioning, mucosal swelling and hyperemia were seen, the lumens were patent, and no mass or stenosis was observed. Bronchoscopic brushings and BALF were sent for Xpert and other tests, and no evidence of TB was found. Bronchoscopic biopsy pathology: submitted right upper lobe bronchial mucosal biopsy tissue showed microscopically hyperplastic bronchial mucosal glands; immunohistochemistry: TTF-1(-), Napsin A(-); special stains: PAS(-), D-PAS(-), AB(-). Starting on Day +4, biapenem 0.3 g IVD q8h + teicoplanin 0.4 g IVD qd were given for intensified anti-infective treatment. Chest CT re-examination on Day +11: after intensified anti-infective treatment with biapenem combined with teicoplanin, the diffuse bilateral lung lesions showed no absorption.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz473744FR0RxZ7kocl278rltQK3FBB3nGEaFD7yTSJTtqPap09u0oNvlpg/640?wx_fmt=jpeg",
+            "near_text": "Bronchoscopic brushings and bronchoalveolar lavage fluid sent for Xpert and other tests",
+            "local_src": "cleaned_cases_image_cache/be32bb1964da0cbdb81f5c9be5b71623971a88fd.jpg"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473Atibib66zDbAicq6D2FagcJnYqGgU1tXfLoWxvSRSnxL02dFrUKicrk8uQ/640?wx_fmt=png",
+            "near_text": "After intensified anti-infective therapy with biapenem combined with teicoplanin",
+            "local_src": "cleaned_cases_image_cache/1e55f8611c086aac6e39ef0ccc324101e6cb63a1.png"
+          },
+          {
+            "image_id": "fig1",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473Vicaiaxj1xdFN90mBe9Xcq5ZcD4InXJhDbBurwQOOhibDaYjmyZDLzdhw/640?wx_fmt=png",
+            "near_text": "The patient's chest CT showed",
+            "local_src": "cleaned_cases_image_cache/a89db94d207416c695a15e3b3dfd22adc6f65cc3.png"
+          },
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473CglnPviaf41rX0n4s5SyVWAa0Dibt3nZFZBldQJZjFaCLTHcKtcoORCg/640?wx_fmt=png",
+            "near_text": "Chest CT showed sheet-like and patchy high-density opacities in the right upper lobe, right lower lobe, and left lung.",
+            "local_src": "cleaned_cases_image_cache/8e9316dd0621b6a86973de945bfe10575055d63e.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pneumonia (bacterial, fungal)?",
+            "evidence": [
+              "Chronic cough for 6 months, relieved after local anti-inflammatory treatment",
+              "The initial bronchoscopy found no evidence of TB; considering common etiologies, an infectious process still cannot be ruled out"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary tuberculosis ?",
+            "evidence": [
+              "Young male, chronic cough for 6 months, relieved after local anti-inflammatory treatment, but the condition has recurrent episodes; TB cannot be excluded"
+            ],
+            "exclusion_reasons": [
+              "Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, tuberculosis infection T-lymphocyte assay, and PPD test were negative",
+              "Bronchoscopic brushings and bronchoalveolar lavage fluid were sent for Xpert and other tests, with no evidence of TB found."
+            ]
+          },
+          {
+            "name": "Lung cancer ?",
+            "evidence": [
+              "Chest CT showed patchy and mottled high-attenuation opacities in the right upper lobe, right lower lobe, and left lung, with relatively well-defined margins; air bronchograms, the dead branch sign, cystic spaces, and small vacuoles were seen within the lesions.",
+              "Tumor marker neuron-specific enolase 17.90 ng/mL"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pneumonia (bacterial, fungal)?",
+        "evidence": [
+          "Chronic cough for 6 months, relieved after local anti-inflammatory treatment",
+          "The initial bronchoscopy found no evidence of TB; considering common etiologies, an infectious process still cannot be ruled out"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary tuberculosis ?",
+        "evidence": [
+          "Young male, chronic cough for 6 months, relieved after local anti-inflammatory treatment, but the condition has recurrent episodes; TB cannot be excluded"
+        ],
+        "exclusion_reasons": [
+          "Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, tuberculosis infection T-lymphocyte assay, and PPD test were negative",
+          "Bronchoscopic brushings and bronchoalveolar lavage fluid were sent for Xpert and other tests, with no evidence of TB found."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Lung cancer ?",
+        "evidence": [
+          "Chest CT showed patchy and mottled high-attenuation opacities in the right upper lobe, right lower lobe, and left lung, with relatively well-defined margins; air bronchograms, the dead branch sign, cystic spaces, and small vacuoles were seen within the lesions.",
+          "Tumor marker neuron-specific enolase 17.90 ng/mL"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "basis_in_stage3_input": "It is considered that the pathology results of the first bronchoscopic biopsy are inconsistent with the chest CT imaging findings.",
+          "why_order_this_exam": "The patient has had a persistent cough for 6 months, with marked worsening over the past 1 week accompanied by shortness of breath, chest tightness, and chest pain. Blood gas analysis indicated hypoxemia, and after two courses of anti-infective therapy, neither the symptoms nor the imaging findings showed resolution. Prior chest CT showed patchy and plaque-like high-attenuation opacities in both lungs, with relatively well-defined margins, containing air bronchograms, a withered branch sign, cystic spaces, and small bubbles, suggesting that simple infection cannot explain the findings. A repeat chest CT is needed for comparison with the results of the initial bronchoscopic mucosal biopsy, to reassess the extent of the lesions, distribution characteristics, and the predominant sampling site, determine whether the findings are more consistent with pneumonic-type mucinous adenocarcinoma or other neoplastic parenchymal lung lesions, and provide a basis for selecting the approach for repeat bronchoscopy and lung biopsy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Therefore, bronchoscopy was performed again on Day +12.",
+          "why_order_this_exam": "The patient's clinical course was prolonged and recurrent, and anti-infective therapy was ineffective. Examinations related to TB, viruses, fungi, and rheumatologic/immunologic disease all lacked supportive findings. The initial bronchoscopy showed only a small amount of white viscous secretions and mucosal hyperemia, and the mucosal biopsy could not explain the diffuse bilateral lung consolidation-like lesions, showing marked discordance with the imaging findings. The purpose of repeating bronchoscopy was, on the basis of more precise imaging localization, to reassess the endobronchial findings and obtain more targeted lung parenchymal tissue sampling, in order to address the problem of inadequate representativeness of the initial examination, further clarify the nature of tumor, infection, or other noninfectious lesions, and assess the feasibility and risk of subsequent biopsy procedures.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cryobiopsy of the anterior and posterior segments of the right upper lobe",
+          "basis_in_stage3_input": "Concurrent transbronchial lung cryobiopsy of the anterior and posterior segments of the right upper lobe",
+          "why_order_this_exam": "The main issue in this case was that imaging strongly suggested a non-common infectious pulmonary parenchymal lesion, whereas the initial bronchoscopic mucosal biopsy showed only hyperplastic bronchial mucous glands and did not obtain tissue sufficient for definitive characterization. The patient had diffuse bilateral lung lesions with no resolution after levofloxacin and subsequent biapenem combined with teicoplanin, indicating that tissue should be obtained directly from the pulmonary parenchymal lesion. Cryobiopsy of the anterior and posterior segments of the right upper lobe can obtain larger and more intact pulmonary parenchymal specimens than conventional mucosal biopsy, which helps distinguish mucinous adenocarcinoma, organizing pneumonia, unusual infection, and other diffuse lung diseases, and provides a basis for the final diagnosis and staging.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "Pathology: mucinous adenocarcinoma in situ of the anterior and posterior segments of the right upper lobe, invasion cannot be excluded",
+          "why_order_this_exam": "The patient has had a chronic cough with occasional blood-streaked sputum. Imaging shows pneumonia-like consolidation in both lungs, and anti-infective therapy has been ineffective. Clinically, the nature of the lesion must be clarified by histopathology. Pathologic examination is the core basis for confirming pulmonary malignant tumor, and can determine whether it is an epithelial malignancy, whether it is consistent with the features of mucinous adenocarcinoma, and whether invasion is present, thereby resolving the differential diagnosis between infection and tumor and clarifying the nature of the disease and degree of malignancy. This has a निर्णizing role in subsequent staging assessment and treatment decision-making.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CK7 (+), TTF-1 (-), Napsin A (-), P63 (-), TS (+), CK5/6 (-), P53 positive in a small number of cells, CgA (-), CD56 (-), CEA (-), P16 (-), Ki67 (+) 30%",
+          "why_order_this_exam": "On the basis of pathology suggesting mucinous adenocarcinoma in situ of the anterior and posterior segments of the right upper lobe, with invasive disease not excluded, further confirmation by immunohistochemistry is still needed to determine the direction of tumor differentiation and exclude other tumor types. The patient’s imaging findings are unusual, with diffuse pneumonic-type lesions in both lungs, which can be easily confused with infection, squamous cell carcinoma, neuroendocrine tumors, and some metastatic adenocarcinomas; immunohistochemistry using markers including CK7, TTF-1, Napsin A, P63, CK5/6, CgA, and CD56 can help support a pulmonary glandular epithelial origin and exclude squamous and neuroendocrine differentiation, while Ki67 can reflect proliferative activity, providing an important basis for assessing the tumor’s biological behavior, refining pathologic classification, and guiding subsequent treatment selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Genetic mutation testing",
+          "basis_in_stage3_input": "Further gene mutation testing was performed: no mutations were detected in EGFR, ALK, ROS1, KRAS, BRAF, HER-2, NRAS, RET, or PI3KCA.",
+          "why_order_this_exam": "The patient has pulmonary mucinous adenocarcinoma supported by pathology and immunohistochemistry, and imaging shows bilateral lung involvement; the final stage is therefore highly likely to be advanced. Accordingly, gene mutation testing is not only necessary for molecular classification, but also a key step in formulating the treatment plan. Testing driver genes such as EGFR, ALK, ROS1, KRAS, BRAF, HER-2, and RET can determine whether targetable molecular abnormalities are present, directly affecting subsequent opportunities for targeted therapy; this assessment is especially important in young, nonsmoking patients. Even if the results are negative, they still help exclude common targetable mutations and provide a basis for selecting subsequent systemic treatment pathways.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "basis_in_stage3_input": "Systemic evaluation: brain CT, upper abdominal CT, ultrasound of the neck and supraclavicular lymph nodes, and whole-body bone scintigraphy showed no abnormalities",
+          "why_order_this_exam": "After pulmonary malignant tumor has been pathologically confirmed, whole-body staging evaluation is required. Lung adenocarcinoma can develop brain metastases, and the patient already has worsening shortness of breath and diffuse bilateral lung lesions, suggesting that the disease burden is not low. Even if there are currently no clearly described neurologic symptoms, intracranial metastases should still be routinely screened for. The purpose of head CT is to determine whether brain parenchymal metastases are present, thereby affecting TNM staging, prognostic assessment, and the selection of subsequent treatment strategies.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the upper abdomen",
+          "basis_in_stage3_input": "Systemic evaluation: brain CT, upper abdominal CT, ultrasound of the neck and supraclavicular lymph nodes, and whole-body bone scintigraphy showed no abnormalities",
+          "why_order_this_exam": "After a diagnosis of pulmonary malignant tumor is confirmed, distant metastasis should be assessed. The abdomen, especially the liver and adrenal glands, is a common site of metastasis of lung cancer. Chest imaging in this patient suggests extensive bilateral lung involvement, and it is necessary to distinguish whether this represents intrapulmonary dissemination only or is already accompanied by extrapulmonary metastasis. Upper abdominal CT can evaluate involvement of the abdominal organs and adrenal glands, help complete staging, determine indications for surgery and systemic therapy, and provide a basis for prognostic assessment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Ultrasound of the cervical and supraclavicular lymph nodes",
+          "basis_in_stage3_input": "Systemic evaluation: brain CT, upper abdominal CT, ultrasound of the neck and supraclavicular lymph nodes, and whole-body bone scintigraphy showed no abnormalities",
+          "why_order_this_exam": "After a diagnosis of lung cancer is confirmed, lymph node staging is an important step in determining the clinical stage and treatment pathway. Although no superficial lymphadenopathy was detected on physical examination at admission, a negative physical examination cannot exclude deep or small-volume metastases. Ultrasound of the cervical and supraclavicular lymph nodes can sensitively screen for suspicious metastatic lymph nodes; in particular, once supraclavicular fossa involvement is present, it indicates a higher stage and can provide a target for further needle biopsy if needed. Therefore, it is of important value for completing N staging and overall staging.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Whole-body bone scintigraphy",
+          "basis_in_stage3_input": "Systemic evaluation: brain CT, upper abdominal CT, ultrasound of the neck and supraclavicular lymph nodes, and whole-body bone scintigraphy showed no abnormalities",
+          "why_order_this_exam": "Bone metastases are common in lung adenocarcinoma. Although this patient mainly presents with cough, shortness of breath, and chest pain, and the chest pain may be caused solely by the pulmonary lesion, after malignancy has been confirmed, bone involvement still needs to be evaluated. Whole-body bone scintigraphy can systematically screen for bone metastatic lesions, help determine whether extrapulmonary dissemination is present, and directly affect M staging, treatment goal setting, and selection of the symptom management plan; if the result is negative, it supports the current staging assessment that no bone metastases have been identified.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Considering that the pathology results from the first bronchoscopic biopsy were inconsistent with the chest CT findings, bronchoscopy was repeated on Day +12, and cryobiopsies of the anterior and posterior segments of the right upper lobe were performed. Pathology: mucinous adenocarcinoma in situ in the anterior and posterior segments of the right upper lobe; invasion cannot be excluded. Immunohistochemistry: CK7(+), TTF-1(-), Napsin A(-), P63(-), TS(+), CK5/6(-), P53 positive in a few cells, CgA(-), CD56(-), CEA(-), P16(-), Ki67(+)30%. Further gene mutation testing: no mutations detected in EGFR, ALK, ROS1, KRAS, BRAF, HER-2, NRAS, RET, or PI3KCA. Systemic workup: no abnormalities on brain CT, upper abdominal CT, ultrasound of the neck and supraclavicular lymph nodes, or whole-body bone scan.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz473wLRr0ulnb7uTjElYLTbCVfFAFOBgr7bWwPCoMm09Dj2WBiaeWe2aCUQ/640?wx_fmt=jpeg",
+          "near_text": "Pathology: mucinous adenocarcinoma in situ of the anterior and posterior segments of the right upper lobe",
+          "local_src": "cleaned_cases_image_cache/fd04676662d9dbd10d6927093f2aa8af73b2c78a.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz473ZPntJ0tGBXLaL0bSDGvfqnltYjmaticteK9cM4NeA9mdWFtQUKVuNbA/640?wx_fmt=jpeg",
+          "near_text": "Analysis of primary pulmonary mucinous adenocarcinoma based on this case",
+          "local_src": "cleaned_cases_image_cache/6b5b613ef3a8f3b6bcfab51bb8e5beaf9fe5c5f2.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Malignant lung tumor (mucinous adenocarcinoma, cT4N0M1a stage IVa), with bilateral intrapulmonary metastases",
+      "diagnostic_basis": [
+        "Cryobiopsy pathology of the anterior and posterior segments of the right upper lobe: mucinous adenocarcinoma in situ of the anterior and posterior segments of the right upper lobe; invasion cannot be excluded",
+        "Immunohistochemistry: CK7 (+), TTF-1 (-), Napsin A (-), P63 (-), TS (+), CK5/6 (-), P53 positive in a small number of cells, CgA (-), CD56 (-), CEA (-), P16 (-), Ki67 (+) 30%"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Abandoned treatment and discharged against medical advice"
+      ],
+      "treatment_response": []
+    }
+  }
+}

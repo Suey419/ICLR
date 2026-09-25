@@ -1,0 +1,309 @@
+{
+  "status": "success",
+  "case_id": "case_99",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 44 years old, unemployed. Chief complaint: \"Abdominal pain and abdominal distension for 7 days; fever, cough, sputum production, and shortness of breath for 3 days.\" Seven days before hospitalization, the patient developed \"persistent dull pain in the upper abdomen\" without an obvious precipitating cause. The pain could radiate to the back but was basically tolerable, and was accompanied by abdominal distension, without fever, sore throat, cough, sputum production, or other symptoms. Three days before admission, after an episode of \"catching a chill,\" the patient developed fever, with a maximum temperature of 39.6℃, without chills or rigors, paroxysmal cough, sputum production with a small amount of white sticky sputum, and shortness of breath, without chest tightness, chest pain, or other discomfort. After self-administered oral antipyretic medication, the body temperature returned to normal, but cough and sputum production persisted. No treatment was given, and the patient felt that the abdominal pain and abdominal distension had not improved after 2 days. Thereafter, because repeat evaluation of \"chronic myeloid leukemia\" was needed, the patient underwent bone marrow aspiration in the outpatient clinic of our hospital. However, immediately after the bone marrow aspiration, he developed confusion and limb convulsions. The symptoms lasted about 15 seconds and then resolved spontaneously. Past medical history: Diagnosed with \"chronic myeloid leukemia\" for more than 1 year; has had regular hematology outpatient follow-up and has been taking \"imatinib\" orally for 1 year. Personal history and family history were both unremarkable. Physical examination on admission: T 36.4℃, P 110/min, respiratory rate 30/min, blood pressure 87/59 mmHg. The patient appeared ill, with cyanotic lips. Breath sounds were coarse in both lungs, with a few moist rales audible at both lower lungs. Heart rate was 110/min, rhythm regular, and no murmur was heard. The abdomen was soft, without tenderness or rebound tenderness. Ancillary examinations on admission: Complete blood count: white blood cell count 7.2x10^9/L, neutrophil count 6.2x10^9/L, lymphocyte count 0.7x10^9/L, hemoglobin 112 g/L, platelet count 116x10^9/L. Abdominal color Doppler ultrasound showed (Figure 1): diffuse parenchymal liver disease; slightly enlarged pancreas with altered echogenicity: pancreatitis to be excluded. Chest CT showed: right lower lobe infection (Figure 2).",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5gueeQfEg7LQv3pEmXeFRpaUy2SkqeticFhNVhmhEWM2VV2A6VgkicCGpg/640?wx_fmt=png",
+          "near_text": "Figure 1. (Left) The pancreatic contour is slightly full; (Right) The liver has a regular morphology and a smooth surface, with increased parenchymal echogenicity, coarse echogenic foci, and uneven distribution.",
+          "local_src": "cleaned_cases_image_cache/28875a541b004daaf903b2b4ac1d52ab55b68248.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5gMrNFRViaHaiaVftclC2wSKdbawvqYDRwicXu5kEj5BBV8potv4gia2IibNg/640?wx_fmt=png",
+          "near_text": "Figure 2. Diffuse patchy areas of increased density are seen in the right lower lung, with indistinct margins, suggesting right lower lung infection.",
+          "local_src": "cleaned_cases_image_cache/992043029815e4d7dd0cf6cb63babae251fd5b15.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia with sepsis/septic shock",
+          "supporting_evidence": [
+            "Three days before admission, the patient developed fever with a maximum temperature of 39.6℃, accompanied by paroxysmal cough, sputum production, and shortness of breath.",
+            "Physical examination showed cyanosis of the lips, respiratory rate 30 breaths/min, pulse 110 beats/min, blood pressure 87/59 mmHg, indicating impaired respiratory and circulatory function.",
+            "Coarse breath sounds in both lungs, with a few moist rales audible in both lower lungs",
+            "Chest CT showed infection in the right lower lung; the images showed patchy consolidation/infiltrative opacity in the right lower lung.",
+            "History of chronic myeloid leukemia and long-term oral imatinib use, with a risk of progression to severe illness after infection"
+          ],
+          "opposing_evidence": [
+            "WBC count 7.2x10^9/L, no obvious leukocytosis",
+            "On admission, body temperature was 36.4℃; no fever was present at the time of presentation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "acute pancreatitis",
+          "supporting_evidence": [
+            "7 days before hospitalization, the patient developed persistent dull pain in the upper abdomen, with radiation of the pain to the back, accompanied by abdominal distension.",
+            "Abdominal color Doppler ultrasound suggests slight pancreatic enlargement and sonographic changes: pancreatitis to be ruled out",
+            "Abdominal pain preceded respiratory symptoms such as fever and cough, suggesting the possibility of a primary abdominal lesion."
+          ],
+          "opposing_evidence": [
+            "Abdominal examination showed a soft abdomen, with no tenderness or rebound tenderness.",
+            "No supporting evidence such as serum amylase or lipase was provided in the first phase."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Biliary disease (common bile duct stones/biliary obstruction), possibly secondary to biliary pancreatitis or biliary tract infection",
+          "supporting_evidence": [
+            "Epigastric pain radiating to the back may be seen in biliary and pancreatic diseases.",
+            "Abdominal color Doppler ultrasound indicated a pancreatic abnormality and suggested that pancreatitis could not be excluded; a possible association between biliary and pancreatic lesions exists",
+            "On the abdominal color Doppler ultrasound image, a tubular echo/structure is visible in the porta hepatis region as indicated by the arrow, suggesting that a biliary tract abnormality should be considered.",
+            "Ultrasound indicates diffuse hepatic parenchymal disease, with an abnormal hepatobiliary system background"
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not describe manifestations of biliary obstruction such as jaundice, dark urine, or pruritus.",
+            "Abdominal examination revealed no tenderness or rebound tenderness",
+            "Stage 1 information did not provide explicit measurement results for bilirubin, transaminases, or biliary duct dilatation."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Hypoxemia/acute respiratory failure associated with pulmonary infection",
+          "supporting_evidence": [
+            "The patient has shortness of breath, cyanosis of the lips, respiratory rate 30 breaths/min",
+            "A few moist rales can be heard in both lower lungs",
+            "Chest CT showed infection in the right lower lung; the images showed obvious inflammatory infiltration in the right lower lung.",
+            "After bone marrow puncture, altered consciousness and convulsions of all extremities may occur, which can be triggered by acute hypoxia or hemodynamic instability"
+          ],
+          "opposing_evidence": [
+            "No arterial blood gas analysis or oxygen saturation data were provided in the first phase.",
+            "Pulmonary imaging was mainly described as focal infection in the right lower lung, with no evidence of diffuse involvement of both lungs."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "infection susceptibility associated with chronic myeloid leukemia or infection accompanying progression of a hematologic disease",
+          "supporting_evidence": [
+            "Previously diagnosed with chronic myeloid leukemia for more than 1 year",
+            "Regular oral imatinib therapy; when complicated by an underlying hematologic disease, the risk of infection and progression to severe illness increases",
+            "This episode is characterized by severe infection manifested by high fever, pulmonary infection, hypotension, and altered mental status.",
+            "Complete blood count showed a lymphocyte count of 0.7x10^9/L, with lymphopenia present"
+          ],
+          "opposing_evidence": [
+            "White blood cell count 7.2x10^9/L, neutrophil count 6.2x10^9/L; no obvious leukemic hyperleukocytosis was shown in the first stage",
+            "No evidence suggestive of disease progression, such as splenomegaly or increased peripheral blood blasts, was provided in the first phase information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Acute hepatobiliary system diseases associated with diffuse hepatic parenchymal lesions",
+          "supporting_evidence": [
+            "Abdominal color Doppler ultrasound clearly indicated diffuse hepatic parenchymal disease",
+            "The patient has epigastric pain and abdominal distention; the site of the lesion may be related to the hepatobiliary system.",
+            "Ultrasound images show an abnormal background echotexture of the intrahepatic parenchyma"
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not describe signs such as jaundice, liver tenderness, hepatomegaly, or ascites.",
+            "No evidence of abnormal liver function test results was provided in the first-stage information",
+            "Abdominal examination: abdomen soft, with no tenderness or rebound tenderness"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine amylase",
+          "requirement": "required"
+        },
+        {
+          "exam": "Quantitative troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum bacterial and fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis: pH 7.45, PaCO2: 30 mmHg, PaO2 80 mmHg, fraction of inspired oxygen 41%, oxygenation index 195. PCT 25.1 ng/ml. Liver function + renal function + myocardial enzymes + electrolytes: total protein 60.3 g/l, albumin 38.4 g/l, total bilirubin 33.6 umol/l, direct bilirubin 18.8 umol/l, total bile acid 13.5 umol/l, AST 156.5 U/L, creatinine 126 umol/l, LDH 943 U/L, CK 3597.5 U/L, CK-MB 45.6 U/L, myoglobin 384.7 ug/l, serum sodium 131.6 mmo/l, serum chloride 88.7 mmol/l. Urine amylase: 5089 U/L. Quantitative troponin (-). Repeat chest CT 5 days later (Figure 3) showed that the pulmonary lesions had instead progressed compared with before. After admission, TB-related tests, multiple sputum bacterial + fungal cultures, and blood cultures showed no obvious positive findings.",
+        "images": [
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5gNUg0lc4OEcPnpdiabnff8Iu4s3FIPLYzpekJ8qkHylwcnBzSbqkSibWg/640?wx_fmt=png",
+            "near_text": "Figure 3. The right lower lung is roughly unchanged from before; new infectious foci are seen in the right middle lung and left lower lung; new bilateral pleural effusions are present.",
+            "local_src": "cleaned_cases_image_cache/7630f0cbba07e2eaf208b81a8bed0da5b5db8468.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary leukemic infiltration",
+            "evidence": [
+              "The patient has underlying leukemia"
+            ],
+            "exclusion_reasons": [
+              "Currently stable under control, and the imaging findings are not consistent."
+            ]
+          },
+          {
+            "name": "Viral pneumonia (e.g., adenoviral pneumonia)",
+            "evidence": [
+              "With multisystem involvement, extrapulmonary complications of adenoviral pneumonia cannot be excluded",
+              "cannot be excluded on imaging"
+            ],
+            "exclusion_reasons": [
+              "Further identification of the pathogen is needed"
+            ]
+          },
+          {
+            "name": "Special pathogen infection (atypical pathogens, fungi, TB, and nontuberculous mycobacteria)",
+            "evidence": [
+              "Atypical pathogens may have clinical manifestations of multisystem involvement."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary leukemic infiltration",
+        "evidence": [
+          "The patient has underlying leukemia"
+        ],
+        "exclusion_reasons": [
+          "Currently stable under control, and the imaging findings are not consistent."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Viral pneumonia (e.g., adenoviral pneumonia)",
+        "evidence": [
+          "With multisystem involvement, extrapulmonary complications of adenoviral pneumonia cannot be excluded",
+          "cannot be excluded on imaging"
+        ],
+        "exclusion_reasons": [
+          "Further identification of the pathogen is needed"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Special pathogen infection (atypical pathogens, fungi, TB, and nontuberculous mycobacteria)",
+        "evidence": [
+          "Atypical pathogens may have clinical manifestations of multisystem involvement."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy was promptly performed (Figure 4).",
+          "why_order_this_exam": "The patient was a 44-year-old man who developed acute onset of high fever, cough, sputum production, and dyspnea. At the time of admission, he already had severe manifestations including a respiratory rate of 30 breaths/min, cyanosis of the lips, hypotension 87/59 mmHg, and altered mental status/seizures. Chest CT showed infection in the right lower lung, and the lesion was still progressing 5 days later, suggesting severe pneumonia with a high risk of sepsis. He had a history of chronic myeloid leukemia and long-term oral imatinib use, indicating the possibility of severe infection and infection with unusual pathogens. Multiple previous sputum bacterial and fungal cultures, blood cultures, and TB-related tests were all negative, and conventional noninvasive etiologic methods could not explain the persistently progressive pulmonary lesion. Further history-taking revealed use within the past week of a long-idle and uncleaned air conditioner, suggesting a clue for exposure to unusual water/air conditioner-related pathogens such as Legionella. At this time, bronchoscopy was performed. On the one hand, it could directly assess whether there were purulent secretions, bleeding, obstruction, or other lesions in the airway, helping to determine the location and nature of the pulmonary infection and to distinguish it from leukemic pulmonary infiltration and other conditions; on the other hand, it could obtain higher-quality lower respiratory tract specimens for further etiologic testing. For this patient, the core clinical question for bronchoscopy was: in severe pneumonia with imaging progression and negative routine cultures, to obtain lower respiratory tract evidence as soon as possible to identify the pathogen, exclude other causes, and provide a basis for subsequent targeted anti-infective therapy; at the same time, it would also help assess procedural feasibility and the risk-benefit profile, and determine whether to proceed with lavage and advanced pathogen testing.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood metagenomic next-generation sequencing (mNGS)",
+          "basis_in_stage3_input": "and blood metagenomic next-generation sequencing (mNGS)",
+          "why_order_this_exam": "The patient’s clinical presentation was pneumonia in the setting of severe infection: high fever up to 39.6℃, cough with sputum production, dyspnea, oxygenation index 195, accompanied by hypotension, altered mental status, and multisystem involvement. Laboratory findings showed markedly elevated PCT 25.1 ng/ml, as well as abnormal liver and kidney function, hyponatremia, elevated muscle enzymes, etc., consistent with severe pneumonia/sepsis. At the same time, the pulmonary CT lesions had still progressed compared with before treatment, while sputum culture, blood culture, and TB-related testing were all negative, indicating insufficient detection by conventional etiologic methods and the need to consider atypical pathogens, fungi, mycobacteria, or viruses and other special pathogens. In addition, further history-taking revealed recent use of a long-idle, uncleaned air conditioner, which significantly increased the possibility of infection with Legionella and other special environment-related pathogens. The purpose of blood mNGS was to rapidly and broadly screen for circulating microbial nucleic acid signals at the systemic level, especially in patients with severe illness, unknown pathogens, and negative conventional cultures. The main questions this test aimed to address were: whether there was hematogenous dissemination or special pathogens detectable in the blood, thereby supporting an infectious etiology rather than noninfectious lesions such as leukemia-related pulmonary infiltrates alone; at the same time, it complements bronchoscopy and BALF testing to improve the efficiency of etiologic confirmation. The results may help identify the causative pathogen spectrum as soon as possible, narrow the differential diagnosis, and guide whether the anti-infective regimen should be adjusted early to a more targeted approach against atypical pathogens such as Legionella.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoalveolar lavage fluid mNGS",
+          "basis_in_stage3_input": "+ BALF mNGS (Figure 5) identified the pathogen.",
+          "why_order_this_exam": "This patient has a progressively worsening severe pulmonary infection, manifested by high fever, cough with sputum production, dyspnea, hypoxemia, hypotension, and altered mental status, and imaging showed a right lower lung infection with further progression 5 days later, suggesting either a high intrapulmonary pathogen burden or an unusual pathogenic spectrum. The patient has underlying chronic myeloid leukemia and is receiving imatinib treatment, which increases susceptibility to infection; meanwhile, routine sputum culture, blood culture, and TB-related testing all failed to identify a pathogen, and the earlier differential diagnosis had already specifically proposed possibilities including viral pneumonia, atypical pathogens, fungi, TB, and nontuberculous mycobacteria. Further questioning revealed recent use of a long-idle and uncleaned air conditioner, which is an important epidemiologic clue for Legionella infection. Compared with blood specimens, bronchoalveolar lavage fluid is obtained directly from the affected lower respiratory tract, usually has a higher pathogen detection rate, and better reflects the true causative microorganisms in the lungs. Ordering BALF mNGS for this patient is primarily intended, in the setting of negative routine cultures, severe illness, and imaging progression, to rapidly and broadly identify difficult-to-culture, atypical, or mixed infection pathogens including Legionella, and to complete etiologic confirmation as soon as possible; at the same time, it may help exclude noninfectious causes such as isolated leukemic pulmonary infiltration and clarify whether pneumonia caused predominantly by a special pathogen is present. The results of this test are directly relevant to definitive diagnosis, differential diagnosis, and treatment selection, because once pathogens such as Legionella are identified, effective targeted regimens such as quinolones or tetracyclines can be selected, avoiding deviation from empiric therapy and improving prognosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further history-taking indeed revealed new findings. Although the patient had no history of raising live poultry or pigeons, the patient reported having used an air conditioner within the past 1 week that had been idle for a long time and had not been cleaned. Bronchoscopy (Figure 4) and blood metagenomic next-generation sequencing (mNGS) + bronchoalveolar lavage fluid mNGS (Figure 5) were immediately completed to identify the etiology. No obvious purulent secretions were seen in the bronchi at all levels. Endoscopic diagnosis: bronchial inflammation. Bronchoalveolar lavage fluid mNGS showed: Legionella genus and Legionella pneumophila.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5g6iaUiadKN8WTXp8BVStjMoPSYSW75ibZCjicv97wqicH4sIjQUSY5byria1Q/640?wx_fmt=png",
+          "near_text": "Figure 5: (Left) BALF mNGS showed: Legionella genus and Legionella pneumophila. (Right) BALF mNGS showed: Legionella genus and Legionella pneumophila.",
+          "local_src": "cleaned_cases_image_cache/88887b18678b6bc6c6f5e35df69ec20737795ad9.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5g8Iq7H419GJCKBic6n0H9r9H8RYzyFSxyC1f8TcQlc7DwjSvydj0gMeg/640?wx_fmt=png",
+          "near_text": "Figure 6: (left) Infection in the right middle and lower lungs is significantly reduced compared with before; the left lower lung is roughly unchanged from before; bilateral pleural effusions. (right) The right middle and lower lungs show marked absorption compared with before; the infectious lesions in the left lung have been basically absorbed; no pleural effusion.",
+          "local_src": "cleaned_cases_image_cache/022416aba093282c3d6a12b3649238052093ff35.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSHDueLGmWicdibVH5zCnU5gDGGFhIt7GEXQPoqoS0wgEuX2oc6NNUx3GAX4auibeeEPlZxiacmuz8Wg/640?wx_fmt=png",
+          "near_text": "Figure 4: No obvious purulent secretions were seen in the bronchi at all levels; bronchoscopic diagnosis: bronchial inflammation",
+          "local_src": "cleaned_cases_image_cache/bad812c0fe38ad96065c3da18cf894f046ace300.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Legionella spp. and Legionella pneumophila infection (severe Legionella pneumonia)",
+      "diagnostic_basis": [
+        "Used an air conditioner within the past week that had been left unused for a long time and had not been cleaned.",
+        "BALF mNGS showed: Legionella spp. and Legionella pneumophila"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Combination anti-infective therapy with doxycycline + moxifloxacin"
+      ],
+      "treatment_response": [
+        "Repeat chest CT after 5 days of treatment (Figure 6, left) showed that the pulmonary infection had been significantly absorbed compared with before.",
+        "The patient had no fever; cough and sputum production were significantly improved compared with before, and shortness of breath was markedly relieved.",
+        "The patient improved rapidly and was discharged.",
+        "After continuing doxycycline + moxifloxacin anti-infective therapy for half a month, repeat chest CT (Figure 6, right) showed marked resolution of bilateral pulmonary lesions.",
+        "The patient had no other discomforts such as abdominal distension, abdominal pain, cough, sputum production, or dyspnea."
+      ]
+    }
+  }
+}

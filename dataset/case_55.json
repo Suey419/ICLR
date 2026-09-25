@@ -1,0 +1,317 @@
+{
+  "status": "success",
+  "case_id": "case_55",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 47-year-old woman whose chief complaint was \"intermittent dry cough for half a year, and pulmonary nodules discovered more than 1 month ago.\" Half a year before admission, she developed an intermittent dry cough without an obvious precipitating factor, more pronounced at night and relieved after drinking water. She was able to sleep quietly. She had no sputum production, hemoptysis, fever, or dyspnea; no dizziness, headache, nausea, or vomiting; and no fatigue, poor appetite, or weight loss. More than 1 month ago, during a physical examination, chest CT showed: a nodule in the left lower lobe, with a maximum diameter of 1.5 cm, with lobulation, spiculation, and pleural indentation; a small ground-glass density nodule approximately 6 mm in diameter was seen in the apical segment of the right upper lobe. She was seen at a local hospital, where complete blood count and inflammatory markers showed no obvious abnormalities. She was given intravenous infusion of \"ceftriaxone combined with levofloxacin sodium chloride\" for 15 days. Repeat chest CT showed no obvious change compared with before. PET-CT showed: a left lower lobe nodule with SUVmax 12.23, considered possibly malignant; a small right upper lobe nodule with SUVmax 2.86, with recommendation for regular follow-up. Three days before admission to our hospital (Day 0), contrast-enhanced chest CT showed: a nodule approximately 16 mm × 11 mm in size in the posterior basal segment of the left lower lobe, with lobulated and spiculated margins and adjacent pleural indentation; noncontrast CT attenuation value approximately 29 HU, arterial phase CT attenuation value approximately 46 HU, and venous phase CT attenuation value approximately 66 HU; a small ground-glass density nodule approximately 6 mm in diameter was seen in the apical segment of the right upper lobe. Past medical history: uterine fibroids discovered more than 3 years ago; denies hypertension, diabetes mellitus, etc. Personal history: denies contact with pigeons or other birds and livestock; denies smoking history and alcohol use. Physical examination: temperature 36℃, pulse 86 beats/min, respirations 18 breaths/min, blood pressure 129/77 mmHg. Breath sounds were clear in both lungs, with no dry or moist rales and no pleural friction rub. Heart rate 86 beats/min, regular rhythm. No digital clubbing.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJljSg0UFLf9icDD7mySmCt9sZDo40Y5e70RcHW2Oj4svs7dJMnvmaT2uFfdsgeoIgXl1gfwmGBqVQ/640?wx_fmt=png",
+          "near_text": "Right upper lobe ground-glass nodule",
+          "local_src": "cleaned_cases_image_cache/c07d22a8627a3ff2909db14d2c138e8b27a776e0.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJljSg0UFLf9icDD7mySmCt9gibKuibMclRMX4sPNkq9Njak1Yf2Xn0de5jBT0HT9wlV6oWJoqmun0XQ/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Contrast-enhanced chest CT",
+          "local_src": "cleaned_cases_image_cache/f61d17ece1271ed4c8a6586ee70664bb0e927357.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary peripheral lung cancer of the left lower lobe (lung adenocarcinoma highly likely)",
+          "supporting_evidence": [
+            "Chest CT showed a nodule in the left lower lobe, with a maximum diameter of 1.5 cm / approximately 16 mm × 11 mm, with lobulation, spiculation, and pleural retraction.",
+            "PET-CT showed a left lower lobe pulmonary nodule with SUVmax 12.23, suggesting hypermetabolic activity; the report considered malignancy possible.",
+            "Contrast-enhanced CT showed a noncontrast CT value of approximately 29 HU, approximately 46 HU in the arterial phase, and approximately 66 HU in the venous phase, with enhancement present.",
+            "Repeat chest CT after 15 days of antibacterial treatment showed no significant change compared with before, which does not support a common infectious lesion.",
+            "In the first-stage correlated images, a subpleural nodule is visible in the left lower lobe, irregular in shape, consistent with imaging features of a malignant nodule."
+          ],
+          "opposing_evidence": [
+            "47-year-old female patient, denies smoking history",
+            "No malignancy-related systemic or respiratory symptoms such as weight loss, fatigue, or hemoptysis",
+            "No definite evidence of hilar or mediastinal lymphadenopathy was provided in the first-phase information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Early lung adenocarcinoma spectrum lesions corresponding to a ground-glass nodule in the right upper lobe (atypical adenomatous hyperplasia/adenocarcinoma in situ/minimally invasive adenocarcinoma)",
+          "supporting_evidence": [
+            "A small ground-glass density nodule measuring approximately 6 mm in diameter is seen in the apical segment of the right upper lobe.",
+            "In the first phase, the correlated images show a small peripheral ground-glass nodular opacity in the right upper lung.",
+            "The patient is female and a nonsmoker; pulmonary ground-glass nodules warrant vigilance for early lesions in the adenocarcinoma spectrum.",
+            "PET-CT showed a small nodule in the right upper lobe with SUVmax 2.86. Although metabolic activity was not high, PET has limited sensitivity for small ground-glass nodules, and early adenocarcinoma cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "The nodule is only about 6 mm in diameter and is small in volume.",
+            "Appears to be a small ground-glass density nodule, with currently no description of more suspicious malignant features such as a definite solid component, lobulation, spiculation, or pleural indentation",
+            "No obvious marked increase in PET metabolic activity was observed"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculoma or other granulomatous lesions",
+          "supporting_evidence": [
+            "A solitary pulmonary nodule is present in the left lower lobe; granulomatous lesions may present as a solitary nodule.",
+            "Repeat chest CT after 15 days of antibacterial treatment showed no significant change; this can occur when the infection is not caused by common bacteria",
+            "The patient has no obvious symptoms of acute infectious toxemia; chronic granulomatous lesions should still be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The left lower lobe nodule demonstrates lobulation, spiculation, and pleural indentation, favoring malignancy.",
+            "PET-CT showed SUVmax 12.23, and the report considered malignancy possible.",
+            "Phase 1 information did not provide evidence supporting TB, such as fever, night sweats, weight loss, TB contact history, or cavities, satellite lesions, or calcifications."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Inflammatory pseudotumor or focal organizing pneumonia",
+          "supporting_evidence": [
+            "The patient has had intermittent dry cough for half a year.",
+            "The left lower lobe pulmonary nodule may represent an inflammatory proliferative lesion.",
+            "Contrast-enhanced CT shows enhancement; inflammatory lesions may also demonstrate some degree of enhancement"
+          ],
+          "opposing_evidence": [
+            "No supportive evidence of infection such as fever, sputum production, or abnormal inflammatory markers",
+            "After 15 days of ceftriaxone combined with levofloxacin, there was no significant change in the lesion.",
+            "A nodule with lobulation, spiculation, pleural indentation, and hypermetabolism on PET is less consistent with a purely inflammatory lesion.",
+            "Breath sounds were clear in both lungs, with no dry or wet rales heard."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary carcinoid and other neuroendocrine tumors",
+          "supporting_evidence": [
+            "The left lower lobe pulmonary nodule is a focal solid lesion; neuroendocrine tumors may present as pulmonary nodules.",
+            "PET-CT showed increased metabolic activity in the lesion; a neoplastic lesion needs to be differentiated",
+            "The patient's main symptoms are relatively mild, manifested only as a dry cough; this may also be seen in some low-grade malignancies."
+          ],
+          "opposing_evidence": [
+            "The imaging description is characterized mainly by lobulation, spiculation, and pleural retraction, which is more consistent with peripheral adenocarcinoma than with the common presentation of typical carcinoid.",
+            "Stage 1 information did not provide clues such as obstructive pneumonia, hemoptysis, or lesions within the central airways.",
+            "The images from the first stage show that the lesion is located in the subpleural peripheral region of the left lower lobe, with an irregular shape, and does not represent the typical imaging pattern of carcinoid."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "pulmonary metastases",
+          "supporting_evidence": [
+            "There are two nodular opacities in both lungs; theoretically, metastatic lesions need to be differentiated.",
+            "The patient was found to have uterine fibroids more than 3 years ago; although they are usually benign, the medical history suggests the need to distinguish this from a history of other tumors."
+          ],
+          "opposing_evidence": [
+            "No known history of extrapulmonary malignancy was provided in the first-stage information.",
+            "The dominant lesion in the left lower lobe shows lobulation, spiculation, and pleural indentation, which is more consistent with primary lung cancer than with a typical metastatic tumor.",
+            "The right lung lesion is a 6 mm ground-glass nodule; metastatic tumors usually do not primarily present as a solitary small ground-glass nodule.",
+            "Phase 1 associated images did not show the typical pattern of multiple, round to oval, well-circumscribed hematogenous metastatic nodules"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal capsular polysaccharide antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis B, hepatitis C, syphilis, HIV",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further examinations after admission: 1. Blood tests: CBC: WBC 4.57x10^9/L, RBC 4.19x10^12/L, Hb 113 g/L↓, PLT 207x10^9/L; blood biochemistry: total bilirubin 6.7 μmol/L, total protein 64.2 g/L, albumin 39.7 g/L, ALT 7.2 U/L, AST 10.4 U/L, creatinine 53 μmol/L, potassium 3.73 mmol/L, sodium 142.5 mmol/L; serum tumor markers: CEA 0.82 μg/L, NSE 10.2 ng/ml; G test, GM test, and cryptococcal capsular polysaccharide antigen all (-); hepatitis B, hepatitis C, syphilis, and HIV all (-). 2. Ancillary examinations: ECG: sinus rhythm, normal ECG.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJljSg0UFLf9icDD7mySmCt9lGQwfArb6ZZ3iaJT2Tjundic8723ibl3Fic0orgfEk2sDUiaAmaJGy97ic4A/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Management algorithm for patients with solid pulmonary nodules measuring 8-30 mm in diameter",
+            "local_src": "cleaned_cases_image_cache/6a4e8c426e1cd516bccab621329750ee79291cb9.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJljSg0UFLf9icDD7mySmCt9iaLFwqxBOnwCCiaxHgRmhj1EDFc24vXHXwB8NC7M06KbGSZ4qx3w0ibdw/640?wx_fmt=jpeg",
+            "near_text": "Figure 3: Diagram of pulmonary nodule diagnosis",
+            "local_src": "cleaned_cases_image_cache/157036df4d0b913edb1a4adb5fdf099f99b47335.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "lung cancer",
+            "evidence": [
+              "The left lower lobe nodule is a solid nodule measuring ≤2 cm, with malignant nodule features including spiculation, lobulation, and pleural retraction.",
+              "Anti-infective treatment was ineffective",
+              "PET-CT was completed and suggested the possibility of malignancy"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "bacterial infection",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Before admission, the patient had received antibacterial anti-infective treatment for half a month; repeat CT showed no significant change, and a bacterial infection was considered unlikely."
+            ]
+          },
+          {
+            "name": "Fungal infection (pulmonary aspergillosis, pulmonary cryptococcosis)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "G test, GM test, and cryptococcal capsular polysaccharide antigen negative",
+              "No obvious sputum production or hemoptysis, no immunocompromised state, no history of bird or poultry exposure, no symptoms or signs of the central nervous system",
+              "Chest CT showed no evidence of infection; cranial MRI showed no evidence of infection."
+            ]
+          },
+          {
+            "name": "Synchronous primary lung cancers and intrapulmonary metastasis",
+            "evidence": [
+              "Outside hospital PET-CT showed increased metabolic activity in a right upper lobe pulmonary nodule"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Benign nodules (tuberculoma, fungal infection, sclerosing pneumocytoma, inflammatory pseudotumor, hamartoma, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Outside hospital PET-CT showed increased metabolic activity in a right upper lobe pulmonary nodule, with a relatively low likelihood of a benign nodule."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "lung cancer",
+        "evidence": [
+          "The left lower lobe nodule is a solid nodule measuring ≤2 cm, with malignant nodule features including spiculation, lobulation, and pleural retraction.",
+          "Anti-infective treatment was ineffective",
+          "PET-CT was completed and suggested the possibility of malignancy"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "bacterial infection",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Before admission, the patient had received antibacterial anti-infective treatment for half a month; repeat CT showed no significant change, and a bacterial infection was considered unlikely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Fungal infection (pulmonary aspergillosis, pulmonary cryptococcosis)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "G test, GM test, and cryptococcal capsular polysaccharide antigen negative",
+          "No obvious sputum production or hemoptysis, no immunocompromised state, no history of bird or poultry exposure, no symptoms or signs of the central nervous system",
+          "Chest CT showed no evidence of infection; cranial MRI showed no evidence of infection."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Synchronous primary lung cancers and intrapulmonary metastasis",
+        "evidence": [
+          "Outside hospital PET-CT showed increased metabolic activity in a right upper lobe pulmonary nodule"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Benign nodules (tuberculoma, fungal infection, sclerosing pneumocytoma, inflammatory pseudotumor, hamartoma, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Outside hospital PET-CT showed increased metabolic activity in a right upper lobe pulmonary nodule, with a relatively low likelihood of a benign nodule."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Intraoperative frozen section pathology",
+          "basis_in_stage3_input": "Intraoperative frozen section pathology showed: in the lung tissue of the (right upper lobe) and (left lower lobe), diffuse distribution of histiocyte-like cells was seen, with scattered multinucleated giant cells; an inflammatory lesion is the primary consideration. In the (right upper lobe), a small number of cells with a certain degree of atypia were focally seen.",
+          "why_order_this_exam": "The patient had a 6-month history of dry cough. Imaging showed a left lower lobe nodule with lobulation, spiculation, pleural indentation, and hypermetabolism on PET-CT, and an additional 6 mm ground-glass nodule in the right upper lobe. Before surgery, there was an ongoing differential diagnosis among lung cancer, synchronous double primary lesions, and infectious granuloma. At the same time, 15 days of anti-infective treatment was ineffective, while blood inflammatory and mycologic screening failed to identify the cause. By the time the case had entered the VATS stage, the purpose of intraoperative frozen-section pathology was to determine as quickly as possible whether the bilateral lesions were malignant or inflammatory/granulomatous lesions, especially to resolve whether the small right upper lobe nodule had atypical hyperplasia or adenocarcinoma and whether the left lower lobe lesion was more suggestive of inflammation, thereby allowing an immediate decision on the extent of resection and whether further lymph node management was needed, and avoiding over- or undertreatment surgically. This examination directly served intraoperative decision-making and was also the most critical rapid histologic assessment when imaging was highly suspicious for malignancy but the nature of the lesions was not completely clear.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathology",
+          "basis_in_stage3_input": "Postoperative pathology showed: (right upper lobe) invasive pulmonary adenocarcinoma, acinar type; the cancer tissue did not invade the pleura. No carcinoma was seen at the pulmonary parenchymal staple line margin. A large number of foamy cells and fibrous tissue hyperplasia were seen around the tumor.",
+          "why_order_this_exam": "Intraoperative frozen-section pathology can provide only a preliminary rapid assessment, whereas the nature of the bilateral lung lesions in this case is complex: only focal atypical cells were seen intraoperatively in the right upper lobe small nodule, while the left lower lobe showed inflammatory changes, creating the possibility of discordance between the frozen section and the final diagnosis. Postoperative paraffin-embedded pathology can more accurately determine whether the right upper lobe lesion is invasive adenocarcinoma, its histologic type, whether there is pleural invasion, and whether the surgical margins are negative, and, together with the complete morphology of the left lower lobe lesion, further differentiate infection, granuloma, and tumor. In this case, this examination addresses the issue of final definitive diagnosis and is also the core basis for lung cancer T staging, assessment of the radicality of surgery, and determination of whether additional treatment or a follow-up strategy is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: Napsin A (+), PD-L1 (22C3) (TPS=1%), Ki-67 (+2%), ALK (Ventana) (-), TTF-1 (+).",
+          "why_order_this_exam": "This patient is a 47-year-old woman and a never-smoker. The right upper lobe lesion is very small, only about 6 mm. Intraoperative frozen section suggested focal atypical cells rather than initially establishing a definitive diagnosis of typical lung cancer, so immunohistochemistry was needed for further confirmation of the tumor origin and biologic characteristics. Napsin A and TTF-1 help support the diagnosis of lung adenocarcinoma and help exclude tumors from other primary sites or atypical inflammatory reactions; ALK results can provide clues related to driver genes, PD-L1 expression can help inform treatment options in the future if progression occurs or systemic therapy is needed, and Ki-67 reflects proliferative activity. In other words, this testing is used not only to reinforce the pathologic diagnosis but also for subsequent individualized treatment stratification and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "special stains",
+          "basis_in_stage3_input": "Special stain results: PAS (-), acid-fast stain (-).",
+          "why_order_this_exam": "The left lower lobe lesion remained a major diagnostic challenge throughout the entire clinical course: imaging findings of lobulation, spiculation, pleural indentation, and a PET-CT SUVmax of 12.23 were highly suggestive of malignancy, but antibacterial treatment was ineffective, and postoperative pathology showed numerous histiocytes, multinucleated giant cells, and pathogen-like structures, requiring further differentiation among TB, fungal infection, and other granulomatous lesions. The purpose of special stains is to verify the suspected pathogens seen on pathology, especially to evaluate for mycobacterial infection by acid-fast staining, and in combination with stains such as PAS to help support or argue against fungal disease. This examination directly addresses whether the left lower lobe lesion is a tumor with reactive changes or an independent infectious lesion, and plays a key role in establishing the diagnosis of pulmonary cryptococcosis, excluding important differential diagnoses such as TB, and guiding whether subsequent antifungal or anti-TB treatment is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymph node pathologic examination",
+          "basis_in_stage3_input": "No metastatic carcinoma was found in the group 7, group 9, group 10, or group 11 lymph nodes.",
+          "why_order_this_exam": "Although the right upper lobe lesion was small, postoperative pathology had already confirmed invasive adenocarcinoma. Once the diagnosis of lung cancer is established, it is necessary to determine whether hilar and mediastinal lymph node metastases are present. Preoperative imaging did not indicate definite lymph node enlargement, but negative imaging cannot replace pathologic staging; at the same time, this case was also complicated by an inflammatory/infectious lesion in the left lower lobe, making imaging alone more susceptible to interference from inflammatory reaction. Pathologic examination of the lymph nodes can directly determine the N stage, distinguish early-stage localized lung cancer from disease with regional metastasis, and thereby determine the final stage, assess prognosis, and guide whether postoperative adjuvant therapy is needed. The results showed no metastatic carcinoma in station 7, 9, 10, and 11 lymph nodes, directly supporting N0 staging for the right upper lobe adenocarcinoma in this case.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +15, VATS right upper lobe wedge resection, left lower lobe wedge resection, and closed thoracic drainage were performed. Intraoperative frozen section pathology showed: in the lung tissue from the (right upper lobe) and (left lower lobe), histiocyte-like cells were diffusely distributed, with scattered multinucleated giant cells; an inflammatory lesion was considered first. In the (right upper lobe), a small number of cells with some atypia were seen focally. Postoperative pathology showed: (right upper lobe) invasive pulmonary adenocarcinoma, acinar type; the cancer tissue did not invade the pleura. No carcinoma was seen at the staple line margin of the lung parenchyma. A large aggregation of foamy cells and fibrous tissue hyperplasia were seen around the tumor. Immunohistochemistry results: Napsin A (+), PD-L1 (22C3) (TPS=1%), Ki-67 (+2%), ALK (Ventana) (-), TTF-1 (+). (Left lower lobe) focal consolidation in portions of the lung tissue, with a large number of diffusely distributed histiocytes and chronic inflammatory cell infiltration, scattered multinucleated giant cells, and a small number of round pathogen-like structures seen within the cytoplasm of some histiocytes, considered Cryptococcus neoformans infection. Special stain results: PAS (-), acid-fast stain (-). No metastatic carcinoma was seen in the lymph nodes (station 7, station 9, station 10, station 11).",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Right upper lobe lung adenocarcinoma (T1aN0M0, stage IA1); 2. Pulmonary cryptococcosis",
+      "diagnostic_basis": [
+        "Pathology of the right upper lobe showed invasive adenocarcinoma; diagnosis: adenocarcinoma of the right upper lobe of the lung; lesion diameter 6 mm; no metastasis to other sites was identified; stage IA1.",
+        "Video-assisted thoracoscopic biopsy pathology indicated cryptococcal organisms in the pathology specimen from the left lower lobe of the lung, diagnosed as pulmonary cryptococcosis"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Underwent VATS wedge resection of the right upper lobe and wedge resection of the left lower lobe, and closed thoracic drainage"
+      ],
+      "treatment_response": []
+    }
+  }
+}

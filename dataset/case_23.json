@@ -1,0 +1,402 @@
+{
+  "status": "success",
+  "case_id": "case_23",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 56-year-old man presented with the chief complaint of \"intermittent chest tightness and wheezing for more than 2 years.\" More than 2 years ago, he developed chest tightness and wheezing after activity, accompanied by dyspnea and cough with white sputum, without hemoptysis or chest pain, and without fever, palpitations, or profuse sweating, and without nausea or vomiting; the symptoms could be relieved spontaneously after rest. Thereafter, the symptoms recurred intermittently, and he gradually developed bilateral lower-extremity edema after activity. He was diagnosed with pulmonary embolism at a local hospital and was given \"rivaroxaban tablets, hydrochlorothiazide tablets, and spironolactone tablets,\" with no significant improvement in symptoms. More than 4 months ago, the symptoms recurred, with marked worsening of dyspnea, accompanied by abdominal distension, poor appetite, poor sleep, and bilateral lower-extremity edema. He presented to our hospital, where CTPA and echocardiography were performed, and the diagnoses were: 1. pulmonary thromboembolism; 2. chronic thromboembolic pulmonary hypertension, cor pulmonale. He was given \"dabigatran 110 mg, Bid, and ambrisentan 5 mg, QD orally,\" and the symptoms were slightly relieved. Over the past 3 days, he felt that his chest tightness and wheezing had worsened compared with before, with limitation of usual physical activity, accompanied by abdominal distension, without cough or sputum production, and without chest pain or hemoptysis. Appetite was normal, sleep was poor, bowel and bladder function were normal, mental status was normal, and there was no weight loss. Past history: pancytopenia for more than half a year; he reported that bone marrow aspiration performed at an outside hospital showed no abnormalities. No history of hypertension or diabetes. Personal history: smoked 10-20 cigarettes per day for 30 years; drank half a jin of alcohol daily for 10 years. Marital/reproductive history and family history were unremarkable. Physical examination on admission: jugular venous distention, positive hepatojugular reflux sign, clear breath sounds in both lungs, no dry or moist rales, no pleural friction rub, and normal vocal resonance. No precordial bulge, normal apical impulse, cardiac dullness enlarged to the right, heart rate 78 beats/min, regular rhythm, a grade 4/6 systolic blowing murmur audible in the tricuspid valve auscultation area, and no murmurs heard in the other valve auscultation areas. Ancillary examinations: complete blood count (our hospital, Day 0): WBC 2.3×10^9/L, RBC 3.17×10^12/L, HGB 92 g/L, PLT 86×10^9/L. Coagulation tests (our hospital, Day 0): PT 11.30S, APTT 29.70S, D-dimer 0.42mg/L. Pulmonary function test (our hospital, Day 0): normal ventilation and diffusion function. Echocardiography suggested: right ventricular diameter 26 mm↑, right atrial area 33.85 cm², tricuspid regurgitation velocity 4.4 m/s, pulmonary artery systolic pressure 91 mmHg. Pulmonary artery CTA (our hospital, Day 0): emboli formation in the right upper pulmonary artery, bilateral lower pulmonary arteries, and multiple intrapulmonary pulmonary artery branches.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Chronic thromboembolic pulmonary hypertension (CTEPH)/chronic post-pulmonary thromboembolism state",
+          "supporting_evidence": [
+            "Intermittent chest tightness, wheezing, and dyspnea for more than 2 years, worsened after exertion and relieved by rest, consistent with manifestations of chronic progressive pulmonary circulatory disease",
+            "Previously diagnosed with pulmonary embolism, and symptoms did not improve significantly after anticoagulation therapy, suggesting possible chronic residual thrombus and persistent pulmonary hypertension",
+            "More than 4 months ago, dyspnea significantly worsened, and abdominal distention and bilateral lower extremity edema developed, suggesting right heart functional involvement.",
+            "Physical examination showed jugular venous distention, positive hepatojugular reflux, rightward enlargement of the cardiac dullness border, and a grade 4/6 blowing systolic murmur in the tricuspid auscultation area, supporting increased right heart load and tricuspid regurgitation.",
+            "Color Doppler echocardiography showed a right atrial area of 33.85 cm², increased right ventricular diameter to 26 mm, tricuspid regurgitation velocity of 4.4 m/s, and pulmonary artery systolic pressure of 91 mmHg, suggesting significant pulmonary hypertension and right heart remodeling",
+            "Pulmonary artery CTA showed emboli within the right upper pulmonary artery, bilateral lower pulmonary arteries, and multiple intrapulmonary pulmonary artery branches, supporting chronic thromboembolic disease.",
+            "PFT showed normal ventilatory function and diffusing capacity, which does not support dyspnea caused by significant primary pulmonary parenchymal disease, but rather supports a pulmonary vascular etiology."
+          ],
+          "opposing_evidence": [
+            "D-dimer 0.42 mg/L did not indicate a significant elevation, but its value in excluding chronic thromboembolic disease is limited",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Recurrent pulmonary thromboembolism superimposed on acute or chronic disease (recurrent PTE)",
+          "supporting_evidence": [
+            "Over the past 3 days, chest tightness and dyspnea have worsened compared with before, with limitation of ordinary physical activity, suggesting a recent acute exacerbation component of symptoms.",
+            "There is a definite past history of pulmonary embolism. Current pulmonary artery CTA still shows multiple intrapulmonary arterial emboli; both recurrent thrombosis and persistent thrombosis should be considered.",
+            "The main symptoms are dyspnea and chest tightness, and the pulmonary physical examination is relatively lacking in signs of consolidation or infection, which is consistent with the common presentation of a pulmonary vascular event.",
+            "There is evidence of significant pulmonary hypertension and increased right heart load; acute recurrent embolism can lead to further worsening of symptoms."
+          ],
+          "opposing_evidence": [
+            "No chest pain or hemoptysis in the past 3 days",
+            "D-dimer 0.42 mg/L was not elevated, which does not support recent active acute thrombosis.",
+            "Heart rate 78 beats/min, no obvious tachycardia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary arterial hypertension with right heart failure (may be related to thromboembolism; differentiation from other types of pulmonary arterial hypertension is required)",
+          "supporting_evidence": [
+            "Exertional chest tightness, shortness of breath, and progressively worsening dyspnea, consistent with the common symptom spectrum of pulmonary hypertension",
+            "Bilateral lower extremity edema, abdominal distension, jugular venous distention, and a positive hepatojugular reflux sign suggest systemic venous congestion and right heart failure.",
+            "Echocardiography showed a pulmonary artery systolic pressure of 91 mmHg, tricuspid regurgitation velocity of 4.4 m/s, and right atrial and right ventricular enlargement, supporting severe pulmonary hypertension with right heart involvement.",
+            "Grade 4/6 systolic blowing murmur at the tricuspid area, consistent with functional tricuspid regurgitation, which may be secondary to pulmonary hypertension and right heart enlargement",
+            "Breath sounds were clear in both lungs, with no wheezes or crackles, suggesting that the dyspnea may not primarily be due to alveolar or bronchial lesions."
+          ],
+          "opposing_evidence": [
+            "Pulmonary artery CTA has already indicated thrombus formation within the pulmonary artery, making pulmonary hypertension more likely secondary to thromboembolism rather than another type of pulmonary hypertension that is entirely independent.",
+            "The phase 1 information did not provide clues to other causes of pulmonary arterial hypertension, such as connective tissue disease, congenital heart disease, and portal hypertension."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Chronic cor pulmonale/right heart insufficiency",
+          "supporting_evidence": [
+            "The patient has long-term chest tightness and dyspnea; recently developed bilateral lower extremity edema and abdominal distension, consistent with manifestations of right heart dysfunction.",
+            "Physical examination showed jugular venous distention, positive hepatojugular reflux, and rightward enlargement of the cardiac dullness border, suggesting right heart enlargement and systemic venous congestion",
+            "Echocardiography showed enlargement of the right atrium and right ventricle and severe pulmonary hypertension, supporting increased right heart load of pulmonary origin.",
+            "A prominent systolic murmur over the tricuspid area suggests functional tricuspid regurgitation, which can be seen in cor pulmonale"
+          ],
+          "opposing_evidence": [
+            "Pulmonary function testing showed normal ventilation and diffusing capacity. Breath sounds were clear in both lungs, with no dry or wet rales. These findings do not support typical chronic cor pulmonale caused by common etiologies such as COPD or diffuse pulmonary parenchymal disease.",
+            "Current stronger etiologic evidence points to pulmonary thromboembolism-associated pulmonary hypertension"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Heart failure or pulmonary hypertension due to left heart disease (e.g., valvular disease, left ventricular systolic/diastolic dysfunction)",
+          "supporting_evidence": [
+            "Chief complaints of chest tightness, wheezing, and dyspnea, accompanied by bilateral lower extremity edema and abdominal distension, may be seen in heart failure",
+            "Physical examination revealed jugular venous distention and a positive hepatojugular reflux sign, suggesting cardiac insufficiency."
+          ],
+          "opposing_evidence": [
+            "On physical examination, the apical impulse was normal, and no pulmonary moist rales commonly seen in left heart failure were described.",
+            "Breath sounds in both lungs were clear, with no dry or moist rales, not supporting pulmonary congestion.",
+            "The murmur is mainly heard in the tricuspid area, more consistent with functional tricuspid regurgitation secondary to right heart enlargement, rather than left-sided valvular disease.",
+            "The key findings on echocardiography were enlargement of the right atrium and right ventricle and severe pulmonary hypertension; in the first stage, no evidence of left-sided cardiac structural abnormalities or left ventricular dysfunction was provided.",
+            "Pulmonary artery CTA showed multiple pulmonary emboli, which better explain the symptoms and right heart changes"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Chronic obstructive pulmonary disease or other chronic airway/parenchymal lung diseases",
+          "supporting_evidence": [
+            "30-year smoking history, smoking 10-20 cigarettes per day",
+            "During the course of the illness, there were cough, white sputum production, and exertional dyspnea, which can be seen in chronic airway diseases."
+          ],
+          "opposing_evidence": [
+            "Pulmonary function testing showed normal ventilatory and diffusing function, not supporting significant obstructive or diffusion-impairment lung disease.",
+            "Breath sounds were clear bilaterally, with no dry or moist rales, and no obvious signs of acute exacerbation of chronic airway disease.",
+            "Color Doppler echocardiography and pulmonary artery CTA have provided stronger evidence supporting pulmonary vascular disease rather than primary airway/pulmonary parenchymal disease",
+            "No cough or sputum production in the past 3 days."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bone marrow aspiration",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum tissue antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right heart catheterization",
+          "requirement": "required"
+        },
+        {
+          "exam": "V/Q scan diagnosis",
+          "requirement": "required"
+        },
+        {
+          "exam": "arterial blood gas",
+          "reason": "Assess the feasibility of right heart catheterization",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antinuclear antibodies, lupus anticoagulant",
+          "reason": "Etiologic workup for pulmonary embolism",
+          "basis_in_stage3_input": "Recurrent shortness of breath for 2 years; pulmonary artery CTA showed pulmonary embolism, and the etiology needs to be further clarified",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis: pH 7.468, PaCO2 31.80 mmHg, PaO2 56.7 mmHg↓; CBC showed: WBC 2.28×10^9/L↓, RBC 2.93×10^12/L↓, PLT 59×10^9/L↓. Urinalysis showed: urobilinogen (+++), urine bilirubin negative, with no other abnormalities; stool routine was unremarkable; myocardial enzymes, BNP: AST 59 U/L↑, NT-proBNP 504.2 pg/mL↑. Coagulation testing showed: D-dimer 0.16 mg/L. Liver and kidney function results showed: ALT 17 U/L, AST 57 U/L, total bilirubin 50.50 umol/L↑, direct bilirubin 15.20 umol/L↑, indirect bilirubin 35.3 umol/L↑; renal function, blood glucose, and blood lipids were unremarkable. Screening for four infectious diseases found no hepatitis B, hepatitis C, HIV, or syphilis. Thrombophilia screening: lupus anticoagulant screening ratio 2.17, lupus anticoagulant confirmatory ratio 1.78, lupus anticoagulant normalized ratio 1.22. Tumor markers showed no obvious abnormalities. Autoimmune tests ANA, ds-DNA, ENA panel, and four ANCA items were all negative; thyroid function was normal. Anticardiolipin antibodies: IgG, IgA, and IgM were all negative; anti-β2-glycoprotein antibody was negative. Viral antibodies including EB virus and cytomegalovirus were all negative. COVID-19 antigen and antibody were both negative. Repeat urinalysis and liver function tests still showed elevated bilirubin, predominantly indirect bilirubin, with positive urobilinogen and negative urine bilirubin. Autoimmune hepatitis antibodies were all negative, and abdominal color Doppler ultrasound showed no cirrhosis or tumor.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIIargJf102HsFAS6qibucHB1eqPB1xibqxncic7AdvibNAMuw1H6aKc6SiaunGsnTZ68R5WbOrrb5ZsJQ/640?wx_fmt=png",
+            "near_text": "Figure 1: Pulmonary artery CTA (Day 0)",
+            "local_src": "cleaned_cases_image_cache/fae0375179a1473a7bbaa0df4623b2a1f78b5438.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Primary antiphospholipid antibody syndrome",
+            "evidence": [
+              "Lupus anticoagulant positive (normalized ratio >1.2)"
+            ],
+            "exclusion_reasons": [
+              "The patient is an elderly male, and primary antiphospholipid syndrome is unlikely.",
+              "The lupus anticoagulant was only slightly elevated, and dabigatran had not been discontinued before blood collection; all other antiphospholipid antibodies were negative"
+            ]
+          },
+          {
+            "name": "connective tissue disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Aside from positive antiphospholipid antibodies, no hyperthyroidism, other autoimmune diseases, or viral infections have been identified at present."
+            ]
+          },
+          {
+            "name": "Obstructive jaundice",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No hepatitis B or hepatitis C",
+              "Abdominal color Doppler ultrasound showed no cirrhosis or tumors."
+            ]
+          },
+          {
+            "name": "hepatocellular jaundice",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Autoimmune hepatitis antibody tests were all negative",
+              "No hepatitis B or hepatitis C",
+              "Abdominal color Doppler ultrasound showed no cirrhosis or tumors."
+            ]
+          },
+          {
+            "name": "Hereditary spherocytosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "A decreased red blood cell count can be ruled out."
+            ]
+          },
+          {
+            "name": "Glucose-6-phosphate dehydrogenase deficiency",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient is an elderly man with pancytopenia identified for 6 months, a chronic course, and no history of taking related medications."
+            ]
+          },
+          {
+            "name": "Hemoglobinopathy",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient is an elderly male with no family history and pancytopenia, which is not consistent with"
+            ]
+          },
+          {
+            "name": "Autoimmune hemolytic anemia",
+            "evidence": [
+              "Insidious onset, onset in adulthood",
+              "It may be complicated by thromboembolic disease and may also cause thrombocytopenia, or even pancytopenia in severe cases."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Paroxysmal nocturnal hemoglobinuria",
+            "evidence": [
+              "Adult onset, more common in males",
+              "May be accompanied by pancytopenia and recurrent venous thrombosis"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Primary antiphospholipid antibody syndrome",
+        "evidence": [
+          "Lupus anticoagulant positive (normalized ratio >1.2)"
+        ],
+        "exclusion_reasons": [
+          "The patient is an elderly male, and primary antiphospholipid syndrome is unlikely.",
+          "The lupus anticoagulant was only slightly elevated, and dabigatran had not been discontinued before blood collection; all other antiphospholipid antibodies were negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "connective tissue disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Aside from positive antiphospholipid antibodies, no hyperthyroidism, other autoimmune diseases, or viral infections have been identified at present."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Obstructive jaundice",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No hepatitis B or hepatitis C",
+          "Abdominal color Doppler ultrasound showed no cirrhosis or tumors."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "hepatocellular jaundice",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Autoimmune hepatitis antibody tests were all negative",
+          "No hepatitis B or hepatitis C",
+          "Abdominal color Doppler ultrasound showed no cirrhosis or tumors."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hereditary spherocytosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "A decreased red blood cell count can be ruled out."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Glucose-6-phosphate dehydrogenase deficiency",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient is an elderly man with pancytopenia identified for 6 months, a chronic course, and no history of taking related medications."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hemoglobinopathy",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient is an elderly male with no family history and pancytopenia, which is not consistent with"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Autoimmune hemolytic anemia",
+        "evidence": [
+          "Insidious onset, onset in adulthood",
+          "It may be complicated by thromboembolic disease and may also cause thrombocytopenia, or even pancytopenia in severe cases."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Paroxysmal nocturnal hemoglobinuria",
+        "evidence": [
+          "Adult onset, more common in males",
+          "May be accompanied by pancytopenia and recurrent venous thrombosis"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration result: active proliferation of all three hematopoietic cell lineages.",
+          "why_order_this_exam": "The patient has had persistent pancytopenia for more than half a year. CBC on admission showed decreased WBC, RBC/HGB, and PLT, accompanied by elevated indirect bilirubin and positive urinary urobilinogen, suggesting that in addition to bone marrow hematopoietic dysfunction, peripheral destruction or hemolysis should also be considered. A prior bone marrow aspiration at an outside hospital reportedly showed 'no abnormalities,' but the information was incomplete, and the cytopenias have persisted and affect subsequent anticoagulation and overall treatment risk assessment; therefore, repeat bone marrow aspiration is needed to assess bone marrow hematopoietic status. This examination is mainly intended to determine whether the pancytopenia is due to primary hematologic disease such as bone marrow failure/myelodysplastic syndrome, or due to peripheral destruction in the setting of compensatory hyperplasia. If active trilineage hyperplasia is shown, this would be more supportive of hemolysis or peripheral consumption rather than bone marrow suppression, helping to narrow the differential diagnosis and providing a basis for whether to focus subsequent screening for PNH, assess anticoagulation safety, and formulate a treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coombs test",
+          "basis_in_stage3_input": "Coombs test negative",
+          "why_order_this_exam": "The patient is an adult male. During the chronic course of illness, anemia, pancytopenia, elevated indirect bilirubin, and positive urinary urobilinogen are present, and hemolytic anemia should be considered clinically; at the same time, he is complicated by pulmonary embolism and pulmonary hypertension, and if the hemolysis is immune-mediated, this could explain the anemia and be associated with the thrombotic events. The Coombs test is used to determine whether there is autoimmune hemolysis mediated by immunoglobulin or complement on the red blood cell surface, thereby addressing the key question of whether this is autoimmune hemolytic anemia. This test is very important for confirming the diagnosis or excluding differential diagnoses: a positive result supports AIHA, whereas a negative result makes non-immune hemolysis such as PNH more suspect, and affects the subsequent comprehensive decision-making regarding whether glucocorticoid/immunosuppressive therapy is needed, as well as plans for anticoagulation, transfusion, and other management.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antibodies: IgA, IgG, IgM, anti-complement C3",
+          "basis_in_stage3_input": "IgA, IgG, IgM, and anti-C3 antibodies were all negative",
+          "why_order_this_exam": "In the setting of chronic anemia, elevated indirect bilirubin, positive urobilinogen, and thromboembolism, a single Coombs test alone is still insufficient to fully assess the possibility of immune-mediated hemolysis. Therefore, further testing for IgA, IgG, IgM, and complement C3 related to immune destruction of red blood cells would help complete the evidentiary chain for immune hemolysis. This group of tests is mainly intended to determine whether there is red blood cell destruction mediated by different types of antibodies or complement. Especially in adults with an insidious onset, accompanied by thrombocytopenia or even pancytopenia, differentiation from autoimmune hemolytic anemia and other conditions is needed. Negative results can further weaken the diagnosis of immune hemolysis, support shifting to screening for non-immune hemolytic diseases such as PNH, and also avoid inappropriate use of glucocorticoids or other immunotherapy, which has direct implications for subsequent treatment pathway selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ham",
+          "basis_in_stage3_input": "Ham test negative",
+          "why_order_this_exam": "The patient is an adult male with trilineage cytopenia for more than half a year, accompanied by recurrent manifestations related to venous thrombosis, as well as elevated indirect bilirubin and positive urinary urobilinogen; on subsequent further inquiry into the history, he also had intermittent brown urine. These findings all suggest the possibility of PNH. The Ham test, as one of the traditional screening methods for PNH, is intended to determine from the perspective of complement sensitivity whether erythrocytes have PNH-related abnormalities, thereby answering whether chronic hemolysis and thrombotic tendency are caused by paroxysmal nocturnal hemoglobinuria. Although this test has limited sensitivity, in this case, interpretation in conjunction with bone marrow aspiration, Coombs test, and flow cytometry results can help distinguish PNH from diseases such as autoimmune hemolysis and bone marrow hematopoietic disorders; even if negative, it cannot exclude PNH, so it remains valuable in indicating that more sensitive flow cytometric FLAER testing is still needed and in avoiding missed diagnosis based solely on traditional tests.",
+          "requirement": "required"
+        },
+        {
+          "exam": "flow cytometric FLAER",
+          "basis_in_stage3_input": "FLAER positive by flow cytometry",
+          "why_order_this_exam": "The patient has highly suspicious clues for PNH: an adult man, pancytopenia for more than 6 months, anemia and elevated indirect bilirubin, positive urine urobilinogen, intermittent brown urine, and pulmonary embolism, an unusual venous thrombotic event. Even if the previous Ham test was negative, it is still insufficient to exclude PNH; therefore, a more sensitive and specific peripheral blood flow cytometry FLAER assay is needed to identify clones with deficiency of GPI-anchored proteins. The core clinical question this test needs to address is whether the patient's hemolysis and thrombosis are caused by a clonal hematopoietic abnormality of PNH. A positive FLAER result is critical for establishing the diagnosis of PNH, can explain the pathophysiologic basis for the coexistence of pancytopenia and thrombosis, and will directly affect subsequent treatment strategy selection, such as whether long-term PNH-related management is needed, optimization of the anticoagulation strategy, and the overall management of concomitant pulmonary vascular disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Perfusion SPECT",
+          "basis_in_stage3_input": "Perfusion SPECT was completed, and the results showed multiple abnormal perfusion defects and decreased perfusion in both lungs.",
+          "why_order_this_exam": "The patient had more than 2 years of chest tightness and shortness of breath after exertion, with worsening again over the past 3 days. There was also a prior diagnosis of pulmonary embolism and chronic thromboembolic pulmonary hypertension. Echocardiography showed a pulmonary artery systolic pressure of 91 mmHg and clear signs of right heart involvement, suggesting that the condition was not simply an acute event, but rather chronic pulmonary vascular obstruction and pulmonary hypertension. Perfusion SPECT was used for further assessment of the extent, distribution, and severity of pulmonary perfusion defects, to address the key question of whether there were multiple chronic vascular perfusion abnormalities consistent with CTEPH. This examination is sensitive for the diagnosis of CTEPH, can distinguish it from pulmonary parenchymal disease, complements the limitations of CTA in demonstrating distal lesions, and provides an important basis for subsequent determination of the cause of pulmonary hypertension, assessment of disease burden, and selection of the treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "At the same time, CT did not reveal pulmonary parenchymal disease causing ventilation abnormalities in the areas of perfusion defects.",
+          "why_order_this_exam": "In a patient with established severe pulmonary hypertension, a history of pulmonary embolism, and multiple perfusion defects on perfusion SPECT, it is still necessary to determine whether these defects can be explained by pulmonary parenchymal disease or other ventilation abnormalities. The patient’s pulmonary ventilatory function and diffusing capacity are basically normal, and the lung physical examination also shows no clear evidence of consolidation or obstructive disease; however, given the long-term smoking history, CT is still needed for direct evaluation of the pulmonary parenchyma. The main purpose of this examination is to determine whether the perfusion defects correspond to intrapulmonary infection, tumor, interstitial disease, or significant airway disease, thereby completing the differential diagnosis between CTEPH and dyspnea/pulmonary hypertension caused by primary pulmonary parenchymal disease. If there is no corresponding pulmonary parenchymal abnormality in the areas of perfusion defects, this would further support a vascular lesion, help increase diagnostic confidence for CTEPH, and affect subsequent pulmonary hypertension classification and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "basis_in_stage3_input": "Repeat pulmonary artery CTA still showed mural thrombus; a \"web-like sign\" was visible in the right lower pulmonary artery, with little change compared with 4 months earlier.",
+          "why_order_this_exam": "The patient had previously received anticoagulation and pulmonary vasodilator therapy at our hospital for pulmonary thromboembolism and chronic thromboembolic pulmonary hypertension, but the symptoms were only slightly relieved. Recently, chest tightness and dyspnea have worsened again, indicating the need for repeat evaluation of the anatomic pulmonary arterial lesions. Pulmonary artery CTA can directly visualize residual thrombi within the pulmonary arteries, mural organized changes, and characteristic signs of chronic thrombus such as web-like lesions, thereby addressing whether the current condition represents acute newly developed thrombus, chronic residual organized thrombus, or both. This examination is complementary to perfusion SPECT: on the one hand, it confirms the persistent presence of chronic thromboembolic lesions and explains the severe pulmonary hypertension and right heart failure manifestations; on the other hand, it evaluates lesion location and morphology and plays a key role in differentiating CTEPH from other causes of pulmonary hypertension, assessing the efficacy after anticoagulation, and determining subsequent specific treatment strategies.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bone marrow aspiration results returned: active proliferation of all three cell lineages. Coombs test negative; antibodies IgA, IgG, IgM, and anti-complement C3 were all negative; Ham test negative; flow cytometry FLAER positive. Further questioning of the patient's history revealed that there had indeed been intermittent episodes of slightly brownish urine. Perfusion SPECT was completed, and the results showed multiple abnormal vascular perfusion defects and sparse perfusion in both lungs; meanwhile, CT did not identify pulmonary parenchymal disease with ventilation abnormalities in the areas of perfusion defects. Repeat pulmonary artery CTA still suggested mural thrombus, and a web-like sign was seen in the right lower pulmonary artery, with little change compared with 4 months earlier.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIIargJf102HsFAS6qibucHB3yvCAU68DqMs3mxV9SJQJGOvcnUFZXgXvic1lq18VxOGEu3Oict8NibNQ/640?wx_fmt=png",
+          "near_text": "Figure 2: Perfusion SPECT",
+          "local_src": "cleaned_cases_image_cache/1ad3c23d8be4505c44bf35de904bc8d5a9ef94ba.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIIargJf102HsFAS6qibucHBHZQ24ic8JHJEAtsAaCP2Qgib5V1afvVONYfxmBNQkvNXpEwSPrHytrrw/640?wx_fmt=png",
+          "near_text": "Figure 3: Pulmonary artery CTA (Day +139)",
+          "local_src": "cleaned_cases_image_cache/8c1b2e34eca1b81bbe761d03e6e5985473cbb989.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Paroxysmal nocturnal hemoglobinuria with pulmonary embolism; 2. Pulmonary hypertension (Group 4 combined with Group 5), cor pulmonale.",
+      "diagnostic_basis": [
+        "Bone marrow aspiration results: active proliferation of all three hematopoietic lineages, supporting hemolytic disease",
+        "Coombs test negative; IgA, IgG, IgM, and anti-complement C3 antibodies all negative, not supporting autoimmune hemolytic anemia",
+        "Ham test negative, flow cytometry FLAER positive, supporting the diagnosis of paroxysmal nocturnal hemoglobinuria",
+        "There have indeed been intermittent episodes of slightly brownish urine color.",
+        "Perfusion SPECT showed multiple abnormal vascular perfusion defects and decreased perfusion in both lungs, while CT did not identify pulmonary parenchymal disease with ventilatory abnormality in the areas of perfusion defects.",
+        "Repeat pulmonary artery CTA still showed mural thrombus, and a web sign was seen in the right lower pulmonary artery."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Diuretic and anticoagulation therapy",
+        "Oral sodium bicarbonate tablets, vitamin E, Yixuesheng, etc.",
+        "Oral riociguat initiated at 0.5 mg tid",
+        "Continued use of an endothelin receptor antagonist (low-dose ambrisentan 5 mg)"
+      ],
+      "treatment_response": []
+    }
+  }
+}

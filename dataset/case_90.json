@@ -1,0 +1,508 @@
+{
+  "status": "success",
+  "case_id": "case_90",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 31-year-old man. He was admitted to the Department of Pulmonary and Critical Care Medicine, the Second Xiangya Hospital of Central South University on Day 0, with the chief complaint of \"cough, polyuria for 3 years, and neck enlargement for 2 months.\" Three years earlier (2015), he developed a cough without an obvious precipitating cause, characterized by paroxysmal bouts of repetitive coughing, 5-6 episodes/day, predominantly dry cough, with blood-streaked sputum during severe coughing, accompanied by polydipsia and polyuria, with daily urine output reaching more than 5000 ml and nocturia up to 6-7 times/night. He had no fever, fatigue, night sweats, alopecia, oral ulcers, joint pain, photosensitivity, or other discomfort. In approximately 29 months before Day 0, he was evaluated at an outside hospital. Chest CT showed diffuse bilateral pulmonary cystic lesions of varying sizes and small nodular opacities. Head MRI showed thickening of the pituitary stalk. Urine specific gravity was decreased, and the water deprivation-vasopressin test suggested central diabetes insipidus. He was diagnosed with \"diffuse bilateral pulmonary lesions, etiology to be determined; central diabetes insipidus,\" without a definitive diagnosis. He was treated with antitussive and expectorant therapy and desmopressin for diabetes insipidus. His polydipsia and polyuria improved, but the dry cough persisted. After discharge, he continued to have recurrent cough. In approximately 28 months before Day 0 and approximately 21 months before Day 0, he had 2 episodes of sudden chest pain and dyspnea without an obvious precipitating cause. Chest radiography at a local hospital indicated \"pneumothorax,\" and he gradually improved after closed thoracic drainage. Two months ago, he noted neck enlargement, accompanied by right upper abdominal pain, which was more obvious after eating, without dysphagia, hoarseness, nausea, vomiting, abdominal distension, or other discomfort. Since onset, his mental status, appetite, and sleep have been fair; bowel movements have been normal; urinary frequency has increased; and his weight has not changed significantly. Past medical history: 4-year history of gout; he denied tuberculosis and any history of close contact, and had no history of drug allergy. Personal history: smoked for more than 10 years, 1 pack/day, quit smoking 3 years ago. Unmarried. Family history unremarkable. Physical examination: temperature 36.3℃; pulse 98 beats/min; respiratory rate 20 breaths/min; blood pressure 118/81 mmHg. He was alert and of متوسط build. Multiple superficial nodules were present on the scalp and in both axillae, protruding above the skin, with tenderness; crusting was visible on the surface, with no discharge. Enlarged lymph nodes, approximately peanut-sized, were palpable in both sides of the neck, one on each side, medium in consistency, mobile, and non-tender. The thyroid was grade III enlarged, without vascular bruit. Breath sounds were coarse in both lungs, and scattered moist rales were heard in the right lower lobe; no pleural friction rub was present. Cardiac and abdominal examinations showed no positive findings. No abnormalities were found in the bones, joints, or nervous system. The nails showed longitudinal purpura and longitudinal ridging.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48scz48LAWJCHVJbXicLdSnxadgMotaoUNP8icMsoXn7QE9LibqvPMPQHanQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Skin changes: folliculitis-like changes of the skin in the axillae and scalp, with nodules. Nails: longitudinal purpura, longitudinal ridging, with hyperkeratosis and onycholysis.",
+          "local_src": "cleaned_cases_image_cache/096d05175b674f1cbc83487439de9f36764315b3.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Multisystem Langerhans cell histiocytosis (involving the lungs, pituitary-hypothalamus, and skin, with possible thyroid/lymph node involvement)",
+          "supporting_evidence": [
+            "31-year-old male with a smoking history of more than 10 years. Chest CT in 2015 showed diffuse bilateral cystic lesions of varying sizes and small nodular opacities.",
+            "Chronic dry cough; in approximately 28 months before Day 0 and approximately 21 months before Day 0, two episodes of sudden chest pain and dyspnea occurred. Chest X-ray indicated \"pneumothorax,\" consistent with cystic lung disease and spontaneous pneumothorax manifestations.",
+            "Head MRI suggested \"pituitary stalk thickening\"; the water deprivation-vasopressin test suggested \"central diabetes insipidus,\" indicating evidence of hypothalamic-pituitary involvement",
+            "Physical examination showed “multiple superficial nodules on the scalp and bilateral axillae, protruding above the skin, with tenderness; crusting visible on the surface,” consistent with skin involvement.",
+            "The attached images show crusted scalp skin lesions; the nails have longitudinal splinter hemorrhages and longitudinal ridging, suggesting skin/nail plate involvement.",
+            "Palpable enlarged lymph nodes in both sides of the neck, grade III thyroid enlargement, suggesting possible systemic multiorgan involvement"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Erdheim-Chester disease (non-Langerhans cell histiocytosis)",
+          "supporting_evidence": [
+            "The presence of central diabetes insipidus and pituitary stalk thickening suggests possible involvement of the hypothalamic-pituitary axis by histiocytosis.",
+            "Clues to multisystem involvement are present: diffuse cystic/nodular pulmonary lesions, crusted skin nodules, cervical lymphadenopathy, thyroid enlargement, right upper abdominal pain",
+            "The patient has chronic cough and recurrent pneumothorax, suggesting diffuse interstitial/cystic lung disease."
+          ],
+          "opposing_evidence": [
+            "The patient is 31 years old, which is relatively young; this disease is more common in middle-aged and older adults.",
+            "The phase 1 lung CT was described as \"diffuse bilateral cystic lesions of varying sizes and small nodular opacities,\" which is more consistent with the imaging pattern of smoking-related pulmonary Langerhans cell histiocytosis.",
+            "No typical long-bone pain or information on bone involvement was found in the first stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Sarcoidosis (involving the lungs, pituitary, skin/lymph nodes)",
+          "supporting_evidence": [
+            "Chronic cough, lung CT shows \"diffuse small nodular opacities in both lungs\"",
+            "Bilateral cervical lymphadenopathy, scalp and axillary skin lesions, suggesting possible systemic granulomatous disease",
+            "Pituitary stalk thickening and central diabetes insipidus may be seen in a small number of cases of neurosarcoidosis",
+            "Thyroid enlargement suggests possible involvement of other organs"
+          ],
+          "opposing_evidence": [
+            "Chest CT also showed \"diffuse variably sized cystic lesions,\" and there had been 2 prior episodes of pneumothorax, which is not a typical initial presentation of sarcoidosis",
+            "The patient is a male smoker; cystic lung disease combined with central diabetes insipidus and crusted cutaneous nodules is more suggestive of histiocytosis.",
+            "During the first stage, more typical clues such as bilateral hilar/mediastinal lymphadenopathy were not provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "Chronic cough, chest CT showed \"diffuse bilateral pulmonary cystic lesions of varying sizes\"",
+            "Had 2 episodes of \"pneumothorax,\" consistent with diffuse cystic lung disease",
+            "No obvious infectious symptoms such as fever or night sweats"
+          ],
+          "opposing_evidence": [
+            "The patient is a 31-year-old man, whereas LAM typically occurs in women of childbearing age.",
+            "Chest CT also showed \"small nodular opacities,\" which is not consistent with the common manifestation of LAM characterized predominantly by diffuse uniform thin-walled cysts.",
+            "The presence of \"pituitary stalk thickening\" and \"central diabetes insipidus,\" superficial nodules of the scalp and axillae, and thyroid enlargement cannot all be well explained by LAM."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Birt-Hogg-Dubé syndrome-associated cystic lung disease",
+          "supporting_evidence": [
+            "A young patient has bilateral cystic lung lesions and recurrent spontaneous pneumothorax",
+            "Multiple superficial nodules are visible on the scalp and skin, suggesting that hereditary skin-lung syndrome should be included in the differential diagnosis"
+          ],
+          "opposing_evidence": [
+            "Chest CT showed, in addition to cystic lesions, also “small nodular opacities,” which are atypical",
+            "The presence of \"pituitary stalk thickening\" and \"central diabetes insipidus\" is difficult to explain by Birt-Hogg-Dubé syndrome.",
+            "The skin lesions shown in the attached images and described on physical examination are superficial nodules with tenderness and crusting, which do not match the typical description of the folliculofibroma-like skin lesions commonly seen in this syndrome.",
+            "In the first stage, no supportive family history was provided, and the family history was unremarkable."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Granulomatosis with polyangiitis (GPA) or other systemic vasculitis",
+          "supporting_evidence": [
+            "Chronic cough; blood-streaked sputum during severe coughing suggests possible airway/pulmonary parenchymal inflammation or vasculitic lesions.",
+            "The fingernails have longitudinal splinter hemorrhages, which may suggest vasculitic or microvascular injury findings.",
+            "Scalp skin lesions and pulmonary nodular opacities may be seen in some systemic vasculitides"
+          ],
+          "opposing_evidence": [
+            "The main pulmonary imaging finding was “diffuse variably sized cystic lesions in both lungs,” with recurrent pneumothorax, which is even less consistent with the common imaging patterns of GPA, namely nodules, cavitary lesions, and diffuse hemorrhage.",
+            "No common associated manifestations such as sinusitis, epistaxis, ear symptoms, or renal involvement",
+            "Although “pituitary stalk thickening” and “central diabetes insipidus” may occasionally be seen in vasculitis, in the context of a male smoker, cystic lung disease, and crusted cutaneous nodules, the overall likelihood is lower than for histiocytosis."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "optional"
+        },
+        {
+          "exam": "G test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HIV",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "serum ceruloplasmin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "connective tissue disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "cortisol circadian rhythm",
+          "requirement": "required"
+        },
+        {
+          "exam": "ACTH circadian rhythm",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the neck and whole abdomen",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory and examinations: Arterial blood gas: pH: 7.45, PCO2: 38 mmHg, PO2: 83 mmHg; urinalysis: urine specific gravity 1.002↓; liver and kidney function: AST 85.9 U/L↑, ALT 84.0 U/L↑, total bilirubin 20.6 umol/L↑, direct bilirubin 10.4 umol/L↑, uric acid 512.9 umol/L↑; LDH 305.7 U/L↑; ESR 62 mm/h↑, CRP 71.30 mg/L↑, G test 178.0 pg/mL↑, GM test 0.19; CBC, stool routine, electrolytes, blood glucose, blood lipids, and coagulation function were normal. Thyroid function: T3: 0.79 ng/mL↓, T4: 4.95 ug/dL↓, TSH: 27.81 uIU/mL↑; thyroid antibodies: TG, TPO, and TSHR antibodies were all normal. Hepatitis panel, HIV, TP: negative. Serum ceruloplasmin: normal. Connective tissue disease panel: autoimmune liver disease nine-item panel: anti-ENA antibody-gp210 antibody+; ANA, ENA, vasculitis panel of three items, ANCA, rheumatoid factor, anti-CCP, antiphospholipid antibodies, and complement were all normal. Cortisol rhythm and ACTH rhythm: normal. ECG: sinus rhythm, normal ECG. Echocardiography: no obvious abnormality. Pulmonary function: severely impaired diffusing capacity and severe mixed ventilatory dysfunction. Chest HRCT: multiple irregular cystic lesions in both lungs, multiple mildly enlarged mediastinal lymph nodes, nature undetermined: atypical Langerhans cell histiocytosis? Lymphoproliferative disease? Other? Contrast-enhanced CT of the neck and whole abdomen showed multiple small low-density nodular lesions in the liver and bilateral thyroid enlargement.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sMEYSPcXxmo73M9hQF7IkagXPHbrv8mJZHScXpczwo7UYAiaFDiaKDa5Q/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest HRCT",
+            "local_src": "cleaned_cases_image_cache/70fa0cf33fa16d4784294dfe06171ad3f4b70eb2.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sbu0N2e0AEBXTQfUx1lNLFnglx6lsp0SL6jkEt4STZFfpsPP0gic482Q/640?wx_fmt=png",
+            "near_text": "Figure 3: Contrast-enhanced CT of the neck and whole abdomen",
+            "local_src": "cleaned_cases_image_cache/f3d2a0848e438c2cd81fdcf963a53d65d6f10711.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sibiapgpBicHjiaYGBF7FfriaGWqyYicIvqwPibxh7HWl8jaAARgfOjrcyyu2w/640?wx_fmt=png",
+            "near_text": "Figure 4: Diagnostic analysis flowchart for cystic lesions in both lungs",
+            "local_src": "cleaned_cases_image_cache/16d3bef6e8c8794e176a45244cbafd3c29936fb8.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Lymphangioleiomyomatosis (LAM)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "This disease occurs predominantly in women of childbearing age.",
+              "Chest CT generally shows no nodular lesions."
+            ]
+          },
+          {
+            "name": "Pulmonary Langerhans cell histiocytosis (PLCH)",
+            "evidence": [
+              "More common in young men, with a smoking history, recurrent pneumothorax, often accompanied by diabetes insipidus",
+              "Chest CT shows predominantly upper and mid-lung cystic lesions and tiny nodular lesions"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Lymphocytic interstitial pneumonia",
+            "evidence": [
+              "Cystic lesions may occur"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Birt-Hogg-Dubé syndrome",
+            "evidence": [
+              "Pulmonary cystic lesions and spontaneous pneumothorax may occur"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Autoimmune hepatitis",
+            "evidence": [
+              "gp210 antibody positive, elevated liver transaminases and bilirubin"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Primary biliary cholangitis",
+            "evidence": [
+              "gp210 antibody positive, elevated liver transaminases and bilirubin"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "congenital central diabetes insipidus",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Acquired central diabetes insipidus",
+            "evidence": [
+              "May be caused by granulomatous lesions"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hereditary central diabetes insipidus",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pituitary stalk thickening - neoplastic disease",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pituitary stalk thickening - inflammatory disease",
+            "evidence": [
+              "Langerhans cell histiocytosis can cause thickening of the pituitary stalk"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pituitary stalk thickening - congenital disease",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Langerhans cell histiocytosis (LCH)",
+            "evidence": [
+              "Can simultaneously involve the lungs, pituitary gland, skin, lymph nodes, thyroid gland, and liver",
+              "May cause bilateral pulmonary cysts and nodules, pituitary stalk thickening, central diabetes insipidus, skin rash, lymphadenopathy, thyroid enlargement and dysfunction, and hepatic lesions",
+              "Young male, smoking history, recurrent pneumothorax, and multisystem involvement are all consistent with"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lymphangioleiomyomatosis (LAM)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "This disease occurs predominantly in women of childbearing age.",
+          "Chest CT generally shows no nodular lesions."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary Langerhans cell histiocytosis (PLCH)",
+        "evidence": [
+          "More common in young men, with a smoking history, recurrent pneumothorax, often accompanied by diabetes insipidus",
+          "Chest CT shows predominantly upper and mid-lung cystic lesions and tiny nodular lesions"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphocytic interstitial pneumonia",
+        "evidence": [
+          "Cystic lesions may occur"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Birt-Hogg-Dubé syndrome",
+        "evidence": [
+          "Pulmonary cystic lesions and spontaneous pneumothorax may occur"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "congenital central diabetes insipidus",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Acquired central diabetes insipidus",
+        "evidence": [
+          "May be caused by granulomatous lesions"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hereditary central diabetes insipidus",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pituitary stalk thickening - neoplastic disease",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pituitary stalk thickening - inflammatory disease",
+        "evidence": [
+          "Langerhans cell histiocytosis can cause thickening of the pituitary stalk"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pituitary stalk thickening - congenital disease",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Langerhans cell histiocytosis (LCH)",
+        "evidence": [
+          "Can simultaneously involve the lungs, pituitary gland, skin, lymph nodes, thyroid gland, and liver",
+          "May cause bilateral pulmonary cysts and nodules, pituitary stalk thickening, central diabetes insipidus, skin rash, lymphadenopathy, thyroid enlargement and dysfunction, and hepatic lesions",
+          "Young male, smoking history, recurrent pneumothorax, and multisystem involvement are all consistent with"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Whole-body bone X-ray",
+          "basis_in_stage3_input": "Skeletal X-ray and whole-body bone scan: no obvious bone destruction.",
+          "why_order_this_exam": "The patient is a young adult male with diffuse cystic and nodular pulmonary lesions, central diabetes insipidus, crusted skin nodules, superficial lymphadenopathy, thyroid enlargement, and hepatic lesions; multisystem Langerhans cell histiocytosis is highly suspected clinically. Bone involvement is one of the common sites of system involvement in LCH. Even in the absence of definite bone pain or bone/joint signs at present, a whole-body skeletal X-ray survey is still needed to screen for bone destruction, osteolytic lesions, or other typical osseous lesions, in order to complete staging and assess the extent of systemic involvement, while also helping differentiate it from other histiocytic disorders such as Erdheim-Chester disease. This examination can also provide a basis for subsequent assessment of treatment intensity and prognosis; in this case, no obvious bone destruction was seen, suggesting that at least no typical imaging-defined bone destruction was identified.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Whole-body bone scan",
+          "basis_in_stage3_input": "Skeletal X-ray and whole-body bone scan: no obvious bone destruction.",
+          "why_order_this_exam": "In the context of this patient already showing evidence of multi-organ involvement of the lungs, pituitary, skin, lymph nodes, thyroid, and liver, occult bone involvement cannot be excluded based on localized symptoms alone. Whole-body bone scintigraphy helps supplement screening for skeletal lesions throughout the body from a functional and metabolic perspective, improving detection of asymptomatic bone involvement or early bone involvement atypical on X-ray, and further clarifying whether the disease involves multiple systems and its extent. The clinical purpose of this examination also includes differentiation from other histiocytic disorders, metastatic tumors, or inflammatory lesions that can involve the skeleton, and providing stratification information for whether more aggressive systemic treatment may be needed subsequently. In this case, the bone scan showed no obvious abnormalities related to osseous destruction, which helps support insufficient evidence of bone involvement.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Liver MRI without and with contrast",
+          "basis_in_stage3_input": "Liver MRI plain scan + contrast enhancement: diffuse hepatic lesions: Langerhans cell histiocytosis?",
+          "why_order_this_exam": "Over the past 2 months, the patient developed right upper abdominal pain and has had abnormal liver function, including elevated transaminases and bilirubin, and contrast-enhanced CT revealed multiple small low-density nodular lesions in the liver; at the same time, gp210 antibody positivity means that hepatic involvement needs to be differentiated among systemic LCH, inflammatory/autoimmune liver disease, and other infiltrative lesions. Noncontrast and contrast-enhanced liver MRI can further determine whether the intrahepatic lesions represent diffuse infiltration, nodular lesions, or cholestasis-related changes, assess lesion distribution, enhancement characteristics, and whether fibrosis or biliary involvement is present, thereby resolving the key question of whether the liver abnormality belongs to systemic involvement by LCH. The results of this examination have direct value for establishing the diagnosis of multisystem LCH, assessing the severity of involvement of important organs, and determining whether subsequent systemic treatment, hepatoprotective therapy, and specialty follow-up are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pituitary MRI without and with contrast",
+          "basis_in_stage3_input": "Pituitary MRI plain scan + contrast enhancement: partially empty sella.",
+          "why_order_this_exam": "The patient has had persistent polydipsia and polyuria for 3 years, with daily urine output reaching more than 5000 ml and nocturia 6-7 times per night. A prior water deprivation-desmopressin test had already indicated central diabetes insipidus. Previous head MRI at an outside hospital showed thickening of the pituitary stalk, suggesting involvement of the hypothalamic-pituitary axis. The purpose of plain and contrast-enhanced pituitary MRI is to further evaluate the morphology of the pituitary gland and pituitary stalk, enhancement characteristics, and posterior pituitary signal changes, and to determine whether there is LCH-related infiltration, inflammatory lesions, or other neoplastic lesions, in order to explain the patient's persistent central diabetes insipidus. This examination can help assess the extent of pituitary involvement, exclude other differential diagnoses causing pituitary stalk thickening and diabetes insipidus, and provide a basis for subsequent endocrine follow-up, desmopressin treatment, and selection of systemic therapy. In this case, partial empty sella was shown, which, in combination with the medical history, supports assessment in the context of pituitary involvement.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid cytology",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid cytology: numerous histiocytes and mesothelial cells, a small number of lymphocytes, and no typical malignant tumor cells identified.",
+          "why_order_this_exam": "The patient presented with long-term dry cough. Chest HRCT showed multiple irregular cystic lesions in both lungs accompanied by small nodular opacities. Spontaneous pneumothorax occurred twice. Pulmonary function testing indicated severe diffusion impairment and severe mixed ventilatory dysfunction, indicating that the lungs were the core organ involved. BALF cytology can, under relatively minimally invasive conditions, assess the cellular components within the alveoli and determine whether there is histiocytic proliferation, an inflammatory pattern, clues to infection, or malignant tumor cells, thereby first addressing the differential diagnosis between cystic lung disease and tumor, infection, and other interstitial lung diseases. In this case, together with elevated G test and elevated inflammatory markers, BALF cytology also helped exclude obvious infectious or neoplastic lesions. The results showed numerous histiocytes and no typical malignant tumor cells, providing direction for subsequent consideration of histiocytosis and for continuing with immunohistochemistry and tissue biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF immunohistochemistry",
+          "basis_in_stage3_input": "BALF immunohistochemistry: CD1a-positive cells/histiocytes >5%; pulmonary Langerhans cell histiocytosis cannot be excluded. Immunohistochemistry: CD1a(+), CD68(+), CD27(+), Ki-67(20%+), S100 (positive in occasional cells), CD23(-).",
+          "why_order_this_exam": "In the context of cystic lung lesions with nodules on pulmonary imaging, a smoking history, recurrent pneumothorax, and central diabetes insipidus, pulmonary Langerhans cell histiocytosis is already a highly suspected diagnosis; however, imaging and routine cytology alone still cannot confirm it. Immunohistochemistry on bronchoalveolar lavage fluid, especially testing markers such as CD1a and S100, is intended to identify the Langerhans cell phenotype, increase specific support for LCH/PLCH, and distinguish it from lymphoproliferative disorders, nonspecific inflammatory reactive histiocytosis, and malignant tumors. This examination serves as important bridging evidence before formal histopathology, can strengthen diagnostic confidence, and also helps determine whether a higher-risk lung biopsy is needed. In this case, an increased proportion of CD1a-positive cells together with the relevant immunophenotype clearly supports the possibility of Langerhans cell histiocytosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Transbronchial cryobiopsy pathology",
+          "basis_in_stage3_input": "Transbronchial cryobiopsy pathology report: Microscopic findings together with immunohistochemistry are consistent with Langerhans cell histiocytosis. Immunohistochemistry: CD1a(+), S100(+), CD68(+), CD27(+), Ki-67(20%+)",
+          "why_order_this_exam": "Although the patient's clinical presentation and imaging were already highly suggestive of LCH, the lung HRCT was described as \"atypical Langerhans cell histiocytosis? lymphoproliferative disease? others?\", and the differential diagnosis still included cystic lung diseases such as LAM, lymphocytic interstitial pneumonia, and Birt-Hogg-Dube syndrome; meanwhile, the patient had recurrent pneumothorax and severe pulmonary function impairment, and establishing a definitive pathologic diagnosis was crucial for determining whether to initiate steroids and whether to transfer to Hematology for systemic treatment. Transbronchial cryobiopsy can obtain larger lung tissue specimens with better-preserved architecture, allowing direct observation of lesion distribution, cellular morphology, and immunophenotype, and is the key examination for resolving the nature of the pulmonary lesions and establishing the diagnosis. The clinical value of this examination also lies in excluding malignancy, infection, and other diffuse cystic lung diseases, and in providing decisive evidence for the final classification of multisystem LCH, assessment of disease activity, and formulation of a treatment plan. In this case, the pathology together with immunohistochemistry has clearly confirmed Langerhans cell histiocytosis and constitutes the core evidence for the definitive diagnosis.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Whole-body bone X-ray and whole-body bone scan: no obvious bone destruction. Liver MRI plain scan + contrast enhancement: diffuse liver lesions: Langerhans cell histiocytosis? Pituitary MRI plain scan + contrast enhancement: partially empty sella. BALF cytology: numerous histiocytes and mesothelial cells, a small number of lymphocytes, no typical malignant tumor cells seen. BALF immunohistochemistry: CD1a-positive cells/histiocytes >5%; Langerhans cell histiocytosis cannot be excluded; immunohistochemistry: CD1a(+), CD68(+), CD27(+), Ki-67(20%+), S100 (occasional cells+), CD23(-). Cryobiopsy lung pathology report: microscopic findings combined with immunohistochemistry are consistent with Langerhans cell histiocytosis; immunohistochemistry: CD1a(+), S100(+), CD68(+), CD27(+), Ki-67(20%+)",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sZibT065n3MWAdZianE1R2sdnQu92vdicibPUphf3CDzgmIMtB16StDkXjA/640?wx_fmt=png",
+          "near_text": "Figure 5. Liver MRI plain scan + contrast-enhanced",
+          "local_src": "cleaned_cases_image_cache/1372507553a5418f32adf8fc8d2c4c371667af67.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sGoLZPH8EjulXXYu4esCdnqzCLeGgsD0Se7ibJxWDTNejaaBldHUsuRA/640?wx_fmt=png",
+          "near_text": "Figure 6: Lung biopsy pathology results and immunohistochemistry",
+          "local_src": "cleaned_cases_image_cache/81d5d2b0967c6bd2b06d89b051f5d57fa859984a.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Langerhans cell histiocytosis (involving the lungs, liver, thyroid, pituitary, lymph nodes, and skin) with secondary diabetes insipidus",
+      "diagnostic_basis": [
+        "Symptoms: ① 31-year-old young man; ② history of smoking. ③ Onset with dry cough, polydipsia, and polyuria; recurrent spontaneous pneumothoraces occurred multiple times during the course; recently developed neck enlargement and right upper abdominal pain.",
+        "Physical signs: rash, nail changes; superficial lymphadenopathy; thyroid enlargement.",
+        "Ancillary examinations: ① Laboratory tests: complete blood count and blood gas analysis were both normal; liver function showed elevated transaminases and bilirubin; uric acid was elevated; ② Thyroid function indicated subclinical hypothyroidism; connective tissue disease testing showed gp210 antibody+, suggesting that autoimmune hepatitis or primary biliary cholangitis could not be excluded; ③ Chest CT: multiple irregular cystic lesions in both lungs; whole-abdomen CT and liver MRI: diffuse liver disease; ④ A water deprivation-vasopressin test performed at an outside hospital indicated central diabetes insipidus. Brain MRI showed thickening of the pituitary stalk; ⑤ Plain and contrast-enhanced pituitary MRI: partially empty sella; ⑥ After transbronchial cryobiopsy, bronchoalveolar lavage fluid results and pathologic immunohistochemistry were consistent with Langerhans cell histiocytosis."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Smoking cessation was advised",
+        "Prednisone tablets 60 mg Qd orally",
+        "Desmopressin 100 ug BID orally to control diabetes insipidus",
+        "Adjunctive symptomatic and supportive treatment including hepatoprotective therapy, gastric mucosal protective therapy, potassium supplementation, and calcium supplementation",
+        "Hematology consultation recommended transfer to another department for chemotherapy",
+        "Sudden chest pain and shortness of breath; bedside X-ray indicated a new left-sided pneumothorax. Bedside closed thoracic drainage was performed."
+      ],
+      "treatment_response": [
+        "After drainage, the patient's chest pain and shortness of breath were relieved; it was recommended that the patient go to the Department of Hematology for further treatment after the pneumothorax improves."
+      ]
+    }
+  }
+}

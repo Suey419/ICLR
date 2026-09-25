@@ -1,0 +1,328 @@
+{
+  "status": "success",
+  "case_id": "case_28",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 24-year-old patient, Mr. Xin, employed at an electronics factory, presented to our hospital with the chief complaint of \"fever for half a month, cough and sputum production for 4 days.\" Half a month earlier, after an episode of catching a cold, the patient developed fever, mostly occurring in the afternoon, with a maximum temperature of 39.5℃, without cough, sputum production, hemoptysis, dyspnea, chills, or other symptoms. He received anti-infective treatment at a local township health center, and 7 days later (specific treatment regimen unknown), his temperature fluctuated between 37.2-37.5℃. Four days earlier, the patient developed paroxysmal cough and sputum production, with scant yellow purulent sputum, without chest pain, hemoptysis, chest tightness, or other symptoms, and presented to a local tertiary hospital in Qinyang City, where chest CT (Day 0) showed: bilateral lung infection and scattered nodular opacities in the middle and lower lobes of both lungs. He was diagnosed with \"bronchopneumonia\" and treated with levofloxacin, cefoperazone for anti-infective therapy, and ambroxol for expectoration, among other medications, but low-grade fever persisted. He was admitted to our hospital for further diagnosis and treatment. Inquiry into the past medical history revealed that Mr. Xin had previously been healthy, with no history of hypertension, heart disease, or diabetes. Personal history, marital and childbearing history, and family history were all unremarkable. On admission, physical examination showed: T 37.2℃, P 78/min, R 18/min, BP 116/68mmHg. Respiratory movement was normal, intercostal spaces were normal, tactile fremitus was normal, no pleural friction fremitus, no subcutaneous crepitus, percussion was resonant, breath sounds were coarse in both lungs, with no obvious dry or moist rales, no pleural friction rub, and vocal resonance was normal. Ancillary examinations showed: CBC, stool routine, infectious disease screening, coagulation tests, liver function, renal function, blood lipids, and electrolytes showed no obvious abnormalities; CRP 2.00mg/L, procalcitonin 0.012ng/ml, ESR 9.00mm/h; fungal G/GM test negative; T-SPOT negative; viral panel: Coxsackie virus and cytomegalovirus IgG (+); Mycoplasma and Chlamydia (-). ECG showed no abnormalities. Chest CT showed left lower lung infection.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5XTntniaNS40YeLEMzd2SLF43VzLtpFFibGiaXDop87tgNUBcibYAH1UmGA/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/bd6e85af936f48dbb4964538f9ae9aa611a5855c.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5bXEu057bF3BAUN1e2kBxcK8RRsvgHGaCqiaNm8DxAuiauZHAiaDcgYK3w/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Left lower lung infection",
+          "local_src": "cleaned_cases_image_cache/f01f11bf4d956ade5cffee8be7e5513a7e22182e.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired bacterial bronchopneumonia",
+          "supporting_evidence": [
+            "The chief complaints of fever, cough, and expectoration of yellow purulent sputum are consistent with common manifestations of bacterial lower respiratory tract infection.",
+            "Chest CT at an outside hospital (Day 0) showed: bilateral pulmonary infection, scattered nodular opacities in the middle and lower lobes of both lungs, diagnosed as \"bronchopneumonia\"",
+            "Chest CT at our hospital showed infection in the left lower lung.",
+            "The attached first-phase chest CT images show patchy/small nodular inflammatory opacities in the left lower lung, consistent with the imaging manifestations of bronchopneumonia or peribronchiolar infection.",
+            "Coarse breath sounds in both lungs, suggesting the possibility of inflammatory changes in the airways or lung parenchyma"
+          ],
+          "opposing_evidence": [
+            "CBC showed no significant abnormalities",
+            "CRP 2.00 mg/L, procalcitonin 0.012 ng/ml, ESR 9.00 mm/h; inflammatory markers are not elevated and do not strongly support typical bacterial infection.",
+            "Persistent low-grade fever despite anti-infective treatment with levofloxacin, cefoperazone, and other agents"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary tuberculosis (including possible bronchogenic spread tuberculosis)",
+          "supporting_evidence": [
+            "The fever has persisted for half a month and occurs mostly in the afternoon, which is one of the temporal characteristics of tuberculous fever.",
+            "Outside-hospital CT showed scattered nodular opacities in the middle and lower lobes of both lungs; nodular lesions can be seen in pulmonary tuberculosis",
+            "The initial chest CT images attached to the message show a small nodule in the left lower lung / scattered peribronchial lesions, which need to be differentiated from tuberculous dissemination.",
+            "Persistent low-grade fever despite conventional anti-infective treatment suggests the possibility of a non-common bacterial infection."
+          ],
+          "opposing_evidence": [
+            "T-SPOT negative",
+            "No symptoms such as hemoptysis or dyspnea",
+            "ESR 9.00 mm/h, no obvious elevation",
+            "The information from the first stage did not indicate supporting evidence such as a definite history of TB exposure, night sweats, or weight loss."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Viral pneumonia or secondary lower respiratory tract inflammation after viral infection",
+          "supporting_evidence": [
+            "Before disease onset, there was a history of 'developing fever after exposure to cold'; initially there was only fever, without obvious cough or sputum production, which is consistent with the early manifestations of some viral infections.",
+            "Inflammatory markers are low: CRP 2.00 mg/L and procalcitonin 0.012 ng/ml, which is less supportive of severe typical bacterial infection.",
+            "Chest CT shows infection in the left lower lung; this imaging finding can be seen in viral infection or post-viral airway-parenchymal inflammation.",
+            "Persistent low-grade fever after antimicrobial therapy suggests that a viral or nonbacterial etiology still needs to be considered"
+          ],
+          "opposing_evidence": [
+            "Later, yellow purulent sputum developed, more suggestive of bacterial airway infection or secondary bacterial infection.",
+            "The comprehensive viral panel showed only Coxsackie virus and cytomegalovirus IgG (+); IgG positivity is more indicative of prior infection and cannot directly support current acute viral pneumonia.",
+            "No definitive evidence of positive viral nucleic acid testing or acute-phase serology was provided in the first phase of information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pneumonia due to atypical pathogens (excluding Mycoplasma and Chlamydia, which have already tested negative, such as Legionella, etc.)",
+          "supporting_evidence": [
+            "Young patient, with fever as the main manifestation; pulmonary physical signs are mild, with only coarse breath sounds in both lungs, consistent with the partial mismatch between symptoms and physical signs seen in some atypical pneumonias.",
+            "Routine complete blood count and inflammatory markers were not significantly elevated, which can be seen in some atypical pathogen infections",
+            "Imaging shows patchy/nodular infectious opacities; atypical pathogen pneumonia can present with similar findings.",
+            "Persistent low-grade fever after routine anti-infective therapy suggests that the pathogen spectrum may differ from that of common bacteria"
+          ],
+          "opposing_evidence": [
+            "Mycoplasma, Chlamydia (-)",
+            "Cough with yellow purulent sputum is more suggestive of bacterial infection",
+            "The phase I information did not provide clues such as Legionella-related epidemiologic exposure, hyponatremia, or gastrointestinal symptoms."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal pulmonary infection",
+          "supporting_evidence": [
+            "Prolonged fever, with persistent low-grade fever after conventional anti-infective therapy, suggesting the need to differentiate infection with uncommon pathogens",
+            "Chest CT shows nodular lesions, and fungal infection may present as nodules or patchy opacities."
+          ],
+          "opposing_evidence": [
+            "Previously healthy, with no definite history of underlying immunosuppressive disease",
+            "Fungal G/GM tests negative",
+            "Complete blood count and inflammatory markers showed no significant abnormalities, and the phase 1 information did not indicate predisposing factors such as oral candidiasis or long-term corticosteroid use.",
+            "The stage 1 chest CT images attached to the message did not show evidence of the typical invasive fungal features explicitly described for stage 1."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia (cryptogenic or postinfectious organizing pneumonia)",
+          "supporting_evidence": [
+            "Fever persisting for half a month, with continued low-grade fever after anti-infective therapy",
+            "Chest CT showed infection in the left lower lung. The initial chest CT images attached with the message show patchy lesions in the left lower lung; post-infectious organizing changes need to be differentiated.",
+            "Laboratory inflammatory markers were low, which is not entirely consistent with typical acute bacterial pneumonia"
+          ],
+          "opposing_evidence": [
+            "In the presence of cough and yellow purulent sputum, an infectious lesion should be considered first.",
+            "The information from the first stage did not provide clues such as migratory pulmonary infiltrates and progressive dyspnea that would be more supportive of organizing pneumonia.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Fiberoptic bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On bronchoscopy, the trachea and the bronchial mucosa at all levels were smooth, the lumens were patent, and a small amount of thick secretions was seen. Bronchoalveolar lavage and brushings were performed in the left lower lobe bronchus, and specimens were sent for fungal smear (negative), acid-fast stain (negative), and bacterial culture (negative). On day 14 after discharge, Xin again developed fever, with a maximum temperature of 38.2℃, accompanied by cough and small amounts of yellow purulent sputum, and was readmitted for treatment. CBC: WBC 12.10×109/L, neutrophil percentage 83.8%; inflammatory markers: CRP 64.98mg/L, procalcitonin 0.037ng/ml, ESR 18.00mm/h; blood culture (-); coagulation tests and liver and kidney function showed no abnormalities. Chest CT showed inflammation in the left lower lung with focal consolidation, with obvious progression compared with before. Lymphocyte subset analysis and comprehensive autoimmune testing were completed, and both showed no abnormalities. At the same time, fiberoptic bronchoscopy was completed, with endobronchial ultrasound-guided transbronchial lung biopsy (EBUS-TBLB), as well as lavage and brushings of the dorsal segment bronchus of the left lower lobe; specimens were sent for fungal smear (negative), acid-fast stain (negative), and bacterial culture (negative). Pathology report: chronic inflammation of the lung tissue with fibrosis and inflammatory exudation, with focal lymphocyte and neutrophil infiltration. One week after discharge, the patient again developed fever, with a maximum temperature of 38.3℃, accompanied by cough and sputum production. CBC showed WBC 8.4×109/L, neutrophil percentage 56%; CRP 11.737mg/L, procalcitonin 0.032ng/ml, ESR 18.00mm/h; chest CT showed worsening inflammation in the left lower lung compared with before.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5OZgXNPicJNa4YAUxKia5WpWzOVFme5L9rPWmQuZ2zNibaNr7NUSQ2qEEw/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/31dfaab235b93d07465e7574b9d71c7155465f94.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB53QeIhBVrXXQVeTUTzGcpXgoKo8mt7BC4Dw6Zf2nsE8mjPoIhoyAGIg/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Follow-up after anti-infective treatment showed improvement in the left lower lung inflammation compared with prior.",
+            "local_src": "cleaned_cases_image_cache/d710f9ccb7517289cd646824f160d0e18bdea68a.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB57J2hjVGMXJlyT51ficUBhtUpicjr1rNyrEKCt5xkYQRDY6sz5lDNOa3A/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/eadb63e183523430392844ba413b85ccc4935439.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5nn2a7B9IXibNMJIoTCbS2buDHAVftHmYJia6L6wiaa5nOwT40SNhOGk6Q/640?wx_fmt=jpeg",
+            "near_text": "Figure 3: inflammation in the left lower lung, focal consolidation",
+            "local_src": "cleaned_cases_image_cache/2eeaf02d797a49998407335f7cd66eaa5c182cc3.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5tiagicxeHkRSCYMicQmF5vFQ0OnWulOvL9pNEicicRQOToMkGiaE3nMk9JcA/640?wx_fmt=jpeg",
+            "near_text": "Figure 4: Bronchoscopy and EBUS-TBLB images",
+            "local_src": "cleaned_cases_image_cache/56ea43d1533950defed1b2820e9a351f2ee44bde.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5Wuz2OzP6XvibRlIW46zuukGtsozGwn7AdsribDsGiasdHohZzWNzvdZGA/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/b375d8859ecafa9644a9917f8cb28091c5e1c991.jpg"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5kHtu8Pib62jfFT7zI2jSeVohIeXgoxzDNQOl8KSyXSib7Ria9UjPv8zCQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 5: Inflammatory changes in the left lower lung, improved compared with prior",
+            "local_src": "cleaned_cases_image_cache/506bfdbea95f2296c659ee6df9a28d9a99d133e2.jpg"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB58gSQrvKVYn3OnJnUJHzqRYWqoha2g6tia8B9OibPhwSl1SDox3kmKcWQ/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/d41e707c20b890820a426c597d4deee53fba7b13.jpg"
+          },
+          {
+            "image_id": "fig12",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5xUegEIYpbVS8VFXztKz1phiaUwbupUwmlib64CcG0XCFo8iboeuYdNL8A/640?wx_fmt=jpeg",
+            "near_text": "Figure 6: Inflammatory changes in the left lower lung, progressed compared with prior",
+            "local_src": "cleaned_cases_image_cache/5d12759bc2fbbdd22b5f731fc62e741ce49ee9f3.jpg"
+          },
+          {
+            "image_id": "fig13",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5WE5YMf6YuvhCCibOfvDOy72o5N9cG8qGsT5B62tdJ4SstxzzucJiaAvg/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/f47dc40a85d39886bcd602c4e5d84d131cafab8f.jpg"
+          },
+          {
+            "image_id": "fig14",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5vLhtYPRDPWEvanz57AIW860Sm2OMBdNiczkvGhrwJiagcSekBaiaVInaA/640?wx_fmt=jpeg",
+            "near_text": "Figure 7: Inflammatory changes in the left lower lung, improved compared with prior.",
+            "local_src": "cleaned_cases_image_cache/19060bc52e2c84a9a9e2a7300ca7533a9807c0da.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious disease",
+            "evidence": [
+              "The clinical symptoms, ancillary examinations, and treatment response all support the diagnosis of an infectious disease."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "bacterial infection",
+            "evidence": [
+              "The patient's clinical manifestations included fever, cough with yellow sputum, elevated white blood cell count on CBC, increased neutrophil percentage, and elevated inflammatory markers (ESR, CRP, PCT). After antibiotic treatment, the symptoms improved, including return of body temperature to normal, reduction in inflammatory markers, and marked absorption and improvement on chest CT."
+            ],
+            "exclusion_reasons": [
+              "During three hospitalizations, repeated sputum smear examinations and bacterial cultures were all negative. Fiberoptic bronchoscopy was performed twice, including EBUS-TBLB on one occasion; no pathogenic organisms were identified in the submitted BALF or pathology specimens."
+            ]
+          },
+          {
+            "name": "Tuberculosis and fungal infection",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Fungal smear and acid-fast staining of sputum and bronchoalveolar lavage fluid were both negative; serum G/GM test and T-SPOT were negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious disease",
+        "evidence": [
+          "The clinical symptoms, ancillary examinations, and treatment response all support the diagnosis of an infectious disease."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "bacterial infection",
+        "evidence": [
+          "The patient's clinical manifestations included fever, cough with yellow sputum, elevated white blood cell count on CBC, increased neutrophil percentage, and elevated inflammatory markers (ESR, CRP, PCT). After antibiotic treatment, the symptoms improved, including return of body temperature to normal, reduction in inflammatory markers, and marked absorption and improvement on chest CT."
+        ],
+        "exclusion_reasons": [
+          "During three hospitalizations, repeated sputum smear examinations and bacterial cultures were all negative. Fiberoptic bronchoscopy was performed twice, including EBUS-TBLB on one occasion; no pathogenic organisms were identified in the submitted BALF or pathology specimens."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tuberculosis and fungal infection",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Fungal smear and acid-fast staining of sputum and bronchoalveolar lavage fluid were both negative; serum G/GM test and T-SPOT were negative"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Fiberoptic bronchoscopy",
+          "basis_in_stage3_input": "Repeat fiberoptic bronchoscopy to obtain etiologic evidence",
+          "why_order_this_exam": "The patient is a 24-year-old young adult who developed cough and yellow purulent sputum after having fever for half a month. There were multiple recurrences during the course of the illness. At readmission, the white blood cell count and CRP were elevated. Chest CT showed progression of inflammation in the left lower lung with focal consolidation, suggesting persistent activity and worsening of an infectious pulmonary lesion. Previous routine hematologic tests, G/GM, T-SPOT, and the prior bronchoscopy-related examinations did not identify a definite pathogen. Pathology from EBUS-TBLB showed only chronic inflammation with fibrosis and inflammatory exudation, which still could not explain the recurrent fever and persistent progression in the same pulmonary segment. Repeat fiberoptic bronchoscopy can directly assess whether there is occult endobronchial obstruction, retained secretions, or a focal lesion, and can obtain targeted specimens from the left lower lobe for more in-depth etiologic testing, in order to address the core problem of 'infection present but pathogen unidentified,' establish a definitive diagnosis, rule out infection with special pathogens beyond simple common bacterial infection, and guide subsequent targeted anti-infective treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine fungal and bacterial smears of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "In addition to routine fungal and bacterial smears of BALF",
+          "why_order_this_exam": "The patient has recurrent fever, cough, and expectoration of yellow purulent sputum. Chest CT lesions have persisted and worsened, and clinically it remains necessary first to determine whether this is an active infection caused by common pathogens. Although peripheral blood inflammatory markers were not always significantly elevated previously, the marked increases in the white blood cell count and CRP during recurrences support active lower respiratory tract infection; at the same time, repeated relapses after routine anti-infective therapy indicate that it is necessary to directly test specimens from the lesion site. Routine fungal and bacterial smears of BALF can rapidly screen for the presence of bacterial or fungal components in the lower respiratory tract, helping to distinguish ordinary bacterial infection, fungal infection, or mixed infection, and can be correlated with the previous negative serum G/GM and prior negative smear results to determine whether to continue expanding special pathogen testing and adjust the treatment scope.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Bacterial culture",
+          "why_order_this_exam": "During the course of the illness, the patient had yellow purulent sputum; during recurrences, elevated WBC count, an increased neutrophil percentage, and elevated CRP; imaging showed inflammation and consolidation in the left lower lung, so bacterial infection has consistently been an important consideration. In addition, previous treatment with levofloxacin, cefoperazone, and others did not completely resolve the problem, and it is necessary to again look for pathogenic bacteria in lower respiratory tract specimens. The main clinical purpose of bacterial culture is to determine whether culturable bacteria are present and their antimicrobial susceptibility characteristics, thereby explaining whether the recurrent episodes are related to drug resistance, insufficient treatment coverage, or unusual colonization/infection. Although multiple previous cultures were negative, repeating culture remains necessary in the setting of disease progression and reacquisition of a targeted BALF specimen, which may help confirm or exclude common bacterial causes and provide a basis for subsequent antibiotic selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "acid-fast stain",
+          "why_order_this_exam": "The patient has afternoon fever, a prolonged disease course, scattered nodules on chest CT with subsequent progression to focal consolidation, and a suboptimal response to standard anti-infective therapy; therefore, pulmonary TB must always be included in the differential diagnosis. Although prior T-SPOT was negative, ESR was not elevated, and previous sputum and BALF acid-fast staining were negative, these results are insufficient to completely exclude focal pulmonary TB or mycobacterial infection. Repeating acid-fast staining on BALF this time is intended to directly look for acid-fast bacilli in specimens from the lesion site and to address whether the recurrent prolonged pulmonary infection is caused by TB or other mycobacteria. The result is of critical value for confirming or excluding tuberculous lesions, avoiding inappropriate use of routine antibacterial regimens alone, and determining whether further evaluation and treatment directed toward anti-TB therapy are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "basis_in_stage3_input": "Gomori methenamine silver staining was also performed on BALF",
+          "why_order_this_exam": "Although the patient was previously healthy and serum G/GM was negative, clinically there were recurrent fever, cough, and sputum production; the imaging lesions continued to progress, and routine etiologic studies had long failed to identify a definite pathogen. Therefore, it remains necessary to evaluate for unusual fungi or other pathogens that are not easily detected by routine testing but can be demonstrated by silver stain. Hexamine silver stain can serve as a supplement to routine fungal smears and increase the opportunity for morphologic identification of certain fungal pathogens as well as some branching filamentous microorganisms. The purpose of ordering this test is to further address the question of whether a special pulmonary infection may still be present despite negative routine fungal markers, to help narrow the differential diagnosis, and to avoid missing pathogens that require special anti-infective treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "weak acid-fast stain",
+          "basis_in_stage3_input": "Gomori methenamine silver staining and weak acid-fast staining were also performed on BALF",
+          "why_order_this_exam": "The patient has recurrent fever, cough, and expectoration of yellow purulent sputum. The pulmonary lesion is fixed in the left lower lung and has progressed multiple times. Routine bacterial culture, fungal smear, acid-fast staining, and pathology have all failed to identify a pathogen, but the overall clinical picture still strongly suggests an infectious disease, indicating that special pathogens that are easily missed by routine testing should be prioritized. Weak acid-fast staining has important screening value for Nocardia and other partially weakly acid-fast actinomycetes, and is especially applicable in cases with repeatedly negative routine cultures, imaging findings not fully consistent with typical bacterial pneumonia, and prolonged, recurrent disease despite antibacterial treatment. This test is intended to address the key question of whether special pathogens such as Nocardia are causing the prolonged, recurrent pulmonary infection; once positive, it can directly facilitate definitive diagnosis and significantly change the treatment strategy, shifting to targeted therapy such as trimethoprim-sulfamethoxazole rather than continuing empiric conventional antibacterial regimens.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Fiberoptic bronchoscopy was performed again to obtain etiologic evidence. In addition to routine fungal and bacterial smears, bacterial culture, and acid-fast staining of the bronchoalveolar lavage fluid, BALF was also tested with Gomori methenamine silver stain and modified acid-fast stain. The result returned as positive modified acid-fast stain, with morphology supporting Nocardia asteroides.",
+      "images": [
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJRKcic2a9aKWXZDpwRsIrB5J6CehnUnOJ21HSC5ATR0rkVyovnVqx9C2cNFt8HyhoY2hKAnNIWDeg/640?wx_fmt=jpeg",
+          "near_text": "Figure 8: weakly acid-fast staining",
+          "local_src": "cleaned_cases_image_cache/885313f4d2a92b1cacf8cab80e9bd0be0b3dfcfe.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary nocardiosis",
+      "diagnostic_basis": [
+        "The patient is a young electronics factory worker, and it is presumed that his long-term irregular schedule and sleep deprivation are related to the infection.",
+        "The patient has recurrent fever, cough, and sputum production.",
+        "Chest CT showed left lower lung infection",
+        "Bronchoalveolar lavage fluid weak acid-fast stain positive"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Anti-infective treatment was administered with co-trimoxazole"
+      ],
+      "treatment_response": [
+        "At 3- and 6-month out-of-hospital follow-up, the patient's body temperature was normal, with no cough or sputum production symptoms."
+      ]
+    }
+  }
+}

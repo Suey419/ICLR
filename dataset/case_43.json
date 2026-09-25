@@ -1,0 +1,407 @@
+{
+  "status": "success",
+  "case_id": "case_43",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 59-year-old male patient was admitted to the Department of Respiratory and Critical Care Medicine of our hospital in around Day 0 with the chief complaint of \"cough and sputum production for more than 10 months, and pleural effusion detected for more than 10 months.\" The team conducted a comprehensive review of the characteristics of the patient’s medical history and summarized the following four features: 1. An older male patient whose illness began with cough, sputum production, and exertional dyspnea, with poor response to antibacterial therapy and diagnostic anti-TB treatment at an outside hospital. 2. Physical examination was mainly notable for positive signs of right pleural effusion and diminished secondary sexual characteristics. 3. Chest CT, PET/CT, and bronchoscopy showed that the lesions mainly involved the tracheobronchial tree, multiple lymph nodes throughout the body, bilateral pleura, the retroperitoneum, and the thoracic/abdominal aorta, with possible concomitant pituitary adenoma; the right pleural effusion was an exudate, predominantly with increased lymphocytes, and with abnormally elevated protein content; serum globulin and IgG4 were markedly elevated. 4. TB-related testing of sputum, blood, and BALF were all negative; pathology of the bronchial mucosa and mediastinal lymph nodes showed no malignancy; pathology consultation at a cancer hospital suggested chronic inflammation of the bronchial mucosa.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "IgG4-related disease (involving the tracheobronchial tree, pleura, lymph nodes, retroperitoneum, and great vessels, with possible pituitary involvement)",
+          "supporting_evidence": [
+            "Marked elevation of serum globulin and IgG4",
+            "Chest CT, PET/CT, and bronchoscopy showed that the lesions mainly involved the tracheobronchial tree, multiple lymph nodes throughout the body, the bilateral pleura, the retroperitoneum, and the thoracic/abdominal aorta, with a possible pituitary adenoma, suggesting multisystem involvement",
+            "The right pleural effusion was exudative, predominantly with elevated lymphocytes, and had abnormally elevated protein content.",
+            "Pathology of the bronchial mucosa and mediastinal lymph nodes showed no malignant tumor; pathology consultation at the cancer hospital indicated chronic inflammation of the bronchial mucosa",
+            "Poor response to antibacterial therapy and diagnostic anti-TB treatment at an outside hospital"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Lymphoma (with pleural and mediastinal/systemic lymph node involvement)",
+          "supporting_evidence": [
+            "Involvement of multiple lymph nodes throughout the body",
+            "The right pleural effusion is an exudate, predominantly with increased lymphocytes.",
+            "PET/CT showed lesions at multiple sites, involving the pleura, retroperitoneum, etc.",
+            "Marked elevation of serum globulin can be seen in lymphoproliferative disorders",
+            "Poor response to antibacterial therapy and diagnostic anti-TB treatment at an outside hospital"
+          ],
+          "opposing_evidence": [
+            "Pathology of the bronchial mucosa and mediastinal lymph nodes revealed no malignant tumor",
+            "Markedly elevated serum IgG4 and possible involvement of the thoracic/abdominal aorta and pituitary more strongly support an immune-inflammatory systemic disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Multicentric Castleman disease",
+          "supporting_evidence": [
+            "Involvement of multiple lymph nodes throughout the body",
+            "Markedly elevated serum globulin",
+            "The right pleural effusion was exudative, predominantly with elevated lymphocytes, and had abnormally elevated protein content.",
+            "The lesions show multisystem distribution, involving the pleura, retroperitoneum, etc."
+          ],
+          "opposing_evidence": [
+            "The stage 1 information did not provide the common characteristic systemic inflammatory manifestations or specific pathologic evidence for this disease.",
+            "Markedly elevated serum IgG4 and possible involvement of the tracheobronchial tree, thoracic/abdominal aorta, and pituitary gland are more suggestive of IgG4-related disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "tuberculous pleurisy/disseminated tuberculosis",
+          "supporting_evidence": [
+            "Onset with cough, sputum production, and exertional dyspnea; pleural effusion persisting for more than 10 months",
+            "The right pleural effusion is an exudate, predominantly with increased lymphocytes.",
+            "Involvement of multiple lymph nodes throughout the body can be seen in TB"
+          ],
+          "opposing_evidence": [
+            "Diagnostic anti-TB treatment at an outside hospital was ineffective",
+            "TB-related sputum/blood/BALF tests were all negative",
+            "Chest CT and PET/CT suggest that the lesion involves the thoracic/abdominal aorta and retroperitoneum, with possible pituitary tumor involvement; the distribution pattern is atypical but supports TB.",
+            "Markedly elevated serum IgG4 does not support isolated TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Thoracic malignancy-related diseases (lung cancer/metastatic cancer/malignant pleural neoplasms, etc.)",
+          "supporting_evidence": [
+            "59-year-old man, chronic cough and sputum production, with dyspnea on exertion",
+            "Pleural effusion persisting for more than 10 months, and it is exudative",
+            "PET/CT and bronchoscopy indicated involvement of the tracheobronchial tree, bilateral pleura, and multiple lymph nodes"
+          ],
+          "opposing_evidence": [
+            "Pathology of the bronchial mucosa and mediastinal lymph nodes revealed no malignant tumor",
+            "Pathology consultation at the cancer hospital suggested chronic inflammation of the bronchial mucosa",
+            "Markedly elevated serum IgG4 and a pattern of multisystem involvement are more supportive of an immune-inflammatory disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Sarcoidosis or other systemic granulomatous diseases",
+          "supporting_evidence": [
+            "The lesions involve the tracheobronchial tree, multiple lymph nodes throughout the body, the pleura, etc., showing a systemic distribution.",
+            "Bronchial mucosal pathology showed no malignant tumor.",
+            "Pleural effusion is a lymphocyte-predominant exudate"
+          ],
+          "opposing_evidence": [
+            "In the first stage, pathological evidence such as noncaseating granulomas was not provided",
+            "Markedly elevated serum IgG4, involvement of the thoracic/abdominal aorta and retroperitoneum, and possible pituitary involvement may be more suggestive of IgG4-related disease",
+            "Decreased secondary sexual characteristics and possible pituitary involvement may suggest a systemic disease, but they do not directly support sarcoidosis."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Congo red staining",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4 immunohistochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced MRI of the pituitary gland and hormone testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "M protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoantibody results",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4 immunohistochemistry and Congo red staining additionally performed on tissue pathology from bronchoscopic and thoracoscopic biopsies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pituitary hormone level testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat thoracoscopy, bronchoscopy, or lymph node biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After a series of examinations, 1.2 L of dark yellow pleural effusion was finally aspirated under thoracoscopy. The anterior, lateral, posterior, and superomedial parietal pleura and the diaphragm were sequentially inspected, and scattered nodular protrusions were seen on the parietal pleura. M protein: serum IgG 53.40 g/L, serum IgA 1.04 g/L, serum IgM 1.11 g/L, blood κ-light chain 9.72 g/L, blood λ-light chain 6.14 g/L, blood κ/λ ratio 1.583, serum IgE 11.20 IU/ml; no abnormal protein bands were seen on serum protein electrophoresis or immunofixation electrophoresis. Autoantibody panel: antinuclear antibody (nucleolar), antinuclear antibody 1:100 (positive), antinuclear antibody 1:1000 (weakly positive), all others negative. Hormone panel: FT3 2.25-2.82 pmol/L, FT4 5.3-6.87 pmol/L, TSH 3.69-4.86 mIU/L, estradiol 36.7 pmol/L, testosterone 0.06-0.08 nmol/L, prolactin 1288.61-1488.98 mIU/L, FSH 0.03-0.04 mIU/ml, LH 0.38-0.51 mIU/ml, GH 0.63 uIU/ml, IGF-1 47.6-53.1 ng/ml, cortisol and ACTH levels see original text. Thyroid-related antibody testing and ultrasonography (parotid glands, submandibular glands, thyroid, parathyroid glands, breasts) showed no abnormalities. Non-contrast upper abdominal CT: enlargement and fullness of the pancreatic body and tail, small hepatic cyst, multiple small retroperitoneal lymph nodes; no abnormalities were seen in the gallbladder, intrahepatic and extrahepatic bile ducts, kidneys, spleen, or adrenal glands. Brain MRI without and with contrast (Day 0): pituitary adenoma (longest diameter approximately 2.6 cm); pineal region cyst; bilateral ethmoid sinusitis and right frontal sinusitis.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLnq3yWI9Ee89AtLHbQW8j3YuVcg1IaD586ibAozCTvuNljDgX3HBQ5Dpdarjqo3OSjU14DQGYyqZw/640?wx_fmt=jpeg",
+            "near_text": "Figure 8: Diagnostic workflow diagram",
+            "local_src": "cleaned_cases_image_cache/254d9a4ce73a73a1a91e9b04345ccfb712c09305.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious diseases (tuberculosis, etc.)",
+            "evidence": [
+              "Markedly elevated erythrocyte sedimentation rate"
+            ],
+            "exclusion_reasons": [
+              "Systemic toxic symptoms were not obvious; infection and inflammation markers, including blood counts, CRP, PCT, G test, and endotoxin test, showed no abnormal elevation.",
+              "The outside hospital had already completed TB-related examinations, all of which showed no evidence of TB.",
+              "Poor response after nearly 3 months of diagnostic anti-TB treatment"
+            ]
+          },
+          {
+            "name": "Solid malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "At the outside hospital, pathology from multiple-site biopsies and exfoliative cytology examination of pleural effusion both showed no evidence of malignant cells."
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Middle-aged or elderly male, elevated erythrocyte sedimentation rate",
+              "The lesions involve multiple superficial lymph nodes throughout the body as well as mediastinal and retroperitoneal lymph nodes, and also involve the tracheobronchial mucosa and bilateral pleura."
+            ],
+            "exclusion_reasons": [
+              "Throughout the course of the illness, there were no symptoms of low-grade fever, night sweats, or weight loss.",
+              "Cervical lymph node ultrasound indicated interval decrease in size",
+              "Outside hospital pathology showed lymphocytic infiltration at the lesion site, but no abnormal lymphocytic infiltration was identified."
+            ]
+          },
+          {
+            "name": "Amyloidosis",
+            "evidence": [
+              "Pulmonary amyloidosis mostly is characterized by tracheobronchial involvement and alveolar deposition"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Multiple myeloma",
+            "evidence": [
+              "Occurs predominantly in middle-aged and older men"
+            ],
+            "exclusion_reasons": [
+              "At present, examinations have not identified accompanying signs such as multiple osteolytic lesions, hypercalcemia, anemia, or renal impairment."
+            ]
+          },
+          {
+            "name": "Langerhans cell histiocytosis",
+            "evidence": [
+              "In adults, the lung is the most commonly involved organ; lymph nodes and the pituitary gland may also be involved."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "IgG4-related disease",
+            "evidence": [
+              "Abnormally elevated globulin levels, with serum IgG4 increased to more than 5 times the upper limit"
+            ],
+            "exclusion_reasons": [
+              "The lesions mostly involve the glands, and less commonly involve the tracheobronchial tree and pleura; diagnosis requires pathologic examination via bronchoscopy and thoracoscopy."
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "The lesions may involve multiple organs throughout the body",
+              "Elevated globulin",
+              "Chest imaging showed symmetric mediastinal lymphadenopathy"
+            ],
+            "exclusion_reasons": [
+              "Male patients are relatively uncommon, and symptoms are not obvious during the course of the disease."
+            ]
+          },
+          {
+            "name": "ANCA-associated vasculitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Symptoms are often relatively pronounced and may present as fever, arthralgia, myalgia, fatigue, weight loss, etc.; when the lungs and kidneys are involved, the onset is often acute."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious diseases (tuberculosis, etc.)",
+        "evidence": [
+          "Markedly elevated erythrocyte sedimentation rate"
+        ],
+        "exclusion_reasons": [
+          "Systemic toxic symptoms were not obvious; infection and inflammation markers, including blood counts, CRP, PCT, G test, and endotoxin test, showed no abnormal elevation.",
+          "The outside hospital had already completed TB-related examinations, all of which showed no evidence of TB.",
+          "Poor response after nearly 3 months of diagnostic anti-TB treatment"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Solid malignant tumor",
+        "evidence": [],
+        "exclusion_reasons": [
+          "At the outside hospital, pathology from multiple-site biopsies and exfoliative cytology examination of pleural effusion both showed no evidence of malignant cells."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Middle-aged or elderly male, elevated erythrocyte sedimentation rate",
+          "The lesions involve multiple superficial lymph nodes throughout the body as well as mediastinal and retroperitoneal lymph nodes, and also involve the tracheobronchial mucosa and bilateral pleura."
+        ],
+        "exclusion_reasons": [
+          "Throughout the course of the illness, there were no symptoms of low-grade fever, night sweats, or weight loss.",
+          "Cervical lymph node ultrasound indicated interval decrease in size",
+          "Outside hospital pathology showed lymphocytic infiltration at the lesion site, but no abnormal lymphocytic infiltration was identified."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Amyloidosis",
+        "evidence": [
+          "Pulmonary amyloidosis mostly is characterized by tracheobronchial involvement and alveolar deposition"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Multiple myeloma",
+        "evidence": [
+          "Occurs predominantly in middle-aged and older men"
+        ],
+        "exclusion_reasons": [
+          "At present, examinations have not identified accompanying signs such as multiple osteolytic lesions, hypercalcemia, anemia, or renal impairment."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Langerhans cell histiocytosis",
+        "evidence": [
+          "In adults, the lung is the most commonly involved organ; lymph nodes and the pituitary gland may also be involved."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "IgG4-related disease",
+        "evidence": [
+          "Abnormally elevated globulin levels, with serum IgG4 increased to more than 5 times the upper limit"
+        ],
+        "exclusion_reasons": [
+          "The lesions mostly involve the glands, and less commonly involve the tracheobronchial tree and pleura; diagnosis requires pathologic examination via bronchoscopy and thoracoscopy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "The lesions may involve multiple organs throughout the body",
+          "Elevated globulin",
+          "Chest imaging showed symmetric mediastinal lymphadenopathy"
+        ],
+        "exclusion_reasons": [
+          "Male patients are relatively uncommon, and symptoms are not obvious during the course of the disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "ANCA-associated vasculitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Symptoms are often relatively pronounced and may present as fever, arthralgia, myalgia, fatigue, weight loss, etc.; when the lungs and kidneys are involved, the onset is often acute."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopic pathology",
+          "basis_in_stage3_input": "Bronchoscopic pathology: \"carina between the right middle lobe and right lower lobe\" shows mucosa lined by a small amount of pseudostratified ciliated columnar epithelium; the lamina propria contains dense lymphoplasmacytic infiltration. Local tissue shows severe mechanical injury, and the architecture is difficult to identify. In conjunction with the immunohistochemical staining results, findings suggest chronic inflammatory changes.",
+          "why_order_this_exam": "The patient presented with cough, sputum production, exertional dyspnea, and persistent pleural effusion for more than 10 months. Imaging and bronchoscopy suggested tracheobronchial involvement, and anti-infective therapy as well as diagnostic anti-TB treatment were both ineffective, indicating that infection alone was insufficient to explain the condition. Airway lesions are one of the important sites of involvement in this case, but previous findings showed only chronic inflammation, and the specimens had severe mechanical damage with poorly discernible architecture, so a definitive qualitative diagnosis could not be made on this basis. Therefore, bronchoscopic pathology is required to directly determine whether the bronchial mucosa contains the lymphoplasmacytic infiltration and fibrotic tendency seen in IgG4-related disease, or evidence supporting alternative diagnoses such as malignancy, lymphoma, or granulomatous inflammation. The core clinical question of this examination is: whether the raised airway lesion represents inflammatory infiltration or a tumor/lymphoproliferative lesion, and to provide the pathologic basis for whether deeper biopsy is needed subsequently, how to assess the extent of airway involvement, and how to select treatments such as glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: CK (pan) (+), TTF-1 (positive in a small number of cells), CD45LCA (+), CD138 (positive in numerous cells), IgG4 (positive in a small number of cells), IgG (weakly positive), Ki67 (10% positive), CD38 (partially +)",
+          "why_order_this_exam": "When bronchoscopic pathology shows only abundant lymphoplasmacytic infiltration and the morphology is also affected by mechanical injury, HE morphology alone is insufficient to distinguish reactive inflammation, IgG4-related disease, lymphoma, plasma cell proliferative disease, and epithelial tumor. The patient also has involvement of multiple lymph nodes, pleura, retroperitoneum, and great vessels, the clinical differential diagnosis is broad, and previous multifocal biopsies failed to confirm malignancy. Immunohistochemistry, by assessing epithelial lineage markers, leukocyte markers, plasma cell-related markers, proliferative activity, and IgG4/IgG-related expression, is intended to clarify the nature of the infiltrating cells, evaluate whether there is monoclonality or high proliferative activity suggestive of a lymphoproliferative disorder, and determine whether the IgG4-positive plasma cells reach a degree supportive of IgG4-related disease. This examination is directly related to the diagnostic direction: it helps exclude carcinoma and some lymphomas, and also provides a basis for whether to consider systemic immune-inflammatory disease as the primary therapeutic target.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: Congo red",
+          "basis_in_stage3_input": "Special stain: Congo red (-).",
+          "why_order_this_exam": "The patient is a middle-aged to older adult male presenting with tracheobronchial lesions, persistent exudative pleural effusion, and markedly elevated globulin, and amyloidosis had been included in the differential diagnosis; pulmonary amyloidosis can involve the tracheobronchial tree and cause similar findings such as mucosal protrusion or stenosis. Although serum protein electrophoresis and immunofixation electrophoresis showed no abnormal protein bands, and there is currently no typical evidence related to myeloma, focal or tissue amyloid deposition still cannot be completely excluded on the basis of blood tests alone. Therefore, Congo red staining was performed on the existing biopsy tissue with the aim of directly excluding the important morphologic differential diagnosis of amyloid deposition. The negative result helps shift the diagnostic focus from amyloidosis to IgG4-related disease or other inflammatory/lymphoproliferative lesions, and also avoids affecting subsequent glucocorticoid or other treatment choices because of misdiagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum IgG4 level",
+          "basis_in_stage3_input": "In conjunction with the elevated serum IgG4 level, IgG4-related sclerosing disease cannot be excluded.",
+          "why_order_this_exam": "This case has features of multisystem involvement, including the tracheobronchial tree, bilateral pleura, multiple lymph nodes, retroperitoneum, thoracic and abdominal aorta, and enlargement of the pancreatic body and tail, accompanied by hypergammaglobulinemia; pathology also showed predominantly lymphoplasmacytic infiltration, and IgG4-related disease is highly suspected clinically. Because only a small number of IgG4-positive cells were present in the airway specimen, not meeting the diagnostic criteria, and although pleural pathology suggested a focal increase in IgG4-positive cells, systemic serologic evidence is still needed to increase diagnostic confidence; therefore, measurement of the serum IgG4 level is crucial. This test mainly addresses two issues: first, to provide systemic immunologic support for IgG4-related disease; second, to aid in the differential diagnosis from lymphoma, TB, sarcoidosis, and malignant tumors. A markedly elevated serum IgG4 level, especially when elevated to a high multiple, has direct significance for the 2019 ACR/EULAR classification score, assessment of disease activity, and subsequent selection of glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thoracoscopic pathology",
+          "basis_in_stage3_input": "Thoracoscopic pathology: In the fibroadipose tissue of the \"parietal pleura,\" there is extensive infiltration by lymphocytes, plasma cells, and histiocytes. Immunohistochemistry shows a focal increase in IgG4-positive cells, approximately 20~80/HPF. In conjunction with the elevated clinical serologic IgG4 level, IgG4-related sclerosing disease is considered possible;",
+          "why_order_this_exam": "One of the patient's most prominent clinical manifestations was persistent right pleural effusion for more than 10 months. Physical examination was dominated by signs of right pleural effusion. Chest imaging showed bilateral pleural involvement, and thoracoscopy revealed scattered nodular protrusions on the parietal pleura; therefore, the pleural lesion was the key site for obtaining high-quality tissue and determining the etiology. Previous TB testing of sputum, blood, and BALF was negative, anti-TB and antibacterial treatment was ineffective, and multifocal pathology at an outside hospital also showed no malignant tumor, but these negative results were still insufficient to explain the pleural nodules and high-protein lymphocytic pleural effusion. Thoracoscopic pathology can directly determine whether the pleural tissue has the characteristic lymphoplasmacytic infiltration of IgG4-related disease, or suggest other causes such as tuberculous granuloma, pleural malignancy, or lymphoma. Because pleural involvement in this case was closely related to symptoms and disease burden, this examination was important not only for confirmation and differential diagnosis, but also for assessing lesion representativeness and providing the strongest pathologic evidence for systemic treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: Ki67 (20% positive), CD138 (partially positive), IgG4 (partially positive), IgG (few positive), CKpan (-), CD8 (partially positive), MUC-4 (-), CD38 (partially positive), ALK (-), CD10 (-), CD20 (+), CD23 (FDC+), CD3 (+), Kappa (few positive), Lambda (few positive), CD19 (+)",
+          "why_order_this_exam": "Although the pleural pathology has shown abundant lymphoplasmacytic and histiocytic infiltration, these morphologic changes can be seen in IgG4-related disease, reactive inflammation, lymphoma, and even some rare mesenchymal tumors; therefore, immunohistochemistry is needed for further characterization. The patient has involvement of multiple lymph nodes throughout the body, pleural nodules, thoracoabdominal aortic and retroperitoneal lesions, and abdominal lesions; lymphoma, multicentric Castleman disease, solid malignant tumors, and other systemic diseases were key differential diagnoses. HE staining alone cannot adequately exclude these diseases. Immunohistochemistry of the pleural specimen, by evaluating B-/T-cell components, plasma cell markers, whether light-chain expression is skewed, proliferation index, markers of epithelial and mesenchymal origin, and IgG4-related expression, is mainly intended to determine whether there is monoclonal lymphoplasmacytic proliferation and whether the findings support an IgG4-related lesion in the background of reactive polyclonal inflammation. These results are निर्णive for excluding pleural malignancy and lymphoma, confirming pathologic supportive evidence for IgG4-related disease, and on this basis safely initiating and maintaining glucocorticoid therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopic pathology: \"carina between the right middle lobe and right lower lobe\" shows mucosa lined by a small amount of pseudostratified ciliated columnar epithelium; the lamina propria shows abundant lymphoplasmacytic infiltration. There is severe mechanical injury to focal tissue, and the architecture is difficult to identify. In conjunction with the immunohistochemical staining results, chronic inflammatory changes are suggested. A small number of IgG4-positive cells are seen, not meeting the diagnostic criteria; however, given the elevated clinical serum IgG4 level, IgG4-related sclerosing disease cannot be excluded. Immunohistochemistry results: CK(pan)(+), TTF-1 (few positive), CD45LCA(+), CD138(many cells+), IgG4(few positive), IgG(weakly positive), Ki67(10% positive), CD38(partial+); special stain: Congo red (-). Thoracoscopic pathology: \"parietal pleura\" shows abundant lymphoplasmacytic and histiocytic infiltration in fibroadipose tissue. Immunohistochemistry shows focally increased IgG4-positive cells, approximately 20~80/HPF; in conjunction with the elevated clinical serum IgG4 level, IgG4-related sclerosing disease is considered possible. Immunohistochemistry results: Ki67(20% positive), CD138(partially positive), IgG4(partially positive), IgG(few positive), CKpan(-), CD8(partially positive), MUC-4(-), CD38(partially positive), ALK(-), CD10(-), CD20(+), CD23(FDC+), CD3(+), Kappa(few positive), Lambda(few positive), CD19(+).",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLnq3yWI9Ee89AtLHbQW8j3S7lCz1uPy8qfxBBx2BkwIfleqEGddufdz3qhe8Hpg8NXbwhtkGd63Q/640?wx_fmt=jpeg",
+          "near_text": "Figure 9: thoracoscopic pathology",
+          "local_src": "cleaned_cases_image_cache/85d5c4306e2911b5422f45b95500c25f6c7861f8.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLnq3yWI9Ee89AtLHbQW8j3M5PDuQxeOxHc5TSZ2GicFoFGjL7f5SvsAOWadiaDtAClJiaichsTuaO8icw/640?wx_fmt=jpeg",
+          "near_text": "The clinical manifestations of prolactinoma can range from incidental asymptomatic discovery to hypopituitarism.",
+          "local_src": "cleaned_cases_image_cache/d27c947a1f0518c55237c908ee9cdc5fb3f4b178.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. IgG4-related disease (tracheobronchial tree, bilateral pleura, lymph nodes, retroperitoneum, thoracic and abdominal aorta, pancreas); 2. pituitary prolactinoma; 3. pineal region cyst.",
+      "diagnostic_basis": [
+        "Diagnosis is made using the 2019 ACR/EULAR IgG4-RD classification criteria, which consist of 4 steps; a total score ≥20 points is diagnostic.",
+        "Step 1 inclusion criteria: The patient's lesions involve the pancreas, lungs, aorta, and retroperitoneum; pleural pathology indicates lymphocyte and plasma cell infiltration.",
+        "Step 2 exclusion criteria: The patient currently does not meet any exclusion criteria (no fever, no unexplained leukopenia or thrombocytopenia, no peripheral blood eosinophilia, ANCA negative, no imaging evidence of malignancy or infection, etc.).",
+        "Step 3 weighted score: thoracoscopic pathology indicated dense plasma cell and lymphocyte infiltration (+4), serum IgG4 level more than 5 times above the upper limit (+11), contrast-enhanced chest CT and PET/CT indicated inflammatory lesions involving the paravertebral band-like soft tissue of the thoracic spine (+10), diffuse enlargement of the pancreatic body and tail (+8), and retroperitoneal imaging showed diffuse thickening of the abdominal aortic wall (+4). The total weighted score was 37, exceeding 20; therefore, the diagnosis of IgG4-related disease is relatively definite.",
+        "Basis for diagnosis of pituitary prolactinoma: This male patient has had decreased libido and diminished secondary sexual characteristics for more than 3 years. Pituitary-related hormone testing indicated hyperprolactinemia, accompanied by low estrogen, progesterone, androgen, thyroxine, and corticosteroid levels. Contrast-enhanced brain MR suggested a pituitary macroadenoma (long-axis diameter >2.6 cm); therefore, the diagnosis of a pituitary PRL-secreting tumor is relatively clear."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oral prednisone tablets 40 mg once daily were started on Day +14."
+      ],
+      "treatment_response": [
+        "The patient reports that the chest tightness has improved compared with previously.",
+        "Repeat bronchoscopy after 1 week of treatment showed that the extensive irregular elevated lesions of the tracheal and bronchial mucosa had significantly decreased in size, indicating a good response to glucocorticoid therapy."
+      ]
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "status": "success",
+  "case_id": "case_44",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 52-year-old male patient presented with the chief complaint of \"recurrent fever for 2 months.\" In around Day 0, he developed recurrent fever without an obvious precipitating cause, with a maximum temperature of 39℃, mostly in the afternoon, fluctuating between 37.8℃ and 38.2℃. He had no obvious cough or sputum production, no chest tightness or shortness of breath, no chest pain, and no hemoptysis, and was accompanied by fatigue. The fever was accompanied by chills, without rigors. Chest CT at an outside hospital was considered to indicate \"pulmonary infection.\" Repeated fungal G test and GM test were negative, and TB T-cell testing was negative. A total of 3 electronic bronchoscopies were performed at the outside hospital. Metagenomic next-generation sequencing (mNGS) of bronchoalveolar lavage fluid showed Streptococcus mitis, Streptococcus anginosus, and human herpesvirus 5. Anti-infective treatment at the outside hospital with levofloxacin + imipenem/cilastatin + amphotericin B for injection + caspofungin, among others, had poor efficacy. The patient still had recurrent fever, with a maximum temperature of 37.5-38.6℃, and had lost approximately 3 Kg over the past 2 months. Past history: diagnosed with acute myeloid leukemia in approximately 2 months before Day 0; underwent 4 cycles of chemotherapy; underwent unrelated cord blood stem cell transplantation on Day 0. There was a suspicious TB contact history 3 months ago. He denied a history of arrhythmia, other systemic diseases, infectious diseases, surgery or trauma, and blood transfusion. Personal history: smoked for more than 30 years, approximately 20 cigarettes/day, occasional alcohol use; denied history of exposure to epidemic areas, endemic diseases, nonmarital sexual contact, drug use, and radiation exposure. Denied family history of hereditary disease. Physical examination: temperature 36.5℃, pulse 74/min, respiratory rate 20/min, blood pressure 121/69mmHg. Breath sounds were clear in the left lung, with no dry or moist rales heard; breath sounds were slightly decreased in the right lung, moist rales were heard in the right lower lung, and no dry rales were heard. Ancillary examinations: WBC 2.06×10^9/L, HGB 90.00 g/L, PLT 146.00×10^9/L, NEUT# 0.69 ×10^9/L, Mycobacterium tuberculosis-specific cellular immune response test negative. CRP(B) 28.81 ↑mg/L; ESR 63 ↑(High) mm/h; sputum culture and sputum smear showed no fungi. Fungal D-glucan test (G) negative (<10); fungal GM test negative (<10); respiratory pathogen panel of nine items negative. Multiple tumor marker screening negative. PCT 0.059 ↑ng/ml; Mycobacterium tuberculosis antibody test (IgG) JHKT negative; non-contrast chest CT showed multiple patchy and confluent intrapulmonary exudative consolidations in the right middle lobe and the medial basal segment of the right lower lobe.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTdj4JvJYTo81hDOmZ0Ps8ECzZrg09srZjRUCfLAfeDia28jZeYB7aaAQ/640?wx_fmt=png",
+          "near_text": "Figure 1 (left): Chest CT shows streaky consolidation in the right middle lobe and incomplete lung expansion, with bronchial obstruction.",
+          "local_src": "cleaned_cases_image_cache/97e14aeabb483bc8eaaa87cc3b29723a1e8b9550.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicT6jNPcInoHribVz6DJicRBucC4RBmP3ErQtsriceg27MLzGNnQsr5aPdhw/640?wx_fmt=png",
+          "near_text": "Figure 2 (right): Chest CT shows patchy intrapulmonary exudative consolidation in the medial basal segment of the lower lobe.",
+          "local_src": "cleaned_cases_image_cache/53e7dd78cfedeac452dcaa966cca860c2a00b929.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Invasive pulmonary fungal infection (including Aspergillus and other mold infections)",
+          "supporting_evidence": [
+            "The patient underwent unrelated umbilical cord blood stem cell transplantation on Day 0 and had previously received 4 courses of chemotherapy for acute myeloid leukemia, and is a severely immunocompromised host.",
+            "WBC 2.06×10^9/L, NEUT# 0.69×10^9/L, neutropenia present",
+            "Recurrent fever for 2 months, accompanied by fatigue and weight loss of approximately 3 kg, suggesting the possibility of a persistent infection or opportunistic infection",
+            "Non-contrast chest CT shows multiple patchy and confluent intra-pulmonary exudative consolidations in the right middle lobe and the medial basal segment of the right lower lobe. The image shows focal consolidation in the right lung, consistent with imaging features of an infectious pulmonary lesion.",
+            "Treatment with multiple broad-spectrum antibacterial agents at an outside hospital was ineffective, and recurrent fever persisted, suggesting the possibility of an opportunistic infection other than a routine bacterial infection."
+          ],
+          "opposing_evidence": [
+            "Multiple fungal G tests and GM tests were negative",
+            "No fungi were seen on sputum culture or sputum smear.",
+            "At an outside hospital, anti-infective treatment with amphotericin B for injection + caspofungin and other agents was ineffective."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Bacterial pneumonia (including drug-resistant bacteria or recurrent hospital-acquired infections)",
+          "supporting_evidence": [
+            "Non-contrast chest CT showed multiple patchy and confluent intra-pulmonary exudative consolidations in the medial basal segment of the right middle lobe and right lower lobe. The image shows right lung consolidation/exudative opacities; infectious pneumonia should be considered first.",
+            "Fever with chills, elevated CRP 28.81 mg/L and elevated ESR 63 mm/h, supporting an inflammatory/infectious process",
+            "On physical examination, breath sounds in the right lung were slightly diminished, and moist rales were heard in the right lower lung, consistent with the right lung lesion.",
+            "BALF metagenomic next-generation sequencing showed Streptococcus levis and Streptococcus anginosus, suggesting the presence of bacterial detection findings.",
+            "The patient is a post-transplant host with neutropenia and is at high risk for bacterial pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "No obvious cough or sputum production, no chest tightness or shortness of breath, no chest pain, no hemoptysis; respiratory symptoms are relatively atypical.",
+            "Antibacterial treatment at an outside hospital with levofloxacin + imipenem/cilastatin and other agents was ineffective",
+            "PCT 0.059 ng/ml, only mildly elevated, does not strongly support severe bacterial infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Recurrent fever for 2 months, mostly in the afternoon, accompanied by fatigue and weight loss of approximately 3 kg over the past 2 months, consistent with the common systemic symptom profile of TB",
+            "Suspected TB contact history 3 months earlier",
+            "The patient is in an immunosuppressed state after stem cell transplantation and after chemotherapy, with an increased risk of developing TB.",
+            "Chest CT showed multiple patchy and confluent areas of consolidation in the right lung; imaging findings of pulmonary TB in immunocompromised hosts may be atypical"
+          ],
+          "opposing_evidence": [
+            "TB T-cell test negative",
+            "Negative Mycobacterium tuberculosis-specific cellular immune response test",
+            "Mycobacterium tuberculosis antibody test (IgG): JHKT negative",
+            "No evidence was provided in the first-stage information for positive sputum acid-fast staining, positive TB-DNA, or positive culture."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Cytomegalovirus pneumonia (CMV pneumonia)",
+          "supporting_evidence": [
+            "The patient is a post–cord blood stem cell transplant recipient and belongs to a high-risk population for CMV pneumonia.",
+            "Persistent fever, fatigue, weight loss, and poor response to routine broad-spectrum antimicrobial therapy",
+            "Metagenomic next-generation sequencing of bronchoalveolar lavage fluid showed human herpesvirus 5, suggesting a possible CMV-related etiology",
+            "Chest CT shows pulmonary infiltrative consolidation, which can be seen in viral pneumonia."
+          ],
+          "opposing_evidence": [
+            "No obvious cough or sputum production, no chest tightness or shortness of breath, with few respiratory symptoms",
+            "The lesions shown on the images are predominantly focal right lung consolidation, rather than the bilateral diffuse interstitial/ground-glass opacity pattern more commonly described in the phase 1 information.",
+            "During the first phase, no evidence of CMV viremia, viral load, or pathology was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Organizing pneumonia (including post-transplant-related noninfectious lung injury)",
+          "supporting_evidence": [
+            "Noninfectious pulmonary complications may occur after stem cell transplantation",
+            "Chest CT and images show patchy and confluent areas of consolidation in the right lung, which can be seen in organizing pneumonia.",
+            "Multiple etiologic pathogen screenings were negative, including negative fungal G/GM, negative respiratory pathogen panel (9 targets), and no fungi seen on sputum culture and sputum smear.",
+            "Broad-spectrum anti-infective therapy was ineffective, suggesting that noninfectious lesions should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient presents primarily with fever, with elevated CRP and ESR, more often initially suggesting an infectious etiology.",
+            "On physical examination, moist rales were heard in the right lower lung, which can still be explained by infectious consolidation.",
+            "No information was provided in the first phase regarding graft-versus-host disease, rash, diarrhea, or other clues supporting noninfectious post-transplant complications."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary malignant/lymphoproliferative lesions (including post-transplant lymphoproliferative disorder or pulmonary infiltration by hematologic disease)",
+          "supporting_evidence": [
+            "The patient has a history of acute myeloid leukemia and has undergone stem cell transplantation, with a risk of hematologic disease-related pulmonary infiltrates or post-transplant lymphoproliferative disorder.",
+            "Recurrent fever for 2 months, with weight loss of approximately 3 kg over the past 2 months, which can be seen in neoplastic diseases",
+            "Chest CT and images show a focal consolidation-like lesion in the right lung; neoplastic or lymphoproliferative lesions may present as focal consolidation/mass-like opacity",
+            "Poor response to multiple courses of anti-infective therapy suggests that non-common infectious etiologies should also be considered."
+          ],
+          "opposing_evidence": [
+            "Multiple tumor marker screening negative",
+            "Imaging is described as multiple patchy and confluent areas of intra-pulmonary exudation and consolidation, for which infectious lesions are more often considered first.",
+            "Phase I information did not provide evidence of an obvious thoracic mass, mediastinal lymphadenopathy, or recurrence of hematologic disease."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count, CRP, ESR, PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function, electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT without and with contrast",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + bronchoalveolar lavage fluid mNGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tissue biopsy + pathology HE stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain, Gomori methenamine silver stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test, GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-cell test (T-SPOT.TB)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum and lavage fluid cultures for bacteria, fungi, and acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function, D-dimer",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Bronchoscopy showed purulent secretions in the anterior segmental bronchial branch of the right upper lobe (segment 3a), and the medial basal segment of the right lower lobe (segment 7) was completely obstructed by a purulent plug. It was completely removed using biopsy forceps and cryotherapy, and the lumen was restored to patency. Bronchoalveolar lavage fluid culture was negative.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTibTwudiaqXRXqgicyewiaMksdMh8ibqxWvvyNafbCSJcASxeQwqFZnttmWg/640?wx_fmt=jpeg",
+            "near_text": "Figure 3 (left): shows complete luminal obstruction of the bronchial branch to the anterior segment of the right upper lobe (segment 3a) by a purulent plug;",
+            "local_src": "cleaned_cases_image_cache/dbb4d0e2b799b4d507275a98bf92f993c38bbbda.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTcBBJWhnMHMCm12VNDVBRQAeD1T4CBVcH9j6G4vHkKL0wmZiauYmXtGQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 4 (middle): A branching bronchial cast was removed using cryoextraction.",
+            "local_src": "cleaned_cases_image_cache/b3fcc1b282e58584c3916cf6cc72402ae3aa2d2b.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTfDRYNgYiaaITbeic9UMFTic9bNF1oJP1CSTzYqUYWmUD4iaXTK5SfZL5Nw/640?wx_fmt=jpeg",
+            "near_text": "Figure 5 (right): Patency of the bronchial branch of the anterior segment of the right upper lobe was restored.",
+            "local_src": "cleaned_cases_image_cache/24b678682766af369d39334d1b3c00a6982d31da.jpg"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTdO2Zm6icbtDNtiaia2rvevunribnN9qXEa5UtdzK0jgwwM9M5wko1aW57g/640?wx_fmt=jpeg",
+            "near_text": "Figure 6 (left): shows a pus plug completely obstructing the lumen of the medial basal segment (segment 7) of the right lower lobe;",
+            "local_src": "cleaned_cases_image_cache/5ab9aa023c78a92d96023bf1b74658a02ef93034.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicT9CGjibaLZBiaOsViaD7ribRp2LykJpCE6ZPK4HEaGuyOCcmCWgP4PbXrcw/640?wx_fmt=jpeg",
+            "near_text": "Figure 7 (middle): A gelatinous purulent plug was removed using biopsy forceps.",
+            "local_src": "cleaned_cases_image_cache/cda6117b1116d58f17d23cc581f8a7693f549d05.jpg"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTWFnsZ1OITg3R0NCU3tKeJAJfPIibJTAzTIdiaiaMgVgENISjDTCVLV4Kw/640?wx_fmt=jpeg",
+            "near_text": "Figure 8 (right): The medial basal segment of the right lower lobe has regained patency.",
+            "local_src": "cleaned_cases_image_cache/1218b443c649115d35ea1fb5e4efe0e6f671e11a.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No improvement in symptoms after broad-spectrum antibiotic therapy, with no clear bacteriologic evidence of infection",
+              "Inflammatory markers did not show a significant persistent elevation, and there were no typical manifestations of bacterial infection such as purulent sputum or a marked elevation in white blood cell count."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "TB T-cell test, sputum acid-fast bacilli staining, and other related tests were all negative",
+              "No typical symptoms of TB intoxication or imaging features, and anti-TB treatment was ineffective"
+            ]
+          },
+          {
+            "name": "Invasive pulmonary aspergillosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The fungal GM test remained persistently negative, which is not consistent with the features of Aspergillus infection.",
+              "The morphologic features of the fungal hyphae on pathology do not support Aspergillus (no acute-angle 45° branching or septate hyphae)."
+            ]
+          },
+          {
+            "name": "Viral pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "mNGS and related viral testing showed no evidence of active viral infection",
+              "The disease course and imaging findings are not consistent with the typical features of common viral pneumonia."
+            ]
+          },
+          {
+            "name": "Pneumocystis pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No typical imaging manifestations such as ground-glass opacity",
+              "Neither etiologic studies nor pathologic examination detected Pneumocystis, and targeted treatment was ineffective."
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Imaging findings are predominantly consolidation and bronchial obstruction, which are not consistent with the migratory opacities characteristic of organizing pneumonia.",
+              "No typical organizing tissue was seen on pathology, and the response to glucocorticoid therapy was not supportive."
+            ]
+          },
+          {
+            "name": "Pulmonary tumor / carcinomatous lymphangitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Multiple biopsy pathology examinations showed no malignant tumor cells or atypical hyperplasia.",
+              "Tumor markers and imaging both showed no evidence of a malignant space-occupying lesion."
+            ]
+          },
+          {
+            "name": "Vasculitis / granulomatous disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "ANCA and other autoantibodies were all negative",
+              "No manifestations of multisystem involvement such as sinusitis, nephritis, or skin lesions"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Bacterial pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No improvement in symptoms after broad-spectrum antibiotic therapy, with no clear bacteriologic evidence of infection",
+          "Inflammatory markers did not show a significant persistent elevation, and there were no typical manifestations of bacterial infection such as purulent sputum or a marked elevation in white blood cell count."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "TB T-cell test, sputum acid-fast bacilli staining, and other related tests were all negative",
+          "No typical symptoms of TB intoxication or imaging features, and anti-TB treatment was ineffective"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Invasive pulmonary aspergillosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The fungal GM test remained persistently negative, which is not consistent with the features of Aspergillus infection.",
+          "The morphologic features of the fungal hyphae on pathology do not support Aspergillus (no acute-angle 45° branching or septate hyphae)."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Viral pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "mNGS and related viral testing showed no evidence of active viral infection",
+          "The disease course and imaging findings are not consistent with the typical features of common viral pneumonia."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pneumocystis pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No typical imaging manifestations such as ground-glass opacity",
+          "Neither etiologic studies nor pathologic examination detected Pneumocystis, and targeted treatment was ineffective."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Imaging findings are predominantly consolidation and bronchial obstruction, which are not consistent with the migratory opacities characteristic of organizing pneumonia.",
+          "No typical organizing tissue was seen on pathology, and the response to glucocorticoid therapy was not supportive."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary tumor / carcinomatous lymphangitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Multiple biopsy pathology examinations showed no malignant tumor cells or atypical hyperplasia.",
+          "Tumor markers and imaging both showed no evidence of a malignant space-occupying lesion."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Vasculitis / granulomatous disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "ANCA and other autoantibodies were all negative",
+          "No manifestations of multisystem involvement such as sinusitis, nephritis, or skin lesions"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Histopathology",
+          "basis_in_stage3_input": "Histopathology showed numerous fungal hyphae in a background of inflammatory exudate. Mucor hyphae were of uneven thickness, 7–25 μm in diameter, with right-angle branching; broad, nonseptate or sparsely septate, with thin walls; PAS stain (+).",
+          "why_order_this_exam": "The patient is a host after chemotherapy for acute myeloid leukemia and after umbilical cord blood stem cell transplantation, with neutropenia, recurrent fever for 2 months, and weight loss. Chest CT showed persistent consolidation in the right lung, and multiple courses of broad-spectrum antibacterial and antifungal therapy had poor efficacy, indicating that the cause needs to be clarified as soon as possible at the tissue level. Previous serum G/GM, sputum culture, and lavage fluid culture were repeatedly negative, indicating that blood and lavage fluid testing alone are insufficient for a definitive diagnosis and that evidence from lesion histology is required. Histopathology can directly demonstrate hyphal morphology and its relationship to the surrounding tissue, addressing the core clinical question of whether the lesion is bacterial infection, TB, other mold infection, tumor, or opportunistic infection; among these, broad, wide, pauci-septate, right-angle branching hyphae are key to the diagnosis of mucormycosis and can also be differentiated from septate hyphae such as Aspergillus. This examination can also determine whether the lesion represents true tissue invasion rather than colonization, thereby providing decisive evidence for establishing the diagnosis of invasive pulmonary mucormycosis, for early initiation and intensification of treatment with amphotericin B/posaconazole, and for whether further interventional removal of necrotic obstructive material is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "PAS stain (+)",
+          "why_order_this_exam": "In this patient, prolonged fever and persistent pulmonary consolidation, together with repeatedly negative routine pathogen testing in the setting of severe immunosuppression, made opportunistic fungal infection highly suspected clinically. However, HE morphology alone may sometimes be insufficient to fully demonstrate the contour and extent of fungi. PAS stain helps highlight fungal cell wall components, further confirming that the structures seen in the tissue are indeed fungal hyphae rather than necrotic debris or other artifacts, and improves recognition of the distribution of fungi within the lesion. In conjunction with the hyphal morphologic features already present in this case, PAS positivity can increase the reliability of the pathologic diagnosis of mucormycosis and help distinguish it from nonfungal necrosis, tumor, and other inflammatory lesions. This examination addresses the question of whether there is true fungal invasion in the tissue and whether the pathologic morphologic evidence is reliable; it is particularly important for establishing the chain of definitive diagnosis when G/GM are negative and cultures are negative, and it also supports the subsequent choice to continue intensified antifungal therapy rather than simply adding antibacterial or anti-TB treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology",
+          "basis_in_stage3_input": "Histopathology showed a large number of Mucor hyphae within the blood vessels.",
+          "why_order_this_exam": "The patient had a prolonged disease course. Bronchoscopy showed a purulent plug completely obstructing the lumen, suggesting that the lesion was markedly invasive and tissue-destructive; in mucormycosis, vascular invasion is a highly characteristic feature of the disease and is closely associated with necrosis, infarction, hemorrhage, and rapid progression. The reason for again emphasizing histopathologic examination is that it must not only detect fungi, but also answer the key question of whether vascular invasion is present, which determines disease severity and treatment strategy. A large amount of Mucor hyphae within blood vessels directly proves true invasive mucormycosis rather than superficial colonization or contamination, and can further help exclude differential diagnoses such as simple bacterial pneumonia, organizing pneumonia, viral pneumonia, and tumor. After confirming vascular invasion, clinically it is even more necessary to initiate potent anti-Mucor therapy as soon as possible, aggressively clear endobronchial necrotic material and purulent plugs, and closely assess the risk of complications; this is also the important pathologic basis explaining why multiple previous treatments had poor response and the lesions persisted.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tissue section mNGS",
+          "basis_in_stage3_input": "Tissue section mNGS showed Cunninghamella (Mucorales).",
+          "why_order_this_exam": "This patient was a post-transplant host with severe immunosuppression. Prior BALF mNGS detected only Streptococcus mitis, Streptococcus anginosus, and Human herpesvirus 5, but these findings were inconsistent with the clinical manifestations and treatment response, and bronchoalveolar lavage fluid culture was negative, suggesting that conventional respiratory samples may not have captured the core pathogen within the lesion. Performing mNGS on tissue sections was intended, on the basis that fungal hyphae had already been identified, to further establish the pathogen to the species level and resolve the key question of \"which specific invasive fungus\" was present. There are marked differences in drug selection between mucormycosis and other mold infections such as aspergillosis. In this case, however, serum GM remained persistently negative, pathology did not support Aspergillus, and tissue mNGS detection of Rhizomucor pusillus could mutually corroborate the tissue morphology findings, significantly increasing diagnostic confidence. This test could also provide molecular etiologic evidence when culture is negative, help exclude interference from colonizing or accompanying pathogens detected previously in BALF, directly guide selection of a treatment regimen targeting Mucorales, and provide a basis for subsequent assessment of whether continued combination antifungal therapy and local interventional treatment are needed.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Histopathology showed numerous fungal hyphae in a background of inflammatory exudate. Mucor hyphae are of uneven thickness, 7–25 μm in diameter, branch at right angles, are broad and nonseptate or sparsely septate, have thin walls, and are PAS stain (+). Histopathology showed a large number of Mucor hyphae within blood vessels. Tissue section mNGS identified Rhizomucor pusillus (Mucorales).",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJsxicwWpwLdsIiaqdJ7sPJicTnrqo8Byxt5fS6VuZm919M6WfVqjnwBeSYmmuMdn1WvaBclS1aiae0IA/640?wx_fmt=png",
+          "near_text": "Figure 9 (left): Histopathology shows numerous fungal hyphae (red arrows) in a background of inflammatory exudate. The hyphae of Mucorales are variable in width, 7–25 μm in diameter, branch at right angles, are broad and nonseptate or sparsely septate, have thin walls, and are PAS stain (+). Figure 10 (right): Histopathology shows numerous Mucorales hyphae within blood vessels (red arrows). mNGS of the tissue section identified Rhizomucor pusillus (Mucorales).",
+          "local_src": "cleaned_cases_image_cache/e60f57b5b32ef041f9b01e430eed0b32e682bb63.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Invasive pulmonary mucormycosis, acute myeloid leukemia, status post allogeneic hematopoietic stem cell transplantation",
+      "diagnostic_basis": [
+        "Histopathology showed numerous fungal hyphae in a background of inflammatory exudate. Mucor hyphae are of uneven thickness, 7–25 μm in diameter, branch at right angles, are broad and nonseptate or sparsely septate, have thin walls, and are PAS stain (+).",
+        "Histopathology showed a large number of Mucor hyphae within the blood vessels",
+        "Tissue section mNGS showed Cunninghamella (Mucorales)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Antifungal therapy with amphotericin B by intravenous infusion (50 mg qd) + nebulized inhalation (10 mg bid) + posaconazole (5 mL qid)",
+        "Bronchoscopic local instillation therapy with amphotericin B (25 mg qw)",
+        "Repeated removal of endobronchial pus plugs using interventional methods such as cryotherapy",
+        "Change intravenous infusion of amphotericin B to liposomal amphotericin B (due to the patient's renal insufficiency)",
+        "Use potassium supplementation and potassium-sparing diuretics"
+      ],
+      "treatment_response": [
+        "During treatment, the patient developed refractory hypokalemia; after administration of potassium supplementation and potassium-sparing diuretics, the serum potassium level remained within the normal range.",
+        "Repeat chest radiograph 1 month later showed that the pulmonary lesions were significantly absorbed and improved compared with before."
+      ]
+    }
+  }
+}

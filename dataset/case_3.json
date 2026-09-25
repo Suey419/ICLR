@@ -1,0 +1,369 @@
+{
+  "status": "success",
+  "case_id": "case_3",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 47-year-old female patient, a worker, was admitted for treatment on Day 0, with the chief complaint of \"chest tightness and shortness of breath for 5 months.\" The patient stated that 3 months earlier, she developed chest tightness and shortness of breath without an obvious precipitating cause, markedly worse after activity, accompanied by cough and sputum production, with a small amount of white sticky sputum, and intermittent fever, with a maximum temperature of 38℃. At first, the patient took antibiotics on her own (specific agent unknown), with no improvement in symptoms. She was then hospitalized at a local county hospital, where a frontal chest radiograph indicated \"inflammation in both lower lungs.\" After anti-infective treatment with \"ceftriaxone,\" her temperature decreased and symptoms were somewhat relieved, and she was discharged without repeat chest radiography. On Day +83, the patient again developed chest tightness and shortness of breath after activity, with intermittent cough and yellow sticky sputum, without hemoptysis or fever. She again presented to the local county hospital, where chest CT showed a \"high-density shadow in the left lower lobe.\" She was again treated as pneumonia with \"piperacillin-tazobactam and levofloxacin,\" and her symptoms were slightly relieved. However, repeat chest CT showed no absorption of the lesion, and further evaluation and treatment at a higher-level hospital were recommended, but the patient did not pay attention to this. Until 1 week before presenting to our hospital, the patient noted worsening chest tightness and shortness of breath, with little change in cough and sputum production. Chest CT at the local hospital again showed a \"consolidative shadow in the left lower lung,\" and only then did the patient come to our hospital, where she was admitted from the outpatient clinic with \"pneumonia\" for inpatient treatment. Since the onset of illness, except for weight loss of about 5 kg, everything else had been as usual. She had previously been healthy, denied smoking, alcohol use, and other unhealthy habits, and denied a family history of tumors. Physical examination findings were: T 36.9℃, P 116/min, R 23/min, BP 131/81 mmHg. No enlargement of superficial lymph nodes was palpable throughout the body. On auscultation, breath sounds were coarse in both lungs, and no dry or moist rales were heard. The preliminary diagnosis was pulmonary shadow, with inflammation or tumor not excluded.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (especially consider cases such as lung adenocarcinoma/mucinous adenocarcinoma presenting as persistent pulmonary consolidation)",
+          "supporting_evidence": [
+            "47-year-old woman with a 5-month history of chest tightness and shortness of breath, with persistent imaging lesions",
+            "Chest CT successively showed a \"high-density opacity in the left lower lobe\" and a \"consolidative opacity in the left lower lung,\" and repeat chest CT showed no resolution of the lesion.",
+            "After sequential treatment for \"pneumonia\" with ceftriaxone, piperacillin-tazobactam, and levofloxacin, only slight symptomatic relief was achieved, but the imaging findings did not resolve, consistent with the features of a nonresolving pulmonary opacity.",
+            "Since disease onset, body weight has decreased by approximately 5 kg, suggesting the possibility of a wasting disease.",
+            "The preliminary diagnosis proposed was \"pulmonary opacity; inflammation or tumor cannot be excluded\""
+          ],
+          "opposing_evidence": [
+            "The patient has no smoking history and denies a family history of malignancy.",
+            "During the course of the disease, there was intermittent fever and productive cough; after anti-inflammatory treatment, body temperature decreased and symptoms were somewhat relieved, suggesting that an infectious lesion is also a possible consideration."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Post-obstructive pneumonia (with the need to be alert for a secondary cause due to an endobronchial tumor or other obstructive airway lesion)",
+          "supporting_evidence": [
+            "The lesion location is relatively fixed in the left lower lung/left lower lobe, with imaging findings persistently showing a high-density opacity or consolidation.",
+            "Recurrent cough and sputum production, with a history of fever, consistent with manifestations of secondary infection",
+            "After multiple courses of anti-infective treatment, the symptoms were only partially relieved, while the lesions showed no resolution, suggesting that infection alone cannot fully explain the condition.",
+            "Chest tightness and shortness of breath, more pronounced after exertion, may be seen with ventilatory limitation or atelectasis/post-obstructive infection."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Nonresolving bacterial pneumonia/chronic pulmonary infection",
+          "supporting_evidence": [
+            "At onset, there was intermittent fever, with a maximum temperature of 38°C",
+            "Accompanied by cough and sputum production, initially a small amount of white viscous sputum, later yellow viscous sputum, consistent with infectious respiratory tract symptoms",
+            "A frontal chest radiograph at the local county hospital suggested \"inflammatory changes in both lower lungs\"",
+            "After anti-inflammatory treatment, body temperature decreased and symptoms were somewhat relieved, indicating that an infectious etiology cannot be excluded",
+            "There is still consolidation in the left lower lung at present; chronic or inadequately controlled infection can still present as persistent consolidation."
+          ],
+          "opposing_evidence": [
+            "After treatment with multiple antibiotics, follow-up chest CT showed no resolution of the lesions, not supporting typical bacterial pneumonia",
+            "A disease course lasting 5 months and accompanied by weight loss warrants increased suspicion for causes other than a simple infectious etiology.",
+            "On physical examination, no dry or moist rales were heard in either lung, which is not entirely consistent with obvious active infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The disease course has been protracted, lasting for several months.",
+            "Cough, sputum production, intermittent fever, and weight loss of approximately 5 kg can all be seen in TB",
+            "If pulmonary consolidation does not resolve after conventional antibacterial therapy, special infections such as TB should be considered"
+          ],
+          "opposing_evidence": [
+            "Information from the first phase did not indicate night sweats, hemoptysis, or other more typical TB-related manifestations.",
+            "The imaging report text only indicates a high-density opacity/consolidation in the left lower lung and does not provide more common clues suggestive of TB, such as upper lobe predominance, cavitation, or dissemination.",
+            "Previously healthy; the stage 1 information did not provide a definite history of TB exposure."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The onset is characterized by chest tightness, shortness of breath, and cough, which may be accompanied by low-grade fever.",
+            "Imaging showed persistent pulmonary consolidation with a poor response to anti-infective therapy, consistent with one of the common clinical features of organizing pneumonia.",
+            "No obvious fixed wet rales are heard on lung auscultation; the physical signs may not completely correlate with the severity on imaging."
+          ],
+          "opposing_evidence": [
+            "The information from the first stage did not provide evidence of migratory or multifocal lesions; the current lesion is mainly described as fixed consolidation in the left lower lung.",
+            "The sputum color changed from white to yellow, and there was a prior fever; the evidence for an infectious lesion is relatively more direct."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary fungal infection or pulmonary infection with other special pathogens",
+          "supporting_evidence": [
+            "Persistent pulmonary lesion with no radiographic resolution after conventional antibiotic therapy",
+            "There are persistent cough, sputum production, chest tightness, shortness of breath, and a history of fever; special infections may have similar manifestations.",
+            "When persistent consolidation in the left lower lung cannot be explained solely by common bacterial infection, infection with unusual pathogens should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Previously healthy; the first-stage information did not indicate high-risk factors for fungal infection such as immunosuppression, diabetes mellitus, or long-term corticosteroid use.",
+            "The phase 1 information did not provide imaging clues such as cavitation, halo sign, or nodules that would be more supportive of fungal infection."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endotoxin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal D-glucan",
+          "requirement": "required"
+        },
+        {
+          "exam": "galactomannan peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TB infection T-lymphocyte test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PPD test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "virus TROCH",
+          "requirement": "optional"
+        },
+        {
+          "exam": "EBV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CMV-DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "autoantibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-neutrophil antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Ancillary examinations: Complete blood count showed neutrophil percentage 74.11%; coagulation testing showed D-dimer 2680.00 ug/L; ESR 81 mm/h; CRP, procalcitonin, endotoxin, fungal D-glucan, galactomannan peptide, liver and kidney function, electrolytes, cardiac enzymes, and electrolytes were all normal. Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, TB infection T-lymphocyte test, and PPD test were all negative; viral TROCH, EBV-DNA, and CMV-DNA were negative; autoantibodies, antineutrophil antibodies, and rheumatologic panel were negative; tumor marker CA125 53.85 U/ml (normal range 0—35 U/ml). Arterial blood gas analysis (FiO2 21.0%) showed pH 7.402, PaO2 70.1 mmHg, PaCO2 37.2 mmHg, and SaO2 95.8%. Bronchoscopy was performed on Day +94, and showed mild hyperemia of the bronchial mucosa in the bilateral upper lobe bronchial systems, with scant secretions; the bronchial mucosa of both lower lobes and the right middle lobe was generally normal; the lumens were patent throughout, with no mass or stenosis seen. Pathology from bronchoscopic biopsy suggested chronic inflammation of the left lower lobe bronchial mucosa and lung tissue with a small amount of alveolar dilatation. Chest CT imaging data on Day +99: chest CT at our hospital showed multiple large patchy dense opacities in the bilateral lower lobes with indistinct borders; in the right lung and left upper lobe, multiple GGO and nodules with bronchogenic spread were seen, showing an asymmetric distribution; anterior convexity of the interlobar fissure; multiple small mediastinal lymph node shadows were seen; and a trace left pleural effusion was present.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz4730KEvFrq7CgGqO8l0t2ibSibsrd1RevuJRicIc6jficUgy5WKf0SMTN5icXA/640?wx_fmt=jpeg",
+            "near_text": "After 1 week of anti-inflammatory treatment following admission, we arranged a repeat chest CT.",
+            "local_src": "cleaned_cases_image_cache/068a056a011f6a39df326f6a08181235fce3e1d6.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473YzjhgianEJeYB6RfFvKs4sicWE3Luu4T13WzIz2mwemqVTh1Vyl9CyvQ/640?wx_fmt=png",
+            "near_text": "Chest CT at our hospital showed:",
+            "local_src": "cleaned_cases_image_cache/8182b3379afea5b484a37c735642cadf5c10fc18.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "caseous pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "All TB-related tests were negative."
+            ]
+          },
+          {
+            "name": "Cryptogenic organizing pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The lesions appear to have worsened, but there is no migratory pattern and no reverse halo sign."
+            ]
+          },
+          {
+            "name": "Pulmonary alveolar proteinosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Atypical crazy-paving pattern on imaging"
+            ]
+          },
+          {
+            "name": "lung adenocarcinoma",
+            "evidence": [
+              "Consolidation in the right lower lobe and multiple nodular ground-glass opacities in both lungs appeared within a short period."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary mucosa-associated lymphoid tissue (MALT) lymphoma",
+            "evidence": [
+              "Consolidation in the right lower lobe and multiple nodular ground-glass opacities in both lungs appeared within a short period."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "caseous pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "All TB-related tests were negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Cryptogenic organizing pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The lesions appear to have worsened, but there is no migratory pattern and no reverse halo sign."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lung adenocarcinoma",
+        "evidence": [
+          "Consolidation in the right lower lobe and multiple nodular ground-glass opacities in both lungs appeared within a short period."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary mucosa-associated lymphoid tissue (MALT) lymphoma",
+        "evidence": [
+          "Consolidation in the right lower lobe and multiple nodular ground-glass opacities in both lungs appeared within a short period."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "endobronchial ultrasound bronchoscopy",
+          "basis_in_stage3_input": "Ultrasound examination revealed a narrow band-like area of consolidation in the left lower lobe; the lower lobe showed marked respiratory excursion.",
+          "why_order_this_exam": "The patient has had a 5-month course of chest tightness, shortness of breath, cough, and sputum production. The left lower lung consolidation has repeatedly failed to resolve despite anti-infective treatment for pneumonia, and symptoms have recently worsened, accompanied by weight loss, suggesting that simple infection cannot explain the condition. Further clarification of the nature of the lesion and identification of a safe and effective sampling approach are needed. Previous bronchoscopy showed no mass, and biopsy demonstrated only chronic inflammation, indicating that routine endobronchial sampling did not represent the pulmonary parenchymal lesion. Ultrasound evaluation can confirm the location and extent of the subpleural consolidation and its relationship to respiratory motion, determine whether there is an acoustic window suitable for percutaneous biopsy, help select the optimal biopsy target, and avoid vessels and areas with excessive motion as much as possible, thereby assessing and reducing the risk of percutaneous lung biopsy and providing a prerequisite for subsequent pathologic confirmation.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PET-CT scan",
+          "basis_in_stage3_input": "Underwent PET-CT examination",
+          "why_order_this_exam": "The patient has persistent nonresolving pulmonary consolidation. Chest CT has shown progression from a unilateral left lower lobe lesion to large dense opacities in both lower lungs, accompanied by multiple ground-glass opacities and nodules in both lungs, small mediastinal lymph nodes, and trace pleural effusion. After multiple courses of anti-infective treatment, symptoms improved only slightly, but the imaging findings did not resolve; a neoplastic lesion, especially lung adenocarcinoma, has become a major consideration. The purpose of PET-CT is to assess the metabolic activity of these areas of consolidation and the multiple GGOs/nodules, determine whether the findings are more suggestive of tumor or inflammation, evaluate the distribution of lesions within both lungs and the status of mediastinal lymph nodes and distant metastases, and identify the most metabolically active and most representative site to guide biopsy. This examination is of important value for clinical staging, differentiating bilateral pulmonary metastases from multifocal inflammation, and subsequent selection of local tissue sampling versus systemic therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Percutaneous needle biopsy of the left lower lobe of the lung",
+          "basis_in_stage3_input": "Percutaneous needle biopsy of the left lower lobe was performed.",
+          "why_order_this_exam": "The patient has a persistent consolidation lesion in the left lower lobe, with a long disease course, no response to anti-infective therapy, and PET-CT indicating hypermetabolism of the corresponding lesion, with a high likelihood of malignancy. Previous bronchoscopy showed no endobronchial mass or stenosis, and bronchoscopic biopsy showed only chronic inflammation with a small number of dilated alveoli, without establishing a definitive diagnosis; therefore, a more direct method of obtaining lung parenchymal tissue is necessary. Percutaneous lung biopsy of the left lower lobe can obtain पर्याप्त tissue from the consolidation lesion considered most suspicious on imaging and PET, in order to resolve the key clinical question of whether this is lung adenocarcinoma, pulmonary mucosa-associated lymphoid tissue lymphoma, organizing pneumonia, or special infection. This examination is the core step in establishing a histologic diagnosis and also provides the basis for subsequent pathologic subtyping and molecular testing, thereby guiding treatment planning.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "The pathology results suggest a lepidic growth pattern.",
+          "why_order_this_exam": "The most prominent clinical dilemma in this case was that the pulmonary consolidation failed to resolve despite long-term treatment for infection, with progressive increase on imaging and the appearance of multiple ground-glass opacities and nodules in both lungs; symptoms, CT, and PET metabolic findings alone still could not replace histologic confirmation. Pathologic examination of the specimen obtained by percutaneous biopsy was performed to determine whether the lesion represented a malignant tumor or inflammation/special infection, and to further define the specific histologic type. Pathology suggested a lepidic growth pattern, which corroborated the persistent consolidation and ground-glass lesions in the case, supporting a lesion within the pulmonary adenocarcinoma spectrum and significantly narrowing the differential diagnosis. The pathologic result directly determines whether the final diagnosis is established and is also the key basis for subsequent staging, whether to choose targeted therapy, and prognosis assessment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Genetic mutation testing",
+          "basis_in_stage3_input": "Genetic mutation testing indicated EGFR 19del.",
+          "why_order_this_exam": "After pathology had already indicated lung adenocarcinoma, what the patient further needed was not only a qualitative diagnosis, but also clarification of whether there were actionable driver gene alterations. This patient was a 47-year-old woman with no smoking history and, clinically, already belonged to a population in which EGFR sensitizing mutations are relatively common; meanwhile, her disease was already advanced and accompanied by bilateral intrapulmonary metastases, and treatment decisions were highly dependent on molecular subtyping. Genetic mutation testing was performed to determine whether driver genes such as EGFR were present, thereby selecting the most appropriate first-line treatment regimen and avoiding the use of chemotherapy based solely on experience. After detection of EGFR 19del, the use of EGFR-TKI targeted therapy could be directly supported, and it also provided a basis for expected efficacy and subsequent follow-up strategy.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Ultrasound examination revealed a narrow band-like area of consolidation in the left lower lobe, with large respiratory excursion of the lower lobe. PET-CT was performed, and the results reported: \"Large areas of consolidation are seen in the left lower lobe and the posterior basal segment of the right lower lobe, with relatively homogeneous density; the bronchiolar walls are rigid; radionuclide metabolism in the lesions shows large areas of hypermetabolism, with SUVmax 7.8—11.6. Multiple ground-glass opacities are seen in the right upper lobe, right middle lobe, and left upper lobe, some nodular, of varying sizes, with clear margins; among them, increased radionuclide metabolism is seen in the posterior segment of the left upper lobe, with SUVmax 4.7.\" A percutaneous lung biopsy of the left lower lobe was performed. The pathology result suggested a lepidic growth pattern, and mutation testing indicated EGFR 19del.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz4732pCj6EVg6vjCcb8wyOic3lbytEZ5rkLIngOceSwWnXLYiayUwWe1ycuQ/640?wx_fmt=jpeg",
+          "near_text": "Follow-up chest CT on Day +488:",
+          "local_src": "cleaned_cases_image_cache/5b62cb48ea935ea923510dad9bf2cf6b356f6308.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Malignant neoplasm of the lung (left lower lobe, adenocarcinoma, cT4N0M1a stage IVa), with bilateral intrapulmonary metastases.",
+      "diagnostic_basis": [
+        "The final pathology results confirmed lung adenocarcinoma, lepidic type",
+        "Genetic mutation testing indicated EGFR exon 19 deletion",
+        "PET-CT findings suggest extensive patchy hypermetabolism of the lesion radiotracer uptake"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oral gefitinib"
+      ],
+      "treatment_response": [
+        "In approximately 16 months after Day 0, on follow-up chest CT, the lesions had completely disappeared, meeting the CR criteria.",
+        "After 5 years of oral gefitinib, chest CT has consistently shown no evidence of tumor recurrence.",
+        "Because the patient developed obvious hypohidrosis, gefitinib was discontinued by the patient in 2019. Follow-up reexaminations were performed after discontinuation, and the condition remained stable.",
+        "In May of this year, the patient returned for follow-up chest CT, which again revealed an \"uninvited guest\"—the chest CT showed multiple ground-glass nodular opacities in the left lower lobe. Bronchoscopy was arranged again. Bronchoscopic findings: a small amount of white, thin secretions was seen in the bilateral bronchial system; after suctioning, hyperemic and erythematous mucosa was seen, slightly more severe in the left lower side; all lumens were patent, with no mass or stenosis. Pathology of bronchoscopic biopsy: chronic inflammation of the bronchial mucosa and lung tissue from the \"basal segment of the left lower lobe,\" with focal epithelial hyperplasia. Systemic workup found no evidence of tumor metastasis. The patient decided to actively cooperate with our dynamic observation."
+      ]
+    }
+  }
+}

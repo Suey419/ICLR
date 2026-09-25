@@ -1,0 +1,484 @@
+{
+  "status": "success",
+  "case_id": "case_84",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 79-year-old elderly woman from Jiangning, Nanjing, who was admitted to the Department of Pulmonary and Critical Care Medicine of Nanjing Jiangning Hospital on Day 0, with the chief complaint of \"recurrent chest tightness for half a year.\" Half a year earlier, she developed chest tightness/discomfort without an obvious precipitating cause, without fever, chest pain, cough, or hemoptysis. On Day -114, she was evaluated at an outside hospital, where chest CT showed bilateral pleural effusions. On Day -111 of the same year, she underwent right thoracentesis during hospitalization; the specific etiology was not clarified. After drainage of the pleural effusion, her chest tightness improved and she was discharged. On Day -31 of the same year, she was again hospitalized for chest tightness, during which right closed thoracic drainage was again performed. The pleural fluid was an exudate, and exfoliative cytology and TB-related tests showed no abnormalities. She was discharged on Day -22 after improvement in chest tightness. On Day -7, she again felt worsening chest tightness and presented to our outpatient clinic, where CT of the chest and upper abdomen showed bilateral pleural effusions (partially loculated effusion in the left lung) with adjacent lung atelectasis. Compared with her chest CT on Day -26, the right pleural effusion had increased. Scattered linear opacities in both lungs with exudative changes had progressed compared with before. A soft tissue nodule was found at the fundus of the gallbladder, and calcified foci were present in the liver, spleen, and left kidney. For further clarification of the etiology and diagnosis of the pleural effusion, she was admitted from the outpatient clinic to the department with \"pleural effusion, etiology to be determined.\" Throughout the course of illness, the patient had no chills or rigors, no chest pain, no cough or sputum production, hemoptysis, abdominal pain, or diarrhea. Since onset, her mental status had been fairly good, bowel and bladder habits were normal, and there had been no obvious change in weight. The patient was previously healthy; she denied a history of hypertension, diabetes, cerebral infarction, or other diseases; denied a history of major surgery or trauma; denied food or drug allergies; denied smoking, alcohol use, and other adverse habits; denied a history of industrial toxin or dust exposure; denied long-term use of special medications; and denied family history. Physical examination on admission showed T 36.6℃, P 75/min, R 20/min, BP 120/80mmHg, SpO2 95% (not on oxygen). There was no cyanosis of the lips, no rash on the skin, and no palpable lymphadenopathy. The thorax showed no deformity. Right-sided respiratory excursion was decreased, tactile fremitus was decreased, percussion over both lungs was dull, and breath sounds in both lungs were decreased. No dry or moist rales were heard, no Velcro rales were heard, and no pleural friction rub was heard. There was no precordial bulge. The apical impulse was located at the fifth intercostal space, 0.5 cm medial to the left midclavicular line. No thrill was palpable. Cardiac borders were not enlarged. Heart rate was 75/min, rhythm was regular, heart sounds showed no obvious increase or decrease in intensity, and no pathologic murmur was heard in any valvular auscultation area. The abdomen was flat and soft, with no hepatosplenomegaly, and there was no abdominal tenderness or abdominal muscle guarding. Muscle strength and tone of the extremities were normal, and there was no edema of either lower extremity. Relevant imaging studies included chest CT on Day -26 and chest CT on Day -7.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZnBic2JcicDUchFN0IM7I4dwI5gWnU8IO10bHY7WT6YcFQkp4hEqyTLoA/640?wx_fmt=png",
+          "near_text": "Day -26 chest CT ↑",
+          "local_src": "cleaned_cases_image_cache/7157a6918518ac4d7c33951518d2c1c48e7c5b58.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZrGGDH0VmibkZKqGrqnsKMWJF7CQvhrk6GfxzpYCSGTSCoLPicoibPY19Q/640?wx_fmt=png",
+          "near_text": "Day -7 chest CT ↑",
+          "local_src": "cleaned_cases_image_cache/2d602ba5e169ab7824aae44139d84733f34a23d2.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZa6MXPicY2r2sVg9XWfaNwAZ9ddyiahIcbibnod4GwvJ1BO6spadmQct7w/640?wx_fmt=png",
+          "near_text": "Day +5 contrast-enhanced CT of the chest + abdomen and pelvis ↑",
+          "local_src": "cleaned_cases_image_cache/6d8a1c7c87ccafc7d71cb1eb312170523449b6b9.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Malignant pleural effusion (associated with lung cancer/pleural metastatic tumor/other tumors)",
+          "supporting_evidence": [
+            "A 79-year-old elderly woman with recurrent chest tightness for 6 months, recurrent pleural effusion multiple times, with a continuously progressive disease course",
+            "After two prior thoracic drainage procedures, chest tightness could be relieved, but the etiology was never clarified, suggesting that the effusion was recurrently produced rather than a one-time acute process.",
+            "Pleural effusion is an exudate, which more strongly supports local pleural disease such as malignancy, TB, or inflammation, rather than a simple systemic transudative disorder.",
+            "Chest and upper abdominal CT on Day -7 showed bilateral pleural effusions, partially loculated left pleural effusion, and increased right pleural effusion compared with before, suggesting persistent active pleural disease.",
+            "Imaging shows bilateral moderate to large pleural effusions with adjacent compressive atelectasis of the lung parenchyma; the left side shows partial loculation/encapsulation, consistent with imaging findings that may be seen with pleural involvement.",
+            "CT showed a soft tissue nodule at the fundus of the gallbladder, suggesting a potential extrapleural tumor lesion clue"
+          ],
+          "opposing_evidence": [
+            "Previous pleural fluid exfoliative cytology showed no abnormalities",
+            "No definite pulmonary mass, pleural nodules, or obvious mediastinal lymphadenopathy were described in the phase 1 information.",
+            "Since disease onset, no significant change in body weight has been observed."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy",
+          "supporting_evidence": [
+            "The pleural effusion is exudative, and tuberculous pleuritis is one of the common causes of exudative pleural effusion.",
+            "The course has been prolonged for half a year, with recurrent bilateral pleural effusions, which may be seen in the subacute or chronic course of tuberculous pleuritis.",
+            "CT indicated partially loculated left pleural effusion; the images show bilateral pleural effusions with compressive atelectasis; loculated pleural effusion can occur in tuberculous pleuritis",
+            "Calcified foci are present in the liver, spleen, and left kidney, suggesting possible prior granulomatous infection; a TB-related background cannot be completely excluded."
+          ],
+          "opposing_evidence": [
+            "Previous TB-related tests showed no abnormalities",
+            "The patient had no typical TB toxic symptoms or respiratory symptoms such as fever, night sweats, cough, hemoptysis, or weight loss.",
+            "No definite history of TB exposure was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Complicated parapneumonic pleural effusion/chronic empyema",
+          "supporting_evidence": [
+            "CT showed bilateral pleural effusions, with partially loculated pleural effusion in the left lung; loculated pleural effusion is commonly seen in complicated parapneumonic effusion or empyema.",
+            "Imaging shows significant bilateral pleural effusions, with adjacent lung tissue underexpansion; this type of change can occur in inflammatory pleural processes.",
+            "Scattered linear opacities and progressive exudative changes in both lungs compared with the previous study, suggesting possible inflammatory changes in the pulmonary parenchyma and near the pleura",
+            "The pleural effusion is an exudate, supporting an inflammatory etiology."
+          ],
+          "opposing_evidence": [
+            "Throughout the entire course of the illness, the patient had no fever, chills, or rigors, and no cough or sputum production.",
+            "On physical examination, no dry or moist rales were heard in either lung.",
+            "The disease course has lasted as long as six months, with recurrent bilateral pleural effusions, which is even less typical of an uncomplicated parapneumonic effusion due to acute pneumonia."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary embolism-related pleural effusion",
+          "supporting_evidence": [
+            "Chest tightness is the main symptom. Chest CT indicates bilateral pleural effusions and adjacent pulmonary atelectasis. Pulmonary embolism may be accompanied by a small to moderate amount of exudative pleural effusion.",
+            "Scattered linear opacities and exudative changes in both lungs have progressed compared with before; some post-pulmonary infarction changes may overlap with focal exudative opacities on imaging.",
+            "When the etiology remains unclear for a long time, pulmonary vascular causes should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient had no common manifestations of pulmonary embolism such as chest pain, hemoptysis, or obvious shortness of breath.",
+            "Vital signs stable, P 75 beats/min, SpO2 95% (not on oxygen), with no evidence of significant acute circulatory/oxygenation abnormality",
+            "In the first stage, the images and text did not indicate a typical peripheral wedge-shaped infarct lesion or an intraluminal filling defect in the pulmonary artery."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Heart failure or other cardiogenic pleural effusion",
+          "supporting_evidence": [
+            "In elderly patients, bilateral pleural effusions may be seen in cardiogenic disease.",
+            "The main symptom is chest tightness, and there are no obvious signs of infection; clinically, cardiac causes should be routinely differentiated.",
+            "The image shows bilateral pleural effusions; cardiogenic effusions often present bilaterally."
+          ],
+          "opposing_evidence": [
+            "Previous pleural effusion was confirmed to be an exudate, not supporting a typical transudate due to heart failure",
+            "On physical examination, the cardiac silhouette was not enlarged, heart rate was 75 beats/min with regular rhythm, and no pathologic murmur was heard in any valvular auscultation area.",
+            "No edema in both lower extremities, no hepatosplenomegaly in the abdomen, and no clues suggestive of heart failure such as orthopnea or paroxysmal nocturnal dyspnea were provided.",
+            "In the first-phase images, there was no clear description of definite cardiomegaly."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Connective tissue disease-related serositis (such as rheumatoid arthritis, systemic lupus erythematosus, etc.)",
+          "supporting_evidence": [
+            "Recurrent bilateral exudative pleural effusions require consideration of immune-mediated serositis in the differential diagnosis",
+            "In the absence of clear evidence of infection and no definite cardiogenic basis, systemic inflammatory/immune-mediated etiologies should still be included in the initial differential diagnosis"
+          ],
+          "opposing_evidence": [
+            "The patient was previously in good health. In the first phase, no clues suggestive of connective tissue disease, such as joint pain, oral ulcers, photosensitivity, or rash, were provided.",
+            "On physical examination, there was no rash on the skin of the entire body, and no superficial lymphadenopathy was palpable.",
+            "The elderly patient initially presented with isolated pleural effusion at disease onset, which is less consistent with the typical initial presentation of common connective tissue diseases."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity C-reactive protein",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Female tumor marker panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-thyroglobulin antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Anti-mitochondrial antibody M2",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Five-item immune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the deep veins of both lower extremities",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "FENO",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right closed thoracic drainage",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion TB-related tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion exfoliative cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Medical thoracoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parietal pleural biopsy of the chest wall",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural pathology examination",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Arterial blood gas analysis on Day 0: pH 7.35; PaO2 70 mmHg; PaCO2 45 mmHg. Laboratory tests: CBC: RBC count 3.51*10^12; hemoglobin 108 g/L; WBC count 7.0*10^9; hs-CRP 35.39 mg/L; ESR 121 mm/h; urinalysis and stool routine showed no obvious abnormalities. Blood chemistry: total protein 73.4 g/L; albumin 32.4 g/L; globulin 41 g/L; A/G ratio 0.79; β2-microglobulin 5.22 mg/L; no obvious abnormalities in liver or renal function; female tumor marker panel: CA125 164 U/ml; thyroid function: triiodothyronine 1.13 nmol/L; TSH 5.18 mIU; anti-thyroglobulin antibody and other tests showed no abnormalities. Autoantibody testing: antimitochondrial antibody M2 positive (+). Immune panel (5 items): immunoglobulin A 0.50 g/L; immunoglobulin M 27.47 g/L; complement C3 0.087 g/L; complement C4 0.003 g/L. Cardiac and bilateral lower extremity venous Doppler ultrasound was performed: no obvious abnormality in intracardiac structures, left ventricular systolic function measurement within the normal range. Segmental blood flow in the deep veins of both lower extremities was patent; echocardiography: tricuspid regurgitation (mild), pericardial effusion, left ventricular systolic function measurement within the normal range. Pulmonary function testing: mild obstructive ventilatory dysfunction and moderate impairment of diffusing capacity (pre-bronchodilator FVC 3.35 L [87.5%pred], post-bronchodilator 3.66 L [95.5%pred]; pre-bronchodilator FEV1 2.50 L [79.7%pred], post-bronchodilator 2.82 L [89.9%pred]; pre-bronchodilator FEV1/FVC 74.62%, post-bronchodilator 77.18%; DLCO SB 48.2%pred). Bronchodilator test positive (FEV1 increased by 12.9% 15 minutes after inhalation of salbutamol 400 ug). FeNO 14 ppb. Lung HRCT showed bilateral pleural effusions (partially loculated effusion in the left lung) with adjacent lung atelectatic change. Compared with imaging on Day -7: right pleural drainage tube in place, newly developed small right pneumothorax, decreased right pleural effusion compared with before, increased left pleural effusion compared with before; scattered linear opacities with exudative changes in both lungs had progressed compared with before; no significant change in the abdomen compared with before, small amount of pelvic effusion. On Day 0, the patient again underwent right closed thoracic drainage. After the second closed thoracic drainage, the pleural fluid appeared dark yellow. Pleural fluid biochemistry: total protein 53.80 g/L; routine pleural fluid analysis indicated a weakly positive Rivalta test; WBC count 1571*10^6/L; lymphocyte percentage 98%; pleural fluid TB-related tests negative; pleural fluid tumor markers normal, and exfoliative cytology of pleural fluid showed no tumor cells. On Day +3, medical thoracoscopy was performed: a small amount of ulcer-like change was seen on the anterior side of the right pleural cavity, with slight surrounding bleeding. Forceps biopsy of the parietal pleura of the chest wall at the ulcer site was performed 3 times. Pathology suggested scattered abundant lymphocytes in fibroadipose tissue, predominantly B lymphocytes, with marked crush artifact.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZ8y7IlkTdcpHj8TUhb9ZiaiaiakGnabDdy4XXIzQpDibSicF1ZJibew2OVfUA/640?wx_fmt=png",
+            "near_text": "Thoracoscopy showed ulcerative changes of the pleura; a biopsy was taken from the ulcerative lesion and sent for pathology ↑",
+            "local_src": "cleaned_cases_image_cache/ec7bd6a96562f4c7c5c0c45344dd55ce9633d4de.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tuberculous pleurisy",
+            "evidence": [
+              "The patient's symptoms were recurrent, with an insidious onset.",
+              "Large right pleural effusion, loculated left pleural effusion",
+              "The pleural effusion is exudative."
+            ],
+            "exclusion_reasons": [
+              "All TB-related indicators were negative",
+              "No clinical manifestations of TB-related toxic symptoms.",
+              "The direct thoracoscopic findings were inconsistent (with no pleural hyperemia, fibrous adhesive band formation, loculated effusion, miliary nodules, necrosis, or other such features).",
+              "Subsequent pathology results did not support it"
+            ]
+          },
+          {
+            "name": "Pleural effusion caused by connective tissue disease-related disorders (systemic lupus erythematosus, rheumatic fever, rheumatoid arthritis, Sjögren syndrome, etc.)",
+            "evidence": [
+              "Autoantibody testing: anti-mitochondrial antibody M2 positive (+)",
+              "anti-β2-glycoprotein 1 antibody 23.80 AU/ml"
+            ],
+            "exclusion_reasons": [
+              "The patient has no related clinical symptoms; the evidence is insufficient to support a diagnosis of connective tissue disease."
+            ]
+          },
+          {
+            "name": "Digestive system diseases include autoimmune hepatitis and digestive system tumors",
+            "evidence": [
+              "Biochemistry showed elevated globulin."
+            ],
+            "exclusion_reasons": [
+              "Normal liver function",
+              "Imaging showed no liver-related lesions",
+              "No history of hepatitis or alcohol use",
+              "Autoimmune liver disease antibodies normal",
+              "Abdominal and pelvic CT showed no evidence of tumor."
+            ]
+          },
+          {
+            "name": "Malignant pleural effusion (lung cancer, malignant pleural mesothelioma, gastrointestinal tumors, gynecologic malignant tumors)",
+            "evidence": [
+              "Pleural effusion confirmed to be exudative",
+              "Repeated TB-related test results showed no abnormalities",
+              "Elevated tumor markers",
+              "elderly woman"
+            ],
+            "exclusion_reasons": [
+              "Repeated chest CT scans showed no evidence of a pulmonary mass lesion.",
+              "Abdominal and pelvic CT showed no obvious abdominal mass lesion (currently no evidence of a solid tumor)."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tuberculous pleurisy",
+        "evidence": [
+          "The patient's symptoms were recurrent, with an insidious onset.",
+          "Large right pleural effusion, loculated left pleural effusion",
+          "The pleural effusion is exudative."
+        ],
+        "exclusion_reasons": [
+          "All TB-related indicators were negative",
+          "No clinical manifestations of TB-related toxic symptoms.",
+          "The direct thoracoscopic findings were inconsistent (with no pleural hyperemia, fibrous adhesive band formation, loculated effusion, miliary nodules, necrosis, or other such features).",
+          "Subsequent pathology results did not support it"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pleural effusion caused by connective tissue disease-related disorders (systemic lupus erythematosus, rheumatic fever, rheumatoid arthritis, Sjögren syndrome, etc.)",
+        "evidence": [
+          "Autoantibody testing: anti-mitochondrial antibody M2 positive (+)",
+          "anti-β2-glycoprotein 1 antibody 23.80 AU/ml"
+        ],
+        "exclusion_reasons": [
+          "The patient has no related clinical symptoms; the evidence is insufficient to support a diagnosis of connective tissue disease."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Digestive system diseases include autoimmune hepatitis and digestive system tumors",
+        "evidence": [
+          "Biochemistry showed elevated globulin."
+        ],
+        "exclusion_reasons": [
+          "Normal liver function",
+          "Imaging showed no liver-related lesions",
+          "No history of hepatitis or alcohol use",
+          "Autoimmune liver disease antibodies normal",
+          "Abdominal and pelvic CT showed no evidence of tumor."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant pleural effusion (lung cancer, malignant pleural mesothelioma, gastrointestinal tumors, gynecologic malignant tumors)",
+        "evidence": [
+          "Pleural effusion confirmed to be exudative",
+          "Repeated TB-related test results showed no abnormalities",
+          "Elevated tumor markers",
+          "elderly woman"
+        ],
+        "exclusion_reasons": [
+          "Repeated chest CT scans showed no evidence of a pulmonary mass lesion.",
+          "Abdominal and pelvic CT showed no obvious abdominal mass lesion (currently no evidence of a solid tumor)."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "lymphoproliferative disorder",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Quantitative blood and urine lambda and kappa light chains",
+          "basis_in_stage3_input": "Further complete tests including quantitative blood and urine lambda and kappa light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy.",
+          "why_order_this_exam": "The patient is a 79-year-old woman with recurrent bilateral pleural effusions for half a year and progressive chest tightness. The pleural fluid is a lymphocyte-predominant exudate. TB-related tests and exfoliative cytology of the pleural fluid have both failed to identify the cause. At the same time, laboratory tests indicate elevated globulin, a reversed albumin/globulin ratio, elevated β2-microglobulin, and especially markedly elevated IgM. Pleural biopsy also showed predominantly B lymphocytes, suggesting the possibility of a monoclonal immunoglobulin-related lymphoplasmacytic proliferative disorder. Ordering quantitative blood and urine light chains is intended to determine whether there is abnormal light-chain secretion and a κ/λ imbalance, to help identify a monoclonal plasma cell/lymphoplasmacytic disorder, distinguish it from reactive hypergammaglobulinemia, and assess whether there is increased urinary light-chain excretion. This test is helpful for clarifying the nature of an M-protein-related disorder, supporting whether to proceed with bone marrow examination and to formulate a hematologic treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum protein electrophoresis",
+          "basis_in_stage3_input": "Further complete tests including quantitative blood and urine lambda and kappa light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy.",
+          "why_order_this_exam": "The patient has recurrent pleural effusion of unknown cause. There is insufficient evidence for routine infection, TB, or solid tumors, but globulin is already elevated at 41 g/L, the albumin/globulin ratio is decreased, and IgM is markedly elevated at 27.47 g/L, suggesting possible monoclonal immunoglobulin elevation. Serum protein electrophoresis can directly determine whether an M-protein spike is present and its proportion, addressing whether the patient's hyperglobulinemia is due to a polyclonal inflammatory response or monoclonal proliferation. In this case, this test would help link pleural B-cell infiltration and increased lymphocytes in pleural fluid with a systemic B-cell/plasma cell abnormality, providing key evidence for establishing a B-cell lymphoproliferative disorder or lymphoplasmacytic neoplasm, and also laying the foundation for subsequent immunofixation, EM classification, and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "7-item immunofixation electrophoresis panel",
+          "basis_in_stage3_input": "Further complete tests including quantitative blood and urine lambda and kappa light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy.",
+          "why_order_this_exam": "In the setting of the patient already having marked hypergammaglobulinemia, significantly elevated IgM, pleural pathology indicating predominantly B cells, and the clinical manifestation of recurrent pleural effusion, detection of an M protein by protein electrophoresis alone is still insufficient to definitively determine the immunoglobulin type. The purpose of the 7-item immunofixation electrophoresis panel is to further confirm the heavy-chain and light-chain class of the monoclonal protein, distinguish IgM-related monoclonal proliferation from other types of monoclonal gammopathy, and differentiate it from multiple myeloma, MGUS, lymphoplasmacytic lymphoma, and others. This test can more precisely explain the source of the patient's systemic abnormal immunoglobulin and has direct value for establishing the diagnosis of a hematologic malignancy, assessing disease burden, and selecting subsequent chemotherapy regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Further complete tests including quantitative blood and urine lambda and kappa light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy.",
+          "why_order_this_exam": "The patient has long-standing recurrent pleural effusion. Pleural biopsy showed only predominantly B lymphocytes with crush artifact, and the local specimen was insufficient for complete characterization. At the same time, there are mild anemia, elevated globulin, markedly elevated IgM, and elevated β2-microglobulin, suggesting a lymphoplasmacytic proliferative disorder that may already involve the bone marrow. Bone marrow aspiration can assess bone marrow differential counts and the proportion of abnormal lymphoid/plasma cells, addressing whether there is a systemic hematologic disease rather than a purely localized pleural lesion. This examination is critical for confirming a mature B-cell neoplasm, assessing the degree of bone marrow involvement, and providing specimens for flow cytometry, cytomorphology, and subsequent stratified treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "basis_in_stage3_input": "Further complete tests including quantitative blood and urine lambda and kappa light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy.",
+          "why_order_this_exam": "This case requires determination of whether diffuse bone marrow infiltration and bone marrow architectural changes are present. In addition to recurrent pleural effusion, the patient also has a tendency toward anemia, marked hyper-IgM-emia, and clues of pleural B-cell infiltration. If only bone marrow aspiration is performed, the lesion may be underestimated because of focal involvement or dilution. Bone marrow biopsy can directly assess the overall proliferative status of the bone marrow, the extent and distribution pattern of lymphocytic infiltration, and can determine whether structural lesions such as bone marrow fibrosis are also present, thereby allowing differentiation from reactive lymphocytosis, other B-cell lymphomas, or plasma cell disorders. This examination is of important significance for disease staging, prognostic assessment, and formulation of the chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "2. Bone marrow smear results: active bone marrow hyperplasia, decreased erythroid hyperplasia, mature erythrocytes arranged in rouleaux formation, plasmacytoid lymphocytes observed",
+          "why_order_this_exam": "The patient’s clinical and laboratory findings have already suggested the possibility of a monoclonal immunoglobulin-related disease, and bone marrow morphology images can help visually confirm whether there are abnormal cytologic clues. For this case, the bone marrow images mainly address three questions: first, whether there are plasmacytoid lymphocytes or abnormal lymphocytes, supporting lymphoplasmacytic differentiation; second, whether the erythroid lineage is suppressed, explaining the patient’s mild anemia; third, whether rouleaux formation of mature red blood cells suggests the effect of hypergammaglobulinemia/M protein. This examination, together with serum protein abnormalities, pleural B-cell infiltration, and subsequent flow cytometry and pathology results, provides mutually corroborative evidence and can strengthen the assessment of a B-cell proliferative disorder with plasmacytic differentiation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Leukemia flow cytometry",
+          "basis_in_stage3_input": "3. Leukemia flow cytometry: clonal proliferating B cells are seen in the bone marrow (accounting for approximately 3.13% of nucleated cells) and clonal proliferating plasma cells (accounting for approximately 0.06% of nucleated cells), suggesting a mature B-cell neoplasm with plasmacytic differentiation; lymphoplasmacytic lymphoma is possible",
+          "why_order_this_exam": "The patient's pleural effusion has long been lymphocyte-predominant, and pleural biopsy indicated a predominance of B lymphocytes, but routine pathology could not readily determine whether this represented reactive or clonal proliferation. The value of leukemia flow cytometry lies in identifying abnormal cell populations by immunophenotyping, determining whether clonal B-cell and plasma cell populations are present, and clarifying their degree of maturation and direction of differentiation. In this case, this test is intended to directly determine whether the B-cell infiltration of the pleura is due to a systemic mature B-cell neoplasm and whether it is accompanied by plasma cell differentiation, while also providing a basis for differentiation from reactive lymphocytosis, chronic lymphocytic leukemia, mantle cell lymphoma, and plasma cell neoplasms. Its results are critical for the final characterization and selection of the treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy pathology",
+          "basis_in_stage3_input": "4. Bone marrow biopsy pathology result: Gross examination: strip-like bone tissue (left iliac bone), measuring 0.8 cm in length and 0.3 cm in diameter. Pathologic diagnosis: (left iliac bone) HE and PAS staining show markedly active bone marrow hyperplasia in the submitted specimen (80-90%), with diffuse lymphocytic proliferation; immunohistochemistry addendum report pending.",
+          "why_order_this_exam": "In the presence of recurrent pleural effusion, B-cell infiltration on pleural biopsy, and abnormal elevations of M protein and IgM, it is necessary to determine whether the bone marrow is the primary site of involvement and the pattern of involvement. Bone marrow biopsy pathology can assess, at the tissue level, the degree of bone marrow proliferation, the extent of abnormal lymphocytic infiltration, and whether it shows a diffuse distribution, which is crucial for distinguishing reactive changes from lymphohematopoietic neoplasms. This examination can also be combined with bone marrow aspirate morphology, flow cytometry, and immunohistochemistry to help confirm that the disease is a B-lymphoproliferative disorder rather than simple inflammation or other secondary processes, and to provide a basis for assessing disease burden and prognosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "H&E and PAS staining",
+          "basis_in_stage3_input": "Pathology diagnostic opinion: (left iliac bone) HE and PAS staining show marked hypercellularity of the submitted bone marrow (80-90%), with diffuse lymphocytic proliferation; immunohistochemistry supplementary report pending.",
+          "why_order_this_exam": "H&E and PAS staining are basic steps in the pathology workup of a bone marrow biopsy. In this case, the bone marrow architecture and cellular components must first be evaluated morphologically. The patient already has pleural B-cell infiltration, hypergammaglobulinemia, and markedly elevated IgM. H&E and PAS staining can be used to assess whether the bone marrow is hypercellular, whether lymphocytes show diffuse infiltration, whether the granulocytic, erythroid, and megakaryocytic lineages are suppressed, and whether the cellular morphology supports a lymphoid neoplasm. The key question this test is intended to answer is whether there is definite histologic abnormality indicating bone marrow involvement, and it provides a morphologic basis for subsequent immunohistochemistry to determine cell lineage, helping to exclude purely reactive hyperplasia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Supplemental pathology opinion: (left iliac bone) HE and PAS staining showed markedly hypercellular marrow in the submitted specimen (80-90%), with diffuse proliferation of lymphocytes, small cell bodies, scant cytoplasm, round or oval nuclei, coarse chromatin, no obvious nucleoli, accounting for approximately 60% of nucleated cells. Granulocytic and erythroid proliferation is decreased; morphology and proportions are roughly normal, predominantly in mature stages. Megakaryocytes are present (6-22/intertrabecular space), scattered in distribution, predominantly with segmented nuclei; megakaryocytes with small cell bodies and hypolobated nuclei are seen. Reticulin stain MF grade 2. Diagnostic opinion: In conjunction with immunohistochemical markers, B-LPD is favored, with bone marrow fibrosis. Immunohistochemistry: S2227516: MPO (granulocytes+), CD34 (-), CD61 (megakaryocytes+), CD138 (scattered+), CD20 (2+), CD235a (nucleated erythroid cells+), CD38 (scattered+), Kappa (1+), Lambda (1+), Pax-5 (2+), CD23 (-), CD5 (focal 2+), CD10 (-), CyclinD1 (-), BCL-2 (-), CD43 (-)",
+          "why_order_this_exam": "Bone marrow morphology showing only diffuse lymphocytic proliferation is insufficient to determine the cell lineage and neoplastic nature. The pleural pathology in this patient suggested a predominance of B lymphocytes, serology suggested an abnormal M protein/IgM, and the purpose of immunohistochemistry was to further confirm whether the bone marrow infiltrating cells were B cells, whether plasmacytic differentiation was present, and to exclude other mature B-cell neoplasm subtypes. Using a panel of markers including CD20, Pax-5, CD138, CD38, CD5, CD10, CD23, and CyclinD1, the differential diagnosis among reactive lymphoid infiltration, chronic lymphocytic leukemia, mantle cell lymphoma, follicular lymphoma, and lymphoplasmacytic neoplasms can be resolved. This examination is निर्णात्मक for ultimately classifying the lesion as B-LPD and guiding selection of the chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "reticulin stain",
+          "basis_in_stage3_input": "Reticulin stain: MF grade 2",
+          "why_order_this_exam": "Bone marrow morphology has already indicated marked lymphocytic infiltration, with concomitant erythroid hypoplasia and mild anemia. Further evaluation is needed to determine whether the bone marrow microenvironment has already been altered by tumor-associated fibrosis. Reticulin staining can assess the degree of bone marrow fibrosis and address whether the patient has concomitant bone marrow fibrosis and its severity. In this case, if MF-2 fibrosis is present, it could not only explain the systemic features underlying suppressed bone marrow hematopoiesis and the prolonged persistence of pleural effusion, but would also affect prognostic assessment and evaluation of treatment response. Therefore, this examination is meaningful for fully defining the extent and severity of disease and the subsequent follow-up priorities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood testing for MYD88 and CXCR4 mutations",
+          "basis_in_stage3_input": "6. Peripheral blood testing showed negative MYD88 and CXCR4 mutations.",
+          "why_order_this_exam": "In the context of the patient already having a marked elevation of IgM, positive M protein, clonal B cells in the bone marrow with plasma cell differentiation, and pleural B-cell infiltration, further molecular-level evaluation is needed to support or distinguish the specific type of B-cell lymphoproliferative disorder. Testing for MYD88 and CXCR4 mutations is mainly intended to assess whether the molecular features are consistent with certain lymphoplasmacytic neoplasms associated with IgM monoclonal protein, and to differentiate them from other mature B-cell neoplasms. Although the results were negative in this case, this testing still has clinical value: on the one hand, it helps refine diagnostic stratification; on the other hand, it avoids simply assigning the case to a specific subtype based solely on elevated IgM, while also providing a reference for subsequent prognostic assessment and potential targeted treatment strategies.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further evaluations were completed, including quantitative serum and urine LAMBDA and KAPPA light chains, serum protein electrophoresis, 7-item immunofixation electrophoresis, bone marrow aspiration, and biopsy. The results were as follows: 1. Quantitative serum light chain LAMBDA 1.09; quantitative light chain KAPPA 4.19; quantitative urine light chain LAMBDA <4.09; quantitative urine light chain KAPPA 244; serum protein electrophoresis: albumin 37.8; α1 globulin 6.4%; α2 globulin 11.4%; β1 globulin 4.5%; β2 globulin 3.3%; γ globulin 36.6%; M protein positive; M protein accounted for 21%. 2. Bone marrow smear results: active bone marrow hyperplasia, decreased erythroid proliferation, mature erythrocytes arranged in rouleaux formation, and plasmacytoid lymphocytes were seen. 3. Leukemia flow cytometry: clonal proliferative B cells were seen in the bone marrow (approximately 3.13% of nucleated cells) and clonal proliferative plasma cells (approximately 0.06% of nucleated cells); mature B-cell neoplasm with plasmacytic differentiation was considered, with lymphoplasmacytic lymphoma possible. 4. Bone marrow biopsy pathology results: gross description: strip-like bone tissue from the left iliac bone, measuring 0.8 cm in length and 0.3 cm in diameter. Pathologic diagnosis: HE and PAS stains of the submitted specimen from the left iliac bone showed markedly active bone marrow hyperplasia (80-90%) with diffuse lymphocytic proliferation; immunohistochemistry report to follow. Supplemental pathologic opinion: HE and PAS stains of the submitted specimen from the left iliac bone showed markedly active bone marrow hyperplasia (80-90%) with diffuse lymphocytic proliferation. The cells were small, with scant cytoplasm, round or oval nuclei, coarse chromatin, and no obvious nucleoli, accounting for approximately 60% of nucleated cells. Granulocytic and erythroid proliferation was decreased; morphology and proportions were roughly normal, predominantly in mature stages. Megakaryocytes were seen (6-22/intertrabecular space), scattered in distribution, mainly with segmented nuclei; megakaryocytes with small cell bodies and hypolobated nuclei were seen. Reticulin stain MF-2 grade. Diagnostic opinion: in conjunction with immunohistochemical markers, B-LPD with bone marrow fibrosis was considered. Immunohistochemistry: S2227516: MPO (granulocytes+), CD34 (-), CD61 (megakaryocytes+), CD138 (scattered+), CD20 (2+), CD235a (nucleated erythroid cells+), CD38 (scattered+), Kappa (1+), Lambda (1+), Pax-5 (2+), CD23 (-), CD5 (focal 2+), CD10 (-), CyclinD1 (-), BCL-2 (-), CD43 (-). 5. Thoracoscopic pathology results: gross description: a pile of gray-red fragmented tissue from the right parietal pleura, with a total diameter of 0.6 cm. Pathologic diagnosis: small amount of biopsy tissue from the right parietal pleura: numerous scattered lymphocytes in fibroadipose tissue, predominantly B lymphocytes, with marked crush artifact. Note: please correlate clinically to further exclude the possibility of a lymphohematopoietic system disorder; if necessary, obtain additional tissue for pathologic examination. Immunohistochemistry: S2226808: CD3 (small amount+), CD20 (2+), CD56 (-), CKpan (epithelial+), Ki-67 (10%+). 6. Peripheral blood MTD88 and CXCR4 mutation testing was negative.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZQicVO1BI72YJ47L3mQWOc96qaqwoPmdzSuSFcIGx93t1UUDp8oEM3Pw/640?wx_fmt=png",
+          "near_text": "Bone marrow biopsy pathology results indicate markedly active bone marrow hyperplasia, with increased diffuse lymphocytic proliferation.",
+          "local_src": "cleaned_cases_image_cache/60146fa17618777c359e945347d2da3c65f8bd1e.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZIeDc9nIBJBUsNdXU4fqoMDNDpsKEicAuibBuUf2x4Cu9YLnibKaaLP6iaw/640?wx_fmt=png",
+          "near_text": "Pleural biopsy pathology showed scattered abundant lymphocytes within fibroadipose tissue, predominantly B lymphocytes, with marked cellular crush artifact ↑",
+          "local_src": "cleaned_cases_image_cache/cc239095e9d3281a07309c8aab1ad8025ad42637.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. B-cell lymphoproliferative disorder (with bone marrow fibrosis, MF-2); 2. Pleural effusion (bilateral)",
+      "diagnostic_basis": [
+        "Basic characteristics: elderly female, insidious onset, no significant past medical history",
+        "Symptom: recurrent chest tightness for half a year",
+        "Physical sign: decreased breath sounds in both lungs",
+        "Ancillary examinations: chest HRCT showed bilateral pleural effusions, with partially loculated effusion on the left side",
+        "Repeated biochemistry tests indicated elevated globulin, reversed albumin/globulin ratio, and serum protein electrophoresis indicated a marked increase in the proportion of M protein",
+        "Pathology results of bone marrow biopsy and thoracoscopic biopsy"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "CTD regimen chemotherapy: cyclophosphamide 50mg, qd; thalidomide 50mg, qd; dexamethasone 5mg, qd"
+      ],
+      "treatment_response": [
+        "The patient adhered to the medication regimen and underwent regular outpatient follow-up examinations.",
+        "Pleural effusion persists, decreased compared with previously",
+        "Chest tightness symptoms are not obvious; no need for puncture drainage at present"
+      ]
+    }
+  }
+}

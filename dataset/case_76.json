@@ -1,0 +1,421 @@
+{
+  "status": "success",
+  "case_id": "case_76",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 54-year-old housewife with the chief complaint of \"cough accompanied by chest tightness and shortness of breath for more than 2 months.\" Two months before admission, after an episode of catching a cold, the patient developed cough with yellow-green purulent sputum, approximately 10 mL/day, accompanied by chest tightness and shortness of breath. Contrast-enhanced chest CT (Figures 1-3) showed filling defects within the branches of the left upper and lower pulmonary arteries, bronchial disease with bilateral pulmonary infection. Color Doppler echocardiography showed: trace tricuspid regurgitation, estimated pulmonary artery systolic pressure of approximately 48 mmHg, and a small to moderate pericardial effusion. Anti-infective therapy, expectorant therapy, and rivaroxaban tablets 15 mg bid for anticoagulation were given. After discharge, she still had exertional dyspnea, which progressively worsened, and she was admitted to our hospital for further diagnosis and treatment. In 2004, \"pulmonary TB\" was found during a physical examination, and she took anti-TB drugs on her own (details unknown) for 8 months. She has no history of smoking or alcohol use. She denies smoking, alcohol use, and drug abuse. There is no family history of hereditary disease. Physical examination on admission: temperature 36.7℃, pulse 114 beats/min, respiratory rate 22 breaths/min, blood pressure 103/73 mmHg, pulse oxygen saturation (without oxygen supplementation) 84%. Chronic ill appearance, no cyanosis of the lips, a 1.5 cm lymph node was palpable in the left supraclavicular area, firm, non-tender, and mobile. Breath sounds were decreased in the right lung, and no moist rales were heard in either lung. Heart rate 114 beats/min, regular rhythm, P2 > A2, with no pathologic murmur heard in any valve area. The abdomen was flat and soft, liver and spleen were not palpable below the costal margin, and there was no edema of either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIX2HFebIsJOnhzsGNcEfL8ib60AbN4l5nXsM3oKWVVibFqVE9QxG5bY8xH3R2bG8iaCNibEC6fQq6tIg/640?wx_fmt=png",
+          "near_text": "Figures 1-3: Outside-hospital contrast-enhanced chest CT on Day -48 showed a solid nodule in the apical segment of the right upper lobe.",
+          "local_src": "cleaned_cases_image_cache/32998a6a264e25f55196f224fa5ea5c0541aac4f.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary thromboembolism (with pulmonary hypertension; progression to chronic thromboembolic pulmonary hypertension should be monitored for)",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT showed \"filling defects within the branches of the left upper and lower pulmonary arteries\"",
+            "The chief complaint was “chest tightness and shortness of breath for more than 2 months,” and shortness of breath after activity persisted and progressively worsened, consistent with manifestations of pulmonary vascular disease.",
+            "Echocardiography showed an estimated pulmonary artery systolic pressure of approximately 48 mmHg, suggesting pulmonary hypertension.",
+            "Physical examination: P2 > A2, supporting elevated pulmonary artery pressure",
+            "At admission, pulse was 114 beats/min, respiratory rate was 22 breaths/min, and pulse oxygen saturation was 84% on room air, indicating hypoxemia and increased cardiopulmonary workload."
+          ],
+          "opposing_evidence": [
+            "The patient also has cough and yellow-green purulent sputum, further suggesting concomitant infectious airway/pulmonary parenchymal lesions, which cannot be fully explained by pulmonary embolism alone.",
+            "In the first stage, imaging and physical examination suggested signs of right pleural effusion; isolated pulmonary embolism is not the most common.",
+            "Phase 1 information did not provide clear common risk factors for venous thromboembolism such as deep vein thrombosis, prolonged bed rest, surgery, or trauma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Malignant pulmonary neoplasm (primary bronchogenic carcinoma or metastatic tumor) with pleural/pericardial involvement",
+          "supporting_evidence": [
+            "Progressive worsening of dyspnea during the course of the illness suggests the possibility of a progressive space-occupying lesion or malignant pleural/pericardial disease.",
+            "A 1.5 cm left supraclavicular lymph node is palpable; it is firm and non-tender, suggesting possible metastatic lymph node involvement from a malignant tumor.",
+            "Chest CT suggests bronchial disease with bilateral pulmonary infection; malignant tumor may cause post-obstructive infection",
+            "In the first-stage images, a large right pleural effusion is visible; malignant pleural effusion should be strongly considered.",
+            "Echocardiography showed a small to moderate pericardial effusion; malignant tumors may involve the pericardium",
+            "Hypoxemia; decreased breath sounds in the right lung are consistent with pleural effusion/pulmonary mass lesion"
+          ],
+          "opposing_evidence": [
+            "The stage I text did not clearly describe an intrapulmonary mass, markedly enlarged hilar/mediastinal lymph nodes, or distant metastatic lesions.",
+            "The patient has no smoking history, which lowers the prior probability of certain types of lung cancer, but they cannot be ruled out."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary artery sarcoma or other neoplastic lesions of the pulmonary artery",
+          "supporting_evidence": [
+            "Contrast-enhanced chest CT showed filling defects within branches of the pulmonary artery; in addition to thrombus, pulmonary artery tumor should also be considered in the differential diagnosis.",
+            "Despite anticoagulation with rivaroxaban, exertional dyspnea persisted and progressively worsened, suggesting the possibility that this is not merely an ordinary thrombotic event.",
+            "Evidence of pulmonary hypertension (pulmonary artery systolic pressure approximately 48 mmHg, P2>A2) and marked hypoxemia",
+            "The first-stage images showed pleural effusion and pericardial effusion in the setting of pulmonary artery lesions, suggesting that the lesions may be relatively complex."
+          ],
+          "opposing_evidence": [
+            "The Phase I text does not describe features more supportive of pulmonary artery sarcoma, such as mass-like dilatation of the main pulmonary artery or proximal segment, or extramural invasion.",
+            "Pulmonary artery sarcoma is rare, whereas pulmonary embolism is more common"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Tuberculous pleuritis/pericarditis or relapse of active pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The patient was found to have “pulmonary TB” in 2004; given the prior history of TB, TB recurrence or TB-related pleural or pericardial involvement should be considered.",
+            "First-stage imaging suggested a significant right pleural effusion, and echocardiography showed a small-to-moderate pericardial effusion; TB can involve both the pleura and pericardium simultaneously.",
+            "A chronic course of more than 2 months, accompanied by progressive dyspnea, is consistent with the possible course of tuberculous serosal cavity involvement",
+            "Left supraclavicular lymphadenopathy can also be seen in tuberculous lymphadenitis"
+          ],
+          "opposing_evidence": [
+            "The current sputum is mainly yellow-green purulent sputum, more suggestive of bacterial infection.",
+            "In the first stage, typical constitutional symptoms of TB such as fever, night sweats, weight loss, and hemoptysis were not reported.",
+            "Contrast-enhanced CT has already described a filling defect in a branch of the pulmonary artery; TB cannot explain this key imaging finding."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Bacterial pulmonary infection (community-acquired pneumonia or post-obstructive pneumonia) with pleural effusion",
+          "supporting_evidence": [
+            "Before disease onset, there was \"cough after catching a cold\"",
+            "Cough with approximately 10 mL/day of yellow-green purulent sputum, suggesting possible bacterial infection",
+            "Prior contrast-enhanced chest CT at an outside hospital indicated \"bronchial disease and bilateral pulmonary infection\"",
+            "In the first-phase images and physical examination, \"decreased breath sounds in the right lung\" suggests possible concomitant pleural effusion.",
+            "Dyspnea and hypoxemia may be caused by pulmonary infection with pleural effusion"
+          ],
+          "opposing_evidence": [
+            "The course of illness has persisted for more than 2 months, and exertional dyspnea has progressively worsened; simple community-acquired pneumonia is insufficient to explain this.",
+            "Body temperature 36.7℃; no moist rales were heard in either lung; the physical signs of acute severe bacterial pneumonia were not typical.",
+            "Filling defects in the branches of the pulmonary artery, pulmonary hypertension, and pericardial effusion suggest the presence of important lesions other than infection"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Malignant lymphoma or other mediastinal/hilar lymphoproliferative diseases",
+          "supporting_evidence": [
+            "Enlarged left supraclavicular lymph node, firm in consistency, suggesting possible malignant lymphatic system disease",
+            "Pleural effusion, pericardial effusion, and dyspnea may occur",
+            "If the mediastinum/hilum is involved, it may be accompanied by bronchial compression or secondary infection, consistent with \"bronchial disease with bilateral lung infection\"",
+            "A chronic course with progressive worsening is consistent with the characteristics of neoplastic disease."
+          ],
+          "opposing_evidence": [
+            "No imaging evidence of obvious mediastinal or hilar lymphadenopathy was described in the first stage.",
+            "An intraluminal filling defect within a branch of the pulmonary artery primarily suggests thromboembolic disease.",
+            "No systemic symptoms suggestive of lymphoma, such as fever, night sweats, or weight loss, were reported."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "routine tests of blood, urine, and stool",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Hepatitis B",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Hepatitis C",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HIV",
+          "requirement": "optional"
+        },
+        {
+          "exam": "syphilis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Carbohydrate antigen CA125",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "optional"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum smear for acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum bacterial culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-β2 glycoprotein I antibody Ig(A/G/M)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anticardiolipin antibody Ig(A/G/M)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-transcription intermediary factor 1-gamma (TIF1-γ) antibody IgG",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Anti-Mi-2β antibody IgG",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Anti-Jo-1 antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-PL-7 antibody IgG",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complement C3",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complement C4",
+          "requirement": "optional"
+        },
+        {
+          "exam": "rheumatoid factor",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Vasculitis panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "systemic lupus erythematosus panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasonography of the lower extremity vessels",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "electromyography",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Examinations after admission were as follows: 1. Routine tests: blood, urine, and stool routine tests, liver and renal function were normal; hepatitis B, hepatitis C, HIV, and syphilis were (-); carbohydrate antigen CA125 224.37 KU/L; arterial blood gas analysis (on room air): pH 7.50, pCO2 31 mmHg, pO2 53 mmHg, HCO3- 24.2 mmol/L, SaO2 90%. 2. Infection-related markers: procalcitonin 0.21 ng/mL, erythrocyte sedimentation rate and C-reactive protein were normal, T-SPOT (-); G test (-), GM test (-); sputum smear for acid-fast bacilli and sputum bacterial/fungal cultures were all negative. 3. Immune-related markers: antinuclear antibody 1:100 (speckled pattern), anti-beta-2-glycoprotein 1 antibody Ig(A/G/M) 35.07 u/mL, anticardiolipin antibody Ig(A/G/M) 91.20 u/mL; myositis antibodies: anti-transcription intermediary factor 1-gamma (TIF1-gamma) antibody IgG (+), anti-Mi-2beta antibody IgG (++), anti-Jo-1 antibody positive, anti-PL-7 antibody IgG (++). C3, C4, rheumatoid factor, vasculitis panel, and lupus panel were all negative. 4. Echocardiography: tachycardia; moderate pulmonary hypertension; mild tricuspid regurgitation; moderate pericardial effusion. Color Doppler ultrasound of the lower extremity vessels and abdominal ultrasound showed no obvious abnormal sonographic findings. 5. Chest imaging: pulmonary artery CTA (Day -27) (Figures 4-8): emboli in the right lower pulmonary artery and left upper pulmonary artery, bilateral polymorphic pulmonary lesions, loculated right pleural effusion, pericardial effusion. Chest CT (Day -12) (Figures 9-12): bilateral polymorphic pulmonary lesions had increased compared with before, left pleural effusion had increased compared with before, and the pulmonary artery findings, loculated effusion in the right interlobar fissure, and pericardial effusion were roughly unchanged from before. 6. Electroneuromyography showed early electrophysiologic changes of myogenic injury in the muscles of all four extremities.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIX2HFebIsJOnhzsGNcEfL8yEXIkZvicvVkMjLickW4TINicogRSj9oVCLlBzicxXYYeRibicPia6Umcbxqw/640?wx_fmt=png",
+            "near_text": "Figure 4-8. Contrast-enhanced chest CT on Day -27 showed newly developed multiple ground-glass density nodules and patchy opacities in both lungs.",
+            "local_src": "cleaned_cases_image_cache/5efd9dd8e4e459aa2af89ef712b61904d2857f3f.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIX2HFebIsJOnhzsGNcEfL8eU5KMviaRmwaicFnia4KL52c4ozKeQ8LpjSyK3gtuP0xMdK976WM2Wzlw/640?wx_fmt=png",
+            "near_text": "Figure 9-12 Contrast-enhanced chest CT on Day -12: diffuse bilateral lung lesions further progressed compared with the previous study",
+            "local_src": "cleaned_cases_image_cache/0b1cf77efaccbfcb08e0571c29c496b6b1d703b4.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Progression of pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "After admission, repeat pulmonary artery CTA showed emboli in the distal posterior basal segmental branch of the right lower lobe and the distal branch of the left upper lobe pulmonary artery. The extent of embolization was not extensive, with no significant change compared with the previous imaging, and the patient had already received standardized anticoagulation therapy.",
+              "Chest CT showed interlobular septal thickening and ground-glass density nodules in both lungs, not consistent with the imaging findings of pulmonary embolism."
+            ]
+          },
+          {
+            "name": "Worsening pneumonia",
+            "evidence": [
+              "At disease onset, there was cough and expectoration of yellow-green purulent sputum. CT at an outside hospital showed multiple nodules, patchy opacities, and linear increased-density shadows in both lungs.",
+              "After admission, repeat chest CT showed an increase in bilateral pulmonary nodules and patchy lesions compared with before."
+            ],
+            "exclusion_reasons": [
+              "After admission, the patient had no infectious or toxic symptoms such as fever, cough, or expectoration of purulent sputum.",
+              "Repeated complete blood counts and inflammatory markers were generally within normal limits, and sputum culture was negative",
+              "Poor response to antibiotic therapy"
+            ]
+          },
+          {
+            "name": "Progression of interstitial lung disease secondary to inflammatory myopathy",
+            "evidence": [
+              "The patient has a confirmed diagnosis of inflammatory myopathy, did not receive regular treatment, and the diffuse pulmonary lesions showed progressive progression."
+            ],
+            "exclusion_reasons": [
+              "The patient's chest imaging findings do not conform to the typical distribution pattern of connective tissue disease-associated interstitial lung disease.",
+              "The patient did not respond to high-dose corticosteroid therapy."
+            ]
+          },
+          {
+            "name": "Neoplastic disease",
+            "evidence": [
+              "The patient had a poor response to antibiotic and corticosteroid therapy, and also had pulmonary embolism and inflammatory myopathy.",
+              "Considering the patient’s poor general condition, physical examination revealed painless enlargement of the subclavian lymph nodes, and carbohydrate antigen CA125 was markedly elevated."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Progression of pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "After admission, repeat pulmonary artery CTA showed emboli in the distal posterior basal segmental branch of the right lower lobe and the distal branch of the left upper lobe pulmonary artery. The extent of embolization was not extensive, with no significant change compared with the previous imaging, and the patient had already received standardized anticoagulation therapy.",
+          "Chest CT showed interlobular septal thickening and ground-glass density nodules in both lungs, not consistent with the imaging findings of pulmonary embolism."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Progression of interstitial lung disease secondary to inflammatory myopathy",
+        "evidence": [
+          "The patient has a confirmed diagnosis of inflammatory myopathy, did not receive regular treatment, and the diffuse pulmonary lesions showed progressive progression."
+        ],
+        "exclusion_reasons": [
+          "The patient's chest imaging findings do not conform to the typical distribution pattern of connective tissue disease-associated interstitial lung disease.",
+          "The patient did not respond to high-dose corticosteroid therapy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic disease",
+        "evidence": [
+          "The patient had a poor response to antibiotic and corticosteroid therapy, and also had pulmonary embolism and inflammatory myopathy.",
+          "Considering the patient’s poor general condition, physical examination revealed painless enlargement of the subclavian lymph nodes, and carbohydrate antigen CA125 was markedly elevated."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "On Day -2, PET-CT was completed (Figures 13, 14), showing",
+          "why_order_this_exam": "The patient presented with cough, chest tightness, and shortness of breath for more than 2 months. Exertional dyspnea persisted and progressively worsened. At admission, without supplemental oxygen, pulse oximetry was 84% and arterial blood gas PaO2 was 53 mmHg. Chest CT/CTA indicated progressively increasing polymorphic lesions in both lungs, pleural effusion, and pericardial effusion. At the same time, anti-infective and corticosteroid therapy had poor efficacy. A painless left supraclavicular lymph node was palpable peripherally, and CA125 was elevated, significantly increasing the likelihood of a neoplastic disease. The purpose of PET-CT was to assess throughout the whole body whether there was a hypermetabolic primary lesion, involvement of mediastinal and supraclavicular/retroperitoneal lymph nodes, and other metastatic lesions; to help differentiate tumor, inflammation, and lymphatic system diseases; to define the distribution of the lesions; and to provide a basis for selecting a subsequent biopsy site with a higher positive yield and lower risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "basis_in_stage3_input": "Repeat echocardiography showed pulmonary hypertension (mild), tricuspid regurgitation (mild), and pericardial effusion (moderate).",
+          "why_order_this_exam": "During the disease course, the patient had persistent chest tightness and dyspnea with worsening. There was prior evidence of pulmonary embolism, manifestations of pulmonary hypertension, and pericardial effusion, and on Day 0 the patient was transferred to the RICU because of worsening dyspnea, indicating the need for prompt determination of whether there is cardiac compression or further worsening of right heart load. Repeat echocardiography can dynamically assess the volume of pericardial effusion, whether signs of cardiac tamponade have developed, pulmonary artery pressure, and changes in right heart function, and in combination with the prior pulmonary embolism and hypoxemia, determine whether the current respiratory and circulatory deterioration is mainly due to pulmonary vascular disease, pericardial involvement, or both. This examination has direct value for deciding whether urgent pericardiocentesis for decompression is needed, assessing procedural risk, and subsequent monitoring of treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine pericardial effusion analysis",
+          "basis_in_stage3_input": "Pericardial effusion workup: routine: dark red color, turbid clarity, Rivalta test positive, total cell count 641730×10^6/L, white blood cell count 1730×10^6/L, mononuclear cells 0.66, multinuclear cells 0.34",
+          "why_order_this_exam": "The patient had a moderate pericardial effusion and was admitted to the intensive care unit because of worsening dyspnea. In addition to relieving possible cardiac compression, it is more critical to determine the nature of the pericardial effusion. In combination with the prior history of tuberculosis, bilateral polymorphic lung lesions, pleural effusion, supraclavicular lymphadenopathy, and poor response to anti-infective treatment, the pericardial effusion needs to be differentiated among malignant, tuberculous, and infectious/inflammatory causes. Routine pericardial fluid analysis can determine whether it is exudative or transudative, and based on color, clarity, cellular components, and inflammatory features, it may suggest a hemorrhagic malignant effusion, infectious effusion, or other inflammatory effusion, thereby guiding further biochemical testing, tumor markers, cytology, etc., and also helping explain the cause of the patient's worsening dyspnea.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pericardial fluid biochemistry",
+          "basis_in_stage3_input": "Pericardial fluid biochemistry: globulin 13.8 g/L, adenosine deaminase 4.7 U/L, total protein 36.4 g/L, stat albumin 22.6 g/L, stat lactate dehydrogenase 322.5 U/L, stat glucose 6.42 mmol/L, chloride 101.4 mmol/L, carcinoembryonic antigen 306.000 ng/mL",
+          "why_order_this_exam": "In the setting of a moderate pericardial effusion in this patient, imaging alone cannot explain the etiology of the effusion, and further etiologic differentiation needs to be completed through pericardial fluid biochemistry. The patient has a prior history of pulmonary TB, but currently has a negative T-SPOT, negative sputum acid-fast bacilli, and no marked elevation in infection markers; at the same time, there is supraclavicular lymphadenopathy, elevated CA125, progression of pulmonary lesions, and no response to anti-infective/glucocorticoid therapy, making a malignant lesion highly suspicious. Indicators in pericardial fluid biochemistry such as protein, LDH, glucose, ADA, and CEA are helpful for determining the exudative nature and distinguishing tuberculous, bacterial infectious, and malignant pericardial effusions, and can especially provide important support for whether there is tumor involvement of the pericardium. The results of this test directly affect the subsequent diagnostic pathway, whether to intensify the search for a primary tumor site, and the assessment of prognosis and treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Left supraclavicular lymph node biopsy",
+          "basis_in_stage3_input": "Left supraclavicular lymph node biopsy performed on Day +1",
+          "why_order_this_exam": "A firm, non-tender left supraclavicular lymph node measuring approximately 1.5 cm was palpable. In conjunction with progressive hypoxemia and dyspnea, continuously increasing polymorphic lesions in both lungs, pleural and pericardial effusions, the background of pulmonary embolism, elevated CA125, and PET-CT showing multiple hypermetabolic lymph nodes in the left supraclavicular fossa, porta hepatis, and retroperitoneum, neoplastic disease or lymphoma should both be key differential diagnoses. The left supraclavicular lymph node is a superficial and accessible lesion; compared with lung biopsy or sampling from deeper sites, it is less traumatic and lower risk, and it is easier to obtain sufficient tissue for pathology and immunohistochemistry. The core clinical question for performing a biopsy is to obtain histologic diagnostic evidence as soon as possible and determine whether this represents metastatic carcinoma, lymphoma, or reactive/immune hyperplasia, thereby guiding subsequent staging, the direction of the search for the primary lesion, and treatment selection.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day -2, PET-CT (Figures 13, 14) was completed and showed: 1. Prominent vascular markings in both lungs, thickening of the interlobular septa in both lungs, with multiple patchy hypermetabolic opacities in both lungs; 2. Focal hypermetabolism in the posterior basal segment of the right lower lobe and the lateral basal segment of the left lower lobe, with indistinct margins, inflammatory lesion considered more likely; 3. Multiple hypermetabolic lymph node shadows at the hepatic hilum and retroperitoneum, and multiple left supraclavicular fossa lymph nodes with mildly increased metabolism, suspicious for autoimmune disease or lymphoma; 4. Multiple mediastinal lymph nodes (stations 4R, 7, and 8) with mildly increased metabolism, considered reactive lymph node hyperplasia; 5. Old TB in the right lung with secondary bronchiectasis in the dorsal segment of the right lower lobe. On Day 0, the patient was transferred to the respiratory intensive care unit because of worsening dyspnea. Repeat echocardiography indicated pulmonary hypertension (mild), tricuspid regurgitation (mild), and pericardial effusion (moderate). Pericardial effusion studies were completed: routine analysis: dark red color, turbid clarity, Rivalta test positive, total cell count 641730×10^6/L, white blood cell count 1730×10^6/L, mononuclear cells 0.66, multinuclear cells 0.34. Pericardial fluid biochemistry: globulin 13.8g/l, adenosine deaminase 4.7u/l, total protein 36.4g/l, stat albumin 22.6g/l, stat lactate dehydrogenase 322.5u/l, stat glucose 6.42mmol/l, chloride 101.4mmol/l, carcinoembryonic antigen 306.000ng/ml. A left supraclavicular lymph node biopsy was performed on Day +1.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIX2HFebIsJOnhzsGNcEfL86qtiaUsVpNqYTSnJ5kfDMYvZx3miaFMxiaicykiaxaWRI3ybUj0INLm67ow/640?wx_fmt=png",
+          "near_text": "Figure 13. Whole-body PET-CT on Day -2 showed a nodule in the posterior segment of the right upper lobe",
+          "local_src": "cleaned_cases_image_cache/1a7e46702884063e2e9e14c34f9be17175faca3f.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIX2HFebIsJOnhzsGNcEfL8WsaMLseEQRQ4kJzxfk45kicoCzz5XmblQGEerjOBLmyo5qYY89aU1uQ/640?wx_fmt=png",
+          "near_text": "Figure 15. HE staining consistent with poorly differentiated adenocarcinoma, low-power magnification",
+          "local_src": "cleaned_cases_image_cache/f68f14c0e74c74d37d2e04762faa3d8fa5ff59e5.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary adenocarcinoma complicated by pulmonary embolism; inflammatory myopathy and antiphospholipid syndrome are considered paraneoplastic syndrome",
+      "diagnostic_basis": [
+        "Pathology and immunohistochemistry of the left supraclavicular lymph node biopsy indicated metastatic poorly differentiated adenocarcinoma to the lymph node; the immunophenotype suggested a pulmonary primary origin."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "The patient's family declined further treatment and returned to a local hospital for palliative care."
+      ],
+      "treatment_response": [
+        "Telephone follow-up: deceased"
+      ]
+    }
+  }
+}

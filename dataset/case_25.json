@@ -1,0 +1,431 @@
+{
+  "status": "success",
+  "case_id": "case_25",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 48-year-old female host/presenter who presented to our hospital with the chief complaint of \"recurrent hemoptysis for more than 4 months.\" More than 4 months before admission, after an episode of catching a cold, she developed cough and expectoration of a small amount of white foamy sputum, followed by hemoptysis consisting of bright red blood, approximately 20 ml in volume. A non-contrast chest CT performed at a tertiary hospital in Sichuan suggested \"pulmonary inflammation.\" She was given oral hemostatic medication, but blood-streaked sputum persisted. Subsequently, she had recurrent expectoration of bright red blood, once every 2-3 days, with approximately 10-40 ml each time, and sought care at multiple local hospitals without a definitive diagnosis. Twenty days before admission, she was seen at an affiliated hospital of a university in Chongqing, where contrast-enhanced chest CT plus bronchial artery CTA (BA-CTA) showed: a soft tissue mass at the left hilum with bronchial stenosis, neoplasm to be excluded; no definite enlarged bronchial artery arising from the descending aorta was identified. PET-CT results: bilateral pulmonary infection, right maxillary sinus inflammation, cyst in the right hepatic lobe, with no other abnormalities. Bronchoscopy showed nodular mucosal infiltration below the mid-left main bronchus (about 1.5 cm from the carina) and submucosal vascular proliferation. Because spontaneous bleeding was obvious, the distal airway could not be further visualized. After repeated local injections of epinephrine, hemocoagulase, and other medications, the bleeding was basically controlled; the amount of bleeding during the procedure was approximately 200 ml. Because of the large amount of spontaneous bleeding, biopsy was not performed. The clinical impression was \"hemoptysis of undetermined cause: lung cancer? pulmonary vascular malformation?\" The patient stated that her past medical history, personal history, and family history were all unremarkable. Physical examination on admission: T 36.4℃, P 75/min, R 19/min, BP 104/62 mmHg. Breath sounds were coarse in both lungs, with a small number of moist rales audible in both lower lungs. Heart rate was 90/min, rhythm was irregular, and no murmur was heard. Abdominal examination showed no obvious abnormalities. No edema was present in either lower extremity. Ancillary examinations: complete blood count: WBC 9.29×10^9/L, N 71.2%, Hb 84 g/L, PLT 321×10^9/L. Arterial blood gas analysis (without oxygen inhalation): PH 7.431, PO2 80 mmHg, PCO2 34.8 mmHg, HCO3- 23.2 mmol/L, SO2 94%. ECG: atrial fibrillation. Echocardiography: no obvious abnormalities. CEA, urinalysis, stool routine, liver and kidney function, electrolytes, myocardial injury markers, etc. were all unremarkable.",
+      "images": [
+        {
+          "image_id": "fig1",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL13XY7y5NagYh92ricHgoeic8P2Knic819aMJdicXgHJ6uWWSr1TZQvCKiaslg/640?wx_fmt=png",
+          "near_text": "Figure 1: Contrast-enhanced chest CT from an affiliated hospital of a university in Chongqing: left hilar soft tissue mass with bronchial stenosis; neoplasm to be excluded.",
+          "local_src": "cleaned_cases_image_cache/f665a55f2f64643ccc9abb2acacb4db5e1801f27.png"
+        },
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL13s3AFFTIicmDusp8yibkhJQWzNL1mJpf8qIPuEv16u35zQdKe5HZ8HBJg/640?wx_fmt=png",
+          "near_text": "Figure 2: Nodular mucosal infiltration and submucosal vascular proliferation below the mid-portion of the left main bronchus (approximately 1.5 cm from the carina).",
+          "local_src": "cleaned_cases_image_cache/74f05eb7deb70f08d4bd1b62b562e1ff52768017.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bronchial carcinoid (central neuroendocrine tumor)",
+          "supporting_evidence": [
+            "Recurrent hemoptysis of bright red blood for more than 4 months, with a single episode reaching 10-40 mL, suggesting the possibility of a highly vascular lesion within the airway",
+            "Bronchoscopy showed \"nodular infiltration of the mucosa and submucosal vascular proliferation below the mid-portion of the left main bronchus (approximately 1.5 cm from the carina),\" consistent with the appearance of a central endobronchial tumor.",
+            "During bronchoscopy, there was significant spontaneous bleeding, which essentially stopped only after local hemostasis; the bleeding volume was approximately 200 ml, suggesting that the lesion was highly vascularized.",
+            "Contrast-enhanced chest CT + BA-CTA showed \"left hilar soft tissue mass with bronchial stenosis; neoplasm to be excluded\"",
+            "The attached images show a mass-like lesion near the left hilum/left main bronchus with airway stenosis, and the bronchoscopy images show abnormal intraluminal mucosal bulging/infiltration."
+          ],
+          "opposing_evidence": [
+            "PET-CT results indicated \"no other abnormalities identified\"; no definite evidence of a hypermetabolic tumor.",
+            "No pathological evidence was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Central lung cancer (represented by squamous cell carcinoma or other endobronchial-type lung cancers)",
+          "supporting_evidence": [
+            "48-year-old woman with persistent recurrent hemoptysis and a progressively undetermined diagnosis; central lung cancer should be highly suspected",
+            "Contrast-enhanced CT + BA-CTA showed \"left hilar soft tissue mass with bronchial stenosis; neoplasm to be excluded\"",
+            "Bronchoscopy showed nodular infiltrative involvement of the left main bronchial mucosa with marked bleeding, consistent with a possible central endobronchial tumor",
+            "Hb 84 g/L, indicating anemia after long-term recurrent blood loss, consistent with persistent hemoptysis",
+            "The accompanying image suggests a soft tissue opacity in the left hilar region involving the left main bronchus region."
+          ],
+          "opposing_evidence": [
+            "PET-CT did not show definite abnormal uptake suggestive of pulmonary malignancy, only describing \"bilateral lung infection\"",
+            "CEA showed no abnormality",
+            "No biopsy pathology was obtained in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bronchial vascular malformation/bronchial Dieulafoy's disease",
+          "supporting_evidence": [
+            "The main symptom is recurrent bright red hemoptysis, which may recur over several months.",
+            "Bronchoscopy showed \"submucosal vascular proliferation,\" with significant spontaneous bleeding; the amount of bleeding during the procedure was approximately 200 ml, suggesting a possible vascular lesion.",
+            "Pulmonary vascular malformation? was previously considered clinically.",
+            "BA-CTA showed no definite large bronchial arteries; small-vessel or focal vascular abnormalities cannot be completely excluded.",
+            "Attached bronchoscopic images show abnormal airway mucosa with findings associated with a high risk of local bleeding."
+          ],
+          "opposing_evidence": [
+            "Contrast-enhanced CT suggested \"a left hilar soft tissue mass with bronchial stenosis; neoplasm cannot be excluded,\" which is more suggestive of a space-occupying lesion rather than a simple vascular malformation.",
+            "Bronchoscopy was described as showing \"nodular mucosal infiltration,\" rather than simply isolated vascular protrusions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Low-grade malignant central airway tumors such as bronchial mucoepidermoid carcinoma or adenoid cystic carcinoma",
+          "supporting_evidence": [
+            "The lesion is located in the left main bronchus near the carina, which is one of the common sites for this type of central airway tumor.",
+            "The main clinical manifestation was recurrent hemoptysis, and bronchoscopy showed nodular mucosal infiltration within the lumen, preventing further visualization distally.",
+            "Contrast-enhanced CT showed a left hilar soft tissue mass with bronchial stenosis, consistent with features of a tumor arising within the airway or from the airway wall.",
+            "PET-CT did not show any definite other abnormalities; a central airway tumor with low metabolic activity or low-grade malignancy remains possible"
+          ],
+          "opposing_evidence": [
+            "Phase I information did not provide typical pathologic findings or more specific imaging features.",
+            "Bronchoscopic findings of “submucosal vascular proliferation, prone to bleeding” can also be seen in carcinoid or vascular lesions and lack specificity."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Bronchial tuberculosis or other granulomatous airway infections",
+          "supporting_evidence": [
+            "Before onset, there was cough after catching a cold, with a small amount of white foamy sputum; an early non-contrast chest CT had suggested “pulmonary inflammation”.",
+            "PET-CT results suggest \"bilateral pulmonary infection\"",
+            "Bronchoscopy showed nodular infiltration of the airway mucosa and bronchial stenosis; granulomatous inflammation can have similar findings",
+            "A few moist rales can be heard in both lower lungs, supporting the possibility of concomitant infectious lesions."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no supporting information such as fever, night sweats, weight loss, or a history of TB exposure was provided.",
+            "Recurrent bright red hemoptysis and obvious spontaneous massive bleeding during bronchoscopy further suggest a hypervascular tumor or a vascular lesion",
+            "The lesion is located in the left main bronchus near the carina and presents as a \"soft tissue mass with bronchial stenosis\"; malignant or vascular lesions should be given priority consideration."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Focal necrotizing pulmonary infection/fungal infection with endobronchial inflammatory granulation tissue or blood clot formation",
+          "supporting_evidence": [
+            "The illness began with cough and sputum production; prior chest CT at an outside hospital showed \"pulmonary inflammation\".",
+            "PET-CT suggested \"bilateral pulmonary infection\"",
+            "A few moist crackles are audible in both lower lungs, suggesting the presence of airway/pulmonary parenchymal inflammation",
+            "Hemoptysis may occur in necrotizing or fungal pulmonary infection"
+          ],
+          "opposing_evidence": [
+            "Contrast-enhanced CT suggests a soft tissue mass at the left hilar region with bronchial stenosis, more consistent with a localized space-occupying lesion",
+            "Bronchoscopy showed nodular mucosal infiltration and submucosal vascular proliferation in the left main bronchus, with marked spontaneous bleeding; this is not the most typical manifestation of ordinary infection.",
+            "No information was provided in the first stage regarding immunosuppression, prolonged fever, typical cavitation, or fungal ball."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "IL-6",
+          "requirement": "required"
+        },
+        {
+          "exam": "Influenza A and B virus and SARS-CoV-2 nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen panel (9 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum (1,3)-β-D-glucan assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal capsular antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function tests and electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung cancer tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion screening tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the extremity vessels",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial artery CTA (BA-CTA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT pulmonary angiography (CTPA)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-neutrophil antibody (ANCA)",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, repeat contrast-enhanced chest CT reported \"no obvious abnormality\"; bronchial artery CTA showed \"increased tortuous small vessels in the aortopulmonary window and left hilum; the bronchial arteries were not clearly visualized.\"",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL13EMenYJsLKb1VTBZwsYohepMBwyV5aK9d7L3KxZGuoU7n9x27fNJBAw/640?wx_fmt=png",
+            "near_text": "Figure 3: BA-CTA at our hospital on Day 0: increased tortuous small vessels are seen in the aortopulmonary window and left hilum; the bronchial arteries are not clearly visualized.",
+            "local_src": "cleaned_cases_image_cache/fd8de45ac8df84b7cffc48806972f7f222e1ba66.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "lung cancer",
+            "evidence": [
+              "On bronchoscopy at an outside hospital, focal nodular infiltration of the mucosa was seen distal to the mid-left main bronchus."
+            ],
+            "exclusion_reasons": [
+              "Tumor markers were normal, and no malignant cells were found in the sputum, but lung cancer cannot be completely excluded"
+            ]
+          },
+          {
+            "name": "Pulmonary tuberculosis and bronchiectasis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient had no prior history of chronic cough or purulent sputum production, no obvious constitutional symptoms of TB, and CT also showed no bronchiectasis or tuberculous lesions."
+            ]
+          },
+          {
+            "name": "broncholithiasis, bronchial endometriosis, pulmonary parasitic disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Evidence for rare diseases is also insufficient."
+            ]
+          },
+          {
+            "name": "pulmonary embolism, pulmonary vascular aneurysm",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Echocardiography and pulmonary artery pressure were normal; contrast-enhanced CT and CTPA showed no evidence of embolism or aneurysm."
+            ]
+          },
+          {
+            "name": "Hemoptysis due to heart disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Echocardiography and pulmonary artery pressure were normal"
+            ]
+          },
+          {
+            "name": "ANCA-associated vasculitis, Goodpasture syndrome",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Antineutrophil cytoplasmic antibody (ANCA) negative"
+            ]
+          },
+          {
+            "name": "Hematologic disease",
+            "evidence": [
+              "Complete blood count suggests mild anemia (considered to be related to intermittent hemoptysis)"
+            ],
+            "exclusion_reasons": [
+              "Coagulation studies showed normal PT and APTT, and the bone marrow aspiration results showed no abnormalities."
+            ]
+          },
+          {
+            "name": "acute infectious disease, polyarteritis nodosa, granulomatosis with polyangiitis (Wegener granulomatosis)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No supporting evidence"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "lung cancer",
+        "evidence": [
+          "On bronchoscopy at an outside hospital, focal nodular infiltration of the mucosa was seen distal to the mid-left main bronchus."
+        ],
+        "exclusion_reasons": [
+          "Tumor markers were normal, and no malignant cells were found in the sputum, but lung cancer cannot be completely excluded"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary tuberculosis and bronchiectasis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient had no prior history of chronic cough or purulent sputum production, no obvious constitutional symptoms of TB, and CT also showed no bronchiectasis or tuberculous lesions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "broncholithiasis, bronchial endometriosis, pulmonary parasitic disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Evidence for rare diseases is also insufficient."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary embolism, pulmonary vascular aneurysm",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Echocardiography and pulmonary artery pressure were normal; contrast-enhanced CT and CTPA showed no evidence of embolism or aneurysm."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hemoptysis due to heart disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Echocardiography and pulmonary artery pressure were normal"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "ANCA-associated vasculitis, Goodpasture syndrome",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Antineutrophil cytoplasmic antibody (ANCA) negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hematologic disease",
+        "evidence": [
+          "Complete blood count suggests mild anemia (considered to be related to intermittent hemoptysis)"
+        ],
+        "exclusion_reasons": [
+          "Coagulation studies showed normal PT and APTT, and the bone marrow aspiration results showed no abnormalities."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "acute infectious disease, polyarteritis nodosa, granulomatosis with polyangiitis (Wegener granulomatosis)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No supporting evidence"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "BA-CTA examination",
+          "basis_in_stage3_input": "The radiology BA-CTA specialist carefully analyzed the examination results and found marked retention of contrast material in the superior vena cava.",
+          "why_order_this_exam": "The patient presented primarily with recurrent bright red hemoptysis for more than 4 months. Bronchoscopy showed nodular infiltration of the left main bronchial mucosa and submucosal vascular proliferation, with approximately 200 ml of significant bleeding occurring during the examination. Contrast-enhanced CT at an outside hospital further suggested a left hilar soft-tissue opacity with bronchial stenosis, which was initially easily mistaken for a central tumor or vascular malformation. However, after admission, routine contrast-enhanced CT showed no obvious abnormality, whereas bronchial artery CTA indicated increased tortuous small vessels in the left hilar region and aortopulmonary window, with poor visualization of the bronchial artery, suggesting that an unrecognized hemodynamic abnormality was still present under the usual diagnostic approach. At this point, a BA-CTA examination was ordered with the aim of further identifying the source of hemoptysis from the perspective of the bronchial circulation and abnormal hilar vascular perfusion, and of reassessing whether atypical abnormalities of vascular venous return were present on imaging. Experts found obvious retention of contrast agent in the superior vena cava, suggesting that abnormal circulatory hemodynamics or a timing-phase abnormality might have been present during the examination; this was an important clue prompting a shift from the line of thought of 'bronchial artery bleeding/tumor' to 'pulmonary venous return obstruction.' The value of this examination lay in providing direction for subsequent reconstruction scanning and confirmation of the cause, avoiding continued misclassification of the lesion as a tumor and invasive tissue sampling with a high risk of bleeding.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Repeat BA-CTA examination",
+          "basis_in_stage3_input": "Repeat BA-CTA examination was performed, and the results showed \"marked stenosis and occlusion of the lumens of the left superior and inferior pulmonary veins, with the distal pulmonary venous branches markedly reduced in number and faintly opacified; a small amount of collateral formation in the mediastinum and left hilum, accompanied by pulmonary venous hypertension and pulmonary edema in the left lung,\" suggesting the presence of \"left pulmonary vein occlusion and left pulmonary venous hypertension.\"",
+          "why_order_this_exam": "After expert review of the initial BA-CTA, the abnormal clue of contrast retention in the superior vena cava was identified; however, this was still insufficient to directly explain the patient's long-term recurrent hemoptysis, marked submucosal vascular proliferation on bronchoscopy, and mass-like change in the left hilar region. Therefore, repeat BA-CTA was needed to optimize the timing phase and to focus on evaluation of pulmonary venous drainage. The patient had recurrent episodes of hemoptysis, with a single episode reaching 10-40 ml, and already had anemia (Hb 84g/L), indicating persistent bleeding with clinical risk. At the same time, bronchoscopic biopsy could not be completed because of excessive bleeding risk, making it even more necessary to rely on high-quality vascular imaging to establish the etiologic diagnosis. After the repeat examination, marked stenosis and occlusion of the left superior and inferior pulmonary veins were clearly demonstrated, with distal branches being few in number and faintly opacified, along with formation of mediastinal and left hilar collateral vessels, pulmonary venous hypertension within the left lung, and pulmonary edema. These findings can directly explain why the patient developed venous proliferation, varicosity, and recurrent rupture and bleeding of the left airway mucosa, and can also explain that the so-called 'left hilar soft tissue mass' reported by the outside hospital was actually a pseudomass appearance caused by vascular and interstitial changes. The core clinical question of this examination was to confirm whether pulmonary vein occlusion was present and to assess its severity, to distinguish it from other differential diagnoses such as tumor, bronchial artery malformation, and pulmonary artery disease, and to provide a direct basis for the subsequent treatment plan focused on reducing pulmonary venous hypertension and pulmonary edema, while also avoiding continued high-risk procedures such as bronchoscopic biopsy that might precipitate massive hemoptysis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT pulmonary angiography",
+          "basis_in_stage3_input": "The medical history also showed that the patient had undergone CT pulmonary angiography before catheter radiofrequency ablation, and the left pulmonary veins were completely normal. Left pulmonary vein occlusion occurred within one year after radiofrequency ablation and discontinuation of the weight-loss medication.",
+          "why_order_this_exam": "After repeat BA-CTA had already indicated left pulmonary vein occlusion, it was still necessary to retrieve and verify the previous CT pulmonary angiography results to answer two key clinical questions: first, whether the left pulmonary vein lesion was congenital or newly acquired; second, whether there was a temporal causal association between it and the catheter radiofrequency ablation for atrial fibrillation discovered later in the patient. This patient had long remained without a definitive diagnosis, and the initial presentation was highly similar to central lung cancer or a vascular lesion; therefore, although the current single imaging study could detect the occlusion, it could not by itself prove the cause. The previous CT pulmonary angiography showed that the left pulmonary vein was completely normal before the radiofrequency ablation. This before-and-after comparative evidence is crucial, indicating that the left pulmonary vein occlusion was not a baseline anatomic abnormality, but occurred within 1 year after receiving 3 catheter radiofrequency ablation procedures, which strongly supports the diagnosis of pulmonary vein stenosis/occlusion as a complication after RFCA. The significance of this examination lies not only in completing the diagnostic confirmation chain and excluding congenital or other chronic structural pulmonary vein disease, but also in helping to unify the scattered clues of recurrent hemoptysis, an abnormal left hilar shadow, and vascular proliferation on bronchoscopy, thereby clarifying that treatment should focus on conservative management of pulmonary venous hypertension and pulmonary edema, rather than continuing to proceed in the direction of tumor or infection.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "A radiology BA-CTA specialist carefully analyzed the examination results and found obvious retention of contrast agent in the superior vena cava. Repeat BA-CTA showed that \"the lumens of the left superior and inferior pulmonary veins were markedly narrowed and occluded; the distal pulmonary venous branches were markedly reduced and faintly opacified; a small amount of collateral formation was present in the mediastinum and left hilum, accompanied by pulmonary venous hypertension and pulmonary edema in the left lung,\" suggesting \"left pulmonary vein occlusion and left pulmonary venous hypertension.\" Upon further review of the medical history, it was found that more than 1 year earlier, the patient had been found on a routine physical examination to have \"paroxysmal atrial fibrillation\" and underwent 3 catheter radiofrequency ablation procedures at a tertiary hospital in Chongqing. The medical records also showed that before undergoing catheter radiofrequency ablation, the patient had CT pulmonary angiography, which showed completely normal left pulmonary veins; the left pulmonary vein occlusion occurred within 1 year after radiofrequency ablation and discontinuation of the weight-loss medication.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL13KvfjnicYN9TibzdKf8iapAOCnAE6FsuLX6FDiaT0yncicJxic2zbZITLV8Aw/640?wx_fmt=png",
+          "near_text": "Figure 4: BA-CTA at our hospital on Day 0: marked retention of contrast agent in the superior vena cava.",
+          "local_src": "cleaned_cases_image_cache/db4ed806a7bbe634a3c070cef259ead6337115de.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL13awwbKMHMjxKD2mQo6zHXiahZniarbFUjQpbJQpicdRTwIkibK4ofVnqonw/640?wx_fmt=png",
+          "near_text": "Figure 5: BA-CTA at our hospital on Day +12: marked luminal stenosis and occlusion of the left superior and inferior pulmonary veins; the distal pulmonary venous branches were markedly attenuated and sparse, with faint opacification; a small amount of collateral formation was present in the mediastinum and left hilum, accompanied by pulmonary venous hypertension and pulmonary edema in the left lung.",
+          "local_src": "cleaned_cases_image_cache/26ed2a99dd1f215404fb0840d49bc3c41e1bcee5.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLIGgicdBXZmL1rFmrKQrL132wxvkMq7FQ2e5BYibYb0uyy5KuAib4pxpJjJnlOTibIxZcUs9tbvEJAmg/640?wx_fmt=png",
+          "near_text": "Figure 6: Schematic diagram of the principle of catheter radiofrequency ablation for atrial fibrillation: catheter electrodes are used to perform circumferential ablation around the pulmonary vein ostia, forming an \"electrical isolation\" band between the great veins and the atrium, which can achieve the goal of curing atrial fibrillation.",
+          "local_src": "cleaned_cases_image_cache/0aaa52b0cdf5e5f8d26fac0723f4fdb32b1b9661.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Left pulmonary vein occlusion after RFCA, with pulmonary venous hypertension causing venous vascular proliferation, varicosities, and rupture with hemorrhage (the hemoptysis is caused by left pulmonary vein occlusion, varicosities, and left pulmonary venous hypertension)",
+      "diagnostic_basis": [
+        "Repeat BA-CTA showed marked luminal stenosis and occlusion of the left superior and inferior pulmonary veins, accompanied by pulmonary venous hypertension and pulmonary edema in the left lung",
+        "More than 1 year ago, paroxysmal atrial fibrillation was detected during a physical examination, and the patient underwent 3 catheter radiofrequency ablation procedures.",
+        "Before catheter radiofrequency ablation, CT pulmonary angiography had been performed, and the left pulmonary veins were completely normal.",
+        ""
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Primarily conservative treatment, including diuresis, vasodilation, reduction of pulmonary edema and pulmonary venous hypertension, and improvement of cardiac function"
+      ],
+      "treatment_response": []
+    }
+  }
+}

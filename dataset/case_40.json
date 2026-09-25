@@ -1,0 +1,297 @@
+{
+  "status": "success",
+  "case_id": "case_40",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 65-year-old female patient presented with weight loss accompanied by fever for 1 month. In around Day 0, she began to have a rapid decrease in body weight, losing 10 kg over more than 1 month, with recurrent high fever, up to 39.8℃. There were no obvious symptoms such as cough, sputum production, chest tightness, chest pain, or hemoptysis. On Day -8, non-contrast and contrast-enhanced chest CT at a local hospital showed: a mass in the right upper lobe; patchy opacities and small nodular shadows around the lesion and additionally in the left upper lobe; exudative changes in the right lower lung, multiple linear opacities in both lungs; right pleural effusion with compressive atelectasis of adjacent lung tissue and adjacent pleural thickening and adhesion; small embolus formation in the right lower pulmonary artery; bilateral thyroid nodules, with calcification on the left. PET-CT showed: 1. An irregular soft tissue mass lesion in the right upper lobe with increased FDG metabolism, considered likely malignant, with possible right pleural metastasis; right pleural effusion with partial incomplete expansion of the right lower lobe. Inflammatory hyperplastic changes in the right hilar and mediastinal lymph nodes. 2. Multiple nodules in both lungs; metastases could not be excluded. Past history: systemic lupus erythematosus (SLE) for more than 20 years, treated with prednisone acetate tablets, Tripterygium glycosides tablets, etc.; history of hypertension for more than 2 years; type 2 diabetes mellitus; cataract of the right eye for more than 1 year; retinal detachment surgery in 2007; fine-needle aspiration of a right thyroid nodule in approximately 12 months before Day 0, benign. She denied a history of infectious diseases, allergies, or blood transfusion. Family history: mother had SLE. Physical examination: T: 36.4℃, P: 90 beats/min, R: 20 breaths/min, BP: 150/83 mmHg. Dullness to percussion over the right lower lung; decreased breath sounds on auscultation of the right lung. On Day -1, coagulation testing showed: fibrinogen 507 mg/dL; D-dimer 3.74 mg/L. CBC: neutrophil percentage 82.1%. CRP 71.5 mg/L. ESR 52 mm/H. Chemistry: albumin 30 g/L; glucose 22.7 mmol/L; N-terminal pro-brain natriuretic peptide 801 pg/mL. Tumor markers: CA125 205.0 U/mL; cytokeratin 19 fragment 4.7 ng/mL. Autoantibodies: anti-dsDNA antibody 152.5 IU/mL, anti-RNP antibody: (+), anti-JO-1 antibody: (+), anti-histone antibody: (±). Urinalysis: protein: +, glucose: ++++, leukocyte count: 66/uL. Pleural fluid exfoliative cytology: no definite malignant tumor cells seen. Pleural fluid ADA: 21.0 U/L. Routine pleural fluid analysis: multinuclear cells: 39.0%; mononuclear cells: 61.0%. On Day 0, the patient underwent non-contrast chest CT. After admission, she was treated with low-molecular-weight heparin + sulperazone for anti-infective therapy. Percutaneous lung biopsy of the right upper lobe lesion showed pathology favoring a non-neoplastic lesion, with infectious disease considered more likely. After 10 days of treatment, repeat chest CT showed slight reduction of the right lung lesion, body temperature returned to normal, and she was discharged on Day +9. Less than 1 month after discharge, she developed fever again in approximately 1 month after Day 0. On Day +42, CT-guided lung biopsy at Shanghai Tumor Hospital suggested inflammatory cells, histiocytes, multinucleated cells, and epithelial cells, with no evidence of malignancy. On Day +54, the patient returned to our hospital because of cough and sputum production accompanied by fever, fatigue, and poor appetite. Physical examination on admission showed herpes zoster: band-like erythema on the skin of the anterior chest and neck, with clustered vesicles ranging in size from millet seed to soybean, some with crusting; a mass approximately 3 cm × 3 cm in diameter was palpable on the right chest wall. Generalized edema.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkycyIAcZqOZKgRA4msaOs74EJ05wdsEep8oibicK8lYwcAYicu17IeKeYMA/640?wx_fmt=png",
+          "near_text": "After admission, the patient was treated with low-molecular-weight heparin + cefoperazone/sulbactam for anti-infective therapy.",
+          "local_src": "cleaned_cases_image_cache/e3648238248a932efd871541e94e3f9c2cea56b2.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkyAdg9UhtRe7uRCtUQrmXs0NPDOOgaBGcYPdGicLxUFjFyMOj8TdnlnAw/640?wx_fmt=png",
+          "near_text": "However, less than 1 month after the patient was discharged, in approximately 1 month after Day 0, fever recurred.",
+          "local_src": "cleaned_cases_image_cache/f9dd0021b0e9fa3ead3f348247b5a6c2109dd2aa.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary infectious lesion (possible opportunistic infection, including bacterial/fungal/Nocardia infection, etc.)",
+          "supporting_evidence": [
+            "Recurrent high fever, with a maximum temperature of 39.8℃, accompanied by CRP 71.5mg/L, ESR 52mm/H, and neutrophil percentage 82.1%, suggesting an active infectious or inflammatory process",
+            "History of systemic lupus erythematosus for more than 20 years, with long-term use of prednisone acetate tablets and Tripterygium glycosides tablets, and comorbid type 2 diabetes mellitus, indicating an immunosuppressed and infection-prone background",
+            "Percutaneous lung biopsy of the right upper lung lesion; pathology suggests a non-neoplastic lesion, with infectious disease being more likely.",
+            "On Day +42, CT-guided lung puncture showed inflammatory cells, histiocytes, multinucleated cells, and epithelial cells; no evidence of malignancy was seen.",
+            "After admission, low-molecular-weight heparin + cefoperazone/sulbactam anti-infective therapy was administered. Repeat chest CT after 10 days showed that the right lung lesion had slightly decreased in size, and body temperature was normal.",
+            "Chest CT showed a mass in the right upper lobe; patchy opacities and small nodular opacities were also seen around the lesion and in the left upper lobe, with exudative opacity in the right lower lung, consistent with the appearance of an infectious lesion that may have a multifocal distribution.",
+            "The attached images show a mass-like/consolidative lesion in the right upper lung with right pleural effusion."
+          ],
+          "opposing_evidence": [
+            "PET-CT showed an irregular soft tissue mass lesion in the right upper lobe with increased FDG metabolism, suspicious for a malignant lesion with possible right pleural metastasis",
+            "A 10 kg weight loss over more than 1 month warrants increased vigilance for malignancy or chronic infection.",
+            "Although there was temporary improvement after treatment, fever recurred less than one month after discharge, suggesting that simple common bacterial infection cannot fully explain this."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Primary lung cancer (right upper lobe) with pleural involvement and possible intrapulmonary metastasis",
+          "supporting_evidence": [
+            "65-year-old woman, irregular soft tissue mass lesion in the right upper lobe of the lung; PET-CT showed increased FDG uptake",
+            "PET-CT clearly suggests a malignant lesion with possible right pleural metastasis",
+            "Chest CT suggests right pleural effusion with compressive atelectasis of the adjacent lung tissue, with adjacent pleural thickening and adhesions, which can be seen with pleural involvement.",
+            "Chest CT and PET-CT indicated multiple nodules in both lungs; metastases cannot be excluded.",
+            "Weight loss of 10 kg over more than 1 month, accompanied by recurrent fever, consistent with the possibility of tumor-related systemic manifestations",
+            "Elevated tumor markers: CA125 205.0 U/mL and cytokeratin 19 fragment 4.7 ng/mL",
+            "The attached image shows a mass-like lesion in the right upper lung and a large right pleural effusion"
+          ],
+          "opposing_evidence": [
+            "Pleural fluid exfoliative cytology: no definite malignant tumor cells identified",
+            "Pathology from percutaneous lung needle biopsy of the right upper lung lesion suggested a non-neoplastic lesion, with infectious disease considered more likely",
+            "On Day +42, repeat CT-guided lung biopsy showed no evidence of malignancy",
+            "After 10 days of anti-infective treatment, the right lung lesion slightly decreased in size and body temperature was normal, which is not entirely consistent with a persistently progressive malignant tumor."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary tuberculosis or tuberculous pleurisy",
+          "supporting_evidence": [
+            "Fever, marked emaciation, and a 10 kg weight loss over more than 1 month, consistent with common systemic symptoms of TB",
+            "Mass-like lesion in the right upper lobe, with patchy opacities and small nodules in the surrounding area and in the contralateral upper lobe; upper lobe involvement supports the possibility of TB",
+            "There is right pleural effusion and pleural thickening with adhesions, which can be seen in tuberculous pleuritis.",
+            "Long-term use of glucocorticoids and immunosuppressants, with comorbid diabetes, increases the risk of TB and other chronic infections"
+          ],
+          "opposing_evidence": [
+            "Pleural fluid ADA 21.0 U/L, not supportive of typical tuberculous pleurisy",
+            "No obvious respiratory symptoms such as cough, sputum production, or hemoptysis",
+            "Neither of the two lung punctures provided direct evidence of TB, and the first pathology only suggested that an infectious disease was more likely.",
+            "Phase 1 information did not provide a definite history of TB exposure or microbiological evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Organizing pneumonia or inflammatory pseudotumor-like lesion",
+          "supporting_evidence": [
+            "Imaging findings show a mass-like lesion in the right upper lung, accompanied by surrounding patchy opacities, small nodular opacities, and right lower lung infiltrate, which may represent inflammatory/organizing changes",
+            "Both lung biopsy pathology examinations showed no evidence of malignancy; one of them explicitly favored a non-neoplastic lesion.",
+            "After anti-infective treatment, the lesion slightly decreased in size and body temperature normalized, suggesting the possibility of an inflammatory lesion.",
+            "Increased metabolic activity on PET-CT is not specific to malignancy; inflammatory lesions may also show increased FDG uptake."
+          ],
+          "opposing_evidence": [
+            "A 10 kg weight loss over a short period and recurrent high fever are concerning and infection or malignancy should be considered first.",
+            "There is a significant right pleural effusion, pleural thickening and adhesions, and multiple nodules in both lungs; organizing pneumonia alone cannot fully explain all of the findings.",
+            "PET-CT has already indicated a possible malignancy with pleural metastasis"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary involvement related to active systemic lupus erythematosus (lupus pleuritis/lupus pneumonitis)",
+          "supporting_evidence": [
+            "History of systemic lupus erythematosus for more than 20 years",
+            "Autoantibody testing showed positive anti-double-stranded DNA antibody at 152.5 IU/mL, with positive urine protein, suggesting possible autoimmune activity.",
+            "Fever, pleural effusion, and other manifestations of serosal involvement may occur.",
+            "Right pleural effusion with partial compressive atelectasis of the right lower lung; on physical examination, dullness to percussion over the right lower lung and decreased breath sounds on auscultation of the right lung, consistent with the clinical manifestations of pleural/serosal involvement"
+          ],
+          "opposing_evidence": [
+            "The right upper lobe shows an irregular mass-like lesion with increased FDG uptake, which is not a common imaging manifestation of typical lupus pneumonitis.",
+            "Lung biopsy pathology favors an infectious process and does not support isolated SLE pulmonary involvement",
+            "Elevated neutrophil percentage and markedly elevated CRP are more suggestive of infection or another inflammatory process.",
+            "The attached images show a focal mass-like lesion in the right upper lung, which is difficult to explain by simple lupus pleuritis alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary embolism with pulmonary infarction/post-infarction inflammatory changes",
+          "supporting_evidence": [
+            "Chest CT clearly indicates a small embolus within the right lower pulmonary artery",
+            "Elevated D-dimer at 3.74 mg/L and fibrinogen at 507 mg/dl support a thrombotic background",
+            "Right pleural effusion may be seen in pulmonary embolism or a reaction associated with pulmonary infarction",
+            "Fever can occur as an inflammatory response after pulmonary infarction"
+          ],
+          "opposing_evidence": [
+            "The main lesion is a mass-like lesion in the right upper lobe, whereas the embolus suggested by imaging is located in the right lower pulmonary artery; the locations do not correspond well.",
+            "No obvious common symptoms of pulmonary embolism, such as chest pain, chest tightness, or hemoptysis",
+            "PET-CT showed increased FDG uptake in the right upper lung lesion, with malignancy considered; pulmonary infarction cannot fully explain it.",
+            "A long-term 10 kg weight loss and recurrent fever for 1 month are more suggestive of chronic processes such as infection, TB, or tumor."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood tests (complete blood count, CRP, ESR, liver and kidney function, proteins, N-terminal pro-B-type natriuretic peptide, cytokines)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Day +54 blood tests: CBC: RBC count: 4.11X10^12/L; hemoglobin: 116 g/L; platelets: 252X10^9/L; WBC count: 8.89X10^9/L; neutrophil percentage: 92.0%. High-sensitivity CRP: 163.3 mg/L; erythrocyte sedimentation rate: 71 mm/H; liver function and renal function: normal; proteins: total protein: 54 g/L; albumin: 25 g/L; globulin: 29 g/L; albumin/globulin ratio: 0.9. N-terminal pro-brain natriuretic peptide precursor: 1415 pg/ml; cytokines: all elevated, IL-6 >1000. On Day +54, repeat contrast-enhanced chest CT: multiple nodules in the right lung and right pleura, with mild atelectatic changes and chronic inflammatory changes in both lungs. Contrast-enhanced brain MRI: multiple enhancing lesions in the bilateral parieto-occipital regions and left temporal lobe, possible metastatic MT. Repeat CT-guided percutaneous lung biopsy pathology: microscopically, alveolar tissue, fibrovascular tissue, and striated muscle tissue were seen; fibroblastic plugs were present in some alveolar spaces, showing organizing pneumonia-like changes; there was extensive acute and chronic inflammatory cell infiltration in the interstitium and a multinucleated giant cell reaction. Bone marrow biopsy smear: microscopically, trilineage hematopoietic tissue was present, with no definite infiltration by neoplastic lymphoid cells.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSky99GMVO9qUjIoDCbcVic0ZNv6WHdSsdYJEsVF47Rsbsxrj2RzeZ2Ggpg/640?wx_fmt=png",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/cf18d58f6e1c5502e84d31cf7ea293ec89700609.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkyJfybCV1YkrmtsvZ69n8bsZNFL0ibHdEbdeiapacS5VOicgnId83bCuH3g/640?wx_fmt=png",
+            "near_text": "Contrast-enhanced brain MRI: multiple enhancing lesions in the bilateral parieto-occipital regions and left temporal lobe; metastatic tumors are possible.",
+            "local_src": "cleaned_cases_image_cache/f537f5cff6e31a1d9e76d630dfad72847f91a97c.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkyJF5MUNWsiaicMia6OTQA8N2LQ6wbxicJuEMJw7E3vo6MvJzw3lYwpDv9Yw/640?wx_fmt=png",
+            "near_text": "Repeat CT-guided percutaneous lung biopsy; pathology: alveolar tissue on microscopy",
+            "local_src": "cleaned_cases_image_cache/47a6b4dba66293abb86bdc5913145d90e82d86f8.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkyw0olsN8BxHGBfpMoicAO5jz6j9QIKhcg8G9jMT5UK3qWIlcvCeeJflw/640?wx_fmt=png",
+            "near_text": "A-D: CT-guided percutaneous lung biopsy pathology. E-F: Bone marrow aspiration and biopsy slides.",
+            "local_src": "cleaned_cases_image_cache/a17d7ac1c4475650a93590bfad388634d11dd6b3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "hematologic malignancy",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On microscopic examination of the bone marrow aspiration and biopsy specimen, all three hematopoietic lineages were present, and no definite infiltration by neoplastic lymphocytes was seen.",
+              "Hematology consultation concluded that there was no clear evidence of a hematologic malignancy in the patient"
+            ]
+          },
+          {
+            "name": "Active systemic lupus erythematosus",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The rheumatology consultation concluded that immunoglobulins and complement were basically normal, anti-dsDNA was negative, urinalysis showed no protein or red blood cells, and there is currently no evidence of active systemic lupus erythematosus."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "hematologic malignancy",
+        "evidence": [],
+        "exclusion_reasons": [
+          "On microscopic examination of the bone marrow aspiration and biopsy specimen, all three hematopoietic lineages were present, and no definite infiltration by neoplastic lymphocytes was seen.",
+          "Hematology consultation concluded that there was no clear evidence of a hematologic malignancy in the patient"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Active systemic lupus erythematosus",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The rheumatology consultation concluded that immunoglobulins and complement were basically normal, anti-dsDNA was negative, urinalysis showed no protein or red blood cells, and there is currently no evidence of active systemic lupus erythematosus."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Right chest wall abscess puncture",
+          "basis_in_stage3_input": "On Day +55, the aspiration results of the right chest wall abscess showed",
+          "why_order_this_exam": "Against a background of immunosuppression due to long-term glucocorticoid therapy and Tripterygium glycosides for SLE, combined with diabetes mellitus, the patient developed recurrent high fever and a 10 kg weight loss over more than 1 month. There was a mass-like lesion in the right upper lobe of the lung with bilateral pulmonary nodules, pleural involvement, and multiple enhancing intracranial lesions. Two previous lung biopsies did not confirm tumor, showing only infection/organizing inflammation, and the etiology remained unclear. On this readmission, physical examination revealed a palpable approximately 3 cm × 3 cm mass on the right chest wall, which was a newly appeared and most easily accessible active lesion. Needle biopsy should first be performed to determine whether it is an abscess, tumor metastasis, or another inflammatory granulomatous lesion. This examination can directly obtain specimens for pathogen testing and cytology/pathology, address whether the pulmonary mass, pleural nodules, and intracranial lesions are caused by the same disseminated infection, and also provide a basis for subsequent drainage decompression and selection of the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "smear",
+          "basis_in_stage3_input": "Gram-positive bacilli identified on smear (suspected Nocardia)",
+          "why_order_this_exam": "During the course of the illness, the patient had persistent high fever, markedly elevated inflammatory markers, and complex chest imaging findings. PET-CT was at one point considered suggestive of malignancy, but after anti-infective treatment the pulmonary lesions slightly decreased in size, and two lung needle biopsies showed no malignancy, suggesting a high likelihood of an infectious disease, especially an opportunistic infection. After a specimen was obtained by aspiration of the chest wall abscess, immediate smear examination can determine in the shortest possible time whether bacteria are present and their morphologic characteristics. In this immunosuppressed host, if the smear shows Gram-positive bacilli, especially with branching and weakly acid-fast features, this can strongly suggest Nocardia, thereby explaining the disseminated infectious manifestations of pulmonary masses/nodules, chest wall abscess, and intracranial enhancing lesions. The value of this test lies in rapidly providing early targeted evidence, influencing the scope of empiric treatment coverage before culture results are available, and helping narrow the differential diagnosis among malignancy, common bacterial infection, fungal infection, and TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pus culture",
+          "basis_in_stage3_input": "Pus culture: Nocardia 1+",
+          "why_order_this_exam": "Imaging findings and inflammatory response alone cannot distinguish lung cancer with metastases, TB, fungal infection, or opportunistic infections such as Nocardia infection. Because the patient also has immunosuppression, diabetes mellitus, a chest wall abscess, multiple pulmonary lesions, and possible intracranial dissemination, a definitive etiologic diagnosis must be obtained. Chest wall pus is a direct lesion specimen, and culture can confirm the causative pathogen more reliably than smear, making it the key step in establishing 'suspected Nocardia' as 'Nocardia infection.' This test is intended to determine whether the chest wall mass is an infectious abscess, what the specific pathogen is, and whether it can provide a unifying explanation for the lesions in the lung, pleura, chest wall, and even brain; the result is निर्णative for confirming systemic Nocardia infection, excluding a purely neoplastic lesion or infection by other pathogens, and providing the foundation for subsequent antimicrobial susceptibility testing and long-term combination anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "drug susceptibility testing",
+          "basis_in_stage3_input": "Drug susceptibility: susceptible to linezolid, minocycline, and amikacin",
+          "why_order_this_exam": "This case has already demonstrated features of disseminated severe infection: recurrent high fever, marked weight loss, multiple intrapulmonary and pleural lesions, chest wall abscess, possible multiple enhancing intracranial lesions, and impaired host immune function. Treatment often requires prolonged multidrug combination therapy while also taking possible central nervous system involvement into account. There is substantial variability in antimicrobial resistance profiles among different Nocardia species and strains; identifying the pathogen alone is insufficient to guide optimal antimicrobial selection, so further antimicrobial susceptibility testing is ضروری. The clinical purpose of this test is to determine which antimicrobial agents are usable and effective, avoid ineffective empiric therapy or inadequate coverage, and, in the context of the patient having previously received multiple anti-infective treatments and the possibility of subsequent bone marrow suppression and fluctuations in renal function, help balance efficacy and toxicity, directly informing selection of the initial combination regimen and subsequent sequential adjustment regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Smear - fungal organisms, acid-fast bacilli, mycobacteria",
+          "basis_in_stage3_input": "Smear for fungi, acid-fast bacilli, and mycobacteria: negative",
+          "why_order_this_exam": "The patient had long-term immunosuppression and concomitant diabetes, with recurrent fever, weight loss, an upper lobe mass-like lesion, bilateral pulmonary nodules, pleural effusion, and pleural thickening. In the past, the differential diagnosis consistently needed to include TB, nontuberculous mycobacterial infection, invasive fungal infection, and other opportunistic infections; PET-CT hypermetabolism and enhancing intracranial lesions also made the diagnosis more complex. Performing simultaneous smear examinations on the chest wall abscess specimen for fungi, acid-fast bacilli, and mycobacteria was intended to confirm clues of Nocardia while promptly excluding other pathogens common in this host and requiring completely different treatment pathways. This testing helps avoid misclassifying fungal or tuberculous lesions as a single bacterial infection, and can also reduce unnecessary or incorrect anti-TB or antifungal treatment; it is very important for the final definitive diagnosis, refinement of the differential diagnosis, and formulation of a targeted treatment plan.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +55, the aspiration results of the right chest wall abscess showed: Gram-positive bacilli identified on smear (suspected Nocardia); pus culture: Nocardia 1+. Antimicrobial susceptibility: susceptible to linezolid, minocycline, and amikacin. Smear - fungi, acid-fast bacilli, mycobacteria: negative.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKX6ODoQrMUJc574MoaWSkyDxClib6nZQIicibpj6D2oO6mIQlIib5ybCAjVvhMjr7dkJx166LEX5wgMQ/640?wx_fmt=png",
+          "near_text": "At this point, a definitive diagnosis can be made: the patient has",
+          "local_src": "cleaned_cases_image_cache/5ee0e06de359f3441f2ef012ba87b75e7af36c93.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Systemic nocardiosis (lung, chest wall, intracranial?); T-cell lymphoma? Pleural effusion; herpes zoster; systemic lupus erythematosus; hypertension; type 2 diabetes mellitus; hypoproteinemia; pulmonary embolism.",
+      "diagnostic_basis": [
+        "Gram-positive bacilli identified on smear of aspirate from a right chest wall abscess (suspected Nocardia)",
+        "Pus culture: Nocardia 1+"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Day +55: anti-infective therapy: meropenem (2 g q8h) + SMZ (1.92 g tid) + amikacin (0.4 g); antiviral therapy: valacyclovir 0.6 g tid po; antifungal therapy: caspofungin 50 mg qd (oral thrush); anticoagulation: low-molecular-weight heparin 6000 IU qd h; SLE: prednisone 30 mg qd, hydroxychloroquine sulfate 100 mg bid; supportive therapy: albumin (10 g qod), immunoglobulin (5 g × 5 days and 20 g × 5 days, respectively), thymalfasin, enteral nutritional solution via nasogastric feeding; symptomatic treatment: gastric protection, calcium supplementation.",
+        "On Day +63, the antibiotic treatment regimen was adjusted to: linezolid + meropenem + SMZ + doxycycline.",
+        "On Day +68, linezolid was discontinued; doxycycline + ceftriaxone + SMZ were given; 2 U of packed RBCs were transfused to correct anemia; Juheli was given to increase the platelet count.",
+        "On Day +84, the treatment regimen was adjusted as follows: linezolid was added, combined with meropenem, SMZ, and doxycycline for anti-infective therapy; plasma-poor blood was transfused to correct anemia; the chest wall purulent cavity was irrigated with a mixture of 100 ml sodium bicarbonate + 100 ml normal saline; 1 g meropenem + 15 ml normal saline was instilled, with drainage on the following day.",
+        "On Day +163, oral anti-infective therapy with linezolid (0.6 g qd) + doxycycline (0.1 g bid)."
+      ],
+      "treatment_response": [
+        "On Day +63, chest CT showed multiple masses in the right lung, right pleura, and chest wall, some of which were slightly smaller than before; mild atelectatic changes and chronic inflammatory changes in both lungs; and partial resolution of some loculated pleural effusions compared with before. Abdominal CT showed low-density masses in the right peritoneum, liver capsule, and right abdominal wall. Creatinine increased to 102 umol/L.",
+        "On Day +68, the patient developed nausea and vomiting. Complete blood count: platelet count 74×10^9/L, hemoglobin 71 g/L, suggesting bone marrow suppression.",
+        "On Day +84, follow-up chest CT showed multiple lesions in both lungs and the right pleura and chest wall; some right lung lesions and the localized loculated right pleural effusion had improved compared with before, and there was a new lesion in the left lower lobe. Follow-up CBC: HGB 78 g/L, PLT 118×10^9/L.",
+        "On Day +124, the patient’s hemoglobin reached a nadir of 44 g/L. On Day +127, the submitted (bone marrow) biopsy tissue showed that most of the intertrabecular space consisted of adipose tissue, with only a small amount of hematopoietic bone marrow tissue seen; the cellularity was slightly decreased.",
+        "On Day +145, follow-up chest CT showed: chronic inflammatory changes and old lesions in both lungs; right pleural thickening with localized loculated effusion, bilateral pleural effusions, decreased compared with 20-1-19, mild atelectatic changes in both lungs, and a small pericardial effusion. Heterogeneous density in the right thyroid lobe.",
+        "On Day +163, the patient's cough and sputum production had both improved, the chest wall abscess had resolved, and repeat testing showed that hemoglobin, platelet count, and albumin were all within the normal range.",
+        "On Day +358, repeat brain MRI showed no visible enhancing small nodular lesion in the brain."
+      ]
+    }
+  }
+}

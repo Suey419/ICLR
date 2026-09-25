@@ -1,0 +1,431 @@
+{
+  "status": "success",
+  "case_id": "case_45",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 51-year-old male electrician, previously employed in leather goods manufacturing and clothing sales, presented to our hospital on Day 0, with the chief complaint of \"recurrent cough and sputum production for 3 months, worsening for more than 10 days.\" In approximately 1 month before Day 0, the patient developed recurrent cough with yellow purulent sputum, slightly jelly-like in consistency, without obvious precipitating factors, and without fever, chest pain, dyspnea, hemoptysis, palpitations, edema, or other discomfort. He was seen at a local hospital, where a complete blood count showed no significant abnormalities, and chest CT showed: obstruction of the left lower lobe bronchus, left lung atelectasis, with left lower lobe lung cancer considered highly possible; enlarged mediastinal and left hilar lymph nodes. During this period, he received oral antibiotic treatment (details unknown), with poor effect. On Day 0, the patient presented to the thoracic surgery outpatient clinic of our hospital. Laboratory tests showed WBC: 6.18×10^9/L, N:72.5%, EOS: 5.0%, NSE↑ 17.3ng/mL, CEA↑ 6.4ng/mL, CA199, CA125, Cyfra211, and SCC all normal, CRP 9.4mg/L. PET-CT (Figure 1) showed: left lower lobe MT, maximum SUV 6.3, with atelectasis and inflammation; left hilar lymph node metastasis to be excluded; inflammation in both lungs; possible mediastinal lymphadenitis. Further review of the patient's past medical history, personal history, and family history revealed: a 30-year history of allergic rhinitis, with intermittent oral Rhinacanthin tablets; smoking for 30 years, 1-2 packs/day, quit smoking 2 months ago; occupational dust exposure history; denied exposure to toxins, radioactive substances, or moldy items. Family history was unremarkable. Physical examination: T: 36.6℃, P: 88/min, R: 18/min, BP: 118/72mmHg, SpO2: 98% (room air). Breathing was unlabored, lips without cyanosis, bilateral lungs were resonant to percussion, moist rales were heard in the left lower lung, no dry rales or wheezing were heard, heart rhythm was regular, and there was no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRReauSbk3Ow46HkccC1M4rfnbh5sVQs7uujhFyOsNxusibmgh6U2aKvbg/640?wx_fmt=png",
+          "near_text": "Figure 1: PET-CT, Zhongshan Hospital Affiliated to Fudan University",
+          "local_src": "cleaned_cases_image_cache/d86bdba651fcd6ed4eb9bbc022298526a1fe669e.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary lung cancer (central lung cancer of the left lower lobe, with bronchial obstruction and atelectasis)",
+          "supporting_evidence": [
+            "Chest CT showed: obstruction of the left lower lobe bronchus, left lung atelectasis, left lower lobe lung Ca highly suspected; enlarged lymph nodes in the mediastinum and left hilum",
+            "PET-CT showed: malignant tumor in the left lower lobe, maximum SUV value 6.3, with atelectasis and inflammation; left hilar lymph node metastasis cannot be excluded.",
+            "Male patient, 51 years old, smoker for 30 years, 1-2 packs/day",
+            "Poor response to oral antibiotic therapy",
+            "NSE↑ 17.3ng/mL，CEA↑ 6.4ng/mL",
+            "On physical examination, moist rales were audible in the left lower lung, consistent with secondary changes following obstruction of the left lower lobe.",
+            "Phase 1 imaging shows an abnormal opacity in the left lower lung near the hilar region/basal segment, with decreased volume of the left lower lobe; PET shows increased metabolic activity in the corresponding area."
+          ],
+          "opposing_evidence": [
+            "No symptoms such as fever, chest pain, dyspnea, or hemoptysis",
+            "WBC 6.18×10^9/L, CRP 9.4mg/L, the overall inflammatory response is not high, and the elevation in tumor markers is limited; at the first stage, a specific diagnosis of malignancy cannot yet be established."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Obstructive pneumonia/atelectasis (secondary to endobronchial obstruction of the left lower lobe)",
+          "supporting_evidence": [
+            "Chief complaint: recurrent cough and sputum production for 3 months, worsening for more than 10 days, with coughing up yellow purulent sputum, slightly jelly-like in consistency",
+            "Chest CT showed bronchial obstruction in the left lower lobe and left lung atelectasis",
+            "PET-CT showed a mass in the left lower lobe, with atelectasis and inflammation, and inflammation in both lungs.",
+            "Moist rales are audible in the left lower lung.",
+            "The phase 1 images show consolidation/atelectatic change in the left lower lobe, consistent with post-obstructive infection or inflammation."
+          ],
+          "opposing_evidence": [
+            "Poor response to oral antibiotic therapy",
+            "No fever; routine blood test unremarkable, WBC 6.18×10^9/L, CRP only 9.4mg/L, which does not support simple active bacterial pneumonia as the sole etiology.",
+            "Bronchial obstruction and increased metabolic activity of the mass are present, suggesting a possible more proximal organic lesion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Endobronchial carcinoid or other benign/low-grade malignant endobronchial tumors",
+          "supporting_evidence": [
+            "Imaging suggests obstruction of the left lower lobe bronchus with secondary atelectasis, consistent with a pattern of distal obstruction caused by an endobronchial space-occupying lesion.",
+            "The patient mainly presents with cough and sputum production, which may be seen in post-obstructive changes caused by an endobronchial tumor.",
+            "PET-CT maximum SUV value 6.3, indicating moderately increased metabolic activity, which can be seen in some low-grade malignant tumors",
+            "In the first stage, the imaging suggested that the lesions were relatively localized and located in the bronchi-associated region."
+          ],
+          "opposing_evidence": [
+            "The patient has a heavy smoking history, which more strongly supports common primary lung cancer.",
+            "Mediastinal and enlarged left hilar lymph nodes and metastasis to the left hilar lymph nodes cannot be excluded, making an ordinary benign lesion less likely",
+            "Mild elevation of NSE and CEA is more suggestive of an underlying malignant tumor, but remains nonspecific."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Bronchial TB/pulmonary TB (manifesting as bronchial stenosis/obstruction and lower lobe atelectasis)",
+          "supporting_evidence": [
+            "Chronic cough and sputum production for 3 months",
+            "Left lower lobe bronchial obstruction with atelectasis, which may be seen in stenosis or obstruction caused by bronchial TB",
+            "Hilar and mediastinal lymph node changes may be seen in tuberculous inflammation",
+            "Increased metabolic activity on PET-CT is not specific to tumors; inflammatory lesions may also show increased metabolic activity"
+          ],
+          "opposing_evidence": [
+            "No common systemic or respiratory symptoms of TB such as fever, night sweats, or hemoptysis",
+            "PET-CT report is more suggestive of MT in the left lower lobe of the lung; left hilar lymph node metastasis cannot be excluded",
+            "The patient has a long-term smoking history, and the elevated tumor markers NSE and CEA make a neoplastic lesion a higher priority consideration.",
+            "Stage 1 information did not provide a clear history of TB exposure or other evidence of TB"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Mucus plugging/endobronchial secretion impaction with left lower lobe atelectasis",
+          "supporting_evidence": [
+            "The patient has a cough productive of yellow purulent sputum, slightly gelatinous in consistency, suggesting viscous airway secretions.",
+            "Chest CT showed left lower lobe bronchial obstruction and left lung atelectasis; a mucus plug can cause this type of finding.",
+            "On the initial imaging, left lower lobe atelectatic changes are visible, morphologically possibly related to obstructive retained secretions."
+          ],
+          "opposing_evidence": [
+            "PET-CT showed MT in the left lower lobe of the lung, with a maximum SUV of 6.3, not supporting a purely nontumorous mucus plug.",
+            "There are abnormal left hilar lymph nodes and mediastinal lymph node changes, which are difficult to be fully explained by secretions impaction alone.",
+            "Poor response to antibiotic therapy suggests that it is not merely a simple infection and secretion problem."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Bronchial compression and obstruction secondary to hilar/mediastinal lymph node-related diseases (e.g., lymphoma, metastatic lymph node lesions, etc.)",
+          "supporting_evidence": [
+            "Chest CT showed enlarged lymph nodes in the mediastinum and left hilar region.",
+            "PET-CT suggests left hilar lymph node metastasis to be ruled out; mediastinal lymphadenitis is possible",
+            "Bronchial obstruction and atelectasis may also be caused by hilar lesions compressing or invading the bronchi."
+          ],
+          "opposing_evidence": [
+            "PET-CT also indicated MT in the left lower lobe, suggesting that a primary intrapulmonary lesion is more direct",
+            "The patient's main imaging abnormality is located in the left lower lobe and is accompanied by bronchial obstruction, which is more consistent with a primary pulmonary mass than with isolated lymph node disease.",
+            "No evidence of superficial lymphadenopathy, B symptoms, or other findings supporting a lymphoid neoplasm was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Preoperative assessment",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On Day +1, peripheral endobronchial ultrasound-guided transbronchial lung biopsy was performed (Figure 2): bronchoscopy showed a large amount of sputum in the anterior basal segment of the left lower lobe, which was suctioned clear. Peripheral ultrasound identified a hypoechoic lesion (central type of lesion) in the anterior basal segment of the left lower lobe, and TBLB and brushings were performed. Rapid on-site pathologic evaluation repeatedly showed no evidence of malignancy; an inflammatory lesion was considered but could not be excluded, so bronchoalveolar lavage was performed in the medial basal segment of the left lower lobe, and specimens were sent for bacterial, fungal, and TB smear and culture. Pathology (Figure 3) showed: (left lower lobe anterior basal segment) bronchopulmonary tissue; a small number of enlarged hyperchromatic cells were seen in the interstitium of a focal area, and there were also sheets of degenerative necrotic tissue. Immunohistochemistry showed that the enlarged hyperchromatic cells represented mildly proliferative collapsed alveolar epithelium. The current biopsy tissue provided insufficient evidence of neoplasia; an inflammatory lesion was considered. No organisms were identified on special stains. Culture results showed no evidence suggestive of Aspergillus, TB, or others. On Day +3, percutaneous CT-guided biopsy of the hypermetabolic lesion in the anterior basal segment of the left lower lung was performed. Pathology report (Figure 4) showed: (left lower lobe) numerous histiocytes within the alveolar spaces, with abundant cytoplasm and phagocytosis; the overall impression was an inflammatory lesion with inflammatory exudation and necrosis. On Day +14, at follow-up, inflammatory markers had decreased compared with before, and cough and sputum production had improved compared with before. Repeat chest CT (Figure 5): the left lower lobe lesion had improved compared with before; left hilar and mediastinal lymphadenopathy was similar to before. In mid-March, after one episode of getting chilled, the patient again developed cough, occasional small amounts of yellow-brown gelatinous sputum, and left chest discomfort. Repeat CT on Day +56 (Figure 6): bronchial obstruction with atelectasis in the posterior basal segment of the left lower lung, inflammation in the left lower lobe, left hilar and mediastinal lymphadenopathy similar to before, small nodules in both lungs (some GGO), mild chronic inflammation in both lungs, and mild emphysema. Other ancillary tests: liver and kidney function, electrolytes, coagulation, autoantibodies, thyroid function, cryptococcal antigen, T-SPOT, G test, Mycoplasma/Chlamydia antibodies, and nine-pathogen respiratory virus panel were all unremarkable. ECG: sinus rhythm, normal ECG.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRjmX8eaL0jvB0vuWzu5rGVUIeHhHDfRS5OxHxRxrocfp7YXsxZL2icag/640?wx_fmt=png",
+            "near_text": "Figure 2: The patient's first bronchoscopy on Day +1",
+            "local_src": "cleaned_cases_image_cache/e7e2e531101b1c2221ccc931eda8888790826ddf.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRR6xrJq7O1raFG3YhVweBUeUWsogJ4QIUJhanSD96hS0UX0JawFic65Iw/640?wx_fmt=png",
+            "near_text": "Figure 2: The patient's first bronchoscopy on Day +1",
+            "local_src": "cleaned_cases_image_cache/983e73ce34293505a3342f2be1501a6cfd22d003.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRHibPUKNyo3tZBck0Ss8ia6xq5ibF2mdp27a8BKA3JOv4VYMnAUqOkZ65A/640?wx_fmt=png",
+            "near_text": "Figure 2: The patient's first bronchoscopy on Day +1",
+            "local_src": "cleaned_cases_image_cache/c80f17492381ecaa526925e8ee67aa2d8695a33d.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRPexQx5iasPKXfAa9VhhH4h5aAPYPxtwm1Sibcp9DxPg97QKemaXsmMiaw/640?wx_fmt=png",
+            "near_text": "Figure 3: TBLB pathology.",
+            "local_src": "cleaned_cases_image_cache/c44b912bc1a9896398ca520f9a33d5fed18a4eb1.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRnatsTyiaHTTY5NAWPt2ge5F3wenMQU9A74aGMWMYNKl6pOykUvEKQag/640?wx_fmt=png",
+            "near_text": "Figure 4: Pathology of CT-guided percutaneous lung biopsy.",
+            "local_src": "cleaned_cases_image_cache/95c6977a8b864aed8fc49b7b270ceb48020c6d70.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRR1JFODMJfnVibR7toR9EE6UBIhMacsMNicN61tau73ALFTiaNUXmpxOuNQ/640?wx_fmt=png",
+            "near_text": "Figure 5: Follow-up chest CT on Day +14, after 10 days of bronchoscopic sputum suction and anti-infective treatment.",
+            "local_src": "cleaned_cases_image_cache/dbfef4b97f3c60d119176d483124c2f8e89992e9.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRQKffoKj8lIcJS3KqAibsOWECq11XjVwI66tUF9sbcI9RxKs2ibKvf5BQ/640?wx_fmt=png",
+            "near_text": "Figure 6: Follow-up chest CT on Day +56.",
+            "local_src": "cleaned_cases_image_cache/8c0dc107b8c4279ad96c9dcdb49b61116b24ba4e.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tuberculosis",
+            "evidence": [
+              "The patient has no relevant exposure history.",
+              "T-SPOT negative",
+              "TBLB brush smear acid-fast stain negative",
+              "BALF culture showed no positive findings",
+              "Pulmonary imaging manifestations commonly seen in non-tuberculous disease include infiltrative lesions, tuberculomas, and thick-walled cavities."
+            ],
+            "exclusion_reasons": [
+              "TB infection is considered unlikely"
+            ]
+          },
+          {
+            "name": "Pulmonary mycosis",
+            "evidence": [
+              "The patient has no relevant host factors",
+              "Bronchoscopic pathology suggests pulmonary infection"
+            ],
+            "exclusion_reasons": [
+              "Further pathogen testing should be completed as necessary to clarify the diagnosis."
+            ]
+          },
+          {
+            "name": "Aspiration pneumonia",
+            "evidence": [
+              "The patient has normal swallowing function.",
+              "No prior history of choking with cough",
+              "No food residue was seen on bronchoscopy"
+            ],
+            "exclusion_reasons": [
+              "Aspiration pneumonia is considered unlikely"
+            ]
+          },
+          {
+            "name": "Malignant neoplasm of the lung",
+            "evidence": [
+              "In this patient, pathology from two transbronchial lung biopsies showed no evidence of malignancy."
+            ],
+            "exclusion_reasons": [
+              "Pulmonary malignancy is considered unlikely; a pathological diagnosis is required for definitive diagnosis"
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [
+              "This patient had no exertional dyspnea or hypoxemia.",
+              "Biopsy pathology showed no definite granulomatous lesion"
+            ],
+            "exclusion_reasons": [
+              "Organizing pneumonia is unlikely."
+            ]
+          },
+          {
+            "name": "Allergic bronchopulmonary aspergillosis",
+            "evidence": [
+              "During the course of illness, this patient had yellow gelatinous sputum.",
+              "History of allergic rhinitis",
+              "Bronchoscopy revealed a large amount of yellow purulent sputum in the left lower lung.",
+              "After suctioning of the sputum, bronchiectasis and mucus plugging can be seen at the site of the original lesion.",
+              "Review of the patient's PET-CT showed the glove-finger sign."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tuberculosis",
+        "evidence": [
+          "The patient has no relevant exposure history.",
+          "T-SPOT negative",
+          "TBLB brush smear acid-fast stain negative",
+          "BALF culture showed no positive findings",
+          "Pulmonary imaging manifestations commonly seen in non-tuberculous disease include infiltrative lesions, tuberculomas, and thick-walled cavities."
+        ],
+        "exclusion_reasons": [
+          "TB infection is considered unlikely"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary mycosis",
+        "evidence": [
+          "The patient has no relevant host factors",
+          "Bronchoscopic pathology suggests pulmonary infection"
+        ],
+        "exclusion_reasons": [
+          "Further pathogen testing should be completed as necessary to clarify the diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Aspiration pneumonia",
+        "evidence": [
+          "The patient has normal swallowing function.",
+          "No prior history of choking with cough",
+          "No food residue was seen on bronchoscopy"
+        ],
+        "exclusion_reasons": [
+          "Aspiration pneumonia is considered unlikely"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant neoplasm of the lung",
+        "evidence": [
+          "In this patient, pathology from two transbronchial lung biopsies showed no evidence of malignancy."
+        ],
+        "exclusion_reasons": [
+          "Pulmonary malignancy is considered unlikely; a pathological diagnosis is required for definitive diagnosis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [
+          "This patient had no exertional dyspnea or hypoxemia.",
+          "Biopsy pathology showed no definite granulomatous lesion"
+        ],
+        "exclusion_reasons": [
+          "Organizing pneumonia is unlikely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Allergic bronchopulmonary aspergillosis",
+        "evidence": [
+          "During the course of illness, this patient had yellow gelatinous sputum.",
+          "History of allergic rhinitis",
+          "Bronchoscopy revealed a large amount of yellow purulent sputum in the left lower lung.",
+          "After suctioning of the sputum, bronchiectasis and mucus plugging can be seen at the site of the original lesion.",
+          "Review of the patient's PET-CT showed the glove-finger sign."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat complete blood count, total IgE, and allergen testing",
+          "basis_in_stage3_input": "Further laboratory tests were completed: EOS: 0.55X10^9/L, immunoglobulin E: 4988 IU/mL.",
+          "why_order_this_exam": "The patient is a 51-year-old man with recurrent cough and expectoration of yellow purulent sputum for 3 months, later developing yellow-brown gelatinous sputum. The lesion showed temporary improvement after anti-infective treatment but then recurred, and was accompanied by left lower lobe bronchial obstruction, atelectasis, and mucus plugging. Two pathology examinations did not support malignancy, and there was no clear evidence of TB or multiple routine infection screenings. Therefore, further laboratory testing is needed to determine whether an allergic/eosinophilic inflammatory background is present. Repeat peripheral blood eosinophil count and total IgE can directly determine whether important diagnostic criteria for allergic bronchopulmonary aspergillosis are met, and also help distinguish it from simple obstructive pneumonia, common bacterial infection, or simple neoplastic obstruction. At the same time, these indicators are also important baselines for whether to initiate glucocorticoids subsequently, to assess treatment response, and to follow disease activity.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Specific IgE concentration",
+          "basis_in_stage3_input": "Further specific IgE concentrations were obtained: Aspergillus fumigatus 15.30 KUA/L, Alternaria 1.34 KUA/L, house dust mix 1.29, mold mix 3.82, animal dander mix 0.67;",
+          "why_order_this_exam": "This patient has a 30-year history of allergic rhinitis. During the course of illness, there was recurrent expectoration of gelatinous sputum. Bronchoscopy showed a large amount of yellow secretions and mucus plugs. Retrospective review of imaging also showed bronchiectasis and the finger-in-glove sign, all suggesting the possibility of Aspergillus-related allergic airway disease. The purpose of measuring specific IgE concentration is to determine whether the patient has sensitization to fungi such as Aspergillus fumigatus, which is one of the key pieces of evidence for establishing allergic bronchopulmonary aspergillosis. At the same time, it can also determine whether there is a broad inhalational allergy background, helping differentiate ABPA from simple pulmonary fungal colonization, common infection, or nonallergic mucoid impaction. The results will also affect the subsequent treatment strategy, because if Aspergillus sensitization is confirmed, together with markedly elevated total IgE and supportive imaging features, there is a stronger basis for choosing corticosteroids combined with antifungal therapy and for long-term monitoring.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "basis_in_stage3_input": "Pulmonary function (Figure 7): pulmonary ventilatory function was basically normal, diffusing capacity for carbon monoxide was basically normal, bronchodilator test was negative, FeNO 162 ppb.",
+          "why_order_this_exam": "Although the patient has no obvious dyspnea or hypoxemia, given the long-standing atopic constitution, recurrent cough and sputum production, extensive mucus plugging in the airways, and possible ABPA, PFT is still needed to assess the degree of airflow limitation and the extent of pulmonary parenchymal involvement. This examination can address several clinical questions: first, whether there is coexisting asthma-like airway functional abnormality or small airway involvement; second, whether recurrent left lower lobe atelectasis, inflammation, and bronchiectasis have already caused significant ventilatory or diffusing functional impairment; third, to provide a baseline before planned glucocorticoid therapy and during long-term follow-up. Basically normal pulmonary function and normal diffusing capacity would help suggest that the current lesions are mainly focal airway obstruction and allergic inflammation, rather than diffuse interstitial lung disease or severe COPD, which is valuable for differential diagnosis and assessment of treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "basis_in_stage3_input": "Pulmonary function (Figure 7): pulmonary ventilatory function was basically normal, diffusing capacity for carbon monoxide was basically normal, bronchodilator test was negative, FeNO 162 ppb.",
+          "why_order_this_exam": "ABPA is often associated with asthma or airway hyperresponsiveness, but in this case the patient's chief complaints were mainly cough, gelatinous sputum, and recurrent obstructive changes, without typical wheezing; therefore, a bronchodilator test is helpful in determining whether reversible airflow limitation, an important accompanying feature, is present. The main purpose of this test is to clarify whether the patient has a typical asthma phenotype and how much of the symptoms and imaging abnormalities are attributable to reversible bronchospasm. A negative result cannot exclude ABPA, but it helps indicate that the patient's current presentation is not primarily characterized by marked reversible airway obstruction, thereby avoiding simply classifying it as a common asthma exacerbation; at the same time, it provides reference value for the necessity and intensity selection of subsequent inhaled bronchodilator and inhaled corticosteroid regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "FeNO",
+          "basis_in_stage3_input": "Pulmonary function (Figure 7): pulmonary ventilatory function was basically normal, diffusing capacity for carbon monoxide was basically normal, bronchodilator test was negative, FeNO 162 ppb.",
+          "why_order_this_exam": "The patient has a clear allergic background, with elevated peripheral eosinophils and total IgE. Imaging and bronchoscopy also suggest mucus plugging and bronchiectasis; therefore, FeNO is needed to further assess type 2 airway inflammation/eosinophilic inflammatory activity. The clinical significance of this test is as follows: on the one hand, it helps explain why the patient still has significant allergic airway inflammation despite unremarkable pulmonary function and bronchodilator testing; on the other hand, together with total IgE, EOS, and Aspergillus-specific IgE, it can form an immunoinflammatory chain of evidence supporting ABPA. Markedly elevated FeNO helps support the rationale for corticosteroid therapy and provides a dynamic monitoring marker for subsequent assessment of inflammatory control and guidance of corticosteroid tapering.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +61, bronchoscopy was performed again (Figure 8): a large amount of yellow purulent secretions was seen in the left main bronchus and the lingular segment bronchus of the left upper lobe, which was suctioned. A large amount of yellow purulent secretions obstructing the bronchial lumen was seen in the left lower lobe bronchus; after suctioning, hyperemia and swelling of the bronchial mucosa were seen, and no neoplasm was observed.",
+          "why_order_this_exam": "Chest CT and PET-CT had previously suggested left lower lobe bronchial obstruction, atelectasis, and a tumor not yet excluded. After anti-infective treatment, the lesion initially improved but then worsened again. Although prior bronchoscopy and percutaneous biopsy did not confirm malignancy, recurrent obstruction and retained secretions persisted; therefore, repeat bronchoscopy was crucial. This examination was both diagnostic and therapeutic: it allowed direct visualization to determine whether the airway obstruction was due to a neoplasm, stenosis, or a large mucus plug; obstructing secretions could be suctioned to relieve atelectasis and improve ventilation and drainage; and it also allowed assessment, after suctioning, of whether features of ABPA such as bronchiectasis and mucosal inflammation became apparent. The finding of no neoplasm was important for excluding endobronchial masses such as central lung cancer and carcinoid, and it also provided direct bronchoscopic evidence for shifting the diagnostic focus to allergic Aspergillus-related disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopic suctioning of sputum and sending sputum for culture",
+          "basis_in_stage3_input": "Bronchoscopic suctioning of sputum with sputum culture showed: Aspergillus flavus: 1+, viridans streptococci: 1+, Neisseria: 1+, filamentous fungi: 1+.",
+          "why_order_this_exam": "The patient has recurrent cough with yellow purulent sputum and gelatinous sputum, with a large amount of yellow purulent secretions and mucus plugging in the airways. Previous bronchoalveolar lavage fluid cultures were negative for Aspergillus, TB, and other pathogens, indicating that negative routine microbiology cannot explain the prolonged and recurrent course. Therefore, it is necessary to obtain lower respiratory tract specimens closer to the lesion and of higher quality for culture under bronchoscopy. This test is mainly intended to address two questions: first, whether there is evidence of Aspergillus-related colonization or infection, thereby providing microbiologic support for the diagnosis of ABPA; second, whether there is concomitant bacterial infection, to explain the yellow purulent secretions and guide whether combined anti-infective therapy is needed. Detection of Aspergillus flavus and filamentous fungi on culture, together with elevated total IgE, specific IgE, EOS, and imaging features, can significantly increase the diagnostic confidence for ABPA; at the same time, detection of viridans streptococci and Neisseria also suggests a possible background of mixed airway infection, which is helpful for formulating a comprehensive regimen of glucocorticoids, antifungal therapy, and anti-infective therapy, and for avoiding omission of pathogens not covered by empiric therapy alone.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further laboratory tests were completed: EOS: 0.55X10^9/L, immunoglobulin E: 4988 IU/mL. Further specific IgE concentrations were obtained: Aspergillus fumigatus 15.30 KUA/L, Alternaria 1.34 KUA/L, house dust mix 1.29, mold mix 3.82, animal dander mix 0.67; PFT (Figure 7): pulmonary ventilatory function was basically normal, carbon monoxide diffusing capacity was basically normal, bronchodilator test was negative, FeNO 162 ppb. On Day +61, bronchoscopy was performed again (Figure 8): a large amount of yellow purulent secretions was seen in the left main bronchus and lingular segment of the left upper lobe and was suctioned; a large amount of yellow purulent secretions obstructing the lumen was seen in the left lower lobe bronchus, and after suctioning, hyperemia and swelling of the bronchial mucosa were seen, with no neoplasm observed. Bronchoscopic sputum suction was sent for sputum culture, which showed: Aspergillus flavus: 1+, viridans streptococci: 1+, Neisseria: 1+, filamentous fungi: 1+.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRN0Z1pe9b6xqHJHeOAvJpHqsw6V2l8xvEiaibhMd5JgDicibJhPaiaa3wgMg/640?wx_fmt=png",
+          "near_text": "Figure 7: Pulmonary function testing at Zhongshan Hospital, Fudan University.",
+          "local_src": "cleaned_cases_image_cache/e44e8f2f57bea15e3a9100cfedc156d5283447ee.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRTn4JuSTxD60VfqtxrqmArHnh77WUV5sHC7O2hAcqPe0Rl8MgSwYeaA/640?wx_fmt=png",
+          "near_text": "Figure 8: Second bronchoscopy on Day +61.",
+          "local_src": "cleaned_cases_image_cache/252385d8129a2a486b57b4662949aa96b86c6186.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRoxxibB0GKIKBoUWW0uVg7Q8Q8Nhteicev0Gg6libDBTEfRoOIa6TGBXRQ/640?wx_fmt=png",
+          "near_text": "Figure 8: Second bronchoscopy on Day +61.",
+          "local_src": "cleaned_cases_image_cache/1eeed2df67ddd49bd4625b4c59a4e2477db32ff2.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRRSKaoOHiaNJWoXozOhylWT8qpWB0A1eK4zA6J1GcUSicp6sGU19F68icCw/640?wx_fmt=png",
+          "near_text": "Figure 8: Second bronchoscopy on Day +61.",
+          "local_src": "cleaned_cases_image_cache/9e5d0411d852cbd039c8e4019c1ac4a93315ac1f.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRR9piakI59GM6D9gLlpgGs1CiaUPWJ5jicDWvtKzhN0x0k7x7K3fts5VWiag/640?wx_fmt=png",
+          "near_text": "Review Figure 6 again: CT before the patient's second bronchoscopy on Day +56.",
+          "local_src": "cleaned_cases_image_cache/86fae9977473ef6e8a90436ad138dcf73464e214.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKE7GseTC9QYKzc5RmxSuRR2PCN02swTPFC8psMAjFiaibEnwAI6OAyvj4jMnZrGd8qGkyB9n2ibricKw/640?wx_fmt=png",
+          "near_text": "Figure 9: Follow-up HRCT on Day +82",
+          "local_src": "cleaned_cases_image_cache/962061311927fa784ac0339d304804fe595ed50d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Allergic bronchopulmonary aspergillosis",
+      "diagnostic_basis": [
+        "Recurrent cough, with expectoration of yellow-brown gelatinous sputum during the course of the illness",
+        "Total IgE, Aspergillus-specific IgE, and EOS are all elevated",
+        "FeNO level markedly elevated",
+        "Imaging features (bronchiectasis, finger-in-glove sign)",
+        "Sputum culture result (Aspergillus flavus positive)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prednisone acetate tablets 30 mg qd for anti-inflammatory treatment",
+        "Itraconazole 0.2 g bid antifungal therapy",
+        "Anti-infective and symptomatic treatment"
+      ],
+      "treatment_response": [
+        "On Day +82, the patient was readmitted for follow-up evaluation: EOS 0.3X10^9/L, immunoglobulin E: 3686 IU/ml, CRP normal",
+        "Chest HRCT (Figure 9): a small amount of inflammatory change in the left lower lung, with obvious absorption compared with 04-01; small nodule and small GGO in the left lung; a small amount of chronic inflammation in both lungs; mild emphysema",
+        "The patient reported that cough and sputum production were significantly reduced compared with before; the condition was assessed as improved compared with before.",
+        "Reduce the corticosteroid dose to 25 mg qd, continue itraconazole 0.2 g bid for antifungal treatment, with regular follow-up."
+      ]
+    }
+  }
+}

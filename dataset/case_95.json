@@ -1,0 +1,474 @@
+{
+  "status": "success",
+  "case_id": "case_95",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Female, 34 years old, homemaker, chief complaint: \"recurrent left-sided chest pain for 2 months\"; admitted on Day 0 to the Department of Pulmonary and Critical Care Medicine, inpatient ward, Sir Run Run Shaw Hospital, Zhejiang Province.\nHistory of present illness: The patient developed left-sided chest pain 2 months before admission without an obvious precipitating cause. It worsened with activity, but was not severe and was tolerable. There was no radiation of pain elsewhere, no cough or sputum production, no chest tightness or shortness of breath, no fever or chills, no abdominal pain or diarrhea, and no rash or joint swelling/pain. The patient previously underwent lung CT at a local hospital, which showed a small amount of infectious lesions in the right middle lobe and left lower lobe. She received oral antibiotic anti-infective treatment (details unknown), but the chest pain did not improve and instead gradually worsened. On Day -3, the patient underwent PET-CT at the local hospital, which suggested: \"destruction of the left 7th rib with SUV 7.1, accompanied by surrounding soft tissue swelling and increased FDG metabolism; multiple lesions in the left lower lobe (SUV 3.3), with increased FDG metabolism in some lesions; Langerhans cell histiocytosis or tuberculosis considered possible; MT not excluded.\"\nPast medical history: History of allergic rhinitis, not regularly evaluated or treated. Denies history of infectious diseases such as pulmonary tuberculosis.\nPersonal history: Born and living in Jinyun County, a mountainous area of Zhejiang; no history of exposure to dust or radioactive substances; no smoking or alcohol use.\nFamily history: Denies family history of hereditary diseases or infectious diseases; no similar cases in the family.\nPhysical examination: Temperature (ear): 35.9℃; pulse: 80 beats/minute; respiratory rate: 20 breaths/minute; blood pressure: 101/61 mmHg. The patient was alert, appeared fatigued, with no jaundice of the skin or sclera, rash, or petechiae. No enlarged superficial lymph nodes were palpable. No cyanosis of the lips, no jugular venous distention. Thorax symmetric, with tenderness of the left chest wall. Breath sounds were coarse bilaterally, with no obvious dry or wet rales. Cardiac and abdominal examinations were unremarkable. No clubbing and no joint swelling. Neurologic examination was negative.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Osseous TB (left 7th rib) with pulmonary TB",
+          "supporting_evidence": [
+            "PET-CT showed \"destruction of the left 7th rib with SUV 7.1 accompanied by surrounding soft tissue swelling and increased FDG metabolism; multiple lesions in the left lower lobe (SUV 3.3), with increased FDG metabolism in some lesions\"",
+            "The PET-CT report clearly indicated: \"Consider Langerhans cell histiocytosis or TB; MT cannot be excluded.\"",
+            "Chest pain lasting 2 months, with tenderness of the left chest wall, consistent with a focal lesion of the rib or chest wall",
+            "After oral antibiotic anti-infective treatment, the chest pain did not improve and instead gradually worsened, which does not support ordinary bacterial pulmonary infection; special infections such as TB should be considered."
+          ],
+          "opposing_evidence": [
+            "Denies a history of TB or other infectious diseases",
+            "No cough or sputum production, no fever or chills, no chest tightness or shortness of breath",
+            "On physical examination, no enlargement of superficial lymph nodes was palpable throughout the body."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Langerhans cell histiocytosis (lung and rib involvement)",
+          "supporting_evidence": [
+            "The PET-CT report clearly indicated: \"Consider Langerhans cell histiocytosis or TB; MT cannot be excluded.\"",
+            "There is osseous destruction of the left 7th rib with surrounding soft tissue swelling, along with multiple lesions in the left lower lobe, consistent with manifestations of a systemic disease that can involve both bone and lung.",
+            "The patient is young, 34 years old",
+            "Symptoms worsened rather than improved after antibiotic treatment, which does not support a simple common infection."
+          ],
+          "opposing_evidence": [
+            "No smoking or alcohol use; adult pulmonary Langerhans cell histiocytosis is often associated with smoking",
+            "No rash, no superficial lymphadenopathy, and no clues to involvement of other systems were found in the first stage.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Metastatic malignant tumor (chest wall/rib metastases with intrapulmonary lesion)",
+          "supporting_evidence": [
+            "PET-CT showed destruction of the left 7th rib with surrounding soft tissue swelling and increased FDG metabolism, suggesting a possible malignant lesion.",
+            "Multiple lesions in the left lower lobe of the lung, with increased FDG uptake in some lesions, suggesting multifocal disease; intrapulmonary metastases or a primary malignant tumor with metastases should be considered.",
+            "Chest pain gradually worsened, with localized tenderness, consistent with manifestations of an osteolytic destructive lesion",
+            "The PET-CT report mentioned \"MT cannot be excluded\""
+          ],
+          "opposing_evidence": [
+            "The patient is 34 years old, and the overall baseline probability of malignancy is relatively lower than in middle-aged and older adults.",
+            "No description of obvious weight loss, fever, night sweats, or other systemic constitutional symptoms",
+            "No enlargement of superficial lymph nodes was palpable throughout the body",
+            "No tobacco or alcohol use"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Primary chest wall/rib tumor (such as Ewing sarcoma, chondrosarcoma, osteosarcoma, or other primary bone tumors)",
+          "supporting_evidence": [
+            "Destruction of the left 7th rib with surrounding soft tissue swelling, an imaging finding that can be seen in primary bone tumors or chest wall tumors",
+            "There is tenderness of the left chest wall. The chief complaint is recurrent left-sided chest pain for 2 months, suggesting the possibility of a localized chest wall lesion.",
+            "Increased FDG uptake in the local lesion, supporting a neoplastic or hypermetabolic lesion"
+          ],
+          "opposing_evidence": [
+            "There are also multiple lesions in the left lower lobe of the lung; a solitary primary rib tumor cannot fully explain the multiple intrapulmonary lesions.",
+            "No visible chest wall mass described",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Chronic osteomyelitis of the ribs/chest wall infection (pyogenic or due to atypical pathogens) with pulmonary infectious lesions",
+          "supporting_evidence": [
+            "Destruction of the left 7th rib with surrounding soft tissue swelling, which may be seen in osteomyelitis or chest wall infection",
+            "Multiple lesions in the left lower lobe may be associated with infectious lesions",
+            "At a local hospital, the patient's chest CT was considered to show 'a small amount of infectious lesions in the right middle lobe and left lower lobe of the lung'"
+          ],
+          "opposing_evidence": [
+            "No fever or chills, no cough or sputum production",
+            "After oral antibiotic anti-infective treatment, the chest pain symptoms did not improve but instead gradually worsened, which does not support common bacterial infection.",
+            "Physical examination: no obvious dry or moist rales were heard."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Fungal infection involving the lung and ribs/chest wall",
+          "supporting_evidence": [
+            "Multiple pulmonary lesions with rib osseous destruction and surrounding soft tissue swelling may be seen in some invasive or chronic fungal infections",
+            "Routine oral antibiotic treatment was ineffective, suggesting that non-common bacterial pathogens should be considered.",
+            "PET-CT showed increased metabolic activity in the lesion, which can also be seen in infectious granulomatous lesions"
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was no description of high-risk factors for fungal infection such as immunosuppression, diabetes mellitus, or long-term corticosteroid use.",
+            "No fever or chills, no obvious respiratory symptoms",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Preoperative immunotherapy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "IgE",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunoglobulins, C3, C4",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Stool routine and occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Complete thyroid function panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Female tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "vasculitis antibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "antinuclear antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "IgG4",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Rheumatoid arthritis-related",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antiphospholipid syndrome",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Free KAPLAM",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoscopy, bronchoalveolar lavage fluid smear, bacterial culture, and other related examinations",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thyroid color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Breast ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the liver, gallbladder, spleen, and pancreas",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Adrenal gland color Doppler ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinary system color Doppler ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "transvaginal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Gastroscopy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "colonoscopy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT of the maxilla and mandible",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Contrast-enhanced brain MRI",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests:\n1. Routine tests: CBC: absolute eosinophil count 0.61x10^9/L, white blood cell count 8.4x10^9/L, platelet count 214x10^9/L, hemoglobin 125 g/L. Urinalysis: urine specific gravity 1.032. Coagulation function: D-Di: D-dimer 0.53 μg/mL, thrombin time 18.8 s. Preoperative immunology: quantitative hepatitis B surface antigen 1.35 IU/mL, hepatitis B core antibody 7.89 S/CO. IgE: 716.00 IU/mL. Immunoglobulins, C3, C4: immunoglobulin IgG 18.40 g/L. Stool routine test and fecal occult blood, biochemistry, ESR, complete thyroid function panel, and female tumor markers were all negative. Vasculitis antibodies, ANA, IgG4, rheumatoid series, antiphospholipid syndrome, free KAPLAM, free KAPLAM were all negative. Blood T-SPOT and G test were negative.\n2. Bronchoscopy, bronchoalveolar lavage fluid smear and bacterial culture, and related tests: BALF NGS: Streptococcus genus 984 reads, Neisseria 968 reads, Prevotella genus 418 reads, Rothia genus 295 reads. Bronchoscopy: no obvious abnormality seen. Fungal examination by bronchoscopy: negative. Acid-fast stain of bronchoscopic brushings: (bronchoscopic brushings) negative (-). GM test of lavage fluid: 0.240 ug/L. Lavage fluid Gram stain: bacteria Gram- lavage fluid G+ cocci PMN 1+. TBNK lymphocyte panel: white blood cell count 13.9x10^9/L, B lymphocytes CD19+ 20.76%. Sputum eosinophil count: sputum eosinophils 39%. Fluorescent fungal stain and acid-fast stain: negative. Bronchoscopic culture: negative. (Bronchoscopic brushings) no definite malignant tumor cells found.\nContrast-enhanced chest CT (Day +2): soft tissue shadow adjacent to the left 7th rib with bone destruction. Nodular lesions in both lungs, the largest approximately 12×7 mm, with clear borders. Inflammatory lesions in the right middle lobe and left lower lobe.\nOther examinations: PFT: normal ventilatory function. Thyroid ultrasound: multiple lymph nodes detected in both sides of the neck. Echocardiography: mild tricuspid, mitral, and aortic regurgitation. Breast ultrasound: bilateral mammary gland hyperplasia; multiple hypoechoic nodules in both breasts, considered cysts with poor through-transmission. Liver/gallbladder/spleen/pancreas ultrasound: 1. intrahepatic lipid deposition, 2. gallbladder polyp. Adrenal ultrasound, urinary system ultrasound, and transvaginal ultrasound showed no abnormalities. Gastroscopy: chronic non-atrophic gastritis with erosions, predominantly in the gastric antrum. Gastroscopy pathology: (posterior wall of the gastric antrum) antral mucosa, chronic mild superficial inflammation, Helicobacter pylori: negative. Colonoscopy: multiple diverticula in the ileocecal region and ascending colon. CT of the maxilla and mandible showed no obvious abnormality. Contrast-enhanced brain MRI: slight thickening and enhancement of part of the dura mater.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2uViaZ7BJHZwZm0oOXKN4DyOzw4yao9dp5eMlMETxiatcagibodOhlFoWQA/640?wx_fmt=png",
+            "near_text": "Figure 1: (lung window) Contrast-enhanced chest CT showed a soft tissue opacity adjacent to the left 7th rib with osseous destruction",
+            "local_src": "cleaned_cases_image_cache/69866fa16fdb891dc5ca6a55e6a8fad7e003274e.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2udnL8jl2YAqCTI8nCIc1usYVaAMVCRbExjTL9voMzIw4TcxecpaFLcg/640?wx_fmt=png",
+            "near_text": "Figure 2: (mediastinal window) contrast-enhanced chest CT showed a left paracostal soft tissue lesion at the 7th rib with adjacent bone destruction",
+            "local_src": "cleaned_cases_image_cache/c8b53f8a99a3bde72d7add223f4fa26dac4a874d.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2u9cUicAKYmicFYhnXBhlStnxt5WEn8sb7QEu6Yxrbk8uYD54bjIeyB1ibg/640?wx_fmt=png",
+            "near_text": "Figure 3: (bone window) contrast-enhanced chest CT shows a left paravertebral soft tissue density at the 7th rib with osseous destruction",
+            "local_src": "cleaned_cases_image_cache/efcbed3256a28b81fac52ddcf7a062c945c3d2d3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious diseases (such as TB and other necrotizing inflammation)",
+            "evidence": [
+              "Bone destruction can explain the patient's clinical symptom of chest pain."
+            ],
+            "exclusion_reasons": [
+              "No specific pathogens were detected by NGS of bronchoalveolar lavage fluid.",
+              "Routine bacteriological results cannot explain the patient's pulmonary nodules with bone destruction."
+            ]
+          },
+          {
+            "name": "Acute noninfectious inflammatory diseases (such as necrotizing granulomatous vasculitis)",
+            "evidence": [
+              "Bone destruction can explain the patient's clinical symptom of chest pain."
+            ],
+            "exclusion_reasons": [
+              "Connective tissue disease- and vasculitis-related antibody screening negative"
+            ]
+          },
+          {
+            "name": "Lymphoma, metastatic malignant solid tumor",
+            "evidence": [
+              "Bone destruction can explain the patient's clinical symptom of chest pain."
+            ],
+            "exclusion_reasons": [
+              "All tumor workups were negative"
+            ]
+          },
+          {
+            "name": "Langerhans cell histiocytosis",
+            "evidence": [
+              "Bone destruction can explain the patient's clinical symptom of chest pain."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Allergic rhinitis",
+            "evidence": [],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious diseases (such as TB and other necrotizing inflammation)",
+        "evidence": [
+          "Bone destruction can explain the patient's clinical symptom of chest pain."
+        ],
+        "exclusion_reasons": [
+          "No specific pathogens were detected by NGS of bronchoalveolar lavage fluid.",
+          "Routine bacteriological results cannot explain the patient's pulmonary nodules with bone destruction."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Acute noninfectious inflammatory diseases (such as necrotizing granulomatous vasculitis)",
+        "evidence": [
+          "Bone destruction can explain the patient's clinical symptom of chest pain."
+        ],
+        "exclusion_reasons": [
+          "Connective tissue disease- and vasculitis-related antibody screening negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphoma, metastatic malignant solid tumor",
+        "evidence": [
+          "Bone destruction can explain the patient's clinical symptom of chest pain."
+        ],
+        "exclusion_reasons": [
+          "All tumor workups were negative"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Langerhans cell histiocytosis",
+        "evidence": [
+          "Bone destruction can explain the patient's clinical symptom of chest pain."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Allergic rhinitis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Lung puncture",
+          "basis_in_stage3_input": "On Day +3, a lung biopsy was performed on the patient, and the pathology specimen and NGS pathogen testing were submitted.",
+          "why_order_this_exam": "The patient presented primarily with recurrent left-sided chest pain for 2 months. Imaging successively showed bony destruction of the left 7th rib with surrounding soft tissue swelling, bilateral pulmonary nodules, and inflammatory lesions; PET-CT showed increased metabolic activity, and conventional anti-infective therapy was ineffective. Previous bronchoscopy, lavage fluid pathogen testing, cytology, and multiple serologic screenings were all unable to explain the cause of \"pulmonary nodules with concomitant bone destruction\"; infection, tumor, Langerhans cell histiocytosis, and eosinophilic-related disease had all not been excluded. The purpose of lung puncture was to directly obtain tissue from the pulmonary lesions to determine whether the pulmonary nodules represented inflammation, special infection, neoplastic lesions, or histiocytic proliferative lesions, and to provide specimens for subsequent pathology and pathogen testing, thereby deciding whether to continue anti-infective therapy, immunotherapy, surgical tissue sampling, or follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology",
+          "basis_in_stage3_input": "On Day +3, a lung biopsy was performed on the patient, and the pathology specimen and NGS pathogen testing were submitted.",
+          "why_order_this_exam": "The core clinical issue in this case is to determine whether the pulmonary nodules and rib destruction are part of the same disease process. The patient is young, but PET-CT showed increased metabolic activity in the rib destruction and multiple intrapulmonary lesions, so the differential diagnosis should focus on malignancy, Langerhans cell histiocytosis, TB, or other granulomatous inflammation. Pathologic examination allows direct observation of histologic morphology to determine whether malignant cells, granulomas, necrosis, eosinophilic inflammation, organizing changes, or histiocytic proliferation are present. It is the key basis for confirming or excluding tumor and various inflammatory diseases, and also determines whether further expanded tissue sampling, immunohistochemistry, or surgical resection of the lesion is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NGS pathogen",
+          "basis_in_stage3_input": "On Day +3, a lung biopsy was performed on the patient, and the pathology specimen and NGS pathogen testing were submitted.",
+          "why_order_this_exam": "The patient's pulmonary lesions and rib destruction remained unexplained after routine evaluation, and oral anti-infective therapy was ineffective; special pathogens that are difficult to detect by routine culture and lavage fluid testing need to be ruled out. Previous blood T-SPOT, G test, fungal and acid-fast testing, bronchoscopy culture, etc. did not provide a clear direction. Therefore, performing pathogen NGS on lung biopsy tissue would help improve the detection rate of parasites, mycobacteria, fungi, and rare bacteria, address the key question of whether a special infection is present, and simultaneously help explain clues such as increased eosinophils in peripheral blood and sputum and elevated total IgE, while avoiding misdiagnosis as tumor or vasculitis based solely on imaging.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT suggests a pulmonary nodule",
+          "why_order_this_exam": "The patient presented with chest pain, and PET-CT had already indicated multiple lesions in the left lower lobe and destruction of the left 7th rib. Chest CT was used for a more detailed assessment of the morphology and distribution of the pulmonary nodules, inflammatory lesions, and chest wall lesions, as well as their relationship to the rib lesion. The purpose of this examination was to determine whether the intrapulmonary lesions were more suggestive of infection, metastatic tumor, Langerhans cell histiocytosis-related lesions, or other inflammatory nodules, and to provide a localization basis for subsequent bronchoscopy, percutaneous lung biopsy, and treatment response follow-up. In this case, the pulmonary nodules identified on chest CT indicated that the disease was no longer limited to simple chest wall pain or an isolated rib lesion, but suggested the possible presence of systemic or multifocal disease; therefore, this examination was of important value for the diagnostic approach and selection of the biopsy site.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "stool ova examination",
+          "basis_in_stage3_input": "Stool examination for ova and blood testing for parasite antibodies, among other investigations, together with colonoscopy, showed no evidence of parasitic infection.",
+          "why_order_this_exam": "After NGS of the lung biopsy tissue detected Schistosoma japonicum sequences, the possibility of true parasitic infection must be reassessed in conjunction with the clinical findings. Although the patient has increased eosinophils in peripheral blood and sputum, elevated IgE, and pulmonary nodules, there is no fever, hepatosplenomegaly, abdominal pain or diarrhea, hepatointestinal involvement, or history of contact with infested water. Therefore, stool examination for ova is one of the most direct parasitologic pieces of evidence for determining whether intestinal oviposition and active schistosomiasis are present. The clinical significance of this test is to verify whether the NGS result has etiologic support, help distinguish true parasitic infection from test contamination or a bystander signal, and avoid inappropriate antiparasitic treatment in the absence of supporting evidence.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood sent for parasite antibody testing",
+          "basis_in_stage3_input": "Stool examination for ova and blood testing for parasite antibodies, among other investigations, together with colonoscopy, showed no evidence of parasitic infection.",
+          "why_order_this_exam": "Because lung tissue NGS suggested Schistosoma japonicum, and the patient had elevated eosinophils and IgE, sending blood for parasite antibodies is an important supplementary serologic confirmation of parasitic infection. This test mainly addresses whether the tissue NGS result is consistent with the overall clinical picture: if the antibody is positive, it can increase the credibility of parasite exposure or infection; if negative, then in combination with no history of contact with infested water, no hepatic or intestinal involvement, and subsequent negative test results, it can substantially weaken the diagnosis of pulmonary schistosomiasis. This test plays a key role in excluding false-positive clues and avoiding mistaking a chest wall lesion that truly requires surgical biopsy for parasitic infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Colonoscopy",
+          "basis_in_stage3_input": "Stool examination for ova and blood testing for parasite antibodies, among other investigations, together with colonoscopy, showed no evidence of parasitic infection.",
+          "why_order_this_exam": "If parasitic infection such as schistosomiasis is being considered, the intestine is often one of the important involved sites. NGS of the patient's lung tissue detected Schistosoma japonicum sequences, but there were no typical clinical manifestations of parasitic disease; therefore, colonoscopy was performed to look for colorectal mucosal lesions, egg deposition, or other evidence supporting parasitic infection, while also ruling out other intestinal diseases that could explain the eosinophilia. In this case, colonoscopy combined with stool ova and parasite testing and parasite antibody testing did not support parasitic infection, greatly limiting the clinical interpretation of the lung NGS result and thereby helping clinicians refocus the diagnostic workup on histologic confirmation of the rib lesion.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "vasculitis antibodies",
+          "basis_in_stage3_input": "Findings not supporting this diagnosis: vasculitis antibodies negative, with no other systemic involvement such as renal involvement or skin purpura.",
+          "why_order_this_exam": "The patient had mild eosinophilia, elevated total IgE, a history of allergic rhinitis, and pulmonary nodules. These findings had suggested the need to differentiate vasculitic diseases such as allergic granulomatous angiitis. At the same time, routine infection and tumor screening were at one point inconclusive, so vasculitis naturally became an important differential diagnostic consideration. The purpose of ordering vasculitis antibodies was to assess whether immune-mediated diseases such as ANCA-associated vasculitis were present, in order to explain the pulmonary nodules, inflammatory changes, and systemic abnormal immune clues, and to provide a basis for whether glucocorticoid or immunosuppressive therapy would be needed. The results were negative, and the patient had no renal involvement, skin purpura, or typical asthma manifestations, making the evidence for a diagnosis of vasculitis insufficient and avoiding premature immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paracostal soft tissue needle biopsy pathology",
+          "basis_in_stage3_input": "Pathology report from paracostal soft tissue needle biopsy: small amount of fibrous and striated muscle tissue.",
+          "why_order_this_exam": "The patient’s most prominent symptom was left-sided chest pain, and the physical examination showed localized tenderness. Both PET-CT and contrast-enhanced CT demonstrated osseous destruction of the left 7th rib with surrounding soft tissue swelling; therefore, the paracostal soft tissue lesion was actually the primary lesion most likely to explain the symptoms and determine the final diagnosis. After lung biopsy pathology showed no definite malignancy or Langerhans cells, sampling of the chest wall/rib-adjacent soft tissue was required, with the aim of directly determining whether this site contained a tumor, infectious granuloma, histiocytic proliferation, or other specific lesion, and verifying whether the pulmonary abnormalities were only accompanying changes. Although this biopsy yielded only a small amount of fibrous and striated muscle tissue and did not establish a diagnosis, this result suggested inadequate biopsy sampling or failure to target the core lesion, providing a basis for further selection of surgical excisional biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Surgical rib biopsy",
+          "basis_in_stage3_input": "The Infectious Diseases Department considered that the clinical presentation was not consistent with schistosomiasis, and there was an indication for surgical rib biopsy.",
+          "why_order_this_exam": "The reason for further proposing a surgical biopsy of the rib is that there are clear contradictions in the existing evidence: NGS of the lung biopsy detected Schistosoma japonicum, but the patient has no history of exposure to contaminated water, no fever or hepatosplenomegaly, and hepatobiliary and gastrointestinal evaluations provide no supporting evidence; the infectious disease service considers the clinical presentation inconsistent with schistosomiasis. Pulmonary pathology also showed no definite malignancy or Langerhans cells, whereas the rib lesion is the lesion with the highest metabolic activity on imaging and the best match to the symptoms. The core purpose of the surgical biopsy is to obtain high-quality tissue from the primary rib lesion, resolve the problem that the aforementioned tests have clues but no definitive conclusion, and ultimately distinguish among Langerhans cell histiocytosis, malignant tumor, chronic infection, or other inflammatory diseases through pathology and necessary immunohistochemistry. This step is crucial to avoid mistakenly managing the patient as having parasitic infection or nonspecific inflammation, thereby delaying the true diagnosis and treatment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +3, the patient underwent a lung needle biopsy, and specimens were submitted for pathology and pathogen NGS.\nLung needle biopsy NGS: Schistosoma japonicum 38 reads; Escherichia coli 138236 reads; Stenotrophomonas maltophilia 1419 reads; Streptococcus pneumoniae 12 reads; Klebsiella pneumoniae 204 reads; Haemophilus parainfluenzae 27 reads.\nLung needle biopsy pathology: (left lung) lung tissue, with marked inflammatory cell infiltration in the interstitium, atypical cells, and focal organization. No definite malignant cells were identified. No Langerhans cell histiocytosis was identified.\nDifferential diagnosis discussion:\n1. Pulmonary schistosomiasis: Supporting points: increased eosinophils in the peripheral blood and sputum, 38 reads of Schistosoma japonicum on NGS sequencing of lung biopsy tissue, and chest CT showing pulmonary nodules; points against: lack of clinical manifestations of schistosomiasis such as fever and hepatosplenomegaly, and no lesions in the liver or intestines. On further history-taking, the patient had no epidemiologic history such as contact with infested water. Stool examination for ova, blood sent for parasite antibodies, and colonoscopy all provided no evidence of parasitic infection.\n2. Allergic granulomatous angiitis: Supporting points: mildly elevated peripheral blood eosinophils, elevated total IgE, prior history of allergic rhinitis, and pulmonary nodules; points against: vasculitis antibodies negative, no renal involvement, skin purpura, or other systemic involvement. The clinical symptoms of bronchial asthma were atypical. At present, there is insufficient evidence for a diagnosis of vasculitis.\n3. Langerhans cell histiocytosis: Supporting points: rib destruction and increased FDG metabolism; lung needle biopsy showing inflammatory cell infiltration and atypical cells; points against: currently there is no pathologic evidence to support this.\nPathology report of paracostal soft tissue needle biopsy: small amount of fibrous and striated muscle tissue.\nMDT discussion on Day +11: Thoracic surgery recommended surgical resection of the involved rib lesion to establish the diagnosis; hematology recommended that if PLCH is being considered, options included rib resection plus systemic glucocorticoids and radiotherapy, or follow-up observation within 3 months; pathology considered the lung needle biopsy pathology to represent inflammation, with no evidence of malignancy, and that additional tissue sampling was needed; infectious diseases considered the clinical presentation inconsistent with the features of schistosomiasis and that there was an indication for surgical rib biopsy.\nOn Day +14, under general anesthesia, the patient underwent (thoracoscopic) resection of the left rib lesion + thoracoscopic lysis of left pleural adhesions. Intraoperative findings: at the inferior angle of the scapula on the left 7th rib, an osseous mass with bone destruction was seen, approximately 2*1 cm in size, with an intact capsule and relatively clear boundaries from the surrounding tissues.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2uflZrzoG2M9URUrRKBaVAcar7TXNxlP1XibPcD3giaTQIz9ia5g4sRKIIg/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: Histopathology slide",
+          "local_src": "cleaned_cases_image_cache/fed36b3b382c6631cb06b5237e1e38af586cc192.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2uIAb9A395ib8s1icyPedqBVcr5kH0whjknFriapj3QA5mpQ4sjf7TpN1ww/640?wx_fmt=jpeg",
+          "near_text": "Figure 5: Pathology slide",
+          "local_src": "cleaned_cases_image_cache/e303dd5b27d3487e43e42a6e5a2952605c28073f.jpg"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2uRfSf9icChIsln5649B3O6DDNEgQcCGDjdNiazEP3rskJy07WSibzNcwpw/640?wx_fmt=jpeg",
+          "near_text": "Figure 6: CD1a positive",
+          "local_src": "cleaned_cases_image_cache/7403d358e024ccabddc6c957b463af45d64933ba.jpg"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2uLqET4icceOzI8VK2JuJ22IGhJ0Q4yubOxt6X97q2FZGSV4qxnOwH9yA/640?wx_fmt=jpeg",
+          "near_text": "Figure 7: S100 positive",
+          "local_src": "cleaned_cases_image_cache/579ae7663d6b384a459ab18a10baa5a0ae4c5a38.jpg"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKUuW0b3ZWUJJPAlk3b9o2u3oNYZtzl4KhmczRIIAQ8ued2RsSfhX10TMgBZTqMuUu9ZvCHw3bJiaA/640?wx_fmt=png",
+          "near_text": "Figure 8: Patient chest CT on Day +227",
+          "local_src": "cleaned_cases_image_cache/86809d3993bb5bdef3edd134d7b92a2bb2fa18d2.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Langerhans cell histiocytosis",
+      "diagnostic_basis": [
+        "On Day +14, the patient underwent thoracoscopic resection of the left rib lesion and thoracoscopic lysis of left pleural adhesions under general anesthesia. The operation was uneventful. Intraoperative findings: at the inferior angle of the scapula, an osseous mass with bony destruction was seen in the left 7th rib, approximately 2*1 cm in size, with an intact capsule and relatively clear boundaries from the surrounding tissues. Postoperative pathology: CD68/KP-1 (+), CD1a (+), Langerin (-), S-100 (+), CK-pan (-), Langerhans cell histiocytosis (left 7th rib)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Follow-up observation"
+      ],
+      "treatment_response": [
+        "On Day +227, the patient underwent repeat chest CT, which showed: 1. Postoperative changes of the left 7th rib; cortical interruption of the 6th rib, similar to the prior study on Day +102. 2. Postoperative changes of the left lung; slight absorption of inflammatory lesions in both lungs; partial lung atelectasis."
+      ]
+    }
+  }
+}

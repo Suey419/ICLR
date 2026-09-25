@@ -1,0 +1,314 @@
+{
+  "status": "success",
+  "case_id": "case_35",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 38-year-old man from Yichun, Jiangxi, who was admitted to our Department of Pulmonary and Critical Care Medicine on Day 0, with the chief complaint of \"cough and fever for more than 1 month, dyspnea for 3 days.\" Since early period, approximately 1 month before Day 0, he had developed symptoms including \"cough (paroxysmal dry cough, without sputum) and fever in the afternoon and at night\" without any obvious precipitating cause; his highest temperature reached 39.8℃. He was not accompanied by chills or night sweats, and had no discomfort such as chest pain, abdominal pain, or dysuria. After self-administering \"compound cold granules,\" his temperature decreased somewhat, but he continued to have recurrent fever. On Day -29, he presented to a local People's Hospital, where after chest CT and other examinations he was diagnosed with \"bacterial pneumonia\" and was hospitalized for anti-infective treatment (cefoperazone/sulbactam), with no significant improvement in symptoms. On Day -12, he was transferred to our Emergency Department and underwent further relevant examinations; the considerations were: ① pulmonary infection; ② leukopenia; ③ anemia of undetermined cause. After admission, he received sequential anti-infective treatment with \"latamoxef (course of 3 days) and moxifloxacin (course of 6 days),\" and his temperature showed a downward trend, fluctuating between 36.5-37.5℃. However, on Day -3, the patient developed dyspnea, which worsened after activity; he was able to lie flat. He was given anti-infective treatment with \"levofloxacin combined with caspofungin (course of 2 days),\" along with transfusion of packed red blood cells to correct anemia and other treatments, but his condition did not improve significantly. On Day 0, he was transferred to the respiratory ICU. Since disease onset, his appetite and energy had been slightly poor, but sleep, urination, and bowel movements were acceptable; he had lost 5 kg in weight. Past history: In approximately 4 months before Day 0, because of skin lesions on both lower legs, he was diagnosed at a local hospital with bilateral lower-extremity skin \"abscesses\"; after incision and drainage, the skin lesions gradually healed. He denied TB and any history of close contact. He had a smoking history of more than 20 years, 1 pack per day, and occasional alcohol use. Physical examination: temperature 37.5℃, heart rate 113 beats/min, respiratory rate 25 breaths/min, blood pressure 117/68 mmHg; acute ill appearance; no obvious enlargement of superficial lymph nodes palpable throughout the body; 2 papules approximately 0.4 cm × 0.4 cm were visible on the left side of the face, without redness, swelling, warmth, or pain, with a fluctuant sensation on palpation; thorax symmetrical; coarse breath sounds in both lungs, with no obvious rales heard; heart rate 113 beats/min, regular rhythm, with no obvious abnormal heart sounds or cardiac murmurs heard; multiple scars were visible on the skin of both lower extremities; no clubbing of the fingers/toes was seen. Laboratory examinations: CBC (Day -1): WBC 2.8×10^9/L, Hb 67 g/L, PLT 238×10^9/L, neutrophils 71%; urinalysis normal; stool + OB negative. Liver function: ALB 26.2 g/L; renal function normal; no obvious abnormality in myocardial enzymes. CRP 126 mg/L, ESR 120 mm/h; PCT 0.53 ng/ml. Rheumatologic and immunologic panel, ANCA, vasculitis panel, lupus panel, and ANA profile were negative; tumor marker panel (7 items) negative. Viral panel, respiratory pathogen nine-panel test, cytomegalovirus DNA, parasite panel, TB antibody, TB T-SPOT, GM/G test, and the 4 pre-transfusion tests were negative. Sputum smear acid-fast staining and blood cultures were negative. Bone marrow aspiration cytology showed decreased bone marrow proliferation, decreased granulocytic series, increased erythroid series, and normal megakaryocytes and platelet distribution. Comparison of 3 chest CT scans before admission (Day -15; Day -11; Day -1) showed diffuse bilateral lung lesions, with increased lesions in the middle and outer zones compared with before, with infection considered highly likely. Fiberoptic bronchoscopy showed bronchial inflammation; BALF bacterial and fungal cultures were negative.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGqVDiarOonQAHx8VLbFb3pwnMB9g6gBv4n8sQnYb66OCbUvfq54cCKohyz0MLwkJyKdSgicCCtqPA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (from top to bottom: Day -15; Day -11; Day -1)",
+          "local_src": "cleaned_cases_image_cache/1d37e7a15b481c3e1f1f466340f95ade94aa7a83.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGqVDiarOonQAHx8VLbFb3ppMGialxvibyPzXiamJGpibDOw9y1BP9WaSiclLEqREWpaibd7QXKialfvQiaEQ/640?wx_fmt=png",
+          "near_text": "Figure 2: Bronchoscopy",
+          "local_src": "cleaned_cases_image_cache/d26325cd777daee99fccd02b36922734668b976d.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis pneumonia (PJP)",
+          "supporting_evidence": [
+            "The first-stage text suggests a subacute onset, manifested by \"cough (paroxysmal dry cough, no sputum),\" \"fever for more than 1 month,\" and \"dyspnea for 3 days,\" which is consistent with the common manifestations of PJP: dry cough, fever, and progressive dyspnea.",
+            "The first-stage text indicates that after multiple antimicrobial treatments, there was 'no significant improvement in the condition,' suggesting that conventional bacterial pneumonia is an insufficient explanation.",
+            "The first-stage text notes leukopenia (WBC 2.8×10^9/L), anemia (Hb 67g/L), and hypoalbuminemia (ALB 26.2g/L), suggesting an underlying condition of impaired host defense.",
+            "The first-stage chest CT images show diffuse bilateral lung lesions, with multiple bilateral patchy/ground-glass opacities, and the text notes, \"increased lesions in the middle and outer zones compared with before,\" which is consistent with the diffuse bilateral pulmonary infiltrates seen in PJP.",
+            "In the first stage, bronchoscopy showed only \"bronchial inflammation\"; bacterial and fungal cultures of BALF were negative, which is consistent with the characteristic that routine cultures often do not readily detect opportunistic infections."
+          ],
+          "opposing_evidence": [
+            "In the first-stage information, no definite history of HIV infection, long-term corticosteroid use, or immunosuppressant use was provided",
+            "The phase 1 text indicates that the GM/G tests are negative; although PJP cannot be completely excluded, there is limited support for fungal/opportunistic infection.",
+            "The imaging in the first stage was described as \"diffuse bilateral lung lesions, with an increased number of lesions in the middle and outer zones compared with before,\" and did not explicitly describe the typical extensive symmetric ground-glass opacities."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Hematogenous disseminated pulmonary infection/septic pulmonary embolism (e.g., Staphylococcus aureus-associated)",
+          "supporting_evidence": [
+            "The past history in the first stage indicated that in approximately 4 months before Day 0 there had been a \"skin lesion on both lower legs\" and it was diagnosed as an \"abscess\". On the current physical examination, \"2 papules approximately 0.4 cm × 0.4 cm were visible on the left side of the face, without redness, swelling, warmth, or pain, with fluctuation on palpation,\" suggesting the possibility of a suppurative skin and soft tissue lesion or a disseminated focus.",
+            "Chest CT images in the first stage showed multiple bilateral pulmonary lesions, some located in the middle-to-outer zones/periphery, consistent with the distribution pattern of multiple nodules/patchy opacities seen in hematogenous disseminated pulmonary infection or septic pulmonary emboli.",
+            "Phase 1 text indicates high fever (maximum 39.8℃), CRP 126 mg/L, ESR 120 mm/h, supporting a marked inflammatory response.",
+            "Poor response to multiple anti-infective regimens in the first stage suggests that this may not be typical community-acquired pneumonia, and persistent disseminated infection of bloodstream origin should be considered.",
+            "In the first stage, bronchoscopy showed only bronchial inflammation, suggesting that the lesion may not have originated primarily from infection within the bronchial lumen."
+          ],
+          "opposing_evidence": [
+            "First-stage blood culture negative",
+            "During the first-stage physical examination, 'no obvious abnormal heart sounds or cardiac murmurs were auscultated,' with no direct clues to infective endocarditis.",
+            "Stage 1 information did not describe typical cavitation, wedge-shaped infarct lesions, or pleuritic chest pain."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Disseminated/smear-negative pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The first phase of the illness lasted for more than 1 month and was characterized by afternoon and രാത്രurnal fever, dry cough, and a 5 kg weight loss, consistent with the common subacute consumptive course of TB",
+            "In the first stage, chest CT images and the written report indicated \"diffuse bilateral pulmonary lesions,\" and 3 consecutive CT scans showed progression of the lesions; TB can present as diffuse disseminated bilateral pulmonary lesions.",
+            "Poor response to first-stage conventional antibacterial therapy suggests the need to consider pathogens other than common bacteria.",
+            "In the first stage, anemia, hypoalbuminemia, and markedly elevated ESR may be seen in chronic wasting infection."
+          ],
+          "opposing_evidence": [
+            "Stage 1 clarified: \"denied TB and history of close contact\"",
+            "Phase 1: \"without chills or night sweats\"",
+            "In the first stage, TB antibody and TB T-SPOT were negative, and sputum smear acid-fast staining was negative.",
+            "The phase 1 imaging report text did not explicitly describe typical miliary nodules or an upper-lung-predominant distribution."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Invasive pulmonary fungal disease (Aspergillus, Cryptococcus, etc.)",
+          "supporting_evidence": [
+            "The first stage indicated leukopenia, anemia, and hypoalbuminemia, with a background predisposing to invasive fungal infection.",
+            "In the first stage, the clinical manifestations were persistent high fever, dry cough, and dyspnea, with no significant improvement after multiple antibacterial treatments.",
+            "On chest CT images in the first stage, multiple diffuse patchy/nodular lesions are visible in both lungs with progressive increase, consistent with the manifestation of multifocal intrapulmonary lesions that can be seen in invasive fungal infection.",
+            "In the first stage, the facial papules had fluctuation on palpation, and the history of skin abscesses suggests that the possibility of extrapulmonary cutaneous lesions and fungal dissemination should also be considered.",
+            "Negative BALF bacterial and fungal cultures in the initial stage cannot completely exclude invasive fungal disease"
+          ],
+          "opposing_evidence": [
+            "Phase 1 GM/G test negative",
+            "Phase I BALF fungal culture negative",
+            "After the first stage of treatment with levofloxacin combined with caspofungin (2-day course), there was no significant improvement in the condition, but the treatment course was short and the evidence is limited."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The first phase was characterized by a subacute onset of dry cough, fever, and dyspnea, consistent with the common clinical course of organizing pneumonia.",
+            "Stage 1 chest CT images and report indicate diffuse, persistent progressive patchy lesions in both lungs, which can be seen in organizing pneumonia",
+            "During the first stage, routine etiologic examinations were mostly negative, including negative blood cultures, sputum acid-fast staining, and BALF bacterial and fungal cultures.",
+            "In the first phase, the increase in PCT to 0.53 ng/ml was relatively limited and not entirely consistent with severe typical bacterial infection."
+          ],
+          "opposing_evidence": [
+            "In the first stage, CRP was 126 mg/L and ESR was 120 mm/h, indicating a relatively severe inflammatory response; infectious etiologies should be considered first.",
+            "In the first stage, there were leukopenia, marked anemia, and facial papules with fluctuation, suggesting a possible underlying systemic infection or hematologic disease, which cannot be explained solely by organizing pneumonia.",
+            "The phase 1 imaging did not provide specific clues such as a typical reversed halo sign or migratory consolidation in the subpleural or peribronchovascular regions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary involvement due to ANCA-associated vasculitis or other systemic inflammatory diseases",
+          "supporting_evidence": [
+            "In the first stage, there were fever, anemia, diffuse bilateral pulmonary lesions, and skin involvement (facial papules, multiple scars on both lower extremities), suggesting the possibility of a systemic disease involving the lungs and skin.",
+            "Poor response to multiple anti-infective treatments in the first stage suggests that noninfectious inflammatory diseases should be included in the differential diagnosis.",
+            "Stage 1 chest CT images showed multiple diffuse lesions in both lungs; vasculitis may present as multiple nodules, patchy opacities, or diffuse infiltrates."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the comprehensive rheumatology and immunology panel, ANCA, the three-item vasculitis panel, the comprehensive lupus panel, and the ANA profile were negative.",
+            "In the first stage, urinalysis was normal, not supporting the common presentation of pulmonary-renal syndrome.",
+            "In the first stage, there were no more typical clues to vasculitis such as hemoptysis, sinus symptoms, or chest pain."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Further search for etiologic evidence",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung needle biopsy for lung tissue pathological examination (special stains) and tissue culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow cell chromosome analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow genetic testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CT-guided percutaneous lung biopsy pathology (right upper lobe): Two core lung biopsy tissue samples were submitted. Alveolar architecture is present, with widened and fibrotic alveolar septa. There is abundant fibrinous exudate within the alveolar spaces, with early organization changes. In addition, a small number of lymphocytes and macrophages are seen. No granulomatous lesion is identified. Findings favor an inflammatory lesion with early organization. Special stain results: acid-fast stain (-), PAS (-), Gomori methenamine silver stain (-). Culture of the lung biopsy tissue was negative. Bone marrow chromosome and gene testing: bone marrow FISH: 7q-, +8. TCRB gene deletion is present. Bone marrow karyotype result reported that all 6 mitotic figures showed +8.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGqVDiarOonQAHx8VLbFb3pEGxAzCtZQ9yqygmXoqw5nCrEeNlK8TkjqMtdKgq4aFgahdaibGY5iaiaA/640?wx_fmt=png",
+            "near_text": "Figure 3: Differential diagnostic workflow for infectious and noninfectious lung diseases",
+            "local_src": "cleaned_cases_image_cache/ecdcb662ed6e07ce334f12923dc119ce4efce672.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGqVDiarOonQAHx8VLbFb3pjgYyACrib0Dibtib5gXQEMzy5EvOQJia302Ic6mpmp1ZMwLTarRrbxKQqA/640?wx_fmt=png",
+            "near_text": "Figure 4: Histopathology of lung needle biopsy",
+            "local_src": "cleaned_cases_image_cache/4c8c6e1ea2467c0d2bc7d6b29445f7c6e014cd09.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infectious diseases (special pathogens such as tuberculosis and fungal infections)",
+            "evidence": [
+              "The patient has respiratory manifestations such as fever, cough, and dyspnea.",
+              "Laboratory tests indicated elevated inflammatory markers (CRP, ESR, PCT).",
+              "Chest CT shows patchy infiltrative consolidation in the lungs",
+              "The patient's leukopenia may indicate impaired immune function."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Noninfectious lesions (organizing pneumonia, etc.)",
+            "evidence": [
+              "The patient has no sputum production.",
+              "Bronchoscopy showed no suppurative inflammation",
+              "After treatment with broad-spectrum antibiotics (covering bacteria), there was no significant downward trend in body temperature.",
+              "Chest imaging features"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hematologic diseases (lymphoma, MDS)",
+            "evidence": [
+              "Leukopenia, anemia"
+            ],
+            "exclusion_reasons": [
+              "No obvious evidence of bone marrow dyshematopoiesis at present"
+            ]
+          },
+          {
+            "name": "Connective tissue diseases (systemic lupus erythematosus, systemic vasculitis, etc.)",
+            "evidence": [
+              "May involve the lungs and hematologic system, resulting in fever, bilateral pulmonary lesions, and cytopenia."
+            ],
+            "exclusion_reasons": [
+              "No characteristic autoantibody positivity at present; insufficient evidence"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary infectious diseases (special pathogens such as tuberculosis and fungal infections)",
+        "evidence": [
+          "The patient has respiratory manifestations such as fever, cough, and dyspnea.",
+          "Laboratory tests indicated elevated inflammatory markers (CRP, ESR, PCT).",
+          "Chest CT shows patchy infiltrative consolidation in the lungs",
+          "The patient's leukopenia may indicate impaired immune function."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious lesions (organizing pneumonia, etc.)",
+        "evidence": [
+          "The patient has no sputum production.",
+          "Bronchoscopy showed no suppurative inflammation",
+          "After treatment with broad-spectrum antibiotics (covering bacteria), there was no significant downward trend in body temperature.",
+          "Chest imaging features"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Hematologic diseases (lymphoma, MDS)",
+        "evidence": [
+          "Leukopenia, anemia"
+        ],
+        "exclusion_reasons": [
+          "No obvious evidence of bone marrow dyshematopoiesis at present"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Connective tissue diseases (systemic lupus erythematosus, systemic vasculitis, etc.)",
+        "evidence": [
+          "May involve the lungs and hematologic system, resulting in fever, bilateral pulmonary lesions, and cytopenia."
+        ],
+        "exclusion_reasons": [
+          "No characteristic autoantibody positivity at present; insufficient evidence"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "In approximately 8 months before Day 0, the patient was found to have anemia during a complete blood count at a local hospital.",
+          "why_order_this_exam": "The patient was admitted this time for fever, dry cough, and progressive dyspnea, with concomitant leukopenia (WBC 2.8×10^9/L) and severe anemia (Hb 67g/L). Further history indicated that the anemia was not of acute new onset, but had been present since approximately 8 months before Day 0, indicating persistence of the hematologic abnormalities. Ordering a complete blood count was intended to dynamically assess the anemia, leukopenia, and platelet status; determine disease severity and the trend of progression; and analyze whether there was an underlying background of chronic bone marrow hematopoietic abnormality, rather than changes caused solely by infection or inflammation. At the same time, it would also help explain the patient's recurrent infection-like manifestations, poor response to anti-infective therapy, and the risks of subsequent invasive examinations and treatment, such as anemia-related hypoxia, increased susceptibility to infection related to granulocytopenia, and whether the findings supported further bone marrow-related examinations and the formulation of treatment strategies such as transfusion, anti-infective therapy, and glucocorticoids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "In approximately 4 months before Day 0, the patient again underwent incision and drainage at a local hospital for skin abscesses of both lower legs. The pathology results indicated extensive neutrophilic infiltration in the dermis.",
+          "why_order_this_exam": "In addition to the pulmonary lesions, the patient also had a prior history of so-called \"abscesses\" of both lower extremities, and on this physical examination facial papules with a fluctuant sensation were again noted, suggesting that the skin lesions may not be a simple localized bacterial infection but rather an important clue to a systemic disease. Pathologic examination of the skin lesions, with particular attention to whether there is neutrophilic infiltration in the dermis, may help differentiate infectious abscess, vasculitis, tumor infiltration, and neutrophilic dermatosis. In conjunction with this case's prolonged fever, cytopenia, persistent progressive pulmonary opacities, and subsequent clues to MDS, skin lesion pathology can help determine whether the cutaneous, pulmonary, and hematologic abnormalities belong to the same disease spectrum, and provide key evidence for deciding whether to consider secondary noninfectious inflammatory diseases such as Sweet syndrome, thereby affecting whether subsequent management should continue to intensify anti-infective therapy or shift to immunomodulatory treatment such as corticosteroids.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "basis_in_stage3_input": "Repeat chest CT on Day +16 showed that the bilateral lung lesions had further worsened compared with the previous study.",
+          "why_order_this_exam": "The patient had an onset of illness more than 1 month ago and sequentially received multiple antibacterial, antifungal, and diagnostic anti-TB treatments, but persistent fever remained, and dyspnea further worsened, progressing to the point of requiring management in the respiratory ICU, suggesting that the pulmonary lesions were in a state of progressive progression. Chest CT can directly assess the extent, distribution, and dynamic changes of the diffuse bilateral lung lesions, compare the imaging progression on Day -15, Day -11, Day -1, and Day +16, and determine whether the lesions are still worsening after failure of conventional anti-infective treatment. The core clinical questions to be addressed by this examination include: whether the lesions are more consistent with infectious dissemination, opportunistic infection, or noninfectious lesions such as organizing pneumonia; whether the lesions are predominantly subpleural, peripheral patchy consolidation, or organizing changes; and whether the condition has progressed to the point that adjustment of the diagnostic direction and treatment strategy is needed. Chest CT can also provide a basis for selection of the lung puncture sampling site, assessment of the severity of respiratory failure, and subsequent follow-up of treatment efficacy, and is an indispensable dynamic imaging examination for establishing the diagnosis and guiding treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung needle biopsy pathology",
+          "basis_in_stage3_input": "On Day +16, the pathology results of the patient's lung needle biopsy were reported, suggestive of organizing pneumonia.",
+          "why_order_this_exam": "In this patient, the diffuse bilateral lung lesions continued to progress. Repeated etiologic studies, including blood cultures, sputum acid-fast stain, BALF bacterial/fungal cultures, GM/G, and TB-related tests, were mostly negative, and there was still no significant improvement after broad-spectrum antibacterial therapy, antifungal therapy, and empiric anti-TB treatment. Based on the clinical presentation and imaging alone, it was already difficult to distinguish infectious lesions from noninfectious inflammatory lung injury. The purpose of percutaneous lung biopsy pathology was to directly obtain lung tissue to clarify the nature of the lesion: whether there were intra-alveolar fibrinous exudates and early organizing changes of organizing pneumonia, and whether there was granuloma, fungi, acid-fast bacilli, tumor, or other specific pathologic evidence. This examination can help establish or support the diagnosis of organizing pneumonia, while also excluding, as much as possible, special infections such as TB and fungal infection, as well as malignant lesions, thereby determining whether it is safe to shift from continued anti-infective therapy to glucocorticoid therapy. In this case, lung histopathology was the key examination for explaining the relationship among failure of anti-infective therapy, persistent radiologic worsening, and the subsequent marked response to glucocorticoid therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further inquiry into the medical history revealed new clues: in approximately 8 months before Day 0, the patient was found to have anemia on a complete blood count at a local hospital (and the history of anemia had been present for more than half a year). In approximately 4 months before Day 0, the patient again underwent incision and drainage at a local hospital for skin abscesses of the bilateral lower legs, and the pathology results indicated extensive neutrophilic infiltration in the dermis. In terms of treatment, after admission, antibacterial and antifungal therapy was changed to moxifloxacin combined with voriconazole or caspofungin (Day 0-Day +13); from Day +4 to Day +13, diagnostic anti-TB treatment was given (isoniazid, rifampin, ethambutol, pyrazinamide). Intermittent transfusions of ABO-compatible packed red blood cells were given to correct anemia. However, the patient still had fever, and dyspnea further worsened. Repeat chest CT on Day +16 showed that the bilateral lung lesions had further worsened compared with before. On Day +16, the pathology result of the patient's lung needle biopsy was reported, suggesting organizing pneumonia.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLGqVDiarOonQAHx8VLbFb3pORibK4Qbl5icf8yVsRZ33W5Nh7WSV6AJWHaQ9fmQNdiaoRL6OaPJLdcWg/640?wx_fmt=png",
+          "near_text": "Figure 5: Chest CT (from top to bottom: Day +16, and Day +27, respectively)",
+          "local_src": "cleaned_cases_image_cache/72a2b7f9997a33b24c83b942bc2fd4c4c3aef062.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. MDS; 2. Secondary organizing pneumonia; 3. Type I respiratory failure; 4. Sweet syndrome?; 5. Anemia",
+      "diagnostic_basis": [
+        "Young man. In 2016, prior complete blood count indicated anemia (history for more than half a year). Laboratory tests showed leukopenia and anemia. Bone marrow cytogenetic analysis and bone marrow genetic testing both indicated deletion of the long arm of chromosome 7 (7q-) and trisomy 8 (+8). MDS was considered to be established.",
+        "The patient had respiratory symptoms including dry cough, fever, dyspnea. Chest CT showed patchy exudative opacities and consolidations predominantly in the peripheral subpleural distribution of the lung fields. Pathology from percutaneous lung biopsy suggested abundant fibrinoid exudates within the alveolar spaces, with early organization. After treatment with methylprednisolone and anti-infective therapy, the bilateral lung lesions showed marked absorption and improvement compared with before. Based on the patient's chest imaging features and the pathologic results of lung tissue biopsy, the diagnosis of organizing pneumonia was considered established.",
+        "In approximately 4 months before Day 0, the patient had skin lesions on both lower extremities. Pathology indicated extensive neutrophilic infiltration in the dermis; in conjunction with the patient's diagnosis of MDS, Sweet syndrome was considered possible."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Immediately started methylprednisolone (80 mg/d × 3 days, then changed to 40 mg/d for maintenance) and anti-infective treatment",
+        "Discontinue antifungal therapy"
+      ],
+      "treatment_response": [
+        "After adjustment to the new regimen, the patient's body temperature gradually decreased to normal (temperature returned to normal on Day +19), and the dyspnea symptoms also gradually improved.",
+        "On Day +27 (after 10 days of steroid therapy), repeat chest CT showed marked interval absorption and improvement of bilateral pulmonary lesions compared with the previous scan.",
+        "Follow-up: Repeat chest CT in approximately 2 months after Day 0 showed further resolution and improvement of the bilateral pulmonary lesions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "status": "success",
+  "case_id": "case_20",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 14-year-old girl who was admitted to our hospital for \"a neck mass for more than 1 year, with recurrence and worsening accompanied by decreased vision for 2 months.\" More than 1 year earlier, the patient developed a right neck mass without an obvious cause, initially about the size of a quail egg. A biopsy of the neck mass was performed at a local hospital, which showed: caseous necrosis in the center of the nodule. The local hospital treated her with isoniazid, rifampin, pyrazinamide, and ethambutol. After 2 months, the neck mass disappeared, and the patient stopped the medication on her own. Three months before admission to our hospital, the patient again developed right cervical lymph node enlargement, with newly developed right supraclavicular lymphadenopathy, accompanied by ulceration and middle-to-lower abdominal pain. The patient again presented to a local hospital, where workup showed T-SPOT positive, lymph node aspiration culture indicating mycobacteria 2+, strongly positive PPD skin test, and ESR 84 mm/h; abdominal ultrasound showed ascites, with the deepest pocket measuring 6.5 cm. The patient was again given regular treatment with the four-drug regimen of isoniazid, rifampin, pyrazinamide, and ethambutol. After 1 month of treatment, the cervical lymph nodes became smaller, abdominal pain was relieved, and the ascites was absorbed. Thereafter, the patient began to develop decreased vision without an obvious precipitating factor: blurred vision in the left eye progressed to no light perception, and vision in the right eye also gradually declined to being able to count fingers at a distance of 50 cm. She again presented to the ophthalmology department of the local hospital. Macular scans of both eyes indicated: optic neuroretinopathy of the left eye; peripapillary nerve fiber thickness scan of both eyes; the peripapillary retinal nerve fiber layer thickness was normal in the right eye and increased in the left eye. Non-contrast CT of the brain and orbits showed no abnormalities; visual acuity testing of both eyes showed total blindness of the visual field in the left eye and severe visual field defect in the right eye; VEP: right eye VEP 1.0 deg, prolonged P100 wave latency, normal amplitude; left eye VEP 1.0 HZ, normal P2 wave latency, severely decreased amplitude. The local ophthalmology department administered triamcinolone injection 40 mg by ocular injection, after which the patient could perceive bright light in the left eye. At the same time, the local physician discontinued ethambutol. The patient came to our outpatient clinic to clarify the cause. After admission to our department, based on her previous diagnosis and treatment course, we promptly made the following preliminary diagnoses: 1. Tuberculous lymphadenitis, culture-positive, retreatment case; 2. Tuberculous peritonitis; 3. Bilateral visual impairment, cause to be determined: 1) drug-induced injury? 2) ocular TB? 3) other?",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Ethambutol-associated toxic optic neuropathy",
+          "supporting_evidence": [
+            "After recurrent right cervical lymphadenopathy and ascites, the patient received regular treatment with a four-drug regimen of isoniazid, rifampin, pyrazinamide, and ethambutol, and subsequently \"developed decreased vision without an obvious precipitating factor\".",
+            "Both eyes were involved; the left eye progressed from blurred vision to no light perception, and the right eye also gradually declined to counting fingers at a distance of 50 cm, consistent with the characteristic that drug-induced optic nerve injury can involve both eyes.",
+            "VEP showed prolonged P100 wave latency in the right eye and severely reduced amplitude in the left eye, supporting impaired optic nerve conduction",
+            "The local physician had already discontinued ethambutol because it was suspected to be drug-related.",
+            "Noncontrast CT of the brain and orbits showed no abnormalities, indirectly supporting that the visual decline was not caused by an obvious space-occupying lesion."
+          ],
+          "opposing_evidence": [
+            "Visual acuity loss is more severe in the left eye, showing marked asymmetry; whereas drug-induced optic neuropathy is often more symmetric",
+            "Bilateral macular scan indicated left optic neuroretinopathy and increased thickness of the left peripapillary retinal nerve fiber layer, suggesting possible inflammatory/infiltrative lesions, not entirely typical of pure toxic optic neuropathy",
+            "After triamcinolone ocular injection, the left eye could perceive bright light, suggesting that inflammatory factors should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Ocular tuberculosis (tuberculous optic neuritis/retinopathy)",
+          "supporting_evidence": [
+            "Prior biopsy of a neck mass showed \"caseous necrosis in the center of the nodule\"",
+            "T-SPOT positive, strongly positive PPD skin test, and lymph node aspiration culture indicating Mycobacterium 2+, supporting a background of active TB infection",
+            "Accompanied by ascites and abdominal pain, with shrinkage of the cervical lymph nodes, relief of abdominal pain, and absorption of ascites after anti-TB treatment, suggesting possible systemic tuberculous disease",
+            "Visual decline occurred during a confirmed course of TB, and bilateral macular scanning suggested left neuroretinopathy, consistent with ocular TB involving the optic nerve and retina.",
+            "After triamcinolone injection, the left eye could perceive bright light, suggesting a certain possibility of an inflammatory lesion."
+          ],
+          "opposing_evidence": [
+            "Non-contrast CT of the brain and orbits showed no abnormalities, with no definite evidence of a tuberculous orbital or intracranial space-occupying lesion.",
+            "The decline in visual acuity occurred after anti-TB drug therapy and may also be explained by drug-induced injury."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Isoniazid-related toxic optic neuropathy",
+          "supporting_evidence": [
+            "The patient developed progressive bilateral visual decline after receiving isoniazid-containing anti-TB treatment",
+            "Abnormal VEP suggests impaired optic nerve conduction function",
+            "Non-contrast CT of the brain and orbits showed no abnormalities, supporting the absence of an obvious structural lesion."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information specifically mentioned that the local physician discontinued ethambutol, but did not indicate discontinuation of isoniazid, suggesting that the clinicians at that time were more suspicious of an ethambutol-related association.",
+            "Macular scanning of both eyes indicated left optic neuroretinopathy and increased peripapillary retinal nerve fiber layer thickness in the left eye, more suggestive of a possible inflammatory or infiltrative lesion.",
+            "The phase 1 information did not provide clues such as peripheral neuropathy or nutritional deficiency to support isoniazid toxicity."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Demyelinating optic neuritis (e.g., MOG-associated, NMOSD-associated, or other idiopathic optic neuritis)",
+          "supporting_evidence": [
+            "The patient is a 14-year-old girl, within the age range in which optic neuritis can occur.",
+            "Visual loss progressed rapidly and severely, with no light perception in the left eye and marked decline in the right eye as well",
+            "Visual field testing showed complete blindness of the left eye and severe visual field loss of the right eye; abnormal VEP, all supporting optic nerve involvement.",
+            "After triamcinolone injection, the left eye was able to perceive bright light, suggesting some response after steroid treatment and supporting the possibility of inflammatory optic neuropathy."
+          ],
+          "opposing_evidence": [
+            "The patient has clear evidence of TB infection and systemic manifestations of TB, and the current decrease in visual acuity is better explained by TB itself or anti-TB drugs.",
+            "Macular scanning of both eyes suggests left optic neuroretinopathy, which cannot be fully explained solely by uncomplicated demyelinating optic neuritis.",
+            "No eye pain, antecedent infection, or other clues to central demyelination were provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Intracranial or visual pathway tuberculous lesions (e.g., tuberculous granuloma around the optic chiasm/optic nerve, tuberculous meningitis involving the visual pathway)",
+          "supporting_evidence": [
+            "The patient already has fairly clear evidence of systemic tuberculosis: caseous necrosis, positive T-SPOT, strongly positive PPD, positive mycobacterial culture, ascites, and a response to anti-tuberculosis treatment.",
+            "Both eyes developed severe visual acuity decline and visual field impairment, suggesting that the lesion may be located in the bilateral optic nerves or a more posterior visual pathway.",
+            "Abnormal VEP supports impaired conduction in the visual pathway"
+          ],
+          "opposing_evidence": [
+            "Non-contrast CT of the brain and orbits showed no abnormalities, not supporting a large intracranial or intraorbital space-occupying lesion.",
+            "The stage 1 information did not provide manifestations such as headache, fever, vomiting, or meningeal irritation signs to support central nervous system tuberculosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Lymphoma or other non-tuberculous systemic diseases with optic nerve involvement",
+          "supporting_evidence": [
+            "The patient has recurrent enlargement of the right cervical and supraclavicular lymph nodes, along with abdominal pain and ascites, suggesting the possibility of a systemic disease.",
+            "The visual decline is progressive and severe, and in theory may be seen with infiltrative or paraneoplastic lesions involving the optic nerve/retina."
+          ],
+          "opposing_evidence": [
+            "Biopsy of the neck mass indicated \"caseous necrosis seen within the nodule\"",
+            "A positive T-SPOT, a strongly positive PPD skin test, and a lymph node aspiration culture indicating Mycobacterium 2+ all strongly support tuberculosis rather than a neoplastic lesion",
+            "After anti-tuberculosis treatment, the cervical lymph nodes decreased in size, abdominal pain was relieved, and ascites was absorbed, indicating a definite response to anti-tuberculosis treatment."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Fundus photograph",
+          "requirement": "required"
+        },
+        {
+          "exam": "vEP",
+          "requirement": "required"
+        },
+        {
+          "exam": "ERG",
+          "requirement": "required"
+        },
+        {
+          "exam": "FFA",
+          "requirement": "required"
+        },
+        {
+          "exam": "OCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "slit-lamp examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Orbital MRI",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "The results of the follow-up examinations are as follows: 1. Fundus examination: light perception in both eyes, clear corneas, deep and clear anterior chambers, transparent lenses, and blurred edematous margins of the bilateral optic discs on fundus examination; 2. VEP: right eye 1.0deg, prolonged P100 wave latency, normal amplitude; left eye VEP 1.0HZ, normal P2 wave latency, severely decreased amplitude; 3. Orbital MRI: small amount of fluid in the bilateral optic nerve sheaths, marked enhancement of the retrobulbar segment of the right optic nerve, inflammatory change considered possible, and patchy iso-T1/slightly prolonged T2 signal in the bilateral pontine walls.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EA1IVHbebGcewvLuY7MsF9MY2Dgy8g0t6vmeickXZmIJd8wS95qKFnTKg/640?wx_fmt=png",
+            "near_text": "Figure: Orbital MRI (T2 plain scan)",
+            "local_src": "cleaned_cases_image_cache/6173af3356d3ad451c910927d49e860c3295fcc5.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Drug-induced optic neuropathy",
+            "evidence": [
+              "In the patient's four-drug anti-TB regimen, both ethambutol and isoniazid may cause optic neuropathy"
+            ],
+            "exclusion_reasons": [
+              "After discontinuing anti-TB drugs for 1 week, vision still did not improve, and there was even recurrent worsening of visual impairment.",
+              "Both treatments were administered at the same dose, and no visual impairment occurred during the first treatment.",
+              "Bilateral visual impairment did not occur simultaneously, and the severity of visual impairment was not the same in both eyes."
+            ]
+          },
+          {
+            "name": "optic neuropathy",
+            "evidence": [
+              "MRI showed optic nerve sheath fluid accumulation and optic nerve enhancement"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Drug-induced optic neuropathy",
+        "evidence": [
+          "In the patient's four-drug anti-TB regimen, both ethambutol and isoniazid may cause optic neuropathy"
+        ],
+        "exclusion_reasons": [
+          "After discontinuing anti-TB drugs for 1 week, vision still did not improve, and there was even recurrent worsening of visual impairment.",
+          "Both treatments were administered at the same dose, and no visual impairment occurred during the first treatment.",
+          "Bilateral visual impairment did not occur simultaneously, and the severity of visual impairment was not the same in both eyes."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "optic neuropathy",
+        "evidence": [
+          "MRI showed optic nerve sheath fluid accumulation and optic nerve enhancement"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Lumbar puncture with cerebrospinal fluid testing",
+          "basis_in_stage3_input": "Lumbar puncture with cerebrospinal fluid testing was performed",
+          "why_order_this_exam": "The patient is a 14-year-old girl who developed progressive and severe bilateral visual loss in the setting of confirmed active TB. At one point, there was no light perception in the left eye, and the right eye could only count fingers at close range. Fundus examination showed blurred and edematous optic disc margins bilaterally. Orbital MRI indicated optic nerve sheath effusion and enhancement of the retrobulbar segment of the right optic nerve, suggesting that this is no longer merely a focal ophthalmic problem and that central nervous system involvement must also be assessed. Lumbar puncture with CSF testing can simultaneously evaluate intracranial pressure and routine CSF biochemical and cytologic changes, and is used to differentiate tuberculous meningitis/central nervous system infection, inflammatory demyelinating optic neuropathy, and other intracranial inflammatory diseases; it also helps explain whether the papilledema is related to abnormal intracranial pressure. This examination plays a critical role, in the setting of TB, in distinguishing infectious lesions from immune-mediated neuromyelitis optica spectrum disorder and in determining whether subsequent high-dose corticosteroids and immunotherapy can be initiated.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Spinal cord MRI",
+          "basis_in_stage3_input": "Perform spinal cord MRI",
+          "why_order_this_exam": "Although the patient presented with severe bilateral optic nerve involvement, there is insufficient evidence for drug-induced optic neuropathy, and there was some response after corticosteroid injection. Given the patient's age, severe bilateral involvement, and inflammatory changes on MRI, demyelinating disease, especially NMOSD, should be further considered. The purpose of spinal cord MRI is to determine whether there is a longitudinally extensive spinal cord lesion, which is an important imaging basis for NMOSD, and it may also help explain whether there is subclinical spinal cord involvement that the patient has not clearly reported. In this case, this examination can distinguish isolated optic neuritis from combined optic nerve and spinal cord involvement, while also evaluating for TB-related spinal cord lesions or other central lesions, and is very important for the final diagnosis, disease classification, and subsequent assessment of immunotherapy intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid smear and culture",
+          "basis_in_stage3_input": "No bacterial growth was seen on cerebrospinal fluid smear and culture",
+          "why_order_this_exam": "The patient previously had caseous necrosis on cervical lymph node biopsy, positive T-SPOT, strongly positive PPD, mycobacteria 2+ on lymph node aspiration culture, and manifestations of peritoneal TB, indicating sufficient evidence of TB infection. On this basis, the development of severe visual loss, papilledema, and optic nerve enhancement requires that central nervous system infection, especially tuberculous meningitis or other CSF infection, be ruled out first, because this will directly affect whether high-dose corticosteroids and IVIG can be used safely. CSF smear and culture are used to look for etiologic evidence of pathogens such as bacteria or mycobacteria, helping to distinguish infectious central nervous system involvement from immune-mediated demyelinating disease; if culture is positive, it suggests the need to intensify the anti-infective/anti-TB approach, whereas if negative, it provides important support for subsequent consideration of noninfectious inflammation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "India ink staining",
+          "basis_in_stage3_input": "India ink stain negative",
+          "why_order_this_exam": "The patient's condition manifested as rapidly progressive severe optic nerve involvement accompanied by papilledema. On the basis of TB, other opportunistic infections that can involve the central nervous system and cause meningitis or visual pathway injury must also be excluded, especially cryptococcal infection among fungal infections. India ink staining is an important basic test for screening for Cryptococcus in CSF, with the aim of excluding a fungal etiology that can cause changes in intracranial pressure, meningeal involvement, and visual impairment. The result of this test has practical significance for differentiating infectious from autoimmune diseases and for assessing the risk of steroid pulse therapy: if a fungal infection is present, blindly intensifying immunosuppression may significantly worsen the condition, and therefore it must be excluded first.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid anti-aquaporin-4 antibody test",
+          "basis_in_stage3_input": "CSF and serum antibody test results showed CSF anti-aquaporin-4 antibody 7.15u/mL (positive)",
+          "why_order_this_exam": "The patient is an adolescent female with clinically severe, bilateral, and asymmetric visual loss. There was no improvement and even worsening after discontinuation of the suspected anti-TB drugs. Orbital MRI suggests inflammatory optic neuropathy, which is clearly inconsistent with the typical course of simple drug-induced toxic optic neuropathy; therefore, it is necessary to focus on determining whether NMOSD is present. CSF AQP4 antibody testing can provide supportive evidence from the perspective of central immunology and help confirm whether the optic neuritis is an AQP4-associated autoimmune disease rather than ocular TB or simple postinfectious inflammation. This test is of critical value for confirming NMOSD, explaining why high-dose corticosteroids/immunotherapy should be given as soon as possible, and balancing anti-infective and immunosuppressive treatment strategies in the setting of coexisting TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum anti-aquaporin-4 antibody test",
+          "basis_in_stage3_input": "CSF and serum antibody test results showed that the serum anti-aquaporin-4 antibody was 80 u/ml (positive).",
+          "why_order_this_exam": "The core clinical question in this case is whether the severe optic neuropathy that developed during the course of TB is due to drug toxicity, ocular/CNS TB, or coexisting AQP4-associated NMOSD. Serum AQP4 antibody is one of the most important specific immunologic tests for the diagnosis of NMOSD, and is particularly applicable in situations like this patient’s, with severe bilateral optic neuritis, MRI suggesting inflammation, and the further need to assess with spinal MRI whether there is combined optic nerve and spinal cord involvement. Serum testing helps increase diagnostic confidence and distinguish secondary visual injury in the setting of infection from an independently coexisting autoimmune demyelinating disease, thereby directly guiding whether immunotherapy such as high-dose corticosteroid pulse therapy and IVIG should be initiated as soon as possible, while also formulating a more cautious combined anti-TB regimen in the presence of coexisting TB.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Lumbar puncture with cerebrospinal fluid testing was performed, and spinal MRI was completed. The next day, we completed the lumbar puncture for the patient, and the results showed: intracranial pressure 150cmH2O; no bacterial growth was seen on cerebrospinal fluid smear and culture; India ink stain was negative; cerebrospinal fluid and serum antibody testing showed cerebrospinal fluid aquaporin-4 antibody 7.15u/mL (positive); serum aquaporin-4 antibody 80u/ml (positive). At this time, the spinal MRI results showed multiple long-segment abnormal signal lesions in the cervical and thoracic spinal cord.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAS3CQ9mzyxa54JSYic6Pc5SDFAQAMcvdLErlSEBdMsZtWGqdNQWHenJA/640?wx_fmt=png",
+          "near_text": "Imaging: multiple long-segment abnormal signal lesions in the cervical and thoracic spine",
+          "local_src": "cleaned_cases_image_cache/260ca03b2cdfd392d97602a0499346ca50b71cb8.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Tuberculosis with neuromyelitis optica spectrum disorder (NMOSD)",
+      "diagnostic_basis": [
+        "Cerebrospinal fluid and spinal cord MRI results",
+        "Patient history"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Administered 500 mg of methylprednisolone IV pulse therapy, combined with gamma globulin 10 g for 5 consecutive days",
+        "On day 6, the methylprednisolone dose was reduced to 240 mg/d; on day 9, it was reduced to 120 mg/d; on day 10, it was changed to oral prednisone 35 mg (1 mg/kg) to continue treatment.",
+        "During corticosteroid therapy, oral isoniazid 300mg, rifampin 450mg, and pyrazinamide 750mg were administered concurrently."
+      ],
+      "treatment_response": [
+        "After adjustment of the treatment regimen, visual acuity improved in both eyes; the left eye could see at a distance of 50 cm, and the right eye could see a television screen at a distance of 2 m.",
+        "At follow-up 2 months later, the patient's visual acuity had recovered to 0.6 in the left eye and 0.9 in the right eye",
+        "At present, the patient has resumed normal life, is still taking anti-TB medications regularly, and has no adverse reactions."
+      ]
+    }
+  }
+}

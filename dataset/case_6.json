@@ -1,0 +1,454 @@
+{
+  "status": "success",
+  "case_id": "case_6",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 66-year-old female patient, retired, was admitted on Day 0. The chief complaints were intermittent cough and sputum production for half a year, and right-sided chest pain for 1 day. Half a year earlier, she developed cough and expectoration of white sticky sputum without an obvious precipitating factor, accompanied by intermittent fever. She was hospitalized at a hospital in Shaanxi Province and improved after treatment. After discharge, she continued to have cough and sputum production. Half a month ago, fever recurred, with a temperature of 39℃. She was hospitalized at an outside hospital and discharged after 10 days of inpatient treatment. During that hospitalization, PFT showed \"moderate-to-severe restrictive and moderate obstructive ventilatory dysfunction, severe small airway obstructive impairment, reduced lung volumes, and diffusion dysfunction.\" Chest CT (Day -9, outside hospital) showed \"bilateral pulmonary inflammation with partial atelectasis of the right lung, bronchial stenosis of the medial basal segment of the right lower lobe, bronchoscopy recommended, multiple lesions in the left lung, fungal infection not excluded.\" Bronchoscopy was performed, and chronic bronchial inflammation was considered on endoscopic examination. After anti-infective treatment (details unknown), her symptoms improved and she was discharged. One day prior to admission, she developed right-sided chest pain without an obvious precipitating factor, with shortness of breath after activity, and presented to our outpatient clinic. She was admitted to our department with \"pulmonary infection, hypertension.\" Since admission, her mental status and appetite have been poor; bowel and bladder function were normal. Previously she had been in good health, with a history of hypertension. She denied smoking and alcohol use and denied a family history of tumors. Physical examination: T 36.5 ℃, P 82/min, R 20/min, BP 130/80 mmHg. No enlargement of superficial lymph nodes was palpable throughout the body. On auscultation, breath sounds were coarse in both lungs, and moist rales were heard in the right lung. Initial diagnoses: pulmonary shadow (pneumonia? pulmonary alveolar proteinosis? tumor?), type I respiratory failure, grade 2 hypertension (very high risk). Additional examinations: ESR 24 mm/h, hs-CRP 10.6 mg/l; CBC, procalcitonin, coagulation, endotoxin, fungal D-glucan, galactomannan peptide, Mycoplasma, Chlamydia, Legionella pneumophila antibody, liver and kidney function, electrolytes, and myocardial enzymes were all normal; TB infection T-lymphocyte test was positive, while Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, and PPD test were negative; autoantibodies, antineutrophil antibodies, and rheumatologic panel were negative; tumor marker NSE 18.25 ng/ml (reference range 0-16.3 ng/ml); arterial blood gas analysis (FiO2 21.0%) showed pH 457, pO2 59.9 mmHg, pCO2 31.7 mmHg, SaO2 92.0%. Chest CT on Day +2 showed patchy areas of increased density in both lungs, more prominent in the right lung, with air bronchograms within them; patchy ground-glass opacities and slightly increased-density opacities in both lungs, with fine reticular shadows, showing a crazy-paving pattern.",
+      "images": [
+        {
+          "image_id": "fig1",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473NicicVkxyWk4JzIV7Jibia1zJOzMIeUMiao5KjvSUDuvcQ1kEadrVFibyibNA/640?wx_fmt=png",
+          "near_text": "Chest CT indicates that both lungs show",
+          "local_src": "cleaned_cases_image_cache/89fd9d2b311ae45495d885131a3c3bc5e55c5c33.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary alveolar proteinosis",
+          "supporting_evidence": [
+            "Chest CT (Day +2) showed \"patchy ground-glass opacities and slightly increased-density opacities in both lungs, with fine reticular opacities, showing a crazy-paving pattern\"; the crazy-paving pattern is an important imaging clue for the differential diagnosis of this disease.",
+            "The patient has hypoxemia: arterial blood gas analysis (FiO2 21.0%) showed pO2 59.9 mmHg, SaO2 92.0%, and type I respiratory failure.",
+            "The disease course has lasted for half a year, with recurrent and persistent cough and sputum production; although it can improve after multiple courses of anti-infective treatment, it has not been cured, suggesting that it is not simply an acute common bacterial infection.",
+            "Inflammatory markers were only mildly abnormal: ESR 24 mm/h and hs-CRP 10.6 mg/L; CBC and procalcitonin were normal, disproportionate to the extent of imaging involvement.",
+            "\"Pulmonary alveolar proteinosis?\" had already been explicitly stated in the preliminary diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient has intermittent fever, and the prior improvement in symptoms after anti-infective treatment further supports an infectious etiology.",
+            "This chest CT showed patchy areas of increased density in both lungs, more pronounced in the right lung, with air bronchograms visible; moist rales were audible in the right lung, and these findings are also commonly seen in pneumonia.",
+            "A chest CT at an outside hospital half a year ago showed \"partial atelectasis of the right lung and bronchial stenosis of the medial basal segment of the right lower lobe\"; focal airway stenosis/atelectasis was present, which is not a typical feature of pulmonary alveolar proteinosis."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Bilateral infectious pneumonia (including bacterial pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: intermittent cough and sputum production for half a year; fever occurred both half a year ago and half a month ago, with a maximum temperature of 39℃, consistent with manifestations of an infectious respiratory tract disease",
+            "On physical examination, wet rales were heard in the right lung, supporting pulmonary consolidation or infectious exudation.",
+            "Chest CT (Day +2) showed \"patchy areas of increased density in both lungs, more pronounced in the right lung, with visible air bronchograms within them\"; air bronchograms are commonly seen in alveolar consolidative lesions such as pneumonia.",
+            "A chest CT at an outside hospital previously indicated \"inflammatory changes in both lungs with partial atelectasis of the right lung\"",
+            "Previously at an outside hospital, the patient’s symptoms improved after anti-infective treatment and the patient was discharged, suggesting a higher likelihood of an infectious lesion.",
+            "Hypoxemia and exertional dyspnea are present, which may be caused by extensive pneumonia."
+          ],
+          "opposing_evidence": [
+            "The disease course has lasted for as long as half a year and has been recurrent and protracted, which is not entirely consistent with the natural course of simple common acute bacterial pneumonia.",
+            "CBC and procalcitonin were normal, and inflammatory markers were only mildly elevated, providing limited support for typical bacterial pneumonia",
+            "CT showed 'patchy ground-glass opacities and fine reticular opacities in both lungs, with a crazy-paving pattern,' which is not the most typical imaging pattern of common bacterial pneumonia.",
+            "An outside hospital previously indicated \"multiple lesions in the left lung; fungal infection cannot be excluded,\" suggesting the possibility of a non-routine bacterial infection or other noninfectious etiologies."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Lung cancer (represented by lung adenocarcinoma/mucinous adenocarcinoma or centrally located tumors with obstructive pneumonia)",
+          "supporting_evidence": [
+            "The patient is 66 years old and of advanced age. A pulmonary opacity has persisted for half a year without resolution; a neoplastic lesion should be considered.",
+            "Chest CT at an outside hospital showed: \"partial atelectasis of the right lung, bronchial stenosis of the medial basal segment of the right lower lobe, bronchoscopy recommended\"; focal bronchial stenosis and partial atelectasis warrant vigilance for obstruction caused by a tumor.",
+            "Chest pain is a newly developed symptom and may occur when the tumor involves the pleura or is accompanied by post-obstructive infection.",
+            "Tumor marker NSE 18.25 ng/ml, mildly elevated above the upper limit of normal",
+            "\"Tumor?\" was explicitly stated in the preliminary diagnosis."
+          ],
+          "opposing_evidence": [
+            "Bronchoscopy findings were considered to indicate \"chronic bronchial inflammation\"; the first-stage information showed no definite endoscopic evidence of tumor.",
+            "The patient denies a smoking history; although lung cancer cannot be excluded, traditional risk factors are insufficient.",
+            "Current imaging still shows bilateral ground-glass opacities and a crazy-paving pattern, more suggestive of a diffuse alveolar/interstitial process rather than the typical imaging appearance of isolated lung cancer.",
+            "Symptoms previously improved after anti-infective treatment, suggesting at least a significant concomitant inflammatory component."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "A 6-month disease course, accompanied by recurrent fever, cough, and sputum production, consistent with the temporal characteristics of chronic pulmonary infectious disease.",
+            "TB infection T-lymphocyte test positive, suggesting possible TB infection",
+            "Imaging shows multiple lesions in both lungs, with a chronic protracted nonresolving course; this should be included in the differential diagnosis.",
+            "Hypoxemia and extensive pulmonary opacities can be seen in certain types of active TB"
+          ],
+          "opposing_evidence": [
+            "Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, and PPD test were negative",
+            "Chest CT was described as showing patchy increased-density opacities in both lungs, ground-glass opacities, and a crazy-paving pattern, which are not the most typical imaging pattern of pulmonary tuberculosis.",
+            "The first-stage information did not mention clues more supportive of TB, such as hemoptysis, night sweats, weight loss, cavitation, or tree-in-bud pattern."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal pneumonia (including mold infection)",
+          "supporting_evidence": [
+            "A prior chest CT at an outside hospital suggested \"multiple lesions in the left lung; fungal infection cannot be excluded\"",
+            "The patient's pulmonary lesions have been recurrent and persistent for 6 months, and have not completely resolved after multiple courses of anti-infective therapy; nonbacterial pathogens should be considered.",
+            "Chest CT shows bilateral ground-glass opacities and patchy lesions; some fungal infections may have similar findings",
+            "The patient has hypoxemia, suggesting extensive involvement of the lung parenchyma."
+          ],
+          "opposing_evidence": [
+            "Fungal D-glucan and galactomannan peptide were both normal",
+            "The phase 1 information did not indicate high-risk background factors for fungal infection, such as immunosuppression, diabetes mellitus, or long-term use of corticosteroids/immunosuppressants.",
+            "Fever and inflammatory markers are not prominent, and the crazy-paving pattern on imaging is more suggestive of other diseases such as pulmonary alveolar proteinosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "Patients mainly present with subacute/chronic cough, sputum production, fever, and shortness of breath; the course is recurrent and prolonged, and this may be seen in organizing pneumonia.",
+            "Chest CT showed patchy areas of increased density and ground-glass opacities in both lungs, which are nonspecific imaging findings that can be seen in organizing pneumonia.",
+            "Only partial improvement after anti-infective treatment, with persistent non-resolving lesions, suggesting that it may not be a simple pathogen infection",
+            "Autoantibodies, antineutrophil antibodies, and the rheumatologic panel were negative; although not diagnostic, these findings are helpful in considering it in the differential diagnosis as one of the noninfectious inflammatory lung diseases."
+          ],
+          "opposing_evidence": [
+            "Imaging explicitly mentions a \"crazy-paving pattern,\" which is not the most characteristic finding of organizing pneumonia.",
+            "Outside hospital findings suggested stenosis of the medial basal segment bronchus of the right lower lobe and partial atelectasis, warranting increased concern for an obstructive lesion or other focal etiology.",
+            "The phase I information did not provide imaging descriptions more specific for typical organizing pneumonia, such as definite clues including peripheral/subpleural migratory consolidation."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endotoxin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungal D-glucan",
+          "requirement": "required"
+        },
+        {
+          "exam": "galactomannan peptide",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycoplasma antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chlamydia antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Legionella pneumophila antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection T-lymphocyte test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis DNA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PPD test",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoantibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-neutrophil antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor marker NSE",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Ancillary examinations: ESR 24 mm/h, high-sensitivity CRP 10.6 mg/L; CBC, procalcitonin, coagulation studies, endotoxin, fungal D-glucan, galactomannan peptide, Mycoplasma, Chlamydia, Legionella pneumophila antibody, liver and kidney function, electrolytes, myocardial enzymes, and electrolytes were all normal; TB infection T-lymphocyte test was positive, and Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, and PPD test were negative; autoantibodies, antineutrophil antibodies, and rheumatologic panel were negative; tumor marker NSE 18.25 ng/ml (reference range 0—16.3 ng/ml); arterial blood gas analysis (FiO2 21.0%) showed pH 457, pO2 59.9 mmHg, pCO2 31.7 mmHg, SaO2 92.0%. Chest CT on Day +2 showed patchy increased-density opacities in both lungs, more prominent in the right lung, with air bronchograms within them; patchy ground-glass and slightly increased-density opacities in both lungs, with fine reticular opacities, showing a crazy-paving pattern. After admission to our department, intensified anti-infective treatment with the potent broad-spectrum antibiotic meropenem was given. After treatment, repeat arterial blood gas analysis was performed, and after respiratory failure was corrected, bronchoscopy was performed on Day +3. Bronchoscopy showed a large amount of clear foamy secretions overflowing from the bilateral bronchial system, more prominent on the right; carbon-foam-like deposits at the orifice of the dorsal segment bronchus of the left lower lobe; the bronchial mucosa of the right lower lobe bled easily on contact with the bronchoscope tip; all lumens were patent, with no mass or stenosis seen. Combined with the imaging findings, biopsy was performed in the anterior segment and apical segment of the right upper lobe. BALF obtained by bronchoscopy was sent for metagenomic pathogen detection, and the result was negative.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz473lQibGQ9qEnn9jgPOFFn0AedpeDFAbIdCKCg2rm1HKmTZudWg5ibyZQmQ/640?wx_fmt=jpeg",
+            "near_text": "BALF obtained by bronchoscopy was sent for metagenomic testing for infectious pathogens, and the result was negative.",
+            "local_src": "cleaned_cases_image_cache/2405b363541ead9a132b3fb04bb18ff45f5f46bb.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [
+              "Intermittent cough and sputum production for half a year, accompanied by intermittent fever and right-sided chest pain; coarse breath sounds in both lungs, with moist rales audible in the right lung.",
+              "Chest CT showed patchy areas of increased density in both lungs, with visible air bronchograms; an outside hospital considered pulmonary infection.",
+              "Elevated ESR and elevated high-sensitivity C-reactive protein"
+            ],
+            "exclusion_reasons": [
+              "The history spans half a year, with poor response to repeated anti-infective therapy.",
+              "Metagenomic testing of bronchoalveolar lavage fluid was negative for bacteria, fungi, viruses, and parasites.",
+              "Imaging shows a crazy-paving pattern, not consistent with typical bacterial pneumonia."
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "Positive tuberculosis infection T-lymphocyte test",
+              "Symptoms include cough, sputum production, and fever."
+            ],
+            "exclusion_reasons": [
+              "Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, and PPD test were all negative",
+              "No typical imaging or pathological evidence of TB infection",
+              "There was no basis for anti-TB treatment, and it was not administered."
+            ]
+          },
+          {
+            "name": "Pulmonary alveolar proteinosis",
+            "evidence": [
+              "Chest CT shows ground-glass opacities with fine reticular opacities, demonstrating a crazy-paving pattern",
+              "Bronchoscopy showed a large amount of clear foamy secretions overflowing."
+            ],
+            "exclusion_reasons": [
+              "No characteristic pathological findings supporting pulmonary alveolar proteinosis",
+              "Biopsy pathology confirmed invasive adenocarcinoma; can be completely ruled out."
+            ]
+          },
+          {
+            "name": "Pulmonary fungal infection",
+            "evidence": [
+              "Outside hospital CT suggested multiple lesions in the left lung; fungal infection cannot be excluded",
+              "Long-term cough, sputum production, and recurrent fever are present"
+            ],
+            "exclusion_reasons": [
+              "Fungal D-glucan and galactomannan peptide were both normal",
+              "BALF metagenomic testing was negative for fungi",
+              "No pathologic evidence of fungal infection"
+            ]
+          },
+          {
+            "name": "Interstitial lung disease",
+            "evidence": [
+              "PFT indicated restrictive and obstructive ventilatory dysfunction and diffusion impairment",
+              "Chest CT shows ground-glass opacities and reticular opacities"
+            ],
+            "exclusion_reasons": [
+              "No evidence of autoimmune, rheumatic, or other etiologies associated with interstitial lung disease",
+              "Pathology showed adenocarcinoma, ruling out the diagnosis of interstitial lung disease"
+            ]
+          },
+          {
+            "name": "Malignant lung neoplasm (adenocarcinoma)",
+            "evidence": [
+              "Middle-aged and elderly woman, chronic course, repeated anti-inflammatory treatment ineffective",
+              "Tumor marker NSE mildly elevated",
+              "Bronchoscopic biopsy pathology showed infiltrating adenocarcinoma of the bronchial mucosa (lepidic growth pattern)",
+              "Immunohistochemistry: TTF-1 (+), Napsin A (+), supporting lung adenocarcinoma",
+              "Genetic testing identified dual EGFR mutations: L858R and 19Del",
+              "Systemic workup suggested intrapulmonary and lymph node metastases"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Bacterial pneumonia",
+        "evidence": [
+          "Intermittent cough and sputum production for half a year, accompanied by intermittent fever and right-sided chest pain; coarse breath sounds in both lungs, with moist rales audible in the right lung.",
+          "Chest CT showed patchy areas of increased density in both lungs, with visible air bronchograms; an outside hospital considered pulmonary infection.",
+          "Elevated ESR and elevated high-sensitivity C-reactive protein"
+        ],
+        "exclusion_reasons": [
+          "The history spans half a year, with poor response to repeated anti-infective therapy.",
+          "Metagenomic testing of bronchoalveolar lavage fluid was negative for bacteria, fungi, viruses, and parasites.",
+          "Imaging shows a crazy-paving pattern, not consistent with typical bacterial pneumonia."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "Positive tuberculosis infection T-lymphocyte test",
+          "Symptoms include cough, sputum production, and fever."
+        ],
+        "exclusion_reasons": [
+          "Mycobacterium tuberculosis antibody, Mycobacterium tuberculosis DNA, and PPD test were all negative",
+          "No typical imaging or pathological evidence of TB infection",
+          "There was no basis for anti-TB treatment, and it was not administered."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary fungal infection",
+        "evidence": [
+          "Outside hospital CT suggested multiple lesions in the left lung; fungal infection cannot be excluded",
+          "Long-term cough, sputum production, and recurrent fever are present"
+        ],
+        "exclusion_reasons": [
+          "Fungal D-glucan and galactomannan peptide were both normal",
+          "BALF metagenomic testing was negative for fungi",
+          "No pathologic evidence of fungal infection"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Interstitial lung disease",
+        "evidence": [
+          "PFT indicated restrictive and obstructive ventilatory dysfunction and diffusion impairment",
+          "Chest CT shows ground-glass opacities and reticular opacities"
+        ],
+        "exclusion_reasons": [
+          "No evidence of autoimmune, rheumatic, or other etiologies associated with interstitial lung disease",
+          "Pathology showed adenocarcinoma, ruling out the diagnosis of interstitial lung disease"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant lung neoplasm (adenocarcinoma)",
+        "evidence": [
+          "Middle-aged and elderly woman, chronic course, repeated anti-inflammatory treatment ineffective",
+          "Tumor marker NSE mildly elevated",
+          "Bronchoscopic biopsy pathology showed infiltrating adenocarcinoma of the bronchial mucosa (lepidic growth pattern)",
+          "Immunohistochemistry: TTF-1 (+), Napsin A (+), supporting lung adenocarcinoma",
+          "Genetic testing identified dual EGFR mutations: L858R and 19Del",
+          "Systemic workup suggested intrapulmonary and lymph node metastases"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopic biopsy pathology",
+          "basis_in_stage3_input": "Bronchoscopic biopsy pathology result: infiltrating adenocarcinoma of the bronchial mucosa (lepidic growth pattern) in the \"apical anterior segment of the right upper lobe\"",
+          "why_order_this_exam": "The patient is a 66-year-old woman with recurrent cough and sputum production for half a year, accompanied by recurrent fever, right-sided chest pain, exertional dyspnea, and type I respiratory failure. Imaging showed patchy increased-density opacities, ground-glass opacities, and crazy-paving pattern in both lungs, with only partial improvement after multiple courses of anti-infective treatment, suggesting that infection alone cannot explain the entire clinical picture. CT at an outside hospital showed partial right lung atelectasis and bronchial stenosis. Although the initial bronchoscopy did not reveal a definite mass, the right lower lobe bronchial mucosa bled easily on contact, raising the possibility of an occult tumor. The core purpose of ordering bronchoscopic biopsy pathology is to obtain the histologic gold standard and determine whether the lesion is a malignant tumor, pulmonary alveolar proteinosis, infection, or another interstitial/inflammatory disease. At the same time, in the setting of hypoxemia and extensive pulmonary disease, the pathology results directly determine whether to proceed to tumor staging, molecular subtyping, and the targeted therapy pathway, and also help stop unnecessary anti-infective treatment alone or other inappropriate treatment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: TTF-1 (+), Napsin A (+), CK5/6 (-), P40 (-), TS (-), EGFR (+), P16 weakly (+), P53 (-), Ki67 (+) 5%, PD-L1 (22C3) (TPS=0)",
+          "why_order_this_exam": "After biopsy pathology has already suggested invasive adenocarcinoma, immunohistochemistry is still needed to further confirm the tumor origin and subtype. In this patient, imaging shows diffuse bilateral lung disease with multiple intrapulmonary lesions, and clinically it is necessary to distinguish primary lung adenocarcinoma, squamous cell carcinoma, metastatic carcinoma, and some non-neoplastic lesions; positivity for TTF-1 and NapsinA and negativity for CK5/6 and P40 help support primary lung adenocarcinoma and reduce misclassification. Ki67 can also reflect proliferative activity and provide supplementary information for assessing the tumor's biologic behavior. Because the patient's previous differential diagnosis included infection, pulmonary alveolar proteinosis, ILD, etc., immunohistochemistry is an important step, on the basis of pathology, to further confirm the nature of the tumor, exclude other lesions, and provide a reliable pathologic background for subsequent molecular testing and treatment selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PD-L1(22c3)",
+          "basis_in_stage3_input": "PD-L1(22c3)(TPS=0)",
+          "why_order_this_exam": "The patient was ultimately confirmed to have advanced lung adenocarcinoma, and further systemic workup has already indicated intrapulmonary metastases and left supraclavicular lymph node metastasis, corresponding to a stage requiring systemic treatment decision-making. The main clinical purpose of PD-L1 (22C3) testing is to assess the likelihood of benefit from immunotherapy and to provide a basis for selection of first-line or subsequent treatment regimens. Although EGFR double mutations have already been detected in this patient, making targeted therapy the higher priority, the PD-L1 result remains an important component of standardized evaluation in advanced non-small cell lung cancer, especially as a reference in the setting of subsequent disease progression, acquired resistance to targeted therapy, or the need for multimodal treatment. TPS=0 indicates limited expected benefit from immune checkpoint inhibitor monotherapy, helping to avoid inappropriate treatment selection and making the treatment pathway more inclined toward EGFR-TKI rather than immunotherapy-based treatment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Genetic testing",
+          "basis_in_stage3_input": "Genetic testing results: EGFR L858R and 19Del double mutations were detected; no mutations were detected in ALK, ROS1, BRAF, HER2, NRAS, RET, or PIK3CA.",
+          "why_order_this_exam": "This patient is a 66-year-old female with no smoking history. Pathology and immunohistochemistry support lung adenocarcinoma, and she belongs to a population with a relatively high probability of driver gene positivity; meanwhile, the disease is already advanced and accompanied by metastasis, and the choice of systemic treatment is highly dependent on molecular subtyping. The core purpose of genetic testing is to identify targetable driver alterations, determine whether she is suitable for precision therapy such as EGFR-TKI, and exclude other driver pathways such as ALK, ROS1, BRAF, HER2, and RET to optimize treatment sequencing. The patient had previously been treated long-term in the direction of infection, while the lesions persisted, so a tumor treatment pathway had to be established as soon as possible through the molecular results. EGFR L858R and 19Del double mutations were ultimately detected, directly supporting the selection of EGFR-targeted agents such as gefitinib, and the case already confirmed marked shrinkage of the lesions after treatment, indicating that this test played a decisive role in establishing the treatment plan and predicting treatment response.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Further systemic evaluation",
+          "basis_in_stage3_input": "Further systemic workup indicated intrapulmonary metastases and left supraclavicular fossa lymph node metastasis.",
+          "why_order_this_exam": "After lung adenocarcinoma had already been confirmed by bronchoscopic biopsy, the next key issue was complete staging. At admission, the patient already had a 6-month protracted course, hypoxemia, and extensive bilateral pulmonary imaging abnormalities, and the multiple bilateral lung lesions were not consistent with a localized solitary intrapulmonary tumor, suggesting the possibility of advanced-stage or disseminated disease. The purpose of further whole-body evaluation was to determine whether there were intrapulmonary metastases, lymph node metastases, and distant metastases, thereby completing TNM staging and distinguishing surgically resectable localized-stage disease from advanced disease requiring systemic treatment; at the same time, this could also explain the causes of the chest pain, shortness of breath, and extensive bilateral lung involvement, and avoid continuing to treat metastases or tumor-related changes as infection. In the end, intrapulmonary metastases and left supraclavicular lymph node metastasis were identified, directly classifying the disease as stage IVa and determining that the patient was not suitable for local therapy alone, but rather should be treated primarily with systemic antitumor therapy, especially targeted therapy.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopic biopsy pathology result: bronchial mucosal invasive adenocarcinoma (lepidic type) in the apical anterior segment of the right upper lobe. IHC: TTF-1(+), Napsin A(+), CK5/6(-), P40(-), TS(-), EGFR(+), P16 weak (+), P53(-), Ki67(+) 5%, PD-L1(22C3)(TPS=0). Genetic testing results: dual EGFR mutations L858R and 19Del were detected; no mutations were detected in ALK, ROS1, BRAF, HER2, NRAS, RET, or PI3KCA. Further systemic workup suggested intrapulmonary metastases and left supraclavicular fossa lymph node metastasis.",
+      "images": [
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473SKK1fC5yaRaNYIfUUfsGR2AC3v4rP68mJHpRuiciaqm0fJgwT7qeaRcw/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/2061fe1a765de6c3df86c328e69e223f7c5fb7ce.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz473j410rnBMzRpl95Ir25OK1USTJVt0lZ2c1Yicibb3vQ4c30F5TVlaSL9Q/640?wx_fmt=jpeg",
+          "near_text": "Bronchoscopic biopsy pathology result:",
+          "local_src": "cleaned_cases_image_cache/a26cd069977eda966baf114473faf0e42e1a8377.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Malignant lung neoplasm (right upper lobe, adenocarcinoma, cT4N3M1a stage IVA), with left supraclavicular lymph node metastasis, with bilateral intrapulmonary metastases, type I respiratory failure",
+      "diagnostic_basis": [
+        "Bronchoscopic biopsy pathology result: infiltrating adenocarcinoma of the bronchial mucosa (lepidic growth pattern) in the \"apical anterior segment of the right upper lobe\"",
+        "Genetic testing results: dual EGFR mutations detected, L858R and 19Del",
+        "Systemic workup indicated intrapulmonary metastases and left supraclavicular lymph node metastasis"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Oral gefitinib"
+      ],
+      "treatment_response": [
+        "After oral gefitinib, the patient's lesions decreased significantly in size."
+      ]
+    }
+  }
+}

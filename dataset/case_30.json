@@ -1,0 +1,351 @@
+{
+  "status": "success",
+  "case_id": "case_30",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 77-year-old retired senior professor of physics who presented to our hospital with the chief complaint of \"cough, sputum production, and exertional dyspnea for 1 month.\" In early period, around Day 0, the patient developed symptoms of cough, small amount of white sputum, and exertional dyspnea without any obvious precipitating cause. There was no chest tightness, chest pain, or hemoptysis; no oliguria or edema; and no discomfort such as arthralgia or rash. Because the chief complaint continued to worsen, the patient presented to a local hospital on Day -14, where pulmonary infection was initially considered, and cefaclor 1 tablet tid was given orally for 3 days, with no significant symptom relief. On Day -9, the patient returned to the local hospital. Routine blood test showed no remarkable abnormalities, viral infection was considered, and oral ribavirin was given for 5 days. On Day -4, repeat routine blood test showed WBC: 9.09x10^9/L, N: 57.9%. Chest CT showed possible multiple inflammatory lesions in both lungs, accompanied by multiple mildly enlarged mediastinal lymph nodes. Levofloxacin 0.5 g qd was given by intravenous drip for 4 days, but symptoms still did not improve significantly. After the patient presented to our hospital on Day 0, physical examination showed: T: 36.4℃, P: 64/min, R: 16/min, BP: 130/76 mmHg. Breathing was steady at rest. There was no jaundice or cyanosis of the skin, and no palmar erythema or spider angiomas. There was no enlargement of superficial lymph nodes. The thorax showed no deformity. Percussion of both lungs was resonant. On auscultation, breath sounds in both lungs were coarse, with moist rales, more prominent in the bilateral upper lungs. No dry rales were heard. There was no precordial bulge. Heart rate was 64/min with regular rhythm. There was no edema of either lower extremity. Laboratory tests showed: routine blood test WBC 9.10x10^9/L, N 67.7%. cTnT <0.003 ng/ml, proBNP: 224.8 pg/ml, D-dimer normal, ESR 24 mm/H; CRP 2.4 mg/L; PCT 0.04 ng/ml. Liver function: ALT 32 u/mL, AST 35 u/mL, albumin 37 g/L, globulin 41 g; creatinine: 93 uml/L. Sputum culture: Candida albicans 1+; bacterial culture (-). Sputum smear for bacteria, fungi, and TB (-). Respiratory system special pathogen nine-item panel, Mycoplasma pneumoniae IgM, and IgG were all negative. Cytomegalovirus IgG (+), IgM (-). T-SPOT assay well A 8, well B 8. G test, GM test, and cryptococcal capsular antigen (-). Hepatitis B serologic panel (-). After admission, cefepime 2 g qd and moxifloxacin 0.4 g qd were given for 2 days, but the patient's symptoms did not improve significantly, and the symptoms of shortness of breath and dyspnea after activity continued to worsen. There was no significant change in body weight. Further review of the past medical history showed that the patient underwent radical prostate cancer surgery in 2016, with annual follow-up, and the condition was stable. In approximately 7 months before Day 0, paroxysmal atrial fibrillation was identified, and the patient was taking amiodarone 0.2 g qd and rivaroxaban 15 mg qd for anticoagulation. The patient denied a history of hypertension, coronary heart disease, diabetes, or other diseases. Infectious disease history: hepatitis A more than 40 years ago, now cured. The patient denied allergy history. The patient denied smoking and alcohol use history, and denied residence in epidemic areas.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeAWu3XSusGttKQxMg8Lqmiacqt7JAzKoCeT1JLU8hlAAcGRXpO8hIblQ/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/72ca9b6756a4416f14946cca719ac51fccbdee95.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeWfltFj42Ut6GW7cFwicpiacvyiaKS8XQqPLN9M3NVYcMxr90iaS9nAxGSw/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/d2a83be23f8a9a2c835448ffa51061ae901df0db.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXer7NG6icsZ92UD0BDicMjJuXqYQLKMRScibVJ3ZExbRRofjoaTjCFeHVbg/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/eca33d6cff66805419af4d4ff0482a095c73a522.jpg"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeO07wKZxZ8elFGGZvZO6iaEDeibgTN4OZjibQBplKGjibgPnu6yKH0lypsg/640?wx_fmt=jpeg",
+          "near_text": "How should the differential diagnosis be made?",
+          "local_src": "cleaned_cases_image_cache/d4e630b6e1d0c162d1c41ce4350e43e234673c9d.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Amiodarone-related pulmonary toxicity (drug-induced pneumonia/interstitial lung disease)",
+          "supporting_evidence": [
+            "After paroxysmal atrial fibrillation was identified in approximately 7 months before Day 0, the patient had been continuously taking amiodarone 0.2 g qd, with a medication history of several months before this onset.",
+            "The main manifestations were cough, a small amount of white sputum, and exertional dyspnea for 1 month, with progressive worsening of dyspnea, consistent with the common subacute onset pattern of drug-induced lung injury.",
+            "After sequential treatment with cefaclor, ribavirin, levofloxacin, cefepime, and moxifloxacin, symptoms showed no significant improvement, suggesting that conventional infectious pneumonia is an insufficient explanation.",
+            "Temperature 36.4℃, WBC 9.10x10^9/L, CRP 2.4mg/L, and PCT 0.04ng/ml, all of which do not support obvious bacterial infection",
+            "The chest CT report text suggests 'possible multiple inflammatory lesions in both lungs, accompanied by multiple mildly enlarged mediastinal lymph nodes'; the attached CT images show multiple patchy/ground-glass opacities in both lungs, more pronounced in the peripheral lower lungs and posterior basal regions, consistent with the bilateral diffuse or multifocal infiltrative pattern seen in drug-induced lung injury.",
+            "Pulmonary auscultation revealed moist rales in both lungs, more pronounced in both upper lungs, suggesting pulmonary parenchymal involvement"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence.",
+            "In the first stage, there were no imaging descriptions more specific for amiodarone pulmonary toxicity, such as high-attenuation infiltrates or definite signs of interstitial fibrosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "A 1-month course of subacute cough, sputum production, and exertional dyspnea, consistent with the typical clinical course of organizing pneumonia",
+            "No significant improvement with multiple anti-infective therapies, suggesting the possibility of an inflammatory pulmonary parenchymal lesion other than atypical bacterial pneumonia",
+            "Inflammatory markers are not elevated: WBC is basically normal, CRP 2.4 mg/L, PCT 0.04 ng/ml",
+            "CT report text suggests possible multiple inflammatory lesions in both lungs; the attached CT images show multiple peripheral/subpleural patchy opacities in both lungs, more prominent in the posterior basal segments of the lower lungs, with morphology that can be consistent with organizing pneumonia",
+            "Auscultation revealed moist rales, suggesting alveolar and interstitial involvement"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a clear precipitating factor, connective tissue disease background, or pathologic basis.",
+            "In the first stage, imaging features more supportive of organizing pneumonia, such as typical migratory lesions or the reverse halo sign, were not described."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Atypical pathogen pneumonia/community-acquired pneumonia",
+          "supporting_evidence": [
+            "The patient presented with cough, expectoration of a small amount of white sputum, and exertional dyspnea; chest CT was previously interpreted by a local hospital as 'possible multiple inflammatory lesions in both lungs'.",
+            "Auscultation of both lungs revealed coarse breath sounds and moist rales, supporting that an infectious pulmonary lesion should still be considered.",
+            "ESR 24 mm/H was mildly elevated, suggesting a certain degree of inflammatory response.",
+            "The attached CT images show multiple patchy areas of increased density in both lungs, which can be seen in infectious pneumonia"
+          ],
+          "opposing_evidence": [
+            "No fever, temperature 36.4℃",
+            "Repeated complete blood counts were unremarkable or showed only mild changes; WBC 9.10x10^9/L, N 67.7%, not supportive of significant bacterial infection",
+            "CRP 2.4 mg/L and PCT 0.04 ng/ml were both low",
+            "Respiratory special pathogen nine-panel test, Mycoplasma pneumoniae IgM and IgG were both negative",
+            "Sputum bacterial culture (-), sputum smear for bacteria (-)",
+            "After treatment with cefaclor, levofloxacin, cefepime, moxifloxacin, and ribavirin, among others, the symptoms showed no significant improvement."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Noninfectious interstitial lung disease (e.g., idiopathic interstitial pneumonia/NSIP-like changes)",
+          "supporting_evidence": [
+            "An elderly patient whose main symptoms are progressive exertional dyspnea accompanied by cough, consistent with one of the common presentations of interstitial lung disease",
+            "Evidence supporting infection is weak: no fever, low CRP and PCT, multiple etiologic tests negative, and poor response to anti-infective treatment",
+            "The attached CT images show multiple patchy and ground-glass opacities in both lungs, more prominent in the posterior basal regions of the lower lungs and the subpleural areas, suggesting possible diffuse parenchymal lung disease.",
+            "Bilateral moist rales suggest possible pulmonary interstitial/alveolar lesions"
+          ],
+          "opposing_evidence": [
+            "Stage 1 did not describe digital clubbing, Velcro crackles, clear evidence of restrictive ventilatory impairment, or a long-term progressive disease course",
+            "No connective tissue disease-related clues such as arthralgia or rash",
+            "The CT report only states 'possible multiple inflammatory lesions in both lungs' and does not specifically describe typical signs of interstitial lung disease such as reticulation, honeycombing, or traction bronchiectasis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary tuberculosis or nontuberculous mycobacterial lung disease",
+          "supporting_evidence": [
+            "The patient is elderly, with subacute cough, sputum production, and shortness of breath",
+            "Moist crackles are more pronounced in both upper lungs; the possibility of an upper-lung-predominant distribution abnormality should be considered.",
+            "The chest CT report indicates multiple mildly enlarged mediastinal lymph nodes."
+          ],
+          "opposing_evidence": [
+            "No fever, night sweats, significant weight loss, hemoptysis, or other typical TB toxic or respiratory symptoms",
+            "Sputum smear for TB (-)",
+            "Neither the imaging report text nor the attached images showed definite cavitation, tree-in-bud pattern, or other more typical imaging findings of tuberculosis.",
+            "Repeated examinations were more suggestive of a non-overt infectious state: WBC was basically normal, and CRP and PCT were low"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary neoplastic lesions or lymphangitic carcinomatosis (including prostate cancer-related metastatic pulmonary involvement)",
+          "supporting_evidence": [
+            "The patient is of advanced age, and the symptoms are progressively worsening.",
+            "History of radical prostatectomy for prostate cancer",
+            "The chest CT report notes multiple mildly enlarged mediastinal lymph nodes.",
+            "No significant improvement after multiple anti-infective treatments, suggesting that noninfectious lesions need to be included in the differential diagnosis"
+          ],
+          "opposing_evidence": [
+            "Annual follow-up after prostate cancer surgery, condition stable",
+            "No significant change in body weight",
+            "The attached CT images do not show a definite solitary mass lesion, obvious diffuse nodular dissemination, or typical lymphangitic-like septal thickening.",
+            "The chest CT report initially suggested 'possible multifocal inflammatory lesions in both lungs' rather than neoplastic lesions."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Chest CT at our hospital (Day 0) showed: diffuse interstitial changes in both lungs, with reticular changes, ground-glass opacities, and focal bronchial traction resulting in bronchiectatic changes. Pulmonary function: mild restrictive ventilatory dysfunction; bronchodilator test negative. Arterial blood gas (09-02): PaO2: 68 mmHg, PaCO2: 35 mmHg. Arterial blood gas (09-11): PaO2: 65 mmHg, PaCO2: 37 mmHg. Both chest CT and pulmonary function testing indicate diffuse interstitial lung disease. Review of the patient's chest CT from a 2018 physical examination (Day -585): mild interstitial proliferation in the lower lobes of both lungs, without significant diffuse interstitial changes in both lungs. In addition, the onset of dyspnea and hypoxemia over the past month indicates that the interstitial lesions are active.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXev8DrumfPeL9ibtzLmYTsge24icyibyxAA0gjPWvpT86a4V5oibHg2GH4dQ/640?wx_fmt=jpeg",
+            "near_text": "Chest CT at our hospital (Day 0) showed:",
+            "local_src": "cleaned_cases_image_cache/fac36194cbd0e4af69d9e6fb2a46a082351af926.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeTiazW235zLFaibibexiaXL5RjtOpVvhDX8cK0iaIRkUSMcDhzFQdE3ve2gg/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/44a7684e011fe0536d63a87582dc2c6abcab7fae.jpg"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeZPQFSDBCDH4obXk0F2EvZmEFB7ZIkQS6zh7s4Htl4UOsP4yyk13Y6Q/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/72fa9c5eb86eb6f20259c8439c11203231f04fa4.jpg"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIbAttle0jhDj6uXguC0CXeCUtk4ib6pBIuNFVrd1S4NJo0iaIRE6wBO31VAibLDyibc7kej6KMtCN2rA/640?wx_fmt=jpeg",
+            "near_text": "PFT: mild restrictive ventilatory defect, bronchodilator test negative.",
+            "local_src": "cleaned_cases_image_cache/eaa8da451a298f282c06040450d0f0e4b01be8bc.jpg"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIbAttle0jhDj6uXguC0CXe97MeVygaoZcL6Cf0Rs9IzSQbt0qRzdRAJ6SNJXWOxicjic8gTOLWBvlg/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/2168eb76e8d1d531b2d4c254adb647b233ab789d.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIbAttle0jhDj6uXguC0CXebP7ibG60FUL19ThqWsvC7ILMUn1HYtpVUYf6Fsdibib3E88lZOkAt0pzw/640?wx_fmt=png",
+            "near_text": "Arterial blood gas (09-02): PaO2: 68 mmHg, PaCO2: 35 mmHg.",
+            "local_src": "cleaned_cases_image_cache/38376371302c9dc16c9becff120a72868590c0ed.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "bronchial asthma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no history of smoking and no history of recurrent or chronic cough or sputum production. Based on the medical history, the diagnosis of bronchial asthma is not supported."
+            ]
+          },
+          {
+            "name": "cardiac insufficiency",
+            "evidence": [
+              "Holter monitoring in this patient showed atrial fibrillation and frequent premature ventricular contractions."
+            ],
+            "exclusion_reasons": [
+              "No lower extremity edema or paroxysmal nocturnal dyspnea; proGRP is not elevated, which also does not strongly support heart failure."
+            ]
+          },
+          {
+            "name": "Infectious disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The results of the above infectious marker tests and the lack of response to antibiotic therapy both suggest that an infectious disease is unlikely."
+            ]
+          },
+          {
+            "name": "Rheumatic disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's autoimmune markers were all normal, and there were no extrapulmonary manifestations such as joint pain or skin nodules; there is insufficient evidence for rheumatic disease."
+            ]
+          },
+          {
+            "name": "Occupational and environmental factors such as asbestosis and silicosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient is a professor in the Department of Physics, with no history of long-term exposure to asbestos, silica, or similar substances at work or in daily life, so asbestosis and silicosis, among others, can be excluded."
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's recent living environment has been stable, with no history of exposure to allergenic substances such as fungi, and the CT findings are inconsistent with hypersensitivity pneumonitis (which mainly manifests as centrilobular ground-glass or nodular opacities predominantly in the mid-to-upper lung fields); therefore, hypersensitivity pneumonitis can essentially be excluded."
+            ]
+          },
+          {
+            "name": "Sarcoidosis and organizing pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Pathologic biopsy is still required for a definitive diagnosis; there is currently no clear evidence, but the imaging features are not consistent with either of these two diseases."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "bronchial asthma",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no history of smoking and no history of recurrent or chronic cough or sputum production. Based on the medical history, the diagnosis of bronchial asthma is not supported."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "cardiac insufficiency",
+        "evidence": [
+          "Holter monitoring in this patient showed atrial fibrillation and frequent premature ventricular contractions."
+        ],
+        "exclusion_reasons": [
+          "No lower extremity edema or paroxysmal nocturnal dyspnea; proGRP is not elevated, which also does not strongly support heart failure."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Infectious disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The results of the above infectious marker tests and the lack of response to antibiotic therapy both suggest that an infectious disease is unlikely."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Rheumatic disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's autoimmune markers were all normal, and there were no extrapulmonary manifestations such as joint pain or skin nodules; there is insufficient evidence for rheumatic disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Occupational and environmental factors such as asbestosis and silicosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient is a professor in the Department of Physics, with no history of long-term exposure to asbestos, silica, or similar substances at work or in daily life, so asbestosis and silicosis, among others, can be excluded."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's recent living environment has been stable, with no history of exposure to allergenic substances such as fungi, and the CT findings are inconsistent with hypersensitivity pneumonitis (which mainly manifests as centrilobular ground-glass or nodular opacities predominantly in the mid-to-upper lung fields); therefore, hypersensitivity pneumonitis can essentially be excluded."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Sarcoidosis and organizing pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Pathologic biopsy is still required for a definitive diagnosis; there is currently no clear evidence, but the imaging features are not consistent with either of these two diseases."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Medication history inquiry (history of amiodarone use)",
+          "basis_in_stage3_input": "Of particular note, the patient had a history of taking amiodarone for 8 months to control atrial fibrillation, and this information became the key breakthrough.",
+          "why_order_this_exam": "The patient is 77 years old. Over the past 1 month, he developed cough, a small amount of white sputum, and progressively worsening exertional dyspnea. Multiple courses of anti-infective treatment (cefaclor, ribavirin, levofloxacin, cefepime, moxifloxacin) produced no significant improvement; instead, the dyspnea continued to worsen. Laboratory infection markers were not elevated, etiologic testing was basically negative, chest CT further showed diffuse bilateral interstitial changes, reticular opacities, ground-glass opacities, and traction bronchiectasis, pulmonary function testing showed a mild restrictive ventilatory defect, and arterial blood gas suggested persistent hypoxemia, all of which suggest a noninfectious diffuse pulmonary parenchymal/interstitial process. At this time, a detailed medication history, especially whether amiodarone has been taken long-term, is the key to resolving the etiologic question, because amiodarone can cause drug-related interstitial pneumonitis, which clinically often presents with subacute cough, dyspnea, diffuse interstitial or ground-glass changes on imaging, and lack of response to antibacterial treatment. The purpose of this evaluation is to determine whether there has been exposure to a pneumotoxic drug that matches the timing of onset and disease progression, thereby supporting the diagnosis of amiodarone-related pulmonary toxicity and helping exclude other differential diagnoses such as infection, cardiac insufficiency, occupational/environmental exposure, and some rheumatic autoimmune diseases. At the same time, this directly affects treatment decisions and risk control: once confirmed, amiodarone should be discontinued as soon as possible to avoid continued exposure leading to further worsening of hypoxemia and lung injury, and to provide a basis for subsequently switching to other rhythm-control drugs and initiating glucocorticoid therapy.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Of particular note, the patient had a history of taking amiodarone for 8 months to control atrial fibrillation, and this information became the key breakthrough.",
+      "images": [
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIbAttle0jhDj6uXguC0CXeoRI6Al0GgEVGIibEOmv2dKKMyBjDFJLLpPf6oBud878TXiaYx2q40T5g/640?wx_fmt=png",
+          "near_text": "Therefore, amiodarone-associated interstitial pneumonitis is considered.",
+          "local_src": "cleaned_cases_image_cache/a5084fd1fd5614c19f2d08e4d6d9de75d78945ac.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Amiodarone-associated interstitial pneumonia",
+      "diagnostic_basis": [
+        "The patient had a history of taking amiodarone for 8 months to control atrial fibrillation.",
+        "Other common diseases have been excluded in this patient, and drug-related interstitial lung disease is considered more likely."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Discontinue amiodarone and use sotalol to control arrhythmia",
+        "Methylprednisolone 40 mg ivgtt qd, azithromycin 0.5 g ivgtt qd, and acetylcysteine were used to control interstitial lung disease.",
+        "Received calcium supplementation, gastric mucosal protection, and other treatments"
+      ],
+      "treatment_response": [
+        "Exertional dyspnea has improved significantly",
+        "Chest CT showed marked improvement in the bilateral interstitial inflammatory lesions compared with before.",
+        "Arterial blood gas analysis showed PaO2: 81 mmHg and PaCO2: 38 mmHg, with a marked improvement compared with the PaO2 of 65-68 mmHg on Day +3."
+      ]
+    }
+  }
+}

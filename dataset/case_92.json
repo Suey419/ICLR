@@ -1,0 +1,345 @@
+{
+  "status": "success",
+  "case_id": "case_92",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 66 years old, chief complaint: \"chest tightness and dyspnea for 2 months, intermittent hemoptysis for 1 month.\" Previously in good health. Two months earlier, he developed chest tightness and dyspnea on exertion without obvious precipitating factors, without fever, chest pain, cough, sputum production, hemoptysis, or wheezing. He presented to a local hospital, where chest CT showed a large pericardial effusion and bilateral pleural effusions. Pericardiocentesis and drainage were performed; the fluid was bloody, with a total drainage volume of 2500 ml, ADA 20.5 U/L and LDH 1086 U/L. Pathologic examination was submitted and showed no tumor cells. Thoracentesis and drainage were performed; the fluid was light yellow, with a total drainage volume of 2300 ml, an exudate. Pathologic examination was submitted and showed no tumor cells. Rheumatologic panel, ANCA, TSPOT, and tumor markers were all negative. The patient's symptoms were relieved and he was discharged. He was subsequently seen in the outpatient clinic at Peking Union Medical College Hospital, where IgG4, CK, thyroid function, urinalysis, and liver and kidney function tests were all negative, and no specific treatment was given. During this period, follow-up echocardiography was repeated twice in the outpatient clinic of the local hospital, both showing a small pericardial effusion. One month earlier, the patient developed hemoptysis, bright red in color, occasionally with blood clots, approximately 20-30 ml/day, and was again hospitalized at the local hospital for diagnosis and treatment. Chest CT showed multiple nodules in both lungs, tree-in-bud pattern, and small bilateral pleural effusions. Piperacillin-tazobactam combined with levofloxacin was given for anti-infective treatment for 1 week, but the hemoptysis progressively worsened. Pulmonary artery CTA showed a small filling defect within a branch of the pulmonary artery in the dorsal segment of the right lower lobe. Pulmonary embolism? Coronary CTA showed coronary atherosclerosis with varying degrees of luminal stenosis. He was admitted to our department from the outpatient clinic with \"diffuse bilateral lung disease, pericardial effusion.\" The patient had a history of diabetes for more than 20 years and had been taking \"metformin, Xiaoke pills\" long-term for glucose control, without regular blood glucose monitoring; family history and personal history were otherwise unremarkable. Physical examination on admission: T: 36.5℃, P: 84/min, R: 20/min, BP: 112/69 mmHg. On admission, the patient was conscious and in fair general condition. Breath sounds were coarse in both lungs, with no dry or wet rales heard. Heart rhythm was regular, with no pathologic murmurs heard over any valve area. No edema was present in either lower extremity. Infectious workup: WBC count, neutrophil count, CRP, PCT (-), sputum culture (-), TSPOT (-), G, GM (-); tumor-related: tumor markers (-); immune-related: rheumatologic panel, ANCA, IgG4 (-); others: Hb 120 g/L, liver and kidney function (-), myocardial infarction markers and BNP (-), thyroid function (-), CK (-), stool routine and urinalysis (-). Echocardiography: EF 58%, large pericardial effusion. Lung CT: repeat lung CT after pericardial and pleural puncture drainage showed multiple small nodules in both lungs, small bilateral pleural effusions, and a small pericardial effusion. Because of progressively worsening hemoptysis, coronary CTA performed in our outpatient clinic showed coronary atherosclerosis with varying degrees of luminal stenosis; pulmonary artery CTA showed a small filling defect within a branch of the pulmonary artery in the dorsal segment of the right lower lobe, suspicious for pulmonary embolism. On repeated questioning regarding exposure history, the patient reported no exposure to special fumes or gases.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sCOUxR787Fb1hBcVYVFGfo1xrWRAVLaVaJibxJ1oN5g0ibmQz7qpbaQCw/640?wx_fmt=png",
+          "near_text": "Because of progressively worsening hemoptysis, coronary CTA was completed in the outpatient clinic of our hospital and showed coronary atherosclerosis with varying degrees of luminal stenosis; pulmonary artery CTA showed a small intraluminal filling defect in a branch of the dorsal segmental pulmonary artery of the right lower lobe, suspicious for pulmonary embolism.",
+          "local_src": "cleaned_cases_image_cache/b4a9e8885564161c64507003a11f285e68f2873d.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sSWyodyYxCQR4KRQribyDeIQEOIibohXbs9swxWDPcZHM9WsvQjIbyMQA/640?wx_fmt=png",
+          "near_text": "Initial admission diagnosis",
+          "local_src": "cleaned_cases_image_cache/3d3e5774bd1457084df7fa84e438c8e133180c04.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary malignant tumor with malignant pericardial effusion/pleural effusion (e.g., lung adenocarcinoma or metastatic tumor)",
+          "supporting_evidence": [
+            "A 66-year-old man presented with chest tightness, dyspnea, and intermittent hemoptysis, which are common warning symptoms of pulmonary malignant tumors.",
+            "Chest CT showed multiple nodules and a tree-in-bud pattern in both lungs; multiple small nodular opacities are visible in both lungs on the images.",
+            "There had been a large pericardial effusion and bilateral pleural effusions; the pericardiocentesis fluid was bloody, with a drainage volume of 2500ml, indicating that malignant serosal cavity involvement requires a high degree of vigilance.",
+            "Imaging shows pericardial effusion and bilateral pleural effusions",
+            "After 1 week of anti-infective treatment, hemoptysis progressively worsened, which does not support simple common bacterial infection.",
+            "Repeat echocardiography again showed a large pericardial effusion, while BNP (-) and EF 58%, which do not support the effusion being caused solely by cardiac insufficiency."
+          ],
+          "opposing_evidence": [
+            "Pathologic examination of both pericardial effusion and pleural effusion specimens revealed no tumor cells.",
+            "All tumor markers were negative",
+            "The phase I imaging was described as showing multiple small nodules and a tree-in-bud pattern in both lungs, without a definite indication of a central or peripheral pulmonary mass."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculosis (pulmonary tuberculosis with tuberculous pericarditis/pleuritis)",
+          "supporting_evidence": [
+            "Chest tightness, dyspnea, and hemoptysis may be present in active pulmonary TB",
+            "Chest CT showed multiple nodules in both lungs and a tree-in-bud pattern; a tree-in-bud pattern can be seen in bronchogenic disseminated tuberculosis.",
+            "There is a large amount of pericardial effusion and bilateral pleural effusions; TB can involve the pericardium and pleura.",
+            "Pericardial effusion was hemorrhagic, and pleural effusion was exudative, consistent with possible infectious or inflammatory serosal cavity involvement.",
+            "Imaging shows multiple small nodules in both lungs, pericardial effusion, and pleural effusion."
+          ],
+          "opposing_evidence": [
+            "TSPOT(-)",
+            "Pericardial effusion ADA 20.5 U/L, without the typical elevated ADA finding supporting TB",
+            "No typical infectious symptoms such as fever, cough, or sputum production",
+            "WBC count, neutrophil count, CRP, PCT (-)"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary vasculitis-related diseases (such as granulomatosis with polyangiitis/microscopic polyangiitis) with pulmonary hemorrhage and serosal cavity involvement",
+          "supporting_evidence": [
+            "Progressively worsening hemoptysis may be seen in pulmonary capillaritis or pulmonary hemorrhage",
+            "Multiple nodules in both lungs can be seen in granulomatous vasculitis",
+            "Both pericardial effusion and pleural effusion are present, suggesting a systemic inflammatory disease involving the serosal cavities.",
+            "Most infection-related tests were negative, and hemoptysis continued to worsen after anti-infective treatment, suggesting the possibility of a non-common infectious lesion."
+          ],
+          "opposing_evidence": [
+            "ANCA-negative",
+            "Rheumatologic panel negative",
+            "No clear first-stage clues to systemic vasculitis such as fever, rash, sinus symptoms, or renal damage.",
+            "Urinalysis (-)"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary embolism/pulmonary infarction",
+          "supporting_evidence": [
+            "The patient has hemoptysis and chest tightness with dyspnea, which can be seen in pulmonary embolism or pulmonary infarction.",
+            "Pulmonary artery CTA showed a small filling defect within a branch of the pulmonary artery in the dorsal segment of the right lower lobe, suspicious for pulmonary embolism.",
+            "May be accompanied by a small amount of pleural effusion; current imaging shows small bilateral pleural effusions"
+          ],
+          "opposing_evidence": [
+            "Pulmonary artery CTA showed only a small filling defect within a branch of the pulmonary artery in the dorsal segment of the right lower lobe; the extent of the lesion was limited and it is difficult to explain the previously large pericardial effusion and bilateral pleural effusions on this basis alone.",
+            "Multiple nodules in both lungs and a tree-in-bud pattern are not typical imaging manifestations of pulmonary embolism",
+            "No edema in both lower extremities; no evidence of deep venous thrombosis was provided in the first phase"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Nontuberculous mycobacterial pulmonary disease or other chronic disseminated airway infection",
+          "supporting_evidence": [
+            "Chest CT showed multiple nodules and a tree-in-bud pattern in both lungs, consistent with an imaging pattern of infectious bronchiolar dissemination",
+            "May present with hemoptysis",
+            "Poor response after 1 week of routine anti-infective treatment suggests that this may not be an ordinary community-acquired bacterial infection",
+            "A history of diabetes for more than 20 years, one of the predisposing factors for chronic infection"
+          ],
+          "opposing_evidence": [
+            "No fever, cough, or sputum production",
+            "WBC count, neutrophil count, CRP, PCT (-)",
+            "Sputum culture (-)",
+            "Massive hemorrhagic pericardial effusion is not a common initial presentation of nontuberculous mycobacterial pulmonary disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Idiopathic/viral pericarditis or other noninfectious pericarditis with reactive pleural effusion, with a concomitant independent pulmonary lesion",
+          "supporting_evidence": [
+            "The initial presentation was a large pericardial effusion and bilateral pleural effusions; repeated echocardiography consistently showed pericardial effusion.",
+            "Multiple tests including rheumatologic panel, IgG4, thyroid function, CK, and liver and kidney function were negative, suggesting that pericarditis of partially unclear etiology still needs to be considered",
+            "BNP (-), EF 58%, does not support heart failure-related pleural effusion"
+          ],
+          "opposing_evidence": [
+            "The pericardial effusion was hemorrhagic, which is atypical for common viral or idiopathic pericarditis.",
+            "cannot adequately explain multiple bilateral pulmonary nodules, tree-in-bud pattern, and progressive hemoptysis",
+            "Stage 1 information did not provide clear prodromal symptoms of viral infection"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, repeat chest CT showed: diffuse tree-in-bud opacities in both lungs, significantly worsened compared with the previous CT; small left pleural effusion; small pericardial effusion.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48svV7yKFlwQ4cORFrWU7ELhEJLmDxSTTNx5W6Bbz02O18l0yZS0WFiazg/640?wx_fmt=png",
+            "near_text": "Summary of case characteristics:",
+            "local_src": "cleaned_cases_image_cache/71401c8bc91dae3a606cf6cc97462d41aa638f00.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Idiopathic airway diseases and congenital diseases",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Hemoptysis, without cough or sputum production, without respiratory symptoms such as chest tightness or dyspnea, and previous pulmonary physical examination and CT showed no abnormalities"
+            ]
+          },
+          {
+            "name": "Infection",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No infectious symptoms such as cough, sputum production, or fever, and pulmonary physical examination was negative; infection markers were negative; repeated anti-infective treatment at an outside hospital was ineffective."
+            ]
+          },
+          {
+            "name": "seronegative autoimmune disease",
+            "evidence": [
+              "A large hemorrhagic pericardial effusion did not recur after drainage. Transient pericardial effusion is not consistent with the tendency of malignant pericardial effusion to recur. Combined with diffuse exudative opacities in both lungs, a seronegative rheumatic systemic disease causing multisystem disease cannot be excluded."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Idiopathic airway diseases and congenital diseases",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Hemoptysis, without cough or sputum production, without respiratory symptoms such as chest tightness or dyspnea, and previous pulmonary physical examination and CT showed no abnormalities"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Infection",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No infectious symptoms such as cough, sputum production, or fever, and pulmonary physical examination was negative; infection markers were negative; repeated anti-infective treatment at an outside hospital was ineffective."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "seronegative autoimmune disease",
+        "evidence": [
+          "A large hemorrhagic pericardial effusion did not recur after drainage. Transient pericardial effusion is not consistent with the tendency of malignant pericardial effusion to recur. Combined with diffuse exudative opacities in both lungs, a seronegative rheumatic systemic disease causing multisystem disease cannot be excluded."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Further complete bronchoscopy",
+          "why_order_this_exam": "The patient has progressively worsening hemoptysis. Chest CT showed multiple nodules in both lungs and diffuse tree-in-bud opacities, significantly worsened compared with the prior study. Routine infectious studies, tumor markers, and partial immunologic screening failed to explain the condition, and anti-infective treatment was also ineffective. Bronchoscopy allows direct visualization of the airway mucosa and the source of bleeding, to determine whether there is an endobronchial neoplasm, an active bleeding focus, or diffuse inflammatory changes of the airways, and provides the conditions for subsequent lavage sampling. This helps differentiate etiologies such as infection, tumor, and vasculitis-related pulmonary hemorrhage, while also assessing the feasibility and risk of further invasive procedures.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage by bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy with bronchoalveolar lavage",
+          "why_order_this_exam": "The patient has recurrent hemoptysis and progressive imaging findings. Bronchoscopy did not reveal a definite endobronchial neoplasm, suggesting that the lesion may be located at the alveolar or interstitial level. Bronchoalveolar lavage can determine whether the lavage fluid is bloody, thereby supporting alveolar hemorrhage; at the same time, it can be sent for cytology, pathogen testing, and molecular testing to help differentiate diffuse alveolar hemorrhage, occult infection, and tumor-related lesions. This examination directly addresses the most central clinical question in this case: to explain the nature of the progressive hemoptysis and diffuse bilateral lung lesions, and to provide a basis for whether to use immunosuppressive therapy or continue to seek evidence of tumor thereafter.",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-throughput genomic sequencing",
+          "basis_in_stage3_input": "High-throughput gene sequencing submitted for testing",
+          "why_order_this_exam": "The patient’s chest CT showed a tree-in-bud pattern and multiple nodules. In the initial differential diagnosis, chronic infection, especially TB, nontuberculous mycobacteria, and fungal infection, always needed to be excluded; however, routine sputum culture, T-SPOT, G/GM, and inflammatory markers were all negative, and antibacterial therapy was ineffective. High-throughput gene sequencing was performed on bronchoalveolar lavage fluid with the aim of identifying pathogens as comprehensively as possible when conventional cultures were negative, with emphasis on excluding special infections such as TB, NTM, and fungal infection, thereby avoiding misclassification of infectious lesions as immune-mediated or neoplastic lesions and providing a basis for whether treatments such as corticosteroids and cyclophosphamide could be used safely.",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "basis_in_stage3_input": "Repeat rheumatologic panel",
+          "why_order_this_exam": "The patient has hemorrhagic pericardial effusion, pleural effusion, progressive hemoptysis, and diffuse bilateral lung lesions; clinically, systemic immune-mediated disease or vasculitis causing serosal cavity involvement and pulmonary hemorrhage must be highly suspected. Although the previous rheumatologic panel was negative, in the context of disease progression and insufficient evidence for infection and common tumors, repeating the rheumatologic panel may help improve detection of seroconversion of markers or early immune-mediated disease, further assess whether connective tissue disease-associated lung injury is present, and affect whether immunosuppressive therapy is subsequently initiated or intensified.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "basis_in_stage3_input": "ANCA-negative",
+          "why_order_this_exam": "The main clinical issue is progressive hemoptysis with diffuse pulmonary lesions and poor response to anti-infective therapy, which is consistent with a differential diagnosis of pulmonary capillaritis or alveolar hemorrhage caused by ANCA-associated vasculitis; in addition, prior pericardial and pleural involvement can also be seen in systemic inflammatory diseases. The purpose of repeat ANCA testing is to further look for evidence of granulomatosis with polyangiitis, microscopic polyangiitis, etc. Even if the result is negative, it is still important for narrowing the diagnostic range and for determining the rationale and intensity of glucocorticoid and cyclophosphamide treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-glomerular basement membrane antibody",
+          "basis_in_stage3_input": "anti-glomerular basement membrane antibody test",
+          "why_order_this_exam": "This case has significant hemoptysis, diffuse progression on imaging, and subsequent pathology showing hemosiderin-laden macrophages, suggesting that diseases within the alveolar hemorrhage spectrum should be given primary consideration. Anti-glomerular basement membrane antibody testing is mainly performed to exclude diseases related to pulmonary-renal syndrome such as Goodpasture syndrome. Although the patient's urinalysis and renal function showed no obvious abnormalities, pulmonary involvement may precede renal manifestations. This test helps exclude as soon as possible a severe but treatable disease that may require early intensive immunotherapy or even plasmapheresis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antiphospholipid antibody",
+          "basis_in_stage3_input": "Antiphospholipid antibody testing to be completed",
+          "why_order_this_exam": "The patient has hemoptysis. Pulmonary artery CTA previously showed a small filling defect in a branch of the right lower pulmonary artery, and pulmonary embolism or in situ thrombosis should be differentiated. At the same time, there is hemorrhagic pericardial effusion and bilateral lung lesions, so an immune-mediated hypercoagulable state with coexisting thrombosis and bleeding should be considered. Completing antiphospholipid antibody testing can evaluate whether antiphospholipid syndrome-related thrombosis is present, help explain the suspected pulmonary embolism and multisystem manifestations, and directly affect the decision on whether to anticoagulate, pre-procedural risk assessment before invasive examinations, and the overall treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "basis_in_stage3_input": "Recommend completing tumor marker testing",
+          "why_order_this_exam": "The patient is an elderly man presenting with hemoptysis, multiple bilateral pulmonary nodules, hemorrhagic pericardial effusion, and pleural effusion. Malignancy has consistently been one of the key differential diagnoses. Although prior cytopathologic evaluation of the effusion showed no tumor cells and previous tumor markers were negative, these results cannot completely exclude malignancy. The purpose of repeat tumor marker testing is to look for new malignant clues, dynamically monitor for the emergence of abnormalities, and make a comprehensive judgment together with imaging and pathologic findings, thereby providing a basis for whether to further perform PET-CT, lung needle biopsy, and investigation of the primary tumor source.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT of the head and abdomen",
+          "basis_in_stage3_input": "Head and abdominal CT is recommended.",
+          "why_order_this_exam": "In the setting of multiple pulmonary lesions, hemoptysis, and serous cavity effusion of unclear etiology, systematic screening for an extrapulmonary primary tumor or metastatic lesions is required. Head and abdominal CT can assess for the presence of space-occupying lesions in the intracranial compartment, abdominal organs, or other sites, helping determine whether the pulmonary lesions represent primary lung cancer, metastatic tumors, or part of a systemic disease process, and can also provide a basis for subsequent biopsy site selection, staging assessment, and treatment planning.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Echocardiography",
+          "basis_in_stage3_input": "Recommend completing echocardiography",
+          "why_order_this_exam": "At disease onset, the patient had a large pericardial effusion; although it later decreased, a small pericardial effusion continued to recur. Chest tightness and dyspnea were also among the main early symptoms. Echocardiography can dynamically assess the volume of pericardial effusion, the risk of cardiac tamponade, valvular status, and whether there is a mass or abnormal echogenicity inside or outside the cardiac chambers, which is crucial for determining whether the symptoms are related to cardiac involvement. Especially when abnormal echogenicity lateral to the right atrium was identified later in this case and ultimately suggested the possibility of a cardiac tumor, echocardiography was an important tool for detecting and tracking the cardiac lesion and also influenced further contrast-enhanced CT, PET-CT, and surgical evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "Recommend completing PET-CT",
+          "why_order_this_exam": "After bronchoscopy, lavage, immunologic evaluation, and preliminary pathologic assessment, there was insufficient evidence for infection or common rheumatic immune diseases, while the pulmonary lesions initially improved with glucocorticoids combined with cyclophosphamide and then progressed significantly again, suggesting that an occult tumor may still be present. PET-CT can evaluate metabolically active lesions throughout the whole body, search for the primary lesion, abnormal cardiac lesions, and the metabolic characteristics of intrapulmonary lesions, help distinguish inflammatory/hemorrhagic lesions from malignant tumors, improve the detection rate of occult cardiac tumors, and provide an important basis for subsequent surgery or biopsy target selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung needle biopsy",
+          "basis_in_stage3_input": "CT-guided percutaneous lung biopsy",
+          "why_order_this_exam": "After the decision was made to obtain lung tissue, CT-guided needle biopsy can select representative lesions based on imaging, improving sampling accuracy. In this case, the imaging lesions were diffuse and the etiology was complex; it was necessary both to determine whether a tumor was present and to assess for alveolar hemorrhage and special pathologic changes. At the same time, the patient had hemoptysis, so the bleeding risk needed to be comprehensively evaluated before the procedure. This examination ultimately yielded key pathologic clues, including hemosiderin-laden macrophages and hemorrhage, which played a critical role in identifying the nature of the alveolar hemorrhage, advancing subsequent pathology consultation, and further searching for the true underlying primary etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology consultation",
+          "basis_in_stage3_input": "Submitted to the Peking Union Medical College Hospital Department of Pathology for further consultation",
+          "why_order_this_exam": "Although the lung biopsy pathology in this case indicated hemosiderin-laden macrophages and hemorrhage within the alveolar spaces, it did not directly provide a definitive etiologic diagnosis. Clinically, the patient also had hemoptysis, recurrent pericardial effusion, progressive pulmonary lesions, and only transient subsequent relief with immunotherapy, suggesting that review of a single pathology slide may be insufficient. The purpose of pathology consultation is for a higher-level subspecialty pathology team to re-review the specimen, exclude missed neoplastic, vascular, or unusual inflammatory lesions, improve diagnostic accuracy, and avoid mistakenly treating secondary pulmonary hemorrhage as a primary immune-mediated disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "basis_in_stage3_input": "PFT indicates increased pulmonary diffusing capacity",
+          "why_order_this_exam": "The patient has chest tightness, dyspnea, progressive hemoptysis, and diffuse bilateral pulmonary lesions. PFT can objectively assess the degree of ventilatory and diffusion impairment and reflect the functional severity of the condition. Especially when alveolar hemorrhage is suspected, increased diffusing capacity can serve as one of the supporting clues, corroborating bloody lavage fluid and hemosiderin-laden macrophages. This test helps support the assessment of intra-alveolar hemorrhage from a functional perspective and provides a basis for evaluation of treatment response and subsequent surgical and anesthesia risk assessment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Follow-up chest CT shows waxing and waning changes compared with the previous study",
+          "why_order_this_exam": "Chest CT was the core examination for dynamic observation of lesion evolution in this case. In the early stage, the patient's multiple bilateral pulmonary nodules and tree-in-bud pattern progressively worsened. After treatment, there was improvement in hemoptysis, absorption of pleural effusion, and waxing and waning changes on imaging; however, the lesions progressed again over the subsequent 2 months, suggesting that the condition was not due solely to infection or solely to immune-mediated inflammation. The purpose of repeated follow-up chest CT was to assess lesion distribution, rate of progression, response to treatment, and whether new suggestive signs had appeared, and to provide a basis for whether to further investigate an occult tumor, select a biopsy site, and adjust the treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Multisection echocardiographic screening",
+          "basis_in_stage3_input": "Transthoracic echocardiographic screening in multiple views showed a hypoechoic area on the lateral aspect of the right atrial wall.",
+          "why_order_this_exam": "After contrast-enhanced CT suggested a suspicious abnormality along the outer margin of the right atrium, targeted further verification with multiplanar echocardiography is required. This examination can assess from different angles the presence and extent of the hypoechoic area lateral to the right atrial wall and its relationship to the cardiac chamber and pericardium, helping determine whether it is a focal pericardial lesion, thrombus, or cardiac tumor. In this case, this step was the key transition from a pulmonary and immunologic line of thinking to the identification of a primary cardiac lesion, directly affecting subsequent PET-CT localization, surgical decision-making, and the final diagnostic pathway.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further bronchoscopy was performed. Bronchoscopy showed hyperemia of the bronchial mucosa at all levels, with no neoplasm seen. Bronchoalveolar lavage was performed; the BALF was bloody. The sample was sent for metagenomic next-generation sequencing, and the mNGS results reported multiple common respiratory tract bacteria, with no NTM, TB, fungi, or other unusual pathogens detected. Repeat rheumatologic panel and ANCA were negative. Anti-glomerular basement membrane antibody and antiphospholipid antibody were also completed and were both negative. There were likewise no positive biochemical markers supporting a rheumatologic etiology. Completion of tumor markers, head and abdominal CT, echocardiography, PET-CT, and lung biopsy was recommended. The patient's family repeatedly refused PET-CT for personal and other reasons. Repeat tumor markers suggested elevated cytokeratin 19. Head and abdominal CT showed no obvious mass lesion. On further history-taking, the patient had undergone gastroscopy and colonoscopy at another hospital 1 year earlier, with no obvious abnormalities found. Echocardiography showed normal ejection fraction, a small pericardial effusion, and regurgitation of two valves and three valves. CT-guided lung biopsy was performed. Pathology showed hemosiderin-laden macrophages within the alveolar spaces, with hemorrhage, and eosinophilic material was seen in a few alveolar spaces. The specimen was sent to the Peking Union pathology department for further consultation, which found no evidence related to tumor. PFT suggested increased pulmonary diffusing capacity. Treatment with glucocorticoids combined with cyclophosphamide was given. After 2 weeks of treatment, the patient's hemoptysis improved significantly, anemia improved compared with before, repeat chest CT showed waxing and waning changes compared with before, and pleural effusion was absorbed compared with before. However, on repeat chest CT after 2 months of treatment, the bilateral lung lesions had progressed compared with before. Radiology found subtle clues in a concealed location: prior contrast-enhanced CT had shown a filling defect along the outer margin of the right atrium, and comparison of multiple CT scans showed a prominent notch along the outer margin of the right atrium, raising consideration that a cardiac tumor could not be excluded. Multiplanar screening by the echocardiography lab showed a relatively hypoechoic area on the lateral wall of the right atrium. PET-CT was performed, and the results showed: 1. Patchy mass-like hypermetabolism in the right atrium; 2. Diffuse bilateral pulmonary spots and patchy opacities with high metabolism, consistent with inflammation and hemorrhage, but pulmonary adenocarcinoma could not be excluded. Palliative resection of the cardiac tumor plus lung biopsy was successfully completed.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sZtExgmwevkJSWtSofD7GjzHGyaZ8UUBKrpYr3BH71A11yTrOS87PZQ/640?wx_fmt=png",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/f27afe239c57bbfa1637f72c89742124dfc18fb5.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sWicib4wQD8EsdztPAWTkvPWeTjKx5yZnn1QNvgMENuRNq7stFluicK5Kg/640?wx_fmt=png",
+          "near_text": "The final pathology made the definitive diagnosis, and the truth was clarified. Cardiac angiosarcoma; the pulmonary lesions were lung metastases from cardiac angiosarcoma.",
+          "local_src": "cleaned_cases_image_cache/fe77276cce115b8f212f7c4279a8b39b5a325f19.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48szs2l8icQiakl9D7hPPAmKE6LWpbQz5lwBTbRyOjKLbdgpkR7Yz2IeLcQ/640?wx_fmt=png",
+          "near_text": "The patient had no infectious symptoms such as cough, sputum production, or fever, and lung examination was negative; infection markers were negative, and repeated anti-infective treatment at an outside hospital was ineffective.",
+          "local_src": "cleaned_cases_image_cache/ec77df72f72480bb6136a32bcb8d39be5120b7c4.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJN47XsFIDeJibxSEiaLlj48sXb0jfzaY0hUeib86OVickyruBs4Ct5s2joRpniboeibceRq7YibvKNVhQvA/640?wx_fmt=png",
+          "near_text": "At this point, we were also perplexed: which was the true causative culprit? An immune system disease with negative serologic markers, an occult tumor, or infection with a rare organism?",
+          "local_src": "cleaned_cases_image_cache/b062ff76cd4cf8de8d71603e588762494f04fb90.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Cardiac angiosarcoma; the pulmonary lesion is pulmonary metastasis of cardiac angiosarcoma",
+      "diagnostic_basis": [
+        "Pathology provided the definitive diagnosis",
+        "Immunohistochemistry: ERG(+), CD31(+), CD34(+), SMA(partially+); CKpan(-), EMA(-), CK8/18(-), CK5/6(-), Calretinin(-), TTF-1(-), Napsin A(-), P40(-), TFE3(-), Desmin(-), MyoD1(-), Myogenin(-), Caldesmon(-), TLE-1(-); Ki-67(+, approximately 70% in hotspot areas)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Palliative resection of cardiac tumor + lung biopsy",
+        "Postoperative consultation with the chemotherapy department recommended systemic chemotherapy, but the patient's family refused."
+      ],
+      "treatment_response": [
+        "The patient died 2 months after diagnosis during follow-up."
+      ]
+    }
+  }
+}

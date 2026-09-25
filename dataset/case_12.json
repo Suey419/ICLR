@@ -1,0 +1,360 @@
+{
+  "status": "success",
+  "case_id": "case_12",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "This is a 74-year-old elderly woman whose chief complaint was 3 days after trauma, with fever and dyspnea for 2 days. Three days earlier, the patient accidentally fell while walking alone and felt pain in the lower back. Lumbar spine X-ray showed: 1. degenerative changes of the lumbar spine; 2. compression of the T10-L1 and L3 vertebral bodies; abnormal density shadows within the T10 and L1 vertebral bodies, considered postoperative changes. Lumbar spine MRI: 1. compression fractures of the T10, T12, L1, and L3 vertebral bodies; 2. degenerative changes of the lumbar spine; 3. herniated discs at L4/5 and L5/S1 (central type); 4. slightly prolonged T2 signal in the subcutaneous tissue of the lower back. The patient was admitted to the Orthopedics Department of our hospital and was given symptomatic treatment to promote blood circulation and relieve pain, with surgical treatment planned. However, 2 days earlier, the patient developed increased respiratory rate without obvious precipitating factors, and 1 day earlier developed respiratory distress accompanied by high fever, with measured body temperature of 39℃, and was therefore transferred to the intensive care unit for treatment. The patient had a history of hypertension for more than 20 years and had intermittently taken candesartan and amlodipine besylate tablets orally, which had been discontinued for 1 year; coronary artery disease for more than 10 years, controlled with oral aspirin, rosuvastatin, and isosorbide mononitrate. She denied a history of diabetes. Personal history, menstrual history, marital and reproductive history, and family history were all unremarkable. On physical examination, the patient appeared acutely ill, tachypneic, and unable to lie flat, with temperature 37.4℃, respiratory rate 45 breaths/min, pulse oxygen saturation 85% (on face mask oxygen 8 L/min), blood pressure 80/50 mmHg, heart rate 150 beats/min, and atrial fibrillation rhythm. Dry and wet rales were heard diffusely in both lungs, and a grade 3/6 systolic murmur was audible at the apex. There was tenderness over the L3 spinous process. Mild edema was present in both lower extremities. Ancillary examinations were as follows: Laboratory tests: complete blood count: white blood cells 13.34×10^9/L, neutrophil percentage 90.6%, neutrophil count 12.09×10^9/L. Coagulation: fibrinogen 601 mg/dl, D-dimer 7450 ug/L. Liver function: total protein 58.6 g/L, albumin 24.8 g/L, prealbumin 111 g/L. Electrolytes: calcium 1.96 mmol/L, phosphorus 0.69 mmol/L. Glycated albumin: 19.85%. Cardiac enzymes: aspartate aminotransferase 40 IU/L, lactate dehydrogenase 423 IU/L, creatine phosphokinase 28 U/L. Fasting blood glucose: 8.41 mmol/L. Renal function, serum uric acid, and full lipid panel showed no obvious abnormalities. Mycobacterium tuberculosis antibody, T-SPOT, quantitative Epstein-Barr virus, quantitative cytomegalovirus, G test, GM test, erythrocyte sedimentation rate, full autoantibody panel, and full humoral immunity panel showed no abnormalities. Eight-item respiratory pathogen IgM panel: Chlamydia pneumoniae antibody IgM+. Postprandial blood glucose fluctuated between 11.5-13.2 mmol/L, and HbA1c was 6.7%. Female tumor markers: carcinoembryonic antigen 5.37 ng/ml. Endotoxin: 66.27 pg/ml. Instrumental examinations: ECG: atrial fibrillation, heart rate 130 beats/min. Echocardiography: enlargement of all four chambers (especially both atria), widened ascending aorta, left ventricular function at the lower limit of normal, mitral regurgitation (moderate), tricuspid regurgitation (severe), pulmonary hypertension (mild), aortic regurgitation (trace), atrial fibrillation shown during monitoring. Frontal chest radiograph: 1. increased bilateral lung markings; 2. mass shadow seen in the left upper lung field. Lumbar spine X-ray: 1. degenerative changes of the lumbar spine; 2. compression of the T10-L1 and L3 vertebral bodies; abnormal density shadows within the T10 and L1 vertebral bodies, considered postoperative changes. Lumbar spine MRI: 1. compression fractures of the T10, T12, L1, and L3 vertebral bodies; 2. degenerative changes of the lumbar spine; 3. herniated discs at L4/5 and L5/S1 (central type); 4. slightly prolonged T2 signal in the subcutaneous tissue of the lower back.",
+      "images": [
+        {
+          "image_id": "fig1",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI6xibG3LH9q2hZibVrtQJIDPQ0xrCEoMzBqOsFuibGbCpem00RZFjplibjUXWhMeIdAdMXW0AHat9Xmw/640?wx_fmt=jpeg",
+          "near_text": "This is a 74-year-old elderly female patient.",
+          "local_src": "cleaned_cases_image_cache/a0a79dbce85f4b94c0ecd4dc63f29b8d462e66b3.jpg"
+        },
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUDVkMGUCCjTVCEg5R1WESojLeiasIz3aiaoOBZI0D8QlUVdBAOLQL6DlhicJ0ue7gmIMba6dAR9HVA/640?wx_fmt=png",
+          "near_text": "10-17、10-18",
+          "local_src": "cleaned_cases_image_cache/f6b93fdd3f122001f8ca93bdfed1cd74e54db55d.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUDVkMGUCCjTVCEg5R1WESJgCGSzIK5dXmlibVqlvsgcIQsl7GEnBBZAkCNQbdicQDfiaYPs3eVOibXw/640?wx_fmt=png",
+          "near_text": "10-17",
+          "local_src": "cleaned_cases_image_cache/8b1acd923cd1dd57e559893ffed4c6f3f7eda6e6.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe pulmonary infection (community-acquired pneumonia, including atypical pathogen pneumonia) with sepsis/septic shock",
+          "supporting_evidence": [
+            "The patient had \"fever with dyspnea for 2 days\" and also had \"respiratory distress beginning 1 day earlier, accompanied by high fever, with a measured body temperature of 39℃\"",
+            "Physical examination showed \"dyspnea, unable to lie flat, respiratory rate 45 breaths/min, SpO2 85% (oxygen by mask at 8 L/min), blood pressure 80/50 mmHg, heart rate 150 beats/min\"",
+            "Dry and wet rales are heard throughout both lungs, suggesting extensive pulmonary involvement.",
+            "Complete blood count showed WBC 13.34×10^9/L, neutrophil percentage 90.6%, and absolute neutrophil count 12.09×10^9/L, supporting acute infection.",
+            "Endotoxin 66.27 pg/ml, supporting an infection-related systemic inflammatory response",
+            "PA chest radiograph indicates \"increased bilateral lung markings\"; the attached image shows an abnormal opacity in the left lung field, suggesting the possibility of a pulmonary parenchymal lesion",
+            "The respiratory pathogen IgM panel (8 items) showed \"Chlamydia pneumoniae IgM antibody positive,\" supporting the possibility of atypical pathogen infection."
+          ],
+          "opposing_evidence": [
+            "The narrative description of the frontal chest radiograph does not explicitly describe typical patchy consolidation or extensive infiltrates, and only indicates \"increased bilateral lung markings; a mass shadow is seen in the left upper lung field\"",
+            "At the time of the physical examination, the body temperature was 37.4℃, which had decreased compared with the previous high fever of 39℃; persistent high-fever infectious activity cannot be confirmed based on the temperature at that time alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Acute heart failure/acute cardiogenic pulmonary edema (possibly triggered by rapid atrial fibrillation, valvular regurgitation, infection, or stress)",
+          "supporting_evidence": [
+            "The patient’s inability to lie flat is a common manifestation of acute left heart failure/pulmonary edema.",
+            "Respiratory rate 45 breaths/min; pulse oxygen saturation remained only 85% on 8 L/min oxygen via face mask, indicating severe hypoxemic respiratory failure",
+            "Diffuse dry and moist rales throughout both lungs, consistent with signs of pulmonary congestion or pulmonary edema",
+            "Past history of \"coronary artery disease for more than 10 years\" and \"hypertension for more than 20 years\"",
+            "ECG showed \"atrial fibrillation, heart rate 130 beats/min\"; on physical examination, heart rate was 150 beats/min with an atrial fibrillation rhythm; rapid atrial fibrillation may induce or exacerbate heart failure",
+            "Echocardiography showed \"global cardiac enlargement (predominantly biatrial enlargement),\" \"moderate mitral regurgitation,\" \"severe tricuspid regurgitation,\" and \"mild pulmonary hypertension,\" all of which support abnormalities in cardiac structure and volume load.",
+            "Mild edema of both lower extremities, supporting fluid retention",
+            "The accompanying chest radiograph shows an enlarged cardiac silhouette, supporting a background of cardiomegaly."
+          ],
+          "opposing_evidence": [
+            "Echocardiography indicated \"low-normal left heart function,\" which does not support obvious severe impairment of systolic function.",
+            "The patient had high fever and markedly elevated white blood cell and neutrophil counts, further suggesting an infectious trigger or infection itself as contributing to the condition."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Acute pulmonary embolism",
+          "supporting_evidence": [
+            "Post-traumatic hospitalization, vertebral compression fracture, and limited mobility, constituting a high-risk background for venous thromboembolism",
+            "Dyspnea with relatively acute onset, progressing to respiratory distress, accompanied by marked hypoxemia",
+            "Blood pressure 80/50 mmHg, suggesting hemodynamic instability; severe pulmonary embolism requires a high degree of vigilance.",
+            "Heart rate 150 beats/min, respiratory rate 45 breaths/min, consistent with the common manifestations of tachycardia and tachypnea in acute pulmonary embolism",
+            "D-dimer 7450 ug/L is markedly elevated, supporting hypercoagulability/thrombus formation and activation of fibrinolysis in vivo",
+            "Echocardiography showed \"tricuspid regurgitation (large volume)\" and \"mild pulmonary hypertension,\" which may be seen with increased pulmonary circulatory pressure."
+          ],
+          "opposing_evidence": [
+            "The patient also had high fever, elevated white blood cell count, elevated neutrophil count, and diffuse dry and moist rales throughout both lungs, further suggesting other etiologies such as infection or heart failure.",
+            "The first-stage chest radiograph did not show typical signs of pulmonary infarction, and the textual description focused on increased bilateral lung markings and a mass shadow in the left upper lung."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Aspiration pneumonia/hypostatic pneumonia",
+          "supporting_evidence": [
+            "The patient is a 74-year-old elderly woman hospitalized after trauma. A vertebral compression fracture has resulted in limited mobility, placing her in a population susceptible to aspiration pneumonia and hypostatic pneumonia.",
+            "There was a history of hospitalization for trauma prior to onset, followed by fever, dyspnea, and respiratory distress.",
+            "Diffuse dry and moist rales throughout both lungs, suggesting extensive lower respiratory tract involvement",
+            "Elevated white blood cell count and neutrophil count support the possibility of bacterial infection",
+            "The accompanying chest radiograph shows a relatively prominent opacity in the left lung, and infection in a dependent region after becoming bedridden is possible."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide a clear history of aspiration events, vomiting, dysphagia, or disturbance of consciousness.",
+            "The text description of the frontal chest radiograph did not explicitly indicate consolidation in dependent lung segments or features of an aspiration distribution."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Malignant neoplasm of the left lung with post-obstructive pneumonia",
+          "supporting_evidence": [
+            "The frontal chest radiograph clearly shows a mass opacity in the left upper lung field.",
+            "The attached chest radiograph shows an abnormal mass-like opacity in the left upper lung field; a pulmonary space-occupying lesion should be considered on imaging.",
+            "The patient is 74 years old, with an increased risk of malignancy.",
+            "Fever, leukocytosis, and dyspnea occurring in the setting of an abnormal opacity in the left lung can be explained by post-obstructive infection.",
+            "Carcinoembryonic antigen 5.37 ng/ml is mildly elevated; although nonspecific, it can serve as weak supportive evidence for the possibility of a tumor."
+          ],
+          "opposing_evidence": [
+            "In the first-stage medical history, common clues to lung cancer such as chronic cough, hemoptysis, weight loss, and long-term smoking were not provided.",
+            "The current acute onset of high fever, shock, and severe hypoxemia is more suggestive of an acute infection/cardiopulmonary emergency as the predominant process; tumor alone cannot fully explain all of the acute manifestations."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Post-traumatic fat embolism syndrome",
+          "supporting_evidence": [
+            "The patient had multiple vertebral compression fractures and developed acute dyspnea and hypoxemia within several days after trauma.",
+            "The symptoms occurred approximately 3 days after the trauma, a time window that may be consistent with fat embolism syndrome.",
+            "Dyspnea, hypoxemia, and tachycardia can all be seen in fat embolism syndrome."
+          ],
+          "opposing_evidence": [
+            "The patient had a high fever of 39℃, with marked elevations in the white blood cell count and neutrophil count, which more strongly supports an infectious process.",
+            "The first-stage information did not provide clues such as the common neurologic changes and petechial rash of fat embolism syndrome.",
+            "The chest radiograph report did not indicate typical diffuse bilateral pulmonary infiltrates; it showed only increased bilateral lung markings and a mass opacity in the left upper lung field."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Further chest CT examination",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Repeat arterial blood gas analysis",
+          "reason": "Obtain the latest oxygenation index",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Infection markers: PCT, repeat complete blood count, blood culture",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Severe infection score, embolic event score",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Cardiac evaluation, bilateral lower extremity venous color Doppler ultrasound",
+          "reason": "Post-traumatic hypoxemia",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission to the department, the patient had an APACHE II score of 14 and a SOFA score of 9. Procalcitonin was 17.333 ng/ml. ECG monitoring and noninvasive mechanical ventilation for respiratory support were provided. Arterial blood gas analysis under ventilator support showed pH 7.50, PaO2 91 mmHg, PaCO2 35 mmHg, blood lactate 3.8 mmol/L, and A-a DO2 300 mmHg. Repeat testing showed D-dimer 17940 ug/L, BNP 634 pg/ml, and troponin 0.04 ng/ml. The revised Geneva score was 6, and the Wells score was 3. Repeat CBC showed WBC 10.97X10^9/L, neutrophil percentage 95.31%, platelets 75X10^9/L, and procalcitonin 2-10 ng/ml, markedly decreased compared with previously. Urinalysis showed leukocytes 648/ul, bacteria 15402/ul, urine protein 1+, RBC 107/ul, and occult blood 1+. Albumin was 27.6 g/L. Troponin and myocardial injury markers were normal, BNP was 279.6 pg/ml, and D-dimer was 1420 ug/L. Blood culture indicated Klebsiella pneumoniae. Repeat arterial blood gas analysis showed pH 7.52, PaO2 78 mmHg, PaCO2 38 mmHg, and blood lactate 1.2 mmol/L. On the day of weaning, the patient again developed chills and fever, with a temperature of 38.8℃, accompanied by a drop in blood pressure and oxygen saturation decreasing to 82%. Emergent arterial blood gas showed pH 7.52, PaO2 47 mmHg, PaCO2 33 mmHg, blood lactate 4.2 mmol/L, and A-a DO2 147 mmHg. After endotracheal intubation and invasive mechanical ventilation, CBC showed WBC 32.06X10^9/L, neutrophil percentage 95.7%, platelets 45X10^9/L, and procalcitonin >100 ng/ml. Albumin was 27.8 g/L. ESR and myocardial injury markers were normal, BNP was 1150.4 pg/ml, coagulation APTT was 41.5 seconds, D-dimer was 41300 ug/L, and fibrinogen degradation products were 130.17 mg/L. The patient remained with high fever, with a maximum temperature of 39.5℃, heart rate 120 beats/min, respiratory rate 26 breaths/min, and blood pressure 120/80 mmHg. Moist rales were audible in both lower lungs. Shifting dullness of the abdomen was positive.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUDVkMGUCCjTVCEg5R1WESSXLcolmw2Lgh0lZMfxTSaT7L8tYRdAgvoR9BBN12RG5sgFICy1Ej0Q/640?wx_fmt=png",
+            "near_text": "Clinical turning point",
+            "local_src": "cleaned_cases_image_cache/735979ae966936f0efcc16858bc9826cdcc5e712.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infection",
+            "evidence": [
+              "Fever after traumatic fracture",
+              "Elevated white blood cell count on complete blood count",
+              "Chest X-ray suggests a left lung opacity"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "sudden dyspnea",
+              "Decreased blood pressure and oxygen saturation",
+              "D-dimer markedly elevated"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "cardiac insufficiency",
+            "evidence": [
+              "Dry and moist rales are audible in the lungs",
+              "atrial fibrillation rhythm",
+              "Ventricular rate 150 beats/min",
+              "Bilateral lower extremity edema",
+              "Echocardiography showed global cardiac enlargement and pulmonary hypertension"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Septic shock",
+            "evidence": [
+              "History of hypertension",
+              "Low blood pressure on admission"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary infection",
+        "evidence": [
+          "Fever after traumatic fracture",
+          "Elevated white blood cell count on complete blood count",
+          "Chest X-ray suggests a left lung opacity"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [
+          "sudden dyspnea",
+          "Decreased blood pressure and oxygen saturation",
+          "D-dimer markedly elevated"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "cardiac insufficiency",
+        "evidence": [
+          "Dry and moist rales are audible in the lungs",
+          "atrial fibrillation rhythm",
+          "Ventricular rate 150 beats/min",
+          "Bilateral lower extremity edema",
+          "Echocardiography showed global cardiac enlargement and pulmonary hypertension"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Septic shock",
+        "evidence": [
+          "History of hypertension",
+          "Low blood pressure on admission"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "CTPA",
+          "basis_in_stage3_input": "Further CTPA was completed and showed: 1. Heterogeneous density within the lumen of the apical segment of the right upper lobe, the posterior basal segment of the right lower lobe, and their branches; embolism cannot be excluded, and close follow-up is recommended; 2. Inflammation in both lower lobes; 3. Nodules and thick-walled cavities in both upper lobes, possibly infectious lesions; tumor cannot be excluded; 4. Bilateral pleural effusions; 5. Cardiomegaly; 6. Slightly hypodense intrahepatic lesion; further examination is recommended.",
+          "why_order_this_exam": "After trauma, the patient was bedridden and had a vertebral compression fracture, followed by sudden onset and progression to severe dyspnea, hypoxemia, hypotension, and tachycardia, with markedly elevated D-dimer. Clinically, pulmonary embolism must be highly suspected, while also differentiating it from respiratory failure caused by severe pulmonary infection or cardiac insufficiency. CTPA can directly assess whether emboli are present in the pulmonary arteries, explaining acute hypoxemia and hemodynamic instability; at the same time, it can also evaluate thoracic complications such as pulmonary consolidation, cavitation, nodules, pleural effusion, and cardiomegaly, helping determine whether this is ordinary thrombotic pulmonary embolism, infection-related septic pulmonary embolism, or predominantly pulmonary infection, and providing a basis for whether to initiate anticoagulation, whether further investigation for an infectious source is needed, and how to adjust the treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside cardiac and abdominal ultrasound",
+          "basis_in_stage3_input": "Urgent bedside cardiac and abdominal ultrasound showed: 1. biatrial enlargement and a widened aorta; normal left ventricular systolic function, with no obvious abnormality in the right heart system; 2. a mixed echogenic mass in the liver, consider: abscess? tumor?",
+          "why_order_this_exam": "The patient has atrial fibrillation, tachycardia, inability to lie flat, bilateral lung rales, elevated BNP, and fluctuating blood pressure, with a history of coronary artery disease and hypertension. It is necessary to differentiate as soon as possible the relative contributions of septic shock and cardiogenic factors to the respiratory and circulatory failure. Therefore, bedside echocardiography can rapidly assess left and right ventricular function, right heart load, and volume status, and help determine whether the findings support massive pulmonary embolism or heart failure. Meanwhile, CT has already shown a low-density intrahepatic lesion. The patient has recurrent chills and high fever, markedly elevated PCT, and positive blood cultures, so an extrapulmonary infectious focus must be sought. After abdominal ultrasound identified a mixed-echogenic intrahepatic mass, it can further suggest whether the lesion is more consistent with an abscess or a tumor, and provide a basis for subsequent decisions on whether to perform percutaneous drainage and for assessing procedural feasibility and risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "On repeat complete blood count, the platelet count decreased to 17×10^9/L.",
+          "why_order_this_exam": "The patient is critically ill, with septic shock, recurrent high fever, respiratory failure, and a risk of coagulopathy; during the course of illness, the WBC count was once markedly elevated, and the platelet count continued to decline. Serial repeat CBC testing is used, on the one hand, to assess the intensity of the infectious/inflammatory response and changes after treatment, and on the other hand, with emphasis on evaluating the degree of thrombocytopenia to identify sepsis-related consumption, a tendency toward DIC, or drug-related effects. Especially in this case, when anticoagulant therapy, bronchoscopy, and invasive procedures such as percutaneous drainage of the liver abscess must also be considered, the platelet level is directly related to bleeding risk assessment, whether platelet transfusion is needed, and whether the treatment plan should be adjusted.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside bronchoscopy",
+          "basis_in_stage3_input": "Subsequently, bedside bronchoscopy was performed, revealing a large amount of yellow purulent secretions, more prominent in the left bronchial system.",
+          "why_order_this_exam": "The patient developed severe hypoxemia and required mechanical ventilation. Imaging suggested bilateral pulmonary inflammation, upper lobe nodules, and thick-walled cavities, and the chest radiograph had already shown an abnormal opacity in the left upper lung at an early stage. Clinically, it was necessary to determine whether there were large amounts of purulent airway secretions, an obstructive lesion, or a site of more severe localized infection. Bedside bronchoscopy could directly visualize inflammatory bronchial secretions and the side of involvement, helping determine whether pulmonary infection was the primary lesion and whether post-obstructive infection was also present; it could also be used for sputum suction and specimen collection, improve ventilation and drainage, and provide key evidence for subsequent etiologic testing, exclusion of neoplastic obstruction, and guidance of anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial smear of bronchial brushing",
+          "basis_in_stage3_input": "Bronchial brushing bacterial smear: Gram-positive cocci and Gram-negative bacilli were seen; no fungi or acid-fast bacilli were seen.",
+          "why_order_this_exam": "The patient presented with severe pulmonary infection; during the course of illness there were high fever, shock, markedly elevated PCT, and pulmonary imaging showing cavitary lesions and nodules, suggesting a complex pathogen spectrum and the need to clarify the direction as soon as possible. Bronchial brush smear specimens are obtained from a relatively accurate lesion site in the lower respiratory tract and are less contaminated than sputum specimens; they can rapidly determine whether the infection is predominantly bacterial and preliminarily distinguish Gram-positive from Gram-negative bacteria, providing an immediate basis for adjusting the coverage of empiric antimicrobial therapy. At the same time, no fungi or acid-fast bacilli were seen, which also helps reduce the likelihood of fungal infection and TB in the differential diagnosis of cavitary lesions, thereby narrowing the diagnostic scope.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "basis_in_stage3_input": "Three consecutive sputum cultures, blood cultures, and liver abscess drainage fluid cultures all indicated: Klebsiella pneumoniae +-++, sensitive to multiple antibiotics including third-generation cephalosporins and carbapenems.",
+          "why_order_this_exam": "The lungs are one of the most prominently clinically involved sites in the patient, manifested by fever, purulent secretions, respiratory failure, and imaging findings of inflammation, nodules, and cavitation. Sputum culture is used to identify lower respiratory tract pathogens and antimicrobial susceptibility results, determine whether the pulmonary infection is caused by pathogenic bacteria such as Klebsiella pneumoniae, and compare with blood culture and liver abscess drainage fluid culture to confirm whether there is invasive infection at multiple sites caused by the same pathogen. This test is critical for confirming pulmonary infection of pulmonary or hematogenous origin, guiding precise adjustment of antibacterial therapy, and evaluating treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "Three consecutive sputum cultures, blood cultures, and liver abscess drainage fluid cultures all indicated: Klebsiella pneumoniae +-++, sensitive to multiple antibiotics including third-generation cephalosporins and carbapenems.",
+          "why_order_this_exam": "The patient had recurrent episodes of chills, high fever, hypotension, elevated lactate, and markedly elevated PCT, consistent with sepsis or even septic shock, and it is essential to determine whether a bloodstream infection is present. Blood culture can directly confirm bacteremia, determine whether the systemic infection is driven by the same pathogen, and establish microbiologic correlation with sputum culture and liver abscess culture, helping to identify invasive Klebsiella pneumoniae infection syndrome and hematogenous dissemination. Blood culture results can also provide the basis for antimicrobial susceptibility testing, to optimize antimicrobial therapy, assess the effectiveness of infection control, and follow whether repeat blood cultures become negative.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasonography or upper abdominal CT, liver abscess drainage fluid culture",
+          "basis_in_stage3_input": "Three consecutive sputum cultures, blood cultures, and liver abscess drainage fluid cultures all indicated: Klebsiella pneumoniae +-++, sensitive to multiple antibiotics including third-generation cephalosporins and carbapenems.",
+          "why_order_this_exam": "CT and abdominal ultrasound both suggested an intrahepatic space-occupying lesion. The patient also had persistent high fever, evidence of bloodstream infection, and multiple infectious pulmonary lesions; therefore, it is necessary to determine as soon as possible whether the hepatic lesion is an abscess or a tumor. Culture of the drainage fluid obtained by liver abscess puncture and drainage can directly provide etiologic evidence from the primary infectious focus, confirm the infectious nature of the intrahepatic lesion, and corroborate the blood culture and sputum culture results to determine whether pulmonary cavitation and septic pulmonary emboli were caused by hematogenous dissemination of the same pathogen. This examination also provides decisive evidence for whether subsequent drainage is effective, whether the antimicrobial therapy is appropriate, and the selection of the overall treatment plan.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Further CTPA showed: 1. Heterogeneous density within the lumens of the apical segment of the right upper lobe, the posterior basal segment of the lower lobe, and their branches; embolism cannot be excluded, and close follow-up is recommended; 2. Inflammation in both lower lobes; 3. Nodules and thick-walled cavities in both upper lobes, possibly infectious lesions; tumor cannot be excluded; 4. Bilateral pleural effusions; 5. Cardiomegaly; 6. Slightly hypodense intrahepatic lesion, and further examination is recommended. Emergency bedside cardiac and abdominal ultrasound showed: 1. Biatrial enlargement and widened aorta; normal left ventricular systolic function, with no obvious abnormality in the right heart system; 2. Mixed echogenic intrahepatic mass, consider: abscess? tumor? Repeat CBC showed the platelet count decreased to 17×10^9/L. US-guided liver abscess puncture and drainage was performed, yielding a large amount of purulent fluid. Bedside bronchoscopy was subsequently performed; a large amount of yellow purulent secretions was seen endoscopically, more prominent in the left bronchial system. Bacterial smear of the bronchial brushing: Gram-positive cocci and Gram-negative bacilli were seen; no fungi or acid-fast bacilli were seen. Three consecutive sputum cultures, blood cultures, and liver abscess drainage fluid cultures all showed: Klebsiella pneumoniae +-++, sensitive to multiple antibiotics including third-generation cephalosporins and carbapenems.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIUDVkMGUCCjTVCEg5R1WESSxaNthxecnEFK4vaMcEzREEHnPmPdTzlaNUznl1Mc7ZPEb4y7HCcYA/640?wx_fmt=jpeg",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/38e4e5df23d7f6ca85c6c75c00d1ebbf4c4698b4.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIUDVkMGUCCjTVCEg5R1WESzPf2GaJBp0Dd6Kt91WEYGtuA2uF1EAcbcfEc1TdyIb7Cpu8TSibepxg/640?wx_fmt=png",
+          "near_text": "10-23",
+          "local_src": "cleaned_cases_image_cache/e9d1af62f71c097e481b6ff67212f67a9a378cde.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Invasive hypervirulent Klebsiella pneumoniae infection syndrome (liver abscess, septicemia, hematogenous lung abscess); type I respiratory failure; septic shock; septic pulmonary embolism; type 2 diabetes mellitus; grade 3 hypertension (very high risk); coronary artery disease; arrhythmia (atrial fibrillation); cardiac function class IV; hypoproteinemia; electrolyte disturbance (hypophosphatemia); thoracolumbar vertebral compression fractures (T10, T12, L1, L3); urinary tract infection (bacterial and fungal).",
+      "diagnostic_basis": [
+        "CTPA showed nodules and thick-walled cavities in the upper lobes of both lungs, and a slightly hypodense lesion in the liver",
+        "Abdominal ultrasound suggests an intrahepatic mixed-echo mass.",
+        "Percutaneous drainage of the liver abscess yielded a large amount of purulent fluid",
+        "Three consecutive sputum cultures, blood cultures, and liver abscess drainage fluid cultures all indicated: Klebsiella pneumoniae +-++"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "After anti-infective therapy with piperacillin-tazobactam and diuretic therapy for 2 days, the antibiotics were adjusted to imipenem-cilastatin combined with vancomycin for 6 days.",
+        "Levosimendan, norepinephrine, and dobutamine were administered by infusion, and amiodarone was given to control the ventricular rate.",
+        "Administer low-molecular-weight heparin 5000 IU subcutaneously for anticoagulation therapy, once every 12 hours",
+        "Switched to tigecycline combined with meropenem for anti-infective therapy",
+        "Adjust the low-molecular-weight heparin dose to 5000 U once daily, subcutaneous injection; recombinant human thrombopoietin 15000 U once daily, subcutaneous injection; and transfuse 1 unit of platelet suspension.",
+        "Underwent ultrasound-guided percutaneous drainage of a liver abscess",
+        "Switched to cefoperazone-sulbactam combined with vancomycin to continue anti-infective therapy"
+      ],
+      "treatment_response": [
+        "The patient's vital signs gradually stabilized",
+        "Follow-up chest and abdominal CT showed: the cavity in the left lung gradually decreased in size and became less conspicuous, and the hepatic abscess cavity gradually decreased in size",
+        "BNP, D-dimer, and PCT gradually decreased",
+        "Blood culture turned negative",
+        "Complete blood count, routine urinalysis, routine stool examination, myocardial enzymes, troponin I, liver and kidney function tests, electrolytes, blood lipids, G test, GM test, and endotoxin showed no obvious abnormalities."
+      ]
+    }
+  }
+}

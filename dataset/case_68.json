@@ -1,0 +1,455 @@
+{
+  "status": "success",
+  "case_id": "case_68",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient was a 49-year-old man from Hunan who was first admitted to the Department of Respiratory Medicine at our hospital in approximately 1 month before Day 0 with the chief complaint of \"dyspnea, cough, and sputum production for 2 months.\" Beginning in approximately 3 months before Day 0, he developed cough without an obvious precipitating cause, with a small amount of white mucoid sputum. He denied fever, chills, chest pain, hemoptysis, vomiting, abdominal pain, abdominal distention, or changes in bowel habits. Chest CT performed at a local hospital showed multiple nodular opacities and consolidation distributed along the bronchovascular bundles, with mediastinal lymphadenopathy, and \"pneumonia\" was considered. He was treated with a \"cephalosporin\" antibiotic for 10 days, but the cough did not improve, and he gradually developed exertional dyspnea. In approximately 2 months before Day 0, he was seen in the outpatient clinic, and lung CT showed multiple bilateral pulmonary nodules, consolidation, and mediastinal lymphadenopathy; bronchoscopy showed no obvious abnormality. Histopathologic examination of a biopsy from the anterior segment of the right upper lobe showed no evidence of carcinoma or TB on the section. He was first admitted to the Department of Respiratory Medicine in approximately 1 month before Day 0. On review of his history, in approximately 26 months before Day 0, he was first admitted to the Department of Gastroenterology at our hospital because of \"abdominal pain and diarrhea for half a year.\" Chest radiography showed no obvious pulmonary abnormality. Abdominal CT showed thickening of the wall of part of the small intestine, without obvious lymphadenopathy. Capsule endoscopy showed diffuse mucosal thickening and edema, and multiple polypoid nodules with mucosal erosions on the surface of the duodenum, jejunum, and proximal ileum. Histopathologic examination of duodenal mucosal biopsy obtained under gastroscopic guidance showed chronic mucosal inflammation, focal superficial erosion, and inflammatory exudate. He was diagnosed with Crohn's disease and treated with azathioprine and methylprednisolone, with symptom relief; after discontinuation, abdominal pain recurred intermittently. After the second admission, evaluation showed: Physical examination: temperature 37.7℃, pulse 118 beats/min, respirations 20 breaths/min, blood pressure 89/65mmHg. Breath sounds were clear in both lungs. Laboratory tests: complete blood count: WBC 31.46×10^9/L, N 91%; ESR 74mm/h, CRP 202mg/L; arterial blood gas analysis: PaO2 68mmHg, PaCO2 30mmHg, SaO2 95%. Connective tissue disease-related tests: MPO, PR3, anti-GBM antibody, anti-CCP antibody, and ANA were all negative. Chest CT: compared with previously, the pulmonary lesions in both lungs had clearly increased in number and size, mediastinal lymph nodes were enlarged compared with previously, there was newly developed right pleural effusion, and multiple new patchy opacities were present in both lower lungs. Abdominal CT: small bowel wall thickening, a soft tissue mass near the transverse colon, and multiple enlarged lymph nodes in the abdominal cavity and retroperitoneal space.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnzaia8ic5bEn6wmwRzPqxK3HcDsA3ZPMf1odst87xXLiberpvdboI7YOKRg/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Chest CT showed multiple nodules and areas of consolidation in both lungs",
+          "local_src": "cleaned_cases_image_cache/678fa2d9fea5f45fc7d79c8517e14625a75ca0ec.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKxPOrxW8oo5LSNMM56nQnzwIWBNGxF3Z4RbBQIicXZWQicqlZCNGlpEjt5P8Moic2mdic3KJfQ8XYz5g/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest X-ray (approximately 26 months before Day 0) showed no obvious abnormalities",
+          "local_src": "cleaned_cases_image_cache/e233ce797f62946c5b90bac25335fbc2942b4f3a.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnz38wPtiapViarxlibgclD5ffiblsUesx4oDrpJMMM1vk1fWoDcdsxHsMj5g/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: Abdominal CT showed thickening of the small bowel wall and multiple enlarged retroperitoneal lymph nodes",
+          "local_src": "cleaned_cases_image_cache/f39670e473395b5bf4fc7bccfaf346db6b404c11.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKxPOrxW8oo5LSNMM56nQnzdaLT7xXmb7Oj5kNMj21O6NxBynVU0JibqaVUJ4Igg2Y3PbVGcNdkEibA/640?wx_fmt=png",
+          "near_text": "Figure 5: diffuse bowel wall thickening, edema, multiple polyps",
+          "local_src": "cleaned_cases_image_cache/0f48464e5c6d74b21a51d963a780374c27f728eb.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnz3uibfJF7a3xI4rPGcbUkJeD4W5tPZ8MBh3gLyPkTg2QIpjZF1qqI9icw/640?wx_fmt=jpeg",
+          "near_text": "Figure 6: Intestinal mucosal histopathology showed inflammatory cell infiltration in the mucosa",
+          "local_src": "cleaned_cases_image_cache/c1d923489cde29c3487e2245025eb9815bfdd4b3.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary and systemic lymphoproliferative diseases (e.g., lymphoma with pulmonary involvement)",
+          "supporting_evidence": [
+            "Chest CT showed multiple nodules and areas of consolidation in both lungs, with the lesions having increased significantly in number and size compared with before; mediastinal lymph nodes were enlarged compared with before, and there was newly developed right pleural effusion, suggesting progressive pulmonary space-occupying/infiltrative lesions with lymph node involvement.",
+            "Abdominal CT showed a soft tissue mass near the transverse colon and multiple enlarged lymph nodes in the intra-abdominal and retroperitoneal spaces, suggesting multistation lesions in the chest and abdomen",
+            "In the first-stage accompanying images, the lung window shows multiple nodular and patchy areas of consolidation in both lungs distributed along the bronchovascular bundles, consistent with one of the imaging features of lymphatic spread or an infiltrative lesion.",
+            "Biopsy pathology sections from the anterior segment of the right upper lobe showed no evidence of carcinoma or TB, but a lymphoproliferative disorder cannot be excluded in the setting of insufficient sampling",
+            "No improvement after 10 days of antibiotic treatment, and the lesions continued to progress, which does not support uncomplicated bacterial pneumonia and suggests a non-routine infectious or neoplastic disease."
+          ],
+          "opposing_evidence": [
+            "The patient presented with cough, sputum production, and dyspnea; the clinical manifestations were not typical initial manifestations of a tumor.",
+            "Stage 1 information did not provide clear evidence of peripheral superficial lymphadenopathy, hepatosplenomegaly, or histopathologic confirmation",
+            "Lung biopsy pathology did not directly indicate evidence of lymphoma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Metastatic malignant tumor (primary gastrointestinal tumor with metastases to the lungs, mediastinum, and abdominal cavity)",
+          "supporting_evidence": [
+            "Chest CT showed multiple nodules, areas of consolidation, and mediastinal lymphadenopathy in both lungs, with progressive increase in the number and size of the lesions, which may be seen in pulmonary metastases or lymphangitic carcinomatosis-like involvement.",
+            "Abdominal CT showed a soft tissue mass near the transverse colon and multiple enlarged intra-abdominal and retroperitoneal lymph nodes, suggesting the possibility of a primary abdominal malignancy.",
+            "2015 capsule endoscopy showed multiple polypoid nodules with mucosal erosions on the surface in the duodenum, jejunum, and proximal ileum; against the background of long-standing gastrointestinal disease, neoplastic lesions should be suspected.",
+            "Biopsy of the anterior segment of the right upper lobe showed no evidence of carcinoma, but bronchoscopy showed no obvious abnormalities and the sampling site was limited, so a missed diagnosis of a peripheral or metastatic lesion cannot be excluded",
+            "The images from the first phase show multiple pulmonary nodules and areas of consolidation in both lungs, with multiple bilateral lesions, consistent with hematogenous or lymphangitic metastatic tumor spread."
+          ],
+          "opposing_evidence": [
+            "Biopsy pathology sections from the anterior segment of the right upper lobe showed no evidence of carcinoma.",
+            "The patient had no chest pain or hemoptysis, and the 2015 gastroscopy-guided duodenal biopsy showed only chronic inflammation, with no definitive pathological evidence of a primary malignancy."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Opportunistic infection or atypical pulmonary infection (predominantly fungal infection; must include immunosuppression-related infections)",
+          "supporting_evidence": [
+            "The patient previously received azathioprine and methylprednisolone for Crohn's disease and has an immunosuppressed background.",
+            "WBC 31.46×10^9/L, N 91%, ESR 74 mm/h, CRP 202 mg/L, indicating a marked inflammatory response",
+            "Chest CT showed multiple nodules and areas of consolidation in both lungs; subsequently, multiple new patchy opacities appeared in both lower lungs, along with a right pleural effusion, consistent with possible disseminated or progressive pulmonary infection.",
+            "The patient has cough, sputum production, dyspnea, and hypoxemia (PaO2 68mmHg).",
+            "In the first-stage accompanying images, multiple nodules and patchy consolidation are seen in both lungs, some distributed along the bronchovascular bundles; certain fungal or other opportunistic infections may present with this finding."
+          ],
+          "opposing_evidence": [
+            "At the local hospital, treatment with a cephalosporin antibiotic for 10 days did not result in improvement, but this can only partially argue against common bacterial infection and cannot completely argue against atypical infections such as fungal infection.",
+            "The patient denied fever and chills; breath sounds were clear in both lungs, and the manifestations of infection were not typical.",
+            "Bronchoscopy showed no obvious abnormalities, and biopsy of the anterior segment of the right upper lobe did not identify a definite infectious pathogen"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary tuberculosis or nontuberculous mycobacterial lung disease",
+          "supporting_evidence": [
+            "The patient is from a TB-endemic region. Pulmonary imaging shows multiple bilateral pulmonary nodules, consolidation, and mediastinal lymphadenopathy; TB or mycobacterial infection should be included in the differential diagnosis.",
+            "Lesions distributed along the bronchovascular bundles with progressive increase in number and size may be seen in bronchogenic spread or hematogenous disseminated mycobacterial infection",
+            "Inflammatory markers were significantly elevated, accompanied by cough, sputum production, dyspnea, and hypoxemia, supporting the possibility of an infectious disease.",
+            "Previously treated with methylprednisolone and azathioprine; the immunosuppressed state increases the risk of mycobacterial infection"
+          ],
+          "opposing_evidence": [
+            "The patient denies fever, chills, and hemoptysis; clinically, some typical symptoms of TB are absent.",
+            "Biopsy pathology slides from the anterior segment of the right upper lobe showed no evidence of TB",
+            "In the attached images from the first stage, no more typical imaging features of TB such as definite cavitation were seen."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Crohn disease-related pulmonary involvement (e.g., organizing pneumonia/granulomatous lung disease/peribronchovascular inflammatory lesions)",
+          "supporting_evidence": [
+            "The patient was previously diagnosed with Crohn's disease, and the current abdominal CT still shows small bowel wall thickening, suggesting possible underlying active inflammatory bowel disease.",
+            "Chest CT showed multiple nodular opacities and consolidation distributed along the bronchovascular bundles; inflammatory bowel disease-associated pulmonary involvement may manifest as nodules, consolidation, or organizing pneumonia-like changes",
+            "No improvement with anti-infective therapy, and connective tissue disease-related tests including MPO, PR3, anti-GBM antibody, anti-CCP antibody, and ANA were all negative, making some other systemic inflammatory etiologies relatively less likely",
+            "Bronchoscopy showed no obvious abnormalities, and lung biopsy showed no evidence of cancer or TB, suggesting that a non-neoplastic, non-tuberculous inflammatory disease should still be considered."
+          ],
+          "opposing_evidence": [
+            "Imaging simultaneously shows marked mediastinal lymphadenopathy, new pleural effusion, and multiple enlarged intra-abdominal and retroperitoneal lymph nodes; these findings are more atypical than isolated Crohn's disease-related pulmonary involvement.",
+            "Markedly elevated inflammatory markers and rapid progression of the lesion also suggest that infection or neoplastic disease should be prioritized for exclusion.",
+            "No lung tissue pathology from the first stage was provided to support granulomatous or organizing pneumonia changes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "ANCA-negative vasculitis or other systemic inflammatory granulomatous diseases (such as granulomatosis with polyangiitis, etc.)",
+          "supporting_evidence": [
+            "Chest CT showed multiple nodules and areas of consolidation in both lungs, some distributed around the perivascular bundles; vasculitis/granulomatous disease may have similar imaging findings.",
+            "The condition is progressive, accompanied by a marked inflammatory response and hypoxemia, and may be seen in active systemic inflammatory disease.",
+            "Lung biopsy showed no evidence of malignancy or TB, suggesting that a noninfectious, nonneoplastic inflammatory etiology should still be considered."
+          ],
+          "opposing_evidence": [
+            "MPO, PR3, anti-GBM antibody, and ANA were all negative, reducing support for associated autoimmune vasculitis",
+            "In the first stage, no evidence was provided of common extrapulmonary involvement of vasculitis involving the paranasal sinuses, kidneys, skin, or nervous system.",
+            "An abdominal soft tissue mass and multiple enlarged retroperitoneal lymph nodes are more suggestive of a neoplastic or infectious disease."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Physical examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "MPO",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PR3",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-GBM antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "anti-CCP antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANA",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "24-hour urine protein quantification",
+          "requirement": "optional"
+        },
+        {
+          "exam": "electromyography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Paranasal sinus CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "First admitted to the Department of Respiratory Medicine in approximately 1 month before Day 0. Physical examination: temperature 38.1℃, pulse 102/min, respiratory rate 20/min, blood pressure 102/60 mmHg. Breath sounds were clear in both lungs. Laboratory data: CBC: WBC 10.72*10^9/L, Hb 93 g/L, N 80.4%. Liver and renal function were normal; inflammatory markers: ESR 104 mm/h, PCT 0.16 ng/ml, CRP 82.3 mg/L; cardiac-related: BNP: 555.0 pg/ml; myocardial enzymes and troponin were negative; all pathogen tests were negative; connective tissue disease-related tests: MPO, PR3, anti-GBM antibody, anti-CCP antibody, and ANA 1:80 were positive, and the rest were negative. All TB-related tests were negative. Twenty-four-hour urine protein quantification was 363.42 mg/d. Electroneuromyography showed early bilateral peroneal nerve damage. Paranasal sinus CT showed abnormal soft-tissue opacification in the left maxillary sinus with heterogeneous density. Granulomatosis with polyangiitis (GPA) was considered, and methylprednisolone and cyclophosphamide were given. After 10 days of treatment, symptoms improved significantly, and repeat chest CT showed that most lesions in both lungs had decreased. Twenty days after discharge, the patient again developed dyspnea, cough, sputum production, and fever, and was readmitted on Day 0. Examinations after the second admission: Physical examination: temperature 37.7℃, pulse 118/min, respiratory rate 20/min, blood pressure 89/65 mmHg. Breath sounds were clear in both lungs. Laboratory tests: CBC: WBC 31.46×10^9/L, N 91%; ESR 74 mm/h, CRP 202 mg/L; arterial blood gas analysis: PaO2 68 mmHg, PaCO2 30 mmHg, SaO2 95%. Connective tissue disease-related tests: MPO, PR3, anti-GBM antibody, anti-CCP antibody, and ANA were all negative. Chest CT: compared with before, pulmonary lesions in both lungs had significantly increased in number and size, mediastinal lymph nodes were enlarged compared with before, there was new right pleural effusion, and there were newly increased multiple patchy opacities in both lower lungs. Abdominal CT: small bowel wall thickening, a soft-tissue mass near the transverse colon, and multiple enlarged lymph nodes in the abdominal cavity and retroperitoneal space.",
+        "images": [
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKxPOrxW8oo5LSNMM56nQnzNFUOqdl0jWJfwjgqUd6VG3b1VpwjgqicKujLnhMkwT8gxNPr2obe47w/640?wx_fmt=png",
+            "near_text": "Figure 7: Diagnostic analysis flowchart",
+            "local_src": "cleaned_cases_image_cache/7468526ab64130a64ee9e0ca77498d8088fdea3a.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnzm2gHOugH52lz3Jj77tvXWnicI60SeOcSfibPFgXoZEvNUJ9LNw7ibN6tQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Sinus CT shows a soft tissue density in the left maxillary sinus",
+            "local_src": "cleaned_cases_image_cache/1bc6f31e0f327e6c5ee956f91d73c25568a349a3.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "bacterial infection",
+            "evidence": [
+              "Most cases present with an acute course, and the clinical symptoms commonly include fever, cough, and sputum production. Chest CT may show nodules and areas of consolidation."
+            ],
+            "exclusion_reasons": [
+              "The patient has a relatively long disease course with multisystem involvement. During the first hospitalization, there were no fever or toxic manifestations, and etiologic testing was negative. These features do not support bacterial infection."
+            ]
+          },
+          {
+            "name": "Fungal infection",
+            "evidence": [
+              "The clinical symptoms may follow a chronic course, with recurrent cough and sputum production; chest CT may show nodules and consolidation."
+            ],
+            "exclusion_reasons": [
+              "There is a lack of relevant etiologic evidence for fungal infection."
+            ]
+          },
+          {
+            "name": "TB infection",
+            "evidence": [
+              "It can present as a chronic course, with clinical symptoms including recurrent cough and sputum production; chest CT may show nodules and consolidation."
+            ],
+            "exclusion_reasons": [
+              "The patient has no TB toxemia symptoms, such as prolonged low-grade afternoon fever, night sweats, weight loss, or fatigue. Laboratory tests showed negative acid-fast staining and a negative T-SPOT. These features do not support Mycobacterium tuberculosis infection."
+            ]
+          },
+          {
+            "name": "Systemic vasculitis",
+            "evidence": [
+              "This patient has multisystem involvement. During the first hospitalization, multiple vasculitis-related antibodies were positive, including MPO, PR3, GBM, and ANA 1:80 positive; after glucocorticoid therapy, the clinical symptoms and pulmonary imaging findings improved significantly compared with before."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [
+              "The patient has multiple nodules and masses in the lungs and gastrointestinal tract, with multiple enlarged lymph nodes throughout the body."
+            ],
+            "exclusion_reasons": [
+              "After glucocorticoid therapy, the nodules decreased in size compared with before; pulmonary histopathologic examination was negative."
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Multiple enlarged lymph nodes throughout the body; multiple pulmonary and gastrointestinal nodules and masses; transient improvement after corticosteroid therapy followed by worsening."
+            ],
+            "exclusion_reasons": [
+              "Lung tissue histopathologic examination was negative."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "bacterial infection",
+        "evidence": [
+          "Most cases present with an acute course, and the clinical symptoms commonly include fever, cough, and sputum production. Chest CT may show nodules and areas of consolidation."
+        ],
+        "exclusion_reasons": [
+          "The patient has a relatively long disease course with multisystem involvement. During the first hospitalization, there were no fever or toxic manifestations, and etiologic testing was negative. These features do not support bacterial infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Fungal infection",
+        "evidence": [
+          "The clinical symptoms may follow a chronic course, with recurrent cough and sputum production; chest CT may show nodules and consolidation."
+        ],
+        "exclusion_reasons": [
+          "There is a lack of relevant etiologic evidence for fungal infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "TB infection",
+        "evidence": [
+          "It can present as a chronic course, with clinical symptoms including recurrent cough and sputum production; chest CT may show nodules and consolidation."
+        ],
+        "exclusion_reasons": [
+          "The patient has no TB toxemia symptoms, such as prolonged low-grade afternoon fever, night sweats, weight loss, or fatigue. Laboratory tests showed negative acid-fast staining and a negative T-SPOT. These features do not support Mycobacterium tuberculosis infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Systemic vasculitis",
+        "evidence": [
+          "This patient has multisystem involvement. During the first hospitalization, multiple vasculitis-related antibodies were positive, including MPO, PR3, GBM, and ANA 1:80 positive; after glucocorticoid therapy, the clinical symptoms and pulmonary imaging findings improved significantly compared with before."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [
+          "The patient has multiple nodules and masses in the lungs and gastrointestinal tract, with multiple enlarged lymph nodes throughout the body."
+        ],
+        "exclusion_reasons": [
+          "After glucocorticoid therapy, the nodules decreased in size compared with before; pulmonary histopathologic examination was negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Multiple enlarged lymph nodes throughout the body; multiple pulmonary and gastrointestinal nodules and masses; transient improvement after corticosteroid therapy followed by worsening."
+        ],
+        "exclusion_reasons": [
+          "Lung tissue histopathologic examination was negative."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat inflammatory marker testing",
+          "basis_in_stage3_input": "Repeat inflammatory markers decreased compared with previously.",
+          "why_order_this_exam": "While on immunosuppressive therapy, the patient again developed fever, dyspnea, cough, and sputum production, and pulmonary imaging showed marked short-term progression; the initial priority was to determine whether infection was also present and whether anti-infective therapy was effective. Repeat inflammatory markers can dynamically assess changes in the inflammatory response after moxifloxacin and subsequent escalated antibacterial therapy, helping distinguish simple infection control, uncontrolled infection, or neoplastic/lymphoproliferative progression beyond infection. Although the inflammatory markers decreased temporarily, suggesting that anti-infective therapy might have been partially effective, the subsequent continued clinical deterioration instead supports the presence of an unexplained primary severe process; therefore, this evaluation is important for subsequent adjustment of the treatment direction and for avoiding attributing the entire condition to infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "basis_in_stage3_input": "At the same time, the blood counts were elevated again: WBC 40.67×10^9/L, N 97.1%.",
+          "why_order_this_exam": "The patient was critically ill, with recurrent fever, progression of pulmonary lesions, hypoxemia, abdominal distension, and subsequent gastrointestinal bleeding, and had previously shown transient improvement after treatment with glucocorticoids and cyclophosphamide followed by rapid deterioration. Serial complete blood count monitoring can determine trends in leukocyte and neutrophil changes, assess infection severity, bone marrow response, hemoglobin changes after gastrointestinal bleeding, and overall disease progression. This time, the leukocyte count again increased significantly to 40.67×10^9/L with N 97.1%, suggesting that pneumonia alone could no longer fully explain the findings, prompting further clinical consideration of malignancy, especially lymphoma, or a leukemoid reaction. Therefore, this test played a key role in recalibrating the differential diagnosis and determining whether further bone marrow and systemic tumor evaluation was warranted.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration was completed, and bone marrow cytology showed no obvious abnormalities.",
+          "why_order_this_exam": "Despite a decrease in inflammatory markers after anti-infective treatment, the patient continued to worsen, with increased abdominal distension and a markedly elevated white blood cell count, suggesting that infection alone cannot explain the condition and that hematologic malignancy, bone marrow involvement, or a leukemoid reaction should be evaluated. The purpose of bone marrow aspiration was to determine whether leukemia, bone marrow infiltration by lymphoma, or other abnormal myeloproliferative disorders were present, thereby explaining the abnormal blood counts and providing a basis for subsequent treatment selection. At the same time, compared with lung biopsy, which carries relatively high risk in the setting of the patient's respiratory failure, bone marrow aspiration is one of the relatively feasible low-risk tissue sampling methods. The results showed no obvious abnormalities, which helped narrow the diagnostic range and suggested that the lesions were more likely due to extensive extramedullary involvement by a solid/lymphoid tissue lesion rather than a primary bone marrow disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow cytology examination",
+          "basis_in_stage3_input": "Bone marrow aspiration was completed, and bone marrow cytology showed no obvious abnormalities.",
+          "why_order_this_exam": "The patient had persistently abnormal elevation of the white blood cell count. During the course of the illness, there was multisystem involvement and a pattern of transient improvement after immunosuppression followed by progression. Clinically, it was necessary to further determine whether malignant hematologic disease or lymphoma cell infiltration was already present in the bone marrow. Bone marrow cytology can assess, at the cellular level, the state of bone marrow proliferation, the proportion of abnormal lymphocytes/blasts, and whether hemophagocytosis, infection-related changes, or other findings are present, and is particularly important for distinguishing infection-related reactive blood count elevation from hematologic malignancy. In this case, bone marrow cytology showed no obvious abnormality, helping to exclude an apparent primary bone marrow lesion, shifting the clinical focus to seeking histologic evidence from hypermetabolic lesions outside the bone marrow, and supporting further PET/CT and lesion needle biopsy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "18F-FDG PET/CT examination",
+          "basis_in_stage3_input": "18F-FDG PET/CT was completed, and the results showed numerous hypermetabolic lesions in the stomach, left small intestinal wall, and bilateral adrenal glands; hypermetabolism was also present in the gallbladder, peritoneum, extensive lymph nodes, lungs, right pleura, right atrium, pericardium, and left frontal sinus.",
+          "why_order_this_exam": "Despite anti-infective and immunosuppressive therapy, the patient's condition continued to progress, manifested by marked worsening of pulmonary lesions, multiple enlarged mediastinal and abdominal lymph nodes, an abdominal soft tissue mass, small bowel wall thickening, persistent abdominal distension, and gastrointestinal bleeding, suggesting a systemic progressive disease. Because the prior lung tissue biopsy showed no evidence of malignancy or TB, and the patient is now critically ill with respiratory failure, direct lung needle biopsy carries high risk; therefore, PET/CT is needed for a one-time assessment of the extent of systemic involvement, evaluation of lesion metabolic activity, and identification of the most representative and relatively safe biopsy target. This examination can also help distinguish focal infection from diffuse neoplastic/lymphoproliferative disease, explain why the patient has simultaneous multi-organ involvement of the lungs, gastrointestinal tract, sinuses, pleura, and pericardium, and directly guide the subsequent choice of the perisplenic lesion for needle biopsy; it is the key step in shifting from 'suspected infection/vasculitis' to 'high suspicion for lymphoma'.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous biopsy of the perisplenic tissue",
+          "basis_in_stage3_input": "Based on the PET-CT findings, a CT-guided percutaneous biopsy of the perisplenic tissue was performed.",
+          "why_order_this_exam": "PET/CT had already shown hypermetabolic lesions at multiple sites throughout the body, and the clinical team needed to obtain histologic evidence as soon as possible to determine whether this was lymphoma, another malignant tumor, infection, or an inflammatory disease. At that time, the patient was critically ill, with respiratory failure and multisystem involvement. Although the pulmonary lesions were conspicuous, biopsy carried an extremely high risk; in contrast, using PET/CT to select hypermetabolic tissue around the spleen for CT-guided percutaneous biopsy could improve the yield of tissue sampling and reduce the risk of respiratory complications. The core clinical question of this procedure was to obtain a pathologic specimen that could establish a definitive diagnosis, thereby ending the prolonged diagnostic process that had repeatedly oscillated among infection, vasculitis, and tumor, and providing decisive evidence for whether to proceed with an antitumor/chemotherapy pathway.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Histopathologic examination of perisplenic tissue",
+          "basis_in_stage3_input": "Histopathologic examination of the perisplenic tissue showed a small- to medium-sized lymphocytic infiltrate, positive for CD3, CD8, and CD56, and negative for CD4 and CD20.",
+          "why_order_this_exam": "The most challenging issue in the early stage of this case was that the clinical presentation and imaging could simultaneously mimic infection, vasculitis, and tumor: the patient previously had positive autoantibodies and transient sensitivity to corticosteroids, but then rapidly relapsed with widespread systemic progression, gastrointestinal symptoms, and bleeding; routine infectious studies and prior lung biopsy could not explain the entire clinical picture. Histopathologic examination of the perisplenic tissue was the key definitive test, with the aim of determining the nature of the lesion through tissue morphology combined with immunophenotyping and distinguishing among T-cell lymphoma, B-cell lymphoma, metastatic carcinoma, inflammatory infiltrate, or infectious granuloma. The results showed infiltration by small- to medium-sized lymphocytes, with positivity for CD3, CD8, and CD56 and negativity for CD4 and CD20, directly supporting a T/NK-cell lineage lymphoproliferative neoplasm and providing critical evidence for the definitive diagnosis of type II enteropathy-associated T-cell lymphoma, while also explaining its extensive metastases to the lungs, gastrointestinal tract, and throughout the body, as well as the clinical manifestation of a 'malignancy mimicking vasculitis'.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "During treatment, while receiving immunosuppressants, the patient developed fever, elevated inflammatory markers, and short-term progression on lung imaging; concomitant pneumonia was considered. Moxifloxacin was given for anti-infective treatment, and methylprednisolone was continued for the primary disease. On hospital day 3, the symptoms improved slightly, and repeat inflammatory markers decreased compared with before. The antibiotic was escalated to meropenem, while methylprednisolone was reduced to 16 mg/d. However, on hospital day 9, the condition began to gradually worsen, with persistent abdominal distension, and the blood counts increased again: WBC 40.67×10^9/L, N 97.1%. Bone marrow aspiration was completed, and bone marrow cytology showed no obvious abnormality. The patient gradually developed severe dyspepsia and abdominal distension. Gastrointestinal decompression was performed, and approximately 200 ml of dark red blood was drained through the decompression tube, suggesting gastrointestinal bleeding. An 18F-FDG PET/CT examination was completed, and the results showed multiple hypermetabolic lesions in the stomach, left small intestinal wall, and bilateral adrenal glands, with hypermetabolism in the gallbladder, peritoneum, extensive lymph nodes, lungs, right pleura, right atrium, pericardium, and left frontal sinus. According to the PET-CT results, a CT-guided percutaneous biopsy of the perisplenic tissue was performed. Histopathologic examination of the perisplenic tissue showed infiltration by small- to medium-sized lymphocytes, positive for CD3, CD8, and CD56, and negative for CD4 and CD20.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnz8UUKMnzvGnOpZ4tgctibgMoBYMPWicvhVia7ibia0duRo4qgW5uLxBriaOIg/640?wx_fmt=jpeg",
+          "near_text": "Figure 8: 18F-FDG PET/CT showed masses, nodules, and lymph nodes with diffusely increased SUV throughout the body",
+          "local_src": "cleaned_cases_image_cache/dbbf5cab97cd2e038c230818bab49eb2fd50acd2.jpg"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKxPOrxW8oo5LSNMM56nQnz8OHiaXx23N87UiaUUjoppfZDicJ09oNL3kxulcgsBzngutlnGo2AUWDTg/640?wx_fmt=jpeg",
+          "near_text": "Figure 9: Histopathologic findings of the perisplenic tissue. Immunohistochemical staining showed positivity for CD3 (A), CD8 (B), and CD56 (C), and negativity for CD4 (D) and CD20 (E). H&E staining (F) showed a monomorphic population of small- to medium-sized lymphocytes.",
+          "local_src": "cleaned_cases_image_cache/9294caedb20320847714d08b945a70726b73d715.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Type II enteropathy-associated T-cell lymphoma with widespread systemic metastases, malignancy mimicking vasculitis",
+      "diagnostic_basis": [
+        "General condition: middle-aged man, chronic course.",
+        "Symptoms: The patient has multisystem involvement (lungs, gastrointestinal tract, sinuses); after improvement of immune-related symptoms with glucocorticoids and other therapies, the condition worsened again and fever developed.",
+        "Signs: elevated body temperature; no obvious abnormal findings on physical examination of the lungs.",
+        "Ancillary examinations: ① Laboratory tests: WBC and N% were markedly elevated; ② During the first hospitalization, multiple autoantibodies were found to be positive, including myeloperoxidase (MPO), proteinase 3 (PR3), anti-glomerular basement membrane (GBM) antibody, anti-CCP antibody, and antinuclear antibody (ANA) 1:80; ③ Chest CT: multiple nodular consolidative opacities in both lungs and multiple enlarged mediastinal lymph nodes; after glucocorticoid therapy, the lesions improved significantly, and the condition subsequently worsened again; ④ Abdominal CT: thickening of the gastrointestinal wall, mass lesions, and enlarged retroperitoneal lymph nodes. ⑤ Sinus CT: soft-tissue opacities within the sinuses. ⑥ 18F-FDG PET/CT revealed diffusely increased SUV in masses, nodules, and lymph nodes throughout the body. ⑦ Histopathologic examination of perisplenic tissue was consistent with type II enteropathy-associated T-cell lymphoma."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "During treatment, the patient developed fever, elevated inflammatory markers, and short-term progression on pulmonary imaging while receiving immunosuppressants; concomitant pneumonia was considered. Moxifloxacin (0.4 g/d) was given for anti-infective treatment, and methylprednisolone (40 mg/d) was continued for the underlying disease.",
+        "On hospital day 3, the patient's symptoms improved slightly, and repeat inflammatory markers decreased compared with before. Because the condition remained critical, antibiotics were escalated to meropenem (1.0 g, Q8h), while methylprednisolone was reduced to 16 mg/d.",
+        "On hospital day 9, the patient's condition gradually worsened, with persistent abdominal distension and a recurrent elevation in blood counts. Infection could not explain the blood count findings. A bone marrow aspiration was completed, and bone marrow cytology showed no obvious abnormalities.",
+        "The patient gradually developed severe dyspepsia and abdominal distension. After drug therapy was ineffective, gastrointestinal decompression was performed. Approximately 200 ml of dark red blood was drained through the decompression tube, suggesting gastrointestinal bleeding, and symptomatic treatment including gastric mucosal protection and hemostasis was given.",
+        "Because multiple complete blood count tests showed a gradual increase in the white blood cell count, a malignant tumor, especially malignant lymphoma, was considered possible. Because the condition was critical and accompanied by respiratory failure, the risk of percutaneous lung biopsy was extremely high, so an 18F-FDG PET/CT examination was completed.",
+        "Based on the PET-CT findings, CT-guided percutaneous biopsy of the perisplenic tissue was performed for histopathologic and immunohistochemical examination."
+      ],
+      "treatment_response": [
+        "On hospital day 25, the patient developed somnolence, shock, tachycardia (145 beats/min), and hypotension (66/54 mmHg). Blood lactate increased to 14.2 mmol/L, and the patient ultimately died of shock."
+      ]
+    }
+  }
+}

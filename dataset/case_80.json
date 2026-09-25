@@ -1,0 +1,533 @@
+{
+  "status": "success",
+  "case_id": "case_80",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 22-year-old young man admitted for \"chills and fever accompanied by cough and sputum production for half a month.\" Half a month earlier, after an episode of catching a chill, he developed chills and fever, with a maximum temperature of 39℃. The fever usually occurred at 7-8 PM, and his daytime temperature could return to normal. This was accompanied by \"cough and sputum production,\" with white mucoid sputum, small in amount, and difficult to expectorate. During febrile episodes, he also had fatigue, poor appetite, and chest tightness/discomfort after activity. At that time, there was no chest pain, hemoptysis, dyspnea, or palpitations; no dizziness or headache. After 3 days of anti-inflammatory treatment at a local clinic (ceftriaxone 2.0, Bid), his symptoms did not improve, and nighttime high fever persisted. Three days ago, he presented to the emergency department of Ruijin Hospital, Shanghai Jiao Tong University School of Medicine. Blood routine showed WBC: 7.87×10^9/L, neutrophils 79.5%; liver and kidney function were normal; chest CT showed multiple high-density opacities in both lungs. He was treated with Tienam 1.0 q8h for anti-infection and Lan Su for expectoration for 3 days, with poor effect, and then developed oral ulcers and a back rash, and passed black stool 5-6 times, loose and mushy in consistency, without nausea, vomiting, or abdominal pain. He was admitted to our Department of Respiratory and Critical Care Medicine. During the course of illness, his appetite and sleep were poor, and he has had obvious weight loss in recent days. After admission, the physical examination findings were as follows: the patient was conscious and alert, but in poor general condition; blood pressure 80/60 mmHg; respirations were relatively even; no jaundice of the skin or mucous membranes; no palpable enlargement of superficial lymph nodes; one 2.5 cm x 2.5 cm ulcer was seen on the upper palate in the oral cavity; scattered rash was seen on the back. Heart rate was 127 beats/min, rhythm regular, no pathologic murmur was heard, cardiac dullness border was enlarged, breath sounds in both lungs were increased, with no obvious dry or moist rales heard, abdomen was soft, liver and spleen were not palpable below the costal margin, and there was no edema of either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstK1icBicxgDg2jB83USudMdgQAArj89dm665o1WKI5ySZ2Ttg9TNJBwiah5oO2gAGuujpeQL4aSZMzdg/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT showed multiple high-density opacities in both lungs",
+          "local_src": "cleaned_cases_image_cache/f46ef1066f4630883febeebc163a5f4eda4d849b.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia (including severe/atypical pathogen pneumonia)",
+          "supporting_evidence": [
+            "There was a definite acute onset: after catching a chill, the patient developed chills and fever, with a maximum temperature of 39℃",
+            "Accompanied by cough and sputum production; the sputum is white mucoid sputum",
+            "Chest CT showed multiple high-density opacities in both lungs; the attached chest CT images show multiple patchy/nodular high-density opacities in both lungs",
+            "Presence of infection-related systemic manifestations: fatigue, poor appetite, poor general condition, heart rate 127 beats/min, blood pressure 80/60 mmHg",
+            "Neutrophil percentage 79.5% is elevated, supporting infection or an inflammatory response"
+          ],
+          "opposing_evidence": [
+            "Symptoms showed no improvement after 3 days of anti-inflammatory treatment with ceftriaxone",
+            "After 3 days of Tienam anti-infective therapy, the response was poor, suggesting insufficient evidence for common bacterial pneumonia or an unusual pathogen.",
+            "WBC count 7.87×10^9/L, without significant elevation",
+            "On auscultation of both lungs, no obvious dry or moist rales were heard, which was not completely consistent with the multiple lesions on imaging.",
+            "Accompanied by large oral ulcers, a back rash, melena, and marked weight loss, suggesting a possible extrapulmonary systemic disease that cannot be explained solely by common pneumonia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary TB (hematogenous disseminated TB or infiltrative pulmonary TB)",
+          "supporting_evidence": [
+            "Fever has persisted for half a month, with high fever more pronounced at night, showing a temporal pattern characteristic of chronic infections such as TB",
+            "Accompanied by cough, sputum production, fatigue, poor appetite, and marked recent weight loss, consistent with manifestations of a wasting disease",
+            "Chest CT showed multiple high-density opacities in both lungs. The attached images show multiple scattered lesions in both lungs, which may be seen in tuberculous pulmonary dissemination or multifocal infiltrates.",
+            "When response to conventional antibacterial therapy is poor and common bacterial infection is not supported, special infections such as TB should be considered"
+          ],
+          "opposing_evidence": [
+            "The disease course has been only half a month, relatively acute.",
+            "Scant white mucoid sputum, no hemoptysis",
+            "On physical examination, no superficial lymphadenopathy was palpable, and the liver and spleen were not palpable below the costal margin.",
+            "Phase 1 information did not provide a definite history of TB exposure or prior TB history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary involvement associated with pulmonary vasculitis (such as systemic inflammatory diseases including ANCA-associated vasculitis or Behçet disease)",
+          "supporting_evidence": [
+            "In addition to pulmonary lesions, there was also a 2.5 cm × 2.5 cm ulcer on the palate in the oral cavity and scattered rash on the back, suggesting systemic mucocutaneous involvement.",
+            "Fever, fatigue, and marked weight loss, consistent with manifestations of a systemic inflammatory disease",
+            "Chest CT showed multiple high-density opacities in both lungs. The attached images show multiple lesions in both lungs. Vasculitis can present as multiple nodular or patchy opacities.",
+            "Routine broad-spectrum anti-infective treatment had no significant effect, suggesting that it may not be a simple bacterial infection.",
+            "Passed black stools 5-6 times, suggesting possible gastrointestinal mucosal/vascular involvement or bleeding manifestations"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no more typical clues of vasculitis were observed, such as hemoptysis, sinus symptoms, hematuria, or edema.",
+            "The presence of cough, sputum production, and onset after exposure to cold more readily supports an initial explanation as an infectious disease.",
+            "The total white blood cell count was not significantly abnormal, and no autoimmune-related laboratory evidence was provided in the first stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Infective endocarditis with septic pulmonary emboli/immunologic phenomena",
+          "supporting_evidence": [
+            "Persistent fever, heart rate 127 beats/min, blood pressure 80/60 mmHg, suggesting possible severe infection or sepsis",
+            "Physical examination suggests an enlarged area of cardiac dullness; underlying heart disease should be considered.",
+            "Back rash may be one of the infection-related cutaneous manifestations",
+            "Chest CT and the attached images show multiple lesions in both lungs; when infective endocarditis involves the right heart, multiple bilateral pulmonary nodules/infiltrates may occur.",
+            "Poor response to conventional anti-infective therapy, suggesting that persistent infectious foci should be considered"
+          ],
+          "opposing_evidence": [
+            "No pathologic breath sounds were heard on physical examination",
+            "The patient had no chest pain or palpitations, and in phase 1 no risk factors such as underlying heart disease, intravenous drug use, or catheter placement were provided.",
+            "There are cough and sputum production with exposure to cold as a precipitating factor, which can still be explained by the primary pulmonary infection.",
+            "In the first phase, no supporting evidence such as peripheral embolization, nail bed changes, or splenomegaly was provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal pulmonary infection or other special pathogen infection",
+          "supporting_evidence": [
+            "Multiple high-density opacities in both lungs; the accompanying images show multifocal lesions in both lungs, which may be seen in special infections such as fungal infection",
+            "Treatment with ceftriaxone and Tienam was ineffective, suggesting a lower likelihood of common bacterial pathogens.",
+            "Accompanied by systemic manifestations such as fever, weight loss, and poor general condition, consistent with the possibility of a relatively severe opportunistic infection",
+            "Oral ulcers and skin rash suggest possible abnormal immune status or manifestations of systemic infection."
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide a clear history of immunosuppression, long-term medication use, or underlying diseases.",
+            "Scant white mucoid sputum, no hemoptysis",
+            "The total white blood cell count was not significantly elevated, and no specific clues for fungal infection were provided in the first stage."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Hematologic malignancy or lymphoma with pulmonary infiltrates/secondary infection",
+          "supporting_evidence": [
+            "Systemic constitutional symptoms including persistent fever, fatigue, poor appetite, and marked recent weight loss are present",
+            "Oral ulcers and rash may be seen in mucocutaneous involvement related to hematologic diseases or complications after bone marrow suppression.",
+            "Chest CT showed multiple high-density opacities in both lungs; the pulmonary findings may represent infiltrative lesions or secondary infection.",
+            "Poor response to anti-infective therapy suggests that causes other than a simple infectious etiology should be considered"
+          ],
+          "opposing_evidence": [
+            "Complete blood count showed only WBC 7.87×10^9/L; in the first stage, there was no obvious anemia, platelet abnormality, or information on immature cells.",
+            "No superficial lymphadenopathy was palpable; the liver and spleen were not palpable below the costal margin",
+            "The course of illness began after exposure to cold and was accompanied by cough and sputum production, which is more suggestive of an infectious onset."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "ANA",
+          "requirement": "required"
+        },
+        {
+          "exam": "ENA",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear and culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gastroscopy and colonoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET/CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Supraclavicular lymph node biopsy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Alanine aminotransferase",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspartate aminotransferase",
+          "requirement": "required"
+        },
+        {
+          "exam": "alkaline phosphatase",
+          "requirement": "required"
+        },
+        {
+          "exam": "gamma-glutamyl transferase",
+          "requirement": "required"
+        },
+        {
+          "exam": "Total bilirubin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Direct bilirubin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Total protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Albumin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Albumin/globulin ratio",
+          "requirement": "required"
+        },
+        {
+          "exam": "Creatine kinase",
+          "requirement": "required"
+        },
+        {
+          "exam": "CK-MB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Quantitative myoglobin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac troponin I",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sodium",
+          "requirement": "required"
+        },
+        {
+          "exam": "Potassium",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chlorine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Calcium",
+          "requirement": "required"
+        },
+        {
+          "exam": "HIV",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBV IgM",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBV IgG",
+          "requirement": "required"
+        },
+        {
+          "exam": "CA125",
+          "requirement": "optional"
+        },
+        {
+          "exam": "NSE",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis: occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood smear",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymph node ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further ancillary examinations were completed as follows: Biochemical tests: alanine aminotransferase 193 IU/L, aspartate aminotransferase 223 IU/L, alkaline phosphatase 31 IU/L, γ-glutamyl transferase 9 IU/L, total bilirubin and direct bilirubin normal, total protein 31 g/L, albumin 13 g/L, albumin/globulin ratio 0.72, creatine kinase 228 IU/L, CK-MB 1.6 ng/mL, quantitative myoglobin 42 ng/mL, troponin I 0.01 ng/mL, sodium 125 mmol/L, potassium and chloride normal, calcium 1.51 mmol/L. Viral studies: HIV (-), EBV IgM/IgG positive. Tumor markers: CA125 61.2 U/mL, NSE 28.65 ng/mL. Arterial blood gas analysis: pH 7.45, PaO2 85 mmHg, PaCO2 32 mmHg. Abdominal CT: full appearance of the pancreas with peripancreatic exudation; pancreatitis to be excluded. Urinalysis: protein (++) and occult blood (+++). Peripheral blood smear: marked decrease in proliferation of all three cell lines. Lymph node ultrasound: multiple enlarged supraclavicular lymph nodes and visceral lymph nodes. Immunologic markers: ANA, ENA, ANCA, RF, and anti-CCP antibody all without abnormalities. T-SPOT: antigen A 80; antigen B 40. Sputum smear for Mycobacterium tuberculosis: negative. Supraclavicular lymph node biopsy: atypical lymphoid hyperplasia. PET/CT: multiple hypermetabolic lesions in both lungs, the abdominal cavity, and the testes. Bone marrow aspiration showed: no abnormalities in proliferation of all three cell lines; 1% hemophagocytes observed.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstK1icBicxgDg2jB83USudMdgQax1VQjUGKLJGyT9YP5C0x7uT0Z6E6XwQ0a6uiaEsTEV5wfups2IY79w/640?wx_fmt=png",
+            "near_text": "[IMAGE]",
+            "local_src": "cleaned_cases_image_cache/c824660b7f5236465c96f0e1b812b034ed5284fe.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstK1icBicxgDg2jB83USudMdgQObHAIZRiaQFRvuNqS6qLBGaNXEbSEnCJfUjOJNg2gXrv1Tp4y2DSmug/640?wx_fmt=png",
+            "near_text": "Figure 2. PET-CT: multiple hypermetabolic lesions in both lungs, the abdominal cavity, and the testes",
+            "local_src": "cleaned_cases_image_cache/d9cb6d57c544d0fb4b37aea78c5d2d503539fb4c.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "TB infection",
+            "evidence": [
+              "The patient is a young man with acute onset, presenting mainly with cough, fever, and weight loss, with marked constitutional symptoms. Multiple nodular opacities are present in both lungs, with multiple hypermetabolic nodules in both lungs, and T-SPOT is positive."
+            ],
+            "exclusion_reasons": [
+              "Sputum smear and culture and other tests need to be completed. The sputum smear result has not yet been confirmed positive, and a definitive diagnosis cannot be made based on the current results alone."
+            ]
+          },
+          {
+            "name": "metastatic lung tumor",
+            "evidence": [
+              "The patient is a young male with marked emaciation, multiple nodules in both lungs, and multiple hypermetabolic nodules in both lungs."
+            ],
+            "exclusion_reasons": [
+              "Pathologic evidence has not been obtained; a definitive diagnosis cannot be made at present."
+            ]
+          },
+          {
+            "name": "Pulmonary lymphoma",
+            "evidence": [
+              "The patient is a young male with marked emaciation, multiple nodules in both lungs, and multiple hypermetabolic nodules in both lungs."
+            ],
+            "exclusion_reasons": [
+              "Pathologic evidence has not been obtained; a definitive diagnosis cannot be made at present."
+            ]
+          },
+          {
+            "name": "ANCA-associated vasculitis",
+            "evidence": [
+              "The patient has hematuria, pulmonary nodules, and ground-glass opacities, with nodular changes in the lungs and manifestations resembling nephritic syndrome."
+            ],
+            "exclusion_reasons": [
+              "ANCA testing needs to be completed to assist in the differential diagnosis, and some patients may be ANCA-negative; the diagnosis depends on pathologic findings, so a definitive diagnosis cannot be made at present"
+            ]
+          },
+          {
+            "name": "Behçet disease",
+            "evidence": [
+              "The patient has hematuria, oral ulcers, pulmonary nodules, and ground-glass opacities."
+            ],
+            "exclusion_reasons": [
+              "Relevant autoimmune marker testing has not been completed, so a definitive diagnosis cannot be made at this time."
+            ]
+          },
+          {
+            "name": "Granulomatosis with polyangiitis",
+            "evidence": [
+              "The patient has nodular changes in the lungs and nephritic syndrome-like manifestations, with possible involvement of multiple organs including the sinuses, lungs, and kidneys."
+            ],
+            "exclusion_reasons": [
+              "ANCA needs to be completed to assist in the differential diagnosis; some patients are ANCA-negative, and the diagnosis depends on pathology results; a definitive diagnosis cannot be made at present"
+            ]
+          },
+          {
+            "name": "Gastrointestinal tumor",
+            "evidence": [
+              "The patient is a young male. Tumor markers showed elevated CA125, and melena was present."
+            ],
+            "exclusion_reasons": [
+              "Abdominal CT showed no significant gastrointestinal abnormalities and does not currently support a gastrointestinal tumor."
+            ]
+          },
+          {
+            "name": "Plasma cell disorders and lymphoproliferative disorders",
+            "evidence": [
+              "The patient's albumin and albumin/globulin ratio are significantly decreased; diseases of this type causing abnormal monoclonal or polyclonal immunoglobulin production should be investigated."
+            ],
+            "exclusion_reasons": [
+              "Targeted relevant examinations have not yet been completed, so a definitive diagnosis cannot be established at this time."
+            ]
+          },
+          {
+            "name": "common bacterial infection",
+            "evidence": [
+              "Complete blood count showed a slight increase in the neutrophil percentage"
+            ],
+            "exclusion_reasons": [
+              "The efficacy of third-generation cephalosporins and carbapenems was both poor, not supporting a common bacterial infection."
+            ]
+          },
+          {
+            "name": "Hemophagocytic lymphohistiocytosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The original text did not mention evidence relevant to diagnosing this disease based on hemophagocytic cells identified on bone marrow aspiration; therefore, a diagnosis cannot currently be made."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "TB infection",
+        "evidence": [
+          "The patient is a young man with acute onset, presenting mainly with cough, fever, and weight loss, with marked constitutional symptoms. Multiple nodular opacities are present in both lungs, with multiple hypermetabolic nodules in both lungs, and T-SPOT is positive."
+        ],
+        "exclusion_reasons": [
+          "Sputum smear and culture and other tests need to be completed. The sputum smear result has not yet been confirmed positive, and a definitive diagnosis cannot be made based on the current results alone."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary lymphoma",
+        "evidence": [
+          "The patient is a young male with marked emaciation, multiple nodules in both lungs, and multiple hypermetabolic nodules in both lungs."
+        ],
+        "exclusion_reasons": [
+          "Pathologic evidence has not been obtained; a definitive diagnosis cannot be made at present."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Behçet disease",
+        "evidence": [
+          "The patient has hematuria, oral ulcers, pulmonary nodules, and ground-glass opacities."
+        ],
+        "exclusion_reasons": [
+          "Relevant autoimmune marker testing has not been completed, so a definitive diagnosis cannot be made at this time."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Gastrointestinal tumor",
+        "evidence": [
+          "The patient is a young male. Tumor markers showed elevated CA125, and melena was present."
+        ],
+        "exclusion_reasons": [
+          "Abdominal CT showed no significant gastrointestinal abnormalities and does not currently support a gastrointestinal tumor."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Plasma cell disorders and lymphoproliferative disorders",
+        "evidence": [
+          "The patient's albumin and albumin/globulin ratio are significantly decreased; diseases of this type causing abnormal monoclonal or polyclonal immunoglobulin production should be investigated."
+        ],
+        "exclusion_reasons": [
+          "Targeted relevant examinations have not yet been completed, so a definitive diagnosis cannot be established at this time."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "common bacterial infection",
+        "evidence": [
+          "Complete blood count showed a slight increase in the neutrophil percentage"
+        ],
+        "exclusion_reasons": [
+          "The efficacy of third-generation cephalosporins and carbapenems was both poor, not supporting a common bacterial infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hemophagocytic lymphohistiocytosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The original text did not mention evidence relevant to diagnosing this disease based on hemophagocytic cells identified on bone marrow aspiration; therefore, a diagnosis cannot currently be made."
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PET/CT imaging",
+          "basis_in_stage3_input": "We reviewed the patient’s PET/CT images again and found that the lesions were mainly located in the lungs, abdominal cavity, and testes.",
+          "why_order_this_exam": "The patient is a 22-year-old man with persistent high fever for half a month, cough with sputum production, and marked weight loss. Conventional anti-infective treatment with cephalosporins and carbapenems was ineffective. Chest CT showed multiple lesions in both lungs, suggesting that simple infection cannot explain the entire clinical picture. PET/CT can assess lesion distribution and metabolic activity at the whole-body level, determine whether the lungs are the dominant site of involvement, and simultaneously detect clues to extrapulmonary involvement such as the abdominal cavity and testes, thereby helping resolve the differential diagnosis among infection, metastatic tumor, lymphoma, and systemic disease. This examination can also help select the most appropriate biopsy site with a higher positive yield and acceptable risk, and provide a basis for subsequent Ann Arbor/Lugano staging, prognostic assessment, and treatment planning.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided lung biopsy",
+          "basis_in_stage3_input": "The team decided to perform a CT-guided lung biopsy of the left lung apex in the patient.",
+          "why_order_this_exam": "The patient had multiple pulmonary lesions in both lungs accompanied by persistent high fever, weight loss, hypotension, and multisystem manifestations. Previous anti-infective treatment was ineffective. A positive T-SPOT and hypermetabolic lesions at multiple sites on PET/CT also left TB, lymphoma, metastatic tumor, and vasculitis in the differential diagnosis simultaneously; however, supraclavicular lymph node biopsy showed only atypical hyperplasia, and decisive pathologic evidence was consistently lacking. After review of the PET/CT, the apical lung lesion was more prominent, indicating that the lung was a more suitable direct biopsy target. The purpose of CT-guided lung biopsy was to obtain tissue from a solid lesion for morphologic and immunopathologic diagnosis, to clarify the nature of the lesion as soon as possible, and, after considering the patient's wishes, the lesion positivity rate, and the risk of biopsy, the left apical lung lesion was selected in order to improve the diagnostic yield while ensuring safety, directly affecting whether subsequent treatment would proceed to antitumor rather than anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathology",
+          "basis_in_stage3_input": "Postoperative pathology showed that the patient had pulmonary NK/T-cell lymphoma.",
+          "why_order_this_exam": "The clinical presentation and imaging findings in this case both lacked specificity: there were fever, cough, and multiple bilateral pulmonary opacities, as well as oral ulcers, rash, melena, proteinuria/hematuria, weight loss, and multiple hypermetabolic lesions, and infectious, autoimmune, and neoplastic diseases were all included in the differential diagnosis. Only postoperative pathology could answer the core question of whether the lesions were infectious granulomas, metastatic tumors, lymphoproliferative lesions, or vasculitis-related lesions. The pathology results not only established the definitive diagnosis, but also determined the disease classification and subsequent treatment direction; in this case, they directly confirmed pulmonary NK/T-cell lymphoma, thereby ending the prolonged differential diagnostic process and providing the fundamental basis for staging, prognostic assessment, and selection of L-asparaginase- and PD-1-related regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphangiography",
+          "basis_in_stage3_input": "Exclude extrapulmonary lymphoma or lymphocytic leukemia by clinical physical examination and whole-body radionuclide imaging, CT or lymphangiography, bone marrow examination, and PET/CT.",
+          "why_order_this_exam": "In this case, whether there is extrapulmonary lymphatic system involvement is directly related to whether primary pulmonary lymphoma can be diagnosed. Although no obvious enlargement of superficial lymph nodes was palpated on the initial physical examination, subsequent ultrasound showed multiple enlarged supraclavicular and visceral lymph nodes, indicating that occult lymphatic system disease cannot be excluded on the basis of surface physical examination alone. Lymphangiography is used to further evaluate lymphatic pathways and involvement of deep lymph nodes, helping identify evidence of extrapulmonary lymphoma and supplementing the limitations of other imaging studies in assessing lymphatic system distribution. This examination has auxiliary value for distinguishing primary from secondary pulmonary lymphoma, disease staging, and determining the scope of subsequent treatment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bone marrow examination",
+          "basis_in_stage3_input": "Exclude extrapulmonary lymphoma or lymphocytic leukemia by clinical physical examination and whole-body radionuclide imaging, CT or lymphangiography, bone marrow examination, and PET/CT.",
+          "why_order_this_exam": "The patient has persistent high fever, weight loss, hypoalbuminemia, a peripheral blood smear suggesting marked reduction in trilineage hematopoiesis, and 1% hemophagocytic cells previously seen on bone marrow aspiration, suggesting that bone marrow involvement, a secondary inflammatory response, or a hematologic disease should all be considered. In patients with suspected lymphoma, the key role of bone marrow examination is to determine whether there is bone marrow infiltration or a lymphocytic leukemia pattern, in order to address the core question of whether the disease extends beyond the lungs and whether it represents a systemic hematologic malignancy. This examination directly affects Ann Arbor staging, exclusion of the diagnosis of primary pulmonary lymphoma, prognosis assessment, and selection of treatment intensity, and also helps explain systemic manifestations such as peripheral blood abnormalities and fever.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "We again reviewed the patient’s PET/CT images and found that the lesions were mainly located in the lungs, abdominal cavity, and testes, with the pulmonary lesions being most prominent at the lung apices. After considering the patient’s wishes, lesion positivity rate, puncture risk, and other factors, the team decided to perform a CT-guided lung biopsy of the left lung apex. Postoperative pathology showed pulmonary NK/T-cell lymphoma. According to the Lugano staging system (developed on the basis of the Ann Arbor staging system), this patient had extensive pulmonary involvement and was stage IV. Based on four indicators—whether the stage is III/IV, whether the patient has systemic symptoms (fever >38℃, weight loss >10% over the past 6 months, or night sweats), elevated lactate dehydrogenase, and local lymph node involvement—the patient’s NK/T-cell lymphoma prognostic index (NKPI, NK/T cell lymphoma prognostic index) was 3 points. Overall, the prognosis was poor, with a 5-year survival rate of about 7%. The patient’s lymphoma lesions were mainly located in both lungs, the abdominal cavity, and the testes, and it is necessary to consider whether this represents primary extranodal lymphoma. Primary extranodal lymphoma refers to lymphoma in which the main lesion is located in extranodal organs or tissues, with or without infiltration of regional lymph nodes. It can occur in any extranodal organ or tissue, such as the gastrointestinal tract, central nervous system, nasopharynx, head and neck, lung, peritoneum, retroperitoneum, and genitourinary system. Because its clinical manifestations lack specificity, the clinical misdiagnosis rate is as high as over 80%, and most pathologic changes are non-Hodgkin lymphoma. If the lesion is confined to the lungs, primary pulmonary lymphoma (PPL) should be considered. The diagnosis of this disease requires that all 4 of the following criteria be met simultaneously: imaging shows involvement of the lungs and bronchi without mediastinal lymph node enlargement; there has never previously been extrapulmonary lymphoma; extrapulmonary lymphoma or lymphocytic leukemia is excluded by clinical physical examination and whole-body radionuclide studies, CT or lymphangiography, bone marrow examination, and PET/CT; and no signs of extrapulmonary lymphoma appear within 3 months after onset. This patient had lesions in both lungs, the abdominal cavity, and the testes. Although the abdominal and testicular lesions were not pathologically confirmed, they were still considered lymphoma lesions based on PET/CT. Therefore, according to these diagnostic criteria, this patient cannot be diagnosed with primary pulmonary lymphoma, but it cannot be completely excluded that the patient developed extrapulmonary visceral involvement after the onset of primary pulmonary lymphoma.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstK1icBicxgDg2jB83USudMdgQDchtj6CCgRBUNo9ia4FksoPoMOBcr5ptDJnj7yIJklFibyibkD9vdZ7Kg/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/b31e9de6c2e62773301dea1974ada5286cdbc3c1.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstK1icBicxgDg2jB83USudMdgQPFG5SrezZSuPYANAAuDN3R94ibmmNWt8H88ZT4OKbgqxDwgmibCPEmWA/640?wx_fmt=png",
+          "near_text": "Figure 3. Pathologic diagnosis confirmed by CT-guided percutaneous lung biopsy: pulmonary NK/T-cell lymphoma",
+          "local_src": "cleaned_cases_image_cache/baf1b1a9de133b058b5cf6080f3293cb6262682c.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary NK/T-cell lymphoma (Ann Arbor stage IV)",
+      "diagnostic_basis": [
+        "CT-guided lung biopsy of the left lung apex; postoperative pathology showed pulmonary NK/T-cell lymphoma",
+        "PET/CT imaging showed that the lesions were mainly located in the lungs, abdominal cavity, and testes."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "L-asparaginase-based antimetabolic therapy regimen",
+        "PD-1 monoclonal antibody"
+      ],
+      "treatment_response": []
+    }
+  }
+}

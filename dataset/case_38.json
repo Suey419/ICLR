@@ -1,0 +1,437 @@
+{
+  "status": "success",
+  "case_id": "case_38",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 56-year-old man. Chief complaint: cough for 4 months, chest tightness and shortness of breath for 2 months, intermittent fever for 1 week. History of present illness: In approximately 4 months before Day 0, he developed a cough without an obvious precipitating cause, mainly manifesting as daytime dry cough, without accompanying symptoms such as sputum production, hemoptysis, fever, chest tightness, or chest pain. Non-contrast chest CT at a local hospital suggested increased bilateral lung markings. Compound methoxyphenamine was given for cough suppression, with no significant improvement in the cough, and he gradually developed chest tightness and shortness of breath. In approximately 1 month before Day 0, he presented to the Department of Respiratory Medicine at a tertiary hospital in Shanghai. Non-contrast chest CT showed multiple patchy opacities in the lower lobes of both lungs. After admission, bronchoscopy showed no obvious abnormalities and no evidence of malignancy. Autoantibody testing showed anti-dsDNA antibody, anti-RNP antibody, anti-GBM antibody, and anti-Jo-1 antibody were all negative. The diagnosis considered was \"bronchiectasis with infection, pulmonary shadow (cryptogenic organizing pneumonia?)\". He was treated with biapenem + moxifloxacin for anti-infection therapy and betamethasone for anti-inflammatory therapy, followed by sequential oral glucocorticoid therapy after discharge. On Day 0, the patient developed fever, with a maximum temperature of 38.5℃, and was hospitalized at a local hospital. During that time, repeat PFT suggested mild ventilatory dysfunction and severely reduced diffusing capacity. Non-contrast chest CT suggested progression of the patchy lesions in both lower lungs compared with before. Because the treatment effect was poor, he requested transfer to our hospital. Physical examination on admission: T 36.4℃, P 87 beats/min, R 18 breaths/min, BP 125/73mmHg, SpO2 89% (without oxygen); clear consciousness, fair general condition, breathing relatively stable at rest; no jaundice of the skin, a small amount of light violaceous-red rash on the extensor aspects of both elbow joints, depigmentation at the distal ends of both fingers; no enlargement of superficial lymph nodes throughout the body; cardiac auscultation unremarkable, Velcro crackles audible in both lower lungs; no deformity of the extremities or spine, free range of motion, no obvious positive neurologic signs. Laboratory and ancillary examinations: CBC: WBC 10.20 X 10^9/L, N% 88.4%, PLT 176 X 10^9/L, cTnT 0.023ng/mL, NTpro-BNP 123.3pg/mL, D-dimer 0.90mg/L; pulmonary artery CTA: no obvious signs of embolism, scattered inflammation in both lungs, chronic inflammation in both lungs with interstitial changes. EKG: sinus tachycardia (118bpm). Past medical history: denies a history of chronic diseases such as hypertension, diabetes mellitus, and heart disease; in 2008 had a surgical history of right calcaneal fracture due to trauma. Personal history: denies smoking and other unhealthy habits, denies history of toxic or harmful substance exposure, occasional social alcohol use. Family history: denies family history of hereditary diseases and infectious diseases; has 2 sons, family members are healthy.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrqwtEhervAUxKjYLmhK8WgmkPPtYsLfkJP2b5sYLI0gbG0zcJUn4kOQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT on Day +9 showed interstitial changes in both lungs",
+          "local_src": "cleaned_cases_image_cache/70ad5036c9e0e4b3fd12afaba3c400983b44d5d7.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Dermatomyositis/clinically amyopathic dermatomyositis-associated interstitial lung disease (CADM/DM-ILD)",
+          "supporting_evidence": [
+            "A small amount of pale violaceous-red rash is palpable on the extensor surfaces of both elbow joints, and depigmentation is present at the distal ends of both fingers, suggesting possible connective tissue disease-related cutaneous manifestations.",
+            "Cough for 4 months, chest tightness and shortness of breath for 2 months, with subacute progression",
+            "Velcro crackles are audible in both lower lungs, suggesting possible interstitial lung disease.",
+            "PFT indicated mild ventilatory dysfunction and severe diffusion impairment, consistent with interstitial lung involvement.",
+            "Non-contrast chest CT showed progression of patchy lesions in both lower lungs compared with previously; the accompanying CT images show patchy/ground-glass and interstitial abnormal opacities in both lungs, predominantly in the lower lobes and subpleural regions",
+            "Previous autoantibody testing only showed negative anti-dsDNA, anti-RNP, anti-GBM, and anti-Jo-1; interstitial lung disease mediated by other myositis-associated antibodies cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide clear evidence of myositis, such as muscle weakness, myalgia, or elevated muscle enzymes.",
+            "Anti-Jo-1 antibody negative"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The disease course has been several months, characterized by dry cough, chest tightness, dyspnea, and recent fever, consistent with the common clinical course of organizing pneumonia",
+            "Non-contrast chest CT showed multiple patchy opacities in the lower lobes of both lungs; follow-up showed progression of the patchy lesions in both lower lungs compared with the previous study.",
+            "The attached CT images show patchy consolidation-like or ground-glass opacities in the peripheral/subpleural regions of the bilateral lower lobes; this imaging distribution can be seen in organizing pneumonia.",
+            "At the previous hospital, the diagnosis had already considered \"pulmonary opacity (cryptogenic organizing pneumonia?)\"."
+          ],
+          "opposing_evidence": [
+            "After anti-infective therapy combined with glucocorticoids, the lesions still showed progression and the treatment response was poor, which does not support typical organizing pneumonia with a good treatment response.",
+            "Physical examination showed a faint violaceous-red rash on the elbows and depigmentation of the fingertips, further suggesting secondary autoimmune-related lung disease rather than simple cryptogenic organizing pneumonia"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Nonspecific interstitial pneumonia (NSIP, idiopathic or connective tissue disease-associated)",
+          "supporting_evidence": [
+            "Progressive cough and dyspnea, Velcro crackles in both lower lungs, suggesting diffuse interstitial lung disease",
+            "PFT showed mild ventilatory dysfunction and severely reduced diffusing capacity, consistent with the physiologic features of interstitial lung disease.",
+            "Pulmonary artery CTA showed \"chronic inflammation in both lungs with interstitial changes\"",
+            "The attached CT images show bilateral lower-lung-predominant interstitial abnormalities and patchy/ground-glass opacities, with a distribution that can be seen in NSIP.",
+            "Associated with rash and digital changes, supporting the possibility of connective tissue disease-associated NSIP"
+          ],
+          "opposing_evidence": [
+            "The imaging findings are predominantly described as “multiple patchy opacities” and “patchy lesions,” which are not entirely consistent with the more uniformly distributed ground-glass opacities commonly seen in typical NSIP.",
+            "No definite serologic evidence of connective tissue disease positivity was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Infectious pneumonia (including atypical pathogen infection or opportunistic infection)",
+          "supporting_evidence": [
+            "The patient has had intermittent fever for 1 week, with a maximum temperature of 38.5℃.",
+            "Complete blood count: WBC 10.20×10^9/L, N% 88.4%, suggesting possible inflammation/infection",
+            "Chest CT showed progression of patchy lesions in both lower lungs, and the attached CT images also showed patchy abnormal pulmonary parenchymal opacities in both lower lungs.",
+            "Pulmonary artery CTA indicated scattered inflammatory changes in both lungs"
+          ],
+          "opposing_evidence": [
+            "The initial presentation was daytime dry cough, persisting for 4 months, without sputum production; infectious pneumonia cannot adequately explain the prolonged course.",
+            "Poor response to anti-infective treatment with biapenem + moxifloxacin",
+            "Bilateral lower lung Velcro crackles, severely reduced diffusing capacity, and skin manifestations are more suggestive of ILD/autoimmune disease"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Idiopathic pulmonary fibrosis/usual interstitial pneumonia (IPF/UIP)",
+          "supporting_evidence": [
+            "56-year-old man, chronic cough and progressive shortness of breath",
+            "Velcro crackles were audible in both lower lungs",
+            "Severely reduced pulmonary diffusing capacity, suggesting possible fibrotic interstitial lung disease",
+            "The attached CT images show interstitial opacities predominantly in the bilateral lower lungs and subpleural regions."
+          ],
+          "opposing_evidence": [
+            "Imaging was mainly described as multiple patchy opacities/patchy lesions; no typical honeycombing or definite traction bronchiectasis was provided.",
+            "The presence of fever, a faint violaceous-red rash on the elbows, and depigmentation of the fingertips is not consistent with the common manifestations of isolated IPF.",
+            "Relatively subacute onset, with prominent patchy inflammatory lesions on imaging"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary neoplastic infiltration (e.g., invasive pulmonary adenocarcinoma, pulmonary lymphoma, etc.)",
+          "supporting_evidence": [
+            "Cough persisting for 4 months, with persistent and progressive abnormal pulmonary imaging findings",
+            "Poor response to anti-infective therapy",
+            "No obvious abnormalities on bronchoscopy cannot completely rule out a peripheral or diffuse infiltrative tumor."
+          ],
+          "opposing_evidence": [
+            "Bronchoscopy showed no obvious abnormalities and no evidence of malignancy",
+            "The attached CT images and written description are predominantly characterized by multiple patchy opacities and interstitial changes in both lower lungs, rather than a typical solitary mass or a definite tumor imaging pattern.",
+            "The presence of fever, Velcro crackles, severely reduced diffusing capacity, and cutaneous manifestations is more supportive of inflammatory/interstitial lung disease."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood glucose, electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "muscle enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoantibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulins, complement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infection markers",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the following tests were completed: CBC: RBC 4.50X10^12/L; Hb 130g/L; PLT 199X10^9/L; WBC 5.75X10^9/L; N% 85.4%; Lym% 7.5%; Eos% 0.7%; urinalysis: normal; stool routine + OB: normal; ESR: 52mm/h; liver and renal function: total bilirubin 4.9μmol/L; Alb 29g/L; ALT 78U/L; AST 42U/L; LDH 300U/L; renal function normal; inflammatory markers: hs-CRP 5.7mg/L; PCT 0.15ng/mL; blood glucose and electrolytes: glucose 8.0mmol/L; sodium 135mmol/L; potassium 4.0mmol/L; chloride 99mmol/L; calcium 2.06mmol/L; phosphorus 1.08mmol/L; magnesium 0.81mmol/L; cardiac markers: cTnT 0.013ng/mL; NT-proBNP 160.0pg/mL; arterial blood gas analysis (nasal cannula oxygen 3L/min): pH 7.46; pCO2 35.8mmHg; pO2 85.8mmHg; BE (whole blood) 3.1; coagulation function: PT 10.5s; INR 0.92; TT 17.3s; APTT 26.7s; D-Dimer 0.53mg/L; FDP 1.86ug/mL; muscle enzymes: CK 54U/L; CK-MB 25U/L; CK-MM 29U/L; autoantibodies: ANA 1:100; anti-SS-A antibody (±); anti-MDA5 IgG+++; anti-Ro52 IgG++; the remaining antibodies were within the normal range; immunoglobulins and complement: IgG 20.37g/L; IgA 2.64g/L; IgM 1.64g/L; IgE 85IU/mL; IgG4 1.23g/L; C3 1.08g/L; C4 0.30g/L; total complement 82.0IU/mL; infection markers: HIV, RPR, T-SPOT, respiratory 9-pathogen panel, cytomegalovirus, and Epstein-Barr virus were all negative; G test (1-3-β-D-glucan) 251.8 pg/mL.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrvNniceoAR7kP4VteFgoAJ64r8N0FHwrRqyVvt6R7uiat7dxCKy6wlEFA/640?wx_fmt=png",
+            "near_text": "Table 1: Multiple hospital admissions for treatment and changes in prednisone and CTX dosages",
+            "local_src": "cleaned_cases_image_cache/e63f19a10b5bfd5ad2d81a9516dbca58f1428b4d.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "COPD, asthma, bronchiectasis, malignant lung tumor, pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Older age at onset, no prior smoking history, no history of allergies, and no history of similar episodes; imaging studies provide no supporting evidence"
+            ]
+          },
+          {
+            "name": "acute heart failure",
+            "evidence": [],
+            "exclusion_reasons": [
+              "All cardiac biomarkers were within the normal range, and the electrocardiogram showed sinus tachycardia, which was not consistent with acute cardiac insufficiency."
+            ]
+          },
+          {
+            "name": "Drug- or toxin-induced interstitial pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On repeated questioning, the patient denied exposure to any drugs/toxins that could cause interstitial lung disease."
+            ]
+          },
+          {
+            "name": "Connective tissue disease-associated interstitial lung disease (CTD-ILD)",
+            "evidence": [
+              "A small amount of light violaceous-red rash on the extensor surfaces of both elbow joints, depigmentation of the distal fingers of both hands, and Velcro crackles audible in both lower lungs"
+            ],
+            "exclusion_reasons": [
+              "No typical manifestations of connective tissue disease such as rash, joint swelling and pain, morning stiffness, or Raynaud's phenomenon; anti-dsDNA antibody, anti-RNP antibody, anti-GBM antibody, and anti-Jo-1 antibody were all negative at an outside hospital (but it cannot be completely excluded, and further related testing is needed)."
+            ]
+          },
+          {
+            "name": "Idiopathic interstitial pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Should be considered only after all known causes of ILD have been excluded; definitive diagnosis requires pathology."
+            ]
+          },
+          {
+            "name": "Granulomatous ILD (e.g., sarcoidosis)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Pathological confirmation is required for a definitive diagnosis"
+            ]
+          },
+          {
+            "name": "Rare types of ILD (such as pulmonary alveolar proteinosis, lymphangioleiomyomatosis, pulmonary Langerhans cell histiocytosis, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Lack of characteristic clinical manifestations and imaging findings"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "COPD, asthma, bronchiectasis, malignant lung tumor, pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Older age at onset, no prior smoking history, no history of allergies, and no history of similar episodes; imaging studies provide no supporting evidence"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "acute heart failure",
+        "evidence": [],
+        "exclusion_reasons": [
+          "All cardiac biomarkers were within the normal range, and the electrocardiogram showed sinus tachycardia, which was not consistent with acute cardiac insufficiency."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Drug- or toxin-induced interstitial pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "On repeated questioning, the patient denied exposure to any drugs/toxins that could cause interstitial lung disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Connective tissue disease-associated interstitial lung disease (CTD-ILD)",
+        "evidence": [
+          "A small amount of light violaceous-red rash on the extensor surfaces of both elbow joints, depigmentation of the distal fingers of both hands, and Velcro crackles audible in both lower lungs"
+        ],
+        "exclusion_reasons": [
+          "No typical manifestations of connective tissue disease such as rash, joint swelling and pain, morning stiffness, or Raynaud's phenomenon; anti-dsDNA antibody, anti-RNP antibody, anti-GBM antibody, and anti-Jo-1 antibody were all negative at an outside hospital (but it cannot be completely excluded, and further related testing is needed)."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Idiopathic interstitial pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Should be considered only after all known causes of ILD have been excluded; definitive diagnosis requires pathology."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Granulomatous ILD (e.g., sarcoidosis)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Pathological confirmation is required for a definitive diagnosis"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Rare types of ILD (such as pulmonary alveolar proteinosis, lymphangioleiomyomatosis, pulmonary Langerhans cell histiocytosis, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Lack of characteristic clinical manifestations and imaging findings"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "anti-MDA5 IgG",
+          "basis_in_stage3_input": "Anti-MDA5 IgG+++",
+          "why_order_this_exam": "The patient has had cough for 4 months, dyspnea for 2 months, and recent fever. Pulmonary imaging shows bilateral lower lung patchy opacities/interstitial changes with persistent progression, accompanied by hypoxemia, Velcro crackles, and reduced diffusing capacity on pulmonary function testing. Physical examination also shows faint violaceous-red rash on the elbows and pigmentary changes at the fingertips, suggesting the possibility of connective tissue disease-associated interstitial lung disease, especially dermatomyositis spectrum disease. Anti-MDA5 antibody is an important serologic marker for clinically amyopathic dermatomyositis/dermatomyositis-associated rapidly progressive interstitial lung disease. Although the patient's CK is not elevated and typical muscle weakness is absent, it is precisely because the muscle manifestations are atypical that this test is more necessary to confirm whether MDA5-associated dermatomyositis is present. This test helps explain the combination of \"rash + normal muscle enzymes + progressive ILD,\" supports confirmation of a CTD-ILD etiology, and differentiates from simple organizing pneumonia, idiopathic interstitial pneumonia, and infection; at the same time, strongly positive anti-MDA5 also indicates severe disease and rapid progression, directly affecting the intensity of immunosuppression, whether to initiate early combination glucocorticoid/immunosuppressant therapy, and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-Ro52 IgG",
+          "basis_in_stage3_input": "Anti-Ro52 IgG++",
+          "why_order_this_exam": "In this case, the pulmonary lesions showed subacute progression, with poor response to anti-infective therapy and prior glucocorticoid treatment. Combined with rash, Velcro crackles, and a marked decrease in diffusing capacity, this suggests a high likelihood of autoimmune-related ILD. Anti-Ro52 is commonly seen in inflammatory myopathies and other connective tissue diseases, and is especially associated with pulmonary involvement and more severe disease in myositis-related ILD. For this case, in which MDA5-associated dermatomyositis is already highly suspected, testing for anti-Ro52 can further refine the autoimmune phenotype, help determine whether there are overlapping autoantibody features within the myositis spectrum, increase diagnostic confidence for CTD-ILD, and indicate higher activity of interstitial lung disease and aid in risk stratification. This result may also help explain why the patient has non-elevated muscle enzymes but prominent pulmonary involvement, and provide a basis for subsequent intensified immunotherapy and closer follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "basis_in_stage3_input": "ANA 1:100",
+          "why_order_this_exam": "The patient has cutaneous manifestations, progressive interstitial lung disease, and a clinical context highly suspicious for autoimmune disease, but only some antibodies were previously tested at an outside hospital and were negative; ANA is still needed as a basic screening test for connective tissue disease to assess whether systemic autoimmune abnormalities are present. Although ANA is not specific, in this case it helps provide overall support for a CTD background rather than simple infectious pneumonia, idiopathic interstitial pneumonia, or neoplastic lesions. Especially when the patient's imaging continues to progress, the response to anti-infective treatment is poor, and there is concomitant mild elevation of inflammatory markers and cutaneous signs, the ANA result, together with myositis antibodies, SSA, etc., can jointly form a serologic evidence chain, providing a basis for subsequent classification as dermatomyositis-associated ILD and helping determine whether to continue expanding the autoantibody panel and adopt an immunotherapy strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-SS-A antibody",
+          "basis_in_stage3_input": "Anti-SS-A antibody (±)",
+          "why_order_this_exam": "The patient presents with progressive interstitial lung disease accompanied by skin abnormalities, requiring a systematic evaluation for serologic evidence of related connective tissue disease. Although anti-SS-A antibody is not a dermatomyositis-specific antibody, it can be seen in various autoimmune diseases and is associated with some CTD-ILD cases. In this case, with common antibodies negative at an outside hospital, yet the clinical presentation not resembling simple infection or idiopathic ILD, testing for anti-SS-A may help identify a broader autoimmune background and assess for the presence of overlap syndrome or features of undifferentiated connective tissue disease. Interpreting the result together with ANA, anti-MDA5, and anti-Ro52 can improve recognition of CTD-ILD, reduce misdiagnosis as simple organizing pneumonia or post-infectious inflammatory residuals, and provide supporting evidence for the rationale of subsequent immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "other autoantibodies",
+          "basis_in_stage3_input": "All other autoantibodies were negative",
+          "why_order_this_exam": "This case initially required differentiation among dermatomyositis/CADM-ILD, organizing pneumonia, NSIP, infectious pneumonia, and others. However, the patient's muscle symptoms were atypical, while the pulmonary lesions showed marked progression; therefore, a diagnosis could not rely on a single antibody alone. The purpose of completing the remaining autoantibody tests was to systematically evaluate for other connective tissue diseases or inflammatory myopathy subtypes, such as antisynthetase syndrome, SLE, MCTD, ANCA-associated disease, anti-GBM disease, etc., thereby clarifying the etiologic attribution of the ILD. The negativity of the remaining antibodies is itself also of important value: it helps narrow the diagnostic range, makes 'anti-MDA5/anti-Ro52-associated dermatomyositis-spectrum ILD' more prominent, and reduces the likelihood of ILD caused by other CTDs; this is meaningful for establishing the diagnosis, differential diagnosis, and for subsequently focusing treatment on myositis-related immunosuppression rather than other disease-specific regimens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test (1,3-β-D-glucan)",
+          "basis_in_stage3_input": "G test (1,3-β-D-glucan) 251.8 pg/mL",
+          "why_order_this_exam": "The patient has fever, hypoxemia, and progression of patchy lesions in both lungs, and has previously received broad-spectrum antimicrobial agents and glucocorticoid therapy, placing the patient in a population at increased risk for opportunistic infection. Although the clinical findings and antibody results support dermatomyositis-associated ILD, infection, especially fungal/Pneumocystis infection, cannot be overlooked, because such infections can also present with dry cough, dyspnea, ground-glass opacities or patchy opacities, and can overlap with ILD, leading to worsening of the condition. An elevated G test can provide important clues to invasive fungal infection or PJP, help explain the patient's fever and poor response to anti-infective therapy, and avoid misjudging infectious worsening as progression of pure autoimmune pneumonia. This test has direct clinical value for confirming or suggesting opportunistic infection, determining whether to add anti-PJP therapy such as SMZ, and assessing infection risk before intensifying immunosuppression.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CK",
+          "basis_in_stage3_input": "Muscle enzymes: CK 54 U/L",
+          "why_order_this_exam": "Although the patient mainly presented with pulmonary symptoms, there were also a light violaceous-red rash on the elbows, fingertip pigmentary changes, and positive anti-MDA5 and anti-Ro52 antibodies, suggesting the possibility of a dermatomyositis-spectrum disease. CK is the most basic indicator for assessing skeletal muscle injury, and ordering this test was intended to determine whether overt myositis was present, distinguish classic dermatomyositis from clinically amyopathic dermatomyositis, and provide a basis for disease classification. In this case, a normal CK is particularly meaningful: it supports the clinical features of prominent skin and lung involvement with inconspicuous muscle involvement, and helps explain why the patient could still have dermatomyositis-associated ILD despite no clear muscle weakness. At the same time, during subsequent treatment with glucocorticoids, cyclophosphamide, tofacitinib, and other therapies, CK can also serve as a reference for dynamic monitoring of muscle involvement and changes in treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CK‑MB",
+          "basis_in_stage3_input": "Muscle enzymes: CK‑MB 25U/L",
+          "why_order_this_exam": "The patient has chest tightness, shortness of breath, tachycardia, and hypoxemia. Although pulmonary disease is the primary consideration, in inflammatory myopathy spectrum disorders it is also necessary to be alert to the possibility of myocardial involvement or nonspecific myocardial injury. As one of the creatine kinase isoenzymes, CK-MB can help assess whether myocardial-related injury is present and, together with cTnT and NT-proBNP, can be used to analyze the source of symptoms; it is an important adjunct for excluding cardiogenic factors in the differential diagnosis of dyspnea. In this case, this test helps confirm that the patient's chest tightness and shortness of breath are mainly caused by interstitial lung disease and impaired gas exchange, rather than overt myocardial injury; at the same time, when multiple immunosuppressive and antifibrotic drugs are needed, clarifying baseline myocardial status also helps assess treatment safety.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CK‑MM",
+          "basis_in_stage3_input": "Muscle enzymes: CK-MM 29 U/L",
+          "why_order_this_exam": "The key clinical issue in this case is that the patient has a rash and autoantibodies that are highly suggestive of the dermatomyositis spectrum, but lacks typical manifestations of muscle weakness; therefore, a more detailed assessment is needed to determine whether skeletal muscle is involved. CK-MM primarily reflects the skeletal muscle-derived enzyme fraction, and when combined with total CK can more accurately determine whether skeletal muscle injury is present. In patients with suspected clinically amyopathic dermatomyositis-associated ILD, a normal CK-MM can support a phenotype of \"no obvious muscle involvement but prominent pulmonary and cutaneous manifestations,\" thereby aiding disease classification; if abnormal, it suggests a potential myositis component and requires further evaluation with electromyography, muscle MRI, etc. This test therefore has value for confirming the dermatomyositis spectrum, completing the assessment of organ involvement, and establishing the focus of subsequent follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing (including diffusing capacity)",
+          "basis_in_stage3_input": "PFT: mild restrictive ventilatory dysfunction with moderately reduced diffusing capacity for carbon monoxide",
+          "why_order_this_exam": "The patient had a persistent dry cough for 4 months and progressive chest tightness and dyspnea for 2 months. At admission, SpO2 was only 89% on room air. Velcro crackles were heard at both lower lungs. Chest CT showed patchy opacities/interstitial changes in both lower lungs with progression, suggesting substantial pulmonary interstitial involvement. PFT can physiologically confirm whether a restrictive ventilatory defect is present, quantify the extent of lung involvement, and corroborate the imaging and blood gas results. This test helps distinguish simple infectious pneumonia from diffuse interstitial lung disease and can also assess disease severity and baseline functional reserve, guiding whether more aggressive oxygen therapy, immunosuppression, and antifibrotic therapy are needed. In this type of MDA5-associated ILD patient, PFT is also an important objective indicator for subsequent assessment of treatment response and monitoring of disease progression.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Anti-MDA5 IgG+++, anti-Ro52 IgG++; ANA 1:100, anti-SS-A antibody (±); all other autoantibodies were negative. G test (1-3-β-D-glucan) 251.8 pg/mL. Muscle enzymes: CK 54U/L, CK-MB 25U/L, CK-MM 29U/L. Pulmonary function: mild restrictive ventilatory dysfunction with moderately reduced diffusing capacity for carbon monoxide.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrJSLpJjkG4feFdFJOcSANiaKPMlic0CQyTxbf5k4ame61HLZzFdgOn7iaA/640?wx_fmt=jpeg",
+          "near_text": "Day +22",
+          "local_src": "cleaned_cases_image_cache/43a3fe083a73d84df33093a45102c415023b43f8.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrribCtxawdIr9tx9tBic4Z27FY7xYUx0m4M1ftiaTpKriblmLrGJv0a5q0Q/640?wx_fmt=jpeg",
+          "near_text": "Day +55",
+          "local_src": "cleaned_cases_image_cache/8c05196d6c51db06173b3c73648722714660ff97.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrQdQHCYqPA77wTgdWNOOyWfJOCSYvA2SrAmQgCP39hkHQDZN7PuysWw/640?wx_fmt=jpeg",
+          "near_text": "Day +83",
+          "local_src": "cleaned_cases_image_cache/322931ce464d27037702edae21da9be6101d7b04.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBrbJOed1yAn16HexibL1f24L1DmwlmkkeWnXaiaguwjUyrUhdTN0yj81fw/640?wx_fmt=jpeg",
+          "near_text": "Day +125",
+          "local_src": "cleaned_cases_image_cache/2a312ee6f8d3f66c438bfdf1079589419491ad8d.jpg"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBryLx2uiaVDMDI27ziaXnKAfxicLRicMqhkxHnVJsI1qxv3eDfM0wP240A1w/640?wx_fmt=jpeg",
+          "near_text": "Day +154",
+          "local_src": "cleaned_cases_image_cache/59cfab8174ba5128fb55cd934f290eb8eba3c2ee.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIf9wYN2JYYjLuiaHCI6HqBr2SgLm3MyKdKSs0yCyOibibh4k5ibMZI5nFsTmUpwoibwibcTk7aicWbBwYow/640?wx_fmt=png",
+          "near_text": "Figure 3: Pulmonary function test results during the patient's treatment course (left: Day +155; right: Day +225)",
+          "local_src": "cleaned_cases_image_cache/34d8b29a0459244ceb1382a476cb74a10e1b6cdb.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Interstitial lung disease caused by dermatomyositis (double-positive for anti-MDA5 IgG and anti-Ro52 IgG), with concomitant Pneumocystis jirovecii pneumonia (PJP) not excluded",
+      "diagnostic_basis": [
+        "Autoantibodies: anti-MDA5 IgG+++; anti-Ro52 IgG++",
+        "G test (1-3-β-D-glucan) positive, LDH elevated above the normal range"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Gamma globulin 20 g qd*5d pulse therapy",
+        "Methylprednisolone 80 mg qd for anti-inflammatory treatment (later gradually tapered to 60 mg qd, 40 mg qd)",
+        "Hydroxychloroquine 100 mg bid",
+        "Tofacitinib 5 mg bid",
+        "CTX 0.6 g q2w for immunosuppression",
+        "Nintedanib 150 mg bid for antifibrotic therapy",
+        "SMZ 0.96 g q8h anti-infective treatment",
+        "After discharge, continue SMZ 0.96g tid for anti-infective treatment, prednisone 30mg qd for anti-inflammatory treatment, hydroxychloroquine 100mg bid and tofacitinib 5mg bid for immunosuppression, nintedanib 150mg bid for antifibrotic therapy, and regular hospital admission for CTX therapy."
+      ],
+      "treatment_response": [
+        "Symptoms gradually improved",
+        "Follow-up chest CT showed slight interval resolution of inflammatory changes in both lungs compared with the previous study, and the condition continued to improve.",
+        "On follow-up, ESR decreased to 37 mm/h, β-(1,3)-D-glucan decreased to 170.6 pg/mL, and LDH decreased to 239 U/L.",
+        "On follow-up, arterial blood gas analysis without supplemental oxygen showed PaO2 gradually increased to 72 mmHg",
+        "The G test (1-3-β-D-glucan) remained within the normal range after the first discharge.",
+        "Pulmonary function tests suggest mild restrictive ventilatory dysfunction with a moderately reduced diffusing capacity for carbon monoxide"
+      ]
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "status": "success",
+  "case_id": "case_24",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 66-year-old elderly male farmer was admitted to the Department of Pulmonary and Critical Care Medicine of our hospital on Day 0, with the chief complaint of \"fever, cough, and sputum production for 6 days.\" Six days before admission, after exposure to cold, the patient developed fever and chills, with a maximum temperature of 39.9℃, accompanied by cough and yellow sticky sputum. He denied hemoptysis, dyspnea, and chest tightness, and denied a COVID-19 epidemiologic history. On Day -3, a chest CT at a local hospital showed an inflammatory lesion in the right lung, and he was successively treated with anti-infective therapy including \"meropenem and moxifloxacin.\" Two days before admission, the patient developed marked dyspnea and was given endotracheal intubation with invasive mechanical ventilatory support. Repeat chest CT on Day 0 showed a marked increase in bilateral pulmonary inflammatory lesions compared with before, and treatment including \"oseltamivir and methylprednisolone\" was added. The patient's respiratory rate continued to progressively increase, so he was transferred to our hospital for further treatment. Since disease onset, the patient had poor energy and poor appetite, with normal bowel and bladder function. Past history: the patient stated that he had previously been in good health. Personal history: born in his native place, with a 30-year smoking history, about 10 cigarettes per day. Marital and reproductive history: married, spouse and children are healthy. Family history: denies family history of hereditary disease. Physical examination on admission: T 36.3℃, HR 120 beats/min, R 30 breaths/min, BP 100/50 mmHg. Under sedation and analgesia with oral endotracheal intubation in place, breath sounds were coarse in both lungs, with moist rales audible in both lower lungs. Cardiac rhythm was regular, heart rate 120 beats/min, with no pathologic murmur heard in any valve area. Abdomen was soft, liver and spleen were not palpably enlarged, and there was no edema of the lower extremities. Ancillary examinations: 1. Chest CT (Day -3, a hospital in Chongqing): possible inflammatory lesion in the right lung. 2. Chest CT (Day 0, a hospital in Chongqing): multiple inflammatory lesions in both lungs, with lesions markedly increased compared with before; small bilateral pleural effusions. 3. (Day 0, a hospital in Chongqing) SARS-CoV-2 nucleic acid test: negative; influenza A and B virus nucleic acid tests: negative.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3otcPDTuLH6T8b2OVy91e17B0RiasamIxjU6xBYcwDtkyd6A9iar7fIIw/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/069b92c846b592f65f9504883a213af3233575c4.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3vf7vHCzfZhxQTibue8JMmn31vv8dFPplrJbdMP7b7QdpnJF5SeEYJfg/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/ef1cd2ba0221060442b43f26c1bd8b088e923c87.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib32Hibyv8fDFOP5aic80r6kAMiaEIVjiaicQ1My8cIltPDdpHDfauRjsibWa4A/640?wx_fmt=jpeg",
+          "near_text": "2. Chest CT (Day 0, a hospital in Chongqing): Multiple inflammatory lesions in both lungs, with a marked increase in lesions compared with the previous examination, and small bilateral pleural effusions.",
+          "local_src": "cleaned_cases_image_cache/3f15579e3bd1b7818e3ee4217b008c1d084072e0.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3LsoLGsWnJpfbfaEOVGP6DicwEAC6BrIl0OGnel8zvShGCtth4NpwJrA/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/c6d73823f8e4781800b189277ad573065505f7c3.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3JeNzQomeuIX7vial8M931my6kP7G0iczgdgQuagcSgAwE9FibKiaiaN94mw/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/375a465e5b0f0366a2c02b64bbe31eb2a5aece35.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3ReCMMf17ta7BmS8ewOmgDZg54y6KxibMFiaTtktOdMZxa1r3KuVCQib4A/640?wx_fmt=jpeg",
+          "near_text": "3. (Day 0, a hospital in Chongqing) Novel coronavirus nucleic acid test: negative; influenza A and B virus nucleic acid test: negative.",
+          "local_src": "cleaned_cases_image_cache/3ff52f8c6de2623429596b6bb0ad97fbe444cf01.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe community-acquired pneumonia (bacterial pneumonia, including Streptococcus pneumoniae/Haemophilus influenzae/gram-negative bacilli, etc.)",
+          "supporting_evidence": [
+            "The Stage 1 text information suggests acute onset: after exposure to cold, the patient developed high fever and chills, with a maximum temperature of 39.9℃, accompanied by cough and yellow sticky sputum, consistent with manifestations of acute bacterial lower respiratory tract infection.",
+            "The first-stage textual information indicates that chest CT initially showed an inflammatory lesion in the right lung, which subsequently progressed over a short period to multiple inflammatory lesions in both lungs, consistent with imaging progression of severe pneumonia.",
+            "Initial-stage imaging showed right lung-predominant consolidation/patchy high-density opacities; later, multifocal bilateral pulmonary consolidation and ground-glass exudative opacities, consistent with infectious pulmonary consolidation.",
+            "The textual information from the first stage indicates rapid deterioration of the condition; obvious dyspnea developed 2 days earlier and invasive ventilation via endotracheal intubation was required, consistent with severe community-acquired pneumonia.",
+            "Physical examination in the first stage showed a respiratory rate of 30 breaths/min, heart rate of 120 beats/min, and moist rales in both lower lungs, supporting severe pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "The textual information from the first stage indicates that, after sequential anti-infective treatment with meropenem and moxifloxacin, chest CT still showed marked progression, suggesting that common bacterial pneumonia does not fully explain the findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Severe viral pneumonia (non-COVID, non-influenza A/B virus)",
+          "supporting_evidence": [
+            "The textual information in the first stage suggests an acute onset with high fever, with rapid progression to respiratory failure within only 6 days of the disease course, consistent with the clinical progression characteristics of some severe viral pneumonias.",
+            "Phase 1 imaging shows that the lesions progressed from unilateral involvement to multiple bilateral pulmonary infiltrative opacities, with marked involvement of both lower lungs; ground-glass increased-density opacities are visible, supporting the possibility of viral pneumonia.",
+            "The Phase 1 narrative information indicates that the lesions still increased significantly after broad-spectrum antimicrobial therapy, suggesting the possibility of atypical pathogens or viral infection.",
+            "The first-stage textual information indicates negative nucleic acid tests for novel coronavirus and influenza A and B viruses; this can only exclude some of the tested viruses and cannot exclude other viral pneumonias."
+          ],
+          "opposing_evidence": [
+            "The textual information from the first stage indicates that coughing up yellow, sticky sputum is relatively prominent, which is more suggestive of a bacterial airway infection.",
+            "In the first-stage images, early focal consolidation in the right lung is relatively prominent and is not the typical initial pattern of diffuse bilateral viral pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pneumonia-related acute respiratory distress syndrome (ARDS)",
+          "supporting_evidence": [
+            "The Stage 1 textual information suggests that the patient progressed within a short period from fever and cough to marked dyspnea, and required endotracheal intubation and invasive mechanical ventilation, consistent with a background of acute hypoxemic respiratory failure.",
+            "The phase 1 textual information indicates that the chest CT showed rapid progression from a right lung lesion to multiple inflammatory lesions in both lungs within 3 days, consistent with the characteristic rapid progression of diffuse inflammatory exudation in the lungs.",
+            "The first-stage images show extensive patchy consolidation and ground-glass opacities in both lungs, predominantly in the lower lungs, accompanied by small bilateral pleural effusions, supporting severe lung injury/ARDS.",
+            "During the first-stage physical examination, respiratory rate was 30 breaths/min and heart rate was 120 beats/min, indicating systemic stress and severe respiratory failure."
+          ],
+          "opposing_evidence": [
+            "No blood gas analysis, oxygenation index, or data related to explicit ARDS diagnostic criteria were provided in the first-stage information",
+            "At the first stage, the imaging findings could still be explained by severe infectious pneumonia itself; ARDS could not yet be established based on the first stage alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Legionella pneumonia or pneumonia caused by other atypical pathogens",
+          "supporting_evidence": [
+            "The textual information in the first stage suggests marked high fever and rapid disease progression, with progression from unilateral to bilateral lung lesions within a short period and the development of respiratory failure, consistent with the features of severe pneumonia caused by certain atypical pathogens.",
+            "Stage 1 imaging shows multifocal patchy infiltrates and areas of consolidation, with bilateral lung involvement, which may represent imaging findings consistent with pneumonia due to atypical pathogens.",
+            "The textual information from the first stage indicates progressive worsening despite treatment with conventional broad-spectrum antibacterial agents, suggesting that pathogens other than common bacteria should be considered.",
+            "The narrative information from the first stage indicates that the patient is engaged in farming and has potential environmental exposure opportunities, but the specific type of exposure is unclear."
+          ],
+          "opposing_evidence": [
+            "The phase 1 text information did not provide features such as diarrhea, altered consciousness, hyponatremia, etc., that are more supportive of Legionella infection.",
+            "The textual information from the first stage indicates that moxifloxacin had already been used for treatment, but the disease still progressed, making pneumonia caused by some quinolone-sensitive atypical pathogens relatively less supported."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Aspiration pneumonia",
+          "supporting_evidence": [
+            "On the first-stage images, the early lesions are mainly in the right lung; the right lung is more susceptible to aspiration-related involvement, and this may subsequently progress to bilateral pulmonary infection.",
+            "The textual information in the first stage suggests rapid disease progression with the development of multifocal pulmonary exudative opacities; secondary infection following aspiration can present in this manner.",
+            "The phase 1 physical examination and clinical condition showed that the patient was already intubated, and the critically ill patient had a background of aspiration-related risk."
+          ],
+          "opposing_evidence": [
+            "The Phase 1 text did not provide definite aspiration risk factors such as vomiting, dysphagia, pre-onset aspiration associated with impaired consciousness, gastroesophageal reflux, or cerebrovascular disease.",
+            "Before the onset of the first phase, the main manifestations were high fever after exposure to cold, chills, and cough with yellow sputum, which initially more strongly supports the natural onset of infectious pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Fungal pneumonia (invasive pulmonary aspergillosis, etc.)",
+          "supporting_evidence": [
+            "The textual information from the first stage indicates that the pulmonary lesions still progressed significantly after treatment with meropenem and moxifloxacin, suggesting that uncommon pathogens should be suspected.",
+            "Images from the first stage showed multiple progressive infiltrative opacities in both lungs, with consolidation and ground-glass opacities; fungal infection may present as progressive multifocal pulmonary infiltrates",
+            "The first-stage textual information indicates that the patient is an elderly man with a critical condition requiring mechanical ventilation, representing a host background of severe infection."
+          ],
+          "opposing_evidence": [
+            "The text information from the first stage did not provide definite high-risk factors for fungal infection, such as immunosuppression, hematologic disease, long-term corticosteroid use, or neutropenia.",
+            "In the first stage, the onset was characterized by acute high fever and cough with yellow mucoid sputum, which more strongly supports bacterial or viral pneumonia first."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "IL-6",
+          "requirement": "required"
+        },
+        {
+          "exam": "Influenza A and B virus and SARS-CoV-2 nucleic acid testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen panel (9 items)",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum (1,3)-β-D-glucan assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cryptococcal capsular antigen",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function tests and electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung cancer tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion screening tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the extremity vessels",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, our department actively completed the relevant examinations, with the following results: Arterial blood gas analysis (invasive mechanical ventilation, FiO2 100%): pH 7.43, PaO2 91 mmHg, PaCO2 38 mmHg, K+ 3.3 mmol/L, BE 0.9 mmo/L, Lac 1.7 mmol/L, SO2 97%. Day 0 CBC: total white blood cell count 6.37 *10^9/L, neutrophil percentage 89.3%, hemoglobin 97.0 g/L, platelet count 147 *10^9/L, lymphocyte percentage 4.9%. ESR 99 mm/h. Procalcitonin 1.89 ng/ml. C-reactive protein >90.0 mg/L. IL-6 390.34 pg/ml. Influenza A and B virus nucleic acid tests, SARS-CoV-2 nucleic acid test, and the 9-item respiratory pathogen panel were all negative. Serum G test, GM test, and cryptococcal capsular antigen were all negative. Liver function, renal function, electrolytes, coagulation profile, and lung cancer tumor markers showed no obvious abnormalities. Pre-transfusion screening was negative. Vascular Doppler ultrasound of the extremities: intermuscular venous thrombosis of the right calf. Echocardiography: impaired left ventricular diastolic function. Based on the patient's medical history and ancillary examinations, the preliminary diagnosis on admission was considered to be: 1. Severe pneumonia 2. ARDS 3. Type I respiratory failure.",
+        "images": [
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3QQ8MGYXj1rHSeyX7Dcx7RxvzRYvpQJjexw2IR3K8D6DicR10QuBHlUQ/640?wx_fmt=png",
+            "near_text": "Figure 1: Day +1 Bedside transbronchial lung cryobiopsy",
+            "local_src": "cleaned_cases_image_cache/f54b8ad7a626519bfb6b3c68dc29eeaa5c456449.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib311edZ7u5CmFbngpiaYbjLy0Ywia5zFmQW1L634evOdibY0gQhytf0MAEg/640?wx_fmt=jpeg",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/f164dd873458c5319d337fee7cbca741aeae69f6.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "Winter, peak influenza season; elderly patient, decreased resistance, with cold exposure as a precipitating factor",
+              "The condition progressed rapidly over a short period.",
+              "Normal white blood cell count, elevated CRP",
+              "Chest CT showed large areas of consolidation involving multiple lobes of the right lung with air bronchograms, and diffuse ground-glass opacities in the left lung"
+            ],
+            "exclusion_reasons": [
+              "At present, two nucleic acid tests for influenza A and B viruses and SARS-CoV-2 are negative; multiple additional nucleic acid tests for influenza viruses and SARS-CoV-2 are still needed to further assist diagnosis, and further screening for viruses such as adenovirus and respiratory syncytial virus is also needed."
+            ]
+          },
+          {
+            "name": "Atypical pathogens (Mycoplasma, Chlamydia, etc.)",
+            "evidence": [
+              "rapidly progressive pneumonia"
+            ],
+            "exclusion_reasons": [
+              "Mycoplasma rarely causes severe or critical pneumonia and is susceptible to respiratory fluoroquinolones such as moxifloxacin. Moxifloxacin had already been used at the outside hospital, yet the lesions still progressed rapidly, making Mycoplasma infection unlikely.",
+              "Chlamydia pneumoniae infection accounts for less than 1% of CAP cases, but despite aggressive antibacterial and antiviral treatment at an outside hospital, the patient's pulmonary lesions still progressed rapidly, and chlamydial infection requires further differential diagnosis."
+            ]
+          },
+          {
+            "name": "Bacterial pneumonia (e.g., Streptococcus pneumoniae)",
+            "evidence": [
+              "Abrupt onset, manifested by fever, cough, and chills",
+              "Often shows consolidation involving most or all of one or more pulmonary lobes, commonly accompanied by air bronchograms, with a distinct lobar and segmental distribution pattern."
+            ],
+            "exclusion_reasons": [
+              "At disease onset, imaging showed interstitial changes; the lesions progressed rapidly, while bacterial infection inflammatory markers such as WBC and PCT were not significantly elevated.",
+              "Treatment with potent antibacterial agents was ineffective and was not consistent with the clinical features of common bacterial pneumonia; the condition was not controlled despite carbapenem anti-infective therapy."
+            ]
+          },
+          {
+            "name": "Noninfectious diseases (such as cryptogenic organizing pneumonia)",
+            "evidence": [
+              "The patient has large areas of consolidation in both lungs, with no significant elevation in inflammatory markers.",
+              "Conventional antibacterial and antiviral therapy was ineffective"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "Winter, peak influenza season; elderly patient, decreased resistance, with cold exposure as a precipitating factor",
+          "The condition progressed rapidly over a short period.",
+          "Normal white blood cell count, elevated CRP",
+          "Chest CT showed large areas of consolidation involving multiple lobes of the right lung with air bronchograms, and diffuse ground-glass opacities in the left lung"
+        ],
+        "exclusion_reasons": [
+          "At present, two nucleic acid tests for influenza A and B viruses and SARS-CoV-2 are negative; multiple additional nucleic acid tests for influenza viruses and SARS-CoV-2 are still needed to further assist diagnosis, and further screening for viruses such as adenovirus and respiratory syncytial virus is also needed."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Atypical pathogens (Mycoplasma, Chlamydia, etc.)",
+        "evidence": [
+          "rapidly progressive pneumonia"
+        ],
+        "exclusion_reasons": [
+          "Mycoplasma rarely causes severe or critical pneumonia and is susceptible to respiratory fluoroquinolones such as moxifloxacin. Moxifloxacin had already been used at the outside hospital, yet the lesions still progressed rapidly, making Mycoplasma infection unlikely.",
+          "Chlamydia pneumoniae infection accounts for less than 1% of CAP cases, but despite aggressive antibacterial and antiviral treatment at an outside hospital, the patient's pulmonary lesions still progressed rapidly, and chlamydial infection requires further differential diagnosis."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bacterial pneumonia (e.g., Streptococcus pneumoniae)",
+        "evidence": [
+          "Abrupt onset, manifested by fever, cough, and chills",
+          "Often shows consolidation involving most or all of one or more pulmonary lobes, commonly accompanied by air bronchograms, with a distinct lobar and segmental distribution pattern."
+        ],
+        "exclusion_reasons": [
+          "At disease onset, imaging showed interstitial changes; the lesions progressed rapidly, while bacterial infection inflammatory markers such as WBC and PCT were not significantly elevated.",
+          "Treatment with potent antibacterial agents was ineffective and was not consistent with the clinical features of common bacterial pneumonia; the condition was not controlled despite carbapenem anti-infective therapy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious diseases (such as cryptogenic organizing pneumonia)",
+        "evidence": [
+          "The patient has large areas of consolidation in both lungs, with no significant elevation in inflammatory markers.",
+          "Conventional antibacterial and antiviral therapy was ineffective"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Transbronchial cryobiopsy (TBCB)",
+          "basis_in_stage3_input": "On Day +1, an emergency bedside transbronchial cryobiopsy (TBCB) under endotracheal intubation was performed for the patient.",
+          "why_order_this_exam": "The patient is a 66-year-old man who, within only several days after the onset of fever, cough, and productive cough with yellow sputum, rapidly progressed from a right lung lesion to multiple inflammatory lesions in both lungs, developed marked dyspnea, and required endotracheal intubation and invasive mechanical ventilation, representing a critical condition of severe pneumonia complicated by ARDS/type I respiratory failure. At the outside hospital, meropenem, moxifloxacin, oseltamivir, and methylprednisolone had already been used sequentially, but the lesions still progressed significantly. In addition, prior testing, including COVID-19, influenza A and B, a 9-pathogen respiratory panel, G test, GM test, and cryptococcal antigen, failed to identify the etiology, suggesting that routine noninvasive etiologic evaluation and empiric treatment were insufficient to resolve the diagnostic problem. The purpose of performing TBCB at this time was to obtain larger lung parenchymal tissue specimens as quickly as possible at the bedside, directly determine the nature of the lesions, distinguish infectious pneumonia, noninfectious interstitial/organizing pneumonia, diffuse alveolar damage, etc., and provide a tissue basis for subsequent special stains, pathology, and molecular etiologic testing. This examination also allows simultaneous bronchoscopic observation of airway secretions and obstruction, helping to assess the extent of the lesions and the sampling site. Because the patient was already on mechanical ventilation and was critically ill, choosing the transbronchial approach rather than open-chest/percutaneous biopsy was more consistent with the risk-benefit balance under critical care conditions, and the result would directly affect whether to continue anti-infective therapy alone and whether treatment strategies such as targeting special pathogens or adjusting corticosteroids were needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pathological examination",
+          "basis_in_stage3_input": "Using a cryoprobe, 6 tissue specimens were obtained by cryobiopsy from the bronchi of the anterior and posterior segments of the right upper lobe and sent for pathologic examination.",
+          "why_order_this_exam": "In the context of the patient’s acute onset, high fever, rapidly worsening pulmonary imaging findings, and poor response to broad-spectrum anti-infective therapy, it is difficult to distinguish bacterial pneumonia, viral pneumonia, atypical pathogen infection, and noninfectious diseases such as cryptogenic organizing pneumonia based on clinical presentation and imaging alone. Sending the 6 lung tissue specimens obtained by cryobiopsy for pathologic examination was intended to directly evaluate histologic changes in the alveolar spaces, alveolar septa, and inflammatory cell infiltration, organization, hyaline membranes, and other changes, in order to determine whether the lesion represented infection-related lung injury or noninfectious inflammatory lung disease. Pathologic examination can also determine whether there are other pathologic types requiring different treatment pathways, such as typical organizing pneumonia, granulomas, necrosis, or tumor, thereby addressing the core clinical problem of ‘unclear etiology but rapidly progressive disease.’ In this case, the pathologic findings were not only an important bridge to a definitive diagnosis, but also determined whether subsequent treatment should intensify anti-infective therapy and avoid mistakenly managing an infectious lesion as a purely immune-inflammatory disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy histopathology report",
+          "basis_in_stage3_input": "Lung biopsy histopathology report: (anterior segment of the right upper lobe) organizing material formation within the alveolar spaces with scattered acute and chronic inflammatory cell infiltration; (posterior segment of the right upper lobe) scattered acute and chronic inflammatory cell infiltration in the alveolar septa, organizing material formation within the alveolar spaces, and focal alveoli showing hyaline membrane-like structure formation.",
+          "why_order_this_exam": "The patient had a short disease course, rapid radiographic progression, and a PaO2 of only 91 mmHg on FiO2 100%, suggesting severe lung injury and consistent with the clinical context of ARDS, but the underlying etiology still required confirmation at the pathologic level. The significance of issuing a lung biopsy histopathology report lies in systematically presenting the microscopic changes in the submitted tissue and determining whether infectious inflammation, diffuse alveolar damage, organizing changes, and hyaline membrane formation are present. In this case, the pathology showed organizing material within the alveolar spaces, acute and chronic inflammatory cell infiltration in the alveolar septa, and focal hyaline membrane-like structures, which can explain why the patient developed severe hypoxemia and diffuse bilateral pulmonary infiltrates within a short period of time, and also supports infection-related ARDS, but does not support simple common bacterial lobar pneumonia or typical cryptogenic organizing pneumonia. This report was therefore used to address the question of 'what pathologic process the pulmonary opacities actually represent' and to provide key evidence for subsequently establishing Chlamydia psittaci pulmonary infection in combination with mNGS, exposure history, and treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: PAS",
+          "basis_in_stage3_input": "Special stains: PAS (-), acid-fast stain (-), fungal silver stain (-).",
+          "why_order_this_exam": "Although the patient had no clear history of immunosuppression, he/she was an elderly critically ill patient, already on mechanical ventilation, and the condition continued to worsen despite broad-spectrum antibacterial and antiviral therapy. Imaging showed extensive bilateral pulmonary infiltrates, and uncommon infections and opportunistic infections had to be ruled out clinically. PAS staining of the lung biopsy tissue was performed mainly to help identify certain fungi, alveolar proteinaceous material, and other lesions containing polysaccharide components, thereby supplementing the limitations of routine H&E pathologic examination. Previously, the serum G/GM tests and cryptococcal antigen were all negative, but these tests cannot completely exclude localized pulmonary fungal disease or other lesions related to special pathogens; therefore, tissue-level PAS staining helps further exclude the relevant differential diagnoses. A negative PAS result, together with pathologic morphology and other negative special stains, can reduce the likelihood of fungal or certain special deposition lesions, avoid inappropriate or excessive use of antifungal therapy, and prompt the clinical focus to shift toward precise identification of atypical pathogens and other infectious causes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: acid-fast stain",
+          "basis_in_stage3_input": "Special stains: PAS (-), acid-fast stain (-), fungal silver stain (-).",
+          "why_order_this_exam": "The patient's bilateral lung lesions progressed rapidly, routine pathogen screening was negative, and empiric broad-spectrum therapy was ineffective. In this scenario of \"severe pneumonia with no identified common pathogen,\" acid-fast staining of lung tissue is required to rule out Mycobacterium tuberculosis and other acid-fast bacillary infections. Although the case did not show a typical TB course or chronic wasting manifestations, with diffuse radiographic progression, mechanical ventilation, critical clinical status, and the need for a definitive diagnosis by histopathology, acid-fast staining is an important exclusionary test. The clinical question is whether there is a mycobacterial infection missed by routine respiratory tract screening, thereby explaining the persistently progressive pulmonary inflammation and respiratory failure. A negative acid-fast stain can reduce, at the histologic level, the likelihood of TB/nontuberculous mycobacteria as the primary etiology, avoid inappropriate initiation of anti-TB therapy, and allow subsequent etiologic interpretation to focus more specifically on the pathogens detected by mNGS and the corresponding exposure history.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: fungal silver stain",
+          "basis_in_stage3_input": "Special stains: PAS (-), acid-fast stain (-), fungal silver stain (-).",
+          "why_order_this_exam": "This patient had fulminantly progressive severe pneumonia with ARDS. Chest CT rapidly progressed from unilateral involvement to multiple bilateral infiltrates, and early conventional antibacterial therapy was ineffective. Therefore, although typical host high-risk factors were absent, invasive fungal infection remained one of the serious differential diagnoses that had to be excluded. Fungal silver stain is relatively sensitive for demonstrating fungal hyphae or spores in tissue and can compensate for the limitations of negative serology or contamination of respiratory specimens. The clinical purpose of this test was to determine whether there was direct fungal invasion of the lung parenchyma, so as to explain the progressive lung injury and decide whether antifungal therapy needed to be initiated promptly. The result showed a negative fungal silver stain; together with negative G/GM and pathologic morphology not supporting fungal invasion, this helped lower the likelihood of fungal pneumonia, reduce unnecessary empiric antifungal exposure, and shift the diagnostic focus toward atypical bacteria/Chlamydia and other pathogens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tissue + bronchoalveolar lavage fluid mNGS",
+          "basis_in_stage3_input": "Tissue + bronchoalveolar lavage fluid mNGS: Chlamydia psittaci (sequence count 2), Acinetobacter baumannii (sequence count 137703), Pseudomonas aeruginosa (sequence count 749).",
+          "why_order_this_exam": "The patient rapidly progressed to respiratory failure within a short period after disease onset and required mechanical ventilation. Prior influenza A and B, COVID-19, 9-item respiratory pathogen panel, and fungal screening were all negative, and broad-spectrum antibacterial and antiviral treatment at an outside hospital was ineffective, indicating that routine testing methods failed to resolve the etiologic diagnosis. At this time, mNGS was performed simultaneously on lung tissue and bronchoalveolar lavage fluid to broaden pathogen coverage and to rapidly and unbiasedly detect atypical pathogens, mixed infections, and drug-resistance-associated hospital-acquired pathogens that are difficult to identify by routine culture and common nucleic acid testing. The clinical questions this test was intended to answer directly included: whether severe community-acquired pneumonia caused by special pathogens such as Chlamydia or Legionella was present; whether severe Gram-negative bacterial infection such as Acinetobacter baumannii or Pseudomonas aeruginosa had been superimposed after mechanical ventilation; and, when pathology suggested infectious lung injury, which specific pathogen should be targeted for treatment adjustment. The mNGS results, together with the subsequently elicited history of contact with chickens, ducks, and geese, provided key clues for Chlamydia psittaci infection; meanwhile, the concurrent detection of Acinetobacter baumannii and Pseudomonas aeruginosa also suggested possible severe mixed airway/pulmonary infection or colonization, which requires comprehensive clinical judgment in conjunction with the condition of secretions on microscopy, thereby guiding the selection and adjustment of the anti-infective regimen.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +1, an emergency bedside transbronchial cryobiopsy (TBCB) under endotracheal intubation was performed for the patient. Bronchoscopy showed: a large amount of yellow mucopurulent secretions obstructing the lumen of the left main bronchus, and a large amount of white viscid secretions obstructing the lumens of the bronchi at all levels on the right side. Using a cryoprobe, 6 tissue specimens were obtained from the anterior and posterior segment bronchi of the right upper lobe and sent for pathologic examination. Pathology report of the lung biopsy tissue: (anterior segment of the right upper lobe) organizing material formation within the alveolar spaces with scattered acute and chronic inflammatory cell infiltration; (posterior segment of the right upper lobe) scattered acute and chronic inflammatory cell infiltration in the alveolar septa, organizing material formation within the alveolar spaces, and focal hyaline membrane-like structure formation in the alveoli. Special stains: PAS (-), acid-fast stain (-), fungal silver stain (-). Tissue + bronchoalveolar lavage fluid mNGS: Chlamydia psittaci (sequence count 2), Acinetobacter baumannii (sequence count 137703), Pseudomonas aeruginosa (sequence count 749). On further questioning of the patient's family, it was learned that the patient had a history of contact with domestic poultry including chickens, ducks, and geese, and had a history of mountain hiking travel 1 week before symptom onset.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3pfc7MibYr3D9yDAD5JYWFfFY8Pg1L70Ek4CtXWBIR6I4BoV0f3cN9jQ/640?wx_fmt=png",
+          "near_text": "Figure 2: Lung biopsy pathology results on Day +4",
+          "local_src": "cleaned_cases_image_cache/ebf301b5b609f27b85f9f77a9e0a50bd3771069b.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLia4QzLR9oaJUZd9xTr7eib3Q72ugvuLXbU1vHwnW3WG3I5FeP6lr5W66Ly8kfRRFNQEwuYGp3bE1w/640?wx_fmt=png",
+          "near_text": "Figure 3: BALF mNGS result on Day +3",
+          "local_src": "cleaned_cases_image_cache/42bac89337b7d1fbfdfde9c8234c399a6eaaea0c.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary Chlamydia psittaci infection",
+      "diagnostic_basis": [
+        "mNGS detected a small number of Chlamydia psittaci sequences (sequence count: 2)",
+        "History of contact with domestic poultry, including chickens, ducks, and geese, and a history of mountain hiking/travel one week before onset",
+        "Lung tissue biopsy result: scattered acute and chronic inflammatory cell infiltration in the alveolar spaces and septa, with focal alveoli showing hyaline membrane-like structure formation, supporting an infectious lesion and ARDS; no characteristic histopathologic features of cryptogenic organizing pneumonia (OP)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Adjust the anti-infective treatment regimen: moxifloxacin 400 mg qd + minocycline 0.1 g q12h for anti-infective therapy"
+      ],
+      "treatment_response": [
+        "Repeat chest CT after 10 days: multiple infectious lesions in both lungs, with slight absorption compared with the previous study",
+        "Ultimately died despite treatment after progression to late-stage ARDS with concurrent multiple organ failure (liver, kidney, and coagulation function)."
+      ]
+    }
+  }
+}

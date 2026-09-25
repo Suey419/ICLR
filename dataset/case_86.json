@@ -1,0 +1,440 @@
+{
+  "status": "success",
+  "case_id": "case_86",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Chief complaint: \"Shortness of breath for 2 months, cough for 1 month.\" History of present illness: The patient reported exertional shortness of breath beginning 2 months earlier without an obvious trigger, especially noticeable when climbing stairs, relieved after rest, without fever, chills, chest tightness, or other discomfort, and therefore presented to a local hospital. Chest X-ray showed bilateral lower lung infiltrative lesions, and complete blood count was normal. The patient was treated with intravenous antibiotics (specific medications unknown) and cefixime dispersible tablets for anti-infective therapy, but symptoms did not improve. One month earlier, the patient developed cough, mainly dry cough, accompanied by shortness of breath, relieved after rest. On Day 0, the patient presented sequentially to local hospital outpatient clinics, where chest CT, complete blood count, and other tests were performed, suggesting pulmonary infection with unclear pathogen, and was treated with \"cefdinir capsules and levofloxacin tablets\" for anti-infective therapy, but symptoms did not improve. On Day +2, the patient sought care at a local hospital. Complete blood count: WBC 9.85*10^9/L, N 80.80%, L 13.40%; ESR, procalcitonin, and CRP were normal. [Microbiology] G test, GM test, Mycoplasma pneumoniae IgM, Chlamydia pneumoniae IgM, influenza A antigen, influenza B antigen, seven respiratory virus antigens, SARS-CoV-2 nucleic acid, TB antibody, HIV+TP, hepatitis B, and hepatitis C were all negative. [Connective tissue disease] ANA 1:80 (+), speckled pattern; SSA +; rheumatoid factor 18.2 U/L ↑; anti-CCP and vasculitis panel of five items negative. [Tumor markers] non-small cell lung cancer antigen 5.94 ng/ml ↑, NSE 18.17 ng/ml ↑. Bronchoscopy: endoscopic diagnosis: inflammatory changes of the bronchi. Bronchoalveolar lavage fluid: bacterial smear, fungal smear, acid-fast stain, and bacterial culture were all negative. BALF NGS: fungi, viruses, parasites, TB, and mycoplasma/chlamydia were all negative; Pseudomonas genus sequence count 277, Pseudomonas aeruginosa sequence count 46, Haemophilus genus sequence count 98, Haemophilus parainfluenzae sequence count 86. In terms of treatment, on Day +3, moxifloxacin + cefoperazone/sulbactam were given for anti-infective therapy. After 6 days of treatment, repeat chest CT showed worsening pulmonary imaging compared with before, and the outside hospital CT report suggested cryptogenic organizing pneumonia. On Day +10, methylprednisolone 40 mg qd was added. After 6 days of treatment, repeat chest CT showed slight improvement compared with before, and the patient was discharged on Day +21. After discharge, the patient took methylprednisolone tablets at home (40 mg qd for 26 days, 32 mg qd for 2 days). Cough and shortness of breath did not improve significantly, and the patient then presented to our hospital and was admitted to the emergency ward of our hospital for \"evaluation of cough and shortness of breath.\" Since onset of illness, the patient denied joint swelling and pain, rash, Raynaud phenomenon, myalgia, alopecia, dental caries, dry eyes, dry mouth, and other symptoms. Appetite and sleep were fair, bowel and bladder function were normal, and weight showed no significant change. Past history: Denied history of hepatitis or TB; denied history of hypertension, heart disease, or cerebrovascular disease; denied surgical or trauma history; denied food or drug allergies. Personal history: Denied smoking and alcohol use; denied contact history with COVID-19 patients and denied travel/residence history in medium- or high-risk epidemic areas. Menstrual history, marital/reproductive history, and family history were unremarkable. Physical examination was as follows: Temperature: 36.7℃, pulse: 100/min, respiratory rate: 23/min, blood pressure: 102/68 mmHg. Normal facial appearance, alert and oriented, general condition fair, active position, no cyanosis of the lips, no chest wall deformity, symmetric bilateral chest expansion, no increased tactile fremitus, resonant percussion over both lungs, coarse breath sounds in both lungs, moist rales audible in both lower lungs, no pleural friction rub. Cardiac borders normal, heart rate 100/min, regular rhythm, no pathologic murmur heard in any valve auscultation area. Abdomen flat and soft, no tenderness or rebound tenderness, spine without deformity, full range of motion, no joint redness or swelling, no clubbing of fingers or toes, no edema of both lower extremities, no skin hyperpigmentation of both lower extremities. Ancillary examinations: On Day +3, echocardiography showed mild mitral regurgitation and tricuspid regurgitation, with normal measured left ventricular function; abdominal ultrasound: hepatic steatosis.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9bSt5cY64BdkmW4qaM20NdiaJt94Ec3MecJKuQjjoOqWjdZkIObwamdQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Patient's chest radiograph dated Day -20",
+          "local_src": "cleaned_cases_image_cache/d198a13471abdf7a57ab56001a5fc24200cc2bf6.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9ic4wPaT5jyOJ5lqboojRz1xFMuDg88sbibkYfgx7l2biaCof1icYicAKn3w/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest HRCT imaging data of the patient dated Day 0",
+          "local_src": "cleaned_cases_image_cache/2a45ddbf453ebcb960dd636a9abdd374a488cde3.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B96wAia4p1neblo0utJCxV5dggGNplcXHndgPXJlIneicyuyP7Fudqwq3Q/640?wx_fmt=png",
+          "near_text": "Figure 3: Lung HRCT (Day +3 vs Day +9)",
+          "local_src": "cleaned_cases_image_cache/9b61e0fc7667b0dccd3382174e6741068c50adcc.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9HgAvKDUIPWU5broDiaj1kulSEX1L46jzrj28LIPlDXblN06Qz0nTTVw/640?wx_fmt=png",
+          "near_text": "Figure 4: Lung HRCT (Day +9 vs Day +15)",
+          "local_src": "cleaned_cases_image_cache/da2389c5e40928a5e981814db9efef714b780a31.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The course was subacute in onset, presenting with dyspnea for 2 months and dry cough for 1 month.",
+            "Chest radiograph and chest CT suggested bilateral lower lobe exudative lesions/pulmonary infection-like changes; the accompanying first-phase imaging showed bilateral patchy consolidation and ground-glass opacities, predominantly in the bilateral lower lungs.",
+            "Symptoms did not improve after sequential treatment with multiple anti-infective therapies, and after moxifloxacin + cefoperazone/sulbactam anti-infective therapy was administered for 6 days on Day +3, repeat chest CT showed worsening compared with the previous scan.",
+            "Inflammatory markers do not support significant active bacterial infection: ESR, procalcitonin, and CRP are normal, and the CBC overall shows no obvious infectious features.",
+            "Bronchoscopy showed only inflammatory changes of the bronchi; bacterial smear, fungal smear, acid-fast stain, and bacterial culture of bronchoalveolar lavage fluid were all negative.",
+            "Outside hospital CT report suggested cryptogenic organizing pneumonia.",
+            "After adding methylprednisolone 40 mg qd for 6 days, repeat chest CT showed slight improvement compared with the previous scan, suggesting partial steroid responsiveness."
+          ],
+          "opposing_evidence": [
+            "After discharge, the patient continued taking oral methylprednisolone tablets, but the cough and shortness of breath showed no significant improvement.",
+            "Pathologically confirmed organizing pneumonia was not provided in the Phase 1 information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Connective tissue disease-associated interstitial lung disease (represented by Sjögren syndrome spectrum-related OP/NSIP-like changes)",
+          "supporting_evidence": [
+            "Connective tissue disease-related tests showed antinuclear antibody 1:80 (+), speckled pattern; SSA positive; rheumatoid factor 18.2 U/L elevated.",
+            "Attached first-phase imaging showed bilateral interstitial/alveolar mixed infiltrates predominantly in the lower lungs, with a bilateral lower-lung distribution commonly seen in organizing pneumonia or the NSIP spectrum.",
+            "Poor response to anti-infective therapy, while imaging showed slight improvement after corticosteroids, consistent with the possibility of immune-inflammatory interstitial lung disease.",
+            "The etiologic workup was relatively extensive and mostly negative, including the G test, GM test, Mycoplasma/Chlamydia IgM, influenza antigen, respiratory virus antigens, SARS-CoV-2 nucleic acid, TB antibody, HIV, etc."
+          ],
+          "opposing_evidence": [
+            "Since disease onset, the patient has denied typical connective tissue disease-related symptoms such as joint swelling and pain, rash, Raynaud phenomenon, myalgia, alopecia, dental caries, and dry eyes and dry mouth.",
+            "Anti-CCP and the five vasculitis tests were negative.",
+            "In the first phase, no explicit additional evidence regarding pulmonary function, diffusing capacity, or the autoantibody profile was provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Noninfectious interstitial pneumonia (idiopathic interstitial pneumonia, especially the NSIP spectrum)",
+          "supporting_evidence": [
+            "The main manifestations are progressive exertional dyspnea and dry cough, consistent with common clinical manifestations of interstitial lung disease.",
+            "On physical examination, moist rales were audible in both lower lungs.",
+            "In the first stage, imaging showed bilateral, lower-lung-predominant patchy ground-glass opacities and consolidation, with radiologic features suggestive of possible interstitial lung disease.",
+            "No significant improvement after multiple courses of anti-infective treatment; most etiologic tests were negative.",
+            "Echocardiography showed normal left ventricular function, not supporting bilateral pulmonary opacities caused by cardiogenic pulmonary edema."
+          ],
+          "opposing_evidence": [
+            "The imaging shows a relatively prominent consolidation component, making organizing pneumonia or infection more likely to be considered first, rather than atypical fibrotic idiopathic interstitial pneumonia.",
+            "No evidence more supportive of chronic fibrosing interstitial pneumonia, such as reticulation, traction bronchiectasis, or honeycombing, was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Refractory community-acquired pneumonia or atypical infectious pneumonia (including the possibility of lower respiratory tract colonization with concomitant infection)",
+          "supporting_evidence": [
+            "The patient has cough and shortness of breath. Chest radiograph and CT suggest bilateral lower lung infiltrative lesions/pneumonia-like changes.",
+            "On physical examination, moist rales were audible in both lower lungs.",
+            "BALF NGS detected sequences of Pseudomonas genus, Pseudomonas aeruginosa, Haemophilus genus, and Haemophilus parainfluenzae.",
+            "Neutrophil percentage 80.80% is elevated, which can be seen in an infectious state."
+          ],
+          "opposing_evidence": [
+            "No signs of infection or intoxication such as fever or chills.",
+            "ESR, procalcitonin, and C-reactive protein were normal.",
+            "After multiple courses of antibiotic treatment including cefixime, cefdinir, levofloxacin, and moxifloxacin + cefoperazone/sulbactam, neither symptoms nor imaging improved; CT even worsened.",
+            "BALF bacterial smear, fungal smear, acid-fast stain, and bacterial culture were all negative.",
+            "Pathogen testing including the G test, GM test, Mycoplasma IgM, Chlamydia IgM, influenza A, influenza B, seven respiratory virus antigens, SARS-CoV-2 nucleic acid, and TB antibody was all negative."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lung adenocarcinoma (especially invasive mucinous adenocarcinoma/pneumonic-type lung cancer)",
+          "supporting_evidence": [
+            "Clinically manifests as persistent cough and dyspnea; imaging shows patchy infiltration/consolidation in both lower lungs, and the response to anti-infective treatment is poor, which may resemble pneumonic-type lung cancer.",
+            "Among the tumor markers, non-small cell lung cancer antigen was elevated at 5.94 ng/ml, and NSE was elevated at 18.17 ng/ml.",
+            "Stage 1 imaging showed persistent consolidation in both lower lungs, requiring differential diagnosis of a neoplastic lesion masquerading as infection/organizing pneumonia."
+          ],
+          "opposing_evidence": [
+            "The accompanying first-stage imaging does not describe a definite solitary pulmonary mass; the lesions are more diffusely/patchily distributed in the bilateral lower lungs.",
+            "Bronchoscopy showed only inflammatory changes of the bronchi; no cytologic or pathologic evidence of tumor was provided in the first-stage information.",
+            "After corticosteroid therapy, CT showed slight improvement compared with the previous scan, favoring an inflammatory/immunologic lesion."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Chronic eosinophilic pneumonia",
+          "supporting_evidence": [
+            "The course is subacute, with cough and dyspnea as the main symptoms; imaging may show patchy infiltrates in both lungs.",
+            "Antiinfective treatment is ineffective, which is one of the noninfectious causes of pulmonary consolidation that require differential diagnosis.",
+            "Some noninfectious pneumonias may show radiographic improvement with glucocorticoids; in this case, after methylprednisolone was added, CT showed slight improvement compared with the previous study."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the complete blood count did not indicate elevated eosinophils.",
+            "Phase 1 information did not provide supportive clues such as asthma or allergy history.",
+            "The accompanying initial-stage imaging mainly showed bilateral lower lung involvement, with no clear evidence of the classic peripheral-predominant distribution."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Testing for the corresponding pathogen(s)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive connective tissue disease-related evaluation",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further evaluation was as follows: Complete blood count: WBC 11.11×10^9/L, N% 75.6%. Urinalysis and stool routine were normal. Liver and renal function, electrolytes, CK, CKMB, coagulation function, and NT-proBNP were approximately normal. [Pathogen testing] G test and GM test were both normal. TB spot test was negative. Legionella pneumophila antibody (LP-Ab) was positive (+), and COVID-19 nucleic acid was negative. [Connective tissue disease] ENA: Ro-52 (52kDa) +++; complement C3, C4, ANA, ANCA, and vasculitis panel were normal. [Tumor] Cytokeratin 19 fragment 21-1 for non-small cell lung cancer 14.560 ng/ml↑. Echocardiogram: no obvious abnormality in intracardiac structure, and measured left ventricular systolic function was within the normal range. Lower extremity vascular ultrasound: deep venous blood flow in both lower extremities was patent. Bronchoscopy on Day +50 showed: bilateral bronchial lumens were patent, with no mass or bleeding seen. Lung biopsy was performed at the posterior basal segment of the right lower lobe. (Brush cytology cell block) A small number of ciliated columnar epithelial cells and lymphocytes were seen; no typical cancer cells were seen. (Bronchial brush/washing fluid) Ciliated columnar epithelial cells, lymphocytes, and histiocytes were seen; no malignant tumor cells were seen. PAS (-). On Day +54, the patient's condition changed, and fever began, with a maximum temperature of 38.9°C. On Day +55, oxygen saturation decreased, and the patient was transferred to the RICU after endotracheal intubation. Physical examination on admission to the RICU: temperature 36.5°C, pulse 165/min, respirations 62/min, blood pressure 78/45 mmHg, oxygen saturation 80% (endotracheal intubation with ventilator-assisted respiration: VCV mode, PEEP 3 cmH2O, FiO2 80%, VT 450 ml); consciousness was clear, but the patient was uncooperative with the examination. No superficial lymphadenopathy was palpable. Pupils were equal, round, and reactive to light. No cyanosis of the lips. The thorax was symmetrical, percussion of both lungs was resonant, breath sounds were coarse bilaterally, and a small amount of moist rales could be heard. No precordial bulge; cardiac borders were normal; heart rate was 170/min; rhythm was absolutely irregular; the intensity of the first heart sound varied; no pathologic murmur was heard on auscultation over any valve area. The abdomen was flat and soft, without tenderness or rebound tenderness, and there was no edema in either lower extremity. No pathologic reflexes were elicited. Ancillary tests: (invasive mechanical ventilation, FiO2 100%) pH 7.358, pCO2 38.0 mmHg, pO2 102.0 mmHg, cLac 1.5 mmol/L, cHCO3-(P).c 20.9 mmol/L↓. Random blood glucose was as high as 25 mmol/L, beta-hydroxybutyrate 1.23 mmol/L, urine ketones positive, HbA1c 5.9%. BNP 973.1 pg/ml. Bedside ECG showed rapid atrial fibrillation.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9hzCHu1lwcubkMvMEDTjDAj93nVYpPQTtO2yGwtStVCK9xz0FKacngQ/640?wx_fmt=png",
+            "near_text": "Figure 5a: Chest X-ray of the patient on Day +50",
+            "local_src": "cleaned_cases_image_cache/b50815c6bfae8eb35954e7a98776aa76017b4158.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9Pctk7NMibA9OQmknak4PsibvyJoM3OJIeOO4T3o4Gb9zwJWcUoL8hT8w/640?wx_fmt=png",
+            "near_text": "Figure 5b: Lung HRCT on Day +51 showed an increase in bilateral pulmonary lesions compared with Day +15 in the patient",
+            "local_src": "cleaned_cases_image_cache/469a7345dd4f3dd41eee471e28813641110173b9.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9aMLhlvlicYgomZJ8CrqM1Hpb8r4mu4CibR0k1JXIr69du28INBT3NUPA/640?wx_fmt=png",
+            "near_text": "Figure 6: Chest X-ray, the chest X-ray on Day +56 showed marked progression compared with Day +55",
+            "local_src": "cleaned_cases_image_cache/e3e1af8546e1c204d82201451fca305292233307.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious disease",
+            "evidence": [
+              "Subacute course, infectious symptoms such as cough, moist rales audible in both lungs, BALF NGS detected Pseudomonas aeruginosa and Haemophilus influenzae"
+            ],
+            "exclusion_reasons": [
+              "The current diagnostic and treatment data cannot establish a definite diagnosis of a specific infectious or noninfectious disease, but a noninfectious disease is more likely."
+            ]
+          },
+          {
+            "name": "Noninfectious disease (possible cryptogenic organizing pneumonia; secondary to connective tissue disease? Tumor?)",
+            "evidence": [
+              "No fever, inflammatory markers normal, some connective tissue disease antibodies positive, tumor markers slightly elevated, chest CT showed bilateral subpleural lesions, poor response to antibiotic therapy, effective response to corticosteroid therapy"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Infection (cause of worsening pulmonary lesions)",
+            "evidence": [
+              "Fever",
+              "WBC count 22.57×10^9/L↑, N% 92.6%, procalcitonin 0.130 ng/ml↑",
+              "Hepatic dysfunction (ALT 66.7u/l↑, AST 96.7u/l↑)",
+              "shock blood pressure"
+            ],
+            "exclusion_reasons": [
+              "The patient had worsening pulmonary imaging findings 48 h after admission, and hospital-acquired pneumonia was considered; gram-negative bacteria were considered more likely as the pathogen. Meropenem can cover common HAP pathogens. On the basis of meropenem treatment, the patient developed acute progression of pulmonary lesions, which is difficult to explain as worsening caused by infection."
+            ]
+          },
+          {
+            "name": "Acute exacerbation of the primary disease (cause of worsening pulmonary lesions)",
+            "evidence": [
+              "Despite treatment with meropenem, there was acute progression of the pulmonary lesions, which is difficult to explain as worsening caused by infection; worsening due to an unknown underlying primary disease cannot be excluded."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Increased lung water (cause of worsening pulmonary lesions)",
+            "evidence": [
+              "On the 28th: intake 3419 mL, output 2090 mL; on the 29th: intake 4021 mL, output 2520 mL",
+              "BNP 973.1 pg/ml (28th); 4838.0 pg/ml (29th)",
+              "Fluid intake markedly exceeds output, BNP is elevated, and the chest X-ray has worsened significantly over a short period."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious disease",
+        "evidence": [
+          "Subacute course, infectious symptoms such as cough, moist rales audible in both lungs, BALF NGS detected Pseudomonas aeruginosa and Haemophilus influenzae"
+        ],
+        "exclusion_reasons": [
+          "The current diagnostic and treatment data cannot establish a definite diagnosis of a specific infectious or noninfectious disease, but a noninfectious disease is more likely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Noninfectious disease (possible cryptogenic organizing pneumonia; secondary to connective tissue disease? Tumor?)",
+        "evidence": [
+          "No fever, inflammatory markers normal, some connective tissue disease antibodies positive, tumor markers slightly elevated, chest CT showed bilateral subpleural lesions, poor response to antibiotic therapy, effective response to corticosteroid therapy"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Infection (cause of worsening pulmonary lesions)",
+        "evidence": [
+          "Fever",
+          "WBC count 22.57×10^9/L↑, N% 92.6%, procalcitonin 0.130 ng/ml↑",
+          "Hepatic dysfunction (ALT 66.7u/l↑, AST 96.7u/l↑)",
+          "shock blood pressure"
+        ],
+        "exclusion_reasons": [
+          "The patient had worsening pulmonary imaging findings 48 h after admission, and hospital-acquired pneumonia was considered; gram-negative bacteria were considered more likely as the pathogen. Meropenem can cover common HAP pathogens. On the basis of meropenem treatment, the patient developed acute progression of pulmonary lesions, which is difficult to explain as worsening caused by infection."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Acute exacerbation of the primary disease (cause of worsening pulmonary lesions)",
+        "evidence": [
+          "Despite treatment with meropenem, there was acute progression of the pulmonary lesions, which is difficult to explain as worsening caused by infection; worsening due to an unknown underlying primary disease cannot be excluded."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Increased lung water (cause of worsening pulmonary lesions)",
+        "evidence": [
+          "On the 28th: intake 3419 mL, output 2090 mL; on the 29th: intake 4021 mL, output 2520 mL",
+          "BNP 973.1 pg/ml (28th); 4838.0 pg/ml (29th)",
+          "Fluid intake markedly exceeds output, BNP is elevated, and the chest X-ray has worsened significantly over a short period."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood culture",
+          "basis_in_stage3_input": "All 3 blood cultures were negative.",
+          "why_order_this_exam": "During the middle and late stages of the disease course, the patient developed fever, elevated white blood cell and neutrophil counts, shock, and ARDS requiring mechanical ventilation; clinically, bacteremia or sepsis-related infection had to be ruled out first. Meanwhile, the pulmonary lesions continued to progress despite treatment with multiple antibacterial agents, with infectious and noninfectious acute exacerbations coexisting; blood cultures were helpful for identifying pathogens that could explain the systemic deterioration and for guiding anti-infective therapy. Three negative results, in turn, weakened the evidence for bacterial bloodstream infection as the primary cause and supported continued evaluation for noninfectious interstitial lung disease and immune-related etiologies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood NGS",
+          "basis_in_stage3_input": "Blood NGS: bacteria, fungi, parasites, TB, NTM, and Mycoplasma/Chlamydia were all negative; CMV sequence count 8.",
+          "why_order_this_exam": "After ineffective antibiotic therapy, the patient also received glucocorticoids, following which the condition deteriorated rapidly and the patient was admitted to the RICU, with a risk of unusual pathogens that are difficult to detect by routine culture, opportunistic infection, or disseminated infection. Blood NGS was used to broaden pathogen coverage when conventional microbiologic testing was negative, to determine whether there was a systemic process caused by bacteria, fungi, mycobacteria, parasites, or atypical pathogens, and to help assess whether low-sequence pathogens in BAL had significance for systemic infection. In this case, blood NGS was overall negative except for low-sequence CMV, reducing the likelihood of active bloodstream-disseminated infection and providing indirect support for subsequently shifting the focus to antisynthetase syndrome-associated interstitial lung disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy: a small amount of bloody secretions was seen in the right middle lobe. Bronchoalveolar lavage was performed in the right lower lobe.",
+          "why_order_this_exam": "The patient has persistent progressive dyspnea and dry cough. Imaging shows bilateral lower lung infiltrates/consolidation. Anti-infective therapy has had poor efficacy, and glucocorticoids have been only partially effective. Infection needs to be ruled out, and organizing pneumonia, connective tissue disease-associated interstitial lung disease, and tumor also need to be differentiated. Bronchoscopy can directly assess whether there is an intraluminal airway mass, active bleeding, or obvious purulent secretions, and can be used to obtain specimens from the involved site. In this case, bronchoscopy showed only a small amount of bloody secretions and no definite mass, which is valuable for excluding a central airway tumor and clarifying the direction of lower respiratory tract sampling; it also suggests the possibility of pulmonary inflammatory/interstitial disease rather than a simple airway lesion.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoalveolar lavage",
+          "basis_in_stage3_input": "Bronchoalveolar lavage was performed in the right lower lobe.",
+          "why_order_this_exam": "The patient's bilateral lower lung lesions have persisted, and the condition had previously changed after glucocorticoid therapy; relying on upper respiratory tract specimens alone makes it difficult to determine the true lower respiratory tract pathogen. Bronchoalveolar lavage can obtain specimens from the affected pulmonary segment for concurrent bacterial, fungal, opportunistic infection, and cytologic evaluation. The main questions this examination aims to address are: whether the pulmonary opacities are predominantly infection-driven, or predominantly noninfectious organizing pneumonia/connective tissue disease-associated interstitial lung disease, and whether there is concomitant immunosuppression-related infection. Choosing right lower lobe lavage is consistent with the distribution of lower lung involvement and can improve the representativeness of etiologic and pathologic clues.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Microscopic examination of BALF smear",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid: smear microscopy, Gram stain, GM test, and bacterial + fungal cultures were all negative.",
+          "why_order_this_exam": "Initially, the patient had no fever for a prolonged period and inflammatory markers were not elevated, but the imaging findings progressed despite treatment as infection; later, high fever and respiratory failure developed, so it was necessary to rapidly determine whether the lavage fluid contained a large amount of bacteria, fungi, or other visible pathogenic components. Smear microscopy is the fastest basic etiologic test and can preliminarily identify evidence of infection and determine whether immediate intensification of targeted therapy is needed. A negative result suggests insufficient evidence of common high-burden infection and, in combination with failure of multiple courses of anti-infective therapy and subsequent positive autoantibodies, helps shift the main diagnostic consideration toward noninfectious immune-related lung disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF Gram stain",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid: smear microscopy, Gram stain, GM test, and bacterial + fungal cultures were all negative.",
+          "why_order_this_exam": "Because the patient had previously been suspected of having a pulmonary infection and had received multiple broad-spectrum antibacterial agents, and later in the course developed fever, leukocytosis, and shock, it was necessary to use lower respiratory tract specimens to determine whether bacterial pneumonia was still present, especially hospital-acquired infection. Gram stain can rapidly provide bacterial morphology and Gram reaction, providing a basis for whether the empiric antibacterial regimen needs adjustment, and can also help determine whether Pseudomonas aeruginosa, Haemophilus influenzae, previously detected by NGS, or subsequently low-read Klebsiella aerogenes, have true pathogenic significance. In this case, the negative result reduced the evidence for active bacterial pneumonia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid: smear microscopy, Gram stain, GM test, and bacterial + fungal cultures were all negative.",
+          "why_order_this_exam": "The patient has a protracted disease course and bilateral pulmonary infiltrates on imaging, and has received glucocorticoid therapy; therefore, invasive fungal infection, especially Aspergillus infection, should be included in the differential diagnosis. At the same time, previously negative peripheral blood G/GM does not completely exclude localized pulmonary fungal infection. BALF GM is more reflective of intrapulmonary Aspergillus-related infection than serum and helps explain the reason for ineffective antibacterial treatment and worsening disease, and influences whether antifungal therapy is needed. A negative result suggests that invasive fungal infection such as Aspergillus is not the primary driving factor of the current pulmonary lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial and fungal culture of bronchoalveolar lavage fluid",
+          "basis_in_stage3_input": "Bronchoalveolar lavage fluid: smear microscopy, Gram stain, GM test, and bacterial + fungal cultures were all negative.",
+          "why_order_this_exam": "The patient has persistent pulmonary consolidation/ground-glass opacities, later progressed to severe disease requiring mechanical ventilation; bacterial or fungal infection still needs to be confirmed by standard microbiologic methods. Bronchoalveolar lavage fluid culture can identify culturable pathogens and perform antimicrobial susceptibility testing, and is a key step in determining whether true pathogenic organisms are present, cross-validating with NGS results, and guiding antimicrobial de-escalation or escalation therapy. A negative culture, together with lack of response to prolonged antimicrobial therapy, initially non-elevated inflammatory markers, and partial response to corticosteroids, further reduces the likelihood that common bacterial/fungal infection is the primary cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS",
+          "basis_in_stage3_input": "BALF NGS: Klebsiella aerogenes, sequence count 7; Enterococcus faecalis, sequence count 5; Pneumocystis jirovecii, sequence count 5; Cryptococcus neoformans, sequence count 2; CMV, sequence count 14; human herpesvirus 7, sequence count 4.",
+          "why_order_this_exam": "In the setting of multiple negative rounds of routine etiologic testing, persistent radiographic progression, and a risk of opportunistic infection after corticosteroid use, BALF NGS was used to broaden the scope of pathogen screening, with a focus on determining whether there were bacteria, fungi, Pneumocystis, viruses, or mixed infections that are difficult to detect by conventional culture. This test is particularly helpful in explaining whether pathogens commonly seen in immunocompromised hosts are present during severe deterioration, and in assessing pathogenicity in conjunction with blood NGS, culture, and clinical manifestations. Although multiple low-sequence-count pathogens were detected in this case, the sequence counts were all not high and did not completely match the overall clinical course; therefore, this more strongly suggests the need to be alert to colonization, contamination, or secondary infection, and these findings cannot independently explain all pulmonary lesions, prompting further investigation for an immune-mediated cause.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Myositis antibody",
+          "basis_in_stage3_input": "Myositis antibodies: anti-EJ antibody IgG+++, anti-Ro-52 antibody IgG+++.",
+          "why_order_this_exam": "The patient had a subacute onset of progressive dyspnea and dry cough. Chest imaging showed infiltrates/consolidation predominantly in the lower lungs. There was a poor response to anti-infective therapy, while imaging had previously shown slight improvement after corticosteroids. Earlier testing had already shown abnormalities in ANA, SSA, Ro-52, and RF, but there were no typical systemic manifestations such as arthritis, rash, or myalgia. Therefore, it is highly necessary to use a myositis antibody panel to screen for connective tissue disease-associated interstitial lung disease with an atypical clinical phenotype, especially antisynthetase syndrome. The core question this test is intended to address is whether autoimmune interstitial lung disease is driving the current disease course, and based on this, whether to intensify immunotherapy such as corticosteroids, IVIG, and plasma exchange. A positive result is critical for establishing a noninfectious etiology and the final diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-EJ antibody IgG",
+          "basis_in_stage3_input": "Myositis antibodies: anti-EJ antibody IgG+++, anti-Ro-52 antibody IgG+++.",
+          "why_order_this_exam": "Anti-EJ antibody is a member of the antisynthetase antibody spectrum. Although the patient has no obvious manifestations of myositis, rash, Raynaud phenomenon, or arthritis, there are progressive ILD-like manifestations, lack of response to anti-infective therapy, partial response to corticosteroids, and previously abnormal autoantibodies; therefore, specific testing for anti-EJ antibody is needed to confirm whether this is antisynthetase syndrome-associated interstitial lung disease. This test directly serves etiologic diagnosis and treatment decision-making: if positive, the pulmonary lesion can be reclassified from simple infection or cryptogenic organizing pneumonia to autoimmune ILD, and it supports early intensification of immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-Ro-52 IgG antibody",
+          "basis_in_stage3_input": "Myositis antibodies: anti-EJ antibody IgG+++, anti-Ro-52 antibody IgG+++.",
+          "why_order_this_exam": "The patient was previously noted to have abnormal SSA/Ro-related antibodies, but the clinical manifestations of systemic connective tissue disease were atypical, whereas the pulmonary disease continued to progress; therefore, further clarification of anti-Ro-52 antibody status has important stratification significance. Ro-52 positivity is commonly seen in inflammatory myopathy and antisynthetase antibody syndrome-associated interstitial lung disease, can serve as an important clue supporting immune-mediated lung injury, and together with anti-EJ antibody increases the diagnostic confidence for antisynthetase syndrome. This result helps explain why antibacterial treatment was ineffective and why escalation to intensive immunotherapy was needed, and also helps assess the risk of severe, rapidly progressive disease.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Etiology-related tests: 3 blood cultures were all negative. Blood NGS: bacteria, fungi, parasites, TB, NTM, Mycoplasma/Chlamydia were all negative, CMV sequence count 8. Bronchoscopy: a small amount of bloody secretions was seen in the right middle lobe. Bronchoalveolar lavage was performed in the right lower lobe. Bronchoalveolar lavage fluid: smear microscopy, Gram stain, GM test, and bacterial + fungal cultures were all negative. BALF NGS: Klebsiella aerogenes sequence count 7, Enterococcus faecalis sequence count 5, Pneumocystis jirovecii sequence count 5, Cryptococcus neoformans sequence count 2, CMV sequence count 14, Human herpesvirus 7 sequence count 4. Myositis antibodies: anti-EJ antibody IgG+++, anti-Ro-52 antibody IgG+++.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9MwchVvHSJELykZks7PMicEQhSuZsWYYLXYGkfKFhXX3uibibfnbvd8XUg/640?wx_fmt=png",
+          "near_text": "Figure 7: Lung biopsy pathology: Microscopy shows inflamed bronchial mucosa and lung tissue, interstitial fibrous hyperplasia with hyaline degeneration, partial alveolar collapse and consolidation, and focal organizing material, showing changes of organizing pneumonia, with a small amount of lymphocyte and plasma cell infiltration. A/P, PAS, GMS, and TB stains for microorganisms are all (-), fungal immunofluorescence testing is (-), and no obvious atypical cells are seen.",
+          "local_src": "cleaned_cases_image_cache/14d02985601719f72f6d513fc3d7cc89a48bc8c3.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B95o6x6kvKib3Piaicu97HicMzBXeuZ00iaBH8f99gBNA04DkAfwJwMrSSGIg/640?wx_fmt=png",
+          "near_text": "Table 1: ECMO support",
+          "local_src": "cleaned_cases_image_cache/b2135a680c367ba40ef4f99def25c9d42f45fbff.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B969WsnXHZCQ4Rqsm0svgaD3RUr2hyNYibsNzibKksRm6wGzkdX8nQS94A/640?wx_fmt=png",
+          "near_text": "Table 2: Invasive mechanical ventilation",
+          "local_src": "cleaned_cases_image_cache/70f92a7f1f7f1859fb9183c0ed7563793278f8c5.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9HwHcEONvysvJRb1nALfXl2awtoouaCC1VYaNlons0icApJyvqaLdwVg/640?wx_fmt=png",
+          "near_text": "Figure 8: Changes on chest radiograph",
+          "local_src": "cleaned_cases_image_cache/cdea7acbf970b55ed1fcb4a5c73a1125b216d620.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9IFuYakcIff6O5pFUTz2JYD15G2ibawEpheUEV8uriavcz0WZvo97ow4w/640?wx_fmt=png",
+          "near_text": "Figure 9: Chest CT showed pneumomediastinum",
+          "local_src": "cleaned_cases_image_cache/be154e0598b6e8bf44de501bda4b62c435f88ea5.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9WarTw11gyxewFgVdluNa6OAhTarJ8RTgwmvhnf7Ez0VtkkgrQC7Nhg/640?wx_fmt=png",
+          "near_text": "Table 3: Blood gas analysis",
+          "local_src": "cleaned_cases_image_cache/92e0f6981c1fea91a4bc6c7df9c3b865ab217f93.png"
+        },
+        {
+          "image_id": "fig15",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9fWxJDfu9BwbWeXN8TAEsUg2UAIrJQ161FtH1Ecrj4M4IweudibnO6yg/640?wx_fmt=png",
+          "near_text": "Table 4: Inflammatory Markers",
+          "local_src": "cleaned_cases_image_cache/8f6725dc3d9d06c8e813c0aed52352f36a2e66ea.png"
+        },
+        {
+          "image_id": "fig16",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9w6mLPLCBAWC5WrQM5HL7owl39LNicUfRB08Pw67KtwO5z1T7unic0VDw/640?wx_fmt=png",
+          "near_text": "Table 5: Biochemical markers",
+          "local_src": "cleaned_cases_image_cache/dc78e8d66de13a7f886ac8e8df55efd1abe76d12.png"
+        },
+        {
+          "image_id": "fig17",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9NAN6X2c3SPiaCEJJzN0VGVuiaGrdl1PtJjOnriaHhYlJfOkkLLiaMqGNUw/640?wx_fmt=png",
+          "near_text": "Figure 10: Post-discharge follow-up: follow-up pulmonary HRCT findings of the patient",
+          "local_src": "cleaned_cases_image_cache/74ebb4cfe6f8790cc1c12aaceea36c6d4da71660.png"
+        },
+        {
+          "image_id": "fig18",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKM5TAeOViaqXRYPZyLwD8B9s6Uk2UHZt9DeQulun3qazgJAsEr5icNIvgZvM7ZVabFCMMSwIyBxeLA/640?wx_fmt=png",
+          "near_text": "Figure 10: Post-discharge follow-up: follow-up pulmonary HRCT findings of the patient",
+          "local_src": "cleaned_cases_image_cache/28a6843f4db02fc4dd4192a4a00ba3d96b5a0b1f.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Interstitial lung disease secondary to antisynthetase syndrome 2. Severe pneumonia, ARDS, sepsis",
+      "diagnostic_basis": [
+        "Regarding infection, NGS of the patient's bronchoalveolar lavage fluid did not detect a large number of pathogen sequences. Although Klebsiella aerogenes and Enterococcus faecalis were detected, the sequence counts were low and they are not considered pathogenic organisms. Pneumocystis jirovecii and CMV are common infectious pathogens in immunocompromised hosts, but even if they were pathogenic organisms, the sequence counts were not high; therefore, the current pulmonary lesions are also not considered to be predominantly caused by infection with these two pathogens.",
+        "Regarding noninfectious causes, anti-EJ antibody IgG+++; in addition, lung tissue pathology suggested organizing pneumonia. Combined with the bilateral lung lesions, antisynthetase syndrome can be diagnosed."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Infection: antibiotics for gram-negative bacteria can be de-escalated; discontinue polymyxin and use meropenem alone, while continuing trimethoprim-sulfamethoxazole and ganciclovir.",
+        "For antisynthetase syndrome: increase the glucocorticoid dose; methylprednisolone 40 mg Q12h from 7.29-7.31, 120 mg Q12h from 8.1-8.2, 60 mg BID from 8.3-8.5, 40 mg QD from 8.6-8.8, followed by gradual tapering; IVIG infusion ×5 d, plasma exchange ×5.",
+        "Intake and output: negative fluid balance strategy."
+      ],
+      "treatment_response": [
+        "On Day +63, the patient was decannulated from ECMO; on Day +68, invasive mechanical ventilation was discontinued, followed by sequential noninvasive ventilation and high-flow heated humidified nasal oxygen therapy; on Day +76, the patient was transferred to the general ward; on Day +78, the patient was discharged. After discharge, methylprednisolone 20 mg po Qd was continued."
+      ]
+    }
+  }
+}

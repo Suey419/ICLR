@@ -1,0 +1,356 @@
+{
+  "status": "success",
+  "case_id": "case_54",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 47-year-old man with a chief complaint of \"cough and chest tightness for more than 1 month.\" One month before admission, he developed cough and chest tightness without an obvious trigger, mainly dry cough, without fever, night sweats, chest pain, dyspnea, or other discomfort. During hospitalization at Hospital A, he had fever, with a maximum temperature of 37.5℃. Initial CBC showed EOS% 7.8% and eosinophil count 0.6*10^9. Chest CT showed multiple tiny nodules in the right lung and right-sided inflammatory lesions. He was treated with levofloxacin + cefonicid for 10 days. Repeat chest CT showed progression of the inflammation compared with before, and right pleural effusion appeared. Pleural fluid results showed monocyte-predominant exudative fluid, with normal ADA. Treatment was adjusted to moxifloxacin for anti-infective therapy for 4 days, but symptoms did not improve significantly. The patient was then hospitalized at Hospital B for further treatment. Repeat evaluation of the pleural effusion showed no malignant tumor cells on pleural fluid exfoliative cytology, and smear showed a large number of lymphocytes and eosinophils. Bone marrow aspiration was completed, suggesting increased eosinophil proportion. CBC showed EOS% 20% and eosinophil count 1.74*10^9. Pulmonary eosinophilia was considered. He was given loratadine for antiallergic treatment and moxifloxacin for anti-infective therapy, but his symptoms still did not improve. He was transferred to our hospital for further treatment. The patient has a past history of chronic hepatitis B and has been treated with entecavir for 2 years. He also has a history of allergic rhinitis for more than 20 years, with mildly elevated eosinophils at baseline; no definite allergen has been identified. He works as a pharmacist and denies occupational exposure to toxic or harmful substances. Physical examination: vital signs stable, conscious and alert, breathing unlabored, oxygen saturation 99%. No skin rash or ecchymoses; no superficial lymphadenopathy palpable. No cyanosis of the lips. The thorax was symmetric; tactile fremitus was slightly decreased in the right lower lung; no pleural friction fremitus was detected; the left lung was resonant to percussion; dullness to percussion was present in the right lower lung; breath sounds were decreased in the right lower lung; no dry or wet rales were heard. Heart rhythm was regular, with no pathologic murmurs. No obvious abnormalities were found on cardiac, abdominal, or neurologic examination, and there was no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZM2YpxP6lZkB0cBicpmHJmicqR8MqBEWmZkR22ZB98DKqc5jOLxNicxpnQ/640?wx_fmt=png",
+          "near_text": "Figure 5: PET-CT from an outside hospital",
+          "local_src": "cleaned_cases_image_cache/23931be30e8eac2029be0a2f0da7949955e5e5ea.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary eosinophilia (including chronic eosinophilic pneumonia/eosinophil-related pleuropulmonary disease)",
+          "supporting_evidence": [
+            "Complete blood count showed elevated eosinophils: initial EOS% 7.8%, eosinophil count 0.6*10^9, followed by EOS% 20%, eosinophil count 1.74*10^9",
+            "Bone marrow aspiration suggested increased eosinophil proportion",
+            "Pleural fluid smear shows numerous lymphocytes and eosinophils",
+            "History of allergic rhinitis for more than 20 years; eosinophils had been mildly elevated at times, suggesting an allergic/eosinophilic inflammatory background",
+            "After antibacterial treatment, chest CT showed progression of inflammation compared with the previous study, and symptoms did not improve significantly, which does not support simple common bacterial infection.",
+            "The chief complaints were mainly dry cough and chest tightness, without obvious purulent sputum."
+          ],
+          "opposing_evidence": [
+            "Chest CT showed multiple tiny nodules in the right lung, a right-sided inflammatory lesion, and right pleural effusion; the imaging distribution was not the typical description in the first-stage information.",
+            "Symptoms still did not improve after anti-allergic treatment with loratadine."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary tuberculosis or tuberculous pleurisy",
+          "supporting_evidence": [
+            "The right pleural effusion is an exudate, and the pleural fluid is predominantly mononuclear cells/a large number of lymphocytes, consistent with one of the common pleural fluid cytologic characteristics of tuberculous pleuritis.",
+            "Chest CT showed multiple tiny nodules in the right lung and right-sided inflammatory lesions, which may be seen in TB infection",
+            "After 10 days of antibacterial therapy, the inflammation progressed and pleural effusion developed, suggesting the possibility of a non-common bacterial infection.",
+            "The accompanying images show an abnormal intrathoracic lesion, which requires differentiation from tuberculous mediastinal/hilar involvement."
+          ],
+          "opposing_evidence": [
+            "No definite TB toxic symptoms such as fever or night sweats; only a maximum temperature of 37.5℃ during hospitalization at an outside hospital",
+            "Pleural fluid ADA was normal, not supporting tuberculous pleuritis",
+            "Eosinophils may also be seen in the pleural effusion, which is less typical."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Lung cancer with obstructive pneumonia and malignant pleural effusion (including central lung cancer/lung adenocarcinoma, etc.)",
+          "supporting_evidence": [
+            "The patient is a 47-year-old man with cough and chest tightness for more than 1 month, and the imaging findings instead progressed after anti-infective treatment.",
+            "Chest CT showed multiple tiny nodules in the right lung, a right-sided inflammatory lesion, and right pleural effusion; tumor-related lesions should be considered with caution.",
+            "Physical examination showed slightly decreased tactile fremitus at the right lower lung, dullness to percussion, and decreased breath sounds, consistent with signs of right pleural effusion.",
+            "The accompanying images show a marked abnormal opacity in the right hilar/mediastinal region, suggesting a possible central mass or enlarged lymph nodes."
+          ],
+          "opposing_evidence": [
+            "Pleural effusion exfoliative cytology showed no malignant tumor cells.",
+            "Pleural fluid smear was predominantly composed of numerous lymphocytes and eosinophils, with no definite evidence of malignant cells provided",
+            "Peripheral blood and bone marrow eosinophilia is more suggestive of eosinophilic disease or other systemic processes"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lymphoma or mediastinal lymphoproliferative disease with pleural involvement",
+          "supporting_evidence": [
+            "Pleural fluid is an exudate, with mononuclear cells/a large number of lymphocytes predominating, consistent with a possible manifestation of pleural effusion caused by lymphatic system disease.",
+            "The accompanying images show an obvious abnormal lesion in the mediastinal/hilar region, which requires differentiation from lymphadenopathy or a lymphoproliferative lesion.",
+            "Anti-infective treatment was ineffective and imaging showed progression, suggesting a non-common infectious lesion.",
+            "Peripheral and bone marrow eosinophilia may be an associated manifestation of some lymphomas"
+          ],
+          "opposing_evidence": [
+            "No enlargement of superficial lymph nodes was palpable",
+            "No night sweats, marked fever, or other B symptoms",
+            "No histologic support was provided in phase 1 information other than explicit evidence against it"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Parasitic infection-related pulmonary eosinophilia (parasitic pleuropulmonary involvement)",
+          "supporting_evidence": [
+            "Markedly increased peripheral blood eosinophils; bone marrow also indicated an increased proportion of eosinophils.",
+            "Eosinophils are present in the pleural effusion",
+            "Cough and chest tightness with pulmonary lesions and pleural effusion can be seen in parasite-related eosinophilic lung disease",
+            "Antibacterial treatment was ineffective, suggesting a non-common bacterial etiology"
+          ],
+          "opposing_evidence": [
+            "Phase 1 information did not provide a clear history of epidemiologic exposure to parasites, travel history, history of consuming raw food, or related gastrointestinal symptoms",
+            "No accompanying manifestations related to allergy/parasitic infection, such as rash",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Eosinophilic granulomatosis with polyangiitis or other systemic eosinophilic syndrome involving the lungs and pleura",
+          "supporting_evidence": [
+            "Marked peripheral blood eosinophilia with an increased proportion of eosinophils in the bone marrow",
+            "There is a long-term history of allergic rhinitis, indicating a background of eosinophilic immune disease.",
+            "Pulmonary lesions with pleural effusion and ineffective anti-infective therapy warrant consideration of systemic inflammatory/vasculitic disease.",
+            "Eosinophils present in pleural effusion"
+          ],
+          "opposing_evidence": [
+            "No history of asthma was noted in the first stage.",
+            "No rash, no ecchymosis, no obvious abnormalities on neurologic examination, and currently no evidence of multisystem involvement.",
+            "Vital signs stable, oxygen saturation 99%, overall no clear evidence of active vasculitis in the first stage"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy specimens submitted for GM and NGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thoracentesis with drainage",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasitic antibody testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatologic and immunologic testing (ANCA, ANA, ENA, etc.)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary artery CTA, echocardiography, and lower extremity Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood abnormal cells, bone marrow aspiration biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT scan",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, further examinations were completed: CBC: eosinophil percentage 7.0%, eosinophil count 0.39×10^9/L, the remainder was basically normal. DIC panel: APTT 29.9s, PT 12.3s, INR 1.04, fibrinogen 3.7g/L, D-dimer 2.19mg/L, fibrinogen degradation products 7.6mg/L. PRO-BNP: 232.7pg/ml, myocardial proteins: normal. Fungal tests: β-D-1,3-glucan (fungal) <31.25pg/mL, Aspergillus-specific IgE 0.01KUA/L, cryptococcal latex agglutination test negative (-). T-SPOT TB infection T cells (antigen A) 0, T-SPOT TB infection T cells (antigen B) 0. Parasite antibodies: sent to the Shanghai Institute of Parasitology, all negative. ANCA: P-ANCA negative (-), PR3 10.76, MPO 0, C-ANCA negative (-). Immunology: immunoglobulin IgG 13.49g/L, immunoglobulin IgA 4.90↑g/L, immunoglobulin IgM 0.91g/L, immunoglobulin IgE 70.7IU/mL, complement C3 1.16g/L, complement C4 0.39g/L. ASO: 37kIU/L. RF: <10Ku/L. ANA/ENA: all negative. Anticardiolipin: anticardiolipin IgG/IgA/IgM antibodies all ≤9.4, anti-β2 glycoprotein 1 IgG/A/M antibodies qualitatively negative. Tumor markers: carcinoembryonic antigen 1.63ng/mL, neuron-specific enolase 16.44ng/mL, cytokeratin 19 0.94ng/mL, squamous cell carcinoma antigen 1.10ng/mL, CA125 45.0↑U/mL, CA199 6.6U/mL. Pleural effusion ultrasound: an anechoic area was seen at the right lung base within the pleural cavity, with a maximum depth of approximately 21mm, not easy to puncture; no pleural effusion on the left. Lower extremity arteriovenous ultrasound: no obvious abnormalities in blood flow parameters; deep venous flow in both lower extremities was patent. Echocardiography: no obvious abnormality. Pulmonary function: mild obstructive ventilatory dysfunction, mildly reduced diffusing capacity, both peripheral and central airway resistance were normal, bronchodilator test negative. Pulmonary artery CTA: embolism in the main trunk of the right pulmonary artery, small amount of exudation in the right lung, small right pleural effusion. Bone marrow aspiration biopsy: bone marrow smear showed active bone marrow hyperplasia, active granulocytic hyperplasia, eosinophils present. Bone marrow flow cytometry: no abnormal hematopoietic cell population identified. Pathology: in focal areas between trabeculae, trilineage hematopoietic cells were basically within the normal range, myeloid-to-erythroid ratio within the normal range, eosinophils approximately within the normal range (<5%).",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZgk8gJ0Cyics7mR707cvhdic8eDFjumGlFURyvCHlQtRxqfV5Myicx8LRA/640?wx_fmt=png",
+            "near_text": "Figure 1. Mind map",
+            "local_src": "cleaned_cases_image_cache/89fa40062e1c5a2beb9a5afd2a5534b48e7b333b.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZiaIz0jXC9GDmdb8GtMtQVyRQq0V66otM3FnyBpcL0zg4uQNC5mtU2ZA/640?wx_fmt=png",
+            "near_text": "Figure 2: Pulmonary artery CTA on Day 0 showed embolism in the main trunk of the right pulmonary artery, slight exudative opacity in the right lung, and a small right pleural effusion.",
+            "local_src": "cleaned_cases_image_cache/665a7cc513e08d8600a2be6d2d2b834ff841291e.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Infectious diseases (parasites, TB, fungi, etc.)",
+            "evidence": [
+              "Early fever; early chest CT showed inflammatory changes in the lungs"
+            ],
+            "exclusion_reasons": [
+              "Broad-spectrum anti-infective treatment at an outside hospital did not result in improvement; inflammatory changes in the right lung further increased compared with before.",
+              "All parasite antibody tests were negative",
+              "Pleural fluid ADA at the outside hospital showed no significant elevation, making tuberculous pleural effusion unlikely.",
+              "Negative G test, GM test, latex agglutination test, etc. exclude fungal infection"
+            ]
+          },
+          {
+            "name": "Neoplastic disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Repeated exfoliative cytology examinations of pleural effusion specimens submitted at an outside hospital showed no evidence of malignant cells."
+            ]
+          },
+          {
+            "name": "Primary eosinophilic disorder",
+            "evidence": [
+              "A second thoracentesis performed at an outside hospital found a marked increase in eosinophils in the pleural effusion; peripheral blood EOS% 20%; bone marrow aspiration suggested an increased eosinophil proportion."
+            ],
+            "exclusion_reasons": [
+              "On repeat complete blood count after admission, EOS% was 7%, and the eosinophil count was 0.39×10^9/L, which did not meet the criteria for eosinophilia and increased eosinophils, and was not consistent with hypereosinophilia or idiopathic hypereosinophilic syndrome."
+            ]
+          },
+          {
+            "name": "Rheumatic immune disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Rheumatologic and immunologic markers such as ANCA and ANA were all negative"
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [
+              "The patient has chest tightness/discomfort, elevated D-dimer, initially presenting with pulmonary consolidation followed by pleural effusion.",
+              "Hemorrhagic pleural effusion, elevated eosinophils, predominantly unilateral",
+              "Pulmonary artery CTA showed embolism in the main trunk of the right pulmonary artery"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Infectious diseases (parasites, TB, fungi, etc.)",
+        "evidence": [
+          "Early fever; early chest CT showed inflammatory changes in the lungs"
+        ],
+        "exclusion_reasons": [
+          "Broad-spectrum anti-infective treatment at an outside hospital did not result in improvement; inflammatory changes in the right lung further increased compared with before.",
+          "All parasite antibody tests were negative",
+          "Pleural fluid ADA at the outside hospital showed no significant elevation, making tuberculous pleural effusion unlikely.",
+          "Negative G test, GM test, latex agglutination test, etc. exclude fungal infection"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Neoplastic disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Repeated exfoliative cytology examinations of pleural effusion specimens submitted at an outside hospital showed no evidence of malignant cells."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Primary eosinophilic disorder",
+        "evidence": [
+          "A second thoracentesis performed at an outside hospital found a marked increase in eosinophils in the pleural effusion; peripheral blood EOS% 20%; bone marrow aspiration suggested an increased eosinophil proportion."
+        ],
+        "exclusion_reasons": [
+          "On repeat complete blood count after admission, EOS% was 7%, and the eosinophil count was 0.39×10^9/L, which did not meet the criteria for eosinophilia and increased eosinophils, and was not consistent with hypereosinophilia or idiopathic hypereosinophilic syndrome."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Rheumatic immune disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Rheumatologic and immunologic markers such as ANCA and ANA were all negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [
+          "The patient has chest tightness/discomfort, elevated D-dimer, initially presenting with pulmonary consolidation followed by pleural effusion.",
+          "Hemorrhagic pleural effusion, elevated eosinophils, predominantly unilateral",
+          "Pulmonary artery CTA showed embolism in the main trunk of the right pulmonary artery"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat pulmonary artery CTA",
+          "basis_in_stage3_input": "Correlate with imaging: primary lesion with expansile growth, heterogeneous central enhancement, and an indistinct interface with the vascular wall",
+          "why_order_this_exam": "The patient presented with cough and chest tightness, with a disease course of more than 1 month. Anti-infective and anti-allergic treatments were both ineffective. Although pulmonary artery CTA suggested \"embolism\" in the main trunk of the right pulmonary artery, the onset was insidious with slow progression, without typical acute pulmonary embolism-like sudden chest pain and dyspnea, and there was no definite deep venous thrombosis of the lower extremities or common thrombotic risk factors. Therefore, further detailed imaging evaluation of the lesion morphology is needed. The key is to determine whether the lesion is a simple thrombus or an intraluminal space-occupying lesion arising from the pulmonary artery. Imaging findings of a main trunk lesion, expansile growth, heterogeneous central enhancement, and an indistinct boundary with the vessel wall are more supportive of a pulmonary artery tumor rather than an ordinary thrombus. The clinical purpose of this examination is to define the location and extent of the lesion and its relationship to the vessel wall, distinguish thrombus from tumor, assess whether the main pulmonary artery and distal branches are involved, and provide a basis for subsequent decisions regarding surgery, the extent of surgical resection, and risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PET-CT",
+          "basis_in_stage3_input": "localized hypermetabolism on PET-CT, etc.",
+          "why_order_this_exam": "With the patient’s chest tightness and cough continuing to progress, anti-infective treatment ineffective, and routine screening for infection, parasites, and rheumatologic/immunologic disease all lacking supportive evidence, while pulmonary artery CTA only suggested “embolism,” PET-CT was used to further determine whether the lesion was a metabolically inactive thrombus or an intraluminal malignant lesion of the pulmonary artery with tumor biological activity. Focal hypermetabolism suggests a significantly increased likelihood of tumor and helps revise the original diagnosis of pulmonary embolism toward pulmonary artery sarcoma. On the other hand, PET-CT can also assess whether there are other hypermetabolic foci throughout the body, helping determine whether this is a primary pulmonary artery lesion or pulmonary artery involvement by metastasis/another primary tumor, thereby completing staging and guiding surgery and subsequent chemotherapy selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary angiography",
+          "basis_in_stage3_input": "Direct pulmonary artery pressure measurement after stripping: 45/11(21) mmHg",
+          "why_order_this_exam": "The lesion is located in the main trunk of the right pulmonary artery. Clinically, there is chest tightness, and imaging suggests involvement of the central great vessels. It is necessary to assess pulmonary artery outflow tract obstruction caused by the lesion and its hemodynamic impact. Direct pulmonary artery pressure measurement can objectively reflect the level of pulmonary artery pressure and the immediate hemodynamic status after surgical relief of the obstruction, determine the severity of the tumor's burden on the pulmonary circulation, and also help compare it with pulmonary hypertension after simple chronic thromboembolism. This examination is very important in the perioperative period: on the one hand, it is used to assess disease severity and surgical benefit; on the other hand, it is used intraoperatively and postoperatively to determine whether endarterectomy was adequate and whether residual obstruction remains significant, and to provide a basis for postoperative monitoring, anticoagulation, and subsequent comprehensive treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Postoperative pathology",
+          "basis_in_stage3_input": "Postoperative pathology suggested a malignant spindle cell tumor with necrosis of the \"pulmonary artery thrombus\"",
+          "why_order_this_exam": "Although the patient was initially considered to have pulmonary embolism, the clinical course was not consistent with a typical acute thrombus, and imaging had already suggested the possibility of an intraluminal space-occupying lesion; the final diagnosis still had to rely on histopathology. Postoperative pathology is the gold standard for resolving the core question of “true thrombus versus tumor embolism/primary pulmonary artery tumor.” Pathology revealed a malignant spindle cell tumor with necrosis, directly refuting the explanation of simple thromboembolic pulmonary embolism and confirming that the lesion is a malignant mesenchymal tumor. This examination is used not only for definitive diagnosis, but also to determine whether subsequent treatment should follow a sarcoma pathway, including whether adjuvant chemotherapy should be given, how prognosis should be assessed, and whether further molecular pathologic subtyping is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: Vimentin(+), CD56(+), CD99(+), MDM-2(+), CDK4(focally weak +), Ki67(approximately 30%+ in hotspot areas), SMA(-), MyoD1(-), AE1/AE3(-), Desmin(-), Myogenin(-), S-100(-), CD34(-), CD31(-), Factor 8(-), BCL-2(-), HHV-8(-), ALK-1(-)",
+          "why_order_this_exam": "Although the postoperative pathology had already indicated a malignant spindle cell tumor, the differential diagnosis of spindle cell tumors is broad, including smooth muscle origin, skeletal muscle origin, epithelial origin, neurogenic origin, vascular origin, and other undifferentiated sarcomas; therefore, further immunohistochemistry was required to clarify the direction of differentiation and exclude important differential diagnoses. In conjunction with the immunophenotype in this case, Vimentin positivity supports a mesenchymal origin; MDM2 and CDK4 expression are clues associated with pulmonary artery intimal sarcoma, whereas negative SMA, Desmin, MyoD1, and Myogenin do not support smooth muscle or skeletal muscle differentiation; negative AE1/AE3 does not support carcinoma; negative S-100 does not support neurogenic origin; and negative CD31, CD34, and Factor8 do not support a vascular endothelial origin. Ki67 of approximately 30% suggests active proliferation and is helpful in assessing the degree of malignancy. This examination directly serves pathologic classification, exclusion of differential diagnoses, and guidance of subsequent chemotherapy strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "STAB2 FISH test",
+          "basis_in_stage3_input": "STAB2 FISH test result (FISH20-1332): MDM2 gene distribution: clustered distribution; MDM2 gene test result: (+)",
+          "why_order_this_exam": "In the diagnosis of a primary malignant spindle cell tumor of the pulmonary artery, molecular pathology helps increase diagnostic confidence, especially when the morphologic features and immunohistochemistry suggest an undifferentiated sarcoma but further distinction from other spindle cell tumors is still required. The patient's lesion was located in the main pulmonary artery; imaging and PET-CT had already suggested a neoplastic lesion, and the postoperative pathology and immunohistochemistry supported a sarcoma. At this point, STAB2/MDM2-related FISH testing was performed to look for evidence of molecular abnormalities commonly seen in pulmonary artery intimal sarcoma. MDM2 positivity can serve as important molecular evidence supporting primary pulmonary artery sarcoma, especially the intimal sarcoma lineage, further strengthening the final diagnosis, reducing confusion with bland thrombus, sarcomas from other origins, or metastatic tumors, and it is of important value for subsequent pathologic grading, prognostic assessment, and formulation of a postoperative chemotherapy regimen.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The patient is a middle-aged man with no prior risk factors for thrombosis and no deep vein thrombosis of the lower extremities. The onset was insidious with slow progression, without sudden dyspnea, chest pain, or other manifestations, unlike acute thrombotic pulmonary embolism. In conjunction with imaging findings: a main pulmonary artery lesion, expansile growth, heterogeneous central enhancement, indistinct demarcation from the vessel wall, and focal hypermetabolism on PET-CT. After consultation with cardiac surgery, surgical indications were considered present. After contraindications were excluded, pulmonary artery intraluminal mass resection was performed under general anesthesia and cardiopulmonary bypass. Intraoperatively: complete endarterectomy of the pulmonary artery was performed starting to the right pulmonary artery and extending to the segmental vessel level. After endarterectomy, direct pulmonary artery pressure measurement was 45/11(21) mmHg. Postoperative pathology indicated a malignant spindle cell tumor with necrosis in the \"pulmonary artery thrombus.\" Immunohistochemistry: Vimentin(+), CD56(+), CD99(+), MDM-2(+), CDK4(focally +), Ki67(approximately 30%+ in hot spots), SMA(-), MyoD1(-), AE1/AE3(-), Desmin(-), Myogenin(-), S-100(-), CD34(-), CD31(-), Factor8(-), BCL-2(-), HHV-8, ALK-1(-). STAB2 FISH result (FISH20-1332): MDM2 gene distribution pattern: clustered distribution. MDM2 gene test result: (+).",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZl0BibKjzSVhvPZictVJbKHFIf80om8WQYVPib246siaQlgukjgrMCVlFMA/640?wx_fmt=png",
+          "near_text": "Figure 3: Padua score",
+          "local_src": "cleaned_cases_image_cache/037f02ba64b7c3480b334fef6a1774bda77120fc.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZIdsPSY5IXKRR3q1MppW0dAnMsMcLk1TzgBCYXPQrClCfq4b2HssSTQ/640?wx_fmt=png",
+          "near_text": "Figure 4: Simplified Wells score and Geneva score",
+          "local_src": "cleaned_cases_image_cache/eaed0e8b2faac24d83c1a45234a0586e1cbbd256.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZnPglSNVRPwEK8WqZiaw0Aq5qNvb6ic3LFPlKjb2X7VqQLP4s27jNic4fw/640?wx_fmt=jpeg",
+          "near_text": "Figure 6: Surgical complete endarterectomy of the pulmonary artery intima to the segmental pulmonary vessel level",
+          "local_src": "cleaned_cases_image_cache/5cbb619bc10fc77cd65974219d1c2f998876836e.jpg"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIFBDduiaRTEH4NqF7ibFUuoZlQ1JMtz5LzPk6DHnOJDAALWx2zOib4fDPPJBbyw0DGfnRrob1KHbsmw/640?wx_fmt=png",
+          "near_text": "Figure 7: Postoperative pathology",
+          "local_src": "cleaned_cases_image_cache/593d4f31ad44d8cc2b67f262e03e9e4ea3b43ab7.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Primary pulmonary artery sarcoma (high-grade undifferentiated sarcoma)",
+      "diagnostic_basis": [
+        "Postoperative pathology suggested a malignant spindle cell tumor with necrosis of the \"pulmonary artery thrombus\"",
+        "The immunohistochemical staining results did not indicate a definite line of differentiation, consistent with high-grade undifferentiated sarcoma.",
+        "FISH result: MDM2 gene test result: (+)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Low-molecular-weight heparin anticoagulant therapy",
+        "Pulmonary artery intraluminal mass resection under general anesthesia and cardiopulmonary bypass",
+        "Chemotherapy (doxorubicin 60 mg d1 + ifosfamide 2.5 g d1-3)"
+      ],
+      "treatment_response": [
+        "The patient recovered well after surgery."
+      ]
+    }
+  }
+}

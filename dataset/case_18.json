@@ -1,0 +1,412 @@
+{
+  "status": "success",
+  "case_id": "case_18",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Ms. Zhang is a 58-year-old homemaker. Her first hospitalization was 10 years ago, with the chief complaint of \"pulmonary shadow found on physical examination for 2 years, enlargement of the shadow found 1 week ago.\" Two years earlier, a chest CT during a physical examination had revealed a pulmonary shadow, and the patient had chest tightness after strenuous activity, but her activities of daily living were not affected. She had no chest pain or cough, and no fever or night sweats. The hospital recommended dynamic observation without special treatment. Over the past 2 years, intermittent follow-up chest CTs showed no significant change, but on repeat chest CT 1 week ago, the pulmonary shadow showed obvious change compared with before. The patient came to our hospital for further diagnosis and treatment, and was admitted to our department from the outpatient clinic with \"pulmonary shadow of undetermined nature.\" We first review the patient's first hospitalization 10 years ago. Since disease onset, the patient had remained conscious and clear-minded, with fair general condition, normal appetite and sleep, and normal bowel and bladder function. Her past medical history, personal history, marital and reproductive history, and family history were all unremarkable. Physical examination findings were as follows: On admission, T 36.0℃, P 72/min, R 16/min, BP 115/70mmHg; conscious and clear-minded, in fair general condition. The skin and mucous membranes of the whole body were normal, without rash or subcutaneous nodules; no enlargement of superficial lymph nodes was palpable. The thoracic cage was normal. Breath sounds in both lungs were slightly coarse, with no dry or moist rales. Heart rhythm was regular, and no pathologic murmur was heard in any valvular auscultation area. Ancillary examination findings were as follows: Chest CT showed coarse and disordered bilateral lung markings, right middle lobe bronchial stenosis, and a high-density opacity in the right middle lobe.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibDzHlD4wRkwiann8J71mO87eFeD0hF5PvoOA03XUxv4hjticZJT9yicusg/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT at first admission",
+          "local_src": "cleaned_cases_image_cache/596b27a20af76602e8af2e6da7ece94697642de6.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibgl0U5kgUr54AZW6cuJzSRelNZP1k1Z1KhYZic6WZaZI88pNwR2Bdo6A/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT at first admission",
+          "local_src": "cleaned_cases_image_cache/375cee100a64caabe1bae0580ffb5677f7b030db.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Central lung cancer (involvement of the right middle lobe bronchus with secondary middle lobe atelectasis/obstructive changes)",
+          "supporting_evidence": [
+            "The first-stage text indicated \"right middle lobe bronchial stenosis, high-density opacity in the right middle lobe\"; bronchial stenosis combined with a lobar high-density opacity suggests the possibility of an obstructive lesion.",
+            "The first-stage text indicates that pulmonary opacities have persisted for many years, and that 'on repeat chest CT 1 week ago, the pulmonary opacities were found to have changed significantly compared with before,' suggesting that a space-occupying lesion cannot be excluded.",
+            "Images from the first stage show patchy/wedge-shaped high-density opacities near the right hilum and in the right middle lobe region, with a distribution consistent with postobstructive atelectasis or obstructive inflammation of the middle lobe",
+            "The patient is 58 years old, which is an age group that warrants a high degree of vigilance for pulmonary malignancy."
+          ],
+          "opposing_evidence": [
+            "The first-stage text indicated that the lesion had “undergone intermittent follow-up chest CT over the past 2 years, with no obvious change”; the long-term relative stability is not entirely consistent with typical progressive lung cancer.",
+            "In the first-stage text, the patient had no cough, no chest pain, no fever, and no night sweats; symptoms were relatively mild.",
+            "In the first-stage physical examination, no superficial lymphadenopathy was found, and the images did not clearly show obvious enlarged mediastinal or hilar lymph nodes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Bronchial carcinoid or other low-grade malignant airway tumor (causing stenosis of the right middle lobe bronchus)",
+          "supporting_evidence": [
+            "The phase I text clearly indicates \"right middle lobe bronchial stenosis,\" consistent with obstructive findings caused by an endobronchial or bronchial wall tumor.",
+            "The text in the first stage suggests that the pulmonary opacity has been present for a relatively long time and at one point showed no significant change over a prolonged period, which is consistent with the slow growth characteristics of some low-grade malignant tumors.",
+            "Phase 1 images show the lesion near the hilum and along the course of the bronchi, with middle lobe consolidation/atelectatic high-density opacity, consistent with postobstructive changes."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the text and images did not clearly show a typical round endobronchial nodule or obvious enhancement features.",
+            "The text in the first stage did not mention common suggestive symptoms of carcinoid, such as hemoptysis.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Middle lobe syndrome (chronic bronchial obstruction with right middle lobe atelectasis/chronic inflammation)",
+          "supporting_evidence": [
+            "The first-stage text indicates \"right middle lobe bronchial stenosis, high-density opacity in the right middle lobe,\" which is one of the key imaging clues of middle lobe syndrome.",
+            "On the phase 1 images, the high-density opacity in the right middle lobe region shows a lobar distribution pattern, consistent with right middle lobe atelectasis or chronic inflammatory consolidation.",
+            "The first-stage text indicates that the lesion has persisted for many years, activities of daily living are unaffected, and the general condition is relatively stable, consistent with the clinical course of some chronic middle lobe lesions."
+          ],
+          "opposing_evidence": [
+            "The first-stage text noted, \"A repeat chest CT 1 week ago showed that the pulmonary opacity had changed significantly compared with before,\" indicating that, in addition to simple stable chronic middle lobe syndrome, a potential space-occupying cause still warrants caution.",
+            "The text from the first stage did not provide a history of recurrent cough, sputum production, or recurrent pneumonia, which does not support typical chronic inflammatory middle lobe syndrome.",
+            "The first-stage information did not explicitly describe findings of bronchiectasis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Endobronchial tuberculosis / tuberculous middle lobe lesion",
+          "supporting_evidence": [
+            "The first-stage text indicated middle lobe bronchial stenosis with a high-density opacity in the right middle lobe; TB can cause bronchial stenosis with secondary lobar atelectasis or consolidation.",
+            "The lesion follows a chronic course, may have been present for a long time previously, and is consistent with some post-TB fibrotic stenosis or a chronic tuberculous process.",
+            "The first-phase images show lesions located in the middle lobe and near the hilum; tuberculous bronchial lesions can present with a similar distribution."
+          ],
+          "opposing_evidence": [
+            "The Phase 1 text explicitly states \"no fever, no night sweats,\" which does not support the common systemic symptoms of active TB.",
+            "The first-stage text did not mention respiratory symptoms such as cough, sputum production, or hemoptysis.",
+            "The first-stage images did not clearly show more typical TB imaging signs such as cavitation and disseminated nodules."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Focal organizing pneumonia or inflammatory pseudotumor",
+          "supporting_evidence": [
+            "The phase 1 images show a focal high-density opacity in the right middle lobe, which may be seen in focal inflammation or organizing pneumonia.",
+            "The first-stage text indicates coarse, disorganized bilateral lung markings, suggesting possible chronic airway or inflammation-related changes.",
+            "In the first-stage text, the patient had no obvious cachexia, vital signs were stable, and a benign inflammatory lesion still needs to be considered."
+          ],
+          "opposing_evidence": [
+            "The first-stage text clearly indicates the presence of \"right middle lobe bronchial stenosis\"; organizing pneumonia or inflammatory pseudotumor alone is difficult to explain definite bronchial stenosis.",
+            "The first-stage text suggests that the lesion has persisted for many years and has shown marked recent changes, which is atypical for a simple inflammatory lesion.",
+            "In the first stage, there were no infectious symptoms such as fever or cough."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Right middle lobe atelectasis caused by benign bronchial stenosis or mucus plug obstruction",
+          "supporting_evidence": [
+            "The wording in the first stage directly indicates \"right middle lobe bronchial stenosis, high-density opacity in the right middle lobe,\" which may represent distal atelectasis/consolidation caused by benign stenosis or mucus plugging.",
+            "The first-phase images show that the lesion is more consistent with a high-density opacity distributed along the pulmonary lobe, rather than a clearly isolated peripheral mass, supporting the possibility of post-obstructive changes.",
+            "In the first-stage text, the patient’s long-term symptoms were mild and daily activities were essentially unaffected, consistent with the manifestations of some benign obstructive lesions."
+          ],
+          "opposing_evidence": [
+            "The Stage 1 text indicates that the lesion has shown \"significant changes\" recently; although a simple mucus plug may fluctuate, this is still insufficient to exclude a more serious organic obstructive cause.",
+            "The phase 1 text did not provide precipitating factors such as asthma, chronic sputum production, or mucus plugging after acute infection.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Fiberoptic bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood glucose",
+          "requirement": "required"
+        },
+        {
+          "exam": "contrast-enhanced chest CT",
+          "reason": "Imaging suggests stenosis of the right middle lobe bronchus",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After the patient was admitted, we immediately completed a complete blood count: WBC 4.3*10^9/L; RBC 4.35*10^12/L; hemoglobin 137.0 g/L; platelet count 138*10^9/L; hs-CRP 1.15 mg/L; ESR 11 mm/h; liver function, renal function, electrolytes, blood lipids, blood glucose, and electrolytes were all normal. To clarify the etiology, fiberoptic bronchoscopy was performed: under bronchoscopy, the trachea was patent; the mucosa of the left and right main bronchi and their lobar bronchi was thickened, with localized nodular protrusions visible; stenosis was present in the lumens of the lobar bronchi on both sides, most pronounced in the left upper lobe and the right intermediate bronchus; biopsies of the mucosa were obtained from the left upper lobe and the right intermediate bronchus.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibxqLMFF3fiaxyKpSbgQLAoXB2JvfibvZzVDtfvv60S1n2tSQA1x6ozopw/640?wx_fmt=png",
+            "near_text": "Figure 2: Bronchoscopic findings",
+            "local_src": "cleaned_cases_image_cache/41a8580dcc9f03f8cfb5b2b5e4d0f843c18fffc0.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tracheobronchial tuberculosis",
+            "evidence": [
+              "In this patient, although detected on physical examination, it cannot be completely excluded based on the bronchoscopic findings."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Tracheobronchial ossification (TO)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On bronchoscopy, the trachea was patent, no nodular protrusions were seen in the trachea, and the nodules were relatively soft, which does not support a diagnosis of TO."
+            ]
+          },
+          {
+            "name": "Relapsing polychondritis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no other systemic manifestations, and the trachea is patent without obvious collapse, which does not support a diagnosis of RPC."
+            ]
+          },
+          {
+            "name": "Tracheobronchial amyloidosis (PTBA)",
+            "evidence": [
+              "The patient had no obvious clinical manifestations and was identified on physical examination; the bronchoscopic findings could not exclude the diagnosis of PTBA."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "At present, the patient's physical examination shows no obvious clinical manifestations. Imaging findings show pulmonary consolidation, along with coarse and disordered bilateral lung markings and narrowing of the bronchial wall of the right middle lobe. Bronchoscopy shows diffuse nodules of the bronchial mucosa and multiple bronchial stenoses. Based on the clinical manifestations, imaging, and bronchoscopic examination, sarcoidosis cannot be excluded."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tracheobronchial tuberculosis",
+        "evidence": [
+          "In this patient, although detected on physical examination, it cannot be completely excluded based on the bronchoscopic findings."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Tracheobronchial ossification (TO)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "On bronchoscopy, the trachea was patent, no nodular protrusions were seen in the trachea, and the nodules were relatively soft, which does not support a diagnosis of TO."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Relapsing polychondritis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no other systemic manifestations, and the trachea is patent without obvious collapse, which does not support a diagnosis of RPC."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Tracheobronchial amyloidosis (PTBA)",
+        "evidence": [
+          "The patient had no obvious clinical manifestations and was identified on physical examination; the bronchoscopic findings could not exclude the diagnosis of PTBA."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "At present, the patient's physical examination shows no obvious clinical manifestations. Imaging findings show pulmonary consolidation, along with coarse and disordered bilateral lung markings and narrowing of the bronchial wall of the right middle lobe. Bronchoscopy shows diffuse nodules of the bronchial mucosa and multiple bronchial stenoses. Based on the clinical manifestations, imaging, and bronchoscopic examination, sarcoidosis cannot be excluded."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Histopathological examination",
+          "basis_in_stage3_input": "The histopathology results are available. Left upper lobe and right middle bronchial mucosa: granulomatous inflammation, consider TB.",
+          "why_order_this_exam": "The patient has had pulmonary opacities for many years, followed by the gradual development of chest tightness and wheezing. Repeated bronchoscopy showed diffuse nodular elevations of the bilateral bronchial mucosa with multiple areas of stenosis, and imaging also progressed from a unilateral middle lobe lesion to multiple bilateral perihilar-centered nodules and mediastinal lymphadenopathy, suggesting a persistently progressive granulomatous airway/pulmonary disease. Histopathologic examination is central to confirming the diagnosis of this type of disease; it can determine whether granulomatous inflammation is present and whether the changes are necrotizing or non-necrotizing, and it provides the basis for the differential diagnosis of TB, sarcoidosis, amyloidosis, and fungal infection, directly affecting whether subsequent treatment is anti-TB therapy or glucocorticoid/immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA test",
+          "basis_in_stage3_input": "TB-DNA testing is recommended",
+          "why_order_this_exam": "Although bronchial mucosal biopsy indicated granulomatous inflammation and TB was considered at one point, the patient lacked typical TB toxic symptoms such as fever and night sweats, inflammatory markers were also not elevated, and subsequent findings including elevated ACE and noncaseating granulomas in subcutaneous nodules provided further clues supporting sarcoidosis; therefore, it is essential to further seek direct molecular biological evidence of Mycobacterium tuberculosis. TB-DNA testing helps improve etiologic confirmation when acid-fast staining is negative and pathology shows only granulomatous inflammation, resolving the key question of \"TB or non-tuberculous granulomatous disease,\" avoiding inappropriate use of glucocorticoids leading to potential dissemination of TB, and also avoiding mistreating sarcoidosis as TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Special stains: acid-fast stain, PAS, and methenamine silver stain were all negative; Congo red stain was negative.",
+          "why_order_this_exam": "Bronchoscopy and biopsy both showed granulomatous lesions, while tracheobronchial TB has always been one of the important differential diagnoses, especially because its bronchial stenosis and nodular mucosal changes may overlap with TB. Acid-fast staining is used to directly look for mycobacteria and can help confirm or weaken the diagnosis of TB. Even if the result is negative, it can be combined with TB-DNA, T-SPOT, and acid-fast bacilli results from bronchoalveolar lavage fluid to form a chain of evidence for excluding active TB, thereby providing a safety basis for the subsequent use of glucocorticoids to treat sarcoidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "Special stains: acid-fast stain, PAS, and methenamine silver stain were all negative; Congo red stain was negative.",
+          "why_order_this_exam": "In this case, the pathology showed granulomatous inflammation, but routine pathology alone cannot fully distinguish TB, sarcoidosis, and certain infectious granulomas such as those caused by fungi. PAS staining can be used to look for clues related to certain fungi or other pathogens rich in polysaccharide components, helping to exclude an infectious etiology. For this patient with relatively atypical symptoms, a protracted disease course, and extensive imaging and airway changes, a negative PAS stain helps reduce the risk of misclassifying infectious granulomatous disease as sarcoidosis, thereby supporting subsequent immunosuppressive treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Gomori methenamine silver stain",
+          "basis_in_stage3_input": "Special stains: acid-fast stain, PAS, and methenamine silver stain were all negative; Congo red stain was negative.",
+          "why_order_this_exam": "The patient has chronic persistent granulomatous lesions in the lungs and bronchi, and fungal infection is also one of the differential diagnoses that needs to be excluded, especially when pathology shows only granulomatous inflammation and the clinical manifestations are nonspecific. Grocott's methenamine silver stain is of important value for detecting fungi and can help determine whether the lesion is a fungus-related granuloma, thereby avoiding missed diagnosis of infection and erroneous use of glucocorticoids. A negative result, together with a negative PAS stain, further increases the likelihood of noninfectious granulomatous diseases such as sarcoidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Congo red staining",
+          "basis_in_stage3_input": "Special stains: acid-fast stain, PAS, and methenamine silver stain were all negative; Congo red stain was negative.",
+          "why_order_this_exam": "In the earlier differential diagnosis, tracheobronchial amyloidosis was considered because bronchoscopy showed diffuse nodular mucosal protrusions and multiple stenoses, which bear some resemblance to amyloid deposition lesions. Congo red staining is the key test for identifying amyloid deposition and can help determine whether airway wall thickening, nodules, and stenosis are caused by amyloid deposition. A negative result can effectively exclude this important differential diagnosis and avoid proceeding down an incorrect subsequent diagnostic and treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid acid-fast bacilli test",
+          "basis_in_stage3_input": "No acid-fast bacilli were found in the bronchoalveolar lavage fluid",
+          "why_order_this_exam": "Repeated biopsies of the patient's bronchial lesions all showed granulomatous inflammation, and TB was initially considered at one point. Therefore, in addition to histopathology, bronchoscopy is also needed to obtain bronchoalveolar lavage fluid for pathogen testing to look for evidence of active airway or pulmonary parenchymal TB. This test can corroborate biopsy acid-fast staining, TB-DNA, and T-SPOT, helping to resolve whether acid-fast bacillary infection is present. No acid-fast bacilli were detected, which is of important value for excluding TB and supporting sarcoidosis, and also directly affects whether glucocorticoid therapy can be initiated relatively safely.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Angiotensin-converting enzyme test",
+          "basis_in_stage3_input": "Angiotensin-converting enzyme 154.70 U/L ↑",
+          "why_order_this_exam": "In the context of recurrent granulomatous pathology, negative TB-related tests, and imaging suggesting multiple perihilar nodules and mediastinal lymphadenopathy, it is necessary to look for systemic laboratory evidence supporting sarcoidosis. Elevated angiotensin-converting enzyme is associated with sarcoidosis activity; although nonspecific, in this case it can serve as important supportive evidence, helping shift the diagnostic consideration from TB to sarcoidosis, and it can also be used in conjunction with symptoms and imaging changes to assess disease activity and subsequent treatment response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT test",
+          "basis_in_stage3_input": "T-SPOT well A 0 SFCs/10^6 PBMC, well B 0 SFCs/10^6 PBMC",
+          "why_order_this_exam": "Because the pathology at one point suggested possible TB, while the patient lacked clear direct evidence of TB, T-SPOT, as an immunologic screening test for TB infection, is helpful in supplementing the assessment of the likelihood of TB infection. For a patient such as this case, with granulomatous lesions, significant airway involvement, and possible need for long-term glucocorticoid and methotrexate therapy, clarifying TB infection status is particularly important and can help assess the risk of initiating immunosuppressive therapy. Although a negative T-SPOT cannot absolutely exclude TB, when combined with negative TB-DNA, negative acid-fast staining, and negative lavage fluid findings, it can markedly reduce the likelihood of TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT examination",
+          "basis_in_stage3_input": "Chest CT performed at our outpatient clinic showed: 1. bilateral pulmonary inflammation, 2. enlarged cardiac silhouette, 3. slightly enlarged mediastinal lymph nodes, 4. localized bilateral pleural thickening, 5. fatty liver and a calcified focus in the right hepatic lobe",
+          "why_order_this_exam": "Initially, the patient presented only with right middle lobe bronchial stenosis and a localized high-density opacity, but during the course of the disease gradually developed chest tightness and wheezing, suggesting that the lesion may have progressed or extended in extent. Chest CT can systematically evaluate pulmonary parenchymal lesions, peribronchial changes, hilar and mediastinal lymph nodes, and assess whether there is evolution from focal obstructive changes to diffuse bilateral nodular lung lesions. This examination helps provide imaging clues in different diagnostic directions such as sarcoidosis, TB, or tumor, and determine whether further bronchoscopic re-examination, biopsy site selection, and subsequent staging evaluation are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Repeat bronchoscopy was performed: the trachea was patent; the mucosa of the left and right main bronchi was hyperemic and edematous, with rough mucosa and multiple nodular protrusions; there was bronchial wall thickening and luminal stenosis, most pronounced in the left upper lobe bronchus and the right intermediate bronchus.",
+          "why_order_this_exam": "The patient subsequently developed chest tightness and wheezing, which worsened after activity, suggesting that central airway involvement may have become more pronounced than before; in addition, there is a prior history of right middle lobe bronchial stenosis, and direct assessment of airway lesion progression is needed. Bronchoscopy allows direct visualization of the location and extent of mucosal hyperemia, edema, nodular protrusions, and multiple stenoses, to determine whether progressive airway involvement is present, and provides a basis for specimen collection for repeat biopsy and lavage fluid testing. This examination can both explain the source of symptoms and help further differentiate among airway lesions such as TB, sarcoidosis, and amyloidosis, and assess the impact of stenosis severity on treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat biopsy",
+          "basis_in_stage3_input": "Repeat biopsy; histopathology showed: histopathology (left upper lobe, right intermediate bronchial mucosa): granulomatous inflammation, TB cannot be excluded",
+          "why_order_this_exam": "After the initial evaluation, the diagnosis was still not definitively established, and the patient's symptoms progressed from being detected on physical examination to chest tightness and wheezing. Both imaging and microscopic findings suggested that the lesions persisted and were relatively extensive, and a single pathology specimen was insufficient to establish a definitive diagnosis. The purpose of repeat biopsy was to improve the reliability of the histopathologic diagnosis, confirm the nature of the granulomas, exclude sampling error, and, in combination with special stains and pathogen testing, continue to differentiate TB from sarcoidosis. Repeatedly obtaining similar pathologic results and the absence of direct evidence of TB were of key significance for ultimately establishing a diagnosis of noninfectious granulomatous disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of biopsy of a subcutaneous nodule of the head",
+          "basis_in_stage3_input": "Pathology from biopsy of a subcutaneous nodule on the head suggested: non-necrotizing granulomatous inflammation; sarcoidosis cannot be excluded; acid-fast stain negative",
+          "why_order_this_exam": "During the third hospitalization, physical examination revealed multiple subcutaneous nodules on the head, suggesting that the disease might not be limited to the lungs and bronchi, but rather that there was extrapulmonary systemic involvement. Biopsy of this newly appearing and accessible lesion site could obtain more tissue at lower risk and verify whether there was a systemic granulomatous process consistent with the intrathoracic lesions. If the pathology of the subcutaneous nodules showed non-necrotizing granulomas, this would strongly support the systemic diagnosis of sarcoidosis, help explain the longstanding recurrent thoracic and airway abnormalities, and reduce the likelihood of TB alone or localized airway disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast staining of a subcutaneous nodule on the head",
+          "basis_in_stage3_input": "Pathology from biopsy of a subcutaneous nodule on the head suggested: non-necrotizing granulomatous inflammation; sarcoidosis cannot be excluded; acid-fast stain negative",
+          "why_order_this_exam": "After biopsy of the scalp subcutaneous nodule showed granulomatous inflammation, subcutaneous TB or other mycobacterial infection still needed to be excluded first, because the patient’s prior intrathoracic lesions had consistently been difficult to distinguish from TB. Acid-fast staining of the subcutaneous nodule specimen can determine whether the extrapulmonary nodule contains acid-fast bacilli, thereby helping to confirm whether this represents systemic sarcoidosis or infectious granuloma. A negative result corroborates the multiple previous negative intrathoracic acid-fast studies and further supports a non-TB, sarcoidosis-predominant diagnostic direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat chest CT",
+          "basis_in_stage3_input": "Follow-up chest CT: multiple nodules in both lungs centered around the hila, coarse and disordered bronchial markings, thickening of the bronchovascular bundles, bronchial wall thickening and luminal narrowing, mediastinal lymphadenopathy, and calcification of some lymph nodes.",
+          "why_order_this_exam": "The patient has had a protracted course over მრण? years, with clinical manifestations gradually progressing from no obvious symptoms to chest tightness and worsening dyspnea, and the diagnosis was repeatedly weighed between TB and sarcoidosis; therefore, dynamic repeat imaging evaluation of the pattern of lesion evolution is needed. Repeat chest CT can assess whether the lesions have changed from focal right middle lobe involvement to multiple nodules in both lungs centered on the hila and distributed along the bronchovascular bundles, and can evaluate mediastinal lymph nodes, the degree of airway wall thickening, and stenosis, all of which are important bases for sarcoidosis staging and differential diagnosis. This examination can also be used for subsequent comparison of changes before and after treatment, guiding whether to initiate or adjust glucocorticoid and immunosuppressive therapy.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The histopathology results became available. Left upper lobe and right middle bronchial mucosa: granulomatous inflammation, TB considered; TB-DNA testing recommended. Special stains: acid-fast stain, PAS, and Gomori methenamine silver stain were all negative; Congo red stain was negative. TB-DNA was negative, no acid-fast bacilli were found in BALF, angiotensin-converting enzyme 154.70 U/L↑, T-SPOT well A 0 SFCs/10^6 PBMC, well B 0 SFCs/10^6 PBMC. The patient's second hospitalization was 7 years ago, 3 years after the first hospitalization, when the patient was readmitted to our hospital because of chest tightness and wheezing. Half a year before this episode, the patient had also experienced chest tightness and wheezing, which worsened after activity, but did not receive treatment. This time, chest CT performed in our outpatient clinic suggested: 1. bilateral lung inflammation, 2. enlarged cardiac silhouette, 3. slightly enlarged mediastinal lymph nodes, 4. localized bilateral pleural thickening, 5. fatty liver, calcified lesion in the right hepatic lobe. Bronchoscopy was repeated: the trachea was patent; the mucosa of the left and right main bronchi was hyperemic and edematous, indicating rough mucosa with multiple nodular protrusions; the bronchial lumen was thickened and narrowed, most prominent in the left upper lobe and right middle bronchus. Repeat biopsy and histopathology suggested: histopathology (left upper lobe and right middle bronchial mucosa): granulomatous inflammation, TB not excluded. Special stains: acid-fast stain, PAS, and Gomori methenamine silver stain were all negative; Congo red stain was negative. No acid-fast bacilli were found in BALF, TB-DNA was negative, and T-SPOT was negative. During the third hospitalization, on physical examination we found multiple subcutaneous nodules on the patient's head. Pathology of biopsy of a subcutaneous nodule on the head suggested: non-necrotizing granulomatous inflammation, sarcoidosis not excluded; acid-fast stain negative. Repeat chest CT: multiple bilateral perihilar nodules, coarse and disordered bronchial markings, thickening of the bronchovascular bundles, bronchial thickening and stenosis, mediastinal lymphadenopathy, and calcification in some lymph nodes.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnib1YFJws0S279qlW8nHcNISMItRj7plAm7xPVnULD57fPmQWsiaVHeVqQ/640?wx_fmt=png",
+          "near_text": "Figure 3: Bronchial mucosal histopathology",
+          "local_src": "cleaned_cases_image_cache/8698be838b749f7824bfe7efd2e8bc2b0c5f509e.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibxaFaQzvKIzfa6vQ7b0nK6xAfYkVicgV6YbQJ1pA29w88rHlE26TD0Aw/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT during the second hospitalization",
+          "local_src": "cleaned_cases_image_cache/d321d2105f84a39bb3276fa7ca10220669b22120.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibpicFTryWiaQcIDCNSUC24fnbgCBMZI3iaXnPZHicT1H9ha8MCYmMSGxVfg/640?wx_fmt=png",
+          "near_text": "Figure 4: Chest CT during the second hospitalization",
+          "local_src": "cleaned_cases_image_cache/659741ff5b46498d912342dda09eec9587eaecdd.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnib6XQdqp6zOYYEVsXWia3GXmZlN2I2dbq8VL1TckZo7TMzlBqudYYjGnA/640?wx_fmt=png",
+          "near_text": "Figure 5: Bronchoscopy during the second hospitalization",
+          "local_src": "cleaned_cases_image_cache/87b86036a5378c601fd5ad7386d5b2f34857693f.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibNEzT22j6IZxRkf3ibm2NSuh0lDBK7vLQB9SxcNKqamJ4ThRntfWt3Xw/640?wx_fmt=png",
+          "near_text": "Figure 6: Histopathology of the bronchial mucosa (left upper lobe, right intermediate bronchial mucosa)",
+          "local_src": "cleaned_cases_image_cache/79d6887db8ff331c37538def81e882e0f5ce9bf4.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibicGuIFG0y9ngTAPAYNZeY6sH2Yenic0xHqOOicMdFeDdO1ddG5eMzuXkQ/640?wx_fmt=png",
+          "near_text": "Figure 7: Pathology of scalp skin biopsy",
+          "local_src": "cleaned_cases_image_cache/edb9ecc4816dd0113eed00d9c5234fadcd863a31.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJf5B9kvAhGJCw1NBVImwnibjExJiaNNicoKymQGVJFDLFtAdokw5wC1Kgll7pJzOgTDnELoQAHPyL2w/640?wx_fmt=png",
+          "near_text": "Figure 8: Third CT",
+          "local_src": "cleaned_cases_image_cache/2f3599316f2b834139728e02b06478e8f1d3aee9.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary sarcoidosis (Stage II)",
+      "diagnostic_basis": [
+        "In addition to right middle lobe atelectasis on chest CT, there were also prominent multiple micronodules in both upper lungs. These micronodules were centered on the hila and distributed along the bronchovascular bundles rather than uniformly, with thickening of the central bronchovascular bundles; the imaging findings also more strongly support a diagnosis of sarcoidosis.",
+        "When bronchoalveolar lavage fluid is negative for acid-fast bacilli twice, histopathology shows negative acid-fast staining twice, T-SPOT is negative twice, and repeated evaluations fail to identify direct evidence confirming TB, this indirectly supports the diagnosis of sarcoidosis.",
+        "Elevated ACE",
+        "Pathology from biopsy of a subcutaneous nodule of the head suggests: non-necrotizing granulomatous inflammation; sarcoidosis cannot be excluded"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prednisone was given at 0.75 mg/kg/d based on the patient's body weight, along with calcium supplementation, potassium supplementation, and other treatments. Regular monitoring of blood glucose and blood pressure was recommended, and the prednisone dose was tapered by half a tablet every 2 weeks.",
+        "Methotrexate 15 mg/week was added, prednisone 1 mg/kg/d, a diabetic diet, and insulin was used to control blood glucose."
+      ],
+      "treatment_response": [
+        "During follow-up, the patient had elevated blood glucose on multiple measurements and was diagnosed with steroid-induced diabetes.",
+        "One year after discontinuing medication, chest tightness and dyspnea worsened",
+        "The patient's symptoms have improved. The patient's condition is currently stable."
+      ]
+    }
+  }
+}

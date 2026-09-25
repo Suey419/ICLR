@@ -1,0 +1,354 @@
+{
+  "status": "success",
+  "case_id": "case_1",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Male patient, 21 years old. He presented with \"shortness of breath for more than 1 month.\" More than 1 month earlier, after drinking cold water once, he suddenly developed right-sided chest pain and shortness of breath. An emergency chest CT showed right hydropneumothorax. After right closed thoracic drainage, the shortness of breath and chest pain improved. After re-expansion of the lung tissue, chest HRCT showed \"diffuse interstitial changes in both lungs and multiple pulmonary bullae in both lungs.\" He subsequently sought care at multiple hospitals without a definitive diagnosis, and he still had mild shortness of breath with activity. He was admitted from the outpatient clinic with \"multiple cystic shadows in both lungs, etiology to be determined.\" He was conscious and clear-minded, with fair general condition and appetite, and normal urination and defecation. He had previously been in good health, with no family history of hereditary disease, no history of exposure to epidemic areas or contaminated water, and no unhealthy habits such as smoking or drinking; however, his father was a long-term smoker, and his dormitory roommates smoked. Physical examination: T37.1℃. On auscultation, breath sounds were clear in both lungs, with no dry or wet rales heard. Cardiac and abdominal examinations showed no obvious abnormalities. Ancillary examinations before admission: chest CT (Day 0): right hydropneumothorax. Chest CT (Day +5): diffuse interstitial changes in both lungs and multiple pulmonary bullae in both lungs. Chest CT (Day +17): multiple pulmonary bullae in both lungs.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPybkYIOib0jy0sjk4uSgMysq5mmmicDxNnKIwPicnbqia1KicaZLkHhCcpmA/640?wx_fmt=png",
+          "near_text": "Day 0 Chest CT",
+          "local_src": "cleaned_cases_image_cache/93c78b840fe7989f31acfbf34a7f07f995a15644.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPicjhNSYTt9SZeFZ5TqISIY1FRd7LVKgRSOrpSnXicjPZmUawxZ3sycjA/640?wx_fmt=png",
+          "near_text": "Day +5 Chest CT",
+          "local_src": "cleaned_cases_image_cache/b0b761e6b37c8f7ee4662326bb393ecb8a480794.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPwQn7jkCDJia8JvSnmYLLsTHRB11iboTUibSdM3Ufe404icHMicpibfvI31VQ/640?wx_fmt=png",
+          "near_text": "Day +17 Chest CT",
+          "local_src": "cleaned_cases_image_cache/292eabfe1a07ea95192b5b69bf80bae01272e269.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGP4WJPLPQ6eTcpOt3rgJSkBTCSj2xBwx92ExYibospDib7C58nwXu7yaXQ/640?wx_fmt=png",
+          "near_text": "approximately 2 months before Day 0 chest CT",
+          "local_src": "cleaned_cases_image_cache/9d1b54869fbc60bf5b98656c2b3ab9dfe728310c.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary Langerhans cell histiocytosis (PLCH)",
+          "supporting_evidence": [
+            "A 21-year-old male, in the age group in which diffuse cystic lung disease can occur and present with spontaneous pneumothorax as the initial manifestation",
+            "The first-stage text indicated \"right hydropneumothorax,\" and after lung re-expansion, chest HRCT revealed \"diffuse interstitial changes in both lungs and multiple bullae in both lungs.\"",
+            "The accompanying images show diffuse, bilateral, multiple cystic/lucent lesions in both lungs, some of which vary in size and are not completely regular in shape, with imaging features of interstitial changes, consistent with the imaging spectrum of PLCH, which may present with coexisting nodules and cysts/irregular cystic spaces.",
+            "Mild shortness of breath after sustained activity may be seen with diffuse cystic pulmonary parenchymal involvement"
+          ],
+          "opposing_evidence": [
+            "The patient reports no unhealthy habits such as smoking or alcohol consumption, whereas PLCH is closely associated with smoking.",
+            "The first-stage information did not provide a description of typical PLCH-related nodules or a definite upper-lung-predominant distribution."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Birt-Hogg-Dubé syndrome-associated diffuse cystic lung disease",
+          "supporting_evidence": [
+            "A young man presented with a first episode of spontaneous pneumothorax, and repeated CT showed \"multiple pulmonary bullae/cystic lesions in both lungs,\" consistent with the common presentation of BHD in which lung cysts can cause pneumothorax.",
+            "The attached images show multiple thin-walled cystic lucencies in both lungs, some located in the peripheral and lower lung regions, overlapping with the common imaging appearance of multiple pulmonary cysts in BHD.",
+            "On physical examination, breath sounds were clear in both lungs, and no dry or wet rales were heard, suggesting that cystic lung disease may be more prominent than consolidative/infectious lesions."
+          ],
+          "opposing_evidence": [
+            "The past history indicates \"no family history of hereditary disease,\" which does not support a typical familial BHD background.",
+            "The phase 1 information did not provide BHD-related extrapulmonary clues such as cutaneous fibrofolliculomas and renal lesions.",
+            "The text mentions \"diffuse interstitial changes in both lungs,\" which is not typical of simple BHD pulmonary cysts."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Lymphangioleiomyomatosis (LAM)",
+          "supporting_evidence": [
+            "LAM may present with spontaneous pneumothorax, exertional dyspnea, and diffuse multiple thin-walled cystic opacities in both lungs",
+            "The phase 1 chest HRCT showed \"multiple pulmonary bullae/cystic opacities in both lungs\"; the attached images show extensive cystic changes in both lungs, which overlap with the imaging manifestations of LAM.",
+            "Basically normal pulmonary auscultation with markedly abnormal imaging findings can also be seen in diffuse cystic lung diseases such as LAM."
+          ],
+          "opposing_evidence": [
+            "The patient is male, whereas LAM is seen predominantly in women of childbearing age.",
+            "The phase 1 information did not provide clues supporting LAM, such as chylothorax, renal angiomyolipoma, or tuberous sclerosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Lymphocytic interstitial pneumonia (LIP) / other immune-related diffuse cystic lung disease",
+          "supporting_evidence": [
+            "The first-stage text prompt indicated \"diffuse interstitial changes in both lungs and multiple pulmonary bullae in both lungs\"; the accompanying image also showed diffuse interstitial abnormalities with multiple cystic changes, and diseases such as LIP can present with this combination.",
+            "Mild shortness of breath on exertion is consistent with diffuse interstitial lung involvement",
+            "When breath sounds are clear bilaterally and there are no obvious signs of infection, immune-related or interstitial cystic lung disease should still be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "The patient is a young man; the stage 1 information did not provide a history of Sjögren syndrome, HIV infection, autoimmune disease, or immunologic abnormalities.",
+            "No accompanying manifestations such as fever, cough, or crackles, and lacks support from the common clinical background of LIP"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Primary bullous lung disease/early-onset emphysema (including α1-antitrypsin deficiency-related)",
+          "supporting_evidence": [
+            "Chest CT (Day +5, and Day +17) both showed \"multiple pulmonary bullae in both lungs\"",
+            "In young patients with right-sided pneumothorax, rupture of a pulmonary bulla is a direct and common mechanism.",
+            "The attached images show multiple lucent areas/cystic changes in both lungs, some of which may be consistent with pulmonary bullae or emphysematous changes.",
+            "The patient has a history of passive smoke exposure: father is a long-term smoker, and roommate smokes."
+          ],
+          "opposing_evidence": [
+            "The patient has no personal history of smoking, and the onset of extensive bilateral lung lesions at age 21 is not consistent with the typical background of common smoking-related emphysema.",
+            "The first stage also suggested \"diffuse bilateral interstitial changes,\" which is less typical of simple primary pulmonary bullous disease or emphysema.",
+            "The phase I information did not provide clues supporting alpha-1 antitrypsin deficiency, such as liver disease or a family history of early-onset emphysema."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Infection-related cystic lung disease/pulmonary cystic changes (e.g., pneumatoceles after Pneumocystis pneumonia, etc.)",
+          "supporting_evidence": [
+            "The attached image shows diffuse cystic changes in both lungs; after some infections, residual or newly formed cystic/pneumatocele-like lesions may occur and lead to pneumothorax.",
+            "The first-stage text includes \"diffuse interstitial changes in both lungs\"; some infectious interstitial pneumonias may have similar baseline imaging findings."
+          ],
+          "opposing_evidence": [
+            "The patient had no fever, with a temperature of 37.1℃; no dry or moist rales were heard on auscultation; mental status and appetite were fairly good, which does not support active infection.",
+            "Stage 1 information did not provide cough, sputum production, immunosuppression, HIV-related medical history, or laboratory evidence of infection.",
+            "Imaging was repeatedly described as \"multiple bilateral pulmonary bullae/cystic lesions,\" more suggestive of chronic cystic lung disease than of an acute infectious process"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Follow-up high-resolution chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB infection-specific T lymphocytes",
+          "requirement": "optional"
+        },
+        {
+          "exam": "comprehensive autoimmune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatologic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-neutrophil antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "reason": "Multiple cystic lesions in both lungs; no pneumothorax on recent follow-up chest CT",
+          "basis_in_stage3_input": "",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, repeat chest CT (Day +43): 1. Diffuse cystic lesions in both lungs (more prominent in the peripheral lungs and lower lung fields), with some honeycomb-like changes and multiple small nodular opacities; 2. Bilateral pleural thickening and adhesions. PFT suggested mixed ventilatory dysfunction (FEV1/FVC 69.04%, FEV1%pred 35.3%), with decreased diffusing capacity. Arterial blood gas analysis showed (without oxygen inhalation): PH 7.453, PCO2 35.6 mmHg, PO2 67.4 mmHg, SaO2 93.9%. Abdominal color Doppler ultrasound suggested no abnormalities in the liver, gallbladder, pancreas, spleen, or bilateral kidneys. Echocardiography suggested mild tricuspid regurgitation. TB infection-specific T lymphocytes were negative, and Mycobacterium tuberculosis antibody was negative. EBV DNA and cytomegalovirus quantitation were normal. Comprehensive autoimmune panel, rheumatologic panel, and anti-neutrophil antibodies were all normal. Tumor markers: carcinoembryonic antigen was normal, neuron-specific enolase 37.36 ng/ml mildly ↑, non-small cell lung cancer-associated antigen 3.56 ng/ml mildly ↑, carbohydrate antigen 125 75.47 ng/ml mildly ↑. Thyroid function panel: TSH 6.06 uIU/ml mildly ↑. Serum cortisol (CORT) 667.10 nmol/L mildly ↑. Six sex hormone tests: estradiol (E2) <5.00 pg/ml ↓, follicle-stimulating hormone (FSH) 0.70 mIU/ml ↓, prolactin (PRL) 18.21 ng/ml ↑, testosterone (TESTO) 21.36 ng/dl ↓, progesterone (PROG) 0.243 ng/ml, luteinizing hormone (LH) 2.39 mIU/ml. Contrast-enhanced pituitary MRI suggested thickening of the pituitary stalk with heterogeneous enhancement. Fluoroscopic X-ray of the skull and axial bones showed no abnormalities.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPbA8OUPsGAAzCA21A5MNSH7icZUTgqYaU1EyicI5D8Jo2hVDly5nolyWA/640?wx_fmt=png",
+            "near_text": "Day +43 Chest CT",
+            "local_src": "cleaned_cases_image_cache/597ddaaf6838b79238ce24cca725adbac9393cbe.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPrGNibH63MvXqXVXTOlrk89AgLCDN5Yoia4W9hfBAAlHGZ14DsOSH9YPQ/640?wx_fmt=png",
+            "near_text": "Day +50 pituitary contrast-enhanced MRI",
+            "local_src": "cleaned_cases_image_cache/90e237f443db92f9f2f7f9727b9969ad9c91e659.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary Langerhans cell histiocytosis (LCH)",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Lymphangioleiomyomatosis (LAM)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "This patient is not a woman of childbearing age.",
+              "Chest CT: non-uniformly distributed thin-walled cystic opacities"
+            ]
+          },
+          {
+            "name": "Lymphocytic interstitial pneumonia (LIP)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No concomitant systemic disease or connective tissue disease",
+              "Chest CT also does not demonstrate the pattern of large, sparse cysts."
+            ]
+          },
+          {
+            "name": "Lipoid granulomatosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No osteosclerosis of the long bones"
+            ]
+          },
+          {
+            "name": "Birt-Hogg-Dubé syndrome",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No fibrofolliculomas and renal cell carcinoma"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary Langerhans cell histiocytosis (LCH)",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphangioleiomyomatosis (LAM)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "This patient is not a woman of childbearing age.",
+          "Chest CT: non-uniformly distributed thin-walled cystic opacities"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lymphocytic interstitial pneumonia (LIP)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No concomitant systemic disease or connective tissue disease",
+          "Chest CT also does not demonstrate the pattern of large, sparse cysts."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Lipoid granulomatosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No osteosclerosis of the long bones"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Birt-Hogg-Dubé syndrome",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No fibrofolliculomas and renal cell carcinoma"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Head MRI",
+          "basis_in_stage3_input": "Brain MRI suggested thickening of the pituitary stalk",
+          "why_order_this_exam": "The patient had already developed marked polydipsia and polyuria 4 years earlier, which still persisted 2 years ago, accompanied by a urine specific gravity of 1.000, suggesting possible central diabetes insipidus; at the same time, sex hormone testing showed decreased follicle-stimulating hormone and testosterone, and subsequent data also showed heterogeneous enhancement of the pituitary stalk and abnormalities in TSH and prolactin, suggesting involvement of the hypothalamic-pituitary axis. Brain MRI was used to directly assess whether there were infiltrative lesions involving the pituitary infundibulum/pituitary stalk and hypothalamic region, to determine the extent and activity of the lesions, and, together with clues from pulmonary cystic lesions, multiple small nodules, and scalp lesions, to help support a multisystem disease such as LCH, while excluding other differential diagnoses causing pituitary stalk thickening, such as germinoma, inflammatory lesions, or other infiltrative lesions, thereby providing a basis for subsequent endocrine evaluation and treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine specific gravity",
+          "basis_in_stage3_input": "Urine specific gravity was 1.000",
+          "why_order_this_exam": "The patient has a many-year history of polydipsia and polyuria, with water intake up to 4500 ml/day. In conjunction with thickening of the pituitary stalk, it is first necessary to determine whether there is a marked impairment of urinary concentrating function. Urine specific gravity is an important basic test for diagnosing diabetes insipidus; a result of 1.000 is consistent with extremely dilute urine and can provide objective support for central diabetes insipidus. The core question this test is intended to address is whether the patient's polydipsia and polyuria are caused by involvement of the hypothalamic-posterior pituitary axis, rather than simple psychogenic polydipsia or other causes. Clarifying this not only helps link the pulmonary lesion and the pituitary lesion as manifestations of the same systemic disease, but also helps assess the risk of water-electrolyte imbalance and guide subsequent endocrine replacement and the overall treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sex hormone testing",
+          "basis_in_stage3_input": "Sex hormone testing showed low follicle-stimulating hormone and testosterone.",
+          "why_order_this_exam": "The patient is a 21-year-old young man. In addition to polydipsia and polyuria, he has already developed decreased follicle-stimulating hormone and testosterone, and elevated prolactin may also be seen subsequently, suggesting that anterior pituitary function may also be involved. The purpose of sex hormone testing is to determine whether secondary hypogonadism is present and to clarify whether a pituitary stalk/hypothalamic lesion has already caused dysfunction of the endocrine axis. Combined with the results of brain MRI and urine specific gravity, this test can unify the diffuse cystic lung disease, multisystem involvement, and endocrine abnormalities, strengthening support for LCH, while also helping to exclude a purely localized pulmonary disease. Its results are also related to whether further pituitary function assessment, hormone replacement, and long-term follow-up will be needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "X-ray of the skull and axial skeleton",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "thyroid function tests",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "required"
+        },
+        {
+          "exam": "Surgical thoracoscopic lung biopsy or lung needle biopsy",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On further history-taking, 4 years earlier (2013), the patient had polydipsia and polyuria, with daily water intake reaching up to 4500 ml. 2 years earlier (approximately 22 months before Day 0), polydipsia and polyuria were still present, accompanied by a mild dry cough; brain MRI indicated thickening of the pituitary stalk, urine specific gravity was 1.000, and सेक्स hormone testing indicated low follicle-stimulating hormone and testosterone. 8 months earlier (approximately 2 months before Day 0), the dry cough worsened; chest CT showed multiple tiny nodular opacities in both lungs, as well as multiple round lucent areas without pulmonary markings; at the same time, scalp pruritus developed and was diagnosed as seborrheic dermatitis, which completely resolved after topical medication. Lung puncture biopsy or surgical thoracoscopic lung biopsy was recommended to further clarify the diagnosis, but the family refused.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI9KRy4xGibFbQKxOmj4bsGPkAia9vdibv4JSqwaZTunsXNH2N8ibIKbrZ9Wux48d4d750hmduheq5mEg/640?wx_fmt=png",
+          "near_text": "1:30 AM on the second day (Day +55)",
+          "local_src": "cleaned_cases_image_cache/d3d022ba3d933f9aa54bbae7f81be6a88e49f254.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Langerhans cell histiocytosis (LCH)",
+      "diagnostic_basis": [
+        "Young male, with a history of secondhand smoke exposure",
+        "Multisystem involvement, including polydipsia and polyuria, thickening of the pituitary stalk with heterogeneous enhancement, seborrheic dermatitis, and multiple nodules and cystic opacities in both lungs",
+        "Urine specific gravity was 1.000; sex hormone testing suggested hypogonadism; thyroid function tests showed subclinical hypothyroidism.",
+        "On early chest CT, numerous small nodules can be seen; as the disease progresses, cystic opacities gradually increase, ultimately presenting as honeycomb lung.",
+        "Inflammation, tumor, TB, autoimmune diseases, and other bilateral cystic lung diseases were excluded."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Prednisone 30 mg PO QD",
+        "Acid suppression, potassium supplementation, and gastric mucosal protection therapy",
+        "Left chest tube insertion and left closed thoracic drainage",
+        "Right closed thoracic drainage",
+        "susceptibility-guided antibiotic therapy",
+        "bedside negative-pressure suction",
+        "Oxygen inhalation"
+      ],
+      "treatment_response": [
+        "On Day +54, the patient developed sudden chest tightness, shortness of breath, and dyspnea; pulse oximetry decreased to 74%, with a left pneumothorax. After left thoracic tube placement with evacuation of air, pulse oximetry increased to 83%; subsequently, left closed thoracic drainage was performed, pulse oximetry increased to 90%, and shortness of breath improved.",
+        "On Day +55, dyspnea recurred; the right lung was nearly 90% collapsed, and right closed thoracic drainage was performed.",
+        "Subsequently, fever developed. Sputum culture grew antibiotic-susceptible Acinetobacter baumannii, and body temperature gradually decreased after treatment with susceptible antibiotics.",
+        "Closed chest drainage did not achieve lung re-expansion; the right lung was not fully re-expanded, the left lung was compressed again by nearly 15%, and bedside negative-pressure suction was ineffective.",
+        "Subcutaneous crepitus was palpable in the neck and anterior chest. Repeat frontal chest radiograph showed bilateral pneumothoraces. There was continuous bubbling in the drainage tube, possibly indicating a communicating pneumothorax and/or ongoing alveolar rupture.",
+        "Repeat bedside frontal chest radiograph on Day +65 showed bilateral pneumothoraces, subcutaneous emphysema, and suspected pneumomediastinum. Ultimately, the patient was transferred back to the local hospital for treatment."
+      ]
+    }
+  }
+}

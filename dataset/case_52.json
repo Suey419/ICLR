@@ -1,0 +1,486 @@
+{
+  "status": "success",
+  "case_id": "case_52",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 50-year-old male patient from Ziyang, Sichuan Province, was admitted to the Department of Respiratory Medicine of our hospital in around Day 0 with the chief complaint of \"chest tightness and shortness of breath for 8 months.\" Eight months before admission, the patient developed chest tightness and shortness of breath without an obvious precipitating cause, with worsening after activity. He occasionally had cough with a small amount of thin white sputum, accompanied by poor appetite and weight loss, without afternoon low-grade fever, night sweats, hemoptysis, or chest pain. He was treated at a local hospital, where an outside chest CT indicated \"bilateral pleural effusion, pericardial effusion, and bilateral lung infection.\" Pathology from pleural biopsy indicated \"scant inflammatory cell infiltration.\" He received diuretic and anti-infective treatment outside the hospital; the specific medications are unknown. After treatment, his symptoms did not improve significantly. Since disease onset, his general mental status was fairly good, but his appetite was poor; sleep, urination, and bowel movements were normal; body weight decreased by approximately 8 kg. The patient had no significant past medical history, denied TB and close contact history, and had no history of drug allergy. He had no smoking, alcohol, or tea habits. His marital/fertility history and family history were unremarkable. After admission, a routine physical examination was first performed: his vital signs were stable, with a chronic ill appearance, and no superficial lymphadenopathy. Cardiac dullness was not enlarged, heart rhythm was regular, heart sounds were distant, and no murmurs were heard in any valve auscultation area. Percussion over both lower lungs was dull, breath sounds over both lower lungs were decreased, and no dry or wet rales were heard. The abdomen was soft, the liver and spleen were not palpable below the costal margin, and there was mild pitting edema of both lower extremities. An outside chest CT indicated: bilateral pleural effusion, pericardial effusion, and a few infectious foci in both lungs.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4jJBjUtaYSZ7X4KMZcM52uNiaWuiap58MXR4EBWwmQricDiaibKc8TkCeicHQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT, approximately 2 months before Day 0",
+          "local_src": "cleaned_cases_image_cache/8defdf8cc7ce81ac41d973d56968e82783d6e8e1.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Malignant tumor-related serous cavity effusion (lung cancer/pleural metastasis/malignant mesothelial-related lesions, etc.)",
+          "supporting_evidence": [
+            "50-year-old man with chest tightness and shortness of breath for 8 months, with a chronic progressive course",
+            "Accompanied by poor appetite, weight loss, and an approximately 8 kg decrease in body weight, suggesting the possibility of a wasting disease",
+            "Outside-hospital chest CT showed bilateral pleural effusions and pericardial effusion, suggesting involvement of multiple serous cavities, which can be seen in malignancy-associated serositis",
+            "Pleural biopsy pathology showed only \"scant inflammatory cell infiltration\" and did not identify a definite benign etiology; a malignant lesion cannot be excluded in the setting of insufficient sampling.",
+            "The images show obvious bilateral pleural effusions, with compressive atelectatic/consolidation-like changes in the lower lungs, consistent with one of the common imaging manifestations of malignant pleural effusion.",
+            "After anti-infective and diuretic therapy, symptoms did not improve significantly, which does not support a cause of simple infection alone or simple volume overload alone."
+          ],
+          "opposing_evidence": [
+            "No clear evidence of a primary tumor was provided in the first-stage information, such as an intrapulmonary mass, pleural nodules, mediastinal lymphadenopathy, or tumor cytology results.",
+            "No superficial lymphadenopathy"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleuritis/pericarditis (tuberculous polyserous cavity effusion)",
+          "supporting_evidence": [
+            "The patient is from a region where TB remains relatively common, with a chronic course of 8 months.",
+            "Pleural effusion with pericardial effusion; TB can simultaneously involve the pleura and pericardium",
+            "Accompanied by weight loss and poor appetite, consistent with manifestations of chronic infectious disease",
+            "Pleural biopsy showed \"a small amount of inflammatory cell infiltration\"; although nonspecific, this may be seen when sampling is insufficient in tuberculous pleuritis",
+            "After anti-infective treatment, there was no significant relief of symptoms; noncommon bacterial infection such as TB cannot be excluded."
+          ],
+          "opposing_evidence": [
+            "Denies a history of TB and close contact with TB.",
+            "No common accompanying symptoms of TB such as low-grade afternoon fever, night sweats, or hemoptysis",
+            "In phase 1 information, no evidence was provided of caseous necrosis on pleural biopsy, granuloma, or imaging findings typical of TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Congestive heart failure or other cardiogenic serous cavity effusion",
+          "supporting_evidence": [
+            "Chief complaint of chest tightness and shortness of breath, worsening after exertion, consistent with common manifestations of cardiac insufficiency",
+            "There are bilateral pleural effusions, pericardial effusion, and mild pitting edema of both lower extremities, suggesting possible systemic circulation/serosal cavity congestion.",
+            "Physical examination: muffled heart sounds; dullness to percussion and decreased breath sounds in both lower lungs, consistent with a large pleural effusion.",
+            "Imaging shows relatively large bilateral pleural effusions, which may be seen in cardiogenic effusions"
+          ],
+          "opposing_evidence": [
+            "Cardiac silhouette not enlarged; no obvious cardiomegaly described",
+            "After diuretic therapy, the symptoms did not improve significantly, which does not support typical isolated heart failure.",
+            "In phase 1, no history was provided of underlying heart disease such as hypertension, coronary artery disease, or valvular heart disease.",
+            "Accompanied by marked emaciation and weight loss of approximately 8 kg, which is less consistent with the initial presentation of simple heart failure"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pleural effusion/pericardial effusion caused by lymphoma or other hematologic malignancies",
+          "supporting_evidence": [
+            "Chronic course, accompanied by emaciation, poor appetite, and weight loss of approximately 8 kg",
+            "Bilateral pleural effusion with pericardial effusion can be seen in serosal involvement by hematologic malignancies such as lymphoma",
+            "No significant improvement with standard anti-infective treatment, suggesting a cause not attributable solely to infection"
+          ],
+          "opposing_evidence": [
+            "No superficial lymphadenopathy",
+            "On abdominal examination, the liver and spleen were not palpable below the costal margin, with no evidence of obvious hepatosplenomegaly.",
+            "No imaging evidence of mediastinal or hilar lymphadenopathy, etc., was provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Hypoproteinemia-related pleural effusion (caused by malnutrition, liver disease, kidney disease, etc.)",
+          "supporting_evidence": [
+            "The patient has poor appetite and emaciation, with a weight loss of approximately 8 kg, suggesting possible poor nutritional status.",
+            "Bilateral pleural effusions and mild pitting edema of both lower extremities may be seen in hypoalbuminemia."
+          ],
+          "opposing_evidence": [
+            "Concomitant pericardial effusion, although it can be seen in hypoalbuminemic states, warrants vigilance for more strongly suggestive systemic or neoplastic etiologies.",
+            "On abdominal examination, the liver and spleen were not palpable below the costal margin. In phase 1, no evidence of liver disease, kidney disease, ascites, or substantial protein loss was provided.",
+            "Pleural biopsy showed inflammatory cell infiltration, which is not entirely consistent with a simple low-protein transudative effusion"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Polyserous cavity effusions caused by systemic diseases such as connective tissue disease or hypothyroidism",
+          "supporting_evidence": [
+            "Bilateral pleural effusions combined with pericardial effusion suggest the possibility of a systemic etiology",
+            "The disease course has been chronically prolonged, with no significant symptom relief after anti-infective therapy and diuresis."
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide clues suggestive of connective tissue disease, such as arthralgia, rash, oral ulcers, and Raynaud phenomenon.",
+            "Phase 1 information did not provide clues suggestive of hypothyroidism such as chills, fatigue, myxedema, and constipation",
+            "No definite past medical history or family history supporting this type of disease"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "pre-transfusion panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine urine and stool tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infection-related markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immune-related indicators",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the thoracic cavity, abdominal cavity, and pericardial cavity",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasonography of superficial lymph nodes throughout the body",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Flexible bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "thoracentesis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Further evaluation after admission was as follows: Routine tests: [CBC] HGB 109 g/L; [Coagulation panel] normal; [Biochemistry] ALB 32.5 g/L, AST, ALT, bilirubin, and renal function normal; [Pre-transfusion infectious disease panel] hepatitis B, hepatitis C, HIV, syphilis (-); [Thyroid function] normal; [Cardiac biomarkers] BNP 1263 (0-88 pg/ml); [Urinalysis and stool routine] normal. Infection-related markers: ESR 38 mm/h, CRP 2.26 mg/L, IL6 5.01 pg/ml, PCT 0.02 ng/ml; T-SPOT (-), PPD skin test (+); G test (-), GM test (-); sputum smear for acid-fast bacilli and sputum bacterial/fungal cultures were all negative. Tumor-related markers: [Tumor markers] CA125 105 U/L (<35 U/ml); CEA, NSE, CYFRA21-1, CA199, PSA, and AFP were all normal. Immune-related markers: ANA, ENA (-); ANCA (-); anticardiolipin antibody (-). Thoracic/abdominal/pericardial ultrasonography: bilateral pleural effusion (7.4/7.2 cm), pericardial effusion, no ascites. Superficial lymph node ultrasonography of the whole body: lymph nodes were seen in the bilateral cervical/supraclavicular/axillary/inguinal regions, with no structural abnormalities. Abdominal ultrasonography: solid nodule in the right hepatic lobe? intrahepatic and extrahepatic bile duct dilation, splenomegaly. Chest CT: scattered inflammatory patchy opacities in both lungs; partial atelectasis in the bilateral lower lobes, right middle lobe, and lingular segment of the left upper lobe. Bilateral moderate pleural effusions, small pericardial effusion. Swelling of the subcutaneous fat spaces of the chest wall. Dilated pulmonary artery. Increased mediastinal and bilateral axillary lymph nodes. Fiberoptic bronchoscopy: no abnormalities seen in the lumens of the bronchi at all levels bilaterally. Echocardiography: left atrial enlargement, marked left ventricular hypertrophy, widening of the aorta and pulmonary artery. Cardiology consultation: hypertrophic non-obstructive cardiomyopathy was considered. Thoracentesis results: pleural fluid/serum protein = 0.52; pleural fluid/serum LDH = 0.607, indicating exudative pleural effusion. Pleural biopsy: submitted pleural tissue showed a small amount of lymphocytic infiltration.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J44kCrP4gVhvydU6rNzEz68Tzibb59NKmhK1KhLF3zl7TlicGDNiaG3jwGg/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT, around Day 0",
+            "local_src": "cleaned_cases_image_cache/5a86e6d1da9584bcd1dc3e4164b887ab6d2a6ad2.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4y09zU18hy1Xaq3rOLXpXjZuxY6rRyINDJ8uCxm5s6CVUfPsXeBQaCg/640?wx_fmt=png",
+            "near_text": "Thoracentesis results:",
+            "local_src": "cleaned_cases_image_cache/79ef5835a82e7870a8facbf5dc10ba620b59ae1b.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4icEoYiamnEQTdJAVXJUEoPV86m5aURwUsticg30xvf56hiagvLHPQRmBWw/640?wx_fmt=png",
+            "near_text": "Pleural biopsy:",
+            "local_src": "cleaned_cases_image_cache/44b43b22206d5566d831639be4b6907a6feb1763.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJCBzaNj1VxXpptzxtO60J4sxXpqAg35YXSl12sMzFaiaLTWS4QREYGRZA5zW0INIicDzKt8gqGc43Q/640?wx_fmt=jpeg",
+            "near_text": "3",
+            "local_src": "cleaned_cases_image_cache/511d562d37af01d1ef410438abf0eaa974318a6a.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tuberculous pleurisy",
+            "evidence": [
+              "The patient has clinical manifestations such as cough, sputum production, poor appetite, and weight loss.",
+              "Elevated erythrocyte sedimentation rate",
+              "Positive PPD skin test",
+              "Pleural effusion was yellow and exudative, predominantly mononuclear cells",
+              "Pleural biopsy: scant lymphocytic infiltration"
+            ],
+            "exclusion_reasons": [
+              "The patient has no constitutional symptoms of TB.",
+              "Pleural biopsy results did not indicate typical pathologic features of TB"
+            ]
+          },
+          {
+            "name": "Malignant pleural effusion caused by tumor",
+            "evidence": [
+              "Exudative pleural effusion, predominantly mononuclear cells",
+              "Elevated tumor marker CA-125"
+            ],
+            "exclusion_reasons": [
+              "No evidence of a primary tumor",
+              "All other tumor markers were within normal limits",
+              "Chest CT does not show imaging features consistent with malignant pleural disease",
+              "No malignant cells were found on pleural effusion exfoliative cytology or pleural biopsy."
+            ]
+          },
+          {
+            "name": "Autoimmune disease",
+            "evidence": [
+              "The patient has bilateral pleural effusions and pericardial effusion.",
+              "Decreased serum albumin level",
+              "Mild anemia",
+              "Abdominal color Doppler ultrasound suggested a solid nodule in the right hepatic lobe? Intrahepatic and extrahepatic bile duct dilatation, splenomegaly",
+              "Echocardiography suggests left ventricular hypertrophy"
+            ],
+            "exclusion_reasons": [
+              "No common manifestations of autoimmune disease such as rash, arthralgia, photosensitivity, dry mouth, or dry eyes",
+              "Laboratory tests: ANA, ENA, and ANCA all negative (-)"
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Bilateral pleural effusion and pericardial effusion",
+              "Decreased serum albumin level",
+              "Mild anemia",
+              "Abdominal color Doppler ultrasound: solid nodule in the right hepatic lobe? Intrahepatic and extrahepatic bile duct dilatation, splenomegaly",
+              "Echocardiography: left ventricular hypertrophy"
+            ],
+            "exclusion_reasons": [
+              "Histopathologic findings of the involved organ"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tuberculous pleurisy",
+        "evidence": [
+          "The patient has clinical manifestations such as cough, sputum production, poor appetite, and weight loss.",
+          "Elevated erythrocyte sedimentation rate",
+          "Positive PPD skin test",
+          "Pleural effusion was yellow and exudative, predominantly mononuclear cells",
+          "Pleural biopsy: scant lymphocytic infiltration"
+        ],
+        "exclusion_reasons": [
+          "The patient has no constitutional symptoms of TB.",
+          "Pleural biopsy results did not indicate typical pathologic features of TB"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant pleural effusion caused by tumor",
+        "evidence": [
+          "Exudative pleural effusion, predominantly mononuclear cells",
+          "Elevated tumor marker CA-125"
+        ],
+        "exclusion_reasons": [
+          "No evidence of a primary tumor",
+          "All other tumor markers were within normal limits",
+          "Chest CT does not show imaging features consistent with malignant pleural disease",
+          "No malignant cells were found on pleural effusion exfoliative cytology or pleural biopsy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Autoimmune disease",
+        "evidence": [
+          "The patient has bilateral pleural effusions and pericardial effusion.",
+          "Decreased serum albumin level",
+          "Mild anemia",
+          "Abdominal color Doppler ultrasound suggested a solid nodule in the right hepatic lobe? Intrahepatic and extrahepatic bile duct dilatation, splenomegaly",
+          "Echocardiography suggests left ventricular hypertrophy"
+        ],
+        "exclusion_reasons": [
+          "No common manifestations of autoimmune disease such as rash, arthralgia, photosensitivity, dry mouth, or dry eyes",
+          "Laboratory tests: ANA, ENA, and ANCA all negative (-)"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Bilateral pleural effusion and pericardial effusion",
+          "Decreased serum albumin level",
+          "Mild anemia",
+          "Abdominal color Doppler ultrasound: solid nodule in the right hepatic lobe? Intrahepatic and extrahepatic bile duct dilatation, splenomegaly",
+          "Echocardiography: left ventricular hypertrophy"
+        ],
+        "exclusion_reasons": [
+          "Histopathologic findings of the involved organ"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT showed no obvious absorption of bilateral pleural effusions and pericardial effusion.",
+          "why_order_this_exam": "The patient has had chest tightness and shortness of breath for 8 months, worsening after activity. Earlier treatment for infection and volume overload was ineffective, and symptoms still did not improve after 2 months of diagnostic anti-TB therapy. Dynamic evaluation with chest CT is needed to assess changes in bilateral pleural effusions, pericardial effusion, and atelectasis/inflammatory opacities. The core clinical question of this examination is to determine whether the lesions have responded to prior treatment, whether they still support TB or common infection, and whether there is malignant disease or pleural/pericardial involvement related to a systemic disease. In conjunction with prior CT findings including bilateral pleural effusions, a small pericardial effusion, increased mediastinal and axillary lymph nodes, and enlargement of the pulmonary artery, repeat CT may help indicate whether the original diagnostic direction was incorrect and provide a basis for whether to continue anti-TB therapy and whether to further perform invasive sampling and screening for systemic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "thoracentesis",
+          "basis_in_stage3_input": "Thoracentesis was performed again; the pleural fluid was chylous in appearance, suggesting an exudate.",
+          "why_order_this_exam": "The patient has persistent bilateral pleural effusions causing chest tightness and dyspnea. Previously, the pleural fluid was only known to be an exudate, and pleural biopsy did not identify the etiology. After ineffective anti-TB treatment, it was necessary to reassess the nature of the pleural effusion. Repeat thoracentesis had a therapeutic role in relieving symptoms, but more importantly addressed the etiologic question of the pleural effusion: to determine whether it remained tuberculous or malignant pleural effusion, or whether a special type of effusion such as chylothorax was present. This time, the pleural fluid was found to be chylous in appearance and to be an exudate, which directly changed the direction of the differential diagnosis, making simple TB, common infection, and typical heart failure-related transudative effusion less supported, and suggesting the need to consider lymphatic drainage obstruction, systemic amyloidosis, and clonal hematologic disorders. This examination has critical value for reconstructing the diagnostic pathway and for subsequent selection of tissue biopsy and hematologic evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tongue muscle biopsy",
+          "basis_in_stage3_input": "We performed a tongue muscle biopsy on the patient; Congo red staining (+).",
+          "why_order_this_exam": "Upon further questioning of the medical history, it was found that since 2014 the patient had thickening and redness of the tongue, tongue stiffness, and impaired speech, swallowing, and chewing, with no significant improvement for 1-2 years; this was an important systemic clue beyond the common causes of pleural effusion. The patient also had bilateral pleural effusions, pericardial effusion, marked left ventricular hypertrophy, mild anemia, splenomegaly, and weight loss, suggesting a possible infiltrative disease involving multiple organs. Tongue enlargement is an involved site that is easily accessible for sampling. The clinical purpose of tongue muscle biopsy was to directly look for histologic evidence and determine whether amyloid deposition was present, rather than continuing to remain at the level of nonspecific differential diagnosis such as TB and malignancy. This examination could provide the basis for pathologic confirmation and was the key step in shifting from long-term unexplained polyserous cavity effusions to the diagnosis of systemic amyloidosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Congo red staining",
+          "basis_in_stage3_input": "We performed a tongue muscle biopsy on the patient; Congo red staining (+).",
+          "why_order_this_exam": "Tongue muscle biopsy sampling alone is insufficient to determine the nature of the deposits; Congo red staining is required to verify whether they are amyloid. The patient has a prolonged disease course, with pleural and pericardial effusions that have not resolved for a long time, no response to anti-TB treatment, and concomitant macroglossia, marked left ventricular hypertrophy, mild anemia, and splenomegaly; clinically, systemic amyloidosis is already highly suspected. The key issue that Congo red staining must resolve is to distinguish nonspecific tissue changes from true amyloid deposition and to establish a pathological basis for definitive diagnosis. A positive result can markedly narrow the differential diagnosis, essentially excluding simple inflammation, TB, or common tumors as the cause of macroglossia, and provide a decisive direction for further amyloid typing and for determining whether a light chain-related clonal plasma cell disorder is present.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum protein electrophoresis",
+          "basis_in_stage3_input": "Serum protein electrophoresis showed an M protein",
+          "why_order_this_exam": "After Congo red staining of the tongue muscle biopsy was positive, the next step is to determine the source of the amyloidosis. In addition to histologic evidence of amyloidosis, the patient also has manifestations of cardiac involvement (left atrial enlargement, marked left ventricular hypertrophy, elevated BNP), chylothorax, anemia, and splenomegaly. Clinically, it is necessary to determine whether this is AL amyloidosis and to look for an underlying clonal plasma cell disorder. The main purpose of serum protein electrophoresis is to screen for monoclonal immunoglobulin abnormalities and identify M protein as a hematologic clue. This test can distinguish systemic amyloidosis from AA amyloidosis, hereditary amyloidosis, or other nonclonal types, and provides the basis for subsequent immunofixation, electron microscopy/typing approach, and selection of hematology treatment strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunofixation electrophoresis",
+          "basis_in_stage3_input": "Immunofixation electrophoresis showed concentrated bands in the IgG and LAM lanes",
+          "why_order_this_exam": "After M protein is identified by serum protein electrophoresis, the specific type of monoclonal protein still needs to be further determined, because this directly affects the classification of amyloidosis and the subsequent treatment pathway. The patient has multisystem involvement, including macroglossia, chylothorax, myocardial hypertrophy, anemia, and splenomegaly. If this is light-chain-associated amyloidosis, treatment should target the clonal plasma cell disorder rather than continue to manage it as infection or isolated heart disease. The issue that immunofixation electrophoresis needs to resolve is the precise determination of the abnormal immunoglobulin and light-chain type, thereby supporting the assessment of AL type, especially λ light-chain-associated disease. This test plays a key role in confirming a clonal plasma cell disorder, excluding amyloidosis unrelated to monoclonal protein, and guiding subsequent bone marrow evaluation and hematology treatment planning.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "basis_in_stage3_input": "Bone marrow aspiration and biopsy: the ratio of hematopoietic tissue to adipose tissue is approximately 1.5:1; the myeloid-to-erythroid ratio is approximately 4-5:1, predominantly segmented granulocytes (MPO+); megakaryocytes 1-2/HPF; no obvious morphologic abnormalities identified in the three hematopoietic lineages",
+          "why_order_this_exam": "After Congo red staining was positive and an M protein and abnormal immunofixation were identified, the clinical focus shifted to determining whether a bone marrow plasma cell clone was present as the cause of AL amyloidosis. Although the patient had only mild anemia and previously had no definite bone destruction or typical manifestations of multiple myeloma, the multisystem involvement was highly consistent with the spectrum of light chain deposition disease. The purpose of bone marrow aspiration and biopsy was to directly assess bone marrow hematopoiesis and the proportion, distribution, and morphology of plasma cells, and to determine whether a plasma cell proliferative disorder or other hematologic malignancy was present. This examination not only helps establish the underlying cause, but also affects whether subsequent treatment should follow that for a clonal plasma cell disorder, while also excluding other hematologic differential diagnoses such as bone marrow involvement by lymphoma.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain (FOOT stain)",
+          "basis_in_stage3_input": "Special stain (Foot stain): reticular fibers not increased",
+          "why_order_this_exam": "After the bone marrow biopsy, further pathologic evaluation with special stains is needed to avoid insufficient assessment of the nature of the bone marrow lesion based solely on routine morphology. The patient has already developed an M protein, abnormal immunofixation, and multiorgan involvement. Although the primary suspicion is amyloidosis related to a clonal plasma cell disorder, it is still necessary to differentiate whether the bone marrow is accompanied by other interstitial or fibrotic lesions. The clinical purpose of FOOT staining is to assess reticulin fiber proliferation, thereby helping determine the degree of bone marrow stromal change and exclude other hematologic diseases such as overt myelofibrosis. Although its result does not directly confirm amyloidosis, it can further characterize the bone marrow pathologic background, reduce misinterpretation, and support subsequent integrated interpretation of the bone marrow plasma cell proportion and disease stratification.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow immunohistochemical staining",
+          "basis_in_stage3_input": "Bone marrow immunohistochemical staining showed a small number of CD138(+), Igκ(+) or Igλ(+) plasma cells distributed in a scattered or clustered pattern, accounting for approximately 15-20% of nucleated cells.",
+          "why_order_this_exam": "The absence of obvious abnormalities on bone marrow morphology alone does not exclude a clonal plasma cell disorder, especially since this case already has Congo red-positive tissue evidence and a monoclonal protein abnormality clinically. The purpose of bone marrow immunohistochemical staining is to further identify plasma cells, assess their quantity, distribution pattern, and light-chain expression bias, and resolve the key question of whether clonal plasma cell proliferation is present. The patient's polyserous effusions, myocardial hypertrophy, macroglossia, anemia, and splenomegaly require a unified etiologic explanation; immunohistochemistry can link the \"abnormal protein\" with the \"abnormal cellular source.\" This examination is very important for confirming a clonal plasma cell disorder, supporting the etiology of AL amyloidosis, and providing a basis for subsequent hematology-directed plasma cell-targeted therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow flow cytometry",
+          "basis_in_stage3_input": "Bone marrow flow cytometry: FCM analysis showed no obvious abnormal immunophenotypic cell population.",
+          "why_order_this_exam": "When a clonal plasma cell disorder is suspected, in addition to bone marrow morphology and immunohistochemistry, flow cytometry is also needed to identify abnormal plasma cells or other abnormal cell populations at the immunophenotypic level. The patient had previously long been considered to have TB, malignant pleural effusion, or an autoimmune disease, but after tissue and monoclonal protein clues emerged, the clinical question had shifted to a detailed evaluation of a hematologic clonal disorder. Bone marrow flow cytometry helps detect a low-proportion abnormal plasma cell population, exclude other lymphohematopoietic abnormalities, and provide mutual corroboration with morphology and immunohistochemistry. Even though no obvious abnormalities were identified in this case, it still has important exclusionary value, suggesting that the disease may be characterized predominantly by a low-burden plasma cell clone and organ amyloid deposition, rather than the typical myeloma phenotype with high tumor burden in the bone marrow, which is helpful for understanding the disease and judging treatment intensity.",
+          "requirement": "required"
+        },
+        {
+          "exam": "X-ray of the flat bones of the whole body",
+          "basis_in_stage3_input": "Whole-body flat bone X-ray: degenerative changes of the bilateral hip joints and sacroiliac joints, mild degenerative changes of the cervical, thoracic, and lumbar spine, calcification of the nuchal ligament, no obvious abnormality in skull morphology or bone density",
+          "why_order_this_exam": "When serum protein electrophoresis, immunofixation electrophoresis, and bone marrow examination suggest the possibility of a clonal plasma cell disorder, further evaluation is needed to determine whether there is bone disease typical of multiple myeloma, in order to clarify whether the disease spectrum is limited to AL amyloidosis with a plasma cell clone or whether myeloma manifestations are already present. The patient has mild anemia, but no hypercalcemia, renal impairment, or definite bone pain; therefore, the clinical purpose of whole-body flat bone X-rays is to screen for lytic bone destruction, punched-out skull lesions, and other evidence of myeloma. This examination helps with differentiation and stratification: if there is no obvious bone destruction, it more strongly supports a phenotype predominantly of systemic AL amyloidosis; if bone disease is present, it will affect the hematologic diagnostic nomenclature, prognostic assessment, and treatment selection.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Diagnostic anti-TB therapy with the HREZ regimen (isoniazid, rifampin, ethambutol, pyrazinamide) was given, along with nutritional support therapy. However, on reevaluation after 2 months of anti-TB treatment, the patient's symptoms had not improved, and chest CT showed no obvious absorption of the bilateral pleural effusions or pericardial effusion. The patient was subsequently readmitted for further diagnosis and treatment, and thoracentesis was performed again. The pleural fluid was chylous in appearance, consistent with an exudate. The team again reviewed the medical history in detail and identified new findings: since approximately 16 months before Day 0, the patient had noted that the tongue had become enlarged and red, occasionally accompanied by difficulty swallowing and chewing. In traditional Chinese medicine, this had been diagnosed as \"internal heat,\" but there was no obvious improvement after taking Chinese herbal medicine for more than 1 year. We performed a tongue muscle biopsy, and Congo red staining was (+). Serum protein electrophoresis showed an M protein. Immunofixation electrophoresis showed concentrated bands in the IgG and LAM lanes. Bone marrow aspiration biopsy: the ratio of hematopoietic tissue to adipose tissue was approximately 1.5:1; the myeloid-to-erythroid ratio was approximately 4-5:1, predominantly segmented granulocytes (MPO+); megakaryocytes 1-2/HPF; no obvious morphologic abnormalities were seen in the three cell lineages. Special stain (FOOT stain): reticular fibers were not increased. Pathologic diagnosis: active proliferation of bone marrow hematopoietic cells was present in the submitted specimen, with all three lineages represented. Bone marrow immunohistochemical staining showed a small number of CD138(+), Igκ(+) or Igλ(+) plasma cells distributed singly or in clusters, accounting for approximately 15-20% of nucleated cells. Among them, Igλ(+) > Igκ(+), and the possibility of a plasma cell proliferative disorder could not be completely excluded. Bone marrow flow cytometry: FCM analysis showed no obvious abnormal immunophenotypic cell population. Plain X-rays of the axial skeleton: degenerative changes of the bilateral hip joints extending to the sacroiliac joints, mild degenerative changes of the cervical, thoracic, and lumbar vertebrae, calcification of the nuchal ligament, and no obvious abnormalities in skull morphology or bone density. We conducted a multidisciplinary discussion for this patient. Oral hospital consultation opinion: tongue enlargement with difficulty swallowing and chewing for 2 years; history of present illness: for the past 2 years, the patient had perceived tongue stiffness and enlargement, affecting speech and eating. Specialist examination showed: the tongue was bright red and enlarged, protruded in the midline, with limited mobility; the tongue had a firm texture, and cord-like changes were palpable. Diagnosis: tongue enlargement: lingual amyloidosis? Hematology consultation opinion: tongue enlargement with difficulty swallowing and chewing, left atrial enlargement, marked left ventricular hypertrophy, serum protein electrophoresis M protein 7.30%; immunofixation electrophoresis showed concentrated bands in the IgG and LAM lanes; bone marrow pathology showed: immunohistochemical staining demonstrated a small number of CD138(+), Igκ(+) or Igλ(+) plasma cells distributed singly or in clusters, accounting for approximately 15-20% of nucleated cells. Among them, Igλ(+) > Igκ(+). In summary, the diagnosis of clonal plasma cell disorder is established.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4BLCX39tO7UWvRv5DUKjaufnyQ7WV6pnWXTgGYN4yqFXIrdicyDuicpuw/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT, approximately 3 months after Day 0",
+          "local_src": "cleaned_cases_image_cache/86193fc95a60c701d385b4b6b1885befe9f6c258.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J41zliaqD5buGoDC77n4OOqgcFHiaOYbz6T7Doib4GHBx8q3P68K6O2HLEA/640?wx_fmt=png",
+          "near_text": "[IMAGE]",
+          "local_src": "cleaned_cases_image_cache/9f98d86df15c1e4ed536efb3e8a874adbc053831.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4fBWhLVqNwqZefNSQ5AjIWfFTuhsAfypwUOZ8OyWIoO4Y0olicoLViaicw/640?wx_fmt=png",
+          "near_text": "At this time, we need to further analyze the cause of the patient's chylothorax.",
+          "local_src": "cleaned_cases_image_cache/a53a50f0fc56ad010726355c02552e3a30e75603.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4ic2k7sspfRiadH0j5yMQqPJPHgt8xt6iaMf9wynuthNsvrkz4mQXIRjDw/640?wx_fmt=png",
+          "near_text": "Figure 4: Images of the patient's lips 10 years earlier and in approximately 3 months after Day 0",
+          "local_src": "cleaned_cases_image_cache/7ed6092ee38295b57a342aa1c303c73812764e9c.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4KM7Of6NRR4ZFM053fqiaCyNV7c0Y6HeNS0eYbC0ibeic680gUHj4HvObQ/640?wx_fmt=png",
+          "near_text": "Figure 5: Diagnostic approach",
+          "local_src": "cleaned_cases_image_cache/1efe1f23af9fcb1a0a8907a6c7178c51adc65059.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4zv0l7NCCtlZgW3ZyP2BtyKst66gxJoiaNS6s3yH7Mp8LSStVcsqAJog/640?wx_fmt=png",
+          "near_text": "Figure 6: staining results of tongue muscle biopsy",
+          "local_src": "cleaned_cases_image_cache/087bc39ad29d07aaa6cf3ed318bf1684874e8645.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4qgEWx6FYibdk8cTfk8dia10Cg8Yw3WFf5OanBSAUgTJeDbE3oeLbRyWw/640?wx_fmt=png",
+          "near_text": "Figure 7: Serum protein electrophoresis",
+          "local_src": "cleaned_cases_image_cache/f7d7052d6b4273bcb175ce27c12459935b491bd9.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJCBzaNj1VxXpptzxtO60J4bbkXCmx3TYIsu1f5FqcibthMbGysxCXic0CXibbCgPZrjNWONPmHhiaf6w/640?wx_fmt=png",
+          "near_text": "Figure 8: Immunofixation electrophoresis",
+          "local_src": "cleaned_cases_image_cache/ce3e55be501a280942d7d430d78f2e575f432081.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Systemic AL (λ light-chain) amyloidosis: chylothorax, hypertrophic cardiomyopathy, macroglossia, anemia, splenomegaly",
+      "diagnostic_basis": [
+        "Symptoms: chest tightness and shortness of breath for 8 months.",
+        "Physical signs: chronic ill appearance, thickened tongue, muffled heart sounds, dullness to percussion over both lower lungs, decreased breath sounds on auscultation over both lower lungs, mild pitting edema of both lower extremities.",
+        "Chest CT: partial atelectasis in the lower lobes of both lungs, right middle lobe, and lingular segment of the left upper lobe; bilateral moderate pleural effusions and small pericardial effusion; increased mediastinal and bilateral axillary lymph nodes; pleural fluid indicates an exudate, chylothorax.",
+        "Echocardiography: left atrial enlargement, marked left ventricular hypertrophy, dilation of the aorta and pulmonary artery.",
+        "Hemoglobin 109 g/L, mild anemia.",
+        "Abdominal color Doppler ultrasound indicated splenomegaly.",
+        "Tongue muscle biopsy, Congo red stain (+).",
+        "Serum protein electrophoresis showed M protein, and immunofixation electrophoresis showed concentrated bands in the IgG and LAM lanes.",
+        "Bone marrow pathology showed: immunohistochemical staining demonstrated a small number of CD138(+), Igκ(+) or Igλ(+) plasma cells distributed singly or in clusters, accounting for approximately 15-20% of nucleated cells. Among them, Igλ(+) > Igκ(+)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Glucocorticoid therapy"
+      ],
+      "treatment_response": [
+        "Repeat chest CT showed marked absorption of pleural effusion, with symptom relief"
+      ]
+    }
+  }
+}

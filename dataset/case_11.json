@@ -1,0 +1,270 @@
+{
+  "status": "success",
+  "case_id": "case_11",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 64-year-old male patient was admitted with the chief complaint of \"recurrent cough and sputum production for more than 10 years, shortness of breath for 2 years, worsened for 1 week.\" More than 10 years ago, the patient developed persistent cough and production of large amounts of yellow-white sticky sputum without any obvious precipitating cause, and the sputum was difficult to expectorate. Two years ago, the patient developed shortness of breath, which worsened after activity. One week ago, after catching a cold, the patient developed fever, with a maximum temperature of 39.5℃; the cough and sputum production worsened markedly, the sputum was difficult to expectorate, and shortness of breath became obvious, including at rest. Chest CT at a local hospital suggested an infiltrative shadow in the left lung. The patient had smoked for more than 30 years, 20 cigarettes/day. Physical examination: temperature 37.3 ℃, pulse 97/min, respiratory rate 23/min, blood pressure 141/89 mmHg. The thorax was symmetric without deformity, abdominal breathing was present, bilateral chest expansion was equal, respiratory rate was 23/min, rhythm was regular, and the intercostal spaces were normal. There was no sternal tenderness, bilateral tactile fremitus was equal, no pleural friction fremitus was present, percussion was resonant, breath sounds in both lungs were coarse, a large number of dry and wet rales were heard, and no pleural friction rub was heard. Cardiac and abdominal examinations showed no abnormalities. There was no edema in either lower extremity. Ancillary examinations: WBC 9.78*10^9/L, RBC 4.05*10^12/L, hemoglobin 141 g/L, platelet count 236*10^9/L, neutrophil percentage 79.80%, absolute neutrophil count 7.81*10^9/L, monocyte count 0.90*10^9/L; ESR: 82 mm/h; CRP: 89.8000 mg/L. Anti-Mycoplasma pneumoniae IgM weakly positive (+), influenza A virus IgM positive (+), influenza B virus IgM positive (+); CA72-4 8.67 U/ml, ferritin 729.60 ng/ml, squamous cell carcinoma antigen 2.6 ng/ml; soluble IL-2 receptor 749.00 U/ml, IL-6 4.42 pg/ml, IL-8 34.40 pg/ml, TNF-α 10.80 pg/ml; TB infection-specific T lymphocytes positive (+). No abnormalities were found in procalcitonin, endotoxin + fungal D-glucan + galactomannan, PPD test, TB antibody triple test, quantitative TB DNA test, TB IgG antibody, comprehensive autoantibody panel, antineutrophil antibody, rheumatologic panel, or comprehensive humoral immunity panel.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease (predominantly chronic bronchitis phenotype) with lower respiratory tract infection",
+          "supporting_evidence": [
+            "64-year-old male, smoker for more than 30 years, 20 cigarettes/day, high-risk population for chronic airway disease",
+            "Recurrent cough and sputum production for more than 10 years, with large amounts of yellow-white viscous sputum that is difficult to expectorate, consistent with a chronic bronchitis-like history",
+            "Shortness of breath began 2 years ago, worsened after activity, suggesting possible chronic airflow limitation",
+            "After catching a cold over the past 1 week, fever, cough, sputum production, and shortness of breath significantly worsened, and shortness of breath persisted at rest, consistent with an acute exacerbation.",
+            "Physical examination: coarse breath sounds in both lungs, with numerous dry and wet rales audible, suggesting increased airway inflammatory secretions",
+            "Respiratory rate 23 breaths/min, with tachypnea",
+            "Inflammatory markers were elevated: ESR 82 mm/h, CRP 89.8000 mg/L, neutrophil percentage 79.80%, supporting infection-triggered acute exacerbation.",
+            "Chest CT at a local hospital showed infiltrative opacity in the left lung, supporting concomitant infectious lesions."
+          ],
+          "opposing_evidence": [
+            "No pulmonary function testing confirming persistent airflow limitation was provided in the first-stage information.",
+            "Percussion was resonant; no typical supporting signs of emphysema such as barrel chest were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Bronchiectasis with acute infectious exacerbation",
+          "supporting_evidence": [
+            "A history of recurrent cough for more than 10 years, expectoration of large amounts of sputum, and difficulty expectorating the sputum is consistent with the features of chronic suppurative airway disease.",
+            "A large number of dry and moist rales are audible in both lungs, suggesting retention of endobronchial secretions.",
+            "This episode involved high fever, with a maximum temperature of 39.5℃, accompanied by productive cough and worsening shortness of breath, consistent with an acute exacerbation of bronchiectasis due to infection.",
+            "Marked inflammatory response: CRP 89.8000 mg/L, ESR 82 mm/h, elevated neutrophil percentage",
+            "Chest CT showed an infiltrative opacity in the left lung, which may be seen in bronchiectasis with superimposed infection."
+          ],
+          "opposing_evidence": [
+            "Phase I information did not mention a typical history of recurrent hemoptysis",
+            "No direct imaging description of bronchiectasis on chest CT was provided in the first-stage information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Community-acquired pneumonia (possible bacterial pneumonia)",
+          "supporting_evidence": [
+            "One week ago, after catching a chill, the patient developed fever with a maximum temperature of 39.5℃, accompanied by markedly worsened cough and sputum production, consistent with an acute infectious onset.",
+            "Chest CT at the local hospital showed an infiltrative shadow in the left lung, supporting infectious pulmonary consolidation/exudation.",
+            "Neutrophil percentage 79.80%, neutrophil count 7.81*10^9/L, suggesting a tendency toward bacterial infection",
+            "CRP 89.8000 mg/L and ESR 82 mm/h were markedly elevated, supporting active infection.",
+            "Coarse breath sounds in both lungs with numerous dry and wet rales, consistent with pulmonary inflammatory changes",
+            "Marked shortness of breath, with shortness of breath still present at rest, suggesting that the pulmonary infection has already caused significant respiratory involvement"
+          ],
+          "opposing_evidence": [
+            "The white blood cell count of 9.78*10^9/L was not significantly elevated.",
+            "The patient has an underlying condition of long-term chronic cough and sputum production, and community-acquired pneumonia alone cannot fully explain symptoms lasting for more than 10 years."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary TB (active pulmonary TB should be differentiated)",
+          "supporting_evidence": [
+            "Chronic cough and sputum production for more than 10 years",
+            "This episode included fever and an infiltrative opacity in the left lung; pulmonary TB can present similarly.",
+            "Erythrocyte sedimentation rate 82 mm/h, significantly elevated, can be seen in the active phase of TB",
+            "TB infection-specific T lymphocytes positive (+), indicating evidence of TB infection",
+            "Older age, prolonged symptoms; TB should be considered with vigilance."
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not mention typical TB toxic symptoms or respiratory manifestations such as night sweats, weight loss, and hemoptysis.",
+            "PPD test, Mycobacterium tuberculosis antibody triplex assay, quantitative Mycobacterium tuberculosis DNA test, and Mycobacterium tuberculosis IgG antibody showed no abnormalities",
+            "Long-term large-volume yellow-white mucoid sputum is more suggestive of chronic suppurative airway infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Lung cancer with obstructive pneumonia",
+          "supporting_evidence": [
+            "64-year-old man, smoker for more than 30 years, belongs to a high-risk population for lung cancer",
+            "Shortness of breath developed nearly 2 years ago and has gradually persisted, suggesting the need to exclude organic lung disease.",
+            "Chest CT showed an infiltrative shadow in the left lung; central lung cancer may be complicated by secondary obstructive pneumonia or an infiltrative shadow.",
+            "Elevated inflammatory markers and fever may be caused by post-obstructive infection",
+            "Among the tumor-related markers, squamous cell carcinoma antigen was 2.6 ng/ml and carbohydrate antigen 72-4 was 8.67 U/ml; although nonspecific, vigilance is warranted in a high-risk setting."
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not mention hemoptysis, significant weight loss, persistent chest pain, or other common symptoms suggestive of lung cancer.",
+            "Chronic productive cough with large sputum volume and extensive crackles in both lungs is more supportive of chronic infectious airway disease",
+            "The available information does not provide a definite imaging description of a space-occupying lesion, hilar mass, or signs of obstruction."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchodilator reversibility test",
+          "requirement": "required"
+        },
+        {
+          "exam": "FeNO",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rapid test for Mycobacterium tuberculosis and rifampin resistance in bronchoalveolar lavage fluid",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the patient had marked shortness of breath and was unable to hold his breath. Chest CT showed: bilateral pulmonary infiltrative opacities and mediastinal lymphadenopathy. Pulmonary function testing: VC 73.5% of predicted, FEV1/FVC 58.78%, FEV1 53.2% of predicted, diffusing capacity normal. Bronchodilator test negative. FeNO: 31 ppb. Bronchoscopy: a large amount of white caseous necrotic material was seen adherent throughout the bilateral bronchial system and was not easily suctioned out. The mucosa was thickened and elevated, and the lumen was tortuous and narrowed. After suctioning, mucosal hyperemia and erythema were seen; mucosal thickening at multiple sites caused luminal tortuosity, deformity, and even stenosis. Bronchoalveolar lavage fluid: rapid test for Mycobacterium tuberculosis and rifampin resistance negative. Bronchoalveolar lavage fluid routine: red, turbid, neutrophils 90.00%, lymphocytes 2.00%, macrophages 8.00%.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIXJlAX7SLicmUibNPYJIVYwLOIiaKDFPHSKiaTaty4bGiaxDYr6CoK6MzRWllj1iaCjAKscHK0UiaOT7YiaQ/640?wx_fmt=png",
+            "near_text": "We performed pulmonary function testing on the patient.",
+            "local_src": "cleaned_cases_image_cache/73091642a1acb9ba22213566fecfc392ef407d29.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIXJlAX7SLicmUibNPYJIVYwL7ndQKb64tK4MY4pXAtlvzibcXg72UwTusoYgBQmu1Wegibm1QVWf6x9A/640?wx_fmt=jpeg",
+            "near_text": "Bronchoscopy:",
+            "local_src": "cleaned_cases_image_cache/fe9c34ca558097a9a03393165dd4e72fb8e42375.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary infection (mixed bacterial and viral infection); acute exacerbation of COPD?",
+            "evidence": [
+              "The patient is an elderly male with a chronic course and a long-term smoking history, mainly presenting with cough, sputum production, and shortness of breath.",
+              "On physical examination, dry and wet rales were heard in both lungs.",
+              "CBC elevated, with increased proportions of neutrophils and monocytes; ESR, CRP, cytokines, and other indices abnormal; Mycoplasma, influenza A, and influenza B IgM positive; BALF predominantly neutrophils",
+              "Chest CT showed inflammatory exudation in both lungs, and pulmonary function testing indicated moderate mixed ventilatory dysfunction."
+            ],
+            "exclusion_reasons": [
+              "No evidence of active pulmonary TB or malignant tumor"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary infection (mixed bacterial and viral infection); acute exacerbation of COPD?",
+        "evidence": [
+          "The patient is an elderly male with a chronic course and a long-term smoking history, mainly presenting with cough, sputum production, and shortness of breath.",
+          "On physical examination, dry and wet rales were heard in both lungs.",
+          "CBC elevated, with increased proportions of neutrophils and monocytes; ESR, CRP, cytokines, and other indices abnormal; Mycoplasma, influenza A, and influenza B IgM positive; BALF predominantly neutrophils",
+          "Chest CT showed inflammatory exudation in both lungs, and pulmonary function testing indicated moderate mixed ventilatory dysfunction."
+        ],
+        "exclusion_reasons": [
+          "No evidence of active pulmonary TB or malignant tumor"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "pulmonary tuberculosis",
+        "evidence": [
+          "Bronchoscopy shows caseous necrosis, bronchial twisting and deformity; repeated TB-related testing is required."
+        ],
+        "exclusion_reasons": [
+          "Tuberculosis-related tests on pathology specimens pending to rule out"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Chest CT shows abnormalities of the tracheobronchial wall; on the mediastinal window, calcification of the airway wall and thickening of the airway wall are seen.",
+          "why_order_this_exam": "The patient has had recurrent cough and production of large amounts of sputum for more than 10 years, with shortness of breath over the past 2 years that became significantly worse after this infection. Despite anti-infective and other symptomatic treatment, the cough and shortness of breath have persisted, suggesting the presence of persistent structural airway lesions in addition to infection. Prior CT had already shown bilateral pulmonary infiltrates and mediastinal lymphadenopathy. Bronchoscopy further revealed extensive bilateral white necrotic-appearing adherent material in the bronchi, mucosal thickening and nodular elevation, and luminal distortion and stenosis. Therefore, chest CT is needed for further systematic assessment of tracheobronchial wall thickening, calcification, extent of stenosis, and intrapulmonary and mediastinal involvement. This examination is mainly used to clarify the distribution of the lesions and their morphologic features, differentiate simple post-infectious changes, chronic inflammatory airway disease, rare keratotic lesions of the airway mucosa, and airway involvement caused by malignant tumors, and provide a basis for whether repeat bronchoscopic tissue sampling, follow-up imaging comparison, and selection of the treatment plan are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial mucosal biopsy pathology",
+          "basis_in_stage3_input": "Bronchial mucosal biopsy pathology showed: chronic inflammation of the bronchial mucosa with squamous epithelial hyperplasia, with keratinization, focal surface infectious necrosis, and mild to moderate epithelial dysplasia.",
+          "why_order_this_exam": "Bronchoscopy has already revealed clear abnormalities: a large amount of white caseous necrotic material adherent and not easily suctioned out, with thickened and raised mucosa, distortion and deformity of the lumen, and even stenosis. At the same time, the patient is a 64-year-old man with a smoking history of more than 30 years, and central airway tumor, TB, fungal infection, or other specific inflammatory lesions must be excluded clinically. BALF routine testing showing predominantly neutrophils and a negative rapid TB test alone cannot explain the persistent mucosal structural abnormalities; therefore, direct bronchial mucosal biopsy for pathology is required. This examination can determine at the histologic level whether the lesion is chronic inflammation with squamous metaplasia/keratinization, or whether epithelial dysplasia, carcinoma in situ, or invasive carcinoma is present; it can also assess necrosis, infection, and other special pathologic changes, and is crucial for confirming tracheobronchial mucosal keratosis, excluding malignant lesions, and guiding the intensity of subsequent follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology consultation",
+          "basis_in_stage3_input": "Pathology consultation considered that the patient had chronic inflammation of the bronchial mucosa with localized marked focal hyperplasia and keratinization of the squamous epithelium, suspicious for malignant transformation; another pathology consultation considered chronic inflammation of the bronchial mucosa with focal necrosis and squamous epithelial hyperplasia with focal atypical hyperplasia.",
+          "why_order_this_exam": "The biopsy pathology in this case has indicated chronic inflammation with squamous epithelial hyperplasia, keratinization, and mild to moderate atypical hyperplasia, but there is significant diagnostic disagreement as to whether malignant transformation has already occurred. The patient also has tumor risk factors including advanced age, long-term smoking, airway stenosis, and mildly elevated SCC-related antigen; therefore, the original pathology results are insufficient to directly determine the diagnosis and subsequent management. The purpose of pathology consultation is to perform a higher-level review of the limited biopsy specimen, with emphasis on resolving the differential diagnosis between reactive squamous epithelial hyperplasia/keratinization and precancerous lesions or even early squamous cell carcinoma. This examination is directly related to whether there is a need for further expanded tissue sampling, intensified tumor staging evaluation, and more aggressive interventional treatment, or whether infection control and follow-up observation should be the main approach, thereby reducing misdiagnosis and missed diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results: CK5/6 (squamous epithelium+), P40 (squamous epithelium+), Ki-67 (squamous epithelial basal cells+), CK7 (focally weak+). Special stain: Congo red (-), CD56 (-), Napsin A (-), TTF-1 (-). Immunohistochemistry results did not suggest definite evidence of malignancy.",
+          "why_order_this_exam": "Because routine pathology indicated squamous epithelial hyperplasia, keratinization, and atypical hyperplasia, and pathology consultation at one point raised suspicion of malignant transformation, malignant tumor could not be completely excluded on the basis of H&E morphology alone. The patient had persistent cough and shortness of breath; bronchoscopy showed multiple areas of thickening and narrowing of the airway mucosa, and imaging suggested abnormal airway wall findings and mediastinal lymph node enlargement, all of which required further improvement in the accuracy of pathologic characterization. Immunohistochemistry can help clarify the direction of lesional cell differentiation, proliferative activity, and whether there is support for other malignant components such as lung adenocarcinoma or neuroendocrine tumor, thereby helping distinguish reactive squamous epithelial hyperplasia/keratinization from definite malignant tumor. The results are important for reducing misclassification, determining whether to continue with more extensive sampling or staging evaluation along an oncologic pathway, and ultimately choosing conservative follow-up versus further intervention.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Special stain: Congo red",
+          "basis_in_stage3_input": "Immunohistochemistry results: CK5/6 (squamous epithelium+), P40 (squamous epithelium+), Ki-67 (squamous epithelial basal cells+), CK7 (focally weak+). Special stain: Congo red (-), CD56 (-), Napsin A (-), TTF-1 (-). Immunohistochemistry results did not suggest definite evidence of malignancy.",
+          "why_order_this_exam": "There were large amounts of white necrotic-appearing adherent material within the airway and marked abnormal thickening of the mucosa. Imaging showed airway wall thickening and calcification. In addition to inflammation, keratinization, and tumor, these rare manifestations also warrant consideration of special causes such as certain abnormal protein deposition disorders. Routine pathology and immunohistochemistry could not directly explain all morphologic features; therefore, additional special staining was performed to further exclude rare diseases such as amyloidosis, which can involve the tracheobronchial tree and cause wall thickening, stenosis, and calcification. A negative Congo red result helps narrow the differential diagnosis, avoiding misclassification of special deposition disorders as simple infection or tumor, and at the same time provides exclusionary support for the final diagnosis of a keratinizing lesion of the tracheobronchial mucosa.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body PET-CT examination",
+          "basis_in_stage3_input": "Whole-body PET-CT showed multiple lesions in the lingular segment of the left upper lobe and the basal segments of the lower lobe, with slight radiotracer uptake, accompanied by multiple tiny nodules in both lungs, and multiple enlarged mediastinal and bilateral hilar lymph nodes with hypermetabolism, considered bronchitic inflammatory lesions.",
+          "why_order_this_exam": "The patient is a 64-year-old male heavy smoker. Bronchoscopy and pathology both suggested a persistent organic airway lesion, and pathology consultation had also raised suspicion for malignant transformation. In addition, chest CT showed mediastinal lymphadenopathy, and clinically it was necessary to determine whether this represented an inflammatory response, a granulomatous lesion, or a potential tumor with lymph node metastasis. The core purpose of whole-body PET-CT was to evaluate, on a whole-body basis, multiple intrapulmonary lesions, hilar and mediastinal lymph nodes, and whether there were any distant hypermetabolic lesions, to assist in screening for malignant tumor staging and differentiating from inflammatory lesions. In this case, the examination showed only slight uptake in the lesion; combined with multiple tiny nodules in both lungs and hypermetabolic lymph nodes, the findings were more suggestive of inflammatory changes, thereby reducing the likelihood of malignancy and supporting a subsequent treatment strategy focused mainly on anti-infective therapy and follow-up, rather than rashly proceeding to an oncologic treatment pathway.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After symptomatic treatment, the patient's sputum production could be relieved, but the cough and shortness of breath persisted, with no significant improvement compared with before, and diffuse dry rales were still present throughout both lungs. Chest CT showed abnormalities of the tracheobronchial walls, with airway wall calcification and airway wall thickening on the mediastinal window. Pathology of bronchial mucosal biopsy showed chronic inflammation of the bronchial mucosa with squamous epithelial hyperplasia and keratinization, focal surface infectious necrosis, and mild to moderate epithelial atypical hyperplasia. Pathology consultation considered chronic inflammation of the bronchial mucosa with localized focal marked squamous epithelial hyperplasia and keratinization, with suspicion for malignant transformation; another pathology consultation considered chronic inflammation of the bronchial mucosa with focal necrosis and squamous epithelial hyperplasia with focal atypical hyperplasia. Immunohistochemistry results: CK5/6 (squamous epithelium+), P40 (squamous epithelium+), Ki-67 (squamous epithelial basal+), CK7 (scattered weak+), special stain Congo red (-), CD56 (-), Napsin A (-), TTF-1 (-); the immunohistochemistry results did not indicate definite evidence of malignancy. Whole-body PET-CT showed multiple lesions in the lingular segment of the left upper lobe and the basal segment of the lower lobe, with slight radionuclide uptake, accompanied by multiple tiny nodules in both lungs, and multiple enlarged hypermetabolic lymph nodes in the mediastinum and both hila, favoring inflammatory bronchial lesions.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIXJlAX7SLicmUibNPYJIVYwLpFibHicFsQGt4RqTSGSjC4tUKOb5YMibayLpicf2ZkicfqCdYkHbstuiaIAg/640?wx_fmt=jpeg",
+          "near_text": "Mediastinal window on the patient's chest CT: calcification of the airway wall",
+          "local_src": "cleaned_cases_image_cache/971a61ad09f3bbc117ac8624641de91e73a575ec.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIXJlAX7SLicmUibNPYJIVYwLpGU6Ag2waiaHcOfK3E9OxP5GnmgWKhqhgzchZIosxt4FLQrbqwaBicqQ/640?wx_fmt=jpeg",
+          "near_text": "We conducted a pathology consultation.",
+          "local_src": "cleaned_cases_image_cache/d224ea7c7dc2cf7ea2f1132d19c11a28a32ee740.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary infection; tracheobronchial mucosal keratosis",
+      "diagnostic_basis": [
+        "Chest CT shows bronchial wall thickening and calcification",
+        "Bronchoscopy showed a large amount of white caseous necrotic material; mucosal thickening at multiple sites in the airway caused distortion and deformity of the lumen and even stenosis. Bronchial mucosal biopsy indicated chronic mucosal inflammation with squamous epithelial hyperplasia, keratinization, and focal necrosis.",
+        "Elevated squamous cell carcinoma antigen; PET-CT did not indicate a malignant tumor"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with macrolide/quinolone and cephalosporin antibiotics, and peramivir for active anti-infective therapy; antispasmodic and anti-asthmatic treatment (intravenous and nebulized inhalation); systemic corticosteroids for anti-inflammatory therapy (methylprednisolone 40 mg qd).",
+        "Clinically, treatment is mainly anti-infective therapy and symptomatic treatment"
+      ],
+      "treatment_response": [
+        "The patient's respiratory symptoms have gradually improved. He currently has occasional cough with a small amount of white mucoid sputum, and no obvious chest tightness or shortness of breath at rest.",
+        "During follow-up, squamous cell carcinoma antigen decreased to the normal range.",
+        "Chest CT: the pulmonary infiltrative lesions have been completely absorbed.",
+        "Bronchoscopy showed that the white caseous necrotic material attached to the tracheal mucosa had disappeared; numerous yellow-white small protrusions were visible; there was still obvious hyperemia of the tracheal wall, with tortuous luminal narrowing."
+      ]
+    }
+  }
+}

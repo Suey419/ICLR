@@ -1,0 +1,453 @@
+{
+  "status": "success",
+  "case_id": "case_62",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 59-year-old male patient presented with the chief complaint of \"fever for 1 week.\" One week earlier, after catching a chill, he developed fever with a maximum temperature of 38.5℃, accompanied by dizziness and headache, with occasional cough and no sputum production. He was diagnosed with \"pulmonary infection\" at the local county people's hospital. After IV infusion therapy, he continued to have recurrent fever, with a maximum temperature of 39℃. Blood cell analysis in the emergency department showed: white blood cell count 6.31×10^9/L, segmented neutrophil percentage 83.9%; non-contrast chest CT showed \"patchy ground-glass opacity and patchy opacities in the left lower lobe, suggesting infection; linear opacity and calcified focus in the apical segment of the right upper lobe; calcification of the aortic wall.\" In the emergency department, he was treated with moxifloxacin for anti-infection, ambroxol for expectoration, and other treatment, after which his body temperature returned to normal. More than 40 years earlier, he had been diagnosed with \"pulmonary TB\" and was cured. He denied travel to pastoral areas or epidemic areas. He had a history of diabetes mellitus that had not been treated. Physical examination: temperature 36.3℃; moist rales were audible in the left lower lung. Laboratory tests: blood cell analysis: white blood cell count 3.73×10^9/L, segmented neutrophil percentage 63.6%, absolute lymphocyte count 0.64×10^9/L.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia (left lower lobe, possible bacterial pneumonia)",
+          "supporting_evidence": [
+            "Chief complaint: fever for 1 week, with a maximum temperature of 38.5℃, followed by recurrent fever up to 39℃",
+            "Occasional cough; on physical examination, moist rales were audible in the left lower lung.",
+            "Non-contrast chest CT showed patchy ground-glass opacity and patchy opacity in the left lower lobe, suggestive of infection.",
+            "Previously diagnosed at the local county people's hospital as \"pulmonary infection\"",
+            "In the emergency department, the segmented neutrophil percentage was 83.9%, indicating an elevated neutrophil proportion as can be seen with infection.",
+            "After anti-infective treatment with moxifloxacin, body temperature returned to normal, suggesting a possible infectious lesion."
+          ],
+          "opposing_evidence": [
+            "WBC count 6.31×10^9/L, no significant elevation observed",
+            "Subsequent blood cell analysis showed a WBC count of 3.73×10^9/L, with leukopenia, which is not a common hematologic finding in typical bacterial pneumonia.",
+            "Only occasional cough, no sputum production; respiratory tract symptoms are relatively not prominent"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Recurrent pulmonary tuberculosis or active pulmonary tuberculosis",
+          "supporting_evidence": [
+            "More than 40 years ago, the patient was diagnosed with pulmonary TB and was cured; there is a past history of TB.",
+            "CT showed linear opacities and calcified foci in the apical segment of the right upper lobe, suggesting possible sequelae of prior TB.",
+            "Persistent fever for 1 week, with recurrent fever despite infusion therapy; prolonged infection requires consideration of TB",
+            "The patient has a history of untreated diabetes mellitus, which is one of the susceptibility factors for developing TB."
+          ],
+          "opposing_evidence": [
+            "The main abnormalities on this CT are patchy ground-glass opacities and patchy opacities in the left lower lobe; the imaging distribution is not a typical pattern of upper lobe cavitation or dissemination.",
+            "Only occasional cough, no sputum production; in the first stage, symptoms more supportive of TB such as night sweats, weight loss, and hemoptysis were not reported.",
+            "After moxifloxacin was administered in the emergency department, the body temperature returned to normal, which cannot specifically support TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Viral pneumonia",
+          "supporting_evidence": [
+            "Fever accompanied by dizziness and headache; respiratory symptoms are mild, with only occasional cough and no sputum production.",
+            "CT showed patchy ground-glass opacity in the left lower lobe; ground-glass opacity can be seen in viral pneumonia",
+            "Laboratory tests: white blood cell count 3.73×10^9/L and absolute lymphocyte count 0.64×10^9/L, indicating leukopenia and lymphopenia, which can be seen in viral infection."
+          ],
+          "opposing_evidence": [
+            "On physical examination, moist rales were audible in the left lower lung, and CT simultaneously showed patchy opacities, which may also be more consistent with bacterial or mixed infection.",
+            "In the emergency department, the segmented neutrophil percentage was 83.9%, which is not a common finding in a typical simple viral infection.",
+            "No definite epidemiologic history of upper respiratory tract exposure was provided in the first stage."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Atypical pathogen pneumonia (e.g., Mycoplasma, Chlamydia, Legionella, etc.)",
+          "supporting_evidence": [
+            "Marked fever with relatively mild cough and no sputum production, consistent with the clinical features of some atypical pneumonia",
+            "CT shows patchy ground-glass opacities and patchy opacities, which may be seen in atypical pathogen infection.",
+            "The white blood cell count was not significantly elevated or was lower on subsequent testing, which is not entirely consistent with a typical pyogenic bacterial infection.",
+            "After treatment with moxifloxacin, body temperature returned to normal, covering some atypical pathogens."
+          ],
+          "opposing_evidence": [
+            "The patient is 59 years old; Mycoplasma and similar infections are more common in younger populations, so this is relatively atypical in terms of age.",
+            "In the initial stage, no clues supporting Legionella infection were present, such as diarrhea, hyponatremia, or marked myalgia.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal pulmonary infection",
+          "supporting_evidence": [
+            "History of untreated diabetes mellitus, which is a risk factor for opportunistic infection",
+            "Persistent fever, with recurrent fever despite routine infusion therapy",
+            "Follow-up blood cell analysis showed leukopenia and a decreased absolute lymphocyte count, suggesting that immune defense status may be affected.",
+            "CT showed ground-glass opacities and patchy opacities; fungal infection may have similar nonspecific findings"
+          ],
+          "opposing_evidence": [
+            "Phase 1 did not provide stronger high-risk background factors for fungal infection such as long-term immunosuppressive therapy, hematologic disease, or organ transplantation",
+            "CT did not describe imaging features more suggestive of invasive fungal infection, such as nodules, the halo sign, or cavitation.",
+            "The current clinical presentation is still more readily explained initially by common pulmonary infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia or other noninfectious inflammatory lung disease",
+          "supporting_evidence": [
+            "CT showed patchy ground-glass opacities and patchy opacities in the left lower lobe, which are nonspecific imaging findings that can be seen in organizing pneumonia.",
+            "Fever is one of the main manifestations, and respiratory symptoms are not very prominent.",
+            "The white blood cell count was not significantly elevated or decreased, making the evidence for a simple typical bacterial infection insufficiently strong"
+          ],
+          "opposing_evidence": [
+            "Onset after exposure to cold, fever, and moist rales, with CT findings considered suggestive of infection; overall, an infectious lesion is initially more likely.",
+            "After anti-infective treatment, body temperature returned to normal, favoring an infectious etiology.",
+            "In the first stage, no clues were provided to support noninfectious inflammatory lung disease, such as connective tissue disease, drug exposure, or persistent nonresolving imaging findings."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "required"
+        },
+        {
+          "exam": "Hemoglobin A1c",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion complete panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation profile",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac enzyme testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Legionella pneumophila antibody test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "SARS-CoV-2 RNA test",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBV DNA real-time fluorescence assay",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae IgG",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae IgM",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chlamydophila pneumoniae IgG",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chlamydia pneumoniae IgM",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Influenza A antigen test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Influenza B antigen test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TORCH testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear for fungi and acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF TB-DNA test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Absolute T-cell subset count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete humoral immunity panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin A",
+          "requirement": "required"
+        },
+        {
+          "exam": "Total IgE measurement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: Complete blood count: hemoglobin 116 g/L, platelet count 345×10^9/L, white blood cell count 3.73×10^9/L, segmented neutrophil percentage 63.6%, absolute lymphocyte count 0.64×10^9/L (1.1-3.2), absolute eosinophil count 0.00. Blood chemistry was as follows: liver and renal function normal, fasting blood glucose 11.08 mmol/L. Hemoglobin A1c 6.7%. Urinalysis: specific gravity 1.037, qualitative urine protein 0.3 (1+) g/L, white blood cells 0/HP. Stool examination normal. Pre-transfusion screening panel negative. Routine coagulation tests unremarkable. Myocardial enzyme tests negative. Procalcitonin 0.14 ng/ml. CRP 99.40 mg/L. Legionella pneumophila antibody test (-). GM test (-). Blood culture (-). SARS-CoV-2 RNA (-). EB virus DNA real-time fluorescence test 5.81E+01 copies/mL. Mycoplasma pneumoniae IgG 41.06 RU/ml (<20), Chlamydia pneumoniae IgG 85.90 RU/mL (<20), Mycoplasma pneumoniae and Chlamydia pneumoniae IgM values within the normal range. Influenza A antigen test negative; influenza B antigen test negative. TORCH panel negative. Sputum smear showed no fungi or acid-fast bacilli. TB-DNA in bronchoalveolar lavage fluid was negative. Cellular immunity: absolute T-cell subset counts: absolute CD3 count 329 cell/ul, absolute CD4 count 266 cell/ul, absolute CD8 count 34 cell/ul. Humoral immunity panel negative. Immunoglobulins: immunoglobulin A 4070.00 mg/L, total IgE (IgE) 589.00 IU/ml. The patient underwent imaging examination: chest CT on Day 0 (see Figure 1).",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKrIP4xsYeM4FhaUiaHR2fibGKmibaLnlJ4ELat1Jn6icIYyUB9QLE92yjE4g/640?wx_fmt=jpeg",
+            "near_text": "Figure 1: Patchy ground-glass opacity and patchy opacity are seen in the left lower lobe.",
+            "local_src": "cleaned_cases_image_cache/7d74b2768d6faa24da68fccb777b8613b409ea6d.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKribhc4AzmRhNib8Sc0uYkFA052OvWXXS1V9pM702Jia7XQlwDSunPNrZCA/640?wx_fmt=jpeg",
+            "near_text": "Figure 1: Patchy ground-glass opacity and patchy opacity are seen in the left lower lobe.",
+            "local_src": "cleaned_cases_image_cache/0bc0058e004ab9d345358f84b645ef6ea2fd1994.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Bacteria",
+            "evidence": [
+              "Acute onset, high fever, pulmonary rales, patchy consolidation on imaging"
+            ],
+            "exclusion_reasons": [
+              "No cough or sputum production, white blood cell count not elevated"
+            ]
+          },
+          {
+            "name": "Mycoplasma, Chlamydia",
+            "evidence": [
+              "Predominantly dry cough, blood cell count not elevated, imaging shows ground-glass opacities and consolidation."
+            ],
+            "exclusion_reasons": [
+              "Older age; the patient has underlying medical conditions"
+            ]
+          },
+          {
+            "name": "virus",
+            "evidence": [
+              "Low white blood cell count, PCT not elevated, poor efficacy of antibacterial therapy"
+            ],
+            "exclusion_reasons": [
+              "No epidemiologic exposure history, no obvious upper respiratory tract symptoms, imaging shows unilateral pulmonary lobe involvement"
+            ]
+          },
+          {
+            "name": "Legionella",
+            "evidence": [
+              "high fever, headache, proteinuria"
+            ],
+            "exclusion_reasons": [
+              "The patient is middle-aged, with acute onset, no relative bradycardia, no productive cough, low white blood cell count, no hypophosphatemia, and imaging findings are not supportive."
+            ]
+          },
+          {
+            "name": "Psittacosis",
+            "evidence": [
+              "Acute onset, high fever, headache, no sputum, imaging findings are consistent, leukopenia, suspected proteinuria"
+            ],
+            "exclusion_reasons": [
+              "No bradycardia, no facial rash"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Bacteria",
+        "evidence": [
+          "Acute onset, high fever, pulmonary rales, patchy consolidation on imaging"
+        ],
+        "exclusion_reasons": [
+          "No cough or sputum production, white blood cell count not elevated"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Mycoplasma, Chlamydia",
+        "evidence": [
+          "Predominantly dry cough, blood cell count not elevated, imaging shows ground-glass opacities and consolidation."
+        ],
+        "exclusion_reasons": [
+          "Older age; the patient has underlying medical conditions"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "virus",
+        "evidence": [
+          "Low white blood cell count, PCT not elevated, poor efficacy of antibacterial therapy"
+        ],
+        "exclusion_reasons": [
+          "No epidemiologic exposure history, no obvious upper respiratory tract symptoms, imaging shows unilateral pulmonary lobe involvement"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Legionella",
+        "evidence": [
+          "high fever, headache, proteinuria"
+        ],
+        "exclusion_reasons": [
+          "The patient is middle-aged, with acute onset, no relative bradycardia, no productive cough, low white blood cell count, no hypophosphatemia, and imaging findings are not supportive."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Psittacosis",
+        "evidence": [
+          "Acute onset, high fever, headache, no sputum, imaging findings are consistent, leukopenia, suspected proteinuria"
+        ],
+        "exclusion_reasons": [
+          "No bradycardia, no facial rash"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "On Day +11, fiberoptic bronchoscopy was performed, and biopsy and lavage fluid specimens were obtained and sent for pathology and pathogen testing. Fiberoptic bronchoscopy: no abnormalities were seen in the bronchi of either side at all levels.",
+          "why_order_this_exam": "The patient is a 59-year-old man with acute onset, fever for 1 week, with a maximum temperature of 39℃, accompanied by headache, mild cough, and no sputum. Chest CT showed ground-glass opacity and patchy opacity/lobar patchy consolidation in the left lower lung. Recurrent fever persisted after routine anti-infective therapy. At the same time, leukopenia and lymphopenia were present, PCT was not elevated, whereas CRP was markedly elevated, suggesting that this was not typical common bacterial pneumonia, and that a reliable lower respiratory tract specimen was needed to further clarify the etiology. Bronchoscopy can directly assess whether there are obstructive lesions in the airway, tuberculous bronchial lesions, tumor, or obvious purulent secretions, and can provide an access route for subsequent biopsy and bronchoalveolar lavage. Although no abnormalities were seen under bronchoscopy in the bronchi of all levels on either side in this case, this result itself also helps exclude a central airway mass or obvious endobronchial lesions, supporting that the lesion is mainly located in the lung parenchyma, thereby guiding further lavage fluid pathogen testing and lung tissue pathologic examination, which is related to confirmation of an infectious etiology and whether additional anti-inflammatory therapy is needed subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy",
+          "basis_in_stage3_input": "On Day +11, bronchoscopy was performed, and biopsy and lavage fluid specimens were collected and sent for pathology and pathogen testing.",
+          "why_order_this_exam": "In this case, fever was prominent while respiratory symptoms were relatively mild. Imaging showed focal ground-glass opacity and patchy consolidation in the left lower lung. Laboratory findings indicated leukopenia, lymphopenia, and a PCT of only 0.14 ng/ml. In addition, blood culture, GM, sputum acid-fast bacillus smear and fungal smear, TB-DNA, and other tests did not provide a clear etiologic explanation. Clinically, the differential diagnosis included bacterial infection, viral infection, atypical pathogens, tuberculosis, fungal infection, and organizing pneumonia. At this time, the purpose of obtaining a lung tissue biopsy was to directly acquire histopathologic evidence from the lesion and determine whether the lesion represented simple infection, post-infectious organization, granulomatous inflammation, tumor, or another noninfectious interstitial lung disease. Histopathologic results can provide critical qualitative evidence when etiologic findings are atypical or serologic findings are inconclusive, and help assess whether glucocorticoids or other treatment can be added on the basis of anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF specimen sent for pathologic examination",
+          "basis_in_stage3_input": "On Day +11, bronchoscopy was performed, and biopsy and lavage fluid specimens were collected and sent for pathology and pathogen testing.",
+          "why_order_this_exam": "The imaging lesion was located in the left lower lung. There was scant sputum or even no sputum, and the sputum specimen had limited representativeness. Clinically, differentiation was needed between infectious and noninfectious lung disease; therefore, submitting bronchoalveolar lavage fluid for pathologic examination would help obtain more direct cytologic/pathologic information from the site of the lesion. This examination can assess the inflammatory cell components, whether abnormal cells are present, and whether there is hemorrhage or other special changes, thereby helping determine whether the lesion is more consistent with infectious inflammation, organizing changes, or other parenchymal lung lesions. In conjunction with the subsequent lung tissue biopsy in this case suggesting \"infection with organizing pneumonia,\" the value of BALF pathologic examination lies in corroborating histology and imaging findings, improving diagnostic confidence, and providing a basis for the subsequent combined anti-infective and anti-inflammatory treatment regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF specimen sent for pathogen testing",
+          "basis_in_stage3_input": "On Day +11, bronchoscopy was performed, and biopsy and lavage fluid specimens were collected and sent for pathology and pathogen testing.",
+          "why_order_this_exam": "The patient had high fever, headache, nonproductive cough, leukopenia, and a PCT that was not elevated. Chest CT showed ground-glass opacity and consolidation in the left lower lobe. These clinical features are more suggestive of infection with atypical pathogens or special pathogens. However, the earlier negative blood cultures, negative Legionella antibody, negative COVID-19 and influenza tests, normal Mycoplasma/Chlamydia IgM, and sputum smear and TB-DNA that did not identify the etiology indicate limitations of routine testing. Because the patient had no sputum or scant sputum, obtaining lavage fluid from the lesion site for pathogen testing can significantly increase the likelihood of detecting bacteria, mycobacteria, fungi, and atypical pathogens. The core clinical issue this is intended to address is: when the efficacy of empiric anti-infective therapy is not fully certain, to identify the true causative microorganism as soon as possible, narrow the differential diagnosis, guide whether to continue conventional antibacterial therapy, whether targeted therapy against special pathogens is needed, and avoid missing important etiologies such as TB or fungal infection that would affect the treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic diagnosis of cryobiopsy of the basal segment of the left lower lobe",
+          "basis_in_stage3_input": "Pathologic diagnosis from transbronchial cryobiopsy of the basal segment of the left lower lobe: consistent with infection with organizing pneumonia.",
+          "why_order_this_exam": "The imaging abnormalities were mainly located in the left lower lobe, and the patient had recurrent high fever and elevated inflammatory markers, but the blood count was not typical and the initial pathogen screening was inconclusive, suggesting that imaging and blood tests alone could not explain the full clinical picture. Cryobiopsy of the left lower lobe basal segment, the site of the imaging abnormality, can obtain more adequate lung parenchymal tissue than a conventional small biopsy and helps determine whether organizing pneumonia, diffuse alveolar damage, granulomas, tumor, or other interstitial lesions are present. In this case, this examination ultimately confirmed findings consistent with infection with organizing pneumonia, resolving the key clinical question of why the imaging abnormalities and inflammatory response persisted in the setting of infection and why subsequent addition of methylprednisolone for anti-inflammatory treatment was needed. This result not only supports secondary organizing changes after infection, but also directly affected treatment selection, namely adding glucocorticoids while continuing anti-infective therapy, and provided a pathologic explanation for subsequent improvement on follow-up CT.",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF NGS",
+          "basis_in_stage3_input": "BALF NGS: Chlamydia psittaci, sequence count 1924.",
+          "why_order_this_exam": "In this case, from the mode of onset to the ancillary examinations, all findings suggested the possibility of infection with a special pathogen: acute high fever, headache, cough with scant or no sputum, leukopenia, non-elevated PCT with elevated CRP, and imaging showing unilateral lower lung ground-glass opacity and patchy/consolidative opacities. In addition, routine culture, Legionella antibody, influenza, COVID-19, sputum smear, TB-DNA, and other tests did not provide a definitive answer; serology showed only elevated Chlamydia pneumoniae IgG with normal IgM, which was also insufficient to prove current active infection. In this setting of negative or uncertain conventional microbiologic testing, BALF NGS can perform broad-spectrum, highly sensitive pathogen screening based on specimens obtained from the lesion site, and is especially suitable for detecting atypical pathogens such as Chlamydia psittaci that are not easily covered by routine testing or have limited detection rates. The clinical problem this test was intended to solve was to identify the true pathogen, thereby transforming the suspicion of atypical pneumonia/psittacosis into an evidence-supported diagnosis; in this case, NGS detected 1924 Chlamydia psittaci sequence reads, which, together with the subsequently elicited history of bird exposure, became the core basis for the confirmed diagnosis of left lung Chlamydia psittaci pneumonia and also provided निर्णसive evidence for subsequent treatment decision-making.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "To further clarify the diagnosis, on Day +11, bronchoscopy was performed with biopsy and bronchoalveolar lavage fluid specimens submitted for pathology and pathogen testing. Bronchoscopy: no abnormalities were seen in the bronchi of all levels bilaterally. Transbronchial cryobiopsy of the basal segment of the left lower lobe: pathology diagnosis: consistent with infection with organizing pneumonia. BALF NGS: Chlamydia psittaci, sequence count 1924. Further history revealed bird exposure.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKr522gsteCGFmfLsVcLHTkQVh4PzCiarHLOOjxdAWboFC0k4UvrrovhkA/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: On Day +9, chest CT showed patchy opacities and consolidation in the left lower lung, worsened compared with prior imaging.",
+          "local_src": "cleaned_cases_image_cache/79708d56e6c20074e8460af91c76d5f3d41716e1.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKrG2via1orIzoy7ybLmN5Tp11GXfGsyS58pAnzbqrvmatibpPGcDVjriaibA/640?wx_fmt=jpeg",
+          "near_text": "Figure 3: Chest CT on Day +21 showed that the patchy opacities and consolidation in the left lower lung had been absorbed compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/e6924f0869e4ea1b4d09c9a2c40e23bf41f2b951.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKr522gsteCGFmfLsVcLHTkQVh4PzCiarHLOOjxdAWboFC0k4UvrrovhkA/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: On Day +9, chest CT showed patchy opacities and consolidation in the left lower lung, worsened compared with prior imaging.",
+          "local_src": "cleaned_cases_image_cache/79708d56e6c20074e8460af91c76d5f3d41716e1.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKrYzkqic48F7riaPLicURLHjxhIMGwa3qudfFjgb7AExE6TPIwQoxAeEAKw/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: On Day +9, chest CT showed patchy opacities and consolidation in the left lower lung, worsened compared with prior imaging.",
+          "local_src": "cleaned_cases_image_cache/99423689f981ca0bb31029a2f57ee6de887379f6.jpg"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKrELzicibHqzK5uRGMOEgzzP8c0fPeicmUzDm8SBATBkHJAXDsxicXj3E34Q/640?wx_fmt=jpeg",
+          "near_text": "Figure 3: Chest CT on Day +21 showed that the patchy opacities and consolidation in the left lower lung had been absorbed compared with the previous study.",
+          "local_src": "cleaned_cases_image_cache/46c1b439aa92849ccf412a130276db12869dd60d.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKFd2pJ3BuPCByib0vPH1YKr522gsteCGFmfLsVcLHTkQVh4PzCiarHLOOjxdAWboFC0k4UvrrovhkA/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: On Day +9, chest CT showed patchy opacities and consolidation in the left lower lung, worsened compared with prior imaging.",
+          "local_src": "cleaned_cases_image_cache/79708d56e6c20074e8460af91c76d5f3d41716e1.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Left lung pneumonia (Chlamydia psittaci); 2. Organizing pneumonia; 3. Type 2 diabetes mellitus.",
+      "diagnostic_basis": [
+        "Symptoms: acute onset, high fever, headache, no sputum.",
+        "Physical sign: moist rales in the left lower lung.",
+        "Ancillary examinations: ① Chest CT: lobar patchy consolidation in the left lower lung; ② decreased white blood cell count; ③ positive urine protein; ④ BALF NGS suggested Chlamydia psittaci; ⑤ lung tissue biopsy suggested infection with organizing pneumonia."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Continue anti-infective therapy with piperacillin/tazobactam combined with moxifloxacin",
+        "On Day +16, methylprednisolone 40 mg was added for anti-inflammatory treatment."
+      ],
+      "treatment_response": [
+        "After treatment, the patient's condition improved, there was no further fever, and repeat chest CT showed improvement compared with the previous study."
+      ]
+    }
+  }
+}

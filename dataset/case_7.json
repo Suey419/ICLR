@@ -1,0 +1,287 @@
+{
+  "status": "success",
+  "case_id": "case_7",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 50-year-old female patient with a 3-year history of hypertension. Chief complaint: cough with sputum production and dyspnea for more than 2 years. The patient also coughed up large amounts of white sputum that was easily expectorated, without blood in the sputum. She had a foreign body sensation in the throat and throat dryness, without sore throat or neck pain; she had dysphagia and choking when drinking water; she had weakness after heavy physical labor, accompanied by cough, and snoring during sleep; she had mouth breathing and nocturnal awakening with a choking sensation, without daytime sleepiness. In approximately 23 months before Day 0, she presented to a local county hospital and was diagnosed with \"bronchitis.\" Drug treatment for more than 10 days did not lead to improvement, and she was then switched to traditional Chinese medicine treatment for 1 year, but her symptoms still did not improve. In approximately 10 months before Day 0, she presented to a tertiary hospital in Xi'an and was diagnosed with \"chronic bronchitis.\" Inhaled medication was given, but the medication could not be inhaled and the treatment effect was not obvious; she discontinued the medication on her own about 1 year later. In approximately 5 months before Day 0, she presented to another tertiary hospital in Shaanxi Province. CT findings suggested: \"1. bulla in the left lower lobe; 2. enlarged and full right thyroid lobe, with patchy slightly low-density opacity within it.\" PFT suggested obstructive ventilatory dysfunction (very severe). She was diagnosed with chronic bronchitis; treatment details are unknown, and symptoms were not significantly relieved. In approximately 3 months before Day 0, she again presented to the local county hospital. Echocardiography suggested dilatation of the ascending aorta, and no treatment was given. Ten days later, dyspnea worsened, with mouth breathing and no cough. She again presented to the local county hospital and received intravenous infusion treatment for bronchitis for 4 days, with no obvious effect, and was discharged. In around Day 0, she presented to another tertiary hospital in Xi'an because of dyspnea. Thyroid ultrasound: \"enlarged right thyroid lobe; left lobe and isthmus normal in size; diffuse parenchymal disease.\" Three-dimensional tracheal reconstruction: enlarged right thyroid gland with low-density opacity within it, more likely benign; compression deformity of the adjacent trachea; narrowing of both main bronchi. On Day 0, she underwent right thyroidectomy in the Department of Otolaryngology at our hospital. Postoperative pathology suggested \"benign enlargement.\" Her symptoms improved significantly after surgery. However, in approximately 1 month after Day 0, 1 month after surgery, dyspnea recurred. She presented to the Department of Otolaryngology at our hospital. Laryngoscopy: \"subglottic mucosal thickening, subglottic stenosis.\" Chest CT: 1. status post thyroid mass resection; 2. heterogeneous density of the left thyroid lobe, with low-density opacity within it; 3. increased bilateral lung markings; 4. thickening of the tracheal wall with luminal narrowing; 5. luminal narrowing of the right main bronchus. Three-dimensional bronchial reconstruction (our hospital, Day +71): thickening of the walls of the trachea, bilateral main bronchi, and the bronchi of both upper lobes and the right middle lobe, with luminal narrowing; soft tissue opacity on the left side of the trachea, possibly of thyroid origin. Physical examination on admission: temperature 36.0 ℃, pulse 99 beats/min, respiration 23 breaths/min, blood pressure 162/81 mmHg, depressed nasal bridge with saddle-nose deformity. The patient was conscious, in poor general condition, in the orthopneic position, with inspiratory dyspnea. On auscultation, breath sounds were coarse in both lungs, and wheezing was heard in both lungs. Arterial blood gas analysis: pH 7.45, PaO2 89 mmHg, PaCO2 39 mmHg.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473ovsGVK58KOvoQ226Z0XickqdXmjdafLibvVND22Yl8jzm80ibsWT0kic7A/640?wx_fmt=png",
+          "near_text": "saddle nose",
+          "local_src": "cleaned_cases_image_cache/da21684cdef9a004fd07268c3bc524b8e4ee423f.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLqKV4504ucSjZeFx6Rz473YFKlaicNIeHOxTsnDsTPXBZ4SccqW8bZDUicu3BW8fQInHtf4hTrMpuw/640?wx_fmt=png",
+          "near_text": "3D airway reconstruction",
+          "local_src": "cleaned_cases_image_cache/07d56812ce3c633dffeb3a10372db00278ebeed3.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Relapsing polychondritis (airway involvement)",
+          "supporting_evidence": [
+            "Collapsed nasal bridge with saddle-nose deformity",
+            "Laryngoscopy showed \"subglottic mucosal thickening, subglottic stenosis\"",
+            "Chest CT showed \"tracheal wall thickening with luminal narrowing; narrowing of the lumen of the right main bronchus\"",
+            "3D bronchial reconstruction showed \"thickening of the walls of the trachea, bilateral main bronchi, and the bronchi of both upper lobes and the right middle lobe, with luminal narrowing\"",
+            "Pulmonary function testing indicates very severe obstructive ventilatory dysfunction, and the response to inhaled therapy is not obvious, suggesting the possibility of a fixed central airway lesion rather than simple small airway disease.",
+            "On physical examination: orthopneic position, mouth breathing, and bilateral wheezing, consistent with airflow limitation due to central airway stenosis",
+            "The accompanying image shows marked narrowing of the upper airway/central airway."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Granulomatosis with polyangiitis (GPA, predominantly involving the upper airway, subglottis, and trachea)",
+          "supporting_evidence": [
+            "Collapse of the nasal bridge with a saddle-nose deformity may be seen in destructive inflammatory diseases of the upper airway",
+            "Globus sensation, throat dryness, dysphagia, and coughing/choking when drinking water suggest upper airway involvement.",
+            "Laryngoscopy showed subglottic stenosis; chest CT and three-dimensional reconstruction showed thickening and stenosis of the tracheal and main bronchial walls, consistent with inflammatory stenotic airway lesions.",
+            "The course has been prolonged for more than 2 years; multiple treatments for “bronchitis” and “chronic bronchitis” were ineffective, which does not support simple infectious bronchitis."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no evidence was provided of sinusitis, bloody sputum, hemoptysis, renal involvement, or systemic vasculitis.",
+            "In the first phase of information, no definite imaging description of pulmonary parenchymal nodules, cavitation, or similar findings was seen."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Compressive central airway stenosis caused by thyroid enlargement/thyroid lesion",
+          "supporting_evidence": [
+            "approximately 5 months before Day 0 CT showed \"enlargement and full contour of the right thyroid lobe, with patchy slightly low-density areas within it\"",
+            "Thyroid color Doppler ultrasound in around Day 0 indicated “enlarged right thyroid lobe, diffuse parenchymal disease”",
+            "Tracheal 3D reconstruction showed: \"enlargement of the right thyroid gland with a low-density lesion within it, more likely benign; adjacent tracheal compression and deformity; narrowing of the bilateral main bronchi\"",
+            "After right thyroidectomy, “the patient’s symptoms improved markedly postoperatively,” suggesting that the thyroid lesion was related to airway obstruction.",
+            "3D bronchial reconstruction at our hospital suggested \"a left-sided tracheal soft tissue opacity, possibly originating from the thyroid gland\""
+          ],
+          "opposing_evidence": [
+            "Dyspnea recurred 1 month after surgery, and laryngoscopy showed thickening of the subglottic mucosa, while chest CT showed thickening of the tracheal wall, suggesting that in addition to simple external compression, intrinsic airway disease may also be present.",
+            "The extent of airway stenosis is not limited to the site of tracheal compression, but also involves the bilateral main bronchi and the bronchi of both upper lobes and the right middle lobe; simple extrinsic compression from the thyroid alone cannot fully explain this."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Idiopathic/inflammatory subglottic stenosis and tracheobronchial stenosis",
+          "supporting_evidence": [
+            "Laryngoscopy clearly showed \"subglottic mucosal thickening, subglottic stenosis\"",
+            "Chest CT and 3D bronchial reconstruction both showed thickening of the tracheal and bronchial walls and luminal narrowing, consistent with stenotic airway disease.",
+            "Symptoms are mainly dyspnea, mouth breathing, nocturnal awakening due to dyspnea, and wheezing, and the efficacy of inhaled medications is not obvious, suggesting the possibility of fixed upper/central airway stenosis",
+            "Arterial blood gas analysis: PaO2 89 mmHg, PaCO2 39 mmHg, indicating that although there was no obvious carbon dioxide retention at that time, there were clinically evident manifestations of airway obstruction."
+          ],
+          "opposing_evidence": [
+            "The presence of saddle-nose deformity is a systemic clue, suggesting that this may not be simple idiopathic localized stenosis and that stenosis due to a systemic disease should be considered.",
+            "In the first stage, no clear common predisposing factors for secondary stenosis were identified, such as endotracheal intubation, tracheostomy, or obvious trauma."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Tracheobronchial amyloidosis",
+          "supporting_evidence": [
+            "Chest CT and three-dimensional reconstruction suggest extensive wall thickening and narrowing of the trachea, main bronchi, and some lobar bronchi, which may be seen in infiltrative central airway disease",
+            "The course has been slowly progressive and protracted for more than 2 years, with cough, large amounts of white sputum, dyspnea, and wheezing as the main manifestations, which may be consistent with central airway amyloid deposition.",
+            "Repeated treatment as “bronchitis” and “chronic bronchitis” did not result in significant relief, supporting a noninfectious, not simply bronchitic lesion"
+          ],
+          "opposing_evidence": [
+            "Saddle-nose deformity is more suggestive of cartilage or destructive upper airway disease, rather than a typical clue to amyloidosis",
+            "In the first stage, imaging features more supportive of amyloidosis, such as nodular/plaque-like calcified lesions within the airway, were not described."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Chronic obstructive airway disease (chronic bronchitis/asthma/COPD phenotype)",
+          "supporting_evidence": [
+            "Chief complaint: cough and sputum production accompanied by dyspnea for more than 2 years, with a large amount of white sputum",
+            "PFT indicated obstructive ventilatory dysfunction (very severe)",
+            "On auscultation, breath sounds were coarse in both lungs, and wheezes were heard in both lungs.",
+            "Previously diagnosed with \"bronchitis\" and \"chronic bronchitis\""
+          ],
+          "opposing_evidence": [
+            "The effect of inhaled medication therapy was not obvious, and at one point the patient was \"unable to inhale the medication,\" which does not support a purely reversible small airway disease.",
+            "Laryngoscopy, chest CT, and three-dimensional bronchial reconstruction all indicated definite structural stenosis of the subglottis, trachea, and main bronchi, which is difficult to fully explain by chronic bronchitis/asthma alone",
+            "Saddle nose deformity, dysphagia, choking with drinking water, and thyroid-related compressive signs suggest clues to upper airway or systemic disease"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatoid arthritis-related markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related indicators",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, laboratory tests showed: WBC 5.41×109/L, neutrophil count 3.32×109/L; procalcitonin <0.5μg/L; BNP 12pg/L. Rheumatoid-related markers, TB-related markers, coagulation panel, liver and kidney function, and electrolytes were all normal. Bronchoscopy performed on Day +79: on endoscopy, the tracheal cartilaginous rings were poorly visualized, the tracheal mucosa was swollen and thickened, tracheal collapse was obvious during inspiration, and the openings of both main bronchi were markedly narrowed, especially during inspiration. Biopsy pathology diagnosis: microscopy showed collagen fiber proliferation and hyaline degeneration, with a few lymphocytes and foreign body giant cells present; striated muscle tissue was seen peripherally, and no cartilage tissue was identified.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLqKV4504ucSjZeFx6Rz4736icQyQypMOiabr8woTCDWzmoZJLyhGDHDw4VpeN29493fWk6xIREia1IA/640?wx_fmt=jpeg",
+            "near_text": "On microscopy, the tracheal cartilaginous rings are poorly visualized.",
+            "local_src": "cleaned_cases_image_cache/e1b94a62c8bbe7613db0ee72cdccc1752defd8e5.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Chronic obstructive pulmonary disease",
+            "evidence": [
+              "Diagnosed with chronic obstructive pulmonary disease at multiple large tertiary Grade A hospitals",
+              "PFT indicated obstructive ventilatory dysfunction (very severe)"
+            ],
+            "exclusion_reasons": [
+              "The patient's condition did not improve after treatment as chronic obstructive pulmonary disease, but instead progressively worsened.",
+              "Abnormal changes within the tracheal lumen seen under direct visualization, such as mucosal swelling, disappearance of the cartilaginous rings, and a markedly increased range of airway motion, are not manifestations of chronic obstructive pulmonary disease."
+            ]
+          },
+          {
+            "name": "Endobronchial tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No laboratory test or pathologic diagnosis support",
+              "TB-related indicators are normal"
+            ]
+          },
+          {
+            "name": "Amyloidosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No laboratory test or pathologic diagnosis support"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Chronic obstructive pulmonary disease",
+        "evidence": [
+          "Diagnosed with chronic obstructive pulmonary disease at multiple large tertiary Grade A hospitals",
+          "PFT indicated obstructive ventilatory dysfunction (very severe)"
+        ],
+        "exclusion_reasons": [
+          "The patient's condition did not improve after treatment as chronic obstructive pulmonary disease, but instead progressively worsened.",
+          "Abnormal changes within the tracheal lumen seen under direct visualization, such as mucosal swelling, disappearance of the cartilaginous rings, and a markedly increased range of airway motion, are not manifestations of chronic obstructive pulmonary disease."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Endobronchial tuberculosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No laboratory test or pathologic diagnosis support",
+          "TB-related indicators are normal"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Amyloidosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No laboratory test or pathologic diagnosis support"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "bronchoscopy",
+          "basis_in_stage3_input": "Marked tracheobronchial stenosis on bronchoscopy",
+          "why_order_this_exam": "The patient has had progressive cough, production of large amounts of white sputum, and dyspnea for more than 2 years. Previous multiple treatments for \"bronchitis\" and \"chronic bronchitis\" were ineffective. Laryngoscopy, chest CT, and 3D reconstruction have already shown extensive stenosis of the subglottis, trachea, and bilateral main bronchi, indicating that this is not simply small airway disease. At the current stage, because of persistent dyspnea, only partial relief with noninvasive ventilation, and the finding of severe central airway stenosis during Y-stent placement, bronchoscopy is again needed to directly assess the location, extent, severity, and dynamic collapse of the stenosis, and to determine whether there is destruction of the tracheal cartilaginous rings, inspiratory collapse, stent-related problems, or an endotracheal tube position problem. This examination can directly address key clinical questions regarding the exact location of the airway obstruction and whether stent adjustment, re-intubation, tracheostomy, or subsequent interventional treatment is needed. It also provides important morphologic evidence for airway involvement caused by relapsing polychondritis and is used to assess airway improvement after treatment.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Otolaryngology evaluation",
+          "basis_in_stage3_input": "After transfer to the RICU, the patient's oxygen saturation suddenly decreased to 70%",
+          "why_order_this_exam": "The patient was already in critical condition: persistent marked dyspnea requiring endotracheal intubation followed by transfer to the RICU, and after transfer the oxygen saturation suddenly dropped to 70%, ultimately confirmed to be related to displacement of the endotracheal tube above the stenotic segment with impaired ventilation, indicating extremely unstable airways and that severe hypoxemia could occur within a short period of time. Although arterial blood gas was acceptable at one point previously, the disease course included extensive central airway stenosis, dynamic collapse, failed stent manipulation, and multiple failed weaning attempts, indicating that oxygenation could deteriorate rapidly and cannot be judged solely on the basis of clinical manifestations. The purpose of continuous oxygen saturation monitoring is to detect in real time hypoxemic events caused by endotracheal tube displacement, recurrent airway obstruction, mucus plugging, stent-related complications, or weaning failure; to assess whether current ventilatory support is adequate; and to provide a basis for whether immediate readjustment of the artificial airway, escalation of ventilator support, tracheostomy, and subsequent RICU management are needed. This monitoring is crucial to ensuring safety during evaluation and treatment and reducing the risk of acute asphyxia and severe hypoxemia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "",
+          "why_order_this_exam": "Amyloid disease needs to be excluded on pathology",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The patient's dyspnea was somewhat relieved with noninvasive positive-pressure ventilation. Because the patient had persistent dyspnea and marked tracheobronchial stenosis on bronchoscopy, Y-shaped stent placement was performed. During the procedure, because the tracheal stent was not deployed well, it was removed, and the patient was transferred to the RICU after endotracheal intubation. After transfer to the RICU, the patient's oxygen saturation suddenly decreased to 70%, and it was considered that the endotracheal tube had become displaced above the tracheal stenotic segment, resulting in airflow obstruction. The endotracheal tube was immediately removed, endotracheal intubation was performed again, and the Department of Otolaryngology was contacted for tracheostomy. Stable oxygen saturation could be maintained only with tracheostomy and ventilator-assisted ventilation. Multiple attempts at weaning during this period all failed. Under invasive ventilation, the patient had no obvious shortness of breath. It was decided to review the medical history again and carefully ask the family about various details, and it was learned that the patient had developed collapse of the nasal bridge only in recent years, accompanied by dry eyes and hearing loss.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Relapsing polychondritis",
+      "diagnostic_basis": [
+        "According to the 1989 diagnostic criteria for relapsing polychondritis proposed by Michel et al., the diagnosis can be established with 2 major manifestations or 1 major manifestation + 2 minor manifestations.",
+        "The patient has nasal chondritis (collapse of the nasal bridge with a saddle-nose deformity).",
+        "Disappearance of the tracheal cartilaginous rings",
+        "On further questioning, there was a history of dry eyes and eye irritation symptoms.",
+        "The patient reports decreased hearing compared with previously.",
+        "Meets 2 major criteria + 2 minor criteria"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methotrexate (10 mg, once weekly) combined with glucocorticoids 30 mg/d treatment"
+      ],
+      "treatment_response": [
+        "The patient was successfully weaned from invasive mechanical ventilation after 2 months.",
+        "During this period, two bedside bronchoscopic examinations showed that the inspiratory-phase tracheal collapse of the tracheal wall gradually improved compared with before.",
+        "Currently with a tracheostomy in place; continue pharmacologic treatment; no obvious respiratory symptoms; good exercise tolerance",
+        "Preparing to replace the cannula with a T-tube"
+      ]
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "status": "success",
+  "case_id": "case_85",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 29-year-old unmarried man from Xinghua, Jiangsu, employed at a work unit in Jiangning District, Nanjing, who was first admitted to the Department of Pulmonary and Critical Care Medicine of Nanjing Jiangning Hospital (Jiangning Hospital Affiliated to Nanjing Medical University) on Day 0 with the chief complaint of \"left-sided chest pain for 10 days.\" Ten days before admission, the patient developed pain in the left \"costal region\" without an obvious precipitating cause; the pain was more pronounced on inspiration. He had a small amount of cough and sputum production, without hemoptysis, sneezing, rhinorrhea, fever, or night sweats, and without chest tightness or wheezing. On Day -7, the patient first presented to our emergency department. CT of the chest and upper abdomen showed infection in the left lower lobe with a small left pleural effusion; non-contrast CT of the upper abdomen showed no abnormalities. In the emergency department, he was treated with intravenous \"piperacillin/sulbactam + Xiyanping.\" Repeat chest CT on Day 0 showed increased exudative changes in the left lower lung and increased left pleural effusion with incomplete expansion of the left lower lobe. For further treatment, the emergency department admitted him to our department with the tentative diagnosis of \"pulmonary infection.\" Since disease onset, the patient's mental status and sleep have been fair, appetite has been acceptable, bowel and bladder function have been normal, and there has been no significant change in weight. The patient denies a history of smoking, alcohol use, exposure to drugs or toxic substances, and other unhealthy habits. He denies a family history of hereditary disease and a history of infectious diseases. Physical examination: T 36.7℃, P 110 beats/min, R 20 breaths/min, BP 123/89 mmHg, SpO2 97% (without oxygen). No rash was present on the skin, no superficial lymphadenopathy was palpable, the thorax showed no deformity, bilateral chest expansion was symmetric, tactile fremitus was not increased, percussion of both lungs was resonant, breath sounds in both lungs were clear, a few moist crackles were heard in the left lower lung, no Velcro rales were heard, and no pleural friction rub was heard. There was no precordial bulge, the apical impulse was located 0.5 cm medial to the left midclavicular line in the fifth intercostal space, no thrill was palpable, the cardiac borders were not enlarged, heart rate was 110 beats/min with regular rhythm, heart sounds were not obviously increased or decreased, and no pathologic murmur was heard in any valve auscultation area. The abdomen was flat and soft, with no hepatosplenomegaly, no abdominal tenderness, and no abdominal muscle guarding. No edema was present in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZZ8tK84OaRytnwqsTdJrmyFibWN0eft5ohmKMRzvaR1IicVWmzNLImRVQ/640?wx_fmt=png",
+          "near_text": "Comparison of chest CT scans on Day -7 and 25",
+          "local_src": "cleaned_cases_image_cache/9cd8efa1a630c0541056f7e28f1f368181804afc.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Community-acquired pneumonia complicated by parapneumonic pleural effusion",
+          "supporting_evidence": [
+            "Chief complaint: left-sided chest pain for 10 days, with \"pain markedly worse on inspiration,\" consistent with pleuritic pain characteristic of pleural involvement",
+            "Mild cough and sputum production, suggesting a possible respiratory tract infection",
+            "CT of the chest and upper abdomen on Day -7 showed \"left lower lobe infection with a small left pleural effusion\"",
+            "Repeat chest CT on Day 0 showed \"increased exudative opacity in the left lower lung, increased left pleural effusion with incomplete expansion of the left lower lobe\"",
+            "In the first-stage image, patchy/plaque-like infiltrative opacity in the left lower lung accompanied by left pleural effusion, consistent with pneumonia with pleural effusion",
+            "Physical examination revealed a few moist rales in the left lower lung, supporting left lower lobe consolidation/exudative lesion."
+          ],
+          "opposing_evidence": [
+            "No typical systemic manifestations of infection such as fever or chills",
+            "After IV infusion therapy in the emergency department with piperacillin/sulbactam + Xiyanping, repeat examination on Day 0 still showed increased left lower lobe infiltrates and increased left pleural effusion, suggesting a poor response to the initial anti-infective treatment or that this was not a simple common bacterial infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Tuberculous pleurisy (with possible involvement of the left lower lung)",
+          "supporting_evidence": [
+            "The patient is a young 29-year-old man with unilateral pleuritic chest pain and unilateral pleural effusion; tuberculous pleuritis should be highly suspected.",
+            "The left pleural effusion increased from a small amount over a short period, consistent with the characteristic subacute progression of tuberculous pleurisy.",
+            "Increased infiltrates in the left lower lung with left lower lobe atelectasis, suggesting that both the pleura and lung parenchyma may be involved",
+            "On physical examination, no obvious diffuse moist rales were heard; the symptoms were not entirely consistent with the degree of imaging progression, which can also be seen in tuberculous pleural disease."
+          ],
+          "opposing_evidence": [
+            "No tuberculous toxic symptoms such as fever, night sweats, or weight loss",
+            "Denies a history of infectious diseases",
+            "Phase 1 information did not provide a definite history of TB exposure or prior TB history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary embolism with pulmonary infarction/reactive pleural effusion",
+          "supporting_evidence": [
+            "Left-sided chest pain as the initial chief complaint, worsening with inspiration, consistent with pleuritic pain.",
+            "Heart rate 110 beats/min, tachycardia present",
+            "Chest CT shows a peripheral lesion in the left lower lung accompanied by a small to increased pleural effusion; pulmonary infarction may present as a peripheral wedge-shaped or patchy opacity accompanied by reactive pleural effusion.",
+            "No obvious fever; clinical symptoms of infection are relatively not prominent"
+          ],
+          "opposing_evidence": [
+            "No chest tightness or wheezing, SpO2 97% (not on oxygen), not indicative of significant hypoxemia",
+            "No hemoptysis",
+            "No edema in both lower extremities; information from the first stage did not suggest evidence of deep venous thrombosis.",
+            "The initial CT was directly described as \"left lower lobe infection,\" which more strongly supports an infectious lesion."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Empyema or complicated pleural effusion",
+          "supporting_evidence": [
+            "Within a short period, the left pleural effusion progressed from a small amount to increased volume.",
+            "There is concomitant increased infection/exudation in the left lower lung, suggesting that the pleural effusion may be infection-related and has become complicated.",
+            "Accompanied by left lower lobe atelectasis, indicating that the pleural effusion has already affected lung re-expansion",
+            "Chest pain is more pronounced during inspiration and may be seen when pleural inflammation is marked."
+          ],
+          "opposing_evidence": [
+            "No obvious manifestations of septic infection such as fever or chills",
+            "On physical examination, no pleural friction rub was heard, and breath sounds were overall clear in both lungs, with only a few moist rales in the left lower lung.",
+            "No evidence of loculation, encapsulation, or a definite empyema cavity was provided for the pleural effusion in the first-stage information."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Peripheral lung cancer or other pleural/pulmonary malignancy with pleural effusion",
+          "supporting_evidence": [
+            "Unilateral pleural effusion with ipsilateral pulmonary opacity; malignant lesions need to be differentiated.",
+            "After initial anti-infective treatment, imaging still showed increased infiltrates in the left lower lung and increased pleural effusion, indicating that a noninfectious etiology cannot be completely excluded.",
+            "Left lower lobe atelectasis may be secondary to tumor-related obstruction or pleural disease."
+          ],
+          "opposing_evidence": [
+            "The patient is only 29 years old, and the age does not support common primary lung cancer.",
+            "Denies a history of smoking and toxic exposure",
+            "No significant change in body weight",
+            "In the first stage, the imaging and text are more suggestive of left lower lobe infection with left pleural effusion, with no clearly described mass or mediastinal lymphadenopathy."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Reactive left pleural effusion secondary to subdiaphragmatic inflammation or an abdominal cavity lesion",
+          "supporting_evidence": [
+            "The pain was described as left \"hypochondriac\" pain; the anatomic location is close to the diaphragm and upper abdomen, and referred pain from a subdiaphragmatic lesion should be considered.",
+            "Left pleural effusion may be a reactive manifestation of subdiaphragmatic inflammation"
+          ],
+          "opposing_evidence": [
+            "Plain CT scan of the upper abdomen showed no abnormalities",
+            "Abdomen soft and flat, no hepatosplenomegaly, no abdominal tenderness or abdominal muscle guarding throughout the abdomen",
+            "Chest CT clearly indicates increased infection/exudation in the left lower lobe, further supporting intrathoracic pathology as the primary cause."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Five-part differential blood cell count panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "optional"
+        },
+        {
+          "exam": "G test, GM test, cryptococcal capsular antigen",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rheumatologic and immunologic markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear and culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Five immunoglobulin tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PPD",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Two-dimensional echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Left closed thoracic drainage + pleural biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid routine examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion and the three lung cancer markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Flexible bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine BALF examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF Mycobacterium tuberculosis complex nucleic acid test",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF mNGS",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Mycoplasma pneumoniae antibody IgG/IgM",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lymphocyte subset analysis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Serum total IgE",
+          "requirement": "optional"
+        },
+        {
+          "exam": "antinuclear antibody, ANCA",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lung tissue pathology examination",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Lung tissue mNGS",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, comprehensive examinations were completed. Five-part differential blood count showed normal WBC, neutrophils, and lymphocyte ratio; CRP 68mg/L↑, ESR 23mm/h↑; urinalysis, stool routine, and procalcitonin were normal; G test, GM test, and cryptococcal capsular antigen showed no abnormalities; sputum examination showed a small amount of G- bacilli, and sputum smear and culture showed no fungi or acid-fast bacilli; rheumatologic and immunologic indices, five immunoglobulin items, and blood tumor markers were all normal, PPD negative; biochemistry showed ALT 57U/L↑, prothrombin time activity 56%↓, international normalized ratio 1.45↑, thrombin time 29.5s↑; two-dimensional echocardiography showed no obvious abnormality in the internal diameters of the aorta and pulmonary artery, trace mitral regurgitation, and no obvious intracardiac structural abnormality. On 04-28, left closed thoracic drainage + pleural biopsy was performed. Pleural biopsy pathology showed very scant chronic pleuritis and a large amount of skeletal muscle tissue. Routine pleural fluid examination showed yellow color, slightly turbid, white blood cells 113010^6/L↑, Rivalta test positive, total protein 44.7g/L↑, LDH 186 U/L↑, lymphocytes 51.3%↑, mesothelial cells 28.3%↑; no acid-fast bacilli were seen in pleural fluid, and pleural fluid T-SPOT and three lung cancer items were both negative; repeat ESR 35mm/h↑, CBC showed L 17.2%↓, CRP 13.5mg/L↑, coagulation tests showed prothrombin time activity 64%↓, international normalized ratio 1.34↑, thrombin time 12.7s↓, D-dimer 1.44mg/L↑; electronic bronchoscopy suggested mild mucosal hyperemia of the left lower lobe, lavage fluid showed no acid-fast bacilli, bacteria, or fungi, Mycobacterium tuberculosis complex nucleic acid test was negative, GM test 2.58, mNGS showed no obvious abnormality. Repeat CT on Day +20 showed left pleural effusion with partial atelectasis of the left lower lobe and left pleural thickening and adhesion, slightly absorbed compared with before. Outpatient follow-up chest CT on Day +78 showed left lower lobe infection, with obvious progression compared with CT on Day +35. After this admission, CBC showed WBC 9.2310^9/L, neutrophils 73%, eosinophils 0.22*10^9/L, CRP 6.8mg/L, procalcitonin 0.06ng/ml, ESR 3mm/h, Mycoplasma pneumoniae antibody IgG positive and IgM negative, G test and cryptococcal capsular polysaccharide antigen negative, GM 0.74, lymphocyte subset measurement and serum total IgE normal, antinuclear antibody, ANCA, and tumor markers all negative, D-dimer 0.1mg/L. Bronchoscopy was repeated on Day +79 and showed blood adherent to the lumens of the segmental bronchi of the left lower lobe and magenta discoloration of the left lower bronchial mucosa. BALF culture on Day +82 showed methicillin-sensitive Staphylococcus aureus (MSSA), BALF GM test 1.74. BALF-mNGS on Day +84 showed Staphylococcus aureus sequence count 1895. Repeat contrast-enhanced chest CT that day showed multiple lesions in the left lower lobe with focal consolidation and punctate dense opacities, with slight progression compared with CT on Day +77. Repeat two-dimensional echocardiography on Day +89 showed EF 56%, trace mitral and tricuspid regurgitation, and decreased left ventricular diastolic function. CT-guided percutaneous lung biopsy was performed on Day +91. Lung biopsy pathology on Day +95 showed scant acute and chronic inflammatory cell infiltration in lung tissue, widened alveolar septa, proliferation of alveolar epithelium and fibrous tissue, disorganized alveolar architecture, congestion and hemorrhagic stasis in the alveolar spaces with hemosiderin deposition, and focal liquefactive necrosis. PAS, acid-fast stain, and silver stain were all negative, and lung tissue mNGS was negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZf6YtLZRM4ksy9GUgU6PKeDomL5K5dZR8sakoF6yRvOKCfCWguRIt8A/640?wx_fmt=png",
+            "near_text": "Patient body temperature trend chart",
+            "local_src": "cleaned_cases_image_cache/b08e5c43fa811a5a8332417a9149c6336e4c38c0.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZg2ySYoiaZBR6apePMgg8uKGBkbfEfyuDSU7oMbiapyicubalBtWISFh7w/640?wx_fmt=png",
+            "near_text": "Comparison of chest CT scans on Day 0 and Day +20",
+            "local_src": "cleaned_cases_image_cache/643a04b2876b6391ba31434302a907f4de420787.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZasuSPDpThibnjYpXsb7YpvlerXRpGtI0YRkWj2986cklzAhljWPeBgQ/640?wx_fmt=png",
+            "near_text": "Comparison of chest CT scans from Day +20 and Day +78",
+            "local_src": "cleaned_cases_image_cache/740e23b1e5806cc11fad746cc2e4345d91cc998b.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZ9mdCr0ywRSDLQwwjcPGHv1MXZ3dvbFweSw6BqxIGtLXFS8eibn2SKOA/640?wx_fmt=png",
+            "near_text": "Chest CT imaging data of the patient's left lower lung",
+            "local_src": "cleaned_cases_image_cache/8ca81b59e431cab72c43e92ff44c6f2f214830a8.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZ2icc6R8mI3uq5UcVLwOdQUoViaHcb2aelbfTkmXsoF7qICV6Ip6rtvhw/640?wx_fmt=png",
+            "near_text": "Comparison of chest CT scans from Day +77 and Day +84",
+            "local_src": "cleaned_cases_image_cache/704b1c2730d0f50ca6a5851e2c4b7eed9932021d.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZibicpH2sj6RuUwTgTkFawluClFyvSj2ibqqEfYwgfATsoF5KDyKG5WhyA/640?wx_fmt=png",
+            "near_text": "Chest CT on Day +91",
+            "local_src": "cleaned_cases_image_cache/e0cf7c6ad70cc2c961648ef8005eb000bb5f58d5.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tuberculosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Sputum smear negative for acid-fast bacilli",
+              "No acid-fast bacilli detected in pleural effusion",
+              "Pleural effusion T-SPOT negative",
+              "PPD negative",
+              "No acid-fast bacilli were seen in the lavage fluid",
+              "Mycobacterium tuberculosis complex nucleic acid test negative",
+              "Lung biopsy pathology: acid-fast stain negative",
+              "Relevant ancillary test results showed no definite evidence of TB"
+            ]
+          },
+          {
+            "name": "Fungi",
+            "evidence": [],
+            "exclusion_reasons": [
+              "G, GM, and cryptococcal capsular antigen were unremarkable",
+              "Sputum smear and culture were both negative for fungi",
+              "No fungi were found in the lavage fluid",
+              "Lung biopsy pathology: PAS and silver stain negative",
+              "Related ancillary test results showed no clear evidence of fungal infection"
+            ]
+          },
+          {
+            "name": "Rheumatic immune system disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Rheumatologic and immunologic markers were normal",
+              "Antinuclear antibody and ANCA negative",
+              "Relevant ancillary test results showed no clear evidence of a rheumatic immune system disease"
+            ]
+          },
+          {
+            "name": "tumor",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Blood tumor markers showed no abnormalities",
+              "Pleural effusion lung cancer panel: negative",
+              "Relevant ancillary examination results showed no clear evidence of tumor."
+            ]
+          },
+          {
+            "name": "cardiac insufficiency",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No obvious abnormality was seen in the intracardiac structures on two-dimensional echocardiography.",
+              "Relevant ancillary test results showed no clear evidence of heart failure"
+            ]
+          },
+          {
+            "name": "organizing pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Relevant ancillary test results showed no clear evidence supporting organizing pneumonia",
+              "The lung biopsy pathology does not completely conform to the typical features of organizing pneumonia."
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pulmonary vasculitis",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "parasite",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Malignant tumor",
+            "evidence": [],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "virus",
+            "evidence": [],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tuberculosis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Sputum smear negative for acid-fast bacilli",
+          "No acid-fast bacilli detected in pleural effusion",
+          "Pleural effusion T-SPOT negative",
+          "PPD negative",
+          "No acid-fast bacilli were seen in the lavage fluid",
+          "Mycobacterium tuberculosis complex nucleic acid test negative",
+          "Lung biopsy pathology: acid-fast stain negative",
+          "Relevant ancillary test results showed no definite evidence of TB"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Fungi",
+        "evidence": [],
+        "exclusion_reasons": [
+          "G, GM, and cryptococcal capsular antigen were unremarkable",
+          "Sputum smear and culture were both negative for fungi",
+          "No fungi were found in the lavage fluid",
+          "Lung biopsy pathology: PAS and silver stain negative",
+          "Related ancillary test results showed no clear evidence of fungal infection"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Rheumatic immune system disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Rheumatologic and immunologic markers were normal",
+          "Antinuclear antibody and ANCA negative",
+          "Relevant ancillary test results showed no clear evidence of a rheumatic immune system disease"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tumor",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Blood tumor markers showed no abnormalities",
+          "Pleural effusion lung cancer panel: negative",
+          "Relevant ancillary examination results showed no clear evidence of tumor."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "cardiac insufficiency",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No obvious abnormality was seen in the intracardiac structures on two-dimensional echocardiography.",
+          "Relevant ancillary test results showed no clear evidence of heart failure"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "organizing pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Relevant ancillary test results showed no clear evidence supporting organizing pneumonia",
+          "The lung biopsy pathology does not completely conform to the typical features of organizing pneumonia."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary vasculitis",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "parasite",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Malignant tumor",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "virus",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Two-dimensional echocardiography",
+          "basis_in_stage3_input": "Repeat transthoracic echocardiography on Day +89: EF 56%, trace mitral and tricuspid regurgitation, impaired left ventricular diastolic function",
+          "why_order_this_exam": "The patient’s pulmonary lesions showed persistent progression, and the left pleural effusion repeatedly persisted. Subsequent pathology indicated intra-alveolar hyperemia, congestion, and hemosiderin deposition, so it is first necessary to assess whether there is cardiogenic congestion or abnormal cardiac function causing pulmonary congestion and pleural effusion. Although the patient had no clear prior clues of underlying heart disease, during the course of illness there were persistent imaging abnormalities that were not fully consistent with the infection markers. Therefore, repeat two-dimensional echocardiography would help assess cardiac structure, valvular status, and systolic/diastolic function, exclude overt cardiac insufficiency as an important differential consideration, and provide a basis for subsequently localizing the lesions to a localized pulmonary vascular problem rather than changes related to systemic heart failure.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Repeat chest CT after 6 days of anti-infective treatment",
+          "why_order_this_exam": "The patient initially presented with left-sided chest pain and a small amount of cough and sputum production. Imaging showed a left lower lung lesion and pleural effusion. Although MSSA was subsequently identified and aggressive anti-infective therapy was given, the lesion had continued to progress; therefore, short-term follow-up lung CT is needed after treatment to dynamically assess changes in left lower lung consolidation/infiltration, pleural effusion, and atelectasis. The core question this examination needs to address is whether the current lesion is consistent with the treatment response of typical bacterial pneumonia, or whether there is poor anti-infective efficacy and the nature of the lesion is not purely infectious. The result directly affects whether to continue anti-infective therapy alone or escalate to invasive sampling and reconsider noninfectious causes such as vascular lesions, organizing lesions, or other rare diseases.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT-guided percutaneous lung biopsy",
+          "basis_in_stage3_input": "On Day +91, CT-guided percutaneous lung biopsy was performed to obtain etiologic and pathologic evidence.",
+          "why_order_this_exam": "The lesion in the patient's left lower lung has been recurrent/persistent over several months and has progressed. Previous multiple tests, including sputum, BALF, pleural effusion, TB, and fungal studies, failed to identify the etiology. Although BALF culture and mNGS suggested Staphylococcus aureus, imaging improvement was suboptimal despite aggressive anti-infective treatment, indicating that infection alone cannot fully explain the condition. The lesion has also remained confined to the left lower lung, and the imaging findings are not consistent with common diffuse interstitial lung disease; therefore, CT-guided percutaneous lung biopsy is needed to directly obtain lesional tissue. The main purpose of this examination is to resolve the unclear nature of the lesion: to determine whether it is infection, tumor, granulomatous disease, organizing pneumonia, or vascular/hemorrhagic injury; at the same time, to provide etiologic and pathologic evidence, thereby guiding whether to continue anti-infective therapy, try corticosteroids, or shift to vascular interventional evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung needle biopsy pathology",
+          "basis_in_stage3_input": "Pathology from the lung needle biopsy on Day +95 showed: a small amount of acute and chronic inflammatory cell infiltration in the lung tissue (mild acute and chronic inflammation), widened alveolar septa, hyperplasia of alveolar epithelium and fibrous tissue, disorganization of the alveolar architecture, congestion and stasis within the alveolar spaces with hemosiderin deposition, and liquefactive necrosis in focal areas; pathology showed the early stage of interstitial pneumonia.",
+          "why_order_this_exam": "For this patient, imaging and bronchoscopic pathogen studies alone were consistently unable to explain why the lesion remained confined to the left lower lung and why the responses to anti-infective therapy and corticosteroid therapy were both poor; therefore, pathologic analysis after lung biopsy was the key step in clarifying the nature of the lesion. The pathologic examination needed to answer several important clinical questions: whether there was a tumor, special infection, organizing pneumonia, or vasculitis; whether local necrosis and disruption of alveolar architecture suggested a rare lesion; and whether alveolar cavity congestion, stasis, and hemosiderin deposition supported alveolar hemorrhage/pulmonary infarction. This examination was of very high value for confirming the diagnosis and excluding differential diagnoses. Ultimately, these pathologic clues prompted the clinical shift from simple infection to suspicion of congestive pulmonary infarction caused by pulmonary venous return obstruction, and influenced the subsequent decision-making regarding pulmonary venous phase imaging and interventional treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "PAS, acid-fast, silver stain (-)",
+          "why_order_this_exam": "The patient’s pulmonary lesions have been persistent and unresolved, with a suboptimal response to conventional anti-infective therapy, and the pathology shows interstitial changes and focal necrosis; further evaluation for special pathogens is needed at the tissue level. PAS stain is mainly used to assist in identifying certain fungi and other pathogens or special deposits rich in polysaccharide components, thereby determining whether the lesions are caused by special infections that are difficult to detect by routine culture. The clinical significance of this test is that when pathology suggests nonspecific inflammation and imaging findings show long-term non-resolution, special infections such as fungal infection should be excluded as much as possible, to avoid mistakenly treating an infectious lesion as inflammatory interstitial lung disease or a vascular lesion with inappropriate therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "PAS, acid-fast, silver stain (-)",
+          "why_order_this_exam": "The patient is young. In the early stage of disease onset, there were unilateral pleural effusion, pleuritic chest pain suggestive of pleural involvement, and persistent pulmonary lesions; TB had consistently been one of the major differential diagnostic considerations in the earlier stage. Although sputum, pleural fluid, and BALF TB-related tests were repeatedly negative, in the context of continued progression of the lesions despite treatment, tissue acid-fast staining remained necessary to further evaluate for pulmonary TB or other acid-fast bacillary infection. This test is intended to determine whether a small number of acid-fast bacilli may be occult in the pathologic findings, thereby explaining the chronic persistent course and focal necrosis. A negative result would help further reduce the likelihood of a TB diagnosis and support shifting the clinical analysis from infectious TB to other etiologies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Silver stain",
+          "basis_in_stage3_input": "PAS, acid-fast, silver stain (-)",
+          "why_order_this_exam": "The patient’s prior fungal serology, cultures, and BALF examinations all lacked definitive evidence, but because the focal pulmonary lesion has remained unresolved for a prolonged period and pathology shows necrosis, further histologic evaluation is still needed to exclude fungi, especially pathogens with low detection rates on routine culture. Silver stain can help demonstrate structural features of fungi and other special microorganisms, addressing the key question of whether occult fungal infection is present. Its role is to complete the infectious differential diagnosis and avoid inappropriate use of corticosteroids or omission of specific antifungal therapy before fungal infection has been adequately excluded.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lung tissue mNGS",
+          "basis_in_stage3_input": "Lung tissue mNGS (-)",
+          "why_order_this_exam": "The patient underwent multiple etiologic pathogen tests, including sputum, pleural fluid, and BALF, but the results were not fully consistent with the clinical course: although MSSA was detected and targeted anti-infective therapy was given, the lesions never showed satisfactory absorption, suggesting either an unrecognized pathogen or that infection was not the dominant process. Performing mNGS on lung tissue provides a higher-sensitivity, broad-spectrum pathogen screen directly at the site of the lesion, with the goal of excluding special infections as much as possible, including bacteria, mycobacteria, fungi, and rare pathogens. The result of this test is of major clinical significance: if positive, it can support an infectious lesion and guide precise treatment; if negative, it further supports a noninfectious cause, prompting the clinical focus to shift toward vascular explanations such as pulmonary vein stenosis/congestive pulmonary infarction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "basis_in_stage3_input": "Repeat chest CT one week later showed no obvious absorption or improvement of the lesions.",
+          "why_order_this_exam": "After lung puncture pathology suggested early interstitial inflammatory changes, short-term follow-up chest CT was still clinically needed to determine the true evolution of the lesion, because the patient had previously responded poorly to anti-infective therapy and also showed no significant improvement after methylprednisolone treatment. The purpose of repeat chest CT was to observe whether the left lower lung lesion was being absorbed, whether it continued to progress, whether new hemorrhagic or consolidation features appeared, and to verify whether the pathologic inference was consistent with the imaging evolution. The question this examination helped address was whether the current lesion fit the imaging evolution of organizing pneumonia or common interstitial lung disease, or whether there was a non-resolving lesion caused by persistent local congestion/infarction. The results showed no improvement, further prompting the clinical team to abandon a purely inflammatory explanation and instead focus on evaluating pulmonary venous lesions.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "basis_in_stage3_input": "Repeat review of the pulmonary artery CTA found no evidence of pulmonary embolism",
+          "why_order_this_exam": "The patient's initial presentation was predominantly left-sided chest pain worsened by inspiration, with prior tachycardia. Imaging had long shown a peripheral lesion in the left lower lung accompanied by pleural effusion; these features can all be seen early in pulmonary embolism/pulmonary infarction. Especially after lung biopsy pathology showed hemosiderin deposition and necrosis, it was necessary to reassess whether pulmonary artery embolism, a common vascular cause, was present. The purpose of pulmonary artery CTA was to directly evaluate whether there was embolism or stenosis within the pulmonary arteries and to determine whether the “infarct-like changes” shown on pathology originated from the pulmonary artery or from other blood flow disorders. Its negative result was crucial for narrowing the diagnostic range, helping to exclude typical pulmonary embolism and thereby supporting a shift in attention toward pulmonary venous return obstruction.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "CTV",
+          "basis_in_stage3_input": "CTV showed faint opacification of the left inferior pulmonary vein, with a suspicious filling defect at the left atrial drainage site.",
+          "why_order_this_exam": "After delayed imaging indicated that the pulmonary veins required focused evaluation, CTV was further used to more clearly demonstrate the course of the pulmonary veins, the degree of opacification, and the status at the site of drainage into the left heart. This patient had a history of radiofrequency catheter ablation for atrial fibrillation, followed by a chronic localized left lower lobe lesion; pathology showed pulmonary congestion/hemosiderin deposition, which is highly consistent with localized drainage impairment caused by pulmonary vein stenosis. Therefore, CTV is the key noninvasive vascular imaging study to verify this hypothesis. This examination is intended to determine whether left lower pulmonary vein stenosis or occlusion is present, where the lesion is located, and how severe it is. The results not only help fundamentally explain the recurrent pneumonia-like lesions, but also directly determine whether to proceed to an interventional treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "DSA examination",
+          "basis_in_stage3_input": "Recommend further DSA examination",
+          "why_order_this_exam": "CTV had already shown faint opacification of the left lower pulmonary vein and a suspected filling defect at the left atrial drainage site. In conjunction with the history of atrial fibrillation ablation and the pathologic findings of congestive pulmonary infarction, pulmonary vein stenosis or occlusion is already highly suspected clinically. At this point, the purpose of DSA is to provide further intraluminal vascular confirmation, define the location, length, and severity of the stenosis/occlusion, and corroborate the noninvasive imaging findings. More importantly, DSA is used not only for diagnosis, but also for treatment decision-making and procedural implementation, because once the lesion is confirmed, suitability for balloon dilation or stent implantation can often be assessed during the same session. For this patient, DSA is the key bridge from 'suspected pulmonary vein disease' to 'definitive diagnosis and interventional treatment.'",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +89, repeat two-dimensional echocardiography showed: EF 56%, trace mitral and tricuspid regurgitation, and impaired left ventricular diastolic function. After 6 days of anti-infective treatment, repeat chest CT was performed; on Day +91, CT-guided percutaneous lung biopsy was performed to obtain etiologic and pathologic evidence. On Day +95, the pathology of the lung biopsy showed: scant acute and chronic inflammatory cell infiltration in the lung tissue (mild acute and chronic inflammation), widened alveolar septa, proliferation of alveolar epithelium and fibrous tissue, disorganized alveolar architecture, congestion and stasis within the alveolar spaces with hemosiderin deposition, and focal liquefactive necrosis. Pathology showed the early stage of interstitial pneumonia. PAS, acid-fast stain, and silver stain were (-), and lung tissue mNGS was (-). One week later, repeat chest CT showed no obvious absorption or improvement of the lesions. The response after methylprednisolone treatment was poor, and the findings were also not consistent with organizing pneumonia or common interstitial lung disease. The patient's pre-transfusion panel of eight tests and other tests showed no obvious abnormalities. Staphylococcus aureus was detected, but the response remained poor despite aggressive anti-infective treatment. The lesion was always confined to the left lower lung rather than diffuse lung disease. The patient had no underlying structural lung disease. Imaging showed no obvious enlarged lymph nodes or manifestations of lymphoproliferative disease, and there was no clear evidence of lymphatic reflux obstruction. Repeat review of pulmonary artery CTA found no evidence of pulmonary embolism. Supplemental history: in approximately 3 months before Day 0, the patient had atrial fibrillation and underwent radiofrequency ablation at an outside hospital, followed by regular treatment with dabigatran + propafenone after the procedure. The congestion and stasis within the alveolar spaces with hemosiderin deposition in the lung biopsy pathology are manifestations of pulmonary infarction, consistent with congestive pulmonary infarction. A localized vascular lesion in the left lower lung was considered, suspected to be triggered by impaired blood return due to pulmonary venous disease. On Day +98, delayed imaging and reconstruction were specifically performed during repeat chest CT to evaluate the pulmonary venous phase. CTV showed faint opacification of the left lower pulmonary vein, with suspected filling defect at the left heart venous return site. After MDT consultation, the interventional radiology and cardiology teams considered pulmonary vein stenosis or embolism after atrial fibrillation ablation and recommended further DSA. Pulmonary artery CTA showed no obvious abnormality. Patchy flocculent opacity in the left lower lung showed slight progression compared with the prior lesion, and alveolar hemorrhage could not be excluded.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZiclCujSuTLFlrSOasrsB04hFrHqKiaelakhI1vtXR8MqtVc08pd0rMfw/640?wx_fmt=png",
+          "near_text": "Comparison of chest CT scans on Day +91 and Day +98",
+          "local_src": "cleaned_cases_image_cache/7c748e148e1c25cadc6183eee1d91170ca4fc920.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZ49iaZUUaqibHicrCl9ib98FcLQdOdpqzrt7cM3yycMOW6pEdibwNj3oImLA/640?wx_fmt=png",
+          "near_text": "Dedicated reconstruction of the pulmonary venous phase vasculature",
+          "local_src": "cleaned_cases_image_cache/a6f175bb356214ae3ba869ca90c6668e947c5de9.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZTlbGvDmibGibDyueibgmHmeAaDlsfv5bQz1S7xG0GktOjR2vHPOd9EdEA/640?wx_fmt=png",
+          "near_text": "Faint opacification of the left inferior pulmonary vein, with a suspected filling defect at the left atrial drainage site",
+          "local_src": "cleaned_cases_image_cache/dd1551e3a65ef7aa425dd96def7aa4ef4ddcf3ba.png"
+        },
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLQR0Gibnw2HvB5pqwNe4FtZbiaP3XxUTtF41xL46vibL68bNCPPJcrFmib4iaZOZqjXgwiblBV3OCgXNMQ/640?wx_fmt=png",
+          "near_text": "Preoperative and postoperative comparison",
+          "local_src": "cleaned_cases_image_cache/5aa40bc0b9c161ef18017f9857e8b07705398ca1.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Left pulmonary vein stenosis; 2. CAP (Staphylococcus aureus); 3. Organizing pneumonia; 4. Status post radiofrequency ablation for atrial fibrillation",
+      "diagnostic_basis": [
+        "CTV showed faint opacification of the left inferior pulmonary vein, with a suspicious filling defect at the left atrial drainage site.",
+        "Consultations with Interventional Radiology and Cardiology considered pulmonary vein stenosis or occlusion after atrial fibrillation ablation.",
+        "Lung puncture pathology: alveolar cavity congestion and stasis with hemosiderin deposition, consistent with congestive pulmonary infarction.",
+        "The patient had atrial fibrillation in approximately 3 months before Day 0 and underwent radiofrequency ablation at an outside hospital."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "It is recommended that the patient receive treatment at Shanghai Chest Hospital.",
+        "Add dabigatran 0.11 g bid to treatment",
+        "Pulmonary venography was performed, and a 9mm*25mm BOSTON EXPRESS LD stent was placed.",
+        "Discharge medications: Xarelto 15 mg once daily for 1 year. Aspirin 100 mg once daily for 3 months."
+      ],
+      "treatment_response": [
+        "Stenosis relieved, pulmonary venous blood flow is good",
+        "Chest CT showed that the left lower lung lesion had been significantly absorbed and improved compared with before."
+      ]
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "status": "success",
+  "case_id": "case_17",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 67-year-old housewife. She was admitted with the chief complaint of recurrent fever, cough, sputum production, and shortness of breath for more than 4 months. More than 4 months earlier, the patient developed afternoon low- to moderate-grade fever without an obvious trigger, accompanied by nausea, vomiting, and poor appetite, without chills, abdominal pain, or jaundice. She received anti-infective treatment after seeking medical care, but her temperature remained recurrent, and she developed cough with yellow sputum, approximately 400-500 ml/day, accompanied by exertional dyspnea. The patient could not lie flat and preferred the right lateral decubitus position. She had more sputum in the morning on awakening or at night when lying flat. Intermittent anti-infective treatment (cephalosporins, roxithromycin) at a local clinic did not result in improvement, and her condition gradually worsened. One month earlier, she presented to a local tertiary hospital. A chest CT performed 24 days earlier showed patchy opacities in the right middle and lower lobes and the medial segment of the right middle lobe, with indistinct margins and visible air bronchograms within them; a patchy slightly low-density lesion was seen in the upper segment of the right anterior hepatic lobe. The admission diagnosis was right lower lobe pneumonia, and she was treated with cefoperazone/tazobactam, imipenem, vancomycin + ornidazole, and moxifloxacin + amikacin for 1 month. The patient's condition improved, sputum volume decreased to 100-200 ml/day and remained yellow, and dyspnea was relieved, but she still had recurrent fever. A repeat chest CT 7 days earlier showed little change in the lesion, and she was transferred to our hospital. Past history revealed a 2-year history of diabetes mellitus without regular treatment. Two years earlier, she underwent cholecystectomy and choledochoenterostomy for biliary obstruction. Personal history, marital and reproductive history, and family history were unremarkable. Physical examination: T 36.8℃, BP 135/80 mmHg, clear consciousness, semi-recumbent position, მშვიდ breathing, mild anemic appearance, no rash, slightly decreased breath sounds in both lungs, a few moist rales and wheezes audible in the right lower lung, heart rate 100 beats/min, no cardiac murmur, abdomen soft, no tenderness, rebound tenderness, or muscular guarding, and no edema of both lower extremities. Ancillary examinations: chest CT 24 days earlier showed patchy opacities in the right middle and lower lobes and the medial segment of the right middle lobe, with indistinct margins and visible air bronchograms within them; a patchy slightly low-density lesion was seen in the upper segment of the right anterior hepatic lobe. Repeat chest CT 7 days earlier showed little change in the lesion. Admission diagnoses: 1. Right lower lung lesion, cause to be determined: 1) pneumonia highly likely 2) pulmonary TB? 3) lung cancer? 2. Intrahepatic lesion, cause to be determined: liver abscess? liver cancer? 3. Type 2 diabetes mellitus 4. Electrolyte disturbance.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojVuoqY5tYIgSd5AybbHE82uibngDmao865WdaBp0GsbQ9en3KtOkZuqA/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT from an outside hospital on Day 0 showed",
+          "local_src": "cleaned_cases_image_cache/53a841866e82ee7209fa131f6de6405d6d0e8c03.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojKjrlyqIoEYClbGzO65SY4g4h4eeCX1ZANIzosNRUiaFlrLgIdYv6CEA/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest and abdominal CT from an outside hospital on Day +18",
+          "local_src": "cleaned_cases_image_cache/329407bd7bc71a492b6516a7cbf80ef5c454a128.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Bronchobiliary fistula (secondary to intrahepatic lesions / related to biliary tract surgery)",
+          "supporting_evidence": [
+            "History of \"cholecystectomy and biliary-enteric anastomosis for biliary obstruction,\" suggesting the presence of underlying postoperative biliary complications.",
+            "The chief complaint was \"recurrent fever, cough, sputum production, and shortness of breath for more than 4 months,\" with a large volume of sputum production, \"coughing up yellow sputum, approximately 400-500 ml/day\"",
+            "\"The patient is unable to lie supine and prefers the right lateral decubitus position; sputum is more abundant upon waking in the morning or when lying supine at night,\" suggesting that changes in body position are related to secretions entering the airway.",
+            "Chest CT showed \"patchy opacities in the right middle and lower lobes and the medial segment of the middle lobe,\" with the lesion located in the right lower lung adjacent to the diaphragm.",
+            "At the same time, \"a patchy slightly hypodense shadow is seen in the upper segment of the right anterior hepatic lobe\"; the thoracic lesion and the intrahepatic lesion are ipsilateral and adjacent.",
+            "After multiple anti-infective treatments, \"sputum volume decreased to 100-200 ml/day, but remained yellow; dyspnea improved, but recurrent fever persisted,\" suggesting that simple common pneumonia cannot fully explain the condition.",
+            "The first-phase images show a lesion adjacent to the diaphragm in the right lower lung/right middle lobe, and a low-density lesion is also visible in the superior portion of the right hepatic lobe near the diaphragm."
+          ],
+          "opposing_evidence": [
+            "In the first stage, typical features such as bile-like sputum and expectoration of yellow-green, bitter-tasting sputum were not described.",
+            "In the first stage, there was no jaundice or abdominal pain, and at onset, there was \"no abdominal pain or jaundice\".",
+            "The first-stage information did not provide clear direct imaging evidence of a fistulous tract."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Necrotizing pneumonia/lung abscess in the right middle and lower lobes",
+          "supporting_evidence": [
+            "Clinical course of more than 4 months, manifested by recurrent fever, cough, and yellow sputum production, approximately 400-500 mL/day, accompanied by shortness of breath after exertion",
+            "On physical examination, a few moist rales and wheezes were heard in the right lower lung.",
+            "Chest CT showed patchy opacities with indistinct margins in the right middle and lower lobes and the medial segment of the middle lobe, with air bronchograms within.",
+            "The patient has diabetes and has \"not received regular treatment,\" which is a predisposing factor for severe infection.",
+            "After 1 month of anti-infective treatment, \"the condition improved, sputum volume decreased to 100-200 ml/day, and dyspnea was relieved,\" supporting an infectious lesion.",
+            "Stage 1 images show consolidation/patchy opacities in the right middle and lower lobes, consistent with the distribution of severe infectious lesions."
+          ],
+          "opposing_evidence": [
+            "In the phase 1 CT description, typical signs of lung abscess such as cavitation and air-fluid level were not explicitly mentioned.",
+            "After intensive broad-spectrum anti-infective therapy, there was still \"recurrent fever,\" and a \"repeat chest CT 7 days earlier showed little change in the lesions,\" suggesting that this was not simply conventional bacterial necrotizing pneumonia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Liver abscess with right lung involvement (subdiaphragmatic spread of infection or reactive pulmonary infection)",
+          "supporting_evidence": [
+            "Chest CT showed \"a patchy area of slightly low density is seen in the upper segment of the right anterior lobe of the liver\"",
+            "There is recurrent fever that persists despite multiple anti-infective treatments, consistent with possible deep suppurative infection.",
+            "The pulmonary lesion is located in the \"middle and lower lobes of the right lung and the medial segment of the right middle lobe,\" anatomically adjacent to the lesion in the right hepatic lobe beneath the right diaphragm.",
+            "A history of \"cholecystectomy and biliary-enteric anastomosis\" suggests an increased risk of hepatobiliary system infection",
+            "A history of diabetes mellitus without regular treatment is a high-risk factor for liver abscess.",
+            "First-phase images show a low-density lesion in the superior aspect of the right hepatic lobe near the diaphragm, with an ipsilateral lower lung lesion."
+          ],
+          "opposing_evidence": [
+            "First-stage physical examination: “Abdomen soft, without tenderness, rebound tenderness, or guarding”",
+            "At disease onset, there was \"no abdominal pain or jaundice,\" with a lack of typical local symptoms of hepatobiliary infection.",
+            "The stage 1 information did not provide more direct evidence such as chills, leukocytosis, or percussion tenderness over the liver area."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Post-obstructive pneumonia/lung cancer (central or occult tumor of the right middle and lower lobes)",
+          "supporting_evidence": [
+            "The patient is 67 years old; advanced age increases the baseline risk of lung cancer.",
+            "The lesion has persisted for more than 4 months, and a repeat chest CT 7 days earlier showed little change in the lesion, suggesting that it is not a simple reversible infection.",
+            "After 1 month of treatment with multiple anti-infective regimens, there was only partial improvement, and he still had \"recurrent fever\".",
+            "Chest CT showed patchy opacities in the right middle and lower lobes and the medial segment of the middle lobe, which may be seen in post-obstructive infection.",
+            "The first-stage images show that the lesion is relatively confined to the right middle and lower lung regions, with the possibility of a localized obstructive lesion."
+          ],
+          "opposing_evidence": [
+            "The first-phase CT description did not clearly indicate direct tumor signs such as hilar mass, bronchial cutoff, and mediastinal lymphadenopathy.",
+            "The patient's main manifestations were copious yellow sputum and partial improvement after anti-infective therapy, which more strongly supports an infectious process.",
+            "The phase 1 information did not provide tumor-suggestive symptoms such as hemoptysis, marked weight loss, or chest pain."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "The disease course has been prolonged for more than 4 months, manifested by \"low- to moderate-grade fever in the afternoon\" and recurrent fever.",
+            "Poor response to anti-infective therapy; the lesion shows 'little change'; infection other than common bacterial infection should be considered",
+            "Diabetes mellitus without regular treatment is a predisposing factor for TB",
+            "“Pulmonary tuberculosis?” was already listed among the admission diagnoses."
+          ],
+          "opposing_evidence": [
+            "The phase 1 imaging was described as: \"patchy opacities with indistinct margins are seen in the right middle and lower lobes and the medial segment of the middle lobe, with air bronchograms visible within them\"; more typical TB signs such as upper lobe predominance, cavitation, and disseminated nodules were not described.",
+            "The patient’s “yellow sputum, approximately 400-500 mL/day” indicates a very large sputum volume, which is more suggestive of a suppurative infection.",
+            "The phase 1 information did not provide findings supporting TB, such as night sweats, hemoptysis, or a definite contact history."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Localized bronchiectasis with acute exacerbation of infection",
+          "supporting_evidence": [
+            "Long-term \"large-volume yellow sputum, approximately 400-500 mL/day,\" and \"increased sputum on awakening or when lying supine at night,\" consistent with the characteristics of airway secretion retention",
+            "A few moist rales and wheezes can be heard in the right lower lung.",
+            "The lesions are mainly located in the right middle and lower lobes; localized bronchiectasis can be associated with recurrent infections.",
+            "After anti-infective therapy, \"sputum volume decreased to 100-200 ml/day,\" indicating the presence of a worsening infectious component.",
+            "On the first-stage images, lesions in the right middle and lower lung are distributed along the bronchi, suggesting the possibility of airway-related disease."
+          ],
+          "opposing_evidence": [
+            "The Phase 1 CT report text did not explicitly describe imaging features such as bronchiectasis, cystic or cylindrical dilatation, or bronchial wall thickening.",
+            "There is also a low-density lesion in the right hepatic lobe; bronchiectasis alone is difficult to use to explain the intrahepatic lesion.",
+            "The past medical history did not provide a history of recurrent respiratory tract infections or long-term chronic cough with purulent sputum."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver function",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum creatinine",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum potassium, serum sodium, serum chloride",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "ESR",
+          "requirement": "required"
+        },
+        {
+          "exam": "arterial blood gas",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine urine and stool tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid (BALF) culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced CT of the upper abdomen or abdominal ultrasound",
+          "reason": "",
+          "basis_in_stage3_input": "",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, the patient's blood leukocyte and neutrophil counts were both normal. Liver function tests showed mildly elevated ALP and γ-GT, with normal bilirubin and liver enzymes. Serum creatinine was 215 ummol/l, and blood potassium, sodium, and chloride were mildly decreased. Procalcitonin, CRP, and ESR were all elevated. Arterial blood PO2 was 66 mmHg. Sputum culture was negative, and routine stool and urine tests were normal. Blood culture was performed, and bronchoalveolar lavage fluid (BAL) was sent for culture. On hospital day 6, both the blood culture and BAL culture grew Escherichia coli. After admission to our hospital, repeat chest CT showed a large patchy inflammatory lesion in the right lower lobe, unchanged compared with the outside hospital; the liver was slightly enlarged, with a quasi-circular ring-enhancing lesion near the diaphragmatic surface, with inflammation considered more likely and tumor not excluded; the gallbladder was poorly visualized, and the intrahepatic bile ducts were mildly dilated. At disease onset, the patient had a very large amount of sputum with unusual characteristics: golden-yellow, thin, foamy, and resembling bile.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojJAlNHSm9bKOYCrbyC6vMTjNBMyFGRQMmMJibKsThnfYFhd8LXJLunaQ/640?wx_fmt=png",
+            "near_text": "Figure 3: Bronchoalveolar lavage on Day +28 showed",
+            "local_src": "cleaned_cases_image_cache/3e2f24396676089288c46c7f78a08213d997a8c0.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojnF8fjIFP1nHtLsV5Gr88wSoPMTvpNhA8OaKY29a1rjlzruKbt5ykFw/640?wx_fmt=png",
+            "near_text": "Figure 4: Chest CT at our hospital on Day +28",
+            "local_src": "cleaned_cases_image_cache/ee6fbee42fba025308ce33f247d39de922788c59.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojQctHDWtOpTvK7nrmDGvYxlLEOS9CerRIZg6wRNspSmumJQWuCwXByQ/640?wx_fmt=jpeg",
+            "near_text": "Figure 5: Thin, foamy, golden-yellow bile-like sputum expectorated by the patient after admission",
+            "local_src": "cleaned_cases_image_cache/0038758de5217f490f94694e4d45d9ab1b2611ac.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pneumonia",
+            "evidence": [
+              "The patient's condition improved, body temperature was normal, and sputum volume decreased, supporting pneumonia."
+            ],
+            "exclusion_reasons": [
+              "Why does recurrent pneumonia occur in the right lower lung and why is it difficult to cure? Chest CT and other examinations showed only inflammatory infiltration, with no lesions such as tumor or foreign body that are prone to cause obstructive pneumonia.",
+              "Blood culture and BAL culture grew Escherichia coli. This organism is more commonly seen in gastrointestinal or urinary tract infections; where did this pathogen causing the pulmonary infection come from?"
+            ]
+          },
+          {
+            "name": "Bronchobiliary fistula",
+            "evidence": [
+              "The sputum volume is very large; it has a distinctive character, appearing golden-yellow, thin, frothy, and bile-like.",
+              "The lesion at the base of the right lower lung is closely adjacent to the diaphragmatic surface, and CT shows a round ring-enhancing lesion in the liver near the right diaphragmatic surface; the pulmonary lesion and the hepatic lesion are in close anatomic proximity."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pneumonia",
+        "evidence": [
+          "The patient's condition improved, body temperature was normal, and sputum volume decreased, supporting pneumonia."
+        ],
+        "exclusion_reasons": [
+          "Why does recurrent pneumonia occur in the right lower lung and why is it difficult to cure? Chest CT and other examinations showed only inflammatory infiltration, with no lesions such as tumor or foreign body that are prone to cause obstructive pneumonia.",
+          "Blood culture and BAL culture grew Escherichia coli. This organism is more commonly seen in gastrointestinal or urinary tract infections; where did this pathogen causing the pulmonary infection come from?"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bronchobiliary fistula",
+        "evidence": [
+          "The sputum volume is very large; it has a distinctive character, appearing golden-yellow, thin, frothy, and bile-like.",
+          "The lesion at the base of the right lower lung is closely adjacent to the diaphragmatic surface, and CT shows a round ring-enhancing lesion in the liver near the right diaphragmatic surface; the pulmonary lesion and the hepatic lesion are in close anatomic proximity."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Sputum bilirubin submitted for testing",
+          "basis_in_stage3_input": "The sputum was sent for bilirubin testing, and the results showed markedly elevated bilirubin, highly suggestive of the possibility of a bronchobiliary fistula.",
+          "why_order_this_exam": "The patient had recurrent fever, cough, and copious sputum production for more than 4 months, with sputum volume reaching 400-500 ml/day, and greater amounts upon waking in the morning or when lying supine; after admission, it was further noted that the sputum was golden-yellow, thin, foamy, and bile-like. The right lower lung lesion had long been treated as severe pneumonia with multiple potent anti-infective agents, with only partial improvement and little change on imaging; meanwhile, both blood culture and BAL culture grew Escherichia coli, suggesting that the pulmonary infection might not be primary, but rather related to an abnormal communication originating from the hepatobiliary system. At this point, sputum bilirubin was sent for testing; the core purpose was to determine whether the expectorated secretions contained bile components, in order to verify the key diagnostic clue of a 'biliary tract/hepatic-bronchial fistula.' If bilirubin is significantly elevated, it can provide direct biochemical evidence of bile entering the airway, help explain the recurrent right lower lung infection, the distinctive sputum characteristics, and the source of Escherichia coli, and promote subsequent imaging evaluation of the hepatobiliary system and surgical management, rather than continuing treatment only as ordinary pneumonia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Magnetic resonance cholangiopancreatography (MRCP) examination",
+          "basis_in_stage3_input": "MRCP showed: \"Abnormal signal near the diaphragmatic surface of the right hepatic lobe, considered infection, with a high possibility of liver abscess, involving the diaphragm and communicating with the right lower lung; a large area of abnormal signal at the inferior pole of the right hepatic lobe, with possible liver cancer; and slight dilation of some intrahepatic bile ducts.\"",
+          "why_order_this_exam": "After elevated bilirubin in the sputum has already strongly suggested a bronchobiliary fistula, it is still necessary to further define the anatomic source of the fistula and the underlying lesion. The patient has a history of cholecystectomy after biliary obstruction and biliary-enteric anastomosis. Current liver function tests show mildly elevated ALP and γ-GT. Chest CT has already shown a low-density/ring-enhancing lesion near the diaphragmatic surface of the upper part of the right anterior hepatic lobe, and the right lower lung lesion closely abuts the diaphragm, suggesting that the hepatobiliary lesion, diaphragmatic involvement, and pulmonary lesion may represent a contiguous process. MRCP can better demonstrate the relationship of the biliary system and intrahepatic lesion to the diaphragm and thoracic cavity, and is used to address several key clinical questions: whether biliary dilatation or postoperative biliary anatomic abnormalities are present; whether the near-diaphragmatic lesion in the right hepatic lobe is more suggestive of a liver abscess or a tumor; and whether the lesion involves the diaphragm and communicates with the right lower lung, thereby forming a bronchobiliary fistula. This examination has direct value for establishing the extent of the lesion, distinguishing infection from possible tumor, assessing whether surgical intervention is appropriate, and determining the surgical approach.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Consultation with relevant departments",
+          "basis_in_stage3_input": "Relevant departments were requested for consultation. The consultation results suggested the possibility of a bronchobiliary fistula, liver abscess, and liver cancer, and the patient was transferred to hepatobiliary surgery for surgical exploration.",
+          "why_order_this_exam": "The patient's condition has exceeded the scope of a simple respiratory infection: the course has been prolonged for more than 4 months, with recurrent high fever, and sepsis manifestations had occurred; blood culture/BAL culture grew Escherichia coli. Chest and hepatobiliary imaging both suggest that the right lower lung lesion is closely related to a lesion near the diaphragm in the right hepatic lobe; elevated bilirubin in sputum and MRCP further suggest the possible coexistence of a bronchobiliary fistula, liver abscess, and liver cancer. The patient also has diabetes mellitus and chronic renal insufficiency, which increase the risks of evaluation and treatment. At this time, the purpose of multidisciplinary consultation is to integrate information from pulmonology, imaging, hepatobiliary surgery, infectious disease, and other specialties, to clarify whether the principal issue is infection control, fistula management, or tumor resection, and to assess the limitations of continued medical treatment as well as the timing of surgery and perioperative risks. The consultation result is directly related to whether the patient will subsequently be transferred to hepatobiliary surgery, whether surgical exploration is needed, and the selection of the specific treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "surgical exploration",
+          "basis_in_stage3_input": "Relevant departments were requested for consultation. The consultation results suggested the possibility of a bronchobiliary fistula, liver abscess, and liver cancer, and the patient was transferred to hepatobiliary surgery for surgical exploration.",
+          "why_order_this_exam": "Although sputum bilirubin and MRCP had strongly suggested a bronchobiliary fistula, the patient had long-term recurrent fever and a persistent right lower lung infection that did not resolve, and imaging indicated coexistence of an infectious lesion near the diaphragm in the right hepatic lobe and a suspected tumor at the inferior pole of the right hepatic lobe; therefore, definitive cure was difficult to achieve with anti-infective medical therapy alone. The clinical objectives of surgical exploration were: first, to directly confirm whether a fistulous tract passing through the diaphragm into the thoracic cavity was present, thereby providing anatomic and etiologic evidence for bronchobiliary fistula; second, to clarify the nature and extent of the intrahepatic lesions and distinguish among liver abscess, tumor, and involvement of surrounding adhesions; third, to complete treatment at the time of diagnosis, such as adhesiolysis, diaphragmatic repair, management of the fistulous tract, and resection of the suspected hepatic lesion, in order to fundamentally control the persistent infection and recurrent entry of bile into the lung. For this patient, surgical exploration was both a key diagnostic method and a therapeutic diagnostic/management step that determined prognosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pathological examination",
+          "basis_in_stage3_input": "Pathological examination showed cholangiocarcinoma.",
+          "why_order_this_exam": "MRCP has already shown a large area of abnormal signal in the inferior pole of the right hepatic lobe, raising the possibility of liver cancer, and a nodule in segment 6 of the right posterior hepatic lobe was also found intraoperatively; however, neither the imaging findings nor the gross intraoperative appearance can replace a histologic diagnosis. The purpose of pathologic examination is to determine whether this intrahepatic nodule is an inflammatory lesion, an abscess-related change, or a malignant tumor, and to establish the specific pathologic type. Because the formation of the bronchobiliary fistula is very likely related to invasion by the intrahepatic lesion, infectious necrosis, and diaphragmatic involvement, the pathology results not only determine whether the final diagnosis is cholangiocarcinoma, but also directly explain the underlying cause of fistula formation. Only after the pathology is clarified can further tumor staging assessment be completed, whether additional tumor-related treatment and a follow-up plan are needed be determined, and the entire course of 'recurrent pulmonary infection + intrahepatic lesion + bile-like sputum' be given a unified explanation.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Sputum was sent for bilirubin testing, and the result showed markedly elevated bilirubin, highly suggesting the possibility of a bronchobiliary fistula. MRCP showed: \"Abnormal signal near the diaphragmatic surface of the right hepatic lobe, infection considered, with high likelihood of liver abscess, involving the diaphragm and communicating with the right lower lung; a large area of abnormal signal in the lower pole of the right hepatic lobe, with possible liver cancer considered; mild dilatation of some intrahepatic bile ducts.\" Relevant departments were consulted, and the consultation impression was possible bronchobiliary fistula, liver abscess, and liver cancer. The patient was transferred to Hepatobiliary Surgery for surgical exploration. Intraoperative findings were described as: \"Dense adhesion between hepatic segment 8 and the diaphragm, with a relatively broad adhesive band forming a cord-like structure, approximately 4.0 cm wide and 2.0 cm thick. After separation, a duct measuring 0.4 cm in diameter was seen within it, extending upward through the diaphragm into the thoracic cavity and downward into the liver tissue. A 2.0*2.0*2.0 cm nodule was present in segment 6 of the right posterior hepatic lobe.\" Pathology was cholangiocarcinoma.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrQrvyicZsp6BGDE9iaiaKjojPxmBQoqOnsXE6WDs2sGuQugvI6lT2P9a5ynavhDRicibeiccgrZBHCEvA/640?wx_fmt=png",
+          "near_text": "Figure 6: MRCP at our hospital on Day +39",
+          "local_src": "cleaned_cases_image_cache/e4ed343a9c730564aa031a995a9c29c3e643b034.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Sepsis; 2. Bronchobiliary fistula; 3. Right lower lobe pneumonia; 4. Type 2 diabetes mellitus; 5. Diabetic nephropathy, chronic renal insufficiency; 6. Hepatic cholangiocarcinoma",
+      "diagnostic_basis": [
+        "Markedly elevated bilirubin in sputum",
+        "MRCP showed abnormal signal near the diaphragmatic surface of the right hepatic lobe, involving the diaphragm and communicating with the right lower lung, and a large area of abnormal signal in the inferior pole of the right hepatic lobe.",
+        "Intraoperatively, dense adhesions were noted between hepatic segment 8 and the diaphragm. After separation, a tubular tract 0.4 cm in diameter was seen within, extending upward through the diaphragm into the thoracic cavity and downward into the liver parenchyma. A nodule was present in segment 6 of the right posterior hepatic lobe.",
+        "Pathology showed cholangiocarcinoma"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with intravenous moxifloxacin injection 400 mg/d for 5 days",
+        "Based on antimicrobial susceptibility results, treatment was adjusted to intravenous cefepime 4 g/d for anti-infective therapy",
+        "Transferred to Hepatobiliary Surgery for surgical exploration and treatment. Intraoperatively, after lysis of the adhesion band, figure-of-eight suturing and diaphragmatic repair were performed, and the right posterior lobe of the liver was resected."
+      ],
+      "treatment_response": [
+        "After treatment with moxifloxacin, body temperature still gradually rose to 39.6°C, accompanied by chills",
+        "After adjustment of cefepime therapy, the patient's body temperature gradually returned to normal, sputum volume decreased to approximately 50 ml/day, but it remained yellow; mental status and appetite improved."
+      ]
+    }
+  }
+}

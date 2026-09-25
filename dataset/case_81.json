@@ -1,0 +1,438 @@
+{
+  "status": "success",
+  "case_id": "case_81",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 55-year-old woman, occupation: nurse. She was admitted to Ward 3, Department of Pulmonary and Critical Care Medicine, Tangdu Hospital, Air Force Medical University, on Day 0, with the chief complaint of \"recurrent fever for more than 1 month, cough and shortness of breath for 3 weeks.\" On Day -42, she noted throat discomfort accompanied by head discomfort, without fever or rhinorrhea. She self-medicated with cold medicine, and the symptoms improved. On Day -32, urticaria appeared on the upper extremities, and she took loratadine orally; the rash gradually subsided. On the night of Day -29, she noted fever with a measured temperature of 37.2℃, without cough or sputum production. She self-administered oral amoxicillin, and her temperature fluctuated around 37.8℃. On Day -26, chest radiography showed a high-density opacity in the right lung. Complete blood count showed marked elevation of the white blood cell count and neutrophil percentage. She was treated with cefotiam combined with azithromycin for 5 days, and her temperature fluctuated between 37.5-38.2℃. On Day -23, the patient began to have cough and sputum production; the sputum was white and sticky. She then presented to a tertiary hospital, where chest CT showed a high-density opacity in the dorsal and basal segments of the right lower lobe, with air bronchograms visible within it. Empiric treatment with cefoperazone/sulbactam sodium 3.0 g twice daily was given for 2 days, with no symptom relief. From Day -19 to Day -13, she was given moxifloxacin hydrochloride and sodium chloride injection 0.4 g once daily + cefminox sodium 2.0 g twice daily. Bronchoscopy performed afterward showed a large amount of purulent sputum. From Day -12 to Day -10, the regimen was adjusted to Tienam 1 g every 8 hours + vancomycin 1000 mg every 12 hours. On Day -10, it was adjusted to Tienam 1 g every 8 hours + linezolid 300 ml every 12 hours. On Day -9, repeat bronchoscopy was performed; no pathogenic organism was detected by NGS in BALF or blood. On Day -7, linezolid was discontinued because of gastric discomfort. Repeat chest CT showed multiple patchy opacities in both lungs. From Day -7 to Day -5, the regimen was adjusted to meropenem 1 g every 8 hours. Meropenem was discontinued on Day -5, and diagnostic anti-TB therapy (isoniazid, rifampin, pyrazinamide, ethambutol) was given orally for 5 days. During this period, methylprednisolone 40 mg/day was given for 3 days. Fever persisted, with temperature fluctuating between 38.1-39.5℃. Repeat chest CT on Day 0 showed worsening bilateral atelectasis compared with before, persistent fever, and poor absorption of the pulmonary lesions. Since onset of illness, she had low spirits and poor appetite, normal urination and defecation, and a weight loss of 3 kg within 1 month. Past medical history: denied hypertension and diabetes; denied history of pulmonary TB or other infectious diseases; no allergy history. Personal history: born in Shaanxi; no history of exposure to dust or radioactive substances; no smoking or alcohol use. Family history: denied family history of hereditary diseases or infectious diseases; no similar cases in the family. After admission, physical examination findings were as follows: temperature 38.6℃, pulse 82/min, respiratory rate 20/min, blood pressure 125/82 mmHg. Alert, with low spirits. No jaundice, rash, or petechiae on the skin or mucous membranes. No palpable enlargement of superficial lymph nodes. No cyanosis of the lips, no pharyngeal congestion. The thorax was symmetric without deformity. On auscultation, breath sounds were coarse in both lungs, and moist crackles were heard at end-inspiration in the right lower lung. Cardiac and abdominal examinations were unremarkable. No clubbing or other positive physical signs.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The course of fever, cough, and shortness of breath has persisted for more than 1 month. Pulmonary imaging progressed from a focal high-density opacity in the right lower lobe to multiple patchy opacities in both lungs with worsening bilateral atelectasis, showing persistent progression not confined to a single lobe or segment.",
+            "The patient sequentially received treatment with multiple antibacterial agents, including cefmenoxime, azithromycin, cefoperazone/sulbactam, moxifloxacin, cefminox, imipenem/cilastatin, vancomycin, linezolid, and meropenem; however, the body temperature did not decrease, and the pulmonary lesions showed poor absorption, suggesting that routine bacterial infection could not fully explain the condition.",
+            "Bronchoscopy revealed a large amount of purulent sputum, but no pathogenic organisms were detected by NGS in either BALF or blood, supporting the possibility of an atypical infectious or inflammatory lung disease.",
+            "Chest CT showed multiple patchy opacities in both lungs, consistent with one of the common imaging patterns of organizing pneumonia"
+          ],
+          "opposing_evidence": [
+            "After only 3 days of short-course methylprednisolone 40 mg/day, fever persisted, with no clear response to corticosteroid therapy.",
+            "Bronchoscopy showed a large amount of purulent sputum; the earlier complete blood count showed markedly elevated white blood cell count and neutrophil percentage, favoring an infectious process."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Refractory bacterial pneumonia/necrotizing pneumonia",
+          "supporting_evidence": [
+            "After onset, the patient developed fever, cough, expectoration of white mucoid sputum, and shortness of breath, which are consistent with common clinical manifestations of pulmonary infection.",
+            "On Day -26, the complete blood count showed a markedly elevated white blood cell count and neutrophil percentage, supporting bacterial infection.",
+            "Early chest radiograph and chest CT showed a high-density opacity in the right lung, later in the dorsal and basal segments of the right lower lobe, with air bronchograms visible within, consistent with pulmonary consolidation.",
+            "Bronchoscopy showed a large amount of purulent sputum, and moist rales were heard in the right lower lung at end-inspiration, suggesting purulent inflammation of the lower respiratory tract"
+          ],
+          "opposing_evidence": [
+            "After sequential treatment with multiple broad-spectrum antibacterial agents, there was no significant improvement in either symptoms or imaging findings; instead, it progressed to multiple patchy opacities in both lungs and worsening bilateral atelectasis.",
+            "No pathogenic organisms were detected by NGS in either bronchoalveolar lavage fluid or blood.",
+            "The course has been prolonged for more than 1 month and the response to antibacterial treatment has been poor, suggesting that simple common bacterial pneumonia does not adequately explain the condition."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary TB (including smear-negative/culture-negative pulmonary TB)",
+          "supporting_evidence": [
+            "Recurrent fever for more than 1 month, accompanied by cough and shortness of breath, with a 3 kg weight loss within 1 month, consistent with chronic consumptive manifestations",
+            "Treatment with multiple conventional antibacterial agents was ineffective; pathogens with inadequate coverage by conventional antibacterial therapy should be considered, including Mycobacterium tuberculosis.",
+            "Occupation: nurse, with possible healthcare environmental exposure"
+          ],
+          "opposing_evidence": [
+            "Previously denied a history of infectious diseases such as TB",
+            "The phase 1 imaging description was characterized by right lower lobe consolidation, followed by multiple patchy opacities and atelectasis in both lungs; no evidence more supportive of TB, such as typical upper lobe cavitation, tree-in-bud pattern, or mediastinal/hilar lymphadenopathy, was provided.",
+            "Fever persisted during 5 days of diagnostic oral anti-TB therapy, but this duration was too short to fully exclude it."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Invasive fungal lung disease",
+          "supporting_evidence": [
+            "Persistent high fever, progression of pulmonary lesions, and poor response to multiple broad-spectrum antibacterial agents should raise consideration of nonbacterial pathogens",
+            "No pathogenic organisms were detected by NGS in either BALF or blood, which does not completely exclude fungal infection.",
+            "Follow-up chest CT showed multiple patchy opacities in both lungs, which can be seen in some fungal pulmonary infections."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no definite high-risk factors for fungal infection were present, such as underlying immunosuppression, diabetes mellitus, hematologic disease, or organ transplantation.",
+            "No imaging or symptom features more suggestive of invasive fungal disease, such as hemoptysis, chest pain, cavitation, or the halo sign, were described.",
+            "Bronchoscopic findings of a large amount of purulent sputum are more commonly seen in bacterial infection"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary neoplastic lesions such as pneumonic-type lung adenocarcinoma / mucinous adenocarcinoma",
+          "supporting_evidence": [
+            "Persistent and progressively worsening pulmonary consolidation with poor response to anti-infective therapy should raise consideration of a neoplastic lesion masquerading as pneumonia",
+            "Since the illness onset, the patient has had fatigue, poor appetite, and a 3 kg weight loss within 1 month, suggesting the possibility of a wasting disease.",
+            "Imaging progressed from a focal lesion to multiple patchy opacities in both lungs; some pneumonic-type adenocarcinomas may present with pneumonia-like infiltrative opacities"
+          ],
+          "opposing_evidence": [
+            "Fever was the prominent initial presenting manifestation, and the marked early elevation in white blood cell count and neutrophil percentage further supports infection or inflammation.",
+            "Bronchoscopy showed a large amount of purulent sputum, which is not a typical manifestation of a simple tumor.",
+            "In the first stage, no supporting evidence was provided for a pulmonary mass, hilar or mediastinal lymphadenopathy, pleural effusion, or abnormal tumor markers."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "ANCA-associated vasculitis or other immune-inflammatory lung diseases",
+          "supporting_evidence": [
+            "Persistent fever, progression of pulmonary opacities, and no response to conventional broad-spectrum anti-infective therapy; noninfectious systemic inflammatory disease should be considered",
+            "Multiple patchy opacities in both lungs may be seen in vasculitis-associated pulmonary involvement or other immune-inflammatory lung diseases",
+            "Prior to illness onset, there was urticaria on the upper extremities, suggesting the possibility of an underlying immune-reactive background."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there were no vasculitis-related systemic manifestations such as sinusitis, hemoptysis, hematuria, persistent rash, arthralgia, or renal impairment.",
+            "No evidence was provided for eosinophilia, abnormal autoantibodies, or other such findings",
+            "Bronchoscopy showed a large amount of purulent sputum and a marked early increase in neutrophils, favoring an infectious lesion."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver and kidney function tests and electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatism panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin and complement panel + total IgE measurement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Eight-item infectious disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Antinuclear antibody titer + anti-double-stranded DNA titer + ANA autoantibody panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac biomarkers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "N-terminal brain natriuretic peptide",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Hemoglobin A1c",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ANCA(MPO、PR3)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Female tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Serum G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF smear and bacterial culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory test results were as follows: 1. Routine tests Arterial blood gas analysis: [IMAGE] CBC: [IMAGE] Coagulation panel: [IMAGE] Liver and kidney function and electrolytes: [IMAGE] Rheumatologic panel: hs-CRP: 213.00 mg/L, ESR: 111.0 mm/h, CRP: 161.86 mg/L, IL-6: 98.34 pg/ml. PCT, immunoglobulins/complement panel + total IgE measurement, eight-item infectious disease panel, ANA titer + anti-dsDNA titer + ANA autoantibody panel: all negative. Cardiac troponin markers, NT-proBNP, HbA1c, ANCA (MPO, PR3): all negative. Female tumor markers: ferritin: 636 ug/L. Serum G test, GM test, T-SPOT: all negative. 2. Bronchoscopy, bronchoalveolar lavage fluid smear and bacterial culture and related tests Bronchoscopy: no obvious abnormalities. BALF: acid-fast bacilli not found. BALF fungal smear, acid-fast stain, culture: all negative. Bacterial smear: G+ cocci seen; no G- bacilli, G- cocci, or G+ bacilli seen. Respiratory pathogen nucleic acid testing and mycobacterial species identification chip: all negative. 3. Chest CT Chest CT on Day +2 showed multiple patchy high-density opacities in both lungs with indistinct margins, with air bronchograms visible within them; some contained nodular calcific densities; the remaining lung fields were clear. Enlarged lymph nodes were seen in the mediastinum (Figure 1).",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgJsicSa5ItzsrBnDhhMGEBkIiapbYAx51Xz961IT9nMWYLyqetbPI1bNQ/640?wx_fmt=png",
+            "near_text": "Complete blood count:",
+            "local_src": "cleaned_cases_image_cache/b0ac9c28e2c829d53e5fe5cbba8529d6e5672306.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgicHAWpicdYtyZ2CTXUk5qrctribicwy1EqIThsLHay1SUhJPQiap27iczUKQ/640?wx_fmt=png",
+            "near_text": "Coagulation panel:",
+            "local_src": "cleaned_cases_image_cache/d6ec54967491f92827937c15d53d2d447577bbb4.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmg5qEVTXmzDJ9vWgTk8uTSQsguMoGtWSoLjCu3XQialXJicUbd6UaGIctQ/640?wx_fmt=png",
+            "near_text": "Liver and kidney function tests and electrolytes:",
+            "local_src": "cleaned_cases_image_cache/981c26941e2c67cdec652791485b3a9daa1f16ce.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgcpe5iahtKYhjMwOsZEeicZUHAEJjev9wINuxZEcZMy7OJGaFuGPhyATw/640?wx_fmt=png",
+            "near_text": "Rheumatologic panel:",
+            "local_src": "cleaned_cases_image_cache/ffdb161c95a301b7d9514a911ca5541811216070.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgv3fpfIE5TIv5iaGuicozge5174UItVRLN5hQI2eicsyKPkic4GqIAHseZQ/640?wx_fmt=png",
+            "near_text": "Figure 1: Chest CT showed multiple bilateral high-density opacities with indistinct margins, with air bronchograms visible within them",
+            "local_src": "cleaned_cases_image_cache/54401eafb766df5861868b5288ea41d723ffd95e.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Chronic eosinophilic pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The lesions are commonly located in the upper lung fields.",
+              "Cryptogenic organizing pneumonia (COP) lacks eosinophils",
+              "Nodules, nonseptal linear opacities, reticular opacities, and a peribronchiolar distribution are more common in COP",
+              "Interlobular septal lines are commonly seen in chronic eosinophilic pneumonia"
+            ]
+          },
+          {
+            "name": "Bronchioloalveolar carcinoma (BAC)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Not predominantly located in the subpleural region",
+              "Usually predominantly focal ground-glass opacity"
+            ]
+          },
+          {
+            "name": "Alveolar sarcoidosis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Often involves the upper lung fields",
+              "Only a few large cavitary masses with air bronchograms",
+              "Often accompanied by symmetric hilar and mediastinal lymphadenopathy"
+            ]
+          },
+          {
+            "name": "Peripheral lung cancer",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Peripheral lung cancer may present with deep lobulation, calcification, and lymph node enlargement",
+              "Bronchovascular bundle changes caused by it appear beaded and show truncation.",
+              "The halo sign is present only during early infiltrative growth, and when accompanied by obstructive pneumonia or peritumoral hemorrhage.",
+              "Diagnostic puncture is helpful for differentiation."
+            ]
+          },
+          {
+            "name": "Aspiration",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The opacities are not chronic or peripherally located as in COP.",
+              "Mainly occurs in gravity-dependent lung segments",
+              "Typical common causes: esophageal motility disorder, achalasia, alcoholism"
+            ]
+          },
+          {
+            "name": "Lipoid pneumonia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "On CT, lipoid pneumonia shows fat attenuation within the area of consolidation.",
+              "On CT, it may present as a \"crazy-paving pattern\"",
+              "History of lipoid aspiration: oily nasal drops, mineral oil"
+            ]
+          },
+          {
+            "name": "Pulmonary embolism",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Multiple peripheral infarcts at the lung bases (same as COP)",
+              "Infarction may resolve or evolve into a scar (linear).",
+              "Usually accompanied by pleural effusion",
+              "Known risk factors for thromboembolism"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Bronchioloalveolar carcinoma (BAC)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Not predominantly located in the subpleural region",
+          "Usually predominantly focal ground-glass opacity"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Peripheral lung cancer",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Peripheral lung cancer may present with deep lobulation, calcification, and lymph node enlargement",
+          "Bronchovascular bundle changes caused by it appear beaded and show truncation.",
+          "The halo sign is present only during early infiltrative growth, and when accompanied by obstructive pneumonia or peritumoral hemorrhage.",
+          "Diagnostic puncture is helpful for differentiation."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Aspiration",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The opacities are not chronic or peripherally located as in COP.",
+          "Mainly occurs in gravity-dependent lung segments",
+          "Typical common causes: esophageal motility disorder, achalasia, alcoholism"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Lipoid pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "On CT, lipoid pneumonia shows fat attenuation within the area of consolidation.",
+          "On CT, it may present as a \"crazy-paving pattern\"",
+          "History of lipoid aspiration: oily nasal drops, mineral oil"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary embolism",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Multiple peripheral infarcts at the lung bases (same as COP)",
+          "Infarction may resolve or evolve into a scar (linear).",
+          "Usually accompanied by pleural effusion",
+          "Known risk factors for thromboembolism"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Cryptogenic organizing pneumonia",
+        "evidence": [],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Coagulation panel",
+          "basis_in_stage3_input": "On Day +6, the patient underwent coagulation testing: PT 14.0 sec, PTA 66.5%, Fib 6.380 g/L, FDP 11.33 ug/ml, D-D 34.390 ug/ml",
+          "why_order_this_exam": "The patient had recurrent fever for more than 1 month and cough and shortness of breath for 3 weeks. Chest CT showed multiple patchy opacities in both lungs. Despite treatment with multiple broad-spectrum antibacterial agents, a short course of anti-TB therapy, and a corticosteroid trial, the patient continued to have high fever and progressive lesions. Further differentiation is needed among simple infection, inflammatory lung disease, and pulmonary thromboembolic disease. Markedly elevated FDP and D-dimer in the coagulation panel may indicate a hypercoagulable state and activation of fibrinolysis, which is helpful in determining whether venous thrombosis is present and in assessing the risk of pulmonary embolism. In addition, bronchoscopy-guided specimen collection/biopsy is planned subsequently; pre-procedure assessment of PT, PTA, fibrinogen, etc. is also a necessary step in evaluating bleeding risk and procedural safety, and can provide a basis for deciding whether to proceed with further invasive testing and anticoagulation therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Upper-extremity and lower-extremity vascular ultrasonography",
+          "basis_in_stage3_input": "On the same day, vascular ultrasound of the upper and lower extremities was performed: dilatation of the lumen of the intermuscular vein of the right calf, with thrombosis formation.",
+          "why_order_this_exam": "The patient has shortness of breath, and chest imaging shows multiple patchy opacities in both lungs. Pulmonary embolism had already been considered in the earlier differential diagnosis, while repeatedly negative infectious workup and poor response to anti-infective therapy indicate that embolism/pulmonary infarction-related changes need to be carefully evaluated. The coagulation panel has already shown markedly elevated D-dimer and FDP; therefore, further vascular ultrasound of the upper and lower extremities is intended to identify a peripheral venous thrombus source and determine whether deep vein thrombosis is present, which is important evidence for pulmonary embolism. This examination is noninvasive and repeatable; it can both help explain whether the patient's dyspnea and some pulmonary opacities are related to thromboembolism, and directly affects whether to initiate anticoagulation subsequently, whether further pulmonary vascular assessment is needed, and how to balance bleeding and thrombotic risk when performing bronchoscopic biopsy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "basis_in_stage3_input": "Pulmonary function testing on Day +8: mild restrictive ventilatory dysfunction, accompanied by mild diffusion impairment",
+          "why_order_this_exam": "During the course of the illness, the patient developed persistent cough and shortness of breath. Chest CT showed multiple patchy high-density opacities in both lungs with worsening atelectasis, suggesting diffuse involvement of the pulmonary parenchyma and the need for an objective assessment of the extent of lung injury. PFT can determine whether a restrictive ventilatory defect and reduced diffusing capacity are present, which is consistent with interstitial/alveolar lesions such as organizing pneumonia and helps support, from a functional perspective, a process beyond simple airway infection. On the one hand, this examination is used to explain the severity of the patient's symptoms and assess respiratory reserve; on the other hand, it can provide a basis for risk assessment of subsequent procedures such as bronchoscopy and biopsy, and also facilitate follow-up of treatment response and disease course monitoring after subsequent glucocorticoid therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Endobronchial ultrasound examination",
+          "basis_in_stage3_input": "On the same day, endobronchial ultrasound examination was performed: all bronchial lumens were patent; ultrasound examination of the right lower lobe revealed an abnormal hypoechoic area in the posterior basal segment of the right lower lobe, and biopsy was obtained.",
+          "why_order_this_exam": "The patient had fever, cough, and shortness of breath persisting for nearly 1 month. Imaging progressed from right lower lobe consolidation to multiple patchy opacities in both lungs, and despite sequential treatment with multiple antibacterial regimens and diagnostic anti-TB therapy, high fever persisted. BAL and blood NGS, as well as bacteria/fungi/acid-fast bacilli-related testing, did not identify a definite pathogen, suggesting that simple infection is difficult to explain. Conventional bronchoscopy showed no obvious abnormalities; therefore, endobronchial ultrasound is needed to localize the imaging-abnormal area, determine whether the lesion is in a location amenable to sampling, and improve the accuracy of tissue acquisition. The core clinical question of this examination is to further distinguish among infection, tumor, organizing pneumonia, and other inflammatory lung diseases; at the same time, real-time assessment of lesion location and surrounding structures before sampling can improve biopsy success and reduce the risk of blind biopsy, providing a key pathway for subsequent pathologic diagnosis and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy",
+          "basis_in_stage3_input": "Ultrasound examination of the right lower lobe identified an abnormal hypoechoic area in the posterior basal segment of the right lower lobe, and a biopsy was obtained.",
+          "why_order_this_exam": "The diagnostic challenge in this patient lies in the lack of specificity of the clinical and imaging manifestations: persistent high fever, bilateral patchy opacities, ineffective anti-infective therapy, and prior pathogen and immunologic screening that failed to provide decisive evidence; the differential diagnosis should exclude organizing pneumonia, lung cancer, granulomatous disease, eosinophilic pneumonia, and occult infection. Chest CT alone, elevated inflammatory markers, and negative pathogen test results are still insufficient for definitive characterization; therefore, lesional tissue must be obtained. Biopsy can directly assess the alveolar septa, bronchial walls, and organizing components within the lumen, as well as the presence or absence of tumor cells, necrosis, granulomas, or eosinophilic infiltration, and is the key examination for resolving the question of 'infectious or noninfectious, inflammatory or neoplastic.' The results also directly determine the treatment strategy: if organizing pneumonia is confirmed, management can shift from prolonged ineffective anti-infective therapy to systemic glucocorticoid treatment; if other etiologies are suggested, a completely different subsequent plan is required.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic diagnosis",
+          "basis_in_stage3_input": "Pathologic diagnosis showed: (posterior basal segment of the right lower lobe) small fragments of lung tissue, with chronic inflammatory cell infiltration in the interstitium and a small amount of neutrophil infiltration, widened alveolar septa, fibrous tissue hyperplasia with hyaline degeneration to varying degrees, focal fibrous tissue hyperplasia in the bronchial wall, and no eosinophil infiltration identified. In addition, several small fragments of fibrinoid necrotic material were seen, containing a small amount of degenerated inflammatory cell debris, with surrounding myxoid encasement (Figure 2).",
+          "why_order_this_exam": "In this case, pathologic diagnosis was a critical step required to ultimately establish the diagnosis. The patient was a middle-aged woman with a subacute onset, recurrent fever, cough, and shortness of breath. Chest CT showed multiple patchy high-density opacities in both lungs with air bronchograms. Multiple courses of intensive anti-infective therapy and short-course anti-TB treatment at an outside hospital were ineffective, while autoantibodies, ANCA, G/GM tests, T-SPOT, and multiple etiologic studies were mostly negative, indicating that although the clinical information strongly suggested an atypical inflammatory lung disease, histologic evidence was still required for final characterization. The purpose of pathologic examination was to identify features supporting organizing pneumonia, such as organizing changes, interstitial inflammation, and fibrous tissue proliferation, while excluding tumor cells, marked eosinophilic infiltration, typical granulomas, or definite infectious pathologic changes. The pathologic results were used not only to confirm the diagnosis and exclude important differential diagnoses, but also directly determined whether glucocorticoids should be given and the subsequent tapering and maintenance regimen; in this case, the marked radiologic absorption after subsequent glucocorticoid therapy also retrospectively confirmed the निर्णायक role of the pathologic diagnosis in selecting the treatment direction.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +6, the patient underwent a coagulation panel: PT 14.0 sec, PTA 66.5%, Fib 6.380 g/L, FDP 11.33 ug/ml, D-D 34.390 ug/ml; on the same day, vascular ultrasound of the upper and lower extremities was performed: widened inner diameter of the intermuscular vein in the right calf, with thrombosis formation. On Day +8, pulmonary function testing was performed: mild restrictive ventilatory dysfunction with mild diffusion impairment; on the same day, endobronchial ultrasound was performed: all lumens were patent; on ultrasound examination of the right lower lobe, an abnormal hypoechoic area was detected in the posterior basal segment of the right lower lobe, and a biopsy was taken. The pathologic diagnosis showed: (posterior basal segment of the right lower lobe) small fragments of lung tissue with interstitial chronic inflammatory cell infiltration and a small amount of neutrophil infiltration, widened alveolar septa, varying degrees of proliferative hyalinization of fibrous tissue, focal fibrous tissue proliferation in the bronchial wall, and no eosinophil infiltration. In addition, several small fragments of fibrinoid necrotic material were seen, containing a small amount of degenerated inflammatory cell debris mixed within, with surrounding myxoid encapsulation (Figure 2).",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgTG47wgzweNP0nA19pZazY4P0NgcSaUCd0kUxCdvrxibI2R6F0b8ibbvg/640?wx_fmt=png",
+          "near_text": "Figure 2. EBUS-guided transbronchial lung biopsy",
+          "local_src": "cleaned_cases_image_cache/ba5e50a12a95c0d0666583c899dee195c100d428.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgaPKWLf8077HicJ6IWJibAzc015kB2spficZyqMz6OtkGCAMpKTDVISf4Q/640?wx_fmt=png",
+          "near_text": "Figure 3. After one week of glucocorticoid therapy, the extent of the lesions in both lungs decreased compared with before.",
+          "local_src": "cleaned_cases_image_cache/1d87a7bda06fa7a043e5318b3f31b48d460019d8.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJrRFfA50uXDUIMwxxQflmgOQcn1DD7m1zBCSMvXxgXiaNFLmfTia4fVkqRLiboC42GnVctoOHG4eBpQ/640?wx_fmt=png",
+          "near_text": "Figure 4. Follow-up chest CT showed that the multiple high-density opacities in both lungs were markedly smaller than before",
+          "local_src": "cleaned_cases_image_cache/1c96758669b4923099d35853ca257aefa8e2fecb.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Cryptogenic organizing pneumonia",
+      "diagnostic_basis": [
+        "Basic characteristics → middle-aged woman, subacute onset",
+        "Symptoms → recurrent fever for more than 1 month, cough and shortness of breath for 3 weeks; after standardized anti-infective and anti-tuberculosis treatment at an outside hospital, symptoms and imaging findings still progressively worsened",
+        "Physical signs → no obvious abnormality",
+        "Ancillary examinations → ① Chest CT: Multiple patchy high-density opacities are seen in both lungs with indistinct margins; air bronchograms are visible within them, and partial nodular calcific density shadows are seen within some of them; ② Arterial blood gas analysis: indicates type I respiratory failure; ③ hs-CRP: 213.00mg/L, ESR: 111.0mm/h, CRP: 161.86mg/L, IL-6: 98.34pg/ml; ④ Pathologic diagnosis of transbronchial lung biopsy under endobronchial ultrasound: (posterior basal segment of the right lower lobe) Small fragments of lung tissue with interstitial chronic inflammatory cell infiltration and a small amount of neutrophil infiltration, widened alveolar septa, varying degrees of fibrous tissue proliferative hyalinization, focal fibrous tissue proliferation in the bronchial wall, and no eosinophil infiltration seen. In addition, several small fragments of fibrinoid necrotic material are seen, containing a small amount of degenerated inflammatory cell debris, with surrounding myxoid encasement."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg IV q12h for 1 week",
+        "After discharge, oral prednisone acetate 40 mg qd was prescribed.",
+        "In approximately 7 months after Day 0, the prednisone acetate used for the patient had been tapered to 20 mg qd for maintenance therapy"
+      ],
+      "treatment_response": [
+        "Repeat chest CT 1 week later showed marked absorption of the lesions; no fever; cough and shortness of breath improved. On physical examination, no crackles were heard in either lung on auscultation.",
+        "By approximately 7 months after Day 0, repeat chest imaging showed that the multiple high-density opacities in both lungs had decreased significantly compared with before, and the condition had not recurred."
+      ]
+    }
+  }
+}

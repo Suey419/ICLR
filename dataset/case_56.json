@@ -1,0 +1,363 @@
+{
+  "status": "success",
+  "case_id": "case_56",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 33-year-old woman who was admitted for recurrent paroxysmal cough and wheezing for more than 2 months, worsened for 5 days. More than 2 months before admission, after catching a cold, she developed severe cough, paroxysmal in nature, with scant sputum that was difficult to expectorate; with forceful expectoration she could produce yellow-white sticky sputum, without blood streaks, without wheezing, and without chills or fever. At a local hospital she was diagnosed with \"respiratory tract infection\" and, after symptomatic treatment, the cough improved slightly, but wheezing developed. She reported a wheezing sound in the throat, obvious during inspiration, and always felt that there was \"a large amount of sticky sputum\" in the throat causing dyspnea. The patient also had cough and liked to repeatedly press on the throat to relieve symptoms. Her wheezing was not affected by time or body position. She had no chest pain, acid reflux or belching, and no abdominal pain. She visited the Department of Respiratory Medicine at a teaching hospital in Guangzhou. Chest CT showed findings of bronchitis in both lungs. Pulmonary function testing suggested: 1. generally normal pulmonary function, with small airway obstruction; 2. bronchial provocation test negative. She was provisionally diagnosed with \"bronchial asthma\" and given budesonide/formoterol 160/4.5 ug Bid inhalation as diagnostic treatment for bronchodilation and asthma relief, without obvious improvement, and was then transferred to our hospital for admission. Since onset, the patient had been worried and anxious, with low energy; appetite was fair, sleep was poor, and body weight had decreased by 5 kg. The patient denied a history of allergic diseases such as asthma, hypertension, diabetes mellitus, and coronary artery disease, and denied a history of trauma, surgery, and blood transfusion. She denied smoking, alcohol use, and other adverse habits, and denied a history of taking medications such as ACEIs. Physical examination on admission: T 36.3℃, P 73/min, R 20/min, BP 111/86 mmHg. The trachea was midline. On auscultation, wheezing was heard in both lungs, with no moist rales. Heart and abdomen (-).",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Inducible laryngeal obstruction (vocal cord dysfunction, VCD/ILO)",
+          "supporting_evidence": [
+            "Dyspnea accompanied by \"wheezing sound in the throat,\" with it being \"more pronounced during inspiration,\" suggests airflow limitation originating from the upper airway, especially the larynx.",
+            "The patient consistently feels that there is \"a large amount of sticky sputum\" in the throat causing dyspnea, and repeatedly prefers to press on the throat to relieve symptoms; symptom localization is more consistent with the laryngeal region.",
+            "Pulmonary function testing suggested \"essentially normal pulmonary function,\" with only small airway obstruction; the bronchial provocation test was negative, which does not support typical bronchial asthma.",
+            "After diagnostic treatment with budesonide/formoterol inhalation for bronchodilation and asthma relief under the diagnosis of \"bronchial asthma,\" there was \"no obvious improvement.\"",
+            "During the course of the illness, \"anxiety and restlessness\"; psychosocial factors may coexist with or precipitate this type of functional upper airway abnormality."
+          ],
+          "opposing_evidence": [
+            "On physical examination, wheezing can be heard in both lungs, rather than stridor only in the neck or larynx.",
+            "Phase 1 information did not provide direct evidence such as laryngoscopy or abnormalities of the inspiratory flow-volume loop."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Central airway obstruction (e.g., tracheal or laryngeal mass, stenosis)",
+          "supporting_evidence": [
+            "\\\"Stridor in the laryngeal area, more pronounced during inspiration\\\" is consistent with fixed or variable obstruction of the upper airway or central airway.",
+            "The patient clearly localized the dyspnea to the larynx and reported a sensation of obstructive discomfort in the laryngeal region.",
+            "Symptoms are not affected by time or body position and may be seen in structural airway stenosis or space-occupying lesions",
+            "Chest CT showed only \"findings of bronchitis in both lungs,\" while pulmonary function was generally normal, the bronchial provocation test was negative, and inhaled bronchodilator therapy did not result in obvious improvement, suggesting the need to be alert to lesions not involving the peripheral airways",
+            "Unintentional weight loss of 5 kg over a short period is one of the warning signs that warrant vigilance for organic disease."
+          ],
+          "opposing_evidence": [
+            "The patient is 33 years old and denies smoking or other harmful habits; the traditional risk factors for common malignant central airway lesions are not strong.",
+            "The phase 1 information did not describe progressive hoarseness, significant dysphagia, or imaging findings that had already indicated a definite mass lesion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bronchial asthma (including atypical asthma)",
+          "supporting_evidence": [
+            "Chief complaint: recurrent paroxysmal cough and wheezing for more than 2 months",
+            "Physical examination: wheezing heard in both lungs",
+            "Pulmonary function testing indicates \"small airway obstruction,\" which can be seen in asthma or asthma-related small airway involvement."
+          ],
+          "opposing_evidence": [
+            "The patient denies a history of allergic diseases such as asthma.",
+            "Dyspnea accompanied by “wheezing sound in the throat,” and “more obvious during inspiration,” is more suggestive of an upper airway problem rather than the typical expiratory wheeze of asthma",
+            "Pulmonary function test: bronchial provocation test negative",
+            "After treatment with budesonide/formoterol for the presumed diagnosis of \"bronchial asthma,\" there was \"no significant improvement.\""
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Postinfectious cough/post-acute bronchitis airway hyperresponsiveness or small airway inflammation",
+          "supporting_evidence": [
+            "Onset began with \"severe cough after catching a chill,\" with initial manifestations mainly of paroxysmal cough and scant sputum.",
+            "Can expectorate \"yellow-white viscid sputum\"; chest CT shows \"findings of bronchitis in both lungs\"",
+            "PFT suggests small airway obstruction, which may be related to post-infectious airway inflammation or reactive changes",
+            "No chest pain; vital signs stable. The illness course initially presented with cough, which is consistent with the common onset pattern of postinfectious cough."
+          ],
+          "opposing_evidence": [
+            "No chills or fever, and the course of illness has lasted for more than 2 months; simple acute bronchitis cannot fully explain the progressively worsening inspiratory stridor and sense of laryngeal obstruction.",
+            "Laryngeal stridor, more pronounced during inspiration, is more suggestive of upper airway involvement rather than simple post-infectious changes of the lower airway.",
+            "Stage 1 information did not indicate definite improvement after anti-infective treatment"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Non-asthmatic eosinophilic bronchitis",
+          "supporting_evidence": [
+            "Persistent cough as the predominant manifestation; pulmonary function may be approximately normal",
+            "A negative bronchial provocation test may be seen in non-asthmatic eosinophilic bronchitis",
+            "Paroxysmal cough with scant sputum"
+          ],
+          "opposing_evidence": [
+            "The patient has definite dyspnea and inspiratory stridor, which are not typical features of this disease.",
+            "On physical examination, wheezing was audible in both lungs, but in the first stage no supporting information such as peripheral blood eosinophils, FeNO, or induced sputum eosinophils was provided.",
+            "Inhaled budesonide/formoterol showed no significant improvement, reducing the likelihood of this diagnosis"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Functional respiratory disorder/psychological factor-related dyspnea (with somatization manifestations)",
+          "supporting_evidence": [
+            "During the course of the illness, \"anxiety and restlessness, low spirits, poor sleep\"",
+            "In the symptom description, the patient repeatedly focused on a sensation of throat obstruction and liked to \"repeatedly press on the throat to relieve symptoms\".",
+            "PFT was “roughly normal,” bronchial provocation test was negative, and inhaled bronchodilator therapy did not result in obvious improvement, suggesting that the symptoms do not completely match objective lower airway obstruction."
+          ],
+          "opposing_evidence": [
+            "Wheezing was audible in both lungs on physical examination, suggesting that organic airway disease still needs to be ruled out first",
+            "Chest CT showed “findings of bronchitis in both lungs,” and there was yellow-white mucoid sputum, indicating that organic clues were not entirely absent.",
+            "Stage 1 information did not provide typical features of functional respiratory disorder such as hyperventilation, limb numbness, or clear situational triggers."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "routine tests of blood, urine, and stool",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood, tumor, and immune markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear for acid-fast bacilli",
+          "requirement": "required"
+        },
+        {
+          "exam": "liver and kidney function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Allergen testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "FeNO",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thyroid color Doppler ultrasonography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast CT of the chest and paranasal sinuses",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary ventilation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial challenge test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Otolaryngology consultation laryngoscopy examination",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Ancillary examinations: arterial blood gas analysis, the three routine tests, blood tests, tumor markers, and immune indices showed no obvious abnormalities; sputum smear for acid-fast bacilli was negative; liver and kidney function were normal; allergen testing: TIgE:17kU/L, FeNO 19ppb. ECG showed: sinus rhythm. Thyroid color Doppler ultrasound: bilateral thyroid not enlarged, no space-occupying lesion seen, no abnormal blood flow seen. Non-contrast CT of the chest and paranasal sinuses showed no definite abnormality. Pulmonary ventilation function (Figure 1): 1. Ventilatory function within the normal range, 2. Bronchial provocation test negative. Routine bronchoscopy: no obvious abnormality of the vocal cords or bronchial tree (Figure 2). Otolaryngology consultation with laryngoscopy: no abnormality of the vocal cords or nasal cavity (Figure 3).",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLq5mfSNdxkVzRAAcKhwIKiaFgGO6QrB7VUrpGxu7XpB9ibAcMIc3iaO2P16shZO141l0z51iaLda8GTw/640?wx_fmt=jpeg",
+            "near_text": "Figure 1: Pulmonary ventilation function within the normal range; bronchial provocation test negative",
+            "local_src": "cleaned_cases_image_cache/c5cd0ff5a2224f05801f7e1f110fd0cf7a343365.jpg"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLA6n8Jbl9t13RxW07SCRmcuMA9rGHVC1b32NzlusJAkSSKrIWlgCT8f0EicuBB2iaZc62MR9SA7ogg/640?wx_fmt=jpeg",
+            "near_text": "Figure 2: Bronchoscopy showed no obvious abnormalities in the trachea or bronchial tree",
+            "local_src": "cleaned_cases_image_cache/589d65e5c6f80a0e64e90be7d571add4dad37926.jpg"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLA6n8Jbl9t13RxW07SCRmcfSNzTZ5F4mbyKvhvwWEwQaw5j2OeqlibTwNepTRnCV1bnYhMtV3mILA/640?wx_fmt=jpeg",
+            "near_text": "Figure 3: Otolaryngology laryngoscopic examination showed no abnormalities of the vocal cords",
+            "local_src": "cleaned_cases_image_cache/e44dbebde1cac61c36b5b3af49035b0e2d133ce1.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tracheal tumor",
+            "evidence": [
+              "The patient has laryngeal wheezing, dyspnea, and inspiratory stridor is heard over the neck."
+            ],
+            "exclusion_reasons": [
+              "Tumor markers were negative, and bronchoscopy showed no obvious abnormalities."
+            ]
+          },
+          {
+            "name": "tracheobronchial tuberculosis",
+            "evidence": [
+              "Young and middle-aged woman with chronic cough, sputum production, wheezing, dyspnea, and weight loss"
+            ],
+            "exclusion_reasons": [
+              "Sputum smear for acid-fast bacilli was negative, chest imaging showed no abnormalities, and no tuberculous lesions were identified on bronchoscopy."
+            ]
+          },
+          {
+            "name": "Relapsing polychondritis",
+            "evidence": [
+              "The patient has wheezing and cough symptoms."
+            ],
+            "exclusion_reasons": [
+              "Bronchoscopy showed no typical lesions"
+            ]
+          },
+          {
+            "name": "Vocal cord dysfunction",
+            "evidence": [
+              "The patient has inspiratory stridor and cough symptoms."
+            ],
+            "exclusion_reasons": [
+              "Otolaryngology consultation: laryngoscopy showed no typical lesions"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tracheal tumor",
+        "evidence": [
+          "The patient has laryngeal wheezing, dyspnea, and inspiratory stridor is heard over the neck."
+        ],
+        "exclusion_reasons": [
+          "Tumor markers were negative, and bronchoscopy showed no obvious abnormalities."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tracheobronchial tuberculosis",
+        "evidence": [
+          "Young and middle-aged woman with chronic cough, sputum production, wheezing, dyspnea, and weight loss"
+        ],
+        "exclusion_reasons": [
+          "Sputum smear for acid-fast bacilli was negative, chest imaging showed no abnormalities, and no tuberculous lesions were identified on bronchoscopy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Relapsing polychondritis",
+        "evidence": [
+          "The patient has wheezing and cough symptoms."
+        ],
+        "exclusion_reasons": [
+          "Bronchoscopy showed no typical lesions"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Vocal cord dysfunction",
+        "evidence": [
+          "The patient has inspiratory stridor and cough symptoms."
+        ],
+        "exclusion_reasons": [
+          "Otolaryngology consultation: laryngoscopy showed no typical lesions"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "24-hour cough recording",
+          "basis_in_stage3_input": "After transfer to the asthma specialty group of the Department of Pulmonology, a 24-hour cough recording was first arranged. The 24-hour cough recording results indicated that the cough was predominantly single cough sounds (Figure 4), with persistent episodes of fine wheeze sound waves during the daytime and the first half of the night (Figure 5); after falling asleep at night, there was basically no cough and no fine wheeze sound waves (Figure 6).",
+          "why_order_this_exam": "The patient has had recurrent paroxysmal cough, inspiratory stridor, and a sensation of laryngeal obstruction for more than 2 months. Asthma treatment was ineffective, and previous chest CT, pulmonary function testing, bronchial provocation testing, routine bronchoscopy, and standard laryngoscopy were all unable to explain the symptoms. Twenty-four-hour cough audio recording can objectively document the circadian distribution of cough and wheezing sounds, their acoustic characteristics, and their relationship to sleep status, with emphasis on determining whether the symptoms persist while awake and disappear after falling asleep, thereby helping differentiate functional upper airway abnormalities/psychological factor-related manifestations from organic persistent airway lesions. This examination is noninvasive and can capture attack patterns without interfering with the patient's natural state, providing a basis for whether to continue focusing on VCD, psychological factors, and behavioral therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Videostroboscopic laryngoscopy",
+          "basis_in_stage3_input": "The patient was arranged to undergo videostroboscopy by Director Chen Qiaoyan in the Department of Otolaryngology at Guangdong Provincial Hospital of Traditional Chinese Medicine.",
+          "why_order_this_exam": "The patient’s main manifestations are obvious inspiratory laryngeal stridor, a sensation of a foreign body/sticky sputum in the larynx, and repeated relief with manual pressure on the larynx; symptom localization strongly suggests a laryngeal problem. However, prior routine ENT laryngoscopy showed no abnormality in a non-typical state, and intermittent glottic dysfunction cannot be excluded. Videostroboscopy can more precisely evaluate the morphology, mobility, closure, and mucosal wave of both vocal cords; it is needed both to exclude organic causes such as vocal cord neoplasms and structural lesions and to look for dynamic clues supporting vocal cord dysfunction. If symptoms or stridor change during the examination due to procedural provocation, this may also suggest a functional characteristic, which is important for narrowing the differential diagnosis and avoiding continued treatment in the direction of asthma or lower airway disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Reflux Finding Score (RFS)",
+          "basis_in_stage3_input": "Reflux Finding Score (RFS): 7 points.",
+          "why_order_this_exam": "The patient has persistent cough, throat discomfort, and behaviors such as throat clearing / pressing on the throat. Laryngopharyngeal reflux can be one of the common accompanying factors causing pharyngeal-laryngeal irritation and triggering or exacerbating abnormal vocal fold motion. Although the patient denies obvious acid regurgitation and belching, it cannot be completely excluded based on symptoms alone. RFS scoring is performed to systematically assess whether there are reflux-related laryngeal signs and to determine the possible role of reflux in the current laryngeal symptoms and vocal fold irritation. This result may help explain findings such as mild vocal fold hyperemia and hypertrophy, improve the evaluation of VCD triggers, and provide a basis for whether subsequent lifestyle intervention or reflux-related management is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Examination with an ultrathin bronchoscope",
+          "basis_in_stage3_input": "The patient subsequently returned to our hospital for repeat examination with an ultrathin bronchoscope (Figure 10). Before the examination, the patient was instructed to climb stairs (to provoke VCD). Chief Physician Chen Qiaoyan used an ultrathin bronchoscope (to reduce irritation of the nasal mucosa) inserted transnasally, without anesthetic or sedative medications (the bronchoscope did not enter the glottis), and successfully identified typical findings of vocal cord dysfunction: paradoxical vocal fold motion; during inspiration, adduction of the vocal folds caused closure of the anterior two-thirds of the glottis, while the posterior glottis showed a diamond-shaped cleft.",
+          "why_order_this_exam": "Although VCD was highly suspected clinically, the earlier routine bronchoscopy and standard laryngoscopy were both unremarkable, suggesting that the abnormality may be episodic and dynamic, and that routine examination at rest is prone to missed diagnosis. The patient's symptoms were characterized mainly by inspiratory stridor; asthma treatment was ineffective; and PFT and bronchial provocation testing did not support typical asthma. Therefore, direct observation of glottic movement is needed under conditions as close as possible to the natural symptomatic state. Using an ultrathin bronchoscope via the nasal route, minimizing nasopharyngeal stimulation, and avoiding anesthetic and sedative medications can reduce interference of the examination itself with vocal cord movement; exercise provocation before the examination may help reproduce symptoms. The core question this examination is intended to address is to directly confirm whether paradoxical vocal cord adduction during inspiration is present, while also further excluding structural stenosis or a space-occupying lesion of the central airway. The result is निर्णसive for confirming VCD and also directly determines that subsequent management should focus on behavioral intervention, breathing training, and psychological intervention, rather than continuing to intensify anti-asthma treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Psychiatry consultation",
+          "basis_in_stage3_input": "Psychiatry consultation requested, indicating: organic disease excluded; somatic symptom disorder considered.",
+          "why_order_this_exam": "During the course of the illness, the patient had marked anxiety and restlessness, poor sleep, and weight loss. The symptoms were chronically inconsistent with the objective examinations, and 24-hour cough recording indicated that wheezing and coughing basically disappeared after falling asleep, suggesting that psychological factors may be involved in the occurrence and maintenance of the symptoms. At the same time, a relatively systematic organic workup has been completed, including imaging, pulmonary function testing, bronchial provocation testing, conventional bronchoscopy, laryngoscopy, and further dynamic examinations; therefore, psychiatric evaluation is needed to determine whether somatic symptom disorder or other psychological-behavioral factors are present. The clinical question for this consultation is not only to help explain the symptom pattern, but also relates to identification of VCD triggers, prognostic assessment, and treatment planning, because if significant psychological factors are present, medication treatment by the Department of Respiratory Medicine alone is often of limited effectiveness, and combined psychological counseling, behavioral therapy, and breathing training are needed to reduce misdiagnosis and inappropriate treatment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After asking the two patients in the neighboring beds, an important clue was obtained: wheezing was continuously heard in the patient, but no wheezing was present after the patient fell asleep. After transfer to the asthma specialty group in the Department of Respiratory Medicine, a 24-hour cough recording was first arranged. The 24-hour cough recording results suggested that the cough was predominantly single cough sounds (Figure 4), with persistent episodes of fine wheezing sound waves during the daytime and early night (Figure 5); after falling asleep at night, there was basically no cough and no fine wheezing sound waves (Figure 6), suggesting that the occurrence of fine wheezing episode waves might be related to psychological factors. The patient was arranged to undergo videostroboscopic laryngoscopy by Director Chen Qiaoyan in the Department of Otolaryngology at Guangdong Provincial Hospital of Chinese Medicine: during the examination, when the patient's tongue was pulled, the laryngeal stridor suddenly disappeared; both vocal cords were slightly hyperemic and thickened, with smooth surfaces, and no neoplasm was seen; bilateral vocal cord mobility was preserved, and glottic closure was fair; during the phonatory cycle, the mucosal waves of both vocal cords were slightly decreased, but still regular and symmetric. Reflux Finding Score (RFS): 7 points. Afterward, the patient returned to our hospital and underwent repeat examination with an ultrathin bronchoscope (Figure 10). Before the examination, the patient was instructed to climb stairs for exercise (to induce VCD). Director Chen Qiaoyan advanced the ultrathin bronchoscope transnasally (to reduce nasal mucosal irritation), without using anesthetic or sedative medications (the bronchoscope did not pass through the glottis), and successfully identified typical findings of vocal cord dysfunction: paradoxical vocal cord movement, and during inspiration, adduction of the vocal cords causing closure of the anterior two-thirds of the glottis with a diamond-shaped posterior glottic chink. A psychiatry consultation was requested, which suggested: organic disease excluded, somatic symptom disorder considered.",
+      "images": [
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLA6n8Jbl9t13RxW07SCRmcwNPjZic7wvIiaDNEvDJt5NdibtLFAkeB2ufzUryBH5lK1Mh6TrQQzKqzw/640?wx_fmt=jpeg",
+          "near_text": "Figure 4: The patient's 24-hour cough recording",
+          "local_src": "cleaned_cases_image_cache/e143ea8bb4b081fb59e12aa4879701b553d57919.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLA6n8Jbl9t13RxW07SCRmca1XIluBZqJWqWzHMCkYAXhNvUqZZIaFTZIO8VKCUxjUN8B54OoQblg/640?wx_fmt=png",
+          "near_text": "Figure 5: persistent episodes of fine wheezing before falling asleep",
+          "local_src": "cleaned_cases_image_cache/e3f5bd00c58362b37a7572cd88fa4de767d901fa.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLA6n8Jbl9t13RxW07SCRmcSAobbWaQACgxs2NnvDSWbibPyGAf3sTE6XkPz0VwGJbWQfZE6y69CBg/640?wx_fmt=png",
+          "near_text": "Figure 6: Fine wheezing episodes completely disappeared after falling asleep",
+          "local_src": "cleaned_cases_image_cache/4193b1e2a2ce01e09dfec324cc41df4c99cc6060.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLA6n8Jbl9t13RxW07SCRmc2OgRYjqAicvaBTPGszxwxj91HJZktE02XPQpGqtk3vXvxYZpsSMiczOg/640?wx_fmt=png",
+          "near_text": "Figure 10: During ultrathin bronchoscopy on inspiration, adduction of the vocal cords caused closure of the anterior two-thirds of the glottis, with a diamond-shaped posterior glottic chink.",
+          "local_src": "cleaned_cases_image_cache/93f5d632ed6d005177ba238116d7722e76fb6768.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Vocal cord dysfunction (VCD)",
+      "diagnostic_basis": [
+        "The 24-hour cough recording results indicate that there was essentially no cough after falling asleep at night, and no fine wheezing sound waves.",
+        "Laryngostroboscopy showed that laryngeal stridor suddenly disappeared when the patient's tongue was pulled; both vocal cords were slightly hyperemic and thickened",
+        "An ultrathin bronchoscope (to reduce irritation to the nasal mucosa) was inserted transnasally without anesthetic or sedative medications (the bronchoscope did not enter the glottis), successfully revealing typical findings of vocal cord dysfunction: paradoxical vocal cord motion, and closure of the anterior two-thirds of the glottis during inspiration due to vocal cord adduction, with a diamond-shaped cleft in the posterior glottis.",
+        "Psychiatry consultation suggested: organic disease excluded; somatic symptom disorder considered"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Behavioral intervention therapy (speech-language pathology therapy)",
+        "Explain the negative effects of recurrent coughing and throat clearing, and instruct the patient to consciously control coughing",
+        "Provide laryngeal hygiene education to the patient, explain to the patient the harms of repeatedly pressing on the larynx, and explain the etiology to the patient in detail",
+        "Repeatedly had the patient review the bronchoscopy and laryngoscopy videos, confirming that there was no \"large amount of sticky sputum\" adherent to the larynx",
+        "Promote nasal breathing, for example by sucking on candy",
+        "Provide respiratory training for the patient, and instruct the patient to perform diaphragmatic breathing exercises multiple times daily.",
+        "Provide psychological counseling to the patient, motivate the patient, establish treatment goals and encourage the patient to adhere to treatment, and relieve psychological stress."
+      ],
+      "treatment_response": [
+        "The laryngeal stridor disappeared immediately when the patient changed breathing pattern.",
+        "After fully understanding, the patient gradually became cooperative with treatment, and the symptoms gradually improved."
+      ]
+    }
+  }
+}

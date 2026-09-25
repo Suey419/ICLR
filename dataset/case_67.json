@@ -1,0 +1,427 @@
+{
+  "status": "success",
+  "case_id": "case_67",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 57-year-old woman was admitted on Day 0, with the chief complaint of recurrent cough, sputum production, and fever for more than 1 month. In early January, after catching a chill, she developed cough and sputum production, with nocturnal fever. On Day -35, CT at an outside hospital showed pulmonary infection and right pleural effusion. On Day -34, pleural ultrasound showed right pleural effusion; routine pleural fluid analysis: Rivalta test positive, monocytes 88%; pleural fluid biochemistry: LDH 420 U/L, ADA 43.78 U/L; pleural fluid NGS negative; no atypical cells were seen on pleural fluid exfoliative cytology; T-SPOT negative. On Day -26, contrast-enhanced chest CT showed right lung inflammation, loculated right pleural effusion, and enlarged lymph nodes in the pretracheal space, subcarinal region, and right hilum. On Day -21, blood tests showed CRP >15.36 mg/L, ferritin 343.42 ng/ml, CA125 175.8 U/ml; routine pleural fluid analysis: lymphocytes 92%; liquid-based cytology of pleural fluid exfoliative cells showed lymphoid tissue hyperplasia; comprehensive autoimmune panel was negative. On Day -20, bronchoscopy and endobronchial ultrasound showed no atypical cells, and no atypical cells were seen in BALF. On Day -16, ESR 43 mm/h, CRP 30.3 mg/L, routine pleural fluid analysis: monocytes 97%, pleural fluid biochemistry: LDH 600 U/L, ADA 48 U/L. On Day -14, diagnostic anti-TB treatment with HREZ was started. Repeat chest CT on Day -4 and pleural ultrasound on Day -2 showed increased pleural effusion compared with before. Past history: poliomyelitis and cholecystectomy 10 years ago. Physical examination: T 36.5℃, right posterior thoracic chest tube in place, decreased breath sounds in the right lower lung.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkHxfRLOwtuuoqax3C942LJK4tJFHO6VMdFI2sbtXg3TQmJfyB65lO3Q/640?wx_fmt=png",
+          "near_text": "Figure 1: Non-contrast chest CT of the patient on Day -35 (outside hospital)",
+          "local_src": "cleaned_cases_image_cache/5f927217119483f1922f1362d338d89d16515bd2.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkdY7mNhWDre9meicKCfWyRSAGNL9bRPxrppVGqmDgFoAOlYvibWV6t3ZA/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest CT plain scan + contrast-enhanced CT of the patient on Day -26 (outside hospital)",
+          "local_src": "cleaned_cases_image_cache/9a5fe885967743275bc9efaae932fd0b707039ca.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkpCAfXec6JlZ0tQ1O9470SAtVoybK4hRc4wJwMjpUkkSWVmgt7IwvGg/640?wx_fmt=png",
+          "near_text": "Figure 3: Non-contrast chest CT of the patient on Day -4 (outside hospital)",
+          "local_src": "cleaned_cases_image_cache/47b609e739615ba14549322d756f0331138e8882.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Tuberculous pleurisy with pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Course of disease for more than 1 month, manifested by recurrent cough, sputum production, and nocturnal fever, consistent with one of the common clinical manifestations of TB infection.",
+            "Pleural effusion is exudative: Rivalta test positive, pleural fluid LDH 420 U/L, 600 U/L",
+            "Pleural fluid differential cell count was predominantly monocytes/lymphocytes: monocytes 88%, 97%, lymphocytes 92%, consistent with the common cytologic features of tuberculous pleural effusion",
+            "Pleural fluid ADA 43.78 U/L and 48 U/L, within the range supportive of tuberculous pleurisy",
+            "Chest CT showed loculated right pleural effusion, with right lung inflammation and enlarged lymph nodes in the pretracheal space, subcarinal region, and right hilum; these imaging findings can be seen in pleuropulmonary tuberculous involvement.",
+            "ESR 43 mm/h and elevated CRP, suggesting inflammatory activity"
+          ],
+          "opposing_evidence": [
+            "T-SPOT negative, not supportive of but cannot completely exclude TB infection",
+            "Pleural fluid NGS was negative, with no etiologic support provided.",
+            "After initiation of diagnostic anti-TB treatment with HREZ on Day -14, CT on Day -4 and pleural ultrasound on Day -2 showed that the pleural effusion had increased compared with before, which does not support an early response to anti-TB treatment."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Complicated parapneumonic pleural effusion/empyema",
+          "supporting_evidence": [
+            "In early January, after catching a chill, the patient developed cough, sputum production, and fever; the mode of onset is consistent with infectious pneumonia.",
+            "On Day -35, CT at an outside hospital showed pulmonary infection; on Day -26, contrast-enhanced chest CT showed right lung inflammation",
+            "The image shows right lung consolidation/patchy infiltrative opacities and a relatively large right pleural effusion, and the text indicates a loculated right pleural effusion, consistent with imaging features of complicated parapneumonic effusion or empyema.",
+            "CRP >15.36 mg/L and 30.3 mg/L, ESR 43 mm/h, suggesting active infection/inflammation",
+            "Pleural effusion is exudative, with elevated LDH, supporting inflammatory pleural effusion."
+          ],
+          "opposing_evidence": [
+            "Pleural fluid differential cell count has long been predominantly monocytes/lymphocytes, rather than the neutrophil predominance commonly seen in typical acute bacterial pleural infection.",
+            "The course of disease has exceeded 1 month, and the presence of mediastinal and hilar lymphadenopathy and elevated pleural fluid ADA means that simple parapneumonic effusion due to bacterial pneumonia cannot fully explain all findings.",
+            "In the first stage, no more direct supporting evidence was provided, such as purulent appearance of pleural fluid, positive bacterial culture of pleural fluid, or obvious chest pain."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 3,
+          "name": "Lung cancer with malignant pleural effusion (represented by central lung cancer or lung adenocarcinoma)",
+          "supporting_evidence": [
+            "The patient is 57 years old, with a persistent lesion in the right lung accompanied by a right pleural effusion, and the pleural effusion is progressively increasing; a neoplastic lesion should be considered.",
+            "Contrast-enhanced CT on Day -26 showed enlarged lymph nodes in the pretracheal space, subcarinal region, and right hilum; these imaging findings can be seen in lung cancer with mediastinal/hilar lymph node metastases.",
+            "Elevated CA125 175.8U/ml, which can be seen in pleural involvement or malignant pleural effusion",
+            "Imaging shows focal consolidation/mass-like opacity in the right lung with pleural effusion, which should be differentiated from post-obstructive infection due to malignancy or malignancy with pleural metastasis."
+          ],
+          "opposing_evidence": [
+            "No atypical cells were seen on pleural effusion exfoliative cytology; liquid-based cytology of pleural effusion exfoliated cells showed lymphoid tissue hyperplasia.",
+            "On Day -20, bronchoscopy and endobronchial ultrasound showed no atypical cells, and no atypical cells were seen in BALF.",
+            "Onset accompanied by cough, sputum production, and fever, more suggestive of an infectious process",
+            "The first-stage images and text more clearly suggest “right lung inflammation” and loculated pleural effusion, with no clearly described solid space-occupying lesion."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pleural/pulmonary involvement by lymphoma or other lymphoproliferative disorders",
+          "supporting_evidence": [
+            "Pleural fluid differential cell count predominantly shows lymphocytes/monocytes, which may be consistent with pleural effusion due to lymphatic system disease",
+            "Liquid-based cytology of pleural effusion exfoliated cells showed lymphoid tissue hyperplasia",
+            "Contrast-enhanced CT showed enlarged lymph nodes in the pretracheal space, subcarinal region, and right hilar region, supporting the possibility of lymphatic system disease.",
+            "Fever and elevated ferritin of 343.42 ng/ml may be seen in inflammation or lymphoproliferative disorders."
+          ],
+          "opposing_evidence": [
+            "At present, there is no clear evidence of superficial lymphadenopathy, hepatosplenomegaly, or similar findings.",
+            "Cough, sputum production, and imaging suggesting right lung inflammation make infectious disease more likely.",
+            "No atypical cells were found in the pleural effusion or on bronchoscopy/BALF; direct cytologic evidence of tumor cells is still lacking."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Fungal pulmonary infection with pleural involvement",
+          "supporting_evidence": [
+            "The course of illness has been prolonged for more than 1 month, with right lung consolidation/infiltrative opacity accompanied by loculated pleural effusion, and routine testing has not identified the pathogen; infection with an unusual pathogen should be considered.",
+            "Mediastinal and hilar lymphadenopathy may be seen in some fungal infections",
+            "Inflammatory markers are elevated, suggesting an ongoing infectious process"
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide high-risk background factors for fungal infection such as immunosuppression, diabetes mellitus, or long-term corticosteroid use.",
+            "Pleural fluid NGS was negative, and no mycological pathogen evidence was provided.",
+            "Elevated pleural fluid ADA and lymphocyte predominance more often suggest other etiologies such as tuberculous pleuritis"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Organizing pneumonia with reactive pleural effusion",
+          "supporting_evidence": [
+            "Persistent cough and fever; imaging shows patchy/confluent areas of consolidation in the right lung. Organizing pneumonia may present as persistent nonresolving pulmonary consolidation.",
+            "Autoimmune panel negative; cryptogenic organizing pneumonia cannot be excluded",
+            "Bronchoscopy and BALF showed no atypical cells, which can serve as an indirect clue after excluding some tumors"
+          ],
+          "opposing_evidence": [
+            "A relatively large-volume and loculated unilateral pleural effusion is atypical; pleural effusion is usually not prominent in organizing pneumonia.",
+            "Elevated pleural fluid ADA with a marked increase in lymphocytes/monocytes more strongly supports TB or malignant/other chronic inflammatory pleural disease.",
+            "Mediastinal and hilar lymphadenopathy and elevated CA125 are also not easily fully explained by simple organizing pneumonia"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pleural fluid routine analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural fluid biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "pulmonary edema",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fecal occult blood",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Endotoxin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "G test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Viral antibodies (EBV, CMV)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Temperature curve monitoring",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count (WBC)",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Day +1 medical thoracoscopy: nodular protrusions with black pigment deposition were seen on the parietal pleura and diaphragm. ECG: sinus tachycardia. Echocardiography: atrial-level shunt, possible patent foramen ovale. Pleural fluid routine analysis: lymphocytes 88%. Pleural fluid biochemistry: LDH 670 U/L, ADA 50 U/L. Pleural fluid tumor markers: CYFRA 86.7 ug/L, CA125 516.9 U/ml. Serum tumor markers: NSE 17.0 ug/L, CA125 126.6 U/ml. TB antibody, endotoxin, G test, and PCT were all negative. Day +5 T-SPOT negative. Day +6 autoimmune antibodies negative. Day +7 viral antibodies: anti-EBV-IgG (+), anti-cytomegalovirus IgG (+), all others negative. Day +12 non-contrast chest CT: right lung lesion, right pleural effusion, multiple nodules in the left lung, multiple enlarged lymph nodes in the mediastinum and right axilla. Treatment: anti-TB treatment was continued from Day +1 to Day +13; ganciclovir was added on Day +9. The patient's temperature was still not controlled, with recurrent persistent high fever to 39-40 degrees, and ESR and CRP remained elevated.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkZSnqc9T4yJAXdLeCPw9IIqicK1OUGrlPs56ic2ibHQg2X8wf0jyuVGG6A/640?wx_fmt=png",
+            "near_text": "Figure 4: Medical thoracoscopy on Day +1: Nodular protrusions with black pigment deposition were seen on the parietal pleura and diaphragm, and biopsy was performed.",
+            "local_src": "cleaned_cases_image_cache/d85b636492308d2e0e000b47c6ee549c82b070d7.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkQqeqTZc4Qh9akhvJiabt7uicEaFomyLmv0LCOOdOZzTR7uL4Yj2Pia63g/640?wx_fmt=png",
+            "near_text": "Figure 5: Curve of the patient’s highest body temperature after admission",
+            "local_src": "cleaned_cases_image_cache/1cd67da0403dd9816c8cd8be3ccb2bf1868e2339.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkTgS5KnQXBtk79b5cQO9bia2NabXwVZ5awdeznjpgXL8r1YRCkrNH7bQ/640?wx_fmt=png",
+            "near_text": "Figure 6: Changes in WBC after patient admission (×109/L)",
+            "local_src": "cleaned_cases_image_cache/1af4b8463e578a40bc87cbd87b51e914ff18f9fe.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkz891TSA5lNS00ZBAkC5DzHhy2Qadx9uzIxzbfAxRzT5jMNFEn7iaq9A/640?wx_fmt=png",
+            "near_text": "Figure 7: Changes in CRP after admission (mg/L)",
+            "local_src": "cleaned_cases_image_cache/96a4f1200596a4b63920eefbd6118468aac171d3.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqk8ak8flgM4fglBRtnl50T6E0vjICcvib5Mguj4DSWpygPUuk5ibZNeNNQ/640?wx_fmt=png",
+            "near_text": "Figure 8: Changes in erythrocyte sedimentation rate after admission (mm/H)",
+            "local_src": "cleaned_cases_image_cache/10cf6e07edcb337b11fed76ff8e8f7002cc667fd.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIJAF8CCrp2Q8drSAPMGibqkNFXPNSBGpwI9oicCKOW0S3AicV2jNjyiaC7UVCIBwKEVYxWaVvE0oEXgg/640?wx_fmt=png",
+            "near_text": "Figure 9: Non-contrast chest CT of the patient on Day +12",
+            "local_src": "cleaned_cases_image_cache/86b1cfdbab41a8e75c2dbf955cc6d5fc563e9a51.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tuberculous pleuritis/tuberculous exudative pleuritis",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No etiologic evidence",
+              "No response to anti-TB treatment",
+              "T-SPOT negative",
+              "Thoracoscopy showed no typical manifestations of TB, including exudation, adhesions, or multiple lesions."
+            ]
+          },
+          {
+            "name": "Parapneumonic pleural effusion",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Anti-infective treatment at an outside hospital was ineffective"
+            ]
+          },
+          {
+            "name": "Autoimmune disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Autoimmune markers at an outside hospital were negative",
+              "No manifestations such as joint pain or rash"
+            ]
+          },
+          {
+            "name": "lymphoma",
+            "evidence": [
+              "Recurrent fever",
+              "night sweats",
+              "Enlarged mediastinal and axillary lymph nodes",
+              "Well-defined intrapulmonary lesion",
+              "Thoracoscopic examination indicated that the lesion was relatively localized, and biopsy indicated that the tissue at the lesion site was relatively soft."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pleural mesothelioma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No history of asbestos exposure or other high-risk factors",
+              "Rapid progression of intrapulmonary lesions and pleural effusion"
+            ]
+          },
+          {
+            "name": "Infectious disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Antibacterial anti-infective therapy and anti-TB treatment were ineffective"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tuberculous pleuritis/tuberculous exudative pleuritis",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No etiologic evidence",
+          "No response to anti-TB treatment",
+          "T-SPOT negative",
+          "Thoracoscopy showed no typical manifestations of TB, including exudation, adhesions, or multiple lesions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Parapneumonic pleural effusion",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Anti-infective treatment at an outside hospital was ineffective"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Autoimmune disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Autoimmune markers at an outside hospital were negative",
+          "No manifestations such as joint pain or rash"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "lymphoma",
+        "evidence": [
+          "Recurrent fever",
+          "night sweats",
+          "Enlarged mediastinal and axillary lymph nodes",
+          "Well-defined intrapulmonary lesion",
+          "Thoracoscopic examination indicated that the lesion was relatively localized, and biopsy indicated that the tissue at the lesion site was relatively soft."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pleural mesothelioma",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No history of asbestos exposure or other high-risk factors",
+          "Rapid progression of intrapulmonary lesions and pleural effusion"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infectious disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Antibacterial anti-infective therapy and anti-TB treatment were ineffective"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Blood NGS",
+          "basis_in_stage3_input": "Day +12 blood NGS: human herpesvirus 4 (EBV) detected sequence count 8157, Candida parapsilosis detected sequence count 6.",
+          "why_order_this_exam": "The patient presented with recurrent cough, sputum production, and fever, followed by persistent sustained high fever of 39-40℃, with progressive worsening of right pleural effusion and pulmonary lesions. Anti-infective and anti-TB treatment were both ineffective, suggesting that routine bacterial infection or TB cannot explain the entire clinical course, and that further blood-based investigation is needed to identify pathogen-related or tumor-related clues. Previous pleural fluid NGS was negative, T-SPOT was negative, and PCT and G test were negative, but the condition continued to progress, with enlargement of multiple lymph node stations including mediastinal, hilar, and axillary nodes. Clinically, a lymphoproliferative disorder or unusual infection is already highly suspected. Blood NGS may help supplement etiologic and virologic evidence before and after definitive histopathology, especially for assessment of EBV association, because EBV is closely associated with extranodal NK/T-cell lymphoma; it may also help identify whether there is a concomitant opportunistic infection, thereby explaining the persistent high fever and continuously elevated inflammatory markers, and providing a basis for subsequent infection risk assessment before antitumor therapy and whether concurrent anti-infective treatment is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thoracoscopic biopsy pathology",
+          "basis_in_stage3_input": "Pathology report from the thoracoscopic biopsy on Day +15: (chest wall) non-Hodgkin lymphoma, consider extranodal NK/T-cell lymphoma, nasal type.",
+          "why_order_this_exam": "The patient’s right pleural effusion continued to increase. Thoracoscopy revealed nodular protrusions of the parietal pleura and diaphragm with black pigment deposition. The pleural fluid had long been predominantly lymphocytes/monocytes, and pleural fluid tumor markers CYFRA and CA125 were markedly elevated. In addition, pleural fluid exfoliative cytology, bronchoscopy, and BALF all failed to clarify the etiology. At the same time, recurrent high fever, night sweats, multiple enlarged lymph nodes, and lack of response to anti-TB and anti-infective treatment suggested a significantly increased likelihood of a malignant lymphoproliferative disorder. The pathology from thoracoscopic biopsy can directly obtain tissue from pleural/chest wall lesions and is the key examination for resolving the core clinical question of ‘infectious pleuritis, metastatic carcinoma, mesothelioma, or lymphoma.’ The result is used not only to confirm non-Hodgkin lymphoma and indicate extranodal NK/T-cell lymphoma, but also to determine that the patient should subsequently be transferred to hematology for a treatment plan focused on antitumor therapy rather than continuing empirical anti-infective or anti-TB treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-body PET-CT examination",
+          "basis_in_stage3_input": "Whole-body PET-CT on Day +16: multiple lesions in the right lung and right pleura, pleural effusion, with multiple enlarged lymph nodes in the mediastinum, right hilum, right axilla, right peridiaphragmatic region, and retroperitoneum; malignancy is possible.",
+          "why_order_this_exam": "After thoracoscopic pathology had already suggested non-Hodgkin lymphoma, with extranodal NK/T-cell lymphoma under consideration, it is necessary to further determine whether the lesions are confined to the pleura and chest wall or have already involved the lung parenchyma and multiple lymph node stations systemically. The prior chest CT had already shown a right lung lesion, multiple nodules in the left lung, and multiple enlarged lymph nodes in the mediastinum and right axilla; the extent of disease is clearly beyond that of a simple focal infection. At the same time, persistent high fever and progression of pleural effusion suggest high disease activity. Whole-body PET-CT can systematically assess metabolically active lesions throughout the body and the extent of involvement, addressing key issues such as clinical staging, determining whether the pleural/pulmonary lesions and multistation lymphadenopathy represent the same neoplastic process, identifying a more suitable biopsy site, and assessing tumor burden. This examination has direct value for excluding a purely infectious lesion, completing lymphoma staging, and determining the intensity of subsequent treatment and regimen selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "Bone marrow aspiration result: Marked proliferation of nucleated bone marrow cells, markedly active granulocytic proliferation, erythroid proliferation fairly active, lymphoid cells account for 6%, and hemophagocytosis was observed on smear review.",
+          "why_order_this_exam": "In addition to pleuropulmonary and lymph node lesions, the patient also had persistent high fever, persistently elevated inflammatory markers, elevated ferritin, and progressive deterioration in general condition. In the setting of extranodal NK/T-cell lymphoma, severe complications such as bone marrow involvement and hemophagocytic syndrome should be considered. The purpose of bone marrow aspiration was not only to assess whether the lymphoma involved the bone marrow and to complete staging, but also to explain why the patient had persistent fever and a marked inflammatory response that did not respond to anti-infective and anti-TB treatment. The bone marrow smear showed hemophagocytosis, which is very important for determining whether hemophagocytic syndrome associated with NK/T-cell lymphoma is present, because this would significantly affect assessment of disease severity, prognostic evaluation, and whether urgent interventions such as prompt administration of corticosteroids are needed. Therefore, bone marrow aspiration serves both for post-diagnostic staging evaluation and directly affects treatment timing and choice of regimen.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Day +12 blood NGS: human herpesvirus type 4 (EBV), detected sequence count 8157; Candida parapsilosis, detected sequence count 6. Day +15 thoracoscopic biopsy pathology report: (chest wall) non-Hodgkin lymphoma, consideration of extranodal NK/T-cell lymphoma, nasal type. Day +16 whole-body PET-CT: multiple lesions in the right lung and right pleura, pleural effusion, with multiple enlarged lymph nodes in the mediastinum, right hilum, right axilla, right peridiaphragmatic region, and retroperitoneum, suspicious for malignancy. Bone marrow aspiration result: markedly increased bone marrow nucleated cell proliferation, markedly active granulocytic proliferation, erythroid proliferation still active, lymphoid cells account for 6%, hemophagocytosis seen on smear review.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Extranodal NK/T-cell lymphoma",
+      "diagnostic_basis": [
+        "Thoracoscopic biopsy pathology report: (chest wall) non-Hodgkin lymphoma, consider extranodal NK/T-cell lymphoma, nasal type",
+        "Bone marrow aspiration result: slide review showed hemophagocytosis",
+        "Blood NGS: human herpesvirus 4 (EBV) detected sequence count 8157",
+        "Whole-body PET-CT: multiple lesions in the right lung and right pleura, pleural effusion, with multiple enlarged lymph nodes in the mediastinum, right hilum, right axilla, right peridiaphragmatic region, and retroperitoneum; malignancy is possible"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg IV push once daily",
+        "Transferred to the Hematology Department for further treatment"
+      ],
+      "treatment_response": [
+        "Body temperature decreased to 37-38°C"
+      ]
+    }
+  }
+}

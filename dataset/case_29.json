@@ -1,0 +1,368 @@
+{
+  "status": "success",
+  "case_id": "case_29",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 51-year-old middle-aged male patient presented with the chief complaint of \"recurrent cough for 2 years, exertional dyspnea for half a year, worsened for 1 month.\" Two years ago, the patient began to cough after catching a cold, mainly a dry cough. A local hospital diagnosed \"idiopathic pulmonary fibrosis\" and he was given intermittent oral glucocorticoid therapy. Half a year ago, the patient began to develop exertional dyspnea, which progressively worsened. One month ago, after staying up all night playing mahjong for three consecutive days and nights, he developed markedly worsening dyspnea. He denied chills, fever, hemoptysis, and chest pain. He was previously in good health. He had a 40-year smoking history, about 30 cigarettes per day. He had a 40-year alcohol use history, about 200 ml daily. Physical examination on admission: T 37.1℃, HR 110 beats/min, R 24 breaths/min, BP 120/70 mmHg, SPO2 85% (not receiving oxygen), cyanosis of the lips, clear breath sounds in both lungs, no obvious dry or wet rales heard. Marked digital clubbing was present. Ancillary examinations: chest CT in 2017 and 2019 showed diffuse interstitial changes in both lungs. Arterial blood gas analysis on admission: PH 7.52, PCO2 26 mmHg, PO2 43 mmHg, HCO3- 21.2 mmol/L, SO2 84%. Complete blood count: total white blood cell count 12.69 *10^9/L, neutrophil percentage 83.7%. C-reactive protein >90.0 mg/L. Serum G test, GM test, and cryptococcal capsular antigen were negative. Lung cancer tumor markers were mildly elevated. Immune-related indices were all negative. Initial admission diagnoses considered: 1. Diffuse bilateral lung disease to be investigated: 1) Noninfectious diseases: interstitial lung disease (ILD)? Pulmonary malignancy? 2) Infectious diseases: common pathogen infection? Special pathogen infection? 2. Type I respiratory failure.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDbcNXOXYwsq9ibIua9ibicd4Uc6wyiaoLyOMAlXiaTSeSwvumAVWN3c9Xib6w/640?wx_fmt=png",
+          "near_text": "Figure 1: digital clubbing",
+          "local_src": "cleaned_cases_image_cache/e6b42c45ebcdecaafadca6c8fdb504052d0480e9.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDHvZ7ZYd6VcjibFy0SyuSFkQzD6TFUADQN3CYh4Do2Y6vib5MKjqY8sug/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest CT, Day 0",
+          "local_src": "cleaned_cases_image_cache/c97c22a217c0e47500da570238dc20f57f91011f.png"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQD7ngj02CRnPTDwd5FXKZ4iaTpkf5xBYyYDMPQT3DscH9RgiaJpKFhOS1g/640?wx_fmt=png",
+          "near_text": "Figure 2: Chest CT, Day 0",
+          "local_src": "cleaned_cases_image_cache/591b95d02c0d2540f93ed66669eeac9ce10a93eb.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQD2SO9zHqcsjCrDLwO9Nw8fh0mhFDcSEQtUyVTPHbg9kqiaG6BPVicUKkA/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT, Day +776",
+          "local_src": "cleaned_cases_image_cache/0833db6b3097c2bd0ac320e1904850fc8569cce3.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDFeQ1202Y55SEpOSMzto6SdZ45p3ToUDj7nD6EuRTHnLCqHHo0hHstg/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT, Day +776",
+          "local_src": "cleaned_cases_image_cache/984e594f8e1090cf70a4bcacedb657616059f90a.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Idiopathic pulmonary fibrosis/usual interstitial pneumonia (IPF/UIP) with acute exacerbation",
+          "supporting_evidence": [
+            "The course of illness is predominantly chronic progressive: recurrent cough for 2 years, shortness of breath on exertion for 6 months, with progressive worsening",
+            "Previously diagnosed with \"idiopathic pulmonary fibrosis\" at a local hospital",
+            "Chest CT in 2017 and 2019 showed diffuse interstitial changes in both lungs",
+            "Phase I CT images show extensive reticular/interstitial abnormal opacities in both lungs, with bilateral involvement.",
+            "Marked clubbing of the fingers (toes) suggests possible chronic hypoxia and chronic interstitial lung disease.",
+            "Severe hypoxemia was present on admission: SpO2 85% (not on oxygen), blood gas PO2 43 mmHg, consistent with the presentation seen in diffusion impairment/exacerbation of interstitial lung disease",
+            "Denies fever, hemoptysis, and chest pain, further supporting an underlying noninfectious chronic interstitial lung disease"
+          ],
+          "opposing_evidence": [
+            "Breath sounds were clear in both lungs, with no obvious dry or wet rales heard, which is not fully consistent with the Velcro rales that may be heard in some typical cases of IPF.",
+            "CRP >90.0 mg/L, WBC 12.69*10^9/L, and neutrophils 83.7% suggest a concomitant inflammatory response and cannot be explained solely by stable IPF."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Other fibrotic interstitial lung diseases (such as idiopathic nonspecific interstitial pneumonia [NSIP], etc.)",
+          "supporting_evidence": [
+            "The patient has a long-term dry cough and progressive exertional dyspnea, consistent with common clinical manifestations of interstitial lung disease.",
+            "Chest CT in 2017 and 2019 both showed diffuse interstitial changes in both lungs",
+            "Phase 1 CT images showed diffuse bilateral interstitial opacities rather than a focal solitary lesion.",
+            "Marked hypoxemia and digital clubbing are present, supporting chronic diffuse parenchymal lung disease"
+          ],
+          "opposing_evidence": [
+            "A 40-year history of long-term heavy smoking means that some ILDs related to other etiologies should also be prioritized in the differential diagnosis; NSIP is not the most specific explanation.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Pulmonary infection superimposed on pre-existing diffuse interstitial lung disease (community-acquired/atypical pathogen infection)",
+          "supporting_evidence": [
+            "Dyspnea has worsened significantly over the past month, suggesting a possible recent superimposed event.",
+            "Total white blood cell count 12.69*10^9/L, neutrophil percentage 83.7%, C-reactive protein >90.0 mg/L, supporting infection or a significant inflammatory response",
+            "Severe hypoxemia can occur when infection is superimposed on pre-existing diffuse lung disease.",
+            "In the initial diagnosis on admission, common pathogen infection and special pathogen infection were included as diagnostic considerations."
+          ],
+          "opposing_evidence": [
+            "Denies chills and fever",
+            "Predominantly dry cough, with no clear information regarding purulent sputum",
+            "Breath sounds clear in both lungs; no obvious dry or wet rales were heard.",
+            "Blood G test, GM test, and cryptococcal capsular antigen were negative, not supporting some fungal infections."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Diffuse lesions associated with malignant lung tumors (such as invasive lung adenocarcinoma or carcinomatous lymphangitis)",
+          "supporting_evidence": [
+            "51-year-old man with a 40-year smoking history, approximately 30 cigarettes per day, placing him in a high-risk population for pulmonary malignant tumors",
+            "Mild elevation of lung cancer tumor markers",
+            "CT shows diffuse bilateral pulmonary lesions; diffuse infiltrative malignant lesions or lymphangitic carcinomatosis should be considered in the differential diagnosis.",
+            "Progressive dyspnea and severe hypoxemia may be seen in extensive tumor-related pulmonary interstitial involvement"
+          ],
+          "opposing_evidence": [
+            "The disease course has lasted 2 years and is characterized mainly by chronic dry cough and interstitial changes, more consistent with a chronic interstitial lung disease process.",
+            "Denies hemoptysis and chest pain",
+            "No definite solitary space-occupying mass was identified on the first-phase CT images."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Smoking-related interstitial lung disease (e.g., desquamative interstitial pneumonia, DIP/respiratory bronchiolitis-associated interstitial lung disease, RB-ILD)",
+          "supporting_evidence": [
+            "40-year smoking history, approximately 30 cigarettes per day, an important risk factor for smoking-related interstitial lung disease",
+            "Chronic dry cough and exertional dyspnea are manifestations that can be seen in smoking-related ILD.",
+            "In the first stage, both the CT images and the text indicated diffuse interstitial changes in both lungs."
+          ],
+          "opposing_evidence": [
+            "Marked digital clubbing and severe hypoxemia suggest that the disease may be relatively severe and are relatively uncommon in typical RB-ILD.",
+            "A prior diagnosis of \"idiopathic pulmonary fibrosis\" is documented in the medical history, suggesting a more prominent background of fibrotic ILD.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Secondary diffuse interstitial lung disease, such as connective tissue disease-associated interstitial lung disease or chronic hypersensitivity pneumonitis",
+          "supporting_evidence": [
+            "The patient has diffuse interstitial changes in both lungs, chronic dry cough, progressive dyspnea, and hypoxemia, all of which can be seen in secondary interstitial lung disease.",
+            "Stage 1 CT images show diffuse bilateral lung involvement and require differentiation from various secondary ILDs."
+          ],
+          "opposing_evidence": [
+            "All immune-related markers were negative, not supporting a definite connective tissue disease-associated ILD",
+            "In the first stage, no definite history of antigen exposure such as birds, mold, or dust was provided, which does not support chronic hypersensitivity pneumonitis.",
+            "Previously in good health; no clues suggestive of connective tissue disease involving the joints, skin, muscles, etc. were provided"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoalveolar lavage (observe whether the lavage fluid has a milky appearance; send the pathology specimen for PAS special staining)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy under noninvasive ventilation",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "On the third day after admission, repeat chest HRCT showed diffuse bilateral lung lesions, and compared with 1 month earlier, two new cavitary lesions were identified in the right lung (located in the posterior segment of the right upper lobe and the basal segment of the right lower lobe, respectively). CTPA showed no evidence of pulmonary embolism.",
+        "images": [
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDG90xtwFqwoLTyMBovFfXDlkEH4E5mqDa9QlNB5Es4T96R9vJjzX49Q/640?wx_fmt=jpeg",
+            "near_text": "Figure 4: Chest CT, Day +806",
+            "local_src": "cleaned_cases_image_cache/1cdb7c2ab2f422d045509ead83a1df52bbbff8fa.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDiaFX2I78VicHmflU5v64R25JonILrHN6SP5ibT2e1wXezvUaFpgCMNGGA/640?wx_fmt=jpeg",
+            "near_text": "Figure 4: Chest CT, Day +806",
+            "local_src": "cleaned_cases_image_cache/433ca28c693687998971ff57b20710b3cc610b33.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Pulmonary alveolar proteinosis (PAP)",
+            "evidence": [
+              "Middle-aged male, with a disease course of 2 years and a gradual onset, presenting mainly with dry cough and progressive dyspnea",
+              "Outside-hospital chest CT showed bilateral interstitial changes, characterized by ground-glass opacities with superimposed thickening of the intralobular structures and interlobular septa, forming a \"crazy-paving pattern\".",
+              "Serial comparison with outside chest CT showed typical \"geographic pattern\" changes"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Malignant neoplasm of the lung",
+            "evidence": [
+              "The patient has a long history of heavy smoking.",
+              "Lung cancer tumor markers CEA, cytokeratin 19 fragment, and neuron-specific enolase were all mildly elevated"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Interstitial lung disease of known cause (e.g., CTD-ILD, IIP, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Denies systemic symptoms, such as arthralgia and rash",
+              "Repeated autoimmune marker-related tests were all negative",
+              "No typical crackles were heard in either lung."
+            ]
+          },
+          {
+            "name": "Infectious lesions (common bacteria such as Streptococcus, Klebsiella pneumoniae, and Staphylococcus aureus, as well as opportunistic infectious pathogens such as fungi, Mycobacterium tuberculosis, Pneumocystis jirovecii, and Nocardia)",
+            "evidence": [
+              "Multiple cavitary lesions appearing within 1 month of the history",
+              "History of steroid use outside the hospital, staying up late with decreased immunity",
+              "Multiple cavities, one located in the posterior segment of the right upper lobe",
+              "Inflammatory markers were mildly elevated on admission"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Pulmonary alveolar proteinosis (PAP)",
+        "evidence": [
+          "Middle-aged male, with a disease course of 2 years and a gradual onset, presenting mainly with dry cough and progressive dyspnea",
+          "Outside-hospital chest CT showed bilateral interstitial changes, characterized by ground-glass opacities with superimposed thickening of the intralobular structures and interlobular septa, forming a \"crazy-paving pattern\".",
+          "Serial comparison with outside chest CT showed typical \"geographic pattern\" changes"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant neoplasm of the lung",
+        "evidence": [
+          "The patient has a long history of heavy smoking.",
+          "Lung cancer tumor markers CEA, cytokeratin 19 fragment, and neuron-specific enolase were all mildly elevated"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Interstitial lung disease of known cause (e.g., CTD-ILD, IIP, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Denies systemic symptoms, such as arthralgia and rash",
+          "Repeated autoimmune marker-related tests were all negative",
+          "No typical crackles were heard in either lung."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infectious lesions (common bacteria such as Streptococcus, Klebsiella pneumoniae, and Staphylococcus aureus, as well as opportunistic infectious pathogens such as fungi, Mycobacterium tuberculosis, Pneumocystis jirovecii, and Nocardia)",
+        "evidence": [
+          "Multiple cavitary lesions appearing within 1 month of the history",
+          "History of steroid use outside the hospital, staying up late with decreased immunity",
+          "Multiple cavities, one located in the posterior segment of the right upper lobe",
+          "Inflammatory markers were mildly elevated on admission"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bronchoscopy",
+          "basis_in_stage3_input": "Bronchoscopy performed under ventilatory support with an endoscopy mask combined with a noninvasive ventilator",
+          "why_order_this_exam": "The patient had 2 years of dry cough, half a year of progressive exertional dyspnea, with marked worsening over the past 1 month, and had severe hypoxemia and type I respiratory failure. Imaging showed diffuse bilateral lung disease and newly developed multiple cavitary lesions in the right lung. Blood tests and imaging alone could not distinguish among PAP, opportunistic infection, and malignant tumor. Bronchoscopy was performed under endoscopic mask-assisted noninvasive ventilation support, taking into account the procedural risk posed by hypoxemia and respiratory failure while also ensuring direct visualization of the airway and acquisition of lower respiratory tract specimens. The core purpose of this examination was to obtain specimens for microbiologic, cytologic, and pathologic evaluation under a high-risk respiratory condition, to provide a basis for determining whether there was concomitant infection, whether PAP-related changes were present, and for excluding tumor, thereby determining whether subsequent anti-infective therapy, discontinuation of anti-tuberculosis treatment, or PAP-directed treatment would be needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Right lung lavage submitted for testing",
+          "basis_in_stage3_input": "The submitted test results of the right lung lavage showed",
+          "why_order_this_exam": "HRCT in the patient showed two newly developed cavitary lesions in the right lung compared with 1 month earlier, indicating that the right lung is the site with more prominent newly developed lesions in the recent period; meanwhile, the pre-existing diffuse bilateral lung lesions suggest that underlying pulmonary parenchymal disease may be widely present. Performing lavage of the right lung and submitting the specimens for testing can obtain alveolar-level samples from the region with more prominent imaging abnormalities, thereby increasing the probability of detecting unusual pathogens and identifying abnormalities in alveolar contents. This is mainly to determine whether the right lung cavities are caused by infections such as common bacteria, fungi, TB/nontuberculous mycobacteria, or Nocardia, whether they represent superimposed infection on the basis of PAP, or whether tumor needs to be considered; the results directly affect whether to continue anti-TB treatment, whether to switch to therapy targeting Nocardia, and the assessment of PAP complicated by infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lavage fluid liquid-based interlayer cup",
+          "basis_in_stage3_input": "Acid-fast mycobacteria (++) were found in the lavage fluid liquid-based preparation; no malignant cells were found; no fungi or bacteria were found; GM test was negative.",
+          "why_order_this_exam": "The patient has a long history of heavy smoking, mildly elevated tumor markers, and a newly developed cavity in the right lung in the recent period; therefore, both infection and malignancy must be differentiated in parallel. Liquid-based thin-layer cup examination of the lavage fluid can evaluate both cytologic and microbiologic clues in the same BALF specimen: on the one hand, it looks for malignant cells to exclude diffuse lung cancer or neoplastic lesions; on the other hand, it assesses for acid-fast mycobacteria as well as clues related to bacteria and fungi. In this case, the clinical value of this examination lies in rapidly indicating, in the setting of diffuse lesions with cavitation, steroid exposure, and elevated inflammatory markers, whether mycobacterial infection should be prioritized, whether malignancy is supported, and whether there is evidence of fungal/bacterial infection, thereby providing direction for subsequent molecular testing and treatment adjustment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "basis_in_stage3_input": "GM test was negative.",
+          "why_order_this_exam": "The patient has a prior history of intermittent glucocorticoid use, with recent worsening of the condition and new cavitary lesions, placing the patient at increased risk for opportunistic infection; fungal infection, especially invasive aspergillosis, may present with worsening dyspnea, elevated inflammatory markers, and cavitary lesions. BALF GM testing is performed to assess whether there is invasive fungal infection such as Aspergillus in the lower respiratory tract and to help explain the cavitation and cause of acute exacerbation. The result is important for excluding differential diagnoses and narrowing the scope of anti-infective therapy: if positive, it would support antifungal treatment; if negative, then together with negative fungal culture it can lower the likelihood of Aspergillus infection and avoid blindly broadening antifungal therapy when PAP, Nocardia infection, and other etiologies are more suspicious.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture of lavage fluid",
+          "basis_in_stage3_input": "Bacterial and fungal cultures of the lavage fluid were negative.",
+          "why_order_this_exam": "Over the past 1 month, the patient’s dyspnea has worsened significantly, with elevated white blood cell count and CRP, and newly developed multiple cavities on HRCT. Superimposed common bacterial infection on the underlying diffuse lung disease is an important cause that must be evaluated. Bacterial culture of lavage fluid can directly identify pathogenic bacteria in the lower respiratory tract and help distinguish whether the cavities and worsening hypoxemia are caused by common bacterial infection, or by other special pathogens or noninfectious diseases. The significance of this test is to provide a basis for antimicrobial selection and to corroborate results from mNGS, acid-fast staining, fungal culture, and other tests; if the culture is negative, it helps reduce the likelihood that common bacterial infection is the primary cause and supports further investigation for evidence related to Nocardia, mycobacteria, or PAP.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lavage fluid fungal culture",
+          "basis_in_stage3_input": "Bacterial and fungal cultures of the lavage fluid were negative.",
+          "why_order_this_exam": "In this case, there is chronic underlying lung disease, corticosteroid exposure, severe hypoxemia, and a newly developed cavity; fungal infection is one of the key differential diagnoses, especially when cavitation is present on imaging, and it cannot be completely excluded solely on the basis of negative serology. Fungal culture of the lavage fluid is intended to obtain a specimen directly from the affected pulmonary segment to assess whether fungal colonization or invasive infection is present, and to jointly evaluate the likelihood of a fungal pathogen together with the GM test. This test helps determine whether the cavity is caused by fungi, whether antifungal therapy is needed, and, after Nocardia and PAP are subsequently confirmed, to exclude important coexisting infections, thereby reducing misdiagnosis and unnecessary medication use.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic examination of bronchoscopic lavage fluid",
+          "basis_in_stage3_input": "Pathologic examination of the bronchoscopy lavage fluid: The submitted specimen showed a large amount of proteinaceous material and red blood cells.",
+          "why_order_this_exam": "The patient has a long disease course, predominantly with dry cough and progressive dyspnea. Outside-hospital and follow-up HRCT suggested diffuse bilateral interstitial/ground-glass changes, with typical \"crazy-paving pattern\" and \"geographic pattern,\" and PAP is highly suspected clinically. Pathologic examination of bronchoscopic lavage fluid can directly assess the composition of intra-alveolar material and determine whether there is abundant proteinaceous deposition, providing pathologic support for PAP as a noninfectious underlying disease; it may also reveal hemorrhage or other nonspecific changes. The core question this examination is intended to resolve is whether the patient's chronic diffuse lesions are caused by accumulation of proteinaceous material within the alveoli, rather than simple fibrosis, infection, or tumor; the results are crucial for establishing the diagnosis of PAP, explaining the severe hypoxemia, and guiding subsequent treatment such as whole-lung lavage or GM-CSF.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Molecular test for Mycobacterium tuberculosis in lavage fluid",
+          "basis_in_stage3_input": "The molecular biology test result for TB in the lavage fluid from Day +83 was reported.",
+          "why_order_this_exam": "The patient has a newly developed cavity in the right lung, and the lavage fluid again indicated acid-fast mycobacteria (++), which would significantly heighten clinical concern for TB or other mycobacterial infection. The patient also previously had severe hypoxemia and elevated inflammatory markers; if misjudged, this would directly affect isolation and medication strategy. Molecular testing for TB on the lavage fluid is more helpful than acid-fast staining alone for rapidly determining whether Mycobacterium tuberculosis nucleic acid is present, thereby distinguishing TB from nontuberculous mycobacteria or other weakly acid-fast pathogens. The value of this test lies in addressing the key clinical question of whether acid-fast positivity is equivalent to pulmonary TB, avoiding the mechanical initiation or continuation of anti-TB treatment solely because of cavitation and acid-fast positivity, and also providing a basis for subsequently searching for other pathogens such as Nocardia.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB GeneXpert",
+          "basis_in_stage3_input": "TB gene X-pert: all negative",
+          "why_order_this_exam": "In this case, the right lung cavity and acid-fast mycobacteria (++) in the lavage fluid make pulmonary TB a diagnosis that must be prioritized for exclusion, because this directly affects assessment of infectivity and treatment selection such as HRZE. Xpert can rapidly detect Mycobacterium tuberculosis and provide molecular evidence with relatively high specificity, and is particularly applicable when routine smear suggests acid-fast positivity but the pathogen has not yet been identified. For this patient, performing Xpert was intended to clarify the true source of the cavity and acid-fast positivity; if negative, it would significantly weaken the evidence supporting active pulmonary TB, prompt further clinical consideration of weakly acid-fast pathogens such as Nocardia, and avoid unnecessary or inappropriate continuation of an anti-TB regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Mycobacterium tuberculosis species identification",
+          "basis_in_stage3_input": "All Mycobacterium tuberculosis species identifications were negative.",
+          "why_order_this_exam": "Because acid-fast mycobacteria (++) were found in the liquid-based interlayer cup of the lavage fluid, acid-fastness alone cannot distinguish Mycobacterium tuberculosis from nontuberculous mycobacteria, and it cannot completely exclude weakly acid-fast pathogens such as Nocardia. Therefore, further mycobacterial species identification for Mycobacterium tuberculosis is necessary. The clinical purpose of this test is to move from \"acid-fast positive\" to \"pathogen identified,\" answering whether the patient truly has Mycobacterium tuberculosis infection. The result is critical for differential diagnosis and treatment decision-making: if the identification is positive, it supports the anti-TB pathway; if negative, it suggests the need to reassess the significance of the acid-fast positivity and, together with the mNGS results, look for other pathogens such as Nocardia, so as to avoid misdiagnosing TB and to promptly adjust to more targeted anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "mNGS of lavage fluid",
+          "basis_in_stage3_input": "On Day +85, mNGS of the lavage fluid detected Nocardia (Nocardia farcinica); Mycobacterium tuberculosis was not detected.",
+          "why_order_this_exam": "The patient's condition is complex: there is both long-standing diffuse lung disease with imaging highly suggestive of PAP, as well as recently developed cavitary lesions, elevated inflammatory markers, a history of corticosteroid use, and severe hypoxemia, indicating a high risk of unusual opportunistic infection; however, there is also inconsistency among routine culture, GM, and molecular testing for TB, particularly with acid-fast mycobacteria positivity but negative X-pert and Mycobacterium tuberculosis species identification. BALF mNGS was the key test used to broaden the pathogen spectrum search when conventional methods could not provide a unified explanation for the condition, with the goal of rapidly identifying fastidious, rare, or unusual pathogens. In this case, it directly resolved the etiologic attribution of the cavitary lesions and acute exacerbation, helped exclude Mycobacterium tuberculosis and confirm Nocardia infection, thereby supporting discontinuation of HRZE and switching to targeted treatment such as trimethoprim-sulfamethoxazole combined with moxifloxacin, while together with BALF pathology completing the diagnostic closure of 'PAP complicated by Nocardia infection'.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopy was performed under endoscopic mask-assisted noninvasive ventilatory support. The right lung lavage specimens were sent for testing, with results as follows: acid-fast mycobacteria (++) were found in the liquid-based cytology interlayer cup preparation of the lavage fluid; no malignant cells were found; no fungi or bacteria were found; the GM test was negative. Bacterial and fungal cultures of the lavage fluid were negative. Pathologic examination of the bronchoscopic lavage fluid: the submitted specimen showed a large amount of proteinaceous deposits and red blood cells. On Day +83, the molecular biologic testing results of the lavage fluid were reported as follows: Xpert MTB gene test was completely negative, and mycobacterial species identification was negative. On Day +85, mNGS of the lavage fluid detected Nocardia genus (Nocardia farcinica), and Mycobacterium tuberculosis was not detected.",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDkPRACkdfia1vicvgqgA6UMiahLmxSng1375zGWGoy5b0IjCDPITeViar1Q/640?wx_fmt=png",
+          "near_text": "Figure 5: Acid-fast bacilli smear of bronchoscopic aspirate",
+          "local_src": "cleaned_cases_image_cache/55ac4b2fbff6130d68b46385faf47905f6f1e0e0.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDUo2DmYLTzMpq9egTuuD1t8qyJyicldhJQh01I7HG6oONUNWQibCIKL7A/640?wx_fmt=png",
+          "near_text": "Figure 6: The lavage fluid specimen submitted for examination showed a large amount of proteinaceous material and red blood cells",
+          "local_src": "cleaned_cases_image_cache/1c0cd5e8dec74cd243b753143a548dcadfa9879b.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstIdQWyFrwxCjlx2nIWJgnQDkYcP2Yobsaeib5AmiaGEXaxCRLsEJyJHbptyBzazGDcuLSzGjAib4hevg/640?wx_fmt=jpeg",
+          "near_text": "Figure 7: Pathogen metagenomic test results of lavage fluid (mNGS)",
+          "local_src": "cleaned_cases_image_cache/079f83f5f57425394290ee1c7341e5d628cc7c0a.jpg"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Chronic respiratory failure (type I); 2. Pulmonary alveolar proteinosis (PAP); 3. Pulmonary nocardiosis",
+      "diagnostic_basis": [
+        "mNGS of lavage fluid detected Nocardia genus (Nocardia farcinica)",
+        "Pathologic examination of bronchoscopic lavage fluid showed abundant proteinaceous deposits and red blood cells, supporting PAP",
+        "Arterial blood gas analysis on admission supported type I respiratory failure"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Discontinue HRZE",
+        "Add trimethoprim-sulfamethoxazole tablets 4 tablets qid combined with moxifloxacin 400 mg qd",
+        "At outpatient follow-up, nebulized inhaled GM-CSF was added."
+      ],
+      "treatment_response": [
+        "Dyspnea gradually improved, and pulse oxygen saturation fluctuated between 90-93% without supplemental oxygen",
+        "Repeat chest CT after 1 week of treatment showed that the bilateral cavitary lung lesions had decreased in size",
+        "Follow-up chest CT showed that the pulmonary cavities had markedly decreased in size; no cavities were seen in either lung, and the map-like changes had been absorbed compared with the previous study.",
+        "Marked improvement in dyspnea; usual activities are not limited"
+      ]
+    }
+  }
+}

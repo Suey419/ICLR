@@ -1,0 +1,495 @@
+{
+  "status": "success",
+  "case_id": "case_50",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 41-year-old man with a chief complaint of chronic cough for more than 2 years, accompanied by mild shortness of breath for 6 months. Two years ago, he developed recurrent cough without an obvious precipitating factor, mainly dry cough, which worsened at night and in the supine position, sometimes accompanied by orthopnea. The cough was associated with exposure to irritating odors. He had no fever, chest pain, hemoptysis, night sweats, acid regurgitation, or postnasal drip sensation. Half a year ago, the above symptoms worsened and were accompanied by shortness of breath, which was aggravated during coughing. He received multiple outpatient treatments at other hospitals (compound methoxyphenamine, montelukast, loratadine, etc.) without obvious improvement. One month ago, because of worsening cough and shortness of breath, which were more obvious at night and accompanied by fatigue and mild bilateral lower extremity edema, he presented to our hospital's Department of Respiratory Medicine and was admitted. He denied a history of hypertension, diabetes, or coronary artery disease, and denied any history of trauma, surgery, or blood transfusion. He had a 20-year smoking history and no alcohol use history. He denied a family history of hereditary disease. On admission physical examination: temperature 36.8℃, pulse 80/min, respiratory rate 20/min, blood pressure 110/73 mmHg. Breath sounds were clear in both lungs, with no dry or moist rales heard. There was no precordial bulge, the apical impulse was normal, no thrill was present, heart rate was 80/min, rhythm was regular, and heart sounds were distant. A grade 3/6 systolic blowing murmur was audible at the apex and tricuspid auscultation area. P2 was not accentuated. Mild bilateral pitting edema of the lower extremities was present. After admission, repeated complete blood counts showed marked eosinophilia (absolute EOS: 7.51×10^9/L). Pulmonary ventilation function was normal (FEV1 97.63% of predicted, FEV1/FVC 100.97%), and the weekly PEF variability rate was 27%; induced sputum differential showed a large number of eosinophils; bronchoscopy: no abnormality was seen in the tracheal lumen, but BALF differential cell count showed NEU 51%, MAC 19%, EOS 28%; Mycobacterium tuberculosis PCR was (-), and sputum fungal culture was (-). Total IgE was 26.1 kU/L. Other test results were as follows: complete blood count showed Hb: 121 g/L, PLT: 165×10^9/L. Liver function and biochemistry were basically normal; coagulation panel was normal; procalcitonin: <0.05 ng/ml; pro-B-type natriuretic peptide: 4776 pg/mL; antineutrophil cytoplasmic antibodies were negative. Abdominal ultrasound: ascites, slightly enlarged spleen, hypoechoic mass at the splenic hilum, accessory spleen could not be excluded; no other abnormalities were seen. Chest CT: no abnormality in the lung parenchyma, enlarged cardiac silhouette (mainly left ventricle and right atrium), small pericardial effusion, multiple lymph nodes at the right cardiophrenic angle, posterior to the vena cava, and in both axillae, considered reactive hyperplasia.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Hypereosinophilic syndrome (possible cardiac involvement)",
+          "supporting_evidence": [
+            "After admission, routine blood tests were performed multiple times, revealing marked eosinophilia (absolute EOS: 7.51×10^9/L).",
+            "Induced sputum differential cell count shows a large number of eosinophils",
+            "BALF differential cell count: EOS 28%",
+            "The patient has chronic cough and dyspnea, and chest CT showed no abnormalities in the lung parenchyma, suggesting that the symptoms do not completely correlate with significant parenchymal lung disease.",
+            "Accompanied by cardiomegaly (predominantly involving the left ventricle and right atrium), a small pericardial effusion, distant heart sounds, a grade 3/6 systolic blowing murmur at the apex and tricuspid auscultation area, mild bilateral pitting edema of the lower extremities, ascites, and NT-proBNP 4776pg/mL, suggesting possible cardiac involvement",
+            "Accompanied by mild splenomegaly, suggesting possible systemic involvement"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "eosinophilic myocarditis or eosinophil-related endomyocardial disease",
+          "supporting_evidence": [
+            "The patient has had worsening cough and dyspnea over the past 1 month, more pronounced at night, accompanied by fatigue, mild bilateral lower extremity edema, and intermittent orthopnea, suggesting manifestations of heart failure.",
+            "Chest CT showed cardiomegaly (predominantly involving the left ventricle and right atrium), with a small pericardial effusion.",
+            "Physical examination showed distant heart sounds, and a grade 3/6 systolic blowing murmur was audible at the cardiac apex and tricuspid auscultation area.",
+            "N-terminal pro-B-type natriuretic peptide: 4776 pg/mL, supporting increased cardiac load/cardiac dysfunction",
+            "There is significant peripheral blood eosinophilia (absolute EOS count: 7.51×10^9/L), accompanied by increased eosinophils in the airways/BALF, supporting the possibility of eosinophil-related organ damage."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no more direct evidence supporting myocarditis/endocardial involvement was provided, such as chest pain, ECG abnormalities, cardiac enzyme abnormalities, or echocardiography findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Cough-variant asthma or eosinophilic asthma",
+          "supporting_evidence": [
+            "Chronic cough for more than 2 years, predominantly dry cough, with worsening at night and in the supine position",
+            "The cough is associated with exposure to irritating odors, consistent with airway hyperresponsiveness.",
+            "Mild shortness of breath for 6 months, worsening shortness of breath when coughing",
+            "Monitoring showed a weekly PEF variability of 27%, supporting variable airflow limitation/airway hyperresponsiveness.",
+            "Induced sputum differential cell count shows a large number of eosinophils",
+            "BALF differential cell count: EOS 28%, supporting eosinophilic airway inflammation",
+            "Pulmonary ventilation function may be normal, as seen in cough-variant asthma"
+          ],
+          "opposing_evidence": [
+            "Pulmonary ventilatory function was normal (FEV1 was 97.63% of predicted, and FEV1/FVC was 100.97%), with no definite obstructive ventilatory dysfunction.",
+            "Outpatient treatment with compound methoxyphenamine, montelukast, loratadine, etc. resulted in no significant improvement.",
+            "Marked cardiomegaly, pericardial effusion, bilateral lower extremity edema, and markedly elevated NT-proBNP suggest that asthma alone is difficult to explain all manifestations"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Non-asthmatic eosinophilic bronchitis",
+          "supporting_evidence": [
+            "The patient primarily has a chronic dry cough, lasting more than 2 years.",
+            "Normal pulmonary ventilatory function (FEV1 97.63% of predicted, FEV1/FVC 100.97%)",
+            "Chest CT showed no abnormality in the lung parenchyma",
+            "Induced sputum differential cell count shows a large number of eosinophils",
+            "BALF differential cell count: EOS 28%, supporting eosinophilic airway inflammation"
+          ],
+          "opposing_evidence": [
+            "Monitoring showed a weekly PEF variability of 27%, which more strongly supports the presence of airway hyperresponsiveness and is not fully consistent with typical non-asthmatic eosinophilic bronchitis.",
+            "The patient has mild shortness of breath, worsening at night and triggered by irritant odors, which is more suggestive of an asthma-spectrum disease.",
+            "Marked peripheral blood eosinophilia and manifestations of cardiac/serosal cavity involvement suggest that it cannot be explained solely by localized bronchitis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+          "supporting_evidence": [
+            "Marked peripheral blood eosinophilia (absolute eosinophil count: 7.51×10^9/L)",
+            "Chronic cough and shortness of breath, with marked eosinophilia in both induced sputum and BALF, suggesting eosinophilic airway inflammation",
+            "There is a small amount of pericardial effusion, cardiomegaly, bilateral lower extremity edema, ascites, etc., suggesting possible multisystem involvement.",
+            "Chest CT showed multiple lymph nodes suspected to represent reactive hyperplasia, suggesting the possibility of a systemic inflammatory/immune-mediated disease"
+          ],
+          "opposing_evidence": [
+            "Antineutrophil cytoplasmic antibodies were negative",
+            "Stage 1 information did not provide a definite prior history of asthma, sinusitis, nasal polyps, rash, peripheral neuropathy, renal impairment, or other common manifestations of EGPA",
+            "Chest CT showed no abnormalities in the lung parenchyma, not supporting typical pulmonary infiltrative findings."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Parasitic infection or other secondary eosinophilia",
+          "supporting_evidence": [
+            "Markedly increased peripheral blood eosinophils (absolute eosinophil count: 7.51×10^9/L)",
+            "BALF differential cell count: EOS 28%, induced sputum shows a large number of eosinophils",
+            "Mild splenomegaly, suggesting the possibility of a systemic disease"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no evidence supporting parasitic infection was provided, such as fever, abdominal pain, diarrhea, migratory pulmonary infiltrates, or a clear epidemiologic exposure history.",
+            "Chest CT showed no abnormality in the lung parenchyma",
+            "Total IgE was 26.1 kU/L, with no significant elevation."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete dynamic monitoring of complete blood count + absolute eosinophil count and differential count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Induced sputum differential cell count, total IgE, allergen screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary ventilation function test + bronchial provocation/bronchodilator test, PEF variability monitoring",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete bronchoscopy + bronchoalveolar lavage fluid (BALF) differential cell count and pathogen testing (TB, fungi, parasites)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Test NT-proBNP, cardiac enzymes, and troponin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete echocardiography and cardiac MR to evaluate cardiac structure and valvular function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coronary angiography was performed to rule out coronary artery lesions",
+          "requirement": "required"
+        },
+        {
+          "exam": "Test antineutrophil cytoplasmic antibody (ANCA), a complete rheumatologic and immunologic panel, and IgG4 to exclude autoimmune disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete parasitic serologic antibody testing, routine stool examination + ova examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration smear + biopsy, with morphologic analysis of eosinophils",
+          "requirement": "required"
+        },
+        {
+          "exam": "FISH/RT-PCR detection of fusion genes such as FIP1L1-PDGFRA and rearrangements of the PDGFRα/β, FGFR1, and JAK2 genes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow chromosome karyotype analysis, T-cell immunophenotyping + TCR gene rearrangement",
+          "requirement": "required"
+        },
+        {
+          "exam": "Measure serum tryptase to evaluate for mast cell proliferative disorders",
+          "requirement": "required"
+        },
+        {
+          "exam": "Multisite whole-body imaging examinations (chest CT, abdominal ultrasound / CT) to assess organ infiltration and lymph node status",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "The attending physician considered CVA and treated the patient with oral prednisolone acetate, loratadine, and bambuterol, along with nebulized salbutamol and budesonide; however, the patient's symptoms did not improve significantly, and the blood eosinophil count remained elevated (eosinophil count: 10.7×10^9/L). Because the patient had marked peripheral blood eosinophilia and cardiac insufficiency, the attending physician requested a cardiology consultation and transferred the patient to that department. Cardiac MRI without contrast showed: 1. Marked spherical enlargement of the right atrium, mild enlargement of the left atrium and left ventricle, mild mitral regurgitation, with possible tricuspid stenosis or downward displacement. 2. Thickening of the interventricular septum, right ventricular wall, and apex, suspicious for hypertrophic cardiomyopathy. Coronary angiography showed no obvious stenosis in the LM, LAD, LCX, or RCA. After cardiothoracic surgery consultation, the diagnostic considerations were: 1. Congenital valvular heart disease: Ebstein anomaly with severe tricuspid regurgitation; mitral valve prolapse with moderate regurgitation; hypertrophic cardiomyopathy; enlargement of the left atrium, right atrium, and left ventricle; arrhythmia with occasional PACs, occasional PVCs, and intermittent second-degree type II AV block; cardiac function class IV. 2. Connective tissue disease not excluded. After symptomatic treatment including anti-infective therapy, antiasthmatic therapy, expectorant therapy, cardiotonic therapy, and diuresis, the symptoms were slightly relieved. After rheumatology consultation, rheumatic disease was excluded. Repeat complete blood count showed: leukocytes: 16.81×10^9/L, neutrophil percentage: 35.8%, eosinophil percentage: 47.1%, eosinophil count: 7.91×10^9/L. Further comprehensive parasite testing showed positive antibodies to Paragonimus and Clonorchis sinensis. An infectious disease consultation was requested; on further questioning, the patient reported a history of eating raw fish. Empiric treatment with praziquantel was given, and on subsequent recheck the peripheral blood eosinophil percentage remained as high as 60-65%.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8Cx0EWeibVL9wicKzQC2Vib4NRCKJxRuCt61wQKlGVlPlAhINibDprQCEL4w/640?wx_fmt=png",
+            "near_text": "At present, which of the following is the most likely diagnosis for the patient?",
+            "local_src": "cleaned_cases_image_cache/7963fe20d33c2e854031a1231efb16c83d55c555.png"
+          },
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CfEVzvmxQmhjBXfmRzv4JvnubZGOwf7icibhfxZMegdnoCzqIL22D7Ceg/640?wx_fmt=png",
+            "near_text": "Figure 1: No abnormality identified in the lung parenchyma on chest CT",
+            "local_src": "cleaned_cases_image_cache/b6a80e49773db377636553eaa21b28a3ceb7d0dd.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Cough-variant asthma (CVA)",
+            "evidence": [
+              "The main manifestation is an irritating dry cough, predominantly nocturnal cough.",
+              "Cytologic examination of peripheral blood, induced sputum, and BALF showed increased eosinophils",
+              "Weekly PEF variability 27%"
+            ],
+            "exclusion_reasons": [
+              "No history or family history of allergic disease",
+              "Allergen testing negative",
+              "After treatment with local compound methoxyphenamine and montelukast, symptoms did not improve significantly.",
+              "Treatment with inhaled corticosteroids and other therapies was also ineffective",
+              "Markedly elevated peripheral blood eosinophils"
+            ]
+          },
+          {
+            "name": "Non-asthmatic eosinophilic bronchitis (NAEB)",
+            "evidence": [
+              "Chronic irritative dry cough",
+              "Markedly increased eosinophils in induced sputum",
+              "Normal pulmonary ventilation function"
+            ],
+            "exclusion_reasons": [
+              "Unresponsive to inhaled and systemic corticosteroid therapy"
+            ]
+          },
+          {
+            "name": "Upper airway cough syndrome",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No underlying upper respiratory tract disease",
+              "No symptoms such as postnasal drip, rhinorrhea, sneezing, or nasal itching",
+              "Cough predominantly at night",
+              "Physical examination showed no abnormalities of the pharynx"
+            ]
+          },
+          {
+            "name": "Gastroesophageal reflux disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No gastrointestinal symptoms such as acid regurgitation, heartburn, or belching"
+            ]
+          },
+          {
+            "name": "Chronic bronchitis",
+            "evidence": [
+              "Middle-aged man, smoking for 20 years, persistent cough for 2 years"
+            ],
+            "exclusion_reasons": [
+              "Antitussive therapy and inhaled SABA and corticosteroids were ineffective"
+            ]
+          },
+          {
+            "name": "Parasitic infection",
+            "evidence": [
+              "History of consuming raw fish and similar foods",
+              "Positive liver fluke and lung fluke antibodies suggest past or current infection"
+            ],
+            "exclusion_reasons": [
+              "Chest CT and abdominal ultrasound showed no signs of clonorchiasis or paragonimiasis.",
+              "Stool routine examination showed no ova.",
+              "On repeat examination after praziquantel treatment, eosinophils remained as high as 60-65%"
+            ]
+          },
+          {
+            "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+            "evidence": [
+              "Elevated blood eosinophils with cardiomegaly and eosinophilic airway inflammation"
+            ],
+            "exclusion_reasons": [
+              "No diseases or symptoms such as peripheral neuritis or sinusitis",
+              "No response to systemic and inhaled corticosteroid therapy"
+            ]
+          },
+          {
+            "name": "Allergic bronchopulmonary aspergillosis (ABPA)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Serum IgE is not elevated",
+              "No typical CT findings"
+            ]
+          },
+          {
+            "name": "Familial HES",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No symptoms or signs of hereditary immunodeficiency",
+              "No family history of hypereosinophilic syndrome"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Cough-variant asthma (CVA)",
+        "evidence": [
+          "The main manifestation is an irritating dry cough, predominantly nocturnal cough.",
+          "Cytologic examination of peripheral blood, induced sputum, and BALF showed increased eosinophils",
+          "Weekly PEF variability 27%"
+        ],
+        "exclusion_reasons": [
+          "No history or family history of allergic disease",
+          "Allergen testing negative",
+          "After treatment with local compound methoxyphenamine and montelukast, symptoms did not improve significantly.",
+          "Treatment with inhaled corticosteroids and other therapies was also ineffective",
+          "Markedly elevated peripheral blood eosinophils"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Non-asthmatic eosinophilic bronchitis (NAEB)",
+        "evidence": [
+          "Chronic irritative dry cough",
+          "Markedly increased eosinophils in induced sputum",
+          "Normal pulmonary ventilation function"
+        ],
+        "exclusion_reasons": [
+          "Unresponsive to inhaled and systemic corticosteroid therapy"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Upper airway cough syndrome",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No underlying upper respiratory tract disease",
+          "No symptoms such as postnasal drip, rhinorrhea, sneezing, or nasal itching",
+          "Cough predominantly at night",
+          "Physical examination showed no abnormalities of the pharynx"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Gastroesophageal reflux disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No gastrointestinal symptoms such as acid regurgitation, heartburn, or belching"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Chronic bronchitis",
+        "evidence": [
+          "Middle-aged man, smoking for 20 years, persistent cough for 2 years"
+        ],
+        "exclusion_reasons": [
+          "Antitussive therapy and inhaled SABA and corticosteroids were ineffective"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Parasitic infection",
+        "evidence": [
+          "History of consuming raw fish and similar foods",
+          "Positive liver fluke and lung fluke antibodies suggest past or current infection"
+        ],
+        "exclusion_reasons": [
+          "Chest CT and abdominal ultrasound showed no signs of clonorchiasis or paragonimiasis.",
+          "Stool routine examination showed no ova.",
+          "On repeat examination after praziquantel treatment, eosinophils remained as high as 60-65%"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+        "evidence": [
+          "Elevated blood eosinophils with cardiomegaly and eosinophilic airway inflammation"
+        ],
+        "exclusion_reasons": [
+          "No diseases or symptoms such as peripheral neuritis or sinusitis",
+          "No response to systemic and inhaled corticosteroid therapy"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Allergic bronchopulmonary aspergillosis (ABPA)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Serum IgE is not elevated",
+          "No typical CT findings"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Familial HES",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No symptoms or signs of hereditary immunodeficiency",
+          "No family history of hypereosinophilic syndrome"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bone marrow aspiration smear differential count",
+          "basis_in_stage3_input": "Differential count on bone marrow aspirate smear",
+          "why_order_this_exam": "The patient has persistently and markedly elevated peripheral blood eosinophils, reaching as high as 60%-65%, with an absolute count of 7.51-10.7×10^9/L, and has developed multisystem involvement including chronic cough, dyspnea, heart failure, cardiomegaly, pericardial and peritoneal effusions, and mild splenomegaly, suggesting not merely simple eosinophilic airway inflammation but also the need to be alert to primary/clonal eosinophilia. Previous treatment directed at CVA and parasitic infection was ineffective; although parasite antibodies were positive, eosinophils remained persistently elevated after praziquantel, which also supports shifting to evaluation for hematologic causes. Differential counting on bone marrow aspiration smear can directly assess the degree of eosinophil proliferation in the bone marrow, the stage of maturation, and whether there are accompanying increases in immature cells or morphologic abnormalities such as abnormal granules or vacuoles, to determine whether this represents reactive eosinophilia or changes related to a myeloproliferative neoplasm, and to provide a basis for subsequent molecular testing and treatment decision-making.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathologic cytologic analysis of bone marrow biopsy tissue sections",
+          "basis_in_stage3_input": "2. Pathologic and cytologic analysis of bone marrow biopsy tissue sections",
+          "why_order_this_exam": "The patient has persistent severe eosinophilia with a clear risk of end-organ damage, with particularly prominent cardiac involvement, including markedly elevated NT-proBNP, bilateral lower-extremity edema, orthopnea, cardiomegaly, and heart failure in the setting of valvular disease. Although peripheral blood and bone marrow smears can provide cytologic clues, they are insufficient to comprehensively evaluate the overall bone marrow architecture, cellularity, degree of fibrosis, and pattern of abnormal cellular infiltration. Histopathologic and cytologic analysis of bone marrow biopsy tissue sections helps determine whether the bone marrow shows features of a myeloproliferative neoplasm, such as active hyperplasia and increased eosinophilic intermediate and late precursors, and helps exclude other differential diagnoses such as other hematologic malignancies and lymphoma/mast cell-related infiltration. This is critical for establishing primary eosinophilia or a PDGFRα rearrangement-associated myeloproliferative neoplasm and also affects whether targeted therapy will be used subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "FISH or RT-PCR detection of the FIP1L1-PDGFRα fusion gene",
+          "basis_in_stage3_input": "③ FISH or RT-PCR testing for the FIP1L1-PDGFRα fusion gene",
+          "why_order_this_exam": "Clinically, the patient is already highly suggestive of clonal eosinophilia: eosinophils have been markedly elevated for a prolonged period, with poor response to glucocorticoids, antiallergic therapy, antiasthmatic therapy, and antiparasitic therapy, and there is also mild splenomegaly, marked increase of eosinophils in the bone marrow, and involvement of organs such as the heart. At this time, the most urgent clinical issue is to determine whether there is a driver gene abnormality amenable to targeted therapy. The FIP1L1-PDGFRα fusion is one of the most important treatable molecular markers of myeloid/lymphoid neoplasms with eosinophilia. Detection by FISH or RT-PCR can directly establish the etiologic diagnosis, not only distinguishing this disease from secondary eosinophilia, idiopathic HES, and lymphocytic variant HES, but also directly determining whether imatinib should be the first-line treatment and avoiding delay of targeted therapy resulting in ongoing cardiac damage.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow chromosomal karyotype analysis",
+          "basis_in_stage3_input": "4. Bone marrow karyotype analysis",
+          "why_order_this_exam": "In the setting of persistent severe eosinophilia with multisystem involvement, morphology alone still cannot fully define the clonal nature and genetic stratification of the disease. Bone marrow cytogenetic karyotype analysis can further determine whether other chromosomal abnormalities are present, thereby supporting the diagnosis of a myeloproliferative neoplasm or related clonal hematologic disorder, and helping differentiate it from purely reactive eosinophilia. In this case, this test can also supplement genetic evidence beyond molecular testing, assess the biologic characteristics of the disease, and provide a basis for prognostic assessment and subsequent treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "serum tryptase level",
+          "basis_in_stage3_input": "⑤ Serum tryptase level",
+          "why_order_this_exam": "The patient has marked and persistent eosinophilia, mild splenomegaly, and active bone marrow hyperplasia, and it is necessary to differentiate whether there is a mast cell proliferation-associated disorder or a myeloproliferative neoplasm with mast cell activation, because such diseases can also present with hypereosinophilia and multiorgan damage. Serum tryptase is one of the important clues for assessing mast cell burden and myeloproliferative features. In this case, the clinical value of this test lies in helping exclude or suggest the disease spectrum associated with mast cell abnormalities, further refining the classification of clonal eosinophilia, reducing the risk of misdiagnosis as a simple allergic or infectious disease, and assisting in the evaluation of subsequent treatment strategies.",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-cell immunophenotyping analysis ± TCR gene rearrangement",
+          "basis_in_stage3_input": "⑤ T-cell immunophenotyping analysis ± TCR gene rearrangement",
+          "why_order_this_exam": "Although the patient's peripheral blood and bone marrow findings are more suggestive of myeloproliferative eosinophilia, lymphocytic variant HES still needs to be systematically excluded when diagnosing hypereosinophilic syndrome/primary eosinophilia. The patient's total IgE is not elevated, evidence for common allergic diseases is insufficient, and the response to corticosteroids and conventional anti-asthma therapy is poor, suggesting that it cannot be explained solely as an allergic disease. T-cell immunophenotyping and TCR gene rearrangement can determine whether there is an abnormal clonal T-cell population driving eosinophilia through secretion of IL-5 and other factors, thereby distinguishing it from myeloproliferative disease. This testing helps clarify the etiologic classification, avoid an incorrect treatment direction, and provide a basis for whether immunosuppression or other individualized regimens are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunophenotyping by flow cytometry of blood or bone marrow",
+          "basis_in_stage3_input": "Immunophenotyping by flow cytometry of blood or bone marrow",
+          "why_order_this_exam": "The patient has a long disease course, persistently marked eosinophilia, and cardiac and serosal cavity involvement; a purely reactive disorder can no longer explain all manifestations, and further evaluation at the level of cellular immunophenotyping is needed to identify abnormal hematopoiesis or a clonal lymphocyte population. Flow cytometry of blood or bone marrow can detect whether abnormal myeloid, lymphoid, or mast cell-related cell populations are present, helping to identify an underlying hematologic malignancy or immune abnormality. For this patient, the main questions this test is intended to address are: whether there is immunophenotypic evidence supporting a clonal hematologic disorder, whether there are abnormal cell populations that require further targeted stratification, and how to distinguish this from lymphocytic variant HES and other bone marrow/lymphoid neoplasms, thereby guiding interpretation of subsequent molecular testing and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "basis_in_stage3_input": "Bone marrow aspiration and biopsy were completed",
+          "why_order_this_exam": "After completing evaluations in the respiratory, infectious disease, rheumatology/immunology, and cardiovascular domains, the patient still has persistent severe eosinophilia of unclear etiology and has developed organ involvement; therefore, a bone marrow aspiration and biopsy must be completed to enter the hematologic etiologic diagnostic workup. The combination of bone marrow aspiration and biopsy can simultaneously obtain materials for cytology, histology, and subsequent genetic and molecular testing, and is the key step in differentiating secondary eosinophilia, idiopathic HES, and clonal myeloproliferative neoplasms. In this case, the significance of this examination is to clarify the etiology as soon as possible, avoid further cardiac damage caused by the persistent hypereosinophilic state, and provide a basis for whether to initiate targeted therapy such as imatinib.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "Bone marrow smear findings: marked hyperplasia of nucleated cells; markedly increased proportion of eosinophils, 37.5%, predominantly mature eosinophils; basophilic granules present in intermediate and late eosinophil precursors; vacuolar degeneration in some cells",
+          "why_order_this_exam": "The patient has markedly elevated peripheral blood eosinophils, accompanied by mild splenomegaly, cardiac insufficiency, and serous cavity effusion, suggesting the need to determine whether there is an abnormal proliferative source in the bone marrow. Bone marrow smear can directly assess the degree of bone marrow cellular proliferation, the proportion of eosinophils and their maturation lineage, and identify morphologic clues such as abnormal granules and vacuolar degeneration. In this case, this examination addresses whether the eosinophilia is reactive or clonal; if marked bone marrow eosinophilic hyperplasia and morphologic abnormalities are seen, this would strongly support a myeloproliferative neoplasm rather than being caused simply by asthma, parasites, or rheumatic immune diseases, thereby prompting further fusion gene testing and precision therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peripheral blood smear",
+          "basis_in_stage3_input": "Markedly increased eosinophil proportion on peripheral blood smear, reaching 60%",
+          "why_order_this_exam": "Multiple complete blood counts have already shown marked eosinophilia, but a peripheral blood smear is still necessary because it can directly confirm whether the proportion and morphology of eosinophils are abnormal and determine whether there are immature cells, other abnormal leukocytes, or changes suggestive of a hematologic malignancy. Clinically, this patient has long-term cough, dyspnea, and progressively developing cardiac involvement, and conventional anti-asthma therapy, glucocorticoids, and antiparasitic treatment have been ineffective, indicating that automated blood cell counting alone is insufficient to determine the etiology. A peripheral blood smear helps further localize persistent hypereosinophilia toward an abnormal hematologic proliferative process and supports whether bone marrow and molecular testing should be performed as soon as possible.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow biopsy",
+          "basis_in_stage3_input": "Bone marrow biopsy: active bone marrow hyperplasia, with a marked increase in eosinophilic intermediate and late myelocytes",
+          "why_order_this_exam": "When a patient presents with severe eosinophilia accompanied by significant organ involvement, bone marrow biopsy is required to assess the overall hematopoietic architecture of the bone marrow and the distribution of eosinophilic infiltration. Compared with a bone marrow smear, bone marrow biopsy is better able to evaluate the degree of bone marrow hyperplasia, whether the increase in intermediate and late eosinophilic precursors is diffuse, and whether there are stromal changes or abnormalities in other cell lineages, thereby supporting the diagnosis of a myeloproliferative neoplasm. In this case, the value of bone marrow biopsy lies in further confirming that this is abnormal bone marrow proliferation predominantly involving eosinophils rather than a simple reactive increase in the peripheral blood, and in providing histopathologic evidence, in conjunction with the fusion gene results, for the final diagnosis of a PDGFRα rearrangement-associated disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "FIP1L1/PDGFRα fusion gene testing",
+          "basis_in_stage3_input": "Positive for the FIP1L1/PDGFRA fusion gene",
+          "why_order_this_exam": "The most critical unresolved issue in this patient's clinical course is the true etiology of the persistent marked eosinophilia and whether a targetable molecular abnormality is present. Because the degree of eosinophilia is severe, the duration is prolonged, and important organs such as the heart have already been involved, while common secondary causes such as asthma, parasitic infection, and rheumatic immune diseases cannot fully explain the condition or the treatment response is inconsistent, FIP1L1/PDGFRα fusion gene testing must be performed. If this test is positive, the disease can be advanced from \"unclassified hypereosinophilia\" to the definitive molecular diagnosis of \"myeloproliferative neoplasm with eosinophilia associated with PDGFRα abnormality,\" which directly guides imatinib as the preferred treatment and has important implications for prognosis and treatment response monitoring.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The following tests should be performed to diagnose primary hypereosinophilic syndrome: ① bone marrow aspiration smear differential count; ② pathologic cytologic analysis of bone marrow biopsy tissue sections; ③ FISH or RT-PCR for the FIP1L1-PDGFRα fusion gene; ④ bone marrow cytogenetic karyotype analysis; ⑤ serum tryptase level; ⑤ T-cell immunophenotyping ± TCR gene rearrangement; ⑥ flow cytometric immunophenotyping of blood or bone marrow. Bone marrow aspiration and biopsy were completed. Bone marrow smear showed markedly active proliferation of nucleated cells, with a markedly increased proportion of eosinophils at 37.5%, predominantly mature eosinophils; basophilic granules were present in intermediate and late eosinophilic precursors, and some cells showed vacuolar degeneration. The proportion of eosinophils on peripheral blood smear was markedly increased to 60%. Bone marrow biopsy: active bone marrow proliferation, with a marked increase in intermediate and late eosinophilic granulocytic precursors. FIP1L1/PDGFRα fusion gene positive.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIw46ZFfDzYb8ByyLcLZz8CtamhlYaEKharKszz1QZmyaUuHPGopia5LDgR3WBDXyckSFc7uOcYslw/640?wx_fmt=png",
+          "near_text": "Figure 2: Fluorescence in situ hybridization (FISH) analysis: the deletion in the CHIC2 region indicated by the red arrow shows that the presence of this specific deletion indicates positivity for the FIP1L1-PDGFRα fusion gene on one chromosome 4.",
+          "local_src": "cleaned_cases_image_cache/485df16b08a4a5b8d16a472c3e0e3ea901cf601f.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Myeloproliferative neoplasm with eosinophilia associated with PDGFRα abnormality (FIP1L1-PDGFRα abnormality); 2. Valvular heart disease: Ebstein anomaly of the tricuspid valve with severe regurgitation; mitral valve prolapse with moderate regurgitation; enlargement of the left atrium, right atrium, and left ventricle; atrial flutter rhythm; second-degree type II atrioventricular block; cardiac function class II-III.",
+      "diagnostic_basis": [
+        "Bone marrow smear findings: nucleated cell proliferation is markedly active, with a significantly increased proportion of eosinophils at 37.5%, predominantly mature eosinophils",
+        "Markedly increased eosinophil proportion on peripheral blood smear, reaching 60%",
+        "Bone marrow biopsy: active bone marrow hyperplasia, with a marked increase in eosinophilic intermediate and late myelocytes",
+        "Positive for the FIP1L1/PDGFRA fusion gene"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Targeted therapy was given with oral imatinib tablets (Gleevec), along with glucocorticoids taken concurrently (later gradually tapered and discontinued).",
+        "Mitral and tricuspid valvuloplasty performed under general anesthesia with cardiopulmonary bypass"
+      ],
+      "treatment_response": [
+        "Two weeks later, the patient's dry cough and shortness of breath were markedly relieved, cardiac function improved somewhat, and eosinophils decreased significantly.",
+        "Repeat complete blood count: white blood cell count: 5.03×10^9/L, eosinophil percentage: 1.2%, eosinophil count: 0.06×10^9/L",
+        "Repeat echocardiography after 6 months: anterior wall thickness of the right ventricle approximately 5 mm, anterior wall thickness of the right ventricular apical region approximately 13 mm, thickening of the anterior wall of the left ventricular apical region approximately 15 mm",
+        "Postoperative condition is good. Echocardiography showed status post mitral valvuloplasty and tricuspid valvuloplasty; tricuspid regurgitation (mild); mitral regurgitation (mild to moderate); no abnormality of left ventricular systolic function."
+      ]
+    }
+  }
+}

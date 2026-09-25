@@ -1,0 +1,415 @@
+{
+  "status": "success",
+  "case_id": "case_22",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 45-year-old man presented with the chief complaint of \"diagnosed lymphoma for 1 year, 8 months after hematopoietic stem cell transplantation, fever for 1 week.\" He was diagnosed with T-lymphoblastic lymphoma/leukemia 1 year ago. Eight months ago, he underwent related haploidentical hematopoietic stem cell transplantation, and afterward regularly took mycophenolate mofetil and cyclosporine. Six months ago, after catching a cold, he developed cough, fever, and dyspnea. Chest CT suggested inflammation in the right upper lobe and the lingular segment of the left lung, which improved after anti-infective treatment. One week ago, he developed fever without an obvious precipitating factor, mostly in the evening, with a temperature of 37-38℃, accompanied by chills, without discomfort such as cough, sputum production, sore throat, abdominal pain, diarrhea, urinary frequency, or urinary urgency. He had a 10-year history of diabetes mellitus and had been taking metformin and repaglinide orally long term. Physical examination on admission: T 36.4℃, P 99 beats/min, R 25 breaths/min, BP 118/78 mmHg, breath sounds were clear in both lungs, with no dry or wet rales. Ancillary examinations before admission (Day 0): chest CT showed tiny subpleural inflammatory nodules in the right upper lobe and left lower lobe, and mild chronic subpleural inflammation in the lingular lobe of the left lung; CBC showed white blood cells 3.64×10^9/L, platelets 124×10^9/L, neutrophils 2.67×10^9/L, lymphocytes 0.68↓×10^9/L; SARS-CoV-2 nucleic acid and antibody were negative.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAGb3UjiagLkHYeAWeTldR0ibFoaiabr9lbqorgwp3OicTFtIYz3Ikxq9UhA/640?wx_fmt=png",
+          "near_text": "Chest CT on Day -189 (at the time of fever 6 months earlier)",
+          "local_src": "cleaned_cases_image_cache/8024ec409a99854572965181707332b9c62c021f.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAv6zpg32W9YtvA56HNjexnB6flP8hUAEJdwk4It4iaRx3QkfBkicqWnIw/640?wx_fmt=png",
+          "near_text": "Chest CT on Day -159 (after the first treatment for fever)",
+          "local_src": "cleaned_cases_image_cache/5f111b292a2e6cc87469f55017e9ea501e2ee444.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Invasive pulmonary aspergillosis or other invasive pulmonary mold infection",
+          "supporting_evidence": [
+            "The patient has a history of T-lymphoblastic lymphoma/leukemia and is 8 months post-hematopoietic stem cell transplantation, constituting a severely immunocompromised host.",
+            "Postoperatively, regular use of mycophenolate mofetil and cyclosporine indicates a persistent state of immunosuppression",
+            "Complete blood count before admission showed a white blood cell count of 3.64×10^9/L and lymphocytes of 0.68↓×10^9/L, suggesting decreased immune defense.",
+            "Chest CT showed tiny subpleural inflammatory nodules in the right upper lobe and left lower lobe; review of the attached chest CT images also shows scattered small nodular lesions in both lungs. In an immunosuppressed host, fungal infection should be considered.",
+            "With fever for 1 week as the main manifestation, lacking obvious localizing symptoms of the upper respiratory tract, gastrointestinal tract, or urinary tract, which is consistent with the characteristic that deep infection in immunosuppressed patients may present only with fever."
+          ],
+          "opposing_evidence": [
+            "Currently no respiratory symptoms such as cough, sputum production, chest pain, or hemoptysis",
+            "Physical examination: clear breath sounds in both lungs, without dry or moist rales",
+            "The phase 1 CT was described as showing “tiny inflammatory nodules and mild chronic inflammation,” without stronger suggestive findings such as typical cavitation, halo sign, or large areas of consolidation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Viral pneumonia (represented by opportunistic infections such as cytomegalovirus pneumonia)",
+          "supporting_evidence": [
+            "8 months after hematopoietic stem cell transplantation and still receiving mycophenolate mofetil and cyclosporine, belongs to a high-risk population for opportunistic infection",
+            "Lymphocytes 0.68↓×10^9/L, suggesting impaired cellular immunity and an increased risk of viral reactivation or opportunistic viral infection",
+            "Fever as the predominant manifestation, with no obvious respiratory tract symptoms",
+            "Chest CT shows small nodules/inflammatory changes in both lungs; viral pulmonary infection in an immunosuppressed patient cannot be excluded",
+            "SARS-CoV-2 nucleic acid and antibody were negative, which only rules out SARS-CoV-2 and does not rule out other viral infections."
+          ],
+          "opposing_evidence": [
+            "The attached CT images and text do not show a description of typical diffuse ground-glass opacities or interstitial changes.",
+            "No symptoms such as cough, sputum production, or sore throat",
+            "Physical examination: clear breath sounds in both lungs, without dry or moist rales"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Early or occult bacterial pulmonary infection",
+          "supporting_evidence": [
+            "Fever with chills developed 1 week ago; infectious disease should still be considered first.",
+            "Six months previously, the patient had cough, fever, and dyspnea; chest CT suggested pulmonary inflammation, which improved after anti-infective treatment, suggesting a prior susceptibility to pulmonary infection.",
+            "This chest CT showed subpleural inflammatory micronodules in the right upper lobe and left lower lobe, mild chronic subpleural inflammation in the lingula of the left lung, with imaging evidence of inflammatory pulmonary lesions.",
+            "Post-hematopoietic stem cell transplantation, long-term immunosuppression, and a 10-year history of diabetes all increase the risk of bacterial infection"
+          ],
+          "opposing_evidence": [
+            "No typical symptoms of bacterial pneumonia such as cough, sputum production, or chest pain",
+            "Physical examination: clear breath sounds in both lungs, without dry or moist rales",
+            "A white blood cell count of 3.64×10^9/L does not support marked leukocytosis due to bacterial infection, but it may not be elevated in an immunosuppressed state."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pneumocystis pneumonia (PJP)",
+          "supporting_evidence": [
+            "The patient is status post hematopoietic stem cell transplantation and has been receiving long-term immunosuppressive therapy, constituting a high-risk background for PJP.",
+            "Lymphocyte count 0.68↓ ×10^9/L suggests impaired cellular immunity",
+            "May present predominantly with fever, with atypical respiratory symptoms in the early stage"
+          ],
+          "opposing_evidence": [
+            "No common symptoms of PJP, such as cough or dyspnea; currently only R 25 breaths/min is documented as slightly increased",
+            "The chest CT report and the accompanying images did not show typical diffuse bilateral ground-glass opacities.",
+            "Pulmonary examination showed no obvious abnormalities."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary infection with Mycobacterium tuberculosis or nontuberculous mycobacteria",
+          "supporting_evidence": [
+            "After hematopoietic stem cell transplantation and prolonged immunosuppression, the risk of opportunistic mycobacterial infection is increased",
+            "Fever is the predominant manifestation, and respiratory symptoms may be minimal.",
+            "Chest CT shows tiny subpleural nodules in both lungs; the attached images show scattered small nodular lesions; mycobacterial infection should be included in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "There is no history of chronic cough, sputum production, night sweats, weight loss, hemoptysis, or other suggestive findings.",
+            "CT did not describe more typical findings such as cavitation, tree-in-bud pattern, obvious upper lobe fibrosis, or mediastinal lymphadenopathy.",
+            "Phase 1 information did not provide a history of TB exposure or prior TB history"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Fever with relapsed lymphoma/leukemia or post-transplant lymphoproliferative disorder (PTLD)",
+          "supporting_evidence": [
+            "The patient has a prior history of T-lymphoblastic lymphoma/leukemia.",
+            "8 months after hematopoietic stem cell transplantation and with continued use of cyclosporine and mycophenolate mofetil, there is a risk background for post-transplant lymphoproliferative disorder",
+            "The patient currently has had fever for 1 week and lacks clear localizing symptoms of respiratory, gastrointestinal, or urinary tract infection; neoplastic fever or hematologic disease activity should be considered."
+          ],
+          "opposing_evidence": [
+            "Chest CT currently shows only tiny inflammatory nodules and mild chronic inflammation; no imaging evidence has been provided of an obvious mass, mediastinal lymphadenopathy, or diffuse infiltration.",
+            "The history did not provide information supporting recurrence/PTLD, such as superficial lymphadenopathy, hepatosplenomegaly, or progressive weight loss.",
+            "Imaging has already indicated inflammatory pulmonary lesions; at the current stage, there is more direct evidence supporting an infectious etiology."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Bone marrow aspiration examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "thyroid function tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "comprehensive autoimmune panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "required"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler echocardiography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal color Doppler ultrasonography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Urinary system color Doppler ultrasound",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Contrast-enhanced abdominal CT",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Bone marrow examination showed no obvious abnormalities. Thyroid function tests and the comprehensive autoimmune panel were negative. Inflammatory markers were elevated: ESR 149.00↑mm/h, CRP 107.45↑mg/L, procalcitonin 0.042ng/mL. Chest CT showed no obvious new infectious focus. Blood cultures and bone marrow cultures were negative. Renal color Doppler ultrasound reported: abnormal density in the right kidney. Further contrast-enhanced abdominal CT suggested low echogenicity at the upper pole of the right kidney, with heterogeneous density.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAyOyXXq64FMpVukACr75mhJgsXIEicr1afTWW3KhVkvFbpHicfYbxCOxw/640?wx_fmt=png",
+            "near_text": "Chest CT on Day +9 showed no obvious infectious focus.",
+            "local_src": "cleaned_cases_image_cache/9cfe8587ef7592d7a6b47b48da5f11fbef3d0b2a.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAzWQQ8bq340o4oq3oQNC9uWhw7UkxVmGBPj4yicZ00cUIyWZyiaypfWkA/640?wx_fmt=png",
+            "near_text": "Abdominal CT on Day +9 showed a space-occupying lesion in the right kidney.",
+            "local_src": "cleaned_cases_image_cache/2b1ce3a64adc6cd7999922a3092b50ce6dcd2221.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Lymphoma recurrence",
+            "evidence": [
+              "The patient has a history of lymphoma and is again experiencing recurrent fever."
+            ],
+            "exclusion_reasons": [
+              "Bone marrow aspiration showed no significant abnormalities, not supporting lymphoma recurrence"
+            ]
+          },
+          {
+            "name": "Autoimmune disease",
+            "evidence": [
+              "Lymphoma patients themselves are closely associated with autoimmune diseases."
+            ],
+            "exclusion_reasons": [
+              "The patient had no systemic manifestations such as dry mouth, dry eyes, rash, pain in the joints of the extremities, or myalgia; thyroid function tests and the comprehensive autoimmune panel were negative."
+            ]
+          },
+          {
+            "name": "cystic renal cell carcinoma",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Urinalysis showed no hematuria, and previous examinations did not identify a renal mass."
+            ]
+          },
+          {
+            "name": "Renal cyst",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has fever symptoms, and the imaging findings do not support a renal cyst."
+            ]
+          },
+          {
+            "name": "Renal tuberculosis",
+            "evidence": [
+              "Given the patient's history of immunosuppression, TB still cannot be ruled out."
+            ],
+            "exclusion_reasons": [
+              "No urinary tract symptoms such as urinary urgency or dysuria (but it cannot be completely ruled out; further differential diagnosis requires T-SPOT, renal biopsy, etc.)"
+            ]
+          },
+          {
+            "name": "renal abscess",
+            "evidence": [
+              "The main clinical manifestations were fever and chills. CT showed an ill-defined lesion with an irregular shape and mild enhancement after contrast administration. Based on this patient's symptoms and imaging findings, a renal abscess was considered highly likely."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Lymphoma recurrence",
+        "evidence": [
+          "The patient has a history of lymphoma and is again experiencing recurrent fever."
+        ],
+        "exclusion_reasons": [
+          "Bone marrow aspiration showed no significant abnormalities, not supporting lymphoma recurrence"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Autoimmune disease",
+        "evidence": [
+          "Lymphoma patients themselves are closely associated with autoimmune diseases."
+        ],
+        "exclusion_reasons": [
+          "The patient had no systemic manifestations such as dry mouth, dry eyes, rash, pain in the joints of the extremities, or myalgia; thyroid function tests and the comprehensive autoimmune panel were negative."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Renal cyst",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has fever symptoms, and the imaging findings do not support a renal cyst."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Renal tuberculosis",
+        "evidence": [
+          "Given the patient's history of immunosuppression, TB still cannot be ruled out."
+        ],
+        "exclusion_reasons": [
+          "No urinary tract symptoms such as urinary urgency or dysuria (but it cannot be completely ruled out; further differential diagnosis requires T-SPOT, renal biopsy, etc.)"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "renal abscess",
+        "evidence": [
+          "The main clinical manifestations were fever and chills. CT showed an ill-defined lesion with an irregular shape and mild enhancement after contrast administration. Based on this patient's symptoms and imaging findings, a renal abscess was considered highly likely."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Ultrasound-guided right upper renal tissue biopsy",
+          "basis_in_stage3_input": "Ultrasound-guided right upper renal tissue biopsy",
+          "why_order_this_exam": "The patient is 8 months after hematopoietic stem cell transplantation for T-lymphoblastic lymphoma/leukemia, has been on long-term mycophenolate mofetil and cyclosporine, and also has diabetes mellitus, indicating a markedly immunosuppressed state. This presentation was characterized mainly by fever and chills, with markedly elevated inflammatory markers; however, blood cultures and bone marrow cultures were negative, and chest CT showed no obvious new infectious focus, suggesting the need to search for an occult extrapulmonary infectious focus. Abdominal imaging revealed an abnormal mass/low-echo lesion at the upper pole of the right kidney with heterogeneous density; the differential diagnosis includes renal abscess, renal TB, tumor recurrence, or other space-occupying lesion. The purpose of ultrasound-guided right upper pole renal tissue biopsy was to directly obtain tissue from the lesion, clarify the nature of the lesion, distinguish infectious from neoplastic disease, and provide specimens for subsequent pathology, special stains, and etiologic testing, while also improving sampling accuracy under imaging guidance and taking into account the safety of the invasive procedure.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Culture of aspirated pus",
+          "basis_in_stage3_input": "Culture of purulent fluid obtained by needle aspiration was negative",
+          "why_order_this_exam": "The patient had persistent fever with chills. Contrast-enhanced abdominal CT and renal ultrasound indicated a lesion at the upper pole of the right kidney; clinically, the first priority is to differentiate focal infections such as renal abscess. Culture of pus obtained by needle aspiration can directly determine whether bacteria or other pathogens are present within the lesion and is a key step for confirming an infectious etiology, guiding antimicrobial susceptibility testing, and selecting subsequent anti-infective therapy. Although the culture result in this case was negative, in immunosuppressed hosts, prior anti-infective treatment, slow pathogen growth, or organisms that are difficult to detect by routine culture are not uncommon; therefore, this test still has important value: it helps verify the assessment of renal abscess and, when the culture is negative, suggests the need to further rely on pathology and more advanced pathogen detection methods such as metagenomic sequencing to identify unusual pathogens.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathological examination",
+          "basis_in_stage3_input": "Pathology results showed necrosis, exudation, and granulation-fibrous tissue formation, with focal atypical granulomatous changes.",
+          "why_order_this_exam": "For the space-occupying lesion of the right kidney in this case, fever, elevated inflammatory markers, and imaging abnormalities alone cannot distinguish among renal abscess, renal TB, opportunistic infections such as fungal infection/Nocardia infection, or noninfectious lesions such as lymphoma relapse and cystic renal cell carcinoma. Pathologic examination allows direct observation of tissue architecture and the type of inflammatory response and is the key method for characterizing the lesion. Pathology suggested necrosis, exudation, and granulation-fibrous tissue formation, with focal atypical granulomatous changes, indicating that the lesion is more consistent with an infectious/inflammatory destructive process rather than typical relapse of a hematologic malignancy. This helps narrow the differential diagnosis and indicates the need for further evaluation of granulomatous lesions with TB, fungal, and other uncommon pathogen testing, providing a basis for shifting the subsequent treatment direction from antitumor therapy to targeted anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry: CD3 (scattered+), CD20 (occasional+), CD79a (occasional+), CD21 (-), CD68 (+), Ki-67 (15+), TdT (-)",
+          "why_order_this_exam": "The patient has a history of T-lymphoblastic lymphoma/leukemia, and recurrent fever of unknown origin and a renal mass after transplantation warrant vigilance for recurrence of the primary hematologic malignancy, post-transplant lymphoproliferative disorder, or other lymphoid infiltration. Even when routine pathology alone shows necrosis, exudation, and granulation tissue formation, immunohistochemistry is still required to distinguish reactive inflammatory cell infiltration from neoplastic lymphocytic proliferation. This examination uses markers such as TdT, CD3, CD20, CD79a, CD68, and Ki-67 to help determine whether lymphoblastic lesions, abnormal B-/T-cell proliferation, or predominantly histiocytic/macrophage reaction is present, thereby excluding or reducing the likelihood of lymphoma recurrence and avoiding mismanagement of an infectious lesion as a tumor.",
+          "requirement": "required"
+        },
+        {
+          "exam": "special stains",
+          "basis_in_stage3_input": "Special stains: acid-fast (-), PAS (-), methenamine silver (-), TB-DNA (-)",
+          "why_order_this_exam": "In this case, the pathology showed necrosis and atypical granulomatous changes. In an immunosuppressed host, the first priority is to thoroughly evaluate for opportunistic infections such as TB/nontuberculous mycobacteria and fungi. Special stains can provide rapid histologic clues for different pathogens: acid-fast staining is used to look for mycobacteria, and PAS and Gomori methenamine silver stains help identify fungal elements. Although all results were negative, their clinical significance lies in providing important counterevidence against renal TB and common fungal infections, prompting clinicians to recognize that routine microbiologic testing may be insufficient to explain the lesion and that special pathogens such as Nocardia should continue to be considered, with further submission for more sensitive testing methods. This examination also helps avoid blindly initiating anti-TB or antifungal treatment when the pathogen remains unidentified.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "basis_in_stage3_input": "TB-DNA(-)",
+          "why_order_this_exam": "The patient has long-term immunosuppression. With a right renal lesion accompanied by fever, and pathology additionally showing localized atypical granulomatous changes, renal TB could not be excluded in the early differential diagnosis. The purpose of TB-DNA testing is to seek nucleic acid evidence of Mycobacterium tuberculosis at the tissue level of the lesion, in order to improve recognition of renal TB and compensate for the lack of typical urinary tract symptoms clinically and the limited positive rate of routine culture. A negative TB-DNA result combined with a negative acid-fast stain helps reduce the likelihood of TB as the cause, prompting the clinical focus to shift from TB to etiologic investigation of other rare opportunistic infections, and directly affects the choice of anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound-guided needle biopsy of the right renal mass",
+          "basis_in_stage3_input": "Repeat color Doppler ultrasound-guided needle biopsy of the right renal mass",
+          "why_order_this_exam": "After the initial puncture, pus culture was negative, and pathology only showed necrosis, exudation, granulation-fibrous tissue, and atypical granulomatous changes. Although these findings supported an infectious/inflammatory lesion, the pathogen still could not be identified, nor could they fully explain the specific cause of the patient's persistent fever. Under these circumstances, repeat color Doppler ultrasound-guided puncture biopsy of the right renal mass was very necessary: first, to obtain additional tissue and reduce missed diagnosis caused by insufficient sampling or sampling bias in the initial specimen; second, to provide fresh tissue for further, more in-depth etiologic testing; third, to use imaging guidance to target the solid or active area of the lesion as precisely as possible, thereby increasing the diagnostic yield. This examination played a निर्णative role in ultimately clarifying the etiology in the setting of negative culture and nonspecific routine pathology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Microbial testing and medication guidance (metagenomic sequencing)",
+          "basis_in_stage3_input": "Postoperative biopsy tissue sent for pathogen testing and medication guidance (metagenomic sequencing)",
+          "why_order_this_exam": "The patient belongs to a high-risk population for severe opportunistic infection, and routine blood culture, bone marrow culture, and aspirated pus culture were all negative. Special stains and TB-DNA also failed to identify the pathogen, but pathology suggested infectious necrosis and granulomatous inflammation, indicating that a deep infection caused by a special pathogen is still highly suspected. Metagenomic sequencing is applicable in such situations with negative cultures, a broad pathogen spectrum, clear clinical localization, but difficulty establishing a diagnosis with routine testing; it can detect bacteria, fungi, mycobacteria, and rare opportunistic pathogens without prespecifying the pathogen type. The core clinical question for ordering this test is to look for pathogens missed by conventional methods in the focal renal lesion and to provide a basis for subsequent targeted therapy, thereby avoiding continued empiric, non-directed treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathogenic microorganism testing",
+          "basis_in_stage3_input": "Pathogenic microorganism testing results indicated Nocardia farcinica infection",
+          "why_order_this_exam": "In this case, there were recurrent fever and chills, with no new definite infectious focus identified in the lungs, while the space-occupying lesion in the right kidney became the most important clue; the patient also had long-term immunosuppression after hematopoietic stem cell transplantation and a background of diabetes, making infection with uncommon opportunistic pathogens highly likely. The aforementioned routine cultures and TB- and common fungus-related tests were all nondiagnostic; therefore, direct pathogen microbiologic testing was required to identify the causative organism. This test ultimately indicated Nocardia farcinica infection, resolving the etiologic question of the patient's prolonged fever and right renal lesion; it both completed the exclusion or revision of important differential diagnoses such as renal abscess, renal TB, and tumor recurrence, and directly guided the subsequent selection of targeted therapy such as trimethoprim-sulfamethoxazole. For an immunosuppressed host, microbiologic confirmation is also related to treatment duration, whether combination therapy is needed, and the subsequent follow-up strategy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Ultrasound-guided biopsy of tissue from the upper pole of the right kidney was performed. Culture of pus obtained by needle aspiration was negative. Pathology showed necrosis, exudation, and granulation-fibrous tissue formation, with focal atypical granulomatous changes. Immunohistochemistry: CD3 (scattered+), CD20 (individual+), CD79a (individual+), CD21 (-), CD68 (+), Ki-67 (15+), TdT (-); special stains: acid-fast (-), PAS (-), hexamine silver (-), TB-DNA (-). A repeat color Doppler ultrasound-guided needle biopsy of the right renal mass was performed. After the procedure, the biopsy tissue was sent for microbiologic testing and medication guidance (metagenomic sequencing). Pathogen testing showed Nocardia farcinica infection.",
+      "images": [
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAZcJ4eJSnLJ747ic2BRORj9fxpRUfItKDM6J3P4JUK50XqTGGQcZoLlw/640?wx_fmt=png",
+          "near_text": "First renal biopsy pathology result on Day +29",
+          "local_src": "cleaned_cases_image_cache/3dc075037c5b6b513afbb765ada1f63d23db0626.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAibMvDyuKI0cjZFZol9jdHwFaRHTfMtfia8zALpLXmpEBlWGBlicuFOsicg/640?wx_fmt=png",
+          "near_text": "Metagenomic sequencing results of the renal biopsy specimen on Day +47",
+          "local_src": "cleaned_cases_image_cache/87947ad01d55fa69eaedcef6f50a077a4ed5e561.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAw4iaKTAXOgsCJxeicjVOHzvNuTFwC9bRaa9KZhmTWt6mibXicKLblHI66A/640?wx_fmt=png",
+          "near_text": "Electrolyte results on Day +71",
+          "local_src": "cleaned_cases_image_cache/e2e4f8ac86591d31fea05fb3ccb297a9db840cec.png"
+        },
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAzhbJr571icVIBKhCuIp9ia8NbsJsYKNFNrnmO7iaeia9xmHTRzejL7UcOw/640?wx_fmt=png",
+          "near_text": "Repeat electrolyte test results on Day +114",
+          "local_src": "cleaned_cases_image_cache/227de1fde70e5902d27e11691915c171951a9c99.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJ87UjUzbwgTcIOKAArj0EAdjdgumYEcl5LDhcicFSIPfar5BcfK2gx81UcNP8dG7gzLhNjSjVML1w/640?wx_fmt=png",
+          "near_text": "Follow-up abdominal CT results on Day +112",
+          "local_src": "cleaned_cases_image_cache/96b6cc5fea7b817cf45ff4969fe7fcf089d0c128.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Nocardia infection of the right kidney; 2. T-lymphoblastic leukemia/lymphoma; 3. Status post hematopoietic stem cell transplantation; 4. Type 2 diabetes mellitus",
+      "diagnostic_basis": [
+        "The patient has been on long-term immunosuppressants after bone marrow transplantation.",
+        "Presenting primarily with fever and chills",
+        "with the kidney as the initial site of infection",
+        "Microbiological pathogen testing and pathological findings were also consistent with Nocardia infection"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Treated with trimethoprim-sulfamethoxazole tablets",
+        "Oral potassium-lowering resin for symptomatic treatment of hyperkalemia"
+      ],
+      "treatment_response": [
+        "After treatment, the patient's body temperature gradually returned to normal.",
+        "At re-examination 1 week after starting medication, the patient's serum potassium was found to be significantly elevated; after symptomatic treatment, the patient's serum potassium decreased to normal.",
+        "At follow-up on Day +112, there was no recurrence of fever; repeat renal CT showed no significant change compared with the prior study, and serum potassium remained mildly elevated."
+      ]
+    }
+  }
+}

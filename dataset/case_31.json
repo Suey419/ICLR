@@ -1,0 +1,432 @@
+{
+  "status": "success",
+  "case_id": "case_31",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 65-year-old man with the chief complaint of \"cough and sputum production for more than 10 years, dyspnea for 2 years, worsening for 13 days, chest pain for 2 days, and fever for 1 day.\" Dyspnea began in 2015; bilateral lower extremity edema developed in 2016; recurrent cough and sputum production began in 2007. In approximately 6 months before Day 0, he was diagnosed with COPD (acute exacerbation), chronic cor pulmonale (decompensated stage), and bronchopneumonia. On Day 0, cough, sputum production, and dyspnea worsened; the sputum was yellow purulent sputum, 30-40 ml/d. On Day +5, symptoms were relieved after symptomatic treatment at a local hospital. On Day +11, right-sided chest pain developed, and on Day +12, fever of 38.2℃ developed. Past history: previously diagnosed with \"pulmonary TB\"; had \"hepatitis B\" 20 years ago; underwent \"cholecystectomy\" for gallstones 2 years ago. Smoking history of 30 years. Physical examination on admission: temperature 38.2℃, cyanotic lips, barrel chest, decreased breath sounds in both lungs, and a small amount of moist rales heard in both lower lungs; right upper abdominal tenderness, no rebound tenderness, and percussion tenderness over the liver area. Laboratory tests: CBC WBC 8.2×10^9/L, neutrophils 73.8%; stool routine, urinalysis: urobilinogen (+), ketone bodies (+++), occult blood (++); liver function ALT 630.4 IU/L, AST 351.1 IU/L, TBIL 28.1 μmol/L; D-dimer 1.24 mg/L; PCT 0.26 ng/ml, CRP 32 mg/L; arterial blood gas analysis pH 7.37, PCO2 57.00 mmHg, PO2 62.00 mmHg; ECG showed a cor pulmonale pattern; chest CT showed multiple fibrotic streaky and nodular opacities in both lungs, a small amount of patchy exudative lesions, emphysema, and bilateral pleural thickening and adhesions.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u96DQ2MEt5ejqicibp65BOibv72hwHlLc0Uz3ia1pCGqpYZIUQ1sgGGiac0Wkg/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT (Day +11)",
+          "local_src": "cleaned_cases_image_cache/c850addfc7810922deffe499f1319e6e08ccdfab.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) complicated by lower respiratory tract infection",
+          "supporting_evidence": [
+            "History of chronic cough and sputum production for more than 10 years and dyspnea for 2 years; diagnosed with \"COPD (acute exacerbation)\" in approximately 6 months before Day 0",
+            "30-year smoking history",
+            "During this episode, cough, sputum production, and dyspnea worsened for 13 days; the sputum was yellow purulent sputum, 30-40 ml/d, suggesting an infection-triggered acute exacerbation.",
+            "Physical examination showed cyanosis of the lips, barrel chest, and decreased breath sounds in both lungs, consistent with signs of COPD",
+            "Arterial blood gas analysis: pH 7.37, PCO2 57.00 mmHg, PO2 62.00 mmHg, suggesting hypoxemia with carbon dioxide retention",
+            "Chest CT showed emphysema and a few patchy infiltrative lesions in both lungs"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Bronchopneumonia/community-acquired pneumonia",
+          "supporting_evidence": [
+            "Fever for 1 day, body temperature 38.2℃",
+            "Worsening cough and sputum production, with yellow purulent sputum",
+            "A few moist crackles are audible in both lower lungs",
+            "CRP 32mg/L, PCT 0.26ng/ml, suggesting possible inflammation/infection",
+            "Chest CT showed a few patchy exudative lesions in both lungs",
+            "Previously diagnosed with \"bronchopneumonia\" in approximately 6 months before Day 0"
+          ],
+          "opposing_evidence": [
+            "WBC 8.2×10^9/L, no significant leukocytosis",
+            "Chest CT showed only a small amount of patchy exudative lesions, and the extent of inflammatory consolidation on imaging was not large."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Decompensated chronic cor pulmonale with type II respiratory failure",
+          "supporting_evidence": [
+            "In 2016, was diagnosed with \"chronic cor pulmonale (decompensated stage)\"",
+            "In 2016, bilateral lower extremity edema developed, suggesting prior manifestations of right heart dysfunction.",
+            "This episode is accompanied by worsening dyspnea and cyanosis of the lips",
+            "Arterial blood gas analysis showed PCO2 57.00mmHg and PO2 62.00mmHg, consistent with type II respiratory failure on the basis of chronic lung disease",
+            "ECG showed a cor pulmonale pattern",
+            "Chest CT shows emphysema, supporting underlying chronic lung disease."
+          ],
+          "opposing_evidence": [
+            "The phase 1 physical examination did not describe obvious bilateral lower extremity edema, jugular venous distention, or hepatojugular reflux, which are signs of current decompensated right-sided heart failure."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Pulmonary embolism",
+          "supporting_evidence": [
+            "Right-sided chest pain for 2 days, representing a relatively acute symptom",
+            "Worsening dyspnea, accompanied by hypoxemia (PO2 62.00 mmHg)",
+            "Elevated D-dimer 1.24 mg/L",
+            "Chest CT showed a small number of patchy exudative lesions; pulmonary infarction-related changes cannot be completely excluded."
+          ],
+          "opposing_evidence": [
+            "The chest CT report did not indicate typical signs of pulmonary infarction or obvious imaging evidence of pulmonary embolism.",
+            "There is evidence of infection and acute exacerbation of COPD that better explains the symptoms, such as yellow purulent sputum, fever, moist crackles, and patchy infiltrative lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Active pulmonary TB or reactivation of old pulmonary TB",
+          "supporting_evidence": [
+            "Previous diagnosis of \"pulmonary tuberculosis\"",
+            "Chest CT showed multiple fibrotic linear and nodular opacities in both lungs, with bilateral pleural thickening and adhesions, which may be seen in post-tuberculous changes.",
+            "This time, there were respiratory symptoms such as cough, sputum production, and fever."
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was no information such as hemoptysis, night sweats, or weight loss that would more strongly support active TB.",
+            "Chest CT also showed emphysema and a small number of patchy infiltrative lesions; the current presentation is more consistent with acute exacerbation of COPD with infection.",
+            "The sputum is yellow purulent sputum, which is more suggestive of a bacterial lower respiratory tract infection."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Chest pain caused by infection-related pleuritis/traction from pleural adhesions",
+          "supporting_evidence": [
+            "Developed right-sided chest pain on Day +11",
+            "Fever, cough, and purulent sputum suggest a background of chest infection",
+            "Chest CT showed bilateral pleural thickening and adhesions, which may be associated with pleuritic pain."
+          ],
+          "opposing_evidence": [
+            "Pleural friction rub or pleural effusion was not described in the first stage",
+            "Chest pain may also be caused by other more dangerous etiologies such as pulmonary embolism, and the available information is insufficient to establish pleuritis on its own"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count + inflammatory markers (PCT, CRP, ESR)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function + liver disease enzyme tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "renal function, coagulation function, BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear + sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "hepatitis B serologic markers, hepatitis B virus DNA, hepatitis-related antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal ultrasound (liver and gallbladder)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor marker screening",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission on Day +11, the patient had worsening right-sided chest pain and dyspnea, expectorated golden-yellow watery sputum, had persistent fever, and rapidly worsening respiratory failure, for which endotracheal intubation plus invasive mechanical ventilatory support was performed. CBC showed: WBC 19×10^9/L, neutrophils 88.4%; PCT 5.27 ng/ml; CRP 167 mg/L; ESR 27 mm/h; imaging showed rapid progression. Liver function impairment further worsened. During prone-position drainage, a large amount of thin golden-yellow fluid was drained from the endotracheal tube, with approximately 250 ml drained within 20 min. Bedside bronchoscopy: a relatively large amount of yellow thin secretions in the right lower lobe; Gram stain of bronchial secretions showed Gram-positive cocci and Gram-negative bacilli; bronchial secretions, bacterial culture, acid-fast stain, and fungal culture were all repeatedly negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u966w1KsehA4uIiaBUibCQfs9cU6RQE8K5KPYOfs5yvFDSFywTmavyy0y9A/640?wx_fmt=png",
+            "near_text": "Figure 2: Pulmonary imaging (Day +11-15, 2017)",
+            "local_src": "cleaned_cases_image_cache/08d2e5b351677e7405bb959be4e67b2c71c563ad.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u96tFxgV8P4HuPBtxoSNNf9240TCnIfFvwIFTwibTjnia9HRPiaREtGTpYVw/640?wx_fmt=png",
+            "near_text": "Question",
+            "local_src": "cleaned_cases_image_cache/aac2610af5d89b6826fd20dfa88775ca37ff040b.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u96LEOl41g8xibow1E9OOyZJqNh8icMQEcoQHWBIcFML1GJe6uOZMJuLdPA/640?wx_fmt=png",
+            "near_text": "Figure 3: \"orange juice\"-like secretions in the airway",
+            "local_src": "cleaned_cases_image_cache/8472289b8491c1400f51d7978d919e8b1b6b62fa.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u96PdmewYyKQ4uO2so9I9GY3gpv8Ae6CkIbsG9EhEETzXtGMkb9VXKx9w/640?wx_fmt=png",
+            "near_text": "Figure 4: Flowchart for the analysis of golden-yellow bronchial secretions",
+            "local_src": "cleaned_cases_image_cache/922508c20e2e2e97e7ec4c17e837bbfd8d1df820.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Severe pneumonia, sepsis, acute exacerbation of chronic obstructive pulmonary disease, decompensated chronic cor pulmonale, type II respiratory failure, evaluation of the cause of abnormal liver function",
+            "evidence": [
+              "The patient had preexisting chronic underlying lung disease, with an acute exacerbation on this basis and respiratory failure."
+            ],
+            "exclusion_reasons": [
+              "The above diagnoses still cannot explain why the patient has a large amount of thin golden-yellow bronchial secretions."
+            ]
+          },
+          {
+            "name": "Staphylococcus aureus pneumonia",
+            "evidence": [
+              "Presence of underlying lung disease (chronic obstructive pulmonary disease)",
+              "Abrupt onset with high fever, chest pain, and purulent golden-yellow sputum",
+              "Rapid worsening of the condition with development of respiratory failure",
+              "Laboratory tests showed a marked increase in WBC, an increased neutrophil percentage, and rapid elevations in PCT, CRP, and ESR.",
+              "Imaging shows exudative lesions with rapid progression"
+            ],
+            "exclusion_reasons": [
+              "The bronchial secretions were thin and watery, which was inconsistent with the usual characteristics of bronchial secretions.",
+              "After broad-spectrum anti-infective therapy and anti-Gram-positive coccal therapy, the condition was not clearly controlled."
+            ]
+          },
+          {
+            "name": "Jaundice",
+            "evidence": [
+              "There is a marked elevation of TBIL, with elevations in both DBIL and IBIL."
+            ],
+            "exclusion_reasons": [
+              "Jaundice alone can only explain why the secretions are golden yellow; it cannot explain the production of a large amount of thin bronchial secretions."
+            ]
+          },
+          {
+            "name": "Gastroesophageal origin (aspiration)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient had a nasogastric tube in place for >24 h before the onset of copious golden-yellow bronchial secretions",
+              "No history of aspiration",
+              "Chest X-ray and chest CT showed that the secretions were confined to the right lung only.",
+              "After mixing with gastric acid, bile should appear green.",
+              "No food residue was seen in the bronchial secretions"
+            ]
+          },
+          {
+            "name": "tracheoesophageal and bronchoesophageal fistula",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No prior history of choking or coughing after meals",
+              "After mixing with gastric acid, bile should appear green.",
+              "No food residue was seen in the bronchial secretions"
+            ]
+          },
+          {
+            "name": "Thoracic cavity origin",
+            "evidence": [],
+            "exclusion_reasons": [
+              "A small right pleural effusion is present; the volume is small and is not proportional to the extent of the right lung infiltrative lesion.",
+              "Cannot explain the golden-yellow color"
+            ]
+          },
+          {
+            "name": "Hepatobiliary origin (bronchobiliary fistula, bile pneumonia)",
+            "evidence": [
+              "History of gallstones and gallbladder surgery",
+              "At onset, there was right-sided chest pain, percussion tenderness over the liver region, fever, and jaundice.",
+              "Bronchial secretions were golden yellow, consistent with the color of bilirubin",
+              "The lesions are clustered in the right lower lung"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Severe pneumonia, sepsis, acute exacerbation of chronic obstructive pulmonary disease, decompensated chronic cor pulmonale, type II respiratory failure, evaluation of the cause of abnormal liver function",
+        "evidence": [
+          "The patient had preexisting chronic underlying lung disease, with an acute exacerbation on this basis and respiratory failure."
+        ],
+        "exclusion_reasons": [
+          "The above diagnoses still cannot explain why the patient has a large amount of thin golden-yellow bronchial secretions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Staphylococcus aureus pneumonia",
+        "evidence": [
+          "Presence of underlying lung disease (chronic obstructive pulmonary disease)",
+          "Abrupt onset with high fever, chest pain, and purulent golden-yellow sputum",
+          "Rapid worsening of the condition with development of respiratory failure",
+          "Laboratory tests showed a marked increase in WBC, an increased neutrophil percentage, and rapid elevations in PCT, CRP, and ESR.",
+          "Imaging shows exudative lesions with rapid progression"
+        ],
+        "exclusion_reasons": [
+          "The bronchial secretions were thin and watery, which was inconsistent with the usual characteristics of bronchial secretions.",
+          "After broad-spectrum anti-infective therapy and anti-Gram-positive coccal therapy, the condition was not clearly controlled."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Jaundice",
+        "evidence": [
+          "There is a marked elevation of TBIL, with elevations in both DBIL and IBIL."
+        ],
+        "exclusion_reasons": [
+          "Jaundice alone can only explain why the secretions are golden yellow; it cannot explain the production of a large amount of thin bronchial secretions."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Gastroesophageal origin (aspiration)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient had a nasogastric tube in place for >24 h before the onset of copious golden-yellow bronchial secretions",
+          "No history of aspiration",
+          "Chest X-ray and chest CT showed that the secretions were confined to the right lung only.",
+          "After mixing with gastric acid, bile should appear green.",
+          "No food residue was seen in the bronchial secretions"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "tracheoesophageal and bronchoesophageal fistula",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No prior history of choking or coughing after meals",
+          "After mixing with gastric acid, bile should appear green.",
+          "No food residue was seen in the bronchial secretions"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Thoracic cavity origin",
+        "evidence": [],
+        "exclusion_reasons": [
+          "A small right pleural effusion is present; the volume is small and is not proportional to the extent of the right lung infiltrative lesion.",
+          "Cannot explain the golden-yellow color"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hepatobiliary origin (bronchobiliary fistula, bile pneumonia)",
+        "evidence": [
+          "History of gallstones and gallbladder surgery",
+          "At onset, there was right-sided chest pain, percussion tenderness over the liver region, fever, and jaundice.",
+          "Bronchial secretions were golden yellow, consistent with the color of bilirubin",
+          "The lesions are clustered in the right lower lung"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Routine pleural effusion analysis",
+          "basis_in_stage3_input": "Routine pleural effusion testing was completed: the effusion was milky white, turbid, with clots; white blood cells (+), red blood cells (+++), polymorphonuclear cells 80%, mononuclear cells 20%.",
+          "why_order_this_exam": "The patient developed fever, right-sided chest pain, and rapidly worsening respiratory failure on the basis of COPD, with rapid progression of imaging abnormalities, accompanied by a small right pleural effusion. The purpose of routine pleural fluid examination is first to determine the nature of the effusion and the inflammatory cell composition, and to distinguish infection-related pleuritis, reactive effusion, hemorrhagic effusion, or pleural fluid related to subdiaphragmatic/hepatobiliary lesions. In particular, in this case, a large amount of thin golden-yellow bronchial secretions was present, and it is necessary to clarify whether the pleural cavity is also involved, in order to determine whether the lesion has extended across the diaphragm and whether pleural space contamination or secondary infection is present, and also to provide a basis for whether further pleural drainage, adjustment of anti-infective therapy, and differentiation from lesions related to bronchobiliary fistula are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pleural effusion biochemical examination",
+          "basis_in_stage3_input": "Pleural fluid biochemical analysis showed: TP 22.3g/L, ALB 14.8g/L, LDH 249IU/L",
+          "why_order_this_exam": "The patient is critically ill, with severe pulmonary infection and type II respiratory failure, as well as marked hepatic dysfunction, right upper quadrant tenderness, and a history of cholecystectomy. Biochemical analysis of the pleural effusion is helpful in determining whether the effusion is a transudate or an exudate, and in further assessing whether it is more consistent with infectious pleural effusion, inflammatory reactive changes, or is related to hepatobiliary system abnormalities. Because the core clinical issue in this case is the unclear source of the golden-yellow watery bronchial secretions, the pleural fluid biochemical results can be analyzed together with blood and bronchial secretions to help determine whether the pleural cavity is involved in the pathological pathway, reduce misclassification of the small amount of pleural effusion as merely an accompanying phenomenon, and are meaningful for establishing bile-related pleuropulmonary lesions, assessing whether invasive management is needed, and adjusting the treatment plan.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial secretion pH test",
+          "basis_in_stage3_input": "Bronchial secretion pH 8–9",
+          "why_order_this_exam": "A large volume of thin golden-yellow fluid was drained from the endotracheal tube over a short period of time; the color, character, and persistent large quantity are difficult to explain by typical severe pneumonia or bacterial purulent sputum. Bronchial secretion pH testing was performed to determine whether its chemical environment was abnormal; if markedly alkaline, this would more strongly support the presence of bile components entering the airway and would not support ordinary infectious sputum or aspiration of gastric contents. In combination with the patient's jaundice, elevated ALT/AST and bilirubin, right upper quadrant tenderness, percussion tenderness over the liver region, and history of gallbladder surgery, this test directly addresses the key clinical question of whether the secretions originated from the hepatobiliary system, provides important diagnostic guidance toward bronchobiliary fistula and biliary pneumonia, and also helps exclude differential diagnoses such as simple pulmonary infection and aspiration from a gastroesophageal source.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial secretion smear",
+          "basis_in_stage3_input": "Occasional granular yellow crystals were seen on a bronchial secretion smear, and the bilirubin dry chemistry test was positive; these crystals were considered to be granular bilirubin crystals.",
+          "why_order_this_exam": "The patient’s abnormal bronchial secretions were characterized by a golden-yellow color, watery consistency, and large volume, with poor response to anti-infective therapy, suggesting that they cannot be explained solely as an ordinary pulmonary infection. The primary purpose of a smear of the bronchial secretions is to examine under the microscope for the presence of special components, such as bilirubin-related crystals, food debris, fungi, or other abnormal particles, in order to clarify the source of the secretions. In this case, identification of yellow granular crystals could provide direct morphologic evidence supporting the presence of bile-related components in the secretions, markedly increasing the diagnostic credibility of bronchobiliary fistula/bilious pneumonia, while also helping to argue against diagnoses such as Staphylococcus aureus pneumonia, ordinary purulent sputum, and aspiration of gastric contents, thereby providing a basis for subsequent evaluation and management directed at a hepatobiliary source.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bilirubin dry chemistry test",
+          "basis_in_stage3_input": "Bilirubin dry chemistry test was positive",
+          "why_order_this_exam": "The patient has a past history of cholelithiasis and cholecystectomy, and currently has jaundice, worsening liver function impairment, right upper quadrant tenderness, and percussion tenderness over the liver, along with a large amount of thin golden-yellow fluid appearing in the airway. The purpose of the bilirubin dry chemistry test is to rapidly confirm whether bilirubin is present in the bronchial secretions, thereby biochemically verifying that this is not merely discoloration of purulent sputum, but true admixture of bile-related components. This test is specifically intended to address the key question of whether the golden-yellow fluid in the airway is bile. If positive, it would strongly support a hepatobiliary source, shift the diagnosis from severe pneumonia toward bronchobiliary fistula and biliary pneumonia, and also help guide clinical management strategies such as reducing bile secretion, optimizing postural drainage, and pursuing further hepatobiliary imaging evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchial secretion culture",
+          "basis_in_stage3_input": "Bronchial secretion culture: Burkholderia cepacia, Acinetobacter baumannii",
+          "why_order_this_exam": "The patient has severe respiratory failure and is on mechanical ventilation, with persistent fever, markedly elevated WBC, PCT, and CRP, and rapidly progressive imaging findings, suggesting severe lower respiratory tract infection or a risk of secondary infection. Although the abnormal secretions suggest a hepatobiliary source, once bile enters the bronchi it is highly prone to secondary mixed infection; particular vigilance for drug-resistant hospital-acquired pathogens is warranted, especially in the setting of intubation, mechanical ventilation, and prolonged critical illness. Bronchial secretion culture is performed to establish etiologic evidence of concomitant infection, guide precise adjustment of antimicrobial therapy, distinguish whether bile-induced chemical lung injury or bile-related secondary bacterial infection is predominant, and assess whether clinical deterioration is related to infection with drug-resistant organisms, all of which are very important for formulating the treatment plan and determining prognosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comparison of liver function parameters in blood, pleural effusion, and bronchial secretions",
+          "basis_in_stage3_input": "Comparison of liver function parameters in blood, pleural effusion, and bronchial secretions showed abnormalities in TBIL, DBIL, TBA, ALT, and AST.",
+          "why_order_this_exam": "The diagnostic difficulty in this case lies in demonstrating a substantive connection between the abnormal bronchial secretions and the hepatobiliary system, rather than merely concurrent jaundice or pulmonary infection. The patient had already developed marked liver function abnormalities, jaundice, and right upper abdominal and hepatic region signs, as well as a localized lesion in the right lower lung and a small pleural effusion. Therefore, comparing TBIL, DBIL, TBA, ALT, and AST in blood, pleural fluid, and bronchial secretions can track from the perspective of multiple body fluids whether bile-related components are abnormally present across anatomic compartments. This evaluation is intended to verify whether there is an evidence chain for bile leaking from the hepatobiliary system and entering the airway via the pleural cavity/bronchus, which is of key value for confirming bronchobiliary fistula. It also helps exclude differential diagnoses such as purely infectious secretions, simple staining in the setting of jaundice, and isolated pleural disease, and influences whether subsequent treatment should focus on controlling the bile leak and addressing the hepatobiliary etiology.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT of the liver and biliary tract with contrast enhancement",
+          "basis_in_stage3_input": "Hepatobiliary CT + contrast enhancement: The liver, spleen, pancreas, and bilateral kidneys are normal in morphology, with no obvious abnormal density or abnormal enhancing lesions. The gallbladder is not visualized; irregular metallic density is seen in the gallbladder region. No ascites is seen.",
+          "why_order_this_exam": "In addition to severe pulmonary manifestations, the patient also had a history of cholelithiasis and cholecystectomy, jaundice, marked elevations of transaminases and bilirubin, right upper quadrant tenderness, and hepatic percussion tenderness, suggesting that a hepatobiliary source of disease must be investigated. The purpose of contrast-enhanced hepatobiliary CT was to assess postoperative changes in the gallbladder region, the intrahepatic and extrahepatic biliary ducts, whether there was a focus of infection or fluid collection below the diaphragm, whether there were postoperative residual lesions or indirect signs of bile leak, and to observe whether there were anatomic clues at the thoracoabdominal junction supporting fistula formation. Although CT showed no definite abnormal enhancing lesion, this examination was very important for ruling out obvious hepatic abscess, mass lesion, ascites, and other abdominal lesions that could explain the symptoms, and also provided the imaging background for subsequently shifting the diagnostic focus toward an occult bronchobiliary fistula rather than ordinary abdominal infection or tumor.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Routine pleural effusion analysis was completed. The effusion was milky white, turbid, with clots; WBC (+), RBC (+++), polymorphonuclear cells 80%, mononuclear cells 20%. Pleural effusion biochemistry showed: TP 22.3g/L, ALB 14.8g/L, LDH 249IU/L. Bronchial secretions pH 8-9. Smear of bronchial secretions occasionally showed granular yellow crystals; bilirubin dry chemistry test was positive, and these crystals were considered to be granular bilirubin crystals. Bronchial secretion culture: Burkholderia cepacia, Acinetobacter baumannii. Comparison of liver function indices in blood, pleural effusion, and bronchial secretions showed abnormalities in TBIL, DBIL, TBA, ALT, and AST. Hepatobiliary CT + contrast enhancement: the liver, spleen, pancreas, and bilateral kidneys were normal in morphology, with no obvious abnormal density or abnormal enhancing lesions; the gallbladder was not visualized, irregular metallic density shadows were seen in the gallbladder region, and no ascites was seen.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKsoZ7rtOJK89UtID8g1u96n3Zm4Eux9maZqOz5tIHNpb1e7XT8KpuVgxyq0Ms8jqGZD56vPACpwA/640?wx_fmt=png",
+          "near_text": "Figure 5: Hepatobiliary CT with contrast enhancement (Day +20)",
+          "local_src": "cleaned_cases_image_cache/c1fffe5b61d9256a8fae06281ba5f2f29aa60e48.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Bronchobiliary fistula; 2. Bile pneumonia",
+      "diagnostic_basis": [
+        "History of cholelithiasis and gallbladder surgery",
+        "At onset, there was right-sided chest pain, percussion tenderness over the liver region, fever, and jaundice.",
+        "The bronchial secretions are thin, golden-yellow secretions.",
+        "Pulmonary imaging suggests exudative lesions predominantly in the right lower lung.",
+        "Bronchial secretions pH is alkaline",
+        "Granular bilirubin crystals are visible on bronchial secretion smear",
+        "Markedly elevated bilirubin in bronchial secretions"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Antibiotics were adjusted to meropenem 1 g, every 8 h, and tigecycline 100 mg, every 12 h.",
+        "Caspofungin was added for antifungal therapy",
+        "Elevate the head of the bed >45°",
+        "Continuous somatostatin pump infusion",
+        "oral magnesium sulfate"
+      ],
+      "treatment_response": [
+        "While on mechanical ventilation, the oxygenation index continued to decline (FiO2 100%, PO2 60 mmHg).",
+        "The oxygenation index continued to decline, PO2 56 mmHg, PCO2 65 mmHg, FiO2 100%, SpO2 fluctuating between 88% and 90%.",
+        "The patient's family requested discharge after withdrawal of treatment."
+      ]
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "status": "success",
+  "case_id": "case_53",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 42-year-old Tibetan male. On Day 0, according to his family, he developed \"cough, sputum production with hemoptysis for more than 10 days, and dyspnea for 4 days,\" and was subsequently admitted to our MICU. More than 10 days earlier, after catching a chill, he developed cough, sputum production, and blood-streaked sputum. Initially, there were no chills or fever, no massive hemoptysis with fresh blood, and no hematemesis or melena, but this was not taken seriously, and the above symptoms gradually worsened. More than 4 days earlier, the symptoms further worsened, accompanied by exertional dyspnea. At admission to a local hospital, respiratory rate was 30 breaths/min and heart rate was 130 beats/min. CTPA was completed and considered \"pulmonary embolism, pulmonary infection\"; vascular Doppler ultrasound showed \"mural thrombus in the right basilic vein of the upper extremity.\" He was treated with \"nadroparin\" for anticoagulation, \"cefazolin\" for anti-infective therapy, hemostasis, and other symptomatic supportive treatment. 3 days earlier, the patient's dyspnea worsened, and he was therefore intubated and placed on invasive mechanical ventilation. 2 days earlier, during transport, bloody fluid was suctioned from the endotracheal tube, bright red in color, approximately 200 ml in volume. For further diagnosis and treatment, he was transferred to our hospital EICU for continued treatment and was admitted to our department. Since disease onset, the patient's mental status, appetite, and sleep have been poor; bowel and bladder habits were normal; weight showed no obvious change. Further review of the history found that more than 1 year earlier, because of chest tightness and dyspnea, he had been diagnosed at an outside hospital with \"pulmonary thromboembolism, intermediate-high-risk group.\" He was treated with \"enoxaparin 6000U\" Q12H, anti-infective therapy, and other treatment. After gradual improvement of dyspnea, he took oral anticoagulant medication (dabigatran) for less than 3 months and then discontinued it. Past immunization history is unknown. He denies allergy history and history of surgery or trauma. The patient was born in and has long resided in the Ganzi area of Sichuan Province, and denies travel or residence in epidemic areas. He usually spends long periods \"meditating,\" about 8 to 16 hours daily. His diet mainly consists of tsampa and butter tea. He denies drug abuse, smoking, alcohol use, and other unhealthy habits. He denies a history of dust exposure, toxic exposure, or contact with infectious diseases. This man has no marital or fertility history. His parents and siblings have no similar disease, and he denies a family history of thrombosis. Examination after admission showed: Physical examination: Vital signs: T 36.9℃, P 67 beats/min, R 15 breaths/min, BP 86/50mmHg. Under sedation and analgesia (RASS -1), with oral endotracheal intubation and mechanical ventilation (mode: A/C(VC), F 15 breaths/min, Vt 450ml, PEEP 8cmH2O, FIO2 50%). Bilateral pupils were approximately 1.5mm in diameter, equal, round, with sluggish light reflexes. No subcutaneous petechiae were seen. No superficial lymphadenopathy was palpable. Breath sounds in both lungs were coarse, with a small amount of dry and moist rales audible. Cardiac borders were not enlarged. Heart rate was 67 beats/min, rhythm regular, and no pathologic murmur was heard in any valve area. Abdominal examination could not be cooperated with. No edema was present in either lower extremity. Laboratory tests: 1. Routine ancillary examinations (Day -2): CBC: WBC 9.71*10^9 /l, N% 82.8%, HGB 161g/L, PLT 20*10^9 /l; coagulation: d-dimer 5.34mg/l, PT 13.7s, INR 1.26, APTT 27.7s, ATIII 61.6%; biochemistry: total bilirubin 58.2umol/l, direct bilirubin 38.1umol/l, indirect bilirubin 20.1umol/l, ALT and AST normal, albumin 20.8g/l, creatinine 72umo/l, UREA 5.9 mmo/l, CK 362 IU/L, LDH 621 IU/L; cardiac markers and BNP: troponin T 16.3ng/ml, BNP 256ng/L; urinalysis: red blood cells 66/HP on microscopy; procalcitonin (PCT): 3.6ng/ml. 2. Imaging examination: Emergency chest CTPA (Day -2): multiple patchy, linear, and nodular opacities in both lungs, predominantly in the bilateral lower lobes, considered infectious lesions; small bilateral pleural effusions, with compressive atelectasis of bilateral lung tissue; multiple filling defects in the pulmonary arteries of the right upper lobe, medial segment of the right middle lobe, right lower lobe, and left lower lobe, most pronounced at the origin of the basal segments of the right lower lobe, embolism possible.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQamxLuOiaFMQBcjgFRJYjicdiaUouWt4tn8EFkspqgdrfkiaM2LiaCEASEtA/640?wx_fmt=png",
+          "near_text": "Figure. Chest CTPA (Day -2)",
+          "local_src": "cleaned_cases_image_cache/dd7222c367dbd1b30cdbabcafe331e01ebd6300d.png"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQGCedEjssbFHicMib41XO5iaVdYaJRxzaEnRCxkegTzJLZYQKBECicJzwEg/640?wx_fmt=png",
+          "near_text": "Figure. Chest CTPA (Day -2)",
+          "local_src": "cleaned_cases_image_cache/f6e583e984aeeed03f3ddf7ebbffae5bd5b08bbf.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute recurrent pulmonary thromboembolism (with possible pulmonary infarction)",
+          "supporting_evidence": [
+            "Emergency chest CTPA showed \"multiple filling defects in the pulmonary arteries of the right upper lobe, medial segment of the right middle lobe, right lower lobe, and left lower lobe, most pronounced at the origin of the basal segment of the right lower lobe; pulmonary embolism is possible\"",
+            "The local hospital had considered \"pulmonary embolism\" based on CTPA.",
+            "More than 1 year ago, was diagnosed with \"pulmonary thromboembolism, intermediate-high-risk group\"; took dabigatran orally for less than 3 months and then discontinued it; there is a background of recurrence.",
+            "Vascular Doppler ultrasound showed \"mural thrombus in the basilic vein of the right upper extremity,\" supporting a venous thromboembolic source",
+            "Elevated D-dimer 5.34 mg/L",
+            "After disease onset, progressive dyspnea developed; at admission to an outside hospital, respiratory rate was 30 breaths/min and heart rate was 130 beats/min, consistent with common manifestations of acute pulmonary embolism.",
+            "Chest CT and the accompanying images show multiple patchy opacities in both lungs, predominantly in the lower lobes, which, in conjunction with hemoptysis, may be consistent with pulmonary infarction or post-infarction hemorrhage."
+          ],
+          "opposing_evidence": [
+            "Multiple patchy opacities, linear opacities, and nodular opacities in both lungs, more prominent in the lower lobes; at the same time, elevated PCT 3.6 ng/ml also suggests possible concomitant or alternative infectious lesions, and all pulmonary imaging findings cannot be completely explained by pulmonary embolism alone.",
+            "Approximately 200 mL of bright red bloody fluid was drained through the endotracheal tube; the degree of bleeding was relatively marked, suggesting that in addition to pulmonary embolism, other hemorrhagic lung diseases should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Severe pulmonary infection/community-acquired pneumonia",
+          "supporting_evidence": [
+            "The illness began with “cough, sputum production, and blood-streaked sputum after catching a chill,” after which the symptoms gradually worsened.",
+            "Chest CT showed multiple patchy, linear, and nodular opacities in both lungs, predominantly in the bilateral lower lobes, suggestive of an infectious lesion.",
+            "The accompanying images show consolidation/patchy opacities predominantly in the bilateral lower lungs and a small amount of pleural effusion, consistent with one of the imaging manifestations of infectious pneumonia.",
+            "PCT 3.6 ng/ml elevated, supporting possible bacterial infection",
+            "Breath sounds in both lungs are coarse, with a small amount of dry and moist rales audible.",
+            "The condition progressed to respiratory failure requiring invasive mechanical ventilation, consistent with the severity of severe pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "Initially, there were no chills or fever.",
+            "CTPA clearly showed multiple pulmonary arterial filling defects, suggesting pulmonary embolism is an important concomitant or alternative diagnosis",
+            "There is a definite prior history of pulmonary thromboembolism, and this episode is accompanied by upper extremity venous thrombosis and elevated D-dimer, which does not support infection alone as an explanation for all manifestations."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Diffuse alveolar hemorrhage syndrome",
+          "supporting_evidence": [
+            "The main symptom was hemoptysis, and approximately 200 ml of bright red bloody fluid was suctioned from the endotracheal tube during transport.",
+            "Progressive dyspnea progressing to requiring mechanical ventilation, consistent with severe alveolar hemorrhage causing hypoxemic respiratory failure",
+            "Chest CT showed multiple patchy opacities in both lungs, more prominent in the bilateral lower lungs; diffuse alveolar hemorrhage may present as bilateral patchy infiltrates.",
+            "Platelet count 20*10^9/L, markedly decreased, which may increase the risk of pulmonary hemorrhage"
+          ],
+          "opposing_evidence": [
+            "CTPA showed multiple pulmonary arterial filling defects and right upper extremity venous thrombosis, further supporting pulmonary embolism-related hemoptysis/pulmonary infarction as the more direct cause.",
+            "Hemoglobin 161 g/L, not suggestive of obvious posthemorrhagic anemia",
+            "Stage 1 information did not provide a clear history of autoimmune disease, rash, or other signs of systemic vasculitis"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "ANCA-associated vasculitis or other pulmonary-renal syndrome",
+          "supporting_evidence": [
+            "Hemoptysis and patchy opacities in both lungs may be seen in vasculitis with alveolar hemorrhage.",
+            "Urinalysis: 66 red blood cells/HP on microscopy, suggesting possible renal involvement",
+            "The disease is progressing relatively rapidly, with respiratory failure developing; vigilance is needed for pulmonary-renal syndrome caused by systemic small-vessel vasculitis."
+          ],
+          "opposing_evidence": [
+            "Creatinine 72 umol/L, urea 5.9 mmol/L; no definite renal function impairment was shown in the first stage",
+            "CTPA showed multiple pulmonary arterial filling defects and upper-extremity venous thrombosis, which is more supportive of thromboembolic disease",
+            "No vasculitis-related clues such as sinusitis, rash, arthralgia, or peripheral nerve involvement were provided in the first-stage information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Cough, sputum production, and hemoptysis may be seen in pulmonary tuberculosis.",
+            "Chest CT described multiple patchy, linear, and nodular opacities, some of which have imaging features that may overlap with TB.",
+            "The patient has long resided in a high-altitude region and has had persistent respiratory symptoms for more than 10 days; infectious etiologies should be included in the initial differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Phase 1: clearly document \"denies a history of exposure to infectious diseases\"",
+            "The onset was relatively acute and rapidly progressed to marked dyspnea and mechanical ventilation, which is not the most typical initial presentation of pulmonary TB.",
+            "No significant change in body weight, and no clear description of afternoon low-grade fever, night sweats, or other TB constitutional symptoms.",
+            "CTPA has already indicated multiple pulmonary emboli and venous thrombosis, which better explain the current acute severe presentation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Primary or secondary malignant lung tumor",
+          "supporting_evidence": [
+            "Hemoptysis is present. Chest CT shows a nodular opacity, and malignancy cannot be completely excluded in the initial differential diagnosis.",
+            "Small bilateral pleural effusions can be seen in neoplastic disease"
+          ],
+          "opposing_evidence": [
+            "42 years old, denies smoking, and in the first stage there was no clear history of high-risk tumor exposure.",
+            "Acute onset, with cough, sputum production, and hemoptysis developing within more than 10 days and rapidly progressing to severe dyspnea and mechanical ventilation, which is inconsistent with the usual clinical course of most lung cancers",
+            "No significant change in body weight",
+            "CTPA showed multiple pulmonary arterial filling defects and upper extremity venous thrombosis; thromboembolism and infectious disease should currently be prioritized."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Thrombophilia screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune disease screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Infectious disease screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rule out rapid-onset heparin-induced thrombocytopenia (HIT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Rule out thrombotic thrombocytopenic purpura (TTP)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Assessment of thrombus burden level",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Infection-related tests: sputum specimen (12.27): nucleic acid testing for 13 viruses (-), nucleic acid testing for 13 pathogens (-); smear for bacteria and fungi (-), multiple acid-fast bacilli smears (-), Xpert (-); sputum culture (-); sputum mycobacterial culture and identification (6-week culture -). Fungal tests: G test (-), GM (-). Bacterial: PCT 1.48-0.09 ng/ml. Tuberculosis: TB-Ab (-), TB-IGRA 342.37 pg/ml, PPD skin test induration diameter >20 mm, no blistering, ESR 78 mm/h. Atypical pathogens: Mycoplasma pneumoniae IgG+, Chlamydia pneumoniae IgG+. Pre-transfusion screening panel (-). Hepatitis virology testing (-). Immune-related tests: immunoglobulins: IgA 3770 mg/l, IgE 262 IU/ml, C3 0.717 g/l; IgM, IgG, C4, and RF showed no abnormalities. ANA (+-), ACA (-), ENA antibody panel 13 items (-), anti-dsDNA (-). ANCA (-). Autoimmune liver disease testing (-). T-cell subsets: CD3: 596 cell/ul, CD4: 410 cell/ul, CD8: 149 cell/ul. Tumor-related tests: tumor markers: CA15-3: 25.9 U/ml, CA-125: 136 U/ml, NSE: 21 ng/ml; AFP, CEA, CA19-9, CA72-4, and F-PSA all negative. Thrombophilia screening: thrombophilia (Day -1): protein C: 54.3%, protein S: 43.2%, lupus anticoagulant screening time (LA1): 85.2 s, confirmatory time (LA2): 40.4 s, LA1/LA2: 2.11 (strongly positive); repeat lupus anticoagulant test (Day +10): screening time (LA1): 54.1 s, confirmatory time (LA2): 34.3 s, LA1/LA2: 1.58; anticardiolipin antibody showed no abnormality; anti-Xa: (-). Evaluation for coagulation abnormalities: thromboelastography (TEG): K: 260 s, MA: 39 mm, G: 3191.50 d/sc; conclusion: 1. coagulation factor activity: no abnormality; 2. fibrinogen function: decreased; 3. platelet aggregation function: decreased; 4. fibrinolytic function: no abnormality. Evaluation for thrombotic thrombocytopenic purpura (TTP): no fever, no skin or mucosal bleeding; no hepatosplenomegaly on imaging; creatinine showed no abnormality, but microscopic hematuria was present; Coombs: negative; RBC morphology: slight anisocytosis of mature RBCs, macrocytes readily seen, occasional microcytes, no obvious abnormal morphology of mature RBCs; ADAMTS13 activity: 26.9%. Evaluation for HIT: 4Ts score: 5 points; HIT antibody test: PF4 antibody (-). Evaluation for thrombosis at other sites: echocardiography: right ventricular thrombus detected, with some mobility. Extremity arteriovenous ultrasound, abdominal ultrasound, and urinary tract Doppler ultrasound: portal vein thrombosis detected; no abnormality in extremity vessels. Abdominal CTA: mesenteric vein thrombosis detected.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQmOibp7soAyCVxr40vZibhzOrBpTynCmfrQUYyHx2xddWRbNOWdStVBVA/640?wx_fmt=png",
+            "near_text": "Figure. Thromboelastography",
+            "local_src": "cleaned_cases_image_cache/5917f3a4d42c6648c5f4881fd3152237a2e08426.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQUl7icgEuue7s2XjQM2Imjc2guIxpnmVY9bUOjk2viazXzjuWa8iaduBfQ/640?wx_fmt=png",
+            "near_text": "4Ts score: 5 points",
+            "local_src": "cleaned_cases_image_cache/68765525afc2217badc145372b84b6949a279d2b.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQVZb5ic1BzSAyZWQFicBLGtVBWFjD41qdYYB3wjF3Fksicy7Wh4K0biaz0w/640?wx_fmt=png",
+            "near_text": "Arterial and venous ultrasound of the extremities and abdominal ultrasound, urinary tract color Doppler ultrasound",
+            "local_src": "cleaned_cases_image_cache/4d238767c347e49e717007cf19182a8ca0f53295.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQyc9OJejzDubUefeITfTd0SibI1mBiaz5CCCztL0vnFzvWUVx3tbJ1H4w/640?wx_fmt=jpeg",
+            "near_text": "Arterial and venous ultrasound of the extremities and abdominal ultrasound, urinary tract color Doppler ultrasound",
+            "local_src": "cleaned_cases_image_cache/26c7d57753280f46af3f02eef964edfa877aa348.jpg"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQUmIzZsovXqVicic7ziaFmwfduHyYaUN8ENuGYgibQPcBEWkzJ8sT7G1Hjw/640?wx_fmt=png",
+            "near_text": "Image: Hypoechoic filling is seen within the lumen of the portal vein, with no obvious intraluminal blood flow signal. No thrombosis is seen in the arteries or veins of the extremities. No obvious abnormality is seen in the urinary system.",
+            "local_src": "cleaned_cases_image_cache/58c5716476347fef194f777a14f908d2f3bbd903.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQVwtYTKpHNlPib9BIAsMSicN3ETHBTJR1qMQHU6c7jlrqKCvs18WqgibIw/640?wx_fmt=png",
+            "near_text": "Imaging: Filling defects are seen in the main portal vein and its branches, the superior mesenteric vein, and some of its tributaries; embolism is possible.",
+            "local_src": "cleaned_cases_image_cache/c8a4df8738e41d14772f13d2395c1e55c876a053.png"
+          },
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQwBmHBy6hrQSVL7QkskJR7Uz5gff5mA30ZxoDFr1BLdnGHLkt7TKzmQ/640?wx_fmt=png",
+            "near_text": "Figure. Patient oxygenation status",
+            "local_src": "cleaned_cases_image_cache/e08099b87412965f17c577ad4254510aae5988d7.png"
+          },
+          {
+            "image_id": "fig11",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQ9ibGbJKscupMkGcQbWZM3MBdZpazVn7NsrDgBhjESYwvDiaLiavUSE8icA/640?wx_fmt=png",
+            "near_text": "Figure. Trend of the patient's ancillary test results",
+            "local_src": "cleaned_cases_image_cache/fdcd341bb771c8669dc99d3b4c01cd5bdf28cadd.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Thrombotic thrombocytopenic purpura (TTP)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "No fever, no skin or mucosal bleeding",
+              "No hepatosplenomegaly on imaging",
+              "Creatinine showed no abnormality",
+              "Coombs negative",
+              "No obvious abnormalities in red blood cell morphology; mature red blood cells",
+              "ADAMTS13 activity assay 26.9% (>10%)"
+            ]
+          },
+          {
+            "name": "Heparin-induced thrombocytopenia (HIT)",
+            "evidence": [
+              "After 24 hours of exposure to heparin anticoagulation at an outside hospital, platelet count decreased.",
+              "4Ts score: 5 points"
+            ],
+            "exclusion_reasons": [
+              "PF4 antibody (-)"
+            ]
+          },
+          {
+            "name": "thrombophilia",
+            "evidence": [
+              "Lupus anticoagulant screening strongly positive",
+              "Repeat testing showed positive lupus anticoagulant",
+              "Recurrent pulmonary embolism and thrombosis in multiple organs indicate a heavy systemic thrombotic burden in the patient."
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Thrombotic thrombocytopenic purpura (TTP)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "No fever, no skin or mucosal bleeding",
+          "No hepatosplenomegaly on imaging",
+          "Creatinine showed no abnormality",
+          "Coombs negative",
+          "No obvious abnormalities in red blood cell morphology; mature red blood cells",
+          "ADAMTS13 activity assay 26.9% (>10%)"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Heparin-induced thrombocytopenia (HIT)",
+        "evidence": [
+          "After 24 hours of exposure to heparin anticoagulation at an outside hospital, platelet count decreased.",
+          "4Ts score: 5 points"
+        ],
+        "exclusion_reasons": [
+          "PF4 antibody (-)"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "thrombophilia",
+        "evidence": [
+          "Lupus anticoagulant screening strongly positive",
+          "Repeat testing showed positive lupus anticoagulant",
+          "Recurrent pulmonary embolism and thrombosis in multiple organs indicate a heavy systemic thrombotic burden in the patient."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat complete blood count",
+          "basis_in_stage3_input": "Repeat complete blood count: platelets gradually increased compared with after admission, hemoglobin remained stable, and D-dimer progressively decreased.",
+          "why_order_this_exam": "The patient presented with hemoptysis and dyspnea, subsequently progressed to respiratory failure requiring mechanical ventilation, and had a platelet count of only 20×10^9/L at admission. After heparin exposure at an outside hospital, the patient developed marked thrombocytopenia, with massive hemoptysis and thromboses at multiple sites, representing a critical state with concurrent bleeding and thrombosis. Repeat CBC is primarily for dynamic assessment of whether the platelet count continues to recover, in order to evaluate the course of suspected HIT or consumptive thrombocytopenia and the safety of anticoagulation therapy; at the same time, hemoglobin is monitored for decline to identify whether pulmonary hemorrhage/hemoptysis is ongoing, helping determine whether the condition is stable, whether anticoagulation can be continued or intensified, and to provide a basis for subsequent risk assessment of invasive procedures.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat D-dimer test",
+          "basis_in_stage3_input": "Repeat complete blood count: platelets gradually increased compared with after admission, hemoglobin remained stable, and D-dimer progressively decreased.",
+          "why_order_this_exam": "CTPA has already confirmed multiple pulmonary artery emboli, with concomitant right ventricular thrombus, portal vein thrombosis, and superior mesenteric vein thrombosis, indicating a high systemic thrombotic burden. Repeat D-dimer testing can dynamically reflect changes in in vivo thrombosis and fibrinolytic activity, and, together with imaging and clinical symptoms, assess whether the thrombi tend to stabilize or resolve after anticoagulation. A decrease helps support treatment effectiveness, whereas persistently elevated levels or rebound suggests ongoing active thrombosis or clinical deterioration, which may affect adjustment of anticoagulation intensity, the timing of further follow-up imaging, and prognostic assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "13-virus nucleic acid test",
+          "basis_in_stage3_input": "Sputum and infection-related repeat tests: nucleic acids for 13 viruses and 13 pathogens were all negative",
+          "why_order_this_exam": "The patient initially presented with cough, sputum production, and hemoptysis. Chest CT showed multiple patchy opacities in both lungs and pulmonary infection was at one point considered, and the condition rapidly progressed to respiratory failure, requiring exclusion of infectious causes such as viral pneumonia. This test is used to screen for common respiratory viruses in the setting of severe pulmonary opacities and respiratory failure, helping determine whether the pulmonary lesions are caused by viral infection and distinguish them from post-pulmonary infarction hemorrhage, secondary bacterial infection, and other conditions. A negative result helps reduce the likelihood of viral infection as the primary cause, avoids unnecessary antiviral therapy, and supports focusing the diagnosis on thromboembolic-related lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "13-pathogen nucleic acid test",
+          "basis_in_stage3_input": "Sputum and infection-related repeat tests: nucleic acids for 13 viruses and 13 pathogens were all negative",
+          "why_order_this_exam": "The patient has cough, sputum production, bilateral lung infiltrates, and elevated PCT. Clinically, pulmonary embolism alone cannot fully explain all pulmonary manifestations; therefore, bacterial or atypical pathogen infection should be ruled out. Pathogen nucleic acid testing is helpful for rapidly identifying common respiratory pathogens after antibacterial agents have already been used and the positive rate of routine culture has decreased, and for determining whether there is an infection requiring targeted treatment. A negative result, together with subsequent decline in PCT and radiographic absorption, may suggest that infection is not the persistently predominant factor, thereby helping narrow the differential diagnosis and optimize the anti-infective regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear examination for bacteria/fungi/mycobacteria",
+          "basis_in_stage3_input": "Smear negative for bacteria / fungi / mycobacteria",
+          "why_order_this_exam": "The patient has hemoptysis and bilateral patchy and nodular opacities. In addition to common bacterial infection, vigilance is also needed for diseases such as fungal infection and pulmonary tuberculosis that can cause hemoptysis and diffuse pulmonary opacities. Sputum smear is an important basic test for rapidly obtaining etiologic clues in critically ill patients and can help promptly screen for bacteria, fungi, and mycobacteria, thereby aiding differentiation from pulmonary infarction, alveolar hemorrhage, or immune-related lung injury. Although a negative result cannot absolutely exclude these conditions, when combined with negative culture, nucleic acid, and fungal test results, it can markedly reduce the likelihood that a special infection is the primary cause, and also lessen the urgency of performing high-risk invasive procedures in the setting of coexisting severe thrombosis and bleeding.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum culture",
+          "basis_in_stage3_input": "Sputum culture negative",
+          "why_order_this_exam": "At the initial stage, pulmonary imaging suggested an infectious lesion, and PCT had previously been markedly elevated; therefore, sputum culture is needed to identify cultivable pathogens and to guide targeted assessment of antibacterial therapy. Sputum culture can provide direct evidence regarding whether bacterial pneumonia is present and whether the antibiotic regimen needs to be adjusted. Particularly in critically ill patients receiving mechanical ventilation, it can also help identify the risk of hospital-acquired infection. A negative culture, together with nucleic acid testing, smear results, and improvement in PCT, helps suggest that infection has been controlled after anti-infective treatment or that infection is not the primary issue, thereby shifting the clinical focus to the management of pulmonary embolism, hemoptysis due to pulmonary infarction, and a hypercoagulable state.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat PCT",
+          "basis_in_stage3_input": "PCT gradually decreased from 3.6 ng/ml to 0.09 ng/ml",
+          "why_order_this_exam": "The patient had cough, sputum production, bilateral lung infection-like opacities, and an initially elevated PCT, and had received anti-infective therapy; however, there was also definite pulmonary embolism and a risk of pulmonary hemorrhage, so clinically it is necessary to distinguish infectious inflammation from thrombus-related lung injury. Serial repeat PCT testing can assess the activity of bacterial infection and the response to anti-infective therapy, and determine whether the pulmonary lesions are still driven by bacterial infection. A marked decrease in PCT supports that the infection is controlled, helps to de-escalate or discontinue broad-spectrum antibiotics, avoids misinterpreting persistent hypoxemia and hemoptysis as progression of infection, and also supports safely advancing anticoagulation therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-IGRA",
+          "basis_in_stage3_input": "TB-related TB-IGRA 342.37pg/ml",
+          "why_order_this_exam": "The patient has cough, hemoptysis, and multiple patchy, linear, and nodular opacities on chest CT; pulmonary TB cannot be completely excluded in the initial differential diagnosis. TB-IGRA is used to assess whether there is immune sensitization to Mycobacterium tuberculosis and provides indirect evidence for a TB-related etiology, especially when sputum smear and culture are inconclusive. This test is intended to determine whether the pulmonary opacities and hemoptysis are related to TB, thereby affecting isolation, protection, and anti-TB treatment evaluation; however, a positive result more strongly suggests a history of infection or latent infection, and comprehensive judgment is still required in conjunction with sputum pathogen testing, imaging evolution, and the clinical course, to avoid misattributing the current critical manifestations mainly caused by thromboembolism to active TB.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PPD skin test",
+          "basis_in_stage3_input": "PPD skin test induration >20 mm",
+          "why_order_this_exam": "Because the patient has hemoptysis and multiple abnormal pulmonary imaging findings, TB, an important differential diagnosis, needs to be systematically evaluated clinically. The PPD skin test is used to provide supplementary immunologic evidence for TB and to corroborate the TB-IGRA in determining whether the patient has a background of TB infection. Its role is to help explain another possible source of the pulmonary lesions and to provide reference for whether further TB-related testing, isolation measures, and treatment decisions are needed; however, in this case it is still necessary to consider negative sputum mycobacterial testing, Xpert, and culture, as well as post-treatment imaging absorption and a decline in PCT, to avoid misdiagnosing active TB based solely on a positive skin test.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal G/GM test",
+          "basis_in_stage3_input": "Fungal G/GM tests negative",
+          "why_order_this_exam": "The patient's condition is severe, with bilateral lung infiltrative opacities, hemoptysis, and respiratory failure. Fungal infection, especially invasive fungal disease, can also present with pulmonary opacities and hemoptysis and should be included in the differential diagnosis. The G/GM tests can screen for invasive fungal infection under relatively noninvasive conditions and help determine whether antifungal therapy needs to be initiated promptly. Negative results, together with sputum smear/culture and clinical improvement, can significantly reduce the likelihood of fungal infection, decrease unnecessary antifungal use, and also make the pulmonary imaging findings more suggestive of controlled infection or thrombotic/hemorrhagic-related changes.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin A (IgA)",
+          "basis_in_stage3_input": "Elevated immunoglobulins IgA and IgE",
+          "why_order_this_exam": "The patient has hemoptysis, diffuse pulmonary opacities, microscopic hematuria, and immunologic abnormalities, and systemic immune dysregulation or a background of chronic inflammation should be evaluated. Measuring IgA can help assess humoral immune status and whether immune activation is present, and can aid in overall determination of whether the pulmonary lesions and hematuria may be related to immune-mediated disease. Although an isolated elevation in IgA cannot establish a diagnosis, when considered together with weakly positive ANA, decreased C3, and other results, it may suggest the need for continued attention to immune-related differential diagnosis, help explain some abnormal manifestations caused by noninfectious and not purely thrombotic factors, and provide a basis for whether to further complete autoimmune evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin E (IgE)",
+          "basis_in_stage3_input": "Elevated immunoglobulins IgA and IgE",
+          "why_order_this_exam": "In the setting of pulmonary opacities, hemoptysis, and largely negative infectious screening, measurement of IgE helps assess whether there is an allergic/immune activation background or clues to rare factors such as parasites, although there is no direct evidence in this case to support the latter. This test is primarily used as part of immune screening to supplement the assessment of systemic immune status from non-thrombotic and non-routine infectious perspectives. Its results need to be interpreted in conjunction with imaging, infectious pathogen testing, and autoantibodies. It has limited value for establishing a definitive diagnosis, but can provide supportive information for excluding certain immune abnormality backgrounds and understanding the patient's abnormal inflammatory response.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complement C3",
+          "basis_in_stage3_input": "Decreased complement C3",
+          "why_order_this_exam": "In addition to pulmonary embolism and hemoptysis, the patient also has clues such as microscopic hematuria and weakly positive ANA, and it is necessary to differentiate whether there is concomitant immune complex-related disease or another systemic autoimmune disease. Complement C3 testing can reflect complement consumption and is helpful for assessing whether there is an active immune process and for explaining pulmonary-renal manifestations. Decreased C3 heightens suspicion for an immune-mediated etiology and helps determine whether further follow-up of autoantibodies and evaluation of renal involvement are needed; if there is no other immunologic evidence on subsequent testing, it can also serve as one of the important negative background findings for excluding systemic autoimmune disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "basis_in_stage3_input": "Weakly positive ANA",
+          "why_order_this_exam": "The patient has hemoptysis, bilateral pulmonary infiltrates, microscopic hematuria, and complement abnormalities. Although the primary pathology has mainly indicated thromboembolism, systemic autoimmune disease causing alveolar hemorrhage or a pulmonary-renal syndrome still needs to be excluded. ANA, as a basic autoantibody screening test, can help identify an underlying connective tissue disease such as systemic lupus erythematosus, and is particularly suggestive in the presence of thrombosis, thrombocytopenia, and decreased complement levels. The result may affect whether to further pursue more specific autoantibodies, whether to consider immunosuppressive therapy, and how to interpret the relationship between a positive lupus anticoagulant and thrombosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ACA",
+          "basis_in_stage3_input": "ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver disease tests were all negative",
+          "why_order_this_exam": "The patient has recurrent pulmonary embolism, with concomitant thrombosis of the right ventricle, portal vein, and mesenteric vein. Lupus anticoagulant is strongly positive, and an antiphospholipid-related thrombophilic state is highly suspected clinically. ACA testing is used to assess a key component of the antiphospholipid antibody profile, helping determine whether antiphospholipid syndrome-related laboratory criteria are met and explaining thrombosis at multiple sites. Even if negative this time, antiphospholipid syndrome still cannot be excluded in the context of positive lupus anticoagulant; however, a negative result helps clarify the antibody profile, refine the differential diagnosis, and guide subsequent repeat testing and long-term anticoagulation strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ENA",
+          "basis_in_stage3_input": "ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver disease tests were all negative",
+          "why_order_this_exam": "The patient has weakly positive ANA, decreased C3, hemoptysis, and microscopic hematuria, and further evaluation is needed to determine whether there is connective tissue disease-related pulmonary and renal involvement. The ENA antibody panel can cover a variety of connective tissue disease-related autoantibodies, and is used to clarify the clinical significance of weakly positive ANA, helping to exclude an autoimmune disease background such as systemic sclerosis, Sjögren syndrome, and mixed connective tissue disease. A negative result would help reduce the likelihood that connective tissue disease is the current primary etiology, allowing the clinical focus to shift more toward hypercoagulable states and thromboembolic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-dsDNA",
+          "basis_in_stage3_input": "ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver disease tests were all negative",
+          "why_order_this_exam": "In the presence of weakly positive ANA, decreased complement C3, thrombocytopenia, and hematuria, targeted evaluation is needed for the possibility of systemic lupus erythematosus and secondary antiphospholipid syndrome. Anti-dsDNA is a relatively specific marker for SLE, and the purpose of testing is to determine whether there is lupus-related disease presenting with thrombosis, thrombocytopenia, or pulmonary hemorrhage-like manifestations. A negative result helps argue against active SLE as the current primary cause, avoids unnecessary immunosuppressive therapy, and supports focusing the thrombotic tendency on a lupus anticoagulant-positive related state rather than definite lupus itself.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "basis_in_stage3_input": "ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver disease tests were all negative",
+          "why_order_this_exam": "The patient previously had hemoptysis, bilateral patchy opacities in both lungs, respiratory failure, and microscopic hematuria; this constellation of findings needs to be differentiated from alveolar hemorrhage or pulmonary-renal syndrome caused by ANCA-associated vasculitis. The clinical purpose of ANCA testing is to determine whether the current pulmonary opacities and hematuria are caused by systemic small-vessel vasculitis, rather than simply pulmonary embolism, pulmonary infarction, or infection. A negative result can substantially reduce the likelihood of vasculitic pulmonary-renal syndrome and is of important value for excluding a key differential diagnosis and avoiding inappropriate use of glucocorticoids/immunosuppressants.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune hepatitis-related tests",
+          "basis_in_stage3_input": "ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver disease tests were all negative",
+          "why_order_this_exam": "Biochemical testing indicated elevated bilirubin and hypoalbuminemia. Although transaminases were normal, autoimmune liver disease should be excluded during the systemic immune workup to explain the hepatobiliary abnormalities and to rule out a systemic autoimmune background. This evaluation helps determine whether the bilirubin abnormality is related to immune-mediated liver injury, thereby distinguishing it from factors such as infection, hypoxia, thrombus-related hepatic congestion, or poor nutritional status. A negative result can reduce the likelihood of hepatic autoimmune disease as a major comorbid condition, facilitating subsequent focus of treatment on anticoagulation, infection control, and supportive care.",
+          "requirement": "required"
+        },
+        {
+          "exam": "lupus anticoagulant",
+          "basis_in_stage3_input": "Lupus anticoagulant strongly positive",
+          "why_order_this_exam": "The patient has a prior history of pulmonary embolism and now has acute recurrent pulmonary embolism, accompanied by thromboses at multiple sites including the right ventricle, portal vein, and mesenteric veins, suggesting a definite thrombophilic background. Lupus anticoagulant testing is one of the core laboratory tests for evaluating antiphospholipid syndrome, with the aim of explaining why recurrent and extensive venous thromboses occurred in a relatively young patient. A strongly positive result directly supports an antiphospholipid-related thrombophilic state and plays a key role in establishing the need for long-term anticoagulation, assessing recurrence risk, and explaining the multi-organ thrombotic burden.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein C",
+          "basis_in_stage3_input": "Protein C 54.3% and protein S 43.2% decreased",
+          "why_order_this_exam": "The patient has recurrent pulmonary embolism with thrombosis in multiple venous sites, requiring a systematic evaluation for congenital or acquired thrombophilic factors. Protein C testing is used to assess whether natural anticoagulant system function is reduced, in order to explain why the patient developed recurrent, extensive thrombosis at a young age. A decreased result may suggest thrombophilia or changes related to acute thrombosis/consumption; although it must be interpreted in the context of the acute-phase state, it is important for assessing recurrence risk, planning long-term anticoagulation, and subsequent outpatient thrombophilia evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Protein S",
+          "basis_in_stage3_input": "Protein C 54.3% and protein S 43.2% decreased",
+          "why_order_this_exam": "Like protein C, protein S is an important component of the natural anticoagulant system. The patient has recurrent pulmonary embolism, right ventricular thrombus, and visceral venous thrombosis, and it is necessary to assess whether there is a deficiency of natural anticoagulant factors to explain the unusually heavy thrombotic burden. Reduced protein S may further support an underlying thrombophilic state, help refine the etiologic diagnosis, and influence decisions regarding the duration of anticoagulation, monitoring for recurrence, and further evaluation of family/genetic factors.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody",
+          "basis_in_stage3_input": "Anticardiolipin antibody normal",
+          "why_order_this_exam": "The patient has strongly positive lupus anticoagulant and thrombosis at multiple sites, and an antiphospholipid antibody profile evaluation needs to be completed. Anticardiolipin antibodies are an important component of the diagnosis of antiphospholipid syndrome; this test can help confirm whether a double-positive or multiple-positive antibody pattern is present, thereby further stratifying the risk of recurrent thrombosis. Although the result in this case is normal, its negativity still has differential value: it may indicate that the patient does not have the typical pattern of positivity for the full antiphospholipid antibody panel, but rather a laboratory phenotype dominated by lupus anticoagulant, which is meaningful for the diagnostic pathway and subsequent follow-up testing arrangements.",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "basis_in_stage3_input": "Tumor markers: CA125 and NSE were mildly elevated; the remainder were negative.",
+          "why_order_this_exam": "The patient is a relatively young man, yet he has recurrent pulmonary embolism and multiorgan venous thrombosis; malignancy-associated hypercoagulability should be included in the etiologic workup. At the same time, his chest CT shows nodules and patchy opacities, and hemoptysis also suggests that the possibility of malignancy cannot be completely ignored. Tumor marker testing is used for an initial search for clues to an underlying malignancy, to help explain the thrombotic tendency and assist in determining whether the pulmonary opacities may be tumor-related; although specificity is limited, the results may determine whether further imaging or specialty follow-up is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CA125",
+          "basis_in_stage3_input": "Tumor markers: CA125 and NSE were mildly elevated; the remainder were negative.",
+          "why_order_this_exam": "In the setting of thrombosis at multiple sites and abnormal chest imaging, CA125, as one of the tumor markers, is primarily used as a supplementary assessment for the presence of an underlying malignancy or conditions related to serosal involvement. The patient's chest CT showed a small pleural effusion and pulmonary lesions. Although a mild elevation in CA125 lacks specificity and may also be seen in inflammation, pleural involvement, and other conditions, the significance of testing lies in providing clues for cancer screening and in integrated interpretation with the clinical and imaging findings. The result cannot establish a diagnosis on its own, but if the abnormality persists, it may indicate the need for continued follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NSE",
+          "basis_in_stage3_input": "Tumor markers: CA125 and NSE were mildly elevated; the remainder were negative.",
+          "why_order_this_exam": "The patient has hemoptysis and pulmonary nodules/patchy opacities. NSE testing is primarily used for preliminary screening for pulmonary tumors, especially those related to neuroendocrine origin. Considering that the patient also has extensive thrombosis, if an occult tumor is also present, it could explain the hypercoagulable tendency; therefore, this test is helpful as a supplementary etiologic evaluation. Mild elevation of NSE is not specific and should be interpreted in conjunction with age, imaging, lack of smoking history, and radiographic resolution after anti-infective and antithrombotic treatment, and is used more for exclusion and subsequent follow-up reference.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Thromboelastography",
+          "basis_in_stage3_input": "Coagulation-related: thromboelastography indicates decreased fibrinogen function and decreased platelet aggregation function",
+          "why_order_this_exam": "The patient has acute pulmonary embolism, right heart and visceral venous thrombosis, as well as massive hemoptysis and severe thrombocytopenia, creating a clinical challenge in balancing anticoagulation and bleeding risk. Thromboelastography can dynamically assess overall coagulation, fibrinogen function, platelet contribution, and fibrinolytic status, and can better reflect the overall picture when bleeding and thrombosis coexist than conventional coagulation testing. This test mainly addresses key questions such as whether the patient currently meets the conditions to continue anticoagulation, whether the hemoptysis is related to a coagulation disorder, and whether blood product transfusion or adjustment of the treatment strategy is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "ADAMTS13 activity",
+          "basis_in_stage3_input": "ADAMTS13 activity 26.9%",
+          "why_order_this_exam": "On admission, the patient had a platelet count of only 20×10^9/L, accompanied by elevated LDH, hematuria, and critical illness, requiring differentiation from thrombotic microangiopathies such as TTP, because a misdiagnosis would directly affect whether emergency plasma exchange was needed. ADAMTS13 activity testing was used to assess for TTP caused by severe deficiency. A result of 26.9% clearly does not support typical TTP and can help exclude this high-risk differential diagnosis, avoid unnecessary plasma exchange, and shift the diagnostic and treatment focus to HIT, hypercoagulable state, and management of thrombosis and thromboembolism.",
+          "requirement": "required"
+        },
+        {
+          "exam": "4Ts score",
+          "basis_in_stage3_input": "4Ts score: 5 points",
+          "why_order_this_exam": "After receiving heparin-class anticoagulation at an outside hospital, the patient developed marked thrombocytopenia within a short period, while thrombotic events did not decrease; instead, there was recurrence and thrombosis at multiple sites, necessitating vigilance for HIT. The 4Ts score is a clinical pretest probability assessment tool for HIT; by incorporating the magnitude of platelet count decline, the time window, thrombotic complications, and the degree to which other causes can explain the findings, it can be used to assess the likelihood of HIT. A score of 5 points indicates intermediate probability, prompting further clinical PF4 antibody testing and timely avoidance of continued heparin use, which is crucial for reducing recurrent thrombosis and guiding the switch to non-heparin anticoagulation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PF4-HIT antibody",
+          "basis_in_stage3_input": "PF4-HIT antibody negative",
+          "why_order_this_exam": "Because the patient rapidly developed severe thrombocytopenia after heparin exposure and also had new or progressive thrombosis, HIT is one of the key diagnoses that must be clarified as soon as possible. PF4-HIT antibody testing is used to confirm the clinical suspicion suggested by the 4Ts score and to determine whether this is immune-mediated HIT, which directly affects the choice of anticoagulant therapy. A negative result substantially weakens the diagnosis of HIT, helps exclude this differential diagnosis, supports the use of a non-heparin anticoagulation regimen after assessment of bleeding risk, and avoids attributing the thrombocytopenia entirely to HIT long term.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "basis_in_stage3_input": "Echocardiography: newly developed mobile right ventricular thrombus.",
+          "why_order_this_exam": "The patient had confirmed pulmonary embolism and developed worsening dyspnea, hypoxemia, and hemodynamic instability. Echocardiography can rapidly assess whether there is increased right heart strain and intracardiac thrombus. This examination was particularly important in this case because it detected a newly developed mobile right ventricular thrombus, directly indicating a large thrombus burden and a risk of further embolization. Its results are of critical importance for risk stratification, prognostic assessment, selection of the anticoagulation regimen, and determining whether more aggressive thrombus management is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Vascular ultrasound",
+          "basis_in_stage3_input": "Vascular ultrasound / CTA: portal vein thrombosis, mesenteric vein thrombosis; no abnormalities detected in the arteries or veins of the extremities",
+          "why_order_this_exam": "The patient has recurrent pulmonary embolism, and no definite persistent thrombotic source was identified in the extremity veins; further evaluation is needed to determine whether thrombosis is present in the venous systems at other sites. Vascular ultrasound can conveniently screen for abdominal and peripheral venous thrombosis and clarify the distribution and burden of systemic thrombosis. In this case, portal vein thrombosis was identified, while no abnormalities were seen in the arteries or veins of the extremities, suggesting that the thrombosis is not confined to the traditional deep venous system of the lower extremities, further supporting the presence of a systemic prothrombotic state and affecting the subsequent intensity and duration of anticoagulation as well as the focus of follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CTA",
+          "basis_in_stage3_input": "Vascular ultrasound / CTA: portal vein thrombosis, mesenteric vein thrombosis; no abnormalities detected in the arteries or veins of the extremities",
+          "why_order_this_exam": "In the setting of pulmonary embolism, right heart thrombus, and suspected abdominal vascular involvement, CTA helps more clearly demonstrate intraluminal filling defects, their extent, and the sites involved, and assess the systemic thrombotic burden. This examination primarily addresses whether there is deep or visceral venous thrombosis that is difficult to comprehensively visualize by ultrasound, whether there is thrombus progression, and whether there is associated risk of organ perfusion compromise. Imaging confirmed involvement of the portal vein and mesenteric veins, which is important for establishing the diagnosis of extensive venous thromboembolism, assessing disease severity, and guiding continued anticoagulation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Abdominal CTA",
+          "basis_in_stage3_input": "Abdominal CTA showed multiple filling defects in the portal vein and superior mesenteric vein.",
+          "why_order_this_exam": "The patient has already developed thrombosis at multiple sites, and abdominal ultrasound suggests portal vein thrombosis, requiring further precise evaluation of the abdominal visceral venous system. Abdominal CTA can determine whether there are filling defects in the portal vein and superior mesenteric vein, as well as their extent and number, thereby assessing for mesenteric venous thrombosis and the potential risk of intestinal ischemia. This examination has direct value for confirming abdominal venous thrombosis, assessing the systemic thrombotic burden, explaining why long-term anticoagulation is needed, and identifying the risk of severe complications.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up chest CT",
+          "basis_in_stage3_input": "Follow-up imaging: after treatment, the lesions on chest CT were more absorbed than before",
+          "why_order_this_exam": "The patient's initial chest CT showed multiple patchy opacities, linear opacities, and nodular opacities in both lungs, along with hemoptysis, elevated infection markers, and confirmed pulmonary embolism; therefore, the pulmonary opacities may have been due to infection, pulmonary infarction, pulmonary hemorrhage, or the coexistence of multiple factors. Repeat chest CT was used for dynamic assessment of the evolution of the pulmonary lesions and to observe whether the lesions were absorbed after anti-infective therapy and anticoagulation, thereby distinguishing persistent infection, progressive hemorrhage, and thrombus-related secondary changes. Absorption of the lesions supports effective treatment, also helps reduce suspicion for other diagnoses such as TB, fungal infection, or tumor, and guides subsequent respiratory support and post-discharge follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bedside echocardiography",
+          "basis_in_stage3_input": "Bedside echocardiography indicated disappearance of the right ventricular thrombus.",
+          "why_order_this_exam": "The patient was found to have a mobile thrombus in the right ventricle, representing a high-risk embolic source, and the initial condition was critical, making frequent transport unsuitable. Bedside echocardiography can provide continuous dynamic assessment of changes in the right ventricular thrombus, right heart load, and treatment response in the intensive care setting, and is both safe and timely. The main clinical questions were whether the intracardiac thrombus had decreased in size or resolved after anticoagulation, whether there was still a risk of recurrent pulmonary embolism, and whether the current treatment was effective. On repeat examination in this case, the right ventricular thrombus had disappeared, directly supporting the effectiveness of non-heparin anticoagulation therapy and providing a basis for subsequent de-escalation of disease severity and continuation of treatment.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeat CBC: platelet count gradually increased compared with after admission, hemoglobin remained stable, and D-dimer progressively decreased. Repeat sputum and infection-related testing: nucleic acid tests for 13 viruses and 13 pathogens were all negative; smear for bacteria/fungi/mycobacteria was negative, and sputum culture was negative; PCT gradually decreased from 3.6 ng/ml to 0.09 ng/ml; TB-related tests showed TB-IGRA 342.37 pg/ml and PPD skin test induration >20 mm; fungal G/GM tests were negative. Immunologic and thrombophilia screening: immunoglobulins IgA and IgE were elevated, complement C3 was decreased; ANA was weakly positive, while ACA, ENA, anti-dsDNA, ANCA, and autoimmune liver antibodies were all negative; lupus anticoagulant was strongly positive, and protein C 54.3% and protein S 43.2% were decreased; anticardiolipin antibody was normal. Tumor markers: CA125 and NSE were mildly elevated, and the remainder were negative. Coagulation-related: thromboelastography suggested decreased fibrinogen function and decreased platelet aggregation function; ADAMTS13 activity 26.9%; 4Ts score 5 points, PF4-HIT antibody negative. Echocardiography: newly developed mobile right ventricular thrombus. Vascular ultrasound/CTA: portal vein thrombosis and mesenteric vein thrombosis; no abnormalities were seen in the arteries and veins of the extremities; abdominal CTA showed multiple filling defects in the portal vein and superior mesenteric vein. Repeat imaging: after treatment, chest CT lesions were absorbed compared with before, and bedside echocardiography indicated disappearance of the right ventricular thrombus.",
+      "images": [
+        {
+          "image_id": "fig12",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQeL1GhGLicqL3Fj4NAWkyIxvUslZhHa6EsSzs0MZyhgAPicLAFKIk17IQ/640?wx_fmt=png",
+          "near_text": "Figure. Comparison of bedside chest radiographs before and after treatment",
+          "local_src": "cleaned_cases_image_cache/84700ae2733c4c88a7c4c877edfd3dfc25b800b6.png"
+        },
+        {
+          "image_id": "fig13",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQ2tQadgicbbGnwibxpQlJxoKFkSibPbUDiaQD3cZYc5iad0HkSnCd75ZfqZA/640?wx_fmt=png",
+          "near_text": "Figure. Comparison of bedside echocardiography before and after treatment",
+          "local_src": "cleaned_cases_image_cache/e178bd739ae69b555f96fce7158459692026f9a9.png"
+        },
+        {
+          "image_id": "fig14",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKZgKHuCJubpsiaWGGkY26nQMB3kIY3bQFzNrVQ0icxeNVaMP1vM7JXbzn4KjYsqBAN1ez1JydDPLFA/640?wx_fmt=png",
+          "near_text": "Figure. Changes on the patient's chest CT",
+          "local_src": "cleaned_cases_image_cache/ab964e83a68465ecb29926efdd8988c3b86e6e4d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Acute pulmonary thromboembolism, intermediate-high-risk group; massive hemoptysis; pulmonary infection; type I respiratory failure; right heart thrombosis and venous thrombosis (main trunk and branches of the portal vein, superior mesenteric vein thrombosis); thrombocytopenia: HIT not excluded, other causes to be ruled out; coagulation dysfunction; hypoalbuminemia; electrolyte metabolic disorder; hematuria, cause to be determined; elevated bilirubin, cause to be determined.",
+      "diagnostic_basis": [
+        "Middle-aged man, with a long-term history of meditating 8-16 hours daily, with high-risk factors for venous thrombosis, a prior history of pulmonary embolism, and no standardized anticoagulation.",
+        "Clinical manifestations included cough, hemoptysis, and dyspnea; intermittent suctioning of bright red blood through the endotracheal tube, accompanied by shock and hypoxemia",
+        "Admission complete blood count showed markedly decreased platelets (PLT 20×10^9/L), and markedly elevated D-dimer (5.34mg/L).",
+        "Emergency chest CTPA showed multiple filling defects in the pulmonary arteries of the right upper, middle, and lower lobes and the left lower lobe, consistent with pulmonary embolism.",
+        "Echocardiography revealed a mobile thrombus in the right ventricle, and vascular ultrasound and abdominal CTA confirmed portal vein and mesenteric vein thrombosis.",
+        "Thrombophilia screening indicated decreased protein C and protein S, with strongly positive lupus anticoagulant, suggesting thrombophilia",
+        "After heparin was used at an outside hospital, the platelet count dropped sharply within a short period of time; 4Ts score 5, highly suspicious for heparin-induced thrombocytopenia (HIT).",
+        "Thrombotic thrombocytopenic purpura (TTP) excluded: ADAMTS13 activity 26.9%, no typical pentad, Coombs test negative",
+        "Infection markers suggested pulmonary infection, but screening for special pathogens such as viruses, TB, and fungi was negative.",
+        "After anticoagulation treatment with non-heparin drugs, the platelet count recovered, the right heart thrombus disappeared, and the pulmonary imaging findings were absorbed; the diagnosis was clinically supported."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Hold anticoagulation; suspend repositioning and bronchoscopy, reduce the frequency of suctioning; increase sedation and analgesia; adjust ventilator support mode: A/C (VC), F 15 breaths/min, Vt 450 ml, PEEP 8 cmH2O, FiO2 50%",
+        "Piperacillin-tazobactam 4.5g q8h for anti-infective treatment; Transmetil 1.0g qd to improve cholestasis; nutritional support",
+        "12-30 fondaparinux sodium 2.5 mg QD for anticoagulation; 12-31 fondaparinux sodium 5 mg QD for anticoagulation",
+        "After improvement and discharge, rivaroxaban was continued for maintenance anticoagulation."
+      ],
+      "treatment_response": [
+        "After 7 days of hospitalization, the patient was weaned from mechanical ventilation, extubated, and transferred to the general ward of our department to continue anticoagulation; serial monitoring showed continued improvement in the patient's platelet count, hemoglobin, and D-dimer.",
+        "Daily bedside critical care echocardiography monitoring showed that the right heart thrombus was significantly reduced compared with before; repeat examination 1 week later showed no right ventricular thrombus.",
+        "Repeat chest CT and chest radiograph after more than 2 weeks both showed that the patient's pulmonary imaging findings had improved compared with before.",
+        "Telephone follow-up: the patient’s current general condition is fair, and vital signs are stable."
+      ]
+    }
+  }
+}

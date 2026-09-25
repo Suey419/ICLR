@@ -1,0 +1,402 @@
+{
+  "status": "success",
+  "case_id": "case_72",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 22-year-old woman from Huainan, Anhui. She developed wheezing and dyspnea soon after birth, accompanied by cough, expectoration of white mucoid sputum, and nasal congestion. She was evaluated at a hospital in Anhui and was diagnosed with infantile pneumonia and congenital pulmonary hypoplasia. She was treated with anti-infective, antiviral, and antiasthmatic therapy, but her symptoms did not improve significantly. Beginning in around Day 0, the patient noted worsening cough and sputum production, with yellow purulent sputum, approximately 100 ml daily, without fever, hemoptysis, or dyspnea. She then presented to a children's hospital in Anhui, where fiberoptic bronchoscopy showed chronic inflammation of the bronchial mucosa; acid-fast staining of BALF was negative; chest CT showed bilateral interstitial changes and bronchiectasis. She was treated with dexamethasone tablets for anti-inflammatory therapy, but her symptoms still did not improve significantly. In approximately 152 months after Day 0, the patient presented to the thoracic surgery department of our hospital. Chest CT showed bilateral bronchiectasis with infection, and both acid-fast staining of BALF and T-SPOT were negative. In October, she was transferred to our department for diagnosis and treatment with the chief complaint of 'recurrent cough and sputum production for more than 20 years, worsening for 12 years.' The patient had no special past medical history, denied TB and any history of close contact, and had no history of drug allergy. Personal history was unremarkable. She was unmarried, and her family history was unremarkable. After admission, a physical examination was first performed. Temperature 36.5℃, heart rate 88 beats/min, respiratory rate 20 breaths/min, blood pressure 120/70 mmHg, SPO2 99%. Bilateral chest respiratory excursion was normal, tactile fremitus was symmetric, percussion of both lungs was resonant, and auscultation revealed decreased breath sounds in both lungs, without pleural friction rub. Cardiac, abdominal, and neurologic examinations showed no abnormalities. There was no edema of either lower extremity and no digital clubbing.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNclzR9sQ0JBrsK831ZicopPgV5SQYRVJ3Dow8hBUV6IJCvd1CqaB8N1JZQ/640?wx_fmt=png",
+          "near_text": "Figure 1. Chest CT, approximately 152 months after Day 0",
+          "local_src": "cleaned_cases_image_cache/a44f4981750a8e97950af08ad98f0bb74a85d7fa.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Primary ciliary dyskinesia (Kartagener syndrome spectrum/non-Kartagener type)",
+          "supporting_evidence": [
+            "Symptoms of wheezing, dyspnea, cough, and expectoration of white mucoid sputum have been present since birth, suggesting congenital or hereditary abnormalities of airway clearance function.",
+            "Accompanied by nasal congestion, suggesting possible nasal-sinus involvement related to impaired upper airway mucociliary clearance",
+            "Recurrent chronic cough and sputum production for more than 20 years. Chest CT in 2009 already showed bronchiectasis. Chest CT in 2021 again showed bilateral bronchiectasis with infection, consistent with chronic recurrent lower respiratory tract infection with secondary bronchiectasis.",
+            "Imaging shows multiple bronchiectatic changes in both lungs, with patchy/tree-in-bud infectious lesions predominantly in the left lower lung, consistent with recurrent infection on the basis of chronic airway disease.",
+            "After anti-infective, antiviral, bronchodilator, and dexamethasone treatment, symptom relief was not obvious, which does not support simple acute infection or simple asthma."
+          ],
+          "opposing_evidence": [
+            "Stage 1 information did not provide definite evidence of situs inversus, infertility, or imaging evidence of sinusitis.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Diffuse panbronchiolitis",
+          "supporting_evidence": [
+            "Long-term chronic cough and sputum production, accompanied by nasal congestion, suggesting the possibility of chronic sino-bronchiolar involvement",
+            "Chest CT showed bilateral interstitial changes and bronchiectasis; the images showed scattered bilateral centrilobular nodules/tree-in-bud opacities and bronchiectasis, imaging findings that can be seen in bronchiolar inflammatory disease",
+            "Young woman, prolonged disease course, with prominent manifestations of recurrent airway infection"
+          ],
+          "opposing_evidence": [
+            "The symptoms have been present since birth, which is not consistent with diffuse panbronchiolitis, which typically does not have onset immediately after birth.",
+            "Stage 1 information did not provide further supporting evidence such as a definite diagnosis of chronic sinusitis or hypoxemia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Congenital bronchiectasis/chronic suppurative airway disease associated with congenital pulmonary developmental anomalies",
+          "supporting_evidence": [
+            "Since birth, the patient has had wheezing/dyspnea, cough, and sputum production, and was diagnosed early with \"congenital pulmonary hypoplasia\".",
+            "The disease course is extremely prolonged; bronchiectasis was already present in childhood, suggesting a possible underlying congenital structural abnormality.",
+            "Imaging shows bilateral bronchiectasis and infectious lesions, which may be caused by long-term recurrent infection secondary to congenital pulmonary developmental abnormalities",
+            "Conventional anti-infective, anti-asthmatic, and other treatments were not clearly effective, suggesting a possible underlying anatomic/structural lesion."
+          ],
+          "opposing_evidence": [
+            "The current chest CT is described as bilateral bronchiectasis with infection, more consistent with diffuse airway disease, with no definite focal or specific congenital malformation described on imaging in the first stage.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Cystic fibrosis-related bronchiectasis",
+          "supporting_evidence": [
+            "Persistent respiratory symptoms since birth, suggesting possible hereditary chronic suppurative airway disease",
+            "Long-term production of large amounts of sputum; in 2009, approximately 100 mL/day of yellow purulent sputum was expectorated, consistent with chronic suppurative bronchiectasis.",
+            "Accompanied by nasal congestion, suggesting possible upper airway involvement",
+            "Chest CT and images show bilateral bronchiectasis with infection, consistent with the imaging pattern seen in cystic fibrosis"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no supporting information was provided regarding gastrointestinal symptoms, malnutrition, abnormal growth and development, infertility, or family history.",
+            "The patient is 22 years old, with a long prior disease course, but in the first stage there was no description of typical systemic manifestations of cystic fibrosis, providing limited support."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Primary immunodeficiency-associated recurrent respiratory tract infections with bronchiectasis (e.g., humoral immunodeficiency)",
+          "supporting_evidence": [
+            "Recurrent chronic respiratory symptoms since childhood, with a disease course of more than 20 years",
+            "Imaging has already demonstrated bilateral bronchiectasis, consistent with the sequelae of long-term recurrent infection",
+            "No significant improvement after conventional treatment, suggesting a possible underlying abnormality in host defense."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no supporting evidence was provided for recurrent sinusitis, otitis media, infections in other organ systems, opportunistic infections, or a family history of immunodeficiency.",
+            "Personal history and family history were unremarkable, weakening support for hereditary immunodeficiency."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Nontuberculous mycobacterial pulmonary disease or other chronic infectious bronchiolitis/bronchiectasis syndrome",
+          "supporting_evidence": [
+            "Chronic cough and sputum production, with yellow purulent sputum in recent years, suggesting chronic infectious airway disease",
+            "Imaging shows nodular/tree-in-bud and consolidative lesions on a background of bronchiectasis; on imaging, this can be seen in chronic infections such as mycobacterial infection.",
+            "Bilateral bronchiectasis with infection, consistent with the pattern of chronic infection and bronchiectasis mutually promoting each other"
+          ],
+          "opposing_evidence": [
+            "Symptoms have been present since birth, which does not support nontuberculous mycobacterial pulmonary disease as the most fundamental etiology and more likely indicates a secondary infection.",
+            "Acid-fast staining of bronchoalveolar lavage fluid was negative; although mycobacterial infection cannot be completely excluded, there is insufficient support for active acid-fast bacillary infection.",
+            "No fever or hemoptysis; the clinical evidence of active infection is relatively weak."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pre-transfusion three-item screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Infection-related markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-related indicators",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paranasal sinus CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Abdominal ultrasound",
+          "requirement": "optional"
+        },
+        {
+          "exam": "electron microscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "CBC: WBC 13.4×10^9/L, RBC 5.27×10^12/L, Hb 156 g/L, PLT 342×10^9/L, neutrophil count 10.45×10^9/L, neutrophil percentage 78.0%, lymphocyte percentage 16.5%. Liver function, renal function, myocardial enzymes, and electrolytes were all normal. Coagulation function: D-dimer 1.20 ug/ml. The three pre-transfusion tests were all negative, and tumor markers were all normal. Infection-related markers: CRP <0.5 mg/L, PCT 0.026 ng/ml, endotoxin test negative, fungal D-glucan negative. Autoimmune markers: ANA speckled pattern, ANA positive at 1:100, anti-histone antibody (AHA) weakly positive. TB-related markers: acid-fast stain negative, T-SPOT negative. Chest CT: bilateral bronchiectasis with infection; tuberculous disease cannot be excluded. Sinus CT: bilateral chronic maxillary sinusitis and bilateral ethmoid sinusitis. Echocardiography: no obvious abnormalities in cardiac size, structure, or function. Abdominal ultrasound: bilateral renal crystals. Electron microscopy: some epithelial cells had sparse cilia, with ciliary loss and shortening; no dynein arms were seen (1000× magnification). Bronchoscopy: inflammatory changes of the tracheobronchial tree.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNclyiaXJoyVharxsC0EVBSZMz4TjwcN3hSnsoqfib4iagw1wnz56Cxuv8dXw/640?wx_fmt=png",
+            "near_text": "Figure 2. Sinus CT, approximately 155 months after Day 0",
+            "local_src": "cleaned_cases_image_cache/e4a1e4879f72ae891196651ea3bc8b48e3a3a430.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNclw5NeL4rEPL31JhspzJCcIqSZBxSn88aa2uUelnLQ35rDXRIDAqIqyg/640?wx_fmt=png",
+            "near_text": "Figure 3. Electron microscopy showed that some epithelial cells had sparse cilia, with ciliary loss and shortening, and no dynein arms were seen (1000× magnification)",
+            "local_src": "cleaned_cases_image_cache/e7645070144febd3bcb41027faee9a730fdaf31d.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNcl0iauc9fPJyNzbgqv0MVrHTS3uNBCsUafwmSCaDhWSVoraiahyujiaxd9w/640?wx_fmt=png",
+            "near_text": "Figure 4. Bronchoscopy, approximately 153 months after Day 0",
+            "local_src": "cleaned_cases_image_cache/e492cafab5a53a1c7b46198eaa0fcbeb5a0e970b.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNclAtAQWTZ8o8k1odgPLb8icbhYOypABUdn6ibqN8QzuIicOqI9CoYCmVc8A/640?wx_fmt=png",
+            "near_text": "Figure 5. Diagnostic analysis flowchart",
+            "local_src": "cleaned_cases_image_cache/12a4584e421b4e7311f1213c318cc103a76ee690.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Mycobacterium tuberculosis infection",
+            "evidence": [
+              "It may present as a chronic course, with clinical symptoms of recurrent cough and sputum production; chest CT may show miliary nodules."
+            ],
+            "exclusion_reasons": [
+              "The patient has no constitutional symptoms of TB, such as prolonged low-grade afternoon fever, night sweats, weight loss, or fatigue.",
+              "Laboratory tests: acid-fast stain negative, T-SPOT negative"
+            ]
+          },
+          {
+            "name": "Cryptococcal infection",
+            "evidence": [
+              "Clinical symptoms include recurrent cough with sputum production, and chest CT may show miliary nodules"
+            ],
+            "exclusion_reasons": [
+              "Lack of relevant etiologic evidence for Cryptococcus neoformans infection"
+            ]
+          },
+          {
+            "name": "Diffuse panbronchiolitis",
+            "evidence": [
+              "This patient also has sinusitis, with clinical symptoms of recurrent cough and sputum production, and also has the characteristic of white sputum changing to yellow purulent sputum, along with manifestations of bronchiectasis."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "Patients with this disease have cough, and chest CT shows diffuse miliary small nodular opacities."
+            ],
+            "exclusion_reasons": [
+              "The patient has no history of organic dust inhalation exposure."
+            ]
+          },
+          {
+            "name": "Diffuse bronchioloalveolar carcinoma",
+            "evidence": [
+              "Chest CT shows diffuse miliary nodules"
+            ],
+            "exclusion_reasons": [
+              "All tumor markers were negative, with no definitive evidence of neoplastic disease; not considered at present."
+            ]
+          },
+          {
+            "name": "Primary ciliary dyskinesia",
+            "evidence": [
+              "Since infancy, recurrent respiratory tract infection symptoms, ineffective anti-infective treatment"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Cystic fibrosis",
+            "evidence": [
+              "Respiratory symptoms may present as recurrent bronchial infections and airway obstruction, and symptoms can appear within days after birth in the neonatal period. In this case, the patient began to develop symptoms in infancy."
+            ],
+            "exclusion_reasons": [
+              "No elevated sweat chloride; whole-exome genetic testing did not identify a pathogenic gene for this disease, so it is not considered at present."
+            ]
+          },
+          {
+            "name": "Bronchiectasis",
+            "evidence": [
+              "Long-term cough and sputum production; chest CT shows bronchiectasis and a tree-in-bud pattern"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Mycobacterium tuberculosis infection",
+        "evidence": [
+          "It may present as a chronic course, with clinical symptoms of recurrent cough and sputum production; chest CT may show miliary nodules."
+        ],
+        "exclusion_reasons": [
+          "The patient has no constitutional symptoms of TB, such as prolonged low-grade afternoon fever, night sweats, weight loss, or fatigue.",
+          "Laboratory tests: acid-fast stain negative, T-SPOT negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Diffuse panbronchiolitis",
+        "evidence": [
+          "This patient also has sinusitis, with clinical symptoms of recurrent cough and sputum production, and also has the characteristic of white sputum changing to yellow purulent sputum, along with manifestations of bronchiectasis."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      },
+      {
+        "name": "Primary ciliary dyskinesia",
+        "evidence": [
+          "Since infancy, recurrent respiratory tract infection symptoms, ineffective anti-infective treatment"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Cystic fibrosis",
+        "evidence": [
+          "Respiratory symptoms may present as recurrent bronchial infections and airway obstruction, and symptoms can appear within days after birth in the neonatal period. In this case, the patient began to develop symptoms in infancy."
+        ],
+        "exclusion_reasons": [
+          "No elevated sweat chloride; whole-exome genetic testing did not identify a pathogenic gene for this disease, so it is not considered at present."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Bronchiectasis",
+        "evidence": [
+          "Long-term cough and sputum production; chest CT shows bronchiectasis and a tree-in-bud pattern"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Infection markers",
+          "basis_in_stage3_input": "There were also no significant changes in infection markers, TB-related markers, tumor markers, or autoimmune-related markers.",
+          "why_order_this_exam": "Since birth, the patient has had recurrent cough, sputum production, and nasal congestion. Later, approximately 100 mL of yellow purulent sputum was produced daily. Multiple chest CT scans showed bilateral bronchiectasis with infection and tree-in-bud/infectious lesions, indicating a background of long-term chronic airway infection. However, during the current course, there has been no fever, and infection markers such as CRP, PCT, endotoxin, and fungal D-glucan have not been significantly elevated, and previous anti-infective treatment was ineffective. The purpose of repeating infection markers is to determine whether there is currently active infection or an acute exacerbation, to distinguish bronchiectasis with chronic colonization/secondary infection from an underlying disease predominantly due to hereditary ciliary clearance dysfunction, and to provide a basis for whether intensified anti-infective therapy is needed and for assessing the timing of bronchoscopy sampling or invasive examinations. It also helps reduce the risk of misclassifying infectious disease as noninfectious disease.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TB indicators",
+          "basis_in_stage3_input": "There were also no significant changes in infection markers, TB-related markers, tumor markers, or autoimmune-related markers.",
+          "why_order_this_exam": "The patient has long-standing chronic cough and sputum production. Imaging has shown bronchiectasis, infectious foci, and miliary-like/tree-in-bud changes. Prior chest CT suggested that “tuberculous disease cannot be excluded”; therefore, TB and other mycobacterial infections are among the key differential diagnoses that must be specifically evaluated. Although the patient has no tuberculous constitutional symptoms such as afternoon low-grade fever, night sweats, or weight loss, and prior BALF acid-fast staining was negative and T-SPOT was negative, a single negative result cannot completely substitute for a systematic exclusion. Further completion of TB-related testing is intended to further reduce the possibility of Mycobacterium tuberculosis infection as a chronic cause or coexisting infection, clarify whether the imaging abnormalities are caused by TB, and thereby affect isolation, prevention and treatment strategies, and the level of diagnostic certainty for subsequent confirmation of primary ciliary dyskinesia.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "tumor markers",
+          "basis_in_stage3_input": "There were also no significant changes in infection markers, TB-related markers, tumor markers, or autoimmune-related markers.",
+          "why_order_this_exam": "Chest CT showed diffuse nodular/infectious-appearing lesions and bronchiectasis, and diffuse bronchioloalveolar carcinoma and other neoplastic diseases were considered in the differential diagnosis. Although the patient was only 22 years old and the disease course had been present since birth, this more strongly supports a congenital or hereditary disease; in addition, the tumor markers showed no significant abnormalities and there was a lack of clinical evidence of neoplastic disease, but tumor markers are still helpful as part of the exclusionary information. The purpose of ordering this test was, when faced with a chronic persistent case with complex imaging findings and suboptimal response to conventional treatment, to exclude as much as possible diffuse pulmonary lesions caused by malignant tumors, to support subsequently shifting the diagnostic focus to a hereditary ciliary disorder, and also to avoid missing a neoplastic disease that would significantly alter the treatment direction.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Autoimmune-related markers",
+          "basis_in_stage3_input": "There were also no significant changes in infection markers, TB-related markers, tumor markers, or autoimmune-related markers.",
+          "why_order_this_exam": "The patient has a long history of cough and sputum production. Imaging shows bilateral bronchiectasis and diffuse small nodules/infectious changes. In theory, this requires differentiation from connective tissue disease-associated bronchiolitis, interstitial lung disease, or secondary bronchiectasis. Although this case has no symptoms of systemic autoimmune disease such as joint symptoms, rash, or dry eyes/mouth, and only ANA 1:100 positivity and weakly positive anti-histone antibody are present, overall there is a lack of clear evidence of autoimmune disease. However, completing and repeating autoimmune-related tests would help determine whether these mild abnormalities are clinically significant. The main purpose of this evaluation is to determine whether the current pulmonary manifestations could be explained by autoimmune inflammation, or whether they are more consistent with primary ciliary dyskinesia with onset since birth, concomitant sinusitis, and electron microscopy abnormalities; the results are valuable for excluding differential diagnoses, avoiding inappropriate use of immunosuppressive therapy, and supporting determination of a genetic etiology.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Electron microscopy of transbronchial biopsy tissue",
+          "basis_in_stage3_input": "Based on electron microscopy of transbronchial biopsy tissue showing shortened cilia and absence of dynein arms, a presumptive diagnosis of PCD was made.",
+          "why_order_this_exam": "This was the core examination that established the key diagnostic direction in this case. Since birth, the patient had persistent wheezing and dyspnea, cough with sputum production, and nasal congestion. Bronchiectasis had already developed in childhood, and in adulthood the patient continued to have recurrent cough with large amounts of purulent sputum. Sinus CT suggested bilateral chronic maxillary sinusitis and ethmoid sinusitis, indicating long-term mucociliary clearance dysfunction of both the upper and lower airways. At the same time, infection markers, TB-related markers, tumor markers, and autoimmune-related markers all provided no clear support for other etiologies, and anti-infective and corticosteroid therapy were also not ideal in effect. In this context, electron microscopy of biopsy tissue obtained by fiberoptic bronchoscopy was performed to directly observe the ciliary ultrastructure and determine whether there were characteristic changes of primary ciliary dyskinesia, such as ciliary absence, shortening, and dynein arm abnormalities. This examination could answer the core clinical question of whether the patient's long-standing bronchiectasis and sinusitis were caused by a congenital ciliary structural defect, and help distinguish PCD from simple chronic infection, diffuse panbronchiolitis, cystic fibrosis, and ciliary injury caused by secondary inflammation. It had a decisive role in confirming the diagnosis and in subsequent genetic validation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Whole-exome sequencing",
+          "basis_in_stage3_input": "To further verify this, we attempted to determine whether whole-exome sequencing could detect a pathogenic gene.",
+          "why_order_this_exam": "Based on the patient's typical long-term history and clinical phenotype, electron microscopy has indicated shortened cilia and absence of dynein arms, making primary ciliary dyskinesia highly suspected; however, PCD is a genetically highly heterogeneous disease, and clinical findings and electron microscopy alone still require genetic evidence to further support the diagnosis. The patient had disease onset since birth, a poor response to long-term anti-infective treatment, and concomitant chronic sinusitis and bilateral bronchiectasis, and there is a lack of support for common acquired causes such as infection, TB, tumor, and autoimmunity. Therefore, the purpose of whole-exome sequencing is to identify pathogenic gene variants related to ciliogenesis and ciliary motility, confirm the genetic basis of the disease, and also help differentiate it from other hereditary chronic suppurative airway diseases such as cystic fibrosis. This test not only serves to establish the diagnosis, but is also relevant to prognostic assessment, long-term management, genetic counseling for the family, and selection of treatment strategies.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Because the patient has had recurrent respiratory symptoms since birth, but no fever or other manifestations, no significant abnormalities in infection markers, TB-related markers, tumor markers, or autoimmune-related markers, and anti-infective treatment was ineffective, we gradually ruled out infectious diseases and neoplastic diseases and strongly suspected a hereditary disease—primary ciliary dyskinesia. Based on the bronchoscopic biopsy tissue electron microscopy findings of short cilia and absence of dynein arms, a tentative diagnosis of PCD was made, which is also consistent with the patient's clinical manifestation of recurrent productive cough. To further verify this, we performed whole-exome sequencing to determine whether a pathogenic gene could be detected. Sequencing showed that the patient carries a heterozygous CCNO pathogenic variant c.303C>A and a heterozygous variant c.248_252dup.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstIRWu1AuJZslYxTQTttmNcl321BNOWBblZOP9jjWOsWknkOhQUAicx7zXSmKABfQnm3ESxLtbbDyYQ/640?wx_fmt=png",
+          "near_text": "Figure 6. Chest CT, approximately 156 months after Day 0",
+          "local_src": "cleaned_cases_image_cache/2d164c7b597d4b641f1d7d72550bbaacaa9ebb74.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Primary ciliary dyskinesia",
+      "diagnostic_basis": [
+        "Symptoms: cough and sputum production for more than 20 years, worsening for 12 years.",
+        "Physical signs: On auscultation, breath sounds were diminished in both lungs, and Velcro crackles were audible.",
+        "Ancillary examinations: ① Chest CT: bronchiectasis with infection, with a typical \"tree-in-bud\" pattern, and miliary-like nodules visible in the left lower lung; ② Sinus CT: mucosal thickening and edema visible in the bilateral ethmoid sinuses and maxillary sinuses, with no bone destruction seen; the right ethmoid sinus is more severely involved than the left; ③ Electron microscopy of bronchoscopic biopsy specimen: some epithelial cells have sparse cilia, with ciliary loss and shortening, and no dynein arms seen (1000× magnification); ④ Whole-exome sequencing: heterozygous CCNO gene c.303C>A variant and heterozygous c.248_252dup variant; according to ACMG pathogenicity evidence, this variant is a loss-of-function (LOF) variant, which may result in truncation or degradation of the translated protein."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "nebulized sputum clearance",
+        "taking azithromycin"
+      ],
+      "treatment_response": [
+        "Cough and sputum production symptoms markedly improved",
+        "Reduced frequency of sputum production and decreased sputum volume",
+        "Pulmonary lesions have become significantly lighter and fewer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "status": "success",
+  "case_id": "case_37",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Patient Gao, male, 46 years old. Chief complaint: cough and chest tightness for 10 days, blood-streaked sputum for 12 hours. Ten days before admission, he developed cough without an obvious precipitating factor, accompanied by chest tightness after activity, without fever, sputum production, chest pain, or hemoptysis. He presented to a local township health center and received IV treatment with \"levofloxacin, piperacillin sodium, ambroxol\" for 5 days, with poor effect. He then went to the local county people's hospital, where chest CT (Day 0) showed inflammation in the right lower lobe, and he received IV \"cefoperazone/sulbactam\" for 3 days. Twelve hours before admission, he developed \"blood-streaked sputum,\" bright red in color and small in amount; the cough and chest tightness continued to worsen. Poor appetite, normal sleep, normal bowel and bladder function, somewhat poor energy, no significant change in weight. Past history: previously healthy, no history of hypertension or heart disease; no history of diabetes or cerebrovascular disease; no history of hepatitis, TB, or malaria; vaccination history followed the routine national immunization program; no history of surgery, trauma, or blood transfusion; no history of food or drug allergy. Personal history: born in Runan County, Henan Province, long-term local resident; no history of contact with epidemic areas, outbreaks, or contaminated water; no history of residence in pastoral areas, mining areas, high-fluoride areas, or low-iodine areas; no history of exposure to chemical substances, radioactive substances, or toxic substances; no history of illicit drug use; no history of smoking or alcohol use; denies sexual promiscuity. Marital and reproductive history: married, married at age 24, spouse healthy, harmonious marital relationship, has 1 son and 1 daughter. Family history: parents healthy, siblings healthy, no diseases similar to the patient's, no family history of hereditary disease. Physical examination: temperature 36.6℃, pulse 112 beats/min, respiratory rate 27 breaths/min, blood pressure 131/90 mmHg. Tachypnea, normal intercostal spaces, normal tactile fremitus, no pleural friction fremitus, no subcutaneous crepitus, resonant percussion note, moist rales audible in the right lower lung, no pleural friction rub, normal vocal resonance. After admission, relevant examinations were completed. CBC: WBC 10.2×10^9/L, neutrophil percentage 86.3%; ESR (laser method) 27.00 mm/h, CRP 11.96 mg/L, PCT 0.045 ng/mL; blood biochemistry, coagulation tests, routine stool and urine tests, and infectious disease tests showed no obvious abnormalities.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfOUtMtT0JKXdEgbqN2XBvLibIoO6lRgseZdwib26yj31LTjAassz4nmng/640?wx_fmt=jpeg",
+          "near_text": "",
+          "local_src": "cleaned_cases_image_cache/ea06e5a0f86b8260ba4801457fc4e5e78f44bd12.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfvkrQUrUrlxhADjKvuYrpkXEPb8INIUicBXjkfzbVdElfOyhG5POSUcg/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Chest CT shows inflammatory changes in the right lower lung (local county-level People's Hospital)",
+          "local_src": "cleaned_cases_image_cache/9c98bac369617cacd706847026e253b5d6ac8f96.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Right lower lung community-acquired pneumonia (bacterial pneumonia or pulmonary consolidation)",
+          "supporting_evidence": [
+            "Chest CT (Day 0) showed: inflammation in the right lower lobe",
+            "On first-stage CT images, focal patchy/confluent high-density opacity is seen in the right lower lung, consistent with pulmonary consolidation or inflammatory infiltrate.",
+            "Cough and chest tightness for 10 days; moist rales audible in the right lower lung",
+            "Complete blood count: white blood cell count 10.2×10^9/L, neutrophil percentage 86.3%; ESR 27.00 mm/h; CRP 11.96 mg/L, suggesting the presence of an inflammatory response",
+            "Blood-streaked sputum can be seen in pulmonary infection with airway mucosal injury."
+          ],
+          "opposing_evidence": [
+            "No fever or sputum production",
+            "After sequential treatment with levofloxacin, piperacillin sodium, and cefoperazone/sulbactam, the response was poor.",
+            "PCT 0.045 ng/mL, not supportive of significant severe bacterial infection"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Pulmonary embolism with pulmonary infarction",
+          "supporting_evidence": [
+            "Since onset, there has been chest tightness after activity; currently there is shortness of breath, respiratory rate 27 breaths/min, pulse 112 beats/min",
+            "12 hours earlier, a small amount of bright red blood-streaked sputum appeared; pulmonary infarction may present with hemoptysis or blood-streaked sputum",
+            "Stage 1 CT images showed a peripheral subpleural lesion in the right lower lung; pulmonary infarction may present as a peripheral wedge-shaped or patchy area of increased density.",
+            "The elevation in infection markers was not significant, and multiple anti-infective treatments were ineffective, suggesting that a non-purely infectious lesion should be considered."
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide venous thrombosis risk factors such as lower extremity swelling and pain, prolonged immobilization, surgery, trauma, or tumor.",
+            "No clear description of chest pain",
+            "Coagulation tests showed no significant abnormalities"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bronchogenic carcinoma or pulmonary malignancy (with obstructive pneumonia/tumor hemorrhage)",
+          "supporting_evidence": [
+            "Progressively worsening cough and chest tightness, with blood-streaked sputum",
+            "The focal lesion in the right lower lung showed poor response to antibacterial treatment",
+            "On the first set of CT images, a localized relatively dense opacity can be seen in the right lower lung; when a tumor is accompanied by surrounding inflammation, it may resemble pneumonia.",
+            "Hemoptysis or blood-streaked sputum may be seen in lung tumors"
+          ],
+          "opposing_evidence": [
+            "The patient is 46 years old, with no smoking history.",
+            "The disease course is only 10 days, with a relatively acute onset, more suggestive of an infectious or vascular lesion.",
+            "No significant change in body weight"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "Cough with blood-streaked sputum; TB can present with this manifestation",
+            "Imaging shows focal pulmonary lesions, with a poor response to conventional antibacterial therapy",
+            "ESR 27.00 mm/h, mildly elevated"
+          ],
+          "opposing_evidence": [
+            "No prior history of TB",
+            "No fever, no significant change in body weight",
+            "In the first stage, the text and images suggest the lesion is located in the right lower lung, without typical upper-lobe predominance.",
+            "The phase 1 information did not provide manifestations supporting TB, such as night sweats or chronic wasting."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Bronchiectasis with infection/hemorrhage",
+          "supporting_evidence": [
+            "The main symptoms are cough and blood-streaked sputum; bronchiectasis can lead to recurrent infections and hemoptysis.",
+            "Crackles in the right lower lung; right lower lung lesions can be seen in localized bronchiectasis with infection"
+          ],
+          "opposing_evidence": [
+            "The phase 1 information did not provide a prior history of recurrent cough, purulent sputum production, or recurrent pulmonary infections.",
+            "Typical signs of bronchiectasis could not be clearly identified on the first-stage CT images.",
+            "Short duration of illness, only 10 days"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary vasculitis-associated diffuse alveolar hemorrhage or focal hemorrhagic lesion",
+          "supporting_evidence": [
+            "Bright red blood-streaked sputum appeared",
+            "On the first-phase CT images, there is a consolidation-like opacity in the right lower lung; alveolar hemorrhage may present as focal or patchy high-density opacities.",
+            "When conventional anti-infective therapy is ineffective, noninfectious hemorrhagic pulmonary lesions should be considered"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide manifestations of systemic vasculitis such as sinusitis, rash, arthralgia, or renal impairment.",
+            "Routine urine and stool tests and blood biochemistry showed no obvious abnormalities, which does not support the presence of significant multisystem involvement.",
+            "The lesions are currently more focal rather than clearly diffusely distributed."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Sputum smear and sputum culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "sputum acid-fast staining",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal G/GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "connective tissue disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "4-item ANCA panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subset analysis",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Sputum smear and sputum culture were negative, sputum acid-fast stain was negative, T-SPOT well A 0, well B 0, fungal G/GM tests were negative, connective tissue disease panel was negative, 4-item ANCA panel was negative, lymphocyte subset measurement: CD4 164/μL, CD8 204/μL, CD3 396/μL, all markedly decreased. After 7 days of anti-infective treatment, the patient no longer had blood-streaked sputum, but cough and chest tightness showed no significant relief. Repeat chest CT showed progression compared with the prior outside hospital films, with cavitary formation visible.",
+        "images": [
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfyPggnQr3fM7E9DCBfnc0SZ124Dg9ibyuHljBiaVBnX8gBMMcd5yJkvnA/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/a102f23cbcc917f7b13be6a807238178b48e64d3.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfeY9SOV6iaCgGlR0v3aaAfLVb5Diaklrd0nS2Xn96rTOEbMBSic4EnTsYA/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/638dc4123d776d3cbb2a46620238bdcff11f0105.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwf1XBxcAxbURaHWr3ODqTa17c8ITWsGpXULqFnqnFmvMCRpiahov7Iogw/640?wx_fmt=png",
+            "near_text": "",
+            "local_src": "cleaned_cases_image_cache/7815f99543bf1449a5fef5c87fe65d6c3815c52b.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfDBnLkvMQoV4BslmmygeFy9c3jD45UKhUf6rGjn4UBVxgeup5E54ZibA/640?wx_fmt=png",
+            "near_text": "Figure 2: Chest CT shows inflammation in the right lower lung, with cavitation.",
+            "local_src": "cleaned_cases_image_cache/a9b96221f5097edfa5a7e1f3a4fae5ffae601a76.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "tuberculosis",
+            "evidence": [
+              "No fever during the course of the illness",
+              "Pulmonary imaging shows polymorphic lesions",
+              "Biopsy pathology reported granulomatous inflammation"
+            ],
+            "exclusion_reasons": [
+              "Rapid disease progression",
+              "Acid-fast staining and TB-DNA in pathologic tissue were both negative",
+              "Serum T-SPOT negative",
+              "Repeated acid-fast staining of submitted sputum and bronchoalveolar lavage fluid specimens was negative"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "tuberculosis",
+        "evidence": [
+          "No fever during the course of the illness",
+          "Pulmonary imaging shows polymorphic lesions",
+          "Biopsy pathology reported granulomatous inflammation"
+        ],
+        "exclusion_reasons": [
+          "Rapid disease progression",
+          "Acid-fast staining and TB-DNA in pathologic tissue were both negative",
+          "Serum T-SPOT negative",
+          "Repeated acid-fast staining of submitted sputum and bronchoalveolar lavage fluid specimens was negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Pulmonary mycosis",
+        "evidence": [
+          "Acute course, cough with hemoptysis",
+          "Imaging suggests pleomorphic lesions",
+          "Biopsy pathology showed granulomatous inflammation"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Fiberoptic bronchoscopy",
+          "basis_in_stage3_input": "Perform fiberoptic bronchoscopy",
+          "why_order_this_exam": "The patient had cough and chest tightness for 10 days and then developed blood-streaked sputum. Anti-infective treatment with levofloxacin, piperacillin sodium, and cefoperazone/sulbactam was sequentially administered with poor efficacy. Repeat chest CT showed progression compared with the prior study and the development of cavitation, suggesting that this was not ordinary bacterial pneumonia. Previous sputum culture, sputum acid-fast staining, T-SPOT, serum fungal G/GM, and autoimmune screening were all negative, but lymphocyte subset analysis showed marked decreases in CD4, CD8, and CD3, indicating an immunocompromised background. It is necessary to obtain direct lower respiratory tract specimens as soon as possible and evaluate the airway. Bronchoscopy can determine whether there is an endobronchial neoplasm, the source of bleeding, obstructive lesions, or clues to unusual infection, and can also facilitate lavage, brush examination, biopsy, and ultrasound-guided sampling. It is the key examination for establishing a definitive diagnosis and guiding subsequent treatment selection when the lesion is progressing and the etiology remains unclear on routine examinations.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Obtain secretions for bacterial culture",
+          "why_order_this_exam": "Before and after admission, the patient had already received multiple empiric antibacterial agents, but the symptoms and imaging did not improve. It is still necessary to perform bacterial culture on secretions obtained via bronchoscopy to reassess whether there is infection of the lower respiratory tract by common bacteria, drug-resistant bacteria, or bacteria not detected in sputum specimens. The question this test is intended to address is: whether the current progression of the lesion and cavity formation are still driven by bacterial infection or secondary infection. The culture results will help exclude the common diagnosis of simple bacterial pneumonia; if the culture is positive, antimicrobial susceptibility testing can guide precise antimicrobial therapy; if negative, this would further support shifting the differential diagnosis toward special pathogens, granulomatous disease, or neoplastic lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal galactomannan test",
+          "basis_in_stage3_input": "Lavage fluid was collected and sent for fungal GM testing",
+          "why_order_this_exam": "The patient had no response to anti-infective treatment, the pulmonary lesions progressed and developed cavitation, and lymphocyte subset analysis indicated impaired cellular immune function, suggesting that invasive fungal infection should be a major consideration. Previous serum fungal G/GM tests were negative, but negative serology cannot completely exclude a fungal infection confined to the lungs; therefore, repeat testing with bronchoalveolar lavage fluid is needed to increase the detection rate. This test is mainly intended to determine whether there is an invasive fungal infection such as Aspergillus and to help differentiate it from lesions causing cavitation or consolidation, such as TB, bacterial abscess, and malignant tumor. The results are important for deciding whether to initiate or adjust antifungal therapy and for avoiding continued ineffective antibacterial treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "acid-fast stain",
+          "basis_in_stage3_input": "Collect lavage fluid and send for fungal GM assay, acid-fast staining, weak acid-fast staining, fungal smear, and pathogen mNGS.",
+          "why_order_this_exam": "The patient has cough, blood-streaked sputum, progressive pulmonary lesions, and cavitary formation. Subsequent pathology also suggested granulomatous inflammation, so TB has consistently been a key differential diagnosis that must be specifically investigated. Although previous sputum acid-fast stain was negative and T-SPOT was negative, the sensitivity of routine sputum specimens is limited, and imaging progression and lack of response to conventional antibacterial treatment mean that TB still cannot be completely excluded based solely on the earlier tests. Acid-fast staining of bronchoalveolar lavage fluid can further look for evidence of mycobacteria and help determine whether the lesions are caused by Mycobacterium tuberculosis infection. This test has a direct role in confirming or excluding pulmonary TB, avoiding inappropriate use of antifungal monotherapy or continuation of an ineffective antibacterial regimen, and assessing whether subsequent isolation and anti-TB treatment are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "weak acid-fast stain",
+          "basis_in_stage3_input": "Collect lavage fluid and send for fungal GM assay, acid-fast staining, weak acid-fast staining, fungal smear, and pathogen mNGS.",
+          "why_order_this_exam": "In the setting of persistent progression of the patient's lesion, cavitation, and no definite etiology identified by routine bacteriology and some initial TB and fungal screening, it is necessary to broaden coverage for special pathogens. Weak acid-fast staining is mainly used to screen for partially weak acid-fast pathogens such as Nocardia. Such infections may occur in patients with impaired cellular immune function and may also present with pulmonary consolidation, cavitation, hemoptysis, or a poor response of the disease course to conventional antibacterial agents. In conjunction with the marked decreases in CD4, CD8, and CD3 in this case, this test was performed to determine whether there is infection with special opportunistic pathogens such as Nocardia. The results will affect the subsequent choice of the anti-infective spectrum and help further differentiate from TB, fungal infection, and neoplastic lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "fungal smear",
+          "basis_in_stage3_input": "Collect lavage fluid and send for fungal GM assay, acid-fast staining, weak acid-fast staining, fungal smear, and pathogen mNGS.",
+          "why_order_this_exam": "The patient's pulmonary lesion continued to progress and developed cavitation after multiple antibacterial treatments, accompanied by blood-streaked sputum. In addition, a marked decrease in T cells suggests an increased risk of opportunistic infection; therefore, it is necessary to directly examine the lavage fluid for fungal components. A fungal smear can more rapidly provide direct morphologic clues as to whether yeast-like fungi, hyphae, or other elements are present. Although its sensitivity is limited, it can serve as a rapid initial screen while awaiting culture or molecular testing results. This test is intended to determine whether the lesion is caused by pulmonary fungal infection and to provide supplementary evidence for subsequent integrated assessment in combination with GM, special stains, pathology, and mNGS. It has practical value for initiating or adjusting antifungal therapy as early as possible and for reducing the continued ineffective use of antibacterial agents.",
+          "requirement": "required"
+        },
+        {
+          "exam": "pathogen mNGS",
+          "basis_in_stage3_input": "Collect lavage fluid and send for fungal GM assay, acid-fast staining, weak acid-fast staining, fungal smear, and pathogen mNGS.",
+          "why_order_this_exam": "The key difficulty in this case lies in the following: the patient's symptoms and imaging findings continued to progress, with cavity formation; routine sputum culture, sputum acid-fast staining, T-SPOT, serum fungal G/GM, and autoimmune-related tests did not identify the etiology, while a marked decline in immune cells suggested a high likelihood of infection with unconventional or opportunistic pathogens. BALF mNGS can provide broad-spectrum detection of bacteria, mycobacteria, fungi, and other special pathogens when routine culture and staining are negative, and is especially applicable to cases with complex etiologies, failed empiric treatment, and immunocompromised hosts. The purpose of this test is to identify the true causative microorganism as quickly as possible when conventional pathogen testing is negative. Its results are directly related to establishing the diagnosis, excluding the relative likelihood of noninfectious differential diagnoses, and can significantly affect the subsequent selection of targeted anti-infective therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "EBUS-TBLB",
+          "basis_in_stage3_input": "EBUS-TBLB was performed in the posterior basal segment bronchus of the right lower lobe",
+          "why_order_this_exam": "Imaging showed a persistent progression of the right lower lung lesion with cavitation. Routine sputum and blood pathogen-related testing were negative, and BALF testing alone may still be insufficient to distinguish among infection, tumor, and other granulomatous diseases. Performing EBUS-TBLB of the bronchus to the posterior basal segment lesion of the right lower lobe can, under ultrasound guidance, more accurately enter the area adjacent to the lesion to obtain lung tissue; compared with blind biopsy, this is more helpful for improving the positive yield and reducing sampling bias. The main purpose of this examination is to determine whether the nature of the lesion is malignant tumor, TB/nontuberculous mycobacteria, fungal infection, or noninfectious granulomatous inflammation. After tissue is obtained, routine pathology and special stains can be performed, which are निर्णative for definitive diagnosis and subsequent drug selection.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Pathology of the needle aspiration cell block from station 7 lymph node",
+          "basis_in_stage3_input": "Cell block pathology from station 7 lymph node needle aspiration showed a small number of lymphocytes in an exudative background.",
+          "why_order_this_exam": "Since EBUS-TBNA of 7 lymph node stations has already been performed, subsequent cell block pathology on the aspiration specimens is a necessary step, because specimen acquisition alone without pathologic analysis cannot answer the etiologic question. The patient has progressive pulmonary consolidation/cavitary lesions and blood-streaked sputum; malignancy, TB, and fungal infection are all within the differential diagnosis. Lymph node pathology can help determine whether there are metastatic carcinoma cells, specific granulomas, or obvious reactive changes. This examination attempts to address whether the mediastinal lymph nodes are involved by the lesion and, if so, the nature of the involvement. The results will help support or weaken the diagnoses of tumor and specific infection, and provide a basis for whether more extensive further sampling or adjustment of the treatment strategy is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Right lower lobe TBLB lung biopsy",
+          "basis_in_stage3_input": "Right lower lobe TBLB lung biopsy showed granulomatous inflammation",
+          "why_order_this_exam": "The pulmonary lesion was located in the right lower lobe, and the disease progressed and developed cavitation after empiric therapy. Routine noninvasive tests were unable to establish a definitive diagnosis; therefore, direct acquisition of lesion tissue was the key to confirming the diagnosis. Right lower lobe TBLB can directly assess the pathologic architecture of the lung parenchyma and determine whether granulomas, necrosis, fungi, tumor cells, or other inflammatory changes are present. The purpose of this examination was to determine whether the lesion represented an infectious granuloma, a malignant tumor, or another noninfectious inflammatory process. After pathology suggested granulomatous inflammation, although further subtyping still required correlation with special stains and molecular testing, the differential diagnosis had already been substantially narrowed, which was very important for subsequent focused evaluation for TB and fungal infection and for avoiding an inappropriate cancer treatment pathway.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS",
+          "basis_in_stage3_input": "PAS（-）",
+          "why_order_this_exam": "Given that TBLB lung biopsy of the right lower lobe has already indicated granulomatous inflammation, further special stains are required to identify or exclude specific pathogens. PAS stain helps demonstrate some fungi and other structures containing polysaccharide components and is particularly important for distinguishing infectious granulomas. Because the patient has immunocompromise, imaging progression, and cavitary formation, pulmonary fungal infection remains one of the highly suspected directions. The clinical question for PAS is: whether fungal components identifiable by this stain are present in the tissue. Although the result was negative, the negativity itself is also differential evidence, suggesting that pathogens cannot be identified solely by routine histologic staining and that more sensitive testing such as mNGS is needed, while also helping with the comprehensive assessment of the type of fungal infection and the basis for subsequent treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "methenamine silver",
+          "basis_in_stage3_input": "Methenamine silver stain (-)",
+          "why_order_this_exam": "Gomori methenamine silver stain is one of the important special stains for detecting fungi in lung tissue, and it is particularly valuable when pathology shows granulomatous inflammation and the routine etiology remains unclear. The patient had no response to antibacterial treatment, radiographic progression with cavitation, and marked T-cell depletion, suggesting an increased risk of opportunistic fungal infection; therefore, further evaluation for fungi in biopsy tissue was needed. This test primarily determines whether fungal wall components are present in the tissue and can be stained, thereby supporting the diagnosis of pulmonary fungal disease. Although the result was negative, it remains important for the differential diagnosis: it indicates that not all fungal infections can be detected by routine tissue staining, that comprehensive interpretation is required in conjunction with higher-sensitivity methods such as BALF mNGS, and that it helps avoid misdiagnosing TB based solely on granulomas.",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "basis_in_stage3_input": "TB-DNA（-）",
+          "why_order_this_exam": "The patient's imaging showed cavitation, and pathology indicated granulomatous inflammation; therefore, TB must always remain a key consideration in the clinical differential diagnosis. Prior negative sputum acid-fast staining and a negative T-SPOT are insufficient to completely exclude it. Performing additional TB-DNA testing on the biopsy tissue is intended to improve molecular-level detection of Mycobacterium tuberculosis and to address the key question of whether the granulomatous inflammation is caused by TB. This test is highly targeted for confirming or excluding pulmonary TB, especially when routine staining is negative but histopathology is suspicious. A negative result, combined with multiple negative acid-fast tests on sputum/BALF, can significantly reduce the likelihood of TB, prompt the clinical focus to shift to other causes such as fungal infection, and affect whether to initiate anti-TB treatment and isolation management.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Fiberoptic bronchoscopy was completed. Bronchoscopy showed smooth mucosa of the trachea and bronchi at all levels, with patent lumens and a small amount of thick secretions. The secretions were aspirated and sent for bacterial culture, and the superior segment bronchus of the right lower lobe was lavaged with 0.9% normal saline. The lavage fluid was retained for fungal GM assay, acid-fast staining, weak acid-fast staining, fungal smear, and pathogen mNGS. EBUS-TBNA was performed at station 7 lymph nodes, and EBUS-TBLB was performed at the posterior basal segment bronchus of the right lower lobe. The results showed that the fungal GM assay, acid-fast staining, weak acid-fast staining, and fungal smear were all negative; cell block pathology from station 7 lymph node needle aspiration showed a small number of lymphocytes in an exudative background; TBLB lung biopsy of the right lower lobe showed granulomatous inflammation, with acid-fast stain (-), PAS (-), methenamine silver (-), and TB-DNA (-). BALF mNGS returned Cryptococcus neoformans, with 101 supporting sequences and relative abundance of 52.3%.",
+      "images": [
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfPaktUeIXmBYT7gUribjcVcJbaoZsKict4HNsG1HZZXDFfxBQO6Js8C1Q/640?wx_fmt=png",
+          "near_text": "Figure 3: (right lower lobe biopsy) granulomatous inflammation, acid-fast stain (-), PAS (-), methenamine silver stain (-), TB-DNA (-)",
+          "local_src": "cleaned_cases_image_cache/b12af17ee4c932b572cb0f671a50ef25caf48257.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLibkNOr5kYxiaQ3QKeDxljwfKTFM2FaOiceIy8JWDuZACNLwnV5AwDtqjJQa5Ctq0ZRxOU5kicWFpSibg/640?wx_fmt=png",
+          "near_text": "Figure 4: BALF mNGS result",
+          "local_src": "cleaned_cases_image_cache/1167fad9b7e677d1c41b1349a82d7327c5f1b349.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pulmonary cryptococcosis, cryptococcal meningitis",
+      "diagnostic_basis": [
+        "Medical history + cough, hemoptysis",
+        "Imaging",
+        "BALF mNGS showed Cryptococcus neoformans",
+        "Cerebrospinal fluid Cryptococcus neoformans antigen weakly positive",
+        "Head MRI showed thickening and abnormal signal of the dura mater over the right cerebral hemisphere and the falx cerebri."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Fluconazole 400 mg/day anti-cryptococcal therapy",
+        "Amphotericin B anti-cryptococcal therapy"
+      ],
+      "treatment_response": [
+        "After 3 days of treatment, the patient's cough and chest tightness symptoms were markedly relieved",
+        "Repeat chest CT after 8 days of treatment showed that the inflammation in the right lower lobe was slightly reduced compared with before, and the small right pleural effusion was decreased compared with before.",
+        "During treatment, the patient developed a headache, described as a dull pain, with progressive worsening.",
+        "The treatment regimen was adjusted to amphotericin B anti-cryptococcal therapy for 1 week, and the patient's headache still did not improve.",
+        "Continue amphotericin B treatment; after half a month, the patient's headache gradually improved"
+      ]
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "status": "success",
+  "case_id": "case_10",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "At the beginning of 2020, the novel coronavirus swept across China, with Wuhan as the hardest-hit area. Although there were only more than 400 confirmed cases in Shaanxi (including 120 in Xi'an), under the epidemic situation at that time no one dared to let down their guard. It so happened that during that period we encountered a middle-aged to elderly male patient who, within just 20 days, developed \"fever, dry cough, shortness of breath, respiratory failure, multiple pulmonary infiltrative opacities ...\"—almost all symptoms corresponded one by one with signs of COVID-19 infection. This patient drew our high level of attention. A 60-year-old man was admitted for \"shortness of breath for 20 days, intermittent fever for 10 days, worsening for 3 days.\" Twenty days before admission, he developed shortness of breath on exertion without an obvious precipitating cause and took Chinese herbal preparations on his own. Ten days earlier, he developed fever, with a maximum temperature of 38.4℃, and took moroxydine and Lianhua Qingwen capsules on his own; he gradually developed a dry cough, and the shortness of breath progressively worsened. Three days before admission, the cough and shortness of breath worsened markedly. Chest CT at a local hospital showed \"multiple exudative lesions in both lungs.\" He later underwent repeat chest CT at Xi'an No. 4 Hospital, which suggested progression of the lesions; he was diagnosed with \"severe pneumonia\" and treated with meropenem + linezolid, methylprednisolone, and intravenous immunoglobulin, but his symptoms continued to worsen. Two days earlier, noninvasive ventilatory support was initiated; 1 day earlier, he developed altered mental status, underwent endotracheal intubation with invasive mechanical ventilation, and repeat chest CT suggested further expansion of the extent of the lesions. He had a past medical history of hypertension, coronary artery disease, and diabetes mellitus, with no smoking, alcohol, or other unhealthy habits. Physical examination on admission: temperature 36.3℃, pulse 84/min, respiratory rate 25/min, blood pressure 123/80 mmHg; endotracheally intubated, under sedation, RASS score 1, receiving invasive mechanical ventilation, with pulse oxygen saturation around 90%. Breath sounds in both lungs were slightly coarse, with diffuse fine crackles audible. Cardiac and abdominal examinations showed no obvious abnormalities, and there was no edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI7pZGkHjSvjibqphUSVV2TgVY4zaibn5RJrHS7BNuIyehjW9HboMUd1CNAKWL7IjFonc4XuZKVjMCg/640?wx_fmt=jpeg",
+          "near_text": "[Figure 1] Chest CT on 4/17 before admission",
+          "local_src": "cleaned_cases_image_cache/06be6f98d9fed33f29584d453d6d60169545a177.jpg"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Severe/critical coronavirus disease 2019 (COVID-19)",
+          "supporting_evidence": [
+            "The Phase 1 text explicitly mentions fever, dry cough, shortness of breath, and respiratory failure, and \"almost all symptoms correspond one-to-one with signs of COVID-19 infection.\"",
+            "Progressive worsening over a short period after onset: shortness of breath for 20 days, fever for 10 days, marked worsening for 3 days, and progression to continued deterioration despite noninvasive ventilation, ultimately requiring endotracheal intubation and invasive mechanical ventilation",
+            "The chest CT in the first-stage narrative indicated \"multiple exudative lesions in both lungs,\" and repeat examination showed worsening of the lesions with further expansion in extent.",
+            "The phase 1 images show multiple bilateral ground-glass and consolidative opacities in both lungs, with more prominent distribution in the lower lungs and peripheral/subpleural regions, consistent with imaging distribution patterns commonly seen in viral pneumonia, especially COVID-19.",
+            "In the context of the 2020 pandemic, this constituted a scenario requiring a high degree of epidemiologic vigilance."
+          ],
+          "opposing_evidence": [
+            "In Phase 1, no definite epidemiologic exposure history or etiologic evidence was provided.",
+            "Despite treatment with methylprednisolone, intravenous immunoglobulin, etc., progression continued, but this does not exclude COVID-19."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Other viral pneumonia (such as influenza virus, adenovirus, etc.)",
+          "supporting_evidence": [
+            "Common symptoms of viral pneumonia are present, including fever, dry cough, and shortness of breath",
+            "The condition progressed rapidly, developing into severe pneumonia and respiratory failure within a short period, requiring mechanical ventilatory support.",
+            "Phase I images show multifocal ground-glass/opacification and exudative lesions in both lungs, with a bilateral distribution, which can be seen in various viral pneumonias.",
+            "Symptoms continued to worsen after antibacterial therapy, suggesting that an atypical bacterial or viral etiology should be considered"
+          ],
+          "opposing_evidence": [
+            "In the first stage, there were no upper respiratory tract symptoms, myalgia, a definite history of viral exposure, or virologic test support provided.",
+            "A peripheral subpleural distribution pattern on imaging is more likely to initially suggest COVID-19, but it is not specific."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (cryptogenic or secondary organizing pneumonia)",
+          "supporting_evidence": [
+            "The onset followed a subacute course, with gradual development of shortness of breath, fever, and dry cough over 20 days, with progressive worsening, consistent with the clinical course that organizing pneumonia may present with.",
+            "On the first-stage images, patchy opacities of infiltration/consolidation are visible predominantly in the peripheral and lower lungs bilaterally, representing a common imaging distribution seen in organizing pneumonia.",
+            "Widespread fine crackles, hypoxemia, and progressive worsening on imaging can be explained by extensive inflammatory involvement of the lung parenchyma."
+          ],
+          "opposing_evidence": [
+            "In the first phase, the condition progressed to respiratory failure and required invasive ventilation, indicating high severity; although this can be seen in severe organizing pneumonia, infectious pneumonia should still be excluded first.",
+            "Stage 1 information did not provide a clear trigger, clues suggestive of autoimmune disease, or a history of similar prior episodes."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Severe community-acquired pneumonia (atypical pathogen or mixed infection)",
+          "supporting_evidence": [
+            "The patient has fever, cough, and shortness of breath, and was diagnosed with \"severe pneumonia\" at a local hospital.",
+            "Chest CT suggests multiple exudative lesions in both lungs with persistent progression, which can be seen in severe community-acquired pneumonia",
+            "On physical examination, diffuse fine moist rales were audible in both lungs, suggesting marked alveolar/interstitial involvement.",
+            "Comorbid diabetes mellitus, coronary artery disease, hypertension, and other underlying diseases increase the risk of severe infection"
+          ],
+          "opposing_evidence": [
+            "The first-stage text emphasizes a predominance of dry cough and does not provide findings such as large amounts of purulent sputum or chills that would more strongly support typical bacterial pneumonia.",
+            "The phase 1 images show relatively diffuse, peripherally distributed bilateral lesions, more suggestive of viral/organizing pathology rather than typical bacterial lobar pneumonia.",
+            "Despite treatment with meropenem + linezolid, the condition continued to worsen, which does not support infection with common susceptible bacteria, but atypical pathogens or mixed infection cannot be completely excluded."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Acute interstitial pneumonia/ARDS (diffuse alveolar damage spectrum)",
+          "supporting_evidence": [
+            "The patient has developed significant hypoxemia; despite mechanical ventilation, pulse oxygen saturation remains approximately 90%, with progressive respiratory failure.",
+            "Phase I imaging shows diffuse bilateral exudative lesions in both lungs, which may overlap with the manifestations of diffuse alveolar damage",
+            "The lesions continued to enlarge over a short period of time, clinically consistent with the evolution of acute severe lung injury"
+          ],
+          "opposing_evidence": [
+            "ARDS/acute interstitial pneumonia is more of a syndrome or pathologic pattern; the first-stage information suggests that an infectious triggering factor is still more likely underlying it",
+            "In the first phase, no definite precipitating factors such as sepsis, aspiration, trauma, pancreatitis, or other common ARDS triggers were identified."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Cardiogenic pulmonary edema/congestive heart failure",
+          "supporting_evidence": [
+            "The patient has a history of coronary heart disease and hypertension, with an underlying risk of cardiogenic pulmonary edema.",
+            "Progressive worsening of shortness of breath, diffuse fine crackles audible in both lungs, and bilateral pulmonary infiltrates may also be seen on imaging"
+          ],
+          "opposing_evidence": [
+            "In the first stage, there was a clear course of fever and dry cough, which more strongly supports an infectious or inflammatory pulmonary parenchymal lesion.",
+            "No edema in both lower extremities, no obvious abnormalities on cardiac and abdominal examination, and in the first stage no information more supportive of heart failure, such as orthopnea or paroxysmal nocturnal dyspnea, was provided",
+            "In the first-stage images, the lesions show multiple peripheral/subpleural distributions in both lungs, rather than the typical central or bat-wing distribution commonly seen in cardiogenic pulmonary edema."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood biochemistry",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "SARS-CoV-2 nucleic acid and antibody testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "PCT",
+          "requirement": "required"
+        },
+        {
+          "exam": "CRP",
+          "requirement": "required"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "required"
+        },
+        {
+          "exam": "G test",
+          "requirement": "required"
+        },
+        {
+          "exam": "GM test",
+          "requirement": "required"
+        },
+        {
+          "exam": "TORCH",
+          "requirement": "required"
+        },
+        {
+          "exam": "EB-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "CMV-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "TB-Ab",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HBV",
+          "requirement": "required"
+        },
+        {
+          "exam": "HCV",
+          "requirement": "required"
+        },
+        {
+          "exam": "HIV",
+          "requirement": "required"
+        },
+        {
+          "exam": "TP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac, abdominal, urinary system, and other multisystem ultrasound screening",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum, blood, and midstream urine cultures",
+          "requirement": "required"
+        },
+        {
+          "exam": "Autoimmune- and tumor-related tests",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, test results were reported as follows: CBC: HGB 127 g/L, WBC 11.57×10^9/L, N 89.4%, PLT 117×10^9/L; urinalysis: WBC 1132.4/μl; biochemistry: ALT 35 U/L, AST 51.5 U/L, ALB 27.8 g/L, creatinine 54 μmol/L, LDH 721 U/L, CK 527 U/L, CK-MB 33.3 U/L, potassium 4.3 mmol/L, sodium 136 mmol/L; coagulation: PT 25.4 s, D-dimer 4590 μg/L; cardiac markers: TnI 0.06 ng/ml; arterial blood gas analysis: pH 7.421, PaO2 79.8 mmHg, PaCO2 33 mmHg, Lac 2.8 mmol/L, P/F=88.67. SARS-CoV-2 nucleic acid and antibody tests were negative. CRP 24.3 mg/L, ESR 21 mm/H; the remaining infection markers, including PCT, G test, and GM test, were all negative. Multisystem ultrasound screening found no valvular vegetations or abscess lesions. Sputum, blood, and midstream urine cultures were negative. Tumor markers: CEA 16.38 ng/ml; NSE 43.03 ng/ml; autoantibodies: homogeneous pattern; ANA (±) 1:320, Ro-52 (±); T-cell subsets and absolute counts: CD3+ 491 cells/μl, CD4+ 308 cells/μl, CD8+ 172 cells/μl; ANCA and RA were both negative.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI7pZGkHjSvjibqphUSVV2TgltDLaCQDzQicxe6NrUdQc1tlicvQIW5W0yWbiaPDpopsO1JSFTIT4tlcA/640?wx_fmt=jpeg",
+            "near_text": "[Figure 2] Chest CT on 4.27 after admission",
+            "local_src": "cleaned_cases_image_cache/4ad1f010b4286af12d85c97abf68333765d3dd66.jpg"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "COVID-19 pneumonia",
+            "evidence": [
+              "Fever, dry cough, shortness of breath, respiratory failure, multiple pulmonary infiltrative opacities"
+            ],
+            "exclusion_reasons": [
+              "SARS-CoV-2 nucleic acid and antibody tests negative",
+              "Epidemiologic history is not supportive"
+            ]
+          },
+          {
+            "name": "Viral pneumonia",
+            "evidence": [
+              "Fever, cough, progressive shortness of breath, and fine moist rales audible in the lungs"
+            ],
+            "exclusion_reasons": [
+              "Relevant etiologic tests were negative"
+            ]
+          },
+          {
+            "name": "Bacterial pneumonia",
+            "evidence": [
+              "Fever and cough; wet rales are audible on lung examination, and inflammatory exudative opacities are visible on lung imaging."
+            ],
+            "exclusion_reasons": [
+              "Sputum, blood, and midstream urine cultures were negative",
+              "Multisystem ultrasonography did not identify any abscess lesions."
+            ]
+          },
+          {
+            "name": "Fungal pneumonia",
+            "evidence": [
+              "Fever and cough; chest imaging shows infiltrative opacities"
+            ],
+            "exclusion_reasons": [
+              "G test and GM test negative"
+            ]
+          },
+          {
+            "name": "pulmonary tuberculosis",
+            "evidence": [
+              "Cough, fever"
+            ],
+            "exclusion_reasons": [
+              "TB-DNA, TB-Ab, and other tests were negative"
+            ]
+          },
+          {
+            "name": "Malignant neoplasm of the lung",
+            "evidence": [
+              "Tumor marker CEA elevated to 16.38 ng/ml"
+            ],
+            "exclusion_reasons": [
+              "No family history of neoplastic disease",
+              "No definite space-occupying lesion was seen on lung imaging.",
+              "No evidence of tumor metastasis was found on the peripheral workup",
+              "Insufficient basis for diagnosis based solely on elevated CEA"
+            ]
+          },
+          {
+            "name": "Interstitial lung disease",
+            "evidence": [
+              "Autoantibodies: ANA (±) 1:320, Ro-52 (±), indicating abnormality",
+              "Abnormal tumor markers"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral pneumonia",
+        "evidence": [
+          "Fever, cough, progressive shortness of breath, and fine moist rales audible in the lungs"
+        ],
+        "exclusion_reasons": [
+          "Relevant etiologic tests were negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant neoplasm of the lung",
+        "evidence": [
+          "Tumor marker CEA elevated to 16.38 ng/ml"
+        ],
+        "exclusion_reasons": [
+          "No family history of neoplastic disease",
+          "No definite space-occupying lesion was seen on lung imaging.",
+          "No evidence of tumor metastasis was found on the peripheral workup",
+          "Insufficient basis for diagnosis based solely on elevated CEA"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Interstitial lung disease",
+        "evidence": [
+          "Autoantibodies: ANA (±) 1:320, Ro-52 (±), indicating abnormality",
+          "Abnormal tumor markers"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Physical examination",
+          "basis_in_stage3_input": "Physical examination revealed mechanic's hands involving both hands (epidermal thickening and roughening of the skin on the lateral aspects of the fingers and the palmar surfaces of both hands, with hyperkeratosis, fissures, and desquamation; alternating dark-colored or dirt-like rash; irregular thickening of the proximal nail folds; periungual telangiectasia), and rough skin with hyperpigmentation on the lateral aspect of the left lower extremity.",
+          "why_order_this_exam": "The patient presented with 20 days of progressive dyspnea and 10 days of fever and dry cough, rapidly progressing within a short period to severe hypoxemia requiring invasive mechanical ventilation. Chest CT showed continuously enlarging multiple bilateral pulmonary infiltrative opacities. However, SARS-CoV-2 nucleic acid and antibody tests were negative; sputum/blood/urine cultures were negative; and infectious evidence including the G test, GM test, and PCT was insufficient. Despite treatment with antibacterial agents, corticosteroids, and IVIG, the condition continued to deteriorate, suggesting the need to promptly reassess for noninfectious causes, especially connective tissue disease-associated rapidly progressive interstitial lung disease. At this time, a systematic and targeted physical examination of the skin, periungual area, and extremities was performed with the aim of identifying signs related to inflammatory myopathies such as dermatomyositis/antisynthetase syndrome. The examination revealed typical \"mechanic's hands,\" periungual telangiectasia, and skin changes of the lower extremities, which could explain the fulminant interstitial lung disease in the setting of insufficient evidence of infection and substantially increased the likelihood of clinically amyopathic dermatomyositis-associated ILD, especially anti-MDA5-associated RP-ILD. This examination is noninvasive, can be performed at the bedside, poses the lowest risk to critically ill patients, yet can directly change the diagnostic direction, helping shift the differential diagnosis from \"severe infection\" to \"autoimmune-associated rapidly progressive interstitial lung disease,\" and provides key support for subsequent selection of myositis antibody testing and early initiation of intensified immunotherapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "myositis antibody panel sent out",
+          "basis_in_stage3_input": "Send-out myositis antibody panel result: MDA5 IgG (+++).",
+          "why_order_this_exam": "In the setting of progressive diffuse bilateral pulmonary infiltrates, severe respiratory failure with a P/F of only 88.67, repeatedly negative routine infectious workup, and poor response to broad-spectrum anti-infective therapy, together with ANA (±) 1:320, Ro-52 (±), elevated CK and LDH, and skin manifestations on physical examination such as “mechanic’s hands,” inflammatory myopathy-associated interstitial lung disease was already highly suspected clinically. The primary purpose of sending out a myositis antibody panel was to further determine whether myositis-specific autoantibodies were present, thereby etiologically confirming a dermatomyositis-spectrum disease and stratifying different subtypes. A positive MDA5 antibody is particularly closely associated with clinically amyopathic dermatomyositis, rapidly progressive interstitial lung disease, and high mortality; therefore, this test is used not only to diagnose or strongly support anti-MDA5 antibody-positive dermatomyositis-associated ILD, but also to exclude other explanations predominantly related to infection, help assess the severity of prognosis, and directly affect treatment strategy selection, such as early use of high-dose glucocorticoids, combined immunosuppressants, plasma exchange, and other intensified regimens. At the same time, confirmation of MDA5 positivity can also indicate the need for greater vigilance regarding treatment-related complications and rapid disease progression, and is decisive for critical care management and communication of prognosis with the family.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Physical examination showed mechanic’s hands involving both hands (thickening and roughening of the epidermis on the lateral aspects of the fingers and the palmar skin of both hands, with hyperkeratosis, fissuring, and desquamation; alternating dark or dirt-like rash; irregular thickening of the nail root folds visible; periungual telangiectasia present). The skin on the lateral aspect of the left lower extremity was rough, with hyperpigmentation. Send-out myositis antibody panel result: MDA5 IgG (+++).",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstI7pZGkHjSvjibqphUSVV2TgP42ibkUwK5r0JM2Y0ZgvhUQDA82Z4FjbpicicM4zbQkWxxgsibdYUVY3nQ/640?wx_fmt=jpeg",
+          "near_text": "[Figure 3] Skin lesion findings",
+          "local_src": "cleaned_cases_image_cache/a79738c761273a4102add3e6d318310c13b7876b.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI7pZGkHjSvjibqphUSVV2TgSQLdBkm1pZBa19lpKCLCgh6cJKTrqSGnJf3YBT4UFaN9F5tw6pc1GQ/640?wx_fmt=png",
+          "near_text": "[Figure 4] Plasma exchange",
+          "local_src": "cleaned_cases_image_cache/8326de33a4fafe4f96d8633fd73d9b56933890a4.png"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstI7pZGkHjSvjibqphUSVV2TgFnRQpgbJca98Rf5VOEZQWy38fAO8ogXIDwPiaZ56NWibPVpammyCAAsg/640?wx_fmt=png",
+          "near_text": "[Figure 5] Temperature chart and main treatment regimen",
+          "local_src": "cleaned_cases_image_cache/4e68ca68822c221b039a26e903deeff1c69fe952.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "anti-MDA5 antibody-positive dermatomyositis-associated interstitial lung disease (clinically amyopathic dermatomyositis with rapidly progressive interstitial lung disease)",
+      "diagnostic_basis": [
+        "Both hands show mechanic's hands-like changes",
+        "The skin on the lateral aspect of the left lower extremity is rough, with hyperpigmentation.",
+        "Autoantibody ANA (±) 1:320",
+        "Myositis antibody panel: MDA5 IgG (+++)"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Plasma exchange combined with glucocorticoid therapy (methylprednisolone)",
+        "Prophylactic anti-infective therapy (tigecycline added)",
+        "Methylprednisolone pulse therapy, with planned sequential use of cyclophosphamide and tacrolimus",
+        "hemostatic therapy, acid suppression, blood transfusion, and promotion of platelet production",
+        "Anti-shock treatment including volume expansion and vasopressor support"
+      ],
+      "treatment_response": [
+        "After 3 days of plasma exchange and methylprednisolone treatment, the respiratory status improved slightly, but fever persisted.",
+        "Plasma exchange caused loss of platelets and coagulation factors, prolonged coagulation time, and thrombocytopenia, so plasma exchange was discontinued.",
+        "After 2 days of steroid pulse therapy, tarry stool and gastrointestinal bleeding occurred, with progressive decreases in hemoglobin and platelet count; steroid pulse therapy was discontinued.",
+        "On May 7, signs of shock appeared; on May 11, blood pressure was difficult to maintain, and clinical death was ultimately declared."
+      ]
+    }
+  }
+}

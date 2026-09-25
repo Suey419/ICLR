@@ -1,0 +1,317 @@
+{
+  "status": "success",
+  "case_id": "case_63",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 46-year-old woman with a chief complaint of abdominal distension with bilateral lower extremity edema for 6 months, worsening for more than 20 days. Half a year ago, she developed abdominal distension without an obvious precipitating cause, accompanied by intermittent bilateral lower extremity edema. More than 4 months ago, the symptoms worsened, with intermittent abdominal distension and pain, accompanied by exertional dyspnea. Ascites was found at a local hospital, and abdominal TB was considered; she was given diagnostic anti-TB treatment with the HREZ regimen for 48 days, after which the abdominal distension and bilateral lower extremity edema were somewhat relieved. More than 20 days ago, the abdominal distension and pain worsened, accompanied by fatigue, night sweats, and numbness in the left palm; exertional dyspnea and cardiac fatigue were obvious, she was unable to lie flat at night, and the bilateral lower extremity edema worsened. Past history was unremarkable; she denied a history of TB and close contact exposure. She had consumed alcohol for many years and stopped drinking 5 years ago. Physical examination: temperature 36.7℃, heart rate 106 beats/min, respiratory rate 37 breaths/min, blood pressure 112/86 mmHg. Scattered hyperpigmentation of the skin over the whole body, leukonychia, clubbing, and jugular venous distention were present. The abdomen was distended, with mild tenderness below the xiphoid process; hepatojugular reflux was positive, and shifting dullness was positive. Moderate bilateral pitting edema of the lower extremities was present. Ancillary examinations: complete blood count was normal; blood chemistry showed creatinine 117 umol/L↑, uric acid 520 umol/L↑, potassium 2.96 mmol/L↓, albumin 31.4 g/L↓; thyroid function tests showed TSH 13.000 mU/L↑, T3 0.77 nmol/L↓, fT3 2.08 pmol/L↓, T4 10.30 pmol/L↓. Tumor markers and the full immunology panel showed no abnormalities. TB-IGRA (-), TB antibody (-), PPD (-). Fungal G test and GM test were both negative. Superficial lymph node color Doppler ultrasound: enlarged lymph nodes in the axillary, cervical, and supraclavicular regions. Abdominal color Doppler ultrasound: solid hepatic nodule, splenomegaly, ascites. Echocardiography: slight widening of the aortic sinus, dilated pulmonary artery, pericardial effusion (small amount). Electromyography: peripheral neurogenic damage in the upper and lower extremities.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL5lmWrLiaa53IflUGKPBk7sTrYibgPVicjmZWEgic7Ap9tsK274gxxzEvQsACnI2d67o4PXJsLxjL4fA/640?wx_fmt=png",
+          "near_text": "Figure 1: the patient's physical surface manifestations",
+          "local_src": "cleaned_cases_image_cache/3fdfb6723cca28d5c0f8c59cad9cd7bc41432f93.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "POEMS syndrome (multisystem disease associated with plasma cell disorder)",
+          "supporting_evidence": [
+            "The Phase 1 text information indicates the presence of peripheral neuropathy: numbness of sensation in the left palm; electromyography suggests \"peripheral neurogenic injury in the upper and lower extremities\"",
+            "The first-stage text information shows organ enlargement and effusions: splenomegaly, ascites, and a small amount of pericardial effusion",
+            "The Phase 1 text information indicates endocrine abnormalities: TSH 13.000mU/L↑, decreased T3, fT3, and T4",
+            "The first-stage text information shows skin changes: scattered hyperpigmentation of the skin over the entire body, leukonychia",
+            "On initial physical examination and images, clubbing of the fingers was indicated.",
+            "In the first stage, the textual information showed that superficial lymph node color Doppler ultrasound indicated enlargement of the axillary, cervical, and supraclavicular lymph nodes.",
+            "The phase I textual information showed bilateral lower extremity edema, abdominal distention, and shortness of breath after exertion, suggesting multisystem involvement."
+          ],
+          "opposing_evidence": [
+            "In the first-stage textual information, “tumor markers and the full immunologic panel showed no abnormalities”; no clear evidence of a monoclonal plasma cell abnormality was provided.",
+            "Phase 1 information did not provide direct evidence of osteosclerotic lesions or M protein involvement"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Right heart dysfunction (restrictive/constrictive pericardial disease or cardiomyopathy should be strongly considered as the cause)",
+          "supporting_evidence": [
+            "The text information from the first stage shows obvious manifestations of systemic venous congestion: jugular venous distention, positive hepatojugular reflux, ascites, and moderate bilateral pitting edema of the lower extremities",
+            "The first-stage narrative information shows obvious shortness of breath on exertion, fatigue, and inability to lie flat at night, suggesting impaired cardiac function.",
+            "Stage 1 vital signs showed a heart rate of 106 beats/min and a respiratory rate of 37 breaths/min.",
+            "Phase 1 echocardiography showed pulmonary artery dilation and a small amount of pericardial effusion",
+            "Phase 1 abdominal color Doppler ultrasound showed a solid hepatic nodule, splenomegaly, and ascites, which may be related to chronic venous congestion or a systemic disease"
+          ],
+          "opposing_evidence": [
+            "In the first stage, echocardiography only indicated a “small amount” of pericardial effusion and did not provide direct imaging evidence of constrictive pericarditis or severe cardiomyopathy.",
+            "In the first stage, there are systemic manifestations such as peripheral neuropathy, hyperpigmentation, and leukonychia that are not easily fully explained by cardiogenic edema."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Systemic amyloidosis (AL type or other types)",
+          "supporting_evidence": [
+            "The first-stage textual information shows multisystem involvement: peripheral neuropathy, pericardial effusion, fluid retention, mild renal dysfunction (creatinine 117 umol/L ↑), hypoalbuminemia",
+            "The first-stage textual information showed obvious signs suggestive of right heart failure: jugular venous distention, ascites, bilateral lower extremity edema, inability to lie flat at night",
+            "Phase I textual information indicates hepatic and splenic involvement: solid hepatic nodule, splenomegaly",
+            "In the first stage, the images and physical examination suggested emaciation, skin changes, and leukonychia, consistent with the appearance of a systemic disease."
+          ],
+          "opposing_evidence": [
+            "The textual information from the first stage did not provide evidence more supportive of amyloidosis, such as proteinuria, myocardial wall thickening, low-voltage electrocardiogram, or monoclonal immunoglobulin.",
+            "In the first stage, the comprehensive immunologic workup showed no abnormalities, providing insufficient support for AL amyloidosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Malignant neoplasms of the lymphatic system (such as lymphoma) with serous cavity effusion/systemic involvement",
+          "supporting_evidence": [
+            "Phase I textual information shows enlargement of the axillary, cervical, and supraclavicular lymph nodes",
+            "The phase 1 text information shows night sweats and fatigue, which are systemic symptoms.",
+            "The Phase 1 text information shows splenomegaly, ascites, and a small amount of pericardial effusion, suggesting possible systemic dissemination or serosal involvement.",
+            "The Phase 1 textual information shows a solid hepatic nodule, which may suggest possible liver involvement."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the complete blood count was normal, with no evidence of significant hematologic abnormality.",
+            "In the first stage, no abnormalities were found in tumor markers, but this cannot rule out lymphoma.",
+            "In the first stage, there were obvious peripheral neuropathy, endocrine abnormalities, hyperpigmentation, and leukonychia, which cannot be adequately explained by lymphoma alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Abdominal TB/tuberculous polyserositis",
+          "supporting_evidence": [
+            "Phase 1 text information shows abdominal distention, abdominal distending pain, ascites, and night sweats",
+            "During the first phase, because “peritoneal TB was considered,” the patient received 48 days of diagnostic anti-TB therapy with the HREZ regimen, after which abdominal distention and bilateral lower extremity edema were somewhat relieved",
+            "In the first stage, superficial lymphadenopathy and a small amount of pericardial effusion were present, which may be seen in multisite TB involvement"
+          ],
+          "opposing_evidence": [
+            "In the first-stage textual information, TB-IGRA (-), tuberculosis antibody (-), and PPD (-) were clearly documented.",
+            "Phase 1: denied TB and history of close contact",
+            "In the first stage, clubbing, leukonychia, marked endocrine abnormalities, and peripheral neurogenic damage were present, all of which are not typically supportive of isolated abdominal TB."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Decompensation related to cirrhosis or portal hypertension (including alcohol-related chronic liver disease)",
+          "supporting_evidence": [
+            "The phase 1 text information shows ascites, bilateral lower-extremity edema, albumin 31.4 g/L↓, and splenomegaly, which can be seen in portal hypertension and decompensated liver function.",
+            "Phase 1 abdominal color Doppler ultrasound indicated a solid hepatic nodule",
+            "Phase 1: history of alcohol use for many years"
+          ],
+          "opposing_evidence": [
+            "In the first stage, the patient had abstained from alcohol for 5 years, and no direct evidence of cirrhosis was provided, such as abnormal liver enzymes, jaundice, or coagulation abnormalities.",
+            "In the first stage, jugular venous distention, a positive hepatojugular reflux sign, and inability to lie flat at night further suggest a component of right heart failure.",
+            "In the first stage, there were peripheral neuropathy, hyperpigmentation, leukonychia, thyroid dysfunction, superficial lymphadenopathy, etc., which cannot be fully explained by cirrhosis alone."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Non-contrast chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Non-contrast abdominal CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine Ascitic Fluid Examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ascitic fluid acid-fast stain",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ascitic fluid culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Ascitic fluid TB-Xpert",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peritoneal biopsy pathology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Acid-fast stain of peritoneal biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Peritoneal biopsy TB-PCR",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pathology of right axillary lymph node needle biopsy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow aspiration and biopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Non-contrast chest CT: scattered inflammatory lesions in both lungs, with partial consolidation and atelectasis; small bilateral pleural effusions; dilatation of the main pulmonary artery; marked increase in lymph nodes at the bilateral lower neck and axillae. Non-contrast abdominal CT: scattered fluid in the abdominopelvic cavity, increased lymph nodes in the abdominal cavity and retroperitoneum. Ascitic fluid examination: transudate, acid-fast stain (-), culture (-), TB-Xpert (-). Peritoneal biopsy pathology: small amount of fibroadipose tissue, slight mesothelial hyperplasia, no acid-fast positive bacilli identified on stain, TB-PCR did not detect Mycobacterium tuberculosis DNA fragments. Right axillary lymph node needle biopsy pathology: reactive lymphoid hyperplasia. Bone marrow aspiration and biopsy: active bone marrow hyperplasia, considered reactive; additionally, a small number of plasma cells are seen in scattered, clustered, or small focal distribution, accounting for approximately 5-8% of nucleated cells.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL5lmWrLiaa53IflUGKPBk7s4CH3I8hSWttx9HdBhhhia7qTue8CXNia83IwpeY0ThtPCUud7TmiaMssA/640?wx_fmt=png",
+            "near_text": "Figure 2: Non-contrast chest CT of the patient",
+            "local_src": "cleaned_cases_image_cache/fb26e2776a004a7cbf83cafbaa64d6403468fd29.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstL5lmWrLiaa53IflUGKPBk7sWjib5BicEyx1tjwG7V27pUPuiam33QO9xU2hwb4VibVmDVX8fJZuIRiamIQ/640?wx_fmt=png",
+            "near_text": "Figure 3: Non-contrast abdominal CT of the patient",
+            "local_src": "cleaned_cases_image_cache/3c8abc444a9c35a6ec639eb9edb542936d37f3c2.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Tuberculous polyserosal effusions",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's ascites was transudate.",
+              "Both immunologic tests and molecular biologic tests for TB were negative",
+              "The corresponding pathologic biopsy also did not indicate TB-related changes",
+              "Poor response after anti-TB treatment outside the hospital",
+              "No evidence of pericardial constriction"
+            ]
+          },
+          {
+            "name": "Malignant polyserous effusions",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's serum tumor markers were normal.",
+              "No imaging evidence of a solid tumor",
+              "Negative ascitic fluid exfoliative cytology",
+              "No tumor tissue was found on peritoneal, lymph node, or bone marrow biopsy."
+            ]
+          },
+          {
+            "name": "Polyserous effusions caused by other common etiologies",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no underlying heart disease.",
+              "Albumin is not low",
+              "Creatinine was only mildly elevated, neither of which can explain the patient's severe edema."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Tuberculous polyserosal effusions",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's ascites was transudate.",
+          "Both immunologic tests and molecular biologic tests for TB were negative",
+          "The corresponding pathologic biopsy also did not indicate TB-related changes",
+          "Poor response after anti-TB treatment outside the hospital",
+          "No evidence of pericardial constriction"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Malignant polyserous effusions",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's serum tumor markers were normal.",
+          "No imaging evidence of a solid tumor",
+          "Negative ascitic fluid exfoliative cytology",
+          "No tumor tissue was found on peritoneal, lymph node, or bone marrow biopsy."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Polyserous effusions caused by other common etiologies",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no underlying heart disease.",
+          "Albumin is not low",
+          "Creatinine was only mildly elevated, neither of which can explain the patient's severe edema."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Serum protein electrophoresis/immunofixation electrophoresis",
+          "basis_in_stage3_input": "Serum protein electrophoresis/immunofixation electrophoresis: IgA lambda-type M protein positive (+)",
+          "why_order_this_exam": "The patient had previously presented with progressive abdominal distension, marked bilateral lower extremity edema, pleural effusion, ascites, and pericardial effusion, exertional dyspnea, orthopnea, and was also accompanied by skin hyperpigmentation, leukonychia, clubbing, increased superficial and retroperitoneal lymph nodes, splenomegaly, thyroid dysfunction, and electromyography suggesting peripheral neurogenic injury, indicating a multisystem disease; POEMS syndrome was highly suspected. Although the bone marrow showed only a small number of plasma cells, 5-8%, this was insufficient to directly confirm a monoclonal plasma cell disorder; therefore, serum protein electrophoresis/immunofixation electrophoresis was needed to look for an M protein. The core purpose of this test was to confirm whether a monoclonal immunoglobulin was present and determine its type, thereby fulfilling one of the mandatory diagnostic criteria for POEMS and helping differentiate it from simple infection, common cardiac/hepatic/renal edema, lymphoma, or peripheral neuropathy unrelated to monoclonality; if an M protein was detected, this would also directly affect whether the patient would subsequently enter the plasma cell disorder pathway and the selection of treatment options such as chemotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urine protein electrophoresis/immunofixation electrophoresis",
+          "basis_in_stage3_input": "Urine protein electrophoresis/immunofixation electrophoresis: no obvious abnormality detected",
+          "why_order_this_exam": "The patient already has mildly elevated creatinine, severe edema, and multiple serous cavity effusions, and a plasma cell abnormality is also suspected from the hematologic perspective; further evaluation is needed to determine whether there is urinary excretion of monoclonal light chains. Although urinary abnormalities may be inconspicuous in patients with POEMS, urine protein electrophoresis/immunofixation electrophoresis helps supplement assessment of the monoclonal protein burden and whether there is light chain-related renal injury, and also helps differentiate from other plasma cell disorders such as AL amyloidosis and multiple myeloma. The question this test is intended to address is: after detecting a clue of M protein in serum, whether corresponding urinary abnormalities and evidence of renal involvement are present, thereby refining disease classification, assessing the extent of organ damage, and providing a baseline for subsequent treatment intensity and follow-up monitoring.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone ECT/PET-CT",
+          "basis_in_stage3_input": "X-ray suggests: patchy high-density opacity in the left femoral neck, possibly a bone island; no obvious osseous abnormality in the right femur or bilateral tibia and fibula; no abnormality in the alignment or joint spaces of the bilateral hip, knee, and ankle joints; osseous proliferation along the posterior margins of the bilateral calcanei",
+          "why_order_this_exam": "Given that the patient already has peripheral neuropathy, increased volume overload in multiple systems, organomegaly, skin changes, endocrine abnormalities, and positive monoclonal M protein, POEMS syndrome is already highly suspected; however, it remains necessary to further identify one of its key major criteria—sclerotic bone lesions or mixed bone lesions. Although plain X-ray cannot cover the entire skeleton, it has practical value for screening sclerotic lesions in the long bones, pelvis, and other sites. The clinical question of this examination is to determine whether there are bone lesions supporting POEMS and to distinguish them from the osteolytic destruction commonly seen in multiple myeloma; at the same time, the presence or absence and location of bone lesions are also related to the strength of disease evidence, whether further whole-body bone-window CT/PET-CT is needed, and treatment target assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "8 AM adrenocorticotropic hormone",
+          "basis_in_stage3_input": "8 AM adrenocorticotropic hormone, serum cortisol, and sex hormones showed no significant abnormalities",
+          "why_order_this_exam": "In addition to hypothyroidism, the patient also has extensive multisystem involvement. POEMS syndrome is often associated with multiple endocrine abnormalities; therefore, systematic assessment of the pituitary-adrenal axis is needed. An 8 AM ACTH level is an important indicator for assessing the basal secretory status of the adrenal axis and can be used to determine whether there is adrenal dysfunction or central endocrine involvement. The main questions this test is intended to address are whether the patient's fatigue, edema, and deterioration in general condition include a correctable endocrine component, and whether the findings meet the category of endocrinopathy among the POEMS-related minor criteria. The result is also relevant to safety assessment and the need for hormone replacement during subsequent use of glucocorticoids, chemotherapy, and supportive treatment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum cortisol",
+          "basis_in_stage3_input": "8 AM adrenocorticotropic hormone, serum cortisol, and sex hormones showed no significant abnormalities",
+          "why_order_this_exam": "During the course of the illness, the patient developed fatigue, increased volume load, decreased exercise tolerance, and suspected multisystem involvement of POEMS; in this context, thyroid dysfunction alone cannot explain all manifestations, and adrenocortical function needs to be evaluated concurrently. Combined serum cortisol and ACTH testing helps determine whether primary or secondary adrenal dysfunction is present, avoiding misattribution of endocrine-related symptoms to isolated cardiac, renal, or infectious problems. This evaluation is meaningful for clarifying POEMS-related endocrine involvement, refining the diagnostic criteria, and assessing tolerance to subsequent glucocorticoid therapy such as dexamethasone as well as peritherapeutic risk control.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sex hormones",
+          "basis_in_stage3_input": "8 AM adrenocorticotropic hormone, serum cortisol, and sex hormones showed no significant abnormalities",
+          "why_order_this_exam": "One of the features of POEMS syndrome is endocrinopathy; in addition to the thyroid, the gonadal axis may also be involved. The patient is a 46-year-old woman with clear evidence of multisystem involvement and a monoclonal plasma cell disorder, and further assessment is needed to determine whether gonadal dysfunction is also present in order to strengthen the diagnostic evidence chain for POEMS. The clinical question this examination is intended to address is whether the patient has POEMS-related gonadal endocrine involvement, and whether endocrine factors are contributing to her complex manifestations such as generalized weakness and edema. The results will not only help with diagnostic stratification, but also provide a baseline for assessment of reproductive endocrine status before subsequent chemotherapy, symptom interpretation, and long-term follow-up.",
+          "requirement": "required"
+        },
+        {
+          "exam": "VEGF",
+          "basis_in_stage3_input": "Send-out VEGF 1262.87 pg/ml",
+          "why_order_this_exam": "TB-related and malignant polyserous effusions have basically been excluded in the earlier stage, and the patient has peripheral neuropathy, lymphadenopathy, splenomegaly, marked extravascular volume overload, skin hyperpigmentation/leukonychia/clubbing, thyroid dysfunction, and positive M protein; clinically, POEMS syndrome is already highly suspected. Elevated VEGF is one of the important major criteria for POEMS and is also closely related to increased vascular permeability and manifestations such as peripheral edema, ascites, and pleural effusion. The core purpose of ordering this test is to further confirm POEMS at the biological level, explain the mechanism of the patient's severe sodium and water retention and polyserous effusions, and strengthen the differentiation from other plasma cell disorders, isolated peripheral neuropathy, and nonspecific systemic diseases. The result may also serve as an important reference for subsequent monitoring of treatment response and disease activity.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After further evaluation, treatment, and follow-up, the following were identified: serum protein electrophoresis/immunofixation electrophoresis: IgA lambda-type M protein positive (+); urine protein electrophoresis/immunofixation electrophoresis: no obvious abnormality detected. After completion of the above results, the team requested a hematology consultation to assist with diagnosis and treatment, and POEMS syndrome could not be excluded; therefore, the following additional examinations were completed: X-ray showed a patchy high-density shadow in the left femoral neck, possibly a bone island; no obvious osseous abnormality was seen in the right femur or bilateral tibiae and fibulae; no abnormality was seen in the alignment or joint spaces of both hips, knees, and ankles; bony proliferation at the posterior margins of both calcanei; 8 AM adrenocorticotropic hormone, serum cortisol, and sex hormones showed no obvious abnormality; send-out VEGF 1262.87 pg/ml.",
+      "images": []
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "POEMS syndrome",
+      "diagnostic_basis": [
+        "Meets 2 mandatory criteria (polyneuropathy, monoclonal plasma cell proliferative disorder)",
+        "Meets 2 major criteria: 1. Sclerotic bone lesions or mixed sclerotic/lytic bone lesions on plain radiographs or CT scan 2. Lymphadenopathy 3. Elevated serum or plasma VEGF level (at least 3-4 times the upper limit of normal). Two of the above",
+        "Meets 4 minor criteria: 1. organomegaly (splenomegaly, hepatomegaly, or lymphadenopathy) 2. extravascular volume overload (peripheral edema, ascites, or pleural effusion) 3. endocrinopathy (adrenal, thyroid, pituitary, gonadal, parathyroid, or pancreatic disease, excluding diabetes mellitus or hypothyroidism) 4. skin changes (hyperpigmentation, hypertrichosis, glomeruloid hemangioma, plethora, acrocyanosis, flushing, white nails) 5. papilledema 6. thrombocytosis or polycythemia. Four of the above"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "CD regimen chemotherapy (cyclophosphamide 800 mg d1 8 15 22, dexamethasone 10 mg d1-2 8-9 15-16 22-23)"
+      ],
+      "treatment_response": []
+    }
+  }
+}

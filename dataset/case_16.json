@@ -1,0 +1,387 @@
+{
+  "status": "success",
+  "case_id": "case_16",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 29-year-old male patient, a worker. He was admitted to our hospital on Day 0, with the chief complaint of \"recurrent chest tightness and wheezing for more than 1 month.\" One month before admission, the patient developed chest tightness and wheezing, accompanied by fever, chest pain, and cough, with a maximum body temperature of 38.9°C. The cough was mostly dry, and the chest pain worsened with deep inspiration. There was no dizziness, diarrhea, hemoptysis, etc. He underwent chest CT at a local hospital, which suggested multiple mass-like high-density opacities in both lungs. He was treated with cephalosporins, and follow-up CT later suggested progression of the lesions. He was diagnosed with \"Legionella pneumonia\" and was given intravenous cephalosporins and oral clarithromycin for 20 days. His symptoms improved and he was discharged. Three days ago, after getting chilled, he again developed chest tightness and dyspnea, accompanied by blood-streaked sputum. For further diagnosis and treatment, he was admitted through the outpatient department with \"chest tightness of unclear etiology.\" Past medical history: 2 years earlier, he presented to a local hospital for vertigo and numbness of the left limbs and was diagnosed with cerebral infarction; he had been taking \"Bayer Aspirin tablets 100 mg qn\" orally outside the hospital. Personal history and marital/reproductive history were unremarkable. Family history: his father had \"hypertension\"; his mother was healthy. An uncle and a male cousin had ankylosing spondylitis; the rest was unremarkable. Physical examination: T 37.2°C, P 98/min, R 24/min, BP 115/68 mmHg. Obese body habitus, clear consciousness, in fair general condition, no cyanosis of the lips. The thorax was symmetric, without barrel chest. Breath sounds in the right lung were clear, and fine moist rales were heard in the left lower lung. No abnormalities were found on examination of the heart, abdomen, spine, extremities, or nervous system. Ancillary examinations: Chest CT (outside hospital, Day -28): mass-like high-density opacity near the pleura in the left lower lobe, multiple fibrotic linear opacities in both lungs. Chest CT (outside hospital, Day -24): compared with Day -28, worsening; coarse and disordered bilateral lung markings, consolidation in the left lower lobe. Chest CT after treatment for Legionella (outside hospital, Day -15): compared with before, improved absorption of left lower lung consolidation, with slight thickening of the left pleura. ECG (our hospital, Day 0): within normal limits.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLYyvc19VCLJMtMDxNSOtHHe2DkNVaIXF9tlr2HjgY9IuWtWtRa9icNnw/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Chest CT, Day -28",
+          "local_src": "cleaned_cases_image_cache/77204a9a82e3b15390ef465f03e3cc481128309c.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLdDlp4uoZ0rKrDpAvtsXibRrjwpjRRsfx5dTkAnia0bak1sS6JYtNicEnA/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Chest CT, Day -28",
+          "local_src": "cleaned_cases_image_cache/8115f43a68471da78a0747702492c34e1c678039.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJdRGxy0GcsmaM0gXubBpLL3ScwgK0w9qSArDOqUkoiaGgjr6UPOFnkBfZQLPsjp2wE6Vf2LaOicojg/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: Chest CT, Day -24",
+          "local_src": "cleaned_cases_image_cache/a698757b76dcfd0ad5afbc20fcb88110a89ca8b8.jpg"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLhGK6Prv5MRDibTblNibIibeVQe7WYFonib0hNww2ZsaGGSia2X92qWOYPtA/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: Chest CT, Day -24",
+          "local_src": "cleaned_cases_image_cache/cc109b67c4d7dba2e4c2c7deaa1a3c494fae8df7.jpg"
+        },
+        {
+          "image_id": "fig6",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLiadGWvYfDquqmzLiaWbKk6rvfQYPZzkb9lcLE4plIMCq06yew62llZvA/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT on Day -15",
+          "local_src": "cleaned_cases_image_cache/74a69a432b9186c71c311947ff2e85d85c13370d.png"
+        },
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLibLkYpCOFmZjNSicvnCPu2tbujNtiaTuSvt6WpfNApPtTHDTMmDJvmbOg/640?wx_fmt=png",
+          "near_text": "Figure 3: Chest CT on Day -15",
+          "local_src": "cleaned_cases_image_cache/ada4c364114146169d0c645e0a363d5ca2ba81ee.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJdRGxy0GcsmaM0gXubBpLL8VYibib96ICqCsViby361TKympo8hADFVsEChThuvicL91bOMcvpcxFIFg/640?wx_fmt=png",
+          "near_text": "We first analyzed the patient's condition:",
+          "local_src": "cleaned_cases_image_cache/8b201d2fda9cfade55de8af5fa610bc4310871d6.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pulmonary embolism with pulmonary infarction (with need for vigilance regarding a possible underlying hypercoagulable state)",
+          "supporting_evidence": [
+            "The patient's chest pain worsens with deep inspiration, consistent with pleuritic pain.",
+            "Three days ago, chest tightness and dyspnea recurred, accompanied by 'blood-streaked sputum'; pulmonary infarction can present with dyspnea and hemoptysis/bloody sputum.",
+            "Chest CT performed at an outside hospital indicated a \"mass-like high-density opacity near the pleura in the left lower lobe\"; the images also show a peripheral, pleura-adjacent lesion in the left lower lung. Subpleural wedge-shaped or mass-like consolidation may be seen in pulmonary infarction.",
+            "Prior CT at another hospital suggested \"multiple mass-like high-density opacities in both lungs\"; infarct lesions related to pulmonary embolism may be multiple and peripherally distributed.",
+            "There was a prior \"cerebral infarction\" 2 years ago; cerebral infarction occurring at age 29 suggests the need to be alert for thrombotic disease or an underlying hypercoagulable state, with a potential association with pulmonary thromboembolism.",
+            "On physical examination, fine moist rales can be heard in the left lower lung. Imaging mainly involves the left lower lung, which may be compatible with focal pulmonary infarction/pleural reaction.",
+            "The ECG was \"within normal limits\" and cannot rule out pulmonary embolism, but at least did not suggest an obvious primary cardiac cause of chest tightness."
+          ],
+          "opposing_evidence": [
+            "At onset, fever and cough were present, and the initial clinical presentation could be explained by infection.",
+            "After anti-infective treatment, the symptoms improved, and CT showed that the left lower lung consolidation had partially resolved compared with before, suggesting a certain degree of reversibility of the lesion; an infectious lesion can also explain this."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Community-acquired pneumonia/atypical pathogen pneumonia (including Legionella pneumonia)",
+          "supporting_evidence": [
+            "At onset, there were \"fever, chest pain, and cough,\" with a maximum body temperature of 38.9°C, consistent with common manifestations of infectious pneumonia.",
+            "CT scans from an outside hospital successively showed \"multiple mass-like high-density opacities in both lungs\" and \"left lower lobe consolidation\". The images show a consolidation opacity in the left lower lung, supporting the possibility of pulmonary parenchymal infection.",
+            "Physical examination: fine moist rales were heard in the left lower lung, consistent with inflammatory exudation in the left lower lung.",
+            "After “20 days of treatment with cephalosporins and clarithromycin, the symptoms improved and the patient was discharged,” and follow-up CT showed “the left lower lobe consolidation was partially absorbed and improved compared with before,” supporting partial remission after anti-infective treatment.",
+            "Recurrent chest tightness and dyspnea after catching a chill may be seen in incomplete recovery after infection or reinfection."
+          ],
+          "opposing_evidence": [
+            "Developed \"blood-streaked sputum\" 3 days ago. Although simple community-acquired pneumonia may present with blood-tinged sputum, other causes such as pulmonary infarction, TB, and vasculitis should be considered.",
+            "The lesions had previously manifested as a \"mass-like high-density opacity adjacent to the pleura in the left lower lobe\" and \"multiple mass-like high-density opacities in both lungs\"; peripheral mass-like lesions are not a typical manifestation of common pneumonia.",
+            "The patient is a young man, with recurrent episodes and multiple lesions on imaging during the course of the disease, suggesting that the entire clinical presentation cannot be explained solely by simple infection."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Organizing pneumonia (cryptogenic or secondary)",
+          "supporting_evidence": [
+            "The patient has a subacute course, with \"recurrent chest tightness and wheezing for more than 1 month,\" which is consistent with the common temporal progression of organizing pneumonia.",
+            "Outside hospital imaging was described as “multiple mass-like high-density opacities in both lungs”; the images show lesions distributed in the lower lungs and peripherally, and organizing pneumonia can present as multiple peripheral consolidations or mass-like opacities.",
+            "The lesion is located in the subpleural region of the left lower lobe, and organizing pneumonia commonly has a subpleural distribution.",
+            "After anti-infective treatment, the \"left lower lobe consolidation showed interval absorption/improvement compared with before\"; the imaging findings of organizing pneumonia may also show fluctuating changes and are easily confused with infection.",
+            "Chest pain, cough, and dyspnea may all be seen in organizing pneumonia."
+          ],
+          "opposing_evidence": [
+            "High fever up to 38.9°C at onset is more suggestive of an acute infectious process.",
+            "Recently developed \"blood-streaked sputum\"; this can occur in organizing pneumonia but is not a more typical manifestation.",
+            "In phase 1, no definite connective tissue disease symptoms, drug exposure, or other known secondary factors were provided."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "pulmonary tuberculosis",
+          "supporting_evidence": [
+            "\"Cough,\" \"fever,\" and \"blood-streaked sputum\" may be seen in pulmonary TB.",
+            "The disease course has lasted for more than 1 month, and the imaging lesions were previously multiple; TB should be included in the differential diagnosis.",
+            "Slight thickening of the left pleura; tuberculous pleurisy/pleural reaction can present with pleural changes.",
+            "Initially manifested predominantly as a dry cough; this may also be seen in TB."
+          ],
+          "opposing_evidence": [
+            "Imaging was characterized mainly by \"left lower lobe consolidation\" and a \"mass-like high-density opacity near the pleura\"; in the first stage, no findings more supportive of pulmonary TB, such as typical upper lobe cavitation or tree-in-bud pattern, were seen.",
+            "After treatment with cephalosporins and clarithromycin, the \"symptoms improved\" and CT showed interval absorption, which is not a typical treatment response of active pulmonary TB.",
+            "In the first stage, no supportive information for TB was provided, such as night sweats, weight loss, or a definite contact history."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Pulmonary vasculitis/diseases associated with diffuse alveolar hemorrhage (e.g., ANCA-associated vasculitis)",
+          "supporting_evidence": [
+            "The patient developed blood-streaked sputum, suggesting that hemorrhagic lesions of the alveoli or small vessels need to be considered in the differential diagnosis.",
+            "There are chest tightness, wheezing, chest pain, and multiple lesions in both lungs; vasculitis-related pulmonary involvement can present in various ways and may manifest as multiple areas of consolidation or nodular opacities.",
+            "A 29-year-old man with a prior history of early-onset cerebral infarction, suggesting that systemic vascular/immune abnormalities should not be overlooked."
+          ],
+          "opposing_evidence": [
+            "In the first stage, no clues suggestive of systemic vasculitis were provided, such as sinusitis, rash, renal involvement, joint symptoms, or anemia.",
+            "Imaging currently more prominently shows a focal subpleural lesion in the left lower lung, rather than the typical diffuse ground-glass opacities or multiple cavitary nodules.",
+            "After anti-infective treatment, symptoms and imaging temporarily improved, making an explanation based solely on vasculitis relatively less likely."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary malignancy or metastatic tumor (low probability but should be considered in the differential diagnosis)",
+          "supporting_evidence": [
+            "A prior CT at an outside hospital showed \"multiple mass-like high-density opacities in both lungs\"; the mass-like lesions need to be differentiated from neoplastic lesions.",
+            "Recent onset of \"blood-streaked sputum,\" which can be seen in lung tumors.",
+            "Imaging shows a subpleural mass/consolidative lesion in the left lower lung; tumor may present as a peripheral lesion."
+          ],
+          "opposing_evidence": [
+            "The patient is only 29 years old, and the age clearly does not support common primary lung cancer.",
+            "At onset, it was accompanied by \"fever\" and \"cough,\" and the lesion showed \"improved resolution\" after anti-infective therapy, making an inflammatory or vascular lesion more likely than a typical malignant tumor.",
+            "In the first stage, no tumor-supporting information such as smoking history, weight loss, or progressive worsening was provided."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "初步诊疗方向": [
+            "Obtain a complete blood count, C-reactive protein, erythrocyte sedimentation rate, and other inflammatory markers to assess the severity of infection",
+            "Obtain liver and renal function tests, electrolytes, coagulation function, and D-dimer to assess overall condition and thrombotic risk",
+            "Complete pathogen-related tests: Legionella urinary antigen, Legionella serum antibody, sputum culture and sputum pathogen smear, respiratory pathogen screening",
+            "Perform contrast-enhanced chest CT to clarify the morphology and distribution of the pulmonary lesions and whether there is pleural effusion or pleural lesions.",
+            "Complete ECG and echocardiography to rule out a cardiogenic cause of chest tightness and dyspnea",
+            "Complete baseline screening for autoimmune disease and thrombophilia, and assess hypercoagulable state in conjunction with the prior history of thrombosis",
+            "Obtain arterial blood gas analysis to assess hypoxemia and respiratory failure status"
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "[{\"Patient information during the interactive diagnosis and treatment process\":[\"Young adult male, subacute onset, disease course of more than 1 month, mainly manifested by recurrent chest tightness, wheezing, dry cough, intermittent fever, and chest pain; chest pain worsened with deep inspiration, and blood-streaked sputum appeared later\",\"Physical examination on admission: temperature 37.2℃, heart rate 98 beats/min, respiratory rate 24 breaths/min, fine moist crackles audible in the left lower lung\",\"Chest CT at an outside hospital showed multiple patchy opacities and pulmonary consolidation in both lungs, with pleural thickening and fibrotic linear opacities; symptoms and imaging temporarily improved after anti-infective treatment\",\"Legionella pneumonia was considered at an outside hospital, and anti-infective treatment with a cephalosporin combined with clarithromycin was given; after short-term relief, the condition worsened again\",\"Past history of cerebral infarction of unknown cause in young adulthood, long-term oral aspirin use, self-discontinuation 3 months earlier after taking a large amount of medication on his own; history of thrombosis and interruption of anticoagulant therapy\",\"Family history relevant to autoimmune disease, including ankylosing spondylitis\",\"Symptoms did not match the imaging findings; the extent of pulmonary lesions was limited, but chest tightness and dyspnea were prominent\",\"Revised Geneva score: 3 points; hemoptysis and tachycardia, highly suggestive of suspected pulmonary embolism\"]}]",
+        "images": [
+          {
+            "image_id": "fig10",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLQZ4yVibYt5sjO3Z0tnroEfaQE8Qk7Fd3q4ZAdxn5b14OkvKGv9ImYdQ/640?wx_fmt=png",
+            "near_text": "Figure 4: Pulmonary artery CTA",
+            "local_src": "cleaned_cases_image_cache/5b411d7466a69cdc57cb59e9bbd221f3500d4fd3.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Legionella pneumonia",
+            "evidence": [
+              "Clinical manifestations of intermittent fever",
+              "Chest CT showed consolidation, pleural thickening, and multiple fibrous bands.",
+              "The imaging findings are not fully consistent with the clinical symptoms; the imaging abnormalities are relatively mild, while the patient has symptoms of chest tightness and shortness of breath.",
+              "After treatment for Legionella pneumonia, symptoms improved and imaging findings resolved."
+            ],
+            "exclusion_reasons": [
+              "The patient has no manifestations of involvement of other systems.",
+              "There is a lack of etiologic evidence; the patient did not undergo urine antigen or serum antibody testing outside the hospital",
+              "The patient’s imaging findings resolve relatively quickly, whereas radiographic resolution in Legionella pneumonia is slow."
+            ]
+          },
+          {
+            "name": "Infections with pathogens other than Legionella pneumonia",
+            "evidence": [
+              "Young and middle-aged male, subacute onset, cough, fever, chest pain, blood-streaked sputum",
+              "Fine crackles are audible in the right lower lung field",
+              "Chest CT showed multiple patchy opacities in the lungs, accompanied by pleural effusion",
+              "After anti-infective therapy, both imaging findings and symptoms improved."
+            ],
+            "exclusion_reasons": [
+              "The extent of the patient's imaging abnormalities is not consistent with the symptoms of chest tightness and dyspnea.",
+              "No etiological evidence"
+            ]
+          },
+          {
+            "name": "Cryptogenic organizing pneumonia",
+            "evidence": [
+              "Subacute onset, fever, cough, chest tightness, dyspnea",
+              "Fine moist rales can be heard in the right lung",
+              "Chest CT suggested that the lesions were distributed along the subpleural regions and bronchovascular bundles.",
+              "Some lesions have a reverse halo sign"
+            ],
+            "exclusion_reasons": [
+              "Blood-streaked sputum, chest pain",
+              "Chest CT indicates pleural effusion, and the lesion location is relatively fixed, without migratory features."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Legionella pneumonia",
+        "evidence": [
+          "Clinical manifestations of intermittent fever",
+          "Chest CT showed consolidation, pleural thickening, and multiple fibrous bands.",
+          "The imaging findings are not fully consistent with the clinical symptoms; the imaging abnormalities are relatively mild, while the patient has symptoms of chest tightness and shortness of breath.",
+          "After treatment for Legionella pneumonia, symptoms improved and imaging findings resolved."
+        ],
+        "exclusion_reasons": [
+          "The patient has no manifestations of involvement of other systems.",
+          "There is a lack of etiologic evidence; the patient did not undergo urine antigen or serum antibody testing outside the hospital",
+          "The patient’s imaging findings resolve relatively quickly, whereas radiographic resolution in Legionella pneumonia is slow."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Infections with pathogens other than Legionella pneumonia",
+        "evidence": [
+          "Young and middle-aged male, subacute onset, cough, fever, chest pain, blood-streaked sputum",
+          "Fine crackles are audible in the right lower lung field",
+          "Chest CT showed multiple patchy opacities in the lungs, accompanied by pleural effusion",
+          "After anti-infective therapy, both imaging findings and symptoms improved."
+        ],
+        "exclusion_reasons": [
+          "The extent of the patient's imaging abnormalities is not consistent with the symptoms of chest tightness and dyspnea.",
+          "No etiological evidence"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Cryptogenic organizing pneumonia",
+        "evidence": [
+          "Subacute onset, fever, cough, chest tightness, dyspnea",
+          "Fine moist rales can be heard in the right lung",
+          "Chest CT suggested that the lesions were distributed along the subpleural regions and bronchovascular bundles.",
+          "Some lesions have a reverse halo sign"
+        ],
+        "exclusion_reasons": [
+          "Blood-streaked sputum, chest pain",
+          "Chest CT indicates pleural effusion, and the lesion location is relatively fixed, without migratory features."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Etiologic workup for pulmonary embolism",
+        "evidence": [
+          "Pulmonary artery CTA confirmed pulmonary embolism, and an etiologic workup was initiated."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Head MRI",
+          "basis_in_stage3_input": "After brain MRI was completed, the patient was diagnosed with cerebral infarction",
+          "why_order_this_exam": "The patient is only 29 years old, yet developed dizziness and numbness of the left extremities 2 years ago and was diagnosed with cerebral infarction, which is clearly disproportionate to the patient's age, suggesting a previous arterial thrombotic event of unknown cause. The patient now presents again with recurrent chest tightness, shortness of breath, chest pain, and blood-tinged sputum, requiring integrated assessment linking the prior cerebrovascular event with the current pulmonary/thrombotic manifestations. Head MRI is used to objectively confirm the prior cerebral infarction, a key thrombotic piece of evidence, to help determine whether the patient has a background of thrombosis at multiple sites, thereby supporting the diagnostic consideration of a hypercoagulable state, especially antiphospholipid syndrome, and influencing whether long-term intensified antithrombotic therapy is needed subsequently.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "basis_in_stage3_input": "This patient’s ECG showed a heart rate of 97 beats/min (2 points)",
+          "why_order_this_exam": "In this episode, the patient presented primarily with chest tightness, dyspnea, chest pain, and blood-tinged sputum, and requires prompt assessment for cardiogenic chest tightness/dyspnea and ECG changes related to pulmonary embolism. Although a previous ECG at our hospital was within normal limits, the current symptoms have worsened again; ECG can be used to document heart rate, rhythm, and whether there are clues of acute right heart strain, and serves as an important component of the revised Geneva score. In this case, a heart rate of 97 beats/min provides key support for the clinical probability assessment of pulmonary embolism. This examination helps with preliminary risk stratification, exclusion of obvious arrhythmia or differential diagnoses such as acute coronary syndrome, and provides a basis for further examinations such as pulmonary artery CTA.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT angiography of the pulmonary artery",
+          "basis_in_stage3_input": "Pulmonary artery CTA was completed. Pulmonary artery CTA showed multiple low-density filling defects in the main pulmonary arteries of both lungs and their branches; multiple consolidations in the left lower lung, considered pulmonary infarction.",
+          "why_order_this_exam": "During the patient's subacute course, there were recurrent episodes of chest tightness and wheezing, accompanied by pleuritic chest pain and later hemoptysis, and the severity of symptoms did not fully match the localized pulmonary consolidation shown on prior chest CT; in addition, there was a history of cerebral infarction at a young age and aspirin discontinuation, and the revised Geneva score indicated a high suspicion for pulmonary embolism. The patient had previously shown transient improvement after treatment for Legionella pneumonia and other infections, but the condition recurred, suggesting that infection alone could not explain all manifestations. Pulmonary artery CTA is the key imaging study to confirm or exclude pulmonary thromboembolism; it can directly visualize intraluminal pulmonary arterial filling defects and determine whether the left lower lung lesion represents infectious consolidation or pulmonary infarction. This examination not only determines the final diagnosis, but also directly affects whether anticoagulation should be started immediately, the duration of therapy, and the subsequent follow-up and repeat examination strategy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thrombophilia screening",
+          "basis_in_stage3_input": "Thrombophilia screening results: anticardiolipin antibody-IgG 66.70 U/ml ↑, anticardiolipin antibody-IgA (-), anticardiolipin antibody-IgM (-), anti-β2-glycoprotein I IgG 20.30 U/ml ↑, anti-nucleosome antibody (++), ANA (-), SSA weakly positive, ANCA panel (-).",
+          "why_order_this_exam": "The patient is a young man with a prior cerebral infarction; this time, pulmonary embolism and pulmonary infarction were again confirmed, representing thrombotic events at multiple arterial and venous (or pulmonary circulatory) sites. He also lacks common traditional risk factors such as hypertension, diabetes mellitus, and hyperlipidemia; therefore, an underlying hypercoagulable state must be investigated. Thrombophilia screening can systematically assess whether there is an antiphospholipid antibody-related thrombotic tendency as well as other immune-mediated/vasculitic clues, thereby explaining why the patient has had recurrent thrombotic events disproportionate to his age. The purpose of this evaluation is not only to identify the etiology and establish the basis for a definitive diagnosis, but also to distinguish primary from secondary immune-related thrombosis, assess the risk of recurrence, and guide whether long-term anticoagulation, combined antiplatelet therapy, and hydroxychloroquine are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anticardiolipin antibody-IgG",
+          "basis_in_stage3_input": "Anticardiolipin antibody-IgG 66.70 U/ml ↑",
+          "why_order_this_exam": "The patient has had two major thrombotic events: a cerebral infarction at a young age and the current pulmonary thromboembolism, and antiphospholipid antibody syndrome is highly suspected clinically. Anticardiolipin antibody-IgG is one of the core laboratory markers in the classification and diagnosis of antiphospholipid antibody syndrome. Especially in the setting of existing evidence of arterial and venous thrombosis, a positive result can provide direct support for an immune-mediated hypercoagulable state. Testing this marker is intended to determine whether the thrombosis is related to antiphospholipid antibody-mediated mechanisms, to help establish the diagnostic framework for primary APS, and to provide a basis for subsequent long-term anticoagulation intensity, follow-up retesting, and recurrent risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody-IgA",
+          "basis_in_stage3_input": "Anticardiolipin antibody-IgA (-)",
+          "why_order_this_exam": "In a patient who has already developed thrombotic events at multiple sites and requires a systematic evaluation of the antiphospholipid antibody profile, testing IgA in addition to IgG helps to provide a more complete understanding of antibody subtypes. Although IgA is not the most central classification marker, combined testing can supplement the immunologic profile, avoid missing an atypical antibody profile, and help determine whether this case has more extensive antiphospholipid antibody abnormalities. A negative result is also valuable, as it can be used to complete the thrombophilia screening result framework and support placing the subsequent diagnostic focus on IgG-related antiphospholipid antibody abnormalities.",
+          "requirement": "required"
+        },
+        {
+          "exam": "anticardiolipin antibody-IgM",
+          "basis_in_stage3_input": "Anticardiolipin antibody-IgM (-)",
+          "why_order_this_exam": "The patient had a cerebral infarction at a young age and now has pulmonary embolism; the antiphospholipid antibody panel should be completed in accordance with standard protocols, and anticardiolipin antibody-IgM is an important component of it. Testing this item is intended to determine whether the patient has positivity for different subtypes of anticardiolipin antibodies, thereby more comprehensively assessing the possibility of antiphospholipid syndrome and the scope of the antibody profile. Even if the result is negative, it is still helpful for excluding IgM-type involvement and, in combination with elevated IgG and clinical evidence of thrombosis, makes the diagnosis more focused and more rigorous, and assists with subsequent risk stratification.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Anti-β2-glycoprotein I IgG",
+          "basis_in_stage3_input": "Anti-β-glycoprotein 1 IgG: 20.30 U/ml ↑",
+          "why_order_this_exam": "In this case, there are already two thrombotic manifestations clinically present: cerebral infarction and pulmonary embolism/pulmonary infarction. Further confirmation of the etiology is needed through highly specific antiphospholipid antibody markers. Anti-β2-glycoprotein 1 IgG is an important core laboratory diagnostic marker for antiphospholipid syndrome and is closely associated with thrombosis. Testing this marker is intended to corroborate the anticardiolipin antibody result, strengthen the diagnostic evidence for APS, help explain the immunologic basis of the patient's recurrent thrombotic events, and affect long-term anticoagulation management and assessment of recurrence risk.",
+          "requirement": "required"
+        },
+        {
+          "exam": "antinucleosome",
+          "basis_in_stage3_input": "Anti-nucleosome antibody (++)",
+          "why_order_this_exam": "Although the patient primarily presents with thrombotic events, there is a family history related to autoimmune disease, and the patient had an early age at onset of thrombosis with involvement of multiple sites, requiring further differentiation as to whether a secondary autoimmune disease is present. Anti-nucleosome antibody can serve as one of the suggestive markers of systemic autoimmune abnormality. The purpose of ordering this test is, while confirming antiphospholipid antibody-related thrombotic tendency, to evaluate whether there is coexisting underlying connective tissue disease or a broader state of autoimmune activation, so as to help distinguish primary APS from APS secondary to other autoimmune diseases, and thereby guide subsequent immunologic evaluation and treatment follow-up strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "basis_in_stage3_input": "ANA （-）",
+          "why_order_this_exam": "The patient has findings highly suspicious for antiphospholipid antibody-related thrombosis, but clinically it is still necessary to distinguish this from APS secondary to autoimmune diseases such as systemic lupus erythematosus. ANA is one of the most basic immunologic tests for screening connective tissue diseases, and it should especially be completed when there are antibody abnormalities, thrombosis at a young age, and a family autoimmune background. The purpose of ANA testing is to assess whether there is an underlying systemic autoimmune disease, thereby helping determine whether this case is more consistent with primary or secondary antiphospholipid syndrome; a negative result supports the absence of evidence for a typical widespread ANA-associated connective tissue disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "SSA",
+          "basis_in_stage3_input": "SSA weakly positive",
+          "why_order_this_exam": "In the context of a young patient with recurrent thrombosis and abnormal thrombophilia screening, it is necessary to further determine whether there are additional connective tissue disease-related autoantibody abnormalities. SSA is a common component of the autoantibody panel. Although weak positivity is insufficient to independently diagnose a specific connective tissue disease, it may suggest an underlying immune abnormality. This test was ordered to concurrently screen for clues of secondary autoimmune disease during the diagnostic workup for antiphospholipid syndrome, to avoid missing a potential connective tissue disease, and to provide a basis for whether further rheumatology evaluation is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA panel (4 items)",
+          "basis_in_stage3_input": "Four-item ANCA panel (-)",
+          "why_order_this_exam": "During the course of the illness, the patient had chest pain, dyspnea, hemoptysis, and multiple pulmonary lesions. The imaging findings were at one point confused with infection and organizing pneumonia, among others. In theory, immune-mediated pulmonary vascular diseases such as ANCA-associated vasculitis and alveolar hemorrhage also needed to be considered in the differential diagnosis. The ANCA four-item panel was used to assess whether there was immunologic evidence related to small-vessel vasculitis and to address the key clinical question of whether the hemoptysis and pulmonary opacities might have been caused by vasculitis rather than thrombosis/infection. Negative results help reduce the likelihood of ANCA-associated vasculitis, focusing the diagnosis more on thrombotic events caused by antiphospholipid antibody syndrome and reducing the risk of unnecessary immunosuppressive therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "During a detailed history, we learned that the patient had a past medical history that seemed inconsistent with his age: he had a cerebral infarction in his 20s. The patient stated that 2 years ago he presented to a local hospital with vertigo and numbness of the left extremities, underwent brain MRI, and was diagnosed with cerebral infarction; after treatment, there were no residual symptoms. The patient had no hypertension, diabetes mellitus, or hyperlipidemia, and had been taking aspirin orally long-term outside the hospital. Three months ago, after an argument with family members, the patient attempted suicide by ingesting a large amount of aspirin; after successful resuscitation, aspirin was discontinued. We assessed him using the revised Geneva score: the ECG suggested a heart rate of 97 beats/min (2 points), hemoptysis (1 point). Total score was 3 points, with a high clinical probability. CTA of the pulmonary arteries was completed. Pulmonary artery CTA showed multiple low-density filling defects in the bilateral main pulmonary arteries and their branches; multiple consolidations in the left lower lung, considered pulmonary infarction. Thrombophilia screening results: anticardiolipin antibody-IgG 66.70 U/ml ↑, anticardiolipin antibody-IgA (-), anticardiolipin antibody-IgM (-), anti-β2-glycoprotein 1-IgG 20.30 U/ml ↑, antinucleosome antibody (++), ANA (-), SSA weakly positive, 4 ANCA tests (-).",
+      "images": [
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJdRGxy0GcsmaM0gXubBpLLaEJZx8oesUaSKhPtB58qHf0GCGlBknI240shHYlFGDezd39FtIhmrw/640?wx_fmt=png",
+          "near_text": "At this point, the patient had achieved a very good therapeutic response.",
+          "local_src": "cleaned_cases_image_cache/48993f8a9463cd30c5597e75b63178226e2ec150.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Primary antiphospholipid syndrome with pulmonary thromboembolism",
+      "diagnostic_basis": [
+        "The patient is young, has pulmonary embolism without reversible provoking factors, and has a history of arterial embolism.",
+        "Pulmonary artery CTA showed multiple low-density filling defects in the bilateral main pulmonary arteries and their branches; multiple consolidations in the left lower lung, consider pulmonary infarction.",
+        "Thrombophilia screening results: anticardiolipin antibody-IgG 66.70 U/ml ↑, anti-β2-glycoprotein 1-IgG 20.30 U/ml ↑, anti-nucleosome antibody (++), SSA weakly positive"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Low-molecular-weight heparin anticoagulation therapy was administered, followed by extended-duration anticoagulation therapy with warfarin.",
+        "Hydroxychloroquine and aspirin were administered for anti-inflammatory and antiplatelet therapy."
+      ],
+      "treatment_response": [
+        "Repeat pulmonary artery CTA after 1 month: the main pulmonary artery and its branches are well opacified, and the high-density opacity in the left lower lobe has resolved",
+        "The patient achieved a very good therapeutic response"
+      ]
+    }
+  }
+}

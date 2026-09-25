@@ -1,0 +1,418 @@
+{
+  "status": "success",
+  "case_id": "case_36",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 54-year-old male patient, office worker. Chief complaint: \"dyspnea for 1 year, worsening with bilateral lower extremity numbness for 1 week.\" In around Day 0, the patient developed dyspnea without an obvious precipitating factor, mostly after climbing stairs or heavy physical activity; when severe, it was accompanied by wheezing and could be relieved after several minutes of rest. He also had cough with white mucoid sputum and occasional small amounts of yellow sputum. There was no paroxysmal nocturnal dyspnea, hemoptysis, chest pain, or other discomfort. In approximately 7 months after Day 0, a physical examination at a local hospital found a slight increase in eosinophils. Repeat CBC in approximately 11 months after Day 0 showed WBC 7.92×10^9/L and eosinophil percentage 30.7%. In early period, approximately 12 months after Day 0, after a common cold, the patient developed worsening dyspnea with obvious wheezing, afternoon low-grade fever with body temperature mostly 37～38℃, and night sweats, without obvious chills. At the same time, the patient developed numbness of the dorsal skin of both feet, more obvious on the right side. At a local hospital, CBC showed WBC 12×10^9/L and eosinophil percentage 51.2%. The diagnosis was considered to be \"bronchial asthma,\" and inhaled \"salmeterol/fluticasone\" treatment was given; the patient felt that the above symptoms did not improve significantly. Since disease onset, the patient had poor sleep, appetite, and energy, with a weight loss of 5 kg; urination and bowel movements were normal. Past history included allergic rhinitis, and he underwent surgical treatment for allergic rhinitis at another hospital in 2014. He denied a history of bronchial asthma. He denied smoking history and denied dust exposure history. Marital/reproductive history and family history were unremarkable. Physical examination on admission: temperature 37.2℃, heart rate 86 beats/min, respiratory rate 18 breaths/min, blood pressure 110/65 mmHg; alert, no cyanosis of the lips, no palpable enlargement of superficial lymph nodes; no obvious abnormalities on cardiac, pulmonary, or abdominal examination; muscle strength grade 4 in both lower extremities, with normal muscle tone. Decreased deep and superficial sensation below both ankles. Physiologic reflexes were present. No obvious edema in both lower extremities. Laboratory tests: arterial blood gas analysis pH 7.42, PaCO2 38 mmHg, PaO2 90 mmHg (without oxygen supplementation); urinalysis, stool routine + OB, liver and kidney function, electrolytes, routine blood lipids, routine coagulation tests, myocardial enzymes, TnⅠ, BNP, hepatitis panel, pre-transfusion four-item panel, five lung cancer markers, etc. showed no obvious abnormalities; rheumatologic panel, ANCA, three vasculitis tests, lupus panel, and ANA profile were negative. IgE 1369.2 IU/ml, ESR 35 mm/h; viral panel, parasite panel, TB antibody, TB T-SPOT, and PCT were negative. Respiratory nine-pathogen panel was positive for Mycoplasma. GM test showed 33.07 ng/ml; G test showed 102.93 ng/ml; sputum bacterial and fungal cultures were negative; chest CT: bronchitic changes with scattered small infectious lesions in both lungs, small bilateral pleural effusions (small amount), and multiple enlarged mediastinal lymph nodes. PFT: moderate obstructive ventilatory dysfunction, negative bronchodilator test, mildly decreased diffusing capacity; bronchoscopy diagnosis: bronchial inflammation. BALF cell count showed lymphocytes 6%, macrophages 40%, neutrophils 8%, eosinophils 45%, others 1%. BALF bacterial and fungal cultures and acid-fast stain were negative; bone marrow aspiration cytology: active bone marrow hyperplasia, active granulocytic series, increased eosinophils at all stages (accounting for 47%), decreased erythroid series, decreased lymphocytes, and decreased megakaryocytic series. Cell and platelet distribution was normal. Peripheral blood smear showed leukocytosis with a markedly increased proportion of eosinophils.",
+      "images": []
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+          "supporting_evidence": [
+            "History of allergic rhinitis, suggesting an allergic/eosinophil-related constitutional background",
+            "Dyspnea for 1 year, with wheezing when severe, accompanied by cough and sputum production, consistent with manifestations of airway involvement",
+            "Peripheral blood eosinophils were markedly elevated; in approximately 11 months after Day 0, the eosinophil percentage was 30.7%, and in approximately 12 months after Day 0 it reached 51.2%.",
+            "BALF eosinophil percentage 45%, suggesting marked eosinophilic inflammation in the lungs",
+            "Bone marrow aspiration showed increased eosinophils at all stages (47%), and the peripheral blood smear also showed a markedly increased proportion of eosinophils",
+            "Numbness of the dorsal skin of both feet, decreased superficial and deep sensation below both ankles, and bilateral lower-extremity muscle strength grade 4, suggesting peripheral nerve involvement, consistent with common manifestations of vasculitic neuropathy",
+            "There is low-grade fever, night sweats, a 5 kg weight loss, and ESR 35 mm/h, suggesting systemic inflammatory activity.",
+            "Chest CT showed bronchitic changes, scattered mild infection in both lungs, a small pleural effusion, and multiple enlarged mediastinal lymph nodes, which may be seen in systemic inflammatory diseases"
+          ],
+          "opposing_evidence": [
+            "ANCA and the 3-item vasculitis panel were negative",
+            "Denies a prior history of bronchial asthma",
+            "The pulmonary function bronchodilator test was negative, which does not support typical reversible asthmatic airflow limitation."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Idiopathic hypereosinophilic syndrome (HES)",
+          "supporting_evidence": [
+            "Persistent marked elevation of peripheral blood eosinophils, with a peak of 51.2%",
+            "Bone marrow aspiration showed an active granulocytic series, with increased eosinophils at all stages (47%); the peripheral blood smear also showed a markedly increased proportion of eosinophils.",
+            "There is evidence of multiorgan involvement: respiratory symptoms, BALF eosinophils 45%, and decreased sensation and reduced muscle strength in both lower extremities suggest neurologic involvement",
+            "Elevated IgE 1369.2 IU/ml and elevated ESR 35 mm/h suggest eosinophil-related systemic inflammation",
+            "Parasite panel negative, sputum bacterial and fungal cultures negative, BALF acid-fast stain negative, suggesting insufficient evidence for common infectious causes",
+            "Negative ANCA, ANA panel, lupus panel, etc., make some secondary autoimmune diseases less supported"
+          ],
+          "opposing_evidence": [
+            "The presence of allergic rhinitis, wheezing, and increased eosinophils in BALF suggests that it could also be explained by EGPA or other allergic/eosinophilic lung diseases.",
+            "The chest CT description is mainly bronchitic inflammatory changes with a small amount of infection, and is not a manifestation specific to HES alone.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Chronic eosinophilic pneumonia",
+          "supporting_evidence": [
+            "A 1-year course of dyspnea, cough, and sputum production, recently worsened and accompanied by low-grade fever, night sweats, and weight loss, consistent with manifestations of chronic inflammatory lung disease",
+            "Markedly elevated peripheral blood eosinophils",
+            "BALF eosinophil percentage 45%, strongly suggests eosinophilic lung disease",
+            "Elevated IgE, elevated ESR",
+            "Chest CT showed scattered mild infection-like changes in both lungs, which can be confused with eosinophilic pulmonary infiltrates"
+          ],
+          "opposing_evidence": [
+            "The development of numbness in both lower extremities, hypoesthesia, and decreased muscle strength suggests extrapulmonary nervous system involvement, which chronic eosinophilic pneumonia alone cannot fully explain.",
+            "Chest CT did not describe typical peripherally distributed consolidation or infiltrates",
+            "Marked eosinophilia is present in the bone marrow, suggesting a greater likelihood of systemic disease."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Allergic bronchopulmonary aspergillosis (ABPA) or other allergic bronchopulmonary mycosis",
+          "supporting_evidence": [
+            "History of allergic rhinitis",
+            "Dyspnea with obvious wheezing, cough, and sputum production suggests possible airway hyperresponsiveness/allergic airway disease.",
+            "IgE was markedly elevated at 1369.2 IU/ml",
+            "Eosinophils in both peripheral blood and BALF were markedly elevated",
+            "Chest CT showed bronchitic changes."
+          ],
+          "opposing_evidence": [
+            "Denies a history of bronchial asthma",
+            "Negative bronchodilator test on pulmonary function testing",
+            "Although the GM test and G test had numerical values, the sputum fungal culture was negative, and in the first stage, typical evidence such as Aspergillus-specific IgE/IgG or central bronchiectasis was not provided.",
+            "Peripheral nerve involvement of both lower extremities is difficult to explain by ABPA alone"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Clonal eosinophilic disorders of the bone marrow/hematologic system (such as chronic eosinophilic leukemia, etc.)",
+          "supporting_evidence": [
+            "Bone marrow aspiration showed active marrow proliferation, active granulocytic series, and increased eosinophils at all stages (47%).",
+            "Peripheral blood smear showed leukocytosis and a markedly increased proportion of eosinophils",
+            "Systemic symptoms are present, such as low-grade fever, night sweats, and weight loss",
+            "Can cause multiorgan involvement and can theoretically explain the pulmonary and neurologic manifestations"
+          ],
+          "opposing_evidence": [
+            "In the first stage, no evidence was provided of increased blasts, marked anemia, or platelet abnormalities that would more strongly support leukemia/myeloproliferative neoplasm.",
+            "Markedly elevated IgE, a history of allergic rhinitis, and BALF eosinophils of 45% are more suggestive of allergic/immunologic eosinophilic disease.",
+            "Chest symptoms and peripheral neuropathy are more consistent with manifestations of non-neoplastic systemic diseases such as EGPA or HES"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Parasite-related eosinophilia with pulmonary involvement (e.g., Loeffler syndrome caused by parasitic infection, etc.)",
+          "supporting_evidence": [
+            "Markedly elevated peripheral blood eosinophils",
+            "BALF eosinophils 45%, accompanied by dyspnea, cough, and sputum production, consistent with the differential diagnostic consideration of parasite-related pulmonary eosinophilic infiltration",
+            "Low-grade fever and weight loss may be seen in some infectious diseases"
+          ],
+          "opposing_evidence": [
+            "Comprehensive parasite panel negative",
+            "A disease course lasting 1 year with concomitant peripheral nerve involvement is not the typical primary explanation for common parasitic pulmonary eosinophilic infiltration.",
+            "A history of allergic rhinitis and markedly elevated IgE may also be explained by nonparasitic allergic/immunologic diseases."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "PDGFR and BCR/ABL fusion gene testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspergillus-specific IgE test",
+          "requirement": "required"
+        },
+        {
+          "exam": "electromyography",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biopsy of the lesion site",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers and related tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat bone marrow cytology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cerebrospinal fluid examination",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "The patient meets the diagnostic criteria for eosinophilia (peripheral blood eosinophil count >0.5×10^9/L), and further diagnostic analysis was conducted using eosinophilia as the starting point.",
+        "images": [
+          {
+            "image_id": "fig2",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKYftuMCvVZoQkjGkqD2xal7InrBdFHTNhAvXIVQc0315X3a6I44Q7rtT6SoARgllplo8jDBd6FwQ/640?wx_fmt=png",
+            "near_text": "Figure 1: Chest CT",
+            "local_src": "cleaned_cases_image_cache/f7c5c4f4f138265ed3c236cb0b01b19bb7477b33.png"
+          },
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKYftuMCvVZoQkjGkqD2xalwcDJNCDtEcWJQVhEgqJkh1uTTJfVVdgfZ22OyNkvIiaVLfy8Qpz3gsw/640?wx_fmt=png",
+            "near_text": "Figure 2: Bronchoscopy",
+            "local_src": "cleaned_cases_image_cache/1324362918f9931bd71c4e7ceac378832baf41aa.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Allergic diseases (such as asthma, allergic rhinitis, skin diseases)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Patients with asthma generally do not develop peripheral neuropathy of both lower extremities unless they have another coexisting neurologic disorder.",
+              "This patient currently has no obvious rash; therefore, a skin disease is not supported."
+            ]
+          },
+          {
+            "name": "Drug-induced disease",
+            "evidence": [],
+            "exclusion_reasons": [
+              "This patient had no history of taking any special medications before disease onset; therefore, a drug-induced disease is also not supported."
+            ]
+          },
+          {
+            "name": "Infectious diseases (parasitic infections and fungal infections, etc.)",
+            "evidence": [
+              "Positive GM/G test",
+              "Markedly elevated serum IgE"
+            ],
+            "exclusion_reasons": [
+              "Parasite-related tests were negative"
+            ]
+          },
+          {
+            "name": "Connective tissue diseases (EGPA, polyarteritis nodosa, rheumatoid arthritis, etc.)",
+            "evidence": [
+              "The patient has dyspnea, accompanied by wheezing.",
+              "History of sinusitis",
+              "Bilateral lower extremity neuropathy",
+              "Eosinophilia"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Tumors (solid tumors, lymphoma and acute lymphoblastic leukemia, systemic mastocytosis, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient's serum tumor markers and bone marrow cytology have not shown clear evidence of malignancy at present."
+            ]
+          },
+          {
+            "name": "Gastrointestinal diseases (eosinophilic gastroenteritis, inflammatory bowel disease, celiac disease, etc.)",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient currently has no gastrointestinal symptoms such as abdominal pain or diarrhea; therefore, secondary eosinophilia caused by gastrointestinal disease is not considered at this time."
+            ]
+          },
+          {
+            "name": "Primary (clonal) eosinophilia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "Bone marrow cytology has not yet identified evidence of hematologic malignancy, such as blast cells."
+            ]
+          },
+          {
+            "name": "Hereditary (familial) eosinophilia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "The patient has no signs or symptoms of hereditary immunodeficiency."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Allergic diseases (such as asthma, allergic rhinitis, skin diseases)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Patients with asthma generally do not develop peripheral neuropathy of both lower extremities unless they have another coexisting neurologic disorder.",
+          "This patient currently has no obvious rash; therefore, a skin disease is not supported."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Drug-induced disease",
+        "evidence": [],
+        "exclusion_reasons": [
+          "This patient had no history of taking any special medications before disease onset; therefore, a drug-induced disease is also not supported."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Infectious disease (parasitic infection)",
+        "evidence": [
+          "Positive GM/G test",
+          "Markedly elevated serum IgE"
+        ],
+        "exclusion_reasons": [
+          "Parasite-related tests were negative"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Connective tissue diseases (EGPA, polyarteritis nodosa, rheumatoid arthritis, etc.)",
+        "evidence": [
+          "The patient has dyspnea, accompanied by wheezing.",
+          "History of sinusitis",
+          "Bilateral lower extremity neuropathy",
+          "Eosinophilia"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Tumors (solid tumors, lymphoma and acute lymphoblastic leukemia, systemic mastocytosis, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient's serum tumor markers and bone marrow cytology have not shown clear evidence of malignancy at present."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Gastrointestinal diseases (eosinophilic gastroenteritis, inflammatory bowel disease, celiac disease, etc.)",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient currently has no gastrointestinal symptoms such as abdominal pain or diarrhea; therefore, secondary eosinophilia caused by gastrointestinal disease is not considered at this time."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Primary (clonal) eosinophilia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "Bone marrow cytology has not yet identified evidence of hematologic malignancy, such as blast cells."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Hereditary (familial) eosinophilia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "The patient has no signs or symptoms of hereditary immunodeficiency."
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat bone marrow cytology examination",
+          "basis_in_stage3_input": "Repeat bone marrow cytology examination showed active bone marrow hyperplasia; compared with Day +3, granulocytic hyperplasia was markedly active, with increased eosinophils at all stages (52.5%); erythroid hyperplasia was decreased, the lymphocyte proportion was reduced, and megakaryocytic cells and platelet distribution were normal.",
+          "why_order_this_exam": "The patient has persistent marked elevation of peripheral blood eosinophils, with a peak of 51.2%, and has developed multi-organ and systemic manifestations including respiratory involvement, peripheral nerve involvement, low-grade fever, night sweats, and weight loss. It is therefore necessary first to determine whether the eosinophilia is reactive or primary/clonal. A prior bone marrow examination has already shown increased eosinophils at multiple stages of maturation. Repeat bone marrow cytology can dynamically assess the degree of bone marrow proliferation and changes in the eosinophil proportion, and evaluate for increased immature cells, abnormalities in other cell lineages, or clues to a myeloproliferative neoplasm. This examination plays a key role in excluding hematologic diseases such as chronic eosinophilic leukemia and in supporting systemic eosinophilic disorders such as EGPA/HES, and it will affect whether further molecular genetic testing is needed and whether to choose immunosuppression or hematologic targeted therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Parasitic examination",
+          "basis_in_stage3_input": "No parasites were seen.",
+          "why_order_this_exam": "The patient has marked eosinophilia, significantly elevated IgE, dyspnea with cough and sputum production, and pulmonary eosinophilic infiltrative manifestations. Parasitic infection is one of the most important differential diagnoses of secondary eosinophilia, and some parasitic infections can also cause pulmonary symptoms, low-grade fever, and weight loss. Although the prolonged disease course and concomitant peripheral neuropathy are more suggestive of a systemic immune-mediated disease, parasitic infection must be excluded before establishing EGPA or HES, to avoid worsening of infection due to inappropriate use of glucocorticoids. The purpose of this test is to identify or exclude an infectious etiology, provide a basis for attributing eosinophilia to a noninfectious inflammatory disease, and reduce the risk of subsequent immunosuppressive therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PDGFR and BCR/ABL fusion gene testing",
+          "basis_in_stage3_input": "PDGFR and BCR/ABL fusion gene testing: negative.",
+          "why_order_this_exam": "Both the patient's peripheral blood and bone marrow indicate marked eosinophilia, and with low-grade fever, night sweats, weight loss, and multiorgan involvement, clonal eosinophilia or a myeloproliferative neoplasm cannot be excluded based on clinical manifestations alone. Testing for PDGFR-related rearrangements and the BCR/ABL fusion gene is an important molecular basis for distinguishing primary/clonal eosinophilia and can help differentiate immune-inflammatory diseases such as EGPA and HES from hematologic neoplasms. The core clinical question for performing this test is whether the patient has a molecular clonal event that can explain the abnormal proliferative expansion of eosinophils; the result not only affects the diagnostic direction but also directly determines the treatment strategy, because if positive it may favor targeted therapy rather than glucocorticoid therapy alone.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Aspergillus fumigatus-specific IgE",
+          "basis_in_stage3_input": "Aspergillus fumigatus-specific IgE negative;",
+          "why_order_this_exam": "The patient has a history of allergic rhinitis, with long-term dyspnea, wheezing, cough, and sputum production clinically. Eosinophils were markedly elevated in both peripheral blood and BALF, and total IgE reached 1369.2 IU/ml. Chest CT showed inflammatory bronchial lesions. All of these require differentiation from ABPA or other allergic bronchopulmonary mycoses. Although sputum fungal culture was negative, a negative culture cannot completely exclude allergic fungus-related disease; therefore, Aspergillus fumigatus-specific IgE should be tested to assess whether sensitization to Aspergillus is present. This test helps explain the source of the airway symptoms and elevated IgE, exclude another common category of allergic eosinophilic lung disease, thereby supporting classification of the disease within the EGPA/HES spectrum and avoiding inappropriate treatment due to misdiagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum and urine protein fixation electrophoresis",
+          "basis_in_stage3_input": "Serum and urine immunofixation electrophoresis negative;",
+          "why_order_this_exam": "In addition to respiratory symptoms, the patient also developed numbness of both lower extremities, decreased sensation, and reduced muscle strength, suggesting peripheral nerve involvement. In middle-aged patients, in addition to vasculitis-related neuropathy, the differential diagnosis of peripheral neuropathy should also include monoclonal immunoglobulin-related disorders, plasma cell disorders, and some tumor-related lesions; these diseases may also be accompanied by systemic symptoms and affect the safety of subsequent treatment. Serum and urine immunofixation electrophoresis are used to screen for the presence of monoclonal protein abnormalities and to address whether the neuropathy and systemic manifestations are caused by a monoclonal plasma cell/lymphoproliferative disorder. The results help exclude paraneoplastic or hematologic immunoglobulin abnormality-related causes, further supporting the diagnosis of an inflammatory, eosinophil-related systemic disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CSF biochemistry, routine analysis, and India ink staining",
+          "basis_in_stage3_input": "CSF biochemistry, routine examination, and India ink staining were negative;",
+          "why_order_this_exam": "Within 1 week, the patient developed numbness of both lower extremities, and physical examination showed decreased superficial and deep sensation below the ankles and muscle strength of grade 4. It is necessary to clarify the nature of nervous system involvement, specifically whether it is predominantly peripheral neuropathy or whether there is central nervous system infection, inflammation, or other lesions. CSF biochemistry and routine analysis help determine whether there is infectious or immune-mediated nervous system involvement, and India ink staining is used to exclude central infections such as cryptococcosis, especially before the possible subsequent use of glucocorticoid therapy, when such conditions should be excluded as much as possible. This examination is intended to determine whether the neurologic symptoms can be explained by infectious diseases such as meningoencephalitis and whether immunosuppressive therapy can be initiated safely; negative results help support that the neurologic manifestations are more consistent with EGPA-related peripheral nerve involvement rather than central infection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "12 tumor marker panel",
+          "basis_in_stage3_input": "12 tumor markers and paraneoplastic syndrome: negative.",
+          "why_order_this_exam": "The patient has low-grade fever, night sweats, and a 5 kg weight loss, along with mediastinal and subsequent multiple superficial lymphadenopathy. Clinically, secondary eosinophilia caused by neoplastic diseases such as solid tumors or lymphoma must be considered. Although the 12-item tumor marker panel cannot independently diagnose a tumor, it can be used as part of solid tumor screening to help assess whether there are clues suggesting malignancy. This test is intended to address whether the eosinophilia and systemic symptoms may represent a tumor-related reaction, to provide a basis for deciding whether to intensify tumor-directed imaging and pathologic tissue sampling, and to exclude a potential underlying neoplastic background as much as possible before planned long-term glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Paraneoplastic syndrome",
+          "basis_in_stage3_input": "12 tumor markers and paraneoplastic syndrome: negative.",
+          "why_order_this_exam": "The patient has both respiratory symptoms and prominent peripheral neuropathy of both lower extremities, accompanied by weight loss, low-grade fever, night sweats, and lymphadenopathy; paraneoplastic syndrome, especially tumor-related neurologic syndromes, should be included in the differential diagnosis. Performing paraneoplastic syndrome-related testing is intended to determine whether the peripheral neuropathy may be caused by an immune mechanism mediated by an underlying tumor, rather than only EGPA or HES. This evaluation is meaningful for excluding tumor-related neuropathy, narrowing the differential diagnosis, and avoiding missed occult malignancy, and it will also affect whether subsequent management should focus on tumor screening and treatment or on immunosuppressive therapy for EGPA.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electromyography",
+          "basis_in_stage3_input": "Electromyography showed peripheral neuropathy of both lower extremities (motor + sensory fibers);",
+          "why_order_this_exam": "The patient developed numbness of the skin over the dorsum of both feet in the bilateral lower extremities over the past 1 week. Physical examination showed decreased superficial and deep sensation below both ankles and grade 4 muscle strength in both lower extremities, suggesting objective neurologic involvement; however, it is necessary to determine whether this represents a central lesion, radiculopathy, or peripheral neuropathy. Electromyography can objectively assess motor and sensory fiber impairment, lesion distribution, and severity, and is an important test for determining whether EGPA involves the peripheral nerves. The core question this test is intended to address is whether the neurologic symptoms truly exist and are attributable to peripheral nerve damage, thereby providing evidence of multiorgan involvement in EGPA, helping exclude diagnoses such as isolated asthma and isolated eosinophilic pneumonia that cannot explain peripheral neuropathy, and also providing a baseline for post-treatment efficacy assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Brain MRI",
+          "basis_in_stage3_input": "Brain MRI showed a few lacunar lesions in the brain.",
+          "why_order_this_exam": "When the patient develops numbness of the lower extremities and decreased muscle strength, in addition to peripheral nerve involvement, cerebrovascular disease, demyelinating lesions, or other central nervous system lesions causing sensorimotor impairment should also be excluded. Systemic vasculitis such as EGPA may also involve the central nervous system; therefore, brain MRI is helpful in determining whether the neurologic symptoms have a central cause and in assessing for vasculitis-related ischemic foci or other structural lesions. The role of this examination is to differentiate central from peripheral nervous system involvement, avoid misidentifying central lesions as simple peripheral neuropathy, and, after integrating electromyography and cerebrospinal fluid results, more accurately localize the site of neurologic injury, thereby providing a basis for subsequent treatment intensity and risk assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of superficial lymph nodes",
+          "basis_in_stage3_input": "Color Doppler ultrasound of the superficial lymph nodes showed multiple enlarged lymph nodes in the bilateral cervical and bilateral supraclavicular regions. Multiple lymph nodes were also visualized sonographically in the bilateral infraclavicular, axillary, and inguinal regions;",
+          "why_order_this_exam": "Chest CT has already shown multiple enlarged mediastinal lymph nodes. In addition, the patient has low-grade fever, night sweats, weight loss, and marked eosinophilia, so further evaluation is required to determine whether systemic lymphadenopathy is present. Superficial lymph node color Doppler ultrasound can noninvasively assess lymph node distribution, size, and degree of suspicion, and identify the most accessible site most suitable for biopsy. The main purpose of this examination is to clarify whether the lymphadenopathy is more suggestive of reactive hyperplasia, eosinophil-related inflammatory involvement, or neoplastic disease such as lymphoma/metastatic tumor; the results directly affect whether pathologic tissue sampling is needed and the choice of sampling site, and are valuable for excluding malignancy and supporting systemic inflammatory disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymph node biopsy",
+          "basis_in_stage3_input": "Lymph node pathology biopsy showed that the submitted lymph node (right neck) had preserved architecture, follicular hyperplasia, paracortical vascular proliferation, with eosinophil proliferation; reactive hyperplasia was considered.",
+          "why_order_this_exam": "The patient has multiple enlarged superficial and mediastinal lymph nodes, accompanied by low-grade fever, night sweats, weight loss, and marked eosinophilia. This presentation can be seen in reactive inflammation, as well as lymphoma, metastatic tumor, or other hematologic diseases. Imaging and laboratory tests alone cannot reliably distinguish among these, so a lymph node biopsy is needed to obtain histopathologic evidence. The key questions this test is intended to address are: whether the lymphadenopathy is due to malignant tumor, specific infection, or an eosinophil-related reactive lesion; if the pathology shows reactive hyperplasia with eosinophilic infiltration, it can support a systemic eosinophilic disease such as EGPA, help exclude important differential diagnoses such as lymphoma, and provide a stronger basis for subsequent glucocorticoid therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Repeat bone marrow cytology examination showed active bone marrow hyperplasia; compared with (Day +3), granulocytic hyperplasia was markedly active, with increased eosinophils at all stages (52.5%); erythroid hyperplasia was decreased, the lymphocyte proportion was decreased, and the megakaryocytic lineage and platelet distribution were normal. No parasites were seen. PDGFR and BCR/ABL fusion gene testing was negative. Aspergillus-specific IgE was negative; blood and urine immunofixation electrophoresis was negative; cerebrospinal fluid biochemistry, routine studies, and India ink staining were negative; 12 tumor markers and paraneoplastic syndrome were negative. Electromyography showed peripheral neuropathy of both lower extremities (motor + sensory fibers); brain MRI showed a few lacunar lesions in the brain. Bilateral maxillary sinusitis, sphenoid sinusitis, and ethmoid sinusitis; superficial lymph node color Doppler ultrasound showed multiple enlarged lymph nodes in the bilateral neck and bilateral supraclavicular fossae. Multiple lymph node sonographic findings in the bilateral subclavian, axillary, and inguinal regions; lymph node pathology biopsy showed that the submitted lymph node specimen (right neck) had preserved architecture, follicular hyperplasia, paracortical vascular proliferation, and eosinophilic hyperplasia, favoring reactive hyperplasia.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKYftuMCvVZoQkjGkqD2xalsbz8AUJakDayOSeXCKNgvBxzGHrdWzepmVrbV4XmoPTOgH7RJ8fW0Q/640?wx_fmt=png",
+          "near_text": "Figure 3: Lymph node biopsy pathology",
+          "local_src": "cleaned_cases_image_cache/7fb35047f65d41ac4d753f215fe893c2c1a9ba8d.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "EGPA (involving the lungs and peripheral nerves of both lower extremities)",
+      "diagnostic_basis": [
+        "The patient is a middle-aged man with a disease course of more than 1 year, presenting with dyspnea, accompanied by wheezing and numbness in both lower extremities.",
+        "History of sinusitis",
+        "Ancillary examinations indicated markedly elevated eosinophils in the blood, bone marrow, and BALF.",
+        "Electromyography confirmed peripheral neuropathy",
+        "Lymph node biopsy confirmed eosinophilic infiltration"
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Remission induction therapy with a glucocorticoid (methylprednisolone)",
+        "Long-term oral prednisone maintenance therapy",
+        "After discharge, oral prednisone was gradually tapered (treatment course: more than 1 year)."
+      ],
+      "treatment_response": [
+        "Currently, dyspnea and abnormal sensation in both lower extremities have improved.",
+        "Repeat testing showed blood eosinophils and pulmonary function had returned to normal"
+      ]
+    }
+  }
+}

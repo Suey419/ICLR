@@ -1,0 +1,436 @@
+{
+  "status": "success",
+  "case_id": "case_96",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "Basic information: Male, 62 years old. After nearly 3 months of treatment at an outside hospital for a confirmed diagnosis of \"bullous pemphigoid,\" the generalized rash had improved significantly compared with before. Since Day 0, he developed recurrent chest tightness and shortness of breath without an obvious precipitating factor, accompanied by cough and sputum production. The sputum was white and mucoid and difficult to expectorate. There was no chills, rigors, or fever; no hemoptysis or cyanosis; and no orthopnea or bilateral lower extremity edema. Complete blood count showed: white blood cells: 5.4×10^9/L; neutrophils %: 81.0%; platelets: 143×10^9/L; high-sensitivity C-reactive protein: 13.72 mg/L. Arterial blood gas analysis suggested: type I respiratory failure (pH 7.45, pCO2 37.8 mmHg, pO2 56 mmHg). On Day +17, a non-contrast chest CT showed \"bilateral lung inflammation.\" Past medical and personal history: history of bullous pemphigoid for nearly 3 months; previously treated with \"methylprednisolone 16 mg bid\" for 5 days, then adjusted to \"methylprednisolone 20 mg bid\" for 2 weeks (cumulative methylprednisolone dose 720 mg). From Day -49 to Day -36, he was referred to Huashan Hospital. During that period, because of poor rash control, EBV-DNA 980 copies/ml was detected, and concomitant Epstein-Barr virus infection was considered. He was switched to \"Solu-Medrol 32 mg IV drip QD\" and IVIG for the primary disease (during hospitalization, cumulative Solu-Medrol use was 708 mg, IVIG 32.5 g), and the rash improved significantly compared with before. History of hypertension for 5 years, with stable blood pressure control. Diabetes for more than 2 months, with poor glycemic control. Denied history of hyperlipidemia, denied history of TB, hepatitis, or other infectious diseases, and denied trauma history. Four years ago, he underwent right great saphenous vein high ligation, stripping, and endovenous closure at our hospital for varicose veins of the right lower extremity. Denied transfusion history. Denied food and drug allergy history. Smoking history 600 (year/cigarettes); currently quit smoking for 2 months. No alcohol use. Denied family history of hereditary disease. Physical examination: temperature: 36.4 ℃, pulse: 96/min, respirations: 18/min, blood pressure: 90/60 mmHg. Several map-like brown hyperpigmented patches of varying sizes were seen on the skin over the whole body, without obvious bullae and without desquamation. Breath sounds were coarse in both lungs, breath sounds were decreased at both lower lungs, and scattered dry and wet rales were heard. On the dorsum of the right foot, there was a skin ulceration approximately 2*2 cm with mild redness and swelling, with crusting on the surface. Dorsalis pedis pulses were symmetric and good bilaterally. No obvious abnormalities were found on cardiac, abdominal, or neurologic examination.",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSU0Oib1zhGA8LfN7eTic0WqiaAT1zUpiapk7Itn07fO4zjUJ4RVk5jK4EXMw/640?wx_fmt=png",
+          "near_text": "Figure 1: Non-contrast chest CT of the patient on Day +17",
+          "local_src": "cleaned_cases_image_cache/b255ebd11c41d64065a8d1be457c52dd4c2485c6.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Pneumocystis jirovecii pneumonia (PJP)",
+          "supporting_evidence": [
+            "Received prolonged glucocorticoid therapy for bullous pemphigoid over the past 3 months, with an immunosuppressed background",
+            "Comorbid diabetes mellitus with suboptimal glycemic control, further increasing the risk of opportunistic infection",
+            "Recurrent chest tightness, shortness of breath, and cough; arterial blood gas analysis indicated type I respiratory failure (pO2 56 mmHg)",
+            "Body temperature 36.4℃, no chills, rigors, or fever, white blood cell count 5.4×10^9/L, not a typical presentation of bacterial infection with high fever and leukocytosis",
+            "Chest CT images show diffuse/multiple patchy ground-glass and interstitial infiltrative opacities in both lungs, with a bilateral distribution, consistent with the imaging features of opportunistic pulmonary infection."
+          ],
+          "opposing_evidence": [
+            "There is cough with expectoration of white mucoid sputum that is difficult to expectorate; dry cough is more common in PJP.",
+            "The phase 1 information did not provide clear contradictory evidence."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Viral pneumonia (e.g., cytomegalovirus/EB virus-related or other viral infections)",
+          "supporting_evidence": [
+            "There is a background of glucocorticoid-related immunosuppression",
+            "In June, EBV-DNA was tested at 980 copies/ml, suggesting prior virus-related evidence.",
+            "Symptoms include chest tightness, shortness of breath, and cough, accompanied by type I respiratory failure, which can be seen in viral pneumonia.",
+            "No obvious high fever, and the total white blood cell count is not elevated, which is more consistent with the laboratory characteristics of some viral infections.",
+            "Chest CT images show multiple patchy ground-glass/opacifying infiltrative shadows in both lungs bilaterally; viral pneumonia may present with this pattern."
+          ],
+          "opposing_evidence": [
+            "Currently has white mucoid sputum, which is not specific compared with uncomplicated viral pneumonia",
+            "No definite new virologic evidence was provided in the first stage of information."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Bacterial bilateral pneumonia",
+          "supporting_evidence": [
+            "Cough and sputum production; coarse breath sounds in both lungs; decreased breath sounds in both lower lungs; scattered dry and moist rales audible.",
+            "High-sensitivity C-reactive protein 13.72 mg/L is elevated, supporting the presence of inflammation/infection.",
+            "Non-contrast chest CT has already indicated \"inflammation in both lungs\"",
+            "CT images show multiple patchy areas of consolidation/exudative opacities in both lungs, consistent with possible infectious lesions.",
+            "There is skin breakdown on the dorsum of the right foot with mild redness and swelling, suggesting disruption of the skin barrier and a background of susceptibility to infection."
+          ],
+          "opposing_evidence": [
+            "No chills, rigors, or fever",
+            "WBC 5.4×10^9/L, not supportive of the leukocytosis typically seen in significant bacterial infection",
+            "Imaging findings show bilateral diffuse lesions; opportunistic infection or noninfectious inflammation should also be considered."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Organizing pneumonia/drug-related lung injury (including post-treatment noninfectious inflammatory lung disease associated with pemphigoid)",
+          "supporting_evidence": [
+            "Within the past 3 months, has received substantial glucocorticoid and gamma globulin treatment, constituting a clinical background for drug-related lung injury or secondary organizing pneumonia",
+            "Chest CT images showed multiple patchy infiltrative opacities and ground-glass opacities in both lungs bilaterally; organizing pneumonia can have a similar distribution.",
+            "Symptoms include chest tightness, shortness of breath, and cough, with hypoxemia, which may be seen in inflammatory interstitial/alveolar lesions.",
+            "No obvious fever and no elevated white blood cell count, making atypical infection or a noninfectious inflammatory lesion necessary to include in the differential diagnosis."
+          ],
+          "opposing_evidence": [
+            "Productive cough, elevated CRP, and dry and moist rales on physical examination are present; infectious pneumonia should still be given higher priority consideration.",
+            "In the first stage, no clues supporting drug-induced lung injury, such as a temporal relationship after medication use or eosinophils, were provided."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 5,
+          "name": "Cardiogenic pulmonary edema/congestive heart failure",
+          "supporting_evidence": [
+            "The chief complaint of chest tightness, shortness of breath, and hypoxemia may be seen in acute heart failure or pulmonary edema.",
+            "Diffuse bilateral pulmonary opacities on CT images may overlap with the imaging findings of pulmonary edema.",
+            "Physical examination: blood pressure 90/60 mmHg; be alert for dyspnea related to circulatory factors"
+          ],
+          "opposing_evidence": [
+            "No orthopnea or bilateral lower extremity edema",
+            "Cardiac physical examination showed no obvious abnormalities",
+            "There is cough, sputum production, and scattered dry and moist rales, which is more suggestive of pulmonary parenchymal lesions.",
+            "In the first stage, no supporting evidence was provided for cardiomegaly, pleural effusion, or a prior history of heart failure."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Pulmonary embolism",
+          "supporting_evidence": [
+            "Recurrent chest tightness and shortness of breath, with arterial blood gas analysis showing type I respiratory failure, can be seen in pulmonary embolism",
+            "Recent exercise capacity may have been affected by skin disease and hospitalization treatment, and there is a history of surgery for lower extremity venous disease, indicating certain background risk factors for venous thromboembolism.",
+            "Blood pressure 90/60 mmHg; be alert for acute lesions affecting circulation and oxygenation."
+          ],
+          "opposing_evidence": [
+            "There are cough, sputum production, and bilateral inflammatory infiltrates on chest CT, which further support pulmonary infection or inflammatory parenchymal lung disease.",
+            "No hemoptysis",
+            "Physical examination did not indicate lower extremity swelling; dorsalis pedis pulses were symmetric and strong bilaterally.",
+            "In the first-stage images, there were no characteristic findings suggestive of predominantly wedge-shaped peripheral infarcts."
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Hemoglobin A1c",
+          "requirement": "required"
+        },
+        {
+          "exam": "Erythrocyte sedimentation rate (ESR)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Endotoxin test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal D-glucan assay (G test)",
+          "requirement": "required"
+        },
+        {
+          "exam": "tumor markers",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Sputum smear bacteriology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum smear for mycology",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum acid-fast bacilli smear",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytomegalovirus antibody IgM/IgG",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cytomegalovirus DNA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Epstein-Barr virus antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum bacterial culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Sputum fungal culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-SPOT.TB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "high-sensitivity C-reactive protein (CRP)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "D-dimer",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cardiac biomarkers",
+          "requirement": "required"
+        },
+        {
+          "exam": "B-type natriuretic peptide precursor (BNP)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Procalcitonin (PCT)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Diabetes-related autoantibodies",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antinuclear antibody panel",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Bronchoalveolar lavage fluid culture",
+          "requirement": "required"
+        },
+        {
+          "exam": "Respiratory pathogen antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Lymphocyte subsets (CD4/CD8)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "BALF mNGS test",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "After admission, relevant examinations were completed: glycated hemoglobin 7.8%, erythrocyte sedimentation rate 21 mm/h, endotoxin <5, and fungal D-glucan 224.9 pg/mL elevated; among tumor markers, neuron-specific enolase 25.0 ug/L, CYFRA211 12.55 ug/L, carcinoembryonic antigen 9.08 ug/L, and CA19-9 59.38 U/ml were all elevated; sputum smear showed no bacteria or acid-fast bacilli, with yeast-like fungal spores 4+ and pseudohyphae 2+ seen; cytomegalovirus IgM negative, IgG positive, and both HCMV-DNA and Epstein-Barr virus-related IgM negative; routine sputum culture showed Klebsiella pneumoniae 4+, fungal culture showed Candida albicans, and T-SPOT was negative; CBC showed mild anemia with hemoglobin 111 g/L, high-sensitivity C-reactive protein 10.67 mg/L elevated, biochemistry suggested low albumin 29.3 g/L, alanine aminotransferase 48 U/L, and lactate dehydrogenase 534 U/L elevated, blood glucose 6.3 mmol/L, coagulation testing showed elevated D-dimer 1.95 ug/ml, cardiac markers showed elevated B-type natriuretic peptide precursor 753.8 pg/ml, procalcitonin 0.061 ng/ml; autoimmune-related antibodies and diabetes-related autoantibodies were all negative, bronchoalveolar lavage fluid culture showed no bacteria, fungi, or Mycobacterium tuberculosis, IgM for common respiratory pathogens were all negative, lymphocyte subsets showed absolute CD4 count 69, absolute CD8 count 80, CD4/CD8 0.86; repeat blood gas analysis showed the oxygenation index decreased to 193 mmHg, and subsequent bronchoscopy showed no obvious abnormalities, with bronchoalveolar lavage performed and submitted for mNGS and other testing.",
+        "images": [
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUpr9l9jvSd1HOXAaZChDPgEF5UUZsdLyfrOhPxv7mQzUOfFDxY6Bbyw/640?wx_fmt=png",
+            "near_text": "Figure 2: Inpatient temperature chart after admission",
+            "local_src": "cleaned_cases_image_cache/c8f8351aa6e7e34c2ecc62d19d150f8e88f4018c.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUfEDeUKvXt4HjiajpNyM0F2mL3vQ0Snic8mGkYwXIHZVYLFg5OtAMyH8g/640?wx_fmt=png",
+            "near_text": "Figure 3: Bronchoscopic examination of the patient on Day +22",
+            "local_src": "cleaned_cases_image_cache/78e1a11e99289b01bd887ef4dabb78c3e9fa3cdc.png"
+          },
+          {
+            "image_id": "fig9",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUgrUazWZcSRkJ0picgKufSicgOwQH2vj2ibQ9fYe221hrWP1fu7ARz3w3w/640?wx_fmt=png",
+            "near_text": "Figure 4: Non-contrast chest CT of the patient on Day +26",
+            "local_src": "cleaned_cases_image_cache/389f526a19366158da006500f0f96b3615e04afe.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Community-acquired pneumonia (bilateral)",
+            "evidence": [
+              "PSI score: 72",
+              "Complicated by type I respiratory failure"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "bullous pemphigoid",
+            "evidence": [
+              "Clarify the past medical history"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Type 2 diabetes mellitus",
+            "evidence": [
+              "Identify the underlying disease"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Grade 1 hypertension (very high risk)",
+            "evidence": [
+              "Identify the underlying disease"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Skin ulcer on the dorsum of the right foot",
+            "evidence": [
+              "Skin ulceration is clearly present"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Pneumocystis jirovecii pneumonia",
+            "evidence": [
+              "The patient had immunocompromising factors and developed bilateral lung inflammation during corticosteroid therapy.",
+              "Imaging features (overlapping polymorphic and pleomorphic lesions in both lungs)",
+              "G test positive",
+              "Type I respiratory failure"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "Connective tissue disease-associated interstitial pneumonia",
+            "evidence": [
+              "The patient has a history of bullous pemphigoid, which is an autoimmune disease."
+            ],
+            "exclusion_reasons": [
+              "At present, no positive results have been found on autoantibody testing at our hospital."
+            ]
+          },
+          {
+            "name": "tumor",
+            "evidence": [
+              "Some of the patient's tumor markers were elevated."
+            ],
+            "exclusion_reasons": [
+              "No solid space-occupying lesion is currently present; not considered at this time"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Community-acquired pneumonia (bilateral)",
+        "evidence": [
+          "PSI score: 72",
+          "Complicated by type I respiratory failure"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "Pneumocystis jirovecii pneumonia",
+        "evidence": [
+          "The patient had immunocompromising factors and developed bilateral lung inflammation during corticosteroid therapy.",
+          "Imaging features (overlapping polymorphic and pleomorphic lesions in both lungs)",
+          "G test positive",
+          "Type I respiratory failure"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "BALF mNGS test",
+          "basis_in_stage3_input": "On Day +24, mNGS testing of the patient's bronchoalveolar lavage fluid indicated Pneumocystis jirovecii (Reads=2788).",
+          "why_order_this_exam": "The patient is a 62-year-old man who, over the past 3 months, has been receiving relatively high-dose glucocorticoids for bullous pemphigoid and has concomitant poorly controlled diabetes mellitus, representing a marked immunosuppressed background. After admission, he presented with recurrent chest tightness, dyspnea, cough, and sputum production. Arterial blood gas indicated type I respiratory failure, and the oxygenation index further declined to 193 mmHg, indicating more severe illness. Previous chest CT showed bilateral pulmonary inflammation. Combined with an elevated G test, elevated LDH, and an absolute CD4 count of only 69, these findings are highly suggestive of an opportunistic infection, especially Pneumocystis jirovecii pneumonia; however, routine sputum smear, sputum culture, and routine culture of bronchoalveolar lavage fluid failed to provide definitive etiologic evidence, and the bacterial culture and Candida results may also represent colonization. At this time, mNGS of bronchoalveolar lavage fluid was performed with the aim of identifying a pulmonary etiologic basis as soon as possible in the setting of severe hypoxemia, focusing on whether Pneumocystis jirovecii is present and whether there is coinfection with other rare pathogens. This test plays a key role in early diagnosis of PJP, excluding purely bacterial or common viral pneumonia, and guiding whether to initiate or intensify targeted treatment such as trimethoprim-sulfamethoxazole; at the same time, compared with more invasive subsequent sampling methods after bronchoscopy, it carries lower risk and offers better timeliness.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Follow-up non-contrast chest CT",
+          "basis_in_stage3_input": "On Day +26, repeat noncontrast chest CT showed that the bilateral pulmonary infiltrative lesions had improved compared with before, but there were multiple newly developed nodular opacities in the right lung, of unclear nature.",
+          "why_order_this_exam": "After admission, the patient had already received empiric antibacterial, antifungal, and anti-Pneumocystis therapy. The initial findings were predominantly diffuse bilateral pulmonary infiltrates and ground-glass opacities, and clinically the patient continued to have hypoxemic respiratory failure, requiring dynamic assessment of treatment response and lesion evolution. The core purposes of repeat non-contrast chest CT were, first, to determine whether the diffuse bilateral pulmonary infiltrative lesions had been absorbed, thereby assessing whether the current treatment for suspected PJP was effective; second, to detect new imaging changes. This follow-up study indicated improvement of the original infiltrative lesions, but multiple new nodular opacities had developed in the right lung, indicating a change in the spectrum of disease. PJP alone cannot fully explain the findings, and further consideration should be given to uncommon fungal infections such as invasive pulmonary aspergillosis, mucormycosis, and cryptococcosis; neoplastic lesions or other noninfectious nodular lesions should also be differentiated. This follow-up study has direct guiding significance for identifying whether new complications have developed, determining whether the antifungal regimen needs to be changed or escalated, and deciding whether further invasive pathologic tissue sampling is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "CT-guided percutaneous biopsy of a right lower lobe pulmonary nodule",
+          "basis_in_stage3_input": "On Day +28, the patient underwent CT-guided percutaneous biopsy of a right lower lobe pulmonary nodule.",
+          "why_order_this_exam": "Although the diffuse exudative lesions in both lungs had improved after mNGS of bronchoalveolar lavage fluid had indicated Pneumocystis jirovecii, follow-up CT showed multiple newly developed nodular opacities in the right lung, suggesting that in addition to PJP, another type of lesion may also be present. The patient has long-term corticosteroid therapy, diabetes mellitus, and low CD4, placing the patient at high risk for invasive fungal infections and other opportunistic infections; at the same time, tumor markers had previously been elevated, and although there had been no definite space-occupying lesion earlier, the newly developed nodules still require exclusion of malignant disease. Imaging alone cannot distinguish invasive aspergillosis, mucormycosis, cryptococcosis, rare pathogen infections, tumor, or noninfectious inflammatory nodules; therefore, CT-guided percutaneous biopsy of an accessible right lower lobe nodule is needed to obtain tissue. The clinical questions this procedure is intended to address are to clarify the nature of the newly developed nodules and determine whether mixed infection or another diagnosis is present, thereby providing direct evidence for whether to broaden antifungal coverage, whether to avoid blind prolonged broad-spectrum treatment, and for subsequent precise treatment. The CT-guided approach can also improve localization accuracy and, when tissue acquisition is necessary, balance sampling success rate with procedural safety assessment.",
+          "requirement": "required"
+        },
+        {
+          "exam": "NGS testing of lung puncture tissue",
+          "basis_in_stage3_input": "On Day +31, the NGS results of the lung biopsy tissue were reported as \"Pneumocystis jirovecii (Reads=368), Epstein-Barr virus A (Reads=3), Rickettsia felis (Reads=1)\".",
+          "why_order_this_exam": "Because the nature of the newly developed right lung nodule was unclear, and mNGS of bronchoalveolar lavage fluid mainly reflects pathogen information within the airway/alveolar lumen and has limited value in interpreting nodular parenchymal lesions, tissue NGS was continued after lung tissue was obtained by biopsy, with the aim of directly seeking etiologic evidence from the lesion site. The patient previously had an immunosuppressed background, hypoxemic respiratory failure, elevated G test, and polymorphic imaging changes, and after treatment the original exudative lesions improved while a new nodule developed, suggesting possible pathogen shift, mixed infection, or focal deep infection. Tissue NGS may help determine whether these new nodules are still caused by Pneumocystis jirovecii-related lesions, or whether there is concomitant Aspergillus, Mucor, Cryptococcus, mycobacteria, or other rare pathogens. This test is of important value in confirming pathogen concordance during a complex treatment course, excluding sampling bias resulting from BAL findings alone, and guiding whether to continue PJP-directed therapy or adjust the broad-spectrum anti-infective regimen; at the same time, it also helps explain the clinical significance when subsequent histopathologic findings are atypical.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Needle biopsy histopathology",
+          "basis_in_stage3_input": "On Day +33, the percutaneous biopsy histopathology report stated, \"A small amount of blood clot, alveolar tissue, and fibrous vascular tissue; no definite necrosis or granulomatous inflammation identified; please correlate clinically,\" and Pneumocystis jirovecii was still considered.",
+          "why_order_this_exam": "For new pulmonary nodules that develop during treatment, reliance on imaging and molecular testing alone remains insufficient to complete the full differential diagnosis. In particular, the patient has both immunosuppression with a high risk of opportunistic infection and the confounding clue of elevated tumor markers; therefore, percutaneous biopsy histopathology is a necessary morphologic confirmatory method. In this patient, pathology is needed to determine whether tumor cells, granulomatous inflammation, necrosis, vascular invasion, fungal tissue reaction, or other noninfectious inflammatory changes are present, in order to resolve the key question of whether the new nodules are malignant, TB/nontuberculous mycobacterial, invasive fungal disease, or an inflammatory reaction related to PJP. Pathologic examination can also be used for cross-validation with BAL mNGS and tissue NGS: if no definite tumor, necrosis, or granuloma is identified, the likelihood of diagnoses such as tumor and TB can be reduced, supporting continued clinical consideration of Pneumocystis jirovecii-related pulmonary lesions. This result plays a निर्णसive role in excluding important differential diagnoses, assessing whether further escalation of invasive diagnostic procedures is needed, and ultimately determining the treatment direction and the necessity of broad-spectrum antifungal therapy.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "On Day +24, mNGS testing of the patient's bronchoalveolar lavage fluid indicated Pneumocystis jirovecii (Reads=2788). On Day +26, repeat non-contrast chest CT showed that the bilateral pulmonary exudative lesions had improved compared with before, but multiple new nodular opacities were seen in the right lung, of unclear nature. Multidisciplinary discussion concluded that invasive pulmonary aspergillosis still could not be excluded, and rare fungal infections such as mucormycosis and cryptococcosis also could not be excluded. On Day +28, the patient underwent CT-guided percutaneous biopsy of a right lower lobe pulmonary nodule. On Day +31, NGS testing of the lung biopsy tissue reported \"Pneumocystis jirovecii (Reads= 368), Epstein-Barr virus A (Reads=3), Rickettsia felis (Reads=1).\" On Day +33, the pathology report of the biopsy tissue stated \"small amount of blood clot, alveolar tissue, and fibrous vascular tissue; no definite necrosis or granulomatous inflammation identified; please correlate clinically,\" and Pneumocystis jirovecii was still considered.",
+      "images": [
+        {
+          "image_id": "fig10",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUogBE6EiaIuZIw4hdAxGx1wJM4Q93dCyvkBMxYsEyjmULUnHBS0BOGAw/640?wx_fmt=png",
+          "near_text": "Figure 5: The patient underwent prone-position percutaneous biopsy of the right lower lobe of the right lung on Day +28",
+          "local_src": "cleaned_cases_image_cache/826fb5c4160b67a5ee7472b428a6dcdeeab5e55b.png"
+        },
+        {
+          "image_id": "fig11",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstKNyEA2D5ib8py06Hib7ObibSUezaE22LLpdR2VQBz8aAibNot5jxz23u5pC1gay2vicB9iaXtIB1icv4elA/640?wx_fmt=png",
+          "near_text": "Figure 6: Non-contrast chest CT of the patient on Day +33",
+          "local_src": "cleaned_cases_image_cache/6c781ec2579d2347cdcc09b9651573093daaef0b.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "Pneumocystis jirovecii pneumonia, bilateral; PSI score 92; type I respiratory failure",
+      "diagnostic_basis": [
+        "BALF mNGS testing indicated Pneumocystis jirovecii (Reads=2788)",
+        "Lung puncture tissue NGS result reported: \"Pneumocystis jirovecii (Reads=368), Epstein-Barr virus A (Reads=3), Rickettsia felis (Reads=1)\"",
+        "Needle biopsy pathology report: \"Small amount of blood clot, alveolar tissue, and fibrovascular tissue; no definite necrosis or granulomatous inflammation identified; please correlate clinically,\" and Pneumocystis jirovecii is still considered."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Starting on Day +17, empiric anti-infective therapy was given with cefotaxime (2 g bid) combined with moxifloxacin (0.4 g qd).",
+        "Starting on Day +21, empiric antifungal therapy with voriconazole tablets (200 mg q12h) + trimethoprim-sulfamethoxazole tablets (1.44 g q6h), empiric antibacterial and atypical pathogen coverage with ceftazidime (2 g bid) + moxifloxacin (0.4 g qd), anti-inflammatory therapy with methylprednisolone (40 mg bid), as well as symptomatic and supportive treatment including albumin infusion, intermittent diuresis, blood glucose and blood pressure control, enhanced nutritional support, and maintenance of fluid and electrolyte balance.",
+        "On Day +26, antifungal treatment was changed from voriconazole to caspofungin injection 50 mg once daily (loading dose 70 mg).",
+        "On Day +28, caspofungin was discontinued, and amphotericin B cholesteryl sulfate complex (75 mg→150 mg→225 mg, maintained at 225 mg once daily) was empirically administered for anti-infective broad-spectrum antifungal therapy."
+      ],
+      "treatment_response": [
+        "Repeat non-contrast chest CT on Day +26 showed that the bilateral pulmonary exudative lesions were somewhat improved compared with before, but multiple new nodular opacities were present in the right lung",
+        "On Day +33, repeat non-contrast chest CT showed that the ground-glass opacities in both lungs had been markedly absorbed compared with before, and the pulmonary nodules in both lungs had somewhat decreased compared with before, indicating effective treatment. The patient's overall condition is currently markedly improved compared with before, and the symptoms of shortness of breath are markedly reduced compared with before."
+      ]
+    }
+  }
+}

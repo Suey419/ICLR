@@ -1,0 +1,419 @@
+{
+  "status": "success",
+  "case_id": "case_75",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 75-year-old elderly woman was admitted to the Department of Respiratory and Critical Care Medicine, the Second Xiangya Hospital of Central South University, for evaluation of a pulmonary nodule due to \"pulmonary nodule detected 5 years ago.\" Five years earlier, she had been hospitalized for an acute asthma exacerbation. Chest CT at that time revealed a ground-glass opacity in the dorsal segment of the left lower lobe. No treatment was given. PET-CT repeated 2 months later showed increased glucose metabolism in the left lower lung, a ground-glass nodule (1.2×0.9 cm, SUVmax 1.25), with no significant change compared with before. Subsequently, the patient underwent multiple follow-up chest CT scans at our hospital and other hospitals, which showed no significant change in the left lower lung lesion compared with before. Until approximately 1 month before Day 0, follow-up chest CT at an outside hospital showed slightly increased density of the nodule in the dorsal segment of the left lower lobe compared with before, with a newly appeared subpleural consolidation in the left lower lung, and no treatment was given. On Day 0, she returned to our hospital for repeat PET-CT, which suggested possible early lung cancer in the left lower lung (2×1.4 cm, SUVmax 2.6), with multiple hypermetabolic lymph nodes in both hila and the mediastinum, considered reactive lymph node hyperplasia. Since onset, the patient had generally fair mental status, sleep, and appetite, normal bowel and bladder function, and no significant change in body weight. The patient had a history of \"bronchial asthma\" for more than 30 years, status post cholecystectomy 19 years earlier, status post intestinal polypectomy 7 years earlier, sinusitis, status post sinusotomy 6 years earlier, status post tube placement for secretory otitis media 4 years earlier, bilateral cataracts, age-related macular degeneration of the right eye, status post PHACO + IOL implantation, and a history of benign positional vertigo. In 2019, the patient developed sudden sensory and motor impairment of both lower extremities; an outside hospital considered peripheral neuropathy and treated her with olfactory ensheathing cell transplantation. She was also allergic to clarithromycin and pollen. Her father and sister both had asthma. Marriage and childbirth history was unremarkable. Physical examination after admission: temperature 36.6℃, pulse 93/min, respiratory rate 20/min, blood pressure: left upper 137/183 mmHg. Height: 152 cm, weight: 55 Kg. No jaundice or rash of the skin or sclerae, no joint swelling or deformity, and no palpable enlargement of superficial lymph nodes throughout the body. No jugular venous distention, no thyroid enlargement, and no vascular bruits. Resonant percussion over both lungs, clear breath sounds bilaterally, and no obvious dry or wet rales. Heart rate 93/min, regular rhythm, no murmur. Abdomen not distended, no abdominal wall varicosities, liver and spleen not palpable below the costal margins, and shifting dullness negative. No edema of both lower extremities. Detailed further inquiry and supplemental history revealed: in 2015, she presented with \"bilateral nasal obstruction with loss of smell for more than 1 month\" and underwent surgery; postoperative pathology was consistent with nasal polyps, with stromal infiltration by lymphocytes, plasma cells, and eosinophils. In approximately 62 months before Day 0, she presented with \"cough and sputum production for half a month\"; during hospitalization EOS ratio was 9.2%, EOS count 0.48×10^9/L, and the discharge diagnoses were \"community-acquired pneumonia\" and \"acute exacerbation of bronchial asthma.\" In approximately 51 months before Day 0, she again presented with \"rhinorrhea for half a month\"; during hospitalization EOS ratio was 15.3%, EOS count 0.93×10^9/L, she underwent bilateral myringotomy with tube placement, and was diagnosed with \"secretory otitis media.\" In 2019, she presented to an outside hospital because of \"sudden loss of sensation in both lower extremities and decline in motor function\"; EOS ratio was 7.1%, EOS count 0.36×10^9/L, bone marrow aspiration showed no obvious abnormality, and head MRI showed multiple intracranial ischemic foci and an abnormal signal in the right basal ganglia region, mostly enlarged V-R spaces. She subsequently underwent multiple olfactory ensheathing cell transplantations, with improvement in symptoms compared with before. In approximately 1 month before Day 0, she was admitted to the Department of Neurology because of \"dizziness for 2 months\"; during hospitalization she developed ecchymoses and petechiae of both lower extremities, EOS ratio was 46.1%, EOS count 4.8×10^9/L, and the discharge diagnoses were \"benign positional vertigo highly likely\" and \"eosinophilia.\"",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrvBBRzYCfWMYiaffEYYpsy3gcfQ4PjRbLJZ7qemukeGRyF66CyJ0KsibIzSlibNz7XLVa4U5n0HuaQ/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT",
+          "local_src": "cleaned_cases_image_cache/0669cbf0e354a54ea38863621830d3eda4b99a13.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+          "supporting_evidence": [
+            "History of bronchial asthma for more than 30 years",
+            "Postoperative pathology from nasal surgery in 2015 was consistent with nasal polyps, with stromal infiltration by lymphocytes, plasma cells, and eosinophils",
+            "History of sinusitis and secretory otitis media",
+            "Repeated elevations in peripheral blood eosinophils: in 2016, EOS percentage 9.2%, EOS count 0.48×10^9/L; in 2017, EOS percentage 15.3%, EOS count 0.93×10^9/L; in 2019, EOS percentage 7.1%, EOS count 0.36×10^9/L; in approximately 1 month before Day 0, EOS percentage 46.1%, EOS count 4.8×10^9/L",
+            "In 2019, sudden loss of sensation in both lower extremities and decreased motor function occurred, suggesting possible peripheral nerve involvement.",
+            "In approximately 1 month before Day 0, ecchymoses and petechiae appeared on both lower extremities, suggesting possible vasculitis-related skin involvement.",
+            "Pulmonary imaging showed a persistent ground-glass opacity in the dorsal segment of the left lower lobe; subsequently, the density increased slightly and a new left lower subpleural consolidation appeared. The images showed a peripheral/subpleural lesion in the left lower lobe, consistent with possible eosinophilic pulmonary involvement or inflammatory infiltration."
+          ],
+          "opposing_evidence": [
+            "On current admission physical examination, no rash was noted; breath sounds were clear in both lungs, with no obvious dry or wet rales.",
+            "The pulmonary lesions are characterized mainly by a solitary, long-term relatively stable left lower lobe pulmonary nodule/ground-glass opacity, rather than the more common description in the first-stage information of migratory, multifocal pulmonary infiltrates.",
+            "PET-CT suggests possible early lung cancer in the left lower lobe; a focal neoplastic lesion still needs to be considered concurrently"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Primary lung adenocarcinoma (early-stage left lower lobe lung cancer, ground-glass nodule spectrum lesion)",
+          "supporting_evidence": [
+            "The patient is 75 years old and belongs to the high-risk age group for lung cancer.",
+            "5 years ago, chest CT revealed a ground-glass opacity in the dorsal segment of the left lower lobe",
+            "Chest CT re-examination at an outside hospital in approximately 1 month before Day 0 showed that the nodular density in the dorsal segment of the left lower lobe was slightly increased compared with before, and a new subpleural consolidation in the left lower lung was also noted.",
+            "PET-CT on Day 0 suggested possible early-stage lung cancer in the left lower lobe (2×1.4 cm, SUVmax 2.6)",
+            "Imaging shows a persistent peripheral lesion in the left lower lung; compared with the earlier pure ground-glass opacity, it demonstrates an increased solid/consolidative component, consistent with possible evolution within the pulmonary adenocarcinoma spectrum.",
+            "Since onset, the patient's mental status, sleep, and appetite have been fairly good, with no significant change in body weight; this can be seen in early lung cancer."
+          ],
+          "opposing_evidence": [
+            "The lesion has been followed up for 5 years. Multiple follow-up chest CT scans showed no significant change in the left lower lung lesion compared with previous studies, with relatively slow progression.",
+            "SUVmax 2.6 is not markedly elevated; in 2016 the lesion SUVmax was only 1.25, which does not specifically support malignancy",
+            "The patient has systemic inflammatory/vasculitic features including long-standing asthma, nasal polyps, sinusitis, marked eosinophilia, and peripheral nerve involvement, which can explain the inflammatory pulmonary lesions."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Chronic eosinophilic pneumonia / eosinophilic lung disease",
+          "supporting_evidence": [
+            "The patient has a history of asthma for more than 30 years.",
+            "Peripheral blood eosinophils were elevated on multiple occasions; in approximately 1 month before Day 0, they increased markedly to an eosinophil percentage of 46.1% and an eosinophil count of 4.8×10^9/L",
+            "In 2015, pathology of the nasal polyp showed eosinophilic infiltration, suggesting a background of systemic eosinophilic inflammation.",
+            "The left lower lung lesion has a subpleural/peripheral distribution, and a new left lower subpleural area of consolidation appeared in 2021. The imaging also shows a peripheral lesion in the left lower lung, consistent with the pattern of peripheral infiltrates seen in eosinophilic lung disease."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the pulmonary lesion was characterized mainly by a solitary focal nodule/ground-glass opacity in the left lower lung that persisted long-term for 5 years, which was atypical compared with the more extensive peripheral patchy infiltrates commonly seen in typical chronic eosinophilic pneumonia.",
+            "Since onset, mental status, sleep, and appetite have been fairly good, with no significant change in body weight, and currently there are no obvious respiratory symptoms or pulmonary physical signs.",
+            "PET-CT suggests possible early lung cancer in the left lower lung; a neoplastic lesion cannot be excluded"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Idiopathic hypereosinophilic syndrome (HES)",
+          "supporting_evidence": [
+            "In approximately 1 month before Day 0, the peripheral blood EOS count was 4.8×10^9/L, reaching a level of marked eosinophilia.",
+            "Persistent/recurrent eosinophilia from 2016 to 2021",
+            "In 2019, sensory and motor dysfunction of both lower extremities occurred, suggesting possible nervous system involvement.",
+            "In approximately 1 month before Day 0, ecchymoses and petechiae developed on both lower extremities, suggesting possible multisystem involvement",
+            "Chronic pulmonary lesions are present; HES can involve the lungs"
+          ],
+          "opposing_evidence": [
+            "The patient has asthma, nasal polyps, sinusitis, otitis media, eosinophilic inflammation, and suspected vasculitic neurologic involvement, which is more consistent with the more specific diagnostic framework of EGPA.",
+            "In the first stage, no information indicating more extensive multisystem organ involvement was found to support HES over EGPA.",
+            "Bone marrow aspiration showed no obvious abnormalities and provided no evidence supporting primary/clonal eosinophilia."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Granulomatosis with polyangiitis (GPA) or other ANCA-associated vasculitis",
+          "supporting_evidence": [
+            "History of sinusitis and nasal congestion with loss of smell",
+            "History of secretory otitis media",
+            "Pulmonary nodular/consolidative lesions",
+            "Sensory and motor disturbances of both lower extremities in 2019 and ecchymoses and petechiae of both lower extremities in 2021 can be seen in systemic vasculitis"
+          ],
+          "opposing_evidence": [
+            "A long history of asthma, eosinophilic infiltration on pathology of the nasal polyps, and recurrent marked peripheral blood eosinophilia more strongly support EGPA rather than GPA",
+            "Phase 1 information did not provide more typical clues for GPA such as renal involvement, hemoptysis, or nasal septal destruction.",
+            "Pulmonary imaging is characterized mainly by a chronic focal lesion in the left lower lung, rather than the typical presentation of multiple cavitary nodules described in the first-stage information"
+          ],
+          "requirement": "optional"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liver function tests",
+          "requirement": "required"
+        },
+        {
+          "exam": "Renal function, electrolytes",
+          "requirement": "required"
+        },
+        {
+          "exam": "muscle enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "C-reactive protein",
+          "requirement": "optional"
+        },
+        {
+          "exam": "erythrocyte sedimentation rate",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Procalcitonin",
+          "requirement": "optional"
+        },
+        {
+          "exam": "hepatitis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "HIV、TP",
+          "requirement": "optional"
+        },
+        {
+          "exam": "TB screening",
+          "requirement": "optional"
+        },
+        {
+          "exam": "G test, GM test",
+          "requirement": "optional"
+        },
+        {
+          "exam": "connective tissue disease panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoimmune hepatitis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Serum immunoglobulins",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood tumor markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Comprehensive parasitic panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Electrocardiogram",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        },
+        {
+          "exam": "Echocardiography",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory tests: Complete blood count: white blood cell count 8.99×10^9/L, hemoglobin 109 g/L↓, platelet count 348×10^9/L, neutrophil percentage 85.40%↑, eosinophil count 3.83×10^9/L↑, eosinophil percentage 42.6%↑. Urinalysis: negative. Stool routine + OB: negative. Liver function: TP 53.1 g/L, ALB 27.8 g/L↓, ALT, AST, TBIL, and DBIL normal. Renal function and electrolytes: negative. Cardiac enzymes: MB 86.5 ug/L, CK, CK-MB, LDH, and cTnT normal. Coagulation function: PT 14.2 s↑, fibrinogen concentration 4.76 g/L, fibrin degradation products 36.87 ↑μg/mL, D-dimer 2.0 ng/mL↑. C-reactive protein: 20.6 g/L↑; ESR: 78 mm/h↑; procalcitonin: 0.069 ng/ml↑. Hepatitis: negative. HIV and TP: negative. TB screening: interferon-gamma release assay: positive. G test and GM test: negative. Connective tissue disease panel: RF-IgA >300 u/ml, RF-IgM 180 u/ml, RF-IgG 59 u/ml, ANA, ENA, vasculitis panel, lupus panel, anticardiolipin antibody, lupus anticoagulant, anti-β2 glycoprotein antibody, complement (-). Autoimmune liver disease: Ro-52+. Serum immunoglobulins: IgG4 15.5 g/l↑, IgE 1098 ng/ml↑. Blood tumor markers: negative. Parasite panel: negative. ECG: essentially normal ECG. Pulmonary function: FEV1/FVC 79.7%, FEV1%pre 76%, bronchodilator test negative, FeNO 37 ppb. Echocardiography: mitral regurgitation (mild); left ventricular systolic function measurements within the normal range. After admission, cefoperazone/sulbactam sodium was given for anti-infective treatment; subsequently, rash with edema of both lower extremities developed, and symptomatic antiallergic treatment was given.",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrvBBRzYCfWMYiaffEYYpsy88FzamicbZ2mwcwLWDAxx0pwsyHQaWGevyVjbxEhclszLcz6YhI9WKg/640?wx_fmt=png",
+            "near_text": "Figure 2: Rash on both lower extremities",
+            "local_src": "cleaned_cases_image_cache/2de49dc59acba27483500f917c4be82c358f3e64.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Primary eosinophilia",
+            "evidence": [],
+            "exclusion_reasons": [
+              "At an outside hospital, a bone marrow aspiration was performed and showed no obvious myeloproliferative disorder; secondary eosinophilia was considered more likely."
+            ]
+          },
+          {
+            "name": "Secondary eosinophilia caused by infection and drug reaction",
+            "evidence": [],
+            "exclusion_reasons": [
+              "History and laboratory tests do not support infection or a drug reaction."
+            ]
+          },
+          {
+            "name": "Eosinophilic granulomatosis with polyangiitis",
+            "evidence": [
+              "The patient has bronchial asthma, eosinophilia, sinusitis, peripheral neuropathy, and pulmonary infiltrative lesions, which should raise a high suspicion for"
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "paraneoplastic syndrome",
+            "evidence": [
+              "The patient's pulmonary lesion is considered highly likely to be neoplastic; paraneoplastic syndrome can cause peripheral nervous system involvement and eosinophilia."
+            ],
+            "exclusion_reasons": []
+          },
+          {
+            "name": "IgG4-related disease",
+            "evidence": [
+              "The patient has multisystem organ involvement, with a marked elevation in IgG4."
+            ],
+            "exclusion_reasons": [
+              "Cannot be explained by airway disease, nervous system lesions, or eosinophilia"
+            ]
+          },
+          {
+            "name": "Rheumatoid arthritis",
+            "evidence": [
+              "Positive rheumatoid arthritis antibodies"
+            ],
+            "exclusion_reasons": [
+              "No typical arthralgia or morning stiffness, and anti-CCP antibody is negative. Rheumatoid arthritis-associated interstitial lung disease most often presents as a UIP pattern; therefore, it is not considered."
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Primary eosinophilia",
+        "evidence": [],
+        "exclusion_reasons": [
+          "At an outside hospital, a bone marrow aspiration was performed and showed no obvious myeloproliferative disorder; secondary eosinophilia was considered more likely."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Secondary eosinophilia caused by infection and drug reaction",
+        "evidence": [],
+        "exclusion_reasons": [
+          "History and laboratory tests do not support infection or a drug reaction."
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Eosinophilic granulomatosis with polyangiitis",
+        "evidence": [
+          "The patient has bronchial asthma, eosinophilia, sinusitis, peripheral neuropathy, and pulmonary infiltrative lesions, which should raise a high suspicion for"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "paraneoplastic syndrome",
+        "evidence": [
+          "The patient's pulmonary lesion is considered highly likely to be neoplastic; paraneoplastic syndrome can cause peripheral nervous system involvement and eosinophilia."
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      },
+      {
+        "name": "IgG4-related disease",
+        "evidence": [
+          "The patient has multisystem organ involvement, with a marked elevation in IgG4."
+        ],
+        "exclusion_reasons": [
+          "Cannot be explained by airway disease, nervous system lesions, or eosinophilia"
+        ],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Lower extremity skin rash biopsy",
+          "basis_in_stage3_input": "The patient declined lung biopsy and bone marrow aspiration; therefore, a biopsy of the lower-extremity skin rash and peripheral blood gene testing related to elevated eosinophils were performed.",
+          "why_order_this_exam": "The patient has a more than 30-year history of asthma, sinusitis/nasal polyps, secretory otitis media, and recurrent progressively worsening peripheral blood eosinophilia. In 2019, sensory-motor dysfunction of both lower extremities developed, suggesting peripheral nerve involvement. In 2021, purpura and petechiae of both lower extremities developed, and after this hospitalization, rash with edema of both lower extremities also appeared, suggesting systemic eosinophilic inflammation or active vasculitis. Because the pulmonary lesions and bone marrow could have provided important diagnostic evidence, but the patient refused lung needle biopsy and bone marrow aspiration, the active rash became a relatively minimally invasive and accessible biopsy site. This examination was primarily intended to determine whether the skin lesions showed pathologic features such as eosinophilic infiltration, small-vessel vasculitis, and fibrinoid necrosis, thereby providing histologic evidence for EGPA and helping differentiate drug eruption, simple allergic reaction, infection-related skin lesions, and other vasculitides or connective tissue diseases, which is critical for deciding whether to initiate and intensify glucocorticoid/immunotherapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Genetic testing related to elevated peripheral blood eosinophils",
+          "basis_in_stage3_input": "The patient declined lung biopsy and bone marrow aspiration; therefore, a biopsy of the lower-extremity skin rash and peripheral blood gene testing related to elevated eosinophils were performed.",
+          "why_order_this_exam": "From 2016 to 2021, the patient had multiple episodes of eosinophilia, with a peak of 4.8×10^9/L. During this hospitalization, there is still marked eosinophilia, accompanied by pulmonary lesions, nervous system involvement, and cutaneous manifestations. Clinically, EGPA should be considered, but hematologic disorders such as clonal/primary hypereosinophilic syndrome must also be excluded. A prior bone marrow aspiration at an outside hospital showed no obvious abnormalities, but this cannot completely replace molecular-level screening; moreover, the patient refused bone marrow aspiration during this admission, so peripheral blood-related genetic testing became a more feasible alternative. The purpose of this testing is to identify driver fusion genes or rearrangements associated with bone marrow/myeloid neoplasms, to help distinguish secondary eosinophilia from primary clonal disease, and to avoid misclassifying a hematologic malignancy as immune-mediated vasculitis, thereby directly affecting the treatment pathway involving glucocorticoids, targeted therapy, or further hematology evaluation.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Myositis antibody",
+          "basis_in_stage3_input": "Myositis antibodies: negative.",
+          "why_order_this_exam": "The patient has abnormal pulmonary imaging findings, elevated inflammatory markers, elevated MB among muscle enzymes, and a background of multisystem involvement. Although the most prominent clues are asthma, eosinophilia, sinusitis, and peripheral neuropathy, the clinical differential diagnosis still needs to include idiopathic inflammatory myopathies, especially antisynthetase syndrome and other diseases that may be associated with pulmonary involvement, autoimmune abnormalities, and manifestations of muscle weakness/myalgia. Myositis antibody testing is performed mainly to exclude immune myopathy-related interstitial lung disease or pulmonary disease and neuromuscular symptoms caused by systemic autoimmune disease, and to clarify whether the current multisystem manifestations belong to another autoimmune disease spectrum. A negative result helps narrow the differential diagnosis, making EGPA more supported than other connective tissue disease-associated lung diseases, and reducing unnecessary treatment directed toward myositis.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Peripheral blood PDGFRA/PDGFRB/FGFR1",
+          "basis_in_stage3_input": "Gene testing related to elevated eosinophils: peripheral blood PDGFRA/PDGFRB/FGFR1: negative",
+          "why_order_this_exam": "The patient has persistent and marked peripheral blood eosinophilia and has developed multi-organ involvement affecting the lungs, skin, and peripheral nerves. With eosinophilia of this degree, myeloid/lymphoid neoplasms with eosinophilia associated with PDGFRA, PDGFRB, or FGFR1 abnormalities must be specifically excluded, because these disorders can also present clinically with multisystem involvement and are easily confused with EGPA. The patient also refused bone marrow aspiration, which increases the value of peripheral blood molecular testing. This test primarily addresses the core question of whether a clonal driver abnormality is present; if positive, it would significantly change the diagnostic framework and treatment selection, favoring a hematologic disorder and consideration of targeted therapy, whereas a negative result would help support secondary or immune-inflammatory eosinophilia.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Peripheral blood ETV6-ABL1 testing",
+          "basis_in_stage3_input": "Peripheral blood ETV6-ABL1 test: negative",
+          "why_order_this_exam": "When a patient presents with marked eosinophilia, pulmonary lesions, neurologic involvement, and skin vasculitis-like manifestations, in addition to EGPA, rare but clinically significant fusion gene–related clonal eosinophilia must also be excluded. ETV6-ABL1–associated myeloid neoplasms may be accompanied by elevated eosinophils and multiorgan injury; if missed, the treatment approach will be completely different. Because the patient refused a more invasive bone marrow examination, peripheral blood molecular testing is a lower-risk and important alternative screening method. The purpose of this test is to exclude a specific hematologic neoplastic cause and provide a basis for subsequently shifting the main treatment focus to immunosuppression rather than antitumor/targeted therapy.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Peripheral blood PCM1/JAK2 testing",
+          "basis_in_stage3_input": "Peripheral blood PCM1/JAK2 testing: negative",
+          "why_order_this_exam": "The patient has long-term recurrent elevation of eosinophils with definite organ involvement; therefore, related myeloid neoplasms such as PCM1-JAK2 must be included in the differential workup. Such abnormalities can cause a hypereosinophilic state with systemic involvement, and the presentation may overlap with vasculitis or hypereosinophilic syndrome. The patient had no obvious abnormalities on bone marrow aspiration at an outside hospital but refused bone marrow aspiration this time, so molecular testing using peripheral blood is particularly necessary. This test is mainly used to distinguish primary clonal eosinophilia from secondary immune-inflammatory disease, which determines whether further hematologic stratification and targeted/cytotoxic therapy are needed; a negative result would further support non-clonal causes such as EGPA.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Peripheral blood ETV6/FLT3 testing",
+          "basis_in_stage3_input": "Peripheral blood ETV6/FLT3 testing: negative",
+          "why_order_this_exam": "The patient has marked eosinophilia with multisystem manifestations, requiring systematic exclusion of rare fusion gene abnormalities associated with eosinophilia. Although ETV6/FLT3 abnormalities are rare, if present, they indicate that the disease belongs to the spectrum of clonal myeloid neoplasms, and its diagnosis, prognosis, and treatment are completely different from EGPA. Given the patient's refusal of bone marrow aspiration, peripheral blood molecular testing can provide important exclusionary evidence with lower risk. This test is intended to complete the molecular differential diagnosis of primary hypereosinophilic syndrome/myeloid neoplasm and avoid delaying more targeted treatment through inappropriate use of glucocorticoid therapy alone.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Peripheral blood BCR/JAK2 testing",
+          "basis_in_stage3_input": "Peripheral blood BCR/JAK2 testing: negative",
+          "why_order_this_exam": "The patient’s eosinophilia has reached a level at which myeloproliferative or fusion gene-associated disorders need to be excluded, and has already caused target organ involvement of the lungs, skin, and peripheral nerves. Although abnormalities such as BCR/JAK2 are not common causes, they are among the clonal etiologies that require proactive screening, especially when the patient refuses further bone marrow sampling, in which case peripheral blood testing has greater complementary value. This test is intended to further exclude a myeloid neoplastic hypereosinophilic state at the molecular level, help the clinical team focus the diagnosis more specifically on EGPA or other secondary eosinophilic diseases, and provide a basis for the safe selection of subsequent treatment options.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "paraneoplastic syndrome antibodies",
+          "basis_in_stage3_input": "Paraneoplastic syndrome antibodies: negative.",
+          "why_order_this_exam": "The nodule in the dorsal segment of the left lower lobe has been followed for 5 years. PET-CT suggests possible early lung cancer in the left lower lobe, and there is also concomitant peripheral neuropathy and eosinophilia. Although EGPA is highly suspected, a paraneoplastic syndrome related to a potential pulmonary tumor could also explain the neurologic manifestations, and some tumors may also be accompanied by eosinophilia; therefore, parallel differential diagnosis is needed. This test is mainly intended to determine whether the neurologic injury may be caused by a tumor-related immune mechanism, thereby helping distinguish EGPA-related neuropathy from paraneoplastic neurologic syndrome; the result will also affect the assessment of the nature of the pulmonary nodule and whether to prioritize oncologic evaluation and treatment thereafter. Although negative antibodies cannot completely exclude a tumor, they can reduce the likelihood that a paraneoplastic mechanism explains the current neuropathy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "electromyography",
+          "basis_in_stage3_input": "Electromyography and nerve conduction studies: electrophysiologic changes of peripheral neurogenic injury in the upper and lower extremities, involving distal symmetric multifocal injury of motor and sensory nerve fibers; spontaneous potentials are present, suggesting active injury.",
+          "why_order_this_exam": "In 2019, the patient had a sudden loss of sensation in both lower extremities and decreased motor function. Although the symptoms improved after treatment, the history suggests the possibility of persistent peripheral nerve involvement. One of the major systemic manifestations of EGPA is peripheral neuropathy, which often affects treatment intensity stratification; paraneoplastic syndrome, other vasculitides, metabolic peripheral neuropathy, and inflammatory peripheral neuropathy also need to be differentiated. Electromyography and nerve conduction studies are used to objectively confirm whether neurogenic injury is present, the distribution and extent of involvement, whether both motor and sensory fibers are involved, and whether there are active lesions, thereby determining whether this is consistent with the pattern of nerve injury related to systemic vasculitis. This examination has direct value in demonstrating organ involvement, supporting the diagnosis of EGPA, assessing disease severity, and determining whether more aggressive immunosuppressive therapy is needed.",
+          "requirement": "optional"
+        },
+        {
+          "exam": "skin biopsy",
+          "basis_in_stage3_input": "Skin biopsy: The results showed prominent perivascular infiltration of eosinophils in the dermis, along with variable numbers of neutrophils and lymphocytes; fibrin deposition was seen in the walls of some small vessels.",
+          "why_order_this_exam": "The patient had ecchymoses, petechiae, or rash on the lower extremities both previously and during this hospitalization. In the context of long-standing asthma, sinusitis/nasal polyps, marked eosinophilia, pulmonary infiltrates, and peripheral neuropathy, EGPA is already the leading consideration, but histopathologic evidence is still needed to increase diagnostic certainty. Because the patient refused lung biopsy and bone marrow aspiration, the skin lesions are the most practical and lower-risk biopsy site. The key clinical question of skin biopsy is whether there are eosinophil-rich small-vessel vasculitic changes and whether there is associated fibrin deposition or other vessel wall injury, thereby supporting EGPA; at the same time, it may also help exclude a simple drug allergic reaction, infectious skin lesions, IgG4-related disease, or other immune-mediated diseases. The result of this examination directly constitutes evidence for a definitive diagnosis and provides pathologic support for the subsequent clinical assessment of lesion absorption and improvement after glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4",
+          "basis_in_stage3_input": "IgG4(-)。",
+          "why_order_this_exam": "The patient previously had a marked elevation in IgG4, and clinically had manifestations of multisystem involvement, including pulmonary lesions, a history of sinus and ear disease, and skin and nervous system abnormalities; therefore, IgG4-related disease had been included in the differential diagnosis. Although the overall clinical features, including asthma, nasal polyps, marked eosinophilia, and peripheral neuropathy, are more supportive of EGPA, exclusion still requires correlation with IgG4-related testing and pathology. IgG4 assessment was performed to determine whether IgG4-related disease, a diagnosis that can mimic multi-organ inflammatory lesions, was present, and to distinguish it from EGPA, other autoimmune diseases, and tumor-related manifestations. The result was negative, and together with the absence of features supporting IgG4-related disease on skin biopsy, this helps reduce the likelihood of IgG4-related disease and focuses the diagnosis more on EGPA.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "The patient declined lung needle biopsy and bone marrow aspiration; therefore, a lower-extremity skin rash biopsy and peripheral blood gene testing related to eosinophilia were performed. Myositis antibodies: negative. Gene testing related to eosinophilia: peripheral blood PDGFRA/PDGFRB/FGFR1: negative; peripheral blood ETV6-ABL1 testing: negative; peripheral blood PCM1/JAK2 testing: negative; peripheral blood ETV6/FLT3 testing: negative; peripheral blood BCR/JAK2 testing: negative. Paraneoplastic syndrome antibodies: negative. Electromyography and nerve conduction studies: electrophysiologic changes of peripheral neurogenic injury in the upper and lower extremities, involving distal symmetric multiple injuries of motor and sensory nerve fibers; spontaneous potentials were observed, suggesting active injury. Skin biopsy: the results showed prominent eosinophils and variable numbers of neutrophils and lymphocytes infiltrating around dermal blood vessels; fibrin deposition was seen in the walls of some small vessels. IgG4(-).",
+      "images": [
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrvBBRzYCfWMYiaffEYYpsyCPIbJDialVvFcbNAb11gozL4CMeX9XWmCWjFtE5eNVfVNNVq3lYatXA/640?wx_fmt=png",
+          "near_text": "Figure 3: Skin biopsy pathology. A, B show prominent perivascular infiltration of eosinophils in the dermis with variable numbers of neutrophils and lymphocytes; fibrin deposition is seen in the walls of some small blood vessels; IgG4(-)",
+          "local_src": "cleaned_cases_image_cache/8535ec1fea6dca40893c2f1bebbf2c08b0e97a1c.png"
+        },
+        {
+          "image_id": "fig5",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLrvBBRzYCfWMYiaffEYYpsy1kV3qQuGSD1ACibw6SxGIS6EryqxUO9mqo4z9tqhVelsibwib0rDuVHEg/640?wx_fmt=png",
+          "near_text": "Figure 4: Follow-up chest CT",
+          "local_src": "cleaned_cases_image_cache/eb0ae94d1760201dd0ef670abf22323b524bbbd6.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Nodule in the dorsal segment of the left lower lobe: early tumor is highly likely; 2. Eosinophilic granulomatosis with polyangiitis (bronchial asthma, pulmonary lesions, eosinophilia, sinusitis, otitis media, peripheral neuropathy)",
+      "diagnostic_basis": [
+        "The patient has multiorgan dysfunction; in conjunction with the skin biopsy results, the diagnosis of eosinophilic granulomatosis with polyangiitis is confirmed.",
+        "A subpleural patchy opacity in the left lower lung appeared within a short period of time, and the patient's symptoms and laboratory tests do not support infection; considered pulmonary infiltrative manifestation of EGPA",
+        "Nodule in the posterior basal segment of the left lower lobe remains concerning for possible tumor",
+        "Skin biopsy showed no pathological evidence of IgG4-positive plasma cell infiltration and therefore does not support IgG4-related disease."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "Methylprednisolone 40 mg Qd (Day +22-Day +28)",
+        "Hydroxychloroquine 200 mg qd",
+        "Continue methylprednisolone 20 mg Qd orally after discharge"
+      ],
+      "treatment_response": [
+        "On repeat testing half a month later, the blood eosinophil count was normal; IgG4 5.65 g/l↑; chest CT showed interval absorption/improvement of the subpleural lesion in the left lower lung compared with the previous study."
+      ]
+    }
+  }
+}

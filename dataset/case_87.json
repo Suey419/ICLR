@@ -1,0 +1,591 @@
+{
+  "status": "success",
+  "case_id": "case_87",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "The patient is a 49-year-old man from Yiyang, Hunan, who was admitted to the Department of Respiratory and Critical Care Medicine, Second Xiangya Hospital of Central South University on Day +13, with the chief complaint of \"shortness of breath and cough for 1 month.\" Since early period, around Day 0, after catching a cold, he developed exertional dyspnea; he had obvious shortness of breath when climbing three flights of stairs, which was relieved only after about 10 minutes of rest. He had a small amount of dry cough, and chest pain accompanied severe coughing. However, he had no bilateral lower-extremity edema, hemoptysis, sneezing, rhinorrhea, fever, or night sweats. He had slight dry mouth, and denied dry eyes, alopecia, photosensitivity, dental caries, oral ulcers, rash, pruritus, Raynaud phenomenon, morning stiffness, joint swelling and pain, myalgia, skin tightness, etc. After symptom onset, the dyspnea worsened day by day. On Day -13, he visited a local hospital, and chest CT showed diffuse ground-glass opacities in both lungs. From Day -9 to Day 0, he was hospitalized at the local hospital. CBC showed WBC 9.42×10^9/L, N 68.40%, L 18.20%↓, monocyte ratio 12.70%↑, E 0.30%↓; LDH 1008u/l↑; CRP 6.55mg/l↑, PCT 0.58ng/ml↑, ESR 24mm/h↑; 5-item vasculitis panel and 12-item ENA panel were both negative; sputum smear, acid-fast stain, and culture (-). Bronchoscopy: the bronchi at all levels were patent with no abnormalities seen. Lavage was performed in the posterior basal segment of the right lower lobe and the medial segment of the right middle lobe, and pale red lavage fluid was recovered. Acid-fast staining of the lavage fluid was negative, and liquid-based cytology found no cancer cells. From Day -9 to Day -1, moxifloxacin 400mg qd ivgtt was given for anti-infective treatment, after which the patient's dyspnea and cough remained unchanged. Repeat chest CT on Day 0 showed that the morphology of the lesions was unchanged. He was admitted to our hospital for further treatment. Since onset, his mental status and sleep had been fair, appetite was acceptable, bowel and bladder habits were normal, and there was no obvious change in body weight. Past medical history: hypertension was diagnosed more than 5 years ago, with the highest systolic blood pressure of 160+mmHg. He had previously taken indapamide 1# Qd orally regularly for antihypertensive treatment; in the past 1 month he had not taken antihypertensive medication and had not monitored his blood pressure. One year ago, he had a history of transient chest tightness and shortness of breath without an obvious trigger; he reported undergoing an ECG and chest radiograph that day, and improved after oral medication (details of diagnosis and treatment unknown), after which no medication or examinations were performed. Personal history: denied smoking, alcohol use, and exposure to drugs or toxic substances; had worked in cotton fluffing for more than 20 years, and changed occupation to selling barbecue 6 years ago and has continued since then; had 2 episodes of pigeon contact, 1 month before onset and again 10 days before onset; a long-haired rabbit was newly kept at home 7 days before onset. Family history: his father had a history of smoking and \"emphysema\" and died in his 70s due to shortness of breath; his mother died in her 70s of \"stroke\"; no other remarkable family history. After admission, the initial physical examination was as follows: T 36.6℃, P 107/min, R 22/min, BP 98/74mmHg, SPO2 89% (without oxygen). Slight cyanosis of the lips. No skin rash over the whole body, no enlarged lymph nodes palpable, no chest wall deformity, symmetric bilateral respiratory excursion, no increased tactile fremitus, resonant percussion over both lungs, clear breath sounds in both lungs, a few moist rales heard at both lower lungs, no Velcro rales, and no pleural friction rub. No precordial bulge. The apical impulse was located 0.5cm medial to the left midclavicular line in the fifth intercostal space. No thrill was palpable, the cardiac borders were not enlarged, heart rate was 107/min, rhythm was regular, heart sounds were without obvious increase or decrease in intensity, and no pathologic murmur was heard in any valvular auscultation area. The abdomen was flat and soft, with no hepatosplenomegaly, and no abdominal tenderness or guarding. The distal and middle phalanges of the right fourth finger were absent. No edema in either lower extremity.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGROnCtJQtaaQnvcJ3TTdDiaU5xxR111aaruWsh6luziaf9hQX9x8nlzJCg/640?wx_fmt=png",
+          "near_text": "Figure 1: Chest CT of the patient on Day -13 (upper left and lower left images) and Day 0 (upper right and lower right images)",
+          "local_src": "cleaned_cases_image_cache/24c2f53993312649a7d2e5c963e5b76f3d6de992.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Hypersensitivity pneumonitis (extrinsic allergic alveolitis)",
+          "supporting_evidence": [
+            "The phase I text information indicates a total of 2 episodes of pigeon exposure 1 month and 10 days before disease onset, and 1 newly kept long-haired rabbit at home 7 days before disease onset, indicating a clear history of inhalational antigen exposure.",
+            "The Stage 1 textual information indicates that the main symptoms are progressive exertional dyspnea and a small amount of dry cough, which are more consistent with the common respiratory manifestations of hypersensitivity pneumonitis.",
+            "The first-stage textual information indicates that both the chest CT and follow-up CT at the local hospital showed diffuse ground-glass opacities in both lungs; the images also show bilateral diffuse ground-glass increased-density opacities in both lungs, consistent with one of the common imaging manifestations of hypersensitivity pneumonitis.",
+            "The Phase 1 textual information indicates that after anti-infective treatment with moxifloxacin, dyspnea and cough symptoms were unchanged from before; repeat CT showed no change in lesion morphology, which does not support common bacterial infection, but instead supports a noninfectious inhalation-related pulmonary parenchymal lesion.",
+            "Phase 1 textual information indicated no fever, no upper respiratory tract symptoms; sputum smear, acid-fast stain, and culture were negative; bronchoscopy showed no obvious airway abnormalities"
+          ],
+          "opposing_evidence": [
+            "No explicit contradictory evidence was provided in the Phase 1 textual information"
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Diffuse alveolar hemorrhage",
+          "supporting_evidence": [
+            "The narrative information from phase I indicates that bronchoalveolar lavage recovered pale red lavage fluid, suggesting possible intra-alveolar hemorrhage.",
+            "The first-stage textual information indicates diffuse ground-glass opacities in both lungs. The images show diffuse ground-glass opacities in both lungs, consistent with the imaging manifestation of an alveolar space-filling lesion.",
+            "The phase 1 text information indicates that at admission the SpO2 was 89% (not receiving oxygen), with slight lip cyanosis, indicating hypoxemia, which can be seen in diffuse alveolar hemorrhage.",
+            "The Phase 1 text information indicates that LDH 1008 u/L is markedly elevated, which can be seen in diffuse alveolar injury/hemorrhage-related pulmonary parenchymal disease."
+          ],
+          "opposing_evidence": [
+            "Phase 1 text information clearly indicates no hemoptysis",
+            "The Phase I textual information indicates that the 5-item vasculitis panel and the 12-item ENA panel were both negative, reducing support for some immune-related alveolar hemorrhage, but not completely excluding it."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Cryptogenic organizing pneumonia (or secondary organizing pneumonia)",
+          "supporting_evidence": [
+            "The textual information in the first stage suggests a subacute onset, with progressively worsening dyspnea and cough over 1 month on a day-by-day basis, consistent with the common clinical course of organizing pneumonia.",
+            "The text information in the first stage indicates diffuse ground-glass opacities in both lungs; the images show multiple ground-glass lesions in both lungs, and organizing pneumonia can present with this type of finding.",
+            "The narrative information from the first phase indicates that after anti-infective treatment with moxifloxacin, the symptoms were unchanged; repeat CT showed no change in lesion morphology, which does not support typical bacterial pneumonia.",
+            "In the first stage, the text information suggested no obvious infectious toxemia symptoms, such as no fever, negative sputum culture, and no obvious abnormalities on bronchoscopy."
+          ],
+          "opposing_evidence": [
+            "In the first stage, the images and text did not emphasize typical peripheral or subpleural patchy consolidation opacities; the imaging findings are not specific for organizing pneumonia.",
+            "Stage 1 information did not provide a clear precipitating factor or pathological evidence supporting organizing pneumonia"
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 4,
+          "name": "Acute interstitial pneumonia/diffuse alveolar damage",
+          "supporting_evidence": [
+            "The first-phase narrative information indicates that dyspnea progressively worsened day by day after disease onset; at admission, SpO2 was 89% (not receiving oxygen), suggesting a progressive hypoxemic diffuse parenchymal lung disease.",
+            "In the first stage, the text information and image prompt diffuse ground-glass opacities in both lungs, consistent with imaging findings seen in acute interstitial pneumonia/diffuse alveolar damage.",
+            "The narrative information from the first stage indicates a marked elevation in LDH, supporting the presence of relatively severe alveolar epithelial injury.",
+            "The stage 1 narrative information indicates that after antibacterial treatment, neither the symptoms nor the imaging findings showed significant improvement."
+          ],
+          "opposing_evidence": [
+            "The text in the first stage indicates a disease course of approximately 1 month, which is slightly longer than the more rapid progression typically seen in acute interstitial pneumonia.",
+            "In the first stage of the text information, no obvious Velcro rales were noted, and the physical signs provided limited support."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Atypical pathogen pneumonia/viral pneumonia (including community-acquired atypical infection)",
+          "supporting_evidence": [
+            "The first-stage textual information indicates that dyspnea and dry cough are the main symptoms. Chest CT shows diffuse ground-glass opacities in both lungs, and the images also support diffuse ground-glass opacities in both lungs, consistent with some manifestations of atypical/viral pneumonia.",
+            "The first-stage textual information indicates mildly elevated CRP, PCT, and ESR, which can still be seen in infectious pneumonia.",
+            "Phase I textual information indicates a few moist crackles in both lower lungs, supporting pulmonary parenchymal involvement"
+          ],
+          "opposing_evidence": [
+            "In the first phase, the text information clearly indicates no fever, no rhinorrhea, and no sneezing; infectious symptoms are atypical.",
+            "Phase 1 text information indicates that after anti-infective treatment with moxifloxacin, symptoms were unchanged from before; repeat CT showed lesion morphology unchanged from before.",
+            "Phase I textual information indicates that sputum smear, acid-fast staining, and culture were negative, and bronchoscopy showed no abnormalities."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 6,
+          "name": "Connective tissue disease-associated interstitial lung disease (represented by an NSIP pattern without obvious extrapulmonary manifestations)",
+          "supporting_evidence": [
+            "The phase 1 text information indicates diffuse ground-glass opacities in both lungs; the images show diffuse ground-glass lesions in both lungs, which can be seen in interstitial lung diseases such as NSIP.",
+            "The first-stage textual information indicates progressive exertional dyspnea, dry cough, and hypoxemia, which are consistent with common manifestations of interstitial lung disease.",
+            "The Phase 1 text information indicated that standard anti-infective treatment was ineffective, suggesting that noninfectious interstitial lung disease should be considered."
+          ],
+          "opposing_evidence": [
+            "Phase 1 text information indicated ENA 12-item panel negative, 5-item vasculitis panel negative",
+            "In the first-stage text information, the patient denied dry eyes, alopecia, photosensitivity, oral ulcers, rash, Raynaud phenomenon, morning stiffness, joint swelling and pain, myalgia, skin tightness, etc., with no clear extrapulmonary clues of connective tissue disease.",
+            "During the first-stage physical examination, no Velcro crackles were heard."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Arterial blood gas analysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complete blood count and inflammatory markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Urinalysis",
+          "requirement": "required"
+        },
+        {
+          "exam": "Stool routine examination + OB",
+          "requirement": "required"
+        },
+        {
+          "exam": "Biochemical markers",
+          "requirement": "required"
+        },
+        {
+          "exam": "Coagulation function",
+          "requirement": "required"
+        },
+        {
+          "exam": "blood lipids",
+          "requirement": "optional"
+        },
+        {
+          "exam": "cardiac enzymes",
+          "requirement": "required"
+        },
+        {
+          "exam": "TNT",
+          "requirement": "required"
+        },
+        {
+          "exam": "BNP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fasting blood glucose",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Thyroid function",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Four infectious disease tests",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Fungi (GM test, G test)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Respiratory viral panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "Nine respiratory pathogen panel, Mycoplasma and Chlamydia antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tuberculosis (Mycobacterium tuberculosis antibody, PPD skin test, interferon-gamma release assay)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Tumor markers (five lung tumor markers)",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Anti-ENA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunoglobulin panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "T-lymphocyte subsets",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANA",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA",
+          "requirement": "required"
+        },
+        {
+          "exam": "Vasculitis panel",
+          "requirement": "required"
+        },
+        {
+          "exam": "rheumatoid factor",
+          "requirement": "required"
+        },
+        {
+          "exam": "anti-CCP",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complement C3",
+          "requirement": "required"
+        },
+        {
+          "exam": "Complement C4",
+          "requirement": "required"
+        },
+        {
+          "exam": "autoimmune hepatitis",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Antiphospholipid antibody",
+          "requirement": "optional"
+        },
+        {
+          "exam": "Myositis and scleroderma antibodies",
+          "requirement": "required"
+        },
+        {
+          "exam": "Color Doppler ultrasound of the heart and bilateral lower extremity veins",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function testing",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest HRCT examination",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bronchoscopy + transbronchial cryobiopsy",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Laboratory test results were as follows: [Arterial blood gas analysis] indicated type I respiratory failure; [Complete blood count and inflammatory markers] see image; [Urinalysis, stool routine + OB] normal; [Biochemical parameters] see image; [Coagulation function] prothrombin time 15.40 sec↑, international normalized ratio 1.23↑, fibrinogen concentration 5.39 g/L↑, prothrombin activity 72.00%↓, quantitative D-dimer 0.26 ug/mL FEU; [Blood lipids] triglycerides 3.87 mmol/L↑, total cholesterol 3.13 mmol/L, HDL-C 0.40 mmol/L↓, LDL-C 1.77 mmol/L, HDL-C/total cholesterol 0.13↓; [Cardiac enzymes, TNT, BNP, fasting blood glucose, thyroid function] normal. Pathogen and tumor-related indicators were as follows: [Infectious disease panel] hepatitis B serologies, hepatitis C, HIV, TP (-); [Fungi] GM test, G test (-); [Viruses] comprehensive viral panel: cytomegalovirus antibody IgG (CMV-IgG) 308.500 IU/mL, herpes simplex virus type I antibody (HSV) IgG positive 85.96 COI, rubella virus antibody IgG (RU-IgG) 59.550 IU/mL. Epstein-Barr virus antibody (-). Nine-item respiratory pathogen panel, Mycoplasma and Chlamydia antibodies (-); [Tuberculosis] Mycobacterium tuberculosis antibody PPD-IgG +, PPD-IgM -; PPD skin test (1:2000 +, 1:10000 -); interferon-gamma release assay (-); [Tumor markers] five lung tumor markers: pro-gastrin-releasing peptide 47.54 ng/L↑, others normal. Immune-related indicators were as follows: [Anti-ENA] Ro-52 (52 kDa)+, others (-); [Immunoglobulin panel] IgG 8.57 g/L↓, transferrin 1.61 g/L↓, others normal; [T-lymphocyte subsets] NK cell percentage (%) 32%↑, NK cell absolute count (#) 899/uL↑, others normal; [ANA, ANCA, three vasculitis items, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver antibodies, antiphospholipid antibodies] (-); [Myositis and scleroderma antibodies] anti-Ro-52 antibody IgG +, anti-Fibrillarin antibody IgG (+), others normal. Cardiac-related examinations were as follows: [Cardiac ultrasound + bilateral lower-extremity venous Doppler ultrasound] no obvious abnormality of intracardiac structures, left ventricular systolic function measurements within the normal range. Segmental blood flow in the deep veins of both lower extremities was patent; [Echocardiography] tricuspid regurgitation (mild), pericardial effusion, left ventricular systolic function measurements within the normal range. Pulmonary function testing showed mild obstructive ventilatory dysfunction and moderate impairment of diffusing capacity (pre-bronchodilator FVC 3.35 L [87.5%pred], post-bronchodilator 3.66 L [95.5%pred]; pre-bronchodilator FEV1 2.50 L [79.7%pred], post-bronchodilator 2.82 L [89.9%pred]; pre-bronchodilator FEV1/FVC 74.62%, post-bronchodilator 77.18%; DLCO SB 48.2%pred.) Bronchodilator test positive (FEV1 increased by 12.9% 15 minutes after inhalation of salbutamol 400 ug) FENO 14 ppb. Changes on chest imaging were as follows: chest HRCT on Day +9 showed diffuse ground-glass opacities in both lungs; chest HRCT on Day +18 showed increased diffuse ground-glass opacities in both lungs compared with before; chest HRCT on Day +28 showed increased exudative opacities in both lower lungs compared with before, with new exudative consolidation and incomplete expansion in both lower lungs. On Day +18, bronchoscopy + transbronchial cryobiopsy was performed: no abnormality was seen on bronchoscopy. In the right middle lobe, 40 mL NS was instilled, and 16 mL of slightly turbid fluid was recovered and sent for differential cell count; lavage fluid from the right middle lobe was sent for Gram stain, bacterial culture, fungal culture, Pneumocystis detection, PAS stain, acid-fast stain, liquid-based cytology, NGS (DNA+RNA), and T-lymphocyte subset testing. Cryobiopsy was performed at 4 sites in the posterior basal and lateral basal segments of the left lower lobe. Results of bronchoalveolar lavage fluid on Day +18: [Pathogen testing] Gram stain: G+ cocci +, G- cocci -, G+ bacilli -, G- bacilli +, no fungi found; acid-fast stain: no acid-fast bacilli seen; Pneumocystis hexamine silver stain: no Pneumocystis seen/oil immersion; [Differential cell count] total cell count 0.52×10^9/L, macrophages 72.1%, lymphocytes 26.9%, neutrophils 0.4%, eosinophils /, others 0.6%; [Lymphocyte subsets] T-lymphocyte percentage (%) 96%↑, CD4+ T-lymphocyte percentage (%) 10%↓, CD8+ T-lymphocyte percentage (%) 84%↑, B-lymphocyte percentage (%) 0%↓, NK cell percentage (%) 3%↓, CD4+T/CD8+T lymphocyte ratio 0.12↓; [BALF NGS] (DNA) Haemophilus parainfluenzae (sequence count 3049), human herpesvirus type 4 (sequence count 334), human herpesvirus type 7 (sequence count 3); (RNA) no definite pathogenic virus detected. [Bacterial + fungal culture] (-). Pathology results of cryobiopsy on Day +18: (left lower lobe lung tissue) fragmented tissue totaling the size of a mung bean. The alveolar septa were slightly widened, a small amount of proteinaceous material deposition was seen in some alveolar spaces, accompanied by a small amount of round-cell infiltration, congestion of interstitial vessels, and lymphocytic infiltration in the wall of an occasional small vessel; please consider in conjunction with the clinical and imaging findings. Special stains: acid-fast stain for organisms (-), A/P stain for organisms (-).",
+        "images": [
+          {
+            "image_id": "fig3",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRg3A6YDpswHHWlISgJkb9klBicL5802nb0jtjh0H0yHPhu5FqVUygE4Q/640?wx_fmt=png",
+            "near_text": "[Complete blood count and inflammatory markers]",
+            "local_src": "cleaned_cases_image_cache/3c229ae950b2d78f1832a853df20361eb3de2866.png"
+          },
+          {
+            "image_id": "fig4",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRcQWLKHI8NVJsQaorUwQM2TWFPWRwWpibO2bRMKr7g3g7NYZicZhAEfXA/640?wx_fmt=png",
+            "near_text": "[Urinalysis, stool routine examination + OB] normal.",
+            "local_src": "cleaned_cases_image_cache/206432813ac1917bb6faa71b6cd94547c6aa21b5.png"
+          },
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRIhfhESmyD8jm2bF16EgaNM7R29TlHHDuBMmITdickUA3hJBMAR1UcsA/640?wx_fmt=png",
+            "near_text": "Coagulation function",
+            "local_src": "cleaned_cases_image_cache/ed45f18f7553f20f2e166dfe3e79f3cd33deb293.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRpKSXJR308EibIZxIZc6sqCIHhaMlk6LiaFkfibSPcfuJRnIQrAj1Dha5A/640?wx_fmt=png",
+            "near_text": "Figure 2: The patient's chest HRCT: a. Day +9; b. Day +18; c. Day +28",
+            "local_src": "cleaned_cases_image_cache/bf27676467d166a28233d932eb1dccc1c4973c5b.png"
+          },
+          {
+            "image_id": "fig7",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRzfl5snbKNXePwm5Xib3ib2icUXzbN5UbVsVgiaer8HUQopmyRRAehriaPLQ/640?wx_fmt=png",
+            "near_text": "Figure 3: Pathology results of transbronchial cryobiopsy performed under bronchoscopy on Day +18",
+            "local_src": "cleaned_cases_image_cache/e29795eb79a16b4d6d6323b9e4a375384ff5d388.png"
+          },
+          {
+            "image_id": "fig8",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRBeKA9F2wuq10rwEq1SdL0hu2cia8RicO9wh39VwtianLzQnClW4gA1Wng/640?wx_fmt=png",
+            "near_text": "Figure 4: Diagnostic workflow",
+            "local_src": "cleaned_cases_image_cache/632b215fd0907529e77e1b68c09cf1bdffb1e31f.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "Viral infection",
+            "evidence": [
+              "Acute onset",
+              "Clinical manifestations include dyspnea, dry cough, hypoxemia, etc.",
+              "Pulmonary HRCT showed progressively worsening diffuse bilateral ground-glass opacities"
+            ],
+            "exclusion_reasons": [
+              "No symptoms such as myalgia or sore throat",
+              "Recurrent high fever is not consistent with the characteristics of viral infection",
+              "No lymphocytosis was seen on the blood count",
+              "Lack of etiologic test evidence related to viral infection"
+            ]
+          },
+          {
+            "name": "Hypersensitivity pneumonitis",
+            "evidence": [
+              "The patient had an acute onset.",
+              "History of exposure to pigeons and Angora rabbits before disease onset",
+              "Chest HRCT showed progressive diffuse homogeneous ground-glass opacities in both lungs; the imaging findings are consistent with nonfibrotic HP",
+              "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+              "Lymphocytes 26.9%↑ in BALF differential cell count"
+            ],
+            "exclusion_reasons": [
+              "Transbronchial cryobiopsy pathology showed a small amount of proteinaceous material deposition in portions of the alveolar spaces, lymphocytic infiltration in the walls of a few small blood vessels, and no lung histopathologic features related to HP.",
+              "After removal from the exposure environment, the patient's condition did not improve and continued to progressively worsen.",
+              "No improvement after glucocorticoid therapy according to the HP treatment regimen"
+            ]
+          },
+          {
+            "name": "Lymphocytic interstitial pneumonia (LIP)",
+            "evidence": [
+              "The patient's clinical symptoms included exertional dyspnea, dry cough, mild dry mouth, and fever, with rapid disease progression.",
+              "Chest HRCT showed diffuse ground-glass opacities in both lungs",
+              "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+              "Arterial blood gas showed type I respiratory failure",
+              "Elevated lymphocytes in BALF, 26.9%",
+              "Anti-Ro-52 antibody IgG positive, anti-fibrillarin antibody IgG positive"
+            ],
+            "exclusion_reasons": [
+              "The patient is a middle-aged man with no prior history of immune system-related disease.",
+              "ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+              "Pulmonary imaging showed diffuse homogeneous ground-glass opacities in both lungs, without predominant involvement of the lung bases, subpleural abnormalities, or paratracheal nodules.",
+              "No significant improvement in symptoms after glucocorticoid therapy"
+            ]
+          },
+          {
+            "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+            "evidence": [
+              "The patient has symptoms including exertional dyspnea, dry cough, and recurrent high fever; the condition is rapidly progressive, with type I respiratory failure present.",
+              "Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs, with no mediastinal lymphadenopathy.",
+              "No pulmonary arterial hypertension",
+              "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+              "Serum LDH >1000 U/L",
+              "Anemia developed as the disease progressed"
+            ],
+            "exclusion_reasons": [
+              "Transbronchial cryobiopsy pathology showed slight widening of the alveolar septa, a small amount of proteinaceous material deposition in some alveolar spaces, accompanied by a small amount of round cell infiltration, congestion of interstitial vessels, and lymphocytic infiltration in the walls of occasional small vessels. The pathology result still requires further recutting of sections and repeat examination.",
+              "The patient had no evidence of pulmonary arterial hypertension, hepatosplenomegaly, or other manifestations of systemic organ involvement.",
+              "PET-CT was declined for financial reasons"
+            ]
+          },
+          {
+            "name": "Pulmonary veno-occlusive disease (PVOD)",
+            "evidence": [
+              "The patient has dyspnea on exertion and type I respiratory failure.",
+              "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+              "Chest HRCT showed diffuse ground-glass opacities in both lungs"
+            ],
+            "exclusion_reasons": [
+              "The patient does not have pulmonary hypertension.",
+              "Chest HRCT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes",
+              "Transbronchial cryobiopsy pathology results do not support PVOD"
+            ]
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "Viral infection",
+        "evidence": [
+          "Acute onset",
+          "Clinical manifestations include dyspnea, dry cough, hypoxemia, etc.",
+          "Pulmonary HRCT showed progressively worsening diffuse bilateral ground-glass opacities"
+        ],
+        "exclusion_reasons": [
+          "No symptoms such as myalgia or sore throat",
+          "Recurrent high fever is not consistent with the characteristics of viral infection",
+          "No lymphocytosis was seen on the blood count",
+          "Lack of etiologic test evidence related to viral infection"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Hypersensitivity pneumonitis",
+        "evidence": [
+          "The patient had an acute onset.",
+          "History of exposure to pigeons and Angora rabbits before disease onset",
+          "Chest HRCT showed progressive diffuse homogeneous ground-glass opacities in both lungs; the imaging findings are consistent with nonfibrotic HP",
+          "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+          "Lymphocytes 26.9%↑ in BALF differential cell count"
+        ],
+        "exclusion_reasons": [
+          "Transbronchial cryobiopsy pathology showed a small amount of proteinaceous material deposition in portions of the alveolar spaces, lymphocytic infiltration in the walls of a few small blood vessels, and no lung histopathologic features related to HP.",
+          "After removal from the exposure environment, the patient's condition did not improve and continued to progressively worsen.",
+          "No improvement after glucocorticoid therapy according to the HP treatment regimen"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Lymphocytic interstitial pneumonia (LIP)",
+        "evidence": [
+          "The patient's clinical symptoms included exertional dyspnea, dry cough, mild dry mouth, and fever, with rapid disease progression.",
+          "Chest HRCT showed diffuse ground-glass opacities in both lungs",
+          "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+          "Arterial blood gas showed type I respiratory failure",
+          "Elevated lymphocytes in BALF, 26.9%",
+          "Anti-Ro-52 antibody IgG positive, anti-fibrillarin antibody IgG positive"
+        ],
+        "exclusion_reasons": [
+          "The patient is a middle-aged man with no prior history of immune system-related disease.",
+          "ANA, ANCA, vasculitis panel, rheumatoid factor, anti-CCP, complement C3, complement C4, autoimmune liver disease panel, and antiphospholipid antibody testing were all negative",
+          "Pulmonary imaging showed diffuse homogeneous ground-glass opacities in both lungs, without predominant involvement of the lung bases, subpleural abnormalities, or paratracheal nodules.",
+          "No significant improvement in symptoms after glucocorticoid therapy"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Intravascular large B-cell lymphoma (IVLBCL)",
+        "evidence": [
+          "The patient has symptoms including exertional dyspnea, dry cough, and recurrent high fever; the condition is rapidly progressive, with type I respiratory failure present.",
+          "Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs, with no mediastinal lymphadenopathy.",
+          "No pulmonary arterial hypertension",
+          "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+          "Serum LDH >1000 U/L",
+          "Anemia developed as the disease progressed"
+        ],
+        "exclusion_reasons": [
+          "Transbronchial cryobiopsy pathology showed slight widening of the alveolar septa, a small amount of proteinaceous material deposition in some alveolar spaces, accompanied by a small amount of round cell infiltration, congestion of interstitial vessels, and lymphocytic infiltration in the walls of occasional small vessels. The pathology result still requires further recutting of sections and repeat examination.",
+          "The patient had no evidence of pulmonary arterial hypertension, hepatosplenomegaly, or other manifestations of systemic organ involvement.",
+          "PET-CT was declined for financial reasons"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Pulmonary veno-occlusive disease (PVOD)",
+        "evidence": [
+          "The patient has dyspnea on exertion and type I respiratory failure.",
+          "PFT showed mild obstructive ventilatory dysfunction and moderate diffusion dysfunction",
+          "Chest HRCT showed diffuse ground-glass opacities in both lungs"
+        ],
+        "exclusion_reasons": [
+          "The patient does not have pulmonary hypertension.",
+          "Chest HRCT showed no characteristic smooth interlobular septal thickening or enlarged mediastinal lymph nodes",
+          "Transbronchial cryobiopsy pathology results do not support PVOD"
+        ],
+        "requirement": "optional"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Repeat bronchoscopy",
+          "basis_in_stage3_input": "Repeat bronchoscopy",
+          "why_order_this_exam": "The patient had progressive dyspnea and dry cough for 1 month. At admission, hypoxemia and type I respiratory failure were already present. Chest HRCT showed diffuse ground-glass opacities in both lungs with persistent progression. Previously, the initial bronchoscopy and transbronchial cryobiopsy did not yield a definite diagnosis, and there was no improvement with anti-infective therapy or subsequent corticosteroid treatment. Repeat bronchoscopy, in the setting of disease progression, can directly reassess the airway, obtain BALF samples again, determine whether there is a new superimposed infection or hemorrhagic/tumor-related change, and provide material for subsequent microbiologic, cytologic, and molecular testing. This is critical for differentiating infectious lesions from hematologic malignancy-related pulmonary involvement and for guiding repeat tissue sampling and treatment selection.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bacterial culture",
+          "basis_in_stage3_input": "Collect a specimen for bacterial culture",
+          "why_order_this_exam": "The patient's diffuse bilateral lung lesions continued to worsen, with fever developing later, and prior moxifloxacin treatment was ineffective, suggesting that in addition to the primary disease, secondary or hospital-acquired pulmonary infection should also be considered. The initial BALF culture was negative, but NGS had detected Haemophilus parainfluenzae; the disease still progressed, indicating that the previous etiologic findings did not fully explain the clinical presentation. Repeat bacterial culture was performed to determine whether cultivable bacteria are currently present and to obtain antimicrobial susceptibility results, to distinguish colonization from true infection, to guide precise selection of antibacterial agents, and to avoid misattributing infection to a purely noninfectious diffuse lung disease or tumor progression.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Fungal culture",
+          "basis_in_stage3_input": "Collect a specimen for fungal culture",
+          "why_order_this_exam": "The patient has progressive hypoxemia, diffuse bilateral ground-glass opacities, a prolonged disease course, and prior glucocorticoid treatment, all of which increase concern for opportunistic infection, especially fungal infection. Although prior GM test and G test were negative, and no fungi were seen on the initial BALF with negative culture, these results cannot completely exclude focal or early fungal infection. Repeat fungal culture would help further exclude invasive fungal disease or secondary fungal infection, avoid missing a treatable infection, and also provide a safety basis for whether to continue intensified immunosuppression or transition to antitumor therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Blood and lavage fluid NGS",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count",
+          "why_order_this_exam": "The patient's clinical presentation and imaging findings both suggest severe diffuse pulmonary parenchymal disease, but routine cultures, stains, and serologic tests have limited value in explaining the etiology. Although the initial BALF NGS detected Haemophilus parainfluenzae and human herpesvirus 4, it still could not fully explain the persistent progression and lack of response to corticosteroids. Repeating NGS on blood and lavage fluid can increase the detection rate of fastidious, rare, and mixed pathogens, helping determine whether deep-seated infection, viral reactivation, or newly acquired nosocomial infection is present; at the same time, integrating blood and BALF results can distinguish localized infection from systemic dissemination, which is very important for advancing repeat lung biopsy after excluding infection, establishing a hematologic malignancy direction, and balancing the risks of subsequent chemotherapy/immunosuppression.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Liquid-based cytology",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count",
+          "why_order_this_exam": "The patient’s imaging showed diffuse ground-glass opacities in both lungs, with progressive worsening during the course of the disease. Previous liquid-based cytology did not identify malignant cells, but the pathology findings have consistently been insufficient to adequately explain the clinical condition, and ultimately there was high clinical suspicion for a hematologic malignancy-related neoplasm. Repeat liquid-based cytology can reassess whether the lavage fluid contains abnormal large cells, tumor cells, hemosiderin-laden macrophages, or other cytologic clues suggestive of specific lesions, to assist in differentiating infection, diffuse alveolar damage, alveolar proteinaceous deposition disorders, and malignancy-related pulmonary involvement, and to provide a basis for determining whether repeat lung biopsy is needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "PAS stain",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count",
+          "why_order_this_exam": "Prior cryobiopsy of the lung showed a small amount of proteinaceous material deposited within portions of the alveolar spaces. The patient’s imaging was predominantly characterized by diffuse ground-glass opacities, suggesting the need for further evaluation for disorders related to glycoproteinaceous material deposition within the alveolar spaces and certain fungal/opportunistic infections. PAS staining can help identify alveolar proteinaceous deposition, certain pathogens, or the nature of special secretions, thereby clarifying the significance of the \"proteinaceous material deposition\" described in the initial pathology. This test is helpful for differentiating among infection, alveolar proteinaceous deposition-related changes, and tumor-related secondary lung injury, thereby avoiding misinterpretation of the pathologic direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Cell count",
+          "basis_in_stage3_input": "Collect specimens for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS staining, and cytologic cell count",
+          "why_order_this_exam": "Early BALF differential cell count showed an elevated lymphocyte percentage of 26.9%, which had supported the differential diagnosis of hypersensitivity pneumonitis or lymphocytic interstitial pneumonia; however, despite subsequent removal from exposure and corticosteroid therapy, the condition continued to worsen, suggesting that the nature of the disease may need to be reassessed. Repeat cytologic cell count can dynamically assess whether the inflammatory cell composition in the lavage fluid has shifted from lymphocyte predominance to macrophage or neutrophil predominance, thereby helping distinguish immune-mediated alveolitis, infection, tumor-related lung injury, and post-treatment changes; it can also be compared with the initial BALF results to provide an objective basis for adjusting the diagnostic approach and treatment direction.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bence Jones protein",
+          "basis_in_stage3_input": "3. Hematologic system examination: [Bence Jones protein]",
+          "why_order_this_exam": "The patient's condition progressed rapidly, with persistent hypoxemia. Imaging showed homogeneous diffuse ground-glass opacities in both lungs, LDH was markedly elevated, and the earlier lung pathology was atypical. After MDT, a hematologic malignancy was instead highly suspected. Testing for Bence Jones protein this week was performed to screen for the presence of monoclonal immunoglobulin light-chain abnormalities and clues to plasma cell/lymphoplasmacytic proliferative disorders, to help determine whether the pulmonary lesions were one of the manifestations of a hematologic malignancy. Although this test cannot directly confirm intravascular large B-cell lymphoma of the lung, it is valuable for excluding or suggesting concomitant monoclonal gammopathy, refining the differential diagnosis within the spectrum of hematologic diseases, and guiding subsequent further bone marrow examination.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunofixation electrophoresis",
+          "basis_in_stage3_input": "[Immunofixation electrophoresis]",
+          "why_order_this_exam": "In the setting of elevated LDH, progressive anemia, diffuse lung disease, and suspected hematologic malignancy, immunofixation electrophoresis can detect monoclonal immunoglobulins more sensitively than routine protein testing. Its clinical purpose is to determine whether an M protein is present and, if so, its type, thereby differentiating plasma cell disorders, lymphoplasmacytic disorders, or other clonal B-cell proliferations. In this case, this test would help establish an evidentiary basis for whether a systemic clonal B-cell abnormality is present, support further bone marrow evaluation, and provide background information for subsequent interpretation of pathologic immunophenotyping and treatment planning.",
+          "requirement": "required"
+        },
+        {
+          "exam": "bone marrow aspiration",
+          "basis_in_stage3_input": "[Bone marrow aspiration] bone marrow smear",
+          "why_order_this_exam": "Clinically, the patient no longer supports a simple infection or hypersensitivity pneumonitis, and the initial lung pathology results have insufficient explanatory value; however, persistently elevated LDH, progressive anemia, and rapid deterioration suggest that hematologic malignancy should be ruled out as soon as possible. Bone marrow aspiration is an important basic test to assess whether the bone marrow is involved and whether abnormal lymphoid/plasma cells or other tumor cells are present. This examination can help distinguish a primary localized pulmonary lesion from a systemic hematologic malignancy, assess disease staging and the feasibility of subsequent chemotherapy, and also help exclude pulmonary manifestations caused by other hematologic disorders.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Bone marrow smear",
+          "basis_in_stage3_input": "[Bone marrow aspiration] bone marrow smear",
+          "why_order_this_exam": "Bone marrow smear is a direct morphologic examination of bone marrow cells performed on the basis of bone marrow aspiration. In this case, the patient has rapidly progressive diffuse lung disease, markedly elevated LDH, and suspected hematologic malignancy, so a bone marrow smear is needed to assess bone marrow proliferation, the proportions of the three hematopoietic lineages, and whether abnormal large cells, lymphoma cells, or plasma cell abnormalities are present. Its role is to provide a morphologic basis for screening for hematologic malignancies and, in combination with flow cytometry, immunofixation electrophoresis, and other results, determine whether there is bone marrow involvement and whether this is a multisystem disease, thereby affecting diagnostic stratification and treatment strategy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Leukemia flow cytometry",
+          "basis_in_stage3_input": "Leukemia flow cytometry",
+          "why_order_this_exam": "The patient's pulmonary lesions have shown progressive worsening, and routine infectious and autoimmune evaluations do not adequately explain them; after MDT, the diagnostic approach has clearly shifted toward a hematologic malignancy workup. Leukemia flow cytometry can rapidly analyze the immunophenotype of abnormal cell populations in bone marrow or peripheral blood, identifying monoclonal B cells, abnormal plasma cells, or other hematopoietic neoplastic cells, and supplementing the limited sensitivity of bone marrow smear for small abnormal populations. This test helps confirm or exclude a clonal hematologic disorder at the bone marrow level and supports subsequently focusing on recut lung tissue sections and immunohistochemistry to establish the diagnosis.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Repeat lung biopsy",
+          "basis_in_stage3_input": "Accordingly, further hematologic-related tests were completed and a repeat lung biopsy was performed.",
+          "why_order_this_exam": "This was one of the most critical examinations in this case. The patient’s diffuse bilateral ground-glass opacities continued to progress, with development of type I respiratory failure, and both anti-infective therapy and corticosteroid therapy were ineffective; the initial transbronchial cryobiopsy showed only mild widening of the alveolar septa, small amounts of proteinaceous material deposition, and lymphocytic infiltration in the walls of occasional small vessels, which could not explain the rapidly progressive clinical course. Given the persistently marked elevation of LDH, progressive anemia, and homogeneous diffuse imaging findings without significant lymphadenopathy, rare diseases such as intravascular large B-cell lymphoma should be strongly suspected. The purpose of the repeat lung biopsy was to obtain more representative lung tissue and address the key clinical questions of whether neoplastic intravascular infiltration was present and why the previous pathology had not yielded a definitive diagnosis; this was निर्णसive for the final diagnosis, exclusion of HP/LIP/infection, and determination of the chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Recut histologic sections of cryobiopsy lung tissue",
+          "basis_in_stage3_input": "4. Recut histopathologic slides of lung tissue from transbronchial cryobiopsy",
+          "why_order_this_exam": "The initial lung biopsy had already obtained tissue, but routine sections showed only nonspecific changes, which was clearly inconsistent with the patient's severe hypoxemia, rapid radiographic progression, and markedly elevated LDH. Therefore, the existing specimen needs to be recut with additional levels to increase the chance of detecting focal or intravascular lesions. Intravascular large B-cell lymphoma is often distributed focally and occultly, and can be easily missed on the initial sections. Recutting the sections maximizes use of the existing tissue without increasing the patient's immediate risk from repeat invasive procedures, directly addressing whether the original pathology missed critical abnormal cells, and is an important step in confirming this rare disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry",
+          "basis_in_stage3_input": "Immunohistochemistry results",
+          "why_order_this_exam": "Even after deeper sectioning reveals large atypical cells within the vascular lumen, immunohistochemistry is still required to determine the origin and nature of these cells. Clinically, a final distinction must be made among infection, inflammatory interstitial lung disease, epithelial neoplasms, and lymphohematopoietic neoplasms. Using a combination of CD20, CD79a, CD3, CK, Ki67, vascular markers, and other markers, immunohistochemistry can determine whether the cells are of B-cell origin, whether they are located within the vascular lumen, and their proliferative activity, and can exclude epithelial-origin tumors or reactive lymphocytic infiltration. This examination plays a central role in establishing the diagnosis of intravascular large B-cell lymphoma of the lung and in the subsequent selection of a CHOP-based chemotherapy regimen.",
+          "requirement": "required"
+        },
+        {
+          "exam": "in situ hybridization",
+          "basis_in_stage3_input": "In situ hybridization: EBER (-)",
+          "why_order_this_exam": "After confirmation of atypical lymphoid cells in the lung tissue, in situ hybridization, especially EBER testing, is helpful for further pathologic subtyping and supplementary etiologic assessment. The patient’s prior virologic testing showed negative Epstein-Barr virus antibodies, but tissue-level EBER can more directly assess whether the tumor cells are associated with Epstein-Barr virus. This test can help exclude certain Epstein-Barr virus-related lymphoproliferative disorders, refine the pathologic classification of B-cell lymphoma, improve diagnostic accuracy, and provide supplementary information for prognostic assessment and selection of subsequent treatment strategies.",
+          "requirement": "optional"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "After two multidisciplinary team (MDT) discussions, the team ultimately considered a possible hematologic malignancy and therefore further completed hematologic workup and performed a repeat lung biopsy: 1. Repeat bronchoscopy: on endoscopy, the trachea and bronchial mucosa at all levels appeared smooth, without obvious hyperemia or edema, and without obvious secretions. Lavage of the left lingular lobe and right middle lobe was performed with approximately 200 ml; the lavage fluid was slightly turbid. Specimens were collected and sent for bacterial culture, fungal culture, blood and lavage fluid NGS, liquid-based cytology and PAS stain, and cytologic cell count. 2. BALF results: [Cytologic cell count] total cell count 0.51×10^9/L, macrophages 90.4%, lymphocytes 8.1%, neutrophils 0.9%, eosinophils /, others 0.6%. [Lavage fluid culture] Ralstonia mannitolilytica ++, sensitive to antibiotics including levofloxacin, chloramphenicol, and trimethoprim-sulfamethoxazole. [BALF NGS] (DNA) Streptococcus pseudopneumoniae (sequence count 7448), human herpesvirus type 4 (sequence count 299); (RNA) no definite pathogenic virus detected. 3. Hematologic tests: [Bence Jones protein] Urine: immunoglobulin κ chain 0.05 g/L ↑, immunoglobulin λ chain <0.0500 g/L, κ/λ ratio /. Blood: Bence Jones protein negative. [Immunofixation electrophoresis] Urine: normal immunofixation electrophoresis. Blood: weakly positive IgM κ-type M protein +, remaining items negative. [Bone marrow aspiration] Bone marrow smear: 1. active proliferation, G=56% E=23% G/E+2.4:1, 2. no obvious abnormality in the proportion or morphology of granulocytic cells at each stage, 3. erythroid series mainly mid- to late-stage erythroblasts, with no obvious morphologic abnormality; mature erythrocytes with no obvious morphologic abnormality; lymphocytes accounted for 21%; monocytes showed no obvious increase or decrease; megakaryocytes and platelet distribution were acceptable on the entire smear; no parasites or other abnormal cells were seen. [Leukemia flow cytometry] P2 accounted for 0.2% of nucleated cells, expressed CD38, CD138, CD19, ckappa, clambda, and did not express CD56, consistent with normal polyclonal plasma cells. P3 accounted for 1.2% of nucleated cells and consisted of polyclonal mature B lymphocytes. 4. Recut sections of cryobiopsy lung tissue pathology: the submitted lung tissue showed widened alveolar septa, and large atypical cells were seen within the vascular lumina, consistent with intravascular large B-cell lymphoma of the lung. Immunohistochemistry results: CD20 (+), CD79a (+), CD3 (-), CD5 (+), CK (-), Ki67 (80%+), FLI1 (vascular +), TTF1 (-), Mum (+), CD19 (+). In situ hybridization: EBER (-).",
+      "images": [
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstJMgmDC516zUicz9X40uulGRM8NHpNfRRCGuf7rf9ZKxDGhUJKVgnqvjoDM81YHfeW8yiaT5Ob14y2g/640?wx_fmt=png",
+          "near_text": "Figure 5: (from left to right) before Cycle 1 treatment; before Cycle 3 treatment; before Cycle 5 treatment",
+          "local_src": "cleaned_cases_image_cache/7d77410081f4b555462064569842c9ddd96bf892.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "1. Intravascular large B-cell lymphoma of the lung; type I respiratory failure\n2. Hospital-acquired pneumonia (Ralstonia mannitolilytica, Streptococcus pseudopneumoniae)",
+      "diagnostic_basis": [
+        "Basic characteristics: middle-aged male, acute onset, with a history of exposure to turtledoves and long-haired rabbits prior to onset.",
+        "Symptoms: shortness of breath and dry cough for more than 1 month, followed by recurrent fever; the body temperature was not controlled after anti-infective and steroid therapy.",
+        "Physical signs: no obvious abnormalities.",
+        "Ancillary examinations: ① Chest HRCT showed diffuse homogeneous ground-glass opacities in both lungs, without obvious interlobular septal thickening and without mediastinal lymphadenopathy; ② PFT showed mild obstructive ventilatory dysfunction and moderate diffusion impairment; ③ repeated serum LDH tests were all >1000 U/L; ④ re-cut sections of transbronchial cryobiopsy pathology showed: widened alveolar septa in the lung tissue, with large atypical cells within the vascular lumina, consistent with intravascular large B-cell lymphoma of the lung. Immunohistochemistry results: CD20 (+), CD79a (+), CD3 (-), CD5 (+), CK (-), Ki67 (80%), FLI1 (vascular +), TTF1 (-), Mum1 (+), CD19 (+); in situ hybridization: EBER (-)."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "CHOP regimen chemotherapy for a total of five cycles (prednisone 100 mg PO d1-d5 + cyclophosphamide 1200 mg + doxorubicin 68.4-85.5 mg + vincristine 2.394 mg)",
+        "95% TGTV 20 Gy/10f radiotherapy for right frontal lobe metastatic tumor + 24 Gy/, 2 Gy/f whole-brain radiotherapy"
+      ],
+      "treatment_response": [
+        "After the first cycle of chemotherapy, the patient developed confusion, weakness of all four extremities, and urinary and fecal incontinence; brain MRI with contrast was considered suggestive of intracranial lymphoma infiltration.",
+        "After radiotherapy, consciousness was clear, and muscle strength and muscle tone in all four limbs returned to normal.",
+        "After completion of the fifth cycle of the CHOP regimen, the patient again refused all diagnostic and therapeutic interventions and died at home on Day +259."
+      ]
+    }
+  }
+}

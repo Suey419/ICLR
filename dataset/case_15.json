@@ -1,0 +1,402 @@
+{
+  "status": "success",
+  "case_id": "case_15",
+  "sections": {
+    "1.patient_information_and_chief_complaint": {
+      "text": "A 34-year-old female patient, a supermarket attendant. Chief complaint: episodic dyspnea for 5 years, worsening for 2 years, recurrence for 2 days. Five years ago, after catching a chill and then taking oral cold medication, the patient immediately developed dyspnea, cyanosis of the lips, and loss of consciousness. She improved after emergency treatment. Thereafter, she had recurrent episodes of dyspnea; exposure to irritant gases could trigger or worsen the episodes, and they could also resolve spontaneously. Two years ago, her dyspnea became worse than before and could no longer resolve spontaneously. At a local hospital, she was diagnosed with \"bronchial asthma\" and was given \"Symbicort Turbuhaler 160 μg/4.5 μg, 1 inhalation bid\"; during this period, her dyspnea still recurred intermittently. During dyspnea attacks, self-administered inhaled salbutamol aerosol could relieve symptoms for more than 10 minutes, and she also self-administered oral prednisone, stopping it after relief. Two days before this visit, she again developed dyspnea accompanied by cough and sputum production, and therefore came to our hospital. Past history: 20 days before admission, the patient underwent \"excision of an external auditory canal mass\" in the right ear; she reported that the postoperative pathology showed polypoid tissue. Her personal history, marital and reproductive history, and family history were all unremarkable. Physical examination on admission: T 36.0℃, P 102 beats/min, R 27 breaths/min, BP 115/72 mmHg. Cauliflower-like new growths were visible on both eyelids, larger on the right side. She had orthopnea, with suprasternal, supraclavicular, and intercostal retractions visible, and diffuse wheezing was audible in both lungs. Multiple patchy brown hyperpigmented areas were visible on both lower extremities, with some ecchymoses also present. A red new growth was visible in the left external auditory canal. Ancillary examinations: arterial blood gas analysis showed pH 7.37; PaO2 53.4 mmHg; PaCO2 50.6 mmHg; lac 2.5 mmol/L; SBE 25.2 mmol/L. On further history-taking, the patient stated that the eyelid and external auditory canal new growths and the skin ecchymoses had appeared only in the past 2 years; the external auditory canal growths affected hearing, with a sensation of ear fullness/distention; the ecchymoses on the lower-extremity skin appeared intermittently and were not necessarily associated with dyspnea attacks; after about 1 week, the ecchymoses would leave residual hyperpigmentation.",
+      "images": [
+        {
+          "image_id": "fig2",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLSQ72nSWiamT0IJLaufGabpF8K7wVIib25R4qP6jEYF6kaG1zvdSTpKdKxnUF3U2KDPz6yAw8Obrzg/640?wx_fmt=jpeg",
+          "near_text": "Figure 1: Bilateral ocular masses",
+          "local_src": "cleaned_cases_image_cache/424f5575fa81656055e68ce287af65c2ec2cab93.jpg"
+        },
+        {
+          "image_id": "fig3",
+          "url": "https://mmbiz.qpic.cn/mmbiz_jpg/qcrGY40NstLSQ72nSWiamT0IJLaufGabpGSia1rPibR1RpGO6kxjxnv04niccLu3vmAicX1SgnQOBHhWuBaPDuxlTvg/640?wx_fmt=jpeg",
+          "near_text": "Figure 2: Skin lesions on both lower extremities",
+          "local_src": "cleaned_cases_image_cache/4ce6f9b85a2ba58a1a38457b2e125bca6f85b9b2.jpg"
+        },
+        {
+          "image_id": "fig4",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabpAY9b1gQ1WOdestIIxf106ySxYUcvkemAnpGAo7KaI03Z5V2ZxhbVLQ/640?wx_fmt=png",
+          "near_text": "Figure 3: Masses in the external auditory canals of both ears",
+          "local_src": "cleaned_cases_image_cache/94e7eba0098d11e931d24633d48c9f623686f404.png"
+        }
+      ]
+    },
+    "2.initial_differential_diagnoses": {
+      "generated_from": "stage1_input",
+      "differential_diagnoses": [
+        {
+          "rank": 1,
+          "name": "Acute exacerbation of bronchial asthma (possible severe exacerbation)",
+          "supporting_evidence": [
+            "There is a 5-year history of recurrent episodic dyspnea, which can be triggered or worsened by exposure to irritating gases and can also remit spontaneously, consistent with airway hyperresponsiveness.",
+            "At a local hospital, the patient was previously diagnosed with \"bronchial asthma\" and was given inhalation therapy.",
+            "During episodes of dyspnea, self-administered inhalation of a salbutamol aerosol provided relief for more than 10 minutes, and self-administered oral prednisone also relieved symptoms, suggesting some response to bronchodilators and glucocorticoids.",
+            "Physical examination showed orthopnea, suprasternal, supraclavicular, and intercostal retractions, and diffuse wheezing in both lungs, supporting diffuse airway obstruction",
+            "Arterial blood gas showed PaO2 53.4 mmHg and PaCO2 50.6 mmHg, indicating hypoxemia and hypoventilation during this exacerbation, consistent with a severe exacerbation."
+          ],
+          "opposing_evidence": [
+            "During regular inhalation of \"Symbicort Turbuhaler,\" dyspnea still occurred intermittently, suggesting poor control of uncomplicated typical asthma or another concomitant cause.",
+            "Salbutamol provides relief for only a little over 10 minutes; the duration of relief is relatively short and is not entirely consistent with simple lower airway spasm.",
+            "Over the past 2 years, cauliflower-like neoplastic growths on both eyelids, a red newly developed mass in the external auditory canal, and recurrent ecchymoses/pigmentation of both lower extremities have appeared, suggesting a possible systemic disease that cannot be explained by asthma alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 2,
+          "name": "Eosinophilic granulomatosis with polyangiitis (EGPA)",
+          "supporting_evidence": [
+            "Recurrent wheezing-like dyspnea is the main manifestation and may initially present clinically as refractory \"asthma\".",
+            "Multiple patchy brown hyperpigmented lesions are visible on both lower extremities, with some ecchymoses also present; further history indicates that the ecchymoses intermittently appear and leave residual hyperpigmentation after about 1 week, supporting possible small-vessel involvement.",
+            "Neoplasms of the eyelids and external auditory canals, and skin ecchymoses, appeared over the past 2 years, suggesting multisystem involvement in recent years.",
+            "This episode was accompanied by cough and sputum production; the respiratory symptoms have been persistent and recurrent, with worsening beginning 2 years ago, consistent with the possibility of gradual progression of a systemic inflammatory disease."
+          ],
+          "opposing_evidence": [
+            "The stage 1 information did not provide common supportive information for EGPA, such as elevated peripheral blood eosinophils, sinusitis, nasal polyps, and peripheral neuropathy.",
+            "A cauliflower-like eyelid neoplasm and an external auditory canal mass are not typical initial presenting manifestations of EGPA."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 3,
+          "name": "Granulomatosis with polyangiitis (GPA)",
+          "supporting_evidence": [
+            "There are clear clues of simultaneous involvement of the upper and lower respiratory tracts: recurrent dyspnea with wheezing; additionally, a newly developed mass in the external auditory canal affecting hearing and a sensation of ear fullness, suggesting possible otolaryngologic involvement.",
+            "Cauliflower-like neoplasms are visible on both eyelids, suggesting possible ocular/periorbital involvement",
+            "Recurrent ecchymoses of both lower extremities with residual hyperpigmentation, supporting possible vasculitic skin lesions",
+            "Poor response to “asthma” treatment; consider vasculitis-associated airway lesions or upper airway stenosis misdiagnosed as asthma"
+          ],
+          "opposing_evidence": [
+            "The first-stage information did not provide common supporting information for GPA, such as sinusitis, nasal septal lesions, hemoptysis, or renal involvement.",
+            "There is clear triggering by irritant gases and partial relief with bronchodilators, which is more suggestive of airway hyperresponsiveness/asthmatic features and cannot be well explained by GPA alone."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 4,
+          "name": "Tracheobronchial amyloidosis or systemic amyloidosis involving the airways/skin",
+          "supporting_evidence": [
+            "Long-term recurrent wheezing and dyspnea, with poor control despite treatment as \"asthma,\" should prompt consideration of a fixed or progressive central airway lesion.",
+            "Cauliflower-like neoplastic lesions are visible on both eyelids; the image shows a localized raised red mass on the eyelid. A newly formed mass is also seen in the external auditory canal, suggesting the possibility of abnormal mucosal/subcutaneous deposition or a tumorous lesion.",
+            "Recurrent ecchymoses of both lower extremities with residual hyperpigmentation; patchy skin lesions are visible in the images, supporting the possibility of cutaneous manifestations related to vascular fragility.",
+            "During exacerbations, there is significant hypoxemia and carbon dioxide retention, suggesting the possibility of relatively severe airway narrowing."
+          ],
+          "opposing_evidence": [
+            "In the first phase, no data were provided on hoarseness, progressive fixed stridor, dysphagia, macroglossia, proteinuria, or other findings more directly supporting amyloidosis.",
+            "Dyspnea can be triggered by irritant gases and can resolve spontaneously, still suggesting the presence of a reversible bronchospastic component, which is not entirely consistent with simple fixed airway stenosis."
+          ],
+          "requirement": "required"
+        },
+        {
+          "rank": 5,
+          "name": "Central airway space-occupying or stenotic lesions (such as benign or malignant tumors of the trachea/main bronchus, papillomatosis, etc.)",
+          "supporting_evidence": [
+            "\"Asthma\"-like symptoms that recur over a long period and respond poorly to inhaled therapy should raise suspicion for central airway lesions misdiagnosed as asthma.",
+            "Physical examination shows orthopnea, suprasternal, supraclavicular, and intercostal retractions, and diffuse wheezing; in severe cases, these may be seen in large airway obstruction.",
+            "There are obvious neoplasms in the eyelid and external auditory canal, suggesting that the patient may have a predisposition to or disease causing multifocal proliferative/space-occupying lesions.",
+            "This blood gas analysis showed decreased PaO2 and increased PaCO2, supporting severe ventilatory limitation."
+          ],
+          "opposing_evidence": [
+            "During the course of the illness, there was a clear trigger from irritant gas exposure, and symptoms were partially relieved by albuterol and prednisone, further suggesting reversible airway reactivity.",
+            "The phase 1 information did not provide evidence such as progressive hoarseness, focal decreased breath sounds, or fixed inspiratory/expiratory wheezing that would more strongly support focal central airway stenosis."
+          ],
+          "requirement": "optional"
+        },
+        {
+          "rank": 6,
+          "name": "Allergic reaction/drug-related hypersensitivity reaction (including a tendency toward anaphylactic shock) with recurrent bronchospasm",
+          "supporting_evidence": [
+            "The first severe episode 5 years ago occurred when \"after catching a cold and taking oral cold medication, dyspnea, lip cyanosis, and loss of consciousness occurred immediately,\" with a close temporal relationship to an acute drug-related hypersensitivity reaction.",
+            "Subsequently, it can be triggered or exacerbated by irritant gases, suggesting a state of airway hyperresponsiveness.",
+            "Glucocorticoids and bronchodilators can provide partial relief, consistent with the treatment response of allergic bronchospasm"
+          ],
+          "opposing_evidence": [
+            "Thereafter, the disease course lasted 5 years with recurrent episodes, and over the past 2 years, new growths of the eyelids and external auditory canal and recurrent ecchymoses/pigmentation developed, suggesting that this cannot be explained merely by a single drug allergy.",
+            "The phase 1 information did not provide accompanying evidence of this acute allergic reaction, such as urticaria, laryngeal edema, or hypotension."
+          ],
+          "requirement": "required"
+        }
+      ]
+    },
+    "3.initial_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Complete blood count",
+          "requirement": "required"
+        },
+        {
+          "exam": "ANCA antibody",
+          "requirement": "required"
+        },
+        {
+          "exam": "Chest CT",
+          "requirement": "required"
+        },
+        {
+          "exam": "Serum IgG4",
+          "requirement": "required"
+        },
+        {
+          "exam": "bronchoscopy",
+          "requirement": "required"
+        },
+        {
+          "exam": "Histopathology (IgG4-positive cell count)",
+          "requirement": "required"
+        },
+        {
+          "exam": "Pulmonary function test",
+          "requirement": "required"
+        }
+      ]
+    },
+    "4.exam_results_and_differential_evidence": {
+      "stage2_input": {
+        "text": "Complete blood count showed: WBC 14.2×10^9/L, Hb 149 g/L, PLT 235×10^9/L, NE% 72.2%, EOS% 6.0%; electrolytes, blood glucose, blood lipids, liver and kidney function, six-item coagulation panel, and infectious disease tests were unremarkable; rheumatologic and immunologic antibodies: ANA, anti-ENA panel, and four-item ANCA panel were negative; immunoglobulin IgE: 689.80 IU/m; serum IgG4 concentration 4.18 g/L. Chest CT showed coarse and disordered bronchovascular markings in both lungs, uneven ventilation, and visible mosaic perfusion. Bronchoscopy was performed under close ECG monitoring with rapid advancement of the scope to evaluate airway lesions. Bronchoscopy showed that the trachea and bronchi were patent, with no stenosis, and no deformity or collapse of the trachea or main bronchi was seen.",
+        "images": [
+          {
+            "image_id": "fig5",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabpicFzysIRhH8J9B0hUmbl0E7JyvVx9iaZgZ7RLzjVfx8BMuBKmBvSF5ow/640?wx_fmt=png",
+            "near_text": "Figure 4: Chest CT",
+            "local_src": "cleaned_cases_image_cache/f61978513ba9a1c4d270972fd82dc5ec7b913aa9.png"
+          },
+          {
+            "image_id": "fig6",
+            "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabpiapH3uYB8EYJyzDHyLwZgYKxjWiac900SXl4iaArcgWiadfgvUAa9d2uow/640?wx_fmt=png",
+            "near_text": "Figure 5: Bronchoscopy",
+            "local_src": "cleaned_cases_image_cache/aebb2c732e7bac3a0382720dbfa7570a775f8d51.png"
+          }
+        ]
+      },
+      "stage2_output": {
+        "differential_diagnoses": [
+          {
+            "name": "eosinophilic granulomatosis with polyangiitis (EGPA)",
+            "evidence": [
+              "Bronchial asthma is common, and the most common clinical manifestation in the early stage of the disease course is the presentation of bronchial asthma.",
+              "Skin lesions may occur, including skin ecchymosis and purpura",
+              "A small proportion of patients have orbital involvement"
+            ],
+            "exclusion_reasons": [
+              "The ears may be involved, but it usually manifests as secretory otitis media or sensorineural hearing loss.",
+              "Imaging, histopathology, ANCA, and other examinations ruled out EGPA"
+            ]
+          },
+          {
+            "name": "Kimura disease",
+            "evidence": [
+              "May be associated with bronchial asthma",
+              "Masses may occur in the orbit and adnexa, and the ear.",
+              "Skin involvement may occur, such as papules and plaques."
+            ],
+            "exclusion_reasons": [
+              "More common in males, and the masses in Kimura disease are usually subcutaneous masses",
+              "Imaging, histopathology, ANCA, and other examinations ruled out Kimura disease"
+            ]
+          },
+          {
+            "name": "Relapsing polychondritis",
+            "evidence": [
+              "Can involve multiple systems, including the trachea, bronchi, ears, eyes, and skin"
+            ],
+            "exclusion_reasons": [
+              "Eye involvement is usually inflammatory lesions such as conjunctivitis and keratitis; ear involvement is also usually redness and swelling of the external auricular helix, without presenting as a mass.",
+              "No obvious airway stenosis was seen on bronchoscopy, which does not support bronchial stenosis caused by relapsing polychondritis; it can be excluded"
+            ]
+          },
+          {
+            "name": "Castleman disease",
+            "evidence": [
+              "Multiple systems may be involved; pulmonary involvement may present with bronchiolitis obliterans, causing dyspnea.",
+              "Extranodal sites such as the orbit and skin may be involved."
+            ],
+            "exclusion_reasons": [
+              "Mostly presents as subcutaneous masses, and when bronchiolitis obliterans occurs, dyspnea generally worsens progressively and is not episodic.",
+              "Imaging, histopathology, ANCA, and other examinations ruled out Castleman disease"
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "evidence": [
+              "It can involve multiple organs throughout the body except the heart, and can involve the skin, with plaque-like skin lesions, subcutaneous nodules, etc.",
+              "May involve the trachea and bronchi, causing stenosis and dyspnea",
+              "It may present as an orbital soft tissue mass, and there have also been sporadic reports of ear sarcoidosis."
+            ],
+            "exclusion_reasons": [
+              "Chest CT showed coarse and disordered bronchovascular markings in both lungs, heterogeneous ventilation, and visible mosaic perfusion, which do not support dyspnea caused by pulmonary sarcoidosis.",
+              "Bronchoscopy showed no obvious airway stenosis, which does not support bronchial stenosis caused by sarcoidosis and can be excluded."
+            ]
+          },
+          {
+            "name": "IgG4-related disease",
+            "evidence": [
+              "with bronchial asthma",
+              "Masses in the orbit and ocular adnexa, and in the ear",
+              "Skin involvement developed, with hyperpigmentation and purpuric rash on the skin of the lower extremities.",
+              "Eosinophilia, elevated immunoglobulin E (IgE), elevated IgG4 concentration"
+            ],
+            "exclusion_reasons": []
+          }
+        ]
+      }
+    },
+    "5.updated_differential_diagnoses": [
+      {
+        "name": "eosinophilic granulomatosis with polyangiitis (EGPA)",
+        "evidence": [
+          "Bronchial asthma is common, and the most common clinical manifestation in the early stage of the disease course is the presentation of bronchial asthma.",
+          "Skin lesions may occur, including skin ecchymosis and purpura",
+          "A small proportion of patients have orbital involvement"
+        ],
+        "exclusion_reasons": [
+          "The ears may be involved, but it usually manifests as secretory otitis media or sensorineural hearing loss.",
+          "Imaging, histopathology, ANCA, and other examinations ruled out EGPA"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Kimura disease",
+        "evidence": [
+          "May be associated with bronchial asthma",
+          "Masses may occur in the orbit and adnexa, and the ear.",
+          "Skin involvement may occur, such as papules and plaques."
+        ],
+        "exclusion_reasons": [
+          "More common in males, and the masses in Kimura disease are usually subcutaneous masses",
+          "Imaging, histopathology, ANCA, and other examinations ruled out Kimura disease"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Relapsing polychondritis",
+        "evidence": [
+          "Can involve multiple systems, including the trachea, bronchi, ears, eyes, and skin"
+        ],
+        "exclusion_reasons": [
+          "Eye involvement is usually inflammatory lesions such as conjunctivitis and keratitis; ear involvement is also usually redness and swelling of the external auricular helix, without presenting as a mass.",
+          "No obvious airway stenosis was seen on bronchoscopy, which does not support bronchial stenosis caused by relapsing polychondritis; it can be excluded"
+        ],
+        "requirement": "optional"
+      },
+      {
+        "name": "Castleman disease",
+        "evidence": [
+          "Multiple systems may be involved; pulmonary involvement may present with bronchiolitis obliterans, causing dyspnea.",
+          "Extranodal sites such as the orbit and skin may be involved."
+        ],
+        "exclusion_reasons": [
+          "Mostly presents as subcutaneous masses, and when bronchiolitis obliterans occurs, dyspnea generally worsens progressively and is not episodic.",
+          "Imaging, histopathology, ANCA, and other examinations ruled out Castleman disease"
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "Sarcoidosis",
+        "evidence": [
+          "It can involve multiple organs throughout the body except the heart, and can involve the skin, with plaque-like skin lesions, subcutaneous nodules, etc.",
+          "May involve the trachea and bronchi, causing stenosis and dyspnea",
+          "It may present as an orbital soft tissue mass, and there have also been sporadic reports of ear sarcoidosis."
+        ],
+        "exclusion_reasons": [
+          "Chest CT showed coarse and disordered bronchovascular markings in both lungs, heterogeneous ventilation, and visible mosaic perfusion, which do not support dyspnea caused by pulmonary sarcoidosis.",
+          "Bronchoscopy showed no obvious airway stenosis, which does not support bronchial stenosis caused by sarcoidosis and can be excluded."
+        ],
+        "requirement": "required"
+      },
+      {
+        "name": "IgG4-related disease",
+        "evidence": [
+          "with bronchial asthma",
+          "Masses in the orbit and ocular adnexa, and in the ear",
+          "Skin involvement developed, with hyperpigmentation and purpuric rash on the skin of the lower extremities.",
+          "Eosinophilia, elevated immunoglobulin E (IgE), elevated IgG4 concentration"
+        ],
+        "exclusion_reasons": [],
+        "requirement": "required"
+      }
+    ],
+    "6.follow_up_recommended_exams": {
+      "recommended_exams": [
+        {
+          "exam": "Pathology of bronchoscopic biopsy of the right lower lobe",
+          "basis_in_stage3_input": "Bronchoscopic right lower lobe biopsy pathology: chronic mucosal inflammation, focal Congo red staining (+), IgG4-positive cell ratio 15%.",
+          "why_order_this_exam": "The patient had recurrent episodic dyspnea for 5 years, with worsening over the past 2 years. At this admission, the patient had orthopnea, retractions, diffuse wheezing, as well as hypoxemia and carbon dioxide retention, suggesting relatively severe airway disease; concomitant masses of the eyelids and external auditory canal and recurrent ecchymosis/pigmentation of the lower extremities indicate that this is not simple bronchial asthma, and systemic disease involving the airways should be considered. Chest CT showed heterogeneous ventilation and mosaic perfusion. Although bronchoscopy did not show central airway stenosis, infiltrative lesions at the level of the bronchial mucosa cannot be excluded; therefore, pathologic examination of a right lower lobe biopsy was performed to directly obtain airway tissue and determine whether there was IgG4-related inflammatory infiltration, amyloid deposition, or other granulomatous/vasculitic lesions, thereby explaining the refractory wheezing-like symptoms and providing a histologic basis for the subsequent differential diagnosis of EGPA, GPA, sarcoidosis, amyloidosis, and IgG4-related disease.",
+          "requirement": "required"
+        },
+        {
+          "exam": "focal Congo red staining",
+          "basis_in_stage3_input": "Focal Congo red staining (+)",
+          "why_order_this_exam": "The patient had long-standing recurrent wheezing and dyspnea with poor control despite asthma treatment, accompanied by neoplasms of the eyelids and external auditory canal and skin ecchymoses. Airway or systemic amyloidosis had already been considered in the earlier differential diagnosis. Performing additional Congo red staining on the bronchial biopsy specimen was intended to determine whether there was amyloid deposition in the tissue, addressing the key question of whether the airway symptoms and mass-like lesions at multiple sites were caused by amyloidosis. This test helps exclude or suggest another important differential diagnosis in addition to IgG4-related disease, avoids misinterpreting fixed or infiltrative lesions as simple asthma, and directly affects whether further evaluation for systemic amyloidosis and the subsequent choice of treatment pathway are needed.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4 count",
+          "basis_in_stage3_input": "The proportion of IgG4-positive cells was 15%.",
+          "why_order_this_exam": "In addition to respiratory symptoms, the patient also had bilateral cauliflower-like neoplasms of the eyelids, a mass in the external auditory canal, and recurrent ecchymoses/pigmentation of the lower extremities. Laboratory testing had also already revealed elevated serum IgG4, elevated IgE, and mild eosinophilia, which clinically highly suggested the possibility of IgG4-related disease. Counting IgG4-positive cells in bronchial tissue was performed to determine whether the airway lesion also represented IgG4-related involvement and to assess the quantity and proportion of local plasma cell infiltration, thereby correlating the serologic abnormalities with histopathologic evidence. This test helps support or weaken the diagnosis of IgG4-related disease, while differentiating it from vasculitis, Kimura disease, and other chronic inflammatory lesions, and determining whether respiratory system involvement may benefit from glucocorticoid therapy.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Routine pathology of the ear canal mass",
+          "basis_in_stage3_input": "Routine pathology of the ear canal mass showed granulation tissue and fibrous tissue, with focal necrosis.",
+          "why_order_this_exam": "The neoplasm of the external auditory canal has persisted for nearly 2 years, affecting hearing and accompanied by a sensation of ear fullness/distension; additionally, the patient previously underwent excision of a right external auditory canal mass, suggesting that the ear lesion is an important manifestation of persistent organ involvement. Because this is also accompanied by wheezing dyspnea, an eyelid mass, and skin lesions, routine histopathologic examination of the ear canal mass is needed first to clarify the basic nature of the lesion, whether it is inflammatory granulation tissue, a fibrotic lesion, a necrotizing lesion, or a neoplastic lesion. The role of this examination is to provide a basis for whether to further perform IgG4-related immunohistochemistry, and also to help exclude important differential diagnoses such as malignant tumor, infectious granuloma, and vasculitis-related necrotizing lesions, thereby explaining whether there is a unifying etiology among the multisystem lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "IgG4-related immunohistochemistry",
+          "basis_in_stage3_input": "After additional IgG4-related immunohistochemistry: IgG4+ cells approximately 40%, IgG4+ plasma cells 100/HPF.",
+          "why_order_this_exam": "Routine pathology of the external auditory canal mass showed only granulation tissue and fibrous tissue with focal necrosis, and the etiology still cannot be determined based on morphology alone. However, the patient has clues including multiorgan involvement, elevated serum IgG4, elevated IgE, eosinophilia, and improvement in both dyspnea and the eyelid mass after glucocorticoid therapy, all of which support the possibility of an immune-mediated disease, especially IgG4-related disease. Therefore, performing additional IgG4 immunohistochemistry on the external auditory canal lesion is intended to determine whether there is dense local infiltration of IgG4-positive plasma cells and to assess the IgG4/IgG ratio, thereby establishing the key histologic evidence required for diagnosis. This test can incorporate the ear lesion into the unified framework of IgG4-related disease, increase diagnostic confidence, and help exclude simple chronic inflammation, Kimura disease, Castleman disease, and some vasculitic lesions.",
+          "requirement": "required"
+        },
+        {
+          "exam": "Immunohistochemistry of eyelid mass pathology",
+          "basis_in_stage3_input": "Pathologic immunohistochemical results of the eyelid mass suggested marked lymphoplasmacytic infiltration and a small number of eosinophils within the fibrous tissue; immunohistochemistry showed numerous IgG4-positive cells.",
+          "why_order_this_exam": "Cauliflower-like neoplasms are visible on both eyelids, larger on the right side, and they appeared in parallel with the respiratory symptoms during the course of the disease, making them one of the most direct and most readily accessible lesions. Eyelid/periorbital involvement can be seen in IgG4-related disease, and can also be seen in Kimura disease, sarcoidosis, vasculitis, and other proliferative lesions; therefore, the appearance alone cannot establish a definitive diagnosis. Pathologic immunohistochemistry of the eyelid mass is intended to determine whether there is a pathologic pattern characterized by lymphoplasmacytic infiltration and increased IgG4-positive cells, and, together with a small amount of eosinophilic infiltration, elevated serum IgG4, and multisystem involvement, to assess whether this represents IgG4-related ophthalmic adnexal disease. This examination is of key value for establishing a unified multi-organ diagnosis, excluding other periorbital mass-forming or inflammatory diseases, and supporting subsequent glucocorticoid treatment decisions.",
+          "requirement": "required"
+        }
+      ]
+    },
+    "7.key_confirmatory_exam_information": {
+      "text": "Bronchoscopic biopsy pathology of the right lower lobe: chronic mucosal inflammation, focal Congo red staining (+), IgG4-positive cell ratio 15%. Routine pathology of the ear canal mass showed granulation tissue and fibrous tissue with focal necrosis. After additional IgG4-related immunohistochemical staining: IgG4+ cells approximately 40%, IgG4+ plasma cells 100/HPF. Pathologic immunohistochemical results of the eyelid mass suggested abundant lymphoplasmacytic infiltration and a small number of eosinophil infiltration within fibrous tissue, with numerous IgG4-positive cells on immunohistochemistry.",
+      "images": [
+        {
+          "image_id": "fig7",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabpSVEiaPpWhonPWTiatBgaKmVWsyAAvHZRVNEMbzI6wqsDG2ZVTLDgceMA/640?wx_fmt=png",
+          "near_text": "Figure 6: Pathology of right lower lobe bronchial mucosal biopsy",
+          "local_src": "cleaned_cases_image_cache/c4e5c658ddbfff5af7cd139a291ce466c1b972a3.png"
+        },
+        {
+          "image_id": "fig8",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabp0X8fl9sVlHjJOOaD2C45Cu2T4fsg3HX7qQVXRdSjuicdAJ7pFf1bf0Q/640?wx_fmt=png",
+          "near_text": "Figure 7: Consultation pathology of the external auditory canal mass",
+          "local_src": "cleaned_cases_image_cache/fc2075666235d8b8e31fbebaf045b31dec566df0.png"
+        },
+        {
+          "image_id": "fig9",
+          "url": "https://mmbiz.qpic.cn/mmbiz_png/qcrGY40NstLSQ72nSWiamT0IJLaufGabpQQAYPOMsIancsKggVSpwHOhYHy9cvx6mz3Z5VPMgK9dfMPyGgl00Tw/640?wx_fmt=png",
+          "near_text": "Figure 8: Histopathology of the eyelid mass",
+          "local_src": "cleaned_cases_image_cache/c56cf5c35b00f7a358f199ed5564923ad84c1b7e.png"
+        }
+      ]
+    },
+    "8.final_diagnosis_and_diagnostic_basis": {
+      "final_diagnosis": "IgG4-related disease",
+      "diagnostic_basis": [
+        "The patient has multiorgan involvement.",
+        "Elevated serum IgG4",
+        "IgG4+/IgG+ 40%, IgG4+ plasma cells 100/HPF",
+        "Imaging, histopathology, ANCA, and other examinations ruled out EGPA, Castleman disease, and Kimura disease."
+      ]
+    },
+    "9.treatment_plan": {
+      "treatment_plan": [
+        "After 2 weeks of treatment with methylprednisolone 40 mg, it was changed to prednisone 40 mg/day"
+      ],
+      "treatment_response": [
+        "The patient's dyspnea was significantly relieved, and the cough and sputum production improved compared with previously; the red new growth on the right eyelid also decreased significantly in size."
+      ]
+    }
+  }
+}
